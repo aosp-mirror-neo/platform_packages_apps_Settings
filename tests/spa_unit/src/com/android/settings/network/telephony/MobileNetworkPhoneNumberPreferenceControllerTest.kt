@@ -123,7 +123,7 @@ class MobileNetworkPhoneNumberPreferenceControllerTest {
         whenever(SubscriptionUtil.isSimHardwareVisible(context)).thenReturn(false)
 
         val availabilityStatus = controller.availabilityStatus
-        assertThat(availabilityStatus).isEqualTo(BasePreferenceController.CONDITIONALLY_UNAVAILABLE)
+        assertThat(availabilityStatus).isEqualTo(BasePreferenceController.UNSUPPORTED_ON_DEVICE)
     }
 
     @Test
@@ -141,7 +141,7 @@ class MobileNetworkPhoneNumberPreferenceControllerTest {
         whenever(Utils.isWifiOnly(context)).thenReturn(true)
 
         val availabilityStatus = controller.availabilityStatus
-        assertThat(availabilityStatus).isEqualTo(BasePreferenceController.CONDITIONALLY_UNAVAILABLE)
+        assertThat(availabilityStatus).isEqualTo(BasePreferenceController.UNSUPPORTED_ON_DEVICE)
     }
 
     private companion object {

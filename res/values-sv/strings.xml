@@ -75,7 +75,7 @@
     <string name="bluetooth_pair_other_ear_dialog_right_ear_message" msgid="631521133525979967">"Höger hörhjälpmedel har anslutits.\n\nOm du vill parkoppla det vänstra kontrollerar du att det är på och i parkopplingsläge."</string>
     <string name="bluetooth_pair_other_ear_dialog_right_ear_positive_button" msgid="533612082529204078">"Parkoppla höger"</string>
     <string name="bluetooth_pair_other_ear_dialog_left_ear_positive_button" msgid="6500192653171220257">"Parkoppla vänster"</string>
-    <string name="bluetooth_hearing_device_settings_title" msgid="6060072560486755057">"Inställningar för hörapparat"</string>
+    <string name="bluetooth_hearing_device_settings_title" msgid="6060072560486755057">"Inställningar för hörhjälpmedel"</string>
     <string name="bluetooth_hearing_device_settings_summary" msgid="3822646075744075158">"Genväg, kompatibilitet med hörapparat"</string>
     <string name="bluetooth_hearing_aids_presets" msgid="4615094985857156388">"Förinställning"</string>
     <string name="bluetooth_hearing_aids_presets_empty_list_message" msgid="4240241268432643259">"Inga förinställningar har gjorts av din audionom"</string>
@@ -85,6 +85,12 @@
     <string name="bluetooth_ambient_volume_control_collapse" msgid="7103189728479091531">"Komprimera till samlad kontroll"</string>
     <string name="bluetooth_ambient_volume_control_left" msgid="1927760358765239141">"Vänster"</string>
     <string name="bluetooth_ambient_volume_control_right" msgid="5783836267230662002">"Höger"</string>
+    <!-- no translation found for bluetooth_ambient_volume_control_description (8652460879432504546) -->
+    <skip />
+    <!-- no translation found for bluetooth_ambient_volume_control_left_description (7907887057591335693) -->
+    <skip />
+    <!-- no translation found for bluetooth_ambient_volume_control_right_description (7651747671161021283) -->
+    <skip />
     <string name="bluetooth_ambient_volume_mute" msgid="2700088105160838096">"Stäng av omgivningsljudet"</string>
     <string name="bluetooth_ambient_volume_unmute" msgid="8055038818824925188">"Slå på omgivningsljudet"</string>
     <string name="bluetooth_ambient_volume_error" msgid="259328969488233714">"Det gick inte att uppdatera omgivningsläget"</string>
@@ -97,6 +103,10 @@
     <string name="bluetooth_audio_routing_about_title" msgid="5773336779246891954">"Om ljudutgång"</string>
     <string name="bluetooth_audio_routing_summary" msgid="7180947533985969066">"Dirigera ljud till hörapparaten eller telefonens högtalare"</string>
     <string name="bluetooth_screen_related" msgid="7976543255501825536">"Relaterat"</string>
+    <!-- no translation found for bluetooth_try_nearby_share_title (4996427014054610877) -->
+    <skip />
+    <!-- no translation found for bluetooth_try_nearby_share_summary (329823028635487822) -->
+    <skip />
     <string name="bluetooth_ringtone_title" msgid="3177308461256892085">"Ringsignal och alarm"</string>
     <string name="bluetooth_call_title" msgid="6851464952021874072">"Ljud under samtal"</string>
     <string name="bluetooth_media_title" msgid="2878373577382067290">"Medie- och systemljud"</string>
@@ -140,7 +150,6 @@
     <string name="bluetooth_bypass_leaudio_allowlist" msgid="7392319491894565552">"Hoppa över godkännandelistan för Bluetooth LE Audio"</string>
     <string name="bluetooth_bypass_leaudio_allowlist_summary" msgid="8999245286359656738">"Använd LE Audio som standard även om LE Audio-kringutrustningen inte har bekräftats uppfylla kraven för godkännandelistan."</string>
     <string name="connected_device_media_device_title" msgid="3783388247594566734">"Medieenheter"</string>
-    <string name="connected_device_temp_bond_device_title" msgid="1141199848329262106">"Gästenheter"</string>
     <string name="connected_device_call_device_title" msgid="88732390601723608">"Telefonenheter"</string>
     <string name="connected_device_other_device_title" msgid="4652120430615729193">"Andra enheter"</string>
     <string name="connected_device_saved_title" msgid="5607274378851905959">"Sparade enheter"</string>
@@ -223,14 +232,17 @@
     <string name="language_and_region_title" msgid="8374151891112162767">"Språk och region"</string>
     <string name="language_selection_title" msgid="968179636453982415">"Lägg till ett språk"</string>
     <string name="region_selection_title" msgid="3630336682851020349">"Välj en region"</string>
+    <!-- no translation found for numbering_system_selection_title (1065458493488382214) -->
+    <skip />
     <string name="country_selection_title" msgid="5376929821458644732">"Regionsinställningar"</string>
     <string name="search_language_hint" msgid="6738370354628565338">"Sök efter språk"</string>
     <string name="search_region_hint" msgid="1748708432568237552">"Sök efter regioner"</string>
     <string name="top_intro_region_title" msgid="2336323415395642117">"Regionen du väljer påverkar hur telefonen visar tid, datum, temperatur med mera"</string>
     <string name="more_language_settings_category" msgid="3669703092480725416">"Fler språkinställningar"</string>
-    <string name="title_change_system_locale_region" msgid="2239197787972916177">"Vill du ändra region till %s?"</string>
-    <string name="body_change_system_locale_region" msgid="2706171830649357930">"Enheten behåller %s som systemspråk"</string>
-    <string name="top_intro_numbering_system_title" msgid="3560237920807539566">"Vilka siffror som används beror på numreringssystemet"</string>
+    <string name="title_change_system_locale_region" msgid="1977530992614685128">"Vill du ändra region till <xliff:g id="SYSTEM_LANGUAGE_REGION">%1$s</xliff:g>?"</string>
+    <string name="body_change_system_locale_region" msgid="9064318449821043189">"Enheten behåller <xliff:g id="SYSTEM_LANGUAGE">%1$s</xliff:g> som systemspråk"</string>
+    <!-- no translation found for top_intro_numbering_system_title (3962000662073238392) -->
+    <skip />
     <string name="regional_preferences_title" msgid="4304567374498629528">"Regionsinställningar"</string>
     <string name="regional_preferences_summary" msgid="1189876997389469650">"Anger inställningar för enheter och siffror"</string>
     <string name="regional_preferences_main_page_sub_title" msgid="4237109940015254725">"Ge appar åtkomst till dina regionsinställningar så att din upplevelse kan anpassas."</string>
@@ -417,8 +429,7 @@
     <string name="security_settings_face_remove_dialog_details_fingerprint" msgid="7609582230650860974">"Ansiktsmodellen raderas permanent på ett säkert sätt.\n\nEfter borttagningen behöver du fingeravtryck, pinkod, lösenord eller mönster för att låsa upp telefonen eller för autentisering i appar."</string>
     <string name="security_settings_face_remove_dialog_details_fingerprint_conv" msgid="2627374706274503259">"Ansiktsmodellen raderas permanent på ett säkert sätt.\n\nEfter borttagningen behöver du fingeravtryck, pinkod, lösenord eller mönster för att låsa upp telefonen."</string>
     <string name="security_settings_face_settings_context_subtitle" msgid="8284262560781442403">"Lås upp telefonen med ansiktslås"</string>
-    <!-- no translation found for security_settings_face_add (3118249538477856897) -->
-    <skip />
+    <string name="security_settings_face_add" msgid="3118249538477856897">"Lägg till ansikte"</string>
     <string name="security_settings_fingerprint" msgid="6387775386189204201">"Fingeravtryck"</string>
     <string name="security_settings_fingerprint_title" msgid="7564944192711394896">"Fingeravtryck"</string>
     <string name="security_settings_fingerprint_description" msgid="629796299137157167"></string>
@@ -755,8 +766,7 @@
     <string name="lock_settings_picker_admin_restricted_personal_message" msgid="3532653662159888328">"Om du glömmer skärmlåset kan IT-administratören inte återställa det."</string>
     <string name="lock_settings_picker_admin_restricted_personal_message_action" msgid="5956615234246626264">"Ställ in ett separat jobblås"</string>
     <string name="lock_settings_picker_profile_message" msgid="9142379549980873478">"Om du glömmer det här låset kan du be att IT-administratören återställer det."</string>
-    <!-- no translation found for lock_settings_screen_lock_settings_title (738577630596146754) -->
-    <skip />
+    <string name="lock_settings_screen_lock_settings_title" msgid="738577630596146754">"Inställningar för skärmlås"</string>
     <string name="setup_lock_settings_options_button_label" msgid="6098297461618298505">"Alternativ för skärmlås"</string>
     <string name="setup_lock_settings_options_dialog_title" msgid="7985107300517468569">"Alternativ för skärmlås"</string>
     <string name="lock_screen_auto_pin_confirm_title" msgid="3012128112186088375">"Bekräfta upplåsning automatiskt"</string>
@@ -770,7 +780,7 @@
     <string name="unlock_set_unlock_off_title" msgid="2831957685685921667">"Inget"</string>
     <string name="unlock_set_unlock_none_title" msgid="2844029875174409728">"Svep"</string>
     <string name="unlock_set_unlock_pattern_title" msgid="8224895208452995332">"Mönster"</string>
-    <string name="unlock_set_unlock_pin_title" msgid="5283636759362880407">"PIN"</string>
+    <string name="unlock_set_unlock_pin_title" msgid="5283636759362880407">"Pinkod"</string>
     <string name="unlock_set_unlock_password_title" msgid="2559842616268607041">"Lösenord"</string>
     <string name="unlock_set_do_later_title" msgid="6565575303676064364">"Inte nu"</string>
     <string name="current_screen_lock" msgid="1367883977261098017">"Nuvarande skärmlås"</string>
@@ -889,7 +899,8 @@
     <string name="lockpassword_credential_changed" msgid="5934778179732392028">"Skärmlåset har redan bytts. Testa igen med det nya skärmlåset."</string>
     <string name="lockpattern_tutorial_cancel_label" msgid="775215267818384016">"Avbryt"</string>
     <string name="lockpattern_tutorial_continue_label" msgid="1329049481210689408">"Nästa"</string>
-    <string name="manage_device_admin" msgid="1044620606203916275">"Appar för enhetsadministratör"</string>
+    <!-- no translation found for manage_device_admin (7272894919651600481) -->
+    <skip />
     <string name="number_of_device_admins_none" msgid="152926922020437312">"Inga aktiva appar"</string>
     <string name="number_of_device_admins" msgid="3402909995362162876">"{count,plural, =1{# aktiv app}other{# aktiva appar}}"</string>
     <string name="manage_trust_agents" msgid="6410149930029992356">"Betrodda agenter"</string>
@@ -1280,6 +1291,9 @@
     <string name="wifi_calling_off_explanation_2" msgid="3487475808574416183"></string>
     <string name="emergency_address_title" msgid="8102786488994263815">"Adress för nödfall"</string>
     <string name="emergency_address_summary" msgid="3022628750270626473">"Används som din plats om du ringer nödsamtal via Wi‑Fi"</string>
+    <string name="private_dns_title" msgid="1180823690693258572">"Värdnamn"</string>
+    <string name="private_dns_field_require" msgid="2318400923953435586">"Fältet är obligatoriskt"</string>
+    <string name="private_dns_hostname_invalid" msgid="5085498734835552780">"Värdnamnet som du har angett är inte giltigt"</string>
     <string name="private_dns_help_message" msgid="851221502063782306"><annotation id="url">"Läs mer"</annotation>" om privata DNS-funktioner"</string>
     <string name="private_dns_mode_on" msgid="8878679071975375696">"På"</string>
     <string name="wifi_calling_settings_activation_instructions" msgid="3936067355828542266">"Aktivera wifi-samtal"</string>
@@ -1304,7 +1318,6 @@
     <string name="screen_resolution_option_high" msgid="2617496842852992853">"Hög upplösning"</string>
     <string name="screen_resolution_option_full" msgid="4456839315039000517">"Högsta upplösning"</string>
     <string name="screen_resolution_footer" msgid="1230761249204935717">"Högsta upplösning drar mer batteri. Om du byter upplösning kan vissa appar startas om."</string>
-    <string name="screen_resolution_selected_a11y" msgid="6158451180032224977">"Markerad"</string>
     <string name="color_mode_title" msgid="8666690832113906028">"Färger"</string>
     <string name="color_mode_option_natural" msgid="6192875655101283303">"Naturliga"</string>
     <string name="color_mode_option_boosted" msgid="4698797857766774289">"Förstärkta"</string>
@@ -1677,8 +1690,7 @@
     <string name="usb_tethering_button_text" msgid="7364633823180913777">"Delning via USB"</string>
     <string name="bluetooth_tether_checkbox_text" msgid="6108398414967813545">"Delning via Bluetooth"</string>
     <string name="ethernet_tether_checkbox_text" msgid="959743110824197356">"Ethernet-internetdelning"</string>
-    <!-- no translation found for tethering_footer_info (6824352505979800594) -->
-    <skip />
+    <string name="tethering_footer_info" msgid="6824352505979800594">"Med hjälp av surfzoner och internetdelning kan andra enheter anslutas till internet via dataanslutningen. Surfzoner kan också skapas i appar för att dela innehåll med enheter i närheten."</string>
     <string name="tethering_footer_info_sta_ap_concurrency" msgid="2079039077487477676">"Med hjälp av surfzoner och internetdelning kan andra enheter anslutas till internet via den här enhetens wifi- eller mobildataanslutning. Surfzoner kan även skapas i appar för att dela innehåll med enheter i närheten."</string>
     <string name="tethering_help_button_text" msgid="2823655011510912001">"Hjälp"</string>
     <string name="network_settings_title" msgid="4663717899931613176">"Mobilnätverk"</string>
@@ -2048,7 +2060,13 @@
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"Använd mustangenter"</string>
     <string name="mouse_keys_summary" msgid="7030731235143286467">"Använd tangentbordet för att styra pekaren"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"Omvänd scrollning"</string>
-    <string name="mouse_reverse_vertical_scrolling_summary" msgid="4403637093982742165">"Innehållet flyttas uppåt när du scrollar nedåt"</string>
+    <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"Scrolla uppåt för att flytta sidan nedåt"</string>
+    <!-- no translation found for mouse_scrolling_category_title (2992126595687187296) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_acceleration (7119758828203396430) -->
+    <skip />
+    <!-- no translation found for mouse_scrolling_speed (3999483025392860903) -->
+    <skip />
     <string name="mouse_swap_primary_button" msgid="4798006242525441304">"Byt primär musknapp"</string>
     <string name="mouse_swap_primary_button_summary" msgid="3276638019321067902">"Använd vänster musknapp som höger"</string>
     <string name="mouse_pointer_acceleration" msgid="388336576055293329">"Marköracceleration"</string>
@@ -2097,7 +2115,8 @@
     <string name="trackpad_touch_gesture" msgid="8641725062131922497">"Lär dig rörelser för styrplattan"</string>
     <string name="keywords_touchpad" msgid="8159846254066666032">"styrplatta, styr platta, mus, markör, scrolla, svep, högerklicka, klicka, pekare"</string>
     <string name="keywords_trackpad_bottom_right_tap" msgid="1285062446073929305">"högerklicka, tryck"</string>
-    <string name="three_finger_tap_middle_click" msgid="5274906692591143158">"Mittenklicka"</string>
+    <!-- no translation found for three_finger_tap_middle_click (1759914275939765929) -->
+    <skip />
     <string name="three_finger_tap_launch_gemini" msgid="4030401656711588982">"Starta Assistent"</string>
     <string name="three_finger_tap_go_home" msgid="6526301745535089812">"Återvänd till startsidan"</string>
     <string name="three_finger_tap_go_back" msgid="2898205524575684271">"Tillbaka"</string>
@@ -2229,6 +2248,7 @@
     <string name="accessibility_feedback_title" msgid="6690472705407526006">"Feedback"</string>
     <string name="accessibility_feedback_summary" msgid="4576591591334314827">"Hjälp oss att bli bättre genom att svara på en enkät"</string>
     <string name="accessibility_feedback_disabled_summary" msgid="3652321859452620942">"Inga enkäter är tillgängliga"</string>
+    <string name="accessibility_send_feedback_title" msgid="6455703838689943046">"Skicka feedback"</string>
     <string name="user_installed_services_category_title" msgid="2639470729311439731">"Nedladdade appar"</string>
     <string name="experimental_category_title" msgid="898904396646344152">"Experimentella"</string>
     <string name="feature_flags_dashboard_title" msgid="348990373716658289">"Funktionsflaggor"</string>
@@ -2382,14 +2402,10 @@
     <string name="accessibility_button_disabled_button_mode_summary" msgid="1978174613270619492">"Otillgängligt när du använder knappläget för navigeringsfältet."</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="1830189632458752698">"Text med hög kontrast"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_summary" msgid="5286411556836346180">"Ändra textfärgen till svart eller vit. Det ger bäst kontrast mot bakgrunden."</string>
-    <!-- no translation found for accessibility_notification_high_contrast_text_title (2297915407152953323) -->
-    <skip />
-    <!-- no translation found for accessibility_notification_high_contrast_text_body (4111896614825062003) -->
-    <skip />
-    <!-- no translation found for accessibility_notification_high_contrast_text_action_open_settings (5945069315472850294) -->
-    <skip />
-    <!-- no translation found for accessibility_toggle_maximize_text_contrast_preference_title (8848579943445806659) -->
-    <skip />
+    <string name="accessibility_notification_high_contrast_text_title" msgid="2297915407152953323">"Förbättra kontrasten för text"</string>
+    <string name="accessibility_notification_high_contrast_text_body" msgid="4111896614825062003">"<xliff:g id="OUTLINE_TEXT">%1$s</xliff:g> har ersatt <xliff:g id="HIGH_CONTRAST_TEXT">%2$s</xliff:g>. Du kan aktivera funktionen i <xliff:g id="SETTINGS">%3$s</xliff:g>."</string>
+    <string name="accessibility_notification_high_contrast_text_action_open_settings" msgid="5945069315472850294">"Öppna <xliff:g id="SETTINGS">%1$s</xliff:g>"</string>
+    <string name="accessibility_toggle_maximize_text_contrast_preference_title" msgid="8848579943445806659">"Kontur runt text"</string>
     <string name="accessibility_toggle_maximize_text_contrast_preference_summary" msgid="8200408691846666900">"Lägg till en svart eller vit bakgrund runt text för att öka kontrasten"</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_title" msgid="4987009529235165664">"Uppdatera skärmförstoring automatiskt"</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_summary" msgid="9034532513972547720">"Uppdatera skärmförstoring på appövergångar"</string>
@@ -2489,6 +2505,8 @@
     <string name="accessibility_hearingaid_instruction_continue_button" msgid="3367260988024430722">"Fortsätt"</string>
     <string name="accessibility_hearingaid_title" msgid="1263619711863375614">"Hörhjälpmedel"</string>
     <string name="accessibility_hearingaid_intro" msgid="6686620444104350629">"Konfigurera och hantera ASHA- eller LE Audio-hörapparater, cochleaimplantat och andra ljudförstärkande enheter"</string>
+    <string name="accessibility_hearingaid_asha_only_intro" msgid="7402419984664822832">"Konfigurera och hantera ASHA-hörapparater, cochleaimplantat och andra ljudförstärkande enheter"</string>
+    <string name="accessibility_hearingaid_hap_only_intro" msgid="3332144138443825311">"Konfigurera och hantera LE Audio-hörapparater, cochleaimplantat och andra ljudförstärkande enheter"</string>
     <string name="accessibility_hearingaid_not_connected_summary" msgid="7438018718889849521">"Inga hörapparater har anslutits"</string>
     <string name="accessibility_hearingaid_adding_summary" msgid="999051610528600783">"Lägg till hörapparater"</string>
     <string name="accessibility_hearingaid_pair_instructions_title" msgid="2357706801112207624">"Parkoppla hörapparater"</string>
@@ -2508,6 +2526,10 @@
     <string name="accessibility_hearing_device_about_title" msgid="7883758309646288250">"Om hörapparater"</string>
     <string name="accessibility_hearing_device_footer_summary" msgid="5513620078219951077">"Om du vill hitta andra hörhjälpmedel som inte stöds av ASHA eller LE Audio trycker du på &lt;b&gt;Parkoppla en ny enhet&lt;/b&gt; &gt; &lt;b&gt;Visa fler enheter&lt;/b&gt;"</string>
     <string name="accessibility_hearing_device_footer_summary_tts" msgid="955527026890456959">"Om du vill hitta andra hörhjälpmedel som inte stöds av ASHA eller LE Audio trycker du på "<b>"Parkoppla en ny enhet"</b>" sedan "<b>"Visa fler enheter"</b></string>
+    <string name="accessibility_hearing_device_footer_asha_only_summary" msgid="3377169209330540616">"Om du vill hitta andra hörhjälpmedel som inte stöds av ASHA trycker du på &lt;b&gt;Parkoppla en ny enhet&lt;/b&gt; &gt; &lt;b&gt;Visa fler enheter&lt;/b&gt;"</string>
+    <string name="accessibility_hearing_device_footer_asha_only_summary_tts" msgid="8192971114504608531">"Om du vill hitta andra hörhjälpmedel som inte stöds av ASHA trycker du på "<b>"Parkoppla en ny enhet"</b>" sedan "<b>"Visa fler enheter"</b></string>
+    <string name="accessibility_hearing_device_footer_hap_only_summary" msgid="3531758698830915205">"Om du vill hitta andra hörhjälpmedel som inte stöds av LE Audio trycker du på &lt;b&gt;Parkoppla en ny enhet&lt;/b&gt; &gt; &lt;b&gt;Visa fler enheter&lt;/b&gt;"</string>
+    <string name="accessibility_hearing_device_footer_hap_only_summary_tts" msgid="4440097982533045507">"Om du vill hitta andra hörhjälpmedel som inte stöds av LE Audio trycker du på "<b>"Parkoppla en ny enhet"</b>" sedan "<b>"Visa fler enheter"</b></string>
     <string name="accessibility_hearing_device_pairing_page_title" msgid="6608901091770850295">"Parkoppla hörapparat"</string>
     <string name="accessibility_hearing_device_pairing_intro" msgid="7022201665808166517">"Du kan parkoppla hörhjälpmedel från ASHA och LE Audio på den här sidan. Kontrollera att hörhjälpmedlet är på och redo för parkoppling."</string>
     <string name="accessibility_found_hearing_devices" msgid="637407580358386553">"Tillgängliga hörapparater"</string>
@@ -2885,6 +2907,14 @@
     <string name="adaptive_connectivity_switch_on" msgid="3653067561620745493">"På"</string>
     <string name="adaptive_connectivity_switch_off" msgid="5076172560836115265">"Av"</string>
     <string name="adaptive_connectivity_main_switch_title" msgid="261045483524512420">"Använd adaptiv anslutning"</string>
+    <!-- no translation found for adaptive_connectivity_wifi_switch_title (5899985025046319472) -->
+    <skip />
+    <!-- no translation found for adaptive_connectivity_wifi_switch_summary (4650230240134029595) -->
+    <skip />
+    <!-- no translation found for adaptive_connectivity_mobile_network_switch_title (2473274404695643218) -->
+    <skip />
+    <!-- no translation found for adaptive_connectivity_mobile_network_switch_summary (2432517485362085341) -->
+    <skip />
     <string name="cellular_security_title" msgid="5562899485544677941">"Mobilnätverkssäkerhet"</string>
     <string name="cellular_security_summary" msgid="1893770670709928113">"Nätverkstyp, kryptering, aviseringsinställningar"</string>
     <string name="cellular_security_top_intro" msgid="6749166804080092892">"Dessa inställningar hjälper dig att skydda dina samtal, meddelanden och din data från föråldrade eller okrypterade nätverk som kan göra att du utsätts för datastöld eller övervakning"</string>
@@ -2913,7 +2943,8 @@
     <string name="credentials_reset_hint" msgid="4054601857203464867">"Vill du ta bort allt innehåll?"</string>
     <string name="credentials_erased" msgid="9121052044566053345">"Uppgiftslagringen raderades."</string>
     <string name="credentials_not_erased" msgid="3611058412683184031">"Uppgiftslagringen kunde inte raderas."</string>
-    <string name="usage_access_title" msgid="1580006124578134850">"Appar med åtkomst"</string>
+    <!-- no translation found for usage_access_title (8784394396356369568) -->
+    <skip />
     <string name="ca_certificate" msgid="3076484307693855611">"CA-certifikat"</string>
     <string name="user_certificate" msgid="6897024598058566466">"VPN- och appanvändarcertifikat"</string>
     <string name="wifi_certificate" msgid="8461905432409380387">"Wifi-certifikat"</string>
@@ -2958,7 +2989,8 @@
     <string name="remove_device_admin" msgid="3143059558744287259">"Inaktivera den här enhetsadministratörsappen"</string>
     <string name="uninstall_device_admin" msgid="4481095209503956916">"Avinstallera appen"</string>
     <string name="remove_and_uninstall_device_admin" msgid="707912012681691559">"Inaktivera och installera"</string>
-    <string name="select_device_admin_msg" msgid="5501360309040114486">"Enhetsadministratörsappar"</string>
+    <!-- no translation found for select_device_admin_msg (2506262585633022884) -->
+    <skip />
     <string name="no_device_admins" msgid="8888779888103079854">"Inga tillgängliga appar för enhetsadministratör"</string>
     <string name="no_trust_agents" msgid="8659098725864191600">"Det finns inga tillgängliga betrodda agenter"</string>
     <string name="add_device_admin_msg" msgid="7730006568970042119">"Aktivera appen för enhetsadministratör?"</string>
@@ -2971,7 +3003,8 @@
     <string name="profile_owner_add_title_simplified" msgid="2320828996993774182">"Vill du tillåta kontroll?"</string>
     <string name="adding_profile_owner_warning" msgid="6868275476058020513">"Om du fortsätter hanteras användaren av administratören som även kan lagra tillhörande data utöver din personliga data.\n\nAdministratören kan övervaka och hantera inställningar, åtkomst, appar och data som är kopplade till den här användaren, bland annat nätverksaktivitet och enhetens platsuppgifter."</string>
     <string name="admin_disabled_other_options" msgid="8122039047419172139">"Andra alternativ har inaktiverats av administratören"</string>
-    <string name="admin_more_details" msgid="4928985331640193758">"Läs mer"</string>
+    <!-- no translation found for admin_more_details (6091028872148388357) -->
+    <skip />
     <string name="notification_log_title" msgid="2812594935014664891">"Aviseringslogg"</string>
     <string name="notification_history_title" msgid="8821060912502593309">"Aviseringshistorik"</string>
     <string name="notification_history_today" msgid="6081829638548808795">"Senaste %d timmarna"</string>
@@ -3182,7 +3215,7 @@
     <string name="user_add_on_lockscreen_menu" msgid="2539059062034644966">"Lägg till användare från låsskärmen"</string>
     <string name="switch_to_dock_user_when_docked" msgid="2324395443311905635">"Byt till administratörsanvändare vid dockning"</string>
     <string name="user_confirm_remove_self_title" msgid="926265330805361832">"Vill du ta bort dig själv?"</string>
-    <string name="user_confirm_remove_title" msgid="3626559103278006002">"Vill du ta bort andvändaren?"</string>
+    <string name="user_confirm_remove_title" msgid="3626559103278006002">"Vill du radera användaren?"</string>
     <string name="user_profile_confirm_remove_title" msgid="3131574314149375354">"Vill du ta bort profilen?"</string>
     <string name="work_profile_confirm_remove_title" msgid="6229618888167176036">"Ta bort jobbprofilen?"</string>
     <string name="user_confirm_remove_message" msgid="362545924965977597">"Alla appar och all data raderas."</string>
@@ -3693,20 +3726,13 @@
     <string name="notification_summarization_on" msgid="5692758038788359790">"På"</string>
     <string name="notification_summarization_off" msgid="4660131515915234037">"Av"</string>
     <string name="notification_summarization_main_control_title" msgid="3341727937605794607">"Använd aviseringssammanfattningar"</string>
-    <!-- no translation found for notification_summarization_description (8787422238462516765) -->
-    <skip />
-    <!-- no translation found for notification_summarization_excluded_description (3772411462994322275) -->
-    <skip />
-    <!-- no translation found for notification_summarization_manage_excluded_apps (1691177835156220384) -->
-    <skip />
-    <!-- no translation found for notification_summarization_manage_excluded_apps_title (1299744594788208296) -->
-    <skip />
-    <!-- no translation found for notification_excluded_apps (6648267716069216826) -->
-    <skip />
-    <!-- no translation found for notification_app_level_summarize_title (3829343457958246733) -->
-    <skip />
-    <!-- no translation found for notification_app_level_summarize_subtext (7949649262631157728) -->
-    <skip />
+    <string name="notification_summarization_description" msgid="8787422238462516765">"Sammanfatta aviseringar om konversationer från appar automatiskt"</string>
+    <string name="notification_summarization_excluded_description" msgid="3772411462994322275">"Aviseringar om konversationer från dessa appar sammanfattas inte"</string>
+    <string name="notification_summarization_manage_excluded_apps" msgid="1691177835156220384">"Hantera appar"</string>
+    <string name="notification_summarization_manage_excluded_apps_title" msgid="1299744594788208296">"Tillåt sammanfattningar av aviseringar för appar"</string>
+    <string name="notification_excluded_apps" msgid="6648267716069216826">"Undantagna appar"</string>
+    <string name="notification_app_level_summarize_title" msgid="3829343457958246733">"Sammanfatta aviseringar"</string>
+    <string name="notification_app_level_summarize_subtext" msgid="7949649262631157728">"Sammanfatta aviseringar om konversationer från den här appen"</string>
     <string name="live_notifications" msgid="4650406646292963831">"Liveaviseringar"</string>
     <string name="live_notifications_switch" msgid="50547709843410137">"Visa liveinformation"</string>
     <string name="live_notifications_desc" msgid="7383414458419053003">"Fästa aviseringar visar liveinformation från appar och visas alltid i statusfältet och på låsskärmen"</string>
@@ -3853,7 +3879,8 @@
     <string name="notif_listener_more_settings_desc" msgid="7995492074281663658">"Fler inställningar är tillgängliga i appen"</string>
     <string name="notification_polite_title" msgid="6121016426991791557">"Dämpning av aviseringar"</string>
     <string name="notification_polite_main_control_title" msgid="5812529809151927149">"Använd dämpning av aviseringar"</string>
-    <string name="notification_polite_description" msgid="5497748284893832854">"När du får många aviseringar på kort tid kommer enheten att sänka volymen och minimera aviseringar i upp till två minuter. Samtal, alarm och prioriterade konversationer påverkas inte. \n\nDu kan hitta aviseringarna som tas emot under den gradvisa sänkningen genom att dra nedåt från skärmens överkant."</string>
+    <!-- no translation found for notification_polite_description (6137533404978878957) -->
+    <skip />
     <string name="notification_polite_work" msgid="8823596456640216391">"Använd för jobbprofiler"</string>
     <string name="notification_polite_work_summary" msgid="5014189280132951378">"Tillämpa på jobbprofilappar"</string>
     <string name="notification_bundle_title" msgid="460988459835922719">"Grupperade aviseringar"</string>
@@ -3861,14 +3888,10 @@
     <string name="notification_bundle_off" msgid="1550261372988157377">"Av"</string>
     <string name="notification_bundle_main_control_title" msgid="4746182488388939403">"Använd aviseringsgruppering"</string>
     <string name="notification_bundle_description" msgid="3896142878395333784">"Aviseringar med liknande teman grupperas ljudlöst för en tystare upplevelse. Gruppering åsidosätter en apps egna aviseringsinställningar."</string>
-    <!-- no translation found for notification_app_level_bundle_title (8917807675495480483) -->
-    <skip />
-    <!-- no translation found for notification_app_level_bundle_subtext (7330731485247761388) -->
-    <skip />
-    <!-- no translation found for notification_bundle_excluded_description (7249934130756103812) -->
-    <skip />
-    <!-- no translation found for notification_bundle_manage_excluded_apps_title (7019831234073590293) -->
-    <skip />
+    <string name="notification_app_level_bundle_title" msgid="8917807675495480483">"Grupperade aviseringar"</string>
+    <string name="notification_app_level_bundle_subtext" msgid="7330731485247761388">"Aviseringar med liknande teman grupperas ljudlöst för en tystare upplevelse."</string>
+    <string name="notification_bundle_excluded_description" msgid="7249934130756103812">"Aviseringar från dessa appar grupperas inte"</string>
+    <string name="notification_bundle_manage_excluded_apps_title" msgid="7019831234073590293">"Tillåt gruppering av aviseringar för appar"</string>
     <string name="vr_listeners_title" msgid="4960357292472540964">"Hjälptjänster för VR"</string>
     <string name="no_vr_listeners" msgid="8442646085375949755">"Inga installerade appar har begärt att få köras som hjälptjänster för VR."</string>
     <string name="vr_listener_security_warning_title" msgid="7026351795627615177">"Vill du tillåta att tjänsten för VR får tillgång till <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
@@ -4216,10 +4239,13 @@
     <string name="default_phone_title" msgid="7616730756650803827">"Telefonapp"</string>
     <string name="system_app" msgid="1863291702508355041">"(System)"</string>
     <string name="apps_storage" msgid="643866814746927111">"Applagring"</string>
-    <string name="usage_access" msgid="5487993885373893282">"Åtkomst till användningsdata"</string>
-    <string name="permit_usage_access" msgid="179630895262172674">"Tillåt åtkomst till användningsdata"</string>
+    <!-- no translation found for usage_access (640680494210288246) -->
+    <skip />
+    <!-- no translation found for permit_usage_access (1590518257313260262) -->
+    <skip />
     <string name="time_spent_in_app_pref_title" msgid="25327097913383330">"Skärmtid"</string>
-    <string name="usage_access_description" msgid="8547716253713890707">"Med åtkomst till användningsdata kan en app spåra vilka andra appar du använder och hur ofta, samt vilken operatör du har, språkinställningar och andra uppgifter."</string>
+    <!-- no translation found for usage_access_description (2593955296993609047) -->
+    <skip />
     <string name="memory_settings_title" msgid="6582588646363308430">"Minne"</string>
     <string name="always_running" msgid="9012705720688200252">"Körs alltid (<xliff:g id="PERCENTAGE">%s</xliff:g>)"</string>
     <string name="sometimes_running" msgid="7954947311082655448">"Körs ibland (<xliff:g id="PERCENTAGE">%s</xliff:g>)"</string>
@@ -4231,8 +4257,7 @@
     <string name="high_power_off" msgid="317000444619279018">"Använder optimerad batteriförbrukning"</string>
     <string name="high_power_system" msgid="3966701453644915787">"Batterioptimering är inte tillgängligt"</string>
     <string name="high_power_prompt_title" msgid="2574478825228409124">"Vill du tillåta att appen alltid körs i bakgrunden?"</string>
-    <!-- no translation found for high_power_prompt_body (8570446878622133298) -->
-    <skip />
+    <string name="high_power_prompt_body" msgid="8570446878622133298">"Om du tillåter att <xliff:g id="APP_NAME">%1$s</xliff:g> alltid körs i bakgrunden kan batteritiden minska. \n\nDu kan ändra detta senare i Inställningar &gt; Appar."</string>
     <string name="battery_summary" msgid="2491764359695671207">"<xliff:g id="PERCENTAGE">%1$s</xliff:g> förbrukat sedan batteriet senast laddats fullt"</string>
     <string name="battery_summary_24hr" msgid="7656033283282656551">"<xliff:g id="PERCENTAGE">%1$s</xliff:g> användning under de senaste 24 timmarna"</string>
     <string name="no_battery_summary" msgid="5769159953384122003">"Har inte förbrukat något batteri sedan batteriet senast var fulladdat"</string>
@@ -4318,7 +4343,8 @@
     <string name="ignore_optimizations_on_desc" msgid="1280043916460939932">"Batteriet kan ta slut fortare. Appen hindras inte längre från att dra batteri i bakgrunden."</string>
     <string name="ignore_optimizations_off_desc" msgid="3324571675983286177">"Rekommenderas för bättre batteritid"</string>
     <string name="app_list_preference_none" msgid="1635406344616653756">"Ingen"</string>
-    <string name="work_profile_usage_access_warning" msgid="3477719910927319122">"Administratören kan kontrollera dataanvändning för appar i jobbprofilen även om du inaktiverar användningsåtkomst för den här appen"</string>
+    <!-- no translation found for work_profile_usage_access_warning (7579246573371327219) -->
+    <skip />
     <string name="draw_overlay" msgid="7902083260500573027">"Visa ovanpå andra appar"</string>
     <string name="system_alert_window_settings" msgid="6458633954424862521">"Visa ovanpå andra appar"</string>
     <string name="permit_draw_overlay" msgid="4468994037192804075">"Tillåt visning ovanpå andra appar"</string>
@@ -4366,7 +4392,7 @@
     <string name="disconnected" msgid="3469373726996129247">"Ingen anslutning"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"Inte anslutet"</string>
     <string name="apps_summary" msgid="4007416751775414252">"<xliff:g id="COUNT">%1$d</xliff:g> appar har installerats"</string>
-    <string name="storage_summary" msgid="5903562203143572768">"<xliff:g id="PERCENTAGE">%1$s</xliff:g> används – <xliff:g id="FREE_SPACE">%2$s</xliff:g> ledigt"</string>
+    <string name="storage_summary" msgid="7631468664968572688">"<xliff:g id="PERCENTAGE">%1$s</xliff:g> används – <xliff:g id="FREE_SPACE_VALUE">%2$s</xliff:g> <xliff:g id="FREE_SPACE_UNITS">%3$s</xliff:g> ledigt"</string>
     <string name="display_dashboard_summary" msgid="1599453894989339454">"Mörkt tema, teckenstorlek, ljusstyrka"</string>
     <string name="memory_summary" msgid="8221954450951651735">"Genomsnittlig minnesanvändning: <xliff:g id="USED_MEMORY">%1$s</xliff:g> av <xliff:g id="TOTAL_MEMORY">%2$s</xliff:g>"</string>
     <string name="users_summary" msgid="8473589474976307510">"Inloggad som <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
@@ -4435,6 +4461,7 @@
     <string name="ethernet_data_usage" msgid="4552227880905679761">"Användning av ethernetdata"</string>
     <string name="wifi" msgid="2932584495223243842">"Wifi"</string>
     <string name="ethernet" msgid="4665162609974492983">"Ethernet"</string>
+    <string name="ethernet_interface_title" msgid="1634881244068292765">"Ethernet <xliff:g id="INTERFACEID">%1$s</xliff:g>"</string>
     <string name="cell_data_template" msgid="6077963976103260821">"<xliff:g id="AMOUNT">^1</xliff:g> mobildata"</string>
     <string name="wifi_data_template" msgid="935934798340307438">"<xliff:g id="AMOUNT">^1</xliff:g> wifi-data"</string>
     <string name="ethernet_data_template" msgid="1429173767445201145">"<xliff:g id="AMOUNT">^1</xliff:g> ethernetdata"</string>
@@ -4986,19 +5013,31 @@
     <string name="satellite_setting_title" msgid="2543034229989047673">"Satellitmeddelanden"</string>
     <string name="satellite_setting_enabled_summary" msgid="3554127722727530845">"Skicka och ta emot sms via satellit. Ingår i kontot."</string>
     <string name="satellite_setting_disabled_summary" msgid="8428393986403708690">"Skicka och ta emot sms via satellit. Ingår inte i kontot."</string>
+    <string name="satellite_setting_summary_without_entitlement" msgid="5284998840770992554">"Skicka och ta emot sms via satellit. Kontakta operatören för mer information."</string>
     <string name="keywords_satellite_setting" msgid="613553612424945946">"Satellitmeddelanden, satellitanslutning"</string>
     <string name="category_name_about_satellite_messaging" msgid="4978095955643523120">"Om <xliff:g id="SUBJECT">%1$s</xliff:g>"</string>
     <string name="title_about_satellite_setting" msgid="3563087940535642558">"Du kan skicka och ta emot sms via satellit med ett kvalificerat <xliff:g id="CARRIER_NAME">%1$s</xliff:g>-konto"</string>
     <string name="category_title_your_satellite_plan" msgid="8169426217950247126">"Ditt <xliff:g id="CARRIER_NAME">%1$s</xliff:g>-konto"</string>
-    <string name="title_have_satellite_plan" msgid="857337944804101443">"Sms ingår i ditt konto"</string>
+    <string name="title_have_satellite_plan" msgid="2048372355699977947">"Satellitmeddelanden ingår i kontot"</string>
     <string name="title_no_satellite_plan" msgid="2876056203035197505">"Satellitmeddelanden ingår inte i kontot"</string>
     <string name="summary_add_satellite_setting" msgid="190359698593056946">"Läs mer"</string>
     <string name="category_name_how_it_works" msgid="585303230539269496">"Så fungerar det"</string>
     <string name="title_satellite_connection_guide" msgid="3294802307913609072">"När du inte har ett mobilnätverk"</string>
+    <!-- no translation found for title_satellite_connection_guide_for_manual_type (7223875100977941341) -->
+    <skip />
     <string name="summary_satellite_connection_guide" msgid="3496123195218418456">"Telefonen ansluter automatiskt till en satellit. Den bästa anslutningen får du utomhus under bar himmel."</string>
+    <!-- no translation found for summary_satellite_connection_guide_for_manual_type (5075149380084376662) -->
+    <skip />
     <string name="title_supported_service" msgid="4275535165812691571">"När telefonen ansluter till en satellit"</string>
+    <!-- no translation found for title_supported_service_for_manual_type (6009284624466359864) -->
+    <skip />
     <string name="summary_supported_service" msgid="4320535903444834786">"Du kan sms:a vem som helst, inklusive räddningstjänsten. Telefonen återansluter till ett mobilnätverk när det finns ett tillgängligt."</string>
-    <string name="satellite_setting_summary_more_information" msgid="1028146147094166868">"<xliff:g id="SUBJECT">%1$s</xliff:g> kan ta längre tid och är bara tillgängligt i vissa områden. Väder och vissa byggnader kan påverka din satellitanslutning. Du kan inte ringa samtal via satellit. Nödsamtal kanske fortfarande går fram.\n\nDet kan ta en stund innan kontoändringar dyker upp i inställningarna. Kontakta <xliff:g id="CARRIER_NAME">%2$s</xliff:g> för mer information."</string>
+    <!-- no translation found for summary_supported_service_for_manual_type (2147958362763058271) -->
+    <skip />
+    <!-- no translation found for satellite_setting_summary_more_information (276312352285564071) -->
+    <skip />
+    <!-- no translation found for satellite_setting_summary_more_information_no_emergency_messaging (2090170250936862158) -->
+    <skip />
     <string name="more_about_satellite_messaging" msgid="1039277943532711584">"Mer om <xliff:g id="SUBJECT">%1$s</xliff:g>"</string>
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"Det går inte att aktivera <xliff:g id="FUNCTION">%1$s</xliff:g>"</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"Om du vill aktivera <xliff:g id="FUNCTION">%1$s</xliff:g> avslutar du först satellitanslutningen"</string>
@@ -5007,6 +5046,9 @@
     <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"satellitanslutning"</string>
     <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"satellitmeddelanden"</string>
     <string name="title_have_satellite_data_plan" msgid="5614932315409789011">"Dataanvändning ingår i ditt konto"</string>
+    <string name="category_title_satellite_supported_apps" msgid="8445659428502119518">"Appar som stöds på telefonen"</string>
+    <string name="title_satellite_supported_app_list_entry" msgid="3227843312488003028">"se alla appar"</string>
+    <string name="title_satellite_supported_app_list_page" msgid="318806852682483512">"Appar som stöds på telefonen"</string>
     <string name="mobile_network_apn_title" msgid="5582995550142073054">"Namn på åtkomstpunkter"</string>
     <string name="keywords_access_point_names" msgid="8174967126858505945">"APN"</string>
     <string name="manual_mode_disallowed_summary" msgid="4243142645520152175">"Inte tillgänglig vid anslutning till <xliff:g id="CARRIER">%1$s</xliff:g>"</string>
@@ -5174,27 +5216,44 @@
     <string name="work_policy_privacy_settings" msgid="2702644843505242596">"Information om jobbpolicy"</string>
     <string name="work_policy_privacy_settings_summary" msgid="690118670737638405">"Inställningar som hanteras av IT-administratören"</string>
     <string name="track_frame_time_keywords" msgid="7885340257945922239">"Grafikprocessor"</string>
-    <string name="enable_16k_pages" msgid="8001470927566110689">"Starta med sidstorlek på 16 kB"</string>
-    <string name="enable_16k_pages_summary" msgid="1964363364670306912">"Starta med kärna kompatibel med sidor på 16 kB"</string>
-    <string name="confirm_enable_16k_pages_title" msgid="611010487387251491">"Byta från 4 kB-läge till 16 kB-läge"</string>
-    <string name="confirm_enable_16k_pages_text" msgid="6129208614283750541">"Du använder ett sidagnostiskt läge med en kärna på 4 kB och byter till läget med 16 kB. Det går inte att garantera mjukvarans integritet i detta läge och all data som lagras på telefonen när starthanteraren är olåst kan vara i farozonen. Åtgärden startar om enheten. En del funktioner inaktiveras i dessa lägen. Det kan innebära att vissa program inte fungerar. Om du vill återställa produktionsläget på enheten måste du byta tillbaka till 4 kB-läget och låsa starthanteraren. Enheten återställs då till standardinställningarna. När enheten startas med Android ska du inaktivera OEM-upplåsning i utvecklaralternativen."</string>
-    <string name="confirm_enable_4k_pages_title" msgid="3210360137887034659">"Byt från 16 kB-läge till 4 kB-läge"</string>
-    <string name="confirm_enable_4k_pages_text" msgid="155070605667160083">"Du använder ett sidagnostiskt läge med en kärna på 16 kB och byter till läget med 4 KB. Det går inte att garantera mjukvarans integritet i detta läge och all data som lagras på telefonen när starthanteraren är olåst kan vara i farozonen. Åtgärden startar om enheten. En del funktioner inaktiveras i dessa lägen. Det kan innebära att vissa program inte fungerar. Om du vill återställa produktionsläget på enheten måste du låsa starthanteraren. Enheten återställs då till standardinställningarna. När enheten startas med Android ska du inaktivera OEM-upplåsning i utvecklaralternativen."</string>
-    <string name="toast_16k_update_failed_text" msgid="8888858987184345567">"Det gick inte att uppdatera kärnan till en kärna som är kompatibel med sidor på 16 kB."</string>
+    <!-- no translation found for enable_16k_pages (1758111531461408337) -->
+    <skip />
+    <!-- no translation found for enable_16k_pages_summary (1937836453571509085) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_title (5477376227161609124) -->
+    <skip />
+    <!-- no translation found for confirm_enable_16k_pages_text (6211693250692246982) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_title (3001009010581393119) -->
+    <skip />
+    <!-- no translation found for confirm_enable_4k_pages_text (3398001587586470689) -->
+    <skip />
+    <!-- no translation found for toast_16k_update_failed_text (7848383020572918850) -->
+    <skip />
     <string name="progress_16k_ota_title" msgid="2117218313875523741">"Tillämpar ändring"</string>
-    <string name="confirm_format_ext4_title" msgid="6696191800594435577">"Vill du formatera om enheten till ext4? (krävs för 16 kB-läge)"</string>
-    <string name="confirm_format_ext4_text" msgid="7940372488624630214">"Du måste konvertera enhetens datapartition till ext4 innan du använder utvecklaralternativet för 16 kB. Det går inte att garantera mjukvarans integritet i detta läge och all data som lagras på telefonen när starthanteraren är olåst kan vara i farozonen. Om du aktiverar 16 kB-alternativet måste du starta om en gång till efteråt. När läget är aktiverat kan du byta fram och tillbaka mellan 4 kB och 16 kB genom att starta om. En del funktioner inaktiveras i dessa lägen. Det kan innebära att vissa program inte fungerar. Om du vill återställa produktionsläget på enheten måste du byta tillbaka till 4 kB-läget och låsa starthanteraren. Enheten återställs då till standardinställningarna. När enheten startas med Android ska du inaktivera OEM-upplåsning i utvecklaralternativen. Enheten rensas och filsystemet ändras till ext4 när du har bekräftat. När det är klart kommer du tillbaka för att aktivera 16 kB igen."</string>
+    <!-- no translation found for confirm_format_ext4_title (4754057414728537125) -->
+    <skip />
+    <!-- no translation found for confirm_format_ext4_text (432847493298532536) -->
+    <skip />
     <string name="confirm_ext4_button_text" msgid="6045501984773738407">"Radera all data"</string>
     <string name="format_ext4_failure_toast" msgid="8059453995800471549">"Det gick inte att formatera om och rensa datapartionen till ext4."</string>
     <string name="confirm_oem_unlock_for_16k_title" msgid="6062041826568112078">"Starthanteraren måste låsas upp"</string>
-    <string name="confirm_oem_unlock_for_16k_text" msgid="3583604865119937957">"Starthanteraren måste vara upplåst på den här enheten innan du kan använda utvecklaralternativet för 16 kB. Det går inte att garantera mjukvarans integritet i detta läge och all data som lagras på telefonen när starthanteraren är olåst kan vara i farozonen. Alla användaruppgifter och inställningar rensas när 16 kB-läget aktiveras. När starthanteraren har låsts upp krävs två omstarter för att aktivera 16 kB-alternativet. När läget är aktiverat kan du byta fram och tillbaka mellan 4 kB och 16 kB genom att starta om. En del funktioner inaktiveras i dessa lägen. Det kan innebära att vissa program inte fungerar. Om du vill återställa produktionsläget på enheten måste du byta tillbaka till 4 kB-läget och låsa OEM/starthanteraren. Enheten återställs då till standardinställningarna. Lås upp starthanteraren och försök igen. Du hittar anvisningar om hur du gör detta på &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt;"</string>
-    <string name="page_agnostic_4k_pages_title" msgid="1184703958249093215">"4 kB-versionen av det sidagnostiska läget används"</string>
-    <string name="page_agnostic_4k_pages_text_short" msgid="2894243902906666242">"Du använder 4 kB-versionen av det sidagnostiska läget. Det går inte att garantera mjukvarans integritet i detta läge och all data som lagras på telefonen när starthanteraren är olåst kan vara i farozonen. En del funktioner inaktiveras i dessa lägen. Det kan innebära att vissa program inte fungerar. Om du vill återgå till produktionsläget måste du låsa starthanteraren på enheten. Tryck för att läsa mer."</string>
-    <string name="page_agnostic_4k_pages_text" msgid="8284806650260868833">"Du använder 4 kB-versionen av det sidagnostiska läget. Det går inte att garantera mjukvarans integritet i detta läge och all data som lagras på telefonen när starthanteraren är olåst kan vara i farozonen. En del funktioner inaktiveras i dessa lägen. Det kan innebära att vissa program inte fungerar. Om du vill återgå till produktionsläget måste du låsa starthanteraren på enheten. Detta återställer enheten till produktionsinställningarna igen. När enheten startas med Android ska du inaktivera OEM-upplåsning i utvecklaralternativen. Om det inte går att starta enheten med Android eller om den inte är stabil flashar du om enheten med de senaste systemavbildningarna från &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; or use &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; och väljer Rensa enhet, Lås starthanteraren och Tvångsflasha alla partitioner."</string>
-    <string name="page_agnostic_16k_pages_title" msgid="7762533464569818498">"16 kB-versionen av det sidagnostiska läget används"</string>
-    <string name="page_agnostic_16k_pages_text_short" msgid="3282018880292691631">"Du använder 16 kB-versionen av det sidagnostiska läget. Det går inte att garantera mjukvarans integritet i detta läge och all data som lagras på telefonen när starthanteraren är olåst kan vara i farozonen. En del funktioner inaktiveras i dessa lägen. Det kan innebära att vissa program inte fungerar. Om du vill återgå till produktionsläget måste du byta tillbaka till 4 kB-läget och sedan låsa starthanteraren på enheten. Tryck för att läsa mer."</string>
-    <string name="page_agnostic_16k_pages_text" msgid="2999817238546170627">"Du använder 16 kB-versionen av det sidagnostiska läget. Det går inte att garantera mjukvarans integritet i detta läge och all data som lagras på telefonen när starthanteraren är olåst kan vara i farozonen. En del funktioner inaktiveras i dessa lägen. Det kan innebära att vissa program inte fungerar. Om du vill återgå till produktionsläget måste du byta tillbaka till 4 kB-läget och sedan låsa starthanteraren på enheten. Detta återställer enheten till produktionsinställningarna igen. När enheten startas med Android ska du inaktivera OEM-upplåsning i utvecklaralternativen. Om det inte går att starta enheten med Android eller om den inte är stabil flashar du om enheten med de senaste systemavbildningarna från &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; or use &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; och väljer Rensa enhet, Lås starthanteraren och Tvångsflasha alla partitioner."</string>
-    <string name="page_agnostic_notification_channel_name" msgid="1658444283036376361">"16 kB-versionen av det sidagnostiska läget"</string>
+    <!-- no translation found for confirm_oem_unlock_for_16k_text (8089310116854544106) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_title (293797217034340398) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text_short (731597455785555266) -->
+    <skip />
+    <!-- no translation found for page_agnostic_4k_pages_text (7572233914423063169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_title (8940585327969638637) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text_short (7613206944532151035) -->
+    <skip />
+    <!-- no translation found for page_agnostic_16k_pages_text (2860363435021452169) -->
+    <skip />
+    <!-- no translation found for page_agnostic_notification_channel_name (2058933148654316447) -->
+    <skip />
     <string name="page_agnostic_notification_action" msgid="2309805437430150456">"Läs mer"</string>
     <string name="enable_16k_app_compat_title" msgid="4173159228844992989">"Kör appen i kompatibilitetsläge för sidstorlek"</string>
     <string name="enable_16k_app_compat_details" msgid="3389401258168314266">"Appen körs i kompatibilitetsläge för sidstorlek på enheter med stöd för 16 kB."</string>
@@ -5571,6 +5630,7 @@
     <string name="audio_sharing_close_button_label" msgid="2666534149100498574">"Stäng"</string>
     <string name="audio_sharing_dialog_connect_device_content" msgid="2873230647152283734">"Anslut ett till par kompatibla hörlurar, eller dela streamens namn och lösenord med den andra personen"</string>
     <string name="audio_sharing_dialog_qr_code_content" msgid="2246980817848351361">"Låt andra skanna den här koden och lyssna på ditt ljud\n\nStreamnamn: <xliff:g id="STREAM_NAME">%1$s</xliff:g>\nLösenord: <xliff:g id="PASSWORD">%2$s</xliff:g>"</string>
+    <string name="audio_sharing_dialog_qr_code_content_no_password" msgid="7824076083031650113">"Låt andra skanna den här koden och lyssna på ditt ljud\n\nStreamnamn: <xliff:g id="STREAM_NAME">%1$s</xliff:g>"</string>
     <string name="audio_sharing_dialog_pair_new_device_content" msgid="6720472590211440206">"eller parkoppla ännu ett par kompatibla hörlurar"</string>
     <string name="audio_sharing_dialog_pair_device_content" msgid="3136997898244863470">"Parkoppla ännu ett par kompatibla hörlurar, eller dela ljudstreamens QR-kod med den andra personen"</string>
     <string name="audio_sharing_sharing_label" msgid="1038021053061111508">"Delar ljud"</string>
@@ -5599,6 +5659,10 @@
     <string name="audio_sharing_retry_dialog_content" msgid="6014534433894608834">"Något gick fel. Försök igen."</string>
     <string name="audio_sharing_incompatible_dialog_title" msgid="4586805264392802115">"Det går inte att dela ljud med <xliff:g id="DEVICE_NAME">%1$s</xliff:g>"</string>
     <string name="audio_sharing_incompatible_dialog_content" msgid="3943223683620405311">"Ljuddelning fungerar endast med hörlurar som har stöd för LE Audio"</string>
+    <string name="audio_sharing_block_pairing_dialog_title" msgid="1756723860075818856">"Inaktivera ljuddelning"</string>
+    <string name="audio_sharing_block_pairing_dialog_content" msgid="6352030314206654722">"Om du vill parkoppla en ny enhet måste du först stänga av ljuddelning."</string>
+    <string name="audio_sharing_turn_off_button_label" msgid="1934956352475393641">"Stäng av"</string>
+    <string name="share_audio_notification_title" msgid="5201976754820387782">"Dela ljud med <xliff:g id="DEVICE_NAME">%1$s</xliff:g>"</string>
     <string name="audio_streams_category_title" msgid="4878022761829895463">"Ansut till en LE Audio-stream"</string>
     <string name="audio_streams_pref_title" msgid="6320485086288646209">"Ljudstreamar i närheten"</string>
     <string name="audio_streams_title" msgid="6617990880383079165">"Ljudstreamar"</string>
@@ -5628,6 +5692,9 @@
     <string name="audio_streams_present_now" msgid="7519818719382756366">"Streamen har pausats"</string>
     <string name="audio_streams_media_service_notification_leave_broadcast_text" msgid="4938656134300913647">"Sluta lyssna"</string>
     <string name="audio_streams_dialog_no_le_device_title" msgid="3931163990976742282">"Anslut kompatibla hörlurar"</string>
+    <string name="audio_streams_dialog_turn_off_talkback_title" msgid="6824585115302786690">"Inaktivera TalkBack tillfälligt"</string>
+    <string name="audio_streams_dialog_turn_off_talkback_subtitle" msgid="2394295776096273919">"TalkBack kan inte användas när du lyssnar på ljudstreamar. Inaktivera TalkBack för att börja lyssna."</string>
+    <string name="audio_streams_dialog_turn_off_talkback_button" msgid="8049097689955037626">"Inaktivera"</string>
     <string name="audio_streams_dialog_no_le_device_button" msgid="4484355549428642588">"Anslut en enhet"</string>
     <string name="audio_streams_detail_page_title" msgid="7884132061275273766">"Information om ljudstream"</string>
     <string name="audio_streams_qr_code_page_title" msgid="9169570362469544641">"QR-kod för ljudstream"</string>
@@ -5669,6 +5736,5 @@
     <string name="supervision_pin_management_preference_title" msgid="961680798581006465">"Hantera pinkod"</string>
     <string name="supervision_pin_management_preference_summary_add" msgid="3244161328612671896">"Lägg till en pinkod för återställning"</string>
     <string name="supervision_change_pin_preference_title" msgid="2288584039438231801">"Byt pinkod"</string>
-    <!-- no translation found for supervision_add_forgot_pin_preference_title (8939945404255748516) -->
-    <skip />
+    <string name="supervision_add_forgot_pin_preference_title" msgid="8939945404255748516">"Glömt pinkoden"</string>
 </resources>

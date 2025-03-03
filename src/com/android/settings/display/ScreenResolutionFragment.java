@@ -26,8 +26,6 @@ import android.provider.Settings;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.Display;
-import android.view.accessibility.AccessibilityEvent;
-import android.view.accessibility.AccessibilityManager;
 
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
@@ -64,7 +62,6 @@ public class ScreenResolutionFragment extends RadioButtonPickerFragment {
 
     private IllustrationPreference mImagePreference;
     private DisplayObserver mDisplayObserver;
-    private AccessibilityManager mAccessibilityManager;
 
     private int mHighWidth;
     private int mFullWidth;
@@ -75,7 +72,6 @@ public class ScreenResolutionFragment extends RadioButtonPickerFragment {
 
         mDefaultDisplay =
                 context.getSystemService(DisplayManager.class).getDisplay(Display.DEFAULT_DISPLAY);
-        mAccessibilityManager = context.getSystemService(AccessibilityManager.class);
         mResources = context.getResources();
         mScreenResolutionOptions =
                 mResources.getStringArray(R.array.config_screen_resolution_options_strings);
@@ -234,13 +230,6 @@ public class ScreenResolutionFragment extends RadioButtonPickerFragment {
         int selectedWidth = getWidthForResoluitonKey(selectedKey);
         if (!mDisplayObserver.setPendingResolutionChange(selectedWidth)) {
             return;
-        }
-
-        if (mAccessibilityManager.isEnabled()) {
-            AccessibilityEvent event = AccessibilityEvent.obtain();
-            event.setEventType(AccessibilityEvent.TYPE_ANNOUNCEMENT);
-            event.getText().add(mResources.getString(R.string.screen_resolution_selected_a11y));
-            mAccessibilityManager.sendAccessibilityEvent(event);
         }
 
         super.onRadioButtonClicked(selected);

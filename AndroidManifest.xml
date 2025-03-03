@@ -5508,6 +5508,24 @@
                        android:value="com.android.settings.applications.contacts.ContactsStorageSettings"/>
         </activity>
 
+        <activity
+            android:name="com.android.settings.connecteddevice.audiosharing.AudioSharingJoinHandlerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTop"
+            android:permission="android.permission.BLUETOOTH_PRIVILEGED"
+            android:taskAffinity="com.android.settings.connecteddevice.audiosharing.AudioSharingJoinHandlerActivity"
+            android:theme="@style/Transparent"
+            android:exported="false">
+            <intent-filter android:priority="1">
+                <action android:name="android.settings.AUDIO_SHARING_JOIN_HANDLER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.connecteddevice.audiosharing.AudioSharingJoinHandlerDashboardFragment" />
+        </activity>
+
         <service
             android:name="com.android.settings.connecteddevice.audiosharing.audiostreams.AudioStreamMediaService"
             android:foregroundServiceType="mediaPlayback"
@@ -5538,10 +5556,14 @@
         </service>
 
         <receiver android:name="com.android.settings.connecteddevice.audiosharing.AudioSharingReceiver"
-            android:exported="true">
+            android:permission="android.permission.BLUETOOTH_PRIVILEGED"
+            android:exported="true"> <!-- Exported for SystemUI. -->
             <intent-filter>
                 <action android:name="com.android.settings.action.BLUETOOTH_LE_AUDIO_SHARING_STATE_CHANGE" />
                 <action android:name="com.android.settings.action.BLUETOOTH_LE_AUDIO_SHARING_STOP" />
+                <action android:name="com.android.settings.action.BLUETOOTH_LE_AUDIO_SHARING_DEVICE_CONNECTED" />
+                <action android:name="com.android.settings.action.BLUETOOTH_LE_AUDIO_SHARING_ADD_SOURCE" />
+                <action android:name="com.android.settings.action.BLUETOOTH_LE_AUDIO_SHARING_CANCEL_NOTIF" />
             </intent-filter>
         </receiver>
 

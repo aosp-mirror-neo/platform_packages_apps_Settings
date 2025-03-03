@@ -60,6 +60,7 @@
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_gravity="center_vertical"
+                    android:contentDescription="@string/preview_pager_previous_button"
                     style="?android:attr/borderlessButtonStyle" />
                 <com.android.settings.widget.DotsPageIndicator
                     android:id="@+id/page_indicator"
@@ -75,6 +76,7 @@
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_gravity="center_vertical"
+                    android:contentDescription="@string/preview_pager_next_button"
                     style="?android:attr/borderlessButtonStyle" />
             </LinearLayout>
         </LinearLayout>

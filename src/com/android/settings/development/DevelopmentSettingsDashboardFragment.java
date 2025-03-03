@@ -72,10 +72,16 @@ import com.android.settings.development.bluetooth.BluetoothHDAudioPreferenceCont
 import com.android.settings.development.bluetooth.BluetoothQualityDialogPreferenceController;
 import com.android.settings.development.bluetooth.BluetoothSampleRateDialogPreferenceController;
 import com.android.settings.development.bluetooth.BluetoothStackLogPreferenceController;
+import com.android.settings.development.desktopexperience.DesktopExperiencePreferenceController;
+import com.android.settings.development.desktopexperience.DesktopModePreferenceController;
+import com.android.settings.development.desktopexperience.DesktopModeSecondaryDisplayPreferenceController;
+import com.android.settings.development.desktopexperience.FreeformWindowsPreferenceController;
 import com.android.settings.development.graphicsdriver.GraphicsDriverEnableAngleAsSystemDriverController;
 import com.android.settings.development.linuxterminal.LinuxTerminalPreferenceController;
 import com.android.settings.development.qstile.DevelopmentTiles;
 import com.android.settings.development.storage.SharedDataPreferenceController;
+import com.android.settings.development.window.NonResizableMultiWindowPreferenceController;
+import com.android.settings.development.window.ResizableActivityPreferenceController;
 import com.android.settings.overlay.FeatureFactory;
 import com.android.settings.password.ConfirmDeviceCredentialActivity;
 import com.android.settings.search.BaseSearchIndexProvider;

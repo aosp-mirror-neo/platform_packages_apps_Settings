@@ -585,10 +585,10 @@ public class ChooseLockPassword extends SettingsActivity {
                     : (InputType.TYPE_CLASS_NUMBER | InputType.TYPE_NUMBER_VARIATION_PASSWORD));
             if (mIsAlphaMode) {
                 mPasswordEntry.setContentDescription(
-                        getString(R.string.unlock_set_unlock_password_title));
+                        getString(R.string.unlock_accessibility_password));
             } else {
                 mPasswordEntry.setContentDescription(
-                        getString(R.string.unlock_set_unlock_pin_title));
+                        getString(R.string.unlock_accessibility_pin_area));
             }
             // Can't set via XML since setInputType resets the fontFamily to null
             mPasswordEntry.setTypeface(Typeface.create(

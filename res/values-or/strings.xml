@@ -85,6 +85,12 @@
     <string name="bluetooth_ambient_volume_control_collapse" msgid="7103189728479091531">"ଏକତ୍ରିତ ନିୟନ୍ତ୍ରଣକୁ ସଙ୍କୁଚିତ କରନ୍ତୁ"</string>
     <string name="bluetooth_ambient_volume_control_left" msgid="1927760358765239141">"ବାମ"</string>
     <string name="bluetooth_ambient_volume_control_right" msgid="5783836267230662002">"ଡାହାଣ"</string>
+    <!-- no translation found for bluetooth_ambient_volume_control_description (8652460879432504546) -->
+    <skip />
+    <!-- no translation found for bluetooth_ambient_volume_control_left_description (7907887057591335693) -->
+    <skip />
+    <!-- no translation found for bluetooth_ambient_volume_control_right_description (7651747671161021283) -->
+    <skip />
     <string name="bluetooth_ambient_volume_mute" msgid="2700088105160838096">"ପରିପାର୍ଶ୍ୱକୁ ମ୍ୟୁଟ କରନ୍ତୁ"</string>
     <string name="bluetooth_ambient_volume_unmute" msgid="8055038818824925188">"ପରିପାର୍ଶ୍ୱକୁ ଅନମ୍ୟୁଟ କରନ୍ତୁ"</string>
     <string name="bluetooth_ambient_volume_error" msgid="259328969488233714">"ପରିପାର୍ଶ୍ୱକୁ ଅପଡେଟ କରାଯାଇପାରିଲା ନାହିଁ"</string>
@@ -97,6 +103,8 @@
     <string name="bluetooth_audio_routing_about_title" msgid="5773336779246891954">"ଅଡିଓ ଆଉଟପୁଟ ବିଷୟରେ"</string>
     <string name="bluetooth_audio_routing_summary" msgid="7180947533985969066">"ଆପଣଙ୍କ ଶ୍ରବଣ ଡିଭାଇସ କିମ୍ବା ଫୋନ ସ୍ପିକରରେ ସାଉଣ୍ଡଗୁଡ଼ିକୁ ରୁଟ କରନ୍ତୁ"</string>
     <string name="bluetooth_screen_related" msgid="7976543255501825536">"ସମ୍ବନ୍ଧିତ"</string>
+    <string name="bluetooth_try_nearby_share_title" msgid="4996427014054610877">"<xliff:g id="NEARBY_SHARING_APP_LABEL">%s</xliff:g> ସହ ସେୟାର କରିବାକୁ ଚେଷ୍ଟା କରନ୍ତୁ"</string>
+    <string name="bluetooth_try_nearby_share_summary" msgid="329823028635487822">"ନିକଟସ୍ଥ Android ଡିଭାଇସଗୁଡ଼ିକୁ ଫାଇଲ ପଠାଇବାକୁ ଦ୍ରୁତତମ ଉପାୟ"</string>
     <string name="bluetooth_ringtone_title" msgid="3177308461256892085">"ରିଂଟୋନ ଏବଂ ଆଲାରାମ"</string>
     <string name="bluetooth_call_title" msgid="6851464952021874072">"କଲ ସମୟରେ ଅଡିଓ"</string>
     <string name="bluetooth_media_title" msgid="2878373577382067290">"ମିଡିଆ ଓ ସିଷ୍ଟମ ସାଉଣ୍ଡଗୁଡ଼ିକ"</string>
@@ -140,7 +148,6 @@
     <string name="bluetooth_bypass_leaudio_allowlist" msgid="7392319491894565552">"ବାଇପାସ ବ୍ଲୁଟୁଥ LE ଅଡିଓ ଆଲାଉଲିଷ୍ଟ"</string>
     <string name="bluetooth_bypass_leaudio_allowlist_summary" msgid="8999245286359656738">"ଆଲାଉଲିଷ୍ଟ ମାନଦଣ୍ଡ ପୂରଣ କରିବାକୁ LE ଅଡିଓ ପେରିଫେରାଲକୁ ଯାଞ୍ଚ କରାଯାଇନଥିଲେ ମଧ୍ୟ ଡିଫଲ୍ଟ ଭାବେ LE ଅଡିଓ ବ୍ୟବହାର କରନ୍ତୁ।"</string>
     <string name="connected_device_media_device_title" msgid="3783388247594566734">"ମିଡିଆ ଡିଭାଇସ୍‌ଗୁଡ଼ିକ"</string>
-    <string name="connected_device_temp_bond_device_title" msgid="1141199848329262106">"ଅତିଥି ଡିଭାଇସ"</string>
     <string name="connected_device_call_device_title" msgid="88732390601723608">"କଲ୍ ଡିଭାଇସ୍‌ଗୁଡ଼ିକ"</string>
     <string name="connected_device_other_device_title" msgid="4652120430615729193">"ଅନ୍ୟ ଡିଭାଇସ"</string>
     <string name="connected_device_saved_title" msgid="5607274378851905959">"ସେଭ ହୋଇଥିବା ଡିଭାଇସ"</string>
@@ -223,14 +230,17 @@
     <string name="language_and_region_title" msgid="8374151891112162767">"ଭାଷା ଏବଂ ଅଞ୍ଚଳ"</string>
     <string name="language_selection_title" msgid="968179636453982415">"ଏକ ଭାଷା ଯୋଗ କରନ୍ତୁ"</string>
     <string name="region_selection_title" msgid="3630336682851020349">"ଏକ ଅଞ୍ଚଳ ବାଛନ୍ତୁ"</string>
+    <!-- no translation found for numbering_system_selection_title (1065458493488382214) -->
+    <skip />
     <string name="country_selection_title" msgid="5376929821458644732">"ପସନ୍ଦର ଅଞ୍ଚଳ"</string>
     <string name="search_language_hint" msgid="6738370354628565338">"ଭାଷାଗୁଡ଼ିକୁ ସର୍ଚ୍ଚ କରନ୍ତୁ"</string>
     <string name="search_region_hint" msgid="1748708432568237552">"ଅଞ୍ଚଳଗୁଡ଼ିକୁ ସର୍ଚ୍ଚ କରନ୍ତୁ"</string>
     <string name="top_intro_region_title" msgid="2336323415395642117">"ଆପଣ ବାଛିଥିବା ଅଞ୍ଚଳ ଆପଣଙ୍କ ଫୋନ କିପରି ସମୟ, ତାରିଖ, ତାପମାତ୍ରା ଏବଂ ଆହୁରି ଅନେକ କିଛିକୁ ଡିସପ୍ଲେ କରେ ତାହା ପ୍ରଭାବିତ କରେ"</string>
     <string name="more_language_settings_category" msgid="3669703092480725416">"ଅଧିକ ଭାଷା ସେଟିଂସ"</string>
-    <string name="title_change_system_locale_region" msgid="2239197787972916177">"ଅଞ୍ଚଳକୁ %sରେ ପରିବର୍ତ୍ତନ କରିବେ?"</string>
-    <string name="body_change_system_locale_region" msgid="2706171830649357930">"ଆପଣଙ୍କ ଡିଭାଇସ %sକୁ ଏକ ସିଷ୍ଟମ ଭାଷା ଭାବେ ରଖିବ"</string>
-    <string name="top_intro_numbering_system_title" msgid="3560237920807539566">"ବ୍ୟବହୃତ ଅଙ୍କଗୁଡ଼ିକ ନମ୍ବରିଂ ସିଷ୍ଟମ ଉପରେ ନିର୍ଭରଶୀଳ ହେବ"</string>
+    <string name="title_change_system_locale_region" msgid="1977530992614685128">"<xliff:g id="SYSTEM_LANGUAGE_REGION">%1$s</xliff:g>କୁ ଅଞ୍ଚଳ ପରିବର୍ତ୍ତନ କରିବେ?"</string>
+    <string name="body_change_system_locale_region" msgid="9064318449821043189">"ଆପଣଙ୍କ ଡିଭାଇସ <xliff:g id="SYSTEM_LANGUAGE">%1$s</xliff:g>କୁ ଏକ ସିଷ୍ଟମ ଭାଷା ଭାବେ ରଖିବ"</string>
+    <!-- no translation found for top_intro_numbering_system_title (3962000662073238392) -->
+    <skip />
     <string name="regional_preferences_title" msgid="4304567374498629528">"ଆଞ୍ଚଳିକ ପସନ୍ଦଗୁଡ଼ିକ"</string>
     <string name="regional_preferences_summary" msgid="1189876997389469650">"ୟୁନିଟ ଏବଂ ସଂଖ୍ୟାର ପସନ୍ଦଗୁଡ଼ିକୁ ସେଟ କରନ୍ତୁ"</string>
     <string name="regional_preferences_main_page_sub_title" msgid="4237109940015254725">"ଆପ୍ସକୁ ଆପଣଙ୍କ ଆଞ୍ଚଳିକ ପସନ୍ଦଗୁଡ଼ିକ ଜଣାନ୍ତୁ ଯାହା ଫଳରେ ସେଗୁଡ଼ିକ ଆପଣଙ୍କ ଅନୁଭୂତିକୁ ପର୍ସନାଲାଇଜ କରିପାରିବ।"</string>
@@ -253,8 +263,8 @@
     <string name="title_regional_pref_footer" msgid="7450438024324794380">"ଏକ ଆପ ଆଞ୍ଚଳିକ ପସନ୍ଦଗୁଡ଼ିକୁ ସପୋର୍ଟ ନକଲେ, ଏହି ଆପଟି ଏହାର ଡିଫଲ୍ଟ ଲୋକେଲ ସେଟିଂସକୁ ବ୍ୟବହାର କରିବ।"</string>
     <string name="desc_regional_pref_footer_learn_more" msgid="4401708653329230081">"ଭାଷା ପସନ୍ଦଗୁଡ଼ିକ ବିଷୟରେ ଅଧିକ ଜାଣନ୍ତୁ।"</string>
     <string name="metric_measurement_system" msgid="7489725697268321541">"ମେଟ୍ରିକ"</string>
-    <string name="us_measurement_system" msgid="8738587232938189052">"ଇମ୍ପେରିଆଲ (ଯୁକ୍ତରାଷ୍ଟ୍ର ଆମେରିକା)"</string>
-    <string name="uk_measurement_system" msgid="4196897001775627597">"ଇମ୍ପେରିଆଲ (ଯୁକ୍ତ ରାଜ୍ୟ)"</string>
+    <string name="us_measurement_system" msgid="8738587232938189052">"ଇମ୍ପେରିଆଲ (ୟୁଏସ)"</string>
+    <string name="uk_measurement_system" msgid="4196897001775627597">"ଇମ୍ପେରିଆଲ (ୟୁକେ)"</string>
     <string name="category_title_terms_of_address" msgid="4309422700380895278">"ଅତିରିକ୍ତ ପସନ୍ଦ"</string>
     <string name="terms_of_address_title" msgid="7338630812197476808">"ଆପଣଙ୍କୁ କିପରି ସମ୍ବୋଧିତ କରାଯିବ ତାହା ବାଛନ୍ତୁ"</string>
     <string name="terms_of_address_summary" msgid="7802443422612600620">"ଆପଣଙ୍କୁ କିପରି ସମ୍ବୋଧିତ କରାଯିବ ତାହା ଆପଣଙ୍କ ଡିଭାଇସ ପର୍ସନାଲାଇଜ କରିପାରିବ"</string>
@@ -417,8 +427,7 @@
     <string name="security_settings_face_remove_dialog_details_fingerprint" msgid="7609582230650860974">"ଆପଣଙ୍କ ଫେସ୍ ମଡେଲକୁ ସ୍ଥାୟୀ ଏବଂ ସୁରକ୍ଷିତ ଭାବରେ ଡିଲିଟ୍ କରିଦିଆଯିବ।\n\nଡିଲିଟ୍ କରିବା ପରେ ଆପଣଙ୍କ ଫୋନକୁ ଅନଲକ୍ କରିବା କିମ୍ବା ଆପଗୁଡ଼ିକରେ ପ୍ରମାଣୀକରଣ ପାଇଁ ଆପଣ ଆପଣଙ୍କର ଟିପଚିହ୍ନ, PIN, ପାଟର୍ନ କିମ୍ବା ପାସୱାର୍ଡ ଆବଶ୍ୟକ କରିବେ।"</string>
     <string name="security_settings_face_remove_dialog_details_fingerprint_conv" msgid="2627374706274503259">"ଆପଣଙ୍କ ଫେସ ମଡେଲକୁ ସ୍ଥାୟୀ ଏବଂ ସୁରକ୍ଷିତ ଭାବରେ ଡିଲିଟ କରିଦିଆଯିବ।\n\nଡିଲିସନ ପରେ ଆପଣଙ୍କ ଫୋନକୁ ଅନଲକ କରିବା ପାଇଁ ଆପଣ ଆପଣଙ୍କର ଟିପଚିହ୍ନ, PIN, ପାଟର୍ନ କିମ୍ବା ପାସୱାର୍ଡ ଆବଶ୍ୟକ କରିବେ।"</string>
     <string name="security_settings_face_settings_context_subtitle" msgid="8284262560781442403">"ଆପଣଙ୍କର ଫୋନ୍ ଅନଲକ୍ କରିବାକୁ ଫେସ୍ ଅନଲକ୍ ବ୍ୟବହାର କରନ୍ତୁ"</string>
-    <!-- no translation found for security_settings_face_add (3118249538477856897) -->
-    <skip />
+    <string name="security_settings_face_add" msgid="3118249538477856897">"ଫେସ ଯୋଗ କରନ୍ତୁ"</string>
     <string name="security_settings_fingerprint" msgid="6387775386189204201">"ଟିପଚିହ୍ନ"</string>
     <string name="security_settings_fingerprint_title" msgid="7564944192711394896">"ଟିପଚିହ୍ନ"</string>
     <string name="security_settings_fingerprint_description" msgid="629796299137157167"></string>
@@ -447,7 +456,7 @@
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_setup" msgid="6255210343107484206">"ଆପଣ ଆପଗୁଡ଼ିକରେ ସାଇନ୍ ଇନ୍ କରିବା କିମ୍ବା ଏକ କ୍ରୟକୁ ଅନୁମୋଦନ ଦେବା ପରି କାର୍ଯ୍ୟ କରିବା ସମୟରେ ଏହି ଆଇକନ୍ ଦେଖିଲେ, ପ୍ରମାଣୀକରଣ ପାଇଁ ଆପଣଙ୍କ ଟିପଚିହ୍ନ ବ୍ୟବହାର କରନ୍ତୁ"</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_title_1" msgid="4360262371633254407">"ମନେ ରଖନ୍ତୁ"</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_title_2" msgid="2580899232734177771">"ଏହା କିପରି କାମ କରେ"</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2" msgid="5909924864816776516">"ଏହା ଆପଣ ଅଟନ୍ତି ବୋଲି ଯାଞ୍ଚ କରିବାକୁ ଫିଙ୍ଗରପ୍ରିଣ୍ଟ ଅନଲକ ଆପଣଙ୍କ ଟିପଚିହ୍ନର ଏକ ସ୍ୱତନ୍ତ୍ର ମଡେଲ ତିଆରି କରେ। ସେଟଅପ ସମୟରେ ଏହି ଟିପଚିହ୍ନ ମଡେଲ ତିଆରି କରିବାକୁ, ଆପଣ ବିଭିନ୍ନ ଅବସ୍ଥିତିରୁ ଆପଣଙ୍କ ଟିପଚିହ୍ନର ଇମେଜ ନେବେ।"</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2" msgid="5909924864816776516">"ଏହା ଆପଣ ଅଟନ୍ତି ବୋଲି ଯାଞ୍ଚ କରିବାକୁ ଫିଙ୍ଗରପ୍ରିଣ୍ଟ ଅନଲକ ଆପଣଙ୍କ ଟିପଚିହ୍ନର ଏକ ସ୍ୱତନ୍ତ୍ର ମଡେଲ ତିଆରି କରେ। ସେଟଅପ ସମୟରେ ଏହି ଟିପଚିହ୍ନ ମଡେଲ ତିଆରି କରିବାକୁ, ଆପଣ ବିଭିନ୍ନ ପୋଜିସନରୁ ଆପଣଙ୍କ ଟିପଚିହ୍ନର ଇମେଜ ନେବେ।"</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2" msgid="3493356605815124807">"ଏହା ଆପଣଙ୍କ ପିଲା ଅଟେ ବୋଲି ଯାଞ୍ଚ କରିବା ପାଇଁ ଫିଙ୍ଗରପ୍ରିଣ୍ଟ ଅନଲକ୍ ତା\'ର ଟିପଚିହ୍ନର ଏକ ସ୍ୱତନ୍ତ୍ର ମଡେଲ୍ ତିଆରି କରିଥାଏ। ସେଟଅପ୍ ସମୟରେ ଏହି ଟିପଚିହ୍ନ ମଡେଲ୍ ତିଆରି କରିବାକୁ, ସେ ବିଭିନ୍ନ ଅବସ୍ଥିତିରୁ ତା\'ର ଟିପଚିହ୍ନର ଛବି ନେବ।"</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_6" msgid="5314031490467481499">"ସର୍ବୋତ୍ତମ ଫଳାଫଳ ପାଇଁ, Made for Google ସ୍ୱୀକୃତିପ୍ରାପ୍ତ ଏକ ସ୍କ୍ରିନ ପ୍ରୋଟେକ୍ଟର ବ୍ୟବହାର କରନ୍ତୁ। ଅନ୍ୟ ସ୍କ୍ରିନ ପ୍ରୋଟେକ୍ଟରଗୁଡ଼ିକ ସହିତ, ଆପଣଙ୍କ ଟିପଚିହ୍ନ କାମ କରିନପାରେ।"</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_6" msgid="3563942520716110478">"ସର୍ବୋତ୍ତମ ଫଳାଫଳ ପାଇଁ, Made for Google ସ୍ୱୀକୃତିପ୍ରାପ୍ତ ଏକ ସ୍କ୍ରିନ ପ୍ରୋଟେକ୍ଟର ବ୍ୟବହାର କରନ୍ତୁ। ଅନ୍ୟ ସ୍କ୍ରିନ ପ୍ରୋଟେକ୍ଟରଗୁଡ଼ିକ ସହିତ, ଆପଣଙ୍କ ପିଲାର ଟିପଚିହ୍ନ କାମ କରିନପାରେ।"</string>
@@ -755,8 +764,7 @@
     <string name="lock_settings_picker_admin_restricted_personal_message" msgid="3532653662159888328">"ଯଦି ଆପଣ ଆପଣଙ୍କ ସ୍କ୍ରିନ ଲକ ଭୁଲି ଯାଆନ୍ତି, ଆପଣଙ୍କ IT ଆଡମିନ ତାହା ରିସେଟ କରିପାରିବେ ନାହିଁ।"</string>
     <string name="lock_settings_picker_admin_restricted_personal_message_action" msgid="5956615234246626264">"ଏକ ଅଲଗା ୱାର୍କ ଲକ ସେଟ କର"</string>
     <string name="lock_settings_picker_profile_message" msgid="9142379549980873478">"ଆପଣ ଏହି ଲକଟି ଭୁଲିଗଲେ, ଏହାକୁ ରିସେଟ କରିବାକୁ ଆପଣଙ୍କ IT ଆଡମିନଙ୍କୁ କୁହନ୍ତୁ"</string>
-    <!-- no translation found for lock_settings_screen_lock_settings_title (738577630596146754) -->
-    <skip />
+    <string name="lock_settings_screen_lock_settings_title" msgid="738577630596146754">"ସ୍କ୍ରିନ ଲକ ସେଟିଂସ"</string>
     <string name="setup_lock_settings_options_button_label" msgid="6098297461618298505">"ସ୍କ୍ରିନ ଲକ ବିକଳ୍ପ"</string>
     <string name="setup_lock_settings_options_dialog_title" msgid="7985107300517468569">"ସ୍କ୍ରିନ ଲକ ବିକଳ୍ପ"</string>
     <string name="lock_screen_auto_pin_confirm_title" msgid="3012128112186088375">"ଅନଲକକୁ ସ୍ୱତଃ-ସୁନିଶ୍ଚିତ କରନ୍ତୁ"</string>
@@ -889,7 +897,7 @@
     <string name="lockpassword_credential_changed" msgid="5934778179732392028">"ପୂର୍ବରୁ ସ୍କ୍ରିନ୍‍ ଲକ୍‌ ପରିବର୍ତ୍ତନ କରାଯାଇଥିଲା। ନୂତନ ସ୍କ୍ରିନ୍ ଲକ୍‌କୁ ଚେଷ୍ଟା କରନ୍ତୁ।"</string>
     <string name="lockpattern_tutorial_cancel_label" msgid="775215267818384016">"ବାତିଲ କରନ୍ତୁ"</string>
     <string name="lockpattern_tutorial_continue_label" msgid="1329049481210689408">"ଆଗକୁ"</string>
-    <string name="manage_device_admin" msgid="1044620606203916275">"ଡିଭାଇସ ଆଡମିନ ଆପ"</string>
+    <string name="manage_device_admin" msgid="7272894919651600481">"ଡିଭାଇସ ଆଡମିନ"</string>
     <string name="number_of_device_admins_none" msgid="152926922020437312">"କୌଣସି ସକ୍ରିୟ ଆପ ନାହିଁ"</string>
     <string name="number_of_device_admins" msgid="3402909995362162876">"{count,plural, =1{#ଟି ସକ୍ରିୟ ଆପ}other{#ଟି ସକ୍ରିୟ ଆପ୍ସ}}"</string>
     <string name="manage_trust_agents" msgid="6410149930029992356">"ବିଶ୍ୱସ୍ତ ଏଜେଣ୍ଟ"</string>
@@ -1280,6 +1288,9 @@
     <string name="wifi_calling_off_explanation_2" msgid="3487475808574416183"></string>
     <string name="emergency_address_title" msgid="8102786488994263815">"ଜରୁରୀକାଳୀନ ଠିକଣା"</string>
     <string name="emergency_address_summary" msgid="3022628750270626473">"ୱାଇ-ଫାଇ ମାଧ୍ୟମରେ ଆପଣ କୌଣସି ଆପାତକାଳୀନ କଲ୍‌ କରିବା ବେଳେ ଆପଣଙ୍କ ଲୋକେସନ୍‌ ରୂପେ ବ୍ୟବହୃତ ହୋଇଥାଏ"</string>
+    <string name="private_dns_title" msgid="1180823690693258572">"ହୋଷ୍ଟନାମ"</string>
+    <string name="private_dns_field_require" msgid="2318400923953435586">"ଫିଲ୍ଡ ଆବଶ୍ୟକ ଅଟେ"</string>
+    <string name="private_dns_hostname_invalid" msgid="5085498734835552780">"ଆପଣ ଟାଇପ କରିଥିବା ହୋଷ୍ଟ ନାମ ବୈଧ ନୁହେଁ"</string>
     <string name="private_dns_help_message" msgid="851221502063782306"><annotation id="url">"ବ୍ୟକ୍ତିଗତ DNS ଫିଚର୍ ବିଷୟରେ"</annotation>" ଅଧିକ ଜାଣନ୍ତୁ"</string>
     <string name="private_dns_mode_on" msgid="8878679071975375696">"ଚାଲୁ ଅଛି"</string>
     <string name="wifi_calling_settings_activation_instructions" msgid="3936067355828542266">"ୱାଇ-ଫାଇ କଲିଙ୍ଗକୁ ସକ୍ରିୟ କରନ୍ତୁ"</string>
@@ -1304,7 +1315,6 @@
     <string name="screen_resolution_option_high" msgid="2617496842852992853">"ଉଚ୍ଚ ରିଜୋଲ୍ୟୁସନ"</string>
     <string name="screen_resolution_option_full" msgid="4456839315039000517">"ସର୍ବାଧିକ ରିଜୋଲ୍ୟୁସନ"</string>
     <string name="screen_resolution_footer" msgid="1230761249204935717">"ସର୍ବାଧିକ ରିଜୋଲ୍ୟୁସନ ଆପଣଙ୍କ ବେଟେରୀକୁ ଅଧିକ ବ୍ୟବହାର କରେ। ଆପଣଙ୍କ ରିଜୋଲ୍ୟୁସନକୁ ସୁଇଚ କରିବା ଦ୍ୱାରା କିଛି ଆପ୍ସ ରିଷ୍ଟାର୍ଟ ହୋଇପାରେ।"</string>
-    <string name="screen_resolution_selected_a11y" msgid="6158451180032224977">"ଚୟନ କରାଯାଇଛି"</string>
     <string name="color_mode_title" msgid="8666690832113906028">"ରଙ୍ଗ"</string>
     <string name="color_mode_option_natural" msgid="6192875655101283303">"ପ୍ରାକୃତିକ"</string>
     <string name="color_mode_option_boosted" msgid="4698797857766774289">"ବର୍ଦ୍ଧିତ"</string>
@@ -1677,8 +1687,7 @@
     <string name="usb_tethering_button_text" msgid="7364633823180913777">"USB ଟିଥରିଂ"</string>
     <string name="bluetooth_tether_checkbox_text" msgid="6108398414967813545">"ବ୍ଲୁଟୁଥ ଟିଥରିଂ"</string>
     <string name="ethernet_tether_checkbox_text" msgid="959743110824197356">"ଇଥରନେଟ୍ ଟିଥରିଂ"</string>
-    <!-- no translation found for tethering_footer_info (6824352505979800594) -->
-    <skip />
+    <string name="tethering_footer_info" msgid="6824352505979800594">"ଆପଣଙ୍କ ଡାଟା କନେକ୍ସନ ମାଧ୍ୟମରେ ଅନ୍ୟ ଡିଭାଇସଗୁଡିକୁ ଇଣ୍ଟର୍ନେଟ ପ୍ରଦାନ କରିବାକୁ ହଟସ୍ପଟ ଏବଂ ଟିଥରିଂ ବ୍ୟବହାର କରନ୍ତୁ। ଆଖପାଖର ଡିଭାଇସଗୁଡ଼ିକ ସହ ବିଷୟବସ୍ତୁ ସେୟାର କରିବାକୁ ଆପ୍ସ ମଧ୍ୟ ଏକ ହଟସ୍ପଟ ତିଆରି କରିପାରିବ।"</string>
     <string name="tethering_footer_info_sta_ap_concurrency" msgid="2079039077487477676">"ଆପଣଙ୍କ ୱାଇ-ଫାଇ ବା ମୋବାଇଲ ଡାଟା କନେକ୍ସନ ମାଧ୍ୟମରେ ଅନ୍ୟ ଡିଭାଇସଗୁଡ଼ିକୁ ଇଣ୍ଟରନେଟ ପ୍ରଦାନ କରିବାକୁ ହଟସ୍ପଟ ଏବଂ ଟିଥରିଂ ବ୍ୟବହାର କରନ୍ତୁ। ଆଖପାଖର ଡିଭାଇସଗୁଡ଼ିକ ସହ ବିଷୟବସ୍ତୁ ସେୟାର କରିବାକୁ ଆପ୍ସ ଏକ ହଟସ୍ପଟ ମଧ୍ୟ ତିଆରି କରିପାରିବ।"</string>
     <string name="tethering_help_button_text" msgid="2823655011510912001">"ସାହାଯ୍ୟ"</string>
     <string name="network_settings_title" msgid="4663717899931613176">"ମୋବାଇଲ୍‌ ନେଟ୍‌ୱାର୍କ"</string>
@@ -1919,7 +1928,7 @@
     <string name="filter_apps_disabled" msgid="5068011814871004105">"ଅକ୍ଷମ ହୋଇଥିବା ଆପ"</string>
     <string name="filter_apps_third_party" msgid="9049447784849114843">"ଡାଉନ୍‌ଲୋଡ୍ ହୋଇଗଲା"</string>
     <string name="filter_apps_running" msgid="535465683273284141">"ଚାଲୁଛି"</string>
-    <string name="not_installed" msgid="5074606858798519449">"ଏହି ଉପଯୋଗକର୍ତ୍ତାଙ୍କ ପାଇଁ ଇନଷ୍ଟଲ୍‌ କରାଯାଇ ନାହିଁ"</string>
+    <string name="not_installed" msgid="5074606858798519449">"ଏହି ୟୁଜରଙ୍କ ପାଇଁ ଇନଷ୍ଟଲ କରାଯାଇନାହିଁ"</string>
     <string name="installed" msgid="2837449358488825884">"ଇନ୍‌ଷ୍ଟଲ୍‌ କରାଯାଇଛି"</string>
     <string name="no_applications" msgid="985069304755391640">"କୌଣସି ଆପ୍‌ ନାହିଁ।"</string>
     <string name="internal_storage" msgid="999496851424448809">"ଇଣ୍ଟର୍ନଲ୍‌ ଷ୍ଟୋରେଜ୍‌"</string>
@@ -2038,10 +2047,8 @@
     <string name="input_setting_keys_dialog_option_600" msgid="6983252972219539375">"0.6 ସେକେଣ୍ଡ"</string>
     <string name="input_setting_keys_custom_title" msgid="670425691119253202">"କଷ୍ଟମ"</string>
     <string name="input_setting_keys_custom_value" msgid="4455905650507193648">"କଷ୍ଟମ ମୂଲ୍ୟ"</string>
-    <!-- no translation found for input_setting_bounce_keys_seekbar_desc (4575595566548124309) -->
-    <skip />
-    <!-- no translation found for input_setting_slow_keys_seekbar_desc (2171726970136563995) -->
-    <skip />
+    <string name="input_setting_bounce_keys_seekbar_desc" msgid="4575595566548124309">"ବାଉନ୍ସ କୀ ଥ୍ରେସହୋଲ୍ଡ ସମୟ"</string>
+    <string name="input_setting_slow_keys_seekbar_desc" msgid="2171726970136563995">"ସ୍ଲୋ କୀ ଥ୍ରେସହୋଲ୍ଡ ସମୟ"</string>
     <string name="slow_keys" msgid="2891452895499690837">"ସ୍ଲୋ କୀ"</string>
     <string name="slow_keys_summary" msgid="3852534180402969185">"ଏକ କୀ ପଞ୍ଜିକୃତ ହେବା ପୂର୍ବରୁ ଆପଣଙ୍କୁ କେତେ ସମୟ ଏହାକୁ ଧରି ରଖିବା ଆବଶ୍ୟକ ତାହା ପରିବର୍ତ୍ତନ କରନ୍ତୁ"</string>
     <string name="sticky_keys" msgid="7317317044898161747">"ଷ୍ଟିକି କୀ"</string>
@@ -2050,24 +2057,21 @@
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"ମାଉସ କୀଗୁଡ଼ିକୁ ବ୍ୟବହାର କରନ୍ତୁ"</string>
     <string name="mouse_keys_summary" msgid="7030731235143286467">"ପଏଣ୍ଟରକୁ ନିୟନ୍ତ୍ରଣ କରିବା ପାଇଁ ଆପଣଙ୍କ କୀବୋର୍ଡକୁ ବ୍ୟବହାର କରନ୍ତୁ"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"ରିଭର୍ସ ସ୍କ୍ରୋଲିଂ"</string>
-    <string name="mouse_reverse_vertical_scrolling_summary" msgid="4403637093982742165">"ଆପଣ ତଳକୁ ସ୍କ୍ରୋଲ କରିବା ସମୟରେ ବିଷୟବସ୍ତୁ ଉପରକୁ ମୁଭ ହୁଏ"</string>
+    <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"ପୃଷ୍ଠାକୁ ତଳକୁ ମୁଭ କରିବା ପାଇଁ ଉପରକୁ ସ୍କ୍ରୋଲ କରନ୍ତୁ"</string>
+    <string name="mouse_scrolling_category_title" msgid="2992126595687187296">"ସ୍କ୍ରୋଲିଂ"</string>
+    <string name="mouse_scrolling_acceleration" msgid="7119758828203396430">"ନିୟନ୍ତ୍ରିତ ସ୍କ୍ରୋଲିଂ"</string>
+    <string name="mouse_scrolling_speed" msgid="3999483025392860903">"ସ୍କ୍ରୋଲିଂ ସ୍ପିଡ"</string>
     <string name="mouse_swap_primary_button" msgid="4798006242525441304">"ପ୍ରାଥମିକ ମାଉସ ବଟନକୁ ସ୍ୱାପ କରନ୍ତୁ"</string>
     <string name="mouse_swap_primary_button_summary" msgid="3276638019321067902">"ମାଉସର ବାମ ବଟନକୁ ଆପଣଙ୍କ ଡାହାଣ ବଟନ ଭାବେ ବ୍ୟବହାର କରନ୍ତୁ"</string>
     <string name="mouse_pointer_acceleration" msgid="388336576055293329">"କର୍ସର ଆକ୍ସିଲିରେସନ"</string>
     <string name="mouse_pointer_acceleration_summary" msgid="6954407061360045792">"ଆପଣଙ୍କ ମାଉସର ଦ୍ରୁତ ମୁଭମେଣ୍ଟ ଫଳରେ କର୍ସରକୁ ଆହୁରି ଦୂରକୁ ମୁଭ କରିବ"</string>
     <string name="mouse_key_main_page_title" msgid="8051692181770475257">"<xliff:g id="KEYBOARD_NAME">%s</xliff:g> ପାଇଁ ମାଉସ କୀ"</string>
-    <!-- no translation found for mouse_keys_directional_summary (2215425656757420699) -->
-    <skip />
-    <!-- no translation found for mouse_keys_click_summary (8271700153598258484) -->
-    <skip />
-    <!-- no translation found for mouse_keys_press_hold_summary (112969663769147732) -->
-    <skip />
-    <!-- no translation found for mouse_keys_release_summary (7209370896835993434) -->
-    <skip />
-    <!-- no translation found for mouse_keys_toggle_scroll_summary (7492663135290108272) -->
-    <skip />
-    <!-- no translation found for mouse_keys_release2_summary (5504548339731577210) -->
-    <skip />
+    <string name="mouse_keys_directional_summary" msgid="2215425656757420699">"ମାଉସ ପଏଣ୍ଟରକୁ ମୁଭ କରିବା ପାଇଁ \"<xliff:g id="DIRECTIONAL_LABEL">%s</xliff:g>\" କୀ ବ୍ୟବହାର କରନ୍ତୁ"</string>
+    <string name="mouse_keys_click_summary" msgid="8271700153598258484">"ପ୍ରାଥମିକ ମାଉସ ବଟନରେ କ୍ଲିକ କରିବା ପାଇଁ \"<xliff:g id="CLICK_LABEL">%s</xliff:g>\" କୀ ବ୍ୟବହାର କରନ୍ତୁ"</string>
+    <string name="mouse_keys_press_hold_summary" msgid="112969663769147732">"ପ୍ରାଥମିକ ମାଉସ ବଟନରେ କ୍ଲିକ କରିବା ପାଇଁ \"<xliff:g id="PRESS_HOLD_LABEL">%s</xliff:g>\" କୀ\'କୁ ଦବାଇ ଧରି ରଖନ୍ତୁ"</string>
+    <string name="mouse_keys_release_summary" msgid="7209370896835993434">"ପ୍ରାଥମିକ ମାଉସ ବଟନକୁ ରିଲିଜ କରିବା ପାଇଁ \"<xliff:g id="RELEASE_LABEL">%s</xliff:g>\" କୀ\'କୁ ବ୍ୟବହାର କରନ୍ତୁ"</string>
+    <string name="mouse_keys_toggle_scroll_summary" msgid="7492663135290108272">"ସ୍କ୍ରୋଲ ମୋଡକୁ ଟୋଗଲ କରିବା ପାଇଁ \"<xliff:g id="RELEASE_LABEL_1">%1$s</xliff:g>\" କୀ\'କୁ ବ୍ୟବହାର କରନ୍ତୁ। ଏହା ଫଳରେ \"<xliff:g id="RELEASE_LABEL_2">%2$s</xliff:g>\" କୀ\'ଗୁଡ଼ିକ ଭ୍ୟୁକୁ ଉପର, ତଳ, ବାମ କିମ୍ବା ଡାହାଣକୁ ସ୍କ୍ରୋଲ କରିବ"</string>
+    <string name="mouse_keys_release2_summary" msgid="5504548339731577210">"ଦ୍ୱିତୀୟ ମାଉସ ବଟନରେ କ୍ଲିକ କରିବା ପାଇଁ \"<xliff:g id="RELEASE_2_LABEL">%s</xliff:g>\" କୀ\'କୁ ବ୍ୟବହାର କରନ୍ତୁ"</string>
     <string name="keyboard_shortcuts_helper" msgid="6934420811737731188">"କୀବୋର୍ଡ ସର୍ଟକଟଗୁଡ଼ିକୁ ଭ୍ୟୁ କରନ୍ତୁ"</string>
     <string name="keyboard_shortcuts_helper_summary" msgid="5979507677602559203">"ସର୍ଟକଟଗୁଡ଼ିକର ତାଲିକା ଦେଖାନ୍ତୁ"</string>
     <string name="language_and_input_for_work_category_title" msgid="2546950919124199743">"ୱର୍କ ପ୍ରୋଫାଇଲ୍ କୀବୋର୍ଡ &amp; ଟୁଲ୍‌ଗୁଡ଼ିକ"</string>
@@ -2076,8 +2080,7 @@
     <string name="trackpad_settings" msgid="2071131324087677005">"ଟଚପେଡ"</string>
     <string name="trackpad_mouse_settings" msgid="136226693583218429">"ଟଚପେଡ ଓ ମାଉସ"</string>
     <string name="mouse_settings" msgid="7301671756721327122">"ମାଉସ"</string>
-    <!-- no translation found for mouse_settings_summary (8732973589097368936) -->
-    <skip />
+    <string name="mouse_settings_summary" msgid="8732973589097368936">"ପଏଣ୍ଟର ସ୍ପିଡ, ସ୍ୱାପ ବଟନ, ବଟନ କଷ୍ଟମାଇଜେସନ"</string>
     <string name="trackpad_settings_summary" msgid="3369855644136760402">"ପଏଣ୍ଟରର ସ୍ପିଡ, ଜେଶ୍ଚର"</string>
     <string name="trackpad_tap_to_click" msgid="1938230946542070746">"କ୍ଲିକ ପାଇଁ ଟାପ କରନ୍ତୁ"</string>
     <string name="trackpad_tap_dragging_title" msgid="4198317837427535015">"ଆଇଟମକୁ ମୁଭ କରିବାକୁ ଟାପ କରି ଡ୍ରାଗ କର"</string>
@@ -2089,8 +2092,7 @@
     <string name="trackpad_bottom_right_tap_title" msgid="230337692279220068">"ନିମ୍ନରେ ଡାହାଣପଟେ କ୍ଲିକ କରନ୍ତୁ"</string>
     <string name="trackpad_bottom_right_tap_summary" msgid="4467915480282133447">"ଅଧିକ ବିକଳ୍ପ ପାଇଁ ଟଚପେଡର ନିମ୍ନ ଡାହାଣ କୋଣରେ କ୍ଲିକ କରନ୍ତୁ"</string>
     <string name="trackpad_pointer_speed" msgid="5672221910698079303">"କର୍ସର ସ୍ପିଡ"</string>
-    <!-- no translation found for three_finger_tap_preference_title (3779242412749283386) -->
-    <skip />
+    <string name="three_finger_tap_preference_title" msgid="3779242412749283386">"3-ଆଙ୍ଗୁଠି ଟାପକୁ କଷ୍ଟମାଇଜ କରନ୍ତୁ"</string>
     <string name="touchpad_acceleration_title" msgid="176627555191021888">"ଟଚପେଡ ଆକ୍ସିଲିରେସନ"</string>
     <string name="touchpad_acceleration_summary" msgid="8057075483967535793">"ଆପଣଙ୍କ ଟଚପେଡର ଦ୍ରୁତ ମୁଭମେଣ୍ଟ ଫଳରେ କର୍ସର ଆହୁରି ଦୂରକୁ ମୁଭ କରିବ"</string>
     <string name="pointer_fill_style" msgid="8794616790175016092">"ପଏଣ୍ଟରର ରଙ୍ଗ"</string>
@@ -2107,7 +2109,8 @@
     <string name="trackpad_touch_gesture" msgid="8641725062131922497">"ଟଚପେଡର ଜେଶ୍ଚରଗୁଡ଼ିକ ବିଷୟରେ ଜାଣନ୍ତୁ"</string>
     <string name="keywords_touchpad" msgid="8159846254066666032">"ଟ୍ରାକପେଡ ଟ୍ରାକ ପେଡ, ମାଉସ, କର୍ସର, ସ୍କ୍ରୋଲ, ସ୍ୱାଇପ, ଡାହାଣ କ୍ଲିକ, କ୍ଲିକ, ପଏଣ୍ଟର"</string>
     <string name="keywords_trackpad_bottom_right_tap" msgid="1285062446073929305">"ଡାହାଣ କ୍ଲିକ, ଟାପ"</string>
-    <string name="three_finger_tap_middle_click" msgid="5274906692591143158">"ମଝି ବଟନ କ୍ଲିକ କରନ୍ତୁ"</string>
+    <!-- no translation found for three_finger_tap_middle_click (1759914275939765929) -->
+    <skip />
     <string name="three_finger_tap_launch_gemini" msgid="4030401656711588982">"Assistant ଲଞ୍ଚ କରନ୍ତୁ"</string>
     <string name="three_finger_tap_go_home" msgid="6526301745535089812">"ହୋମକୁ ଯାଆନ୍ତୁ"</string>
     <string name="three_finger_tap_go_back" msgid="2898205524575684271">"ପଛକୁ ଫେରନ୍ତୁ"</string>
@@ -2239,6 +2242,7 @@
     <string name="accessibility_feedback_title" msgid="6690472705407526006">"ମତାମତ"</string>
     <string name="accessibility_feedback_summary" msgid="4576591591334314827">"ଏକ ସର୍ଭେରେ ଅଂଶ ଗ୍ରହଣ କରି ଏହାକୁ ଉନ୍ନତ କରିବାରେ ସାହାଯ୍ୟ କରନ୍ତୁ"</string>
     <string name="accessibility_feedback_disabled_summary" msgid="3652321859452620942">"କୌଣସି ସର୍ଭେ ଉପଲବ୍ଧ ନାହିଁ"</string>
+    <string name="accessibility_send_feedback_title" msgid="6455703838689943046">"ମତାମତ ପଠାନ୍ତୁ"</string>
     <string name="user_installed_services_category_title" msgid="2639470729311439731">"ଡାଉନଲୋଡ ହୋଇଥିବା ଆପ୍ସ"</string>
     <string name="experimental_category_title" msgid="898904396646344152">"ପରୀକ୍ଷାମୂଳକ"</string>
     <string name="feature_flags_dashboard_title" msgid="348990373716658289">"ଫିଚର୍ ଫ୍ଲାଗ୍"</string>
@@ -2392,14 +2396,10 @@
     <string name="accessibility_button_disabled_button_mode_summary" msgid="1978174613270619492">"ନାଭିଗେସନ ବାର ବଟନକୁ ବ୍ୟବହାର କରିବା ସମୟରେ ଅନୁପଲବ୍ଧ ଥାଏ।"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="1830189632458752698">"ଉଚ୍ଚ କଣ୍ଟ୍ରାଷ୍ଟଯୁକ୍ତ ଟେକ୍ସଟ"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_summary" msgid="5286411556836346180">"ଟେକ୍ସଟର ରଙ୍ଗକୁ କଳା କିମ୍ବା ଧଳା ରଙ୍ଗରେ ପରିବର୍ତ୍ତନ କରନ୍ତୁ। ବେକଗ୍ରାଉଣ୍ଡ ସହିତ କଣ୍ଟ୍ରାଷ୍ଟ ବଢ଼ାନ୍ତୁ।"</string>
-    <!-- no translation found for accessibility_notification_high_contrast_text_title (2297915407152953323) -->
-    <skip />
-    <!-- no translation found for accessibility_notification_high_contrast_text_body (4111896614825062003) -->
-    <skip />
-    <!-- no translation found for accessibility_notification_high_contrast_text_action_open_settings (5945069315472850294) -->
-    <skip />
-    <!-- no translation found for accessibility_toggle_maximize_text_contrast_preference_title (8848579943445806659) -->
-    <skip />
+    <string name="accessibility_notification_high_contrast_text_title" msgid="2297915407152953323">"ଟେକ୍ସଟ କଣ୍ଟ୍ରାଷ୍ଟକୁ ଉନ୍ନତ କରନ୍ତୁ"</string>
+    <string name="accessibility_notification_high_contrast_text_body" msgid="4111896614825062003">"<xliff:g id="HIGH_CONTRAST_TEXT">%2$s</xliff:g>କୁ <xliff:g id="OUTLINE_TEXT">%1$s</xliff:g> ପରିବର୍ତ୍ତନ କରିଛି। ଆପଣ ଏହାକୁ <xliff:g id="SETTINGS">%3$s</xliff:g>ରେ ଚାଲୁ କରିପାରିବେ।"</string>
+    <string name="accessibility_notification_high_contrast_text_action_open_settings" msgid="5945069315472850294">"<xliff:g id="SETTINGS">%1$s</xliff:g>କୁ ଯାଆନ୍ତୁ"</string>
+    <string name="accessibility_toggle_maximize_text_contrast_preference_title" msgid="8848579943445806659">"ଟେକ୍ସଟକୁ ଆଉଟଲାଇନ କରନ୍ତୁ"</string>
     <string name="accessibility_toggle_maximize_text_contrast_preference_summary" msgid="8200408691846666900">"କଣ୍ଟ୍ରାଷ୍ଟ ବଢ଼ାଇବା ପାଇଁ ଟେକ୍ସଟ ଚାରିପାଖରେ ଏକ କଳା କିମ୍ବା ଧଳା ବେକଗ୍ରାଉଣ୍ଡ ଯୋଗ କରନ୍ତୁ"</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_title" msgid="4987009529235165664">"ସ୍କ୍ରିନ୍‌ ମ୍ୟାଗ୍ନିଫାୟର୍‌ ସ୍ୱତଃ ଅପଡେଟ୍‌ କରନ୍ତୁ"</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_summary" msgid="9034532513972547720">"ଆପ୍‌ ବଦଳିବାବେଳେ ସ୍କ୍ରୀନ୍‌କୁ ବଡ଼ କର"</string>
@@ -2499,6 +2499,8 @@
     <string name="accessibility_hearingaid_instruction_continue_button" msgid="3367260988024430722">"ଜାରି ରଖନ୍ତୁ"</string>
     <string name="accessibility_hearingaid_title" msgid="1263619711863375614">"ଶ୍ରବଣ ଡିଭାଇସଗୁଡ଼ିକ"</string>
     <string name="accessibility_hearingaid_intro" msgid="6686620444104350629">"ASHA ଏବଂ LE ଅଡିଓ ଶ୍ରବଣ ଯନ୍ତ୍ର, କକଲିୟର ଇମ୍ପଲାଣ୍ଟ ଓ ଅନ୍ୟ ଆମ୍ପ୍ଲିଫିକେସନ ଡିଭାଇସଗୁଡ଼ିକୁ ସେଟ ଅପ ଏବଂ ପରିଚାଳନା କରନ୍ତୁ"</string>
+    <string name="accessibility_hearingaid_asha_only_intro" msgid="7402419984664822832">"ASHA ଶ୍ରବଣ ଯନ୍ତ୍ର, କକଲିୟର ଇମ୍ପଲାଣ୍ଟ ଓ ଅନ୍ୟ ଆମ୍ପ୍ଲିଫିକେସନ ଡିଭାଇସକୁ ସେଟ ଅପ ଏବଂ ପରିଚାଳନା କରନ୍ତୁ"</string>
+    <string name="accessibility_hearingaid_hap_only_intro" msgid="3332144138443825311">"LE ଅଡିଓ ଶ୍ରବଣ ଯନ୍ତ୍ର, କକଲିୟର ଇମ୍ପଲାଣ୍ଟ ଓ ଅନ୍ୟ ଆମ୍ପ୍ଲିଫିକେସନ ଡିଭାଇସକୁ ସେଟ ଅପ ଏବଂ ପରିଚାଳନା କରନ୍ତୁ"</string>
     <string name="accessibility_hearingaid_not_connected_summary" msgid="7438018718889849521">"କୌଣସି ଶ୍ରବଣ ଡିଭାଇସ କନେକ୍ଟ କରାଯାଇନାହିଁ"</string>
     <string name="accessibility_hearingaid_adding_summary" msgid="999051610528600783">"ଶ୍ରବଣ ଯନ୍ତ୍ର ଯୋଗ କରନ୍ତୁ"</string>
     <string name="accessibility_hearingaid_pair_instructions_title" msgid="2357706801112207624">"ଶ୍ରବଣ ଯନ୍ତ୍ରକୁ ପେୟାର କର"</string>
@@ -2518,6 +2520,10 @@
     <string name="accessibility_hearing_device_about_title" msgid="7883758309646288250">"ହିଅରିଂ ଡିଭାଇସଗୁଡ଼ିକ ବିଷୟରେ"</string>
     <string name="accessibility_hearing_device_footer_summary" msgid="5513620078219951077">"ASHA କିମ୍ବା LE ଅଡିଓ ସପୋର୍ଟ କରୁନଥିବା ଅନ୍ୟ ହିଅରିଂ ଡିଭାଇସଗୁଡ଼ିକ ଖୋଜିବାକୁ &lt;b&gt;ନୂଆ ଡିଭାଇସ ପେୟାର କରନ୍ତୁ&lt;/b&gt; &gt; &lt;b&gt;ଅଧିକ ଡିଭାଇସ ଦେଖନ୍ତୁ&lt;/b&gt;ରେ ଟାପ କରନ୍ତୁ"</string>
     <string name="accessibility_hearing_device_footer_summary_tts" msgid="955527026890456959">"ASHA କିମ୍ବା LE ଅଡିଓ ସପୋର୍ଟ କରୁନଥିବା ଅନ୍ୟ ହିଅରିଂ ଡିଭାଇସଗୁଡ଼ିକ ଖୋଜିବାକୁ "<b>"ନୂଆ ଡିଭାଇସ ପେୟାର କରନ୍ତୁ"</b>" ତା\'ପରେ "<b>"ଅଧିକ ଡିଭାଇସ ଦେଖନ୍ତୁ"</b>"ରେ ଟାପ କରନ୍ତୁ"</string>
+    <string name="accessibility_hearing_device_footer_asha_only_summary" msgid="3377169209330540616">"ASHA ସପୋର୍ଟ କରୁନଥିବା ଅନ୍ୟ ଶ୍ରବଣ ଡିଭାଇସ ଖୋଜିବାକୁ &lt;b&gt;ନୂଆ ଡିଭାଇସ ପେୟାର କରନ୍ତୁ&lt;/b&gt; &gt; &lt;b&gt;ଅଧିକ ଡିଭାଇସ ଦେଖନ୍ତୁ&lt;/b&gt;ରେ ଟାପ କରନ୍ତୁ"</string>
+    <string name="accessibility_hearing_device_footer_asha_only_summary_tts" msgid="8192971114504608531">"ASHA ସପୋର୍ଟ କରୁନଥିବା ଅନ୍ୟ ଶ୍ରବଣ ଡିଭାଇସ ଖୋଜିବାକୁ "<b>"ନୂଆ ଡିଭାଇସ ପେୟାର କରନ୍ତୁ"</b>" ତା\'ପରେ "<b>"ଅଧିକ ଡିଭାଇସ ଦେଖନ୍ତୁ"</b>"ରେ ଟାପ କରନ୍ତୁ"</string>
+    <string name="accessibility_hearing_device_footer_hap_only_summary" msgid="3531758698830915205">"LE ଅଡିଓ ସପୋର୍ଟ କରୁନଥିବା ଅନ୍ୟ ଶ୍ରବଣ ଡିଭାଇସ ଖୋଜିବାକୁ &lt;b&gt;ନୂଆ ଡିଭାଇସ ପେୟାର କରନ୍ତୁ&lt;/b&gt; &gt; &lt;b&gt;ଅଧିକ ଡିଭାଇସ ଦେଖନ୍ତୁ&lt;/b&gt;ରେ ଟାପ କରନ୍ତୁ"</string>
+    <string name="accessibility_hearing_device_footer_hap_only_summary_tts" msgid="4440097982533045507">"LE ଅଡିଓ ସପୋର୍ଟ କରୁନଥିବା ଅନ୍ୟ ଶ୍ରବଣ ଡିଭାଇସ ଖୋଜିବାକୁ "<b>"ନୂଆ ଡିଭାଇସ ପେୟାର କରନ୍ତୁ"</b>" ତା\'ପରେ "<b>"ଅଧିକ ଡିଭାଇସ ଦେଖନ୍ତୁ"</b>"ରେ ଟାପ କରନ୍ତୁ"</string>
     <string name="accessibility_hearing_device_pairing_page_title" msgid="6608901091770850295">"ହିଅରିଂ ଡିଭାଇସକୁ ପେୟାର କର"</string>
     <string name="accessibility_hearing_device_pairing_intro" msgid="7022201665808166517">"ଆପଣ ଏହି ପୃଷ୍ଠାରେ ASHA ଏବଂ LE ଅଡିଓ ହିଅରିଂ ଡିଭାଇସଗୁଡ଼ିକୁ ପେୟାର କରିପାରିବେ। ଆପଣଙ୍କ ହିଅରିଂ ଡିଭାଇସ ଚାଲୁ ଅଛି ଏବଂ ଏହା ପେୟାର ହେବା ପାଇଁ ପ୍ରସ୍ତୁତ ଅଛି ବୋଲି ସୁନିଶ୍ଚିତ କରନ୍ତୁ।"</string>
     <string name="accessibility_found_hearing_devices" msgid="637407580358386553">"ଉପଲବ୍ଧ ଶ୍ରବଣ ଡିଭାଇସଗୁଡ଼ିକ"</string>
@@ -2895,6 +2901,14 @@
     <string name="adaptive_connectivity_switch_on" msgid="3653067561620745493">"ଚାଲୁ ଅଛି"</string>
     <string name="adaptive_connectivity_switch_off" msgid="5076172560836115265">"ବନ୍ଦ ଅଛି"</string>
     <string name="adaptive_connectivity_main_switch_title" msgid="261045483524512420">"ଆଡେପ୍ଟିଭ କନେକ୍ଟିଭିଟି ବ୍ୟବହାର କରନ୍ତୁ"</string>
+    <!-- no translation found for adaptive_connectivity_wifi_switch_title (5899985025046319472) -->
+    <skip />
+    <!-- no translation found for adaptive_connectivity_wifi_switch_summary (4650230240134029595) -->
+    <skip />
+    <!-- no translation found for adaptive_connectivity_mobile_network_switch_title (2473274404695643218) -->
+    <skip />
+    <!-- no translation found for adaptive_connectivity_mobile_network_switch_summary (2432517485362085341) -->
+    <skip />
     <string name="cellular_security_title" msgid="5562899485544677941">"ମୋବାଇଲ ନେଟୱାର୍କ ସୁରକ୍ଷା"</string>
     <string name="cellular_security_summary" msgid="1893770670709928113">"ନେଟୱାର୍କ ପ୍ରକାର, ଏନକ୍ରିପସନ, ବିଜ୍ଞପ୍ତି ନିୟନ୍ତ୍ରଣଗୁଡ଼ିକ"</string>
     <string name="cellular_security_top_intro" msgid="6749166804080092892">"ଏହି ସେଟିଂସ ଆପଣଙ୍କ କଲ, ମେସେଜ ଏବଂ ଡାଟାକୁ ପୁରୁଣା କିମ୍ୱା ଏନକ୍ରିପ୍ଟ କରାଯାଇନଥିବା ନେଟୱାର୍କରୁ ସୁରକ୍ଷିତ ରଖିବାରେ ସାହାଯ୍ୟ କରେ ଯାହା ଆପଣଙ୍କ ପାଇଁ ଡାଟା ଚୋରି କିମ୍ୱା ସର୍ଭେଲାନ୍ସ ବିପଦ ସୃଷ୍ଟି କରିପାରେ"</string>
@@ -2923,7 +2937,8 @@
     <string name="credentials_reset_hint" msgid="4054601857203464867">"ସବୁକିଛି ହଟାଇଦେବେ?"</string>
     <string name="credentials_erased" msgid="9121052044566053345">"ତଥ୍ୟ ଷ୍ଟୋରେଜ୍‌କୁ ଲିଭାଇଦିଆଗଲା।"</string>
     <string name="credentials_not_erased" msgid="3611058412683184031">"କ୍ରେଡେନଶିଆଲ୍‌ ଷ୍ଟୋରେଜ୍‌ ଲିଭାଯାଇ ପାରିବ ନାହିଁ।"</string>
-    <string name="usage_access_title" msgid="1580006124578134850">"ବ୍ୟବହାର ଆକ୍ସେସ୍ ସହ ଆପ୍‌ଗୁଡ଼ିକ"</string>
+    <!-- no translation found for usage_access_title (8784394396356369568) -->
+    <skip />
     <string name="ca_certificate" msgid="3076484307693855611">"CA ସାର୍ଟିଫିକେଟ୍"</string>
     <string name="user_certificate" msgid="6897024598058566466">"VPN ଓ ଆପ ୟୁଜର ସାର୍ଟିଫିକେଟ"</string>
     <string name="wifi_certificate" msgid="8461905432409380387">"Wi‑Fi ସାର୍ଟିଫିକେଟ୍"</string>
@@ -2968,7 +2983,7 @@
     <string name="remove_device_admin" msgid="3143059558744287259">"ଏହି ଡିଭାଇସ୍‌ର ଆଡମିନ୍‌ ଆପ୍‌କୁ ନିଷ୍କ୍ରିୟ କରନ୍ତୁ"</string>
     <string name="uninstall_device_admin" msgid="4481095209503956916">"ଆପ୍‌ ଅଣସଂସ୍ଥାପନ କରନ୍ତୁ"</string>
     <string name="remove_and_uninstall_device_admin" msgid="707912012681691559">"ନିଷ୍କ୍ରିୟ କରନ୍ତୁ ଏବଂ ଅଣସଂସ୍ଥାପନ କରନ୍ତୁ"</string>
-    <string name="select_device_admin_msg" msgid="5501360309040114486">"ଡିଭାଇସ ଆଡମିନ ଆପ୍ସ"</string>
+    <string name="select_device_admin_msg" msgid="2506262585633022884">"ଡିଭାଇସ ଆଡମିନ"</string>
     <string name="no_device_admins" msgid="8888779888103079854">"କୌଣସି ଡିଭାଇସ୍‌ ଆଡମିନ୍‌ ଆପ୍‌ ଉପଲବ୍ଧ ନାହିଁ"</string>
     <string name="no_trust_agents" msgid="8659098725864191600">"କୌଣସି ବିଶ୍ୱସ୍ତ ଏଜେଣ୍ଟ ଉପଲବ୍ଧ ନାହିଁ"</string>
     <string name="add_device_admin_msg" msgid="7730006568970042119">"ଡିଭାଇସ ଆଡମିନ ଆପ ସକ୍ରିୟ କରିବେ?"</string>
@@ -2981,7 +2996,8 @@
     <string name="profile_owner_add_title_simplified" msgid="2320828996993774182">"ନିରୀକ୍ଷଣ ପାଇଁ ଅନୁମତି ଦେବେ?"</string>
     <string name="adding_profile_owner_warning" msgid="6868275476058020513">"ଜାରି ରଖି, ଆପଣଙ୍କ ୟୁଜର ଆପଣଙ୍କର ଆଡମିନ ଦ୍ୱାରା ପରିଚାଳିତ ହେବ ଯିଏ ଆପଣଙ୍କ ବ୍ୟକ୍ତିଗତ ଡାଟା ସହିତ ସମ୍ବନ୍ଧିତ ଡାଟା ମଧ୍ୟ ଷ୍ଟୋର କରିପାରିବେ।\n\nଆପଣଙ୍କ ଆଡମିନର ନେଟୱାର୍କ କାର୍ଯ୍ୟକଳାପ ଏବଂ ଆପଣଙ୍କ ଡିଭାଇସର ଲୋକେସନ ସୂଚନା ସମେତ ସେଟିଂସ, ଆକ୍ସେସ, ଆପ୍ସ ଏବଂ ଏହି ୟୁଜରଙ୍କ ସହ ସମ୍ୱନ୍ଧିତ ଡାଟା ମନିଟର କରିବା ତଥା ପରିଚାଳନା କରିବାର ଦକ୍ଷତା ଅଛି।"</string>
     <string name="admin_disabled_other_options" msgid="8122039047419172139">"ଆଡମିନ ଅକ୍ଷମ କରିଥିବା ଅନ୍ୟାନ୍ୟ ବିକଳ୍ପମାନ"</string>
-    <string name="admin_more_details" msgid="4928985331640193758">"ଅଧିକ ଜାଣନ୍ତୁ"</string>
+    <!-- no translation found for admin_more_details (6091028872148388357) -->
+    <skip />
     <string name="notification_log_title" msgid="2812594935014664891">"ବିଜ୍ଞପ୍ତି ଲଗ୍‌"</string>
     <string name="notification_history_title" msgid="8821060912502593309">"ବିଜ୍ଞପ୍ତି ଇତିହାସ"</string>
     <string name="notification_history_today" msgid="6081829638548808795">"ଗତ %d ଘଣ୍ଟା"</string>
@@ -3185,7 +3201,7 @@
     <string name="user_owner" msgid="2079206733011361994">"ମାଲିକ"</string>
     <string name="user_admin" msgid="4024553191395768119">"ଆଡମିନ"</string>
     <string name="user_you" msgid="3070562015202859996">"ଆପଣ (<xliff:g id="NAME">%s</xliff:g>)"</string>
-    <string name="user_add_max_count" msgid="3328539978480663740">"ଆପଣ ଆଉ କୌଣସି ୟୁଜର ଯୋଗ କରିପାରିବେ ନାହିଁ। ଜଣେ ନୂଆ ୟୁଜର ଯୋଗ କରିବାକୁ ଜଣଙ୍କୁ କାଢ଼ି ଦିଅନ୍ତୁ।"</string>
+    <string name="user_add_max_count" msgid="3328539978480663740">"ଆପଣ ଆଉ କୌଣସି ୟୁଜର ଯୋଗ କରିପାରିବେ ନାହିଁ। ଜଣେ ନୂଆ ୟୁଜର ଯୋଗ କରିବାକୁ ଜଣକୁ କାଢ଼ି ଦିଅନ୍ତୁ।"</string>
     <string name="user_cannot_add_accounts_message" msgid="2351326078338805337">"ପ୍ରତିବନ୍ଧିତ ପ୍ରୋଫାଇଲ୍‌ଗୁଡ଼ିକ ଆକାଉଣ୍ଟ ଆଡ୍‌ କରିପାରିବ ନାହିଁ"</string>
     <string name="user_remove_user_menu" msgid="2183714948094429367">"ଏହି ଡିଭାଇସ୍‌ରୁ <xliff:g id="USER_NAME">%1$s</xliff:g> ଙ୍କୁ ଡିଲିଟ୍‍ କରନ୍ତୁ"</string>
     <string name="user_lockscreen_settings" msgid="4596612658981942092">"ଲକ ସ୍କ୍ରିନ ସେଟିଂସ"</string>
@@ -3703,20 +3719,13 @@
     <string name="notification_summarization_on" msgid="5692758038788359790">"ଚାଲୁ ଅଛି"</string>
     <string name="notification_summarization_off" msgid="4660131515915234037">"ବନ୍ଦ ଅଛି"</string>
     <string name="notification_summarization_main_control_title" msgid="3341727937605794607">"ବିଜ୍ଞପ୍ତି ସାରାଂଶ ବ୍ୟବହାର କରନ୍ତୁ"</string>
-    <!-- no translation found for notification_summarization_description (8787422238462516765) -->
-    <skip />
-    <!-- no translation found for notification_summarization_excluded_description (3772411462994322275) -->
-    <skip />
-    <!-- no translation found for notification_summarization_manage_excluded_apps (1691177835156220384) -->
-    <skip />
-    <!-- no translation found for notification_summarization_manage_excluded_apps_title (1299744594788208296) -->
-    <skip />
-    <!-- no translation found for notification_excluded_apps (6648267716069216826) -->
-    <skip />
-    <!-- no translation found for notification_app_level_summarize_title (3829343457958246733) -->
-    <skip />
-    <!-- no translation found for notification_app_level_summarize_subtext (7949649262631157728) -->
-    <skip />
+    <string name="notification_summarization_description" msgid="8787422238462516765">"ଯେ କୌଣସି ଆପ୍ସରୁ ବାର୍ତ୍ତାଳାପ ବିଜ୍ଞପ୍ତିଗୁଡ଼ିକର ସ୍ୱତଃ ସାରାଂଶ ପ୍ରସ୍ତୁତ କରନ୍ତୁ"</string>
+    <string name="notification_summarization_excluded_description" msgid="3772411462994322275">"ଏହି ଆପ୍ସରୁ ବାର୍ତ୍ତାଳାପ ବିଜ୍ଞପ୍ତିଗୁଡ଼ିକର ସାରାଂଶ ପ୍ରସ୍ତୁତ ହେବ ନାହିଁ"</string>
+    <string name="notification_summarization_manage_excluded_apps" msgid="1691177835156220384">"ଆପ୍ସ ପରିଚାଳନା କରନ୍ତୁ"</string>
+    <string name="notification_summarization_manage_excluded_apps_title" msgid="1299744594788208296">"ଆପ୍ସ ପାଇଁ ବିଜ୍ଞପ୍ତି ସାରାଂଶର ଅନୁମତି ଦିଅନ୍ତୁ"</string>
+    <string name="notification_excluded_apps" msgid="6648267716069216826">"ଆପ ବ୍ୟତିକ୍ରମ"</string>
+    <string name="notification_app_level_summarize_title" msgid="3829343457958246733">"ବିଜ୍ଞପ୍ତିଗୁଡ଼ିକର ସାରାଂଶ ପ୍ରସ୍ତୁତ କରନ୍ତୁ"</string>
+    <string name="notification_app_level_summarize_subtext" msgid="7949649262631157728">"ଏହି ଆପରୁ ବାର୍ତ୍ତାଳାପ ବିଜ୍ଞପ୍ତିଗୁଡ଼ିକର ସାରାଂଶ ପ୍ରସ୍ତୁତ କରନ୍ତୁ"</string>
     <string name="live_notifications" msgid="4650406646292963831">"ଲାଇଭ ବିଜ୍ଞପ୍ତି"</string>
     <string name="live_notifications_switch" msgid="50547709843410137">"ଲାଇଭ ସୂଚନା ଦେଖାନ୍ତୁ"</string>
     <string name="live_notifications_desc" msgid="7383414458419053003">"ପିନ କରାଯାଇଥିବା ବିଜ୍ଞପ୍ତିଗୁଡ଼ିକ ଆପ୍ସରୁ ଲାଇଭ ସୂଚନା ଡିସପ୍ଲେ କରେ ଏବଂ ସର୍ବଦା ଷ୍ଟାଟସ ବାର ଓ ଲକ ସ୍କ୍ରିନରେ ଦେଖାଯାଏ"</string>
@@ -3863,7 +3872,7 @@
     <string name="notif_listener_more_settings_desc" msgid="7995492074281663658">"ଏହି ଆପରେ ଅଧିକ ସେଟିଂସ ଉପଲବ୍ଧ ଅଛି"</string>
     <string name="notification_polite_title" msgid="6121016426991791557">"ବିଜ୍ଞପ୍ତି କୁଲଡାଉନ"</string>
     <string name="notification_polite_main_control_title" msgid="5812529809151927149">"ବିଜ୍ଞପ୍ତି କୁଲଡାଉନ ବ୍ୟବହାର କରନ୍ତୁ"</string>
-    <string name="notification_polite_description" msgid="5497748284893832854">"ଆପଣ ଅଳ୍ପ ସମୟ ମଧ୍ୟରେ ଅନେକ ବିଜ୍ଞପ୍ତି ପାଇଲେ, ଆପଣଙ୍କ ଡିଭାଇସ ଏହାର ଭଲ୍ୟୁମକୁ କମ କରି 2 ମିନିଟ ପର୍ଯ୍ୟନ୍ତ ଆଲର୍ଟକୁ ହ୍ରାସ କରିବ। କଲ, ଆଲାରାମ ଏବଂ ପ୍ରାଥମିକତା ଥିବା ବାର୍ତ୍ତାଳାପଗୁଡ଼ିକ ପ୍ରଭାବିତ ହୁଏ ନାହିଁ। \n\nକୁଲଡାଉନ ସମୟରେ ପାଇଥିବା ବିଜ୍ଞପ୍ତିଗୁଡ଼ିକ ସ୍କ୍ରିନର ଉପରୁ ତଳକୁ ଟାଣି ପାଇପାରିବେ।"</string>
+    <string name="notification_polite_description" msgid="6137533404978878957">"ଆପଣ ଅଳ୍ପ ସମୟ ମଧ୍ୟରେ ଅନେକ ବିଜ୍ଞପ୍ତି ପାଇଲେ, ଆପଣଙ୍କ ଡିଭାଇସ ଏହାର ଭଲ୍ୟୁମକୁ କମ କରି 1 ମିନିଟ ପର୍ଯ୍ୟନ୍ତ ଆଲର୍ଟକୁ ହ୍ରାସ କରିବ। କଲ, ଆଲାରାମ ଏବଂ ପ୍ରାଥମିକତା ଥିବା ବାର୍ତ୍ତାଳାପଗୁଡ଼ିକ ପ୍ରଭାବିତ ହୁଏ ନାହିଁ। \n\nକୁଲଡାଉନ ସମୟରେ ପାଇଥିବା ବିଜ୍ଞପ୍ତିଗୁଡ଼ିକ ସ୍କ୍ରିନର ଉପରୁ ତଳକୁ ଟାଣି ପାଇପାରିବେ।"</string>
     <string name="notification_polite_work" msgid="8823596456640216391">"ୱାର୍କ ପ୍ରୋଫାଇଲରେ ଲାଗୁ କରନ୍ତୁ"</string>
     <string name="notification_polite_work_summary" msgid="5014189280132951378">"ୱାର୍କ ପ୍ରୋଫାଇଲ ଆପ୍ସରେ ଲାଗୁ କରନ୍ତୁ"</string>
     <string name="notification_bundle_title" msgid="460988459835922719">"ବଣ୍ଡଲ ହୋଇଥିବା ବିଜ୍ଞପ୍ତି"</string>
@@ -3871,14 +3880,10 @@
     <string name="notification_bundle_off" msgid="1550261372988157377">"ବନ୍ଦ ଅଛି"</string>
     <string name="notification_bundle_main_control_title" msgid="4746182488388939403">"ବିଜ୍ଞପ୍ତି ବଣ୍ଡଲିଂ ବ୍ୟବହାର କରନ୍ତୁ"</string>
     <string name="notification_bundle_description" msgid="3896142878395333784">"ଏକ ଶାନ୍ତ ଅନୁଭୂତି ପାଇଁ ସମାନ ଥିମଗୁଡ଼ିକ ଥିବା ବିଜ୍ଞପ୍ତିଗୁଡ଼ିକୁ ନୀରବ ଏବଂ ଏକାଠି ଗ୍ରୁପ୍ କରାଯିବ। ବଣ୍ଡଲିଂ ଏକ ଆପର ନିଜସ୍ୱ ବିଜ୍ଞପ୍ତି ସେଟିଂସକୁ ଓଭରରାଇଡ କରିବ।"</string>
-    <!-- no translation found for notification_app_level_bundle_title (8917807675495480483) -->
-    <skip />
-    <!-- no translation found for notification_app_level_bundle_subtext (7330731485247761388) -->
-    <skip />
-    <!-- no translation found for notification_bundle_excluded_description (7249934130756103812) -->
-    <skip />
-    <!-- no translation found for notification_bundle_manage_excluded_apps_title (7019831234073590293) -->
-    <skip />
+    <string name="notification_app_level_bundle_title" msgid="8917807675495480483">"ବଣ୍ଡଲ ବିଜ୍ଞପ୍ତି"</string>
+    <string name="notification_app_level_bundle_subtext" msgid="7330731485247761388">"ଏକ ଶାନ୍ତ ଅନୁଭୂତି ପାଇଁ ସମାନ ଥିମଗୁଡ଼ିକ ଥିବା ବିଜ୍ଞପ୍ତିଗୁଡ଼ିକୁ ନୀରବ ଏବଂ ଏକାଠି ଗ୍ରୁପ କରାଯିବ"</string>
+    <string name="notification_bundle_excluded_description" msgid="7249934130756103812">"ଏହି ଆପ୍ସରୁ ବିଜ୍ଞପ୍ତିଗୁଡ଼ିକ ବଣ୍ଡଲ ହେବ ନାହିଁ"</string>
+    <string name="notification_bundle_manage_excluded_apps_title" msgid="7019831234073590293">"ଆପ୍ସ ପାଇଁ ବିଜ୍ଞପ୍ତି ବଣ୍ଡଲିଂକୁ ଅନୁମତି ଦିଅନ୍ତୁ"</string>
     <string name="vr_listeners_title" msgid="4960357292472540964">"VR ସାହାଯ୍ୟକାରୀ ସେବାଗୁଡ଼ିକ"</string>
     <string name="no_vr_listeners" msgid="8442646085375949755">"VR ସାହାଯ୍ୟକାରୀ ସେବାଗୁଡ଼ିକ ଭାବରେ ଚଲାଯିବା ପାଇଁ, ଇନଷ୍ଟଲ ହୋଇଥିବା କୌଣସି ଆପ୍ସ ଅନୁରୋଧ କରିନାହିଁ।"</string>
     <string name="vr_listener_security_warning_title" msgid="7026351795627615177">"<xliff:g id="SERVICE">%1$s</xliff:g> ପାଇଁ VR ସେବା ଆକ୍ସେସକୁ ଅନୁମତି ଦେବେ?"</string>
@@ -4226,10 +4231,13 @@
     <string name="default_phone_title" msgid="7616730756650803827">"ଫୋନ୍‌ ଆପ୍‌"</string>
     <string name="system_app" msgid="1863291702508355041">"(ସିଷ୍ଟମ୍‌)"</string>
     <string name="apps_storage" msgid="643866814746927111">"ଆପ୍‌ ଷ୍ଟୋରେଜ୍"</string>
-    <string name="usage_access" msgid="5487993885373893282">"ବ୍ୟବହାରର ଆକ୍ସେସ୍"</string>
-    <string name="permit_usage_access" msgid="179630895262172674">"ବ୍ୟବହାରର ଆକ୍ସେସକୁ ଅନୁମତି ଦିଅନ୍ତୁ"</string>
+    <!-- no translation found for usage_access (640680494210288246) -->
+    <skip />
+    <!-- no translation found for permit_usage_access (1590518257313260262) -->
+    <skip />
     <string name="time_spent_in_app_pref_title" msgid="25327097913383330">"ସ୍କ୍ରିନ ସମୟ"</string>
-    <string name="usage_access_description" msgid="8547716253713890707">"ଅନ୍ୟ ଆପଗୁଡ଼ିକ କଣ ଓ କେତେଥର ଆପଣ ବ୍ୟବହାର କରୁଛନ୍ତି, ତଥା ଆପଣଙ୍କ କ୍ୟାରିଅର, ଭାଷା ସେଟିଂସ, ଓ ଅନ୍ୟ ବିବରଣୀ ଟ୍ରାକ କରିବା ପାଇଁ ଏକ ଆପକୁ ବ୍ୟବହାର ଆକ୍ସେସ ଅନୁମତି ଦେଇଥାଏ।"</string>
+    <!-- no translation found for usage_access_description (2593955296993609047) -->
+    <skip />
     <string name="memory_settings_title" msgid="6582588646363308430">"ମେମୋରୀ"</string>
     <string name="always_running" msgid="9012705720688200252">"ସର୍ବଦା (<xliff:g id="PERCENTAGE">%s</xliff:g>) ଚାଲୁଛି"</string>
     <string name="sometimes_running" msgid="7954947311082655448">"(<xliff:g id="PERCENTAGE">%s</xliff:g>) କିଛି ଚାଲୁଛି"</string>
@@ -4241,8 +4249,7 @@
     <string name="high_power_off" msgid="317000444619279018">"ଅପ୍ଟିମାଇଜିଂ ବ୍ୟାଟେରୀ ବ୍ୟବହାର"</string>
     <string name="high_power_system" msgid="3966701453644915787">"ବ୍ୟାଟେରୀ ଅପ୍ଟିମାଇଜେସନ୍ ଉପଲବ୍ଧ ନାହିଁ"</string>
     <string name="high_power_prompt_title" msgid="2574478825228409124">"ଆପ‌ଟିକୁ ପୃଷ୍ଠପଟରେ ସର୍ବଦା ଚାଲୁ ରହିବାକୁ ଦେବେ କି?"</string>
-    <!-- no translation found for high_power_prompt_body (8570446878622133298) -->
-    <skip />
+    <string name="high_power_prompt_body" msgid="8570446878622133298">"<xliff:g id="APP_NAME">%1$s</xliff:g>କୁ ସର୍ବଦା ବେକଗ୍ରାଉଣ୍ଡରେ ଚାଲିବାକୁ ଅନୁମତି ଦେବା ଦ୍ୱାରା ବେଟେରୀ ଲାଇଫ ହ୍ରାସ ହୋଇପାରେ। \n\nଆପଣ ଏହାକୁ ପରେ ସେଟିଂସ -&gt; ଆପ୍ସରୁ ପରିବର୍ତ୍ତନ କରିପାରିବେ।"</string>
     <string name="battery_summary" msgid="2491764359695671207">"ଗତଥର ସମ୍ପୂର୍ଣ୍ଣ ଚାର୍ଜ ହେବା ପରଠାରୁ <xliff:g id="PERCENTAGE">%1$s</xliff:g> ବ୍ୟବହୃତ"</string>
     <string name="battery_summary_24hr" msgid="7656033283282656551">"ଗତ 24 ଘଣ୍ଟାରେ <xliff:g id="PERCENTAGE">%1$s</xliff:g> ବ୍ୟବହାର କରାଯାଇଛି"</string>
     <string name="no_battery_summary" msgid="5769159953384122003">"ଗତଥର ପୂର୍ଣ୍ଣ ଚାର୍ଜ ହେବାଠାରୁ ବ୍ୟାଟେରୀର କୌଣସି ବ୍ୟବହାର ହୋଇନାହିଁ"</string>
@@ -4328,7 +4335,8 @@
     <string name="ignore_optimizations_on_desc" msgid="1280043916460939932">"ଆପଣଙ୍କ ବ୍ୟାଟେରୀ ଖୁବ୍ ଶୀଘ୍ର ସରିଯାଇପାରେ। ବ୍ୟାକଗ୍ରାଉଣ୍ଡ ବ୍ୟାଟେରୀକୁ ବ୍ୟବହାର କରିବା ପାଇଁ ଆଉ ଆପ୍‍କୁ ବାଧା ଦେଇହେବ ନାହିଁ।"</string>
     <string name="ignore_optimizations_off_desc" msgid="3324571675983286177">"ବ୍ୟାଟେରୀ କାମ କରିବା ସମୟ ବଢାଇବାକୁ ସୁପାରିଶ କରାଯାଇଛି"</string>
     <string name="app_list_preference_none" msgid="1635406344616653756">"କିଛି ନୁହେଁ"</string>
-    <string name="work_profile_usage_access_warning" msgid="3477719910927319122">"ଏହି ଆପ୍‌ ପାଇଁ ବ୍ୟବହାର ଆକ୍ସେସ୍ ବନ୍ଦ‌ କରିବା ଦ୍ୱାରା ଆପଣଙ୍କ କାର୍ଯ୍ୟ ପ୍ରୋଫାଇଲରେ ଥିବା ଡାଟା ବ୍ୟବହାର ଉପରେ ନଜର ରଖିବାରୁ ଆପଣଙ୍କ ଆଡମିନ୍‌‌କୁ ରୋକେନାହିଁ"</string>
+    <!-- no translation found for work_profile_usage_access_warning (7579246573371327219) -->
+    <skip />
     <string name="draw_overlay" msgid="7902083260500573027">"ଅନ୍ୟ ଆପ୍ସ ଉପରେ ଡିସପ୍ଲେ କରେ"</string>
     <string name="system_alert_window_settings" msgid="6458633954424862521">"ଅନ୍ୟ ଆପ୍‌ଗୁଡ଼ିକ ଉପରେ ଦେଖାନ୍ତୁ"</string>
     <string name="permit_draw_overlay" msgid="4468994037192804075">"ଅନ୍ୟ ଆପ୍‌ଗୁଡ଼ିକ ଉପରେ ଦେଖାଇବାକୁ ଅନୁମତି ଦିଅନ୍ତୁ"</string>
@@ -4376,7 +4384,7 @@
     <string name="disconnected" msgid="3469373726996129247">"କନେକ୍ଟ ହୋଇନାହିଁ"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"କନେକ୍ଟ ହୋ‍ଇନାହିଁ"</string>
     <string name="apps_summary" msgid="4007416751775414252">"<xliff:g id="COUNT">%1$d</xliff:g>ଟି ଆପ୍‌ ଇନ୍‌ଷ୍ଟଲ୍‌ ହୋଇଛି"</string>
-    <string name="storage_summary" msgid="5903562203143572768">"<xliff:g id="PERCENTAGE">%1$s</xliff:g> ବ୍ୟବହୃତ - <xliff:g id="FREE_SPACE">%2$s</xliff:g> ଖାଲି"</string>
+    <string name="storage_summary" msgid="7631468664968572688">"<xliff:g id="PERCENTAGE">%1$s</xliff:g> ବ୍ୟବହୃତ - <xliff:g id="FREE_SPACE_VALUE">%2$s</xliff:g> <xliff:g id="FREE_SPACE_UNITS">%3$s</xliff:g> ଖାଲି"</string>
     <string name="display_dashboard_summary" msgid="1599453894989339454">"ଗାଢ଼ା ଥିମ୍, ଫଣ୍ଟର ଆକାର, ଉଜ୍ଜ୍ୱଳତା"</string>
     <string name="memory_summary" msgid="8221954450951651735">"<xliff:g id="TOTAL_MEMORY">%2$s</xliff:g> ମେମୋରୀର ହାରାହାରି <xliff:g id="USED_MEMORY">%1$s</xliff:g> ବ୍ୟବହୃତ"</string>
     <string name="users_summary" msgid="8473589474976307510">"<xliff:g id="USER_NAME">%1$s</xliff:g> ଭାବରେ ସାଇନ ଇନ କରିଛନ୍ତି"</string>
@@ -4445,6 +4453,7 @@
     <string name="ethernet_data_usage" msgid="4552227880905679761">"ଇଥରନେଟ୍‌ ଦ୍ୱାରା ବ୍ୟବହୃତ ଡାଟା"</string>
     <string name="wifi" msgid="2932584495223243842">"ୱାଇ-ଫାଇ"</string>
     <string name="ethernet" msgid="4665162609974492983">"ଇଥରନେଟ୍‌"</string>
+    <string name="ethernet_interface_title" msgid="1634881244068292765">"ଇଥରନେଟ <xliff:g id="INTERFACEID">%1$s</xliff:g>"</string>
     <string name="cell_data_template" msgid="6077963976103260821">"<xliff:g id="AMOUNT">^1</xliff:g> ମୋବାଇଲ୍‌ ଡାଟା"</string>
     <string name="wifi_data_template" msgid="935934798340307438">"<xliff:g id="AMOUNT">^1</xliff:g> ୱାଇ-ଫାଇ ଡାଟା"</string>
     <string name="ethernet_data_template" msgid="1429173767445201145">"<xliff:g id="AMOUNT">^1</xliff:g> ଇଥରନେଟ୍‌ ଡାଟା"</string>
@@ -4997,19 +5006,31 @@
     <string name="satellite_setting_title" msgid="2543034229989047673">"ସେଟେଲାଇଟ ମେସେଜିଂ"</string>
     <string name="satellite_setting_enabled_summary" msgid="3554127722727530845">"ସେଟେଲାଇଟ ମାଧ୍ୟମରେ ଟେକ୍ସଟ ମେସେଜଗୁଡ଼ିକ ପଠାନ୍ତୁ ଏବଂ ପାଆନ୍ତୁ। ଆପଣଙ୍କ ଆକାଉଣ୍ଟରେ ଅନ୍ତର୍ଭୁକ୍ତ।"</string>
     <string name="satellite_setting_disabled_summary" msgid="8428393986403708690">"ସେଟେଲାଇଟ ମାଧ୍ୟମରେ ଟେକ୍ସଟ ମେସେଜଗୁଡ଼ିକ ପଠାନ୍ତୁ ଏବଂ ପାଆନ୍ତୁ। ଆପଣଙ୍କ ଆକାଉଣ୍ଟ ସହ ଅନ୍ତର୍ଭୁକ୍ତ ନାହିଁ।"</string>
+    <string name="satellite_setting_summary_without_entitlement" msgid="5284998840770992554">"ସେଟେଲାଇଟ ମାଧ୍ୟମରେ ଟେକ୍ସଟ ମେସେଜଗୁଡ଼ିକ ପଠାନ୍ତୁ ଏବଂ ପାଆନ୍ତୁ। ବିବରଣୀ ପାଇଁ ଆପଣଙ୍କ କେରିଅର ସହ କଣ୍ଟାକ୍ଟ କରନ୍ତୁ।"</string>
     <string name="keywords_satellite_setting" msgid="613553612424945946">"ସେଟେଲାଇଟ ମେସେଜିଂ, ସେଟେଲାଇଟ କନେକ୍ଟିଭିଟି"</string>
     <string name="category_name_about_satellite_messaging" msgid="4978095955643523120">"<xliff:g id="SUBJECT">%1$s</xliff:g> ବିଷୟରେ"</string>
     <string name="title_about_satellite_setting" msgid="3563087940535642558">"ଆପଣ ଏକ ଯୋଗ୍ୟ <xliff:g id="CARRIER_NAME">%1$s</xliff:g> ଆକାଉଣ୍ଟ ସହ ସେଟେଲାଇଟ ମାଧ୍ୟମରେ ଟେକ୍ସଟ ମେସେଜ ପଠାଇପାରିବେ ଏବଂ ପାଇପାରିବେ"</string>
     <string name="category_title_your_satellite_plan" msgid="8169426217950247126">"ଆପଣଙ୍କ <xliff:g id="CARRIER_NAME">%1$s</xliff:g> ଆକାଉଣ୍ଟ"</string>
-    <string name="title_have_satellite_plan" msgid="857337944804101443">"ଆପଣଙ୍କ ଆକାଉଣ୍ଟରେ ମେସେଜିଂ ଅନ୍ତର୍ଭୁକ୍ତ"</string>
+    <string name="title_have_satellite_plan" msgid="2048372355699977947">"ଆପଣଙ୍କ ଆକାଉଣ୍ଟ ସହ ସେଟେଲାଇଟ ମେସେଜିଂ ଅନ୍ତର୍ଭୁକ୍ତ"</string>
     <string name="title_no_satellite_plan" msgid="2876056203035197505">"ଆପଣଙ୍କ ଆକାଉଣ୍ଟ ସହ ସେଟେଲାଇଟ ମେସେଜିଂ ଅନ୍ତର୍ଭୁକ୍ତ ନୁହେଁ"</string>
     <string name="summary_add_satellite_setting" msgid="190359698593056946">"ଅଧିକ ଜାଣନ୍ତୁ"</string>
     <string name="category_name_how_it_works" msgid="585303230539269496">"ଏହା କିପରି କାମ କରେ"</string>
     <string name="title_satellite_connection_guide" msgid="3294802307913609072">"ଆପଣଙ୍କର ଏକ ମୋବାଇଲ ନେଟୱାର୍କ ନଥିବା ସମୟରେ"</string>
+    <!-- no translation found for title_satellite_connection_guide_for_manual_type (7223875100977941341) -->
+    <skip />
     <string name="summary_satellite_connection_guide" msgid="3496123195218418456">"ଆପଣଙ୍କ ଫୋନ ଏକ ସେଟେଲାଇଟ ସହ ସ୍ୱତଃ-କନେକ୍ଟ ହେବ। ସର୍ବୋତ୍ତମ କନେକ୍ସନ ପାଇଁ ଆକାଶର ଏକ ସ୍ପଷ୍ଟ ଭ୍ୟୁ ରଖନ୍ତୁ।"</string>
+    <!-- no translation found for summary_satellite_connection_guide_for_manual_type (5075149380084376662) -->
+    <skip />
     <string name="title_supported_service" msgid="4275535165812691571">"ଆପଣଙ୍କ ଫୋନ ଏକ ସେଟେଲାଇଟରେ କନେକ୍ଟ ହେବା ପରେ"</string>
+    <!-- no translation found for title_supported_service_for_manual_type (6009284624466359864) -->
+    <skip />
     <string name="summary_supported_service" msgid="4320535903444834786">"ଜରୁରୀକାଳୀନ ସେବାଗୁଡ଼ିକ ସମେତ ଆପଣ ଯେ କୌଣସି ବ୍ୟକ୍ତିଙ୍କୁ ଟେକ୍ସଟ କରିପାରିବେ। ଉପଲବ୍ଧ ଥିଲେ ଆପଣଙ୍କ ଫୋନ ଏକ ମୋବାଇଲ ନେଟୱାର୍କ ସହ ପୁଣି କନେକ୍ଟ କରିବ।"</string>
-    <string name="satellite_setting_summary_more_information" msgid="1028146147094166868">"<xliff:g id="SUBJECT">%1$s</xliff:g> ପାଇଁ ଅଧିକ ସମୟ ଲାଗିପାରେ ଏବଂ ଏହା କେବଳ କିଛି ଏରିଆରେ ଉପଲବ୍ଧ ଅଟେ। ପାଣିପାଗ ଏବଂ ନିର୍ଦ୍ଦିଷ୍ଟ ଷ୍ଟ୍ରକଚରଗୁଡ଼ିକ ଆପଣଙ୍କ ସେଟେଲାଇଟ କନେକ୍ସନକୁ ପ୍ରଭାବିତ କରିପାରେ। ସେଟେଲାଇଟ ମାଧ୍ୟମରେ କଲିଂ ଉପଲବ୍ଧ ନାହିଁ। ଜରୁରୀକାଳୀନ କଲଗୁଡ଼ିକ ଏବେ ବି କନେକ୍ଟ ହୋଇପାରେ।\n\nସେଟିଂସରେ ଆକାଉଣ୍ଟ ପରିବର୍ତ୍ତନଗୁଡ଼ିକ ଦେଖାଯିବା ପାଇଁ କିଛି ସମୟ ଲାଗିପାରେ। ବିବରଣୀ ପାଇଁ <xliff:g id="CARRIER_NAME">%2$s</xliff:g> ସହ କଣ୍ଟାକ୍ଟ କରନ୍ତୁ।"</string>
+    <!-- no translation found for summary_supported_service_for_manual_type (2147958362763058271) -->
+    <skip />
+    <!-- no translation found for satellite_setting_summary_more_information (276312352285564071) -->
+    <skip />
+    <!-- no translation found for satellite_setting_summary_more_information_no_emergency_messaging (2090170250936862158) -->
+    <skip />
     <string name="more_about_satellite_messaging" msgid="1039277943532711584">"<xliff:g id="SUBJECT">%1$s</xliff:g> ବିଷୟରେ ଅଧିକ ସୂଚନା"</string>
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"<xliff:g id="FUNCTION">%1$s</xliff:g>କୁ ଚାଲୁ କରାଯାଇପାରିବ ନାହିଁ"</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"<xliff:g id="FUNCTION">%1$s</xliff:g>କୁ ଚାଲୁ କରିବା ପାଇଁ ପ୍ରଥମେ ସେଟେଲାଇଟ କନେକ୍ସନକୁ ସମାପ୍ତ କରନ୍ତୁ"</string>
@@ -5018,6 +5039,9 @@
     <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"ସେଟେଲାଇଟ କନେକ୍ଟିଭିଟି"</string>
     <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"ସେଟେଲାଇଟ ମେସେଜିଂ"</string>
     <string name="title_have_satellite_data_plan" msgid="5614932315409789011">"ଆପଣଙ୍କ ଆକାଉଣ୍ଟରେ ଡାଟାର ବ୍ୟବହାର ଅନ୍ତର୍ଭୁକ୍ତ"</string>
+    <string name="category_title_satellite_supported_apps" msgid="8445659428502119518">"ଆପଣଙ୍କର ଫୋନରେ ସପୋର୍ଟ କରୁଥିବା ଆପ୍ସ"</string>
+    <string name="title_satellite_supported_app_list_entry" msgid="3227843312488003028">"ସମସ୍ତ ଆପ ଦେଖନ୍ତୁ"</string>
+    <string name="title_satellite_supported_app_list_page" msgid="318806852682483512">"ଆପଣଙ୍କର ଫୋନରେ ସପୋର୍ଟ କରୁଥିବା ଆପ୍ସ"</string>
     <string name="mobile_network_apn_title" msgid="5582995550142073054">"ଆକ୍ସେସ ପଏଣ୍ଟ ନାମ"</string>
     <string name="keywords_access_point_names" msgid="8174967126858505945">"APN"</string>
     <string name="manual_mode_disallowed_summary" msgid="4243142645520152175">"<xliff:g id="CARRIER">%1$s</xliff:g>କୁ ସଂଯୁକ୍ତ ହୋଇଥିବା ସମୟରେ ଉପଲବ୍ଧ ନଥାଏ"</string>
@@ -5185,27 +5209,27 @@
     <string name="work_policy_privacy_settings" msgid="2702644843505242596">"ଆପଣଙ୍କ କାର୍ଯ୍ୟ ନୀତି ସୂଚନା"</string>
     <string name="work_policy_privacy_settings_summary" msgid="690118670737638405">"ଆପଣଙ୍କ IT ଆଡମିନଙ୍କ ଦ୍ୱାରା ସେଟିଂସ ପରିଚାଳିତ କରାଯାଇଛି।"</string>
     <string name="track_frame_time_keywords" msgid="7885340257945922239">"GPU"</string>
-    <string name="enable_16k_pages" msgid="8001470927566110689">"16KB ପୃଷ୍ଠା ସାଇଜ ସହ ବୁଟ କରନ୍ତୁ"</string>
-    <string name="enable_16k_pages_summary" msgid="1964363364670306912">"16KB ପୃଷ୍ଠା ସାଇଜ ସମର୍ଥିତ କର୍ନେଲ ବ୍ୟବହାର କରି ଡିଭାଇସ ବୁଟ କର"</string>
-    <string name="confirm_enable_16k_pages_title" msgid="611010487387251491">"4KB ମୋଡରୁ 16KB ମୋଡକୁ ସୁଇଚ କରନ୍ତୁ"</string>
-    <string name="confirm_enable_16k_pages_text" msgid="6129208614283750541">"ଆପଣ ଏକ 4KB କର୍ଣ୍ଣେଲରେ ଚାଲୁଥିବା ପୃଷ୍ଠା-ଆଗ୍ନୋଷ୍ଟିକ ମୋଡରେ ଅଛନ୍ତି ଏବଂ 16KB ମୋଡକୁ ସୁଇଚ କରୁଛନ୍ତି। ଏହି ମୋଡରେ ସଫ୍ଟୱେର ଇଣ୍ଟିଗ୍ରିଟିକୁ ଗେରେଣ୍ଟି ଦିଆଯାଇପାରିବ ନାହିଁ ଏବଂ ବୁଟଲୋଡର ଅନଲକ ଥିବା ସମୟରେ ଫୋନରେ ଷ୍ଟୋର କରାଯାଇଥିବା ଯେ କୌଣସି ଡାଟା ବିପଦରେ ପଡ଼ିପାରେ। ଏହା ଡିଭାଇସକୁ ରିବୁଟ କରିବ। ଏହି ମୋଡଗୁଡ଼ିକରେ କିଛି ଫିଚରକୁ ଅକ୍ଷମ କରିଦିଆଯିବ, ଯାହା ଫଳରେ କିଛି ଆପ୍ଲିକେସନ କାମ କରିନପାରେ। ଡିଭାଇସକୁ ପ୍ରଡକ୍ସନ ମୋଡକୁ ଫେରାଇ ଆଣିବା ପାଇଁ ଆପଣଙ୍କୁ 4KB ମୋଡକୁ ପୁଣି ସୁଇଚ କରି ବୁଟଲୋଡରକୁ ଲକ କରିବାକୁ ହେବ ଯାହା ଡିଭାଇସକୁ ଫେକ୍ଟୋରୀ ରିସେଟ କରେ। Androidରେ ସଫଳତାର ସହ ଡିଭାଇସ ବୁଟ ହେବା ପରେ ଡେଭେଲପର ବିକଳ୍ପରେ OEM ଅନଲକିଂକୁ ଅକ୍ଷମ କରନ୍ତୁ।"</string>
-    <string name="confirm_enable_4k_pages_title" msgid="3210360137887034659">"16KB ମୋଡରୁ 4KB ମୋଡକୁ ସୁଇଚ କରନ୍ତୁ"</string>
-    <string name="confirm_enable_4k_pages_text" msgid="155070605667160083">"ଆପଣ ଏକ 16KB କର୍ଣ୍ଣେଲରେ ଚାଲୁଥିବା ପୃଷ୍ଠା-ଆଗ୍ନୋଷ୍ଟିକ ମୋଡରେ ଅଛନ୍ତି ଏବଂ ଆପଣ 4KB ମୋଡକୁ ସୁଇଚ କରୁଛନ୍ତି। ଏହି ମୋଡରେ ସଫ୍ଟୱେର ଇଣ୍ଟିଗ୍ରିଟିକୁ ଗେରେଣ୍ଟି ଦିଆଯାଇପାରିବ ନାହିଁ ଏବଂ ବୁଟଲୋଡର ଅନଲକ ଥିବା ସମୟରେ ଫୋନରେ ଷ୍ଟୋର କରାଯାଇଥିବା ଯେ କୌଣସି ଡାଟା ବିପଦରେ ପଡ଼ିପାରେ। ଏହା ଡିଭାଇସକୁ ରିବୁଟ କରିବ। ଏହି ମୋଡଗୁଡ଼ିକରେ କିଛି ଫିଚରକୁ ଅକ୍ଷମ କରିଦିଆଯିବ, ଯାହା ଫଳରେ କିଛି ଆପ୍ଲିକେସନ କାମ କରିନପାରେ। ଡିଭାଇସକୁ ପ୍ରଡକ୍ସନ ମୋଡକୁ ଫେରାଇ ଆଣିବା ପାଇଁ ଆପଣଙ୍କୁ ଡିଭାଇସକୁ ଫେକ୍ଟୋରୀ ରିସେଟ କରୁଥିବା ବୁଟଲୋଡରକୁ ଲକ କରିବାକୁ ହେବ। Androidରେ ସଫଳତାର ସହ ଡିଭାଇସ ବୁଟ ହେବା ପରେ ଡେଭେଲପର ବିକଳ୍ପରେ OEM ଅନଲକିଂକୁ ଅକ୍ଷମ କରନ୍ତୁ।"</string>
-    <string name="toast_16k_update_failed_text" msgid="8888858987184345567">"କର୍ନେଲକୁ 16KB ପେଜ କମ୍ପାଟିବଲ କର୍ନେଲରେ ଅପଡେଟ କରିବାରେ ବିଫଳ ହୋଇଛି।"</string>
+    <string name="enable_16k_pages" msgid="1758111531461408337">"16 KB ପୃଷ୍ଠା ସାଇଜ ସହ ବୁଟ କରନ୍ତୁ"</string>
+    <string name="enable_16k_pages_summary" msgid="1937836453571509085">"16 KB ପୃଷ୍ଠା ସାଇଜ ସପୋର୍ଟ କରୁଥିବା କର୍ନେଲ ବ୍ୟବହାର କରି ଡିଭାଇସ ବୁଟ କର"</string>
+    <string name="confirm_enable_16k_pages_title" msgid="5477376227161609124">"4 KB ମୋଡରୁ 16 KB ମୋଡକୁ ସୁଇଚ କରନ୍ତୁ"</string>
+    <string name="confirm_enable_16k_pages_text" msgid="6211693250692246982">"ଆପଣ ଏକ 4 KB କର୍ଣ୍ଣେଲରେ ଚାଲୁଥିବା ପୃଷ୍ଠା-ଆଗ୍ନୋଷ୍ଟିକ ମୋଡରେ ଅଛନ୍ତି ଏବଂ 16 KB ମୋଡକୁ ସୁଇଚ କରୁଛନ୍ତି। ଏହି ମୋଡରେ ସଫ୍ଟୱେର ଇଣ୍ଟିଗ୍ରିଟିକୁ ଗେରେଣ୍ଟି ଦିଆଯାଇପାରିବ ନାହିଁ ଏବଂ ବୁଟଲୋଡର ଅନଲକ ଥିବା ସମୟରେ ଫୋନରେ ଷ୍ଟୋର କରାଯାଇଥିବା ଯେ କୌଣସି ଡାଟା ବିପଦରେ ପଡ଼ିପାରେ। ଏହା ଡିଭାଇସକୁ ରିବୁଟ କରିବ। ଏହି ମୋଡଗୁଡ଼ିକରେ କିଛି ଫିଚରକୁ ଅକ୍ଷମ କରିଦିଆଯିବ, ଯାହା ଫଳରେ କିଛି ଆପ୍ଲିକେସନ କାମ କରିନପାରେ। ଡିଭାଇସକୁ ପ୍ରଡକ୍ସନ ମୋଡକୁ ଫେରାଇ ଆଣିବା ପାଇଁ ଆପଣଙ୍କୁ 4 KB ମୋଡକୁ ପୁଣି ସୁଇଚ କରି ବୁଟଲୋଡରକୁ ଲକ କରିବାକୁ ହେବ ଯାହା ଡିଭାଇସକୁ ଫେକ୍ଟୋରୀ ରିସେଟ କରେ। Androidରେ ସଫଳତାର ସହ ଡିଭାଇସ ବୁଟ ହେବା ପରେ ଡେଭେଲପର ବିକଳ୍ପରେ OEM ଅନଲକିଂକୁ ଅକ୍ଷମ କରନ୍ତୁ।"</string>
+    <string name="confirm_enable_4k_pages_title" msgid="3001009010581393119">"4 KB ମୋଡରୁ 16 KB ମୋଡକୁ ସୁଇଚ କରନ୍ତୁ"</string>
+    <string name="confirm_enable_4k_pages_text" msgid="3398001587586470689">"ଆପଣ ଏକ 4 KB କର୍ଣ୍ଣେଲରେ ଚାଲୁଥିବା ପୃଷ୍ଠା-ଆଗ୍ନୋଷ୍ଟିକ ମୋଡରେ ଅଛନ୍ତି ଏବଂ 16 KB ମୋଡକୁ ସୁଇଚ କରୁଛନ୍ତି। ଏହି ମୋଡରେ ସଫ୍ଟୱେର ଇଣ୍ଟିଗ୍ରିଟିକୁ ଗେରେଣ୍ଟି ଦିଆଯାଇପାରିବ ନାହିଁ ଏବଂ ବୁଟଲୋଡର ଅନଲକ ଥିବା ସମୟରେ ଫୋନରେ ଷ୍ଟୋର କରାଯାଇଥିବା ଯେ କୌଣସି ଡାଟା ବିପଦରେ ପଡ଼ିପାରେ। ଏହା ଡିଭାଇସକୁ ରିବୁଟ କରିବ। ଏହି ମୋଡଗୁଡ଼ିକରେ କିଛି ଫିଚରକୁ ଅକ୍ଷମ କରିଦିଆଯିବ, ଯାହା ଫଳରେ କିଛି ଆପ୍ଲିକେସନ କାମ କରିନପାରେ। ଡିଭାଇସକୁ ପ୍ରଡକ୍ସନ ମୋଡକୁ ଫେରାଇ ଆଣିବା ପାଇଁ ଆପଣଙ୍କୁ ଡିଭାଇସକୁ ଫେକ୍ଟୋରୀ ରିସେଟ କରୁଥିବା ବୁଟଲୋଡରକୁ ଲକ କରିବାକୁ ହେବ। Androidରେ ସଫଳତାର ସହ ଡିଭାଇସ ବୁଟ ହେବା ପରେ ଡେଭେଲପର ବିକଳ୍ପରେ OEM ଅନଲକିଂକୁ ଅକ୍ଷମ କରନ୍ତୁ।"</string>
+    <string name="toast_16k_update_failed_text" msgid="7848383020572918850">"କର୍ନେଲକୁ 16 KB ପେଜ କମ୍ପାଟିବଲ କର୍ନେଲରେ ଅପଡେଟ କରିବାରେ ବିଫଳ ହୋଇଛି।"</string>
     <string name="progress_16k_ota_title" msgid="2117218313875523741">"ପରିବର୍ତ୍ତନକୁ ଲାଗୁ କରାଯାଉଛି"</string>
-    <string name="confirm_format_ext4_title" msgid="6696191800594435577">"ଡିଭାଇସକୁ ext4ରେ ପୁଣି ଫର୍ମାଟ କରିବେ? (16KB ମୋଡ ପାଇଁ ଆବଶ୍ୟକ)"</string>
-    <string name="confirm_format_ext4_text" msgid="7940372488624630214">"16KB ଡେଭଲପର ବିକଳ୍ପ ବ୍ୟବହାର କରିବା ପୂର୍ବରୁ ଏହି ଡିଭାଇସର ଡାଟା ପାର୍ଟିସନ ext4କୁ କନଭର୍ଟ କରାଯିବା ଆବଶ୍ୟକ। ଏହି ମୋଡରେ ସଫ୍ଟୱେର ଇଣ୍ଟିଗ୍ରିଟିକୁ ଗେରେଣ୍ଟି ଦିଆଯାଇପାରିବ ନାହିଁ ଏବଂ ବୁଟଲୋଡର ଅନଲକ ଥିବା ସମୟରେ ଫୋନରେ ଷ୍ଟୋର କରାଯାଇଥିବା ଯେ କୌଣସି ଡାଟା ବିପଦରେ ପଡ଼ିପାରେ। 16KB ବିକଳ୍ପକୁ ସକ୍ରିୟ କରିବା ପାଇଁ ଏହା ପରେ ଆଉ ଏକ ରିବୁଟ ଆବଶ୍ୟକ ହେବ। ଆପଣ ଏହି ମୋଡରେ ଥିଲେ ଆପଣ ଗୋଟିଏ ସିଙ୍ଗଲ ରିବୁଟ ସହିତ 4KB ଏବଂ 16KB ମୋଡ ମଧ୍ୟରେ ଆଗକୁ ଏବଂ ପଛକୁ ସୁଇଚ କରିପାରିବେ। ଏହି ମୋଡଗୁଡ଼ିକରେ କିଛି ଫିଚରକୁ ଅକ୍ଷମ କରିଦିଆଯିବ, ଯାହା ଫଳରେ କିଛି ଆପ୍ଲିକେସନ କାମ କରିନପାରେ। ଡିଭାଇସକୁ ପ୍ରଡକ୍ସନ ମୋଡକୁ ଫେରାଇ ଆଣିବା ପାଇଁ ଆପଣଙ୍କୁ ଡିଭାଇସକୁ ଫେକ୍ଟୋରୀ ରିସେଟ କରୁଥିବା 4KB ମୋଡକୁ ପୁଣି ସୁଇଚ କରି ତା\'ପରେ ବୁଟଲୋଡରକୁ ଲକ କରିବାକୁ ହେବ। Androidରେ ସଫଳତାର ସହ ଡିଭାଇସ ବୁଟ ହେବା ପରେ ଡେଭେଲପର ବିକଳ୍ପରେ OEM ଅନଲକିଂକୁ ଅକ୍ଷମ କରନ୍ତୁ। ଡିଭାଇସକୁ ୱାଇପ କରାଯିବ ଏବଂ ସୁନିଶ୍ଚିତକରଣ ପରେ ଫାଇଲସିଷ୍ଟମକୁ ext4ରେ ପରିବର୍ତ୍ତନ କରାଯିବ। ଏହା ସମ୍ପୂର୍ଣ୍ଣ ହେବା ପରେ ଦୟାକରି ପୁଣି 16KBକୁ ସକ୍ଷମ କରିବାକୁ ଫେରନ୍ତୁ।"</string>
+    <string name="confirm_format_ext4_title" msgid="4754057414728537125">"ଡିଭାଇସକୁ ext4ରେ ପୁଣି ଫର୍ମାଟ କରିବେ? (16 KB ମୋଡ ପାଇଁ ଆବଶ୍ୟକ)"</string>
+    <string name="confirm_format_ext4_text" msgid="432847493298532536">"16 KB ଡେଭଲପର ବିକଳ୍ପ ବ୍ୟବହାର କରିବା ପୂର୍ବରୁ ଏହି ଡିଭାଇସର ଡାଟା ପାର୍ଟିସନ ext4କୁ କନଭର୍ଟ କରାଯିବା ଆବଶ୍ୟକ। ଏହି ମୋଡରେ ସଫ୍ଟୱେର ଇଣ୍ଟିଗ୍ରିଟିକୁ ଗେରେଣ୍ଟି ଦିଆଯାଇପାରିବ ନାହିଁ ଏବଂ ବୁଟଲୋଡର ଅନଲକ ଥିବା ସମୟରେ ଫୋନରେ ଷ୍ଟୋର କରାଯାଇଥିବା ଯେ କୌଣସି ଡାଟା ବିପଦରେ ପଡ଼ିପାରେ। 16 KB ବିକଳ୍ପକୁ ସକ୍ରିୟ କରିବା ପାଇଁ ଏହା ପରେ ଆଉ ଏକ ରିବୁଟ ଆବଶ୍ୟକ ହେବ। ଆପଣ ଏହି ମୋଡରେ ଥିଲେ ଆପଣ ଗୋଟିଏ ସିଙ୍ଗଲ ରିବୁଟ ସହିତ 4 KB ଏବଂ 16 KB ମୋଡ ମଧ୍ୟରେ ଆଗକୁ ଏବଂ ପଛକୁ ସୁଇଚ କରିପାରିବେ। ଏହି ମୋଡଗୁଡ଼ିକରେ କିଛି ଫିଚରକୁ ଅକ୍ଷମ କରିଦିଆଯିବ, ଯାହା ଫଳରେ କିଛି ଆପ୍ଲିକେସନ କାମ କରିନପାରେ। ଡିଭାଇସକୁ ପ୍ରଡକ୍ସନ ମୋଡକୁ ଫେରାଇ ଆଣିବା ପାଇଁ ଆପଣଙ୍କୁ ଡିଭାଇସକୁ ଫେକ୍ଟୋରୀ ରିସେଟ କରୁଥିବା 4 KB ମୋଡକୁ ପୁଣି ସୁଇଚ କରି ତା\'ପରେ ବୁଟଲୋଡରକୁ ଲକ କରିବାକୁ ହେବ। Androidରେ ସଫଳତାର ସହ ଡିଭାଇସ ବୁଟ ହେବା ପରେ ଡେଭେଲପର ବିକଳ୍ପରେ OEM ଅନଲକିଂକୁ ଅକ୍ଷମ କରନ୍ତୁ। ଡିଭାଇସକୁ ୱାଇପ କରାଯିବ ଏବଂ ସୁନିଶ୍ଚିତକରଣ ପରେ ଫାଇଲସିଷ୍ଟମକୁ ext4ରେ ପରିବର୍ତ୍ତନ କରାଯିବ। ଏହା ସମ୍ପୂର୍ଣ୍ଣ ହେବା ପରେ ଦୟାକରି ପୁଣି 16 KBକୁ ସକ୍ଷମ କରିବାକୁ ଫେରନ୍ତୁ।"</string>
     <string name="confirm_ext4_button_text" msgid="6045501984773738407">"ସମସ୍ତ ଡାଟା ଇରେଜ କରନ୍ତୁ"</string>
     <string name="format_ext4_failure_toast" msgid="8059453995800471549">"ଡାଟା ପାର୍ଟିସନକୁ ext4ରେ ପୁଣି ଫର୍ମାଟ କରି ୱାଇପ କରିବାରେ ବିଫଳ ହୋଇଛି।"</string>
     <string name="confirm_oem_unlock_for_16k_title" msgid="6062041826568112078">"ବୁଟଲୋଡର ଅନଲକ ଆବଶ୍ୟକ"</string>
-    <string name="confirm_oem_unlock_for_16k_text" msgid="3583604865119937957">"16KB ଡେଭେଲପର ବିକଳ୍ପ ବ୍ୟବହାର କରିବା ପୂର୍ବରୁ ଏହି ଡିଭାଇସକୁ ବୁଟଲୋଡରକୁ ଅନଲକ କରିବା ଆବଶ୍ୟକ। ଏହି ମୋଡରେ ସଫ୍ଟୱେର ଇଣ୍ଟିଗ୍ରିଟିକୁ ଗେରେଣ୍ଟି ଦିଆଯାଇପାରିବ ନାହିଁ ଏବଂ ବୁଟଲୋଡର ଅନଲକ ଥିବା ସମୟରେ ଫୋନରେ ଷ୍ଟୋର କରାଯାଇଥିବା ଯେ କୌଣସି ଡାଟା ବିପଦରେ ପଡ଼ିପାରେ। 16KB ମୋଡ ସକ୍ରିୟ କରିବା ସମୟରେ ସମସ୍ତ ୟୁଜର ଡାଟା ଏବଂ ସେଟିଂସ ୱାଇପ ହୋଇଯିବ। ବୁଟଲୋଡର ଅନଲକ ହେବା ପରେ 16KB ବିକଳ୍ପ ସକ୍ରିୟ କରିବା ପାଇଁ ଦୁଇଟି ରିବୁଟ ଆବଶ୍ୟକ ହେବ। ଆପଣ ଏହି ମୋଡରେ ଥିଲେ ଆପଣ ଗୋଟିଏ ସିଙ୍ଗଲ ରିବୁଟ ସହିତ 4KB ଏବଂ 16KB ମୋଡ ମଧ୍ୟରେ ଆଗକୁ ଏବଂ ପଛକୁ ସୁଇଚ କରିପାରିବେ। ଏହି ମୋଡଗୁଡ଼ିକରେ କିଛି ଫିଚରକୁ ଅକ୍ଷମ କରିଦିଆଯିବ, ଯାହା ଫଳରେ କିଛି ଆପ୍ଲିକେସନ କାମ କରିନପାରେ। ଡିଭାଇସକୁ ପ୍ରଡକ୍ସନ ମୋଡକୁ ଫେରାଇ ଆଣିବା ପାଇଁ ଆପଣଙ୍କୁ ଡିଭାଇସକୁ ପୁଣି 4KB ମୋଡକୁ ସୁଇଚ କରି ତା\'ପରେ OEM/ବୁଟଲୋଡରକୁ ଲକ (ଯାହା ଫେକ୍ଟୋରୀ ରିସେଟ କରେ) କରିବାକୁ ହେବ। ଦୟାକରି ବୁଟଲୋଡରକୁ ଅନଲକ କରି ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ। ଏହା କିପରି କରିବେ ସେଥିପାଇଁ ଆପଣ &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt;ରେ ନିର୍ଦ୍ଦେଶାବଳୀ ଦେଖିପାରିବେ"</string>
-    <string name="page_agnostic_4k_pages_title" msgid="1184703958249093215">"4KB ପୃଷ୍ଠା-ଆଗ୍ନୋଷ୍ଟିକ ମୋଡ ବ୍ୟବହାର କରାଯାଉଛି"</string>
-    <string name="page_agnostic_4k_pages_text_short" msgid="2894243902906666242">"ଆପଣ ପୃଷ୍ଠା-ଆଗ୍ନୋଷ୍ଟିକ ମୋଡର 4KB ମୋଡରେ ଅଛନ୍ତି। ଏହି ମୋଡରେ ସଫ୍ଟୱେର ଇଣ୍ଟିଗ୍ରିଟିକୁ ଗେରେଣ୍ଟି ଦିଆଯାଇପାରିବ ନାହିଁ ଏବଂ ବୁଟଲୋଡର ଅନଲକ ଥିବା ସମୟରେ ଫୋନରେ ଷ୍ଟୋର କରାଯାଇଥିବା ଯେ କୌଣସି ଡାଟା ବିପଦରେ ପଡ଼ିପାରେ। ଏହି ମୋଡଗୁଡ଼ିକରେ କିଛି ଫିଚରକୁ ଅକ୍ଷମ କରିଦିଆଯିବ, ଯାହା ଫଳରେ କିଛି ଆପ୍ଲିକେସନ କାମ କରିନପାରେ। ପ୍ରଡକ୍ସନ ମୋଡରେ ପୁଣି-ପ୍ରବେଶ କରିବା ପାଇଁ ଆପଣଙ୍କୁ ଡିଭାଇସର ବୁଟଲୋଡରକୁ ଲକ କରିବା ଆବଶ୍ୟକ। ଅଧିକ ପଢ଼ନ୍ତୁରେ ଟାପ କରନ୍ତୁ।"</string>
-    <string name="page_agnostic_4k_pages_text" msgid="8284806650260868833">"ଆପଣ ପୃଷ୍ଠା-ଆଗ୍ନୋଷ୍ଟିକ ମୋଡର 4KB ମୋଡରେ ଅଛନ୍ତି। ଏହି ମୋଡରେ ସଫ୍ଟୱେର ଇଣ୍ଟିଗ୍ରିଟିକୁ ଗେରେଣ୍ଟି ଦିଆଯାଇପାରିବ ନାହିଁ ଏବଂ ବୁଟଲୋଡର ଅନଲକ ଥିବା ସମୟରେ ଫୋନରେ ଷ୍ଟୋର କରାଯାଇଥିବା ଯେ କୌଣସି ଡାଟା ବିପଦରେ ପଡ଼ିପାରେ। ଏହି ମୋଡଗୁଡ଼ିକରେ କିଛି ଫିଚରକୁ ଅକ୍ଷମ କରିଦିଆଯିବ, ଯାହା ଫଳରେ କିଛି ଆପ୍ଲିକେସନ କାମ କରିନପାରେ। ପ୍ରଡକ୍ସନ ମୋଡରେ ପୁଣି-ପ୍ରବେଶ କରିବା ପାଇଁ ଆପଣଙ୍କୁ ଡିଭାଇସର ବୁଟଲୋଡରକୁ ଲକ କରିବା ଆବଶ୍ୟକ। ଏହା ଡିଭାଇସକୁ ପୁଣି ଫେକ୍ଟୋରୀ ରିସେଟ କରି ପ୍ରଡକ୍ସନ ସେଟିଂସରେ ରିଷ୍ଟୋର କରିବ। Androidରେ ସଫଳତାର ସହ ଡିଭାଇସ ବୁଟ ହେବା ପରେ ଡେଭେଲପର ବିକଳ୍ପରେ OEM ଅନଲକିଂକୁ ଅକ୍ଷମ କରନ୍ତୁ। ଯଦି ଡିଭାଇସ Androidରେ ବୁଟ ହେବାରେ ବିଫଳ ହୁଏ କିମ୍ବା ଅସ୍ଥିର ଅଟେ, ତେବେ &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; or use &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt;ରୁ ନବୀନତମ ଫେକ୍ଟୋରୀ ଇମେଜଗୁଡ଼ିକ ସହ ଡିଭାଇସକୁ ପୁଣି-ଫ୍ଲାସ କରି \'ଡିଭାଇସକୁ ୱାଇପ କରନ୍ତୁ\', \'ବୁଟଲୋଡରକୁ ଲକ କରନ୍ତୁ\' ଏବଂ \'ସବୁ ପାର୍ଟିସନକୁ ଫୋର୍ସ ଫ୍ଲାସ କରନ୍ତୁ\'କୁ ଚୟନ କରନ୍ତୁ।"</string>
-    <string name="page_agnostic_16k_pages_title" msgid="7762533464569818498">"16KB ପୃଷ୍ଠା-ଆଗ୍ନୋଷ୍ଟିକ ମୋଡ ବ୍ୟବହାର କରାଯାଉଛି"</string>
-    <string name="page_agnostic_16k_pages_text_short" msgid="3282018880292691631">"ଆପଣ ପୃଷ୍ଠା-ଆଗ୍ନୋଷ୍ଟିକ ମୋଡର 16KB ମୋଡରେ ଅଛନ୍ତି। ଏହି ମୋଡରେ ସଫ୍ଟୱେର ଇଣ୍ଟିଗ୍ରିଟିକୁ ଗେରେଣ୍ଟି ଦିଆଯାଇପାରିବ ନାହିଁ ଏବଂ ବୁଟଲୋଡର ଅନଲକ ଥିବା ସମୟରେ ଫୋନରେ ଷ୍ଟୋର କରାଯାଇଥିବା ଯେ କୌଣସି ଡାଟା ବିପଦରେ ପଡ଼ିପାରେ। ଏହି ମୋଡଗୁଡ଼ିକରେ କିଛି ଫିଚରକୁ ଅକ୍ଷମ କରିଦିଆଯିବ, ଯାହା ଫଳରେ କିଛି ଆପ୍ଲିକେସନ କାମ କରିନପାରେ। ପ୍ରଡକ୍ସନ ମୋଡରେ ପୁଣି-ପ୍ରବେଶ କରିବା ପାଇଁ ଆପଣଙ୍କୁ 4KB ମୋଡକୁ ପୁଣି ସୁଇଚ କରି ତା\'ପରେ ଡିଭାଇସର ବୁଟଲୋଡରକୁ ଲକ କରିବା ଆବଶ୍ୟକ। ଅଧିକ ପଢ଼ିବା ପାଇଁ ଟାପ କରନ୍ତୁ।"</string>
-    <string name="page_agnostic_16k_pages_text" msgid="2999817238546170627">"ଆପଣ ପୃଷ୍ଠା-ଆଗ୍ନୋଷ୍ଟିକ ମୋଡର 16KB ମୋଡରେ ଅଛନ୍ତି। ଏହି ମୋଡରେ ସଫ୍ଟୱେର ଇଣ୍ଟିଗ୍ରିଟିକୁ ଗେରେଣ୍ଟି ଦିଆଯାଇପାରିବ ନାହିଁ ଏବଂ ବୁଟଲୋଡର ଅନଲକ ଥିବା ସମୟରେ ଫୋନରେ ଷ୍ଟୋର କରାଯାଇଥିବା ଯେ କୌଣସି ଡାଟା ବିପଦରେ ପଡ଼ିପାରେ। ଏହି ମୋଡଗୁଡ଼ିକରେ କିଛି ଫିଚରକୁ ଅକ୍ଷମ କରିଦିଆଯିବ, ଯାହା ଫଳରେ କିଛି ଆପ୍ଲିକେସନ କାମ କରିନପାରେ। ପ୍ରଡକ୍ସନ ମୋଡରେ ପୁଣି-ପ୍ରବେଶ କରିବା ପାଇଁ ଆପଣଙ୍କୁ 4KB ମୋଡକୁ ପୁଣି ସୁଇଚ କରି ତା\'ପରେ ଡିଭାଇସର ବୁଟଲୋଡରକୁ ଲକ କରିବା ଆବଶ୍ୟକ। ଏହା ଡିଭାଇସକୁ ପୁଣି ଫେକ୍ଟୋରୀ ରିସେଟ କରି ପ୍ରଡକ୍ସନ ସେଟିଂସରେ ରିଷ୍ଟୋର କରିବ। Androidରେ ସଫଳତାର ସହ ଡିଭାଇସ ବୁଟ ହେବା ପରେ ଡେଭେଲପର ବିକଳ୍ପରେ OEM ଅନଲକିଂକୁ ଅକ୍ଷମ କରନ୍ତୁ। ଯଦି ଡିଭାଇସ Androidରେ ବୁଟ ହେବାରେ ବିଫଳ ହୁଏ କିମ୍ବା ଏହା ଅସ୍ଥିର ଅଟେ, ତେବେ &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt;ରୁ ନବୀନତମ ଫେକ୍ଟୋରୀ ଇମେଜଗୁଡ଼ିକ ସହ ଡିଭାଇସକୁ ପୁଣି-ଫ୍ଲାସ କରନ୍ତୁ କିମ୍ବା &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; ବ୍ୟବହାର କରନ୍ତୁ ଏବଂ \'ଡିଭାଇସକୁ ୱାଇପ କରନ୍ତୁ\', \'ବୁଟଲୋଡରକୁ ଲକ କରନ୍ତୁ\' ଓ \'ସବୁ ପାର୍ଟିସନକୁ ଫୋର୍ସ ଫ୍ଲାସ କରନ୍ତୁ\'କୁ ଚୟନ କରନ୍ତୁ।"</string>
-    <string name="page_agnostic_notification_channel_name" msgid="1658444283036376361">"16KB ପୃଷ୍ଠା-ଆଗ୍ନୋଷ୍ଟିକ ମୋଡ"</string>
+    <string name="confirm_oem_unlock_for_16k_text" msgid="8089310116854544106">"16 KB ଡେଭଲପର ବିକଳ୍ପ ବ୍ୟବହାର କରିବା ପୂର୍ବରୁ ଏହି ଡିଭାଇସକୁ ବୁଟଲୋଡରକୁ ଅନଲକ କରିବା ଆବଶ୍ୟକ। ଏହି ମୋଡରେ ସଫ୍ଟୱେର ଇଣ୍ଟିଗ୍ରିଟିକୁ ଗେରେଣ୍ଟି ଦିଆଯାଇପାରିବ ନାହିଁ ଏବଂ ବୁଟଲୋଡର ଅନଲକ ଥିବା ସମୟରେ ଫୋନରେ ଷ୍ଟୋର କରାଯାଇଥିବା ଯେ କୌଣସି ଡାଟା ବିପଦରେ ପଡ଼ିପାରେ। 16 KB ମୋଡ ସକ୍ରିୟ କରିବା ସମୟରେ ସମସ୍ତ ୟୁଜର ଡାଟା ଏବଂ ସେଟିଂସ ୱାଇପ ହୋଇଯିବ। ବୁଟଲୋଡର ଅନଲକ ହେବା ପରେ 16 KB ବିକଳ୍ପ ସକ୍ରିୟ କରିବା ପାଇଁ ଦୁଇଟି ରିବୁଟ ଆବଶ୍ୟକ ହେବ। ଆପଣ ଏହି ମୋଡରେ ଥିଲେ ଆପଣ ଗୋଟିଏ ସିଙ୍ଗଲ ରିବୁଟ ସହିତ 4 KB ଏବଂ 16 KB ମୋଡ ମଧ୍ୟରେ ଆଗକୁ ଏବଂ ପଛକୁ ସୁଇଚ କରିପାରିବେ। ଏହି ମୋଡଗୁଡ଼ିକରେ କିଛି ଫିଚରକୁ ଅକ୍ଷମ କରିଦିଆଯିବ, ଯାହା ଫଳରେ କିଛି ଆପ୍ଲିକେସନ କାମ କରିନପାରେ। ଡିଭାଇସକୁ ପ୍ରଡକ୍ସନ ମୋଡକୁ ଫେରାଇ ଆଣିବା ପାଇଁ ଆପଣଙ୍କୁ ଡିଭାଇସକୁ ପୁଣି 4 KB ମୋଡକୁ ସୁଇଚ କରି ତା\'ପରେ OEM/ବୁଟଲୋଡରକୁ ଲକ (ଯାହା ଫେକ୍ଟୋରୀ ରିସେଟ କରେ) କରିବାକୁ ହେବ। ଦୟାକରି ବୁଟଲୋଡରକୁ ଅନଲକ କରି ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ। ଏହା କିପରି କରିବେ ସେଥିପାଇଁ ଆପଣ &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt;ରେ ନିର୍ଦ୍ଦେଶାବଳୀ ଦେଖିପାରିବେ"</string>
+    <string name="page_agnostic_4k_pages_title" msgid="293797217034340398">"4 KB ପୃଷ୍ଠା-ଆଗ୍ନୋଷ୍ଟିକ ମୋଡ ବ୍ୟବହାର କରାଯାଉଛି"</string>
+    <string name="page_agnostic_4k_pages_text_short" msgid="731597455785555266">"ଆପଣ ପୃଷ୍ଠା-ଆଗ୍ନୋଷ୍ଟିକ ମୋଡର 4 KB ମୋଡରେ ଅଛନ୍ତି। ଏହି ମୋଡରେ ସଫ୍ଟୱେର ଇଣ୍ଟିଗ୍ରିଟିକୁ ଗେରେଣ୍ଟି ଦିଆଯାଇପାରିବ ନାହିଁ ଏବଂ ବୁଟଲୋଡର ଅନଲକ ଥିବା ସମୟରେ ଫୋନରେ ଷ୍ଟୋର କରାଯାଇଥିବା ଯେ କୌଣସି ଡାଟା ବିପଦରେ ପଡ଼ିପାରେ। ଏହି ମୋଡଗୁଡ଼ିକରେ କିଛି ଫିଚରକୁ ଅକ୍ଷମ କରିଦିଆଯିବ, ଯାହା ଫଳରେ କିଛି ଆପ୍ଲିକେସନ କାମ କରିନପାରେ। ପ୍ରଡକ୍ସନ ମୋଡରେ ପୁଣି-ପ୍ରବେଶ କରିବା ପାଇଁ ଆପଣଙ୍କୁ ଡିଭାଇସର ବୁଟଲୋଡରକୁ ଲକ କରିବା ଆବଶ୍ୟକ। ଅଧିକ ପଢ଼ନ୍ତୁରେ ଟାପ କରନ୍ତୁ।"</string>
+    <string name="page_agnostic_4k_pages_text" msgid="7572233914423063169">"ଆପଣ ପୃଷ୍ଠା-ଆଗ୍ନୋଷ୍ଟିକ ମୋଡର 4 KB ମୋଡରେ ଅଛନ୍ତି। ଏହି ମୋଡରେ ସଫ୍ଟୱେର ଇଣ୍ଟିଗ୍ରିଟିକୁ ଗେରେଣ୍ଟି ଦିଆଯାଇପାରିବ ନାହିଁ ଏବଂ ବୁଟଲୋଡର ଅନଲକ ଥିବା ସମୟରେ ଫୋନରେ ଷ୍ଟୋର କରାଯାଇଥିବା ଯେ କୌଣସି ଡାଟା ବିପଦରେ ପଡ଼ିପାରେ। ଏହି ମୋଡଗୁଡ଼ିକରେ କିଛି ଫିଚରକୁ ଅକ୍ଷମ କରିଦିଆଯିବ, ଯାହା ଫଳରେ କିଛି ଆପ୍ଲିକେସନ କାମ କରିନପାରେ। ପ୍ରଡକ୍ସନ ମୋଡରେ ପୁଣି-ପ୍ରବେଶ କରିବା ପାଇଁ ଆପଣଙ୍କୁ ଡିଭାଇସର ବୁଟଲୋଡରକୁ ଲକ କରିବା ଆବଶ୍ୟକ। ଏହା ଡିଭାଇସକୁ ପୁଣି ଫେକ୍ଟୋରୀ ରିସେଟ କରି ପ୍ରଡକ୍ସନ ସେଟିଂସରେ ରିଷ୍ଟୋର କରିବ। Androidରେ ସଫଳତାର ସହ ଡିଭାଇସ ବୁଟ ହେବା ପରେ ଡେଭେଲପର ବିକଳ୍ପରେ OEM ଅନଲକିଂକୁ ଅକ୍ଷମ କରନ୍ତୁ। ଯଦି ଡିଭାଇସ Androidରେ ବୁଟ ହେବାରେ ବିଫଳ ହୁଏ କିମ୍ବା ଏହା ଅସ୍ଥିର ଅଟେ, ତେବେ &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt;ରୁ ନବୀନତମ ଫେକ୍ଟୋରୀ ଇମେଜଗୁଡ଼ିକ ସହ ଡିଭାଇସକୁ ପୁଣି-ଫ୍ଲାସ କରନ୍ତୁ କିମ୍ବା &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; ବ୍ୟବହାର କରନ୍ତୁ ଏବଂ \'ଡିଭାଇସକୁ ୱାଇପ କରନ୍ତୁ\', \'ବୁଟଲୋଡରକୁ ଲକ କରନ୍ତୁ\' ଓ \'ସବୁ ପାର୍ଟିସନକୁ ଫୋର୍ସ ଫ୍ଲାସ କରନ୍ତୁ\'କୁ ଚୟନ କରନ୍ତୁ।"</string>
+    <string name="page_agnostic_16k_pages_title" msgid="8940585327969638637">"16 KB ପୃଷ୍ଠା-ଆଗ୍ନୋଷ୍ଟିକ ମୋଡ ବ୍ୟବହାର କରାଯାଉଛି"</string>
+    <string name="page_agnostic_16k_pages_text_short" msgid="7613206944532151035">"ଆପଣ ପୃଷ୍ଠା-ଆଗ୍ନୋଷ୍ଟିକ ମୋଡର 16 KB ମୋଡରେ ଅଛନ୍ତି। ଏହି ମୋଡରେ ସଫ୍ଟୱେର ଇଣ୍ଟିଗ୍ରିଟିକୁ ଗେରେଣ୍ଟି ଦିଆଯାଇପାରିବ ନାହିଁ ଏବଂ ବୁଟଲୋଡର ଅନଲକ ଥିବା ସମୟରେ ଫୋନରେ ଷ୍ଟୋର କରାଯାଇଥିବା ଯେ କୌଣସି ଡାଟା ବିପଦରେ ପଡ଼ିପାରେ। ଏହି ମୋଡଗୁଡ଼ିକରେ କିଛି ଫିଚରକୁ ଅକ୍ଷମ କରିଦିଆଯିବ, ଯାହା ଫଳରେ କିଛି ଆପ୍ଲିକେସନ କାମ କରିନପାରେ। ପ୍ରଡକ୍ସନ ମୋଡରେ ପୁଣି-ପ୍ରବେଶ କରିବା ପାଇଁ ଆପଣଙ୍କୁ 4 KB ମୋଡକୁ ପୁଣି ସୁଇଚ କରି ତା\'ପରେ ଡିଭାଇସର ବୁଟଲୋଡରକୁ ଲକ କରିବା ଆବଶ୍ୟକ। ଅଧିକ ପଢ଼ନ୍ତୁରେ ଟାପ କରନ୍ତୁ।"</string>
+    <string name="page_agnostic_16k_pages_text" msgid="2860363435021452169">"ଆପଣ ପୃଷ୍ଠା-ଆଗ୍ନୋଷ୍ଟିକ ମୋଡର 16 KB ମୋଡରେ ଅଛନ୍ତି। ଏହି ମୋଡରେ ସଫ୍ଟୱେର ଇଣ୍ଟିଗ୍ରିଟିକୁ ଗେରେଣ୍ଟି ଦିଆଯାଇପାରିବ ନାହିଁ ଏବଂ ବୁଟଲୋଡର ଅନଲକ ଥିବା ସମୟରେ ଫୋନରେ ଷ୍ଟୋର କରାଯାଇଥିବା ଯେ କୌଣସି ଡାଟା ବିପଦରେ ପଡ଼ିପାରେ। ଏହି ମୋଡଗୁଡ଼ିକରେ କିଛି ଫିଚରକୁ ଅକ୍ଷମ କରିଦିଆଯିବ, ଯାହା ଫଳରେ କିଛି ଆପ୍ଲିକେସନ କାମ କରିନପାରେ। ପ୍ରଡକ୍ସନ ମୋଡରେ ପୁଣି-ପ୍ରବେଶ କରିବା ପାଇଁ ଆପଣଙ୍କୁ 4 KB ମୋଡକୁ ପୁଣି ସୁଇଚ କରି ତା\'ପରେ ଡିଭାଇସର ବୁଟଲୋଡରକୁ ଲକ କରିବା ଆବଶ୍ୟକ। ଏହା ଡିଭାଇସକୁ ପୁଣି ଫେକ୍ଟୋରୀ ରିସେଟ କରି ପ୍ରଡକ୍ସନ ସେଟିଂସରେ ରିଷ୍ଟୋର କରିବ। Androidରେ ସଫଳତାର ସହ ଡିଭାଇସ ବୁଟ ହେବା ପରେ ଡେଭେଲପର ବିକଳ୍ପରେ OEM ଅନଲକିଂକୁ ଅକ୍ଷମ କରନ୍ତୁ। ଯଦି ଡିଭାଇସ Androidରେ ବୁଟ ହେବାରେ ବିଫଳ ହୁଏ କିମ୍ବା ଏହା ଅସ୍ଥିର ଅଟେ, ତେବେ &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt;ରୁ ନବୀନତମ ଫେକ୍ଟୋରୀ ଇମେଜଗୁଡ଼ିକ ସହ ଡିଭାଇସକୁ ପୁଣି-ଫ୍ଲାସ କରନ୍ତୁ କିମ୍ବା &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; ବ୍ୟବହାର କରନ୍ତୁ ଏବଂ \'ଡିଭାଇସକୁ ୱାଇପ କରନ୍ତୁ\', \'ବୁଟଲୋଡରକୁ ଲକ କରନ୍ତୁ\' ଓ \'ସବୁ ପାର୍ଟିସନକୁ ଫୋର୍ସ ଫ୍ଲାସ କରନ୍ତୁ\'କୁ ଚୟନ କରନ୍ତୁ।"</string>
+    <string name="page_agnostic_notification_channel_name" msgid="2058933148654316447">"16 KB ପୃଷ୍ଠା-ଆଗ୍ନୋଷ୍ଟିକ ମୋଡ"</string>
     <string name="page_agnostic_notification_action" msgid="2309805437430150456">"ଅଧିକ ପଢ଼ନ୍ତୁ"</string>
     <string name="enable_16k_app_compat_title" msgid="4173159228844992989">"ପୃଷ୍ଠା ସାଇଜ କମ୍ପାଟିବଲିଟୀ ମୋଡ ସହ ଆପକୁ ଚଲାନ୍ତୁ"</string>
     <string name="enable_16k_app_compat_details" msgid="3389401258168314266">"16 KB ଡିଭାଇସରେ ଟୋଗଲ କରିବା ସମୟରେ ପୃଷ୍ଠା ସାଇଜ କମ୍ପାଟିବଲିଟୀ ମୋଡରେ ଆପଟି ଚାଲିବ।"</string>
@@ -5581,10 +5605,9 @@
     <string name="audio_sharing_share_with_button_label" msgid="4146194430380237357">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> ସହ ସେୟାର କରନ୍ତୁ"</string>
     <string name="audio_sharing_close_button_label" msgid="2666534149100498574">"ବନ୍ଦ କରନ୍ତୁ"</string>
     <string name="audio_sharing_dialog_connect_device_content" msgid="2873230647152283734">"ଅନ୍ୟ ଏକ ପେୟାର କମ୍ପାଟିବଲ ହେଡଫୋନ କନେକ୍ଟ କରନ୍ତୁ କିମ୍ବା ଆପଣଙ୍କ ଷ୍ଟ୍ରିମର ନାମ ଏବଂ ପାସୱାର୍ଡ ଅନ୍ୟ ବ୍ୟକ୍ତିଙ୍କ ସହିତ ସେୟାର କରନ୍ତୁ"</string>
-    <!-- no translation found for audio_sharing_dialog_qr_code_content (2246980817848351361) -->
-    <skip />
-    <!-- no translation found for audio_sharing_dialog_pair_new_device_content (6720472590211440206) -->
-    <skip />
+    <string name="audio_sharing_dialog_qr_code_content" msgid="2246980817848351361">"ଅନ୍ୟମାନଙ୍କୁ ଏହି କୋଡ ସ୍କାନ କରି ଆପଣଙ୍କର ଅଡିଓ ଶୁଣିବାକୁ ଦିଅନ୍ତୁ\n\nଷ୍ଟ୍ରିମ ନାମ: <xliff:g id="STREAM_NAME">%1$s</xliff:g>\nପାସୱାର୍ଡ: <xliff:g id="PASSWORD">%2$s</xliff:g>"</string>
+    <string name="audio_sharing_dialog_qr_code_content_no_password" msgid="7824076083031650113">"ଅନ୍ୟମାନଙ୍କୁ ଏହି କୋଡ ସ୍କାନ କରି ଆପଣଙ୍କର ଅଡିଓ ଶୁଣିବାକୁ ଦିଅନ୍ତୁ\n\nଷ୍ଟ୍ରିମ ନାମ: <xliff:g id="STREAM_NAME">%1$s</xliff:g>"</string>
+    <string name="audio_sharing_dialog_pair_new_device_content" msgid="6720472590211440206">"କିମ୍ବା ଅନ୍ୟ ଏକ ସୁସଙ୍ଗତ ହେଡଫୋନ ସେଟ ପେୟାର କରନ୍ତୁ"</string>
     <string name="audio_sharing_dialog_pair_device_content" msgid="3136997898244863470">"ଅନ୍ୟ ଏକ ସେଟ କମ୍ପାଟିବଲ ହେଡଫୋନକୁ ପେୟାର କରନ୍ତୁ କିମ୍ବା ଆପଣଙ୍କ ଅଡିଓ ଷ୍ଟ୍ରିମ QR କୋଡକୁ ଅନ୍ୟ ବ୍ୟକ୍ତିଙ୍କ ସହିତ ସେୟାର କରନ୍ତୁ"</string>
     <string name="audio_sharing_sharing_label" msgid="1038021053061111508">"ଅଡିଓ ସେୟାର କରାଯାଉଛି"</string>
     <string name="audio_sharing_pair_button_label" msgid="7987236990273083588">"ନୂଆ ଡିଭାଇସ ପେୟାର କର"</string>
@@ -5612,6 +5635,10 @@
     <string name="audio_sharing_retry_dialog_content" msgid="6014534433894608834">"କିଛି ତ୍ରୁଟି ହୋଇଛି। ଦୟାକରି ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।"</string>
     <string name="audio_sharing_incompatible_dialog_title" msgid="4586805264392802115">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> ସହ ଅଡିଓ ସେୟାର କରାଯାଇପାରିବ ନାହିଁ"</string>
     <string name="audio_sharing_incompatible_dialog_content" msgid="3943223683620405311">"ଅଡିଓ ସେୟାରିଂ କେବଳ LE ଅଡିଓକୁ ସପୋର୍ଟ କରୁଥିବା ହେଡଫୋନଗୁଡ଼ିକ ସହ କାମ କରେ"</string>
+    <string name="audio_sharing_block_pairing_dialog_title" msgid="1756723860075818856">"ଅଡିଓ ସେୟାରିଂ ବନ୍ଦ କରନ୍ତୁ"</string>
+    <string name="audio_sharing_block_pairing_dialog_content" msgid="6352030314206654722">"ଏକ ନୂଆ ଡିଭାଇସ ପେୟାର କରିବା ପାଇଁ, ପ୍ରଥମେ ଅଡିଓ ସେୟାରିଂ ବନ୍ଦ କରନ୍ତୁ।"</string>
+    <string name="audio_sharing_turn_off_button_label" msgid="1934956352475393641">"ବନ୍ଦ କରନ୍ତୁ"</string>
+    <string name="share_audio_notification_title" msgid="5201976754820387782">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> ସହିତ ଅଡିଓ ସେୟାର କରନ୍ତୁ"</string>
     <string name="audio_streams_category_title" msgid="4878022761829895463">"ଏକ LE ଅଡିଓ ଷ୍ଟ୍ରିମ ସହ କନେକ୍ଟ କରନ୍ତୁ"</string>
     <string name="audio_streams_pref_title" msgid="6320485086288646209">"ଆଖପାଖର ଅଡିଓ ଷ୍ଟ୍ରିମଗୁଡ଼ିକ"</string>
     <string name="audio_streams_title" msgid="6617990880383079165">"ଅଡିଓ ଷ୍ଟ୍ରିମଗୁଡ଼ିକ"</string>
@@ -5638,10 +5665,12 @@
     <string name="audio_streams_dialog_learn_more" msgid="6711241053442211345">"ଅଧିକ ଜାଣନ୍ତୁ"</string>
     <string name="audio_streams_dialog_cannot_play" msgid="1358828316927479091">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>ରେ ଏହି ଅଡିଓ ଷ୍ଟ୍ରିମକୁ ପ୍ଲେ କରାଯାଇପାରିବ ନାହିଁ।"</string>
     <string name="audio_streams_listening_now" msgid="4205614429222949176">"ବର୍ତ୍ତମାନ ଶୁଣୁଛନ୍ତି"</string>
-    <!-- no translation found for audio_streams_present_now (7519818719382756366) -->
-    <skip />
+    <string name="audio_streams_present_now" msgid="7519818719382756366">"ଷ୍ଟ୍ରିମିଂ ବିରତି କରାଯାଇଛି"</string>
     <string name="audio_streams_media_service_notification_leave_broadcast_text" msgid="4938656134300913647">"ଶୁଣିବା ବନ୍ଦ କରନ୍ତୁ"</string>
     <string name="audio_streams_dialog_no_le_device_title" msgid="3931163990976742282">"କମ୍ପାଟିବଲ ହେଡଫୋନଗୁଡ଼ିକୁ କନେକ୍ଟ କରନ୍ତୁ"</string>
+    <string name="audio_streams_dialog_turn_off_talkback_title" msgid="6824585115302786690">"ଅସ୍ଥାୟୀ ଭାବରେ Talkback ବନ୍ଦ କରନ୍ତୁ"</string>
+    <string name="audio_streams_dialog_turn_off_talkback_subtitle" msgid="2394295776096273919">"ଅଡିଓ ଷ୍ଟ୍ରିମ ଶୁଣିବା ବେଳେ TalkBack ବ୍ୟବହାର କରାଯାଇପାରିବ ନାହିଁ। ଶୁଣିବା ଆରମ୍ଭ କରିବାକୁ talkback ବନ୍ଦ କରନ୍ତୁ।"</string>
+    <string name="audio_streams_dialog_turn_off_talkback_button" msgid="8049097689955037626">"ବନ୍ଦ କରନ୍ତୁ"</string>
     <string name="audio_streams_dialog_no_le_device_button" msgid="4484355549428642588">"ଗୋଟିଏ ଡିଭାଇସ କନେକ୍ଟ କରନ୍ତୁ"</string>
     <string name="audio_streams_detail_page_title" msgid="7884132061275273766">"ଅଡିଓ ଷ୍ଟ୍ରିମର ବିବରଣୀ"</string>
     <string name="audio_streams_qr_code_page_title" msgid="9169570362469544641">"ଅଡିଓ ଷ୍ଟ୍ରିମ QR କୋଡ"</string>
@@ -5664,8 +5693,7 @@
     <string name="keywords_contacts_storage" msgid="9061213057165337893">"କଣ୍ଟାକ୍ଟ, ଷ୍ଟୋରେଜ, ଆକାଉଣ୍ଟ"</string>
     <string name="contacts_storage_settings_title" msgid="1574030546525203810">"କଣ୍ଟାକ୍ଟ ଷ୍ଟୋରେଜ"</string>
     <string name="contacts_storage_device_only_preference_label" msgid="970250816918108264">"କେବଳ ଡିଭାଇସ"</string>
-    <!-- no translation found for contacts_storage_device_only_preference_summary (8585284581093336284) -->
-    <skip />
+    <string name="contacts_storage_device_only_preference_summary" msgid="8585284581093336284">"କଣ୍ଟାକ୍ଟ ଆପଣଙ୍କ ଅନ୍ୟ ଡିଭାଇସଗୁଡ଼ିକରେ ସିଙ୍କ ବା ଉପଲବ୍ଧ ହୋଇନପାରେ"</string>
     <string name="contacts_storage_selection_message" msgid="8082077300632059003">"କଣ୍ଟାକ୍ଟଗୁଡ଼ିକ ଆପଣଙ୍କ ଡିଭାଇସରେ ସେଭ ହେବ ଏବଂ ଡିଫଲ୍ଟ ଭାବେ ଆପଣଙ୍କ ଆକାଉଣ୍ଟରେ ସିଙ୍କ ହେବ"</string>
     <string name="contacts_storage_set_default_account_error_message" msgid="849847649756411393">"ଡିଫଲ୍ଟ ଆକାଉଣ୍ଟ ସେଟିଂରେ ତ୍ରୁଟି"</string>
     <string name="contacts_storage_no_account_set_summary" msgid="7454973781666475276">"କୌଣସି ଡିଫଲ୍ଟ ଆକାଉଣ୍ଟ ସେଟ କରାଯାଇନାହିଁ"</string>
@@ -5684,6 +5712,5 @@
     <string name="supervision_pin_management_preference_title" msgid="961680798581006465">"PIN ପରିଚାଳନା କରନ୍ତୁ"</string>
     <string name="supervision_pin_management_preference_summary_add" msgid="3244161328612671896">"ଏକ PIN ରିକଭରି ପଦ୍ଧତି ଯୋଗ କରନ୍ତୁ"</string>
     <string name="supervision_change_pin_preference_title" msgid="2288584039438231801">"PIN ପରିବର୍ତ୍ତନ କରନ୍ତୁ"</string>
-    <!-- no translation found for supervision_add_forgot_pin_preference_title (8939945404255748516) -->
-    <skip />
+    <string name="supervision_add_forgot_pin_preference_title" msgid="8939945404255748516">"PIN ଭୁଲିଯାଇଛନ୍ତି"</string>
 </resources>

@@ -51,7 +51,6 @@ import androidx.preference.PreferenceScreen;
 
 import com.android.internal.annotations.VisibleForTesting;
 import com.android.internal.telephony.Phone;
-import com.android.internal.telephony.flags.Flags;
 import com.android.settings.R;
 import com.android.settings.SettingsActivity;
 import com.android.settings.Utils;
@@ -719,10 +718,6 @@ public class WifiCallingSettingsForSub extends DashboardFragment
      * {@code false} otherwise.
      */
     private boolean overrideWfcRoamingModeWhileUsingNtn() {
-        if (!Flags.carrierEnabledSatelliteFlag()) {
-            return false;
-        }
-
         TelephonyManager tm = getTelephonyManagerForSub(mSubId);
         ServiceState serviceState = tm.getServiceState();
         if (serviceState == null) {

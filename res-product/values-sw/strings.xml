@@ -161,7 +161,7 @@
     <string name="lock_screen_pin_skip_message" product="default" msgid="1488786078805713892">"PIN hulinda simu ikipotea au ikiibwa"</string>
     <string name="lock_screen_pattern_skip_message" product="default" msgid="827145253475892869">"Mchoro hulinda simu ikipotea au ikiibwa"</string>
     <string name="lock_screen_password_skip_message" product="default" msgid="8112387870039469467">"Nenosiri hulinda simu ikipotea au ikiibwa"</string>
-    <string name="lock_screen_pin_skip_fingerprint_message" product="tablet" msgid="2645508906847445498">"PIN inahitajika ili kuweka mipangilio ya Kufungua kwa alama ya kidole.\n\nPIN hulinda kompyuta kibao ikipotea au ikiibwa."</string>
+    <string name="lock_screen_pin_skip_fingerprint_message" product="tablet" msgid="2645508906847445498">"PIN inahitajika ili kuweka mipangilio ya Kufungua kwa alama ya kidole.\n\nPIN hulinda kishikwambi kikipotea au kikiibwa."</string>
     <string name="lock_screen_pattern_skip_fingerprint_message" product="tablet" msgid="2792582623472935881">"Mchoro unahitajika ili kuweka mipangilio ya Kufungua kwa alama ya kidole.\n\nMchoro hulinda kompyuta kibao ikipotea au ikiibwa."</string>
     <string name="lock_screen_password_skip_fingerprint_message" product="tablet" msgid="1541137095940752409">"Nenosiri linahitajika ili kuweka mipangilio ya Kufungua kwa alama ya kidole.\n\nNenosiri hulinda kompyuta kibao ikipotea au ikiibwa."</string>
     <string name="lock_screen_pin_skip_fingerprint_message" product="device" msgid="7716542198483220546">"PIN inahitajika ili kuweka mipangilio ya Kufungua kwa alama ya kidole.\n\nPIN hulinda kifaa kikipotea au kikiibwa."</string>
@@ -267,16 +267,13 @@
     <string name="main_clear_button_text" product="default" msgid="3763748694468489783">"Futa data yote"</string>
     <string name="usb_tethering_subtext" product="default" msgid="5969806206311342779">"Shiriki muunganisho wa intaneti ya simu kupitia USB"</string>
     <string name="usb_tethering_subtext" product="tablet" msgid="4550828946207155142">"Shiriki muunganisho wa intaneti ya kompyuta kibao kupitia USB"</string>
-    <!-- no translation found for usb_tethering_subtext (6586391707794559573) -->
-    <skip />
+    <string name="usb_tethering_subtext" product="device" msgid="6586391707794559573">"Tumia kwa pamoja muunganisho wa intaneti kupitia USB"</string>
     <string name="bluetooth_tethering_subtext" product="default" msgid="3638886236597805392">"Shiriki muunganisho wa intaneti ya simu kupitia Bluetooth"</string>
     <string name="bluetooth_tethering_subtext" product="tablet" msgid="1339730853653511849">"Shiriki muunganisho wa intaneti ya kompyuta kibao kupitia Bluetooth"</string>
-    <!-- no translation found for bluetooth_tethering_subtext (4847586521141330988) -->
-    <skip />
+    <string name="bluetooth_tethering_subtext" product="device" msgid="4847586521141330988">"Tumia kwa pamoja muunganisho wa intaneti kupitia Bluetooth"</string>
     <string name="ethernet_tethering_subtext" product="default" msgid="8652438909365718644">"Shiriki muunganisho wa intaneti ya simu kupitia Ethaneti"</string>
     <string name="ethernet_tethering_subtext" product="tablet" msgid="2227710549796706455">"Shiriki muunganisho wa intaneti ya kompyuta kibao kupitia Ethaneti"</string>
-    <!-- no translation found for ethernet_tethering_subtext (454840171632885947) -->
-    <skip />
+    <string name="ethernet_tethering_subtext" product="device" msgid="454840171632885947">"Tumia kwa pamoja muunganisho wa intaneti kupitia Ethaneti"</string>
     <string name="about_settings" product="tablet" msgid="1471390492111370330">"Kuhusu kishikwambi"</string>
     <string name="about_settings" product="default" msgid="2621311564780208250">"Kuhusu simu"</string>
     <string name="about_settings" product="device" msgid="7595574154492383452">"Kuhusu kifaa"</string>

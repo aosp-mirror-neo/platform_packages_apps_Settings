@@ -16,9 +16,10 @@
 
 package com.android.settings.connecteddevice.display
 
-import android.app.WallpaperManager
 import com.android.settings.R
+import com.android.settingslib.widget.GroupSectionDividerMixin
 
+import android.app.WallpaperManager
 import android.content.Context
 import android.graphics.Bitmap
 import android.graphics.PointF
@@ -45,7 +46,7 @@ import kotlin.math.abs
  * when there is one or more extended display attached.
  */
 class DisplayTopologyPreference(context : Context)
-        : Preference(context), ViewTreeObserver.OnGlobalLayoutListener {
+        : Preference(context), ViewTreeObserver.OnGlobalLayoutListener, GroupSectionDividerMixin {
     @VisibleForTesting lateinit var mPaneContent : FrameLayout
     @VisibleForTesting lateinit var mPaneHolder : FrameLayout
     @VisibleForTesting lateinit var mTopologyHint : TextView
@@ -81,6 +82,8 @@ class DisplayTopologyPreference(context : Context)
         isSelectable = false
 
         isPersistent = false
+
+        isCopyingEnabled = false
 
         injector = Injector(context)
     }

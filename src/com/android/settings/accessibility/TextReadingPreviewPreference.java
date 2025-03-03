@@ -111,10 +111,15 @@ public class TextReadingPreviewPreference extends Preference {
         final ImageButton previousButton = previewLayout.findViewById(previousId);
         final ImageButton nextButton = previewLayout.findViewById(nextId);
 
-        previousButton.setOnClickListener((view) -> setCurrentItem(getCurrentItem() - 1));
+        // These call ViewPager#setCurrentItem directly
+        // because that doesn't force a refresh through notifyChanged().
+        // We found this avoids a crash in SUW (See b/386906497).
+        previousButton.setOnClickListener((view) ->
+                viewPager.setCurrentItem(getCurrentItem() - 1));
         previousButton.setContentDescription(getContext().getString(
                 R.string.preview_pager_previous_button));
-        nextButton.setOnClickListener((view) -> setCurrentItem(getCurrentItem() + 1));
+        nextButton.setOnClickListener((view) ->
+                viewPager.setCurrentItem(getCurrentItem() + 1));
         previousButton.setContentDescription(getContext().getString(
                 R.string.preview_pager_next_button));
     }
@@ -176,9 +181,7 @@ public class TextReadingPreviewPreference extends Preference {
         Preconditions.checkNotNull(mPreviewAdapter,
                 "Preview adapter is null, you should init the preview adapter first");
 
-        if (currentItem < 0 || currentItem >= mPreviewAdapter.getCount()) {
-            return;
-        } else if (currentItem != mCurrentItem) {
+        if (currentItem != mCurrentItem) {
             mCurrentItem = currentItem;
             notifyChanged();
         }

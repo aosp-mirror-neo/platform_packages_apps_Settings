@@ -38,6 +38,7 @@ import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settingslib.notification.modes.TestModeBuilder;
 import com.android.settingslib.notification.modes.ZenMode;
+import com.android.settingslib.notification.modes.ZenModeSchedules;
 import com.android.settingslib.notification.modes.ZenModesBackend;
 
 import org.junit.Before;
@@ -92,11 +93,10 @@ public class ZenModeSetSchedulePreferenceControllerTest {
         scheduleInfo.endHour = 2;
         ZenMode out = mPrefController.updateScheduleMode(scheduleInfo).apply(mode);
 
-        assertThat(out.getRule().getConditionId())
-                .isEqualTo(ZenModeConfig.toScheduleConditionId(scheduleInfo));
-        assertThat(out.getRule().getTriggerDescription()).isNotEmpty();
-        assertThat(out.getRule().getOwner()).isEqualTo(
+        assertThat(ZenModeSchedules.getTimeSchedule(out)).isEqualTo(scheduleInfo);
+        assertThat(out.getOwner().conditionProvider()).isEqualTo(
                 ZenModeConfig.getScheduleConditionProvider());
+        assertThat(out.getTriggerDescription()).isNotEmpty();
     }
 
     @Test

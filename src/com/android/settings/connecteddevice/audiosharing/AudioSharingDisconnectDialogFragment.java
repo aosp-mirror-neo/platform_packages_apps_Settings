@@ -27,6 +27,7 @@ import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
 import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.lifecycle.Lifecycle;
 
@@ -35,6 +36,7 @@ import com.android.settings.core.instrumentation.InstrumentedDialogFragment;
 import com.android.settings.overlay.FeatureFactory;
 import com.android.settingslib.bluetooth.BluetoothUtils;
 import com.android.settingslib.bluetooth.CachedBluetoothDevice;
+import com.android.settingslib.flags.Flags;
 import com.android.settingslib.utils.ThreadUtils;
 
 import java.util.List;
@@ -210,6 +212,18 @@ public class AudioSharingDisconnectDialogFragment extends InstrumentedDialogFrag
                         },
                         AudioSharingDeviceAdapter.ActionType.REMOVE));
         return builder.build();
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        FragmentActivity activity = getActivity();
+        if (Flags.promoteAudioSharingForSecondAutoConnectedLeaDevice()
+                && activity instanceof AudioSharingJoinHandlerActivity
+                && !activity.isChangingConfigurations() && !activity.isFinishing()) {
+            Log.d(TAG, "onDestroy, finish activity = " + activity.getClass().getName());
+            activity.finish();
+        }
     }
 
     private static void logDialogAutoDismiss(AlertDialog dialog) {

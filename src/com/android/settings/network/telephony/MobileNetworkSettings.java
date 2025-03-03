@@ -286,7 +286,7 @@ public class MobileNetworkSettings extends AbstractMobileNetworkSettings impleme
         final SatelliteSettingPreferenceController satelliteSettingPreferenceController = use(
                 SatelliteSettingPreferenceController.class);
         if (satelliteSettingPreferenceController != null) {
-            satelliteSettingPreferenceController.init(mSubId);
+            satelliteSettingPreferenceController.initialize(mSubId);
         }
 
         use(ApnPreferenceController.class).init(mSubId);

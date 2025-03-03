@@ -44,10 +44,10 @@ constructor(
     }
 
     override fun getAvailabilityStatus(subId: Int): Int = when {
+        !SubscriptionUtil.isSimHardwareVisible(mContext)
+            || Utils.isWifiOnly(mContext) -> UNSUPPORTED_ON_DEVICE
         !Flags.isDualSimOnboardingEnabled()
-            || !SubscriptionManager.isValidSubscriptionId(subId)
-            || !SubscriptionUtil.isSimHardwareVisible(mContext)
-            || Utils.isWifiOnly(mContext) -> CONDITIONALLY_UNAVAILABLE
+            || !SubscriptionManager.isValidSubscriptionId(subId) -> CONDITIONALLY_UNAVAILABLE
         !mContext.userManager.isAdminUser -> DISABLED_FOR_USER
         else -> AVAILABLE
     }
