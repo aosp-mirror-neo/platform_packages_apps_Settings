@@ -42,6 +42,8 @@
     <string name="radioInfo_unknown" msgid="2892562356748600367">"ਅਣਪਛਾਤਾ"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"ਪੂਰਵ-ਝਲਕ"</string>
     <string name="qr_code_content_description" msgid="1852208464419291347">"QR ਕੋਡ"</string>
+    <string name="preview_pager_previous_button" msgid="607771113300838313">"ਪਿਛਲੀ ਪੂਰਵ-ਝਲਕ"</string>
+    <string name="preview_pager_next_button" msgid="8700907912508927271">"ਅਗਲੀ ਪੂਰਵ-ਝਲਕ"</string>
     <string name="font_size_make_smaller_desc" msgid="4978038055549590140">"ਛੋਟਾ ਕਰੋ"</string>
     <string name="font_size_make_larger_desc" msgid="5583046033381722247">"ਵੱਡਾ ਕਰੋ"</string>
     <string name="stay_awake_on_fold_title" msgid="6590454679898134221">"ਹਮੇਸ਼ਾਂ"</string>
@@ -464,6 +466,8 @@
     <string name="fingerprint_check_enroll_touch_sensor" msgid="5010063281557456236">"ਫਿੰਗਰਪ੍ਰਿੰਟ ਸੈਂਸਰ ਨੂੰ ਸਪਰਸ਼ ਕਰੋ"</string>
     <string name="fingerprint_check_enroll_not_recognized" msgid="2779520550437394431">"ਫਿੰਗਰਪ੍ਰਿੰਟ ਦੀ ਪਛਾਣ ਨਹੀਂ ਹੋਈ"</string>
     <string name="security_settings_activeunlock_preference_title" msgid="4257580421087062228">"ਵਾਚ ਅਣਲਾਕ"</string>
+    <!-- no translation found for security_settings_activeunlock (8922823742770802651) -->
+    <skip />
     <string name="biometric_settings_intro_with_activeunlock" msgid="5032953826653108646">"ਜਦੋਂ ਤੁਸੀਂ ਫ਼ੇਸ ਅਣਲਾਕ ਅਤੇ ਫਿੰਗਰਪ੍ਰਿੰਟ ਅਣਲਾਕ ਦਾ ਸੈੱਟਅੱਪ ਕਰਦੇ ਹੋ, ਤਾਂ ਮਾਸਕ ਪਾਇਆ ਹੋਣ \'ਤੇ ਜਾਂ ਕਿਸੇ ਹਨੇਰੇ ਵਾਲੀ ਜਗ੍ਹਾ ਵਿੱਚ ਹੋਣ \'ਤੇ ਤੁਹਾਡਾ ਫ਼ੋਨ ਤੁਹਾਡੇ ਫਿੰਗਰਪ੍ਰਿੰਟ ਵਾਸਤੇ ਪੁੱਛੇਗਾ।\n\nਵਾਚ ਅਣਲਾਕ ਤੁਹਾਡੇ ਫ਼ੋਨ ਨੂੰ ਅਣਲਾਕ ਕਰਨ ਦਾ ਇੱਕ ਹੋਰ ਸੁਵਿਧਾਜਨਕ ਤਰੀਕਾ ਹੈ, ਉਦਾਹਰਨ ਲਈ, ਜਦੋਂ ਤੁਹਾਡੀਆਂ ਉਂਗਲਾਂ ਗਿੱਲੀਆਂ ਹੁੰਦੀਆਂ ਹਨ ਜਾਂ ਚਿਹਰਾ ਪਛਾਣਿਆ ਨਾ ਗਿਆ ਹੋਵੇ।"</string>
     <string name="biometric_settings_intro_with_fingerprint" msgid="5881355884547769337">"ਵਾਚ ਅਣਲਾਕ ਵਿਸ਼ੇਸ਼ਤਾ ਇਸ ਫ਼ੋਨ ਨੂੰ ਅਣਲਾਕ ਕਰਨ ਦਾ ਇੱਕ ਹੋਰ ਸੁਵਿਧਾਜਨਕ ਤਰੀਕਾ ਹੈ, ਉਦਾਹਰਨ ਲਈ, ਜਦੋਂ ਤੁਹਾਡੀਆਂ ਉਂਗਲਾਂ ਦੀ ਪਛਾਣ ਨਹੀਂ ਹੁੰਦੀ ਹੈ।"</string>
     <string name="biometric_settings_intro_with_face" msgid="7671919122230588521">"ਵਾਚ ਅਣਲਾਕ ਵਿਸ਼ੇਸ਼ਤਾ ਇਸ ਫ਼ੋਨ ਨੂੰ ਅਣਲਾਕ ਕਰਨ ਦਾ ਇੱਕ ਹੋਰ ਸੁਵਿਧਾਜਨਕ ਤਰੀਕਾ ਹੈ, ਉਦਾਹਰਨ ਲਈ, ਜਦੋਂ ਤੁਹਾਡਾ ਚਿਹਰਾ ਪਛਾਣਿਆ ਨਾ ਗਿਆ ਹੋਵੇ।"</string>
@@ -552,7 +556,7 @@
     <string name="cancel_lock_screen_dialog_button_label" msgid="1801132985957491690">"ਰੱਦ ਕਰੋ"</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_title" msgid="886085239313346000">"ਸੈਂਸਰ ਨੂੰ ਸਪਰਸ਼ ਕਰੋ"</string>
     <string name="security_settings_sfps_enroll_find_sensor_title" msgid="8327884364635804363">"ਪਾਵਰ ਬਟਨ ਨੂੰ ਦਬਾਏ ਬਿਨਾਂ ਉਸ ਨੂੰ ਸਪਰਸ਼ ਕਰੋ"</string>
-    <string name="security_settings_udfps_enroll_find_sensor_title" msgid="8077484429913330179">"ਆਪਣੇ ਫਿੰਗਰਪ੍ਰਿੰਟ ਦਾ ਸੈੱਟਅੱਪ ਕਿਵੇਂ ਕਰਨਾ ਹੈ"</string>
+    <string name="security_settings_udfps_enroll_find_sensor_title" msgid="8077484429913330179">"ਆਪਣੇ ਫਿੰਗਰਪ੍ਰਿੰਟ ਦਾ ਸੈੱਟਅੱਪ ਕਰਨ ਦਾ ਤਰੀਕਾ"</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message" msgid="6160543980992596286">"ਇਹ ਤੁਹਾਡੇ ਫ਼ੋਨ ਦੇ ਪਿਛਲੇ ਪਾਸੇ ਹੈ। ਆਪਣੇ ਅੰਗੂਠੇ ਦੇ ਨਾਲ ਦੀ ਉਂਗਲ ਵਰਤੋ।"</string>
     <string name="security_settings_udfps_enroll_find_sensor_message" msgid="8383106460819519961">"ਫਿੰਗਰਪ੍ਰਿੰਟ ਸੈਂਸਰ ਤੁਹਾਡੀ ਸਕ੍ਰੀਨ \'ਤੇ ਹੈ। ਤੁਸੀਂ ਅਗਲੀ ਸਕ੍ਰੀਨ \'ਤੇ ਆਪਣੇ ਫਿੰਗਰਪ੍ਰਿੰਟ ਨੂੰ ਕੈਪਚਰ ਕਰੋਗੇ।"</string>
     <string name="security_settings_udfps_enroll_find_sensor_start_button" msgid="3172268783620336357">"ਸ਼ੁਰੂ ਕਰੋ"</string>
@@ -782,6 +786,10 @@
     <string name="unlock_set_unlock_password_title" msgid="2559842616268607041">"ਪਾਸਵਰਡ"</string>
     <string name="unlock_set_do_later_title" msgid="6565575303676064364">"ਅਜੇ ਨਹੀਂ"</string>
     <string name="current_screen_lock" msgid="1367883977261098017">"ਮੌਜੂਦਾ ਸਕ੍ਰੀਨ ਲਾਕ"</string>
+    <!-- no translation found for unlock_accessibility_pin_area (437104569661316525) -->
+    <skip />
+    <!-- no translation found for unlock_accessibility_password (5404713613573232309) -->
+    <skip />
     <string name="fingerprint_unlock_set_unlock_pattern" msgid="2229689425933043901">"ਪੈਟਰਨ • ਫਿੰਗਰਪ੍ਰਿੰਟ"</string>
     <string name="fingerprint_unlock_set_unlock_pin" msgid="7979848492740627674">"ਪਿੰਨ • ਫਿੰਗਰਪ੍ਰਿੰਟ"</string>
     <string name="fingerprint_unlock_set_unlock_password" msgid="6207676267295036963">"ਪਾਸਵਰਡ • ਫਿੰਗਰਪ੍ਰਿੰਟ"</string>
@@ -1315,6 +1323,8 @@
     <string name="screen_resolution_option_high" msgid="2617496842852992853">"ਜ਼ਿਆਦਾ ਰੈਜ਼ੋਲਿਊਸ਼ਨ"</string>
     <string name="screen_resolution_option_full" msgid="4456839315039000517">"ਪੂਰਾ ਰੈਜ਼ੋਲਿਊਸ਼ਨ"</string>
     <string name="screen_resolution_footer" msgid="1230761249204935717">"ਪੂਰਾ ਰੈਜ਼ੋਲਿਊਸ਼ਨ ਤੁਹਾਡੀ ਬੈਟਰੀ ਦੀ ਜ਼ਿਆਦਾ ਵਰਤੋਂ ਕਰਦਾ ਹੈ। ਤੁਹਾਡੇ ਰੈਜ਼ੋਲਿਊਸ਼ਨ ਵਿੱਚ ਸਵਿੱਚ ਕਰਨ ਕਰ ਕੇ ਕੁਝ ਐਪਾਂ ਮੁੜ-ਸ਼ੁਰੂ ਹੋ ਸਕਦੀਆਂ ਹਨ।"</string>
+    <!-- no translation found for screen_resolution_delimiter_a11y (5826162120538795842) -->
+    <skip />
     <string name="color_mode_title" msgid="8666690832113906028">"ਰੰਗ"</string>
     <string name="color_mode_option_natural" msgid="6192875655101283303">"ਕੁਦਰਤੀ"</string>
     <string name="color_mode_option_boosted" msgid="4698797857766774289">"ਵਧਾਇਆ ਗਿਆ"</string>
@@ -1388,12 +1398,12 @@
     <string name="dark_ui_summary_on_auto_mode_custom_bedtime" msgid="1976993025762551246">"ਸੌਣ ਦੇ ਸਮੇਂ ਤੋਂ ਬਾਅਦ ਸਵੈਚਲਿਤ ਤੌਰ \'ਤੇ ਬੰਦ ਹੋ ਜਾਵੇਗਾ"</string>
     <string name="dark_ui_summary_on_auto_mode_modes" msgid="7769594183411785087">"<xliff:g id="ID_1">%1$s</xliff:g> ਦੇ ਸਮਾਪਤ ਹੋਣ \'ਤੇ ਬੰਦ ਹੋ ਜਾਵੇਗਾ"</string>
     <string name="dark_ui_text" msgid="4392646155331126666">"ਕੁਝ ਸਕ੍ਰੀਨਾਂ \'ਤੇ ਗੂੜ੍ਹਾ ਥੀਮ ਬੈਟਰੀ ਨੂੰ ਵਧੇਰੇ ਲੰਬੇ ਸਮੇਂ ਤੱਕ ਬਚਾਈ ਰੱਖਣ ਵਿੱਚ ਮਦਦ ਲਈ ਕਾਲੇ ਰੰਗ ਦੇ ਬੈਕਗ੍ਰਾਊਂਡ ਦੀ ਵਰਤੋਂ ਕਰਦਾ ਹੈ। ਗੂੜ੍ਹਾ ਥੀਮ ਸਕ੍ਰੀਨ ਬੰਦ ਹੋਣ \'ਤੇ ਚਾਲੂ ਹੁੰਦਾ ਹੈ।"</string>
+    <!-- no translation found for dark_ui_text_force_invert (3776487375947497387) -->
+    <skip />
     <string name="dark_ui_bedtime_footer_summary" msgid="5576501833145170581">"ਫ਼ਿਲਹਾਲ ਗੂੜ੍ਹਾ ਥੀਮ ਤੁਹਾਡੀ ਬੈੱਡਟਾਈਮ ਮੋਡ ਸਮਾਂ-ਸੂਚੀ ਦੀ ਪਾਲਣਾ ਕਰ ਰਿਹਾ ਹੈ"</string>
     <string name="dark_ui_bedtime_footer_action" msgid="1493095487994054339">"ਬੈੱਡਟਾਈਮ ਮੋਡ ਸੰਬੰਧੀ ਸੈਟਿੰਗਾਂ"</string>
     <string name="dark_ui_modes_footer_summary" msgid="1041117250408363391">"{count,plural,offset:2 =0{ਮੋਡ ਗੂੜ੍ਹੇ ਥੀਮ ਨੂੰ ਵੀ ਕਿਰਿਆਸ਼ੀਲ ਕਰ ਸਕਦਾ ਹੈ}=1{{mode_1} ਗੂੜ੍ਹੇ ਥੀਮ ਨੂੰ ਵੀ ਕਿਰਿਆਸ਼ੀਲ ਕਰ ਸਕਦਾ ਹੈ}=2{{mode_1} ਅਤੇ {mode_2} ਗੂੜ੍ਹੇ ਥੀਮ ਨੂੰ ਵੀ ਕਿਰਿਆਸ਼ੀਲ ਕਰ ਸਕਦੇ ਹਨ}=3{{mode_1}, {mode_2} ਅਤੇ {mode_3} ਗੂੜ੍ਹੇ ਥੀਮ ਨੂੰ ਵੀ ਕਿਰਿਆਸ਼ੀਲ ਕਰ ਸਕਦੇ ਹਨ}other{{mode_1}, {mode_2} ਅਤੇ # ਹੋਰ ਗੂੜ੍ਹੇ ਥੀਮ ਨੂੰ ਵੀ ਕਿਰਿਆਸ਼ੀਲ ਕਰ ਸਕਦੇ ਹਨ}}"</string>
     <string name="dark_ui_modes_footer_action" msgid="80671811848446248">"ਮੋਡਾਂ ਦੀਆਂ ਸੈਟਿੰਗਾਂ"</string>
-    <string name="even_dimmer_display_title" msgid="4509732439977906028">"ਜ਼ਿਆਦਾ ਘੱਟ ਚਮਕ"</string>
-    <string name="even_dimmer_display_summary" msgid="120301078873242172">"ਡੀਵਾਈਸ ਨੂੰ ਆਮ ਨਾਲੋਂ ਘੱਟ ਚਮਕਦਾਰ ਹੋਣ ਦੀ ਆਗਿਆ ਦਿਓ"</string>
     <string name="screen_timeout" msgid="7709947617767439410">"ਸਕ੍ਰੀਨ ਸਮਾਂ ਸਮਾਪਤੀ"</string>
     <string name="screen_timeout_summary" msgid="5558778019594643427">"<xliff:g id="TIMEOUT_DESCRIPTION">%1$s</xliff:g> ਤੱਕ ਕੋਈ ਸਰਗਰਮੀ ਨਾ ਹੋਣ \'ਤੇ"</string>
     <string name="screen_timeout_summary_not_set" msgid="5107680774964178875">"ਸੈੱਟ ਨਹੀਂ ਕੀਤਾ ਗਿਆ"</string>
@@ -2109,8 +2119,7 @@
     <string name="trackpad_touch_gesture" msgid="8641725062131922497">"ਟੱਚਪੈਡ ਇਸ਼ਾਰਿਆਂ ਬਾਰੇ ਜਾਣੋ"</string>
     <string name="keywords_touchpad" msgid="8159846254066666032">"ਟਰੈਕਪੈਡ, ਟਰੈਕ ਪੈਡ, ਮਾਊਸ, ਕਰਸਰ, ਸਕ੍ਰੋਲ ਕਰੋ, ਸਵਾਈਪ ਕਰੋ, ਸੱਜਾ ਕਲਿੱਕ, ਕਲਿੱਕ ਕਰੋ, ਪੁਆਇੰਟ"</string>
     <string name="keywords_trackpad_bottom_right_tap" msgid="1285062446073929305">"ਸੱਜਾ ਕਲਿੱਕ, ਟੈਪ ਕਰੋ"</string>
-    <!-- no translation found for three_finger_tap_middle_click (1759914275939765929) -->
-    <skip />
+    <string name="three_finger_tap_middle_click" msgid="1759914275939765929">"ਮਾਊਸ ਦਾ ਵਿਚਕਾਰਲਾ ਕਲਿੱਕ ਬਟਨ"</string>
     <string name="three_finger_tap_launch_gemini" msgid="4030401656711588982">"Assistant ਨੂੰ ਲਾਂਚ ਕਰੋ"</string>
     <string name="three_finger_tap_go_home" msgid="6526301745535089812">"ਹੋਮ \'ਤੇ ਜਾਓ"</string>
     <string name="three_finger_tap_go_back" msgid="2898205524575684271">"ਵਾਪਸ ਜਾਓ"</string>
@@ -2263,6 +2272,16 @@
     <string name="accessibility_captioning_footer_learn_more_content_description" msgid="5730040700677017706">"ਸੁਰਖੀ ਸੰਬੰਧੀ ਤਰਜੀਹਾਂ ਬਾਰੇ ਹੋਰ ਜਾਣੋ"</string>
     <string name="accessibility_screen_magnification_title" msgid="1211169976144629087">"ਵੱਡਦਰਸ਼ੀਕਰਨ"</string>
     <string name="accessibility_screen_magnification_shortcut_title" msgid="2387963646377987780">"ਵੱਡਦਰਸ਼ੀਕਰਨ ਦਾ ਸ਼ਾਰਟਕੱਟ"</string>
+    <!-- no translation found for accessibility_magnification_cursor_following_title (29531257984012743) -->
+    <skip />
+    <!-- no translation found for accessibility_magnification_cursor_following_header (7283095798622223509) -->
+    <skip />
+    <!-- no translation found for accessibility_magnification_cursor_following_continuous (1119319218662522794) -->
+    <skip />
+    <!-- no translation found for accessibility_magnification_cursor_following_center (3504798009192014460) -->
+    <skip />
+    <!-- no translation found for accessibility_magnification_cursor_following_edge (8675207762416655758) -->
+    <skip />
     <string name="accessibility_screen_magnification_follow_typing_title" msgid="6379517513916651560">"ਟਾਈਪਿੰਗ ਨੂੰ ਵੱਡਦਰਸ਼ੀ ਕਰੋ"</string>
     <string name="accessibility_screen_magnification_follow_typing_summary" msgid="2882250257391761678">"ਤੁਹਾਡੇ ਵੱਲੋਂ ਟਾਈਪ ਕਰਨ \'ਤੇ ਵੱਡਦਰਸ਼ੀ ਲਿਖਤ ਦਾ ਅਨੁਸਰਣ ਕਰਦਾ ਹੈ"</string>
     <string name="accessibility_screen_magnification_always_on_title" msgid="3814297443759580936">"ਐਪਾਂ ਵਿਚਕਾਰ ਸਵਿੱਚ ਕਰਨ \'ਤੇ ਚਾਲੂ ਰੱਖੋ"</string>
@@ -2316,6 +2335,8 @@
     <string name="accessibility_screen_magnification_navbar_short_summary" msgid="4885018322430052037">"ਜ਼ੂਮ ਕਰਨ ਲਈ ਬਟਨ \'ਤੇ ਟੈਪ ਕਰੋ"</string>
     <string name="accessibility_screen_magnification_intro_text" msgid="3856180549393526339">"ਸਮੱਗਰੀ ਨੂੰ ਵੱਡਾ ਕਰਨ ਲਈ ਸਕ੍ਰੀਨ \'ਤੇ ਤੇਜ਼ੀ ਨਾਲ ਜ਼ੂਮ ਵਧਾਓ"</string>
     <string name="accessibility_screen_magnification_summary" msgid="8267672508057326959">"&lt;b&gt;ਜ਼ੂਮ ਵਧਾਉਣ ਲਈ:&lt;/b&gt;&lt;br/&gt; {0,number,integer}. ਵੱਡਦਰਸ਼ੀਕਰਨ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਸ਼ਾਰਟਕੱਟ ਵਰਤੋ&lt;br/&gt; {1,number,integer}. ਸਕ੍ਰੀਨ \'ਤੇ ਟੈਪ ਕਰੋ&lt;br/&gt; {2,number,integer}. ਸਕ੍ਰੀਨ \'ਤੇ ਇੱਧਰ-ਉੱਧਰ ਜਾਣ ਲਈ 2 ਉਂਗਲਾਂ ਨਾਲ ਘਸੀਟੋ&lt;br/&gt; {3,number,integer}. ਜ਼ੂਮ ਵਿੱਚ ਵਾਧ-ਘਾਟ ਕਰਨ ਲਈ 2 ਉਂਗਲਾਂ ਨਾਲ ਚੂੰਢੀ ਭਰੋ&lt;br/&gt; {4,number,integer}. ਵੱਡਦਰਸ਼ੀਕਰਨ ਨੂੰ ਰੋਕਣ ਲਈ ਸ਼ਾਰਟਕੱਟ ਵਰਤੋ&lt;br/&gt;&lt;br/&gt; &lt;b&gt;ਕੁਝ ਸਮੇਂ ਲਈ ਜ਼ੂਮ ਵਧਾਉਣ ਲਈ:&lt;/b&gt;&lt;br/&gt; {0,number,integer}. ਪੱਕਾ ਕਰੋ ਕਿ ਤੁਹਾਡੀ ਵੱਡਦਰਸ਼ੀਕਰਨ ਕਿਸਮ ਪੂਰੀ ਸਕ੍ਰੀਨ \'ਤੇ ਸੈੱਟ ਹੈ&lt;br/&gt; {1,number,integer}. ਵੱਡਦਰਸ਼ੀਕਰਨ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਸ਼ਾਰਟਕੱਟ ਵਰਤੋ&lt;br/&gt; {2,number,integer}. ਸਕ੍ਰੀਨ \'ਤੇ ਕਿਤੇ ਵੀ ਸਪਰਸ਼ ਕਰ ਕੇ ਰੱਖੋ&lt;br/&gt; {3,number,integer}. ਸਕ੍ਰੀਨ \'ਤੇ ਇੱਧਰ-ਉੱਧਰ ਜਾਣ ਲਈ ਉਂਗਲ ਨਾਲ ਘਸੀਟੋ&lt;br/&gt; {4,number,integer}. ਵੱਡਦਰਸ਼ੀਕਰਨ ਨੂੰ ਰੋਕਣ ਲਈ ਉਂਗਲ ਚੁੱਕੋ"</string>
+    <!-- no translation found for accessibility_screen_magnification_keyboard_summary (2504303274186294767) -->
+    <skip />
     <string name="accessibility_screen_magnification_summary_one_finger_panning_off" msgid="1779959623535122324">"&lt;b&gt;ਜ਼ੂਮ ਵਧਾਉਣ ਲਈ:&lt;/b&gt;&lt;br/&gt; {0,number,integer}. ਵੱਡਦਰਸ਼ੀਕਰਨ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਸ਼ਾਰਟਕੱਟ ਵਰਤੋ&lt;br/&gt; {1,number,integer}. ਸਕ੍ਰੀਨ \'ਤੇ ਟੈਪ ਕਰੋ&lt;br/&gt; {2,number,integer}. ਸਕ੍ਰੀਨ \'ਤੇ ਘੁਮਾਉਣ ਲਈ 2 ਉਂਗਲਾਂ ਨਾਲ ਘਸੀਟੋ&lt;br/&gt; {3,number,integer}. ਜ਼ੂਮ ਵਿੱਚ ਵਾਧ-ਘਾਟ ਕਰਨ ਲਈ 2 ਉਂਗਲਾਂ ਨਾਲ ਚੂੰਢੀ ਭਰੋ&lt;br/&gt; {4,number,integer}. ਵੱਡਦਰਸ਼ੀਕਰਨ ਨੂੰ ਰੋਕਣ ਲਈ ਸ਼ਾਰਟਕੱਟ ਦੀ ਵਰਤੋਂ ਕਰੋ&lt;br/&gt;&lt;br/&gt; ਤੁਸੀਂ ਕੁਝ ਸਮੇਂ ਲਈ ਜ਼ੂਮ ਵਧਾ ਅਤੇ ਹੋਰ ਵੀ ਬਹੁਤ ਕੁਝ ਕਰ ਸਕਦੇ ਹੋ।"</string>
     <string name="accessibility_screen_magnification_summary_one_finger_panning_on" msgid="7323930759240678965">"&lt;b&gt;ਜ਼ੂਮ ਵਧਾਉਣ ਲਈ:&lt;/b&gt;&lt;br/&gt; {0,number,integer}. ਵੱਡਦਰਸ਼ੀਕਰਨ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਸ਼ਾਰਟਕੱਟ ਵਰਤੋ&lt;br/&gt; {1,number,integer}. ਸਕ੍ਰੀਨ \'ਤੇ ਟੈਪ ਕਰੋ&lt;br/&gt; {2,number,integer}. ਸਕ੍ਰੀਨ \'ਤੇ ਘੁਮਾਉਣ ਲਈ 1 ਜਾਂ 2 ਉਂਗਲਾਂ ਨਾਲ ਘਸੀਟੋ&lt;br/&gt; {3,number,integer}. ਜ਼ੂਮ ਵਿੱਚ ਵਾਧ-ਘਾਟ ਕਰਨ ਲਈ 2 ਉਂਗਲਾਂ ਨਾਲ ਚੂੰਢੀ ਭਰੋ&lt;br/&gt; {4,number,integer}. ਵੱਡਦਰਸ਼ੀਕਰਨ ਨੂੰ ਰੋਕਣ ਲਈ ਸ਼ਾਰਟਕੱਟ ਦੀ ਵਰਤੋਂ ਕਰੋ&lt;br/&gt;&lt;br/&gt; ਤੁਸੀਂ ਕੁਝ ਸਮੇਂ ਲਈ ਜ਼ੂਮ ਵਧਾ ਅਤੇ ਹੋਰ ਵੀ ਬਹੁਤ ਕੁਝ ਕਰ ਸਕਦੇ ਹੋ।"</string>
     <string name="accessibility_screen_magnification_navbar_summary" msgid="807985499898802296">"ਜਦੋਂ ਵੱਡਦਰਸ਼ੀਕਰਨ ਚਾਲੂ ਹੋਵੇ, ਤੁਸੀਂ ਸਕ੍ਰੀਨ \'ਤੇ ਜ਼ੂਮ ਵਧਾ ਸਕਦੇ ਹੋ।\n\n"<b>"ਜ਼ੂਮ ਕਰਨ ਲਈ"</b>", ਵੱਡਦਰਸ਼ੀਕਰਨ ਸ਼ੁਰੂ ਕਰੋ, ਫਿਰ ਸਕ੍ਰੀਨ \'ਤੇ ਕਿਤੇ ਵੀ ਟੈਪ ਕਰੋ।\n"<ul><li>"ਸਕ੍ਰੋਲ ਕਰਨ ਲਈ 2 ਜਾਂ ਜ਼ਿਆਦਾ ਉਂਗਲਾਂ ਘਸੀਟੋ"</li>\n<li>" ਜ਼ੂਮ ਨੂੰ ਵਿਵਸਥਿਤ ਕਰਨ ਲਈ 2 ਜਾਂ ਜ਼ਿਆਦਾ ਉਂਗਲਾਂ ਨਾਲ ਚੂੰਢੀ ਭਰੋ"</li></ul>\n\n<b>"ਅਸਥਾਈ ਤੌਰ \'ਤੇ ਜ਼ੂਮ ਕਰਨ ਲਈ"</b>", ਵੱਡਦਰਸ਼ੀਕਰਨ ਸ਼ੁਰੂ ਕਰੋ, ਫਿਰ ਸਕ੍ਰੀਨ \'ਤੇ ਕੀਤੇ ਵੀ ਸਪਰਸ਼ ਕਰਕੇ ਰੱਖੋ।\n"<ul><li>"ਸਕ੍ਰੀਨ \'ਤੇ ਆਲੇ-ਦੁਆਲੇ ਜਾਣ ਲਈ ਘਸੀਟੋ"</li>\n<li>"ਜ਼ੂਮ ਘਟਾਉਣ ਲਈ ਉਂਗਲ ਚੁੱਕੋ"</li></ul>\n\n"ਤੁਸੀਂ ਕੀ-ਬੋਰਡ ਜਾਂ ਦਿਸ਼ਾ-ਨਿਰਦੇਸ਼ ਪੱਟੀ \'ਤੇ ਜ਼ੂਮ ਵਧਾ ਨਹੀਂ ਸਕਦੇ।"</string>
@@ -2405,7 +2426,8 @@
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_summary" msgid="9034532513972547720">"ਐਪ ਟ੍ਰਾਂਜਿਸ਼ਨਾਂ ਤੇ ਸਕ੍ਰੀਨ ਵਿਸਤਰੀਕਰਨ ਅੱਪਡੇਟ ਕਰੋ"</string>
     <string name="accessibility_power_button_ends_call_prerefence_title" msgid="8187306131979612144">"ਪਾਵਰ ਬਟਨ ਨਾਲ ਕਾਲ ਕੱਟਣਾ"</string>
     <string name="accessibility_force_invert_title" msgid="5248504501753732051">"ਜ਼ਿਆਦਾ ਐਪਾਂ \'ਤੇ ਗੂੜ੍ਹਾ ਥੀਮ ਲਾਗੂ ਕਰੋ"</string>
-    <string name="accessibility_force_invert_summary" msgid="179237803986895815">"ਹਲਕਾ ਥੀਮ ਐਪਾਂ ਨੂੰ ਸਵੈਚਲਿਤ ਤੌਰ \'ਤੇ ਗੂੜ੍ਹੇ ਥੀਮ ਵਿੱਚ ਬਦਲੋ"</string>
+    <!-- no translation found for accessibility_force_invert_summary (257503086198180749) -->
+    <skip />
     <string name="accessibility_disable_animations" msgid="2993529829457179058">"ਐਨੀਮੇਸ਼ਨਾਂ ਹਟਾਓ"</string>
     <string name="accessibility_disable_animations_summary" msgid="5828228669556554565">"ਸਕ੍ਰੀਨ \'ਤੇ ਹਿਲਜੁਲ ਨੂੰ ਘਟਾਓ"</string>
     <string name="accessibility_toggle_primary_mono_title" msgid="7587152099472946571">"ਮੋਨੋ ਆਡੀਓ"</string>
@@ -2821,7 +2843,12 @@
     <string name="battery_usage_timestamps_hyphen" msgid="7401188432989043905">"<xliff:g id="FROM_TIMESTAMP">%1$s</xliff:g> - <xliff:g id="TO_TIMESTAMP">%2$s</xliff:g> ਤੱਕ"</string>
     <string name="battery_usage_timestamps_content_description" msgid="1927748134271595985">"<xliff:g id="FROM_TIMESTAMP">%1$s</xliff:g> ਤੋਂ <xliff:g id="TO_TIMESTAMP">%2$s</xliff:g> ਤੱਕ"</string>
     <string name="battery_usage_day_and_hour" msgid="1417890420844950881">"<xliff:g id="DAY">%1$s</xliff:g> <xliff:g id="HOUR">%2$s</xliff:g>"</string>
-    <string name="battery_usage_time_info_and_battery_level" msgid="6732629268310936155">"<xliff:g id="TIME_INFO">%1$s</xliff:g> <xliff:g id="BATTERY_LEVEL">%2$s</xliff:g>⁠"</string>
+    <!-- no translation found for battery_usage_status_time_info_and_battery_level (5158088815445378555) -->
+    <skip />
+    <!-- no translation found for battery_chart_slot_status_selected (4196580689444438148) -->
+    <skip />
+    <!-- no translation found for battery_chart_slot_status_unselected (6930198843537021396) -->
+    <skip />
     <string name="battery_usage_chart" msgid="4114747521432440017">"ਬੈਟਰੀ ਵਰਤੋਂ ਦਾ ਚਾਰਟ"</string>
     <string name="daily_battery_usage_chart" msgid="4176059567682992686">"ਰੋਜ਼ਾਨਾ ਬੈਟਰੀ ਵਰਤੋਂ ਚਾਰਟ"</string>
     <string name="hourly_battery_usage_chart" msgid="3098314511076561272">"ਪ੍ਰਤੀ ਘੰਟਾ ਬੈਟਰੀ ਵਰਤੋਂ ਚਾਰਟ"</string>
@@ -2901,14 +2928,10 @@
     <string name="adaptive_connectivity_switch_on" msgid="3653067561620745493">"ਚਾਲੂ"</string>
     <string name="adaptive_connectivity_switch_off" msgid="5076172560836115265">"ਬੰਦ"</string>
     <string name="adaptive_connectivity_main_switch_title" msgid="261045483524512420">"ਅਡੈਪਟਿਵ ਕਨੈਕਟੀਵਿਟੀ ਦੀ ਵਰਤੋਂ ਕਰੋ"</string>
-    <!-- no translation found for adaptive_connectivity_wifi_switch_title (5899985025046319472) -->
-    <skip />
-    <!-- no translation found for adaptive_connectivity_wifi_switch_summary (4650230240134029595) -->
-    <skip />
-    <!-- no translation found for adaptive_connectivity_mobile_network_switch_title (2473274404695643218) -->
-    <skip />
-    <!-- no translation found for adaptive_connectivity_mobile_network_switch_summary (2432517485362085341) -->
-    <skip />
+    <string name="adaptive_connectivity_wifi_switch_title" msgid="5899985025046319472">"ਵਾਈ-ਫਾਈ ਤੋਂ ਸੈਲਿਊਲਰ \'ਤੇ ਸਵੈ-ਸਵਿੱਚ ਕਰੋ"</string>
+    <string name="adaptive_connectivity_wifi_switch_summary" msgid="4650230240134029595">"ਵਾਈ-ਫਾਈ ਕਨੈਕਸ਼ਨ ਖਰਾਬ ਜਾਂ ਅਣਉਪਲਬਧ ਹੋਣ \'ਤੇ ਸਵੈਚਲਿਤ ਤੌਰ \'ਤੇ ਸੈਲਿਊਲਰ ਡਾਟਾ ਵਰਤੋ। ਡਾਟਾ ਵਰਤੋਂ ਸੰਬੰਧੀ ਖਰਚੇ ਲਏ ਜਾ ਸਕਦੇ ਹਨ।"</string>
+    <string name="adaptive_connectivity_mobile_network_switch_title" msgid="2473274404695643218">"ਬੈਟਰੀ ਲਾਈਫ਼ ਲਈ ਮੋਬਾਈਲ ਨੈੱਟਵਰਕ ਨੂੰ ਸਵੈ-ਸਵਿੱਚ ਕਰੋ"</string>
+    <string name="adaptive_connectivity_mobile_network_switch_summary" msgid="2432517485362085341">"ਨੈੱਟਵਰਕ ਕਨੈਕਸ਼ਨਾਂ ਦਾ ਸਵੈਚਲਿਤ ਤੌਰ \'ਤੇ ਪ੍ਰਬੰਧਨ ਕਰ ਕੇ ਬੈਟਰੀ ਲਾਈਫ਼ ਵਧਾਓ"</string>
     <string name="cellular_security_title" msgid="5562899485544677941">"ਮੋਬਾਈਲ ਨੈੱਟਵਰਕ ਸੁਰੱਖਿਆ"</string>
     <string name="cellular_security_summary" msgid="1893770670709928113">"ਨੈੱਟਵਰਕ ਦੀ ਕਿਸਮ, ਇਨਕ੍ਰਿਪਸ਼ਨ, ਸੂਚਨਾ ਕੰਟਰੋਲ"</string>
     <string name="cellular_security_top_intro" msgid="6749166804080092892">"ਇਹ ਸੈਟਿੰਗਾਂ ਤੁਹਾਡੀਆਂ ਕਾਲਾਂ, ਸੁਨੇਹਿਆਂ ਅਤੇ ਡਾਟੇ ਨੂੰ ਉਨ੍ਹਾਂ ਪੁਰਾਣੇ ਜਾਂ ਇਨਕ੍ਰਿਪਟਡ ਨੈੱਟਵਰਕਾਂ ਤੋਂ ਸੁਰੱਖਿਅਤ ਕਰਨ ਵਿੱਚ ਮਦਦ ਕਰਦੀਆਂ ਹਨ ਜੋ ਤੁਹਾਨੂੰ ਡਾਟਾ ਚੋਰਾਂ ਜਾਂ ਨਿਗਰਾਨੀ ਅੱਗੇ ਪ੍ਰਗਟ ਕਰ ਸਕਦੇ ਹਨ"</string>
@@ -3115,6 +3138,12 @@
     <string name="vpn_no_ca_cert" msgid="3687379414088677735">"(ਸਰਵਰ ਦੀ ਪੁਸ਼ਟੀ ਨਾ ਕਰੋ)"</string>
     <string name="vpn_no_server_cert" msgid="8106540968643125407">"(ਸਰਵਰ ਤੋਂ ਪ੍ਰਾਪਤ ਕੀਤਾ)"</string>
     <string name="vpn_always_on_invalid_reason_other" msgid="4571905303713233321">"ਦਾਖਲ ਕੀਤੀ ਜਾਣਕਾਰੀ \'ਹਮੇਸ਼ਾ-ਚਾਲੂ VPN\' ਦਾ ਸਮਰਥਨ ਨਹੀਂ ਕਰਦੀ"</string>
+    <!-- no translation found for vpn_optional (3085880299239180702) -->
+    <skip />
+    <!-- no translation found for vpn_required (2538500165710360491) -->
+    <skip />
+    <!-- no translation found for vpn_field_required (952531424443686800) -->
+    <skip />
     <string name="vpn_cancel" msgid="5929410618112404383">"ਰੱਦ ਕਰੋ"</string>
     <string name="vpn_done" msgid="5137858784289564985">"ਖਾਰਜ ਕਰੋ"</string>
     <string name="vpn_save" msgid="683868204634860888">"ਰੱਖਿਅਤ ਕਰੋ"</string>
@@ -3850,7 +3879,8 @@
     <string name="nls_feature_settings_title" msgid="8208164329853194414">"ਸੈਟਿੰਗਾਂ ਬਦਲਣਾ"</string>
     <string name="nls_feature_settings_summary" msgid="3770028705648985689">"ਇਹ \'ਪਰੇਸ਼ਾਨ ਨਾ ਕਰੋ\' ਨੂੰ ਬੰਦ ਜਾਂ ਚਾਲੂ ਕਰ ਸਕਦੀ ਅਤੇ ਸੰਬੰਧਿਤ ਸੈਟਿੰਗਾਂ ਨੂੰ ਬਦਲ ਸਕਦੀ ਹੈ।"</string>
     <string name="nls_feature_modes_settings_summary" msgid="70022458305195595">"ਇਸ ਨਾਲ ਮੋਡਾਂ ਦਾ ਪ੍ਰਬੰਧਨ ਅਤੇ ਉਨ੍ਹਾਂ ਨੂੰ ਕਿਰਿਆਸ਼ੀਲ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ ਅਤੇ ਸੰਬੰਧਿਤ ਸੈਟਿੰਗਾਂ ਨੂੰ ਬਦਲਿਆ ਜਾ ਸਕਦਾ ਹੈ।"</string>
-    <string name="notification_listener_disable_warning_summary" msgid="8373396293802088961">"ਜੇ ਤੁਸੀਂ <xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> ਲਈ ਸੂਚਨਾ ਪਹੁੰਚ ਨੂੰ ਬੰਦ ਕਰਦੇ ਹੋ, ਤਾਂ \'ਪਰੇਸ਼ਾਨ ਨਾ ਕਰੋ\' ਪਹੁੰਚ ਵੀ ਬੰਦ ਹੋ ਸਕਦੀ ਹੈ।"</string>
+    <!-- no translation found for notification_listener_disable_warning_summary (205200471571837170) -->
+    <skip />
     <string name="notification_listener_disable_modes_warning_summary" msgid="7528432011433844158">"ਜੇ ਤੁਸੀਂ <xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> ਲਈ ਸੂਚਨਾ ਪਹੁੰਚ ਨੂੰ ਬੰਦ ਕਰਦੇ ਹੋ, ਤਾਂ ਮੋਡਾਂ ਤੱਕ ਪਹੁੰਚ ਵੀ ਬੰਦ ਹੋ ਸਕਦੀ ਹੈ।"</string>
     <string name="notification_listener_disable_warning_confirm" msgid="841492108402184976">"ਬੰਦ ਕਰੋ"</string>
     <string name="notification_listener_disable_warning_cancel" msgid="8802784105045594324">"ਰੱਦ ਕਰੋ"</string>
@@ -3918,9 +3948,11 @@
     <string name="interact_across_profiles_install_work_app_title" msgid="2821669067014436056">"ਇਨ੍ਹਾਂ ਐਪਾਂ ਨੂੰ ਕਨੈਕਟ ਕਰਨ ਲਈ, ਆਪਣੇ ਕਾਰਜ ਪ੍ਰੋਫਾਈਲ ਵਿੱਚ <xliff:g id="NAME">%1$s</xliff:g> ਨੂੰ ਸਥਾਪਤ ਕਰੋ"</string>
     <string name="interact_across_profiles_install_personal_app_title" msgid="4790651223324866344">"ਇਨ੍ਹਾਂ ਐਪਾਂ ਨੂੰ ਕਨੈਕਟ ਕਰਨ ਲਈ, ਆਪਣੇ ਨਿੱਜੀ ਪ੍ਰੋਫਾਈਲ ਵਿੱਚ <xliff:g id="NAME">%1$s</xliff:g> ਨੂੰ ਸਥਾਪਤ ਕਰੋ"</string>
     <string name="interact_across_profiles_install_app_summary" msgid="7715324358034968657">"ਐਪ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਟੈਪ ਕਰੋ"</string>
-    <string name="manage_zen_access_title" msgid="1562322900340107269">"\'ਪਰੇਸ਼ਾਨ ਨਾ ਕਰੋ\' ਤੱਕ ਪਹੁੰਚ"</string>
+    <!-- no translation found for manage_zen_access_title (4123905441114743974) -->
+    <skip />
     <string name="zen_access_detail_switch" msgid="4183681772666138993">"\'ਪਰੇਸ਼ਾਨ ਨਾ ਕਰੋ\' ਨੂੰ ਆਗਿਆ ਦਿਓ"</string>
-    <string name="zen_access_empty_text" msgid="3779921853282293080">"ਕਿਸੇ ਵੀ ਸਥਾਪਤ ਐਪਾਂ ਨੇ ਪਰੇਸ਼ਾਨ ਨਾ ਕਰੋ ਪਹੁੰਚ ਦੀ ਬੇਨਤੀ ਨਹੀਂ ਕੀਤੀ ਹੈ"</string>
+    <!-- no translation found for zen_access_empty_text (2662270585004373785) -->
+    <skip />
     <string name="manage_zen_modes_access_title" msgid="2520680004915648824">"ਮੋਡਾਂ ਤੱਕ ਪਹੁੰਚ"</string>
     <string name="zen_modes_access_detail_switch" msgid="4060429747631111299">"ਮੋਡਾਂ ਤੱਕ ਪਹੁੰਚ ਦੀ ਆਗਿਆ ਦਿਓ"</string>
     <string name="zen_modes_access_empty_text" msgid="8750927923904377110">"ਕਿਸੇ ਵੀ ਸਥਾਪਤ ਕੀਤੀ ਐਪ ਨੇ ਮੋਡਾਂ ਤੱਕ ਪਹੁੰਚ ਦੀ ਬੇਨਤੀ ਨਹੀਂ ਕੀਤੀ ਹੈ"</string>
@@ -4407,8 +4439,18 @@
     <string name="admin_profile_owner_user_message" msgid="4929926887231544950">"ਤੁਹਾਡਾ ਪ੍ਰਸ਼ਾਸਕ ਸੈਟਿੰਗਾਂ, ਇਜਾਜ਼ਤਾਂ, ਕਾਰਪੋਰੇਟ ਪਹੁੰਚ, ਨੈੱਟਵਰਕ ਸਰਗਰਮੀ, ਅਤੇ ਡੀਵਾਈਸ ਦੀ ਟਿਕਾਣਾ ਜਾਣਕਾਰੀ ਸਮੇਤ ਇਸ ਵਰਤੋਂਕਾਰ ਨਾਲ ਸਬੰਧਿਤ ਐਪਾਂ ਅਤੇ ਡਾਟੇ ਦੀ ਨਿਗਰਾਨੀ ਅਤੇ ਪ੍ਰਬੰਧਨ ਕਰ ਸਕਦਾ ਹੈ।"</string>
     <string name="admin_device_owner_message" msgid="5503131744126520590">"ਤੁਹਾਡਾ ਪ੍ਰਸ਼ਾਸਕ ਸੈਟਿੰਗਾਂ, ਇਜਾਜ਼ਤਾਂ, ਕਾਰਪੋਰੇਟ ਪਹੁੰਚ, ਨੈੱਟਵਰਕ ਸਰਗਰਮੀ, ਅਤੇ ਡੀਵਾਈਸ ਦੀ ਟਿਕਾਣਾ ਜਾਣਕਾਰੀ ਸਮੇਤ ਇਸ ਡੀਵਾਈਸ ਨਾਲ ਸਬੰਧਿਤ ਐਪਾਂ ਅਤੇ ਡਾਟੇ ਦੀ ਨਿਗਰਾਨੀ ਅਤੇ ਪ੍ਰਬੰਧਨ ਕਰ ਸਕਦਾ ਹੈ।"</string>
     <string name="admin_financed_message" msgid="1156197630834947884">"ਤੁਹਾਡਾ ਡੀਵਾਈਸ ਪ੍ਰਸ਼ਾਸਕ ਇਸ ਡੀਵਾਈਸ ਨਾਲ ਸੰਬੰਧਿਤ ਡਾਟੇ ਤੱਕ ਪਹੁੰਚ ਕਰ ਸਕਦਾ ਹੈ, ਐਪਾਂ ਦਾ ਪ੍ਰਬੰਧਨ ਕਰ ਸਕਦਾ ਹੈ ਅਤੇ ਇਸ ਡੀਵਾਈਸ ਦੀਆਂ ਸੈਟਿੰਗਾਂ ਨੂੰ ਬਦਲ ਸਕਦਾ ਹੈ।"</string>
-    <string name="disabled_by_advanced_protection_title" msgid="766656508280098112">"ਅਡਵਾਂਸ ਸੁਰੱਖਿਆ ਵੱਲੋਂ ਰੋਕਿਆ ਗਿਆ"</string>
-    <string name="disabled_by_advanced_protection_message" msgid="5515085544669304056">"ਇਸ ਕਾਰਵਾਈ ਦੀ ਆਗਿਆ ਨਹੀਂ ਹੈ ਕਿਉਂਕਿ ਤੁਹਾਡੇ ਡੀਵਾਈਸ \'ਤੇ ਅਡਵਾਂਸ ਸੁਰੱਖਿਆ ਚਾਲੂ ਹੈ।"</string>
+    <!-- no translation found for disabled_by_advanced_protection_title (9051476417559262469) -->
+    <skip />
+    <!-- no translation found for disabled_by_advanced_protection_setting_is_on_message (4242986779932956593) -->
+    <skip />
+    <!-- no translation found for disabled_by_advanced_protection_setting_is_off_message (7777487013672230696) -->
+    <skip />
+    <!-- no translation found for disabled_by_advanced_protection_action_message (7164789633582857150) -->
+    <skip />
+    <!-- no translation found for disabled_by_advanced_protection_wep_action_message (239574547298386495) -->
+    <skip />
+    <!-- no translation found for disabled_by_advanced_protection_help_button_title (6539346613660731777) -->
+    <skip />
     <string name="condition_turn_off" msgid="402707350778441939">"ਬੰਦ ਕਰੋ"</string>
     <string name="condition_turn_on" msgid="3911077299444314791">"ਚਾਲੂ ਕਰੋ"</string>
     <string name="condition_expand_show" msgid="1501084007540953213">" ਦਿਖਾਓ"</string>
@@ -4634,6 +4676,8 @@
     <string name="back_sensitivity_dialog_message" msgid="6638367716784103306">"ਜ਼ਿਆਦਾ ਸੰਵੇਦਨਸ਼ੀਲਤਾ ਕਾਰਨ ਸਕ੍ਰੀਨ ਦੇ ਕਿਨਾਰਿਆਂ ਸੰਬੰਧੀ ਐਪ ਇਸ਼ਾਰਿਆਂ ਵਿੱਚ ਉਲਝਣ ਪੈਦਾ ਹੋ ਸਕਦੀ ਹੈ।"</string>
     <string name="back_sensitivity_dialog_title" msgid="6153608904168908264">"\'ਪਿੱਛੇ\' ਸੰਬੰਧੀ ਸੰਵੇਦਨਸ਼ੀਲਤਾ"</string>
     <string name="gesture_settings_activity_title" msgid="1882463161833981820">"ਇਸ਼ਾਰਾ ਨੈਵੀਗੇਸ਼ਨ"</string>
+    <!-- no translation found for gesture_navigation_tutorial_title (1605955266131665429) -->
+    <skip />
     <string name="button_navigation_settings_activity_title" msgid="7335636045504461813">"ਬਟਨ ਨੈਵੀਗੇਸ਼ਨ"</string>
     <string name="keywords_gesture_navigation_settings" msgid="667561222717238931">"ਇਸ਼ਾਰਾ ਨੈਵੀਗੇਸ਼ਨ, \'ਪਿੱਛੇ\' ਸੰਬੰਧੀ ਸੰਵੇਦਨਸ਼ੀਲਤਾ, \'ਪਿੱਛੇ\' ਸੰਬੰਧੀ ਇਸ਼ਾਰਾ"</string>
     <string name="keywords_button_navigation_settings" msgid="7888812253110553920">"ਨੈਵੀਗੇਸ਼ਨ, ਹੋਮ ਬਟਨ"</string>
@@ -5015,21 +5059,15 @@
     <string name="summary_add_satellite_setting" msgid="190359698593056946">"ਹੋਰ ਜਾਣੋ"</string>
     <string name="category_name_how_it_works" msgid="585303230539269496">"ਇਹ ਕਿਵੇਂ ਕੰਮ ਕਰਦਾ ਹੈ"</string>
     <string name="title_satellite_connection_guide" msgid="3294802307913609072">"ਤੁਹਾਡੇ ਕੋਲ ਮੋਬਾਈਲ ਨੈੱਟਵਰਕ ਨਾ ਹੋਣ \'ਤੇ"</string>
-    <!-- no translation found for title_satellite_connection_guide_for_manual_type (7223875100977941341) -->
-    <skip />
+    <string name="title_satellite_connection_guide_for_manual_type" msgid="7223875100977941341">"ਫ਼ੋਨ ਨੰਬਰ \'ਤੇ ਲਿਖਤ ਸੁਨੇਹਾ ਭੇਜੋ"</string>
     <string name="summary_satellite_connection_guide" msgid="3496123195218418456">"ਤੁਹਾਡਾ ਫ਼ੋਨ ਸੈਟੇਲਾਈਟ ਨਾਲ ਆਪਣੇ-ਆਪ ਕਨੈਕਟ ਹੋ ਜਾਵੇਗਾ। ਵਧੀਆ ਕਨੈਕਸ਼ਨ ਲਈ,  ਸਾਫ਼ ਅਸਮਾਨ ਵਾਲੀ ਖੁੱਲ੍ਹੀ ਥਾਂ \'ਤੇ ਰਹੋ।"</string>
-    <!-- no translation found for summary_satellite_connection_guide_for_manual_type (5075149380084376662) -->
-    <skip />
+    <string name="summary_satellite_connection_guide_for_manual_type" msgid="5075149380084376662">"ਜੇ ਤੁਹਾਡੇ ਕੋਲ ਮੋਬਾਈਲ ਨੈੱਟਵਰਕ ਨਹੀਂ ਹੈ, ਤਾਂ ਤੁਹਾਨੂੰ ਸੈਟੇਲਾਈਟ ਸੁਨੇਹੇ ਦੀ ਵਰਤੋਂ ਕਰਨ ਦਾ ਵਿਕਲਪ ਦਿਖਾਈ ਦੇਵੇਗਾ।"</string>
     <string name="title_supported_service" msgid="4275535165812691571">"ਤੁਹਾਡਾ ਫ਼ੋਨ ਸੈਟੇਲਾਈਟ ਨਾਲ ਕਨੈਕਟ ਹੋ ਜਾਣ ਤੋਂ ਬਾਅਦ"</string>
-    <!-- no translation found for title_supported_service_for_manual_type (6009284624466359864) -->
-    <skip />
+    <string name="title_supported_service_for_manual_type" msgid="6009284624466359864">"ਸੈਟਾਲਾਈਟ ਨਾਲ ਕਨੈਕਟ ਕਰਨ ਲਈ ਪੜਾਵਾਂ ਦੀ ਪਾਲਣਾ ਕਰੋ"</string>
     <string name="summary_supported_service" msgid="4320535903444834786">"ਤੁਸੀਂ ਐਮਰਜੈਂਸੀ ਸੇਵਾਵਾਂ ਸਮੇਤ ਕਿਸੇ ਨੂੰ ਵੀ ਲਿਖਤ ਸੁਨੇਹਾ ਭੇਜ ਸਕਦੇ ਹੋ। ਉਪਲਬਧ ਹੋਣ \'ਤੇ ਤੁਹਾਡਾ ਫ਼ੋਨ ਮੋਬਾਈਲ ਨੈੱਟਵਰਕ ਨਾਲ ਮੁੜ-ਕਨੈਕਟ ਹੋ ਜਾਵੇਗਾ।"</string>
-    <!-- no translation found for summary_supported_service_for_manual_type (2147958362763058271) -->
-    <skip />
-    <!-- no translation found for satellite_setting_summary_more_information (276312352285564071) -->
-    <skip />
-    <!-- no translation found for satellite_setting_summary_more_information_no_emergency_messaging (2090170250936862158) -->
-    <skip />
+    <string name="summary_supported_service_for_manual_type" msgid="2147958362763058271">"ਤੁਹਾਡਾ ਫ਼ੋਨ ਕਨੈਕਟ ਹੋ ਜਾਣ ਤੋਂ ਬਾਅਦ, ਤੁਸੀਂ ਐਮਰਜੈਂਸੀ ਸੇਵਾਵਾਂ ਸਮੇਤ ਕਿਸੇ ਨੂੰ ਵੀ ਲਿਖਤ ਸੁਨੇਹਾ ਭੇਜ ਸਕਦੇ ਹੋ।"</string>
+    <string name="satellite_setting_summary_more_information" msgid="276312352285564071">"ਸੈਟੇਲਾਈਟ ਕਨੈਕਸ਼ਨ ਹੌਲੀ ਹੋ ਸਕਦਾ ਹੈ ਅਤੇ ਸਿਰਫ਼ ਕੁਝ ਖੇਤਰਾਂ ਵਿੱਚ ਹੀ ਉਪਲਬਧ ਹੈ। ਮੌਸਮ ਅਤੇ ਕੁਝ ਢਾਂਚੇ ਕਨੈਕਸ਼ਨ ਨੂੰ ਪ੍ਰਭਾਵਿਤ ਕਰ ਸਕਦੇ ਹਨ। ਸੈਟੇਲਾਈਟ ਰਾਹੀਂ ਕਾਲ ਕਰਨ ਦੀ ਸੁਵਿਧਾ ਉਪਲਬਧ ਨਹੀਂ ਹੈ। ਐਮਰਜੈਂਸੀ ਕਾਲਾਂ ਹਾਲੇ ਵੀ ਕਨੈਕਟ ਹੋ ਸਕਦੀਆਂ ਹਨ।\n\nਖਾਤਾ ਤਬਦੀਲੀਆਂ ਨੂੰ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਦਿਖਾਈ ਦੇਣ ਵਿੱਚ ਕੁਝ ਸਮਾਂ ਲੱਗ ਸਕਦਾ ਹੈ। ਵੇਰਵਿਆਂ ਲਈ <xliff:g id="CARRIER_NAME">%1$s</xliff:g> ਨੂੰ ਸੰਪਰਕ ਕਰੋ।"</string>
+    <string name="satellite_setting_summary_more_information_no_emergency_messaging" msgid="2090170250936862158">"ਸੈਟੇਲਾਈਟ ਕਨੈਕਸ਼ਨ ਹੌਲੀ ਹੋ ਸਕਦਾ ਹੈ ਅਤੇ ਸਿਰਫ਼ ਕੁਝ ਖੇਤਰਾਂ ਵਿੱਚ ਹੀ ਉਪਲਬਧ ਹੈ। ਮੌਸਮ ਅਤੇ ਕੁਝ ਢਾਂਚੇ ਕਨੈਕਸ਼ਨ ਨੂੰ ਪ੍ਰਭਾਵਿਤ ਕਰ ਸਕਦੇ ਹਨ। ਸੈਟੇਲਾਈਟ ਰਾਹੀਂ ਕਾਲ ਕਰਨ ਦੀ ਸੁਵਿਧਾ ਉਪਲਬਧ ਨਹੀਂ ਹੈ। ਐਮਰਜੈਂਸੀ ਕਾਲਾਂ ਹਾਲੇ ਵੀ ਕਨੈਕਟ ਹੋ ਸਕਦੀਆਂ ਹਨ। ਹੋ ਸਕਦਾ ਹੈ ਕਿ ਐਮਰਜੈਂਸੀ ਸੇਵਾਵਾਂ ਨੂੰ ਲਿਖਤ ਸੁਨੇਹੇ ਭੇਜਣ ਦੀ ਸੇਵਾ ਸਾਰੇ ਖੇਤਰਾਂ ਵਿੱਚ ਉਪਲਬਧ ਨਾ ਹੋਵੇ।\n\nਖਾਤੇ ਵਿੱਚ ਕੀਤੀਆਂ ਤਬਦੀਲੀਆਂ ਨੂੰ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਦਿਖਾਈ ਦੇਣ ਵਿੱਚ ਕੁਝ ਸਮਾਂ ਲੱਗ ਸਕਦਾ ਹੈ। ਵੇਰਵਿਆਂ ਲਈ <xliff:g id="CARRIER_NAME">%1$s</xliff:g> ਨੂੰ ਸੰਪਰਕ ਕਰੋ।"</string>
     <string name="more_about_satellite_messaging" msgid="1039277943532711584">"<xliff:g id="SUBJECT">%1$s</xliff:g> ਬਾਰੇ ਹੋਰ ਜਾਣਕਾਰੀ"</string>
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"<xliff:g id="FUNCTION">%1$s</xliff:g> ਨੂੰ ਚਾਲੂ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ"</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"<xliff:g id="FUNCTION">%1$s</xliff:g> ਨੂੰ ਚਾਲੂ ਕਰਨ ਲਈ, ਪਹਿਲਾਂ ਸੈਟੇਲਾਈਟ ਕਨੈਕਸ਼ਨ ਨੂੰ ਬੰਦ ਕਰੋ"</string>
@@ -5150,8 +5188,10 @@
     <string name="settings_panel_title" msgid="346363079938069215">"ਸੈਟਿੰਗਾਂ ਪੈਨਲ"</string>
     <string name="enable_desktop_mode" msgid="5644818402534562302">"ਫ੍ਰੀਫਾਰਮ ਵਿੰਡੋਆਂ ਨੂੰ ਚਾਲੂ ਕਰੋ"</string>
     <string name="enable_desktop_experience_features" msgid="7389235241021706660">"ਡੈਸਕਟਾਪ ਅਨੁਭਵ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਨੂੰ ਚਾਲੂ ਕਰੋ"</string>
-    <string name="enable_desktop_experience_features_summary_with_desktop" msgid="6021998363632868925">"ਡੀਵਾਈਸ ਅਤੇ ਸੈਕੰਡਰੀ ਡਿਸਪਲੇਆਂ \'ਤੇ ਡੈਸਕਟਾਪ ਦ੍ਰਿਸ਼ ਨੂੰ ਚਾਲੂ ਕਰੋ।"</string>
-    <string name="enable_desktop_experience_features_summary_without_desktop" msgid="6635507335168490646">"ਸੈਕੰਡਰੀ ਡਿਸਪਲੇਆਂ \'ਤੇ ਡੈਸਕਟਾਪ ਦ੍ਰਿਸ਼ ਨੂੰ ਚਾਲੂ ਕਰੋ।"</string>
+    <!-- no translation found for enable_desktop_experience_features_summary_with_desktop (8586716390362684564) -->
+    <skip />
+    <!-- no translation found for enable_desktop_experience_features_summary_without_desktop (7567963048658976895) -->
+    <skip />
     <string name="enable_desktop_mode_on_secondary_display" msgid="2609567824593768780">"ਸੈਕੰਡਰੀ ਡਿਸਪਲੇ \'ਤੇ ਫ਼੍ਰੀਫ਼ਾਰਮ ਵਿੰਡੋਆਂ ਨੂੰ ਚਾਲੂ ਕਰੋ"</string>
     <string name="enable_non_resizable_multi_window" msgid="6832903754625404477">"ਆਕਾਰ ਨਾ-ਬਦਲਣਯੋਗ ਐਪਾਂ ਨੂੰ ਮਲਟੀ-ਵਿੰਡੋ ਵਿੱਚ ਦਿਖਾਉਣਾ ਚਾਲੂ ਕਰੋ"</string>
     <string name="enable_non_resizable_multi_window_summary" msgid="3275763753261901999">"ਇਸ ਵਿਸ਼ੇਸ਼ਤਾ ਵਿੱਚ ਆਕਾਰ ਨਾ ਬਦਲਣਯੋਗ ਐਪਾਂ ਨੂੰ ਮਲਟੀ-ਵਿੰਡੋ ਵਿੱਚ ਦਿਖਾਉਣ ਦੀ ਆਗਿਆ ਦਿੱਤੀ ਜਾਂਦੀ ਹੈ"</string>
@@ -5231,7 +5271,12 @@
     <string name="page_agnostic_notification_channel_name" msgid="2058933148654316447">"16 KB ਪੇਜ-ਐਗਨੌਸਟਿਕ ਮੋਡ"</string>
     <string name="page_agnostic_notification_action" msgid="2309805437430150456">"ਹੋਰ ਪੜ੍ਹੋ"</string>
     <string name="enable_16k_app_compat_title" msgid="4173159228844992989">"ਐਪ ਨੂੰ ਪੰਨਾ ਆਕਾਰ ਅਨੁਰੂਪਤਾ ਮੋਡ ਵਿੱਚ ਚਲਾਓ"</string>
-    <string name="enable_16k_app_compat_details" msgid="3389401258168314266">"ਟੌਗਲ ਹੋਣ \'ਤੇ, ਐਪ 16 KB ਵਾਲੇ ਡੀਵਾਈਸ \'ਤੇ ਪੰਨਾ ਆਕਾਰ ਅਨੁਰੂਪਤਾ ਮੋਡ ਵਿੱਚ ਚਲਾਈ ਜਾਵੇਗੀ।"</string>
+    <!-- no translation found for enable_16k_app_compat_details (5382562613011853452) -->
+    <skip />
+    <!-- no translation found for stop_app_dlg_title (3153921585174512587) -->
+    <skip />
+    <!-- no translation found for stop_app_dlg_text (4373849065005318901) -->
+    <skip />
     <string name="bug_report_handler_title" msgid="713439959113250125">"ਬੱਗ ਰਿਪੋਰਟ ਹੈਂਡਲਰ"</string>
     <string name="bug_report_handler_picker_footer_text" msgid="4935758328366585673">"ਨਿਰਧਾਰਤ ਕਰੋ ਕਿ ਕਿਹੜੀ ਐਪ ਤੁਹਾਡੇ ਡੀਵਾਈਸ \'ਤੇ ਬੱਗ ਰਿਪੋਰਟ ਸ਼ਾਰਟਕੱਟ ਦੀ ਸਾਂਭ-ਸੰਭਾਲ ਕਰੇਗੀ।"</string>
     <string name="personal_profile_app_subtext" msgid="5586060806997067676">"ਨਿੱਜੀ"</string>
@@ -5565,6 +5610,8 @@
     <string name="content_protection_preference_subpage_summary" msgid="3595621220981703364"></string>
     <string name="content_protection_preference_subpage_info" msgid="6890886357653365489"></string>
     <string name="accessibility_setup_password_complete" msgid="6358749253318369077">"ਹੁਣ ਪਾਸਵਰਡ ਸੈੱਟ ਹੋ ਗਿਆ ਹੈ"</string>
+    <!-- no translation found for accessibility_setup_pin_complete (7626702882001984236) -->
+    <skip />
     <string name="show_stylus_pointer_icon" msgid="1010583689203665786">"ਕਰਸਰ ਘੁਮਾਉਣ ਦੌਰਾਨ ਪੁਆਇੰਟਰ ਦਿਖਾਓ"</string>
     <string name="media_drm_settings_title" msgid="897424966554739867">"ਮੀਡੀਆ DRM ਸੈਟਿੰਗਾਂ"</string>
     <string name="force_swcrypto_fallback_title" msgid="8053166299808645593">"ਸਾਫ਼ਟਵੇਅਰ ਸੁਰੱਖਿਅਤ ਕ੍ਰਿਪਟੋ ਨੂੰ ਜ਼ਬਰਦਸਤੀ ਚਾਲੂ ਕਰੋ"</string>
@@ -5712,4 +5759,8 @@
     <string name="supervision_pin_management_preference_summary_add" msgid="3244161328612671896">"ਪਿੰਨ ਰਿਕਵਰੀ ਵਿਧੀ ਨੂੰ ਸ਼ਾਮਲ ਕਰੋ"</string>
     <string name="supervision_change_pin_preference_title" msgid="2288584039438231801">"ਪਿੰਨ ਬਦਲੋ"</string>
     <string name="supervision_add_forgot_pin_preference_title" msgid="8939945404255748516">"ਪਿੰਨ ਭੁੱਲ ਗਏ"</string>
+    <!-- no translation found for supervision_web_content_filters_title (3653430162065686156) -->
+    <skip />
+    <!-- no translation found for accessibility_illustration_content_description (557376174860150903) -->
+    <skip />
 </resources>

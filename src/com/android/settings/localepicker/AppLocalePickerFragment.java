@@ -400,13 +400,14 @@ public class AppLocalePickerFragment extends DashboardFragment implements
         mIsNumberingMode = args.getBoolean(
                 RegionAndNumberingSystemPickerFragment.EXTRA_IS_NUMBERING_SYSTEM);
 
+        AppLocaleCollector appLocaleCollector = new AppLocaleCollector(context, mPackageName);
         mSuggestedListPreferenceController =
                 new AppLocaleSuggestedListPreferenceController(context,
                         KEY_PREFERENCE_APP_LOCALE_SUGGESTED_LIST, mPackageName, mIsNumberingMode,
-                        mLocaleInfo);
+                        mLocaleInfo, getActivity(), appLocaleCollector);
         mAppLocaleAllListPreferenceController = new AppLocaleAllListPreferenceController(
                 context, KEY_PREFERENCE_APP_LOCALE_LIST, mPackageName, mIsNumberingMode,
-                mLocaleInfo);
+                mLocaleInfo, getActivity(), appLocaleCollector);
         final List<AbstractPreferenceController> controllers = new ArrayList<>();
         controllers.add(mSuggestedListPreferenceController);
         controllers.add(mAppLocaleAllListPreferenceController);

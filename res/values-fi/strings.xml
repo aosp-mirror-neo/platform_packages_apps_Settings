@@ -42,6 +42,8 @@
     <string name="radioInfo_unknown" msgid="2892562356748600367">"Ei tiedossa"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"Esikatselu"</string>
     <string name="qr_code_content_description" msgid="1852208464419291347">"QR-koodi"</string>
+    <string name="preview_pager_previous_button" msgid="607771113300838313">"Edellinen esikatselu"</string>
+    <string name="preview_pager_next_button" msgid="8700907912508927271">"Seuraava esikatselu"</string>
     <string name="font_size_make_smaller_desc" msgid="4978038055549590140">"Pienennä"</string>
     <string name="font_size_make_larger_desc" msgid="5583046033381722247">"Suurenna"</string>
     <string name="stay_awake_on_fold_title" msgid="6590454679898134221">"Aina"</string>
@@ -103,10 +105,8 @@
     <string name="bluetooth_audio_routing_about_title" msgid="5773336779246891954">"Tietoa audion toistotavasta"</string>
     <string name="bluetooth_audio_routing_summary" msgid="7180947533985969066">"Ohjaa äänet kuulolaitteeseen tai puhelimen kaiuttimeen"</string>
     <string name="bluetooth_screen_related" msgid="7976543255501825536">"Samankaltaisia"</string>
-    <!-- no translation found for bluetooth_try_nearby_share_title (4996427014054610877) -->
-    <skip />
-    <!-- no translation found for bluetooth_try_nearby_share_summary (329823028635487822) -->
-    <skip />
+    <string name="bluetooth_try_nearby_share_title" msgid="4996427014054610877">"Kokeile jakaa <xliff:g id="NEARBY_SHARING_APP_LABEL">%s</xliff:g>"</string>
+    <string name="bluetooth_try_nearby_share_summary" msgid="329823028635487822">"Nopein tapa lähettää tiedostoja lähellä oleville Android-laitteille"</string>
     <string name="bluetooth_ringtone_title" msgid="3177308461256892085">"Soittoääni ja hälytykset"</string>
     <string name="bluetooth_call_title" msgid="6851464952021874072">"Audio puheluiden aikana"</string>
     <string name="bluetooth_media_title" msgid="2878373577382067290">"Median ja järjestelmän äänet"</string>
@@ -466,6 +466,8 @@
     <string name="fingerprint_check_enroll_touch_sensor" msgid="5010063281557456236">"Kosketa sormenjälkitunnistinta"</string>
     <string name="fingerprint_check_enroll_not_recognized" msgid="2779520550437394431">"Sormenjälkeä ei tunnistettu"</string>
     <string name="security_settings_activeunlock_preference_title" msgid="4257580421087062228">"Kelloavaus"</string>
+    <!-- no translation found for security_settings_activeunlock (8922823742770802651) -->
+    <skip />
     <string name="biometric_settings_intro_with_activeunlock" msgid="5032953826653108646">"Otettuasi kasvojentunnistus- ja sormenjälkiavauksen käyttöön puhelimesi pyytää sormenjälkeäsi, kun käytät maskia tai olet pimeässä ympäristössä.\n\nKelloavaus on kätevä tapa avata puhelin, esimerkiksi jos sormesi ovat kastuneet tai kasvojen tunnistus ei onnistu."</string>
     <string name="biometric_settings_intro_with_fingerprint" msgid="5881355884547769337">"Kelloavaus on kätevä tapa avata puhelin, esimerkiksi jos sormenjäljen tunnistus ei onnistu."</string>
     <string name="biometric_settings_intro_with_face" msgid="7671919122230588521">"Kelloavaus on kätevä tapa avata puhelin, esimerkiksi jos kasvojen tunnistus ei onnistu."</string>
@@ -784,6 +786,10 @@
     <string name="unlock_set_unlock_password_title" msgid="2559842616268607041">"Salasana"</string>
     <string name="unlock_set_do_later_title" msgid="6565575303676064364">"Ei nyt"</string>
     <string name="current_screen_lock" msgid="1367883977261098017">"Nykyinen näytön lukitus"</string>
+    <!-- no translation found for unlock_accessibility_pin_area (437104569661316525) -->
+    <skip />
+    <!-- no translation found for unlock_accessibility_password (5404713613573232309) -->
+    <skip />
     <string name="fingerprint_unlock_set_unlock_pattern" msgid="2229689425933043901">"Kuvio • Sormenjälki"</string>
     <string name="fingerprint_unlock_set_unlock_pin" msgid="7979848492740627674">"PIN-koodi • Sormenjälki"</string>
     <string name="fingerprint_unlock_set_unlock_password" msgid="6207676267295036963">"Salasana • Sormenjälki"</string>
@@ -899,8 +905,7 @@
     <string name="lockpassword_credential_changed" msgid="5934778179732392028">"Näytön lukitus on jo vaihdettu. Yritä uudelleen uudella lukituksella."</string>
     <string name="lockpattern_tutorial_cancel_label" msgid="775215267818384016">"Peru"</string>
     <string name="lockpattern_tutorial_continue_label" msgid="1329049481210689408">"Seuraava"</string>
-    <!-- no translation found for manage_device_admin (7272894919651600481) -->
-    <skip />
+    <string name="manage_device_admin" msgid="7272894919651600481">"Laitteenhallinta"</string>
     <string name="number_of_device_admins_none" msgid="152926922020437312">"Ei aktiivisia sovelluksia"</string>
     <string name="number_of_device_admins" msgid="3402909995362162876">"{count,plural, =1{# aktiivinen sovellus}other{# aktiivista sovellusta}}"</string>
     <string name="manage_trust_agents" msgid="6410149930029992356">"Luotettavat tahot"</string>
@@ -1318,6 +1323,8 @@
     <string name="screen_resolution_option_high" msgid="2617496842852992853">"Korkea resoluutio"</string>
     <string name="screen_resolution_option_full" msgid="4456839315039000517">"Maksimaalinen resoluutio"</string>
     <string name="screen_resolution_footer" msgid="1230761249204935717">"Maksimaalinen resoluutio kuluttaa enemmän akkua. Jotkin sovellukset käynnistyvät uudelleen, kun vaihdat resoluutiota."</string>
+    <!-- no translation found for screen_resolution_delimiter_a11y (5826162120538795842) -->
+    <skip />
     <string name="color_mode_title" msgid="8666690832113906028">"Värit"</string>
     <string name="color_mode_option_natural" msgid="6192875655101283303">"Luonnollinen"</string>
     <string name="color_mode_option_boosted" msgid="4698797857766774289">"Tehostettu"</string>
@@ -1391,12 +1398,12 @@
     <string name="dark_ui_summary_on_auto_mode_custom_bedtime" msgid="1976993025762551246">"Menee automaattisesti pois päältä nukkuma-ajan päätyttyä"</string>
     <string name="dark_ui_summary_on_auto_mode_modes" msgid="7769594183411785087">"Laitetaan pois päältä, kun <xliff:g id="ID_1">%1$s</xliff:g> päättyy"</string>
     <string name="dark_ui_text" msgid="4392646155331126666">"Tumman teeman musta tausta auttaa pidentämään akunkestoa joillain näytöillä. Tumman teeman aikataulut otetaan käyttöön vasta, kun näyttö on sammutettu."</string>
+    <!-- no translation found for dark_ui_text_force_invert (3776487375947497387) -->
+    <skip />
     <string name="dark_ui_bedtime_footer_summary" msgid="5576501833145170581">"Tumma teema toimii nyt nukkuma-aikatilasi aikataulun mukaan"</string>
     <string name="dark_ui_bedtime_footer_action" msgid="1493095487994054339">"Nukkuma-aikatilan asetukset"</string>
     <string name="dark_ui_modes_footer_summary" msgid="1041117250408363391">"{count,plural,offset:2 =0{Tiloilla voi myös aktivoida tumman teeman}=1{{mode_1} aktivoi myös tumman teeman}=2{{mode_1} ja {mode_2} aktivoivat myös tumman teeman}=3{{mode_1}, {mode_2} ja {mode_3} aktivoivat myös tumman teeman}other{{mode_1}, {mode_2} ja # muuta aktivoivat myös tumman teeman}}"</string>
     <string name="dark_ui_modes_footer_action" msgid="80671811848446248">"Tilojen asetukset"</string>
-    <string name="even_dimmer_display_title" msgid="4509732439977906028">"Erittäin himmeä"</string>
-    <string name="even_dimmer_display_summary" msgid="120301078873242172">"Salli että laite on tavallista himmeämpi"</string>
     <string name="screen_timeout" msgid="7709947617767439410">"Näytön aikakatkaisu"</string>
     <string name="screen_timeout_summary" msgid="5558778019594643427">"Laitteen oltua käyttämättä <xliff:g id="TIMEOUT_DESCRIPTION">%1$s</xliff:g>"</string>
     <string name="screen_timeout_summary_not_set" msgid="5107680774964178875">"Ei asetettu"</string>
@@ -2061,12 +2068,9 @@
     <string name="mouse_keys_summary" msgid="7030731235143286467">"Ohjaa osoitinta näppäimistöllä"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"Käänteinen vieritys"</string>
     <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"Siirry alaspäin sivulla vierittämällä ylöspäin"</string>
-    <!-- no translation found for mouse_scrolling_category_title (2992126595687187296) -->
-    <skip />
-    <!-- no translation found for mouse_scrolling_acceleration (7119758828203396430) -->
-    <skip />
-    <!-- no translation found for mouse_scrolling_speed (3999483025392860903) -->
-    <skip />
+    <string name="mouse_scrolling_category_title" msgid="2992126595687187296">"Vieritys"</string>
+    <string name="mouse_scrolling_acceleration" msgid="7119758828203396430">"Hallittu vieritys"</string>
+    <string name="mouse_scrolling_speed" msgid="3999483025392860903">"Vieritysnopeus"</string>
     <string name="mouse_swap_primary_button" msgid="4798006242525441304">"Vaihda hiiren ykköspainiketta"</string>
     <string name="mouse_swap_primary_button_summary" msgid="3276638019321067902">"Käytä hiiren vasenta painiketta oikeana"</string>
     <string name="mouse_pointer_acceleration" msgid="388336576055293329">"Kohdistimen nopeuttaminen"</string>
@@ -2115,8 +2119,7 @@
     <string name="trackpad_touch_gesture" msgid="8641725062131922497">"Opettele kosketuslevyn eleitä"</string>
     <string name="keywords_touchpad" msgid="8159846254066666032">"ohjauslevy, ohjaus levy, hiiri, kohdistin, vieritä, pyyhkäise, klikkaa kakkospainikkeella, klikkaa, osoitin"</string>
     <string name="keywords_trackpad_bottom_right_tap" msgid="1285062446073929305">"klikkaa kakkospainikkeella, napauta"</string>
-    <!-- no translation found for three_finger_tap_middle_click (1759914275939765929) -->
-    <skip />
+    <string name="three_finger_tap_middle_click" msgid="1759914275939765929">"Hiiren keskipainikkeen klikkaus"</string>
     <string name="three_finger_tap_launch_gemini" msgid="4030401656711588982">"Julkaisuavustaja"</string>
     <string name="three_finger_tap_go_home" msgid="6526301745535089812">"Siirry etusivulle"</string>
     <string name="three_finger_tap_go_back" msgid="2898205524575684271">"Takaisin"</string>
@@ -2269,6 +2272,16 @@
     <string name="accessibility_captioning_footer_learn_more_content_description" msgid="5730040700677017706">"Lue lisää tekstitysasetuksista"</string>
     <string name="accessibility_screen_magnification_title" msgid="1211169976144629087">"Suurennus"</string>
     <string name="accessibility_screen_magnification_shortcut_title" msgid="2387963646377987780">"Suurennuksen pikanäppäin"</string>
+    <!-- no translation found for accessibility_magnification_cursor_following_title (29531257984012743) -->
+    <skip />
+    <!-- no translation found for accessibility_magnification_cursor_following_header (7283095798622223509) -->
+    <skip />
+    <!-- no translation found for accessibility_magnification_cursor_following_continuous (1119319218662522794) -->
+    <skip />
+    <!-- no translation found for accessibility_magnification_cursor_following_center (3504798009192014460) -->
+    <skip />
+    <!-- no translation found for accessibility_magnification_cursor_following_edge (8675207762416655758) -->
+    <skip />
     <string name="accessibility_screen_magnification_follow_typing_title" msgid="6379517513916651560">"Suurenna kirjoitettava teksti"</string>
     <string name="accessibility_screen_magnification_follow_typing_summary" msgid="2882250257391761678">"Suurennuslasi seuraa kohtaan, johon kirjoitat tekstiä"</string>
     <string name="accessibility_screen_magnification_always_on_title" msgid="3814297443759580936">"Pidä päällä sovellusta vaihtaessa"</string>
@@ -2322,6 +2335,8 @@
     <string name="accessibility_screen_magnification_navbar_short_summary" msgid="4885018322430052037">"Zoomaa napauttamalla painiketta."</string>
     <string name="accessibility_screen_magnification_intro_text" msgid="3856180549393526339">"Lähennä näyttöä nopeasti, niin näet sisällön suurempana"</string>
     <string name="accessibility_screen_magnification_summary" msgid="8267672508057326959">"&lt;b&gt;Näin voit lähentää näyttöä:&lt;/b&gt;&lt;br/&gt; {0,number,integer}. Aloita suurennus käyttämällä pikanäppäintä&lt;br/&gt; {1,number,integer}. Napauta näyttöä&lt;br/&gt; {2,number,integer}. Siirry näytöllä vetämällä kahdella sormella&lt;br/&gt; {3,number,integer}. Säädä zoomausta nipistämällä kahdella sormella&lt;br/&gt; {4,number,integer}. Lopeta suurennus käyttämällä pikanäppäintä&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Väliaikainen lähentäminen:&lt;/b&gt;&lt;br/&gt; {0,number,integer}. Varmista, että suurennustapa on asetettu koko näytölle &lt;br/&gt; {1,number,integer}. Aloita suurennus käyttämällä pikanäppäintä&lt;br/&gt; {2,number,integer}. Kosketa näyttöä mistä tahansa pitkään&lt;br/&gt; {3,number,integer}. Siirry näytöllä vetämällä kahdella sormella&lt;br/&gt; {4,number,integer}. Lopeta suurennus nostamalla sormi näytöltä"</string>
+    <!-- no translation found for accessibility_screen_magnification_keyboard_summary (2504303274186294767) -->
+    <skip />
     <string name="accessibility_screen_magnification_summary_one_finger_panning_off" msgid="1779959623535122324">"&lt;b&gt;Näin voit lähentää näyttöä:&lt;/b&gt;&lt;br/&gt; {0,number,integer}. Aloita suurennus käyttämällä pikakomentoa&lt;br/&gt; {1,number,integer}. Napauta näyttöä&lt;br/&gt; {2,number,integer}. Siirry näytöllä vetämällä kahdella sormella&lt;br/&gt; {3,number,integer}. Säädä zoomausta nipistämällä kahdella sormella&lt;br/&gt; {4,number,integer}. Lopeta suurennus käyttämällä pikakomentoa&lt;br/&gt;&lt;br/&gt; Voit myös esimerkiksi lähentää tilapäisesti."</string>
     <string name="accessibility_screen_magnification_summary_one_finger_panning_on" msgid="7323930759240678965">"&lt;b&gt;Näin voit lähentää näyttöä:&lt;/b&gt;&lt;br/&gt; {0,number,integer}. Aloita suurennus käyttämällä pikakomentoa&lt;br/&gt; {1,number,integer}. Napauta näyttöä&lt;br/&gt; {2,number,integer}. Siirry näytöllä vetämällä yhdellä tai kahdella sormella&lt;br/&gt; {3,number,integer}. Säädä zoomausta nipistämällä kahdella sormella&lt;br/&gt; {4,number,integer}. Lopeta suurennus käyttämällä pikakomentoa&lt;br/&gt;&lt;br/&gt; Voit myös esimerkiksi lähentää tilapäisesti."</string>
     <string name="accessibility_screen_magnification_navbar_summary" msgid="807985499898802296">"Kun suurennus on käytössä, voit suurentaa näytöllä olevia kohteita.\n\n"<b>"Zoomaa:"</b>" käynnistä suurennus ja napauta sitten haluamaasi kohtaa näytöllä\n"<ul><li>"Vieritä: vedä vähintään kahta sormea näytön poikki"</li>\n<li>"Säädä zoomausta: nipistä vähintään kaksi sormea yhteen tai levitä ne erilleen"</li></ul>\n\n<b>"Zoomaa väliaikaisesti:"</b>" käynnistä suurennus ja paina pitkään missä tahansa näytöllä\n"<ul><li>"Liiku näytöllä: vedä sormea eri suuntiin"</li>\n<li>"Loitonna: nosta sormi"</li></ul>\n\n"Suurennus ei toimi näppäimistöllä tai siirtymispalkissa."</string>
@@ -2411,7 +2426,8 @@
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_summary" msgid="9034532513972547720">"Päivitä näytön suurennus sovellussiirtymissä"</string>
     <string name="accessibility_power_button_ends_call_prerefence_title" msgid="8187306131979612144">"Puhelun katkaisu virtapainikkeella"</string>
     <string name="accessibility_force_invert_title" msgid="5248504501753732051">"Tumma teema muihin sovelluksiin"</string>
-    <string name="accessibility_force_invert_summary" msgid="179237803986895815">"Muuta sovellusten vaalea teema automaattisesti tummaksi teemaksi"</string>
+    <!-- no translation found for accessibility_force_invert_summary (257503086198180749) -->
+    <skip />
     <string name="accessibility_disable_animations" msgid="2993529829457179058">"Poista animaatiot"</string>
     <string name="accessibility_disable_animations_summary" msgid="5828228669556554565">"Vähennä näytöllä näkyvää liikettä"</string>
     <string name="accessibility_toggle_primary_mono_title" msgid="7587152099472946571">"Monoaudio"</string>
@@ -2827,7 +2843,12 @@
     <string name="battery_usage_timestamps_hyphen" msgid="7401188432989043905">"<xliff:g id="FROM_TIMESTAMP">%1$s</xliff:g>–<xliff:g id="TO_TIMESTAMP">%2$s</xliff:g>"</string>
     <string name="battery_usage_timestamps_content_description" msgid="1927748134271595985">"<xliff:g id="FROM_TIMESTAMP">%1$s</xliff:g>–<xliff:g id="TO_TIMESTAMP">%2$s</xliff:g>"</string>
     <string name="battery_usage_day_and_hour" msgid="1417890420844950881">"<xliff:g id="DAY">%1$s</xliff:g> <xliff:g id="HOUR">%2$s</xliff:g>⁠"</string>
-    <string name="battery_usage_time_info_and_battery_level" msgid="6732629268310936155">"<xliff:g id="TIME_INFO">%1$s</xliff:g> <xliff:g id="BATTERY_LEVEL">%2$s</xliff:g>"</string>
+    <!-- no translation found for battery_usage_status_time_info_and_battery_level (5158088815445378555) -->
+    <skip />
+    <!-- no translation found for battery_chart_slot_status_selected (4196580689444438148) -->
+    <skip />
+    <!-- no translation found for battery_chart_slot_status_unselected (6930198843537021396) -->
+    <skip />
     <string name="battery_usage_chart" msgid="4114747521432440017">"Kaavio akun käytöstä"</string>
     <string name="daily_battery_usage_chart" msgid="4176059567682992686">"Kaavio päiväkohtaisesta akun käytöstä"</string>
     <string name="hourly_battery_usage_chart" msgid="3098314511076561272">"Kaavio tuntikohtaisesta akun käytöstä"</string>
@@ -2907,14 +2928,10 @@
     <string name="adaptive_connectivity_switch_on" msgid="3653067561620745493">"Päälle"</string>
     <string name="adaptive_connectivity_switch_off" msgid="5076172560836115265">"Pois"</string>
     <string name="adaptive_connectivity_main_switch_title" msgid="261045483524512420">"Käytä mukautuvaa yhdistettävyyttä"</string>
-    <!-- no translation found for adaptive_connectivity_wifi_switch_title (5899985025046319472) -->
-    <skip />
-    <!-- no translation found for adaptive_connectivity_wifi_switch_summary (4650230240134029595) -->
-    <skip />
-    <!-- no translation found for adaptive_connectivity_mobile_network_switch_title (2473274404695643218) -->
-    <skip />
-    <!-- no translation found for adaptive_connectivity_mobile_network_switch_summary (2432517485362085341) -->
-    <skip />
+    <string name="adaptive_connectivity_wifi_switch_title" msgid="5899985025046319472">"Automaattinen vaihto Wi-Fistä mobiilidataan"</string>
+    <string name="adaptive_connectivity_wifi_switch_summary" msgid="4650230240134029595">"Käytä automaattisesti mobiilidataa, kun Wi-Fi-yhteys on heikko tai sitä ei ole. Datan käytöstä voidaan veloittaa."</string>
+    <string name="adaptive_connectivity_mobile_network_switch_title" msgid="2473274404695643218">"Verkon autom. vaihto akunkeston parantamiseksi"</string>
+    <string name="adaptive_connectivity_mobile_network_switch_summary" msgid="2432517485362085341">"Pidennä akunkestoa ylläpitämällä verkkoyhteyksiä automaattisesti"</string>
     <string name="cellular_security_title" msgid="5562899485544677941">"Mobiiliverkkoa koskeva turvallisuus"</string>
     <string name="cellular_security_summary" msgid="1893770670709928113">"Verkon tyyppi, salaus, ilmoitusvalinnat"</string>
     <string name="cellular_security_top_intro" msgid="6749166804080092892">"Näiden asetusten avulla voit suojata puhelut, viestit ja datan vanhentuneilta tai salaamattomilta verkoilta, joiden kautta dataa saatetaan varastaa tai valvoa"</string>
@@ -2989,8 +3006,7 @@
     <string name="remove_device_admin" msgid="3143059558744287259">"Poista laitteenhallintasovellus käytöstä"</string>
     <string name="uninstall_device_admin" msgid="4481095209503956916">"Poista sovellus"</string>
     <string name="remove_and_uninstall_device_admin" msgid="707912012681691559">"Poista käytöstä ja kokonaan laitteelta"</string>
-    <!-- no translation found for select_device_admin_msg (2506262585633022884) -->
-    <skip />
+    <string name="select_device_admin_msg" msgid="2506262585633022884">"Laitteenhallinta"</string>
     <string name="no_device_admins" msgid="8888779888103079854">"Laitteenhallintasovelluksia ei ole saatavilla."</string>
     <string name="no_trust_agents" msgid="8659098725864191600">"Ei luotettavia tahoja"</string>
     <string name="add_device_admin_msg" msgid="7730006568970042119">"Aktivoidaanko laitteenhallintasovellus?"</string>
@@ -3122,6 +3138,12 @@
     <string name="vpn_no_ca_cert" msgid="3687379414088677735">"(älä vahvista palvelinta)"</string>
     <string name="vpn_no_server_cert" msgid="8106540968643125407">"(palvelimelta saatu)"</string>
     <string name="vpn_always_on_invalid_reason_other" msgid="4571905303713233321">"Annetut tiedot eivät ole yhteensopivia aina käytössä olevan VPN-yhteyden kanssa."</string>
+    <!-- no translation found for vpn_optional (3085880299239180702) -->
+    <skip />
+    <!-- no translation found for vpn_required (2538500165710360491) -->
+    <skip />
+    <!-- no translation found for vpn_field_required (952531424443686800) -->
+    <skip />
     <string name="vpn_cancel" msgid="5929410618112404383">"Peru"</string>
     <string name="vpn_done" msgid="5137858784289564985">"Hylkää"</string>
     <string name="vpn_save" msgid="683868204634860888">"Tallenna"</string>
@@ -3857,7 +3879,8 @@
     <string name="nls_feature_settings_title" msgid="8208164329853194414">"Asetusten muuttaminen"</string>
     <string name="nls_feature_settings_summary" msgid="3770028705648985689">"Se voi laittaa Älä häiritse ‑tilan päälle tai pois päältä ja muuttaa siihen liittyviä asetuksia."</string>
     <string name="nls_feature_modes_settings_summary" msgid="70022458305195595">"Se voi ylläpitää tiloja, aktivoida ne ja muuttaa niihin liittyviä asetuksia."</string>
-    <string name="notification_listener_disable_warning_summary" msgid="8373396293802088961">"Jos <xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> ei saa käyttää ilmoituksia, myös Älä häiritse ‑tilan käyttö voidaan estää."</string>
+    <!-- no translation found for notification_listener_disable_warning_summary (205200471571837170) -->
+    <skip />
     <string name="notification_listener_disable_modes_warning_summary" msgid="7528432011433844158">"Jos <xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> ei saa pääsyä ilmoituksiin, myös pääsy tiloihin voidaan laittaa pois päältä."</string>
     <string name="notification_listener_disable_warning_confirm" msgid="841492108402184976">"Laita pois päältä"</string>
     <string name="notification_listener_disable_warning_cancel" msgid="8802784105045594324">"Peru"</string>
@@ -3879,8 +3902,7 @@
     <string name="notif_listener_more_settings_desc" msgid="7995492074281663658">"Lisää asetuksia on saatavilla sovelluksen sisällä"</string>
     <string name="notification_polite_title" msgid="6121016426991791557">"Ilmoitusten vaimennus"</string>
     <string name="notification_polite_main_control_title" msgid="5812529809151927149">"Käytä ilmoitusten vaimennusta"</string>
-    <!-- no translation found for notification_polite_description (6137533404978878957) -->
-    <skip />
+    <string name="notification_polite_description" msgid="6137533404978878957">"Kun saat monia ilmoituksia lyhyen ajan sisällä, laite vähentää äänenvoimakkuutta ja minimoi ilmoitukset enintään minuutiksi. Tämä ei koske soittoja, hälytyksiä ja tärkeitä keskusteluja. \n\nVaimennuksen aikana saadut ilmoitukset näkyvät, kun vedät alas näytön yläreunasta."</string>
     <string name="notification_polite_work" msgid="8823596456640216391">"Käytä työprofiileissa"</string>
     <string name="notification_polite_work_summary" msgid="5014189280132951378">"Käytä työprofiilin sovelluksissa"</string>
     <string name="notification_bundle_title" msgid="460988459835922719">"Niputetut ilmoitusket"</string>
@@ -3926,9 +3948,11 @@
     <string name="interact_across_profiles_install_work_app_title" msgid="2821669067014436056">"Jos haluat yhdistää nämä sovellukset, asenna <xliff:g id="NAME">%1$s</xliff:g> työprofiiliisi"</string>
     <string name="interact_across_profiles_install_personal_app_title" msgid="4790651223324866344">"Jos haluat yhdistää nämä sovellukset, asenna <xliff:g id="NAME">%1$s</xliff:g> henkilökohtaiseen profiiliisi"</string>
     <string name="interact_across_profiles_install_app_summary" msgid="7715324358034968657">"Lataa sovellus napauttamalla"</string>
-    <string name="manage_zen_access_title" msgid="1562322900340107269">"Älä häiritse -pääsy"</string>
+    <!-- no translation found for manage_zen_access_title (4123905441114743974) -->
+    <skip />
     <string name="zen_access_detail_switch" msgid="4183681772666138993">"Salli Älä häiritse ‑tila"</string>
-    <string name="zen_access_empty_text" msgid="3779921853282293080">"Yksikään asennettu sovellus ei ole pyytänyt Älä häiritse -tilan käyttöoikeutta."</string>
+    <!-- no translation found for zen_access_empty_text (2662270585004373785) -->
+    <skip />
     <string name="manage_zen_modes_access_title" msgid="2520680004915648824">"Pääsy tiloihin"</string>
     <string name="zen_modes_access_detail_switch" msgid="4060429747631111299">"Salli pääsy tiloihin"</string>
     <string name="zen_modes_access_empty_text" msgid="8750927923904377110">"Yksikään asennettu sovellus ei ole pyytänyt pääsyä tiloihin"</string>
@@ -4415,8 +4439,18 @@
     <string name="admin_profile_owner_user_message" msgid="4929926887231544950">"Järjestelmänvalvoja voi hallita tähän käyttäjäprofiiliin liittyviä sovelluksia ja tietoja, mukaan lukien asetuksia, käyttöoikeuksia, yrityskäyttöä, verkkotoimintaa ja laitteen sijaintitietoja."</string>
     <string name="admin_device_owner_message" msgid="5503131744126520590">"Järjestelmänvalvoja voi valvoa ja hallita laitteeseen liittyviä sovelluksia ja tietoja, mukaan lukien asetuksia, käyttöoikeuksia, yrityskäyttöä, verkkotoimintaa ja laitteen sijaintitietoja."</string>
     <string name="admin_financed_message" msgid="1156197630834947884">"Järjestelmänvalvoja voi saada pääsyn tähän laitteeseen liittyvään dataan, ylläpitää sovelluksia ja muuttaa laitteen asetuksia."</string>
-    <string name="disabled_by_advanced_protection_title" msgid="766656508280098112">"Lisäsuojauksen estämä"</string>
-    <string name="disabled_by_advanced_protection_message" msgid="5515085544669304056">"Toiminto ei ole sallittu, koska Lisäsuojaus on päällä laitteellasi."</string>
+    <!-- no translation found for disabled_by_advanced_protection_title (9051476417559262469) -->
+    <skip />
+    <!-- no translation found for disabled_by_advanced_protection_setting_is_on_message (4242986779932956593) -->
+    <skip />
+    <!-- no translation found for disabled_by_advanced_protection_setting_is_off_message (7777487013672230696) -->
+    <skip />
+    <!-- no translation found for disabled_by_advanced_protection_action_message (7164789633582857150) -->
+    <skip />
+    <!-- no translation found for disabled_by_advanced_protection_wep_action_message (239574547298386495) -->
+    <skip />
+    <!-- no translation found for disabled_by_advanced_protection_help_button_title (6539346613660731777) -->
+    <skip />
     <string name="condition_turn_off" msgid="402707350778441939">"Laita pois päältä"</string>
     <string name="condition_turn_on" msgid="3911077299444314791">"Laita päälle"</string>
     <string name="condition_expand_show" msgid="1501084007540953213">"Näytä"</string>
@@ -4642,6 +4676,8 @@
     <string name="back_sensitivity_dialog_message" msgid="6638367716784103306">"Suurempi herkkyys voi olla ristiriidassa näytön reunan sovelluseleiden kanssa."</string>
     <string name="back_sensitivity_dialog_title" msgid="6153608904168908264">"Takaisin-eleen herkkyys"</string>
     <string name="gesture_settings_activity_title" msgid="1882463161833981820">"Eleillä navigointi"</string>
+    <!-- no translation found for gesture_navigation_tutorial_title (1605955266131665429) -->
+    <skip />
     <string name="button_navigation_settings_activity_title" msgid="7335636045504461813">"Painikkeilla siirtyminen"</string>
     <string name="keywords_gesture_navigation_settings" msgid="667561222717238931">"eleillä navigointi, Takaisin-eleen herkkyys, Takaisin-ele"</string>
     <string name="keywords_button_navigation_settings" msgid="7888812253110553920">"siirtyminen, aloitusnäyttöpainike"</string>
@@ -5023,21 +5059,15 @@
     <string name="summary_add_satellite_setting" msgid="190359698593056946">"Lue lisää"</string>
     <string name="category_name_how_it_works" msgid="585303230539269496">"Näin se toimii"</string>
     <string name="title_satellite_connection_guide" msgid="3294802307913609072">"Kun mobiiliverkko ei ole saatavilla"</string>
-    <!-- no translation found for title_satellite_connection_guide_for_manual_type (7223875100977941341) -->
-    <skip />
+    <string name="title_satellite_connection_guide_for_manual_type" msgid="7223875100977941341">"Lähetä tekstiviesti puhelinnumeroon"</string>
     <string name="summary_satellite_connection_guide" msgid="3496123195218418456">"Puhelimesi yhdistää satelliittiin automaattisesti. Yhteyden laatu on paras, kun pysyt ulkona avoimella paikalla."</string>
-    <!-- no translation found for summary_satellite_connection_guide_for_manual_type (5075149380084376662) -->
-    <skip />
+    <string name="summary_satellite_connection_guide_for_manual_type" msgid="5075149380084376662">"Jos sinulla ei ole yhteyttä mobiiliverkkoon, näet vaihtoehdon, jolla voit käyttää satelliittiviestintää."</string>
     <string name="title_supported_service" msgid="4275535165812691571">"Kun puhelin on yhdistänyt satelliittiin"</string>
-    <!-- no translation found for title_supported_service_for_manual_type (6009284624466359864) -->
-    <skip />
+    <string name="title_supported_service_for_manual_type" msgid="6009284624466359864">"Muodosta yhteys satelliittiin seuraamalla ohjeita"</string>
     <string name="summary_supported_service" msgid="4320535903444834786">"Voit lähettää tekstiviestin kenelle tahansa, mukaan lukien hätäkeskukselle. Puhelimesi yhdistää mobiiliverkkoon, kun se on mahdollista."</string>
-    <!-- no translation found for summary_supported_service_for_manual_type (2147958362763058271) -->
-    <skip />
-    <!-- no translation found for satellite_setting_summary_more_information (276312352285564071) -->
-    <skip />
-    <!-- no translation found for satellite_setting_summary_more_information_no_emergency_messaging (2090170250936862158) -->
-    <skip />
+    <string name="summary_supported_service_for_manual_type" msgid="2147958362763058271">"Kun puhelin on yhdistetty, voit lähettää tekstiviestin kenelle tahansa, myös hätäkeskukselle."</string>
+    <string name="satellite_setting_summary_more_information" msgid="276312352285564071">"Satelliittiyhteys voi olla hitaampi ja se on saatavilla vain tietyillä alueilla. Sää ja jotkin rakenteet voivat vaikuttaa yhteyteen. Satelliittiyhteydellä ei voi soittaa puheluja. Hätäpuhelut saattavat kuitenkin onnistua.\n\nVoi mennä jonkin aikaa ennen kuin muutokset näkyvät asetuksissa. <xliff:g id="CARRIER_NAME">%1$s</xliff:g> voi antaa lisätietoa."</string>
+    <string name="satellite_setting_summary_more_information_no_emergency_messaging" msgid="2090170250936862158">"Satelliittiyhteys voi olla hitaampi ja se on saatavilla vain tietyillä alueilla. Sää ja jotkin rakenteet voivat vaikuttaa yhteyteen. Satelliittiyhteydellä ei voi soittaa puheluja. Hätäpuhelut voivat kuitenkin onnistua. Tekstiviestien lähettäminen hätäkeskukseen ei välttämättä ole mahdollista kaikilla alueilla.\n\nVoi mennä jonkin aikaa ennen kuin muutokset näkyvät asetuksissa. <xliff:g id="CARRIER_NAME">%1$s</xliff:g> voi antaa lisätietoa."</string>
     <string name="more_about_satellite_messaging" msgid="1039277943532711584">"Lisätietoa: <xliff:g id="SUBJECT">%1$s</xliff:g>"</string>
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"<xliff:g id="FUNCTION">%1$s</xliff:g> ei ole käytettävissä"</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"Katkaise satelliittiyhteys, jotta <xliff:g id="FUNCTION">%1$s</xliff:g> voidaan laittaa päälle"</string>
@@ -5158,8 +5188,10 @@
     <string name="settings_panel_title" msgid="346363079938069215">"Asetuspaneeli"</string>
     <string name="enable_desktop_mode" msgid="5644818402534562302">"Ota vapaamuotoiset ikkunat käyttöön"</string>
     <string name="enable_desktop_experience_features" msgid="7389235241021706660">"Ota käyttöön työpöytäkokemuksen ominaisuudet"</string>
-    <string name="enable_desktop_experience_features_summary_with_desktop" msgid="6021998363632868925">"Ota työpöytänäkymä käyttöön laitteella ja toissijaisilla näytöillä."</string>
-    <string name="enable_desktop_experience_features_summary_without_desktop" msgid="6635507335168490646">"Ota työpöytänäkymä käyttöön toissijaisilla näytöillä."</string>
+    <!-- no translation found for enable_desktop_experience_features_summary_with_desktop (8586716390362684564) -->
+    <skip />
+    <!-- no translation found for enable_desktop_experience_features_summary_without_desktop (7567963048658976895) -->
+    <skip />
     <string name="enable_desktop_mode_on_secondary_display" msgid="2609567824593768780">"Vapaamuotoiset ikkunat toissijaisella näytöllä"</string>
     <string name="enable_non_resizable_multi_window" msgid="6832903754625404477">"Ota käyttöön kiinteän kokoiset usean ikkunan tilassa"</string>
     <string name="enable_non_resizable_multi_window_summary" msgid="3275763753261901999">"Sallii kiinteän kokoiset sovellukset usean ikkunan tilassa"</string>
@@ -5216,47 +5248,35 @@
     <string name="work_policy_privacy_settings" msgid="2702644843505242596">"Työkäytäntötietosi"</string>
     <string name="work_policy_privacy_settings_summary" msgid="690118670737638405">"IT-järjestelmänvalvojan ylläpitämät asetukset"</string>
     <string name="track_frame_time_keywords" msgid="7885340257945922239">"Grafiikkasuoritin"</string>
-    <!-- no translation found for enable_16k_pages (1758111531461408337) -->
-    <skip />
-    <!-- no translation found for enable_16k_pages_summary (1937836453571509085) -->
-    <skip />
-    <!-- no translation found for confirm_enable_16k_pages_title (5477376227161609124) -->
-    <skip />
-    <!-- no translation found for confirm_enable_16k_pages_text (6211693250692246982) -->
-    <skip />
-    <!-- no translation found for confirm_enable_4k_pages_title (3001009010581393119) -->
-    <skip />
-    <!-- no translation found for confirm_enable_4k_pages_text (3398001587586470689) -->
-    <skip />
-    <!-- no translation found for toast_16k_update_failed_text (7848383020572918850) -->
-    <skip />
+    <string name="enable_16k_pages" msgid="1758111531461408337">"Käynnistä 16 kt:n sivukoolla"</string>
+    <string name="enable_16k_pages_summary" msgid="1937836453571509085">"Käynnistä laite uudelleen 16 kt:n ydintasolla"</string>
+    <string name="confirm_enable_16k_pages_title" msgid="5477376227161609124">"Vaihda 4 kt:n tilasta 16 kt:n tilaan"</string>
+    <string name="confirm_enable_16k_pages_text" msgid="6211693250692246982">"Olet sivusta riippumattomassa tilassa, joka käyttää 4 kt:n ydintä. Olet vaihtamassa 16 kt:n tilaan. Ohjelmiston eheyttä ei voida taata tässä tilassa. Kaikki tälle puhelimelle tallennettu data voi olla vaarassa, kun käynnistysohjelmaa ei ole lukittu. Tämä käynnistää laitteen uudelleen. Jotkin ominaisuudet on poistettu käytöstä näissä tiloissa, eivätkä kaikki sovellukset välttämättä toimi. Jos haluat palauttaa laitteen tuotantotilaan, sinun on vaihdettava takaisin 4 kt:n tilaan ja lukittava käynnistysohjelma. Tämä palauttaa laitteen tehdasasetukset. Kun laite käynnistyy Androidissa, poista OEM-avaus käytöstä kehittäjäasetuksista."</string>
+    <string name="confirm_enable_4k_pages_title" msgid="3001009010581393119">"Vaihda 4 kt:n tilasta 16 kt:n tilaan"</string>
+    <string name="confirm_enable_4k_pages_text" msgid="3398001587586470689">"Olet sivusta riippumattomassa tilassa, joka käyttää 4 kt:n ydintä. Olet vaihtamassa 16 kt:n tilaan. Ohjelmiston eheyttä ei voida taata tässä tilassa. Kaikki tälle puhelimelle tallennettu data voi olla vaarassa, kun käynnistysohjelmaa ei ole lukittu. Tämä käynnistää laitteen uudelleen. Jotkin ominaisuudet on poistettu käytöstä näissä tiloissa, eivätkä kaikki sovellukset välttämättä toimi. Jos haluat palauttaa laitteen tuotantotilaan, sinun lukittava käynnistysohjelma. Tämä palauttaa laitteen tehdasasetukset. Kun laite käynnistyy Androidissa, poista OEM-avaus käytöstä kehittäjäasetuksista."</string>
+    <string name="toast_16k_update_failed_text" msgid="7848383020572918850">"Ydintason päivitys 16 kt:n sivukoon yhteensopivaan ydintasoon epäonnistui."</string>
     <string name="progress_16k_ota_title" msgid="2117218313875523741">"Otetaan muutos käyttöön"</string>
-    <!-- no translation found for confirm_format_ext4_title (4754057414728537125) -->
-    <skip />
-    <!-- no translation found for confirm_format_ext4_text (432847493298532536) -->
-    <skip />
+    <string name="confirm_format_ext4_title" msgid="4754057414728537125">"Uudelleenformatoidaanko laitteen data ext4-muotoon? (edellytetään 16 kt:n tilaa varten)"</string>
+    <string name="confirm_format_ext4_text" msgid="432847493298532536">"Tämän laitteen dataosio on muunnettava ext4-muotoon ennen 16 kt:n kehittäjäasetuksen käyttämistä. Ohjelmiston eheyttä ei voida taata tässä tilassa. Kaikki tälle puhelimelle tallennettu data voi olla vaarassa, kun käynnistysohjelmaa ei ole lukittu. 16 kt:n tilan aktivoiminen edellyttää tämän jälkeen vielä yhtä uudelleenkäynnistystä. Kun olet tässä tilassa, voit vaihtaa 4 kt:n ja 16 kt:n tilan välillä yhdellä uudelleenkäynnistyksellä. Jotkin ominaisuudet on poistettu käytöstä näissä tiloissa, eivätkä kaikki sovellukset välttämättä toimi. Jos haluat palauttaa laitteen tuotantotilaan, sinun on vaihdettava takaisin 4 kt:n tilaan ja lukittava käynnistysohjelma. Tämä palauttaa laitteen tehdasasetukset. Kun laite käynnistyy Androidissa, poista OEM-avaus käytöstä kehittäjäasetuksista. Laite pyyhitään ja tiedostojärjestelmä vaihdetaan ext4-muotoon vahvistuksen jälkeen. Kun tämä on valmis, palaa ottamaan 16 kt:n tila uudelleen."</string>
     <string name="confirm_ext4_button_text" msgid="6045501984773738407">"Poista kaikki data"</string>
     <string name="format_ext4_failure_toast" msgid="8059453995800471549">"Dataosion tyhjentäminen ja uudelleenformatointi ext4-muotoon epäonnistui."</string>
     <string name="confirm_oem_unlock_for_16k_title" msgid="6062041826568112078">"Edellyttää käynnistysohjelman avaamista"</string>
-    <!-- no translation found for confirm_oem_unlock_for_16k_text (8089310116854544106) -->
-    <skip />
-    <!-- no translation found for page_agnostic_4k_pages_title (293797217034340398) -->
-    <skip />
-    <!-- no translation found for page_agnostic_4k_pages_text_short (731597455785555266) -->
-    <skip />
-    <!-- no translation found for page_agnostic_4k_pages_text (7572233914423063169) -->
-    <skip />
-    <!-- no translation found for page_agnostic_16k_pages_title (8940585327969638637) -->
-    <skip />
-    <!-- no translation found for page_agnostic_16k_pages_text_short (7613206944532151035) -->
-    <skip />
-    <!-- no translation found for page_agnostic_16k_pages_text (2860363435021452169) -->
-    <skip />
-    <!-- no translation found for page_agnostic_notification_channel_name (2058933148654316447) -->
-    <skip />
+    <string name="confirm_oem_unlock_for_16k_text" msgid="8089310116854544106">"Tämän laitteen käynnistysohjelma on avattava ennen 16 kt:n kehittäjäasetuksen käyttämistä. Ohjelmiston eheyttä ei voida taata tässä tilassa. Kaikki tälle puhelimelle tallennettu data voi olla vaarassa, kun käynnistysohjelmaa ei ole lukittu. Kaikki käyttäjädata ja asetukset pyyhitään, kun 16 kt:n tila aktivoidaan. Kun käynnistysohjelman lukitus on avattu, 16 kt:n tilan aktivointi edellyttää kahta uudelleenkäynnistystä. Kun olet tässä tilassa, voit vaihtaa 4 kt:n ja 16 kt:n tilan välillä yhdellä uudelleenkäynnistyksellä. Jotkin ominaisuudet on poistettu käytöstä näissä tiloissa, eivätkä kaikki sovellukset välttämättä toimi. Jos haluat palauttaa laitteen tuotantotilaan, sinun on vaihdettava takaisin 4 kt:n tilaan ja tehtävä käynnistysohjelman tai OEM:n lukitus. Tämä palauttaa laitteen tehdasasetukset. Avaa käynnistysohjelman lukitus ja yritä uudelleen. Voit katsoa ohjeet tämän tekemiseen osoitteesta &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt;"</string>
+    <string name="page_agnostic_4k_pages_title" msgid="293797217034340398">"Käytetään 4 kt:n sivusta riippumatonta tilaa"</string>
+    <string name="page_agnostic_4k_pages_text_short" msgid="731597455785555266">"Olet sivusta riippumattoman tilan 4 kt:n tilassa. Ohjelmiston eheyttä ei voida taata tässä tilassa. Kaikki tälle puhelimelle tallennettu data voi olla vaarassa, kun käynnistysohjelmaa ei ole lukittu. Jotkin ominaisuudet on poistettu käytöstä näissä tiloissa, eivätkä kaikki sovellukset välttämättä toimi. Jos haluat siirtyä tuotantotilaan uudelleen, sinun on lukittava käynnistysohjelma. Lue lisää napauttamalla."</string>
+    <string name="page_agnostic_4k_pages_text" msgid="7572233914423063169">"Olet sivusta riippumattoman tilan 4 kt:n tilassa. Ohjelmiston eheyttä ei voida taata tässä tilassa. Kaikki tälle puhelimelle tallennettu data voi olla vaarassa, kun käynnistysohjelmaa ei ole lukittu. Jotkin ominaisuudet on poistettu käytöstä näissä tiloissa, eivätkä kaikki sovellukset välttämättä toimi. Jos haluat siirtyä tuotantotilaan uudelleen, sinun on lukittava käynnistysohjelma. Tämä palauttaa laitteen tehdasasetukset uudelleen ja palauttaa sen tuotantoasetuksiin. Kun laite käynnistyy Androidissa, poista OEM-avaus käytöstä kehittäjäasetuksista. Jos laitteen käynnistäminen Androidiin epäonnistuu tai se on epävakaa, suorita Flash uudelleen viimeisimmillä tehdasasetusten näköistiedostoilla osoitteesta &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; tai käytä &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; ja valitse \"Pyyhi laite\", \"Lukitse käynnistysohjelma\" tai \"Pakota Flash kaikille osioille\"."</string>
+    <string name="page_agnostic_16k_pages_title" msgid="8940585327969638637">"Käytetään 16 kt:n sivusta riippumatonta tilaa"</string>
+    <string name="page_agnostic_16k_pages_text_short" msgid="7613206944532151035">"Olet sivusta riippumattoman tilan 16 kt:n tilassa. Ohjelmiston eheyttä ei voida taata tässä tilassa. Kaikki tälle puhelimelle tallennettu data voi olla vaarassa, kun käynnistysohjelmaa ei ole lukittu. Jotkin ominaisuudet on poistettu käytöstä näissä tiloissa, eivätkä kaikki sovellukset välttämättä toimi. Jos haluat siirtyä tuotantotilaan uudelleen, sinun on vaihdettava takaisin 4 kt:n tilaan ja lukittava käynnistysohjelma. Lue lisää napauttamalla."</string>
+    <string name="page_agnostic_16k_pages_text" msgid="2860363435021452169">"Olet sivusta riippumattoman tilan 16 kt:n tilassa. Ohjelmiston eheyttä ei voida taata tässä tilassa. Kaikki tälle puhelimelle tallennettu data voi olla vaarassa, kun käynnistysohjelmaa ei ole lukittu. Jotkin ominaisuudet on poistettu käytöstä näissä tiloissa, eivätkä kaikki sovellukset välttämättä toimi. Jos haluat siirtyä tuotantotilaan uudelleen, sinun on vaihdettava takaisin 4 kt:n tilaan ja lukittava käynnistysohjelma. Tämä palauttaa laitteen tehdasasetukset uudelleen ja palauttaa sen tuotantoasetuksiin. Kun laite käynnistyy Androidissa, poista OEM-avaus käytöstä kehittäjäasetuksista. Jos laitteen käynnistäminen Androidiin epäonnistuu tai se on epävakaa, suorita Flash uudelleen viimeisimmillä tehdasasetusten näköistiedostoilla osoitteesta &lt;a href=\"https://developers.google.com/android/images\"&gt;https://developers.google.com/android/images&lt;/a&gt; tai käytä &lt;a href=\"https://flash.android.com/back-to-public\"&gt;https://flash.android.com/back-to-public&lt;/a&gt; ja valitse \"Pyyhi laite\", \"Lukitse käynnistysohjelma\" tai \"Pakota Flash kaikille osioille\"."</string>
+    <string name="page_agnostic_notification_channel_name" msgid="2058933148654316447">"16 kt:n sivusta riippumaton tila"</string>
     <string name="page_agnostic_notification_action" msgid="2309805437430150456">"Lue lisää"</string>
     <string name="enable_16k_app_compat_title" msgid="4173159228844992989">"Käynnistä sovellus sivukoon yhteensopivuustilassa"</string>
-    <string name="enable_16k_app_compat_details" msgid="3389401258168314266">"Sovellus käynnistetään sivukoon yhteensopivuustilassa, kun 16 kt:n laite on päällä."</string>
+    <!-- no translation found for enable_16k_app_compat_details (5382562613011853452) -->
+    <skip />
+    <!-- no translation found for stop_app_dlg_title (3153921585174512587) -->
+    <skip />
+    <!-- no translation found for stop_app_dlg_text (4373849065005318901) -->
+    <skip />
     <string name="bug_report_handler_title" msgid="713439959113250125">"Virheraportin käsittelijä"</string>
     <string name="bug_report_handler_picker_footer_text" msgid="4935758328366585673">"Valitsee, mikä sovellus käsittelee laitteen virheraportti-pikanäppäintä."</string>
     <string name="personal_profile_app_subtext" msgid="5586060806997067676">"Henkilökohtainen"</string>
@@ -5590,6 +5610,8 @@
     <string name="content_protection_preference_subpage_summary" msgid="3595621220981703364"></string>
     <string name="content_protection_preference_subpage_info" msgid="6890886357653365489"></string>
     <string name="accessibility_setup_password_complete" msgid="6358749253318369077">"Salasana on nyt otettu käyttöön"</string>
+    <!-- no translation found for accessibility_setup_pin_complete (7626702882001984236) -->
+    <skip />
     <string name="show_stylus_pointer_icon" msgid="1010583689203665786">"Näytä osoitin kohdistettaessa"</string>
     <string name="media_drm_settings_title" msgid="897424966554739867">"Median DRM-asetukset"</string>
     <string name="force_swcrypto_fallback_title" msgid="8053166299808645593">"Pakota ohjelmiston suojauksen salaus"</string>
@@ -5737,4 +5759,8 @@
     <string name="supervision_pin_management_preference_summary_add" msgid="3244161328612671896">"Lisää PIN-koodin palauttamismenetelmä"</string>
     <string name="supervision_change_pin_preference_title" msgid="2288584039438231801">"Vaihda PIN-koodi"</string>
     <string name="supervision_add_forgot_pin_preference_title" msgid="8939945404255748516">"PIN-koodi unohtunut"</string>
+    <!-- no translation found for supervision_web_content_filters_title (3653430162065686156) -->
+    <skip />
+    <!-- no translation found for accessibility_illustration_content_description (557376174860150903) -->
+    <skip />
 </resources>

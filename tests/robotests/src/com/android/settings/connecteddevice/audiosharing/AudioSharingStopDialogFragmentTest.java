@@ -20,7 +20,6 @@ import static com.google.common.truth.Truth.assertThat;
 
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.eq;
-import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 import static org.robolectric.shadows.ShadowLooper.shadowMainLooper;
@@ -238,11 +237,6 @@ public class AudioSharingStopDialogFragmentTest {
         dialog = ShadowAlertDialogCompat.getLatestAlertDialog();
         assertThat(dialog).isNotNull();
         assertThat(dialog.isShowing()).isTrue();
-        verify(mFeatureFactory.metricsFeatureProvider, times(0))
-                .action(
-                        any(Context.class),
-                        eq(SettingsEnums.ACTION_AUDIO_SHARING_DIALOG_AUTO_DISMISS),
-                        eq(SettingsEnums.DIALOG_STOP_AUDIO_SHARING));
 
         View btnView = dialog.findViewById(android.R.id.button1);
         assertThat(btnView).isNotNull();
@@ -259,7 +253,7 @@ public class AudioSharingStopDialogFragmentTest {
 
     @Test
     @EnableFlags(Flags.FLAG_ENABLE_LE_AUDIO_SHARING)
-    public void onCreateDialog_dialogIsShowingForNewDevice_showNewDialog() {
+    public void onCreateDialog_dialogIsShowingForNewDevice_updateDialog() {
         AudioSharingStopDialogFragment.show(
                 mParent,
                 ImmutableList.of(),
@@ -281,7 +275,7 @@ public class AudioSharingStopDialogFragmentTest {
                         mParent.getString(
                                 R.string.audio_sharing_stop_dialog_title, TEST_DEVICE_NAME1));
 
-        // Show new dialog
+        // Update the dialog content
         AudioSharingStopDialogFragment.show(
                 mParent,
                 ImmutableList.of(),
@@ -292,11 +286,6 @@ public class AudioSharingStopDialogFragmentTest {
         dialog = ShadowAlertDialogCompat.getLatestAlertDialog();
         assertThat(dialog).isNotNull();
         assertThat(dialog.isShowing()).isTrue();
-        verify(mFeatureFactory.metricsFeatureProvider)
-                .action(
-                        any(Context.class),
-                        eq(SettingsEnums.ACTION_AUDIO_SHARING_DIALOG_AUTO_DISMISS),
-                        eq(SettingsEnums.DIALOG_STOP_AUDIO_SHARING));
 
         view = dialog.findViewById(R.id.description_text);
         assertThat(view).isNotNull();
@@ -329,11 +318,6 @@ public class AudioSharingStopDialogFragmentTest {
         shadowMainLooper().idle();
         assertThat(dialog.isShowing()).isFalse();
         assertThat(mParent.getActivity().isFinishing()).isFalse();
-        verify(mFeatureFactory.metricsFeatureProvider, times(0))
-                .action(
-                        any(Context.class),
-                        eq(SettingsEnums.ACTION_AUDIO_SHARING_DIALOG_AUTO_DISMISS),
-                        eq(SettingsEnums.DIALOG_STOP_AUDIO_SHARING));
         verify(mFeatureFactory.metricsFeatureProvider)
                 .action(
                         any(Context.class),
@@ -362,11 +346,6 @@ public class AudioSharingStopDialogFragmentTest {
         assertThat(dialog.isShowing()).isFalse();
         assertThat(isStopBtnClicked.get()).isTrue();
         assertThat(mParent.getActivity().isFinishing()).isFalse();
-        verify(mFeatureFactory.metricsFeatureProvider, times(0))
-                .action(
-                        any(Context.class),
-                        eq(SettingsEnums.ACTION_AUDIO_SHARING_DIALOG_AUTO_DISMISS),
-                        eq(SettingsEnums.DIALOG_STOP_AUDIO_SHARING));
         verify(mFeatureFactory.metricsFeatureProvider)
                 .action(
                         any(Context.class),

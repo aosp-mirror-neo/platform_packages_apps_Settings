@@ -23,6 +23,7 @@ import android.graphics.Point;
 import android.graphics.drawable.Drawable;
 import android.hardware.display.DisplayManager;
 import android.provider.Settings;
+import android.text.SpannableString;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.Display;
@@ -32,6 +33,7 @@ import androidx.annotation.VisibleForTesting;
 import androidx.preference.PreferenceScreen;
 
 import com.android.settings.R;
+import com.android.settings.Utils;
 import com.android.settings.core.instrumentation.SettingsStatsLog;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.widget.RadioButtonPickerFragment;
@@ -58,7 +60,7 @@ public class ScreenResolutionFragment extends RadioButtonPickerFragment {
     private Display mDefaultDisplay;
     private String[] mScreenResolutionOptions;
     private Set<Point> mResolutions;
-    private String[] mScreenResolutionSummaries;
+    private SpannableString[] mScreenResolutionSummaries;
 
     private IllustrationPreference mImagePreference;
     private DisplayObserver mDisplayObserver;
@@ -84,10 +86,18 @@ public class ScreenResolutionFragment extends RadioButtonPickerFragment {
         mFullWidth = controller.getFullWidth();
         Log.i(TAG, "mHighWidth:" + mHighWidth + "mFullWidth:" + mFullWidth);
         mScreenResolutionSummaries =
-                new String[] {
-                    mHighWidth + " x " + controller.getHighHeight(),
-                    mFullWidth + " x " + controller.getFullHeight()
+                new SpannableString[] {
+                    getResolutionSpannable(mHighWidth, controller.getHighHeight()),
+                    getResolutionSpannable(mFullWidth, controller.getFullHeight())
                 };
+    }
+
+
+    private SpannableString getResolutionSpannable(int width, int height) {
+        String resolutionString = width + " x " + height;
+        String accessibleText = mResources.getString(
+                R.string.screen_resolution_delimiter_a11y, width, height);
+        return Utils.createAccessibleSequence(resolutionString, accessibleText);
     }
 
     @Override

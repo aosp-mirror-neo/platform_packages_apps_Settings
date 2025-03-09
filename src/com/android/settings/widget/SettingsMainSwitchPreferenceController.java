@@ -28,7 +28,10 @@ import com.android.settingslib.widget.MainSwitchPreference;
 
 /**
  * Preference controller for MainSwitchPreference.
+ *
+ * @deprecated Use {@link TogglePreferenceController} directly
  */
+@Deprecated
 public abstract class SettingsMainSwitchPreferenceController extends
         TogglePreferenceController implements OnCheckedChangeListener {
 

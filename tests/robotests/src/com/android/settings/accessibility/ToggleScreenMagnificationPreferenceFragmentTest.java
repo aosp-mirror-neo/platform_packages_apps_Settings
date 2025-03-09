@@ -614,6 +614,24 @@ public class ToggleScreenMagnificationPreferenceFragmentTest {
     }
 
     @Test
+    @EnableFlags(com.android.settings.accessibility.Flags
+                .FLAG_ENABLE_MAGNIFICATION_CURSOR_FOLLOWING_DIALOG)
+    public void onCreateDialog_setCursorFollowingModeDialogDelegate_invokeDialogDelegate() {
+        ToggleScreenMagnificationPreferenceFragment fragment =
+                mFragController.create(
+                        R.id.main_content, /* bundle= */ null).start().resume().get();
+        final DialogCreatable dialogDelegate = mock(DialogCreatable.class, RETURNS_DEEP_STUBS);
+        final int dialogId = DialogEnums.DIALOG_MAGNIFICATION_CURSOR_FOLLOWING_MODE;
+        when(dialogDelegate.getDialogMetricsCategory(anyInt())).thenReturn(dialogId);
+        fragment.setMagnificationCursorFollowingModeDialogDelegate(dialogDelegate);
+
+        fragment.onCreateDialog(dialogId);
+        fragment.getDialogMetricsCategory(dialogId);
+        verify(dialogDelegate).onCreateDialog(dialogId);
+        verify(dialogDelegate).getDialogMetricsCategory(dialogId);
+    }
+
+    @Test
     public void getMetricsCategory_returnsCorrectCategory() {
         ToggleScreenMagnificationPreferenceFragment fragment =
                 mFragController.create(
@@ -826,6 +844,7 @@ public class ToggleScreenMagnificationPreferenceFragmentTest {
                 MagnificationOneFingerPanningPreferenceController.PREF_KEY,
                 MagnificationAlwaysOnPreferenceController.PREF_KEY,
                 MagnificationJoystickPreferenceController.PREF_KEY,
+                MagnificationCursorFollowingModePreferenceController.PREF_KEY,
                 MagnificationFeedbackPreferenceController.PREF_KEY);
 
         final List<SearchIndexableRaw> rawData = ToggleScreenMagnificationPreferenceFragment
@@ -881,7 +900,9 @@ public class ToggleScreenMagnificationPreferenceFragmentTest {
     @EnableFlags({
             com.android.settings.accessibility.Flags.FLAG_FIX_A11Y_SETTINGS_SEARCH,
             Flags.FLAG_ENABLE_MAGNIFICATION_ONE_FINGER_PANNING_GESTURE,
-            Flags.FLAG_ENABLE_LOW_VISION_HATS})
+            Flags.FLAG_ENABLE_LOW_VISION_HATS,
+            com.android.settings.accessibility.Flags
+                    .FLAG_ENABLE_MAGNIFICATION_CURSOR_FOLLOWING_DIALOG})
     public void getNonIndexableKeys_hasShortcutAndAllFeaturesEnabled_allItemsSearchable() {
         mShadowAccessibilityManager.setAccessibilityShortcutTargets(
                 TRIPLETAP, List.of(MAGNIFICATION_CONTROLLER_NAME));

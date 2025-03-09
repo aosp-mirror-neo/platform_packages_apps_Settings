@@ -20,7 +20,6 @@ import static com.google.common.truth.Truth.assertThat;
 
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.eq;
-import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 import static org.robolectric.shadows.ShadowLooper.shadowMainLooper;
@@ -231,11 +230,6 @@ public class AudioSharingDisconnectDialogFragmentTest {
         shadowMainLooper().idle();
         dialog = ShadowAlertDialogCompat.getLatestAlertDialog();
         assertThat(dialog.isShowing()).isTrue();
-        verify(mFeatureFactory.metricsFeatureProvider, times(0))
-                .action(
-                        any(Context.class),
-                        eq(SettingsEnums.ACTION_AUDIO_SHARING_DIALOG_AUTO_DISMISS),
-                        eq(SettingsEnums.DIALOG_AUDIO_SHARING_SWITCH_DEVICE));
 
         btn1 = view.findViewHolderForAdapterPosition(0).itemView.findViewById(R.id.device_button);
         btn1.performClick();
@@ -251,7 +245,7 @@ public class AudioSharingDisconnectDialogFragmentTest {
 
     @Test
     @EnableFlags(Flags.FLAG_ENABLE_LE_AUDIO_SHARING)
-    public void onCreateDialog_dialogIsShowingForNewGroup_showNewDialog() {
+    public void onCreateDialog_dialogIsShowingForNewGroup_updateDialog() {
         mDeviceItems = new ArrayList<>();
         mDeviceItems.add(TEST_DEVICE_ITEM1);
         mDeviceItems.add(TEST_DEVICE_ITEM2);
@@ -265,7 +259,7 @@ public class AudioSharingDisconnectDialogFragmentTest {
         assertThat(view).isNotNull();
         assertThat(view.getAdapter().getItemCount()).isEqualTo(2);
 
-        // Show new dialog for device with new group
+        // Update dialog content for device with new group
         ArrayList<AudioSharingDeviceItem> newDeviceItems = new ArrayList<>();
         newDeviceItems.add(TEST_DEVICE_ITEM2);
         newDeviceItems.add(TEST_DEVICE_ITEM3);
@@ -278,11 +272,6 @@ public class AudioSharingDisconnectDialogFragmentTest {
         shadowMainLooper().idle();
         dialog = ShadowAlertDialogCompat.getLatestAlertDialog();
         assertThat(dialog.isShowing()).isTrue();
-        verify(mFeatureFactory.metricsFeatureProvider)
-                .action(
-                        any(Context.class),
-                        eq(SettingsEnums.ACTION_AUDIO_SHARING_DIALOG_AUTO_DISMISS),
-                        eq(SettingsEnums.DIALOG_AUDIO_SHARING_SWITCH_DEVICE));
 
         view = dialog.findViewById(R.id.device_btn_list);
         assertThat(view).isNotNull();
@@ -323,11 +312,6 @@ public class AudioSharingDisconnectDialogFragmentTest {
 
         assertThat(dialog.isShowing()).isFalse();
         assertThat(mParent.getActivity().isFinishing()).isFalse();
-        verify(mFeatureFactory.metricsFeatureProvider, times(0))
-                .action(
-                        any(Context.class),
-                        eq(SettingsEnums.ACTION_AUDIO_SHARING_DIALOG_AUTO_DISMISS),
-                        eq(SettingsEnums.DIALOG_AUDIO_SHARING_SWITCH_DEVICE));
         verify(mFeatureFactory.metricsFeatureProvider)
                 .action(
                         any(Context.class),

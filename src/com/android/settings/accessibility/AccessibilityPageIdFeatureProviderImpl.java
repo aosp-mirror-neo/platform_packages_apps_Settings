@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2025 The Android Open Source Project
+ * Copyright (C) 2021 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package com.android.settings.wifi.utils
+package com.android.settings.accessibility;
 
-import android.content.Context
-import android.view.View
-import com.android.settings.R
+import android.app.settings.SettingsEnums;
+import android.content.ComponentName;
 
-/** TextInputGroup for Wi-Fi SSID. */
-class SsidInputGroup(private val context: Context, view: View, layoutId: Int, editTextId: Int) :
-    TextInputGroup(view, layoutId, editTextId) {
+import androidx.annotation.Nullable;
 
-    fun validate(): Boolean {
-        if (getText().isEmpty()) {
-            setError(context.getString(R.string.wifi_ssid_hint))
-            return false
-        }
-        return true
+/**
+ * Provider implementation for Accessibility page id related features.
+ */
+public class AccessibilityPageIdFeatureProviderImpl implements
+        AccessibilityPageIdFeatureProvider {
+
+    @Override
+    public int getCategory(@Nullable ComponentName componentName) {
+        return SettingsEnums.ACCESSIBILITY_SERVICE;
     }
 }
