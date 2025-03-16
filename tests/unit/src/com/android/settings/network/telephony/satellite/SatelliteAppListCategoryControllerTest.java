@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.android.settings.network.telephony;
+package com.android.settings.network.telephony.satellite;
 
 import static com.android.settings.core.BasePreferenceController.AVAILABLE;
 import static com.android.settings.core.BasePreferenceController.CONDITIONALLY_UNAVAILABLE;
-import static com.android.settings.network.telephony.SatelliteAppListCategoryController.MAXIMUM_OF_PREFERENCE_AMOUNT;
+import static com.android.settings.network.telephony.satellite.SatelliteAppListCategoryController.MAXIMUM_OF_PREFERENCE_AMOUNT;
 
 import static com.google.common.truth.Truth.assertThat;
 

@@ -44,6 +44,8 @@ import java.util.regex.Pattern;
 public class PrivateSpaceEducation extends InstrumentedFragment {
     private static final String TAG = "PrivateSpaceEducation";
 
+    private boolean mIsAnimationPlaying = true;
+
     @Override
     public View onCreateView(
             LayoutInflater inflater,
@@ -73,6 +75,7 @@ public class PrivateSpaceEducation extends InstrumentedFragment {
                         .build());
         LottieAnimationView lottieAnimationView = rootView.findViewById(R.id.lottie_animation);
         LottieColorUtils.applyDynamicColors(getContext(), lottieAnimationView);
+        lottieAnimationView.setOnClickListener(v -> handleAnimationClick(lottieAnimationView));
 
         TextView infoTextView = rootView.findViewById(R.id.learn_more);
         Pattern pattern = Pattern.compile(infoTextView.getText().toString());
@@ -109,5 +112,14 @@ public class PrivateSpaceEducation extends InstrumentedFragment {
                 activity.finish();
             }
         };
+    }
+
+    private void handleAnimationClick(LottieAnimationView lottieAnimationView) {
+        if (mIsAnimationPlaying) {
+            lottieAnimationView.pauseAnimation();
+        } else {
+            lottieAnimationView.playAnimation();
+        }
+        mIsAnimationPlaying = !mIsAnimationPlaying;
     }
 }

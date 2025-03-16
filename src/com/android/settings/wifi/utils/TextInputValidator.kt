@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2024 The Android Open Source Project
+ * Copyright (C) 2025 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,15 +14,22 @@
  * limitations under the License.
  */
 
-package com.android.settings.bluetooth.ui.layout
+package com.android.settings.wifi.utils
 
-import kotlinx.coroutines.flow.Flow
+/**
+ * The validator used to validate all {@code TextInputGroup} at the same time
+ */
+class TextInputValidator {
 
-/** Represent the layout of device settings. */
-data class DeviceSettingLayout(val rows: List<DeviceSettingLayoutRow>)
+    private val textInputList: MutableList<TextInputGroup> = ArrayList()
 
-/** Represent a row in the layout. */
-data class DeviceSettingLayoutRow(val columns: Flow<List<DeviceSettingLayoutColumn>>)
+    fun addTextInput(textInputGroup: TextInputGroup) {
+        textInputList += textInputGroup
+    }
 
-/** Represent a column in a row. */
-data class DeviceSettingLayoutColumn(val settingId: Int, val highlighted: Boolean)
+    fun validate(): Boolean {
+        var isValidate = true
+        for (input in textInputList) if (!input.validate()) isValidate = false
+        return isValidate
+    }
+}

@@ -25,7 +25,7 @@ import com.google.android.material.textfield.TextInputLayout
 
 /** A widget that wraps the relationship work between a TextInputLayout and an EditText. */
 open class TextInputGroup(
-    private val view: View,
+    val view: View,
     private val layoutId: Int,
     private val editTextId: Int,
     private val errorMessageId: Int,
@@ -59,6 +59,12 @@ open class TextInputGroup(
         editText.addTextChangedListener(watcher)
     }
 
+    var label: String
+        get() = layout.hint?.toString() ?: ""
+        set(value) {
+            layout.setHint(value)
+        }
+
     var text: String
         get() = editText.text?.toString() ?: ""
         set(value) {
@@ -69,19 +75,23 @@ open class TextInputGroup(
         get() = layout.helperText?.toString() ?: ""
         set(value) {
             layout.setHelperText(value)
+            if (value.isEmpty()) layout.isHelperTextEnabled = false
         }
 
     var error: String
         get() = layout.error?.toString() ?: ""
         set(value) {
             layout.setError(value)
+            if (value.isEmpty()) layout.isErrorEnabled = false
         }
 
     open fun validate(): Boolean {
+        if (!editText.isShown) return true
+
         val isValid = text.isNotEmpty()
         if (!isValid) {
             Log.w(TAG, "validate failed in ${layout.hint ?: "unknown"}")
-            error = errorMessage.toString()
+            error = errorMessage
         }
         return isValid
     }

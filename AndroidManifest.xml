@@ -686,7 +686,7 @@
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
                        android:value="true" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                       android:value="com.android.settings.network.telephony.SatelliteSetting" />
+                       android:value="com.android.settings.network.telephony.satellite.SatelliteSetting" />
             <meta-data android:name="com.android.settings.HIGHLIGHT_MENU_KEY"
                        android:value="@string/menu_key_network"/>
         </activity>
@@ -1899,7 +1899,7 @@
 
         <activity android:name="Settings$UserAspectRatioAppListActivity"
             android:exported="true"
-            android:label="@string/aspect_ratio_experimental_title">
+            android:label="@string/aspect_ratio_title">
             <intent-filter android:priority="1">
                 <action android:name="android.settings.MANAGE_USER_ASPECT_RATIO_SETTINGS"/>
                 <category android:name="android.intent.category.DEFAULT" />
@@ -1912,7 +1912,7 @@
 
         <activity android:name="Settings$UserAspectRatioAppActivity"
                   android:exported="true"
-                  android:label="@string/aspect_ratio_experimental_title">
+                  android:label="@string/aspect_ratio_title">
             <intent-filter>
                 <action android:name="android.settings.MANAGE_USER_ASPECT_RATIO_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -2813,6 +2813,15 @@
             android:theme="@android:style/Theme.Translucent.NoTitleBar">
             <intent-filter android:priority="1">
                 <action android:name="android.app.action.CONFIRM_DEVICE_CREDENTIAL_WITH_USER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".supervision.ConfirmSupervisionCredentialsActivity"
+            android:exported="true"
+            android:featureFlag="android.app.supervision.flags.supervision_manager_apis">
+            <intent-filter>
+                <action android:name="android.app.supervision.action.CONFIRM_SUPERVISION_CREDENTIALS" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -5596,6 +5605,14 @@
                 <action android:name="com.android.settings.action.BLUETOOTH_LE_AUDIO_SHARING_DEVICE_CONNECTED" />
                 <action android:name="com.android.settings.action.BLUETOOTH_LE_AUDIO_SHARING_ADD_SOURCE" />
                 <action android:name="com.android.settings.action.BLUETOOTH_LE_AUDIO_SHARING_CANCEL_NOTIF" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name="com.android.settings.connecteddevice.audiosharing.audiostreams.PrivateBroadcastReceiver"
+            android:permission="android.permission.BLUETOOTH_PRIVILEGED"
+            android:exported="true"> <!-- Exported for SystemUI. -->
+            <intent-filter>
+                <action android:name="com.android.settings.action.BLUETOOTH_LE_AUDIO_PRIVATE_BROADCAST_RECEIVED" />
             </intent-filter>
         </receiver>
 

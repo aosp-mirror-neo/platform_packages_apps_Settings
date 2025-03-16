@@ -104,3 +104,9 @@ const val KEY_RING_VOLUME = "separate_ring_volume"
 
 /** Contract key for the "Remove animation" setting. */
 const val KEY_REMOVE_ANIMATION = "remove_animation"
+
+/** Contract key for the "Pin media player. */
+const val KEY_PIN_MEDIA_PLAYER = "pin_media_player"
+
+/** Contract key for the "Show media on lock screen. */
+const val KEY_SHOW_MEDIA_ON_LOCK_SCREEN = "show_media_on_lock_screen"

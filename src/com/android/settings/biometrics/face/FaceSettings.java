@@ -70,6 +70,7 @@ public class FaceSettings extends DashboardFragment {
 
     private static final String TAG = "FaceSettings";
     private static final String KEY_TOKEN = "hw_auth_token";
+    private static final String KEY_CONFIRMING_PASSWORD = "confirming_password";
     private static final String KEY_RE_ENROLL_FACE = "re_enroll_face_unlock";
     private static final String KEY_BIOMETRICS_SUCCESSFULLY_AUTHENTICATED =
             "biometrics_successfully_authenticated";
@@ -163,6 +164,7 @@ public class FaceSettings extends DashboardFragment {
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
         outState.putByteArray(KEY_TOKEN, mToken);
+        outState.putBoolean(KEY_CONFIRMING_PASSWORD, mConfirmingPassword);
     }
 
     @Override
@@ -273,6 +275,7 @@ public class FaceSettings extends DashboardFragment {
 
         if (savedInstanceState != null) {
             mToken = savedInstanceState.getByteArray(KEY_TOKEN);
+            mConfirmingPassword = savedInstanceState.getBoolean(KEY_CONFIRMING_PASSWORD);
         }
 
         if (Flags.biometricsOnboardingEducation()) {

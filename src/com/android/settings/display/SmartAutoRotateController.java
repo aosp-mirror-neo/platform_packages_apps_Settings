@@ -46,6 +46,7 @@ import com.android.settings.R;
 import com.android.settings.core.TogglePreferenceController;
 import com.android.settings.overlay.FeatureFactory;
 import com.android.settingslib.core.instrumentation.MetricsFeatureProvider;
+import com.android.settingslib.devicestate.DeviceStateAutoRotateSettingManager;
 import com.android.settingslib.devicestate.DeviceStateRotationLockSettingsManager;
 
 /**
@@ -75,8 +76,8 @@ public class SmartAutoRotateController extends TogglePreferenceController implem
             };
 
     private final DeviceStateRotationLockSettingsManager mDeviceStateAutoRotateSettingsManager;
-    private final DeviceStateRotationLockSettingsManager.DeviceStateRotationLockSettingsListener
-            mDeviceStateRotationLockSettingsListener = () -> updateState(mPreference);
+    private final DeviceStateAutoRotateSettingManager.DeviceStateAutoRotateSettingListener
+            mDeviceStateAutoRotateSettingListener = () -> updateState(mPreference);
     private RotationPolicy.RotationPolicyListener mRotationPolicyListener;
 
     public SmartAutoRotateController(Context context, String preferenceKey) {
@@ -140,7 +141,7 @@ public class SmartAutoRotateController extends TogglePreferenceController implem
         }
         RotationPolicy.registerRotationPolicyListener(mContext, mRotationPolicyListener);
         mDeviceStateAutoRotateSettingsManager.registerListener(
-                mDeviceStateRotationLockSettingsListener);
+                mDeviceStateAutoRotateSettingListener);
         mPrivacyManager.addSensorPrivacyListener(CAMERA, mPrivacyChangedListener);
     }
 
@@ -152,7 +153,7 @@ public class SmartAutoRotateController extends TogglePreferenceController implem
             mRotationPolicyListener = null;
         }
         mDeviceStateAutoRotateSettingsManager.unregisterListener(
-                mDeviceStateRotationLockSettingsListener);
+                mDeviceStateAutoRotateSettingListener);
         mPrivacyManager.removeSensorPrivacyListener(CAMERA, mPrivacyChangedListener);
     }
 

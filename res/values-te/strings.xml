@@ -41,6 +41,12 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"తాత్కాలికంగా రద్దు చేయబడింది"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"తెలియదు"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"ప్రివ్యూ"</string>
+    <!-- no translation found for preview_pager_home_content_description (3961399947853424786) -->
+    <skip />
+    <!-- no translation found for preview_pager_message_content_description (3018855090807833755) -->
+    <skip />
+    <!-- no translation found for preview_pager_email_content_description (100055784235660338) -->
+    <skip />
     <string name="qr_code_content_description" msgid="1852208464419291347">"QR కోడ్"</string>
     <string name="preview_pager_previous_button" msgid="607771113300838313">"మునుపటి ప్రివ్యూ"</string>
     <string name="preview_pager_next_button" msgid="8700907912508927271">"తర్వాతి ప్రివ్యూ"</string>
@@ -167,11 +173,11 @@
     <string name="date_and_time" msgid="1788358029823431692">"తేదీ &amp; సమయం"</string>
     <string name="proxy_settings_title" msgid="4201866858226087066">"ప్రాక్సీ"</string>
     <string name="proxy_clear_text" msgid="6529658759984031149">"క్లియర్ చేయండి"</string>
-    <string name="proxy_port_label" msgid="4647357286461712574">"ప్రాక్సీ పోర్ట్"</string>
+    <string name="proxy_port_label" msgid="6698001018215165848">"ప్రాక్సీ పోర్ట్ (ఆప్షనల్)"</string>
     <string name="proxy_exclusionlist_label" msgid="2598613986784917542">"దీని కోసం ప్రాక్సీని విస్మరించు"</string>
     <string name="proxy_defaultView_text" msgid="6795150505379688451">"ఆటోమేటిక్ సెట్టింగ్‌లను రీస్టోర్ చేయండి"</string>
     <string name="proxy_action_text" msgid="1103328484441449542">"పూర్తయింది"</string>
-    <string name="proxy_hostname_label" msgid="5504327742505848063">"ప్రాక్సీ హోస్ట్‌పేరు"</string>
+    <string name="proxy_hostname_label" msgid="345510072664361960">"ప్రాక్సీ హోస్ట్‌పేరు (ఆప్షనల్)"</string>
     <string name="proxy_error" msgid="3615905975598084126">"గమనిక"</string>
     <string name="proxy_error_dismiss" msgid="4207430265140873078">"సరే"</string>
     <string name="proxy_error_invalid_host" msgid="3814412792702059247">"మీరు టైప్ చేసిన హోస్ట్‌పేరు చెల్లదు."</string>
@@ -216,9 +222,12 @@
     <string name="desc_introduction_of_language_picker" msgid="4012265379885200083">"మీ పరికరం, యాప్‌లు, వెబ్‌సైట్‌లు మీ ప్రాధాన్య భాషల (ప్రిఫర్‌డ్ లాంగ్వేజ్) లిస్ట్‌లో సపోర్ట్ ఉన్న మొదటి భాషను ఉపయోగిస్తాయి.\n\nచాలా యాప్‌లు తేదీలను, నంబర్‌లను, యూనిట్‌లను ఫార్మాట్ చేయడానికి మీ ప్రాధాన్య భాష ఉన్న ప్రాంతాన్ని కూడా ఉపయోగిస్తాయి. మీ ప్రాంతాన్ని మార్చడానికి, భాషను జోడించి, ఆపై మీ ప్రాధాన్య ప్రాంతాన్ని (ప్రిఫర్‌డ్ రీజియన్‌ను) ఎంచుకోండి."</string>
     <string name="desc_notice_of_language_picker" msgid="3449290526457925447">"ప్రతి యాప్ కోసం భాషను ఎంచుకోవడానికి, యాప్ భాష సెట్టింగ్‌లకు వెళ్లండి."</string>
     <string name="desc_locale_helper_footer_general" msgid="6112153921151780303">"యాప్ భాషల గురించి మరింత తెలుసుకోండి"</string>
-    <string name="title_change_system_region" msgid="5476591184463491936">"ప్రాంతాన్ని %s‌కు మార్చాలా ?"</string>
+    <!-- no translation found for title_change_system_region (9196602029960380112) -->
+    <skip />
     <string name="desc_notice_device_region_change" msgid="6702773189066944100">"మీ పరికరం %s‌ను సిస్టమ్ భాషగా ఉంచుతుంది"</string>
-    <string name="title_change_system_locale" msgid="8589844586256566951">"సిస్టమ్ భాషను %s‌కు మార్చాలా?"</string>
+    <string name="desc_notice_device_region_change_for_preferred_language" msgid="408517366942324267">"%1$s మీ ప్రాధాన్య భాషలలో %2$sను రీప్లేస్ చేస్తుంది"</string>
+    <!-- no translation found for title_change_system_locale (4102991236063984803) -->
+    <skip />
     <string name="title_system_locale_addition" msgid="8218683660751479466">"%sని ప్రాధాన్య భాషలకు జోడించాలా?"</string>
     <string name="desc_system_locale_addition" msgid="3409917362651596070">"మీరు ఈ భాషకు కూడా ప్రాధాన్యం ఇస్తారని, ఇది, యాప్‌లకు, వెబ్‌సైట్‌లకు తెలియజేస్తుంది."</string>
     <string name="desc_notice_device_locale_settings_change" msgid="8311132485850714160">"మీ పరికర సెట్టింగ్‌లు, ప్రాంతీయ ప్రాధాన్యతలు మారుతాయి."</string>
@@ -235,7 +244,8 @@
     <string name="search_region_hint" msgid="1748708432568237552">"ప్రాంతాలను సెర్చ్ చేయండి"</string>
     <string name="top_intro_region_title" msgid="2336323415395642117">"మీరు ఎంచుకున్న ప్రాంతం, మీ ఫోన్ సమయాన్ని, తేదీలను, టెంపరేచర్‌ను, ఇంకా మరిన్నింటిని ఎలా డిస్‌ప్లే చేస్తుంది అనే విషయాలను ప్రభావితం చేస్తుంది"</string>
     <string name="more_language_settings_category" msgid="3669703092480725416">"మరిన్ని భాషా సెట్టింగ్‌లు"</string>
-    <string name="title_change_system_locale_region" msgid="1977530992614685128">"ప్రాంతాన్ని <xliff:g id="SYSTEM_LANGUAGE_REGION">%1$s</xliff:g>‌కు మార్చాలా ?"</string>
+    <!-- no translation found for title_change_system_locale_region (4401478579429442695) -->
+    <skip />
     <string name="body_change_system_locale_region" msgid="9064318449821043189">"మీ పరికరం <xliff:g id="SYSTEM_LANGUAGE">%1$s</xliff:g>‌ను సిస్టమ్ భాషగా ఉంచుతుంది"</string>
     <string name="top_intro_numbering_system_title" msgid="3962000662073238392">"మీ పరికరం, వెబ్‌సైట్‌లు, యాప్స్ నంబర్‌లను ఎలా డిస్‌ప్లే చేయాలో ఎంచుకోండి"</string>
     <string name="regional_preferences_title" msgid="4304567374498629528">"ప్రాంతీయ ప్రాధాన్యతలు"</string>
@@ -355,6 +365,8 @@
     <string name="safety_center_summary" msgid="3554867379951053869">"యాప్ సెక్యూరిటీ, పరికరం లాక్, అనుమతులు"</string>
     <string name="security_settings_face_preference_summary" msgid="6675126437396914838">"ముఖం జోడించబడింది"</string>
     <string name="security_settings_face_preference_summary_none" msgid="523320857738436024">"సెటప్ అవసరం"</string>
+    <!-- no translation found for security_settings_face_preference_summary_none_new (1963253146734002815) -->
+    <skip />
     <string name="security_settings_face_preference_title_new" msgid="7680231874730796331">"ముఖం"</string>
     <string name="security_settings_face_profile_preference_title_new" msgid="685550153608106166">"ఆఫీస్ కోసం ముఖం"</string>
     <string name="private_space_face_unlock_title_new" msgid="2079622608951402509">"ప్రైవేట్ స్పేస్ ముఖం సెట్టింగ్స్"</string>
@@ -437,6 +449,8 @@
     <string name="fingerprint_add_title" msgid="1837610443487902050">"వేలిముద్రను (ఫింగర్‌ప్రింట్‌ను) జోడించండి"</string>
     <string name="security_settings_fingerprint_preference_summary" msgid="8486134175759676037">"{count,plural, =1{వేలిముద్ర జోడించబడింది}other{# వేలిముద్రలు జోడించబడ్డాయి}}"</string>
     <string name="security_settings_fingerprint_preference_summary_none" msgid="1146977379031250790">"సెటప్ అవసరం"</string>
+    <!-- no translation found for security_settings_fingerprint_preference_summary_none_new (510376523784190149) -->
+    <skip />
     <string name="security_settings_fingerprint_enroll_introduction_title" msgid="7931650601996313070">"మీ వేలిముద్రను సెటప్ చేయండి"</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title" msgid="2278592030102282364">"వేలిముద్ర అన్‌లాక్ అనుమతి"</string>
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled" msgid="1911710308293783998">"మీ వేలిముద్రను ఉపయోగించండి"</string>
@@ -461,8 +475,7 @@
     <string name="fingerprint_check_enroll_touch_sensor" msgid="5010063281557456236">"వేలిముద్ర సెన్సార్‌ను తాకండి"</string>
     <string name="fingerprint_check_enroll_not_recognized" msgid="2779520550437394431">"వేలిముద్ర (ఫింగర్-ప్రింట్) మ్యాచ్ కాలేదు"</string>
     <string name="security_settings_activeunlock_preference_title" msgid="4257580421087062228">"వాచ్ అన్‌లాక్"</string>
-    <!-- no translation found for security_settings_activeunlock (8922823742770802651) -->
-    <skip />
+    <string name="security_settings_activeunlock" msgid="8922823742770802651">"వాచ్"</string>
     <string name="biometric_settings_intro_with_activeunlock" msgid="5032953826653108646">"మీరు ఫేస్ అన్‌లాక్, వేలిముద్ర అన్‌లాక్‌ను సెటప్ చేసినప్పుడు, మీరు మాస్క్ ధరించి ఉంటే లేదా చీకటి ప్రదేశంలో ఉంటే మీ ఫోన్, మీ వేలిముద్రను అడుగుతుంది.\n\nవాచ్ అన్‌లాక్ అనేది ఉదాహరణకు, మీ వేళ్లు తడిగా ఉన్నప్పుడు లేదా ముఖం గుర్తించబడనప్పుడు మీ ఫోన్‌ను అన్‌లాక్ చేయడానికి మరొక అనుకూలమైన మార్గం."</string>
     <string name="biometric_settings_intro_with_fingerprint" msgid="5881355884547769337">"వాచ్ అన్‌లాక్ అనేది ఉదాహరణకు, మీ వేలిముద్ర గుర్తించబడనప్పుడు మీ ఫోన్‌ను అన్‌లాక్ చేయడానికి మరొక అనుకూలమైన మార్గం."</string>
     <string name="biometric_settings_intro_with_face" msgid="7671919122230588521">"వాచ్ అన్‌లాక్ అనేది ఉదాహరణకు, మీ ముఖం గుర్తించబడనప్పుడు మీ ఫోన్‌ను అన్‌లాక్ చేయడానికి మరొక అనుకూలమైన మార్గం."</string>
@@ -793,6 +806,8 @@
     <string name="face_unlock_skip_face" msgid="189695556498300008">"ఫేస్ అన్‌లాక్ లేకుండానే కొనసాగించండి"</string>
     <string name="biometrics_unlock_skip_biometrics" msgid="7399882488272450182">"వేలిముద్ర లేదా ఫేస్ అన్‌లాక్ లేకుండా కొనసాగించండి"</string>
     <string name="unlock_set_unlock_mode_off" msgid="4632139864722236359">"ఏదీ వద్దు"</string>
+    <!-- no translation found for unlock_set_unlock_mode_off_new (865396805830816266) -->
+    <skip />
     <string name="unlock_set_unlock_mode_none" msgid="5596049938457028214">"స్వైప్"</string>
     <string name="unlock_set_unlock_mode_pattern" msgid="1926480143883094896">"ఆకృతి"</string>
     <string name="unlock_set_unlock_mode_pin" msgid="9028659554829888373">"PIN"</string>
@@ -1061,7 +1076,8 @@
     <string name="wifi_show_advanced" msgid="2969378109942071741">"అధునాతన ఆప్షన్‌లు"</string>
     <string name="wifi_advanced_toggle_description" msgid="7299179796727934885">"డ్రాప్-డౌన్ లిస్ట్‌ అధునాతన ఎంపికలు"</string>
     <string name="wifi_advanced_toggle_description_collapsed" msgid="3615140699129928913">"విస్తరించు"</string>
-    <string name="wifi_ssid" msgid="2713062130735103151">"నెట్‌వర్క్ పేరు"</string>
+    <!-- no translation found for wifi_ssid (5139273830867723030) -->
+    <skip />
     <string name="wifi_ssid_hint" msgid="1940577553241083524">"SSIDని ఎంటర్ చేయండి"</string>
     <string name="wifi_security" msgid="9095934643631406913">"సెక్యూరిటీ"</string>
     <string name="wifi_hidden_network" msgid="6466834025375485596">"దాచబడిన నెట్‌వర్క్"</string>
@@ -1084,7 +1100,10 @@
     <string name="wifi_eap_user_cert" msgid="3569182430929173220">"యూజర్ సర్టిఫికెట్"</string>
     <string name="wifi_eap_identity" msgid="3629406902174137028">"గుర్తింపు"</string>
     <string name="wifi_eap_anonymous" msgid="8630332141751267000">"అనామక ఐడెంటిటీ"</string>
-    <string name="wifi_password" msgid="1458802324849513755">"పాస్‌వర్డ్"</string>
+    <!-- no translation found for wifi_password (165204973532996861) -->
+    <skip />
+    <!-- no translation found for wifi_password_invalid (8884500804472828356) -->
+    <skip />
     <string name="wifi_show_password" msgid="6865993988238157923">"పాస్‌వర్డ్‌ను చూపండి"</string>
     <string name="wifi_ap_choose_2G" msgid="1436802195991542016">"2.4 GHz బ్యాండ్"</string>
     <string name="wifi_ap_prefer_5G" msgid="2520628479818369902">"5.0 GHz బ్యాండ్‌కి ప్రాధాన్యత"</string>
@@ -1150,6 +1169,8 @@
     <string name="wifi_scan_always_turn_on_message_unknown" msgid="4903345360745717385">"లొకేషన్ ఖచ్చితత్వం మెరుగుపరచడం, ఇతర ప్రయోజనాల దృష్ట్యా, ఒక తెలియని యాప్ Wi-Fi ఆఫ్‌లో ఉన్నప్పటికీ నెట్‌వర్క్‌ను స్కాన్ చేయడానికి అనుమతి కోరుతోంది.\n\nస్కాన్ చేయాలనుకునే అన్ని యాప్‌ల కోసం దీన్ని అనుమతించాలా?"</string>
     <string name="wifi_scan_always_confirm_allow" msgid="4154200627800959777">"అనుమతించండి"</string>
     <string name="wifi_scan_always_confirm_deny" msgid="6997087934558839256">"తిరస్కరించు"</string>
+    <!-- no translation found for wifi_field_required (6312381745503042588) -->
+    <skip />
     <string name="no_internet_access_text" msgid="3611993143350310936">"ఈ నెట్‌వర్క్‌కు ఇంటర్నెట్ యాక్సెస్ లేదు. కనెక్ట్ చేసి ఉంచాలా?"</string>
     <string name="partial_connectivity_text" msgid="8874614799723694554">"పరిమిత కనెక్టివిటీ కారణంగా కొన్ని యాప్‌లు, సేవలు పని చేయకపోవచ్చు. ఏదేమైనా ఉపయోగించాలా?"</string>
     <string name="no_internet_access_remember" msgid="5113610157731269258">"ఈ నెట్‌వర్క్ కోసం మళ్లీ అడగవద్దు"</string>
@@ -1316,8 +1337,7 @@
     <string name="screen_resolution_option_high" msgid="2617496842852992853">"అధిక రిజల్యూషన్"</string>
     <string name="screen_resolution_option_full" msgid="4456839315039000517">"పూర్తి రిజల్యూషన్"</string>
     <string name="screen_resolution_footer" msgid="1230761249204935717">"పూర్తి రిజల్యూషన్, మీ బ్యాటరీని ఎక్కువగా వినియోగిస్తుంది. పూర్తి రిజల్యూషన్‌కు మారడం వల్ల కొన్ని యాప్‌లు రీస్టార్ట్ అయ్యే అవకాశం ఉంది."</string>
-    <!-- no translation found for screen_resolution_delimiter_a11y (5826162120538795842) -->
-    <skip />
+    <string name="screen_resolution_delimiter_a11y" msgid="5826162120538795842">"<xliff:g id="HEIGHT">%2$s</xliff:g> అందించిన <xliff:g id="WIDTH">%1$s</xliff:g>"</string>
     <string name="color_mode_title" msgid="8666690832113906028">"రంగులు"</string>
     <string name="color_mode_option_natural" msgid="6192875655101283303">"సహజం"</string>
     <string name="color_mode_option_boosted" msgid="4698797857766774289">"మెరుగుపరిచినవి"</string>
@@ -1478,17 +1498,17 @@
     <string name="storage_settings_for_app" msgid="229425418984637483">"స్టోరేజ్ &amp; కాష్"</string>
     <string name="storage_settings_title" msgid="486118156723194815">"స్టోరేజ్‌ సెట్టింగ్‌లు"</string>
     <string name="status_eid" msgid="3588471107671992684">"E​ID"</string>
-    <string name="eid_multi_sim" msgid="6551259348909791790">"E​ID (sim స్లాట్ <xliff:g id="EID_SLOT_ID">%1$d</xliff:g>)"</string>
-    <string name="imei_multi_sim" msgid="9001570420423929507">"IMEI (SIM స్లాట్ <xliff:g id="IMEI_SLOT_ID">%1$d</xliff:g>)"</string>
-    <string name="imei_multi_sim_primary" msgid="7914653040843734282">"IMEI (SIM స్లాట్ <xliff:g id="IMEI_SLOT_ID_PRIMARY">%1$d</xliff:g>) (ప్రాథమిక)"</string>
+    <string name="eid_multi_sim" msgid="6659492335576379274">"E​ID (SIM స్లాట్ <xliff:g id="EID_SLOT_ID">%1$d</xliff:g>)"</string>
+    <string name="imei_multi_sim" msgid="27798473711249145">"IMEI (SIM స్లాట్ <xliff:g id="IMEI_SLOT_ID">%1$d</xliff:g>)"</string>
+    <string name="imei_multi_sim_primary" msgid="4320457587114117400">"IMEI (SIM స్లాట్ <xliff:g id="IMEI_SLOT_ID_PRIMARY">%1$d</xliff:g>) (ప్రధాన)"</string>
     <string name="view_saved_network" msgid="1232387673095080910">"చూడటానికి సేవ్ చేసిన నెట్‌వర్క్‌ను ఎంచుకోండి"</string>
     <string name="status_imei" msgid="5719752369250485007">"IMEI"</string>
     <string name="status_imei_sv" msgid="6908985558726440951">"IMEI SV"</string>
     <string name="status_min_number" msgid="4492899165438225714">"MIN"</string>
     <string name="status_msid_number" msgid="3871958248824595774">"MSID"</string>
     <string name="status_prl_version" msgid="9002131357502714281">"PRL వెర్షన్"</string>
-    <string name="meid_multi_sim" msgid="1460689549266621286">"MEID (SIM స్లాట్ <xliff:g id="MEID_SLOT_ID">%1$d</xliff:g>)"</string>
-    <string name="meid_multi_sim_primary" msgid="8921262417580407201">"MEID (SIM స్లాట్ <xliff:g id="MEID_SLOT_ID_PRIMARY">%1$d</xliff:g>) (ప్రాథమిక)"</string>
+    <string name="meid_multi_sim" msgid="5076814185188481456">"MEID (SIM స్లాట్ <xliff:g id="MEID_SLOT_ID">%1$d</xliff:g>)"</string>
+    <string name="meid_multi_sim_primary" msgid="6269908735700854437">"MEID (SIM స్లాట్ <xliff:g id="MEID_SLOT_ID_PRIMARY">%1$d</xliff:g>) (ప్రధాన)"</string>
     <string name="scanning_status_text_on" msgid="3846571210578042940">"ఆన్"</string>
     <string name="scanning_status_text_off" msgid="4002352668313705132">"ఆఫ్"</string>
     <string name="status_meid_number" msgid="6040380838489162650">"MEID"</string>
@@ -1556,6 +1576,7 @@
     <string name="storage_wizard_init_v2_or" msgid="5558706089661158026">"లేదా"</string>
     <string name="storage_wizard_init_v2_external_title" msgid="2786416384217054112">"పోర్టబుల్ స్టోరేజ్‌కై SD కార్డ్‌ను ఫార్మాట్ చేయండి"</string>
     <string name="storage_wizard_init_v2_external_summary" msgid="2002761631147966185">"ఫోటోలు, వీడియోలు, మ్యూజిక్, ఇంకా మరిన్నింటిని స్టోర్ చేయండి, వాటిని ఇతర పరికరాల నుండి యాక్సెస్ చేయండి. &lt;a href=https://support.google.com/android/answer/12153449&gt;SD కార్డ్‌ను సెటప్ చేయడం గురించి మరింత తెలుసుకోండి&lt;/a&gt;."</string>
+    <string name="storage_wizard_init_v2_external_summary_non_sd_card" msgid="6638380506793421312">"ఫోటోలు, వీడియోలు, మ్యూజిక్, ఇంకా మరిన్నింటిని స్టోర్ చేయండి, వాటిని ఇతర పరికరాల నుండి యాక్సెస్ చేయండి."</string>
     <string name="storage_wizard_init_v2_external_action" msgid="6140058734875839081">"ఫార్మాట్ చేయండి"</string>
     <string name="storage_wizard_init_v2_later" msgid="5366815913892609285">"తర్వాత సెటప్ చేయండి"</string>
     <string name="storage_wizard_format_confirm_v2_title" msgid="6294104100437326067">"ఈ <xliff:g id="NAME">^1</xliff:g>ని ఫార్మాట్ చేయాలా?"</string>
@@ -1580,6 +1601,20 @@
     <string name="battery_level_title" msgid="1371765298786083448">"బ్యాటరీ స్థాయి"</string>
     <string name="communal_settings_title" msgid="2845678473945902115">"కమ్యూనల్"</string>
     <string name="communal_settings_summary" msgid="4923914136953940317">"కమ్యూనల్ సెట్టింగ్‌లు"</string>
+    <!-- no translation found for hub_mode_category_title (5290081595872103974) -->
+    <skip />
+    <!-- no translation found for widgets_on_lockscreen_title (6979558402208585885) -->
+    <skip />
+    <!-- no translation found for when_to_auto_show_hubmode_title (2307148913387518369) -->
+    <skip />
+    <!-- no translation found for when_to_show_hubmode_never (976644329215156021) -->
+    <skip />
+    <!-- no translation found for when_to_show_hubmode_charging (1874391105066805128) -->
+    <skip />
+    <!-- no translation found for when_to_show_hubmode_charging_and_upright (6293947459712755814) -->
+    <skip />
+    <!-- no translation found for when_to_show_hubmode_docked (7107631545009933891) -->
+    <skip />
     <string name="satellite_setting" msgid="4171265534842459910">"శాటిలైట్ మెసేజింగ్"</string>
     <string name="apn_settings" msgid="4295467389400441299">"APNలు"</string>
     <string name="apn_edit" msgid="2003683641840248741">"యాక్సెస్ పాయింట్‌ను ఎడిట్ చేయండి"</string>
@@ -1688,6 +1723,16 @@
     <string name="tether_preference_summary_off" msgid="6266799346319794630">"ఆఫ్‌లో ఉంది"</string>
     <string name="usb_tethering_button_text" msgid="7364633823180913777">"USB టెథరింగ్‌"</string>
     <string name="bluetooth_tether_checkbox_text" msgid="6108398414967813545">"బ్లూటూత్ టెథరింగ్‌"</string>
+    <!-- no translation found for ethernet_ip_address (4218340787862242573) -->
+    <skip />
+    <!-- no translation found for ethernet_mac_address_title (3235879195237611007) -->
+    <skip />
+    <!-- no translation found for tx_ethernet_speed (4785035505065551012) -->
+    <skip />
+    <!-- no translation found for rx_ethernet_speed (6642000569214969711) -->
+    <skip />
+    <!-- no translation found for ethernet_network_usage (3795965384177426780) -->
+    <skip />
     <string name="ethernet_tether_checkbox_text" msgid="959743110824197356">"ఈథర్‌నెట్ టెథరింగ్"</string>
     <string name="tethering_footer_info" msgid="6824352505979800594">"మీ డేటా కనెక్షన్ ద్వారా ఇతర పరికరాలకు ఇంటర్నెట్‌ను అందించడం కోసం హాట్‌స్పాట్ మరియు టెథెరింగ్‌ను ఉపయోగించండి. ఇంకా, యాప్‌లు సమీపంలోని పరికరాలతో కంటెంట్‌ను షేర్ చేయడం కోసం హాట్‌స్పాట్‌ను క్రియేట్ చేయవచ్చు."</string>
     <string name="tethering_footer_info_sta_ap_concurrency" msgid="2079039077487477676">"మీ Wi‑Fi లేదా మొబైల్ డేటా కనెక్షన్ ద్వారా ఇతర పరికరాలకు ఇంటర్నెట్‌ను అందించడం కోసం హాట్‌స్పాట్ అలాగే టెథరింగ్‌ను ఉపయోగించండి. సమీప పరికరాలతో కంటెంట్‌ను షేర్ చేయడం కోసం యాప్‌లు కూడా హాట్‌స్పాట్‌ను క్రియేట్ చేయవచ్చు."</string>
@@ -2264,16 +2309,11 @@
     <string name="accessibility_captioning_footer_learn_more_content_description" msgid="5730040700677017706">"క్యాప్షన్‌ ప్రాధాన్యతల గురించి మరింత తెలుసుకోండి"</string>
     <string name="accessibility_screen_magnification_title" msgid="1211169976144629087">"మ్యాగ్నిఫికేషన్"</string>
     <string name="accessibility_screen_magnification_shortcut_title" msgid="2387963646377987780">"మ్యాగ్నిఫికేషన్ షార్ట్‌కట్"</string>
-    <!-- no translation found for accessibility_magnification_cursor_following_title (29531257984012743) -->
-    <skip />
-    <!-- no translation found for accessibility_magnification_cursor_following_header (7283095798622223509) -->
-    <skip />
-    <!-- no translation found for accessibility_magnification_cursor_following_continuous (1119319218662522794) -->
-    <skip />
-    <!-- no translation found for accessibility_magnification_cursor_following_center (3504798009192014460) -->
-    <skip />
-    <!-- no translation found for accessibility_magnification_cursor_following_edge (8675207762416655758) -->
-    <skip />
+    <string name="accessibility_magnification_cursor_following_title" msgid="29531257984012743">"కర్సర్ ఫాలో అవ్వడం"</string>
+    <string name="accessibility_magnification_cursor_following_header" msgid="7283095798622223509">"మ్యాగ్నిఫికేషన్ మీ కర్సర్‌ను ఎలా ఫాలో అవ్వాలో ఎంచుకోండి."</string>
+    <string name="accessibility_magnification_cursor_following_continuous" msgid="1119319218662522794">"మౌస్ కదలికతో పాటు నిరంతరంగా స్క్రీన్‌ను జరుపుతుంది"</string>
+    <string name="accessibility_magnification_cursor_following_center" msgid="3504798009192014460">"మౌస్‌ను స్క్రీన్ సెంటర్‌లో ఉంచి స్క్రీన్‌ను జరుపుతుంది"</string>
+    <string name="accessibility_magnification_cursor_following_edge" msgid="8675207762416655758">"స్క్రీన్ అంచులను మౌస్ తాకినప్పుడు స్క్రీన్‌ను జరుపుతుంది"</string>
     <string name="accessibility_screen_magnification_follow_typing_title" msgid="6379517513916651560">"టైపింగ్‌ను మ్యాగ్నిఫై చేయండి"</string>
     <string name="accessibility_screen_magnification_follow_typing_summary" msgid="2882250257391761678">"మీరు టైప్ చేస్తున్నప్పుడు మ్యాగ్నిఫయర్ టెక్స్ట్‌ను ఫాలో అవుతుంది"</string>
     <string name="accessibility_screen_magnification_always_on_title" msgid="3814297443759580936">"యాప్‌ల మధ్య మారినప్పుడు ఆన్‌లో ఉంచండి"</string>
@@ -2409,7 +2449,7 @@
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="1830189632458752698">"అధిక కాంట్రాస్ట్ టెక్స్ట్"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_summary" msgid="5286411556836346180">"టెక్స్ట్ రంగును నలుపు లేదా తెలుపు రంగుకు మార్చండి. బ్యాక్‌గ్రౌండ్‌తో కాంట్రాస్ట్‌ను పెంచుతుంది."</string>
     <string name="accessibility_notification_high_contrast_text_title" msgid="2297915407152953323">"టెక్స్ట్ కాంట్రాస్ట్‌ను మెరుగుపరచండి"</string>
-    <string name="accessibility_notification_high_contrast_text_body" msgid="4111896614825062003">"<xliff:g id="OUTLINE_TEXT">%1$s</xliff:g> <xliff:g id="HIGH_CONTRAST_TEXT">%2$s</xliff:g>‌ను రీప్లేస్ చేసింది. మీరు దీన్ని \'<xliff:g id="SETTINGS">%3$s</xliff:g>‌\'లో ఆన్ చేయవచ్చు."</string>
+    <string name="accessibility_notification_high_contrast_text_body_message" msgid="6846453833480117658">"అవుట్‌లైన్ టెక్స్ట్ అధిక కాంట్రాస్ట్ టెక్స్ట్‌ను రీప్లేస్ చేసింది. మీరు దీన్ని <xliff:g id="SETTINGS">%1$s</xliff:g>‌లో ఆన్ చేయవచ్చు."</string>
     <string name="accessibility_notification_high_contrast_text_action_open_settings" msgid="5945069315472850294">"\'<xliff:g id="SETTINGS">%1$s</xliff:g>‌\'కు వెళ్లండి"</string>
     <string name="accessibility_toggle_maximize_text_contrast_preference_title" msgid="8848579943445806659">"అవుట్‌లైన్ టెక్స్ట్"</string>
     <string name="accessibility_toggle_maximize_text_contrast_preference_summary" msgid="8200408691846666900">"కాంట్రాస్ట్‌ను పెంచడానికి టెక్స్ట్ చుట్టూ నలుపు లేదా తెలుపు బ్యాక్‌గ్రౌండ్‌ను జోడించండి"</string>
@@ -2833,12 +2873,9 @@
     <string name="battery_usage_timestamps_hyphen" msgid="7401188432989043905">"<xliff:g id="FROM_TIMESTAMP">%1$s</xliff:g> - <xliff:g id="TO_TIMESTAMP">%2$s</xliff:g>"</string>
     <string name="battery_usage_timestamps_content_description" msgid="1927748134271595985">"<xliff:g id="FROM_TIMESTAMP">%1$s</xliff:g> నుండి <xliff:g id="TO_TIMESTAMP">%2$s</xliff:g> వరకు"</string>
     <string name="battery_usage_day_and_hour" msgid="1417890420844950881">"<xliff:g id="DAY">%1$s</xliff:g> <xliff:g id="HOUR">%2$s</xliff:g>⁠"</string>
-    <!-- no translation found for battery_usage_status_time_info_and_battery_level (5158088815445378555) -->
-    <skip />
-    <!-- no translation found for battery_chart_slot_status_selected (4196580689444438148) -->
-    <skip />
-    <!-- no translation found for battery_chart_slot_status_unselected (6930198843537021396) -->
-    <skip />
+    <string name="battery_usage_status_time_info_and_battery_level" msgid="5158088815445378555">"<xliff:g id="SELECTED_STATUS">%1$s</xliff:g>, <xliff:g id="TIME_INFO">%2$s</xliff:g> <xliff:g id="BATTERY_LEVEL">%3$s</xliff:g>"</string>
+    <string name="battery_chart_slot_status_selected" msgid="4196580689444438148">"ఎంచుకోబడింది"</string>
+    <string name="battery_chart_slot_status_unselected" msgid="6930198843537021396">"ఎంపిక రద్దయింది"</string>
     <string name="battery_usage_chart" msgid="4114747521432440017">"బ్యాటరీ వినియోగం చార్ట్"</string>
     <string name="daily_battery_usage_chart" msgid="4176059567682992686">"రోజువారీ బ్యాటరీ వినియోగ చార్ట్"</string>
     <string name="hourly_battery_usage_chart" msgid="3098314511076561272">"గంటలవారీ బ్యాటరీ వినియోగ చార్ట్"</string>
@@ -3110,28 +3147,25 @@
     <string name="data_usage_uninstalled_apps_users" msgid="1262228664057122983">"తీసివేయబడిన యాప్‌లు మరియు వినియోగదారులు"</string>
     <string name="wifi_metered_title" msgid="6623732965268033931">"నెట్‌వర్క్ వినియోగం"</string>
     <string name="data_usage_metered_yes" msgid="4262598072030135223">"లెక్కించబడే నెట్‌వర్క్"</string>
-    <string name="vpn_name" msgid="3806456074909253262">"పేరు"</string>
+    <string name="vpn_name" msgid="1119885022967213297">"పేరు*"</string>
     <string name="vpn_type" msgid="5533202873260826663">"రకం"</string>
-    <string name="vpn_server" msgid="2908816134941973935">"సర్వర్ అడ్రస్"</string>
-    <string name="vpn_ipsec_identifier" msgid="8511842694369254801">"IPSec ఐడెంటిఫైయర్"</string>
-    <string name="vpn_ipsec_secret" msgid="532007567355505963">"IPSec ప్రీ-షేర్డ్ కీ"</string>
+    <string name="vpn_server" msgid="5771717512763639505">"సర్వర్ అడ్రస్*"</string>
+    <string name="vpn_ipsec_identifier" msgid="6976476088030400883">"IPSec ఐడెంటిఫయర్‌*"</string>
+    <string name="vpn_ipsec_secret" msgid="3110033645671775202">"IPSec ముందే షేర్ చేసిన కీ*"</string>
     <string name="vpn_ipsec_user_cert" msgid="2714372103705048405">"IPSec వినియోగదారు సర్టిఫికెట్"</string>
     <string name="vpn_ipsec_ca_cert" msgid="5558498943577474987">"IPSec CA సర్టిఫికెట్"</string>
     <string name="vpn_ipsec_server_cert" msgid="1411390470454731396">"IPSec సర్వర్ సర్టిఫికెట్"</string>
     <string name="vpn_show_options" msgid="6105437733943318667">"అధునాతన ఆప్షన్‌లను చూపు"</string>
-    <string name="vpn_username" msgid="8671768183475960068">"యూజర్ పేరు"</string>
-    <string name="vpn_password" msgid="1183746907642628127">"పాస్‌వర్డ్"</string>
+    <string name="vpn_username_optional" msgid="8564310631984689947">"యూజర్‌నేమ్ (ఆప్షనల్)"</string>
+    <string name="vpn_password_optional" msgid="1255147723869461543">"పాస్‌వర్డ్ (ఆప్షనల్)"</string>
+    <string name="vpn_username_required" msgid="1808631251331232149">"యూజర్‌నేమ్*"</string>
+    <string name="vpn_password_required" msgid="1916107706318825437">"పాస్‌వర్డ్*"</string>
     <string name="vpn_save_login" msgid="5986762519977472618">"ఖాతా సమాచారాన్ని సేవ్ చేయండి"</string>
     <string name="vpn_not_used" msgid="7229312881336083354">"(ఉపయోగించడం లేదు)"</string>
     <string name="vpn_no_ca_cert" msgid="3687379414088677735">"(సర్వర్‌ను ధృవీకరించదు)"</string>
     <string name="vpn_no_server_cert" msgid="8106540968643125407">"(సర్వర్ నుండి స్వీకరించబడింది)"</string>
     <string name="vpn_always_on_invalid_reason_other" msgid="4571905303713233321">"ఎంటర్ చేసిన సమాచారానికి ఎల్లప్పుడూ ఆన్‌లో ఉండే VPN సపోర్ట్ చేయదు"</string>
-    <!-- no translation found for vpn_optional (3085880299239180702) -->
-    <skip />
-    <!-- no translation found for vpn_required (2538500165710360491) -->
-    <skip />
-    <!-- no translation found for vpn_field_required (952531424443686800) -->
-    <skip />
+    <string name="vpn_field_required" msgid="582849543970781302">"*అవసరం"</string>
     <string name="vpn_cancel" msgid="5929410618112404383">"రద్దు చేయండి"</string>
     <string name="vpn_done" msgid="5137858784289564985">"తీసివేయండి"</string>
     <string name="vpn_save" msgid="683868204634860888">"సేవ్ చేయండి"</string>
@@ -3362,7 +3396,7 @@
     <string name="color_orange" msgid="216547825489739010">"నారింజ రంగు"</string>
     <string name="color_purple" msgid="6603701972079904843">"ఊదా రంగు"</string>
     <string name="sim_status_title" msgid="6188770698037109774">"SIM స్టేటస్"</string>
-    <string name="sim_status_title_sim_slot" msgid="4932996839194493313">"SIM స్టేటస్‌ (SIM స్లాట్ %1$d)"</string>
+    <string name="sim_status_title_sim_slot" msgid="5421926522479103027">"SIM స్టేటస్‌ (SIM స్లాట్ %1$d)"</string>
     <string name="sim_signal_strength" msgid="6351052821700294501">"<xliff:g id="DBM">%1$d</xliff:g> dBm <xliff:g id="ASU">%2$d</xliff:g> asu"</string>
     <string name="sim_notification_title" msgid="6839556577405929262">"మీ SIMలు మార్చబడ్డాయి"</string>
     <string name="sim_notification_summary" msgid="5593339846307029991">"సెటప్ చేయడానికి నొక్కండి"</string>
@@ -4397,8 +4431,7 @@
     <string name="disconnected" msgid="3469373726996129247">"కనెక్ట్ చేయబడలేదు"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"కనెక్ట్ చేయబడలేదు"</string>
     <string name="apps_summary" msgid="4007416751775414252">"<xliff:g id="COUNT">%1$d</xliff:g> యాప్‌లు ఇన్‌స్టాల్ చేయబడ్డాయి"</string>
-    <!-- no translation found for storage_summary (7631468664968572688) -->
-    <skip />
+    <string name="storage_summary" msgid="7631468664968572688">"<xliff:g id="PERCENTAGE">%1$s</xliff:g> ఉపయోగించబడింది - <xliff:g id="FREE_SPACE_VALUE">%2$s</xliff:g> <xliff:g id="FREE_SPACE_UNITS">%3$s</xliff:g> ఖాళీగా ఉంది"</string>
     <string name="display_dashboard_summary" msgid="1599453894989339454">"డార్క్ థీమ్‌, ఫాంట్ సైజ్, బ్రైట్‌నెస్"</string>
     <string name="memory_summary" msgid="8221954450951651735">"సగటున <xliff:g id="TOTAL_MEMORY">%2$s</xliff:g>లో <xliff:g id="USED_MEMORY">%1$s</xliff:g> మెమరీ వినియోగించబడింది"</string>
     <string name="users_summary" msgid="8473589474976307510">"<xliff:g id="USER_NAME">%1$s</xliff:g>‌గా సైన్ ఇన్ చేశారు"</string>
@@ -4421,18 +4454,12 @@
     <string name="admin_profile_owner_user_message" msgid="4929926887231544950">"సెట్టింగ్‌లు, అనుమతులు, కార్పొరేట్ యాక్సెస్, నెట్‌వర్క్ యాక్టివిటీ మరియు డివైజ్ యొక్క లొకేషన్ సమాచారంతో పాటు ఈ యూజర్‌కు అనుబంధితంగా ఉన్న యాప్‌లు, డేటాను మీ అడ్మిన్ పర్యవేక్షించగలరు, మేనేజ్ చేయగలరు."</string>
     <string name="admin_device_owner_message" msgid="5503131744126520590">"సెట్టింగ్‌లు, అనుమతులు, కార్పొరేట్ యాక్సెస్, నెట్‌వర్క్ యాక్టివిటీ మరియు డివైజ్  యొక్క లొకేషన్ సమాచారంతో పాటు ఈ డివైజ్‌కు అనుబంధితంగా ఉన్న యాప్‌లు మరియు డేటాను మీ అడ్మిన్ పర్యవేక్షించగలరు, మేనేజ్ చేయగలరు."</string>
     <string name="admin_financed_message" msgid="1156197630834947884">"మీ పరికర అడ్మినిస్ట్రేటర్ ఈ పరికరంతో అనుబంధించబడిన డేటాను యాక్సెస్ చేయవచ్చు, యాప్‌లను మేనేజ్ చేయవచ్చు అలాగే ఈ పరికరాల సెట్టింగ్‌లను మార్చవచ్చు."</string>
-    <!-- no translation found for disabled_by_advanced_protection_title (9051476417559262469) -->
-    <skip />
-    <!-- no translation found for disabled_by_advanced_protection_setting_is_on_message (4242986779932956593) -->
-    <skip />
-    <!-- no translation found for disabled_by_advanced_protection_setting_is_off_message (7777487013672230696) -->
-    <skip />
-    <!-- no translation found for disabled_by_advanced_protection_action_message (7164789633582857150) -->
-    <skip />
-    <!-- no translation found for disabled_by_advanced_protection_wep_action_message (239574547298386495) -->
-    <skip />
-    <!-- no translation found for disabled_by_advanced_protection_help_button_title (6539346613660731777) -->
-    <skip />
+    <string name="disabled_by_advanced_protection_title" msgid="9051476417559262469">"అడ్వాన్స్‌డ్ ప్రొటెక్షన్ ద్వారా పరిమితం చేయబడింది"</string>
+    <string name="disabled_by_advanced_protection_setting_is_on_message" msgid="4242986779932956593">"మీ భద్రత, అడ్వాన్స్‌డ్ ప్రొటెక్షన్ కోసం ఈ సెట్టింగ్‌ను ఆన్‌లో ఉంచడం అవసరం"</string>
+    <string name="disabled_by_advanced_protection_setting_is_off_message" msgid="7777487013672230696">"మీ భద్రత, అడ్వాన్స్‌డ్ ప్రొటెక్షన్ కోసం ఈ సెట్టింగ్‌ను ఆఫ్‌లో ఉంచడం అవసరం"</string>
+    <string name="disabled_by_advanced_protection_action_message" msgid="7164789633582857150">"మీ సెక్యూరిటీ, అడ్వాన్స్‌డ్ ప్రొటెక్షన్ కోసం ఈ చర్యను నిరోధిస్తుంది"</string>
+    <string name="disabled_by_advanced_protection_wep_action_message" msgid="239574547298386495">"ఈ నెట్‌వర్క్ WEPని ఉపయోగిస్తుంది, ఇది మీ డేటాను ప్రమాదంలో పడేసే కాలం చెల్లిన ఎన్‌క్రిప్షన్ పద్ధతి. WEP కనెక్షన్‌లు అడ్వాన్స్‌డ్ ప్రొటెక్షన్ ద్వారా బ్లాక్ చేయబడ్డాయి."</string>
+    <string name="disabled_by_advanced_protection_help_button_title" msgid="6539346613660731777">"సెట్టింగ్‌లు"</string>
     <string name="condition_turn_off" msgid="402707350778441939">"ఆఫ్ చేయండి"</string>
     <string name="condition_turn_on" msgid="3911077299444314791">"ఆన్ చేయండి"</string>
     <string name="condition_expand_show" msgid="1501084007540953213">"చూపుతుంది"</string>
@@ -4477,8 +4504,7 @@
     <string name="ethernet_data_usage" msgid="4552227880905679761">"ఈథర్‌నెట్ డేటా వినియోగం"</string>
     <string name="wifi" msgid="2932584495223243842">"Wi-Fi"</string>
     <string name="ethernet" msgid="4665162609974492983">"ఈథర్‌నెట్"</string>
-    <!-- no translation found for ethernet_interface_title (1634881244068292765) -->
-    <skip />
+    <string name="ethernet_interface_title" msgid="1634881244068292765">"ఈథర్‌నెట్ <xliff:g id="INTERFACEID">%1$s</xliff:g>"</string>
     <string name="cell_data_template" msgid="6077963976103260821">"<xliff:g id="AMOUNT">^1</xliff:g> మొబైల్ డేటా"</string>
     <string name="wifi_data_template" msgid="935934798340307438">"<xliff:g id="AMOUNT">^1</xliff:g> Wi-Fi డేటా"</string>
     <string name="ethernet_data_template" msgid="1429173767445201145">"<xliff:g id="AMOUNT">^1</xliff:g> ఈథర్‌నెట్ డేటా"</string>
@@ -4659,8 +4685,7 @@
     <string name="back_sensitivity_dialog_message" msgid="6638367716784103306">"సెన్సిటివిటీ ఎక్కువగా ఉంటే, అది అంచుల వెంబడి జరిగే ఏవైనా యాప్ సంజ్ఞలతో పరస్పరం విరుద్ధంగా వ్యవహరించే అవకాశం ఉంది."</string>
     <string name="back_sensitivity_dialog_title" msgid="6153608904168908264">"వెనుకకు వెళ్లే సంజ్ఞ యొక్క సెన్సిటివిటీ"</string>
     <string name="gesture_settings_activity_title" msgid="1882463161833981820">"సంజ్ఞ నావిగేషన్"</string>
-    <!-- no translation found for gesture_navigation_tutorial_title (1605955266131665429) -->
-    <skip />
+    <string name="gesture_navigation_tutorial_title" msgid="1605955266131665429">"డెమోను ట్రై చేయండి"</string>
     <string name="button_navigation_settings_activity_title" msgid="7335636045504461813">"బటన్ నావిగేషన్"</string>
     <string name="keywords_gesture_navigation_settings" msgid="667561222717238931">"సంజ్ఞ నావిగేషన్, వెనుకకు వెళ్లే సంజ్ఞ సెన్సిటివిటీ, వెనుక సంజ్ఞ"</string>
     <string name="keywords_button_navigation_settings" msgid="7888812253110553920">"నావిగేషన్, హోమ్ బటన్"</string>
@@ -5171,10 +5196,8 @@
     <string name="settings_panel_title" msgid="346363079938069215">"సెట్టింగ్‌ల ప్యానెల్"</string>
     <string name="enable_desktop_mode" msgid="5644818402534562302">"ఫ్రీఫార్మ్ విండోలను ఎనేబుల్ చేయండి"</string>
     <string name="enable_desktop_experience_features" msgid="7389235241021706660">"డెస్క్‌టాప్ ఎక్స్‌పీరియన్స్ ఫీచర్‌లు ఎనేబుల్ చేయి"</string>
-    <!-- no translation found for enable_desktop_experience_features_summary_with_desktop (8586716390362684564) -->
-    <skip />
-    <!-- no translation found for enable_desktop_experience_features_summary_without_desktop (7567963048658976895) -->
-    <skip />
+    <string name="enable_desktop_experience_features_summary_with_desktop" msgid="8586716390362684564">"పరికరంలో, సెకండరీ డిస్‌ప్లేలలో డెస్క్‌టాప్ విండోలను మేనేజ్ చేయడాన్ని ఎనేబుల్ చేయండి."</string>
+    <string name="enable_desktop_experience_features_summary_without_desktop" msgid="7567963048658976895">"సెకండరీ డిస్‌ప్లేలలో డెస్క్‌టాప్ విండోలను మేనేజ్ చేయడాన్ని ఎనేబుల్ చేయండి."</string>
     <string name="enable_desktop_mode_on_secondary_display" msgid="2609567824593768780">"2వ డిస్‌ప్లేలో ఫ్రీఫార్మ్ విండోలను ఎనేబుల్ చేయండి"</string>
     <string name="enable_non_resizable_multi_window" msgid="6832903754625404477">"మల్టీ-విండోలో సైజ్ మార్చలేని వాటిని ఎనేబుల్ చేయండి"</string>
     <string name="enable_non_resizable_multi_window_summary" msgid="3275763753261901999">"సైజ్ మార్చలేని యాప్‌లను మల్టీ-విండోలో ఉండేందుకు అనుమతిస్తుంది"</string>
@@ -5254,10 +5277,13 @@
     <string name="page_agnostic_notification_channel_name" msgid="2058933148654316447">"16 KB పేజీ సైజ్ ప్రభావం చూపని మోడ్"</string>
     <string name="page_agnostic_notification_action" msgid="2309805437430150456">"మరింత చదవండి"</string>
     <string name="enable_16k_app_compat_title" msgid="4173159228844992989">"పేజీ సైజ్ కంపాట్ మోడ్‌తో యాప్‌ను రన్ చేయండి"</string>
-    <!-- no translation found for enable_16k_app_compat_details (5382562613011853452) -->
-    <skip />
+    <string name="enable_16k_app_compat_details" msgid="5382562613011853452">"టోగుల్ చేసినప్పుడు, యాప్‌ను స్టాప్ చేయడం జరుగుతుంది, ఆపై పరికరంలో 16 KB పేజీ సైజుతో పనిచేసే అనుకూలత మోడ్ రన్ అవుతుంది."</string>
     <string name="stop_app_dlg_title" msgid="3153921585174512587">"యాప్‌ను ఆపివేయాలా?"</string>
     <string name="stop_app_dlg_text" msgid="4373849065005318901">"పేజీ సైజు అనుకూలత సెట్టింగ్‌ను వర్తింపజేయడానికి యాప్‌ను నిలిపివేయడం జరుగుతుంది."</string>
+    <!-- no translation found for error_pending_updates (7196832772265874760) -->
+    <skip />
+    <!-- no translation found for error_ota_failed (4762376085470989653) -->
+    <skip />
     <string name="bug_report_handler_title" msgid="713439959113250125">"బగ్ రిపోర్ట్‌ హ్యాండ్లర్"</string>
     <string name="bug_report_handler_picker_footer_text" msgid="4935758328366585673">"మీ డివైజ్‌లో బగ్ రిపోర్ట్ షార్ట్‌కట్‌ను ఏ యాప్ నిర్వహించాలో నిర్ణయిస్తుంది."</string>
     <string name="personal_profile_app_subtext" msgid="5586060806997067676">"వ్యక్తిగతం"</string>
@@ -5406,8 +5432,10 @@
     <string name="smart_forwarding_input_mdn_dialog_title" msgid="7542216086697868415">"ఫోన్ నంబర్‌ను ఎంటర్ చేయండి"</string>
     <string name="smart_forwarding_missing_mdn_text" msgid="2907314684242542226">"ఫోన్ నంబర్ లేదు."</string>
     <string name="smart_forwarding_missing_alert_dialog_text" msgid="7870419247987316112">"సరే"</string>
-    <string name="enable_2g_title" msgid="8184757884636162942">"2Gని అనుమతించండి"</string>
-    <string name="enable_2g_summary" msgid="2794534052372565914">"2G తక్కువ సురక్షితమైనది, కానీ ఇది మీ కనెక్షన్‌ను కొన్ని లొకేషన్‌లలో మెరుగుపరచవచ్చు. ఎమర్జెన్సీ కాల్స్ కోసం, 2G ఎల్లప్పుడూ అనుమతించబడుతుంది."</string>
+    <!-- no translation found for enable_2g_title (5657132300321750181) -->
+    <skip />
+    <!-- no translation found for enable_2g_summary (6317192326100541563) -->
+    <skip />
     <string name="enable_2g_summary_disabled_carrier" msgid="8141118453219482762">"<xliff:g id="CARRIER_NAME_2G">%1$s</xliff:g>కి 2G అందుబాటులో ఉండాలి"</string>
     <string name="require_cellular_encryption_title" msgid="6087085031703089235">"ఎన్‌క్రిప్ట్ చేసిన నెట్‌వర్క్‌లు మాత్రమే"</string>
     <string name="require_cellular_encryption_summary" msgid="6090569065420631457">"ఇది మరింత సురక్షితంగా ఉంటుంది, కానీ కొన్ని లొకేషన్‌లలో మీ మొబైల్ నెట్‌వర్క్ కనెక్షన్ పరిమితం చేయబడవచ్చు. ఎమర్జెన్సీ కాలింగ్ ఎల్లవేళలా అనుమతించబడుతుంది."</string>
@@ -5525,12 +5553,6 @@
     <string name="user_aspect_ratio_4_3" msgid="5196232982878982220">"4:3"</string>
     <string name="user_aspect_ratio_option_a11y" msgid="1235801996029095219">"<xliff:g id="DENOMINATOR">%2$s</xliff:g> అందించిన <xliff:g id="NUMERATOR">%1$s</xliff:g>"</string>
     <string name="app_aspect_ratio_footer" msgid="4029509301182067475">"మీరు ఆకార నిష్పత్తిని మార్చినప్పుడు యాప్ రీస్టార్ట్ అవుతుంది. మీరు సేవ్ చేయని మార్పులను కోల్పోవచ్చు. కొన్ని యాప్‌లు నిర్దిష్ట ఆకార నిష్పత్తులకు ఆప్టిమైజ్ చేయబడకపోవచ్చు."</string>
-    <string name="aspect_ratio_experimental_title" msgid="9088785421062044831">"ఆకార నిష్పత్తి (ప్రయోగాత్మకం)"</string>
-    <string name="aspect_ratio_experiment_title" msgid="128614319422121040">"ఆకార నిష్పత్తి (ప్రయోగం)"</string>
-    <string name="aspect_ratio_labs_title" msgid="6733893837442759383">"ఆకార నిష్పత్తి (ల్యాబ్స్)"</string>
-    <string name="aspect_ratio_experimental_label" msgid="6319009297672567578">"ప్రయోగాత్మకం"</string>
-    <string name="aspect_ratio_experiment_label" msgid="7861871612376167784">"ప్రయోగం"</string>
-    <string name="aspect_ratio_labs_label" msgid="7008498116297651342">"ల్యాబ్స్"</string>
     <string name="accessibility_fingerprint_label" msgid="5017431423168191733">"వేలిముద్ర సెన్సార్"</string>
     <string name="flash_notifications_title" msgid="4490438861180492311">"ఫ్లాష్ నోటిఫికేషన్‌లు"</string>
     <string name="flash_notifications_about_title" msgid="9004351252928121214">"ఫ్లాష్ నోటిఫికేషన్‌ల గురించి పరిచయం"</string>
@@ -5664,8 +5686,7 @@
     <string name="audio_sharing_block_pairing_dialog_title" msgid="1756723860075818856">"ఆడియో షేరింగ్‌ను ఆఫ్ చేయండి"</string>
     <string name="audio_sharing_block_pairing_dialog_content" msgid="6352030314206654722">"కొత్త పరికరాన్ని పెయిర్ చేయడానికి, ముందుగా ఆడియో షేరింగ్‌ను ఆఫ్ చేయండి."</string>
     <string name="audio_sharing_turn_off_button_label" msgid="1934956352475393641">"ఆఫ్ చేయండి"</string>
-    <!-- no translation found for share_audio_notification_title (5201976754820387782) -->
-    <skip />
+    <string name="share_audio_notification_title" msgid="5201976754820387782">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>‌కు ఆడియోను షేర్ చేయండి"</string>
     <string name="audio_streams_category_title" msgid="4878022761829895463">"LE ఆడియో స్ట్రీమ్‌కు కనెక్ట్ చేయండి"</string>
     <string name="audio_streams_pref_title" msgid="6320485086288646209">"సమీప ఆడియో స్ట్రీమ్‌లు"</string>
     <string name="audio_streams_title" msgid="6617990880383079165">"ఆడియో స్ట్రీమ్‌లు"</string>
@@ -5741,6 +5762,15 @@
     <string name="supervision_change_pin_preference_title" msgid="2288584039438231801">"PINను మార్చండి"</string>
     <string name="supervision_add_forgot_pin_preference_title" msgid="8939945404255748516">"PINను మర్చిపోయాను"</string>
     <string name="supervision_web_content_filters_title" msgid="3653430162065686156">"వెబ్ కంటెంట్ ఫిల్టర్‌లు"</string>
-    <!-- no translation found for accessibility_illustration_content_description (557376174860150903) -->
+    <!-- no translation found for supervision_web_content_filters_browser_title (979037187423952892) -->
     <skip />
+    <!-- no translation found for supervision_web_content_filters_browser_block_explicit_sites_title (7923982596891796260) -->
+    <skip />
+    <!-- no translation found for supervision_web_content_filters_browser_block_explicit_sites_summary (1477766506765966613) -->
+    <skip />
+    <!-- no translation found for supervision_web_content_filters_browser_allow_all_sites_title (3909739592466381845) -->
+    <skip />
+    <!-- no translation found for supervision_full_screen_pin_verification_title (78513043528333399) -->
+    <skip />
+    <string name="accessibility_illustration_content_description" msgid="557376174860150903">"<xliff:g id="FEATURE">%1$s</xliff:g> యానిమేషన్"</string>
 </resources>

@@ -76,7 +76,6 @@ class ConfigDialog extends AlertDialog implements TextWatcher,
     private TextInputGroup mServerInput;
     private TextInputGroup mUsernameInput;
     private TextInputGroup mPasswordInput;
-    private TextView mPassword;
     private Spinner mProxySettings;
     private TextView mProxyHost;
     private TextView mProxyPort;
@@ -211,8 +210,10 @@ class ConfigDialog extends AlertDialog implements TextWatcher,
             setTitle(context.getString(R.string.vpn_connect_to, mProfile.name));
 
             setUsernamePasswordVisibility(mProfile.type);
-            mUsernameInput.setHelperText(context.getString(R.string.vpn_required));
-            mPasswordInput.setHelperText(context.getString(R.string.vpn_required));
+            mUsernameInput.setLabel(context.getString(R.string.vpn_username_required));
+            mUsernameInput.setHelperText(context.getString(R.string.vpn_field_required));
+            mPasswordInput.setLabel(context.getString(R.string.vpn_password_required));
+            mPasswordInput.setHelperText(context.getString(R.string.vpn_field_required));
 
             // Create a button to connect the network.
             setButton(DialogInterface.BUTTON_POSITIVE,

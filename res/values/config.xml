@@ -810,11 +810,21 @@
     <!-- Allowed packages to show the confirmation dialog for a system locale suggestion  -->
     <string-array name="allowed_packages_for_locale_confirmation_diallog" translatable="false"/>
 
-    <!-- Array of text reading preview layouts. Must contain at least 1 layout -->
+    <!-- Array of text reading preview layouts. Must contain at least 1 layout.
+        Add content descriptions in the config_text_reading_preview_content_descriptions together
+        if adding more sample layouts here -->
     <array name="config_text_reading_preview_samples">
         <item>@layout/accessibility_text_reading_preview_app_grid</item>
         <item>@layout/screen_zoom_preview_1</item>
         <item>@layout/accessibility_text_reading_preview_mail_content</item>
+    </array>
+
+    <!-- Array of text reading preview layouts' content descriptions.
+        The order should be the same as the layouts in config_text_reading_preview_samples -->
+    <array name="config_text_reading_preview_content_descriptions">
+        <item>@string/preview_pager_home_content_description</item>
+        <item>@string/preview_pager_message_content_description</item>
+        <item>@string/preview_pager_email_content_description</item>
     </array>
 
     <!-- Package responsible for updating Mainline Modules -->
@@ -848,6 +858,11 @@
 
     <!-- Disable the Testing Setting Menu for user builds, i.e only display the menu on userdebug/eng builds -->
     <bool name="config_hide_testing_settings_menu_for_user_builds">false</bool>
+
+    <!-- Configurable maximum screen timeout value shown in Screen timeout settings. Any timeout
+          values in R.arrays.screen_timeout_values that exceed this maximum will be hidden.
+          Leave empty to disable configuration and keep the default behavior. -->
+    <integer name="config_max_screen_timeout"></integer>
 
     <!-- Whether the Gaze is enabled -->
     <bool name="config_gazeEnabled">false</bool>

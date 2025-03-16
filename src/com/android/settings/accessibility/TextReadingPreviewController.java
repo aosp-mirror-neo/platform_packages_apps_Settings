@@ -104,11 +104,13 @@ class TextReadingPreviewController extends BasePreferenceController implements
         final boolean isLayoutRtl =
                 origConfig.getLayoutDirection() == View.LAYOUT_DIRECTION_RTL;
         final int[] previewSamples = getPreviewSampleLayouts(mContext);
+        final int[] previewContentDescriptions = getPreviewSampleContentDescriptions(mContext);
         final PreviewPagerAdapter pagerAdapter = new PreviewPagerAdapter(mContext, isLayoutRtl,
                 previewSamples, createConfig(origConfig));
         mPreviewPreference.setPreviewAdapter(pagerAdapter);
         mPreviewPreference.setCurrentItem(
                 isLayoutRtl ? previewSamples.length - 1 : FRAME_INITIAL_INDEX);
+        mPreviewPreference.setContentDescription(previewContentDescriptions);
 
         final int initialPagerIndex =
                 mLastFontProgress * mDisplaySizeData.getValues().size() + mLastDisplayProgress;
@@ -186,6 +188,20 @@ class TextReadingPreviewController extends BasePreferenceController implements
         }
         previews.recycle();
         return previewSamples;
+    }
+
+    @VisibleForTesting(otherwise = VisibleForTesting.PRIVATE)
+    static int[] getPreviewSampleContentDescriptions(Context context) {
+        TypedArray typedArray = context.getResources().obtainTypedArray(
+                R.array.config_text_reading_preview_content_descriptions);
+        int previewCount = typedArray.length();
+        int[] previewContentDescriptions = new int[previewCount];
+        for (int i = 0; i < previewCount; i++) {
+            previewContentDescriptions[i] =
+                    typedArray.getResourceId(i, R.string.preview_pager_content_description);
+        }
+        typedArray.recycle();
+        return previewContentDescriptions;
     }
 
     private int getPagerIndex() {

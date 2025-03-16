@@ -43,27 +43,10 @@ public class TextReadingPreviewPreference extends Preference {
     private int mCurrentItem;
     private int mLastLayerIndex;
     private PreviewPagerAdapter mPreviewAdapter;
+    private int[] mContentDescriptions;
 
     private int mLayoutMinHorizontalPadding = 0;
     private int mBackgroundMinHorizontalPadding = 0;
-
-    private final ViewPager.OnPageChangeListener mPageChangeListener =
-            new ViewPager.OnPageChangeListener() {
-        @Override
-        public void onPageScrolled(int i, float v, int i1) {
-            // Do nothing
-        }
-
-        @Override
-        public void onPageSelected(int i) {
-            mCurrentItem = i;
-        }
-
-        @Override
-        public void onPageScrollStateChanged(int i) {
-            // Do nothing
-        }
-    };
 
     TextReadingPreviewPreference(Context context) {
         super(context);
@@ -95,7 +78,23 @@ public class TextReadingPreviewPreference extends Preference {
         adjustPaddings(previewLayout, backgroundView);
 
         final ViewPager viewPager = (ViewPager) holder.findViewById(R.id.preview_pager);
-        viewPager.addOnPageChangeListener(mPageChangeListener);
+        viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+            @Override
+            public void onPageScrolled(int i, float v, int i1) {
+                // Do nothing
+            }
+
+            @Override
+            public void onPageSelected(int i) {
+                mCurrentItem = i;
+                viewPager.setContentDescription(getContext().getString(mContentDescriptions[i]));
+            }
+
+            @Override
+            public void onPageScrollStateChanged(int i) {
+                // Do nothing
+            }
+        });
         final DotsPageIndicator pageIndicator =
                 (DotsPageIndicator) holder.findViewById(R.id.page_indicator);
         updateAdapterIfNeeded(viewPager, pageIndicator, mPreviewAdapter);
@@ -122,6 +121,10 @@ public class TextReadingPreviewPreference extends Preference {
                 viewPager.setCurrentItem(getCurrentItem() + 1));
         nextButton.setContentDescription(getContext().getString(
                 R.string.preview_pager_next_button));
+
+        // Initialize the content description since the OnPageChangeListener#onPageSelected won't
+        // be called during setup.
+        viewPager.setContentDescription(getContext().getString(mContentDescriptions[0]));
     }
 
     @Override
@@ -168,6 +171,10 @@ public class TextReadingPreviewPreference extends Preference {
                 Math.max(backgroundView.getPaddingEnd(), mBackgroundMinHorizontalPadding),
                 backgroundView.getPaddingBottom()
         );
+    }
+
+    void setContentDescription(int[] stringIds) {
+        mContentDescriptions = stringIds;
     }
 
     void setPreviewAdapter(PreviewPagerAdapter previewAdapter) {

@@ -26,7 +26,7 @@ import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.devicestate.DeviceStateRotationLockSettingsManager;
-import com.android.settingslib.devicestate.DeviceStateRotationLockSettingsManager.SettableDeviceState;
+import com.android.settingslib.devicestate.SettableDeviceState;
 import com.android.settingslib.search.SearchIndexableRaw;
 
 import com.google.common.collect.ImmutableList;

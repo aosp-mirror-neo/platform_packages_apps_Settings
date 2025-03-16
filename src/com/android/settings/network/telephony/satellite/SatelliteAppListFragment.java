@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.settings.network.telephony;
+package com.android.settings.network.telephony.satellite;
 
-import static com.android.settings.network.telephony.SatelliteAppListCategoryController.getApplicationInfo;
+import static com.android.settings.network.telephony.satellite.SatelliteAppListCategoryController.getApplicationInfo;
 
 import android.app.settings.SettingsEnums;
 import android.content.Context;

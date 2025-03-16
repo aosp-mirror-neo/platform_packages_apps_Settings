@@ -207,6 +207,10 @@
         <item name="android:textColorHint">?android:attr/textColorSecondary</item>
     </style>
 
+    <style name="vpn_input_label" parent="vpn_label">
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+
     <style name="vpn_warning">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>

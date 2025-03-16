@@ -18,6 +18,7 @@ package com.android.settings.supervision
 import android.content.Context
 import androidx.test.core.app.ApplicationProvider
 import androidx.test.ext.junit.runners.AndroidJUnit4
+import com.android.settings.R
 import com.google.common.truth.Truth.assertThat
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -35,7 +36,7 @@ class SupervisionWebContentFiltersScreenTest {
 
     @Test
     fun getTitle() {
-        assertThat(supervisionWebContentFiltersScreen.getPreferenceTitle(context))
-            .isEqualTo("Web content filters")
+        assertThat(supervisionWebContentFiltersScreen.title)
+            .isEqualTo(R.string.supervision_web_content_filters_title)
     }
 }

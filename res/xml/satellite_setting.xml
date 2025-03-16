@@ -22,10 +22,12 @@
     settings:keywords="@string/keywords_satellite_setting">
 
     <PreferenceCategory
-        android:key="key_category_about_satellite">
+        android:title="@string/category_name_about_satellite_connectivity"
+        android:key="key_category_about_satellite"
+        settings:controller="com.android.settings.network.telephony.satellite.SatelliteSettingAboutContentController">
 
         <com.android.settingslib.widget.TopIntroPreference
-            android:key="key_about_satellite_messaging"/>
+            android:key="key_about_satellite_connectivity"/>
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -66,7 +68,7 @@
         android:key="key_category_satellite_apps"
         android:title="@string/category_title_satellite_supported_apps"
         settings:isPreferenceVisible="false"
-        settings:controller="com.android.settings.network.telephony.SatelliteAppListCategoryController"
+        settings:controller="com.android.settings.network.telephony.satellite.SatelliteAppListCategoryController"
         settings:searchable="false">
 
         <!-- See all satellite apps -->
@@ -74,7 +76,7 @@
             android:key="key_see_all_satellite_apps"
             android:title="@string/title_satellite_supported_app_list_entry"
             android:icon="@drawable/ic_chevron_right_24dp"
-            android:fragment="com.android.settings.network.telephony.SatelliteAppListFragment"
+            android:fragment="com.android.settings.network.telephony.satellite.SatelliteAppListFragment"
             android:order="5"
             settings:searchable="false"/>
     </PreferenceCategory>

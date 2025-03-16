@@ -205,7 +205,7 @@
         <PreferenceCategory
             android:key="telephony_satellite_settings_category_key"
             android:title="@string/category_title_satellite_connectivity"
-            settings:controller="com.android.settings.network.telephony.SatelliteSettingsPreferenceCategoryController">
+            settings:controller="com.android.settings.network.telephony.satellite.SatelliteSettingsPreferenceCategoryController">
 
             <com.android.settingslib.RestrictedPreference
                 android:key="telephony_satellite_setting_key"
@@ -213,7 +213,7 @@
                 android:title="@string/satellite_setting_title"
                 settings:keywords="@string/keywords_satellite_setting"
                 settings:controller=
-                    "com.android.settings.network.telephony.SatelliteSettingPreferenceController"/>
+                    "com.android.settings.network.telephony.satellite.SatelliteSettingPreferenceController"/>
 
         </PreferenceCategory>
 

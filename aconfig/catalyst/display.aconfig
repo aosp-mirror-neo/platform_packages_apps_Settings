@@ -16,6 +16,13 @@ flag {
 }
 
 flag {
+  name: "catalyst_screen_timeout_25q3"
+  namespace: "android_settings"
+  description: "Flag for Screen Timeout settings in 25Q3"
+  bug: "352179685"
+}
+
+flag {
   name: "catalyst_dark_ui_mode"
   namespace: "android_settings"
   description: "Flag for Dark theme"
