@@ -265,7 +265,7 @@ public class FingerprintSafetySourceTest {
         assertSafetySourceEnabledDataSetWithSingularSummary(
                 "security_settings_fingerprint",
                 "security_settings_fingerprint_preference_summary_none_new",
-                BiometricEnrollActivity.class.getName());
+                BiometricEnrollActivity.InternalActivity.class.getName());
     }
 
     @Test

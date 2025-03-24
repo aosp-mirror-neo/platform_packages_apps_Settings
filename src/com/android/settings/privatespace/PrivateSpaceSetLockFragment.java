@@ -94,6 +94,8 @@ public class PrivateSpaceSetLockFragment extends InstrumentedFragment {
         LottieAnimationView lottieAnimationView = rootView.findViewById(R.id.lottie_animation);
         LottieColorUtils.applyDynamicColors(getContext(), lottieAnimationView);
         lottieAnimationView.setOnClickListener(v -> handleAnimationClick(lottieAnimationView));
+        PrivateSpaceAccessibilityUtils.updateAccessibilityActionForAnimation(getContext(),
+                lottieAnimationView, mIsAnimationPlaying);
 
         return rootView;
     }
@@ -141,5 +143,7 @@ public class PrivateSpaceSetLockFragment extends InstrumentedFragment {
             lottieAnimationView.playAnimation();
         }
         mIsAnimationPlaying = !mIsAnimationPlaying;
+        PrivateSpaceAccessibilityUtils.updateAccessibilityActionForAnimation(getContext(),
+                lottieAnimationView, mIsAnimationPlaying);
     }
 }

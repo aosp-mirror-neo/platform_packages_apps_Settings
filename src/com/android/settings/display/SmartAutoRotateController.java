@@ -47,7 +47,6 @@ import com.android.settings.core.TogglePreferenceController;
 import com.android.settings.overlay.FeatureFactory;
 import com.android.settingslib.core.instrumentation.MetricsFeatureProvider;
 import com.android.settingslib.devicestate.DeviceStateAutoRotateSettingManager;
-import com.android.settingslib.devicestate.DeviceStateRotationLockSettingsManager;
 
 /**
  * SmartAutoRotateController controls whether auto rotation is enabled
@@ -75,7 +74,7 @@ public class SmartAutoRotateController extends TogglePreferenceController implem
                 }
             };
 
-    private final DeviceStateRotationLockSettingsManager mDeviceStateAutoRotateSettingsManager;
+    private final DeviceStateAutoRotateSettingManager mDeviceStateAutoRotateSettingsManager;
     private final DeviceStateAutoRotateSettingManager.DeviceStateAutoRotateSettingListener
             mDeviceStateAutoRotateSettingListener = () -> updateState(mPreference);
     private RotationPolicy.RotationPolicyListener mRotationPolicyListener;
@@ -85,8 +84,9 @@ public class SmartAutoRotateController extends TogglePreferenceController implem
         mMetricsFeatureProvider = FeatureFactory.getFeatureFactory().getMetricsFeatureProvider();
         mPrivacyManager = SensorPrivacyManager.getInstance(context);
         mPowerManager = context.getSystemService(PowerManager.class);
-        mDeviceStateAutoRotateSettingsManager = DeviceStateRotationLockSettingsManager.getInstance(
-                context);
+        mDeviceStateAutoRotateSettingsManager =
+                DeviceStateAutoRotateSettingManagerProvider.getSingletonInstance(
+                        context);
     }
 
     @Override

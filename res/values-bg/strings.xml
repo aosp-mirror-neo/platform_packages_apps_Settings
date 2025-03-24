@@ -41,12 +41,9 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"Прекъсната"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"Неизвестно"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"Визуализация"</string>
-    <!-- no translation found for preview_pager_home_content_description (3961399947853424786) -->
-    <skip />
-    <!-- no translation found for preview_pager_message_content_description (3018855090807833755) -->
-    <skip />
-    <!-- no translation found for preview_pager_email_content_description (100055784235660338) -->
-    <skip />
+    <string name="preview_pager_home_content_description" msgid="3961399947853424786">"Визуализация на началния екран"</string>
+    <string name="preview_pager_message_content_description" msgid="3018855090807833755">"Визуализация на съобщението"</string>
+    <string name="preview_pager_email_content_description" msgid="100055784235660338">"Визуализация на имейла"</string>
     <string name="qr_code_content_description" msgid="1852208464419291347">"QR код"</string>
     <string name="preview_pager_previous_button" msgid="607771113300838313">"Предишна визуализация"</string>
     <string name="preview_pager_next_button" msgid="8700907912508927271">"Следваща визуализация"</string>
@@ -222,12 +219,10 @@
     <string name="desc_introduction_of_language_picker" msgid="4012265379885200083">"Устройството ви, приложенията и уебсайтовете използват първия поддържан език от списъка ви с предпочитани езици.\n\nМного приложения ще използват и региона от предпочитания ви език, за да форматират датата, цифрите и единиците. За да промените региона си, добавете език, след което изберете предпочитания от вас регион."</string>
     <string name="desc_notice_of_language_picker" msgid="3449290526457925447">"За да изберете език за всяко отделно приложение, отворете настройките за език на приложенията."</string>
     <string name="desc_locale_helper_footer_general" msgid="6112153921151780303">"Научете повече за езиците на приложенията"</string>
-    <!-- no translation found for title_change_system_region (9196602029960380112) -->
-    <skip />
+    <string name="title_change_system_region" msgid="9196602029960380112">"Искате ли да промените региона на %s?"</string>
     <string name="desc_notice_device_region_change" msgid="6702773189066944100">"Устройството ви ще запази %s като системен език"</string>
     <string name="desc_notice_device_region_change_for_preferred_language" msgid="408517366942324267">"%1$s ще замени %2$s в предпочитаните от вас езици"</string>
-    <!-- no translation found for title_change_system_locale (4102991236063984803) -->
-    <skip />
+    <string name="title_change_system_locale" msgid="4102991236063984803">"Искате ли да промените системния език на %s?"</string>
     <string name="title_system_locale_addition" msgid="8218683660751479466">"Искате ли да добавите %s към предпочитаните езици?"</string>
     <string name="desc_system_locale_addition" msgid="3409917362651596070">"Така ще уведомите приложенията и уебсайтовете, че този език също е предпочитан."</string>
     <string name="desc_notice_device_locale_settings_change" msgid="8311132485850714160">"Настройките на устройството и регионалните ви предпочитания ще бъдат променени."</string>
@@ -244,8 +239,7 @@
     <string name="search_region_hint" msgid="1748708432568237552">"Търсете региони"</string>
     <string name="top_intro_region_title" msgid="2336323415395642117">"Избраният от вас регион влияе върху това как телефонът ви показва часа, датите, температурата и др."</string>
     <string name="more_language_settings_category" msgid="3669703092480725416">"Още езикови настройки"</string>
-    <!-- no translation found for title_change_system_locale_region (4401478579429442695) -->
-    <skip />
+    <string name="title_change_system_locale_region" msgid="4401478579429442695">"Искате ли да промените региона на <xliff:g id="SYSTEM_LANGUAGE_REGION">%1$s</xliff:g>?"</string>
     <string name="body_change_system_locale_region" msgid="9064318449821043189">"Устройството ви ще запази <xliff:g id="SYSTEM_LANGUAGE">%1$s</xliff:g> като системен език"</string>
     <string name="top_intro_numbering_system_title" msgid="3962000662073238392">"Изберете как да се показват номерата на устройството, уебсайтовете и приложенията ви"</string>
     <string name="regional_preferences_title" msgid="4304567374498629528">"Регионални предпочитания"</string>
@@ -270,8 +264,10 @@
     <string name="title_regional_pref_footer" msgid="7450438024324794380">"Ако дадено приложение не поддържа регионалните предпочитания, то ще използва стандартните си настройки за локала."</string>
     <string name="desc_regional_pref_footer_learn_more" msgid="4401708653329230081">"Научете повече за езиковите предпочитания."</string>
     <string name="metric_measurement_system" msgid="7489725697268321541">"Метрична"</string>
-    <string name="us_measurement_system" msgid="8738587232938189052">"Имперска (САЩ)"</string>
-    <string name="uk_measurement_system" msgid="4196897001775627597">"Имперска (Обединено кралство)"</string>
+    <!-- no translation found for us_measurement_system (8406695347890345490) -->
+    <skip />
+    <!-- no translation found for uk_measurement_system (1814065008707689505) -->
+    <skip />
     <string name="category_title_terms_of_address" msgid="4309422700380895278">"Допълнителни предпочитания"</string>
     <string name="terms_of_address_title" msgid="7338630812197476808">"Избиране на обръщение"</string>
     <string name="terms_of_address_summary" msgid="7802443422612600620">"Устройството ви може да персонализира начина, по който се обръща към вас"</string>
@@ -365,8 +361,7 @@
     <string name="safety_center_summary" msgid="3554867379951053869">"Сигурност на приложенията, заключване на у-вото, разрешения"</string>
     <string name="security_settings_face_preference_summary" msgid="6675126437396914838">"Лицето е добавено"</string>
     <string name="security_settings_face_preference_summary_none" msgid="523320857738436024">"Необходимо е настройване"</string>
-    <!-- no translation found for security_settings_face_preference_summary_none_new (1963253146734002815) -->
-    <skip />
+    <string name="security_settings_face_preference_summary_none_new" msgid="1963253146734002815">"Добавяне на лице"</string>
     <string name="security_settings_face_preference_title_new" msgid="7680231874730796331">"Лице"</string>
     <string name="security_settings_face_profile_preference_title_new" msgid="685550153608106166">"Лице за служебни цели"</string>
     <string name="private_space_face_unlock_title_new" msgid="2079622608951402509">"Лице за частното пространство"</string>
@@ -449,8 +444,7 @@
     <string name="fingerprint_add_title" msgid="1837610443487902050">"Добавяне на отпечатък"</string>
     <string name="security_settings_fingerprint_preference_summary" msgid="8486134175759676037">"{count,plural, =1{Отпечатъкът е добавен}other{Добавени са # отпечатъка}}"</string>
     <string name="security_settings_fingerprint_preference_summary_none" msgid="1146977379031250790">"Необходимо е настройване"</string>
-    <!-- no translation found for security_settings_fingerprint_preference_summary_none_new (510376523784190149) -->
-    <skip />
+    <string name="security_settings_fingerprint_preference_summary_none_new" msgid="510376523784190149">"Добавяне на отпечатък"</string>
     <string name="security_settings_fingerprint_enroll_introduction_title" msgid="7931650601996313070">"Настройване на отпечатъка ви"</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title" msgid="2278592030102282364">"Разреш. на откл. с отпечатък"</string>
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled" msgid="1911710308293783998">"Използване на отпечатъка ви"</string>
@@ -806,8 +800,7 @@
     <string name="face_unlock_skip_face" msgid="189695556498300008">"Продължаване без отключване с лице"</string>
     <string name="biometrics_unlock_skip_biometrics" msgid="7399882488272450182">"Продължаване без отпечатък или лице"</string>
     <string name="unlock_set_unlock_mode_off" msgid="4632139864722236359">"Няма"</string>
-    <!-- no translation found for unlock_set_unlock_mode_off_new (865396805830816266) -->
-    <skip />
+    <string name="unlock_set_unlock_mode_off_new" msgid="865396805830816266">"Добавяне на ПИН код/фигура/парола/плъзгане"</string>
     <string name="unlock_set_unlock_mode_none" msgid="5596049938457028214">"С бързо плъзгане"</string>
     <string name="unlock_set_unlock_mode_pattern" msgid="1926480143883094896">"Фигура"</string>
     <string name="unlock_set_unlock_mode_pin" msgid="9028659554829888373">"ПИН"</string>
@@ -946,10 +939,16 @@
     <string name="bluetooth_scanning_on_info_message" msgid="786648535600075223">"Когато включите Bluetooth, устройството ви може да се свързва с други устройства с Bluetooth в близост.\n\nС цел подобряване на практическата работа с устройството приложенията и услугите пак могат да сканират за устройства в близост по всяко време дори когато функцията за Bluetooth e изключена. Това може да послужи например за подобряване на базиращите се на местоположението функции и услуги. Можете да промените това от настройките за сканиране през Bluetooth."</string>
     <string name="bluetooth_scanning_on_info_message_auto_on_available" msgid="7792443293031247638">"При включен Bluetooth устройството ви може да се свързва с други устройства с Bluetooth в близост. Функции като „Бързо споделяне“ и „Намиране на устройството ми“ използват Bluetooth.\n\nПриложенията и услугите пак могат да сканират за устройства в близост дори когато функцията за Bluetooth е изключена. Това например може да се използва за подобряване на базиращите се на местоположението функции и услуги. Имате възможност да промените това от настройките за сканиране за устройства с Bluetooth."</string>
     <string name="bluetooth_scan_change" msgid="1744636222637390367">"Промяна"</string>
-    <string name="bluetooth_key_missing_title" msgid="7799054163548353853">"Няма връзка с(ъс) <xliff:g id="DEVICE_NAME">%1$s</xliff:g>"</string>
-    <string name="bluetooth_key_missing_message" msgid="2388861106663695319">"От съображения за сигурност укажете това устройство да бъде забравено и след това го сдвоете отново"</string>
+    <!-- no translation found for bluetooth_key_missing_title (8462010102528132965) -->
+    <skip />
+    <!-- no translation found for bluetooth_key_missing_message (3188093580372443815) -->
+    <skip />
     <string name="bluetooth_key_missing_forget" msgid="4692006517823001013">"Забравяне на устройството"</string>
     <string name="bluetooth_key_missing_cancel" msgid="2482416446357804371">"Отказ"</string>
+    <!-- no translation found for bluetooth_key_missing_device_settings (5512091368141961890) -->
+    <skip />
+    <!-- no translation found for bluetooth_key_missing_close (6724520133374312040) -->
+    <skip />
     <string name="device_details_title" msgid="1155622417516195481">"Подробности за устройството"</string>
     <string name="bluetooth_device_keyboard_settings_preference_title" msgid="3411693160917620519">"Настройки на клавиатурата"</string>
     <string name="bluetooth_device_more_settings_preference_title" msgid="6034482566541746500">"Още настройки"</string>
@@ -964,6 +963,8 @@
     <string name="device_details_leaudio_toggle_summary" msgid="7684848254433230809">"Експериментално. За по-качествен звук."</string>
     <string name="device_details_battery" msgid="5466987755790847884">"Батерия"</string>
     <string name="device_details_battery_charging" msgid="3464969346075775143">"Батерия, зарежда се"</string>
+    <!-- no translation found for device_details_key_missing_title (3568401701538114387) -->
+    <skip />
     <string name="bluetooth_unpair_dialog_forget_confirm_button" msgid="9184489424930549015">"Забравяне на устройството"</string>
     <string name="bluetooth_companion_app_remove_association_confirm_button" msgid="76323555527926915">"Прекратяване на връзката с приложението"</string>
     <string name="device_details_more_settings" msgid="950302792331611271">"Още настройки"</string>
@@ -1076,8 +1077,7 @@
     <string name="wifi_show_advanced" msgid="2969378109942071741">"Разширени опции"</string>
     <string name="wifi_advanced_toggle_description" msgid="7299179796727934885">"Падащ списък за разширени опции"</string>
     <string name="wifi_advanced_toggle_description_collapsed" msgid="3615140699129928913">"разгъване"</string>
-    <!-- no translation found for wifi_ssid (5139273830867723030) -->
-    <skip />
+    <string name="wifi_ssid" msgid="5139273830867723030">"Име на мрежата*"</string>
     <string name="wifi_ssid_hint" msgid="1940577553241083524">"Въведете SSID"</string>
     <string name="wifi_security" msgid="9095934643631406913">"Сигурност"</string>
     <string name="wifi_hidden_network" msgid="6466834025375485596">"Скрита мрежа"</string>
@@ -1100,10 +1100,10 @@
     <string name="wifi_eap_user_cert" msgid="3569182430929173220">"Потребителски сертификат"</string>
     <string name="wifi_eap_identity" msgid="3629406902174137028">"Самоличност"</string>
     <string name="wifi_eap_anonymous" msgid="8630332141751267000">"Анонимна самоличност"</string>
-    <!-- no translation found for wifi_password (165204973532996861) -->
+    <string name="wifi_password" msgid="165204973532996861">"Парола*"</string>
+    <!-- no translation found for wifi_password_optional (6770706664834070705) -->
     <skip />
-    <!-- no translation found for wifi_password_invalid (8884500804472828356) -->
-    <skip />
+    <string name="wifi_password_invalid" msgid="8884500804472828356">"Паролата е невалидна"</string>
     <string name="wifi_show_password" msgid="6865993988238157923">"Показване на паролата"</string>
     <string name="wifi_ap_choose_2G" msgid="1436802195991542016">"Честота при 2,4 ГХц"</string>
     <string name="wifi_ap_prefer_5G" msgid="2520628479818369902">"Предпочита се честота от 5 ГХц"</string>
@@ -1169,8 +1169,7 @@
     <string name="wifi_scan_always_turn_on_message_unknown" msgid="4903345360745717385">"За да подобри точността на местоп. и за други цели, неизвестно приложение иска да включи сканирането за мрежи дори когато Wi-Fi е изкл.\n\nДа се разреши ли за всички приложения, които искат да сканират?"</string>
     <string name="wifi_scan_always_confirm_allow" msgid="4154200627800959777">"Разрешаване"</string>
     <string name="wifi_scan_always_confirm_deny" msgid="6997087934558839256">"Отказ"</string>
-    <!-- no translation found for wifi_field_required (6312381745503042588) -->
-    <skip />
+    <string name="wifi_field_required" msgid="6312381745503042588">"* задължително"</string>
     <string name="no_internet_access_text" msgid="3611993143350310936">"Тази мрежа няма достъп до интернет. Искате ли да останете свързани с нея?"</string>
     <string name="partial_connectivity_text" msgid="8874614799723694554">"Някои прил. и услуги може да не работят поради огранич. свързаност. Да се използва ли въпреки това?"</string>
     <string name="no_internet_access_remember" msgid="5113610157731269258">"Без повторно запитване за тази мрежа"</string>
@@ -1601,21 +1600,13 @@
     <string name="battery_level_title" msgid="1371765298786083448">"Ниво на батерията"</string>
     <string name="communal_settings_title" msgid="2845678473945902115">"Общи"</string>
     <string name="communal_settings_summary" msgid="4923914136953940317">"Общи настройки"</string>
-    <!-- no translation found for hub_mode_category_title (5290081595872103974) -->
-    <skip />
-    <!-- no translation found for widgets_on_lockscreen_title (6979558402208585885) -->
-    <skip />
-    <!-- no translation found for when_to_auto_show_hubmode_title (2307148913387518369) -->
-    <skip />
-    <!-- no translation found for when_to_show_hubmode_never (976644329215156021) -->
-    <skip />
-    <!-- no translation found for when_to_show_hubmode_charging (1874391105066805128) -->
-    <skip />
-    <!-- no translation found for when_to_show_hubmode_charging_and_upright (6293947459712755814) -->
-    <skip />
-    <!-- no translation found for when_to_show_hubmode_docked (7107631545009933891) -->
-    <skip />
-    <string name="satellite_setting" msgid="4171265534842459910">"Сателитни съобщения"</string>
+    <string name="hub_mode_category_title" msgid="5290081595872103974">"Режим „Контролен център“"</string>
+    <string name="widgets_on_lockscreen_title" msgid="6979558402208585885">"Приспособления на заключения екран"</string>
+    <string name="when_to_auto_show_hubmode_title" msgid="2307148913387518369">"Кога да се показва автоматично"</string>
+    <string name="when_to_show_hubmode_never" msgid="976644329215156021">"Никога"</string>
+    <string name="when_to_show_hubmode_charging" msgid="1874391105066805128">"При зареждане"</string>
+    <string name="when_to_show_hubmode_charging_and_upright" msgid="6293947459712755814">"При зареждане и изправено положение"</string>
+    <string name="when_to_show_hubmode_docked" msgid="7107631545009933891">"При свързване с докинг станция"</string>
     <string name="apn_settings" msgid="4295467389400441299">"APN"</string>
     <string name="apn_edit" msgid="2003683641840248741">"Редакт. на точка за достъп"</string>
     <string name="apn_add" msgid="9069613192201630934">"Добавяне на точка за достъп"</string>
@@ -1723,16 +1714,11 @@
     <string name="tether_preference_summary_off" msgid="6266799346319794630">"Изкл."</string>
     <string name="usb_tethering_button_text" msgid="7364633823180913777">"Тетъринг през USB"</string>
     <string name="bluetooth_tether_checkbox_text" msgid="6108398414967813545">"Тетъринг през Bluetooth"</string>
-    <!-- no translation found for ethernet_ip_address (4218340787862242573) -->
-    <skip />
-    <!-- no translation found for ethernet_mac_address_title (3235879195237611007) -->
-    <skip />
-    <!-- no translation found for tx_ethernet_speed (4785035505065551012) -->
-    <skip />
-    <!-- no translation found for rx_ethernet_speed (6642000569214969711) -->
-    <skip />
-    <!-- no translation found for ethernet_network_usage (3795965384177426780) -->
-    <skip />
+    <string name="ethernet_ip_address" msgid="4218340787862242573">"IP адрес"</string>
+    <string name="ethernet_mac_address_title" msgid="3235879195237611007">"MAC адрес"</string>
+    <string name="tx_ethernet_speed" msgid="4785035505065551012">"Скорост на връзката за прехвърляне"</string>
+    <string name="rx_ethernet_speed" msgid="6642000569214969711">"Скорост на връзката за получаване"</string>
+    <string name="ethernet_network_usage" msgid="3795965384177426780">"Употреба на мрежа"</string>
     <string name="ethernet_tether_checkbox_text" msgid="959743110824197356">"Тетъринг през Ethernet"</string>
     <string name="tethering_footer_info" msgid="6824352505979800594">"Използвайте точка за достъп и тетъринг, за да предоставите достъп до интернет на други устройства чрез връзката си за пренос на данни. Приложенията могат също да създават точки за достъп, за да споделят съдържание с устройства в близост."</string>
     <string name="tethering_footer_info_sta_ap_concurrency" msgid="2079039077487477676">"Използвайте точка за достъп и тетъринг, за да предоставите достъп до интернет на други устройства чрез Wi-Fi или мобилната си връзка за данни. Приложенията могат също да създават точки за достъп, за да споделят съдържание с устройства в близост."</string>
@@ -3611,7 +3597,7 @@
     <string name="zen_mode_not_found_text" msgid="692090778655810329">"Режимът не е намерен"</string>
     <string name="zen_mode_slice_subtitle" msgid="6849372107272604160">"Ограничаване на прекъсванията"</string>
     <string name="zen_mode_setup_page_summary" msgid="7568908001205193154">"Блокиране на прекъсванията и разсейванията"</string>
-    <string name="zen_mode_setup_button_label" msgid="1959984133767361374">"Настройване на <xliff:g id="MODE">%1$s</xliff:g>"</string>
+    <string name="zen_mode_setup_button_label" msgid="1959984133767361374">"Настройване на: <xliff:g id="MODE">%1$s</xliff:g>"</string>
     <string name="zen_mode_settings_turn_on_dialog_title" msgid="7500702838426404527">"Включване на режима „Не безпокойте“"</string>
     <string name="zen_mode_behavior_alarms_only" msgid="2956938533859578315">"Будилниците и звуците на мултимедийното съдържание могат да прекъсват режима"</string>
     <string name="zen_mode_automation_settings_title" msgid="3709324184191870926">"Графици"</string>
@@ -4431,7 +4417,8 @@
     <string name="disconnected" msgid="3469373726996129247">"Няма връзка"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"Няма връзка"</string>
     <string name="apps_summary" msgid="4007416751775414252">"<xliff:g id="COUNT">%1$d</xliff:g> приложения са инсталирани"</string>
-    <string name="storage_summary" msgid="7631468664968572688">"Използвано място: <xliff:g id="PERCENTAGE">%1$s</xliff:g>. Свободно място: <xliff:g id="FREE_SPACE_VALUE">%2$s</xliff:g> <xliff:g id="FREE_SPACE_UNITS">%3$s</xliff:g>"</string>
+    <!-- no translation found for storage_toplevel_summary (6708203706751754934) -->
+    <skip />
     <string name="display_dashboard_summary" msgid="1599453894989339454">"Тъмна тема, размер на шрифта, яркост"</string>
     <string name="memory_summary" msgid="8221954450951651735">"Използвана памет: Средно <xliff:g id="USED_MEMORY">%1$s</xliff:g> от <xliff:g id="TOTAL_MEMORY">%2$s</xliff:g>"</string>
     <string name="users_summary" msgid="8473589474976307510">"Влезли сте като: <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
@@ -5054,13 +5041,16 @@
     <string name="roaming_alert_title" msgid="9052791521868787985">"Да се разреши ли роуминг на данни?"</string>
     <string name="roaming_check_price_warning" msgid="5876977438036791361">"За цени се обърнете към оператора си."</string>
     <string name="mobile_network_mode_error" msgid="9222056129897416074">"Невалиден мрежов режим <xliff:g id="NETWORKMODEID">%1$d</xliff:g>. Пренебрегване."</string>
-    <string name="satellite_setting_title" msgid="2543034229989047673">"Сателитни съобщения"</string>
+    <!-- no translation found for satellite_setting (4650503806634496443) -->
+    <skip />
     <string name="satellite_setting_enabled_summary" msgid="3554127722727530845">"Изпращайте и получавайте текстови съобщения чрез сателит. Услугата е включена с профила ви."</string>
     <string name="satellite_setting_disabled_summary" msgid="8428393986403708690">"Изпращайте и получавайте текстови съобщения чрез сателит. Услугата не се предлага с профила ви."</string>
     <string name="satellite_setting_summary_without_entitlement" msgid="5284998840770992554">"Изпращайте и получавайте текстови съобщения чрез сателит. За подробности се обърнете към оператора си."</string>
     <string name="keywords_satellite_setting" msgid="613553612424945946">"Сателитни съобщения, свързване със сателит"</string>
-    <string name="category_name_about_satellite_messaging" msgid="4978095955643523120">"Всичко за <xliff:g id="SUBJECT">%1$s</xliff:g>"</string>
-    <string name="title_about_satellite_setting" msgid="3563087940535642558">"Можете да изпращате и получавате текстови съобщения чрез сателит, ако имате отговарящ на условията профил от <xliff:g id="CARRIER_NAME">%1$s</xliff:g>"</string>
+    <!-- no translation found for category_name_about_satellite_connectivity (3971142716898783631) -->
+    <skip />
+    <!-- no translation found for description_about_satellite_setting (5539359064330584941) -->
+    <skip />
     <string name="category_title_your_satellite_plan" msgid="8169426217950247126">"Вашият профил в(ъв) <xliff:g id="CARRIER_NAME">%1$s</xliff:g>"</string>
     <string name="title_have_satellite_plan" msgid="2048372355699977947">"Услугата за сателитни съобщения е включена с профила ви"</string>
     <string name="title_no_satellite_plan" msgid="2876056203035197505">"Услугата за сателитни съобщения не е включена с профила ви"</string>
@@ -5076,10 +5066,12 @@
     <string name="summary_supported_service_for_manual_type" msgid="2147958362763058271">"След като телефонът ви се свърже, можете да изпращате текстови съобщения на когото пожелаете, включително на службите за спешни случаи."</string>
     <string name="satellite_setting_summary_more_information" msgid="276312352285564071">"Сателитната връзка може да бъде по-бавна и е налице само в някои райони. Времето и определени структури може да ѝ повлияят. Не се поддържат обаждания чрез сателит, но е възможно спешните обаждания да бъдат извършени.\n\nМоже да измине известно време, докато промените в профила ви се покажат в настройките. За подробности се обърнете към <xliff:g id="CARRIER_NAME">%1$s</xliff:g>."</string>
     <string name="satellite_setting_summary_more_information_no_emergency_messaging" msgid="2090170250936862158">"Сателитната връзка може да бъде по-бавна и е налице само в някои райони. Времето и определени структури може да ѝ повлияят. Не се поддържат обаждания чрез сателит, но е възможно спешните обаждания да бъдат извършени. Обменът на текстови съобщения със службите за спешни случаи може да не е налице във всички райони.\n\nМоже да измине известно време, докато промените в профила ви се покажат в настройките. За подробности се обърнете към <xliff:g id="CARRIER_NAME">%1$s</xliff:g>."</string>
-    <string name="more_about_satellite_messaging" msgid="1039277943532711584">"Още за услугата за <xliff:g id="SUBJECT">%1$s</xliff:g>"</string>
+    <!-- no translation found for more_about_satellite_messaging (5358981088419444073) -->
+    <skip />
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"<xliff:g id="FUNCTION">%1$s</xliff:g> не може да се включи"</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"За да включите <xliff:g id="FUNCTION">%1$s</xliff:g>, първо прекратете сателитната връзка"</string>
-    <string name="category_title_satellite_connectivity" msgid="7540022356863917632">"Свързване със сателит"</string>
+    <!-- no translation found for category_title_satellite_connectivity (7740500012311192133) -->
+    <skip />
     <string name="title_satellite_setting_connectivity" msgid="488626710934668313">"Свързване със сателит"</string>
     <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"свързване със сателит"</string>
     <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"сателитни съобщения"</string>
@@ -5280,10 +5272,8 @@
     <string name="enable_16k_app_compat_details" msgid="5382562613011853452">"Приложението ще бъде спряно и ще се изпълнява в режим на съвместимост с размера на страниците на устройства, когато е активиран превключвател за 16 KB."</string>
     <string name="stop_app_dlg_title" msgid="3153921585174512587">"Да се спре ли приложението?"</string>
     <string name="stop_app_dlg_text" msgid="4373849065005318901">"Приложението ще бъде спряно, за да се приложи настройката за съвместимост с размера на страницата."</string>
-    <!-- no translation found for error_pending_updates (7196832772265874760) -->
-    <skip />
-    <!-- no translation found for error_ota_failed (4762376085470989653) -->
-    <skip />
+    <string name="error_pending_updates" msgid="7196832772265874760">"Актуализирането на ядрото не бе успешно. Проверете и инсталирайте всички изчакващи актуализации."</string>
+    <string name="error_ota_failed" msgid="4762376085470989653">"Актуализирането на ядрото не бе успешно. При прилагане на безжичното актуализиране възникна грешка."</string>
     <string name="bug_report_handler_title" msgid="713439959113250125">"Манипулатор за сигналите за програмни грешки"</string>
     <string name="bug_report_handler_picker_footer_text" msgid="4935758328366585673">"Определя кое приложение да обработва прекия път за сигнали за програмни грешки на устройството ви."</string>
     <string name="personal_profile_app_subtext" msgid="5586060806997067676">"Лично"</string>
@@ -5432,10 +5422,8 @@
     <string name="smart_forwarding_input_mdn_dialog_title" msgid="7542216086697868415">"Въведете телефонен номер"</string>
     <string name="smart_forwarding_missing_mdn_text" msgid="2907314684242542226">"Липсва телефонен номер."</string>
     <string name="smart_forwarding_missing_alert_dialog_text" msgid="7870419247987316112">"OK"</string>
-    <!-- no translation found for enable_2g_title (5657132300321750181) -->
-    <skip />
-    <!-- no translation found for enable_2g_summary (6317192326100541563) -->
-    <skip />
+    <string name="enable_2g_title" msgid="5657132300321750181">"Защита от 2G мрежи"</string>
+    <string name="enable_2g_summary" msgid="6317192326100541563">"Избягват се 2G мрежите, които не са толкова надеждни. Това може да ограничи свързаността на някои места. Спешните обаждания са разрешени винаги."</string>
     <string name="enable_2g_summary_disabled_carrier" msgid="8141118453219482762">"<xliff:g id="CARRIER_NAME_2G">%1$s</xliff:g> изисква 2G да е налице"</string>
     <string name="require_cellular_encryption_title" msgid="6087085031703089235">"Разрешаване само на шифрованите мрежи"</string>
     <string name="require_cellular_encryption_summary" msgid="6090569065420631457">"Тази опция е по-сигурна, но може да ограничи връзката ви с мобилната мрежа в някои местоположения. Спешните обаждания са разрешени винаги."</string>
@@ -5762,15 +5750,20 @@
     <string name="supervision_change_pin_preference_title" msgid="2288584039438231801">"Промяна на ПИН"</string>
     <string name="supervision_add_forgot_pin_preference_title" msgid="8939945404255748516">"Забравен ПИН код"</string>
     <string name="supervision_web_content_filters_title" msgid="3653430162065686156">"Филтри за уеб съдържанието"</string>
-    <!-- no translation found for supervision_web_content_filters_browser_title (979037187423952892) -->
+    <string name="supervision_web_content_filters_browser_title" msgid="979037187423952892">"Google Chrome и мрежата"</string>
+    <string name="supervision_web_content_filters_browser_block_explicit_sites_title" msgid="7923982596891796260">"Опит за блокиране на сайтове с нецензурно съдържание"</string>
+    <string name="supervision_web_content_filters_browser_block_explicit_sites_summary" msgid="1477766506765966613">"Няма съвършени филтри, но това следва да скрие сайтовете с явен сексуален характер"</string>
+    <string name="supervision_web_content_filters_browser_allow_all_sites_title" msgid="3909739592466381845">"Разрешаване на всички сайтове"</string>
+    <!-- no translation found for supervision_web_content_filters_search_title (726335318009305564) -->
     <skip />
-    <!-- no translation found for supervision_web_content_filters_browser_block_explicit_sites_title (7923982596891796260) -->
+    <!-- no translation found for supervision_web_content_filters_search_filter_on_title (4855846261141136285) -->
     <skip />
-    <!-- no translation found for supervision_web_content_filters_browser_block_explicit_sites_summary (1477766506765966613) -->
+    <!-- no translation found for supervision_web_content_filters_search_filter_on_summary (1162258144140293269) -->
     <skip />
-    <!-- no translation found for supervision_web_content_filters_browser_allow_all_sites_title (3909739592466381845) -->
+    <!-- no translation found for supervision_web_content_filters_search_filter_off_title (6049461395304222346) -->
     <skip />
-    <!-- no translation found for supervision_full_screen_pin_verification_title (78513043528333399) -->
+    <!-- no translation found for supervision_web_content_filters_search_filter_off_summary (3834238970190924433) -->
     <skip />
+    <string name="supervision_full_screen_pin_verification_title" msgid="78513043528333399">"Въведете ПИН кода за контролиране"</string>
     <string name="accessibility_illustration_content_description" msgid="557376174860150903">"Анимация за <xliff:g id="FEATURE">%1$s</xliff:g>"</string>
 </resources>

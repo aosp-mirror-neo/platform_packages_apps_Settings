@@ -41,12 +41,9 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"Zawieszony"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"Nieznane"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"Podgląd"</string>
-    <!-- no translation found for preview_pager_home_content_description (3961399947853424786) -->
-    <skip />
-    <!-- no translation found for preview_pager_message_content_description (3018855090807833755) -->
-    <skip />
-    <!-- no translation found for preview_pager_email_content_description (100055784235660338) -->
-    <skip />
+    <string name="preview_pager_home_content_description" msgid="3961399947853424786">"Podgląd ekranu głównego"</string>
+    <string name="preview_pager_message_content_description" msgid="3018855090807833755">"Podgląd wiadomości"</string>
+    <string name="preview_pager_email_content_description" msgid="100055784235660338">"Podgląd e-maila"</string>
     <string name="qr_code_content_description" msgid="1852208464419291347">"Kod QR"</string>
     <string name="preview_pager_previous_button" msgid="607771113300838313">"Poprzedni podgląd"</string>
     <string name="preview_pager_next_button" msgid="8700907912508927271">"Następny podgląd"</string>
@@ -173,13 +170,11 @@
     <string name="date_and_time" msgid="1788358029823431692">"Data i godzina"</string>
     <string name="proxy_settings_title" msgid="4201866858226087066">"Serwer proxy"</string>
     <string name="proxy_clear_text" msgid="6529658759984031149">"Wyczyść"</string>
-    <!-- no translation found for proxy_port_label (6698001018215165848) -->
-    <skip />
+    <string name="proxy_port_label" msgid="6698001018215165848">"Port serwera proxy (opcjonalnie)"</string>
     <string name="proxy_exclusionlist_label" msgid="2598613986784917542">"Pomiń proxy dla"</string>
     <string name="proxy_defaultView_text" msgid="6795150505379688451">"Przywróć domyślne"</string>
     <string name="proxy_action_text" msgid="1103328484441449542">"Gotowe"</string>
-    <!-- no translation found for proxy_hostname_label (345510072664361960) -->
-    <skip />
+    <string name="proxy_hostname_label" msgid="345510072664361960">"Nazwa hosta serwera proxy (opcjonalnie)"</string>
     <string name="proxy_error" msgid="3615905975598084126">"Uwaga"</string>
     <string name="proxy_error_dismiss" msgid="4207430265140873078">"OK"</string>
     <string name="proxy_error_invalid_host" msgid="3814412792702059247">"Wpisana nazwa hosta jest nieprawidłowa."</string>
@@ -224,13 +219,10 @@
     <string name="desc_introduction_of_language_picker" msgid="4012265379885200083">"Urządzenie, aplikacje i strony internetowe używają pierwszego obsługiwanego języka z listy preferowanych języków.\n\nWiele aplikacji będzie też używać regionu z preferowanego języka do formatowania dat, liczb i jednostek. Aby zmienić region, dodaj język, a następnie wybierz preferowany region."</string>
     <string name="desc_notice_of_language_picker" msgid="3449290526457925447">"Aby wybrać języki poszczególnych aplikacji, otwórz ustawienia języków w aplikacjach."</string>
     <string name="desc_locale_helper_footer_general" msgid="6112153921151780303">"Więcej informacji o językach aplikacji"</string>
-    <!-- no translation found for title_change_system_region (9196602029960380112) -->
-    <skip />
+    <string name="title_change_system_region" msgid="9196602029960380112">"Zmienić region na %s?"</string>
     <string name="desc_notice_device_region_change" msgid="6702773189066944100">"Język %s będzie nadal ustawiony jako systemowy na tym urządzeniu"</string>
-    <!-- no translation found for desc_notice_device_region_change_for_preferred_language (408517366942324267) -->
-    <skip />
-    <!-- no translation found for title_change_system_locale (4102991236063984803) -->
-    <skip />
+    <string name="desc_notice_device_region_change_for_preferred_language" msgid="408517366942324267">"%1$s zastąpi %2$s w Twoich preferowanych językach"</string>
+    <string name="title_change_system_locale" msgid="4102991236063984803">"Zmienić język systemu na %s?"</string>
     <string name="title_system_locale_addition" msgid="8218683660751479466">"Dodać %s do preferowanych języków?"</string>
     <string name="desc_system_locale_addition" msgid="3409917362651596070">"Informuje to aplikacje i strony, że preferujesz również ten język."</string>
     <string name="desc_notice_device_locale_settings_change" msgid="8311132485850714160">"Zmienią się ustawienia urządzenia i preferencje regionalne."</string>
@@ -247,8 +239,7 @@
     <string name="search_region_hint" msgid="1748708432568237552">"Wyszukaj regiony"</string>
     <string name="top_intro_region_title" msgid="2336323415395642117">"Od wybranego regionu zależy to, jak telefon wyświetla godzinę, datę, temperaturę i inne informacje"</string>
     <string name="more_language_settings_category" msgid="3669703092480725416">"Więcej ustawień języka"</string>
-    <!-- no translation found for title_change_system_locale_region (4401478579429442695) -->
-    <skip />
+    <string name="title_change_system_locale_region" msgid="4401478579429442695">"Zmienić region na <xliff:g id="SYSTEM_LANGUAGE_REGION">%1$s</xliff:g>?"</string>
     <string name="body_change_system_locale_region" msgid="9064318449821043189">"<xliff:g id="SYSTEM_LANGUAGE">%1$s</xliff:g> nadal będzie językiem systemowym urządzenia"</string>
     <string name="top_intro_numbering_system_title" msgid="3962000662073238392">"Wybierz sposób wyświetlania liczb na urządzeniu oraz w witrynach i aplikacjach"</string>
     <string name="regional_preferences_title" msgid="4304567374498629528">"Preferencje regionalne"</string>
@@ -273,8 +264,10 @@
     <string name="title_regional_pref_footer" msgid="7450438024324794380">"Jeśli aplikacja nie obsługuje preferencji regionalnych, użyje ustawień domyślnych dla danego regionu."</string>
     <string name="desc_regional_pref_footer_learn_more" msgid="4401708653329230081">"Dowiedz się więcej o ustawieniach języka"</string>
     <string name="metric_measurement_system" msgid="7489725697268321541">"Metryczny"</string>
-    <string name="us_measurement_system" msgid="8738587232938189052">"Imperialny (amerykański)"</string>
-    <string name="uk_measurement_system" msgid="4196897001775627597">"Imperialny (brytyjski)"</string>
+    <!-- no translation found for us_measurement_system (8406695347890345490) -->
+    <skip />
+    <!-- no translation found for uk_measurement_system (1814065008707689505) -->
+    <skip />
     <string name="category_title_terms_of_address" msgid="4309422700380895278">"Dodatkowe ustawienia"</string>
     <string name="terms_of_address_title" msgid="7338630812197476808">"Wybierz, jak urządzenie ma się do Ciebie zwracać"</string>
     <string name="terms_of_address_summary" msgid="7802443422612600620">"Twoje urządzenie może się do Ciebie zwracać tak, jak sobie tego życzysz"</string>
@@ -368,8 +361,7 @@
     <string name="safety_center_summary" msgid="3554867379951053869">"Bezpieczeństwo aplikacji, blokowanie urządzenia, uprawnienia"</string>
     <string name="security_settings_face_preference_summary" msgid="6675126437396914838">"Dodano twarz"</string>
     <string name="security_settings_face_preference_summary_none" msgid="523320857738436024">"Wymagana konfiguracja"</string>
-    <!-- no translation found for security_settings_face_preference_summary_none_new (1963253146734002815) -->
-    <skip />
+    <string name="security_settings_face_preference_summary_none_new" msgid="1963253146734002815">"Dodaj model twarzy"</string>
     <string name="security_settings_face_preference_title_new" msgid="7680231874730796331">"Twarz"</string>
     <string name="security_settings_face_profile_preference_title_new" msgid="685550153608106166">"Twarz – profil służbowy"</string>
     <string name="private_space_face_unlock_title_new" msgid="2079622608951402509">"Twarz – przestrzeń prywatna"</string>
@@ -452,8 +444,7 @@
     <string name="fingerprint_add_title" msgid="1837610443487902050">"Dodaj odcisk palca"</string>
     <string name="security_settings_fingerprint_preference_summary" msgid="8486134175759676037">"{count,plural, =1{Dodano odcisk palca}few{Dodano # odciski palca}many{Dodano # odcisków palca}other{Dodano # odcisku palca}}"</string>
     <string name="security_settings_fingerprint_preference_summary_none" msgid="1146977379031250790">"Wymagana konfiguracja"</string>
-    <!-- no translation found for security_settings_fingerprint_preference_summary_none_new (510376523784190149) -->
-    <skip />
+    <string name="security_settings_fingerprint_preference_summary_none_new" msgid="510376523784190149">"Dodaj odcisk palca"</string>
     <string name="security_settings_fingerprint_enroll_introduction_title" msgid="7931650601996313070">"Skonfiguruj odcisk palca"</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title" msgid="2278592030102282364">"Zezwól na odblokowywanie odciskiem palca"</string>
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled" msgid="1911710308293783998">"Korzystanie z odcisku palca"</string>
@@ -809,8 +800,7 @@
     <string name="face_unlock_skip_face" msgid="189695556498300008">"Kontynuuj bez rozpoznawania twarzy"</string>
     <string name="biometrics_unlock_skip_biometrics" msgid="7399882488272450182">"Kontynuuj bez rozpoznawania twarzy lub odcisku palca"</string>
     <string name="unlock_set_unlock_mode_off" msgid="4632139864722236359">"Brak"</string>
-    <!-- no translation found for unlock_set_unlock_mode_off_new (865396805830816266) -->
-    <skip />
+    <string name="unlock_set_unlock_mode_off_new" msgid="865396805830816266">"Dodaj kod PIN, wzór, hasło lub gest przesunięcia"</string>
     <string name="unlock_set_unlock_mode_none" msgid="5596049938457028214">"Przesunięcie palcem"</string>
     <string name="unlock_set_unlock_mode_pattern" msgid="1926480143883094896">"Wzór"</string>
     <string name="unlock_set_unlock_mode_pin" msgid="9028659554829888373">"Kod PIN"</string>
@@ -949,10 +939,16 @@
     <string name="bluetooth_scanning_on_info_message" msgid="786648535600075223">"Po włączeniu Bluetootha urządzenie może komunikować się z innymi urządzeniami Bluetooth w pobliżu.\n\nAby zwiększyć komfort korzystania z urządzenia, aplikacje i usługi mogą wyszukiwać urządzenia w pobliżu nawet wtedy, gdy Bluetooth jest wyłączony. Może to np. pomóc usprawnić działanie funkcji i usług opartych na lokalizacji. Możesz zmienić tę opcję w ustawieniach skanowania Bluetooth."</string>
     <string name="bluetooth_scanning_on_info_message_auto_on_available" msgid="7792443293031247638">"Po włączeniu Bluetootha urządzenie może komunikować się z innymi urządzeniami Bluetooth w pobliżu. Z Bluetootha korzystają funkcje takie jak szybkie udostępnianie czy Znajdź moje urządzenie.\n\nNawet gdy Bluetooth jest wyłączony, aplikacje i usługi nadal mogą w każdej chwili wyszukiwać urządzenia w pobliżu. Może to służyć na przykład do ulepszania funkcji i usług opartych na lokalizacji. Możesz to zmienić w ustawieniach skanowania Bluetooth."</string>
     <string name="bluetooth_scan_change" msgid="1744636222637390367">"Zmień"</string>
-    <string name="bluetooth_key_missing_title" msgid="7799054163548353853">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> – brak połączenia"</string>
-    <string name="bluetooth_key_missing_message" msgid="2388861106663695319">"Ze względów bezpieczeństwa usuń to urządzenie, a następnie sparuj je ponownie"</string>
+    <!-- no translation found for bluetooth_key_missing_title (8462010102528132965) -->
+    <skip />
+    <!-- no translation found for bluetooth_key_missing_message (3188093580372443815) -->
+    <skip />
     <string name="bluetooth_key_missing_forget" msgid="4692006517823001013">"Zapomnij urządzenie"</string>
     <string name="bluetooth_key_missing_cancel" msgid="2482416446357804371">"Anuluj"</string>
+    <!-- no translation found for bluetooth_key_missing_device_settings (5512091368141961890) -->
+    <skip />
+    <!-- no translation found for bluetooth_key_missing_close (6724520133374312040) -->
+    <skip />
     <string name="device_details_title" msgid="1155622417516195481">"Szczegóły urządzenia"</string>
     <string name="bluetooth_device_keyboard_settings_preference_title" msgid="3411693160917620519">"Ustawienia klawiatury"</string>
     <string name="bluetooth_device_more_settings_preference_title" msgid="6034482566541746500">"Więcej ustawień"</string>
@@ -967,6 +963,8 @@
     <string name="device_details_leaudio_toggle_summary" msgid="7684848254433230809">"Funkcja eksperymentalna. Poprawia jakość dźwięku."</string>
     <string name="device_details_battery" msgid="5466987755790847884">"Bateria"</string>
     <string name="device_details_battery_charging" msgid="3464969346075775143">"Bateria, ładowanie"</string>
+    <!-- no translation found for device_details_key_missing_title (3568401701538114387) -->
+    <skip />
     <string name="bluetooth_unpair_dialog_forget_confirm_button" msgid="9184489424930549015">"Zapomnij urządzenie"</string>
     <string name="bluetooth_companion_app_remove_association_confirm_button" msgid="76323555527926915">"Odłącz aplikację"</string>
     <string name="device_details_more_settings" msgid="950302792331611271">"Więcej ustawień"</string>
@@ -1104,6 +1102,8 @@
     <string name="wifi_eap_identity" msgid="3629406902174137028">"Tożsamość"</string>
     <string name="wifi_eap_anonymous" msgid="8630332141751267000">"Tożsamość anonimowa"</string>
     <!-- no translation found for wifi_password (165204973532996861) -->
+    <skip />
+    <!-- no translation found for wifi_password_optional (6770706664834070705) -->
     <skip />
     <!-- no translation found for wifi_password_invalid (8884500804472828356) -->
     <skip />
@@ -1501,22 +1501,17 @@
     <string name="storage_settings_for_app" msgid="229425418984637483">"Pamięć wewnętrzna i podręczna"</string>
     <string name="storage_settings_title" msgid="486118156723194815">"Ustawienia pamięci"</string>
     <string name="status_eid" msgid="3588471107671992684">"E​ID"</string>
-    <!-- no translation found for eid_multi_sim (6659492335576379274) -->
-    <skip />
-    <!-- no translation found for imei_multi_sim (27798473711249145) -->
-    <skip />
-    <!-- no translation found for imei_multi_sim_primary (4320457587114117400) -->
-    <skip />
+    <string name="eid_multi_sim" msgid="6659492335576379274">"E​ID (gniazdo SIM <xliff:g id="EID_SLOT_ID">%1$d</xliff:g>)"</string>
+    <string name="imei_multi_sim" msgid="27798473711249145">"IMEI (gniazdo SIM <xliff:g id="IMEI_SLOT_ID">%1$d</xliff:g>)"</string>
+    <string name="imei_multi_sim_primary" msgid="4320457587114117400">"IMEI (gniazdo SIM <xliff:g id="IMEI_SLOT_ID_PRIMARY">%1$d</xliff:g>) (główne)"</string>
     <string name="view_saved_network" msgid="1232387673095080910">"Aby wyświetlić, wybierz zapisaną sieć"</string>
     <string name="status_imei" msgid="5719752369250485007">"IMEI"</string>
     <string name="status_imei_sv" msgid="6908985558726440951">"IMEI SV"</string>
     <string name="status_min_number" msgid="4492899165438225714">"Numer MIN"</string>
     <string name="status_msid_number" msgid="3871958248824595774">"MSID"</string>
     <string name="status_prl_version" msgid="9002131357502714281">"Wersja PRL"</string>
-    <!-- no translation found for meid_multi_sim (5076814185188481456) -->
-    <skip />
-    <!-- no translation found for meid_multi_sim_primary (6269908735700854437) -->
-    <skip />
+    <string name="meid_multi_sim" msgid="5076814185188481456">"MEID (gniazdo SIM <xliff:g id="MEID_SLOT_ID">%1$d</xliff:g>)"</string>
+    <string name="meid_multi_sim_primary" msgid="6269908735700854437">"MEID (gniazdo SIM <xliff:g id="MEID_SLOT_ID_PRIMARY">%1$d</xliff:g>) (główne)"</string>
     <string name="scanning_status_text_on" msgid="3846571210578042940">"Włączone"</string>
     <string name="scanning_status_text_off" msgid="4002352668313705132">"Wyłączone"</string>
     <string name="status_meid_number" msgid="6040380838489162650">"Numer MEID"</string>
@@ -1584,8 +1579,7 @@
     <string name="storage_wizard_init_v2_or" msgid="5558706089661158026">"lub"</string>
     <string name="storage_wizard_init_v2_external_title" msgid="2786416384217054112">"Sformatuj kartę SD jako pamięć przenośną"</string>
     <string name="storage_wizard_init_v2_external_summary" msgid="2002761631147966185">"Przechowuj zdjęcia, filmy, muzykę oraz inne treści i korzystaj z nich na różnych urządzeniach. &lt;a href=https://support.google.com/android/answer/12153449&gt;Więcej informacji o konfigurowaniu kart SD&lt;/a&gt;"</string>
-    <!-- no translation found for storage_wizard_init_v2_external_summary_non_sd_card (6638380506793421312) -->
-    <skip />
+    <string name="storage_wizard_init_v2_external_summary_non_sd_card" msgid="6638380506793421312">"Przechowuj zdjęcia, filmy, muzykę oraz inne treści i korzystaj z nich na różnych urządzeniach."</string>
     <string name="storage_wizard_init_v2_external_action" msgid="6140058734875839081">"Sformatuj"</string>
     <string name="storage_wizard_init_v2_later" msgid="5366815913892609285">"Skonfiguruj później"</string>
     <string name="storage_wizard_format_confirm_v2_title" msgid="6294104100437326067">"Sformatować: <xliff:g id="NAME">^1</xliff:g>?"</string>
@@ -1610,21 +1604,13 @@
     <string name="battery_level_title" msgid="1371765298786083448">"Poziom naładowania baterii"</string>
     <string name="communal_settings_title" msgid="2845678473945902115">"Wspólne"</string>
     <string name="communal_settings_summary" msgid="4923914136953940317">"Wspólne ustawienia"</string>
-    <!-- no translation found for hub_mode_category_title (5290081595872103974) -->
-    <skip />
-    <!-- no translation found for widgets_on_lockscreen_title (6979558402208585885) -->
-    <skip />
-    <!-- no translation found for when_to_auto_show_hubmode_title (2307148913387518369) -->
-    <skip />
-    <!-- no translation found for when_to_show_hubmode_never (976644329215156021) -->
-    <skip />
-    <!-- no translation found for when_to_show_hubmode_charging (1874391105066805128) -->
-    <skip />
-    <!-- no translation found for when_to_show_hubmode_charging_and_upright (6293947459712755814) -->
-    <skip />
-    <!-- no translation found for when_to_show_hubmode_docked (7107631545009933891) -->
-    <skip />
-    <string name="satellite_setting" msgid="4171265534842459910">"Przesyłanie wiadomości przez satelitę"</string>
+    <string name="hub_mode_category_title" msgid="5290081595872103974">"Tryb centrali"</string>
+    <string name="widgets_on_lockscreen_title" msgid="6979558402208585885">"Widżety na ekranie blokady"</string>
+    <string name="when_to_auto_show_hubmode_title" msgid="2307148913387518369">"Kiedy automatycznie wyświetlać"</string>
+    <string name="when_to_show_hubmode_never" msgid="976644329215156021">"Nigdy"</string>
+    <string name="when_to_show_hubmode_charging" msgid="1874391105066805128">"Podczas ładowania"</string>
+    <string name="when_to_show_hubmode_charging_and_upright" msgid="6293947459712755814">"Podczas ładowania i po ustawieniu pionowo"</string>
+    <string name="when_to_show_hubmode_docked" msgid="7107631545009933891">"Po zadokowaniu"</string>
     <string name="apn_settings" msgid="4295467389400441299">"Nazwy APN"</string>
     <string name="apn_edit" msgid="2003683641840248741">"Edytuj punkt dostępu"</string>
     <string name="apn_add" msgid="9069613192201630934">"Dodaj punkt dostępu"</string>
@@ -1732,16 +1718,11 @@
     <string name="tether_preference_summary_off" msgid="6266799346319794630">"Wył."</string>
     <string name="usb_tethering_button_text" msgid="7364633823180913777">"Tethering przez USB"</string>
     <string name="bluetooth_tether_checkbox_text" msgid="6108398414967813545">"Tethering przez Bluetooth"</string>
-    <!-- no translation found for ethernet_ip_address (4218340787862242573) -->
-    <skip />
-    <!-- no translation found for ethernet_mac_address_title (3235879195237611007) -->
-    <skip />
-    <!-- no translation found for tx_ethernet_speed (4785035505065551012) -->
-    <skip />
-    <!-- no translation found for rx_ethernet_speed (6642000569214969711) -->
-    <skip />
-    <!-- no translation found for ethernet_network_usage (3795965384177426780) -->
-    <skip />
+    <string name="ethernet_ip_address" msgid="4218340787862242573">"Adres IP"</string>
+    <string name="ethernet_mac_address_title" msgid="3235879195237611007">"Adres MAC"</string>
+    <string name="tx_ethernet_speed" msgid="4785035505065551012">"Szybkość łącza przesyłowego"</string>
+    <string name="rx_ethernet_speed" msgid="6642000569214969711">"Szybkość łącza przy odbieraniu"</string>
+    <string name="ethernet_network_usage" msgid="3795965384177426780">"Wykorzystanie sieci"</string>
     <string name="ethernet_tether_checkbox_text" msgid="959743110824197356">"Tethering przez Ethernet"</string>
     <string name="tethering_footer_info" msgid="6824352505979800594">"Funkcje hotspotu i tetheringu umożliwiają zapewnienie innym urządzeniom dostępu do internetu przez połączenie do transmisji danych. Aplikacje mogą też utworzyć hotspot, aby udostępniać treści urządzeniom w pobliżu."</string>
     <string name="tethering_footer_info_sta_ap_concurrency" msgid="2079039077487477676">"Funkcje hotspotu i tetheringu pozwalają zapewnić połączenie z internetem innym urządzeniom za pomocą Wi-Fi lub komórkowego połączenia transmisji danych. Aplikacje mogą też utworzyć hotspot, by udostępniać treści urządzeniom w pobliżu."</string>
@@ -2458,8 +2439,7 @@
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="1830189632458752698">"Tekst o dużym kontraście"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_summary" msgid="5286411556836346180">"Zmień kolor tekstu na czarny lub biały. Spowoduje to ustawienie maksymalnego kontrastu względem tła."</string>
     <string name="accessibility_notification_high_contrast_text_title" msgid="2297915407152953323">"Popraw kontrast tekstu"</string>
-    <!-- no translation found for accessibility_notification_high_contrast_text_body_message (6846453833480117658) -->
-    <skip />
+    <string name="accessibility_notification_high_contrast_text_body_message" msgid="6846453833480117658">"Tekst o dużym kontraście został zastąpiony tekstem z konturem. Możesz włączyć tę funkcję w sekcji <xliff:g id="SETTINGS">%1$s</xliff:g>."</string>
     <string name="accessibility_notification_high_contrast_text_action_open_settings" msgid="5945069315472850294">"Otwórz <xliff:g id="SETTINGS">%1$s</xliff:g>"</string>
     <string name="accessibility_toggle_maximize_text_contrast_preference_title" msgid="8848579943445806659">"Dodaj kontur tekstu"</string>
     <string name="accessibility_toggle_maximize_text_contrast_preference_summary" msgid="8200408691846666900">"Dodawaj czarne lub białe tło wokół tekstu, aby zwiększyć kontrast"</string>
@@ -3157,34 +3137,25 @@
     <string name="data_usage_uninstalled_apps_users" msgid="1262228664057122983">"Usunięte aplikacje i użytkownicy"</string>
     <string name="wifi_metered_title" msgid="6623732965268033931">"Użycie sieci"</string>
     <string name="data_usage_metered_yes" msgid="4262598072030135223">"Pomiar użycia danych"</string>
-    <!-- no translation found for vpn_name (1119885022967213297) -->
-    <skip />
+    <string name="vpn_name" msgid="1119885022967213297">"Nazwa*"</string>
     <string name="vpn_type" msgid="5533202873260826663">"Typ"</string>
-    <!-- no translation found for vpn_server (5771717512763639505) -->
-    <skip />
-    <!-- no translation found for vpn_ipsec_identifier (6976476088030400883) -->
-    <skip />
-    <!-- no translation found for vpn_ipsec_secret (3110033645671775202) -->
-    <skip />
+    <string name="vpn_server" msgid="5771717512763639505">"Adres serwera*"</string>
+    <string name="vpn_ipsec_identifier" msgid="6976476088030400883">"Identyfikator IPSec*"</string>
+    <string name="vpn_ipsec_secret" msgid="3110033645671775202">"Klucz PSK IPSec*"</string>
     <string name="vpn_ipsec_user_cert" msgid="2714372103705048405">"Certyfikat użytkownika IPSec"</string>
     <string name="vpn_ipsec_ca_cert" msgid="5558498943577474987">"Certyfikat CA IPSec"</string>
     <string name="vpn_ipsec_server_cert" msgid="1411390470454731396">"Certyfikat serwera IPSec"</string>
     <string name="vpn_show_options" msgid="6105437733943318667">"Opcje zaawansowane"</string>
-    <!-- no translation found for vpn_username_optional (8564310631984689947) -->
-    <skip />
-    <!-- no translation found for vpn_password_optional (1255147723869461543) -->
-    <skip />
-    <!-- no translation found for vpn_username_required (1808631251331232149) -->
-    <skip />
-    <!-- no translation found for vpn_password_required (1916107706318825437) -->
-    <skip />
+    <string name="vpn_username_optional" msgid="8564310631984689947">"Nazwa użytkownika (opcjonalnie)"</string>
+    <string name="vpn_password_optional" msgid="1255147723869461543">"Hasło (opcjonalnie)"</string>
+    <string name="vpn_username_required" msgid="1808631251331232149">"Nazwa użytkownika*"</string>
+    <string name="vpn_password_required" msgid="1916107706318825437">"Hasło*"</string>
     <string name="vpn_save_login" msgid="5986762519977472618">"Zapisz informacje o koncie"</string>
     <string name="vpn_not_used" msgid="7229312881336083354">"(nieużywane)"</string>
     <string name="vpn_no_ca_cert" msgid="3687379414088677735">"(nie weryfikuj serwera)"</string>
     <string name="vpn_no_server_cert" msgid="8106540968643125407">"(odebrany z serwera)"</string>
     <string name="vpn_always_on_invalid_reason_other" msgid="4571905303713233321">"Podane informacje nie umożliwiają obsługi stałej sieci VPN"</string>
-    <!-- no translation found for vpn_field_required (582849543970781302) -->
-    <skip />
+    <string name="vpn_field_required" msgid="582849543970781302">"* wymagane"</string>
     <string name="vpn_cancel" msgid="5929410618112404383">"Anuluj"</string>
     <string name="vpn_done" msgid="5137858784289564985">"Zamknij"</string>
     <string name="vpn_save" msgid="683868204634860888">"Zapisz"</string>
@@ -3415,8 +3386,7 @@
     <string name="color_orange" msgid="216547825489739010">"Pomarańczowy"</string>
     <string name="color_purple" msgid="6603701972079904843">"Fioletowy"</string>
     <string name="sim_status_title" msgid="6188770698037109774">"Stan karty SIM"</string>
-    <!-- no translation found for sim_status_title_sim_slot (5421926522479103027) -->
-    <skip />
+    <string name="sim_status_title_sim_slot" msgid="5421926522479103027">"Stan karty SIM (gniazdo SIM %1$d)"</string>
     <string name="sim_signal_strength" msgid="6351052821700294501">"<xliff:g id="DBM">%1$d</xliff:g> dBm <xliff:g id="ASU">%2$d</xliff:g> asu"</string>
     <string name="sim_notification_title" msgid="6839556577405929262">"Karty SIM zostały zmienione"</string>
     <string name="sim_notification_summary" msgid="5593339846307029991">"Dotknij, by skonfigurować"</string>
@@ -3631,7 +3601,7 @@
     <string name="zen_mode_not_found_text" msgid="692090778655810329">"Nie znaleziono trybu"</string>
     <string name="zen_mode_slice_subtitle" msgid="6849372107272604160">"Ograniczanie powiadomień"</string>
     <string name="zen_mode_setup_page_summary" msgid="7568908001205193154">"Blokuj przerwy i czynniki rozpraszające"</string>
-    <string name="zen_mode_setup_button_label" msgid="1959984133767361374">"Skonfiguruj <xliff:g id="MODE">%1$s</xliff:g>"</string>
+    <string name="zen_mode_setup_button_label" msgid="1959984133767361374">"Skonfiguruj tryb <xliff:g id="MODE">%1$s</xliff:g>"</string>
     <string name="zen_mode_settings_turn_on_dialog_title" msgid="7500702838426404527">"Włącz tryb Nie przeszkadzać"</string>
     <string name="zen_mode_behavior_alarms_only" msgid="2956938533859578315">"Dźwięki alarmów i multimediów mogą ignorować tryb Nie przeszkadzać"</string>
     <string name="zen_mode_automation_settings_title" msgid="3709324184191870926">"Harmonogramy"</string>
@@ -4451,7 +4421,8 @@
     <string name="disconnected" msgid="3469373726996129247">"Brak połączenia"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"Nie podłączono"</string>
     <string name="apps_summary" msgid="4007416751775414252">"Zainstalowane aplikacje: <xliff:g id="COUNT">%1$d</xliff:g>"</string>
-    <string name="storage_summary" msgid="7631468664968572688">"<xliff:g id="PERCENTAGE">%1$s</xliff:g> zajęte – <xliff:g id="FREE_SPACE_VALUE">%2$s</xliff:g> <xliff:g id="FREE_SPACE_UNITS">%3$s</xliff:g> wolne"</string>
+    <!-- no translation found for storage_toplevel_summary (6708203706751754934) -->
+    <skip />
     <string name="display_dashboard_summary" msgid="1599453894989339454">"Ciemny motyw, rozmiar czcionki, jasność"</string>
     <string name="memory_summary" msgid="8221954450951651735">"Średnie wykorzystanie pamięci: <xliff:g id="USED_MEMORY">%1$s</xliff:g> z <xliff:g id="TOTAL_MEMORY">%2$s</xliff:g>"</string>
     <string name="users_summary" msgid="8473589474976307510">"Zalogowany użytkownik: <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
@@ -5074,13 +5045,16 @@
     <string name="roaming_alert_title" msgid="9052791521868787985">"Zezwalać na roaming danych?"</string>
     <string name="roaming_check_price_warning" msgid="5876977438036791361">"Aby poznać ceny, skontaktuj się z operatorem."</string>
     <string name="mobile_network_mode_error" msgid="9222056129897416074">"Nieprawidłowy tryb sieci <xliff:g id="NETWORKMODEID">%1$d</xliff:g>. Ignoruj."</string>
-    <string name="satellite_setting_title" msgid="2543034229989047673">"Przesyłanie wiadomości przez satelitę"</string>
+    <!-- no translation found for satellite_setting (4650503806634496443) -->
+    <skip />
     <string name="satellite_setting_enabled_summary" msgid="3554127722727530845">"Wysyłanie i odbieranie SMS-ów przez satelitę. Twoje konto obejmuje tę funkcję."</string>
     <string name="satellite_setting_disabled_summary" msgid="8428393986403708690">"Wysyłanie i odbieranie SMS-ów przez satelitę. Twoje konto tego nie obejmuje."</string>
     <string name="satellite_setting_summary_without_entitlement" msgid="5284998840770992554">"Wysyłaj i odbieraj SMS-y przez satelitę. Aby uzyskać szczegółowe informacje, skontaktuj się z operatorem."</string>
     <string name="keywords_satellite_setting" msgid="613553612424945946">"przesyłanie wiadomości przez satelitę, łączność satelitarna"</string>
-    <string name="category_name_about_satellite_messaging" msgid="4978095955643523120">"<xliff:g id="SUBJECT">%1$s</xliff:g> – informacje"</string>
-    <string name="title_about_satellite_setting" msgid="3563087940535642558">"Możesz wymieniać wiadomości przez satelitę w ramach odpowiedniego konta u operatora <xliff:g id="CARRIER_NAME">%1$s</xliff:g>"</string>
+    <!-- no translation found for category_name_about_satellite_connectivity (3971142716898783631) -->
+    <skip />
+    <!-- no translation found for description_about_satellite_setting (5539359064330584941) -->
+    <skip />
     <string name="category_title_your_satellite_plan" msgid="8169426217950247126">"Twoje konto <xliff:g id="CARRIER_NAME">%1$s</xliff:g>"</string>
     <string name="title_have_satellite_plan" msgid="2048372355699977947">"Twoje konto obejmuje funkcję przesyłania wiadomości przez satelitę"</string>
     <string name="title_no_satellite_plan" msgid="2876056203035197505">"Twoje konto nie obejmuje funkcji przesyłania wiadomości przez satelitę"</string>
@@ -5096,10 +5070,12 @@
     <string name="summary_supported_service_for_manual_type" msgid="2147958362763058271">"Gdy telefon się połączy, będzie można wysyłać SMS-y do dowolnych odbiorców, w tym do służb ratunkowych."</string>
     <string name="satellite_setting_summary_more_information" msgid="276312352285564071">"Połączenie satelitarne może być wolniejsze i jest dostępne tylko w niektórych regionach. Pogoda i inne czynniki mogą wpływać na połączenie. Połączenia przez satelitę są niedostępne. Nadal można nawiązywać połączenia alarmowe.\n\nZmiany dotyczące konta mogą być widoczne w Ustawieniach dopiero po pewnym czasie. Aby uzyskać szczegółowe informacje, skontaktuj się z operatorem <xliff:g id="CARRIER_NAME">%1$s</xliff:g>."</string>
     <string name="satellite_setting_summary_more_information_no_emergency_messaging" msgid="2090170250936862158">"Połączenie satelitarne może być wolniejsze i jest dostępne tylko w niektórych regionach. Pogoda i inne czynniki mogą wpływać na połączenie. Połączenia przez satelitę są niedostępne. Nadal można wykonywać połączenia alarmowe. Wysyłanie SMS-ów do służb ratunkowych może nie być dostępne we wszystkich regionach.\n\nZmiany dotyczące konta mogą być widoczne w Ustawieniach dopiero po pewnym czasie. Aby uzyskać szczegółowe informacje, skontaktuj się z operatorem <xliff:g id="CARRIER_NAME">%1$s</xliff:g>."</string>
-    <string name="more_about_satellite_messaging" msgid="1039277943532711584">"<xliff:g id="SUBJECT">%1$s</xliff:g> – więcej informacji"</string>
+    <!-- no translation found for more_about_satellite_messaging (5358981088419444073) -->
+    <skip />
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"Nie można włączyć funkcji <xliff:g id="FUNCTION">%1$s</xliff:g>"</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"Aby włączyć funkcję <xliff:g id="FUNCTION">%1$s</xliff:g>, najpierw zakończ połączenie satelitarne"</string>
-    <string name="category_title_satellite_connectivity" msgid="7540022356863917632">"Łączność satelitarna"</string>
+    <!-- no translation found for category_title_satellite_connectivity (7740500012311192133) -->
+    <skip />
     <string name="title_satellite_setting_connectivity" msgid="488626710934668313">"Łączność satelitarna"</string>
     <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"łączność satelitarna"</string>
     <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"Przesyłanie wiadomości przez satelitę"</string>
@@ -5300,10 +5276,8 @@
     <string name="enable_16k_app_compat_details" msgid="5382562613011853452">"Po włączeniu tego ustawienia aplikacja zostanie zatrzymana i uruchomiona w trybie zgodności z rozmiarem strony 16 KB na urządzeniu."</string>
     <string name="stop_app_dlg_title" msgid="3153921585174512587">"Zatrzymać aplikację?"</string>
     <string name="stop_app_dlg_text" msgid="4373849065005318901">"Aplikacja zostanie zatrzymana, aby zastosować ustawienie zgodności z rozmiarem strony."</string>
-    <!-- no translation found for error_pending_updates (7196832772265874760) -->
-    <skip />
-    <!-- no translation found for error_ota_failed (4762376085470989653) -->
-    <skip />
+    <string name="error_pending_updates" msgid="7196832772265874760">"Nie udało się zaktualizować jądra systemu. Sprawdź i zainstaluj oczekujące aktualizacje."</string>
+    <string name="error_ota_failed" msgid="4762376085470989653">"Nie udało się zaktualizować jądra systemu. Podczas stosowania aktualizacji OTA wystąpił błąd."</string>
     <string name="bug_report_handler_title" msgid="713439959113250125">"Obsługiwanie zgłaszania błędów"</string>
     <string name="bug_report_handler_picker_footer_text" msgid="4935758328366585673">"Określa, która aplikacja ma obsługiwać skrót do zgłaszania błędów na urządzeniu."</string>
     <string name="personal_profile_app_subtext" msgid="5586060806997067676">"Osobista"</string>
@@ -5784,15 +5758,20 @@
     <string name="supervision_change_pin_preference_title" msgid="2288584039438231801">"Zmień kod PIN"</string>
     <string name="supervision_add_forgot_pin_preference_title" msgid="8939945404255748516">"Nie pamiętam kodu PIN"</string>
     <string name="supervision_web_content_filters_title" msgid="3653430162065686156">"Filtry treści z internetu"</string>
-    <!-- no translation found for supervision_web_content_filters_browser_title (979037187423952892) -->
+    <string name="supervision_web_content_filters_browser_title" msgid="979037187423952892">"Google Chrome i internet"</string>
+    <string name="supervision_web_content_filters_browser_block_explicit_sites_title" msgid="7923982596891796260">"Próbuj blokować witryny dla dorosłych"</string>
+    <string name="supervision_web_content_filters_browser_block_explicit_sites_summary" msgid="1477766506765966613">"Żaden filtr nie jest doskonały, ale większość witryn zawierających treści o charakterze jednoznacznie seksualnym powinno być zablokowanych."</string>
+    <string name="supervision_web_content_filters_browser_allow_all_sites_title" msgid="3909739592466381845">"Zezwól na otwieranie wszystkich witryn"</string>
+    <!-- no translation found for supervision_web_content_filters_search_title (726335318009305564) -->
     <skip />
-    <!-- no translation found for supervision_web_content_filters_browser_block_explicit_sites_title (7923982596891796260) -->
+    <!-- no translation found for supervision_web_content_filters_search_filter_on_title (4855846261141136285) -->
     <skip />
-    <!-- no translation found for supervision_web_content_filters_browser_block_explicit_sites_summary (1477766506765966613) -->
+    <!-- no translation found for supervision_web_content_filters_search_filter_on_summary (1162258144140293269) -->
     <skip />
-    <!-- no translation found for supervision_web_content_filters_browser_allow_all_sites_title (3909739592466381845) -->
+    <!-- no translation found for supervision_web_content_filters_search_filter_off_title (6049461395304222346) -->
     <skip />
-    <!-- no translation found for supervision_full_screen_pin_verification_title (78513043528333399) -->
+    <!-- no translation found for supervision_web_content_filters_search_filter_off_summary (3834238970190924433) -->
     <skip />
+    <string name="supervision_full_screen_pin_verification_title" msgid="78513043528333399">"Wpisz kod PIN nadzoru"</string>
     <string name="accessibility_illustration_content_description" msgid="557376174860150903">"Animacja <xliff:g id="FEATURE">%1$s</xliff:g>"</string>
 </resources>

@@ -41,12 +41,9 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"Σε αναστολή"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"Άγνωστη"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"Προεπισκόπηση"</string>
-    <!-- no translation found for preview_pager_home_content_description (3961399947853424786) -->
-    <skip />
-    <!-- no translation found for preview_pager_message_content_description (3018855090807833755) -->
-    <skip />
-    <!-- no translation found for preview_pager_email_content_description (100055784235660338) -->
-    <skip />
+    <string name="preview_pager_home_content_description" msgid="3961399947853424786">"Προεπισκόπηση αρχικής οθόνης"</string>
+    <string name="preview_pager_message_content_description" msgid="3018855090807833755">"Προεπισκόπηση μηνύματος"</string>
+    <string name="preview_pager_email_content_description" msgid="100055784235660338">"Προεπισκόπηση μηνύματος ηλεκτρονικού ταχυδρομείου"</string>
     <string name="qr_code_content_description" msgid="1852208464419291347">"Κωδικός QR"</string>
     <string name="preview_pager_previous_button" msgid="607771113300838313">"Προηγούμενη προεπισκόπηση"</string>
     <string name="preview_pager_next_button" msgid="8700907912508927271">"Επόμενη προεπισκόπηση"</string>
@@ -222,12 +219,10 @@
     <string name="desc_introduction_of_language_picker" msgid="4012265379885200083">"Η συσκευή, οι εφαρμογές και οι ιστότοποί σας χρησιμοποιούν την πρώτη υποστηριζόμενη γλώσσα από τη λίστα προτιμώμενων γλωσσών σας.\n\nΠολλές εφαρμογές θα χρησιμοποιούν επίσης την περιοχή από την προτιμώμενη γλώσσα σας για να μορφοποιήσουν ημερομηνίες, αριθμούς και μονάδες. Για να αλλάξετε την περιοχή σας, προσθέστε μια γλώσσα και, στη συνέχεια, επιλέξτε την περιοχή που προτιμάτε."</string>
     <string name="desc_notice_of_language_picker" msgid="3449290526457925447">"Για να επιλέξετε μια γλώσσα για κάθε εφαρμογή, μεταβείτε στις ρυθμίσεις γλώσσας εφαρμογών."</string>
     <string name="desc_locale_helper_footer_general" msgid="6112153921151780303">"Μάθετε περισσότερα σχετικά με τις γλώσσες εφαρμογών"</string>
-    <!-- no translation found for title_change_system_region (9196602029960380112) -->
-    <skip />
+    <string name="title_change_system_region" msgid="9196602029960380112">"Αλλαγή περιοχής σε %s;"</string>
     <string name="desc_notice_device_region_change" msgid="6702773189066944100">"Η συσκευή σας θα διατηρήσει τα %s ως γλώσσα συστήματος"</string>
     <string name="desc_notice_device_region_change_for_preferred_language" msgid="408517366942324267">"Η περιοχή %1$s θα αντικαταστήσει την περιοχή %2$s στις προτιμώμενες γλώσσες"</string>
-    <!-- no translation found for title_change_system_locale (4102991236063984803) -->
-    <skip />
+    <string name="title_change_system_locale" msgid="4102991236063984803">"Αλλαγή γλώσσας συστήματος σε %s;"</string>
     <string name="title_system_locale_addition" msgid="8218683660751479466">"Να προστεθούν τα %s στις προτιμώμενες γλώσσες;"</string>
     <string name="desc_system_locale_addition" msgid="3409917362651596070">"Έτσι οι εφαρμογές και οι ιστότοποι θα γνωρίζουν ότι προτιμάτε και αυτήν τη γλώσσα."</string>
     <string name="desc_notice_device_locale_settings_change" msgid="8311132485850714160">"Οι ρυθμίσεις συσκευής και οι προτιμήσεις περιοχής σας θα αλλάξουν."</string>
@@ -244,8 +239,7 @@
     <string name="search_region_hint" msgid="1748708432568237552">"Αναζήτηση περιοχών"</string>
     <string name="top_intro_region_title" msgid="2336323415395642117">"Η περιοχή που επιλέγετε επηρεάζει τον τρόπο με τον οποίο το τηλέφωνό σας εμφανίζει την ώρα, τις ημερομηνίες, τη θερμοκρασία και άλλα"</string>
     <string name="more_language_settings_category" msgid="3669703092480725416">"Περισσότερες ρυθμίσεις γλώσσας"</string>
-    <!-- no translation found for title_change_system_locale_region (4401478579429442695) -->
-    <skip />
+    <string name="title_change_system_locale_region" msgid="4401478579429442695">"Αλλαγή περιοχής σε <xliff:g id="SYSTEM_LANGUAGE_REGION">%1$s</xliff:g>;"</string>
     <string name="body_change_system_locale_region" msgid="9064318449821043189">"Η συσκευή θα διατηρήσει τα <xliff:g id="SYSTEM_LANGUAGE">%1$s</xliff:g> ως γλώσσα συστήματος"</string>
     <string name="top_intro_numbering_system_title" msgid="3962000662073238392">"Επιλέξτε τον τρόπο με τον οποίο η συσκευή, οι ιστότοποι και οι εφαρμογές σας εμφανίζουν τους αριθμούς"</string>
     <string name="regional_preferences_title" msgid="4304567374498629528">"Προτιμήσεις περιοχής"</string>
@@ -270,8 +264,10 @@
     <string name="title_regional_pref_footer" msgid="7450438024324794380">"Αν μια εφαρμογή δεν υποστηρίζει τις προτιμήσεις περιοχής, θα χρησιμοποιήσει τις προεπιλεγμένες τοπικές ρυθμίσεις."</string>
     <string name="desc_regional_pref_footer_learn_more" msgid="4401708653329230081">"Μάθετε περισσότερα σχετικά με τις προτιμήσεις γλώσσας."</string>
     <string name="metric_measurement_system" msgid="7489725697268321541">"Μετρικό"</string>
-    <string name="us_measurement_system" msgid="8738587232938189052">"Αγγλοσαξονικό (ΗΠΑ)"</string>
-    <string name="uk_measurement_system" msgid="4196897001775627597">"Αγγλοσαξονικό (ΗΒ)"</string>
+    <!-- no translation found for us_measurement_system (8406695347890345490) -->
+    <skip />
+    <!-- no translation found for uk_measurement_system (1814065008707689505) -->
+    <skip />
     <string name="category_title_terms_of_address" msgid="4309422700380895278">"Επιπλέον προτιμήσεις"</string>
     <string name="terms_of_address_title" msgid="7338630812197476808">"Επιλέξτε τον τρόπο προσφώνησής σας"</string>
     <string name="terms_of_address_summary" msgid="7802443422612600620">"Η συσκευή σας μπορεί να εξατομικεύσει τον τρόπο προσφώνησής σας"</string>
@@ -365,8 +361,7 @@
     <string name="safety_center_summary" msgid="3554867379951053869">"Ασφάλεια εφαρμογής, κλείδωμα συσκευής, άδειες"</string>
     <string name="security_settings_face_preference_summary" msgid="6675126437396914838">"Προστέθηκε πρόσωπο"</string>
     <string name="security_settings_face_preference_summary_none" msgid="523320857738436024">"Απαιτείται ρύθμιση"</string>
-    <!-- no translation found for security_settings_face_preference_summary_none_new (1963253146734002815) -->
-    <skip />
+    <string name="security_settings_face_preference_summary_none_new" msgid="1963253146734002815">"Προσθήκη προσώπου"</string>
     <string name="security_settings_face_preference_title_new" msgid="7680231874730796331">"Πρόσωπο"</string>
     <string name="security_settings_face_profile_preference_title_new" msgid="685550153608106166">"Πρόσωπο για επαγγελματική χρήση"</string>
     <string name="private_space_face_unlock_title_new" msgid="2079622608951402509">"Πρόσωπο για ιδιωτικό χώρο"</string>
@@ -449,8 +444,7 @@
     <string name="fingerprint_add_title" msgid="1837610443487902050">"Προσθήκη δακτ. αποτυπώματος"</string>
     <string name="security_settings_fingerprint_preference_summary" msgid="8486134175759676037">"{count,plural, =1{Προστέθηκε δακτυλικό αποτύπωμα}other{Προστέθηκαν # δακτυλικά αποτυπώματα}}"</string>
     <string name="security_settings_fingerprint_preference_summary_none" msgid="1146977379031250790">"Απαιτείται ρύθμιση"</string>
-    <!-- no translation found for security_settings_fingerprint_preference_summary_none_new (510376523784190149) -->
-    <skip />
+    <string name="security_settings_fingerprint_preference_summary_none_new" msgid="510376523784190149">"Προσθήκη δακτυλικού αποτυπώματος"</string>
     <string name="security_settings_fingerprint_enroll_introduction_title" msgid="7931650601996313070">"Ρύθμιση δακτυλικού αποτυπώματος"</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title" msgid="2278592030102282364">"Επιτρέπεται ξεκλ. δακτ. αποτ."</string>
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled" msgid="1911710308293783998">"Χρήση δακτυλικού αποτυπώματος"</string>
@@ -806,8 +800,7 @@
     <string name="face_unlock_skip_face" msgid="189695556498300008">"Συνέχεια χωρίς Ξεκλείδωμα με το πρόσωπο"</string>
     <string name="biometrics_unlock_skip_biometrics" msgid="7399882488272450182">"Συνέχεια χωρίς δακτυλικό αποτύπωμα ή πρόσωπο"</string>
     <string name="unlock_set_unlock_mode_off" msgid="4632139864722236359">"Κανένα"</string>
-    <!-- no translation found for unlock_set_unlock_mode_off_new (865396805830816266) -->
-    <skip />
+    <string name="unlock_set_unlock_mode_off_new" msgid="865396805830816266">"Προσθήκη PIN, μοτίβου, κωδ. πρόσβ. ή σύρματος"</string>
     <string name="unlock_set_unlock_mode_none" msgid="5596049938457028214">"Ολίσθηση"</string>
     <string name="unlock_set_unlock_mode_pattern" msgid="1926480143883094896">"Μοτίβο"</string>
     <string name="unlock_set_unlock_mode_pin" msgid="9028659554829888373">"PIN"</string>
@@ -946,10 +939,16 @@
     <string name="bluetooth_scanning_on_info_message" msgid="786648535600075223">"Όταν είναι ενεργό το Bluetooth, η συσκευή σας μπορεί να επικοινωνεί με άλλες κοντινές συσκευές Bluetooth.\n\nΓια τη βελτίωση της εμπειρίας χρήσης της συσκευής, οι εφαρμογές και οι υπηρεσίες μπορούν ακόμα να πραγματοποιούν σάρωση για συσκευές σε κοντινή απόσταση ανά πάσα στιγμή, ακόμα και όταν το Bluetooth είναι απενεργοποιημένο. Αυτή η λειτουργία μπορεί να χρησιμοποιηθεί, για παράδειγμα, για τη βελτίωση λειτουργιών και υπηρεσιών που εκτελούνται βάσει τοποθεσίας. Μπορείτε να αλλάξετε αυτή την επιλογή στις ρυθμίσεις σάρωσης Bluetooth."</string>
     <string name="bluetooth_scanning_on_info_message_auto_on_available" msgid="7792443293031247638">"Όταν είναι ενεργοποιημένο το Bluetooth, η συσκευή σας μπορεί να επικοινωνεί με άλλες συσκευές Bluetooth σε κοντινή απόσταση. Λειτουργίες όπως το Quick Share και η Εύρεση συσκευής χρησιμοποιούν το Bluetooth.\n\nΟι εφαρμογές και οι υπηρεσίες μπορούν ακόμα να πραγματοποιούν σάρωση για συσκευές σε κοντινή απόσταση ανά πάσα στιγμή, ακόμα και όταν το Bluetooth είναι απενεργοποιημένο. Αυτό μπορεί να χρησιμοποιηθεί, για παράδειγμα, για τη βελτίωση λειτουργιών και υπηρεσιών που εκτελούνται βάσει τοποθεσίας. Μπορείτε να αλλάξετε αυτή την επιλογή στις ρυθμίσεις σάρωσης Bluetooth."</string>
     <string name="bluetooth_scan_change" msgid="1744636222637390367">"Αλλαγή"</string>
-    <string name="bluetooth_key_missing_title" msgid="7799054163548353853">"Η συσκευή <xliff:g id="DEVICE_NAME">%1$s</xliff:g> δεν έχει συνδεθεί"</string>
-    <string name="bluetooth_key_missing_message" msgid="2388861106663695319">"Για την ασφάλειά σας, καταργήστε τη σύζευξη αυτής της συσκευής και στη συνέχεια πραγματοποιήστε ξανά τη σύζευξή της"</string>
+    <!-- no translation found for bluetooth_key_missing_title (8462010102528132965) -->
+    <skip />
+    <!-- no translation found for bluetooth_key_missing_message (3188093580372443815) -->
+    <skip />
     <string name="bluetooth_key_missing_forget" msgid="4692006517823001013">"Κατάργηση σύζευξης συσκευής"</string>
     <string name="bluetooth_key_missing_cancel" msgid="2482416446357804371">"Ακύρωση"</string>
+    <!-- no translation found for bluetooth_key_missing_device_settings (5512091368141961890) -->
+    <skip />
+    <!-- no translation found for bluetooth_key_missing_close (6724520133374312040) -->
+    <skip />
     <string name="device_details_title" msgid="1155622417516195481">"Λεπτομέρειες συσκευής"</string>
     <string name="bluetooth_device_keyboard_settings_preference_title" msgid="3411693160917620519">"Ρυθμίσεις πληκτρολογίου"</string>
     <string name="bluetooth_device_more_settings_preference_title" msgid="6034482566541746500">"Περισσότερες ρυθμίσεις"</string>
@@ -964,6 +963,8 @@
     <string name="device_details_leaudio_toggle_summary" msgid="7684848254433230809">"Πειραματικό. Βελτιώνει την ποιότ. ήχου."</string>
     <string name="device_details_battery" msgid="5466987755790847884">"Μπαταρία"</string>
     <string name="device_details_battery_charging" msgid="3464969346075775143">"Μπαταρία, φόρτιση"</string>
+    <!-- no translation found for device_details_key_missing_title (3568401701538114387) -->
+    <skip />
     <string name="bluetooth_unpair_dialog_forget_confirm_button" msgid="9184489424930549015">"Κατάργηση απομνημόνευσης συσκευής"</string>
     <string name="bluetooth_companion_app_remove_association_confirm_button" msgid="76323555527926915">"Αποσύνδεση εφαρμογής"</string>
     <string name="device_details_more_settings" msgid="950302792331611271">"Περισσότερες ρυθμίσεις"</string>
@@ -1076,8 +1077,7 @@
     <string name="wifi_show_advanced" msgid="2969378109942071741">"Σύνθετες επιλογές"</string>
     <string name="wifi_advanced_toggle_description" msgid="7299179796727934885">"Σύνθετες επιλογές αναπτυσσόμενης λίστας"</string>
     <string name="wifi_advanced_toggle_description_collapsed" msgid="3615140699129928913">"ανάπτυξη"</string>
-    <!-- no translation found for wifi_ssid (5139273830867723030) -->
-    <skip />
+    <string name="wifi_ssid" msgid="5139273830867723030">"Όνομα δικτύου*"</string>
     <string name="wifi_ssid_hint" msgid="1940577553241083524">"Πληκτρολογήστε το SSID"</string>
     <string name="wifi_security" msgid="9095934643631406913">"Ασφάλεια"</string>
     <string name="wifi_hidden_network" msgid="6466834025375485596">"Κρυφό δίκτυο"</string>
@@ -1100,10 +1100,10 @@
     <string name="wifi_eap_user_cert" msgid="3569182430929173220">"Πιστοποιητικό χρήστη"</string>
     <string name="wifi_eap_identity" msgid="3629406902174137028">"Ταυτότητα"</string>
     <string name="wifi_eap_anonymous" msgid="8630332141751267000">"Ανώνυμη ταυτότητα"</string>
-    <!-- no translation found for wifi_password (165204973532996861) -->
+    <string name="wifi_password" msgid="165204973532996861">"Κωδικός πρόσβασης*"</string>
+    <!-- no translation found for wifi_password_optional (6770706664834070705) -->
     <skip />
-    <!-- no translation found for wifi_password_invalid (8884500804472828356) -->
-    <skip />
+    <string name="wifi_password_invalid" msgid="8884500804472828356">"Ο κωδικός πρόσβασης δεν είναι έγκυρος"</string>
     <string name="wifi_show_password" msgid="6865993988238157923">"Εμφάνιση κωδικού πρόσβασης"</string>
     <string name="wifi_ap_choose_2G" msgid="1436802195991542016">"Ζώνη 2,4 GHz"</string>
     <string name="wifi_ap_prefer_5G" msgid="2520628479818369902">"Προτιμάται ζώνη 5,0 GHz"</string>
@@ -1169,8 +1169,7 @@
     <string name="wifi_scan_always_turn_on_message_unknown" msgid="4903345360745717385">"Για βελτ. της ακρίβειας τοποθ. και για άλλους σκοπούς, μια άγνωστη εφαρ. θέλει να ενεργ. τη σάρωση δικτύου ακόμη και όταν το Wi‑Fi είναι απενεργ.\n\nΝα επιτρέπ. για όλες τις εφαρ. που θέλουν να σαρώσουν;"</string>
     <string name="wifi_scan_always_confirm_allow" msgid="4154200627800959777">"Να επιτρέπεται"</string>
     <string name="wifi_scan_always_confirm_deny" msgid="6997087934558839256">"Απόρριψη"</string>
-    <!-- no translation found for wifi_field_required (6312381745503042588) -->
-    <skip />
+    <string name="wifi_field_required" msgid="6312381745503042588">"*απαιτείται"</string>
     <string name="no_internet_access_text" msgid="3611993143350310936">"Αυτό το δίκτυο δεν έχει πρόσβαση στο διαδίκτυο. Θέλετε να παραμείνετε συνδεδεμένοι;"</string>
     <string name="partial_connectivity_text" msgid="8874614799723694554">"Κάποιες εφαρμογές/υπηρεσίες ίσως να μην λειτουργούν με περιορισμένη συνδεσιμότητα. Χρήση αυτού;"</string>
     <string name="no_internet_access_remember" msgid="5113610157731269258">"Να μην ερωτηθώ ξανά γι\' αυτό το δίκτυο"</string>
@@ -1601,21 +1600,13 @@
     <string name="battery_level_title" msgid="1371765298786083448">"Επίπεδο μπαταρίας"</string>
     <string name="communal_settings_title" msgid="2845678473945902115">"Κοινόχρηστες"</string>
     <string name="communal_settings_summary" msgid="4923914136953940317">"Κοινόχρηστες ρυθμίσεις"</string>
-    <!-- no translation found for hub_mode_category_title (5290081595872103974) -->
-    <skip />
-    <!-- no translation found for widgets_on_lockscreen_title (6979558402208585885) -->
-    <skip />
-    <!-- no translation found for when_to_auto_show_hubmode_title (2307148913387518369) -->
-    <skip />
-    <!-- no translation found for when_to_show_hubmode_never (976644329215156021) -->
-    <skip />
-    <!-- no translation found for when_to_show_hubmode_charging (1874391105066805128) -->
-    <skip />
-    <!-- no translation found for when_to_show_hubmode_charging_and_upright (6293947459712755814) -->
-    <skip />
-    <!-- no translation found for when_to_show_hubmode_docked (7107631545009933891) -->
-    <skip />
-    <string name="satellite_setting" msgid="4171265534842459910">"Ανταλλαγή μηνυμάτων μέσω δορυφόρου"</string>
+    <string name="hub_mode_category_title" msgid="5290081595872103974">"Λειτουργία Hub"</string>
+    <string name="widgets_on_lockscreen_title" msgid="6979558402208585885">"Γραφικά στοιχεία στην οθόνη κλειδώματος"</string>
+    <string name="when_to_auto_show_hubmode_title" msgid="2307148913387518369">"Πότε να εμφανίζεται αυτόματα"</string>
+    <string name="when_to_show_hubmode_never" msgid="976644329215156021">"Ποτέ"</string>
+    <string name="when_to_show_hubmode_charging" msgid="1874391105066805128">"Κατά τη φόρτιση"</string>
+    <string name="when_to_show_hubmode_charging_and_upright" msgid="6293947459712755814">"Κατά τη φόρτιση και σε όρθια θέση"</string>
+    <string name="when_to_show_hubmode_docked" msgid="7107631545009933891">"Κατά τη σύνδεση σε βάση"</string>
     <string name="apn_settings" msgid="4295467389400441299">"APN"</string>
     <string name="apn_edit" msgid="2003683641840248741">"Επεξ/σία σημ. πρόσβ."</string>
     <string name="apn_add" msgid="9069613192201630934">"Προσθήκη σημείου πρόσβασης"</string>
@@ -1723,16 +1714,11 @@
     <string name="tether_preference_summary_off" msgid="6266799346319794630">"Ανενεργό"</string>
     <string name="usb_tethering_button_text" msgid="7364633823180913777">"Σύνδεση με USB"</string>
     <string name="bluetooth_tether_checkbox_text" msgid="6108398414967813545">"Σύνδεση με Bluetooth"</string>
-    <!-- no translation found for ethernet_ip_address (4218340787862242573) -->
-    <skip />
-    <!-- no translation found for ethernet_mac_address_title (3235879195237611007) -->
-    <skip />
-    <!-- no translation found for tx_ethernet_speed (4785035505065551012) -->
-    <skip />
-    <!-- no translation found for rx_ethernet_speed (6642000569214969711) -->
-    <skip />
-    <!-- no translation found for ethernet_network_usage (3795965384177426780) -->
-    <skip />
+    <string name="ethernet_ip_address" msgid="4218340787862242573">"Διεύθυνση IP"</string>
+    <string name="ethernet_mac_address_title" msgid="3235879195237611007">"Διεύθυνση MAC"</string>
+    <string name="tx_ethernet_speed" msgid="4785035505065551012">"Ταχύτητα συνδέσμου συγκοινωνίας"</string>
+    <string name="rx_ethernet_speed" msgid="6642000569214969711">"Ταχύτητα λήψης συνδέσμου"</string>
+    <string name="ethernet_network_usage" msgid="3795965384177426780">"Χρήση δικτύου"</string>
     <string name="ethernet_tether_checkbox_text" msgid="959743110824197356">"Σύνδεση Ethernet"</string>
     <string name="tethering_footer_info" msgid="6824352505979800594">"Χρησιμοποιήστε το σημείο πρόσβασης Wi-Fi και τη σύνδεση, για να παρέχετε σύνδεση στο διαδίκτυο σε άλλες συσκευές, μέσω της σύνδεσης δεδομένων που χρησιμοποιείτε. Οι εφαρμογές μπορούν επίσης να δημιουργούν ένα σημείο πρόσβασης Wi-Fi, για να μοιράζονται περιεχόμενο με συσκευές σε κοντινή απόσταση."</string>
     <string name="tethering_footer_info_sta_ap_concurrency" msgid="2079039077487477676">"Χρησιμοποιήστε το σημείο πρόσβασης Wi-Fi και τη σύνδεση, για να παρέχετε σύνδεση στο διαδίκτυο σε άλλες συσκευές, μέσω του δικτύου Wi-Fi ή της σύνδεσης δεδομένων κινητής τηλεφωνίας που χρησιμοποιείτε. Οι εφαρμογές μπορούν επίσης να δημιουργούν ένα σημείο πρόσβασης Wi-Fi, για να μοιράζονται περιεχόμενο με κοντινές συσκευές."</string>
@@ -4431,7 +4417,8 @@
     <string name="disconnected" msgid="3469373726996129247">"Μη συνδεδεμένο"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"Μη συνδεδεμένο"</string>
     <string name="apps_summary" msgid="4007416751775414252">"Εγκαταστάθηκαν <xliff:g id="COUNT">%1$d</xliff:g> εφαρμογές"</string>
-    <string name="storage_summary" msgid="7631468664968572688">"<xliff:g id="PERCENTAGE">%1$s</xliff:g> σε χρήση - <xliff:g id="FREE_SPACE_VALUE">%2$s</xliff:g> <xliff:g id="FREE_SPACE_UNITS">%3$s</xliff:g> ελεύθερα"</string>
+    <!-- no translation found for storage_toplevel_summary (6708203706751754934) -->
+    <skip />
     <string name="display_dashboard_summary" msgid="1599453894989339454">"Σκούρο θέμα, μέγεθος γραμματοσειράς, φωτεινότητα"</string>
     <string name="memory_summary" msgid="8221954450951651735">"Χρησιμοποιείται κατά μέσο όρο <xliff:g id="USED_MEMORY">%1$s</xliff:g> από <xliff:g id="TOTAL_MEMORY">%2$s</xliff:g> μνήμης"</string>
     <string name="users_summary" msgid="8473589474976307510">"Συνδέθηκε ως <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
@@ -5054,13 +5041,16 @@
     <string name="roaming_alert_title" msgid="9052791521868787985">"Να επιτρέπεται η περιαγωγή δεδομένων;"</string>
     <string name="roaming_check_price_warning" msgid="5876977438036791361">"Επικοινωνήστε με τον πάροχο του δικτύου για πληροφορίες σχετικά με τις τιμές."</string>
     <string name="mobile_network_mode_error" msgid="9222056129897416074">"Μη έγκυρη λειτουργία δικτύου <xliff:g id="NETWORKMODEID">%1$d</xliff:g>. Παράβλεψη."</string>
-    <string name="satellite_setting_title" msgid="2543034229989047673">"Ανταλλαγή μηνυμάτων μέσω δορυφόρου"</string>
+    <!-- no translation found for satellite_setting (4650503806634496443) -->
+    <skip />
     <string name="satellite_setting_enabled_summary" msgid="3554127722727530845">"Στείλτε και λάβετε μηνύματα κειμένου μέσω δορυφόρου. Περιλαμβάνεται στον λογαριασμό σας."</string>
     <string name="satellite_setting_disabled_summary" msgid="8428393986403708690">"Στείλτε και λάβετε μηνύματα κειμένου μέσω δορυφόρου. Δεν περιλαμβάνεται στον λογαριασμό σας."</string>
     <string name="satellite_setting_summary_without_entitlement" msgid="5284998840770992554">"Στείλτε και λάβετε μηνύματα κειμένου μέσω δορυφόρου. Επικοινωνήστε με την εταιρεία κινητής τηλεφωνίας που χρησιμοποιείτε για λεπτομέρειες."</string>
     <string name="keywords_satellite_setting" msgid="613553612424945946">"Ανταλλαγή μηνυμάτων μέσω δορυφόρου, δορυφορική συνδεσιμότητα"</string>
-    <string name="category_name_about_satellite_messaging" msgid="4978095955643523120">"Σχετικά με τη λειτουργία <xliff:g id="SUBJECT">%1$s</xliff:g>"</string>
-    <string name="title_about_satellite_setting" msgid="3563087940535642558">"Μπορείτε να στέλνετε και να λαμβάνετε μηνύματα κειμένου μέσω δορυφόρου με έναν κατάλληλο λογαριασμό <xliff:g id="CARRIER_NAME">%1$s</xliff:g>"</string>
+    <!-- no translation found for category_name_about_satellite_connectivity (3971142716898783631) -->
+    <skip />
+    <!-- no translation found for description_about_satellite_setting (5539359064330584941) -->
+    <skip />
     <string name="category_title_your_satellite_plan" msgid="8169426217950247126">"Ο λογαριασμός σας <xliff:g id="CARRIER_NAME">%1$s</xliff:g>"</string>
     <string name="title_have_satellite_plan" msgid="2048372355699977947">"Η ανταλλαγή μηνυμάτων μέσω δορυφόρου συμπεριλαμβάνεται στον λογαριασμό σας"</string>
     <string name="title_no_satellite_plan" msgid="2876056203035197505">"Η ανταλλαγή μηνυμάτων μέσω δορυφόρου δεν συμπεριλαμβάνεται στον λογαριασμό σας"</string>
@@ -5076,10 +5066,12 @@
     <string name="summary_supported_service_for_manual_type" msgid="2147958362763058271">"Αφού συνδεθεί το τηλέφωνό σας, μπορείτε να στέλνετε μηνύματα σε οποιονδήποτε, συμπεριλαμβανομένων των υπηρεσιών έκτακτης ανάγκης."</string>
     <string name="satellite_setting_summary_more_information" msgid="276312352285564071">"Η δορυφορική σύνδεση είναι διαθέσιμη μόνο σε ορισμένες περιοχές και μπορεί να είναι πιο αργή. Ο καιρός και ορισμένες κατασκευές μπορεί να επηρεάσουν τη σύνδεση. Η πραγματοποίηση κλήσεων μέσω δορυφόρου δεν είναι διαθέσιμη. Η σύνδεση για κλήσεις έκτακτης ανάγκης μπορεί να εξακολουθεί να είναι δυνατή.\n\nΕνδέχεται να χρειαστεί λίγος χρόνος μέχρι να εμφανιστούν οι αλλαγές λογαριασμού στις Ρυθμίσεις. Για λεπτομέρειες, επικοινωνήστε με τον πάροχο <xliff:g id="CARRIER_NAME">%1$s</xliff:g>."</string>
     <string name="satellite_setting_summary_more_information_no_emergency_messaging" msgid="2090170250936862158">"Η δορυφορική σύνδεση είναι διαθέσιμη μόνο σε ορισμένες περιοχές και μπορεί να είναι πιο αργή. Ο καιρός και ορισμένες κατασκευές μπορεί να επηρεάσουν τη σύνδεση. Η πραγματοποίηση κλήσεων μέσω δορυφόρου δεν είναι διαθέσιμη. Η σύνδεση για κλήσεις έκτακτης ανάγκης μπορεί να εξακολουθεί να είναι δυνατή. Η επικοινωνία μέσω μηνυμάτων με τις υπηρεσίες έκτακτης ανάγκης μπορεί να μην είναι διαθέσιμη σε όλες τις περιοχές.\n\nΕνδέχεται να χρειαστεί λίγος χρόνος μέχρι να εμφανιστούν οι αλλαγές λογαριασμού στις Ρυθμίσεις. Για λεπτομέρειες, επικοινωνήστε με τον πάροχο <xliff:g id="CARRIER_NAME">%1$s</xliff:g>."</string>
-    <string name="more_about_satellite_messaging" msgid="1039277943532711584">"Περισσότερα για τη λειτουργία <xliff:g id="SUBJECT">%1$s</xliff:g>"</string>
+    <!-- no translation found for more_about_satellite_messaging (5358981088419444073) -->
+    <skip />
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"Δεν είναι δυνατή η ενεργοποίηση της επιλογής <xliff:g id="FUNCTION">%1$s</xliff:g>"</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"Για να ενεργοποιήσετε την επιλογή <xliff:g id="FUNCTION">%1$s</xliff:g>, αρχικά τερματίστε τη σύνδεση μέσω δορυφόρου"</string>
-    <string name="category_title_satellite_connectivity" msgid="7540022356863917632">"Δορυφορική συνδεσιμότητα"</string>
+    <!-- no translation found for category_title_satellite_connectivity (7740500012311192133) -->
+    <skip />
     <string name="title_satellite_setting_connectivity" msgid="488626710934668313">"Δορυφορική συνδεσιμότητα"</string>
     <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"δορυφορική συνδεσιμότητα"</string>
     <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"ανταλλαγή μηνυμάτων μέσω δορυφόρου"</string>
@@ -5280,10 +5272,8 @@
     <string name="enable_16k_app_compat_details" msgid="5382562613011853452">"Η εφαρμογή θα διακοπεί και θα εκτελείται σε λειτουργία συμβατότητας με μέγεθος σελίδας σε συσκευή 16 KB, όταν γίνεται εναλλαγή."</string>
     <string name="stop_app_dlg_title" msgid="3153921585174512587">"Διακοπή εφαρμογής;"</string>
     <string name="stop_app_dlg_text" msgid="4373849065005318901">"Η εφαρμογή θα διακοπεί για να εφαρμοστεί η ρύθμιση συμβατότητας με μέγεθος σελίδας."</string>
-    <!-- no translation found for error_pending_updates (7196832772265874760) -->
-    <skip />
-    <!-- no translation found for error_ota_failed (4762376085470989653) -->
-    <skip />
+    <string name="error_pending_updates" msgid="7196832772265874760">"Η ενημέρωση του πυρήνα απέτυχε. Ελέγξτε και εγκαταστήστε τυχόν ενημερώσεις σε εκκρεμότητα."</string>
+    <string name="error_ota_failed" msgid="4762376085470989653">"Η ενημέρωση του πυρήνα απέτυχε. Παρουσιάστηκε σφάλμα κατά την εφαρμογή της ασύρματης ενημέρωσης."</string>
     <string name="bug_report_handler_title" msgid="713439959113250125">"Χειρισμός Αναφοράς σφάλματος"</string>
     <string name="bug_report_handler_picker_footer_text" msgid="4935758328366585673">"Καθορίζει ποια εφαρμογή διαχειρίζεται τη συντόμευση της Αναφοράς σφάλματος στη συσκευή σας."</string>
     <string name="personal_profile_app_subtext" msgid="5586060806997067676">"Προσωπικό"</string>
@@ -5413,7 +5403,7 @@
     <string name="multiple_users_main_switch_title" msgid="9158796544835843201">"Να επιτρέπεται η εναλλαγή χρήστη"</string>
     <string name="multiple_users_main_switch_keywords" msgid="4845954458094134356">"επιτρέπεται, πολλαπλοί, χρήστες, άδεια, πολλοί"</string>
     <string name="multiple_users_title_keywords" msgid="2395593167746225172">"πολλά, χρήστες, προφίλ, άτομα, λογαριασμοί, αλλαγή, πολλοί"</string>
-    <string name="wireless_debugging_main_switch_title" msgid="8463499572781441719">"Χρήση ασύρματου εντοπισμού σφαλμάτων"</string>
+    <string name="wireless_debugging_main_switch_title" msgid="8463499572781441719">"Χρήση ασύρματου αποσφαλμάτωσης"</string>
     <string name="graphics_driver_main_switch_title" msgid="6125172901855813790">"Χρήση προτιμήσεων προγράμματος οδήγησης γραφικών"</string>
     <string name="night_light_main_switch_title" msgid="3428298022467805219">"Χρήση Νυχτερινού φωτισμού"</string>
     <string name="nfc_main_switch_title" msgid="6295839988954817432">"Χρήση NFC"</string>
@@ -5432,10 +5422,8 @@
     <string name="smart_forwarding_input_mdn_dialog_title" msgid="7542216086697868415">"Εισαγωγή αριθμού τηλεφώνου"</string>
     <string name="smart_forwarding_missing_mdn_text" msgid="2907314684242542226">"Ο αριθμός τηλεφώνου απουσιάζει."</string>
     <string name="smart_forwarding_missing_alert_dialog_text" msgid="7870419247987316112">"ΟΚ"</string>
-    <!-- no translation found for enable_2g_title (5657132300321750181) -->
-    <skip />
-    <!-- no translation found for enable_2g_summary (6317192326100541563) -->
-    <skip />
+    <string name="enable_2g_title" msgid="5657132300321750181">"Προστασία δικτύου 2G"</string>
+    <string name="enable_2g_summary" msgid="6317192326100541563">"Αποφεύγονται τα δίκτυα 2G, τα οποία είναι λιγότερο ασφαλή. Η συνδεσιμότητα σε ορισμένα μέρη μπορεί να περιοριστεί. Οι κλήσεις έκτακτης ανάγκης επιτρέπονται πάντα."</string>
     <string name="enable_2g_summary_disabled_carrier" msgid="8141118453219482762">"Το <xliff:g id="CARRIER_NAME_2G">%1$s</xliff:g> απαιτεί τη διαθεσιμότητα 2G"</string>
     <string name="require_cellular_encryption_title" msgid="6087085031703089235">"Επιτρέπονται μόνο κρυπτογραφημένα δίκτυα"</string>
     <string name="require_cellular_encryption_summary" msgid="6090569065420631457">"Αυτή η ρύθμιση είναι πιο ασφαλής, αλλά μπορεί να περιορίσει τη σύνδεση του δικτύου κινητής τηλεφωνίας σε ορισμένες τοποθεσίες. Οι κλήσεις έκτακτης ανάγκης επιτρέπονται πάντα."</string>
@@ -5762,15 +5750,20 @@
     <string name="supervision_change_pin_preference_title" msgid="2288584039438231801">"Αλλαγή PIN"</string>
     <string name="supervision_add_forgot_pin_preference_title" msgid="8939945404255748516">"Ξέχασα το PIN"</string>
     <string name="supervision_web_content_filters_title" msgid="3653430162065686156">"Φίλτρα περιεχομένου ιστού"</string>
-    <!-- no translation found for supervision_web_content_filters_browser_title (979037187423952892) -->
+    <string name="supervision_web_content_filters_browser_title" msgid="979037187423952892">"Google Chrome και ιστός"</string>
+    <string name="supervision_web_content_filters_browser_block_explicit_sites_title" msgid="7923982596891796260">"Απόπειρα αποκλεισμού ιστοτόπων με άσεμνο περιεχόμενο"</string>
+    <string name="supervision_web_content_filters_browser_block_explicit_sites_summary" msgid="1477766506765966613">"Κανένα φίλτρο δεν είναι τέλειο, ωστόσο το συγκεκριμένο θα βοηθήσει στην απόκρυψη ιστοτόπων με σεξουαλικό περιεχόμενο"</string>
+    <string name="supervision_web_content_filters_browser_allow_all_sites_title" msgid="3909739592466381845">"Να επιτρέπονται όλοι οι ιστότοποι"</string>
+    <!-- no translation found for supervision_web_content_filters_search_title (726335318009305564) -->
     <skip />
-    <!-- no translation found for supervision_web_content_filters_browser_block_explicit_sites_title (7923982596891796260) -->
+    <!-- no translation found for supervision_web_content_filters_search_filter_on_title (4855846261141136285) -->
     <skip />
-    <!-- no translation found for supervision_web_content_filters_browser_block_explicit_sites_summary (1477766506765966613) -->
+    <!-- no translation found for supervision_web_content_filters_search_filter_on_summary (1162258144140293269) -->
     <skip />
-    <!-- no translation found for supervision_web_content_filters_browser_allow_all_sites_title (3909739592466381845) -->
+    <!-- no translation found for supervision_web_content_filters_search_filter_off_title (6049461395304222346) -->
     <skip />
-    <!-- no translation found for supervision_full_screen_pin_verification_title (78513043528333399) -->
+    <!-- no translation found for supervision_web_content_filters_search_filter_off_summary (3834238970190924433) -->
     <skip />
+    <string name="supervision_full_screen_pin_verification_title" msgid="78513043528333399">"Εισαγωγή PIN επίβλεψης"</string>
     <string name="accessibility_illustration_content_description" msgid="557376174860150903">"Κινούμενη εικόνα <xliff:g id="FEATURE">%1$s</xliff:g>"</string>
 </resources>

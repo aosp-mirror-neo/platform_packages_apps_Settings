@@ -247,7 +247,7 @@ public class FaceSafetySourceTest {
         assertSafetySourceEnabledDataSetWithSingularSummary(
                 "security_settings_face_preference_title_new",
                 "security_settings_face_preference_summary_none_new",
-                BiometricEnrollActivity.class.getName());
+                BiometricEnrollActivity.InternalActivity.class.getName());
     }
 
     @Test

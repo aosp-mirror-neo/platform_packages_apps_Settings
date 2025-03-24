@@ -16,7 +16,11 @@
 
 package com.android.settings.network.telephony.satellite;
 
-import static com.android.settings.core.BasePreferenceController.AVAILABLE;
+import static android.telephony.CarrierConfigManager.CARRIER_ROAMING_NTN_CONNECT_MANUAL;
+import static android.telephony.CarrierConfigManager.KEY_CARRIER_ROAMING_NTN_CONNECT_TYPE_INT;
+import static android.telephony.CarrierConfigManager.KEY_SATELLITE_ENTITLEMENT_SUPPORTED_BOOL;
+
+import static com.android.settings.core.BasePreferenceController.AVAILABLE_UNSEARCHABLE;
 import static com.android.settings.core.BasePreferenceController.CONDITIONALLY_UNAVAILABLE;
 import static com.android.settings.network.telephony.satellite.SatelliteAppListCategoryController.MAXIMUM_OF_PREFERENCE_AMOUNT;
 
@@ -31,6 +35,7 @@ import android.content.Context;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
 import android.os.Looper;
+import android.os.PersistableBundle;
 import android.platform.test.annotations.EnableFlags;
 
 import androidx.preference.PreferenceCategory;
@@ -39,7 +44,6 @@ import androidx.preference.PreferenceScreen;
 import androidx.test.core.app.ApplicationProvider;
 
 import com.android.internal.telephony.flags.Flags;
-import com.android.settings.network.SatelliteRepository;
 
 import org.junit.Before;
 import org.junit.Rule;
@@ -48,25 +52,23 @@ import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnit;
 import org.mockito.junit.MockitoRule;
 
-import java.util.Collections;
 import java.util.List;
 
 public class SatelliteAppListCategoryControllerTest {
     @Rule
     public final MockitoRule mMockitoRule = MockitoJUnit.rule();
 
+    private static final int TEST_SUB_ID = 0;
     private static final List<String> PACKAGE_NAMES = List.of("com.android.settings",
             "com.android.apps.messaging", "com.android.dialer", "com.android.systemui");
     private static final String KEY = "SatelliteAppListCategoryControllerTest";
 
     @Mock
     private PackageManager mPackageManager;
-    @Mock
-    private SatelliteRepository mRepository;
 
     private Context mContext;
     private SatelliteAppListCategoryController mController;
-
+    private PersistableBundle mPersistableBundle = new PersistableBundle();
 
     @Before
     public void setUp() {
@@ -75,16 +77,28 @@ public class SatelliteAppListCategoryControllerTest {
         }
         mContext = spy(ApplicationProvider.getApplicationContext());
         when(mContext.getPackageManager()).thenReturn(mPackageManager);
+        mPersistableBundle.putInt(KEY_CARRIER_ROAMING_NTN_CONNECT_TYPE_INT,
+                CARRIER_ROAMING_NTN_CONNECT_MANUAL);
+        mPersistableBundle.putBoolean(KEY_SATELLITE_ENTITLEMENT_SUPPORTED_BOOL, false);
     }
 
     @Test
     @EnableFlags(Flags.FLAG_SATELLITE_25Q4_APIS)
     public void displayPreference_has4SatSupportedApps_showMaxPreference() throws Exception {
-        when(mRepository.getSatelliteDataOptimizedApps()).thenReturn(PACKAGE_NAMES);
         when(mPackageManager.getApplicationInfoAsUser(any(), anyInt(), anyInt())).thenReturn(
                 new ApplicationInfo());
-        mController = new SatelliteAppListCategoryController(mContext, KEY);
-        mController.init(mRepository);
+        mController = new SatelliteAppListCategoryController(mContext, KEY) {
+            @Override
+            protected boolean isSatelliteEligible() {
+                return true;
+            }
+
+            @Override
+            protected List<String> getSatelliteDataOptimizedApps() {
+                return PACKAGE_NAMES;
+            }
+        };
+        mController.init(TEST_SUB_ID, mPersistableBundle, true, true);
         PreferenceManager preferenceManager = new PreferenceManager(mContext);
         PreferenceScreen preferenceScreen = preferenceManager.createPreferenceScreen(mContext);
         PreferenceCategory category = new PreferenceCategory(mContext);
@@ -100,25 +114,107 @@ public class SatelliteAppListCategoryControllerTest {
     @Test
     @EnableFlags(Flags.FLAG_SATELLITE_25Q4_APIS)
     public void getAvailabilityStatus_hasSatSupportedApps_returnAvailable() {
-        when(mRepository.getSatelliteDataOptimizedApps()).thenReturn(PACKAGE_NAMES);
-        mController = new SatelliteAppListCategoryController(mContext, KEY);
-        mController.init(mRepository);
+        mController = new SatelliteAppListCategoryController(mContext, KEY) {
+            @Override
+            protected boolean isSatelliteEligible() {
+                return true;
+            }
 
-        int result = mController.getAvailabilityStatus();
+            @Override
+            protected List<String> getSatelliteDataOptimizedApps() {
+                return PACKAGE_NAMES;
+            }
+        };
+        mController.init(TEST_SUB_ID, mPersistableBundle, true, true);
 
-        assertThat(result).isEqualTo(AVAILABLE);
+        int result = mController.getAvailabilityStatus(TEST_SUB_ID);
+
+        assertThat(result).isEqualTo(AVAILABLE_UNSEARCHABLE);
     }
 
     @Test
     @EnableFlags(Flags.FLAG_SATELLITE_25Q4_APIS)
     public void getAvailabilityStatus_noSatSupportedApps_returnUnavailable() {
-        List<String> packageNames = Collections.emptyList();
-        when(mRepository.getSatelliteDataOptimizedApps()).thenReturn(packageNames);
-        mController = new SatelliteAppListCategoryController(mContext, KEY);
-        mController.init(mRepository);
+        mController = new SatelliteAppListCategoryController(mContext, KEY) {
+            @Override
+            protected boolean isSatelliteEligible() {
+                return true;
+            }
 
-        int result = mController.getAvailabilityStatus();
+            @Override
+            protected List<String> getSatelliteDataOptimizedApps() {
+                return List.of();
+            }
+        };
+        mController.init(TEST_SUB_ID, mPersistableBundle, true, true);
+
+        int result = mController.getAvailabilityStatus(TEST_SUB_ID);
 
         assertThat(result).isEqualTo(CONDITIONALLY_UNAVAILABLE);
+    }
+
+    @Test
+    @EnableFlags(Flags.FLAG_SATELLITE_25Q4_APIS)
+    public void getAvailabilityStatus_dataUnavailable_returnUnavailable() {
+        mController = new SatelliteAppListCategoryController(mContext, KEY) {
+            @Override
+            protected boolean isSatelliteEligible() {
+                return true;
+            }
+
+            @Override
+            protected List<String> getSatelliteDataOptimizedApps() {
+                return PACKAGE_NAMES;
+            }
+        };
+        mController.init(TEST_SUB_ID, mPersistableBundle, true, false);
+
+        int result = mController.getAvailabilityStatus(TEST_SUB_ID);
+
+        assertThat(result).isEqualTo(CONDITIONALLY_UNAVAILABLE);
+    }
+
+    @Test
+    @EnableFlags(Flags.FLAG_SATELLITE_25Q4_APIS)
+    public void getAvailabilityStatus_entitlementSupportedButAccountIneligible_returnUnavailable() {
+        mPersistableBundle.putBoolean(KEY_SATELLITE_ENTITLEMENT_SUPPORTED_BOOL, true);
+        mController = new SatelliteAppListCategoryController(mContext, KEY) {
+            @Override
+            protected boolean isSatelliteEligible() {
+                return false;
+            }
+
+            @Override
+            protected List<String> getSatelliteDataOptimizedApps() {
+                return PACKAGE_NAMES;
+            }
+        };
+        mController.init(TEST_SUB_ID, mPersistableBundle, true, true);
+
+        int result = mController.getAvailabilityStatus(TEST_SUB_ID);
+
+        assertThat(result).isEqualTo(CONDITIONALLY_UNAVAILABLE);
+    }
+
+    @Test
+    @EnableFlags(Flags.FLAG_SATELLITE_25Q4_APIS)
+    public void getAvailabilityStatus_entitlementSupportedAndAccountEligible_returnAvailable() {
+        mPersistableBundle.putBoolean(KEY_SATELLITE_ENTITLEMENT_SUPPORTED_BOOL, true);
+        mController = new SatelliteAppListCategoryController(mContext, KEY) {
+            @Override
+            protected boolean isSatelliteEligible() {
+                return true;
+            }
+
+            @Override
+            protected List<String> getSatelliteDataOptimizedApps() {
+                return PACKAGE_NAMES;
+            }
+        };
+        mController.init(TEST_SUB_ID, mPersistableBundle, true, true);
+
+        int result = mController.getAvailabilityStatus(TEST_SUB_ID);
+
+        assertThat(result).isEqualTo(AVAILABLE_UNSEARCHABLE);
     }
 }

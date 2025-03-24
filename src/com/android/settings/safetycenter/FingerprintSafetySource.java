@@ -78,7 +78,7 @@ public final class FingerprintSafetySource {
             boolean isMultipleBiometricsEnrollmentNeeded =
                     BiometricSourcesUtils.isMultipleBiometricsEnrollmentNeeded(context, userId);
             String settingClassName = isMultipleBiometricsEnrollmentNeeded
-                            ? BiometricEnrollActivity.class.getName()
+                            ? BiometricEnrollActivity.InternalActivity.class.getName()
                             : fingerprintStatusUtils.getSettingsClassName();
             RestrictedLockUtils.EnforcedAdmin disablingAdmin =
                     fingerprintStatusUtils.getDisablingAdmin();

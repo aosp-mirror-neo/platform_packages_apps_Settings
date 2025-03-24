@@ -41,12 +41,9 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"Dayandırılıb"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"Naməlum"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"Önizləmə"</string>
-    <!-- no translation found for preview_pager_home_content_description (3961399947853424786) -->
-    <skip />
-    <!-- no translation found for preview_pager_message_content_description (3018855090807833755) -->
-    <skip />
-    <!-- no translation found for preview_pager_email_content_description (100055784235660338) -->
-    <skip />
+    <string name="preview_pager_home_content_description" msgid="3961399947853424786">"Əsas ekrana önbaxış"</string>
+    <string name="preview_pager_message_content_description" msgid="3018855090807833755">"Mesaja önbaxış"</string>
+    <string name="preview_pager_email_content_description" msgid="100055784235660338">"E-poçta önbaxış"</string>
     <string name="qr_code_content_description" msgid="1852208464419291347">"QR kodu"</string>
     <string name="preview_pager_previous_button" msgid="607771113300838313">"Əvvəlki önizləmə"</string>
     <string name="preview_pager_next_button" msgid="8700907912508927271">"Növbəti önizləmə"</string>
@@ -222,12 +219,10 @@
     <string name="desc_introduction_of_language_picker" msgid="4012265379885200083">"Cihaz, tətbiq və veb-saytlar üstünlük verdiyiniz dil siyahısındakı ilk dəstəklənən dildən istifadə edir.\n\nBir çox tətbiq də tarix, nömrə və vahidləri formatlamaq üçün seçdiyiniz dil üzrə regiondan istifadə edəcək. Regionu dəyişmək üçün dil əlavə edin, sonra üstünlük verdiyiniz regionu seçin."</string>
     <string name="desc_notice_of_language_picker" msgid="3449290526457925447">"Hər tətbiqə dil seçmək üçün tətbiq dili ayarlarına keçin."</string>
     <string name="desc_locale_helper_footer_general" msgid="6112153921151780303">"Tətbiq dilləri haqqında daha ətraflı"</string>
-    <!-- no translation found for title_change_system_region (9196602029960380112) -->
-    <skip />
+    <string name="title_change_system_region" msgid="9196602029960380112">"Region %s olaraq dəyişilsin?"</string>
     <string name="desc_notice_device_region_change" msgid="6702773189066944100">"Cihazınız %s dilini sistem dili kimi saxlayacaq"</string>
     <string name="desc_notice_device_region_change_for_preferred_language" msgid="408517366942324267">"%1$s tərcih edilən dillərdə %2$s dilini əvəz edəcək"</string>
-    <!-- no translation found for title_change_system_locale (4102991236063984803) -->
-    <skip />
+    <string name="title_change_system_locale" msgid="4102991236063984803">"Sistem dili %s olaraq dəyişilsin?"</string>
     <string name="title_system_locale_addition" msgid="8218683660751479466">"%s tərcih edilən dillərə əlavə edilsin?"</string>
     <string name="desc_system_locale_addition" msgid="3409917362651596070">"Bununla tətbiq və veb-saytlar bu dili tərcih etdiyinizi bilir."</string>
     <string name="desc_notice_device_locale_settings_change" msgid="8311132485850714160">"Cihaz ayarları və regional tərcihlər dəyişəcək."</string>
@@ -244,8 +239,7 @@
     <string name="search_region_hint" msgid="1748708432568237552">"Bölgələri axtarın"</string>
     <string name="top_intro_region_title" msgid="2336323415395642117">"Seçdiyiniz bölgə telefonunuzun vaxt, tarix, temperatur və başqa məlumatları göstərmə qaydasına təsir edir"</string>
     <string name="more_language_settings_category" msgid="3669703092480725416">"Digər dil ayarları"</string>
-    <!-- no translation found for title_change_system_locale_region (4401478579429442695) -->
-    <skip />
+    <string name="title_change_system_locale_region" msgid="4401478579429442695">"Region <xliff:g id="SYSTEM_LANGUAGE_REGION">%1$s</xliff:g> olaraq dəyişilsin?"</string>
     <string name="body_change_system_locale_region" msgid="9064318449821043189">"Cihazınız <xliff:g id="SYSTEM_LANGUAGE">%1$s</xliff:g> dilini sistem dili kimi saxlayacaq"</string>
     <string name="top_intro_numbering_system_title" msgid="3962000662073238392">"Cihaz, veb-sayt və tətbiqlərin rəqəmləri necə göstərdiyini seçin"</string>
     <string name="regional_preferences_title" msgid="4304567374498629528">"Regional tərcihlər"</string>
@@ -270,8 +264,10 @@
     <string name="title_regional_pref_footer" msgid="7450438024324794380">"Tətbiq regional tərcihləri dəstəkləmirsə, defolt ayarlardan istifadə edəcək."</string>
     <string name="desc_regional_pref_footer_learn_more" msgid="4401708653329230081">"Dil tərcihləri haqqında ətraflı."</string>
     <string name="metric_measurement_system" msgid="7489725697268321541">"Metrik"</string>
-    <string name="us_measurement_system" msgid="8738587232938189052">"İmperial (ABŞ)"</string>
-    <string name="uk_measurement_system" msgid="4196897001775627597">"İmperial (BK)"</string>
+    <!-- no translation found for us_measurement_system (8406695347890345490) -->
+    <skip />
+    <!-- no translation found for uk_measurement_system (1814065008707689505) -->
+    <skip />
     <string name="category_title_terms_of_address" msgid="4309422700380895278">"Əlavə tərcihlər"</string>
     <string name="terms_of_address_title" msgid="7338630812197476808">"Sizə müraciət formasını seçin"</string>
     <string name="terms_of_address_summary" msgid="7802443422612600620">"Cihaz sizə müraciət formasını fərdiləşdirə bilər"</string>
@@ -365,8 +361,7 @@
     <string name="safety_center_summary" msgid="3554867379951053869">"Tətbiq təhlükəsizliyi, cihaz kilidi, icazələr"</string>
     <string name="security_settings_face_preference_summary" msgid="6675126437396914838">"Üz əlavə edildi"</string>
     <string name="security_settings_face_preference_summary_none" msgid="523320857738436024">"Ayarlamaq lazımdır"</string>
-    <!-- no translation found for security_settings_face_preference_summary_none_new (1963253146734002815) -->
-    <skip />
+    <string name="security_settings_face_preference_summary_none_new" msgid="1963253146734002815">"Üz əlavə edin"</string>
     <string name="security_settings_face_preference_title_new" msgid="7680231874730796331">"Üz"</string>
     <string name="security_settings_face_profile_preference_title_new" msgid="685550153608106166">"İş üçün üz"</string>
     <string name="private_space_face_unlock_title_new" msgid="2079622608951402509">"Şəxsi sahə üçün üz"</string>
@@ -449,8 +444,7 @@
     <string name="fingerprint_add_title" msgid="1837610443487902050">"Barmaq izi əlavə edin"</string>
     <string name="security_settings_fingerprint_preference_summary" msgid="8486134175759676037">"{count,plural, =1{Barmaq izi əlavə edildi}other{# barmaq izi əlavə edildi}}"</string>
     <string name="security_settings_fingerprint_preference_summary_none" msgid="1146977379031250790">"Ayarlamaq lazımdır"</string>
-    <!-- no translation found for security_settings_fingerprint_preference_summary_none_new (510376523784190149) -->
-    <skip />
+    <string name="security_settings_fingerprint_preference_summary_none_new" msgid="510376523784190149">"Barmaq izi əlavə edin"</string>
     <string name="security_settings_fingerprint_enroll_introduction_title" msgid="7931650601996313070">"Barmaq izi ayarlayın"</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title" msgid="2278592030102282364">"Barmaq izi ilə kiliddən çıxarmaya icazə verin"</string>
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled" msgid="1911710308293783998">"Barmaq izinizi istifadə edin"</string>
@@ -806,8 +800,7 @@
     <string name="face_unlock_skip_face" msgid="189695556498300008">"Üz ilə kiliddən çıxarma olmadan davam edin"</string>
     <string name="biometrics_unlock_skip_biometrics" msgid="7399882488272450182">"Barmaq izi və ya üz olmadan davam edin"</string>
     <string name="unlock_set_unlock_mode_off" msgid="4632139864722236359">"Heç biri"</string>
-    <!-- no translation found for unlock_set_unlock_mode_off_new (865396805830816266) -->
-    <skip />
+    <string name="unlock_set_unlock_mode_off_new" msgid="865396805830816266">"PIN, model, parol və ya çəkmə jesti əlavə edin"</string>
     <string name="unlock_set_unlock_mode_none" msgid="5596049938457028214">"Sürüşdürmə"</string>
     <string name="unlock_set_unlock_mode_pattern" msgid="1926480143883094896">"Qrafik açar"</string>
     <string name="unlock_set_unlock_mode_pin" msgid="9028659554829888373">"PİN"</string>
@@ -946,10 +939,16 @@
     <string name="bluetooth_scanning_on_info_message" msgid="786648535600075223">"Bluetooth aktiv olduqda cihaz yaxınlıqdakı digər Bluetooth cihazları ilə bağlantı qura bilər.\n\nCihaz təcrübəsini yaxşılaşdırmaq üçün tətbiq və xidmətlər hətta Bluetooth deaktiv olduqda belə istənilən vaxt yaxınlıqdakı cihazları skan edə bilər. Bu, məsələn, məkan əsaslı funksiya və xidmətləri yaxşılaşdırmaq üçün istifadə oluna bilər. Bunu Bluetooth skanlama ayarlarında dəyişə bilərsiniz."</string>
     <string name="bluetooth_scanning_on_info_message_auto_on_available" msgid="7792443293031247638">"Bluetooth aktiv olduqda cihaz yaxınlıqdakı Bluetooth cihazları ilə bağlantı qura bilər. Cəld Paylaşım və Cihazın Tapılması kimi funksiyalar Bluetooth istifadə edir.\n\nTətbiq və xidmətlər istənilən vaxt, hətta Bluetooth deaktiv olsa belə, yaxınlıqdakı cihazları skanlaya bilər. Bu, məsələn, məkan əsaslı funksiya və xidmətləri təkmilləşdirmək üçün istifadə edilə bilər. Bluetooth ilə skan ayarlarında bunu dəyişə bilərsiniz."</string>
     <string name="bluetooth_scan_change" msgid="1744636222637390367">"Dəyişin"</string>
-    <string name="bluetooth_key_missing_title" msgid="7799054163548353853">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> qoşulmayıb"</string>
-    <string name="bluetooth_key_missing_message" msgid="2388861106663695319">"Təhlükəsizliyiniz üçün bu cihazı unudun, sonra yenidən qoşun"</string>
+    <!-- no translation found for bluetooth_key_missing_title (8462010102528132965) -->
+    <skip />
+    <!-- no translation found for bluetooth_key_missing_message (3188093580372443815) -->
+    <skip />
     <string name="bluetooth_key_missing_forget" msgid="4692006517823001013">"Cihazı unudun"</string>
     <string name="bluetooth_key_missing_cancel" msgid="2482416446357804371">"Ləğv edin"</string>
+    <!-- no translation found for bluetooth_key_missing_device_settings (5512091368141961890) -->
+    <skip />
+    <!-- no translation found for bluetooth_key_missing_close (6724520133374312040) -->
+    <skip />
     <string name="device_details_title" msgid="1155622417516195481">"Cihaz məlumatları"</string>
     <string name="bluetooth_device_keyboard_settings_preference_title" msgid="3411693160917620519">"Klaviatura ayarları"</string>
     <string name="bluetooth_device_more_settings_preference_title" msgid="6034482566541746500">"Digər ayarlar"</string>
@@ -964,6 +963,8 @@
     <string name="device_details_leaudio_toggle_summary" msgid="7684848254433230809">"Təcrübi. Audio keyfiyyəti yaxşılaşır."</string>
     <string name="device_details_battery" msgid="5466987755790847884">"Batareya"</string>
     <string name="device_details_battery_charging" msgid="3464969346075775143">"Batareya, şarj edilir"</string>
+    <!-- no translation found for device_details_key_missing_title (3568401701538114387) -->
+    <skip />
     <string name="bluetooth_unpair_dialog_forget_confirm_button" msgid="9184489424930549015">"Cihazı unudun"</string>
     <string name="bluetooth_companion_app_remove_association_confirm_button" msgid="76323555527926915">"Tətbiqi ayırın"</string>
     <string name="device_details_more_settings" msgid="950302792331611271">"Digər ayarlar"</string>
@@ -1076,8 +1077,7 @@
     <string name="wifi_show_advanced" msgid="2969378109942071741">"Qabaqcıl seçimlər"</string>
     <string name="wifi_advanced_toggle_description" msgid="7299179796727934885">"Aşağıya açılan siyahı Qabaqcıl Seçimləri"</string>
     <string name="wifi_advanced_toggle_description_collapsed" msgid="3615140699129928913">"genişləndirin"</string>
-    <!-- no translation found for wifi_ssid (5139273830867723030) -->
-    <skip />
+    <string name="wifi_ssid" msgid="5139273830867723030">"Şəbəkə adı*"</string>
     <string name="wifi_ssid_hint" msgid="1940577553241083524">"SSID daxil edin"</string>
     <string name="wifi_security" msgid="9095934643631406913">"Güvənlik"</string>
     <string name="wifi_hidden_network" msgid="6466834025375485596">"Gizlədilmiş şəbəkə"</string>
@@ -1100,10 +1100,10 @@
     <string name="wifi_eap_user_cert" msgid="3569182430929173220">"İstifadəçi sertifikatı"</string>
     <string name="wifi_eap_identity" msgid="3629406902174137028">"İdentiklik"</string>
     <string name="wifi_eap_anonymous" msgid="8630332141751267000">"Anonim kimlik"</string>
-    <!-- no translation found for wifi_password (165204973532996861) -->
+    <string name="wifi_password" msgid="165204973532996861">"Parol*"</string>
+    <!-- no translation found for wifi_password_optional (6770706664834070705) -->
     <skip />
-    <!-- no translation found for wifi_password_invalid (8884500804472828356) -->
-    <skip />
+    <string name="wifi_password_invalid" msgid="8884500804472828356">"Parol yanlışdır"</string>
     <string name="wifi_show_password" msgid="6865993988238157923">"Parol görünsün"</string>
     <string name="wifi_ap_choose_2G" msgid="1436802195991542016">"2.4 GHz Diapazon"</string>
     <string name="wifi_ap_prefer_5G" msgid="2520628479818369902">"5.0 GHz Band tərcih edilir"</string>
@@ -1169,8 +1169,7 @@
     <string name="wifi_scan_always_turn_on_message_unknown" msgid="4903345360745717385">"Naməlum tətbiq məkan dəqiqliyini artırmaq və digər məqsədlər üçün hətta Wi‑Fi deaktiv olduqda belə şəbəkə axtarışını aktiv etmək istəyir.\n\nAxtarış etmək istəyən bütün tətbiqlər üçün buna icazə verilsin?"</string>
     <string name="wifi_scan_always_confirm_allow" msgid="4154200627800959777">"İcazə verin"</string>
     <string name="wifi_scan_always_confirm_deny" msgid="6997087934558839256">"Rədd edin"</string>
-    <!-- no translation found for wifi_field_required (6312381745503042588) -->
-    <skip />
+    <string name="wifi_field_required" msgid="6312381745503042588">"*tələb olunur"</string>
     <string name="no_internet_access_text" msgid="3611993143350310936">"Bu şəbəkənin internetə girişi yoxdur. Qoşulu qalsın?"</string>
     <string name="partial_connectivity_text" msgid="8874614799723694554">"Məhdud bağlantı səbəbindən bəzi tətbiq və xidmətlər işləməyə bilər. İstənilən halda istifadə edilsin?"</string>
     <string name="no_internet_access_remember" msgid="5113610157731269258">"Bu şəbəkə üçün daha soruşma"</string>
@@ -1601,21 +1600,13 @@
     <string name="battery_level_title" msgid="1371765298786083448">"Enerji səviyyəsi"</string>
     <string name="communal_settings_title" msgid="2845678473945902115">"Kommunal"</string>
     <string name="communal_settings_summary" msgid="4923914136953940317">"Kommunal ayarlar"</string>
-    <!-- no translation found for hub_mode_category_title (5290081595872103974) -->
-    <skip />
-    <!-- no translation found for widgets_on_lockscreen_title (6979558402208585885) -->
-    <skip />
-    <!-- no translation found for when_to_auto_show_hubmode_title (2307148913387518369) -->
-    <skip />
-    <!-- no translation found for when_to_show_hubmode_never (976644329215156021) -->
-    <skip />
-    <!-- no translation found for when_to_show_hubmode_charging (1874391105066805128) -->
-    <skip />
-    <!-- no translation found for when_to_show_hubmode_charging_and_upright (6293947459712755814) -->
-    <skip />
-    <!-- no translation found for when_to_show_hubmode_docked (7107631545009933891) -->
-    <skip />
-    <string name="satellite_setting" msgid="4171265534842459910">"Peyk vasitəsilə mesajlaşma"</string>
+    <string name="hub_mode_category_title" msgid="5290081595872103974">"Hab rejimi"</string>
+    <string name="widgets_on_lockscreen_title" msgid="6979558402208585885">"Kilid ekranındakı vidcetlər"</string>
+    <string name="when_to_auto_show_hubmode_title" msgid="2307148913387518369">"Nə zaman avtomatik göstərməli"</string>
+    <string name="when_to_show_hubmode_never" msgid="976644329215156021">"Heç vaxt"</string>
+    <string name="when_to_show_hubmode_charging" msgid="1874391105066805128">"Şarj edildikdə"</string>
+    <string name="when_to_show_hubmode_charging_and_upright" msgid="6293947459712755814">"Şarj edildikdə və dik vəziyyətdə ikən"</string>
+    <string name="when_to_show_hubmode_docked" msgid="7107631545009933891">"Doka taxılı ikən"</string>
     <string name="apn_settings" msgid="4295467389400441299">"APN-lər"</string>
     <string name="apn_edit" msgid="2003683641840248741">"Giriş nöqtəsinə düzəliş edin"</string>
     <string name="apn_add" msgid="9069613192201630934">"Giriş nöqtəsi əlavə edin"</string>
@@ -1723,16 +1714,11 @@
     <string name="tether_preference_summary_off" msgid="6266799346319794630">"Deaktiv"</string>
     <string name="usb_tethering_button_text" msgid="7364633823180913777">"USB-modem"</string>
     <string name="bluetooth_tether_checkbox_text" msgid="6108398414967813545">"Bluetooth-modem"</string>
-    <!-- no translation found for ethernet_ip_address (4218340787862242573) -->
-    <skip />
-    <!-- no translation found for ethernet_mac_address_title (3235879195237611007) -->
-    <skip />
-    <!-- no translation found for tx_ethernet_speed (4785035505065551012) -->
-    <skip />
-    <!-- no translation found for rx_ethernet_speed (6642000569214969711) -->
-    <skip />
-    <!-- no translation found for ethernet_network_usage (3795965384177426780) -->
-    <skip />
+    <string name="ethernet_ip_address" msgid="4218340787862242573">"IP ünvanı"</string>
+    <string name="ethernet_mac_address_title" msgid="3235879195237611007">"MAC ünvanı"</string>
+    <string name="tx_ethernet_speed" msgid="4785035505065551012">"Keçid ötürmə sürəti"</string>
+    <string name="rx_ethernet_speed" msgid="6642000569214969711">"Keçidin qəbulu sürəti"</string>
+    <string name="ethernet_network_usage" msgid="3795965384177426780">"Şəbəkə istifadəsi"</string>
     <string name="ethernet_tether_checkbox_text" msgid="959743110824197356">"Ethernet-modem"</string>
     <string name="tethering_footer_info" msgid="6824352505979800594">"Digər cihazları mobil internetlə təmin etmək üçün hotspot və modem rejimindən istifadə edin. Tətbiqlər kontent paylaşmaq üçün hotspot da yarada bilər."</string>
     <string name="tethering_footer_info_sta_ap_concurrency" msgid="2079039077487477676">"Digər cihazları mobil internetlə təmin etmək üçün hotspot və modem rejimini istifadə edin. Tətbiqlər kontent paylaşmaq üçün hotspot da yarada bilər."</string>
@@ -4431,7 +4417,8 @@
     <string name="disconnected" msgid="3469373726996129247">"Qoşulu deyil"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"Qoşulu deyil"</string>
     <string name="apps_summary" msgid="4007416751775414252">"<xliff:g id="COUNT">%1$d</xliff:g> tətbiq quraşdırıldı"</string>
-    <string name="storage_summary" msgid="7631468664968572688">"<xliff:g id="PERCENTAGE">%1$s</xliff:g> istifadə edilib - <xliff:g id="FREE_SPACE_VALUE">%2$s</xliff:g> <xliff:g id="FREE_SPACE_UNITS">%3$s</xliff:g> boşdur"</string>
+    <!-- no translation found for storage_toplevel_summary (6708203706751754934) -->
+    <skip />
     <string name="display_dashboard_summary" msgid="1599453894989339454">"Tünd tema, şrift ölçüsü, parlaqlıq"</string>
     <string name="memory_summary" msgid="8221954450951651735">"Ümumi <xliff:g id="TOTAL_MEMORY">%2$s</xliff:g> yaddaşdan ortalama <xliff:g id="USED_MEMORY">%1$s</xliff:g> yaddaş istifadə olunub"</string>
     <string name="users_summary" msgid="8473589474976307510">"<xliff:g id="USER_NAME">%1$s</xliff:g> kimi daxil olundu"</string>
@@ -5054,13 +5041,16 @@
     <string name="roaming_alert_title" msgid="9052791521868787985">"Data rominqə icazə verilsin?"</string>
     <string name="roaming_check_price_warning" msgid="5876977438036791361">"Qiymətlər üçün şəbəkə provayderi ilə yoxlayın."</string>
     <string name="mobile_network_mode_error" msgid="9222056129897416074">"Yanlış Şəbəkə Rejimi <xliff:g id="NETWORKMODEID">%1$d</xliff:g>. İqnor edin."</string>
-    <string name="satellite_setting_title" msgid="2543034229989047673">"Peyk vasitəsilə mesajlaşma"</string>
+    <!-- no translation found for satellite_setting (4650503806634496443) -->
+    <skip />
     <string name="satellite_setting_enabled_summary" msgid="3554127722727530845">"Peyk vasitəsilə mətn mesajları göndərin və qəbul edin. Hesaba daxil edilib."</string>
     <string name="satellite_setting_disabled_summary" msgid="8428393986403708690">"Peyk vasitəsilə mətn mesajları göndərin və qəbul edin. Hesabınıza daxil deyil."</string>
     <string name="satellite_setting_summary_without_entitlement" msgid="5284998840770992554">"Peyk vasitəsilə mətn mesajları göndərin və qəbul edin. Ətraflı məlumat üçün operator ilə əlaqə saxlayın."</string>
     <string name="keywords_satellite_setting" msgid="613553612424945946">"Peyk mesajlaşması, peyk bağlantısı"</string>
-    <string name="category_name_about_satellite_messaging" msgid="4978095955643523120">"<xliff:g id="SUBJECT">%1$s</xliff:g> haqqında"</string>
-    <string name="title_about_satellite_setting" msgid="3563087940535642558">"Uyğun <xliff:g id="CARRIER_NAME">%1$s</xliff:g> hesabı ilə peyk vasitəsilə mətn mesajları göndərə və qəbul edə bilərsiniz"</string>
+    <!-- no translation found for category_name_about_satellite_connectivity (3971142716898783631) -->
+    <skip />
+    <!-- no translation found for description_about_satellite_setting (5539359064330584941) -->
+    <skip />
     <string name="category_title_your_satellite_plan" msgid="8169426217950247126">"<xliff:g id="CARRIER_NAME">%1$s</xliff:g> hesabınız"</string>
     <string name="title_have_satellite_plan" msgid="2048372355699977947">"Peyk vasitəsilə mesajlaşma hesaba daxil edilib"</string>
     <string name="title_no_satellite_plan" msgid="2876056203035197505">"Peyk vasitəsilə mesajlaşma hesaba daxil edilməyib"</string>
@@ -5076,10 +5066,12 @@
     <string name="summary_supported_service_for_manual_type" msgid="2147958362763058271">"Telefonunuz qoşulduqdan sonra təcili xidmətlər də daxil olmaqla hər kəsə mesaj göndərə bilərsiniz."</string>
     <string name="satellite_setting_summary_more_information" msgid="276312352285564071">"Peyk bağlantısı daha asta ola bilər və yalnız bəzi ərazilərdə əlçatandır. Hava və müəyyən strukturlar bağlantıya təsir edə bilər. Peyk vasitəsilə zəng etmək əlçatan deyil. Təcili zənglər yenə qoşula bilər.\n\nHesab dəyişikliklərinin Ayarlarda görünməsi bir müddət çəkə bilər. Ətraflı məlumat üçün <xliff:g id="CARRIER_NAME">%1$s</xliff:g> ilə əlaqə saxlayın."</string>
     <string name="satellite_setting_summary_more_information_no_emergency_messaging" msgid="2090170250936862158">"Peyk bağlantısı daha asta ola bilər və yalnız bəzi ərazilərdə əlçatandır. Hava və müəyyən strukturlar bağlantıya təsir edə bilər. Peyk vasitəsilə zəng etmək əlçatan deyil. Təcili zənglər yenə də qoşula bilər. Təcili xidmətlər ilə mesajlaşmaq bütün ərazilərdə əlçatan olmaya bilər.\n\nHesab dəyişikliklərinin Ayarlarda göstərilməsi bir qədər vaxt apara bilər. Ətraflı məlumat üçün <xliff:g id="CARRIER_NAME">%1$s</xliff:g> ilə əlaqə saxlayın."</string>
-    <string name="more_about_satellite_messaging" msgid="1039277943532711584">"<xliff:g id="SUBJECT">%1$s</xliff:g> haqqında daha ətraflı"</string>
+    <!-- no translation found for more_about_satellite_messaging (5358981088419444073) -->
+    <skip />
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"<xliff:g id="FUNCTION">%1$s</xliff:g> funksiyasını yandırmaq olmur"</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"<xliff:g id="FUNCTION">%1$s</xliff:g> funksiyasını yandırmaq üçün əvvəlcə peyk bağlantısını sonlandırın"</string>
-    <string name="category_title_satellite_connectivity" msgid="7540022356863917632">"Peyk bağlantısı"</string>
+    <!-- no translation found for category_title_satellite_connectivity (7740500012311192133) -->
+    <skip />
     <string name="title_satellite_setting_connectivity" msgid="488626710934668313">"Peyk bağlantısı"</string>
     <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"peyk bağlantısı"</string>
     <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"peyk mesajlaşması"</string>
@@ -5280,10 +5272,8 @@
     <string name="enable_16k_app_compat_details" msgid="5382562613011853452">"Aktiv/deaktiv edildikdə tətbiq dayandırılacaq və 16 KB cihazda səhifə ölçüsü uyğunluğu rejimində işləyəcək."</string>
     <string name="stop_app_dlg_title" msgid="3153921585174512587">"Tətbiq dayandırılsın?"</string>
     <string name="stop_app_dlg_text" msgid="4373849065005318901">"Səhifə ölçüsünə uyğun ayar təyin etmək üçün tətbiq dayandırılacaq."</string>
-    <!-- no translation found for error_pending_updates (7196832772265874760) -->
-    <skip />
-    <!-- no translation found for error_ota_failed (4762376085470989653) -->
-    <skip />
+    <string name="error_pending_updates" msgid="7196832772265874760">"Özək güncəllənmədi. Gözləyən güncəllənmələri yoxlayın və quraşdırın."</string>
+    <string name="error_ota_failed" msgid="4762376085470989653">"Özək güncəllənmədi. OTA tətbiq edərkən xəta baş verdi."</string>
     <string name="bug_report_handler_title" msgid="713439959113250125">"Baq hesabatı idarəedicisi"</string>
     <string name="bug_report_handler_picker_footer_text" msgid="4935758328366585673">"Seçilmiş tətbiq xəta hesabatının göndərilməsi düyməsini basanda işə salınacaq."</string>
     <string name="personal_profile_app_subtext" msgid="5586060806997067676">"Şəxsi"</string>
@@ -5432,10 +5422,8 @@
     <string name="smart_forwarding_input_mdn_dialog_title" msgid="7542216086697868415">"Telefon nömrəsini daxil edin"</string>
     <string name="smart_forwarding_missing_mdn_text" msgid="2907314684242542226">"Telefon nömrəsi yoxdur."</string>
     <string name="smart_forwarding_missing_alert_dialog_text" msgid="7870419247987316112">"OK"</string>
-    <!-- no translation found for enable_2g_title (5657132300321750181) -->
-    <skip />
-    <!-- no translation found for enable_2g_summary (6317192326100541563) -->
-    <skip />
+    <string name="enable_2g_title" msgid="5657132300321750181">"2G şəbəkə qoruması"</string>
+    <string name="enable_2g_summary" msgid="6317192326100541563">"Təhlükəsizliyi daha aşağı olan 2G şəbəkələrindən yayınır. Bu, bəzi ərazilərdə bağlantını məhdudlaşdıra bilər. Təcili zəngə hər zaman icazə verilir."</string>
     <string name="enable_2g_summary_disabled_carrier" msgid="8141118453219482762">"<xliff:g id="CARRIER_NAME_2G">%1$s</xliff:g> 2G tələb edir"</string>
     <string name="require_cellular_encryption_title" msgid="6087085031703089235">"Təkcə şifrələnmiş şəbəkələrə icazə verin"</string>
     <string name="require_cellular_encryption_summary" msgid="6090569065420631457">"Bu, daha güvənlidir, lakin bəzi məkanlarda mobil şəbəkə bağlantınızı məhdudlaşdıra bilər. Təcili zəngə hər zaman icazə verilir."</string>
@@ -5762,15 +5750,20 @@
     <string name="supervision_change_pin_preference_title" msgid="2288584039438231801">"PIN-i dəyişin"</string>
     <string name="supervision_add_forgot_pin_preference_title" msgid="8939945404255748516">"PIN-i unutdum"</string>
     <string name="supervision_web_content_filters_title" msgid="3653430162065686156">"Veb kontenti filtrləri"</string>
-    <!-- no translation found for supervision_web_content_filters_browser_title (979037187423952892) -->
+    <string name="supervision_web_content_filters_browser_title" msgid="979037187423952892">"Google Chrome və Veb"</string>
+    <string name="supervision_web_content_filters_browser_block_explicit_sites_title" msgid="7923982596891796260">"Açıq-saçıq saytları blok edin"</string>
+    <string name="supervision_web_content_filters_browser_block_explicit_sites_summary" msgid="1477766506765966613">"Heç bir filtr mükəmməl deyil, lakin bu funksiya cinsi açıq-saçıq kontent paylaşan saytları gizlətməyə kömək edə bilər"</string>
+    <string name="supervision_web_content_filters_browser_allow_all_sites_title" msgid="3909739592466381845">"Bütün saytlara icazə verin"</string>
+    <!-- no translation found for supervision_web_content_filters_search_title (726335318009305564) -->
     <skip />
-    <!-- no translation found for supervision_web_content_filters_browser_block_explicit_sites_title (7923982596891796260) -->
+    <!-- no translation found for supervision_web_content_filters_search_filter_on_title (4855846261141136285) -->
     <skip />
-    <!-- no translation found for supervision_web_content_filters_browser_block_explicit_sites_summary (1477766506765966613) -->
+    <!-- no translation found for supervision_web_content_filters_search_filter_on_summary (1162258144140293269) -->
     <skip />
-    <!-- no translation found for supervision_web_content_filters_browser_allow_all_sites_title (3909739592466381845) -->
+    <!-- no translation found for supervision_web_content_filters_search_filter_off_title (6049461395304222346) -->
     <skip />
-    <!-- no translation found for supervision_full_screen_pin_verification_title (78513043528333399) -->
+    <!-- no translation found for supervision_web_content_filters_search_filter_off_summary (3834238970190924433) -->
     <skip />
+    <string name="supervision_full_screen_pin_verification_title" msgid="78513043528333399">"Nəzarət PIN-i daxil edin"</string>
     <string name="accessibility_illustration_content_description" msgid="557376174860150903">"<xliff:g id="FEATURE">%1$s</xliff:g> animasiyası"</string>
 </resources>

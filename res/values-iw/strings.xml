@@ -100,10 +100,10 @@
     <string name="bluetooth_ambient_volume_unmute" msgid="8055038818824925188">"ביטול השתקת הרעשים בסביבה"</string>
     <string name="bluetooth_ambient_volume_error" msgid="259328969488233714">"לא ניתן לעדכן את עוצמת הרעשים בסביבה"</string>
     <string name="bluetooth_hearing_device_input_routing_title" msgid="4250163440326783748">"מיקרופון ברירת המחדל לשיחות"</string>
-    <string name="bluetooth_hearing_device_input_routing_dialog_title" msgid="3669686215092975961">"מיקרופון ברירת המחדל"</string>
+    <string name="bluetooth_hearing_device_input_routing_dialog_title" msgid="3669686215092975961">"איזה מיקרופון יופעל?"</string>
     <string name="bluetooth_hearing_device_input_routing_dialog_summary" msgid="8444876415995010203">"צריך לבחור מיקרופון לשיחות."</string>
     <string name="bluetooth_hearing_device_input_routing_hearing_device_option" msgid="1999169569658289216">"המיקרופון של מכשיר השמיעה"</string>
-    <string name="bluetooth_hearing_device_input_routing_builtin_option" msgid="4510810043725216734">"המיקרופון של הטלפון הזה"</string>
+    <string name="bluetooth_hearing_device_input_routing_builtin_option" msgid="4510810043725216734">"המיקרופון של הטלפון"</string>
     <string name="bluetooth_audio_routing_title" msgid="5541729245424856226">"פלט אודיו"</string>
     <string name="bluetooth_audio_routing_about_title" msgid="5773336779246891954">"מידע על פלט האודיו"</string>
     <string name="bluetooth_audio_routing_summary" msgid="7180947533985969066">"ניתוב הצלילים למכשיר השמיעה או לרמקול של הטלפון"</string>
@@ -173,13 +173,11 @@
     <string name="date_and_time" msgid="1788358029823431692">"תאריך ושעה"</string>
     <string name="proxy_settings_title" msgid="4201866858226087066">"‏שרת Proxy"</string>
     <string name="proxy_clear_text" msgid="6529658759984031149">"ניקוי"</string>
-    <!-- no translation found for proxy_port_label (6698001018215165848) -->
-    <skip />
+    <string name="proxy_port_label" msgid="6698001018215165848">"‏היציאה של שרת ה-proxy (אופציונלי)"</string>
     <string name="proxy_exclusionlist_label" msgid="2598613986784917542">"‏עקיפת שרת Proxy עבור"</string>
     <string name="proxy_defaultView_text" msgid="6795150505379688451">"שחזור ברירות מחדל"</string>
     <string name="proxy_action_text" msgid="1103328484441449542">"סיום"</string>
-    <!-- no translation found for proxy_hostname_label (345510072664361960) -->
-    <skip />
+    <string name="proxy_hostname_label" msgid="345510072664361960">"‏שם המארח של שרת ה-proxy (אופציונלי)"</string>
     <string name="proxy_error" msgid="3615905975598084126">"זהירות"</string>
     <string name="proxy_error_dismiss" msgid="4207430265140873078">"אישור"</string>
     <string name="proxy_error_invalid_host" msgid="3814412792702059247">"שם המארח שהקלדת אינו חוקי."</string>
@@ -227,8 +225,7 @@
     <!-- no translation found for title_change_system_region (9196602029960380112) -->
     <skip />
     <string name="desc_notice_device_region_change" msgid="6702773189066944100">"‏שפת המערכת במכשיר תמשיך להיות %s"</string>
-    <!-- no translation found for desc_notice_device_region_change_for_preferred_language (408517366942324267) -->
-    <skip />
+    <string name="desc_notice_device_region_change_for_preferred_language" msgid="408517366942324267">"‏%1$s תחליף %2$s בשפות המועדפות"</string>
     <!-- no translation found for title_change_system_locale (4102991236063984803) -->
     <skip />
     <string name="title_system_locale_addition" msgid="8218683660751479466">"‏להוסיף את %s לשפות המועדפות?"</string>
@@ -273,8 +270,10 @@
     <string name="title_regional_pref_footer" msgid="7450438024324794380">"אם אפליקציה כלשהי לא תומכת בהעדפות הפורמט והמידות, השפה והאזור ייקבעו לפי ברירות המחדל של האפליקציה הזו."</string>
     <string name="desc_regional_pref_footer_learn_more" msgid="4401708653329230081">"מידע נוסף על העדפות השפה"</string>
     <string name="metric_measurement_system" msgid="7489725697268321541">"מטרית"</string>
-    <string name="us_measurement_system" msgid="8738587232938189052">"אימפריאלית (ארה\"ב)"</string>
-    <string name="uk_measurement_system" msgid="4196897001775627597">"אימפריאלית (בריטניה)"</string>
+    <!-- no translation found for us_measurement_system (8406695347890345490) -->
+    <skip />
+    <!-- no translation found for uk_measurement_system (1814065008707689505) -->
+    <skip />
     <string name="category_title_terms_of_address" msgid="4309422700380895278">"העדפות נוספות"</string>
     <string name="terms_of_address_title" msgid="7338630812197476808">"בחירת אופן הפנייה הרצוי"</string>
     <string name="terms_of_address_summary" msgid="7802443422612600620">"המכשיר שלך יכול להתאים אישית את אופן הפנייה אליך"</string>
@@ -949,10 +948,16 @@
     <string name="bluetooth_scanning_on_info_message" msgid="786648535600075223">"‏כשה-Bluetooth מופעל, המכשיר יכול לתקשר עם מכשירי Bluetooth אחרים שנמצאים בקרבת מקום.\n\nכדי לשפר את חוויית השימוש במכשיר, אפליקציות ושירותים יכולים לסרוק אחר מכשירים בקרבת מקום בכל שלב, גם כשה-Bluetooth כבוי. אפשר להשתמש בכך, למשל, כדי לשפר תכונות ושירותים שמבוססים על מיקום. ניתן לשנות זאת בהגדרות הסריקה של Bluetooth‏."</string>
     <string name="bluetooth_scanning_on_info_message_auto_on_available" msgid="7792443293031247638">"‏כשה-Bluetooth מופעל, המכשיר יכול לתקשר עם מכשירי Bluetooth אחרים בקרבת מקום. תכונות כמו \'שיתוף מהיר\' ו\'איפה המכשיר שלי\' מתבססות על Bluetooth.\n\nאפליקציות ושירותים עדיין יכולים לסרוק כדי למצוא מכשירים קרובים בכל שלב, גם כשה-Bluetooth מושבת. זה יכול לשמש, למשל, כדי לשפר תכונות ושירותים מבוססי מיקום. אפשר לשנות את זה בהגדרות של סריקת Bluetooth."</string>
     <string name="bluetooth_scan_change" msgid="1744636222637390367">"שינוי"</string>
-    <string name="bluetooth_key_missing_title" msgid="7799054163548353853">"אין חיבור אל <xliff:g id="DEVICE_NAME">%1$s</xliff:g>"</string>
-    <string name="bluetooth_key_missing_message" msgid="2388861106663695319">"מטעמי אבטחה, צריך להסיר את המכשיר הזה ואז להתאים אותו שוב"</string>
+    <!-- no translation found for bluetooth_key_missing_title (8462010102528132965) -->
+    <skip />
+    <!-- no translation found for bluetooth_key_missing_message (3188093580372443815) -->
+    <skip />
     <string name="bluetooth_key_missing_forget" msgid="4692006517823001013">"הסרת המכשיר"</string>
     <string name="bluetooth_key_missing_cancel" msgid="2482416446357804371">"ביטול"</string>
+    <!-- no translation found for bluetooth_key_missing_device_settings (5512091368141961890) -->
+    <skip />
+    <!-- no translation found for bluetooth_key_missing_close (6724520133374312040) -->
+    <skip />
     <string name="device_details_title" msgid="1155622417516195481">"פרטי המכשיר"</string>
     <string name="bluetooth_device_keyboard_settings_preference_title" msgid="3411693160917620519">"הגדרות מקלדת"</string>
     <string name="bluetooth_device_more_settings_preference_title" msgid="6034482566541746500">"הגדרות נוספות"</string>
@@ -967,6 +972,8 @@
     <string name="device_details_leaudio_toggle_summary" msgid="7684848254433230809">"ניסיוני. משפר את איכות האודיו."</string>
     <string name="device_details_battery" msgid="5466987755790847884">"סוללה"</string>
     <string name="device_details_battery_charging" msgid="3464969346075775143">"סוללה, בטעינה"</string>
+    <!-- no translation found for device_details_key_missing_title (3568401701538114387) -->
+    <skip />
     <string name="bluetooth_unpair_dialog_forget_confirm_button" msgid="9184489424930549015">"אני רוצה לשכוח את המכשיר"</string>
     <string name="bluetooth_companion_app_remove_association_confirm_button" msgid="76323555527926915">"ניתוק האפליקציה"</string>
     <string name="device_details_more_settings" msgid="950302792331611271">"הגדרות נוספות"</string>
@@ -1104,6 +1111,8 @@
     <string name="wifi_eap_identity" msgid="3629406902174137028">"זהות"</string>
     <string name="wifi_eap_anonymous" msgid="8630332141751267000">"זהות אנונימית"</string>
     <!-- no translation found for wifi_password (165204973532996861) -->
+    <skip />
+    <!-- no translation found for wifi_password_optional (6770706664834070705) -->
     <skip />
     <!-- no translation found for wifi_password_invalid (8884500804472828356) -->
     <skip />
@@ -1501,22 +1510,17 @@
     <string name="storage_settings_for_app" msgid="229425418984637483">"אחסון ומטמון"</string>
     <string name="storage_settings_title" msgid="486118156723194815">"הגדרות אחסון"</string>
     <string name="status_eid" msgid="3588471107671992684">"EID"</string>
-    <!-- no translation found for eid_multi_sim (6659492335576379274) -->
-    <skip />
-    <!-- no translation found for imei_multi_sim (27798473711249145) -->
-    <skip />
-    <!-- no translation found for imei_multi_sim_primary (4320457587114117400) -->
-    <skip />
+    <string name="eid_multi_sim" msgid="6659492335576379274">"‏‫EID (חריץ SIM ‏<xliff:g id="EID_SLOT_ID">%1$d</xliff:g>)"</string>
+    <string name="imei_multi_sim" msgid="27798473711249145">"‏‫IMEI (חריץ SIM ‏<xliff:g id="IMEI_SLOT_ID">%1$d</xliff:g>)"</string>
+    <string name="imei_multi_sim_primary" msgid="4320457587114117400">"‏‫IMEI (חריץ <xliff:g id="IMEI_SLOT_ID_PRIMARY">%1$d</xliff:g>, ה-SIM הראשי)"</string>
     <string name="view_saved_network" msgid="1232387673095080910">"כדי שתופיע כתובת, צריך לבחור רשת שמורה"</string>
     <string name="status_imei" msgid="5719752369250485007">"IMEI"</string>
     <string name="status_imei_sv" msgid="6908985558726440951">"IMEI SV"</string>
     <string name="status_min_number" msgid="4492899165438225714">"MIN"</string>
     <string name="status_msid_number" msgid="3871958248824595774">"MSID"</string>
     <string name="status_prl_version" msgid="9002131357502714281">"‏גרסת PRL"</string>
-    <!-- no translation found for meid_multi_sim (5076814185188481456) -->
-    <skip />
-    <!-- no translation found for meid_multi_sim_primary (6269908735700854437) -->
-    <skip />
+    <string name="meid_multi_sim" msgid="5076814185188481456">"‏‫MEID (חריץ SIM ‏<xliff:g id="MEID_SLOT_ID">%1$d</xliff:g>)"</string>
+    <string name="meid_multi_sim_primary" msgid="6269908735700854437">"‏‫MEID (חריץ <xliff:g id="MEID_SLOT_ID_PRIMARY">%1$d</xliff:g>, ה-SIM ראשי)"</string>
     <string name="scanning_status_text_on" msgid="3846571210578042940">"פועל"</string>
     <string name="scanning_status_text_off" msgid="4002352668313705132">"כבוי"</string>
     <string name="status_meid_number" msgid="6040380838489162650">"MEID"</string>
@@ -1584,8 +1588,7 @@
     <string name="storage_wizard_init_v2_or" msgid="5558706089661158026">"או"</string>
     <string name="storage_wizard_init_v2_external_title" msgid="2786416384217054112">"‏פירמוט של כרטיס SD לאחסון נייד"</string>
     <string name="storage_wizard_init_v2_external_summary" msgid="2002761631147966185">"‏אפשר לאחסן תמונות, סרטונים, מוזיקה ועוד ולגשת אליהם ממכשירים אחרים. &lt;a href=https://support.google.com/android/answer/12153449&gt;מידע נוסף על ההגדרה של כרטיס SD‏&lt;/a&gt;."</string>
-    <!-- no translation found for storage_wizard_init_v2_external_summary_non_sd_card (6638380506793421312) -->
-    <skip />
+    <string name="storage_wizard_init_v2_external_summary_non_sd_card" msgid="6638380506793421312">"אפשר לאחסן תמונות, סרטונים, מוזיקה ועוד ולגשת אליהם ממכשירים אחרים."</string>
     <string name="storage_wizard_init_v2_external_action" msgid="6140058734875839081">"פירמוט"</string>
     <string name="storage_wizard_init_v2_later" msgid="5366815913892609285">"אני אגדיר מאוחר יותר"</string>
     <string name="storage_wizard_format_confirm_v2_title" msgid="6294104100437326067">"לפרמט <xliff:g id="NAME">^1</xliff:g> זה?"</string>
@@ -1624,7 +1627,6 @@
     <skip />
     <!-- no translation found for when_to_show_hubmode_docked (7107631545009933891) -->
     <skip />
-    <string name="satellite_setting" msgid="4171265534842459910">"העברת הודעות באמצעות לוויין"</string>
     <string name="apn_settings" msgid="4295467389400441299">"‏פריטי APN"</string>
     <string name="apn_edit" msgid="2003683641840248741">"עריכת נקודת גישה"</string>
     <string name="apn_add" msgid="9069613192201630934">"‏הוספת נקודת גישה (AP)"</string>
@@ -2458,8 +2460,7 @@
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="1830189632458752698">"טקסט בניגודיות גבוהה"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_summary" msgid="5286411556836346180">"שינוי צבע הטקסט לשחור או לבן. ניגודיות מקסימלית לצבע הרקע."</string>
     <string name="accessibility_notification_high_contrast_text_title" msgid="2297915407152953323">"שיפור הניגודיות של הטקסט"</string>
-    <!-- no translation found for accessibility_notification_high_contrast_text_body_message (6846453833480117658) -->
-    <skip />
+    <string name="accessibility_notification_high_contrast_text_body_message" msgid="6846453833480117658">"במקום ניגודיות גבוהה, הטקסט יופיע עם קווי מתאר. אפשר להפעיל את התכונה הזו ב<xliff:g id="SETTINGS">%1$s</xliff:g>."</string>
     <string name="accessibility_notification_high_contrast_text_action_open_settings" msgid="5945069315472850294">"מעבר אל <xliff:g id="SETTINGS">%1$s</xliff:g>"</string>
     <string name="accessibility_toggle_maximize_text_contrast_preference_title" msgid="8848579943445806659">"קו המתאר של הטקסט"</string>
     <string name="accessibility_toggle_maximize_text_contrast_preference_summary" msgid="8200408691846666900">"הוספה של רקע שחור או לבן מסביב לטקסט כדי להגביר את הניגודיות"</string>
@@ -3157,34 +3158,25 @@
     <string name="data_usage_uninstalled_apps_users" msgid="1262228664057122983">"אפליקציות ומשתמשים שהוסרו"</string>
     <string name="wifi_metered_title" msgid="6623732965268033931">"חיוב לפי צריכת נתונים?"</string>
     <string name="data_usage_metered_yes" msgid="4262598072030135223">"חיוב לפי שימוש בנתונים"</string>
-    <!-- no translation found for vpn_name (1119885022967213297) -->
-    <skip />
+    <string name="vpn_name" msgid="1119885022967213297">"שם*"</string>
     <string name="vpn_type" msgid="5533202873260826663">"סוג"</string>
-    <!-- no translation found for vpn_server (5771717512763639505) -->
-    <skip />
-    <!-- no translation found for vpn_ipsec_identifier (6976476088030400883) -->
-    <skip />
-    <!-- no translation found for vpn_ipsec_secret (3110033645671775202) -->
-    <skip />
+    <string name="vpn_server" msgid="5771717512763639505">"כתובת השרת*"</string>
+    <string name="vpn_ipsec_identifier" msgid="6976476088030400883">"‏מזהה IPSec*"</string>
+    <string name="vpn_ipsec_secret" msgid="3110033645671775202">"‏מפתח IPSec ששותף מראש*"</string>
     <string name="vpn_ipsec_user_cert" msgid="2714372103705048405">"‏אישור משתמש IPSec"</string>
     <string name="vpn_ipsec_ca_cert" msgid="5558498943577474987">"‏אישור CA של IPSec"</string>
     <string name="vpn_ipsec_server_cert" msgid="1411390470454731396">"‏אישור של שרת IPSec"</string>
     <string name="vpn_show_options" msgid="6105437733943318667">"אפשרויות מתקדמות"</string>
-    <!-- no translation found for vpn_username_optional (8564310631984689947) -->
-    <skip />
-    <!-- no translation found for vpn_password_optional (1255147723869461543) -->
-    <skip />
-    <!-- no translation found for vpn_username_required (1808631251331232149) -->
-    <skip />
-    <!-- no translation found for vpn_password_required (1916107706318825437) -->
-    <skip />
+    <string name="vpn_username_optional" msgid="8564310631984689947">"שם משתמש (אופציונלי)"</string>
+    <string name="vpn_password_optional" msgid="1255147723869461543">"סיסמה (אופציונלית)"</string>
+    <string name="vpn_username_required" msgid="1808631251331232149">"שם משתמש*"</string>
+    <string name="vpn_password_required" msgid="1916107706318825437">"סיסמה*"</string>
     <string name="vpn_save_login" msgid="5986762519977472618">"שמירת פרטי החשבון"</string>
     <string name="vpn_not_used" msgid="7229312881336083354">"(לא בשימוש)"</string>
     <string name="vpn_no_ca_cert" msgid="3687379414088677735">"(לא לאמת את השרת)"</string>
     <string name="vpn_no_server_cert" msgid="8106540968643125407">"(התקבל מהשרת)"</string>
     <string name="vpn_always_on_invalid_reason_other" msgid="4571905303713233321">"‏המידע שהוזן לא תומך ב-VPN בחיבור תמידי"</string>
-    <!-- no translation found for vpn_field_required (582849543970781302) -->
-    <skip />
+    <string name="vpn_field_required" msgid="582849543970781302">"*חובה"</string>
     <string name="vpn_cancel" msgid="5929410618112404383">"ביטול"</string>
     <string name="vpn_done" msgid="5137858784289564985">"סגירה"</string>
     <string name="vpn_save" msgid="683868204634860888">"שמירה"</string>
@@ -3415,8 +3407,7 @@
     <string name="color_orange" msgid="216547825489739010">"כתום"</string>
     <string name="color_purple" msgid="6603701972079904843">"סגול"</string>
     <string name="sim_status_title" msgid="6188770698037109774">"‏סטטוס SIM"</string>
-    <!-- no translation found for sim_status_title_sim_slot (5421926522479103027) -->
-    <skip />
+    <string name="sim_status_title_sim_slot" msgid="5421926522479103027">"‏סטטוס SIM (חריץ SIM ‏%1$d)"</string>
     <string name="sim_signal_strength" msgid="6351052821700294501">"‏<xliff:g id="DBM">%1$d</xliff:g> dBm ‏<xliff:g id="ASU">%2$d</xliff:g> asu"</string>
     <string name="sim_notification_title" msgid="6839556577405929262">"‏כרטיסי ה-SIM שונו"</string>
     <string name="sim_notification_summary" msgid="5593339846307029991">"יש ללחוץ כדי להגדיר"</string>
@@ -4451,7 +4442,8 @@
     <string name="disconnected" msgid="3469373726996129247">"אין חיבור"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"לא מחוברת"</string>
     <string name="apps_summary" msgid="4007416751775414252">"הותקנו <xliff:g id="COUNT">%1$d</xliff:g> אפליקציות"</string>
-    <string name="storage_summary" msgid="7631468664968572688">"‫<xliff:g id="PERCENTAGE">%1$s</xliff:g> בשימוש – הנפח הפנוי: <xliff:g id="FREE_SPACE_VALUE">%2$s</xliff:g><xliff:g id="FREE_SPACE_UNITS">%3$s</xliff:g>"</string>
+    <!-- no translation found for storage_toplevel_summary (6708203706751754934) -->
+    <skip />
     <string name="display_dashboard_summary" msgid="1599453894989339454">"עיצוב כהה, גודל הגופן, בהירות"</string>
     <string name="memory_summary" msgid="8221954450951651735">"ממוצע של <xliff:g id="USED_MEMORY">%1$s</xliff:g> מתוך <xliff:g id="TOTAL_MEMORY">%2$s</xliff:g> זיכרון בשימוש"</string>
     <string name="users_summary" msgid="8473589474976307510">"התחברת בתור <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
@@ -5074,13 +5066,16 @@
     <string name="roaming_alert_title" msgid="9052791521868787985">"האם לאפשר נדידה?"</string>
     <string name="roaming_check_price_warning" msgid="5876977438036791361">"למידע נוסף על המחירים, יש לפנות לספק השירות."</string>
     <string name="mobile_network_mode_error" msgid="9222056129897416074">"מצב רשת לא חוקי <xliff:g id="NETWORKMODEID">%1$d</xliff:g>. התעלמות."</string>
-    <string name="satellite_setting_title" msgid="2543034229989047673">"העברת הודעות באמצעות לוויין"</string>
+    <!-- no translation found for satellite_setting (4650503806634496443) -->
+    <skip />
     <string name="satellite_setting_enabled_summary" msgid="3554127722727530845">"שליחה וקבלה של הודעות טקסט באמצעות לוויין. השירות נכלל בחשבון שלך."</string>
     <string name="satellite_setting_disabled_summary" msgid="8428393986403708690">"שליחה וקבלה של הודעות טקסט באמצעות לוויין. השירות לא נכלל בחשבון שלך."</string>
     <string name="satellite_setting_summary_without_entitlement" msgid="5284998840770992554">"שליחה וקבלה של הודעות טקסט באמצעות לוויין. למידע נוסף, ניתן לפנות לספק הסלולרי."</string>
     <string name="keywords_satellite_setting" msgid="613553612424945946">"העברת הודעות באמצעות לוויין, קישוריות ללוויין"</string>
-    <string name="category_name_about_satellite_messaging" msgid="4978095955643523120">"מידע על <xliff:g id="SUBJECT">%1$s</xliff:g>"</string>
-    <string name="title_about_satellite_setting" msgid="3563087940535642558">"אפשר לשלוח ולקבל הודעות טקסט באמצעות לוויין עם חשבון <xliff:g id="CARRIER_NAME">%1$s</xliff:g> שעומד בדרישות"</string>
+    <!-- no translation found for category_name_about_satellite_connectivity (3971142716898783631) -->
+    <skip />
+    <!-- no translation found for description_about_satellite_setting (5539359064330584941) -->
+    <skip />
     <string name="category_title_your_satellite_plan" msgid="8169426217950247126">"חשבון <xliff:g id="CARRIER_NAME">%1$s</xliff:g> שלך"</string>
     <string name="title_have_satellite_plan" msgid="2048372355699977947">"העברת הודעות באמצעות לוויין כלולה בחשבון"</string>
     <string name="title_no_satellite_plan" msgid="2876056203035197505">"העברת הודעות באמצעות לוויין לא כלולה בחשבון"</string>
@@ -5096,10 +5091,12 @@
     <string name="summary_supported_service_for_manual_type" msgid="2147958362763058271">"אחרי שהטלפון מתחבר, אפשר לשלוח הודעות טקסט לכל אחד, כולל לשירותי החירום."</string>
     <string name="satellite_setting_summary_more_information" msgid="276312352285564071">"החיבור ללוויין עשוי להיות איטי יותר, וזמין רק בחלק מהאזורים. מזג אוויר ומבנים מסוימים עשויים להשפיע על החיבור. אי אפשר להתקשר באמצעות לוויין. ייתכן שתהיה אפשרות לבצע שיחות חירום.\n\nיכול להיות שיעבור קצת זמן עד שהשינויים בחשבון יופיעו בהגדרות. אפשר לפנות אל <xliff:g id="CARRIER_NAME">%1$s</xliff:g> לקבלת פרטים."</string>
     <string name="satellite_setting_summary_more_information_no_emergency_messaging" msgid="2090170250936862158">"החיבור ללוויין עשוי להיות איטי יותר, וזמין רק בחלק מהאזורים. מזג אוויר ומבנים מסוימים עשויים להשפיע על החיבור. אי אפשר להתקשר באמצעות לוויין. ייתכן שתהיה אפשרות לבצע שיחות חירום. ייתכן שבאזורים מסוימים לא ניתן לשלוח הודעות טקסט לשירותי חירום.\n\nיכול להיות שיעבור קצת זמן עד שהשינויים בחשבון יופיעו בהגדרות. אפשר לפנות אל <xliff:g id="CARRIER_NAME">%1$s</xliff:g> לקבלת פרטים."</string>
-    <string name="more_about_satellite_messaging" msgid="1039277943532711584">"מידע נוסף על <xliff:g id="SUBJECT">%1$s</xliff:g>"</string>
+    <!-- no translation found for more_about_satellite_messaging (5358981088419444073) -->
+    <skip />
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"אי אפשר להפעיל <xliff:g id="FUNCTION">%1$s</xliff:g>"</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"כדי להפעיל <xliff:g id="FUNCTION">%1$s</xliff:g>, צריך להשבית קודם את חיבור הלוויין"</string>
-    <string name="category_title_satellite_connectivity" msgid="7540022356863917632">"קישוריות ללוויין"</string>
+    <!-- no translation found for category_title_satellite_connectivity (7740500012311192133) -->
+    <skip />
     <string name="title_satellite_setting_connectivity" msgid="488626710934668313">"קישוריות ללוויין"</string>
     <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"קישוריות ללוויין"</string>
     <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"העברת הודעות באמצעות לוויין"</string>
@@ -5216,8 +5213,8 @@
     <string name="settings_panel_title" msgid="346363079938069215">"חלונית ההגדרות"</string>
     <string name="enable_desktop_mode" msgid="5644818402534562302">"הפעלת מצב חופשי (חלונות צפים)"</string>
     <string name="enable_desktop_experience_features" msgid="7389235241021706660">"הפעלת תכונות של ממשק למחשב"</string>
-    <string name="enable_desktop_experience_features_summary_with_desktop" msgid="8586716390362684564">"הפעלת עיבוד החלק הנצפה בלבד במחשב במכשיר ובמסכים משניים."</string>
-    <string name="enable_desktop_experience_features_summary_without_desktop" msgid="7567963048658976895">"הפעלת עיבוד החלק הנצפה בלבד במחשב במסכים משניים."</string>
+    <string name="enable_desktop_experience_features_summary_with_desktop" msgid="8586716390362684564">"הפעלת תצוגת מחשב במכשיר ובמסכים משניים."</string>
+    <string name="enable_desktop_experience_features_summary_without_desktop" msgid="7567963048658976895">"הפעלת תצוגת מחשב במסכים משניים."</string>
     <string name="enable_desktop_mode_on_secondary_display" msgid="2609567824593768780">"הפעלת מצב חופשי (חלונות צפים) במסך המשני"</string>
     <string name="enable_non_resizable_multi_window" msgid="6832903754625404477">"הפעלת אפליקציות שלא ניתן לשנות את גודלן בריבוי חלונות"</string>
     <string name="enable_non_resizable_multi_window_summary" msgid="3275763753261901999">"ההגדרה מאפשרת להפעיל בריבוי חלונות אפליקציות שלא ניתן לשנות את גודלן"</string>
@@ -5790,6 +5787,16 @@
     <!-- no translation found for supervision_web_content_filters_browser_block_explicit_sites_summary (1477766506765966613) -->
     <skip />
     <!-- no translation found for supervision_web_content_filters_browser_allow_all_sites_title (3909739592466381845) -->
+    <skip />
+    <!-- no translation found for supervision_web_content_filters_search_title (726335318009305564) -->
+    <skip />
+    <!-- no translation found for supervision_web_content_filters_search_filter_on_title (4855846261141136285) -->
+    <skip />
+    <!-- no translation found for supervision_web_content_filters_search_filter_on_summary (1162258144140293269) -->
+    <skip />
+    <!-- no translation found for supervision_web_content_filters_search_filter_off_title (6049461395304222346) -->
+    <skip />
+    <!-- no translation found for supervision_web_content_filters_search_filter_off_summary (3834238970190924433) -->
     <skip />
     <!-- no translation found for supervision_full_screen_pin_verification_title (78513043528333399) -->
     <skip />

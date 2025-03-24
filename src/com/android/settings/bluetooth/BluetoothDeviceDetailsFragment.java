@@ -17,7 +17,6 @@
 package com.android.settings.bluetooth;
 
 import static android.bluetooth.BluetoothDevice.BOND_NONE;
-import static android.os.UserManager.DISALLOW_CONFIG_BLUETOOTH;
 
 import android.app.Activity;
 import android.app.settings.SettingsEnums;
@@ -49,7 +48,6 @@ import com.android.settings.R;
 import com.android.settings.bluetooth.ui.model.FragmentTypeModel;
 import com.android.settings.bluetooth.ui.view.DeviceDetailsFragmentFormatter;
 import com.android.settings.connecteddevice.stylus.StylusDevicesController;
-import com.android.settings.dashboard.RestrictedDashboardFragment;
 import com.android.settings.flags.Flags;
 import com.android.settings.inputmethod.KeyboardSettingsPreferenceController;
 import com.android.settings.overlay.FeatureFactory;
@@ -62,11 +60,13 @@ import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.instrumentation.MetricsFeatureProvider;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 
+import com.google.common.collect.ImmutableList;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Consumer;
 
-public class BluetoothDeviceDetailsFragment extends RestrictedDashboardFragment {
+public class BluetoothDeviceDetailsFragment extends BluetoothDetailsConfigurableFragment {
     public static final String KEY_DEVICE_ADDRESS = "device_address";
     private static final String TAG = "BTDeviceDetailsFrg";
     private static final int METADATA_FAST_PAIR_CUSTOMIZED_FIELDS = 25;
@@ -102,6 +102,7 @@ public class BluetoothDeviceDetailsFragment extends RestrictedDashboardFragment 
     BluetoothAdapter mBluetoothAdapter;
     @VisibleForTesting
     DeviceDetailsFragmentFormatter mFormatter;
+    boolean mIsKeyMissingDevice = false;
 
     @Nullable
     InputDevice mInputDevice;
@@ -144,7 +145,7 @@ public class BluetoothDeviceDetailsFragment extends RestrictedDashboardFragment 
             };
 
     public BluetoothDeviceDetailsFragment() {
-        super(DISALLOW_CONFIG_BLUETOOTH);
+        super();
     }
 
     @VisibleForTesting
@@ -212,6 +213,9 @@ public class BluetoothDeviceDetailsFragment extends RestrictedDashboardFragment 
             finish();
             return;
         }
+        Integer keyMissingCount = BluetoothUtils.getKeyMissingCount(mCachedDevice.getDevice());
+        mIsKeyMissingDevice = keyMissingCount != null && keyMissingCount > 0;
+        setPreferenceDisplayOrder(generateDisplayedPreferenceKeys(mIsKeyMissingDevice));
         getController(
                 AdvancedBluetoothDetailsHeaderController.class,
                 controller -> controller.init(mCachedDevice, this));
@@ -342,7 +346,7 @@ public class BluetoothDeviceDetailsFragment extends RestrictedDashboardFragment 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        if (Flags.enableBluetoothDeviceDetailsPolish()) {
+        if (!mIsKeyMissingDevice && Flags.enableBluetoothDeviceDetailsPolish()) {
             if (mFormatter == null) {
                 List<AbstractPreferenceController> controllers = getPreferenceControllers().stream()
                         .flatMap(List::stream)
@@ -412,12 +416,33 @@ public class BluetoothDeviceDetailsFragment extends RestrictedDashboardFragment 
         return super.onOptionsItemSelected(menuItem);
     }
 
+    @Nullable
+    private List<String> generateDisplayedPreferenceKeys(boolean bondingLoss) {
+        if (bondingLoss) {
+            ImmutableList.Builder<String> visibleKeys = new ImmutableList.Builder<>();
+            visibleKeys
+                    .add(use(BluetoothDetailsBannerController.class).getPreferenceKey())
+                    .add(use(AdvancedBluetoothDetailsHeaderController.class).getPreferenceKey())
+                    .add(use(BluetoothDetailsHeaderController.class).getPreferenceKey())
+                    .add(use(LeAudioBluetoothDetailsHeaderController.class).getPreferenceKey())
+                    .add(use(BluetoothDetailsButtonsController.class).getPreferenceKey());
+            if (!BluetoothUtils.isHeadset(mCachedDevice.getDevice())) {
+                visibleKeys.add(use(BluetoothDetailsMacAddressController.class).getPreferenceKey());
+            }
+            return visibleKeys.build();
+        }
+        return null;
+    }
+
     @Override
     protected List<AbstractPreferenceController> createPreferenceControllers(Context context) {
         ArrayList<AbstractPreferenceController> controllers = new ArrayList<>();
 
         if (mCachedDevice != null) {
             Lifecycle lifecycle = getSettingsLifecycle();
+            controllers.add(
+                    new BluetoothDetailsBannerController(
+                            context, this, mCachedDevice, lifecycle));
             controllers.add(new BluetoothDetailsHeaderController(context, this, mCachedDevice,
                     lifecycle));
             controllers.add(

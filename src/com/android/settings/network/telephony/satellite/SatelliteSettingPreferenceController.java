@@ -145,7 +145,6 @@ public class SatelliteSettingPreferenceController extends
     public void updateState(@Nullable Preference preference) {
         super.updateState(preference);
         if (preference != null && preference.getKey().equals(getPreferenceKey())) {
-            updateTitle(preference);
             updateSummary(preference);
         }
     }
@@ -170,12 +169,6 @@ public class SatelliteSettingPreferenceController extends
         return false;
     }
 
-    private void updateTitle(Preference preference) {
-        preference.setTitle(mCarrierRoamingNtnModeCallback.isSatelliteServiceDataType()
-                ? R.string.title_satellite_setting_connectivity
-                : R.string.satellite_setting_title);
-    }
-
     private void updateSummary(Preference preference) {
         if (preference == null) {
             logd("updateSummary - no Preference");
@@ -186,17 +179,17 @@ public class SatelliteSettingPreferenceController extends
             return;
         }
 
-        if (!mCarrierConfigs.getBoolean(KEY_SATELLITE_ENTITLEMENT_SUPPORTED_BOOL)) {
-            preference.setSummary(R.string.satellite_setting_summary_without_entitlement);
-            return;
-        }
-
         if (isCarrierRoamingNtnConnectedTypeManual()) {
             preference.setSummary(
                     mCarrierRoamingNtnModeCallback.isSatelliteSmsAvailable()
                             ? R.string.satellite_setting_enabled_summary
                             : R.string.satellite_setting_disabled_summary);
         } else {
+            if (!mCarrierConfigs.getBoolean(KEY_SATELLITE_ENTITLEMENT_SUPPORTED_BOOL)) {
+                preference.setSummary(R.string.satellite_setting_summary_without_entitlement);
+                return;
+            }
+
             try {
                 Set<Integer> restrictionReason =
                         mSatelliteManager.getAttachRestrictionReasonsForCarrier(mSubId);

@@ -16,10 +16,17 @@
 
 package com.android.settings.network.telephony.satellite;
 
+import static android.telephony.CarrierConfigManager.CARRIER_ROAMING_NTN_CONNECT_MANUAL;
+import static android.telephony.CarrierConfigManager.KEY_CARRIER_ROAMING_NTN_CONNECT_TYPE_INT;
+import static android.telephony.CarrierConfigManager.KEY_SATELLITE_ENTITLEMENT_SUPPORTED_BOOL;
+
 import android.content.Context;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
 import android.graphics.drawable.Drawable;
+import android.os.PersistableBundle;
+import android.telephony.satellite.SatelliteManager;
+import android.util.Log;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.VisibleForTesting;
@@ -27,20 +34,23 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceScreen;
 
-import com.android.internal.telephony.flags.Flags;
-import com.android.settings.core.BasePreferenceController;
-import com.android.settings.network.SatelliteRepository;
+import com.android.settings.network.telephony.TelephonyBasePreferenceController;
 import com.android.settingslib.Utils;
 
 import java.util.List;
+import java.util.Set;
 
 /** A controller to show some of apps info which supported on Satellite service. */
-public class SatelliteAppListCategoryController extends BasePreferenceController {
+public class SatelliteAppListCategoryController extends TelephonyBasePreferenceController {
     private static final String TAG = "SatelliteAppListCategoryController";
     @VisibleForTesting
     static final int MAXIMUM_OF_PREFERENCE_AMOUNT = 3;
 
     private List<String> mPackageNameList;
+    private boolean mIsSmsAvailable;
+    private boolean mIsDataAvailable;
+    private boolean mIsSatelliteEligible;
+    private PersistableBundle mConfigBundle = new PersistableBundle();
 
     public SatelliteAppListCategoryController(
             @NonNull Context context,
@@ -49,14 +59,14 @@ public class SatelliteAppListCategoryController extends BasePreferenceController
     }
 
     /** Initialize the necessary applications' data*/
-    public void init() {
-        SatelliteRepository satelliteRepository = new SatelliteRepository(mContext);
-        init(satelliteRepository);
-    }
-
-    @VisibleForTesting
-    void init(@NonNull SatelliteRepository satelliteRepository) {
-        mPackageNameList = satelliteRepository.getSatelliteDataOptimizedApps();
+    public void init(int subId, @NonNull PersistableBundle configBundle, boolean isSmsAvailable,
+            boolean isDataAvailable) {
+        mSubId = subId;
+        mConfigBundle = configBundle;
+        mIsSmsAvailable = isSmsAvailable;
+        mIsDataAvailable = isDataAvailable;
+        mPackageNameList = getSatelliteDataOptimizedApps();
+        mIsSatelliteEligible = isSatelliteEligible();
     }
 
     @Override
@@ -78,13 +88,53 @@ public class SatelliteAppListCategoryController extends BasePreferenceController
     }
 
     @Override
-    public int getAvailabilityStatus() {
-        if (!Flags.satellite25q4Apis()) {
+    public int getAvailabilityStatus(int subId) {
+        // Only when carrier support entitlement check, it shall check account eligible or not.
+        if (mConfigBundle.getBoolean(KEY_SATELLITE_ENTITLEMENT_SUPPORTED_BOOL)
+                && !mIsSatelliteEligible) {
             return CONDITIONALLY_UNAVAILABLE;
         }
-        return mPackageNameList.isEmpty()
-                ? CONDITIONALLY_UNAVAILABLE
-                : AVAILABLE;
+        Log.d(TAG, "Supported apps have " + mPackageNameList.size());
+
+        return mIsDataAvailable && !mPackageNameList.isEmpty()
+                ? AVAILABLE_UNSEARCHABLE
+                : CONDITIONALLY_UNAVAILABLE;
+    }
+
+    @VisibleForTesting
+    protected List<String> getSatelliteDataOptimizedApps() {
+        SatelliteManager satelliteManager = mContext.getSystemService(SatelliteManager.class);
+        if (satelliteManager == null) {
+            return List.of();
+        }
+        try {
+            return satelliteManager.getSatelliteDataOptimizedApps();
+        } catch (IllegalStateException e) {
+            Log.d(TAG, "getSatelliteDataOptimizedApps failed due to " + e);
+        }
+        return List.of();
+    }
+
+    @VisibleForTesting
+    protected boolean isSatelliteEligible() {
+        if (mConfigBundle.getInt(KEY_CARRIER_ROAMING_NTN_CONNECT_TYPE_INT)
+                == CARRIER_ROAMING_NTN_CONNECT_MANUAL) {
+            return mIsSmsAvailable;
+        }
+        SatelliteManager satelliteManager = mContext.getSystemService(SatelliteManager.class);
+        if (satelliteManager == null) {
+            Log.d(TAG, "SatelliteManager is null.");
+            return false;
+        }
+        try {
+            Set<Integer> restrictionReason =
+                    satelliteManager.getAttachRestrictionReasonsForCarrier(mSubId);
+            return !restrictionReason.contains(
+                    SatelliteManager.SATELLITE_COMMUNICATION_RESTRICTION_REASON_ENTITLEMENT);
+        } catch (SecurityException | IllegalStateException | IllegalArgumentException ex) {
+            Log.d(TAG, "Error to getAttachRestrictionReasonsForCarrier : " + ex);
+            return false;
+        }
     }
 
     static ApplicationInfo getApplicationInfo(Context context, String packageName) {

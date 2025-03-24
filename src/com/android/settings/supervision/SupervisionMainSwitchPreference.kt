@@ -83,6 +83,7 @@ class SupervisionMainSwitchPreference(context: Context) :
             val newValue = !supervisionMainSwitchStorage.getBoolean(KEY)!!
             mainSwitchPreference.setChecked(newValue)
             updateDependentPreferencesEnabledState(mainSwitchPreference, newValue)
+            context.notifyPreferenceChange(SupervisionPinManagementScreen.KEY)
         }
 
         return true
@@ -110,10 +111,7 @@ class SupervisionMainSwitchPreference(context: Context) :
         isChecked: Boolean,
     ) {
         preference?.parent?.forEachRecursively {
-            if (
-                it.parent?.key == SupervisionDashboardScreen.SUPERVISION_DYNAMIC_GROUP_1 ||
-                    it.key == SupervisionPinManagementScreen.KEY
-            ) {
+            if (it.parent?.key == SupervisionDashboardScreen.SUPERVISION_DYNAMIC_GROUP_1) {
                 it.isEnabled = isChecked
             }
         }

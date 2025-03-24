@@ -41,12 +41,9 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"ระงับไว้"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"ไม่ทราบ"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"ดูตัวอย่าง"</string>
-    <!-- no translation found for preview_pager_home_content_description (3961399947853424786) -->
-    <skip />
-    <!-- no translation found for preview_pager_message_content_description (3018855090807833755) -->
-    <skip />
-    <!-- no translation found for preview_pager_email_content_description (100055784235660338) -->
-    <skip />
+    <string name="preview_pager_home_content_description" msgid="3961399947853424786">"ตัวอย่างหน้าจอหลัก"</string>
+    <string name="preview_pager_message_content_description" msgid="3018855090807833755">"ตัวอย่างข้อความ"</string>
+    <string name="preview_pager_email_content_description" msgid="100055784235660338">"ตัวอย่างอีเมล"</string>
     <string name="qr_code_content_description" msgid="1852208464419291347">"คิวอาร์โค้ด"</string>
     <string name="preview_pager_previous_button" msgid="607771113300838313">"หน้าตัวอย่างก่อนหน้า"</string>
     <string name="preview_pager_next_button" msgid="8700907912508927271">"หน้าตัวอย่างถัดไป"</string>
@@ -173,13 +170,11 @@
     <string name="date_and_time" msgid="1788358029823431692">"วันที่และเวลา"</string>
     <string name="proxy_settings_title" msgid="4201866858226087066">"พร็อกซี"</string>
     <string name="proxy_clear_text" msgid="6529658759984031149">"ล้างข้อมูล"</string>
-    <!-- no translation found for proxy_port_label (6698001018215165848) -->
-    <skip />
+    <string name="proxy_port_label" msgid="6698001018215165848">"พอร์ตพร็อกซี (ไม่บังคับ)"</string>
     <string name="proxy_exclusionlist_label" msgid="2598613986784917542">"ไม่ใช้พร็อกซีสำหรับ"</string>
     <string name="proxy_defaultView_text" msgid="6795150505379688451">"คืนค่าเริ่มต้น"</string>
     <string name="proxy_action_text" msgid="1103328484441449542">"เสร็จสิ้น"</string>
-    <!-- no translation found for proxy_hostname_label (345510072664361960) -->
-    <skip />
+    <string name="proxy_hostname_label" msgid="345510072664361960">"ชื่อโฮสต์พร็อกซี (ไม่บังคับ)"</string>
     <string name="proxy_error" msgid="3615905975598084126">"โปรดทราบ"</string>
     <string name="proxy_error_dismiss" msgid="4207430265140873078">"ตกลง"</string>
     <string name="proxy_error_invalid_host" msgid="3814412792702059247">"ชื่อโฮสต์ที่คุณพิมพ์ไม่ถูกต้อง"</string>
@@ -224,13 +219,10 @@
     <string name="desc_introduction_of_language_picker" msgid="4012265379885200083">"อุปกรณ์ แอป และเว็บไซต์จะใช้ภาษาแรกที่รองรับจากรายการภาษาที่คุณต้องการ\n\nแอปจำนวนมากจะใช้ภูมิภาคจากภาษาที่คุณต้องการเพื่อจัดรูปแบบวันที่ ตัวเลข และหน่วยต่างๆ ด้วย หากต้องการเปลี่ยนภูมิภาค ให้เพิ่มภาษาแล้วเลือกภูมิภาคที่ต้องการ"</string>
     <string name="desc_notice_of_language_picker" msgid="3449290526457925447">"หากต้องการเลือกภาษาของแต่ละแอป ให้ไปที่การตั้งค่าภาษาของแอป"</string>
     <string name="desc_locale_helper_footer_general" msgid="6112153921151780303">"ดูข้อมูลเพิ่มเติมเกี่ยวกับภาษาของแอป"</string>
-    <!-- no translation found for title_change_system_region (9196602029960380112) -->
-    <skip />
+    <string name="title_change_system_region" msgid="9196602029960380112">"เปลี่ยนภูมิภาคเป็น%sไหม"</string>
     <string name="desc_notice_device_region_change" msgid="6702773189066944100">"อุปกรณ์จะเก็บภาษา%sไว้เป็นภาษาของระบบ"</string>
-    <!-- no translation found for desc_notice_device_region_change_for_preferred_language (408517366942324267) -->
-    <skip />
-    <!-- no translation found for title_change_system_locale (4102991236063984803) -->
-    <skip />
+    <string name="desc_notice_device_region_change_for_preferred_language" msgid="408517366942324267">"%1$s จะแทนที่ %2$s ในภาษาที่ต้องการ"</string>
+    <string name="title_change_system_locale" msgid="4102991236063984803">"เปลี่ยนภาษาของระบบเป็นภาษา%sไหม"</string>
     <string name="title_system_locale_addition" msgid="8218683660751479466">"เพิ่มภาษา %s เป็นภาษาที่ต้องการใช่ไหม"</string>
     <string name="desc_system_locale_addition" msgid="3409917362651596070">"การดำเนินการนี้จะช่วยให้แอปและเว็บไซต์ทราบว่าคุณต้องการภาษานี้ด้วย"</string>
     <string name="desc_notice_device_locale_settings_change" msgid="8311132485850714160">"การตั้งค่าอุปกรณ์และค่ากำหนดตามพื้นที่จะเปลี่ยนแปลงไป"</string>
@@ -247,8 +239,7 @@
     <string name="search_region_hint" msgid="1748708432568237552">"ค้นหาภูมิภาค"</string>
     <string name="top_intro_region_title" msgid="2336323415395642117">"ภูมิภาคที่คุณเลือกจะมีผลต่อวิธีที่โทรศัพท์แสดงเวลา วันที่ อุณหภูมิ และอื่นๆ"</string>
     <string name="more_language_settings_category" msgid="3669703092480725416">"การตั้งค่าภาษาเพิ่มเติม"</string>
-    <!-- no translation found for title_change_system_locale_region (4401478579429442695) -->
-    <skip />
+    <string name="title_change_system_locale_region" msgid="4401478579429442695">"เปลี่ยนภูมิภาคเป็น<xliff:g id="SYSTEM_LANGUAGE_REGION">%1$s</xliff:g>ไหม"</string>
     <string name="body_change_system_locale_region" msgid="9064318449821043189">"อุปกรณ์จะยังคงใช้ภาษา<xliff:g id="SYSTEM_LANGUAGE">%1$s</xliff:g>เป็นภาษาของระบบ"</string>
     <string name="top_intro_numbering_system_title" msgid="3962000662073238392">"เลือกวิธีที่อุปกรณ์ เว็บไซต์ และแอปแสดงตัวเลข"</string>
     <string name="regional_preferences_title" msgid="4304567374498629528">"ค่ากำหนดตามพื้นที่"</string>
@@ -273,8 +264,10 @@
     <string name="title_regional_pref_footer" msgid="7450438024324794380">"หากแอปไม่รองรับค่ากำหนดตามพื้นที่ แอปจะใช้การตั้งค่าภาษาเริ่มต้นแทน"</string>
     <string name="desc_regional_pref_footer_learn_more" msgid="4401708653329230081">"ดูข้อมูลเพิ่มเติมเกี่ยวกับค่ากำหนดภาษา"</string>
     <string name="metric_measurement_system" msgid="7489725697268321541">"เมตริก"</string>
-    <string name="us_measurement_system" msgid="8738587232938189052">"อิมพีเรียล (สหรัฐอเมริกา)"</string>
-    <string name="uk_measurement_system" msgid="4196897001775627597">"อิมพีเรียล (สหราชอาณาจักร)"</string>
+    <!-- no translation found for us_measurement_system (8406695347890345490) -->
+    <skip />
+    <!-- no translation found for uk_measurement_system (1814065008707689505) -->
+    <skip />
     <string name="category_title_terms_of_address" msgid="4309422700380895278">"ค่ากำหนดเพิ่มเติม"</string>
     <string name="terms_of_address_title" msgid="7338630812197476808">"เลือกว่าจะให้เรียกหรือพูดถึงตัวคุณอย่างไร"</string>
     <string name="terms_of_address_summary" msgid="7802443422612600620">"อุปกรณ์สามารถปรับเปลี่ยนวิธีเรียกหรือพูดถึงตัวคุณได้อย่างเหมาะสม"</string>
@@ -368,8 +361,7 @@
     <string name="safety_center_summary" msgid="3554867379951053869">"การรักษาความปลอดภัยของแอป การล็อกอุปกรณ์ สิทธิ์"</string>
     <string name="security_settings_face_preference_summary" msgid="6675126437396914838">"เพิ่มใบหน้าแล้ว"</string>
     <string name="security_settings_face_preference_summary_none" msgid="523320857738436024">"ต้องตั้งค่า"</string>
-    <!-- no translation found for security_settings_face_preference_summary_none_new (1963253146734002815) -->
-    <skip />
+    <string name="security_settings_face_preference_summary_none_new" msgid="1963253146734002815">"เพิ่มใบหน้า"</string>
     <string name="security_settings_face_preference_title_new" msgid="7680231874730796331">"ใบหน้า"</string>
     <string name="security_settings_face_profile_preference_title_new" msgid="685550153608106166">"ใช้ใบหน้าสำหรับการทำงาน"</string>
     <string name="private_space_face_unlock_title_new" msgid="2079622608951402509">"ปลดล็อกพื้นที่ส่วนตัวด้วยใบหน้า"</string>
@@ -452,8 +444,7 @@
     <string name="fingerprint_add_title" msgid="1837610443487902050">"เพิ่มลายนิ้วมือ"</string>
     <string name="security_settings_fingerprint_preference_summary" msgid="8486134175759676037">"{count,plural, =1{เพิ่มลายนิ้วมือแล้ว}other{เพิ่มลายนิ้วมือแล้ว # รายการ}}"</string>
     <string name="security_settings_fingerprint_preference_summary_none" msgid="1146977379031250790">"ต้องตั้งค่า"</string>
-    <!-- no translation found for security_settings_fingerprint_preference_summary_none_new (510376523784190149) -->
-    <skip />
+    <string name="security_settings_fingerprint_preference_summary_none_new" msgid="510376523784190149">"เพิ่มลายนิ้วมือ"</string>
     <string name="security_settings_fingerprint_enroll_introduction_title" msgid="7931650601996313070">"ตั้งค่าลายนิ้วมือ"</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title" msgid="2278592030102282364">"อนุญาตปลดล็อกด้วยลายนิ้วมือ"</string>
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled" msgid="1911710308293783998">"การใช้ลายนิ้วมือ"</string>
@@ -809,8 +800,7 @@
     <string name="face_unlock_skip_face" msgid="189695556498300008">"ดำเนินการต่อโดยไม่ใช้การปลดล็อกด้วยใบหน้า"</string>
     <string name="biometrics_unlock_skip_biometrics" msgid="7399882488272450182">"ดำเนินการต่อโดยไม่ใช้ลายนิ้วมือหรือใบหน้า"</string>
     <string name="unlock_set_unlock_mode_off" msgid="4632139864722236359">"ไม่มี"</string>
-    <!-- no translation found for unlock_set_unlock_mode_off_new (865396805830816266) -->
-    <skip />
+    <string name="unlock_set_unlock_mode_off_new" msgid="865396805830816266">"เพิ่ม PIN, รูปแบบ, รหัสผ่าน หรือการปัด"</string>
     <string name="unlock_set_unlock_mode_none" msgid="5596049938457028214">"ปัด"</string>
     <string name="unlock_set_unlock_mode_pattern" msgid="1926480143883094896">"รูปแบบ"</string>
     <string name="unlock_set_unlock_mode_pin" msgid="9028659554829888373">"PIN"</string>
@@ -949,10 +939,16 @@
     <string name="bluetooth_scanning_on_info_message" msgid="786648535600075223">"เมื่อเปิดบลูทูธ อุปกรณ์ของคุณจะสื่อสารกับอุปกรณ์บลูทูธเครื่องอื่นในบริเวณใกล้เคียงได้\n\nแอปและบริการต่างๆ จะยังคงสแกนหาอุปกรณ์ที่อยู่ใกล้เคียงได้ทุกเมื่อแม้บลูทูธจะปิดอยู่เพื่อปรับปรุงประสบการณ์การใช้งานอุปกรณ์ การตั้งค่านี้ใช้เพื่อทำสิ่งต่างๆ เช่น ปรับปรุงฟีเจอร์และบริการที่อิงตามตำแหน่ง คุณเปลี่ยนตัวเลือกนี้ได้ในการตั้งค่าการสแกนหาบลูทูธ"</string>
     <string name="bluetooth_scanning_on_info_message_auto_on_available" msgid="7792443293031247638">"เมื่อเปิดบลูทูธ อุปกรณ์ของคุณจะสื่อสารกับอุปกรณ์บลูทูธเครื่องอื่นในบริเวณใกล้เคียงได้ ฟีเจอร์ต่างๆ เช่น Quick Share และ \"หาอุปกรณ์ของฉัน\" ใช้บลูทูธ\n\nแอปและบริการต่างๆ จะยังคงสแกนหาอุปกรณ์ที่อยู่ใกล้เคียงได้ทุกเมื่อแม้บลูทูธจะปิดอยู่ การตั้งค่านี้ใช้เพื่อทำสิ่งต่างๆ เช่น ปรับปรุงฟีเจอร์และบริการที่อิงตามตำแหน่ง คุณเปลี่ยนตัวเลือกนี้ได้ในการตั้งค่าการสแกนหาบลูทูธ"</string>
     <string name="bluetooth_scan_change" msgid="1744636222637390367">"เปลี่ยน"</string>
-    <string name="bluetooth_key_missing_title" msgid="7799054163548353853">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> ไม่ได้เชื่อมต่อ"</string>
-    <string name="bluetooth_key_missing_message" msgid="2388861106663695319">"เพื่อความปลอดภัย โปรดเลิกจำอุปกรณ์นี้แล้วจับคู่อีกครั้ง"</string>
+    <!-- no translation found for bluetooth_key_missing_title (8462010102528132965) -->
+    <skip />
+    <!-- no translation found for bluetooth_key_missing_message (3188093580372443815) -->
+    <skip />
     <string name="bluetooth_key_missing_forget" msgid="4692006517823001013">"เลิกจำอุปกรณ์"</string>
     <string name="bluetooth_key_missing_cancel" msgid="2482416446357804371">"ยกเลิก"</string>
+    <!-- no translation found for bluetooth_key_missing_device_settings (5512091368141961890) -->
+    <skip />
+    <!-- no translation found for bluetooth_key_missing_close (6724520133374312040) -->
+    <skip />
     <string name="device_details_title" msgid="1155622417516195481">"รายละเอียดอุปกรณ์"</string>
     <string name="bluetooth_device_keyboard_settings_preference_title" msgid="3411693160917620519">"การตั้งค่าแป้นพิมพ์"</string>
     <string name="bluetooth_device_more_settings_preference_title" msgid="6034482566541746500">"การตั้งค่าเพิ่มเติม"</string>
@@ -967,6 +963,8 @@
     <string name="device_details_leaudio_toggle_summary" msgid="7684848254433230809">"ทดลอง ปรับปรุงคุณภาพเสียง"</string>
     <string name="device_details_battery" msgid="5466987755790847884">"แบตเตอรี่"</string>
     <string name="device_details_battery_charging" msgid="3464969346075775143">"แบตเตอรี่ กำลังชาร์จ"</string>
+    <!-- no translation found for device_details_key_missing_title (3568401701538114387) -->
+    <skip />
     <string name="bluetooth_unpair_dialog_forget_confirm_button" msgid="9184489424930549015">"ไม่จำอุปกรณ์"</string>
     <string name="bluetooth_companion_app_remove_association_confirm_button" msgid="76323555527926915">"ยกเลิกการเชื่อมต่อแอป"</string>
     <string name="device_details_more_settings" msgid="950302792331611271">"การตั้งค่าเพิ่มเติม"</string>
@@ -1079,8 +1077,7 @@
     <string name="wifi_show_advanced" msgid="2969378109942071741">"ตัวเลือกขั้นสูง"</string>
     <string name="wifi_advanced_toggle_description" msgid="7299179796727934885">"ตัวเลือกขั้นสูงที่เป็นรายการแบบเลื่อนลง"</string>
     <string name="wifi_advanced_toggle_description_collapsed" msgid="3615140699129928913">"ขยาย"</string>
-    <!-- no translation found for wifi_ssid (5139273830867723030) -->
-    <skip />
+    <string name="wifi_ssid" msgid="5139273830867723030">"ชื่อเครือข่าย*"</string>
     <string name="wifi_ssid_hint" msgid="1940577553241083524">"ป้อน SSID"</string>
     <string name="wifi_security" msgid="9095934643631406913">"ความปลอดภัย"</string>
     <string name="wifi_hidden_network" msgid="6466834025375485596">"เครือข่ายที่ซ่อนอยู่"</string>
@@ -1103,10 +1100,10 @@
     <string name="wifi_eap_user_cert" msgid="3569182430929173220">"ใบรับรองของผู้ใช้"</string>
     <string name="wifi_eap_identity" msgid="3629406902174137028">"ข้อมูลระบุตัวตน"</string>
     <string name="wifi_eap_anonymous" msgid="8630332141751267000">"ตัวตนที่ไม่ระบุชื่อ"</string>
-    <!-- no translation found for wifi_password (165204973532996861) -->
+    <string name="wifi_password" msgid="165204973532996861">"รหัสผ่าน*"</string>
+    <!-- no translation found for wifi_password_optional (6770706664834070705) -->
     <skip />
-    <!-- no translation found for wifi_password_invalid (8884500804472828356) -->
-    <skip />
+    <string name="wifi_password_invalid" msgid="8884500804472828356">"รหัสผ่านไม่ถูกต้อง"</string>
     <string name="wifi_show_password" msgid="6865993988238157923">"แสดงรหัสผ่าน"</string>
     <string name="wifi_ap_choose_2G" msgid="1436802195991542016">"ย่านความถี่ 2.4 GHz"</string>
     <string name="wifi_ap_prefer_5G" msgid="2520628479818369902">"ต้องการใช้ย่านความถี่ 5.0 GHz"</string>
@@ -1172,8 +1169,7 @@
     <string name="wifi_scan_always_turn_on_message_unknown" msgid="4903345360745717385">"แอปที่ไม่รู้จักต้องการเปิดการสแกนเครือข่ายแม้ Wi‑Fi จะปิดอยู่เพื่อปรับปรุงความแม่นยำของตำแหน่งและวัตถุประสงค์อื่นๆ\n\nอนุญาตการดำเนินการนี้สำหรับทุกแอปที่ต้องการสแกนไหม"</string>
     <string name="wifi_scan_always_confirm_allow" msgid="4154200627800959777">"อนุญาต"</string>
     <string name="wifi_scan_always_confirm_deny" msgid="6997087934558839256">"ปฏิเสธ"</string>
-    <!-- no translation found for wifi_field_required (6312381745503042588) -->
-    <skip />
+    <string name="wifi_field_required" msgid="6312381745503042588">"*ต้องระบุ"</string>
     <string name="no_internet_access_text" msgid="3611993143350310936">"เครือข่ายนี้ไม่มีการเข้าถึงอินเทอร์เน็ต ยังต้องการเชื่อมต่ออยู่ไหม"</string>
     <string name="partial_connectivity_text" msgid="8874614799723694554">"แอปและบริการบางรายการอาจไม่ทำงานเนื่องจากมีการเชื่อมต่อจำกัด ใช้ต่อไปไหม"</string>
     <string name="no_internet_access_remember" msgid="5113610157731269258">"ไม่ต้องถามอีกสำหรับเครือข่ายนี้"</string>
@@ -1501,22 +1497,17 @@
     <string name="storage_settings_for_app" msgid="229425418984637483">"พื้นที่เก็บข้อมูลและแคช"</string>
     <string name="storage_settings_title" msgid="486118156723194815">"การตั้งค่าที่เก็บข้อมูล"</string>
     <string name="status_eid" msgid="3588471107671992684">"E​ID"</string>
-    <!-- no translation found for eid_multi_sim (6659492335576379274) -->
-    <skip />
-    <!-- no translation found for imei_multi_sim (27798473711249145) -->
-    <skip />
-    <!-- no translation found for imei_multi_sim_primary (4320457587114117400) -->
-    <skip />
+    <string name="eid_multi_sim" msgid="6659492335576379274">"E​ID (ช่องซิม <xliff:g id="EID_SLOT_ID">%1$d</xliff:g>)"</string>
+    <string name="imei_multi_sim" msgid="27798473711249145">"IMEI (ช่องซิม <xliff:g id="IMEI_SLOT_ID">%1$d</xliff:g>)"</string>
+    <string name="imei_multi_sim_primary" msgid="4320457587114117400">"IMEI (ช่องซิม <xliff:g id="IMEI_SLOT_ID_PRIMARY">%1$d</xliff:g>) (หลัก)"</string>
     <string name="view_saved_network" msgid="1232387673095080910">"เลือกเครือข่ายที่บันทึกไว้เพื่อดู"</string>
     <string name="status_imei" msgid="5719752369250485007">"IMEI"</string>
     <string name="status_imei_sv" msgid="6908985558726440951">"IMEI SV"</string>
     <string name="status_min_number" msgid="4492899165438225714">"นาที"</string>
     <string name="status_msid_number" msgid="3871958248824595774">"MSID"</string>
     <string name="status_prl_version" msgid="9002131357502714281">"รุ่น PRL"</string>
-    <!-- no translation found for meid_multi_sim (5076814185188481456) -->
-    <skip />
-    <!-- no translation found for meid_multi_sim_primary (6269908735700854437) -->
-    <skip />
+    <string name="meid_multi_sim" msgid="5076814185188481456">"MEID (ช่องซิม <xliff:g id="MEID_SLOT_ID">%1$d</xliff:g>)"</string>
+    <string name="meid_multi_sim_primary" msgid="6269908735700854437">"MEID (ช่องซิม <xliff:g id="MEID_SLOT_ID_PRIMARY">%1$d</xliff:g>) (หลัก)"</string>
     <string name="scanning_status_text_on" msgid="3846571210578042940">"เปิด"</string>
     <string name="scanning_status_text_off" msgid="4002352668313705132">"ปิด"</string>
     <string name="status_meid_number" msgid="6040380838489162650">"MEID"</string>
@@ -1584,8 +1575,7 @@
     <string name="storage_wizard_init_v2_or" msgid="5558706089661158026">"หรือ"</string>
     <string name="storage_wizard_init_v2_external_title" msgid="2786416384217054112">"ฟอร์แมตการ์ด SD สำหรับเป็นพื้นที่เก็บข้อมูลแบบพกพา"</string>
     <string name="storage_wizard_init_v2_external_summary" msgid="2002761631147966185">"จัดเก็บรูปภาพ วิดีโอ เพลง และอื่นๆ อีกทั้งยังเข้าถึงได้จากอุปกรณ์ต่างๆ &lt;a href=https://support.google.com/android/answer/12153449&gt;ดูข้อมูลเพิ่มเติมเกี่ยวกับการตั้งค่าการ์ด SD&lt;/a&gt;."</string>
-    <!-- no translation found for storage_wizard_init_v2_external_summary_non_sd_card (6638380506793421312) -->
-    <skip />
+    <string name="storage_wizard_init_v2_external_summary_non_sd_card" msgid="6638380506793421312">"จัดเก็บรูปภาพ วิดีโอ เพลง และอื่นๆ อีกทั้งยังเข้าถึงได้จากอุปกรณ์ต่างๆ"</string>
     <string name="storage_wizard_init_v2_external_action" msgid="6140058734875839081">"ฟอร์แมต"</string>
     <string name="storage_wizard_init_v2_later" msgid="5366815913892609285">"ตั้งค่าทีหลัง"</string>
     <string name="storage_wizard_format_confirm_v2_title" msgid="6294104100437326067">"ฟอร์แมต<xliff:g id="NAME">^1</xliff:g> นี้ไหม"</string>
@@ -1610,21 +1600,13 @@
     <string name="battery_level_title" msgid="1371765298786083448">"ระดับแบตเตอรี่"</string>
     <string name="communal_settings_title" msgid="2845678473945902115">"ส่วนกลาง"</string>
     <string name="communal_settings_summary" msgid="4923914136953940317">"การตั้งค่าส่วนกลาง"</string>
-    <!-- no translation found for hub_mode_category_title (5290081595872103974) -->
-    <skip />
-    <!-- no translation found for widgets_on_lockscreen_title (6979558402208585885) -->
-    <skip />
-    <!-- no translation found for when_to_auto_show_hubmode_title (2307148913387518369) -->
-    <skip />
-    <!-- no translation found for when_to_show_hubmode_never (976644329215156021) -->
-    <skip />
-    <!-- no translation found for when_to_show_hubmode_charging (1874391105066805128) -->
-    <skip />
-    <!-- no translation found for when_to_show_hubmode_charging_and_upright (6293947459712755814) -->
-    <skip />
-    <!-- no translation found for when_to_show_hubmode_docked (7107631545009933891) -->
-    <skip />
-    <string name="satellite_setting" msgid="4171265534842459910">"การรับส่งข้อความผ่านดาวเทียม"</string>
+    <string name="hub_mode_category_title" msgid="5290081595872103974">"โหมดฮับ"</string>
+    <string name="widgets_on_lockscreen_title" msgid="6979558402208585885">"วิดเจ็ตในหน้าจอล็อก"</string>
+    <string name="when_to_auto_show_hubmode_title" msgid="2307148913387518369">"เวลาที่ต้องการให้แสดงโดยอัตโนมัติ"</string>
+    <string name="when_to_show_hubmode_never" msgid="976644329215156021">"ไม่เลย"</string>
+    <string name="when_to_show_hubmode_charging" msgid="1874391105066805128">"ขณะชาร์จ"</string>
+    <string name="when_to_show_hubmode_charging_and_upright" msgid="6293947459712755814">"ขณะชาร์จและวางตั้งตรง"</string>
+    <string name="when_to_show_hubmode_docked" msgid="7107631545009933891">"ขณะวางอยู่บนแท่นชาร์จ"</string>
     <string name="apn_settings" msgid="4295467389400441299">"APN"</string>
     <string name="apn_edit" msgid="2003683641840248741">"แก้ไขจุดเข้าใช้งาน"</string>
     <string name="apn_add" msgid="9069613192201630934">"เพิ่มจุดเข้าใช้งาน"</string>
@@ -1732,16 +1714,11 @@
     <string name="tether_preference_summary_off" msgid="6266799346319794630">"ปิด"</string>
     <string name="usb_tethering_button_text" msgid="7364633823180913777">"เชื่อมต่ออินเทอร์เน็ตผ่าน USB"</string>
     <string name="bluetooth_tether_checkbox_text" msgid="6108398414967813545">"ต่ออินเทอร์เน็ตผ่านบลูทูธ"</string>
-    <!-- no translation found for ethernet_ip_address (4218340787862242573) -->
-    <skip />
-    <!-- no translation found for ethernet_mac_address_title (3235879195237611007) -->
-    <skip />
-    <!-- no translation found for tx_ethernet_speed (4785035505065551012) -->
-    <skip />
-    <!-- no translation found for rx_ethernet_speed (6642000569214969711) -->
-    <skip />
-    <!-- no translation found for ethernet_network_usage (3795965384177426780) -->
-    <skip />
+    <string name="ethernet_ip_address" msgid="4218340787862242573">"ที่อยู่ IP"</string>
+    <string name="ethernet_mac_address_title" msgid="3235879195237611007">"ที่อยู่ MAC"</string>
+    <string name="tx_ethernet_speed" msgid="4785035505065551012">"ความเร็วในการลิงก์แบบข้ามเครือข่าย"</string>
+    <string name="rx_ethernet_speed" msgid="6642000569214969711">"ความเร็วในการรับลิงก์"</string>
+    <string name="ethernet_network_usage" msgid="3795965384177426780">"การใช้งานเครือข่าย"</string>
     <string name="ethernet_tether_checkbox_text" msgid="959743110824197356">"เชื่อมต่ออินเทอร์เน็ตผ่านอีเทอร์เน็ต"</string>
     <string name="tethering_footer_info" msgid="6824352505979800594">"ใช้ฮอตสปอตและการเชื่อมต่ออินเทอร์เน็ตผ่านมือถือเพื่อให้อุปกรณ์อื่นๆ ใช้อินเทอร์เน็ตจากการเชื่อมต่ออินเทอร์เน็ตของคุณได้ แอปยังสร้างฮอตสปอตเพื่อแชร์เนื้อหากับอุปกรณ์ที่อยู่ใกล้เคียงได้ด้วย"</string>
     <string name="tethering_footer_info_sta_ap_concurrency" msgid="2079039077487477676">"ใช้ฮอตสปอตและการเชื่อมต่ออินเทอร์เน็ตผ่านมือถือเพื่อ⁠ให้⁠อุ⁠ป⁠ก⁠ร⁠ณ์อื่นๆ ใช้อินเทอร์เน็ตจาก Wi-Fi หรือการเชื่อมต่ออินเทอร์เน็ตมือถือของคุณได้ แอปยังสร้างฮอตสปอตเพื่อแชร์เนื้อหากับอุปกรณ์ที่อยู่ใกล้เคียงได้อีกด้วย"</string>
@@ -2458,8 +2435,7 @@
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="1830189632458752698">"ข้อความคอนทราสต์สูง"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_summary" msgid="5286411556836346180">"เปลี่ยนสีข้อความเป็นสีดำหรือสีขาว เพิ่มความ​​คอนทราสต์เมื่อเทียบกับพื้นหลังให้สูงสุด"</string>
     <string name="accessibility_notification_high_contrast_text_title" msgid="2297915407152953323">"ปรับปรุงคอนทราสต์ของข้อความ"</string>
-    <!-- no translation found for accessibility_notification_high_contrast_text_body_message (6846453833480117658) -->
-    <skip />
+    <string name="accessibility_notification_high_contrast_text_body_message" msgid="6846453833480117658">"สีขอบข้อความแทนที่ข้อความคอนทราสต์สูง ซึ่งสามารถเปิดได้ใน <xliff:g id="SETTINGS">%1$s</xliff:g>"</string>
     <string name="accessibility_notification_high_contrast_text_action_open_settings" msgid="5945069315472850294">"ไปที่<xliff:g id="SETTINGS">%1$s</xliff:g>"</string>
     <string name="accessibility_toggle_maximize_text_contrast_preference_title" msgid="8848579943445806659">"สีขอบข้อความ"</string>
     <string name="accessibility_toggle_maximize_text_contrast_preference_summary" msgid="8200408691846666900">"เพิ่มพื้นหลังสีดำหรือขาวรอบๆ ข้อความเพื่อเพิ่มความคอนทราสต์"</string>
@@ -3157,34 +3133,25 @@
     <string name="data_usage_uninstalled_apps_users" msgid="1262228664057122983">"แอปพลิเคชันและผู้ใช้ที่นำออก"</string>
     <string name="wifi_metered_title" msgid="6623732965268033931">"การใช้งานเครือข่าย"</string>
     <string name="data_usage_metered_yes" msgid="4262598072030135223">"แบบจำกัดปริมาณ"</string>
-    <!-- no translation found for vpn_name (1119885022967213297) -->
-    <skip />
+    <string name="vpn_name" msgid="1119885022967213297">"ชื่อ*"</string>
     <string name="vpn_type" msgid="5533202873260826663">"ประเภท"</string>
-    <!-- no translation found for vpn_server (5771717512763639505) -->
-    <skip />
-    <!-- no translation found for vpn_ipsec_identifier (6976476088030400883) -->
-    <skip />
-    <!-- no translation found for vpn_ipsec_secret (3110033645671775202) -->
-    <skip />
+    <string name="vpn_server" msgid="5771717512763639505">"ที่อยู่เซิร์ฟเวอร์*"</string>
+    <string name="vpn_ipsec_identifier" msgid="6976476088030400883">"ตัวระบุ IPSec*"</string>
+    <string name="vpn_ipsec_secret" msgid="3110033645671775202">"คีย์ IPSec ที่แชร์ล่วงหน้า*"</string>
     <string name="vpn_ipsec_user_cert" msgid="2714372103705048405">"ใบรับรองผู้ใช้ IPSec"</string>
     <string name="vpn_ipsec_ca_cert" msgid="5558498943577474987">"ใบรับรอง IPSec CA"</string>
     <string name="vpn_ipsec_server_cert" msgid="1411390470454731396">"ใบรับรองเซิร์ฟเวอร์ IPSec"</string>
     <string name="vpn_show_options" msgid="6105437733943318667">"แสดงตัวเลือกขั้นสูง"</string>
-    <!-- no translation found for vpn_username_optional (8564310631984689947) -->
-    <skip />
-    <!-- no translation found for vpn_password_optional (1255147723869461543) -->
-    <skip />
-    <!-- no translation found for vpn_username_required (1808631251331232149) -->
-    <skip />
-    <!-- no translation found for vpn_password_required (1916107706318825437) -->
-    <skip />
+    <string name="vpn_username_optional" msgid="8564310631984689947">"ชื่อผู้ใช้ (ไม่บังคับ)"</string>
+    <string name="vpn_password_optional" msgid="1255147723869461543">"รหัสผ่าน (ไม่บังคับ)"</string>
+    <string name="vpn_username_required" msgid="1808631251331232149">"ชื่อผู้ใช้*"</string>
+    <string name="vpn_password_required" msgid="1916107706318825437">"รหัสผ่าน*"</string>
     <string name="vpn_save_login" msgid="5986762519977472618">"บันทึกข้อมูลบัญชี"</string>
     <string name="vpn_not_used" msgid="7229312881336083354">"(ไม่ใช้)"</string>
     <string name="vpn_no_ca_cert" msgid="3687379414088677735">"(ไม่ตรวจสอบเซิร์ฟเวอร์)"</string>
     <string name="vpn_no_server_cert" msgid="8106540968643125407">"(ได้รับจากเซิร์ฟเวอร์)"</string>
     <string name="vpn_always_on_invalid_reason_other" msgid="4571905303713233321">"ข้อมูลที่ป้อนไม่รองรับการเชื่อมต่อ VPN ตลอดเวลา"</string>
-    <!-- no translation found for vpn_field_required (582849543970781302) -->
-    <skip />
+    <string name="vpn_field_required" msgid="582849543970781302">"*ต้องระบุ"</string>
     <string name="vpn_cancel" msgid="5929410618112404383">"ยกเลิก"</string>
     <string name="vpn_done" msgid="5137858784289564985">"ปิด"</string>
     <string name="vpn_save" msgid="683868204634860888">"บันทึก"</string>
@@ -3415,8 +3382,7 @@
     <string name="color_orange" msgid="216547825489739010">"ส้ม"</string>
     <string name="color_purple" msgid="6603701972079904843">"ม่วง"</string>
     <string name="sim_status_title" msgid="6188770698037109774">"สถานะซิม"</string>
-    <!-- no translation found for sim_status_title_sim_slot (5421926522479103027) -->
-    <skip />
+    <string name="sim_status_title_sim_slot" msgid="5421926522479103027">"สถานะซิม (ช่องซิม %1$d)"</string>
     <string name="sim_signal_strength" msgid="6351052821700294501">"<xliff:g id="DBM">%1$d</xliff:g> dBm <xliff:g id="ASU">%2$d</xliff:g> asu"</string>
     <string name="sim_notification_title" msgid="6839556577405929262">"เปลี่ยนซิมแล้ว"</string>
     <string name="sim_notification_summary" msgid="5593339846307029991">"แตะเพื่อตั้งค่า"</string>
@@ -4451,7 +4417,8 @@
     <string name="disconnected" msgid="3469373726996129247">"ไม่เชื่อมต่อ"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"ไม่ได้เชื่อมต่อ"</string>
     <string name="apps_summary" msgid="4007416751775414252">"ติดตั้งแล้ว <xliff:g id="COUNT">%1$d</xliff:g> แอป"</string>
-    <string name="storage_summary" msgid="7631468664968572688">"ใช้ไป <xliff:g id="PERCENTAGE">%1$s</xliff:g> - มีพื้นที่ว่าง <xliff:g id="FREE_SPACE_VALUE">%2$s</xliff:g> <xliff:g id="FREE_SPACE_UNITS">%3$s</xliff:g>"</string>
+    <!-- no translation found for storage_toplevel_summary (6708203706751754934) -->
+    <skip />
     <string name="display_dashboard_summary" msgid="1599453894989339454">"ธีมมืด ขนาดตัวอักษร ความสว่าง"</string>
     <string name="memory_summary" msgid="8221954450951651735">"ใช้หน่วยความจำไป <xliff:g id="USED_MEMORY">%1$s</xliff:g> จาก <xliff:g id="TOTAL_MEMORY">%2$s</xliff:g> โดยเฉลี่ย"</string>
     <string name="users_summary" msgid="8473589474976307510">"ลงชื่อเข้าใช้ในชื่อ <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
@@ -5074,13 +5041,16 @@
     <string name="roaming_alert_title" msgid="9052791521868787985">"อนุญาตการโรมมิ่งข้อมูลไหม"</string>
     <string name="roaming_check_price_warning" msgid="5876977438036791361">"โปรดสอบถามผู้ให้บริการเครือข่ายสำหรับข้อมูลเกี่ยวกับราคา"</string>
     <string name="mobile_network_mode_error" msgid="9222056129897416074">"โหมดเครือข่ายไม่ถูกต้อง <xliff:g id="NETWORKMODEID">%1$d</xliff:g> ไม่สนใจ"</string>
-    <string name="satellite_setting_title" msgid="2543034229989047673">"การรับส่งข้อความผ่านดาวเทียม"</string>
+    <!-- no translation found for satellite_setting (4650503806634496443) -->
+    <skip />
     <string name="satellite_setting_enabled_summary" msgid="3554127722727530845">"รับส่งข้อความผ่านดาวเทียม รวมอยู่ในบัญชี"</string>
     <string name="satellite_setting_disabled_summary" msgid="8428393986403708690">"รับส่งข้อความผ่านดาวเทียม ไม่รวมอยู่ในบัญชี"</string>
     <string name="satellite_setting_summary_without_entitlement" msgid="5284998840770992554">"รับส่งข้อความผ่านดาวเทียม โปรดติดต่อสอบถามรายละเอียดจากผู้ให้บริการ"</string>
     <string name="keywords_satellite_setting" msgid="613553612424945946">"การรับส่งข้อความผ่านดาวเทียม การเชื่อมต่อผ่านดาวเทียม"</string>
-    <string name="category_name_about_satellite_messaging" msgid="4978095955643523120">"เกี่ยวกับ <xliff:g id="SUBJECT">%1$s</xliff:g>"</string>
-    <string name="title_about_satellite_setting" msgid="3563087940535642558">"คุณรับส่ง SMS ผ่านดาวเทียมได้ด้วยบัญชี <xliff:g id="CARRIER_NAME">%1$s</xliff:g> ที่มีสิทธิ์"</string>
+    <!-- no translation found for category_name_about_satellite_connectivity (3971142716898783631) -->
+    <skip />
+    <!-- no translation found for description_about_satellite_setting (5539359064330584941) -->
+    <skip />
     <string name="category_title_your_satellite_plan" msgid="8169426217950247126">"บัญชี <xliff:g id="CARRIER_NAME">%1$s</xliff:g> ของคุณ"</string>
     <string name="title_have_satellite_plan" msgid="2048372355699977947">"การรับส่งข้อความผ่านดาวเทียมรวมอยู่ในบัญชีของคุณ"</string>
     <string name="title_no_satellite_plan" msgid="2876056203035197505">"การรับส่งข้อความผ่านดาวเทียมไม่รวมอยู่ในบัญชีของคุณ"</string>
@@ -5096,10 +5066,12 @@
     <string name="summary_supported_service_for_manual_type" msgid="2147958362763058271">"หลังจากเชื่อมต่อโทรศัพท์แล้ว คุณจะส่งข้อความถึงใครก็ได้ รวมถึงบริการช่วยเหลือฉุกเฉิน"</string>
     <string name="satellite_setting_summary_more_information" msgid="276312352285564071">"การเชื่อมต่อผ่านดาวเทียมอาจช้ากว่าและพร้อมให้ใช้งานเฉพาะในบางพื้นที่ โปรดทราบว่าสภาพอากาศและโครงสร้างบางอย่างอาจส่งผลต่อการเชื่อมต่อ การโทรผ่านดาวเทียมไม่พร้อมใช้งาน การโทรฉุกเฉินอาจยังเชื่อมต่ออยู่\n\nระบบอาจใช้เวลาสักครู่กว่าที่การเปลี่ยนแปลงในบัญชีจะแสดงในการตั้งค่า โปรดติดต่อ <xliff:g id="CARRIER_NAME">%1$s</xliff:g> เพื่อสอบถามรายละเอียด"</string>
     <string name="satellite_setting_summary_more_information_no_emergency_messaging" msgid="2090170250936862158">"การเชื่อมต่อผ่านดาวเทียมอาจช้ากว่าและพร้อมให้ใช้งานเฉพาะในบางพื้นที่ โปรดทราบว่าสภาพอากาศและโครงสร้างบางอย่างอาจส่งผลต่อการเชื่อมต่อ การโทรผ่านดาวเทียมไม่พร้อมใช้งาน การโทรฉุกเฉินอาจยังเชื่อมต่ออยู่ การรับส่งข้อความกับบริการช่วยเหลือฉุกเฉินอาจทำไม่ได้ในบางพื้นที่\n\nอาจใช้เวลาสักครู่ก่อนที่การเปลี่ยนแปลงในบัญชีจะแสดงในการตั้งค่า โปรดติดต่อ <xliff:g id="CARRIER_NAME">%1$s</xliff:g> เพื่อสอบถามรายละเอียด"</string>
-    <string name="more_about_satellite_messaging" msgid="1039277943532711584">"ข้อมูลเพิ่มเติมเกี่ยวกับ <xliff:g id="SUBJECT">%1$s</xliff:g>"</string>
+    <!-- no translation found for more_about_satellite_messaging (5358981088419444073) -->
+    <skip />
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"เปิด <xliff:g id="FUNCTION">%1$s</xliff:g> ไม่ได้"</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"หากต้องการเปิด <xliff:g id="FUNCTION">%1$s</xliff:g> ให้หยุดการเชื่อมต่อดาวเทียมก่อน"</string>
-    <string name="category_title_satellite_connectivity" msgid="7540022356863917632">"การเชื่อมต่อผ่านดาวเทียม"</string>
+    <!-- no translation found for category_title_satellite_connectivity (7740500012311192133) -->
+    <skip />
     <string name="title_satellite_setting_connectivity" msgid="488626710934668313">"การเชื่อมต่อผ่านดาวเทียม"</string>
     <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"การเชื่อมต่อผ่านดาวเทียม"</string>
     <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"การรับส่งข้อความผ่านดาวเทียม"</string>
@@ -5300,10 +5272,8 @@
     <string name="enable_16k_app_compat_details" msgid="5382562613011853452">"แอปจะหยุดและทำงานในโหมดเข้ากันได้กับขนาดหน้าบนอุปกรณ์ 16 KB เมื่อเปิดใช้"</string>
     <string name="stop_app_dlg_title" msgid="3153921585174512587">"หยุดแอปไหม"</string>
     <string name="stop_app_dlg_text" msgid="4373849065005318901">"แอปพลิเคชันจะหยุดทำงานเพื่อใช้การตั้งค่าความเข้ากันได้กับขนาดหน้า"</string>
-    <!-- no translation found for error_pending_updates (7196832772265874760) -->
-    <skip />
-    <!-- no translation found for error_ota_failed (4762376085470989653) -->
-    <skip />
+    <string name="error_pending_updates" msgid="7196832772265874760">"อัปเดตเคอร์เนลไม่สำเร็จ ตรวจสอบและติดตั้งการอัปเดตที่รอดำเนินการ"</string>
+    <string name="error_ota_failed" msgid="4762376085470989653">"อัปเดตเคอร์เนลไม่สำเร็จ เกิดข้อผิดพลาดขณะใช้ OTA"</string>
     <string name="bug_report_handler_title" msgid="713439959113250125">"เครื่องจัดการรายงานข้อบกพร่อง"</string>
     <string name="bug_report_handler_picker_footer_text" msgid="4935758328366585673">"เลือกแอปที่จะให้จัดการทางลัดรายงานข้อบกพร่องในอุปกรณ์"</string>
     <string name="personal_profile_app_subtext" msgid="5586060806997067676">"ส่วนตัว"</string>
@@ -5452,10 +5422,8 @@
     <string name="smart_forwarding_input_mdn_dialog_title" msgid="7542216086697868415">"ป้อนหมายเลขโทรศัพท์"</string>
     <string name="smart_forwarding_missing_mdn_text" msgid="2907314684242542226">"ไม่มีหมายเลขโทรศัพท์"</string>
     <string name="smart_forwarding_missing_alert_dialog_text" msgid="7870419247987316112">"ตกลง"</string>
-    <!-- no translation found for enable_2g_title (5657132300321750181) -->
-    <skip />
-    <!-- no translation found for enable_2g_summary (6317192326100541563) -->
-    <skip />
+    <string name="enable_2g_title" msgid="5657132300321750181">"การป้องกันเครือข่าย 2G"</string>
+    <string name="enable_2g_summary" msgid="6317192326100541563">"หลีกเลี่ยงเครือข่าย 2G ซึ่งปลอดภัยน้อยกว่า ซึ่งอาจจำกัดการเชื่อมต่อในบางสถานที่ ทั้งนี้คุณจะสามารถโทรฉุกเฉินได้อยู่เสมอ"</string>
     <string name="enable_2g_summary_disabled_carrier" msgid="8141118453219482762">"<xliff:g id="CARRIER_NAME_2G">%1$s</xliff:g> กำหนดให้ต้องใช้งาน 2G ได้"</string>
     <string name="require_cellular_encryption_title" msgid="6087085031703089235">"อนุญาตเฉพาะเครือข่ายที่เข้ารหัส"</string>
     <string name="require_cellular_encryption_summary" msgid="6090569065420631457">"การตั้งค่านี้มีความปลอดภัยมากขึ้น แต่ก็อาจจำกัดการเชื่อมต่อเครือข่ายมือถือในบางพื้นที่ ทั้งนี้คุณจะสามารถโทรฉุกเฉินได้อยู่เสมอ"</string>
@@ -5782,15 +5750,20 @@
     <string name="supervision_change_pin_preference_title" msgid="2288584039438231801">"เปลี่ยน PIN"</string>
     <string name="supervision_add_forgot_pin_preference_title" msgid="8939945404255748516">"ลืม PIN"</string>
     <string name="supervision_web_content_filters_title" msgid="3653430162065686156">"ตัวกรองเนื้อหาเว็บ"</string>
-    <!-- no translation found for supervision_web_content_filters_browser_title (979037187423952892) -->
+    <string name="supervision_web_content_filters_browser_title" msgid="979037187423952892">"Google Chrome และเว็บ"</string>
+    <string name="supervision_web_content_filters_browser_block_explicit_sites_title" msgid="7923982596891796260">"พยายามบล็อกเว็บไซต์ที่อาจไม่เหมาะสม"</string>
+    <string name="supervision_web_content_filters_browser_block_explicit_sites_summary" msgid="1477766506765966613">"ไม่มีตัวกรองใดสมบูรณ์แบบ แต่วิธีนี้น่าจะช่วยซ่อนเว็บไซต์ที่แสดงเรื่องเพศอย่างโจ่งแจ้งได้"</string>
+    <string name="supervision_web_content_filters_browser_allow_all_sites_title" msgid="3909739592466381845">"อนุญาตทุกเว็บไซต์"</string>
+    <!-- no translation found for supervision_web_content_filters_search_title (726335318009305564) -->
     <skip />
-    <!-- no translation found for supervision_web_content_filters_browser_block_explicit_sites_title (7923982596891796260) -->
+    <!-- no translation found for supervision_web_content_filters_search_filter_on_title (4855846261141136285) -->
     <skip />
-    <!-- no translation found for supervision_web_content_filters_browser_block_explicit_sites_summary (1477766506765966613) -->
+    <!-- no translation found for supervision_web_content_filters_search_filter_on_summary (1162258144140293269) -->
     <skip />
-    <!-- no translation found for supervision_web_content_filters_browser_allow_all_sites_title (3909739592466381845) -->
+    <!-- no translation found for supervision_web_content_filters_search_filter_off_title (6049461395304222346) -->
     <skip />
-    <!-- no translation found for supervision_full_screen_pin_verification_title (78513043528333399) -->
+    <!-- no translation found for supervision_web_content_filters_search_filter_off_summary (3834238970190924433) -->
     <skip />
+    <string name="supervision_full_screen_pin_verification_title" msgid="78513043528333399">"ป้อน PIN การควบคุมดูแล"</string>
     <string name="accessibility_illustration_content_description" msgid="557376174860150903">"ภาพเคลื่อนไหวสำหรับฟีเจอร์<xliff:g id="FEATURE">%1$s</xliff:g>"</string>
 </resources>

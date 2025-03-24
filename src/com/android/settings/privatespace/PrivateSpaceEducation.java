@@ -76,6 +76,8 @@ public class PrivateSpaceEducation extends InstrumentedFragment {
         LottieAnimationView lottieAnimationView = rootView.findViewById(R.id.lottie_animation);
         LottieColorUtils.applyDynamicColors(getContext(), lottieAnimationView);
         lottieAnimationView.setOnClickListener(v -> handleAnimationClick(lottieAnimationView));
+        PrivateSpaceAccessibilityUtils.updateAccessibilityActionForAnimation(getContext(),
+                lottieAnimationView, mIsAnimationPlaying);
 
         TextView infoTextView = rootView.findViewById(R.id.learn_more);
         Pattern pattern = Pattern.compile(infoTextView.getText().toString());
@@ -121,5 +123,7 @@ public class PrivateSpaceEducation extends InstrumentedFragment {
             lottieAnimationView.playAnimation();
         }
         mIsAnimationPlaying = !mIsAnimationPlaying;
+        PrivateSpaceAccessibilityUtils.updateAccessibilityActionForAnimation(getContext(),
+                lottieAnimationView, mIsAnimationPlaying);
     }
 }

@@ -210,7 +210,7 @@
             <com.android.settingslib.RestrictedPreference
                 android:key="telephony_satellite_setting_key"
                 android:persistent="false"
-                android:title="@string/satellite_setting_title"
+                android:title="@string/title_satellite_setting_connectivity"
                 settings:keywords="@string/keywords_satellite_setting"
                 settings:controller=
                     "com.android.settings.network.telephony.satellite.SatelliteSettingPreferenceController"/>

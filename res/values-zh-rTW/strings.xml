@@ -41,12 +41,9 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"待命"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"不明"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"預覽"</string>
-    <!-- no translation found for preview_pager_home_content_description (3961399947853424786) -->
-    <skip />
-    <!-- no translation found for preview_pager_message_content_description (3018855090807833755) -->
-    <skip />
-    <!-- no translation found for preview_pager_email_content_description (100055784235660338) -->
-    <skip />
+    <string name="preview_pager_home_content_description" msgid="3961399947853424786">"主畫面預覽"</string>
+    <string name="preview_pager_message_content_description" msgid="3018855090807833755">"訊息預覽"</string>
+    <string name="preview_pager_email_content_description" msgid="100055784235660338">"電子郵件預覽"</string>
     <string name="qr_code_content_description" msgid="1852208464419291347">"QR code"</string>
     <string name="preview_pager_previous_button" msgid="607771113300838313">"上一個預覽畫面"</string>
     <string name="preview_pager_next_button" msgid="8700907912508927271">"下一個預覽畫面"</string>
@@ -222,12 +219,10 @@
     <string name="desc_introduction_of_language_picker" msgid="4012265379885200083">"裝置、應用程式和網站會使用偏好語言清單中的第一個支援語言。\n\n許多應用程式也會根據偏好語言的來源區域，設定日期、數值和單位的格式。如要變更所在區域，請新增語言，然後選擇偏好的區域。"</string>
     <string name="desc_notice_of_language_picker" msgid="3449290526457925447">"如要選取各應用程式使用的語言，請前往應用程式語言設定。"</string>
     <string name="desc_locale_helper_footer_general" msgid="6112153921151780303">"進一步瞭解應用程式的語言"</string>
-    <!-- no translation found for title_change_system_region (9196602029960380112) -->
-    <skip />
+    <string name="title_change_system_region" msgid="9196602029960380112">"要將區域變更為%s嗎？"</string>
     <string name="desc_notice_device_region_change" msgid="6702773189066944100">"裝置會將「%s」設為系統語言"</string>
     <string name="desc_notice_device_region_change_for_preferred_language" msgid="408517366942324267">"%1$s將取代偏好語言中的%2$s"</string>
-    <!-- no translation found for title_change_system_locale (4102991236063984803) -->
-    <skip />
+    <string name="title_change_system_locale" msgid="4102991236063984803">"要將系統語言變更為%s嗎？"</string>
     <string name="title_system_locale_addition" msgid="8218683660751479466">"要將「%s」新增為偏好語言嗎？"</string>
     <string name="desc_system_locale_addition" msgid="3409917362651596070">"這麼做可讓應用程式和網站知道這也是你的偏好語言。"</string>
     <string name="desc_notice_device_locale_settings_change" msgid="8311132485850714160">"系統將變更裝置設定和地區偏好設定。"</string>
@@ -244,8 +239,7 @@
     <string name="search_region_hint" msgid="1748708432568237552">"搜尋區域"</string>
     <string name="top_intro_region_title" msgid="2336323415395642117">"所選區域會影響手機顯示時間、日期和溫度等資訊的方式。"</string>
     <string name="more_language_settings_category" msgid="3669703092480725416">"更多語言設定"</string>
-    <!-- no translation found for title_change_system_locale_region (4401478579429442695) -->
-    <skip />
+    <string name="title_change_system_locale_region" msgid="4401478579429442695">"要將地區變更為<xliff:g id="SYSTEM_LANGUAGE_REGION">%1$s</xliff:g>嗎？"</string>
     <string name="body_change_system_locale_region" msgid="9064318449821043189">"裝置將繼續使用<xliff:g id="SYSTEM_LANGUAGE">%1$s</xliff:g>做為系統語言"</string>
     <string name="top_intro_numbering_system_title" msgid="3962000662073238392">"選擇裝置、網站和應用程式顯示號碼的方式"</string>
     <string name="regional_preferences_title" msgid="4304567374498629528">"地區偏好設定"</string>
@@ -270,8 +264,10 @@
     <string name="title_regional_pref_footer" msgid="7450438024324794380">"如果應用程式不支援地區偏好設定，就會使用預設的語言代碼設定。"</string>
     <string name="desc_regional_pref_footer_learn_more" msgid="4401708653329230081">"進一步瞭解語言偏好設定"</string>
     <string name="metric_measurement_system" msgid="7489725697268321541">"公制"</string>
-    <string name="us_measurement_system" msgid="8738587232938189052">"英制 (美國)"</string>
-    <string name="uk_measurement_system" msgid="4196897001775627597">"英制 (英國)"</string>
+    <!-- no translation found for us_measurement_system (8406695347890345490) -->
+    <skip />
+    <!-- no translation found for uk_measurement_system (1814065008707689505) -->
+    <skip />
     <string name="category_title_terms_of_address" msgid="4309422700380895278">"其他偏好設定"</string>
     <string name="terms_of_address_title" msgid="7338630812197476808">"選擇稱呼你的方式"</string>
     <string name="terms_of_address_summary" msgid="7802443422612600620">"你可以自訂裝置稱呼你的方式"</string>
@@ -365,8 +361,7 @@
     <string name="safety_center_summary" msgid="3554867379951053869">"應用程式安全性、裝置鎖定、權限"</string>
     <string name="security_settings_face_preference_summary" msgid="6675126437396914838">"已新增臉孔"</string>
     <string name="security_settings_face_preference_summary_none" msgid="523320857738436024">"必須設定"</string>
-    <!-- no translation found for security_settings_face_preference_summary_none_new (1963253146734002815) -->
-    <skip />
+    <string name="security_settings_face_preference_summary_none_new" msgid="1963253146734002815">"新增臉孔"</string>
     <string name="security_settings_face_preference_title_new" msgid="7680231874730796331">"人臉"</string>
     <string name="security_settings_face_profile_preference_title_new" msgid="685550153608106166">"使用人臉解鎖工作資料夾"</string>
     <string name="private_space_face_unlock_title_new" msgid="2079622608951402509">"使用人臉解鎖私人空間"</string>
@@ -449,8 +444,7 @@
     <string name="fingerprint_add_title" msgid="1837610443487902050">"新增指紋"</string>
     <string name="security_settings_fingerprint_preference_summary" msgid="8486134175759676037">"{count,plural, =1{已新增 1 個指紋}other{已新增 # 個指紋}}"</string>
     <string name="security_settings_fingerprint_preference_summary_none" msgid="1146977379031250790">"需要設定"</string>
-    <!-- no translation found for security_settings_fingerprint_preference_summary_none_new (510376523784190149) -->
-    <skip />
+    <string name="security_settings_fingerprint_preference_summary_none_new" msgid="510376523784190149">"新增指紋"</string>
     <string name="security_settings_fingerprint_enroll_introduction_title" msgid="7931650601996313070">"設定指紋"</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title" msgid="2278592030102282364">"允許使用指紋解鎖功能"</string>
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled" msgid="1911710308293783998">"使用指紋"</string>
@@ -806,8 +800,7 @@
     <string name="face_unlock_skip_face" msgid="189695556498300008">"繼續但不設定人臉解鎖功能"</string>
     <string name="biometrics_unlock_skip_biometrics" msgid="7399882488272450182">"不設定指紋與人臉解鎖並繼續操作"</string>
     <string name="unlock_set_unlock_mode_off" msgid="4632139864722236359">"無"</string>
-    <!-- no translation found for unlock_set_unlock_mode_off_new (865396805830816266) -->
-    <skip />
+    <string name="unlock_set_unlock_mode_off_new" msgid="865396805830816266">"新增 PIN 碼、圖案、密碼或滑動解鎖"</string>
     <string name="unlock_set_unlock_mode_none" msgid="5596049938457028214">"滑動"</string>
     <string name="unlock_set_unlock_mode_pattern" msgid="1926480143883094896">"圖案"</string>
     <string name="unlock_set_unlock_mode_pin" msgid="9028659554829888373">"PIN 碼"</string>
@@ -946,10 +939,16 @@
     <string name="bluetooth_scanning_on_info_message" msgid="786648535600075223">"藍牙功能開啟後，裝置即可與附近的其他藍牙裝置通訊。\n\n為提升裝置使用體驗，即使藍牙功能未開啟，應用程式和服務仍可隨時掃描鄰近裝置。這項功能可加強適地性功能與服務，可在藍牙掃描設定中變更。"</string>
     <string name="bluetooth_scanning_on_info_message_auto_on_available" msgid="7792443293031247638">"藍牙開啟後，裝置就能與附近的其他藍牙裝置通訊。「快速分享」和「尋找我的裝置」等功能都會使用藍牙技術。\n\n即使藍牙功能未開啟，應用程式和服務仍可隨時掃描鄰近裝置，改善適地性功能和服務等等。你可以在藍牙掃描設定中變更這項功能。"</string>
     <string name="bluetooth_scan_change" msgid="1744636222637390367">"變更"</string>
-    <string name="bluetooth_key_missing_title" msgid="7799054163548353853">"「<xliff:g id="DEVICE_NAME">%1$s</xliff:g>」未連線"</string>
-    <string name="bluetooth_key_missing_message" msgid="2388861106663695319">"為了安全起見，請先刪除這部裝置再重新配對"</string>
+    <!-- no translation found for bluetooth_key_missing_title (8462010102528132965) -->
+    <skip />
+    <!-- no translation found for bluetooth_key_missing_message (3188093580372443815) -->
+    <skip />
     <string name="bluetooth_key_missing_forget" msgid="4692006517823001013">"清除裝置"</string>
     <string name="bluetooth_key_missing_cancel" msgid="2482416446357804371">"取消"</string>
+    <!-- no translation found for bluetooth_key_missing_device_settings (5512091368141961890) -->
+    <skip />
+    <!-- no translation found for bluetooth_key_missing_close (6724520133374312040) -->
+    <skip />
     <string name="device_details_title" msgid="1155622417516195481">"裝置詳細資料"</string>
     <string name="bluetooth_device_keyboard_settings_preference_title" msgid="3411693160917620519">"鍵盤設定"</string>
     <string name="bluetooth_device_more_settings_preference_title" msgid="6034482566541746500">"更多設定"</string>
@@ -964,6 +963,8 @@
     <string name="device_details_leaudio_toggle_summary" msgid="7684848254433230809">"實驗功能，用於改善音質。"</string>
     <string name="device_details_battery" msgid="5466987755790847884">"電池"</string>
     <string name="device_details_battery_charging" msgid="3464969346075775143">"電池充電中"</string>
+    <!-- no translation found for device_details_key_missing_title (3568401701538114387) -->
+    <skip />
     <string name="bluetooth_unpair_dialog_forget_confirm_button" msgid="9184489424930549015">"清除裝置"</string>
     <string name="bluetooth_companion_app_remove_association_confirm_button" msgid="76323555527926915">"解除連結應用程式"</string>
     <string name="device_details_more_settings" msgid="950302792331611271">"更多設定"</string>
@@ -1101,6 +1102,8 @@
     <string name="wifi_eap_identity" msgid="3629406902174137028">"身分"</string>
     <string name="wifi_eap_anonymous" msgid="8630332141751267000">"匿名身分"</string>
     <!-- no translation found for wifi_password (165204973532996861) -->
+    <skip />
+    <!-- no translation found for wifi_password_optional (6770706664834070705) -->
     <skip />
     <!-- no translation found for wifi_password_invalid (8884500804472828356) -->
     <skip />
@@ -1601,21 +1604,13 @@
     <string name="battery_level_title" msgid="1371765298786083448">"電池電量"</string>
     <string name="communal_settings_title" msgid="2845678473945902115">"共通"</string>
     <string name="communal_settings_summary" msgid="4923914136953940317">"共通設定"</string>
-    <!-- no translation found for hub_mode_category_title (5290081595872103974) -->
-    <skip />
-    <!-- no translation found for widgets_on_lockscreen_title (6979558402208585885) -->
-    <skip />
-    <!-- no translation found for when_to_auto_show_hubmode_title (2307148913387518369) -->
-    <skip />
-    <!-- no translation found for when_to_show_hubmode_never (976644329215156021) -->
-    <skip />
-    <!-- no translation found for when_to_show_hubmode_charging (1874391105066805128) -->
-    <skip />
-    <!-- no translation found for when_to_show_hubmode_charging_and_upright (6293947459712755814) -->
-    <skip />
-    <!-- no translation found for when_to_show_hubmode_docked (7107631545009933891) -->
-    <skip />
-    <string name="satellite_setting" msgid="4171265534842459910">"衛星訊息"</string>
+    <string name="hub_mode_category_title" msgid="5290081595872103974">"Hub 模式"</string>
+    <string name="widgets_on_lockscreen_title" msgid="6979558402208585885">"螢幕鎖定畫面上的小工具"</string>
+    <string name="when_to_auto_show_hubmode_title" msgid="2307148913387518369">"自動顯示時機"</string>
+    <string name="when_to_show_hubmode_never" msgid="976644329215156021">"一律不要"</string>
+    <string name="when_to_show_hubmode_charging" msgid="1874391105066805128">"充電時"</string>
+    <string name="when_to_show_hubmode_charging_and_upright" msgid="6293947459712755814">"裝置直立充電時"</string>
+    <string name="when_to_show_hubmode_docked" msgid="7107631545009933891">"在座架充電時"</string>
     <string name="apn_settings" msgid="4295467389400441299">"APN"</string>
     <string name="apn_edit" msgid="2003683641840248741">"編輯存取點"</string>
     <string name="apn_add" msgid="9069613192201630934">"新增存取點"</string>
@@ -1723,16 +1718,11 @@
     <string name="tether_preference_summary_off" msgid="6266799346319794630">"關閉"</string>
     <string name="usb_tethering_button_text" msgid="7364633823180913777">"USB 網路共用"</string>
     <string name="bluetooth_tether_checkbox_text" msgid="6108398414967813545">"藍牙網路共用"</string>
-    <!-- no translation found for ethernet_ip_address (4218340787862242573) -->
-    <skip />
-    <!-- no translation found for ethernet_mac_address_title (3235879195237611007) -->
-    <skip />
-    <!-- no translation found for tx_ethernet_speed (4785035505065551012) -->
-    <skip />
-    <!-- no translation found for rx_ethernet_speed (6642000569214969711) -->
-    <skip />
-    <!-- no translation found for ethernet_network_usage (3795965384177426780) -->
-    <skip />
+    <string name="ethernet_ip_address" msgid="4218340787862242573">"IP 位址"</string>
+    <string name="ethernet_mac_address_title" msgid="3235879195237611007">"MAC 位址"</string>
+    <string name="tx_ethernet_speed" msgid="4785035505065551012">"傳輸連結速度"</string>
+    <string name="rx_ethernet_speed" msgid="6642000569214969711">"接收連結速度"</string>
+    <string name="ethernet_network_usage" msgid="3795965384177426780">"網路用量"</string>
     <string name="ethernet_tether_checkbox_text" msgid="959743110824197356">"乙太網路共用"</string>
     <string name="tethering_footer_info" msgid="6824352505979800594">"使用無線基地台和網路共用功能分享行動數據連線，讓其他裝置連上網際網路。應用程式也能建立無線基地台，與鄰近裝置分享內容。"</string>
     <string name="tethering_footer_info_sta_ap_concurrency" msgid="2079039077487477676">"使用無線基地台和網路共用功能，讓其他裝置能夠透過你的 Wi-Fi 或行動數據連線連上網際網路。應用程式也可以建立無線基地台，與鄰近的裝置分享內容。"</string>
@@ -4431,7 +4421,8 @@
     <string name="disconnected" msgid="3469373726996129247">"未連線"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"未連接"</string>
     <string name="apps_summary" msgid="4007416751775414252">"已安裝 <xliff:g id="COUNT">%1$d</xliff:g> 個應用程式"</string>
-    <string name="storage_summary" msgid="7631468664968572688">"已使用：<xliff:g id="PERCENTAGE">%1$s</xliff:g> - 可用空間：<xliff:g id="FREE_SPACE_VALUE">%2$s</xliff:g> <xliff:g id="FREE_SPACE_UNITS">%3$s</xliff:g>"</string>
+    <!-- no translation found for storage_toplevel_summary (6708203706751754934) -->
+    <skip />
     <string name="display_dashboard_summary" msgid="1599453894989339454">"深色主題、字型大小、亮度"</string>
     <string name="memory_summary" msgid="8221954450951651735">"平均記憶體用量為 <xliff:g id="USED_MEMORY">%1$s</xliff:g> (共 <xliff:g id="TOTAL_MEMORY">%2$s</xliff:g>)"</string>
     <string name="users_summary" msgid="8473589474976307510">"登入身分：<xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
@@ -5054,13 +5045,16 @@
     <string name="roaming_alert_title" msgid="9052791521868787985">"要允許漫遊服務嗎？"</string>
     <string name="roaming_check_price_warning" msgid="5876977438036791361">"請向你的網路供應商洽詢定價。"</string>
     <string name="mobile_network_mode_error" msgid="9222056129897416074">"網路模式 <xliff:g id="NETWORKMODEID">%1$d</xliff:g> 無效。忽略。"</string>
-    <string name="satellite_setting_title" msgid="2543034229989047673">"衛星訊息"</string>
+    <!-- no translation found for satellite_setting (4650503806634496443) -->
+    <skip />
     <string name="satellite_setting_enabled_summary" msgid="3554127722727530845">"透過衛星收發訊息。你的帳戶支援這項功能。"</string>
     <string name="satellite_setting_disabled_summary" msgid="8428393986403708690">"透過衛星收發訊息 (你的帳戶不支援這項功能)。"</string>
     <string name="satellite_setting_summary_without_entitlement" msgid="5284998840770992554">"透過衛星收發訊息。詳情請與你的電信業者聯絡。"</string>
     <string name="keywords_satellite_setting" msgid="613553612424945946">"衛星訊息, 衛星連線"</string>
-    <string name="category_name_about_satellite_messaging" msgid="4978095955643523120">"關於<xliff:g id="SUBJECT">%1$s</xliff:g>"</string>
-    <string name="title_about_satellite_setting" msgid="3563087940535642558">"你可以在符合資格的「<xliff:g id="CARRIER_NAME">%1$s</xliff:g>」帳戶中透過衛星收發訊息"</string>
+    <!-- no translation found for category_name_about_satellite_connectivity (3971142716898783631) -->
+    <skip />
+    <!-- no translation found for description_about_satellite_setting (5539359064330584941) -->
+    <skip />
     <string name="category_title_your_satellite_plan" msgid="8169426217950247126">"你的「<xliff:g id="CARRIER_NAME">%1$s</xliff:g>」帳戶"</string>
     <string name="title_have_satellite_plan" msgid="2048372355699977947">"你的帳戶支援衛星訊息"</string>
     <string name="title_no_satellite_plan" msgid="2876056203035197505">"你的帳戶不支援衛星訊息"</string>
@@ -5076,10 +5070,12 @@
     <string name="summary_supported_service_for_manual_type" msgid="2147958362763058271">"手機連線後，你可以傳送訊息給任何人，包括緊急救援服務。"</string>
     <string name="satellite_setting_summary_more_information" msgid="276312352285564071">"衛星連線可能較慢，而且僅支援部分地區。天氣和特定結構可能會影響連線品質。系統不支援衛星電話，但或許仍可撥打緊急電話。\n\n「設定」頁面可能要一段時間後才會顯示帳戶變動，詳情請洽「<xliff:g id="CARRIER_NAME">%1$s</xliff:g>」。"</string>
     <string name="satellite_setting_summary_more_information_no_emergency_messaging" msgid="2090170250936862158">"衛星連線可能較慢，而且僅在部分地區提供。天氣和特定結構可能會影響連線品質。系統不支援衛星電話，但或許仍可撥打緊急電話。在某些地區，可能無法用這項功能傳訊息給緊急救援服務。\n\n「設定」頁面可能要一段時間後才會顯示帳戶變動，詳情請洽「<xliff:g id="CARRIER_NAME">%1$s</xliff:g>」。"</string>
-    <string name="more_about_satellite_messaging" msgid="1039277943532711584">"進一步瞭解<xliff:g id="SUBJECT">%1$s</xliff:g>"</string>
+    <!-- no translation found for more_about_satellite_messaging (5358981088419444073) -->
+    <skip />
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"無法開啟<xliff:g id="FUNCTION">%1$s</xliff:g>"</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"如要開啟<xliff:g id="FUNCTION">%1$s</xliff:g>，請先中斷衛星連線"</string>
-    <string name="category_title_satellite_connectivity" msgid="7540022356863917632">"衛星連線"</string>
+    <!-- no translation found for category_title_satellite_connectivity (7740500012311192133) -->
+    <skip />
     <string name="title_satellite_setting_connectivity" msgid="488626710934668313">"衛星連線"</string>
     <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"衛星連線"</string>
     <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"衛星訊息"</string>
@@ -5280,10 +5276,8 @@
     <string name="enable_16k_app_compat_details" msgid="5382562613011853452">"切換之後，系統將停止應用程式，並以 16 KB 裝置上的頁面大小相容模式執行。"</string>
     <string name="stop_app_dlg_title" msgid="3153921585174512587">"要停止應用程式嗎？"</string>
     <string name="stop_app_dlg_text" msgid="4373849065005318901">"系統將停止應用程式，以套用頁面大小相容設定。"</string>
-    <!-- no translation found for error_pending_updates (7196832772265874760) -->
-    <skip />
-    <!-- no translation found for error_ota_failed (4762376085470989653) -->
-    <skip />
+    <string name="error_pending_updates" msgid="7196832772265874760">"無法更新核心，請查看並安裝所有待處理的更新。"</string>
+    <string name="error_ota_failed" msgid="4762376085470989653">"無法更新核心，套用 OTA 時發生錯誤。"</string>
     <string name="bug_report_handler_title" msgid="713439959113250125">"錯誤報告處理常式"</string>
     <string name="bug_report_handler_picker_footer_text" msgid="4935758328366585673">"選擇要使用哪個應用程式控管「錯誤報告」捷徑。"</string>
     <string name="personal_profile_app_subtext" msgid="5586060806997067676">"個人"</string>
@@ -5762,15 +5756,20 @@
     <string name="supervision_change_pin_preference_title" msgid="2288584039438231801">"變更 PIN 碼"</string>
     <string name="supervision_add_forgot_pin_preference_title" msgid="8939945404255748516">"忘記 PIN 碼"</string>
     <string name="supervision_web_content_filters_title" msgid="3653430162065686156">"網路內容篩選器"</string>
-    <!-- no translation found for supervision_web_content_filters_browser_title (979037187423952892) -->
+    <string name="supervision_web_content_filters_browser_title" msgid="979037187423952892">"Google Chrome 和網路"</string>
+    <string name="supervision_web_content_filters_browser_block_explicit_sites_title" msgid="7923982596891796260">"嘗試封鎖內容情色露骨的網站"</string>
+    <string name="supervision_web_content_filters_browser_block_explicit_sites_summary" msgid="1477766506765966613">"雖然篩選器無法滴水不漏，但仍有助於隱藏內容情色露骨的網站"</string>
+    <string name="supervision_web_content_filters_browser_allow_all_sites_title" msgid="3909739592466381845">"允許瀏覽所有網站"</string>
+    <!-- no translation found for supervision_web_content_filters_search_title (726335318009305564) -->
     <skip />
-    <!-- no translation found for supervision_web_content_filters_browser_block_explicit_sites_title (7923982596891796260) -->
+    <!-- no translation found for supervision_web_content_filters_search_filter_on_title (4855846261141136285) -->
     <skip />
-    <!-- no translation found for supervision_web_content_filters_browser_block_explicit_sites_summary (1477766506765966613) -->
+    <!-- no translation found for supervision_web_content_filters_search_filter_on_summary (1162258144140293269) -->
     <skip />
-    <!-- no translation found for supervision_web_content_filters_browser_allow_all_sites_title (3909739592466381845) -->
+    <!-- no translation found for supervision_web_content_filters_search_filter_off_title (6049461395304222346) -->
     <skip />
-    <!-- no translation found for supervision_full_screen_pin_verification_title (78513043528333399) -->
+    <!-- no translation found for supervision_web_content_filters_search_filter_off_summary (3834238970190924433) -->
     <skip />
+    <string name="supervision_full_screen_pin_verification_title" msgid="78513043528333399">"輸入監護 PIN 碼"</string>
     <string name="accessibility_illustration_content_description" msgid="557376174860150903">"<xliff:g id="FEATURE">%1$s</xliff:g>動畫"</string>
 </resources>

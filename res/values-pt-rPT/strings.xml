@@ -41,12 +41,9 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"Suspenso"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"Desconhecida"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"Pré-visualizar"</string>
-    <!-- no translation found for preview_pager_home_content_description (3961399947853424786) -->
-    <skip />
-    <!-- no translation found for preview_pager_message_content_description (3018855090807833755) -->
-    <skip />
-    <!-- no translation found for preview_pager_email_content_description (100055784235660338) -->
-    <skip />
+    <string name="preview_pager_home_content_description" msgid="3961399947853424786">"Pré-visualização do ecrã principal"</string>
+    <string name="preview_pager_message_content_description" msgid="3018855090807833755">"Pré-visualização de mensagens"</string>
+    <string name="preview_pager_email_content_description" msgid="100055784235660338">"Pré-visualização do email"</string>
     <string name="qr_code_content_description" msgid="1852208464419291347">"Código QR"</string>
     <string name="preview_pager_previous_button" msgid="607771113300838313">"Pré-visualização anterior"</string>
     <string name="preview_pager_next_button" msgid="8700907912508927271">"Pré-visualização seguinte"</string>
@@ -222,12 +219,10 @@
     <string name="desc_introduction_of_language_picker" msgid="4012265379885200083">"O seu dispositivo, apps e Websites usam o primeiro idioma compatível da lista dos seus idiomas preferidos.\n\nMuitas apps também usam a região do seu idioma preferido para formatar datas, números e unidades. Para alterar a sua região, adicione um idioma e, em seguida, selecione a sua região preferida."</string>
     <string name="desc_notice_of_language_picker" msgid="3449290526457925447">"Para selecionar um idioma para cada app, aceda às definições de idioma da app."</string>
     <string name="desc_locale_helper_footer_general" msgid="6112153921151780303">"Saiba mais sobre idiomas de apps"</string>
-    <!-- no translation found for title_change_system_region (9196602029960380112) -->
-    <skip />
+    <string name="title_change_system_region" msgid="9196602029960380112">"Alterar a região para %s?"</string>
     <string name="desc_notice_device_region_change" msgid="6702773189066944100">"O seu dispositivo vai manter %s como um idioma do sistema"</string>
     <string name="desc_notice_device_region_change_for_preferred_language" msgid="408517366942324267">"%1$s vai substituir %2$s nos seus idiomas preferidos"</string>
-    <!-- no translation found for title_change_system_locale (4102991236063984803) -->
-    <skip />
+    <string name="title_change_system_locale" msgid="4102991236063984803">"Alterar o idioma do sistema para %s?"</string>
     <string name="title_system_locale_addition" msgid="8218683660751479466">"Adicionar %s aos idiomas preferidos?"</string>
     <string name="desc_system_locale_addition" msgid="3409917362651596070">"Esta ação permite que as apps e os Websites saibam que também prefere este idioma."</string>
     <string name="desc_notice_device_locale_settings_change" msgid="8311132485850714160">"As preferências regionais e as definições do dispositivo vão ser alteradas."</string>
@@ -244,8 +239,7 @@
     <string name="search_region_hint" msgid="1748708432568237552">"Pesquise regiões"</string>
     <string name="top_intro_region_title" msgid="2336323415395642117">"A região que escolher afeta a forma como o telemóvel apresenta a hora, as datas, a temperatura e muito mais."</string>
     <string name="more_language_settings_category" msgid="3669703092480725416">"Mais definições de idioma"</string>
-    <!-- no translation found for title_change_system_locale_region (4401478579429442695) -->
-    <skip />
+    <string name="title_change_system_locale_region" msgid="4401478579429442695">"Alterar a região para <xliff:g id="SYSTEM_LANGUAGE_REGION">%1$s</xliff:g>?"</string>
     <string name="body_change_system_locale_region" msgid="9064318449821043189">"O dispositivo vai manter o <xliff:g id="SYSTEM_LANGUAGE">%1$s</xliff:g> como idioma do sistema"</string>
     <string name="top_intro_numbering_system_title" msgid="3962000662073238392">"Escolha como o dispositivo, os Websites e as apps apresentam os números"</string>
     <string name="regional_preferences_title" msgid="4304567374498629528">"Preferências regionais"</string>
@@ -270,8 +264,10 @@
     <string name="title_regional_pref_footer" msgid="7450438024324794380">"Se uma app não suportar preferências regionais, usa as predefinições de local."</string>
     <string name="desc_regional_pref_footer_learn_more" msgid="4401708653329230081">"Saiba mais acerca das preferências de idioma."</string>
     <string name="metric_measurement_system" msgid="7489725697268321541">"Métrico"</string>
-    <string name="us_measurement_system" msgid="8738587232938189052">"Imperial (EUA)"</string>
-    <string name="uk_measurement_system" msgid="4196897001775627597">"Imperial (Reino Unido)"</string>
+    <!-- no translation found for us_measurement_system (8406695347890345490) -->
+    <skip />
+    <!-- no translation found for uk_measurement_system (1814065008707689505) -->
+    <skip />
     <string name="category_title_terms_of_address" msgid="4309422700380895278">"Preferências adicionais"</string>
     <string name="terms_of_address_title" msgid="7338630812197476808">"Escolha a forma como o dispositivo se dirige a si"</string>
     <string name="terms_of_address_summary" msgid="7802443422612600620">"O seu dispositivo pode personalizar a forma como se dirige a si"</string>
@@ -365,8 +361,7 @@
     <string name="safety_center_summary" msgid="3554867379951053869">"Segurança das apps, bloqueio do dispositivo, autorizações"</string>
     <string name="security_settings_face_preference_summary" msgid="6675126437396914838">"Rosto adicionado"</string>
     <string name="security_settings_face_preference_summary_none" msgid="523320857738436024">"Configuração necessária"</string>
-    <!-- no translation found for security_settings_face_preference_summary_none_new (1963253146734002815) -->
-    <skip />
+    <string name="security_settings_face_preference_summary_none_new" msgid="1963253146734002815">"Adicione um rosto"</string>
     <string name="security_settings_face_preference_title_new" msgid="7680231874730796331">"Rosto"</string>
     <string name="security_settings_face_profile_preference_title_new" msgid="685550153608106166">"Rosto para o trabalho"</string>
     <string name="private_space_face_unlock_title_new" msgid="2079622608951402509">"Rosto para o espaço privado"</string>
@@ -449,8 +444,7 @@
     <string name="fingerprint_add_title" msgid="1837610443487902050">"Adicionar impressão digital"</string>
     <string name="security_settings_fingerprint_preference_summary" msgid="8486134175759676037">"{count,plural, =1{Impressão digital adicionada}other{# impressões digitais adicionadas}}"</string>
     <string name="security_settings_fingerprint_preference_summary_none" msgid="1146977379031250790">"Configuração necessária"</string>
-    <!-- no translation found for security_settings_fingerprint_preference_summary_none_new (510376523784190149) -->
-    <skip />
+    <string name="security_settings_fingerprint_preference_summary_none_new" msgid="510376523784190149">"Adicione uma impressão digital"</string>
     <string name="security_settings_fingerprint_enroll_introduction_title" msgid="7931650601996313070">"Configure a sua impressão digital"</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title" msgid="2278592030102282364">"Permita desbl. impr. digital"</string>
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled" msgid="1911710308293783998">"Usar a impressão digital"</string>
@@ -806,8 +800,7 @@
     <string name="face_unlock_skip_face" msgid="189695556498300008">"Continue sem o Desbloqueio facial"</string>
     <string name="biometrics_unlock_skip_biometrics" msgid="7399882488272450182">"Continuar sem impressão digital ou rosto"</string>
     <string name="unlock_set_unlock_mode_off" msgid="4632139864722236359">"Nenhum"</string>
-    <!-- no translation found for unlock_set_unlock_mode_off_new (865396805830816266) -->
-    <skip />
+    <string name="unlock_set_unlock_mode_off_new" msgid="865396805830816266">"Adicione um PIN/padrão/palavra-passe/deslize"</string>
     <string name="unlock_set_unlock_mode_none" msgid="5596049938457028214">"Deslizar"</string>
     <string name="unlock_set_unlock_mode_pattern" msgid="1926480143883094896">"Padrão"</string>
     <string name="unlock_set_unlock_mode_pin" msgid="9028659554829888373">"PIN"</string>
@@ -946,10 +939,16 @@
     <string name="bluetooth_scanning_on_info_message" msgid="786648535600075223">"Quando o Bluetooth está ativado, o dispositivo pode comunicar com outros dispositivos Bluetooth próximos.\n\nPara melhorar a experiência do dispositivo, as apps e os serviços podem continuar a procurar dispositivos próximos em qualquer altura, mesmo quando o Bluetooth está desativado. Pode usar esta opção, por exemplo, para melhorar as funcionalidades e os serviços baseados na localização. Pode alterar esta opção nas definições de procura de Bluetooth."</string>
     <string name="bluetooth_scanning_on_info_message_auto_on_available" msgid="7792443293031247638">"Com o Bluetooth ativado, o dispositivo pode comunicar com dispositivos Bluetooth próximos. As funcionalidades como a Partilha rápida e o serviço Localizar o meu dispositivo usam o Bluetooth.\n\nAs apps e os serviços podem continuar a procurar dispositivos próximos em qualquer altura, mesmo quando o Bluetooth está desativado. Pode usar esta opção, por exemplo, para melhorar as funcionalidades e os serviços baseados na localização. Pode alterar esta opção nas definições de procura de Bluetooth."</string>
     <string name="bluetooth_scan_change" msgid="1744636222637390367">"Alterar"</string>
-    <string name="bluetooth_key_missing_title" msgid="7799054163548353853">"Dispositivo <xliff:g id="DEVICE_NAME">%1$s</xliff:g> não ligado"</string>
-    <string name="bluetooth_key_missing_message" msgid="2388861106663695319">"Para sua segurança, esqueça este dispositivo e, em seguida, sincronize-o novamente"</string>
+    <!-- no translation found for bluetooth_key_missing_title (8462010102528132965) -->
+    <skip />
+    <!-- no translation found for bluetooth_key_missing_message (3188093580372443815) -->
+    <skip />
     <string name="bluetooth_key_missing_forget" msgid="4692006517823001013">"Esquecer dispositivo"</string>
     <string name="bluetooth_key_missing_cancel" msgid="2482416446357804371">"Cancelar"</string>
+    <!-- no translation found for bluetooth_key_missing_device_settings (5512091368141961890) -->
+    <skip />
+    <!-- no translation found for bluetooth_key_missing_close (6724520133374312040) -->
+    <skip />
     <string name="device_details_title" msgid="1155622417516195481">"Detalhes do dispositivo"</string>
     <string name="bluetooth_device_keyboard_settings_preference_title" msgid="3411693160917620519">"Definições do teclado"</string>
     <string name="bluetooth_device_more_settings_preference_title" msgid="6034482566541746500">"Mais definições"</string>
@@ -964,6 +963,8 @@
     <string name="device_details_leaudio_toggle_summary" msgid="7684848254433230809">"Experimental. Melhora qualidade de áudio"</string>
     <string name="device_details_battery" msgid="5466987755790847884">"Bateria"</string>
     <string name="device_details_battery_charging" msgid="3464969346075775143">"Bateria, a carregar"</string>
+    <!-- no translation found for device_details_key_missing_title (3568401701538114387) -->
+    <skip />
     <string name="bluetooth_unpair_dialog_forget_confirm_button" msgid="9184489424930549015">"Esquecer dispositivo"</string>
     <string name="bluetooth_companion_app_remove_association_confirm_button" msgid="76323555527926915">"Desassociar app"</string>
     <string name="device_details_more_settings" msgid="950302792331611271">"Mais definições"</string>
@@ -1076,8 +1077,7 @@
     <string name="wifi_show_advanced" msgid="2969378109942071741">"Opções avançadas"</string>
     <string name="wifi_advanced_toggle_description" msgid="7299179796727934885">"Lista pendente: Opções avançadas"</string>
     <string name="wifi_advanced_toggle_description_collapsed" msgid="3615140699129928913">"expandir"</string>
-    <!-- no translation found for wifi_ssid (5139273830867723030) -->
-    <skip />
+    <string name="wifi_ssid" msgid="5139273830867723030">"Nome da rede*"</string>
     <string name="wifi_ssid_hint" msgid="1940577553241083524">"Introduza o SSID"</string>
     <string name="wifi_security" msgid="9095934643631406913">"Segurança"</string>
     <string name="wifi_hidden_network" msgid="6466834025375485596">"Rede oculta"</string>
@@ -1100,10 +1100,10 @@
     <string name="wifi_eap_user_cert" msgid="3569182430929173220">"Certificado do utilizador"</string>
     <string name="wifi_eap_identity" msgid="3629406902174137028">"Identidade"</string>
     <string name="wifi_eap_anonymous" msgid="8630332141751267000">"Identidade anónima"</string>
-    <!-- no translation found for wifi_password (165204973532996861) -->
+    <string name="wifi_password" msgid="165204973532996861">"Palavra-passe*"</string>
+    <!-- no translation found for wifi_password_optional (6770706664834070705) -->
     <skip />
-    <!-- no translation found for wifi_password_invalid (8884500804472828356) -->
-    <skip />
+    <string name="wifi_password_invalid" msgid="8884500804472828356">"A palavra-passe é inválida"</string>
     <string name="wifi_show_password" msgid="6865993988238157923">"Mostrar palavra-passe"</string>
     <string name="wifi_ap_choose_2G" msgid="1436802195991542016">"Banda de 2,4 GHz"</string>
     <string name="wifi_ap_prefer_5G" msgid="2520628479818369902">"Banda de 5,0 GHz preferida"</string>
@@ -1169,8 +1169,7 @@
     <string name="wifi_scan_always_turn_on_message_unknown" msgid="4903345360745717385">"Para melhorar a precisão da localização e outros fins, uma app desconhecida quer ativar a procura de redes, mesmo quando o Wi-Fi está desativado.\n\nPermitir para todas as apps que querrem procurar?"</string>
     <string name="wifi_scan_always_confirm_allow" msgid="4154200627800959777">"Permitir"</string>
     <string name="wifi_scan_always_confirm_deny" msgid="6997087934558839256">"Recusar"</string>
-    <!-- no translation found for wifi_field_required (6312381745503042588) -->
-    <skip />
+    <string name="wifi_field_required" msgid="6312381745503042588">"* obrigatório"</string>
     <string name="no_internet_access_text" msgid="3611993143350310936">"Esta rede não tem acesso à Internet. Quer manter a ligação?"</string>
     <string name="partial_connectivity_text" msgid="8874614799723694554">"Algumas aplicações e serviços podem não funcionar devido a conetividade limitada. Usar mesmo assim?"</string>
     <string name="no_internet_access_remember" msgid="5113610157731269258">"Não perguntar novamente para esta rede"</string>
@@ -1601,21 +1600,13 @@
     <string name="battery_level_title" msgid="1371765298786083448">"Nível da bateria"</string>
     <string name="communal_settings_title" msgid="2845678473945902115">"Coletivas"</string>
     <string name="communal_settings_summary" msgid="4923914136953940317">"Definições coletivas"</string>
-    <!-- no translation found for hub_mode_category_title (5290081595872103974) -->
-    <skip />
-    <!-- no translation found for widgets_on_lockscreen_title (6979558402208585885) -->
-    <skip />
-    <!-- no translation found for when_to_auto_show_hubmode_title (2307148913387518369) -->
-    <skip />
-    <!-- no translation found for when_to_show_hubmode_never (976644329215156021) -->
-    <skip />
-    <!-- no translation found for when_to_show_hubmode_charging (1874391105066805128) -->
-    <skip />
-    <!-- no translation found for when_to_show_hubmode_charging_and_upright (6293947459712755814) -->
-    <skip />
-    <!-- no translation found for when_to_show_hubmode_docked (7107631545009933891) -->
-    <skip />
-    <string name="satellite_setting" msgid="4171265534842459910">"Mensagens por satélite"</string>
+    <string name="hub_mode_category_title" msgid="5290081595872103974">"Modo Hub"</string>
+    <string name="widgets_on_lockscreen_title" msgid="6979558402208585885">"Widgets no ecrã de bloqueio"</string>
+    <string name="when_to_auto_show_hubmode_title" msgid="2307148913387518369">"Quando apresentar automaticamente"</string>
+    <string name="when_to_show_hubmode_never" msgid="976644329215156021">"Nunca"</string>
+    <string name="when_to_show_hubmode_charging" msgid="1874391105066805128">"Durante o carregamento"</string>
+    <string name="when_to_show_hubmode_charging_and_upright" msgid="6293947459712755814">"Durante o carregamento e na vertical"</string>
+    <string name="when_to_show_hubmode_docked" msgid="7107631545009933891">"Na estação de carregamento"</string>
     <string name="apn_settings" msgid="4295467389400441299">"APNs"</string>
     <string name="apn_edit" msgid="2003683641840248741">"Edite o ponto de acesso"</string>
     <string name="apn_add" msgid="9069613192201630934">"Adicione o ponto de acesso"</string>
@@ -1723,16 +1714,11 @@
     <string name="tether_preference_summary_off" msgid="6266799346319794630">"Desativada"</string>
     <string name="usb_tethering_button_text" msgid="7364633823180913777">"Ligação USB"</string>
     <string name="bluetooth_tether_checkbox_text" msgid="6108398414967813545">"Ligação Bluetooth"</string>
-    <!-- no translation found for ethernet_ip_address (4218340787862242573) -->
-    <skip />
-    <!-- no translation found for ethernet_mac_address_title (3235879195237611007) -->
-    <skip />
-    <!-- no translation found for tx_ethernet_speed (4785035505065551012) -->
-    <skip />
-    <!-- no translation found for rx_ethernet_speed (6642000569214969711) -->
-    <skip />
-    <!-- no translation found for ethernet_network_usage (3795965384177426780) -->
-    <skip />
+    <string name="ethernet_ip_address" msgid="4218340787862242573">"Endereço IP"</string>
+    <string name="ethernet_mac_address_title" msgid="3235879195237611007">"Endereço MAC"</string>
+    <string name="tx_ethernet_speed" msgid="4785035505065551012">"Velocidade da ligação de trânsito"</string>
+    <string name="rx_ethernet_speed" msgid="6642000569214969711">"Velocidade da ligação de receção"</string>
+    <string name="ethernet_network_usage" msgid="3795965384177426780">"Utilização da rede"</string>
     <string name="ethernet_tether_checkbox_text" msgid="959743110824197356">"Ligação Ethernet via telemóvel"</string>
     <string name="tethering_footer_info" msgid="6824352505979800594">"Use uma zona Wi-Fi e uma ligação à Internet via dispositivo móvel para disponibilizar Internet a outros dispositivos através da sua ligação de dados. As apps também podem criar uma zona Wi-Fi para partilhar conteúdo com dispositivos próximos."</string>
     <string name="tethering_footer_info_sta_ap_concurrency" msgid="2079039077487477676">"Use uma zona Wi-Fi e uma ligação à Internet via dispositivo móvel para disponibilizar Internet a outros dispositivos através de Wi-Fi ou da sua ligação móvel de dados. As apps também podem criar uma zona Wi-Fi para partilhar conteúdo com dispositivos próximos."</string>
@@ -4431,7 +4417,8 @@
     <string name="disconnected" msgid="3469373726996129247">"Não ligado"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"Desligado"</string>
     <string name="apps_summary" msgid="4007416751775414252">"<xliff:g id="COUNT">%1$d</xliff:g> apps instaladas"</string>
-    <string name="storage_summary" msgid="7631468664968572688">"<xliff:g id="PERCENTAGE">%1$s</xliff:g> usado – <xliff:g id="FREE_SPACE_VALUE">%2$s</xliff:g> <xliff:g id="FREE_SPACE_UNITS">%3$s</xliff:g> livre(s)"</string>
+    <!-- no translation found for storage_toplevel_summary (6708203706751754934) -->
+    <skip />
     <string name="display_dashboard_summary" msgid="1599453894989339454">"Tema escuro, tamanho do tipo de letra, brilho"</string>
     <string name="memory_summary" msgid="8221954450951651735">"Média de <xliff:g id="USED_MEMORY">%1$s</xliff:g> de <xliff:g id="TOTAL_MEMORY">%2$s</xliff:g> de memória utilizado(s)"</string>
     <string name="users_summary" msgid="8473589474976307510">"Sessão iniciada como <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
@@ -5054,13 +5041,16 @@
     <string name="roaming_alert_title" msgid="9052791521868787985">"Permitir roaming de dados?"</string>
     <string name="roaming_check_price_warning" msgid="5876977438036791361">"Consulte o seu fornecedor de serviços de rede para obter preços."</string>
     <string name="mobile_network_mode_error" msgid="9222056129897416074">"Modo de rede inválido: <xliff:g id="NETWORKMODEID">%1$d</xliff:g>. Ignore."</string>
-    <string name="satellite_setting_title" msgid="2543034229989047673">"Mensagens por satélite"</string>
+    <!-- no translation found for satellite_setting (4650503806634496443) -->
+    <skip />
     <string name="satellite_setting_enabled_summary" msgid="3554127722727530845">"Envie e receba mensagens de texto por satélite. Incluído na sua conta."</string>
     <string name="satellite_setting_disabled_summary" msgid="8428393986403708690">"Envie e receba mensagens de texto por satélite. Não está incluído na sua conta."</string>
     <string name="satellite_setting_summary_without_entitlement" msgid="5284998840770992554">"Envie e receba mensagens de texto por satélite. Contacte a sua operadora para mais detalhes."</string>
     <string name="keywords_satellite_setting" msgid="613553612424945946">"Mensagens por satélite, conetividade por satélite"</string>
-    <string name="category_name_about_satellite_messaging" msgid="4978095955643523120">"Acerca de <xliff:g id="SUBJECT">%1$s</xliff:g>"</string>
-    <string name="title_about_satellite_setting" msgid="3563087940535642558">"Pode enviar e receber mensagens de texto por satélite com uma conta elegível da operadora <xliff:g id="CARRIER_NAME">%1$s</xliff:g>"</string>
+    <!-- no translation found for category_name_about_satellite_connectivity (3971142716898783631) -->
+    <skip />
+    <!-- no translation found for description_about_satellite_setting (5539359064330584941) -->
+    <skip />
     <string name="category_title_your_satellite_plan" msgid="8169426217950247126">"A sua conta da operadora <xliff:g id="CARRIER_NAME">%1$s</xliff:g>"</string>
     <string name="title_have_satellite_plan" msgid="2048372355699977947">"As mensagens por satélite estão incluídas na sua conta"</string>
     <string name="title_no_satellite_plan" msgid="2876056203035197505">"As mensagens por satélite não estão incluídas na sua conta"</string>
@@ -5076,10 +5066,12 @@
     <string name="summary_supported_service_for_manual_type" msgid="2147958362763058271">"Depois de o seu telemóvel estabelecer ligação, pode enviar mensagens de texto a qualquer pessoa, inclusive para os serviços de emergência."</string>
     <string name="satellite_setting_summary_more_information" msgid="276312352285564071">"Uma ligação por satélite pode ser mais lenta e só está disponível em algumas áreas. As condições meteorológicas e determinadas estruturas podem afetar a ligação. As chamadas por satélite não estão disponíveis. Pode continuar a fazer chamadas de emergência.\n\nPode demorar algum tempo até que as alterações à conta sejam apresentadas nas Definições. Contacte a operadora <xliff:g id="CARRIER_NAME">%1$s</xliff:g> para mais detalhes."</string>
     <string name="satellite_setting_summary_more_information_no_emergency_messaging" msgid="2090170250936862158">"Uma ligação por satélite pode ser mais lenta e só está disponível em algumas áreas. As condições meteorológicas e determinadas estruturas podem afetar a ligação. As chamadas por satélite não estão disponíveis. Pode continuar a fazer chamadas de emergência. O envio de mensagens de texto para serviços de emergência pode não estar disponível em todas as áreas.\n\nPode demorar algum tempo até que as alterações à conta sejam apresentadas nas Definições. Contacte a operadora <xliff:g id="CARRIER_NAME">%1$s</xliff:g> para mais detalhes."</string>
-    <string name="more_about_satellite_messaging" msgid="1039277943532711584">"Mais acerca de <xliff:g id="SUBJECT">%1$s</xliff:g>"</string>
+    <!-- no translation found for more_about_satellite_messaging (5358981088419444073) -->
+    <skip />
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"Não é possível ativar a função <xliff:g id="FUNCTION">%1$s</xliff:g>"</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"Para ativar a função <xliff:g id="FUNCTION">%1$s</xliff:g>, termine primeiro a ligação por satélite"</string>
-    <string name="category_title_satellite_connectivity" msgid="7540022356863917632">"Conetividade por satélite"</string>
+    <!-- no translation found for category_title_satellite_connectivity (7740500012311192133) -->
+    <skip />
     <string name="title_satellite_setting_connectivity" msgid="488626710934668313">"Conetividade por satélite"</string>
     <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"conetividade por satélite"</string>
     <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"mensagens por satélite"</string>
@@ -5280,10 +5272,8 @@
     <string name="enable_16k_app_compat_details" msgid="5382562613011853452">"A app vai ser parada e executada no modo de compatibilidade com o tamanho da página em dispositivos de 16 KB, quando este estiver ativado."</string>
     <string name="stop_app_dlg_title" msgid="3153921585174512587">"Parar a app?"</string>
     <string name="stop_app_dlg_text" msgid="4373849065005318901">"A aplicação vai ser parada para se aplicar a definição de compatibilidade com o tamanho da página."</string>
-    <!-- no translation found for error_pending_updates (7196832772265874760) -->
-    <skip />
-    <!-- no translation found for error_ota_failed (4762376085470989653) -->
-    <skip />
+    <string name="error_pending_updates" msgid="7196832772265874760">"Falha ao atualizar o kernel. Verifique e instale as atualizações pendentes."</string>
+    <string name="error_ota_failed" msgid="4762376085470989653">"Falha ao atualizar o kernel. Ocorreu um erro ao aplicar a atualização via rede sem fios."</string>
     <string name="bug_report_handler_title" msgid="713439959113250125">"Controlador do relatório de erro"</string>
     <string name="bug_report_handler_picker_footer_text" msgid="4935758328366585673">"Determina que aplicação processa o atalho para Relatório de erro no seu dispositivo."</string>
     <string name="personal_profile_app_subtext" msgid="5586060806997067676">"Pessoal"</string>
@@ -5432,10 +5422,8 @@
     <string name="smart_forwarding_input_mdn_dialog_title" msgid="7542216086697868415">"Introduza o número de telefone"</string>
     <string name="smart_forwarding_missing_mdn_text" msgid="2907314684242542226">"O número de telefone está em falta."</string>
     <string name="smart_forwarding_missing_alert_dialog_text" msgid="7870419247987316112">"OK"</string>
-    <!-- no translation found for enable_2g_title (5657132300321750181) -->
-    <skip />
-    <!-- no translation found for enable_2g_summary (6317192326100541563) -->
-    <skip />
+    <string name="enable_2g_title" msgid="5657132300321750181">"Proteção de rede 2G"</string>
+    <string name="enable_2g_summary" msgid="6317192326100541563">"Evita redes 2G, que são menos seguras. Isto pode limitar a conetividade em alguns locais. As chamadas de emergência são sempre permitidas."</string>
     <string name="enable_2g_summary_disabled_carrier" msgid="8141118453219482762">"O operador <xliff:g id="CARRIER_NAME_2G">%1$s</xliff:g> requer que o 2G esteja disponível"</string>
     <string name="require_cellular_encryption_title" msgid="6087085031703089235">"Permitir apenas redes encriptadas"</string>
     <string name="require_cellular_encryption_summary" msgid="6090569065420631457">"Esta opção é mais segura, mas pode limitar a sua ligação de rede móvel em alguns locais. As chamadas de emergência são sempre permitidas."</string>
@@ -5762,15 +5750,20 @@
     <string name="supervision_change_pin_preference_title" msgid="2288584039438231801">"Altere o PIN"</string>
     <string name="supervision_add_forgot_pin_preference_title" msgid="8939945404255748516">"Esqueci-me do PIN"</string>
     <string name="supervision_web_content_filters_title" msgid="3653430162065686156">"Filtros de conteúdo da Web"</string>
-    <!-- no translation found for supervision_web_content_filters_browser_title (979037187423952892) -->
+    <string name="supervision_web_content_filters_browser_title" msgid="979037187423952892">"Google Chrome e Web"</string>
+    <string name="supervision_web_content_filters_browser_block_explicit_sites_title" msgid="7923982596891796260">"Tentar bloquear sites explícitos"</string>
+    <string name="supervision_web_content_filters_browser_block_explicit_sites_summary" msgid="1477766506765966613">"Nenhum filtro é perfeito, mas esta opção deve ajudar a ocultar os sites com conteúdo sexualmente explícito"</string>
+    <string name="supervision_web_content_filters_browser_allow_all_sites_title" msgid="3909739592466381845">"Permitir todos os sites"</string>
+    <!-- no translation found for supervision_web_content_filters_search_title (726335318009305564) -->
     <skip />
-    <!-- no translation found for supervision_web_content_filters_browser_block_explicit_sites_title (7923982596891796260) -->
+    <!-- no translation found for supervision_web_content_filters_search_filter_on_title (4855846261141136285) -->
     <skip />
-    <!-- no translation found for supervision_web_content_filters_browser_block_explicit_sites_summary (1477766506765966613) -->
+    <!-- no translation found for supervision_web_content_filters_search_filter_on_summary (1162258144140293269) -->
     <skip />
-    <!-- no translation found for supervision_web_content_filters_browser_allow_all_sites_title (3909739592466381845) -->
+    <!-- no translation found for supervision_web_content_filters_search_filter_off_title (6049461395304222346) -->
     <skip />
-    <!-- no translation found for supervision_full_screen_pin_verification_title (78513043528333399) -->
+    <!-- no translation found for supervision_web_content_filters_search_filter_off_summary (3834238970190924433) -->
     <skip />
+    <string name="supervision_full_screen_pin_verification_title" msgid="78513043528333399">"Introduza o PIN de supervisão"</string>
     <string name="accessibility_illustration_content_description" msgid="557376174860150903">"Animação de <xliff:g id="FEATURE">%1$s</xliff:g>"</string>
 </resources>

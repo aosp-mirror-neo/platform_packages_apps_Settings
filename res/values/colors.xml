@@ -84,8 +84,6 @@
     <color name="homepage_location_background">@color/homepage_cyan_bg</color>
     <color name="homepage_accounts_foreground">@color/homepage_cyan_fg</color>
     <color name="homepage_accounts_background">@color/homepage_cyan_bg</color>
-    <color name="homepage_wellbeing_foreground">@color/homepage_cyan_fg</color>
-    <color name="homepage_wellbeing_background">@color/homepage_cyan_bg</color>
     <color name="homepage_supervision_foreground">@color/homepage_cyan_fg</color>
     <color name="homepage_supervision_background">@color/homepage_cyan_bg</color>
     <color name="homepage_safety_foreground">@color/homepage_red_fg</color>
@@ -270,9 +268,4 @@
     <!-- Connected displays -->
     <color name="display_topology_background_color">@color/settingslib_color_grey100</color>
     <color name="system_secondary">@android:color/system_secondary_light</color>
-
-    <!-- Volume seekbar colors -->
-    <color name="seekbar_thumb_tint_color">@android:color/system_accent1_800</color>
-    <color name="seekbar_progress_tint_color">@android:color/system_accent1_800</color>
-    <color name="seekbar_progress_background_tint_color">@android:color/system_neutral2_50</color>
 </resources>

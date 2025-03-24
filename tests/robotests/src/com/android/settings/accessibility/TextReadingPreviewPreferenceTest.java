@@ -49,48 +49,28 @@ import org.robolectric.RobolectricTestRunner;
  */
 @RunWith(RobolectricTestRunner.class)
 public class TextReadingPreviewPreferenceTest {
-    private Context mContext;
     private TextReadingPreviewPreference mTextReadingPreviewPreference;
     private PreferenceViewHolder mHolder;
     private ViewPager mViewPager;
     private PreviewPagerAdapter mPreviewPagerAdapter;
     private int mPreviewSampleCount;
-    private int[] mPreviewContentDescriptions;
 
     @Before
     public void setUp() {
-        mContext = ApplicationProvider.getApplicationContext();
-        mPreviewContentDescriptions =
-                TextReadingPreviewController.getPreviewSampleContentDescriptions(mContext);
-        final int[] previewSamples = TextReadingPreviewController.getPreviewSampleLayouts(mContext);
+        final Context context = ApplicationProvider.getApplicationContext();
+        final int[] previewSamples = TextReadingPreviewController.getPreviewSampleLayouts(context);
         mPreviewSampleCount = previewSamples.length;
         final Configuration[] configurations = createConfigurations(mPreviewSampleCount);
-        mTextReadingPreviewPreference = new TextReadingPreviewPreference(mContext);
+        mTextReadingPreviewPreference = new TextReadingPreviewPreference(context);
         mPreviewPagerAdapter =
-                spy(new PreviewPagerAdapter(mContext, /* isLayoutRtl= */ false,
+                spy(new PreviewPagerAdapter(context, /* isLayoutRtl= */ false,
                         previewSamples, configurations));
-        final LayoutInflater inflater = LayoutInflater.from(mContext);
+        final LayoutInflater inflater = LayoutInflater.from(context);
         final View view =
                 inflater.inflate(mTextReadingPreviewPreference.getLayoutResource(),
-                        new LinearLayout(mContext), false);
+                        new LinearLayout(context), false);
         mHolder = PreferenceViewHolder.createInstanceForTests(view);
         mViewPager = view.findViewById(R.id.preview_pager);
-        mTextReadingPreviewPreference.setContentDescription(mPreviewContentDescriptions);
-    }
-
-    @Test
-    public void changePreviewPage_getExpectedContentDescription() {
-        mTextReadingPreviewPreference.setPreviewAdapter(mPreviewPagerAdapter);
-        mTextReadingPreviewPreference.onBindViewHolder(mHolder);
-
-        // Verify the initial content description
-        assertThat(mViewPager.getContentDescription().toString())
-                .isEqualTo(mContext.getString(mPreviewContentDescriptions[0]));
-
-        // Change the preview page
-        mViewPager.setCurrentItem(1);
-        assertThat(mViewPager.getContentDescription().toString())
-                .isEqualTo(mContext.getString(mPreviewContentDescriptions[1]));
     }
 
     @Test

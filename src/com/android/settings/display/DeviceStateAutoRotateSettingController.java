@@ -35,7 +35,6 @@ import com.android.settings.core.TogglePreferenceController;
 import com.android.settings.overlay.FeatureFactory;
 import com.android.settingslib.core.instrumentation.MetricsFeatureProvider;
 import com.android.settingslib.devicestate.DeviceStateAutoRotateSettingManager;
-import com.android.settingslib.devicestate.DeviceStateRotationLockSettingsManager;
 import com.android.settingslib.search.SearchIndexableRaw;
 
 import java.util.List;
@@ -46,7 +45,7 @@ public class DeviceStateAutoRotateSettingController extends TogglePreferenceCont
 
     private TwoStatePreference mPreference;
 
-    private final DeviceStateRotationLockSettingsManager mAutoRotateSettingsManager;
+    private final DeviceStateAutoRotateSettingManager mAutoRotateSettingsManager;
     private final int mOrder;
     private final DeviceStateAutoRotateSettingManager.DeviceStateAutoRotateSettingListener
             mDeviceStateAutoRotateSettingListener = () -> updateState(mPreference);
@@ -62,7 +61,8 @@ public class DeviceStateAutoRotateSettingController extends TogglePreferenceCont
         mMetricsFeatureProvider = metricsFeatureProvider;
         mDeviceState = deviceState;
         mDeviceStateDescription = deviceStateDescription;
-        mAutoRotateSettingsManager = DeviceStateRotationLockSettingsManager.getInstance(context);
+        mAutoRotateSettingsManager =
+                DeviceStateAutoRotateSettingManagerProvider.getSingletonInstance(context);
         mOrder = order;
     }
 

@@ -32,7 +32,8 @@
 
     <PreferenceCategory
         android:key="key_category_your_satellite_plan"
-        android:title="@string/category_title_your_satellite_plan">
+        android:title="@string/category_title_your_satellite_plan"
+        settings:controller="com.android.settings.network.telephony.satellite.SatelliteSettingAccountInfoController">
 
         <Preference
             android:key="key_your_satellite_plan"
@@ -85,6 +86,7 @@
         android:key="satellite_setting_extra_info_footer_pref"
         android:layout="@layout/satellite_setting_more_information_layout"
         android:selectable="false"
-        settings:searchable="false"/>
+        settings:searchable="false"
+        settings:controller="com.android.settings.network.telephony.satellite.SatelliteSettingFooterController"/>
 
 </PreferenceScreen>

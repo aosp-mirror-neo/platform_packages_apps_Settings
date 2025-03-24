@@ -16,8 +16,6 @@
 
 package com.android.settings.accessibility;
 
-import static com.google.common.truth.Truth.assertThat;
-
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.spy;
 import static org.mockito.Mockito.verify;
@@ -76,15 +74,6 @@ public class TextReadingPreviewControllerTest {
                 mDisplaySizeData);
         mFontSizePreference = new AccessibilitySeekBarPreference(mContext, /* attr= */ null);
         mDisplaySizePreference = new AccessibilitySeekBarPreference(mContext, /* attr= */ null);
-    }
-
-    @Test
-    public void numberOfPreviewSamples_numberOfPreviewContentDescription_isEqual() {
-        int[] previewSamples = TextReadingPreviewController.getPreviewSampleLayouts(mContext);
-        int[] previewContentDescriptions =
-                TextReadingPreviewController.getPreviewSampleContentDescriptions(mContext);
-
-        assertThat(previewSamples.length).isEqualTo(previewContentDescriptions.length);
     }
 
     @Test

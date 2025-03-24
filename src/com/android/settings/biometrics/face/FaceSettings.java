@@ -222,13 +222,22 @@ public class FaceSettings extends DashboardFragment {
         Preference confirmPref = findPreference(FaceSettingsConfirmPreferenceController.KEY);
         Preference bypassPref =
                 findPreference(mLockscreenController.getPreferenceKey());
-        Preference unlockKeyguard = findPreference(
-                use(FaceSettingsKeyguardUnlockPreferenceController.class).getPreferenceKey());
-        Preference appsPref = findPreference(
-                use(FaceSettingsAppsPreferenceController.class).getPreferenceKey());
         mTogglePreferences = new ArrayList<>(
-                Arrays.asList(keyguardPref, appPref, attentionPref, confirmPref, bypassPref,
-                        unlockKeyguard, appsPref));
+                Arrays.asList(keyguardPref, appPref, attentionPref, confirmPref, bypassPref));
+
+        if (Flags.biometricsOnboardingEducation()) {
+            if (use(FaceSettingsKeyguardUnlockPreferenceController.class) != null) {
+                Preference unlockKeyguard = findPreference(
+                        use(FaceSettingsKeyguardUnlockPreferenceController.class)
+                                .getPreferenceKey());
+                mTogglePreferences.add(unlockKeyguard);
+            }
+            if (use(FaceSettingsAppsPreferenceController.class) != null) {
+                Preference appsPref = findPreference(
+                        use(FaceSettingsAppsPreferenceController.class).getPreferenceKey());
+                mTogglePreferences.add(appsPref);
+            }
+        }
 
         if (RestrictedLockUtilsInternal.checkIfKeyguardFeaturesDisabled(
                 getContext(), DevicePolicyManager.KEYGUARD_DISABLE_FACE, mUserId) != null) {
@@ -241,15 +250,17 @@ public class FaceSettings extends DashboardFragment {
         mRemoveButton = findPreference(FaceSettingsRemoveButtonPreferenceController.KEY);
         mEnrollButton = findPreference(FaceSettingsEnrollButtonPreferenceController.KEY);
 
-        mFaceEnrolledCategory = findPreference(PREF_KEY_FACE_ENROLLED_CATEGORY);
-        mFaceRemoveButton = findPreference(PREF_KEY_FACE_REMOVE);
-        mFaceRemoveButton.setIcon(R.drawable.ic_face);
-        mFaceRemoveButton.setOnPreferenceClickListener(
-                use(FaceSettingsRemoveButtonPreferenceController.class));
-        mFaceEnrollButton = findPreference(PREF_KEY_FACE_ENROLL);
-        mFaceEnrollButton.setIcon(R.drawable.ic_add_24dp);
-        mFaceEnrollButton.setOnPreferenceClickListener(
-                use(FaceSettingsEnrollButtonPreferenceController.class));
+        if (Flags.biometricsOnboardingEducation()) {
+            mFaceEnrolledCategory = findPreference(PREF_KEY_FACE_ENROLLED_CATEGORY);
+            mFaceRemoveButton = findPreference(PREF_KEY_FACE_REMOVE);
+            mFaceRemoveButton.setIcon(R.drawable.ic_face);
+            mFaceRemoveButton.setOnPreferenceClickListener(
+                    use(FaceSettingsRemoveButtonPreferenceController.class));
+            mFaceEnrollButton = findPreference(PREF_KEY_FACE_ENROLL);
+            mFaceEnrollButton.setIcon(R.drawable.ic_add_24dp);
+            mFaceEnrollButton.setOnPreferenceClickListener(
+                    use(FaceSettingsEnrollButtonPreferenceController.class));
+        }
 
         final boolean hasEnrolled = mFaceManager.hasEnrolledTemplates(mUserId);
         updateFaceAddAndRemovePreference(hasEnrolled);

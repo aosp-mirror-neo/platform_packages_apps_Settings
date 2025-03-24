@@ -159,6 +159,7 @@ public class SatelliteSettingsPreferenceCategoryController
                     @Override
                     public void onResult(Boolean result) {
                         mIsSatelliteSupported.set(result);
+                        Log.d(TAG, "Satellite requestIsSupported onResult : " + result);
                         SatelliteSettingsPreferenceCategoryController.this.displayPreference();
                     }
                 });

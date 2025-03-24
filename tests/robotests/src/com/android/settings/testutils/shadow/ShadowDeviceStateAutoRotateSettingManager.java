@@ -16,27 +16,15 @@
 
 package com.android.settings.testutils.shadow;
 
-import android.content.Context;
-
 import com.android.settingslib.devicestate.DeviceStateRotationLockSettingsManager;
 
 import org.robolectric.annotation.Implementation;
 import org.robolectric.annotation.Implements;
 
 @Implements(DeviceStateRotationLockSettingsManager.class)
-public class ShadowDeviceStateRotationLockSettingsManager {
+public class ShadowDeviceStateAutoRotateSettingManager {
 
-    private static boolean sDeviceStateRotationLockEnabled;
     private boolean mIsRotationLockedForAllStates;
-
-    @Implementation
-    public static boolean isDeviceStateRotationLockEnabled(Context context) {
-        return sDeviceStateRotationLockEnabled;
-    }
-
-    public static void setDeviceStateRotationLockEnabled(boolean enabled) {
-        sDeviceStateRotationLockEnabled = enabled;
-    }
 
     @Implementation
     public boolean isRotationLockedForAllStates() {

@@ -63,11 +63,9 @@ class SatelliteSettingAboutContentControllerTest {
         controller.displayPreference(screen)
 
         assertThat(preference.title).isEqualTo(
-            context.getString(
-                R.string.description_about_satellite_setting,
-                TEST_SIM_OPERATOR_NAME
+            "You can send and receive text messages and use some apps by satellite with an eligible Test Carrier account"
             )
-        )
+
     }
 
     private companion object {

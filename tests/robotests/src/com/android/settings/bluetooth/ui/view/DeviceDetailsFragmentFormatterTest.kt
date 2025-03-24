@@ -404,7 +404,7 @@ class DeviceDetailsFragmentFormatterTest {
         for (i in 0..<fragment.preferenceScreen.preferenceCount) {
             prefs.add(fragment.preferenceScreen.getPreference(i))
         }
-        return prefs
+        return prefs.filter { it.key != null }
     }
 
     class TestFragment(context: Context) : DashboardFragment() {

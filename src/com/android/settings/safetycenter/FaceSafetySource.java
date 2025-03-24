@@ -78,7 +78,7 @@ public final class FaceSafetySource {
             boolean isMultipleBiometricsEnrollmentNeeded =
                     BiometricSourcesUtils.isMultipleBiometricsEnrollmentNeeded(context, userId);
             String settingClassName = isMultipleBiometricsEnrollmentNeeded
-                    ? BiometricEnrollActivity.class.getName()
+                    ? BiometricEnrollActivity.InternalActivity.class.getName()
                     : faceStatusUtils.getSettingsClassName();
             Bundle bundle = new Bundle();
             if (isMultipleBiometricsEnrollmentNeeded) {

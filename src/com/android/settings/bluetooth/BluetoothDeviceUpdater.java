@@ -277,7 +277,10 @@ public abstract class BluetoothDeviceUpdater implements BluetoothCallback,
         }
     }
 
-    private void removePreference(BluetoothDevice device) {
+    /**
+     * Remove the {@link Preference} that represents the {@code device}
+     */
+    protected void removePreference(BluetoothDevice device) {
         if (mPreferenceMap.containsKey(device)) {
             if (mPreferenceMap.get(device) instanceof BluetoothDevicePreference preference) {
                 BluetoothDevice prefDevice = preference.getBluetoothDevice().getDevice();
@@ -362,7 +365,7 @@ public abstract class BluetoothDeviceUpdater implements BluetoothCallback,
         return mLocalManager.getCachedDeviceManager().getCachedDevicesCopy().contains(cachedDevice);
     }
 
-    private boolean isDeviceOfMapInCachedDevicesList(BluetoothDevice inputBluetoothDevice) {
+    protected boolean isDeviceOfMapInCachedDevicesList(BluetoothDevice inputBluetoothDevice) {
         Collection<CachedBluetoothDevice> cachedDevices =
                 mLocalManager.getCachedDeviceManager().getCachedDevicesCopy();
         if (cachedDevices == null || cachedDevices.isEmpty()) {

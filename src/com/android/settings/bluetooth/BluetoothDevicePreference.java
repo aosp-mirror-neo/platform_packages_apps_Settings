@@ -296,6 +296,10 @@ public final class BluetoothDevicePreference extends GearPreference {
     void onPreferenceAttributesChanged() {
         try {
             ThreadUtils.postOnBackgroundThread(() -> {
+                if (mCachedDevice.getDevice() != null) {
+                    Log.d(TAG, "onPreferenceAttributesChanged, start updating for device "
+                            + mCachedDevice.getDevice().getAnonymizedAddress());
+                }
                 @Nullable String name = mCachedDevice.getName();
                 // Null check is done at the framework
                 @Nullable String connectionSummary = getConnectionSummary();
@@ -325,6 +329,7 @@ public final class BluetoothDevicePreference extends GearPreference {
                         notifyHierarchyChanged();
                     }
                 });
+                Log.d(TAG, "onPreferenceAttributesChanged, complete updating for device " + name);
             });
         } catch (RejectedExecutionException e) {
             Log.w(TAG, "Handler thread unavailable, skipping getConnectionSummary!");

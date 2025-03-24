@@ -42,7 +42,7 @@
     <string name="bluetooth_ask_enablement_and_discovery" product="desktop" msgid="4841837610815256531">"「<xliff:g id="APP_NAME">%1$s</xliff:g>」要求開啟藍牙功能 <xliff:g id="TIMEOUT">%2$d</xliff:g> 秒，讓其他裝置能偵測到你的裝置。"</string>
     <string name="bluetooth_ask_enablement_and_discovery_no_name" product="tablet" msgid="3469927640700478737">"應用程式要求開啟藍牙功能 <xliff:g id="TIMEOUT">%1$d</xliff:g> 秒，並在這段時間內將平板電腦設為向其他裝置顯示。"</string>
     <string name="bluetooth_ask_enablement_and_discovery_no_name" product="default" msgid="4847493437698663706">"應用程式要求開啟藍牙功能 <xliff:g id="TIMEOUT">%1$d</xliff:g> 秒，並在這段時間內將手機設為向其他裝置顯示。"</string>
-    <string name="bluetooth_ask_enablement_and_discovery_no_name" product="desktop" msgid="2660699995682598369">"某個應用程式要求開啟藍牙功能 <xliff:g id="TIMEOUT">%1$d</xliff:g> 秒，讓其他裝置能偵測到你的裝置。"</string>
+    <string name="bluetooth_ask_enablement_and_discovery_no_name" product="desktop" msgid="2660699995682598369">"某個應用程式要求開啟藍牙功能 <xliff:g id="TIMEOUT">%1$d</xliff:g> 秒，讓其他裝置能偵測到你的裝置"</string>
     <string name="bluetooth_ask_enablement_and_lasting_discovery" product="tablet" msgid="487436507630570730">"「<xliff:g id="APP_NAME">%1$s</xliff:g>」要求開啟藍牙功能，並將平板電腦設為向其他裝置顯示。你稍後可在「藍牙」設定中變更這項設定。"</string>
     <string name="bluetooth_ask_enablement_and_lasting_discovery" product="default" msgid="5169934906530139494">"「<xliff:g id="APP_NAME">%1$s</xliff:g>」要求開啟藍牙功能，並將手機設為向其他裝置顯示。你稍後可在「藍牙」設定中變更這項設定。"</string>
     <string name="bluetooth_ask_enablement_and_lasting_discovery" product="desktop" msgid="2790161567276762264">"「<xliff:g id="APP_NAME">%1$s</xliff:g>」要求開啟藍牙功能，並將裝置設為向其他裝置顯示。您稍後可在「藍牙」設定中變更這項設定。"</string>
@@ -191,7 +191,7 @@
     <string name="security_settings_sfps_enroll_find_sensor_message" product="tablet" msgid="2006739081527422127">"指紋感應器位於開關按鈕上，開關按鈕形狀扁平，位於平板電腦邊緣凸起的音量按鈕旁。"</string>
     <string name="security_settings_sfps_enroll_find_sensor_message" product="device" msgid="1209233633252372907">"指紋感應器位於開關按鈕上，開關按鈕形狀扁平，位於裝置邊緣凸起的音量按鈕旁。"</string>
     <string name="security_settings_sfps_enroll_find_sensor_message" product="default" msgid="6862493139500275821">"指紋感應器位於開關按鈕上，開關按鈕形狀扁平，位於手機邊緣凸起的音量按鈕旁。"</string>
-    <string name="security_settings_sfps_enroll_find_sensor_message" product="desktop" msgid="6270657720916140548">"指紋感應器在電源鍵上。電源鍵形狀扁平，位在裝置側邊凸起的音量鍵旁。"</string>
+    <string name="security_settings_sfps_enroll_find_sensor_message" product="desktop" msgid="6270657720916140548">"指紋感應器位於開關按鈕上，開關按鈕形狀扁平，位於桌面電腦邊緣凸起的音量按鈕旁。"</string>
     <string name="security_settings_fingerprint_enroll_finish_v2_message" product="tablet" msgid="2012126789397819713">"你現可使用指紋解鎖平板電腦或驗證身分，例如用來登入應用程式或核准購買交易"</string>
     <string name="security_settings_fingerprint_enroll_finish_v2_message" product="device" msgid="7119860465479161782">"你現可使用指紋解鎖裝置或驗證身分，例如用來登入應用程式或核准購買交易"</string>
     <string name="security_settings_fingerprint_enroll_finish_v2_message" product="default" msgid="8255422287180693200">"你現可使用指紋解鎖手機或驗證身分，例如用來登入應用程式或核准購買交易"</string>
@@ -306,19 +306,19 @@
     <string name="nfc_secure_toggle_summary" product="default" msgid="3515508978581011683">"只在螢幕解鎖時才允許使用 NFC"</string>
     <string name="wifi_add_app_single_network_summary" product="default" msgid="7742934005022827107">"「<xliff:g id="APPNAME">%1$s</xliff:g>」想將網絡儲存至你的手機"</string>
     <string name="wifi_add_app_single_network_summary" product="tablet" msgid="93466057231937113">"「<xliff:g id="APPNAME">%1$s</xliff:g>」想在你的平板電腦中新增網絡"</string>
-    <string name="wifi_add_app_single_network_summary" product="desktop" msgid="2116663141004049983">"「<xliff:g id="APPNAME">%1$s</xliff:g>」想在你的裝置儲存網路"</string>
+    <string name="wifi_add_app_single_network_summary" product="desktop" msgid="2116663141004049983">"「<xliff:g id="APPNAME">%1$s</xliff:g>」想在你的裝置儲存網絡"</string>
     <string name="wifi_add_app_networks_summary" product="default" msgid="7014504084783236696">"「<xliff:g id="APPNAME">%1$s</xliff:g>」想將這些網絡儲存至你的手機"</string>
     <string name="wifi_add_app_networks_summary" product="tablet" msgid="6433255556506891439">"「<xliff:g id="APPNAME">%1$s</xliff:g>」想在你的平板電腦中新增這些網絡"</string>
-    <string name="wifi_add_app_networks_summary" product="desktop" msgid="4238956725252527159">"「<xliff:g id="APPNAME">%1$s</xliff:g>」想在你的裝置儲存這些網路"</string>
+    <string name="wifi_add_app_networks_summary" product="desktop" msgid="4238956725252527159">"「<xliff:g id="APPNAME">%1$s</xliff:g>」想在你的裝置儲存這些網絡"</string>
     <string name="auto_rotate_screen_summary" product="default" msgid="5562937346878935483">"當你以直向或橫向模式使用手機時，螢幕都會自動旋轉以調整方向"</string>
     <string name="auto_rotate_screen_summary" product="tablet" msgid="3163709742477804994">"當你以直向或橫向模式使用平板電腦時，螢幕都會自動旋轉以調整方向"</string>
-    <string name="auto_rotate_screen_summary" product="desktop" msgid="3805199344834364732">"隨裝置方向自動調整螢幕方向 (直向或橫向)"</string>
+    <string name="auto_rotate_screen_summary" product="desktop" msgid="3805199344834364732">"隨裝置方向自動調整屏幕定向 (直向或橫向)"</string>
     <string name="sim_lock_on" product="tablet" msgid="227481196121403470">"需要 PIN 碼才能使用平板電腦"</string>
     <string name="sim_lock_on" product="default" msgid="6896034657274595838">"需要 PIN 才能使用手機"</string>
-    <string name="sim_lock_on" product="desktop" msgid="5734697047766184447">"需要輸入 PIN 碼才能使用裝置"</string>
+    <string name="sim_lock_on" product="desktop" msgid="5734697047766184447">"需要輸入 PIN 才能使用裝置"</string>
     <string name="sim_lock_off" product="tablet" msgid="4619320846576958981">"需要 PIN 碼才能使用平板電腦"</string>
     <string name="sim_lock_off" product="default" msgid="2064502270875375541">"需要 PIN 才能使用手機"</string>
-    <string name="sim_lock_off" product="desktop" msgid="903164661366964150">"需要輸入 PIN 碼才能使用裝置"</string>
+    <string name="sim_lock_off" product="desktop" msgid="903164661366964150">"需要輸入 PIN 才能使用裝置"</string>
     <string name="status_number" product="tablet" msgid="6746773328312218158">"MDN"</string>
     <string name="status_number" product="default" msgid="2333455505912871374">"電話號碼"</string>
     <string name="status_number_sim_slot" product="tablet" msgid="2595836594107617972">"MDN (SIM 卡插槽 %1$d)"</string>
@@ -332,17 +332,17 @@
     <string name="storage_wizard_init_v2_internal_summary" product="default" msgid="4395040788668914783">"儲存只供此手機使用的應用程式和媒體。&lt;a href=https://support.google.com/android/answer/12153449&gt;進一步瞭解如何設定 SD 卡&lt;/a&gt;"</string>
     <string name="storage_wizard_init_v2_internal_action" product="default" msgid="560506072518373839">"格式化"</string>
     <string name="storage_wizard_init_v2_internal_title" product="desktop" msgid="2049551739429034707">"將 SD 卡格式化為內部儲存空間"</string>
-    <string name="storage_wizard_init_v2_internal_summary" product="desktop" msgid="2799974050149438211">"儲存的應用程式和媒體僅供這部裝置使用。&lt;a href=https://support.google.com/android/answer/12153449&gt;進一步瞭解如何設定 SD 卡&lt;/a&gt;。"</string>
+    <string name="storage_wizard_init_v2_internal_summary" product="desktop" msgid="2799974050149438211">"儲存的應用程式和媒體僅供此裝置使用。&lt;a href=https://support.google.com/android/answer/12153449&gt;進一步瞭解如何設定 SD 卡&lt;/a&gt;。"</string>
     <string name="storage_wizard_init_v2_internal_action" product="desktop" msgid="560506072518373839">"格式化"</string>
     <string name="storage_wizard_migrate_v2_body" product="tablet" msgid="7539293889421540797">"你可以將檔案、媒體和特定應用程式移至此 <xliff:g id="NAME">^1</xliff:g>。\n\n此操作大約需要 <xliff:g id="DURATION">^3</xliff:g>，完成後將可釋出 <xliff:g id="SIZE">^2</xliff:g> 的平板電腦儲存空間。"</string>
     <string name="storage_wizard_migrate_v2_body" product="default" msgid="3807501187945770401">"你可以將檔案、媒體和特定應用程式移至此 <xliff:g id="NAME">^1</xliff:g>。\n\n此操作大約需要 <xliff:g id="DURATION">^3</xliff:g>，完成後將可釋出 <xliff:g id="SIZE">^2</xliff:g> 的手機儲存空間。"</string>
-    <string name="storage_wizard_migrate_v2_body" product="desktop" msgid="9118680108596764093">"你可以將檔案、媒體和特定應用程式移到這張「<xliff:g id="NAME">^1</xliff:g>」。\n\n這項移動作業大約需要 <xliff:g id="DURATION">^3</xliff:g>，完成後將可釋出 <xliff:g id="SIZE">^2</xliff:g> 的裝置儲存空間。"</string>
+    <string name="storage_wizard_migrate_v2_body" product="desktop" msgid="9118680108596764093">"你可以將檔案、媒體和特定應用程式移至此 <xliff:g id="NAME">^1</xliff:g>。\n\n此操作大約需要 <xliff:g id="DURATION">^3</xliff:g>，完成後將可騰出 <xliff:g id="SIZE">^2</xliff:g> 的裝置儲存空間。"</string>
     <string name="storage_wizard_migrate_v2_checklist_battery" product="tablet" msgid="5326017162943304749">"請將此平板電腦維持充電狀態"</string>
     <string name="storage_wizard_migrate_v2_checklist_battery" product="default" msgid="8041162611685970218">"請將此手機維持充電狀態"</string>
-    <string name="storage_wizard_migrate_v2_checklist_battery" product="desktop" msgid="3166603241842968388">"請將這部裝置維持在充電狀態"</string>
+    <string name="storage_wizard_migrate_v2_checklist_battery" product="desktop" msgid="3166603241842968388">"請將此裝置維持在充電狀態"</string>
     <string name="main_clear_desc" product="tablet" msgid="5778614597513856716">"此操作將會清除你平板電腦"<b>"內部儲存空間"</b>"中的所有資料，包括：\n\n"<li>"你的 Google 帳戶"</li>\n<li>"系統和應用程式資料及設定"</li>\n<li>"已下載的應用程式"</li></string>
     <string name="main_clear_desc" product="default" msgid="1888412491866186706">"此操作將會清除你手機"<b>"內部儲存空間"</b>"的所有資料，包括：\n\n"<li>"你的 Google 帳戶"</li>\n<li>"系統和應用程式資料及設定"</li>\n<li>"已下載的應用程式"</li></string>
-    <string name="main_clear_desc" product="desktop" msgid="405802272460355609">"裝置"<b>"內部儲存空間"</b>"的資料會全部清除，包括：\n\n"<li>"你的 Google 帳戶"</li>\n<li>"系統和應用程式資料及設定"</li>\n<li>"已下載的應用程式"</li></string>
+    <string name="main_clear_desc" product="desktop" msgid="405802272460355609">"此操作將會清除你裝置"<b>"內部儲存空間"</b>"的所有資料，包括：\n\n"<li>"你的 Google 帳戶"</li>\n<li>"系統及應用程式資料和設定"</li>\n<li>"已下載的應用程式"</li></string>
     <string name="main_clear_accounts" product="default" msgid="3604029744509330786">\n\n"你目前已登入以下帳戶：\n"</string>
     <string name="main_clear_other_users_present" product="default" msgid="7750368595882863399">\n\n"這部裝置上還有其他使用者。\n"</string>
     <string name="main_clear_desc_erase_external_storage" product="nosdcard" msgid="5834269984459195918">\n\n"如要一併清除音樂、圖片及其他使用者資料，則需清除 "<b>"USB 儲存裝置"</b>"資料。"</string>
@@ -388,17 +388,17 @@
     <string name="accessibility_daltonizer_about_intro_text" product="desktop" msgid="8908526728447739478">"調整裝置的顏色顯示方式"</string>
     <string name="reduce_bright_colors_preference_summary" product="default" msgid="2025941326724094318">"將螢幕調至比手機最低亮度更暗"</string>
     <string name="reduce_bright_colors_preference_summary" product="tablet" msgid="3106979202311807559">"將螢幕調至比平板電腦最低亮度更暗"</string>
-    <string name="reduce_bright_colors_preference_summary" product="desktop" msgid="7810358416215416035">"將螢幕調得比裝置最低亮度更暗"</string>
+    <string name="reduce_bright_colors_preference_summary" product="desktop" msgid="7810358416215416035">"將螢幕調至比裝置最低亮度更暗"</string>
     <string name="reduce_bright_colors_preference_subtitle" product="default" msgid="9162440023310121356">"「超暗」功能適用於以下情況：&lt;ol&gt; &lt;li&gt; 手機預設的最低亮度仍然太光&lt;/li&gt; &lt;li&gt; 在夜間或睡前黑暗的房間等昏暗環境下使用手機&lt;/li&gt; &lt;/ol&gt;"</string>
     <string name="reduce_bright_colors_preference_subtitle" product="tablet" msgid="5747242697890472822">"「超暗」功能適用於以下情況：&lt;ol&gt; &lt;li&gt; 平板電腦預設的最低亮度仍然太亮&lt;/li&gt; &lt;li&gt; 在夜間或睡前黑暗的房間等昏暗環境下使用平板電腦&lt;/li&gt; &lt;/ol&gt;"</string>
-    <string name="reduce_bright_colors_preference_subtitle" product="desktop" msgid="3114657547062643684">"「超暗」功能適用於以下情況：&lt;ol&gt; &lt;li&gt; 裝置預設的最低亮度依然太亮&lt;/li&gt; &lt;li&gt; 在夜間或睡前黑暗的房間等昏暗環境下使用裝置&lt;/li&gt; &lt;/ol&gt;"</string>
+    <string name="reduce_bright_colors_preference_subtitle" product="desktop" msgid="3114657547062643684">"「超暗」功能適用於以下情況：&lt;ol&gt; &lt;li&gt; 裝置預設的最低亮度仍然太光&lt;/li&gt; &lt;li&gt; 在夜間或睡前黑暗的房間等昏暗環境下使用裝置&lt;/li&gt; &lt;/ol&gt;"</string>
     <string name="battery_tip_summary_summary" product="default" msgid="1880496476760792933">"手機的背景耗電量正常"</string>
     <string name="battery_tip_summary_summary" product="tablet" msgid="865695079664997057">"平板電腦的背景耗電量正常"</string>
     <string name="battery_tip_summary_summary" product="device" msgid="45436555475195632">"裝置的背景耗電量正常"</string>
     <string name="battery_tip_summary_summary" product="desktop" msgid="45436555475195632">"裝置的背景耗電量正常"</string>
     <string name="battery_tip_limited_temporarily_dialog_msg" product="default" msgid="4134817691837413711">"在特定情況下 (例如高溫和長時間充電)，充電可能會限於 <xliff:g id="PERCENT">%1$s</xliff:g> 以延長電池壽命。\n\n當這些情況結束時，手機將會自動正常充電。"</string>
     <string name="battery_tip_limited_temporarily_dialog_msg" product="tablet" msgid="9123428127699951337">"在特定情況下 (例如高溫和長時間充電)，充電可能會限於 <xliff:g id="PERCENT">%1$s</xliff:g> 以延長電池壽命。\n\n當這些情況結束時，平板電腦將會自動正常充電。"</string>
-    <string name="battery_tip_limited_temporarily_dialog_msg" product="desktop" msgid="4894543675965624780">"在高溫和長時間充電等特定情況，裝置可能會將充電量限制在 <xliff:g id="PERCENT">%1$s</xliff:g>，以維持電池健康度。\n\n當這類情況解除後，裝置就會自動正常充電。"</string>
+    <string name="battery_tip_limited_temporarily_dialog_msg" product="desktop" msgid="4894543675965624780">"在特定情況下 (例如高溫和長時間充電)，充電可能會限於 <xliff:g id="PERCENT">%1$s</xliff:g> 以維持電池效能。\n\n當這些情況結束時，裝置將會自動正常充電。"</string>
     <string name="battery_tip_dialog_message" product="default" msgid="7183790460600610222">"你比平常多用手機，電池電量可能會比平時更快用完。\n\n耗電量最高的應用程式："</string>
     <string name="battery_tip_dialog_message" product="tablet" msgid="2702706858728966181">"由於你的平板電腦使用率比平常高，因此電池可能比平時更快耗盡。\n\n耗電量最高的應用程式："</string>
     <string name="battery_tip_dialog_message" product="device" msgid="6488208467377974021">"由於你的裝置使用率比平常高，因此電池可能比平時更快耗盡。\n\n耗電量最高的應用程式："</string>
@@ -421,10 +421,10 @@
     <string name="really_remove_account_message" product="desktop" msgid="1482438683708606820">"移除此帳戶後，裝置上的訊息、通訊錄和其他資料將全部刪除！"</string>
     <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="7137933271689383781">"你在網絡上對帳戶作出的任何變更都會自動複製到你的平板電腦。\n\n部分帳戶也可能自動將你在平板電腦上作出的變更複製到網絡上。Google 帳戶會按照這種方式運作。"</string>
     <string name="data_usage_auto_sync_on_dialog" product="default" msgid="7207326473052484970">"你在網絡上對帳戶作出的任何變更都會自動複製到你的手機。\n\n部分帳戶也可能自動將你在手機上作出的變更複製到網絡上。Google 帳戶會按照這種方式運作。"</string>
-    <string name="data_usage_auto_sync_on_dialog" product="desktop" msgid="7386532649309389029">"凡是你在網路上進行的帳戶變更，都會自動同步到你的裝置。\n\n部分帳戶還會自動將裝置上的變更同步到網路。Google 帳戶便是這麼運作。"</string>
+    <string name="data_usage_auto_sync_on_dialog" product="desktop" msgid="7386532649309389029">"你在網上對帳戶作出的任何更改都會自動同步至你的裝置。\n\n部分帳戶亦可能會自動將你在裝置上作出的任何變更同步至網絡上。Google 帳戶會按照此方式運作。"</string>
     <string name="data_usage_limit_dialog_mobile" product="tablet" msgid="5609616352941038118">"平板電腦的流動數據用量一達到設定的上限，便會關閉流動數據功能。\n\n由於此數據用量由你的平板電腦計算，而流動網絡供應商的用量計算方式可能不同，因此建議你設定較保守的上限。"</string>
     <string name="data_usage_limit_dialog_mobile" product="default" msgid="4552449053646826676">"手機的流動數據用量一達到設定的上限，便會關閉流動數據功能。\n\n由於此數據用量由你的手機計算，而流動網絡供應商的用量計算方式可能不同，因此建議你設定較保守的上限。"</string>
-    <string name="data_usage_limit_dialog_mobile" product="desktop" msgid="407387299340649944">"當用量達到設定上限時，裝置就會關閉行動數據。\n\n由於數據用量是由裝置估算，可能與電信業者計算用量不同，建議保守設定上限。"</string>
+    <string name="data_usage_limit_dialog_mobile" product="desktop" msgid="407387299340649944">"裝置的流動數據用量一達到設定的上限，便會關閉流動數據功能。\n\n由於此數據用量由你的裝置計算，而流動網絡供應商的用量計算方式可能不同，因此建議你設定較保守的上限。"</string>
     <string name="user_settings_footer_text" product="device" msgid="8543171604218174424">"新增使用者即可分享你的裝置。每位使用者在你的裝置上都有個人空間，以自訂主畫面、帳戶、應用程式、設定等。"</string>
     <string name="user_settings_footer_text" product="tablet" msgid="4749331578207116797">"如要共用平板電腦，請新增使用者。每位使用者在平板電腦上都有個人空間，可以自訂主畫面、帳戶、應用程式、設定等。"</string>
     <string name="user_settings_footer_text" product="default" msgid="5440172971747221370">"你可以加入新的使用者，與他們共用這部手機。每位使用者都會擁有個人空間，並可在你的手機上自訂主畫面、帳戶、應用程式、設定等等。"</string>
@@ -483,7 +483,7 @@
     <string name="battery_tip_incompatible_charging_message" product="desktop" msgid="4208335872169818919">"裝置可能充電速度緩慢或未充電。如要快速充電，請使用建議的連接線和電源適配器。"</string>
     <string name="lockscreen_trivial_controls_summary" product="default" msgid="42562533085885152">"無需解鎖手機"</string>
     <string name="lockscreen_trivial_controls_summary" product="tablet" msgid="9052068482124729345">"無需解鎖平板電腦"</string>
-    <string name="lockscreen_trivial_controls_summary" product="desktop" msgid="8183513643394359332">"不必解鎖裝置"</string>
+    <string name="lockscreen_trivial_controls_summary" product="desktop" msgid="8183513643394359332">"無需解鎖裝置"</string>
     <string name="auto_rotate_summary_a11y" product="default" msgid="2813368383309985185">"喺手機轉成直向或者橫向嘅時候自動旋轉畫面"</string>
     <string name="auto_rotate_summary_a11y" product="tablet" msgid="4708833814245913981">"喺平板電腦轉成直向或者橫向嘅時候自動旋轉畫面"</string>
     <string name="auto_rotate_summary_a11y" product="desktop" msgid="1342493478927297535">"在裝置轉成直向或橫向時自動旋轉螢幕"</string>

@@ -41,12 +41,9 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"強制停止"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"不明"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"プレビュー"</string>
-    <!-- no translation found for preview_pager_home_content_description (3961399947853424786) -->
-    <skip />
-    <!-- no translation found for preview_pager_message_content_description (3018855090807833755) -->
-    <skip />
-    <!-- no translation found for preview_pager_email_content_description (100055784235660338) -->
-    <skip />
+    <string name="preview_pager_home_content_description" msgid="3961399947853424786">"ホーム画面のプレビュー"</string>
+    <string name="preview_pager_message_content_description" msgid="3018855090807833755">"メッセージのプレビュー"</string>
+    <string name="preview_pager_email_content_description" msgid="100055784235660338">"メールのプレビュー"</string>
     <string name="qr_code_content_description" msgid="1852208464419291347">"QR コード"</string>
     <string name="preview_pager_previous_button" msgid="607771113300838313">"前のプレビュー"</string>
     <string name="preview_pager_next_button" msgid="8700907912508927271">"次のプレビュー"</string>
@@ -222,12 +219,10 @@
     <string name="desc_introduction_of_language_picker" msgid="4012265379885200083">"デバイス、アプリ、ウェブサイトでは、優先言語の一覧の中からサポートされている最初の言語が使用されます。\n\nその他の多くのアプリでも優先言語の地域を使用して、日付、数値、単位の形式を設定します。地域を変更するには、言語を追加してから、優先する地域を選択してください。"</string>
     <string name="desc_notice_of_language_picker" msgid="3449290526457925447">"アプリごとに言語を選択するには、アプリの言語設定に移動してください。"</string>
     <string name="desc_locale_helper_footer_general" msgid="6112153921151780303">"アプリの言語の詳細"</string>
-    <!-- no translation found for title_change_system_region (9196602029960380112) -->
-    <skip />
+    <string name="title_change_system_region" msgid="9196602029960380112">"地域を%sに変更しますか？"</string>
     <string name="desc_notice_device_region_change" msgid="6702773189066944100">"デバイスのシステム言語は%sのままとなります"</string>
     <string name="desc_notice_device_region_change_for_preferred_language" msgid="408517366942324267">"優先言語で %2$s を %1$s に置き換えます"</string>
-    <!-- no translation found for title_change_system_locale (4102991236063984803) -->
-    <skip />
+    <string name="title_change_system_locale" msgid="4102991236063984803">"システムの言語を%sに変更しますか？"</string>
     <string name="title_system_locale_addition" msgid="8218683660751479466">"%sを使用言語に追加しますか？"</string>
     <string name="desc_system_locale_addition" msgid="3409917362651596070">"これにより、この言語もアプリやウェブサイトで使用言語として認識されるようになります。"</string>
     <string name="desc_notice_device_locale_settings_change" msgid="8311132485850714160">"デバイスの設定と地域別の設定が変更されます。"</string>
@@ -244,8 +239,7 @@
     <string name="search_region_hint" msgid="1748708432568237552">"地域を検索できます"</string>
     <string name="top_intro_region_title" msgid="2336323415395642117">"選択した地域によって、スマートフォンに表示される時刻、日付、温度などが決まります"</string>
     <string name="more_language_settings_category" msgid="3669703092480725416">"その他の言語設定"</string>
-    <!-- no translation found for title_change_system_locale_region (4401478579429442695) -->
-    <skip />
+    <string name="title_change_system_locale_region" msgid="4401478579429442695">"地域を<xliff:g id="SYSTEM_LANGUAGE_REGION">%1$s</xliff:g>に変更しますか？"</string>
     <string name="body_change_system_locale_region" msgid="9064318449821043189">"デバイスのシステム言語は<xliff:g id="SYSTEM_LANGUAGE">%1$s</xliff:g>のままとなります"</string>
     <string name="top_intro_numbering_system_title" msgid="3962000662073238392">"デバイス、ウェブサイト、アプリで数字を表示する方法を選択します"</string>
     <string name="regional_preferences_title" msgid="4304567374498629528">"地域別の設定"</string>
@@ -270,8 +264,10 @@
     <string name="title_regional_pref_footer" msgid="7450438024324794380">"アプリで地域別の設定がサポートされていない場合は、デフォルトの言語 / 地域設定が使用されます。"</string>
     <string name="desc_regional_pref_footer_learn_more" msgid="4401708653329230081">"詳しくは、言語設定についての説明をご覧ください。"</string>
     <string name="metric_measurement_system" msgid="7489725697268321541">"メートル法"</string>
-    <string name="us_measurement_system" msgid="8738587232938189052">"ヤードポンド法（米国）"</string>
-    <string name="uk_measurement_system" msgid="4196897001775627597">"ヤードポンド法（英国）"</string>
+    <!-- no translation found for us_measurement_system (8406695347890345490) -->
+    <skip />
+    <!-- no translation found for uk_measurement_system (1814065008707689505) -->
+    <skip />
     <string name="category_title_terms_of_address" msgid="4309422700380895278">"追加設定"</string>
     <string name="terms_of_address_title" msgid="7338630812197476808">"あなたの呼び方を選択する"</string>
     <string name="terms_of_address_summary" msgid="7802443422612600620">"デバイスであなたの呼び方をカスタマイズできます。"</string>
@@ -365,8 +361,7 @@
     <string name="safety_center_summary" msgid="3554867379951053869">"アプリのセキュリティ、デバイスのロック、アクセス許可"</string>
     <string name="security_settings_face_preference_summary" msgid="6675126437396914838">"顔が登録されています"</string>
     <string name="security_settings_face_preference_summary_none" msgid="523320857738436024">"セットアップが必要です"</string>
-    <!-- no translation found for security_settings_face_preference_summary_none_new (1963253146734002815) -->
-    <skip />
+    <string name="security_settings_face_preference_summary_none_new" msgid="1963253146734002815">"顔を追加してください"</string>
     <string name="security_settings_face_preference_title_new" msgid="7680231874730796331">"顔認証"</string>
     <string name="security_settings_face_profile_preference_title_new" msgid="685550153608106166">"顔認証（仕事用）"</string>
     <string name="private_space_face_unlock_title_new" msgid="2079622608951402509">"顔認証（プライベート スペース）"</string>
@@ -449,8 +444,7 @@
     <string name="fingerprint_add_title" msgid="1837610443487902050">"指紋を追加"</string>
     <string name="security_settings_fingerprint_preference_summary" msgid="8486134175759676037">"{count,plural, =1{指紋が登録されています}other{# 件の指紋が登録されています}}"</string>
     <string name="security_settings_fingerprint_preference_summary_none" msgid="1146977379031250790">"セットアップが必要です"</string>
-    <!-- no translation found for security_settings_fingerprint_preference_summary_none_new (510376523784190149) -->
-    <skip />
+    <string name="security_settings_fingerprint_preference_summary_none_new" msgid="510376523784190149">"指紋を追加してください"</string>
     <string name="security_settings_fingerprint_enroll_introduction_title" msgid="7931650601996313070">"指紋の設定"</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title" msgid="2278592030102282364">"指紋認証によるロック解除の許可"</string>
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled" msgid="1911710308293783998">"指紋の使用"</string>
@@ -806,8 +800,7 @@
     <string name="face_unlock_skip_face" msgid="189695556498300008">"顔認証を設定せずに続行"</string>
     <string name="biometrics_unlock_skip_biometrics" msgid="7399882488272450182">"指紋認証や顔認証を使わずに続行する"</string>
     <string name="unlock_set_unlock_mode_off" msgid="4632139864722236359">"なし"</string>
-    <!-- no translation found for unlock_set_unlock_mode_off_new (865396805830816266) -->
-    <skip />
+    <string name="unlock_set_unlock_mode_off_new" msgid="865396805830816266">"PIN、パターン、パスワード、スワイプを追加"</string>
     <string name="unlock_set_unlock_mode_none" msgid="5596049938457028214">"スワイプ"</string>
     <string name="unlock_set_unlock_mode_pattern" msgid="1926480143883094896">"パターン"</string>
     <string name="unlock_set_unlock_mode_pin" msgid="9028659554829888373">"PIN"</string>
@@ -946,10 +939,16 @@
     <string name="bluetooth_scanning_on_info_message" msgid="786648535600075223">"Bluetooth を ON にすると、付近の他の Bluetooth デバイスと通信できます。\n\nBluetooth が OFF の場合でもアプリやサービスは付近のデバイスをいつでもスキャンできます。位置情報を使用する機能やサービスで利便性が向上するなどの効果があります。この設定は Bluetooth スキャンの設定で変更できます。"</string>
     <string name="bluetooth_scanning_on_info_message_auto_on_available" msgid="7792443293031247638">"Bluetooth を ON にすると、近くにある他の Bluetooth デバイスと通信できます。Quick Share や「デバイスを探す」などの機能は Bluetooth を使用します。\n\nBluetooth が OFF でも、アプリやサービスはいつでも付近のデバイスをスキャンできます。位置情報を使用する機能やサービスで利便性が向上するなどの効果があります。この設定は Bluetooth スキャンの設定で変更できます。"</string>
     <string name="bluetooth_scan_change" msgid="1744636222637390367">"変更"</string>
-    <string name="bluetooth_key_missing_title" msgid="7799054163548353853">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>、未接続"</string>
-    <string name="bluetooth_key_missing_message" msgid="2388861106663695319">"セキュリティ上の理由から、このデバイスとのペア設定を解除してからもう一度ペア設定してください"</string>
+    <!-- no translation found for bluetooth_key_missing_title (8462010102528132965) -->
+    <skip />
+    <!-- no translation found for bluetooth_key_missing_message (3188093580372443815) -->
+    <skip />
     <string name="bluetooth_key_missing_forget" msgid="4692006517823001013">"このデバイスとのペア設定を解除"</string>
     <string name="bluetooth_key_missing_cancel" msgid="2482416446357804371">"キャンセル"</string>
+    <!-- no translation found for bluetooth_key_missing_device_settings (5512091368141961890) -->
+    <skip />
+    <!-- no translation found for bluetooth_key_missing_close (6724520133374312040) -->
+    <skip />
     <string name="device_details_title" msgid="1155622417516195481">"デバイスの詳細"</string>
     <string name="bluetooth_device_keyboard_settings_preference_title" msgid="3411693160917620519">"キーボードの設定"</string>
     <string name="bluetooth_device_more_settings_preference_title" msgid="6034482566541746500">"その他の設定"</string>
@@ -964,6 +963,8 @@
     <string name="device_details_leaudio_toggle_summary" msgid="7684848254433230809">"試験運用中。音声の品質が向上します。"</string>
     <string name="device_details_battery" msgid="5466987755790847884">"バッテリー"</string>
     <string name="device_details_battery_charging" msgid="3464969346075775143">"バッテリー、充電中"</string>
+    <!-- no translation found for device_details_key_missing_title (3568401701538114387) -->
+    <skip />
     <string name="bluetooth_unpair_dialog_forget_confirm_button" msgid="9184489424930549015">"このデバイスとのペア設定を解除"</string>
     <string name="bluetooth_companion_app_remove_association_confirm_button" msgid="76323555527926915">"アプリの接続を解除する"</string>
     <string name="device_details_more_settings" msgid="950302792331611271">"その他の設定"</string>
@@ -1076,8 +1077,7 @@
     <string name="wifi_show_advanced" msgid="2969378109942071741">"詳細設定"</string>
     <string name="wifi_advanced_toggle_description" msgid="7299179796727934885">"プルダウン リスト、詳細設定"</string>
     <string name="wifi_advanced_toggle_description_collapsed" msgid="3615140699129928913">"展開"</string>
-    <!-- no translation found for wifi_ssid (5139273830867723030) -->
-    <skip />
+    <string name="wifi_ssid" msgid="5139273830867723030">"ネットワーク名*"</string>
     <string name="wifi_ssid_hint" msgid="1940577553241083524">"SSID を入力"</string>
     <string name="wifi_security" msgid="9095934643631406913">"セキュリティ"</string>
     <string name="wifi_hidden_network" msgid="6466834025375485596">"非公開ネットワーク"</string>
@@ -1100,10 +1100,10 @@
     <string name="wifi_eap_user_cert" msgid="3569182430929173220">"ユーザー証明書"</string>
     <string name="wifi_eap_identity" msgid="3629406902174137028">"ID"</string>
     <string name="wifi_eap_anonymous" msgid="8630332141751267000">"匿名ID"</string>
-    <!-- no translation found for wifi_password (165204973532996861) -->
+    <string name="wifi_password" msgid="165204973532996861">"パスワード*"</string>
+    <!-- no translation found for wifi_password_optional (6770706664834070705) -->
     <skip />
-    <!-- no translation found for wifi_password_invalid (8884500804472828356) -->
-    <skip />
+    <string name="wifi_password_invalid" msgid="8884500804472828356">"パスワードが無効です"</string>
     <string name="wifi_show_password" msgid="6865993988238157923">"パスワードを表示する"</string>
     <string name="wifi_ap_choose_2G" msgid="1436802195991542016">"2.4 GHz 帯"</string>
     <string name="wifi_ap_prefer_5G" msgid="2520628479818369902">"5.0 GHz 帯を優先"</string>
@@ -1169,8 +1169,7 @@
     <string name="wifi_scan_always_turn_on_message_unknown" msgid="4903345360745717385">"現在地情報の精度向上やその他の目的で、不明なアプリが、Wi-Fi が OFF のときも、ネットワーク スキャンを ON にすることを要求しています。\n\nスキャンを必要とするすべてのアプリでスキャンを許可しますか？"</string>
     <string name="wifi_scan_always_confirm_allow" msgid="4154200627800959777">"許可する"</string>
     <string name="wifi_scan_always_confirm_deny" msgid="6997087934558839256">"許可しない"</string>
-    <!-- no translation found for wifi_field_required (6312381745503042588) -->
-    <skip />
+    <string name="wifi_field_required" msgid="6312381745503042588">"*必須"</string>
     <string name="no_internet_access_text" msgid="3611993143350310936">"このネットワークはインターネットに接続していません。接続を維持しますか？"</string>
     <string name="partial_connectivity_text" msgid="8874614799723694554">"接続制限のため、一部のアプリやサービスが使用できなくなることがあります。このまま使用しますか？"</string>
     <string name="no_internet_access_remember" msgid="5113610157731269258">"このネットワークについて次回から表示しない"</string>
@@ -1601,21 +1600,13 @@
     <string name="battery_level_title" msgid="1371765298786083448">"バッテリー残量"</string>
     <string name="communal_settings_title" msgid="2845678473945902115">"共用"</string>
     <string name="communal_settings_summary" msgid="4923914136953940317">"共用の設定"</string>
-    <!-- no translation found for hub_mode_category_title (5290081595872103974) -->
-    <skip />
-    <!-- no translation found for widgets_on_lockscreen_title (6979558402208585885) -->
-    <skip />
-    <!-- no translation found for when_to_auto_show_hubmode_title (2307148913387518369) -->
-    <skip />
-    <!-- no translation found for when_to_show_hubmode_never (976644329215156021) -->
-    <skip />
-    <!-- no translation found for when_to_show_hubmode_charging (1874391105066805128) -->
-    <skip />
-    <!-- no translation found for when_to_show_hubmode_charging_and_upright (6293947459712755814) -->
-    <skip />
-    <!-- no translation found for when_to_show_hubmode_docked (7107631545009933891) -->
-    <skip />
-    <string name="satellite_setting" msgid="4171265534842459910">"衛星通信メッセージ"</string>
+    <string name="hub_mode_category_title" msgid="5290081595872103974">"ハブモード"</string>
+    <string name="widgets_on_lockscreen_title" msgid="6979558402208585885">"ロック画面のウィジェット"</string>
+    <string name="when_to_auto_show_hubmode_title" msgid="2307148913387518369">"自動的に表示するタイミング"</string>
+    <string name="when_to_show_hubmode_never" msgid="976644329215156021">"なし"</string>
+    <string name="when_to_show_hubmode_charging" msgid="1874391105066805128">"充電中"</string>
+    <string name="when_to_show_hubmode_charging_and_upright" msgid="6293947459712755814">"縦置きで充電中"</string>
+    <string name="when_to_show_hubmode_docked" msgid="7107631545009933891">"ドッキング時"</string>
     <string name="apn_settings" msgid="4295467389400441299">"APN"</string>
     <string name="apn_edit" msgid="2003683641840248741">"アクセスポイントの編集"</string>
     <string name="apn_add" msgid="9069613192201630934">"アクセス ポイントを追加"</string>
@@ -1723,16 +1714,11 @@
     <string name="tether_preference_summary_off" msgid="6266799346319794630">"OFF"</string>
     <string name="usb_tethering_button_text" msgid="7364633823180913777">"USB テザリング"</string>
     <string name="bluetooth_tether_checkbox_text" msgid="6108398414967813545">"Bluetooth テザリング"</string>
-    <!-- no translation found for ethernet_ip_address (4218340787862242573) -->
-    <skip />
-    <!-- no translation found for ethernet_mac_address_title (3235879195237611007) -->
-    <skip />
-    <!-- no translation found for tx_ethernet_speed (4785035505065551012) -->
-    <skip />
-    <!-- no translation found for rx_ethernet_speed (6642000569214969711) -->
-    <skip />
-    <!-- no translation found for ethernet_network_usage (3795965384177426780) -->
-    <skip />
+    <string name="ethernet_ip_address" msgid="4218340787862242573">"IP アドレス"</string>
+    <string name="ethernet_mac_address_title" msgid="3235879195237611007">"MAC アドレス"</string>
+    <string name="tx_ethernet_speed" msgid="4785035505065551012">"トランジット リンクの速度"</string>
+    <string name="rx_ethernet_speed" msgid="6642000569214969711">"受信リンク速度"</string>
+    <string name="ethernet_network_usage" msgid="3795965384177426780">"ネットワーク使用状況"</string>
     <string name="ethernet_tether_checkbox_text" msgid="959743110824197356">"イーサネット テザリング"</string>
     <string name="tethering_footer_info" msgid="6824352505979800594">"このデバイスをアクセス ポイントとして機能させてテザリングすることで、データ通信のインターネット接続を他のデバイスと共有できます。アプリでアクセス ポイントを作成し、近くのデバイスに接続することも可能です。"</string>
     <string name="tethering_footer_info_sta_ap_concurrency" msgid="2079039077487477676">"このデバイスをアクセス ポイントとして機能させてテザリングすることで、Wi-Fi またはモバイルデータ通信のインターネット接続を他のデバイスと共有できます。アプリでアクセス ポイントを作成し、近くのデバイスに接続することも可能です。"</string>
@@ -3812,7 +3798,7 @@
     <string name="unseen_notifs_lock_screen" msgid="6910701117021324612">"ロック画面に新着の通知のみを表示する"</string>
     <string name="unseen_notifs_lock_screen_summary" msgid="5996722793868021391">"以前表示された通知をロック画面から自動的に削除します"</string>
     <string name="lock_screen_notifs_show_full_list" msgid="6767009263807771108">"一覧"</string>
-    <string name="lock_screen_notifs_show_compact" msgid="1944867696357706016">"コンパクト ビュー"</string>
+    <string name="lock_screen_notifs_show_compact" msgid="1944867696357706016">"コンパクト ビ⁠ュ⁠ー"</string>
     <string name="lock_screen_notifs_title" msgid="3412042692317304449">"ロック画面上の通知"</string>
     <string name="lock_screen_notifs_show_all_summary" msgid="4226586018375762117">"会話、デフォルト、サイレントを表示する"</string>
     <string name="lock_screen_notifs_show_all" msgid="1300418674456749664">"デフォルト モードとサイレント モードの会話と通知を表示する"</string>
@@ -4431,7 +4417,8 @@
     <string name="disconnected" msgid="3469373726996129247">"接続されていません"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"未接続"</string>
     <string name="apps_summary" msgid="4007416751775414252">"<xliff:g id="COUNT">%1$d</xliff:g> 個のアプリがインストールされています"</string>
-    <string name="storage_summary" msgid="7631468664968572688">"使用済み <xliff:g id="PERCENTAGE">%1$s</xliff:g> - 空き容量 <xliff:g id="FREE_SPACE_VALUE">%2$s</xliff:g> <xliff:g id="FREE_SPACE_UNITS">%3$s</xliff:g>"</string>
+    <!-- no translation found for storage_toplevel_summary (6708203706751754934) -->
+    <skip />
     <string name="display_dashboard_summary" msgid="1599453894989339454">"ダークモード、フォントサイズ、明るさ"</string>
     <string name="memory_summary" msgid="8221954450951651735">"<xliff:g id="TOTAL_MEMORY">%2$s</xliff:g> のうち平均で <xliff:g id="USED_MEMORY">%1$s</xliff:g> を使用"</string>
     <string name="users_summary" msgid="8473589474976307510">"<xliff:g id="USER_NAME">%1$s</xliff:g>としてログイン中"</string>
@@ -5054,13 +5041,16 @@
     <string name="roaming_alert_title" msgid="9052791521868787985">"データ ローミングを許可しますか？"</string>
     <string name="roaming_check_price_warning" msgid="5876977438036791361">"価格設定については、ネットワーク プロバイダにお問い合わせください。"</string>
     <string name="mobile_network_mode_error" msgid="9222056129897416074">"ネットワーク モード <xliff:g id="NETWORKMODEID">%1$d</xliff:g> は無効です。無視してください。"</string>
-    <string name="satellite_setting_title" msgid="2543034229989047673">"衛星通信メッセージ"</string>
+    <!-- no translation found for satellite_setting (4650503806634496443) -->
+    <skip />
     <string name="satellite_setting_enabled_summary" msgid="3554127722727530845">"衛星通信によりテキスト メッセージを送受信します。お客様のアカウントに含まれています。"</string>
     <string name="satellite_setting_disabled_summary" msgid="8428393986403708690">"衛星通信によりテキスト メッセージを送受信します。お客様のアカウントではご利用になれません。"</string>
     <string name="satellite_setting_summary_without_entitlement" msgid="5284998840770992554">"衛星通信によりテキスト メッセージを送受信します。詳細については携帯通信会社にお問い合わせください。"</string>
     <string name="keywords_satellite_setting" msgid="613553612424945946">"衛星通信メッセージ, 衛星接続"</string>
-    <string name="category_name_about_satellite_messaging" msgid="4978095955643523120">"<xliff:g id="SUBJECT">%1$s</xliff:g> について"</string>
-    <string name="title_about_satellite_setting" msgid="3563087940535642558">"対象の <xliff:g id="CARRIER_NAME">%1$s</xliff:g> アカウントを使用して、衛星経由でテキスト メッセージを送受信できます"</string>
+    <!-- no translation found for category_name_about_satellite_connectivity (3971142716898783631) -->
+    <skip />
+    <!-- no translation found for description_about_satellite_setting (5539359064330584941) -->
+    <skip />
     <string name="category_title_your_satellite_plan" msgid="8169426217950247126">"あなたの <xliff:g id="CARRIER_NAME">%1$s</xliff:g> アカウント"</string>
     <string name="title_have_satellite_plan" msgid="2048372355699977947">"衛星通信メッセージはお客様のアカウントに含まれています"</string>
     <string name="title_no_satellite_plan" msgid="2876056203035197505">"衛星通信メッセージはお客様のアカウントに含まれていません"</string>
@@ -5076,10 +5066,12 @@
     <string name="summary_supported_service_for_manual_type" msgid="2147958362763058271">"スマートフォンが接続されたら、緊急サービスを含め誰にでもテキスト メッセージを送信できます。"</string>
     <string name="satellite_setting_summary_more_information" msgid="276312352285564071">"衛星通信は接続が遅い場合があり、利用できるエリアも制限されます。天候やなんらかの構造物が接続に影響することがあります。衛星通信による通話はご利用いただけませんが、緊急通報はつながる場合があります。\n\n変更内容がアカウントの [設定] に反映されるまでに時間がかかることがあります。詳細については、<xliff:g id="CARRIER_NAME">%1$s</xliff:g> にお問い合わせください。"</string>
     <string name="satellite_setting_summary_more_information_no_emergency_messaging" msgid="2090170250936862158">"衛星通信は接続が遅い場合があり、利用できるエリアも制限されます。天候やなんらかの構造物が接続に影響することがあります。衛星通信による通話はご利用いただけませんが、緊急通報はつながる場合があります。緊急サービスへのテキスト送信は、地域によっては利用できない場合があります。\n\n変更内容がアカウントの [設定] に反映されるまでに時間がかかることがあります。詳細については、<xliff:g id="CARRIER_NAME">%1$s</xliff:g> にお問い合わせください。"</string>
-    <string name="more_about_satellite_messaging" msgid="1039277943532711584">"<xliff:g id="SUBJECT">%1$s</xliff:g> の詳細"</string>
+    <!-- no translation found for more_about_satellite_messaging (5358981088419444073) -->
+    <skip />
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"<xliff:g id="FUNCTION">%1$s</xliff:g> を有効にできません"</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"<xliff:g id="FUNCTION">%1$s</xliff:g> を有効にするには、衛星通信との接続を解除してください"</string>
-    <string name="category_title_satellite_connectivity" msgid="7540022356863917632">"衛星接続"</string>
+    <!-- no translation found for category_title_satellite_connectivity (7740500012311192133) -->
+    <skip />
     <string name="title_satellite_setting_connectivity" msgid="488626710934668313">"衛星接続"</string>
     <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"衛星接続"</string>
     <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"衛星通信メッセージ"</string>
@@ -5280,10 +5272,8 @@
     <string name="enable_16k_app_compat_details" msgid="5382562613011853452">"16 KB デバイスに切り替わると、アプリは停止され、ページサイズ互換モードで実行されます。"</string>
     <string name="stop_app_dlg_title" msgid="3153921585174512587">"アプリを停止しますか？"</string>
     <string name="stop_app_dlg_text" msgid="4373849065005318901">"ページサイズ互換の設定を適用するために、アプリを停止します。"</string>
-    <!-- no translation found for error_pending_updates (7196832772265874760) -->
-    <skip />
-    <!-- no translation found for error_ota_failed (4762376085470989653) -->
-    <skip />
+    <string name="error_pending_updates" msgid="7196832772265874760">"カーネルを更新できませんでした。保留中のアップデートがあれば確認してインストールしてください。"</string>
+    <string name="error_ota_failed" msgid="4762376085470989653">"カーネルを更新できませんでした。OTA の適用中にエラーが発生しました。"</string>
     <string name="bug_report_handler_title" msgid="713439959113250125">"バグレポート ハンドラ"</string>
     <string name="bug_report_handler_picker_footer_text" msgid="4935758328366585673">"デバイスでバグレポートのショートカットを処理するアプリを選択します。"</string>
     <string name="personal_profile_app_subtext" msgid="5586060806997067676">"個人用"</string>
@@ -5432,10 +5422,8 @@
     <string name="smart_forwarding_input_mdn_dialog_title" msgid="7542216086697868415">"電話番号を入力"</string>
     <string name="smart_forwarding_missing_mdn_text" msgid="2907314684242542226">"電話番号が指定されていません。"</string>
     <string name="smart_forwarding_missing_alert_dialog_text" msgid="7870419247987316112">"OK"</string>
-    <!-- no translation found for enable_2g_title (5657132300321750181) -->
-    <skip />
-    <!-- no translation found for enable_2g_summary (6317192326100541563) -->
-    <skip />
+    <string name="enable_2g_title" msgid="5657132300321750181">"2G ネットワークの保護"</string>
+    <string name="enable_2g_summary" msgid="6317192326100541563">"安全性の低い 2G ネットワークは使用されません。一部の地域では接続が制限される場合があります。緊急通報は常に利用可能です。"</string>
     <string name="enable_2g_summary_disabled_carrier" msgid="8141118453219482762">"<xliff:g id="CARRIER_NAME_2G">%1$s</xliff:g> を利用するには、2G が必要です"</string>
     <string name="require_cellular_encryption_title" msgid="6087085031703089235">"暗号化されたネットワークのみを許可する"</string>
     <string name="require_cellular_encryption_summary" msgid="6090569065420631457">"セキュリティは強化されますが、場所によってモバイル ネットワーク接続が制限される可能性があります。緊急通報は常に許可されます。"</string>
@@ -5762,15 +5750,20 @@
     <string name="supervision_change_pin_preference_title" msgid="2288584039438231801">"PIN を変更する"</string>
     <string name="supervision_add_forgot_pin_preference_title" msgid="8939945404255748516">"PIN を忘れた場合"</string>
     <string name="supervision_web_content_filters_title" msgid="3653430162065686156">"ウェブ コンテンツ フィルタ"</string>
-    <!-- no translation found for supervision_web_content_filters_browser_title (979037187423952892) -->
+    <string name="supervision_web_content_filters_browser_title" msgid="979037187423952892">"Google Chrome とウェブ"</string>
+    <string name="supervision_web_content_filters_browser_block_explicit_sites_title" msgid="7923982596891796260">"露骨な表現を含むサイトを可能な限りブロックする"</string>
+    <string name="supervision_web_content_filters_browser_block_explicit_sites_summary" msgid="1477766506765966613">"フィルタを使っても完全に除外できるわけではありませんが、露骨な性表現を含むサイトが表示されにくくなります"</string>
+    <string name="supervision_web_content_filters_browser_allow_all_sites_title" msgid="3909739592466381845">"すべてのサイトを許可"</string>
+    <!-- no translation found for supervision_web_content_filters_search_title (726335318009305564) -->
     <skip />
-    <!-- no translation found for supervision_web_content_filters_browser_block_explicit_sites_title (7923982596891796260) -->
+    <!-- no translation found for supervision_web_content_filters_search_filter_on_title (4855846261141136285) -->
     <skip />
-    <!-- no translation found for supervision_web_content_filters_browser_block_explicit_sites_summary (1477766506765966613) -->
+    <!-- no translation found for supervision_web_content_filters_search_filter_on_summary (1162258144140293269) -->
     <skip />
-    <!-- no translation found for supervision_web_content_filters_browser_allow_all_sites_title (3909739592466381845) -->
+    <!-- no translation found for supervision_web_content_filters_search_filter_off_title (6049461395304222346) -->
     <skip />
-    <!-- no translation found for supervision_full_screen_pin_verification_title (78513043528333399) -->
+    <!-- no translation found for supervision_web_content_filters_search_filter_off_summary (3834238970190924433) -->
     <skip />
+    <string name="supervision_full_screen_pin_verification_title" msgid="78513043528333399">"管理機能用の PIN を入力"</string>
     <string name="accessibility_illustration_content_description" msgid="557376174860150903">"<xliff:g id="FEATURE">%1$s</xliff:g> のアニメーション"</string>
 </resources>

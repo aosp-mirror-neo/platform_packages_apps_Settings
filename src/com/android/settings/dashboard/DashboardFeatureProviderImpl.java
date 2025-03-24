@@ -507,10 +507,6 @@ public class DashboardFeatureProviderImpl implements DashboardFeatureProvider {
                     R.dimen.dashboard_tile_image_size);
             drawable.setLayerSize(0, size, size);
             return drawable;
-        } else if (TextUtils.equals(tile.getPackageName(),
-                mPackageManager.getWellbeingPackageName())) {
-            return getRoundedIcon(iconDrawable,
-                    R.color.homepage_wellbeing_foreground, R.color.homepage_wellbeing_background);
         }
 
         Pair<Integer, Integer> colors = getSchemedColors(tile);

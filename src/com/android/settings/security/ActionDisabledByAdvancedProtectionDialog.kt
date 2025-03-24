@@ -14,21 +14,23 @@
  * limitations under the License.
  */
 
-package com.android.settings.security;
+package com.android.settings.security
 
 import android.content.Intent
+import android.content.pm.PackageManager
+import android.security.advancedprotection.AdvancedProtectionManager
 import android.security.advancedprotection.AdvancedProtectionManager.EXTRA_SUPPORT_DIALOG_FEATURE
 import android.security.advancedprotection.AdvancedProtectionManager.EXTRA_SUPPORT_DIALOG_TYPE
 import android.security.advancedprotection.AdvancedProtectionManager.FEATURE_ID_DISALLOW_CELLULAR_2G
 import android.security.advancedprotection.AdvancedProtectionManager.FEATURE_ID_DISALLOW_INSTALL_UNKNOWN_SOURCES
 import android.security.advancedprotection.AdvancedProtectionManager.FEATURE_ID_DISALLOW_WEP
-import android.content.pm.PackageManager
 import android.security.advancedprotection.AdvancedProtectionManager.FEATURE_ID_ENABLE_MTE
 import android.security.advancedprotection.AdvancedProtectionManager.SUPPORT_DIALOG_TYPE_BLOCKED_INTERACTION
 import android.security.advancedprotection.AdvancedProtectionManager.SUPPORT_DIALOG_TYPE_DISABLED_SETTING
 import android.security.advancedprotection.AdvancedProtectionManager.SUPPORT_DIALOG_TYPE_UNKNOWN
 import android.util.Log
 import android.view.WindowManager
+import androidx.annotation.VisibleForTesting
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -38,7 +40,6 @@ import com.android.settingslib.spa.SpaDialogWindowTypeActivity
 import com.android.settingslib.spa.widget.dialog.AlertDialogButton
 import com.android.settingslib.spa.widget.dialog.SettingsAlertDialogContent
 import com.android.settingslib.wifi.WifiUtils.Companion.DIALOG_WINDOW_TYPE
-import android.security.advancedprotection.AdvancedProtectionManager
 
 class ActionDisabledByAdvancedProtectionDialog : SpaDialogWindowTypeActivity() {
 
@@ -85,11 +86,15 @@ class ActionDisabledByAdvancedProtectionDialog : SpaDialogWindowTypeActivity() {
         return getString(messageId)
     }
 
-    private fun getSupportButtonIfExists(): AlertDialogButton? {
+    @VisibleForTesting
+    fun getSupportButtonIfExists(): AlertDialogButton? {
         try {
-            val helpIntentUri = getString(R.string.help_url_action_disabled_by_advanced_protection)
+            val helpIntentUri = getString(
+                com.android.internal.R.string.config_help_url_action_disabled_by_advanced_protection
+            )
             val helpIntent = Intent.parseUri(helpIntentUri, Intent.URI_INTENT_SCHEME)
             if (helpIntent == null) return null
+            helpIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
             val helpActivityInfo = packageManager.resolveActivity(helpIntent, /* flags */ 0)
                 ?.activityInfo
             if (helpActivityInfo == null) return null
@@ -118,7 +123,7 @@ class ActionDisabledByAdvancedProtectionDialog : SpaDialogWindowTypeActivity() {
     }
 
     override fun getDialogWindowType(): Int? = if (intent.hasExtra(DIALOG_WINDOW_TYPE)) {
-        intent.getIntExtra(DIALOG_WINDOW_TYPE, WindowManager.LayoutParams.FIRST_APPLICATION_WINDOW)
+        intent.getIntExtra(DIALOG_WINDOW_TYPE, WindowManager.LayoutParams.TYPE_APPLICATION)
     } else null
 
     private fun getIntentFeatureId(): Int {

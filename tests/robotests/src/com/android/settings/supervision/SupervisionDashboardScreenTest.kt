@@ -65,7 +65,7 @@ class SupervisionDashboardScreenTest {
             val mainSwitchPreference =
                 fragment.findPreference<MainSwitchPreference>(SupervisionMainSwitchPreference.KEY)!!
             val childPreference =
-                fragment.findPreference<Preference>(SupervisionPinManagementScreen.KEY)!!
+                fragment.findPreference<Preference>(SupervisionWebContentFiltersScreen.KEY)!!
 
             assertThat(childPreference.isEnabled).isFalse()
 
@@ -89,7 +89,7 @@ class SupervisionDashboardScreenTest {
             val mainSwitchPreference =
                 fragment.findPreference<MainSwitchPreference>(SupervisionMainSwitchPreference.KEY)!!
             val childPreference =
-                fragment.findPreference<Preference>(SupervisionPinManagementScreen.KEY)!!
+                fragment.findPreference<Preference>(SupervisionWebContentFiltersScreen.KEY)!!
 
             assertThat(childPreference.isEnabled).isFalse()
 

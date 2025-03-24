@@ -66,7 +66,7 @@ public class BluetoothKeyMissingDialogFragment extends InstrumentedDialogFragmen
         View view = getActivity().getLayoutInflater().inflate(R.layout.bluetooth_key_missing, null);
         TextView keyMissingTitle = view.findViewById(R.id.bluetooth_key_missing_title);
         keyMissingTitle.setText(
-                getString(R.string.bluetooth_key_missing_title, mBluetoothDevice.getName()));
+                getString(R.string.bluetooth_key_missing_title, mBluetoothDevice.getAlias()));
         builder.setView(view);
         builder.setPositiveButton(getString(R.string.bluetooth_key_missing_device_settings), this);
         builder.setNegativeButton(getString(R.string.bluetooth_key_missing_close), this);

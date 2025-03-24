@@ -47,14 +47,24 @@ class SupervisionWebContentFiltersScreen : PreferenceScreenCreator {
                 R.string.supervision_web_content_filters_browser_title,
             ) +=
                 {
-                    +SupervisionBlockExplicitSitesPreference()
-                    +SupervisionAllowAllSitesPreference()
+                    val dataStore = SupervisionSafeSitesDataStore(context)
+                    +SupervisionBlockExplicitSitesPreference(dataStore)
+                    +SupervisionAllowAllSitesPreference(dataStore)
                 }
-            // TODO(b/401569571) implement the SafeSearch group.
+            +PreferenceCategory(
+                SEARCH_RADIO_BUTTON_GROUP,
+                R.string.supervision_web_content_filters_search_title,
+            ) +=
+                {
+                    val dataStore = SupervisionSafeSearchDataStore(context)
+                    +SupervisionSearchFilterOnPreference(dataStore)
+                    +SupervisionSearchFilterOffPreference(dataStore)
+                }
         }
 
     companion object {
         const val KEY = "supervision_web_content_filters"
         internal const val BROWSER_RADIO_BUTTON_GROUP = "browser_radio_button_group"
+        internal const val SEARCH_RADIO_BUTTON_GROUP = "search_radio_button_group"
     }
 }
