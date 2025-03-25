@@ -41,12 +41,9 @@
     <string name="radioInfo_data_suspended" msgid="2001254415431299603">"בהשעיה"</string>
     <string name="radioInfo_unknown" msgid="2892562356748600367">"לא ידוע"</string>
     <string name="preview_pager_content_description" msgid="3762247188224576303">"תצוגה מקדימה"</string>
-    <!-- no translation found for preview_pager_home_content_description (3961399947853424786) -->
-    <skip />
-    <!-- no translation found for preview_pager_message_content_description (3018855090807833755) -->
-    <skip />
-    <!-- no translation found for preview_pager_email_content_description (100055784235660338) -->
-    <skip />
+    <string name="preview_pager_home_content_description" msgid="3961399947853424786">"תצוגה מקדימה של מסך הבית"</string>
+    <string name="preview_pager_message_content_description" msgid="3018855090807833755">"תצוגה מקדימה של ההודעה"</string>
+    <string name="preview_pager_email_content_description" msgid="100055784235660338">"תצוגה מקדימה של האימייל"</string>
     <string name="qr_code_content_description" msgid="1852208464419291347">"‏קוד QR"</string>
     <string name="preview_pager_previous_button" msgid="607771113300838313">"התצוגה המקדימה הקודמת"</string>
     <string name="preview_pager_next_button" msgid="8700907912508927271">"התצוגה המקדימה הבאה"</string>
@@ -222,12 +219,10 @@
     <string name="desc_introduction_of_language_picker" msgid="4012265379885200083">"השפה במכשיר שלך, באפליקציות ובאתרים מוגדרת לשפה הנתמכת הראשונה ברשימת השפות שציינת כמועדפות.\n\nאפליקציות רבות גם יקבעו את אופן הצגת התאריכים, המספרים והיחידות לפי האזור של השפה המועדפת שציינת. כדי לשנות את האזור, צריך להוסיף שפה ואז לבחור את האזור המועדף."</string>
     <string name="desc_notice_of_language_picker" msgid="3449290526457925447">"כדי להגדיר ידנית את השפה של אפליקציות מסוימות, אפשר לעבור לדף \'שפות של אפליקציות\'."</string>
     <string name="desc_locale_helper_footer_general" msgid="6112153921151780303">"מידע נוסף על שפות של אפליקציות"</string>
-    <!-- no translation found for title_change_system_region (9196602029960380112) -->
-    <skip />
+    <string name="title_change_system_region" msgid="9196602029960380112">"‏לשנות את האזור ל%s?"</string>
     <string name="desc_notice_device_region_change" msgid="6702773189066944100">"‏שפת המערכת במכשיר תמשיך להיות %s"</string>
     <string name="desc_notice_device_region_change_for_preferred_language" msgid="408517366942324267">"‏%1$s תחליף %2$s בשפות המועדפות"</string>
-    <!-- no translation found for title_change_system_locale (4102991236063984803) -->
-    <skip />
+    <string name="title_change_system_locale" msgid="4102991236063984803">"‏לשנות את שפת המערכת ל%s?"</string>
     <string name="title_system_locale_addition" msgid="8218683660751479466">"‏להוסיף את %s לשפות המועדפות?"</string>
     <string name="desc_system_locale_addition" msgid="3409917362651596070">"כך אפליקציות ואתרים יכולים לדעת שזוהי השפה המועדפת עליך."</string>
     <string name="desc_notice_device_locale_settings_change" msgid="8311132485850714160">"הגדרות המכשיר והעדפות הפורמט והמידות שלך ישתנו."</string>
@@ -244,8 +239,7 @@
     <string name="search_region_hint" msgid="1748708432568237552">"חיפוש אזורים"</string>
     <string name="top_intro_region_title" msgid="2336323415395642117">"הטלפון יציג את השעה, התאריכים, הטמפרטורה ופרטים נוספים לפי האזור שייבחר."</string>
     <string name="more_language_settings_category" msgid="3669703092480725416">"עוד הגדרות שפה"</string>
-    <!-- no translation found for title_change_system_locale_region (4401478579429442695) -->
-    <skip />
+    <string name="title_change_system_locale_region" msgid="4401478579429442695">"לשנות את האזור ל<xliff:g id="SYSTEM_LANGUAGE_REGION">%1$s</xliff:g>?"</string>
     <string name="body_change_system_locale_region" msgid="9064318449821043189">"שפת המערכת במכשיר תמשיך להיות <xliff:g id="SYSTEM_LANGUAGE">%1$s</xliff:g>"</string>
     <string name="top_intro_numbering_system_title" msgid="3962000662073238392">"אפשר לבחור איך מספרים יוצגו במכשיר, באתרים ובאפליקציות"</string>
     <string name="regional_preferences_title" msgid="4304567374498629528">"העדפות פורמט ומידות"</string>
@@ -367,8 +361,7 @@
     <string name="safety_center_summary" msgid="3554867379951053869">"אבטחת אפליקציות, נעילת מכשיר, הרשאות"</string>
     <string name="security_settings_face_preference_summary" msgid="6675126437396914838">"הפנים נוספו"</string>
     <string name="security_settings_face_preference_summary_none" msgid="523320857738436024">"צריך להגדיר זיהוי פנים"</string>
-    <!-- no translation found for security_settings_face_preference_summary_none_new (1963253146734002815) -->
-    <skip />
+    <string name="security_settings_face_preference_summary_none_new" msgid="1963253146734002815">"הוספת פנים"</string>
     <string name="security_settings_face_preference_title_new" msgid="7680231874730796331">"זיהוי הפנים"</string>
     <string name="security_settings_face_profile_preference_title_new" msgid="685550153608106166">"זיהוי הפנים לפרופיל העבודה"</string>
     <string name="private_space_face_unlock_title_new" msgid="2079622608951402509">"זיהוי הפנים כדי לפתוח את המרחב הפרטי"</string>
@@ -451,8 +444,7 @@
     <string name="fingerprint_add_title" msgid="1837610443487902050">"הוספת טביעת אצבע"</string>
     <string name="security_settings_fingerprint_preference_summary" msgid="8486134175759676037">"{count,plural, =1{נוספה טביעת אצבע}one{נוספו # טביעות אצבע}two{נוספו # טביעות אצבע}other{נוספו # טביעות אצבע}}"</string>
     <string name="security_settings_fingerprint_preference_summary_none" msgid="1146977379031250790">"צריך להגדיר טביעות אצבע"</string>
-    <!-- no translation found for security_settings_fingerprint_preference_summary_none_new (510376523784190149) -->
-    <skip />
+    <string name="security_settings_fingerprint_preference_summary_none_new" msgid="510376523784190149">"הוספה של טביעת אצבע"</string>
     <string name="security_settings_fingerprint_enroll_introduction_title" msgid="7931650601996313070">"הגדרת טביעת האצבע"</string>
     <string name="security_settings_fingerprint_enroll_consent_introduction_title" msgid="2278592030102282364">"הרשאה לבטל נעילה בטביעת אצבע"</string>
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled" msgid="1911710308293783998">"שימוש בטביעת האצבע"</string>
@@ -808,8 +800,7 @@
     <string name="face_unlock_skip_face" msgid="189695556498300008">"המשך ללא פתיחה ע\"י זיהוי הפנים"</string>
     <string name="biometrics_unlock_skip_biometrics" msgid="7399882488272450182">"המשך בלי טביעת אצבע או זיהוי פנים"</string>
     <string name="unlock_set_unlock_mode_off" msgid="4632139864722236359">"ללא"</string>
-    <!-- no translation found for unlock_set_unlock_mode_off_new (865396805830816266) -->
-    <skip />
+    <string name="unlock_set_unlock_mode_off_new" msgid="865396805830816266">"הוספת קוד אימות, קו פתיחת נעילה, סיסמה או החלקה"</string>
     <string name="unlock_set_unlock_mode_none" msgid="5596049938457028214">"החלקה"</string>
     <string name="unlock_set_unlock_mode_pattern" msgid="1926480143883094896">"קו ביטול נעילה"</string>
     <string name="unlock_set_unlock_mode_pin" msgid="9028659554829888373">"קוד אימות"</string>
@@ -958,6 +949,8 @@
     <skip />
     <!-- no translation found for bluetooth_key_missing_close (6724520133374312040) -->
     <skip />
+    <!-- no translation found for bluetooth_key_missing_toast (8692796546000643569) -->
+    <skip />
     <string name="device_details_title" msgid="1155622417516195481">"פרטי המכשיר"</string>
     <string name="bluetooth_device_keyboard_settings_preference_title" msgid="3411693160917620519">"הגדרות מקלדת"</string>
     <string name="bluetooth_device_more_settings_preference_title" msgid="6034482566541746500">"הגדרות נוספות"</string>
@@ -1086,8 +1079,7 @@
     <string name="wifi_show_advanced" msgid="2969378109942071741">"אפשרויות מתקדמות"</string>
     <string name="wifi_advanced_toggle_description" msgid="7299179796727934885">"רשימה נפתחת של אפשרויות מתקדמות"</string>
     <string name="wifi_advanced_toggle_description_collapsed" msgid="3615140699129928913">"הרחבה"</string>
-    <!-- no translation found for wifi_ssid (5139273830867723030) -->
-    <skip />
+    <string name="wifi_ssid" msgid="5139273830867723030">"שם הרשת*"</string>
     <string name="wifi_ssid_hint" msgid="1940577553241083524">"‏כאן מזינים את ה-SSID"</string>
     <string name="wifi_security" msgid="9095934643631406913">"אבטחה"</string>
     <string name="wifi_hidden_network" msgid="6466834025375485596">"רשת מוסתרת"</string>
@@ -1110,12 +1102,10 @@
     <string name="wifi_eap_user_cert" msgid="3569182430929173220">"אישור משתמש"</string>
     <string name="wifi_eap_identity" msgid="3629406902174137028">"זהות"</string>
     <string name="wifi_eap_anonymous" msgid="8630332141751267000">"זהות אנונימית"</string>
-    <!-- no translation found for wifi_password (165204973532996861) -->
-    <skip />
+    <string name="wifi_password" msgid="165204973532996861">"סיסמה*"</string>
     <!-- no translation found for wifi_password_optional (6770706664834070705) -->
     <skip />
-    <!-- no translation found for wifi_password_invalid (8884500804472828356) -->
-    <skip />
+    <string name="wifi_password_invalid" msgid="8884500804472828356">"הסיסמה לא תקינה"</string>
     <string name="wifi_show_password" msgid="6865993988238157923">"הצגת הסיסמה"</string>
     <string name="wifi_ap_choose_2G" msgid="1436802195991542016">"‏תדר ‎2.4 GHz"</string>
     <string name="wifi_ap_prefer_5G" msgid="2520628479818369902">"‏עדיפות לתדר 5.0 GHz"</string>
@@ -1181,8 +1171,7 @@
     <string name="wifi_scan_always_turn_on_message_unknown" msgid="4903345360745717385">"‏לשיפור של דיוק המיקום ולמטרות אחרות, אפליקציה לא ידועה רוצה להפעיל את סריקת הרשתות, גם כאשר ה-Wi-Fi כבוי.\n\nהאם להתיר זאת עבור כל האפליקציות שרוצות לסרוק?"</string>
     <string name="wifi_scan_always_confirm_allow" msgid="4154200627800959777">"כן, זה בסדר"</string>
     <string name="wifi_scan_always_confirm_deny" msgid="6997087934558839256">"דחייה"</string>
-    <!-- no translation found for wifi_field_required (6312381745503042588) -->
-    <skip />
+    <string name="wifi_field_required" msgid="6312381745503042588">"*חובה"</string>
     <string name="no_internet_access_text" msgid="3611993143350310936">"אין לרשת הזו חיבור לאינטרנט. האם להישאר מחובר?"</string>
     <string name="partial_connectivity_text" msgid="8874614799723694554">"ייתכן שחלק מהאפליקציות והשירותים לא יפעלו עקב קישוריות מוגבלת. להשתמש בכל זאת?"</string>
     <string name="no_internet_access_remember" msgid="5113610157731269258">"אל תשאל שוב בשביל הרשת הזו"</string>
@@ -1401,6 +1390,8 @@
     <string name="night_display_not_currently_on" msgid="6600205753103093827">"תאורת הלילה לא פועלת כרגע"</string>
     <string name="twilight_mode_location_off_dialog_message" msgid="4559150893687124801">"מיקום המכשיר נדרש כדי לקבוע את זמני השקיעה והזריחה באזור שלך."</string>
     <string name="twilight_mode_launch_location" msgid="7799112373591153956">"הגדרות מיקום"</string>
+    <!-- no translation found for twilight_mode_pending_location (6829434234071614405) -->
+    <skip />
     <string name="dark_ui_activation_on_manual" msgid="1541006734577325234">"להפעלה עכשיו"</string>
     <string name="dark_ui_activation_off_manual" msgid="2395333709291250065">"לכיבוי עכשיו"</string>
     <string name="dark_ui_activation_on_auto" msgid="4824339634784765049">"הפעלה עד הזריחה"</string>
@@ -1613,20 +1604,13 @@
     <string name="battery_level_title" msgid="1371765298786083448">"טעינת סוללה:"</string>
     <string name="communal_settings_title" msgid="2845678473945902115">"שיתופי"</string>
     <string name="communal_settings_summary" msgid="4923914136953940317">"הגדרות שיתופיות"</string>
-    <!-- no translation found for hub_mode_category_title (5290081595872103974) -->
-    <skip />
-    <!-- no translation found for widgets_on_lockscreen_title (6979558402208585885) -->
-    <skip />
-    <!-- no translation found for when_to_auto_show_hubmode_title (2307148913387518369) -->
-    <skip />
-    <!-- no translation found for when_to_show_hubmode_never (976644329215156021) -->
-    <skip />
-    <!-- no translation found for when_to_show_hubmode_charging (1874391105066805128) -->
-    <skip />
-    <!-- no translation found for when_to_show_hubmode_charging_and_upright (6293947459712755814) -->
-    <skip />
-    <!-- no translation found for when_to_show_hubmode_docked (7107631545009933891) -->
-    <skip />
+    <string name="hub_mode_category_title" msgid="5290081595872103974">"‏מצב Hub"</string>
+    <string name="widgets_on_lockscreen_title" msgid="6979558402208585885">"ווידג\'טים במסך הנעילה"</string>
+    <string name="when_to_auto_show_hubmode_title" msgid="2307148913387518369">"מתי להציג באופן אוטומטי"</string>
+    <string name="when_to_show_hubmode_never" msgid="976644329215156021">"אף פעם"</string>
+    <string name="when_to_show_hubmode_charging" msgid="1874391105066805128">"בזמן טעינה"</string>
+    <string name="when_to_show_hubmode_charging_and_upright" msgid="6293947459712755814">"בזמן טעינה במצב אנכי"</string>
+    <string name="when_to_show_hubmode_docked" msgid="7107631545009933891">"בזמן עגינה"</string>
     <string name="apn_settings" msgid="4295467389400441299">"‏פריטי APN"</string>
     <string name="apn_edit" msgid="2003683641840248741">"עריכת נקודת גישה"</string>
     <string name="apn_add" msgid="9069613192201630934">"‏הוספת נקודת גישה (AP)"</string>
@@ -1734,16 +1718,11 @@
     <string name="tether_preference_summary_off" msgid="6266799346319794630">"מושבת"</string>
     <string name="usb_tethering_button_text" msgid="7364633823180913777">"‏שיתוף אינטרנט ב-USB"</string>
     <string name="bluetooth_tether_checkbox_text" msgid="6108398414967813545">"‏שיתוף אינטרנט ב-Bluetooth"</string>
-    <!-- no translation found for ethernet_ip_address (4218340787862242573) -->
-    <skip />
-    <!-- no translation found for ethernet_mac_address_title (3235879195237611007) -->
-    <skip />
-    <!-- no translation found for tx_ethernet_speed (4785035505065551012) -->
-    <skip />
-    <!-- no translation found for rx_ethernet_speed (6642000569214969711) -->
-    <skip />
-    <!-- no translation found for ethernet_network_usage (3795965384177426780) -->
-    <skip />
+    <string name="ethernet_ip_address" msgid="4218340787862242573">"‏כתובת IP"</string>
+    <string name="ethernet_mac_address_title" msgid="3235879195237611007">"‏כתובת MAC"</string>
+    <string name="tx_ethernet_speed" msgid="4785035505065551012">"מהירות קישור ההעברה"</string>
+    <string name="rx_ethernet_speed" msgid="6642000569214969711">"מהירות הקישור של קבלת הנתונים"</string>
+    <string name="ethernet_network_usage" msgid="3795965384177426780">"השימוש ברשת"</string>
     <string name="ethernet_tether_checkbox_text" msgid="959743110824197356">"שיתוף אינטרנט דרך אתרנט"</string>
     <string name="tethering_footer_info" msgid="6824352505979800594">"‏בעזרת נקודה לשיתוף אינטרנט (Hotspot) ושיתוף אינטרנט בין מכשירים (tethering), אפשר לתת למכשירים אחרים להתחבר לאינטרנט דרך חבילת הגלישה. יש גם אפליקציות ליצירת נקודת אינטרנט ולשיתוף תוכן בין מכשירים שנמצאים בקרבת מקום."</string>
     <string name="tethering_footer_info_sta_ap_concurrency" msgid="2079039077487477676">"‏נקודה לשיתוף אינטרנט (Hotspot) ושיתוף אינטרנט בין מכשירים (tethering) מאפשרים למכשירים אחרים להתחבר לאינטרנט דרך חיבור ה-Wi-Fi או חבילת הגלישה שלך. יש גם אפליקציות שמאפשרות ליצור נקודה לשיתוף אינטרנט ולשתף תכנים עם מכשירים קרובים."</string>
@@ -2150,7 +2129,8 @@
     <string name="trackpad_bottom_right_tap_title" msgid="230337692279220068">"לחיצה ימנית למטה"</string>
     <string name="trackpad_bottom_right_tap_summary" msgid="4467915480282133447">"לוחצים על הפינה הימנית התחתונה של לוח המגע לאפשרויות נוספות"</string>
     <string name="trackpad_pointer_speed" msgid="5672221910698079303">"מהירות הסמן"</string>
-    <string name="three_finger_tap_preference_title" msgid="3779242412749283386">"התאמה אישית של לחיצה עם 3 אצבעות"</string>
+    <!-- no translation found for three_finger_tap_preference_title (1836080810837854140) -->
+    <skip />
     <string name="touchpad_acceleration_title" msgid="176627555191021888">"רמת ההאצה בלוח המגע"</string>
     <string name="touchpad_acceleration_summary" msgid="8057075483967535793">"תנועה מהירה יותר על לוח המגע תזיז את הסמן רחוק יותר"</string>
     <string name="pointer_fill_style" msgid="8794616790175016092">"הצבע של סמן העכבר"</string>
@@ -2167,7 +2147,8 @@
     <string name="trackpad_touch_gesture" msgid="8641725062131922497">"מידע על התנועות בלוח המגע"</string>
     <string name="keywords_touchpad" msgid="8159846254066666032">"משטח-מגע, משטח מגע, עכבר, סמן, גלילה, החלקה, לחיצה ימנית, לחיצה, מצביע"</string>
     <string name="keywords_trackpad_bottom_right_tap" msgid="1285062446073929305">"לחיצה ימנית, לחיצה"</string>
-    <string name="three_finger_tap_middle_click" msgid="1759914275939765929">"כפתור ללחיצה אמצעית בעכבר"</string>
+    <!-- no translation found for three_finger_tap_middle_click (7898931632908866867) -->
+    <skip />
     <string name="three_finger_tap_launch_gemini" msgid="4030401656711588982">"‏הפעלת Assistant"</string>
     <string name="three_finger_tap_go_home" msgid="6526301745535089812">"חזרה לדף הבית"</string>
     <string name="three_finger_tap_go_back" msgid="2898205524575684271">"חזרה"</string>
@@ -5089,9 +5070,23 @@
     <string name="title_supported_service_for_manual_type" msgid="6009284624466359864">"צריך לפעול לפי השלבים כדי להתחבר ללוויין"</string>
     <string name="summary_supported_service" msgid="4320535903444834786">"אפשר לשלוח הודעות טקסט לכל אחד, כולל לשירותי החירום. הטלפון יתחבר מחדש לרשת סלולרית כשהיא תהיה זמינה."</string>
     <string name="summary_supported_service_for_manual_type" msgid="2147958362763058271">"אחרי שהטלפון מתחבר, אפשר לשלוח הודעות טקסט לכל אחד, כולל לשירותי החירום."</string>
-    <string name="satellite_setting_summary_more_information" msgid="276312352285564071">"החיבור ללוויין עשוי להיות איטי יותר, וזמין רק בחלק מהאזורים. מזג אוויר ומבנים מסוימים עשויים להשפיע על החיבור. אי אפשר להתקשר באמצעות לוויין. ייתכן שתהיה אפשרות לבצע שיחות חירום.\n\nיכול להיות שיעבור קצת זמן עד שהשינויים בחשבון יופיעו בהגדרות. אפשר לפנות אל <xliff:g id="CARRIER_NAME">%1$s</xliff:g> לקבלת פרטים."</string>
-    <string name="satellite_setting_summary_more_information_no_emergency_messaging" msgid="2090170250936862158">"החיבור ללוויין עשוי להיות איטי יותר, וזמין רק בחלק מהאזורים. מזג אוויר ומבנים מסוימים עשויים להשפיע על החיבור. אי אפשר להתקשר באמצעות לוויין. ייתכן שתהיה אפשרות לבצע שיחות חירום. ייתכן שבאזורים מסוימים לא ניתן לשלוח הודעות טקסט לשירותי חירום.\n\nיכול להיות שיעבור קצת זמן עד שהשינויים בחשבון יופיעו בהגדרות. אפשר לפנות אל <xliff:g id="CARRIER_NAME">%1$s</xliff:g> לקבלת פרטים."</string>
-    <!-- no translation found for more_about_satellite_messaging (5358981088419444073) -->
+    <!-- no translation found for satellite_footer_content_section_0 (4169483813004415556) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_1 (7925931577373229601) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_2 (7699185178461362541) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_3 (4652426135622555607) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_4 (2294227482962815751) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_5 (3053256489735265540) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_6 (1448633393918612418) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_7 (5524773673918954918) -->
+    <skip />
+    <!-- no translation found for more_about_satellite_connectivity (9110502891919936054) -->
     <skip />
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"אי אפשר להפעיל <xliff:g id="FUNCTION">%1$s</xliff:g>"</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"כדי להפעיל <xliff:g id="FUNCTION">%1$s</xliff:g>, צריך להשבית קודם את חיבור הלוויין"</string>
@@ -5187,7 +5182,8 @@
     <string name="switch_sim_dialog_no_switch_text" msgid="7053939850026876088">"‏כדי להשתמש בחבילת גלישה, תכונות של שיחות והודעות SMS מאוחר יותר, יש לעבור אל הגדרות הרשת"</string>
     <string name="sim_card_label" msgid="6263064316075963775">"‏כרטיס SIM"</string>
     <string name="erase_sim_dialog_title" msgid="4742077437653028326">"‏למחוק את ה-eSIM הזה?"</string>
-    <string name="erase_sim_dialog_text" msgid="1406141218170595272">"הפעולה הזו מסירה את השירות של <xliff:g id="CARRIER_NAME_A">%1$s</xliff:g> מהמכשיר, אבל היא לא מבטלת את חבילת הגלישה של <xliff:g id="CARRIER_NAME_B">%1$s</xliff:g>."</string>
+    <!-- no translation found for erase_sim_dialog_text (3982216582200709197) -->
+    <skip />
     <string name="erase_sim_confirm_button" msgid="8309115684335320541">"מחיקה"</string>
     <string name="erasing_sim" msgid="4237180547590463930">"‏מתבצעת מחיקה של eSIM…"</string>
     <string name="erase_sim_fail_title" msgid="1445700500168357303">"‏לא ניתן למחוק את ה-eSIM"</string>
@@ -5297,10 +5293,8 @@
     <string name="enable_16k_app_compat_details" msgid="5382562613011853452">"‏במכשיר עם גודל דף של 16KB, פעילות האפליקציה תיעצר והיא תפעל שוב במצב תאימות."</string>
     <string name="stop_app_dlg_title" msgid="3153921585174512587">"לעצור את האפליקציה?"</string>
     <string name="stop_app_dlg_text" msgid="4373849065005318901">"פעילות האפליקציה תופסק כדי להחיל את הגדרת התאימות לגודל הדף."</string>
-    <!-- no translation found for error_pending_updates (7196832772265874760) -->
-    <skip />
-    <!-- no translation found for error_ota_failed (4762376085470989653) -->
-    <skip />
+    <string name="error_pending_updates" msgid="7196832772265874760">"עדכון הליבה נכשל. צריך לבדוק אם יש עדכונים שעדיין לא הותקנו ולהתקין אותם."</string>
+    <string name="error_ota_failed" msgid="4762376085470989653">"‏עדכון הליבה נכשל. הייתה שגיאה במהלך הפעלת OTA."</string>
     <string name="bug_report_handler_title" msgid="713439959113250125">"טיפול בדוחות על באגים"</string>
     <string name="bug_report_handler_picker_footer_text" msgid="4935758328366585673">"הגדרה זו קובעת איזו אפליקציה מטפלת במקש הקיצור של הדוח על הבאג במכשיר."</string>
     <string name="personal_profile_app_subtext" msgid="5586060806997067676">"אישי"</string>
@@ -5450,10 +5444,8 @@
     <string name="smart_forwarding_input_mdn_dialog_title" msgid="7542216086697868415">"הזנת מספר הטלפון"</string>
     <string name="smart_forwarding_missing_mdn_text" msgid="2907314684242542226">"חסר מספר טלפון."</string>
     <string name="smart_forwarding_missing_alert_dialog_text" msgid="7870419247987316112">"אישור"</string>
-    <!-- no translation found for enable_2g_title (5657132300321750181) -->
-    <skip />
-    <!-- no translation found for enable_2g_summary (6317192326100541563) -->
-    <skip />
+    <string name="enable_2g_title" msgid="5657132300321750181">"‏הגנה ברשתות 2G"</string>
+    <string name="enable_2g_summary" msgid="6317192326100541563">"‏התכונה מונעת חיבור לרשתות 2G שפחות מאובטחות. זה עלול להגביל את הקישוריות במקומות מסוימים. תמיד אפשר להוציא שיחות חירום."</string>
     <string name="enable_2g_summary_disabled_carrier" msgid="8141118453219482762">"‏לצורך זמינות ב-<xliff:g id="CARRIER_NAME_2G">%1$s</xliff:g> נדרשת רשת 2G"</string>
     <string name="require_cellular_encryption_title" msgid="6087085031703089235">"מתן הרשאה לרשתות מוצפנות בלבד"</string>
     <string name="require_cellular_encryption_summary" msgid="6090569065420631457">"ההגדרה הזו מאובטחת יותר אבל היא עלולה להוביל לבעיות קליטה במקומות מסוימים. תמיד אפשר לבצע שיחת חירום."</string>
@@ -5780,14 +5772,10 @@
     <string name="supervision_change_pin_preference_title" msgid="2288584039438231801">"החלפת קוד האימות"</string>
     <string name="supervision_add_forgot_pin_preference_title" msgid="8939945404255748516">"שכחתי את קוד האימות"</string>
     <string name="supervision_web_content_filters_title" msgid="3653430162065686156">"מסנני תוכן מהאינטרנט"</string>
-    <!-- no translation found for supervision_web_content_filters_browser_title (979037187423952892) -->
-    <skip />
-    <!-- no translation found for supervision_web_content_filters_browser_block_explicit_sites_title (7923982596891796260) -->
-    <skip />
-    <!-- no translation found for supervision_web_content_filters_browser_block_explicit_sites_summary (1477766506765966613) -->
-    <skip />
-    <!-- no translation found for supervision_web_content_filters_browser_allow_all_sites_title (3909739592466381845) -->
-    <skip />
+    <string name="supervision_web_content_filters_browser_title" msgid="979037187423952892">"‏‫Google Chrome ואתרי אינטרנט"</string>
+    <string name="supervision_web_content_filters_browser_block_explicit_sites_title" msgid="7923982596891796260">"אפשר לנסות לחסום אתרים שמכילים תוכן בוטה"</string>
+    <string name="supervision_web_content_filters_browser_block_explicit_sites_summary" msgid="1477766506765966613">"אין מסנן מושלם, אבל ההגדרה הזו עוזרת להסתיר אתרים שמכילים תוכן מיני בוטה"</string>
+    <string name="supervision_web_content_filters_browser_allow_all_sites_title" msgid="3909739592466381845">"אישור גישה לכל האתרים"</string>
     <!-- no translation found for supervision_web_content_filters_search_title (726335318009305564) -->
     <skip />
     <!-- no translation found for supervision_web_content_filters_search_filter_on_title (4855846261141136285) -->
@@ -5798,7 +5786,6 @@
     <skip />
     <!-- no translation found for supervision_web_content_filters_search_filter_off_summary (3834238970190924433) -->
     <skip />
-    <!-- no translation found for supervision_full_screen_pin_verification_title (78513043528333399) -->
-    <skip />
+    <string name="supervision_full_screen_pin_verification_title" msgid="78513043528333399">"צריך להזין את קוד האימות של הפיקוח"</string>
     <string name="accessibility_illustration_content_description" msgid="557376174860150903">"אנימציה של <xliff:g id="FEATURE">%1$s</xliff:g>"</string>
 </resources>

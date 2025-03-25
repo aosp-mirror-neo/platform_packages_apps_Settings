@@ -949,6 +949,8 @@
     <skip />
     <!-- no translation found for bluetooth_key_missing_close (6724520133374312040) -->
     <skip />
+    <!-- no translation found for bluetooth_key_missing_toast (8692796546000643569) -->
+    <skip />
     <string name="device_details_title" msgid="1155622417516195481">"ਡੀਵਾਈਸ ਦੇ ਵੇਰਵੇ"</string>
     <string name="bluetooth_device_keyboard_settings_preference_title" msgid="3411693160917620519">"ਕੀ-ਬੋਰਡ ਸੈਟਿੰਗਾਂ"</string>
     <string name="bluetooth_device_more_settings_preference_title" msgid="6034482566541746500">"ਹੋਰ ਸੈਟਿੰਗਾਂ"</string>
@@ -1388,6 +1390,8 @@
     <string name="night_display_not_currently_on" msgid="6600205753103093827">"ਨਾਈਟ ਲਾਈਟ ਫਿਲਹਾਲ ਚਾਲੂ ਨਹੀਂ"</string>
     <string name="twilight_mode_location_off_dialog_message" msgid="4559150893687124801">"ਸੂਰਜ ਚੜ੍ਹਨ ਅਤੇ ਛਿਪਣ ਦੇ ਸਮੇਂ ਦਾ ਪਤਾ ਲਗਾਉਣ ਲਈ ਡੀਵਾਈਸ ਟਿਕਾਣੇ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ।"</string>
     <string name="twilight_mode_launch_location" msgid="7799112373591153956">"ਟਿਕਾਣਾ ਸੈਟਿੰਗਾਂ"</string>
+    <!-- no translation found for twilight_mode_pending_location (6829434234071614405) -->
+    <skip />
     <string name="dark_ui_activation_on_manual" msgid="1541006734577325234">"ਹੁਣੇ ਚਾਲੂ ਕਰੋ"</string>
     <string name="dark_ui_activation_off_manual" msgid="2395333709291250065">"ਹੁਣੇ ਬੰਦ ਕਰੋ"</string>
     <string name="dark_ui_activation_on_auto" msgid="4824339634784765049">"ਸੂਰਜ ਚੜ੍ਹਨ ਤੱਕ ਚਾਲੂ ਕਰੋ"</string>
@@ -2125,7 +2129,8 @@
     <string name="trackpad_bottom_right_tap_title" msgid="230337692279220068">"ਹੇਠਲਾ-ਸੱਜਾ ਕਲਿੱਕ"</string>
     <string name="trackpad_bottom_right_tap_summary" msgid="4467915480282133447">"ਹੋਰ ਵਿਕਲਪਾਂ ਲਈ ਟੱਚਪੈਡ ਦੇ ਹੇਠਲੇ ਸੱਜੇ ਕੋਨੇ \'ਤੇ ਕਲਿੱਕ ਕਰੋ"</string>
     <string name="trackpad_pointer_speed" msgid="5672221910698079303">"ਕਰਸਰ ਸਪੀਡ"</string>
-    <string name="three_finger_tap_preference_title" msgid="3779242412749283386">"3-ਉਂਗਲਾਂ ਵਾਲੇ ਟੈਪ ਨੂੰ ਵਿਉਂਤਬੱਧ ਕਰੋ"</string>
+    <!-- no translation found for three_finger_tap_preference_title (1836080810837854140) -->
+    <skip />
     <string name="touchpad_acceleration_title" msgid="176627555191021888">"ਟੱਚਪੈਡ ਐਕਸੈੱਲਰੇਸ਼ਨ"</string>
     <string name="touchpad_acceleration_summary" msgid="8057075483967535793">"ਤੁਹਾਡੇ ਟੱਚਪੈਡ \'ਤੇ ਜ਼ਿਆਦਾ ਤੇਜ਼ ਹਲਚਲ ਕਰਸਰ ਨੂੰ ਜ਼ਿਆਦਾ ਦੂਰ ਲੈ ਜਾਵੇਗੀ"</string>
     <string name="pointer_fill_style" msgid="8794616790175016092">"ਪੁਆਇੰਟਰ ਦਾ ਰੰਗ"</string>
@@ -2142,7 +2147,8 @@
     <string name="trackpad_touch_gesture" msgid="8641725062131922497">"ਟੱਚਪੈਡ ਇਸ਼ਾਰਿਆਂ ਬਾਰੇ ਜਾਣੋ"</string>
     <string name="keywords_touchpad" msgid="8159846254066666032">"ਟਰੈਕਪੈਡ, ਟਰੈਕ ਪੈਡ, ਮਾਊਸ, ਕਰਸਰ, ਸਕ੍ਰੋਲ ਕਰੋ, ਸਵਾਈਪ ਕਰੋ, ਸੱਜਾ ਕਲਿੱਕ, ਕਲਿੱਕ ਕਰੋ, ਪੁਆਇੰਟ"</string>
     <string name="keywords_trackpad_bottom_right_tap" msgid="1285062446073929305">"ਸੱਜਾ ਕਲਿੱਕ, ਟੈਪ ਕਰੋ"</string>
-    <string name="three_finger_tap_middle_click" msgid="1759914275939765929">"ਮਾਊਸ ਦਾ ਵਿਚਕਾਰਲਾ ਕਲਿੱਕ ਬਟਨ"</string>
+    <!-- no translation found for three_finger_tap_middle_click (7898931632908866867) -->
+    <skip />
     <string name="three_finger_tap_launch_gemini" msgid="4030401656711588982">"Assistant ਨੂੰ ਲਾਂਚ ਕਰੋ"</string>
     <string name="three_finger_tap_go_home" msgid="6526301745535089812">"ਹੋਮ \'ਤੇ ਜਾਓ"</string>
     <string name="three_finger_tap_go_back" msgid="2898205524575684271">"ਵਾਪਸ ਜਾਓ"</string>
@@ -5064,9 +5070,23 @@
     <string name="title_supported_service_for_manual_type" msgid="6009284624466359864">"ਸੈਟਾਲਾਈਟ ਨਾਲ ਕਨੈਕਟ ਕਰਨ ਲਈ ਪੜਾਵਾਂ ਦੀ ਪਾਲਣਾ ਕਰੋ"</string>
     <string name="summary_supported_service" msgid="4320535903444834786">"ਤੁਸੀਂ ਐਮਰਜੈਂਸੀ ਸੇਵਾਵਾਂ ਸਮੇਤ ਕਿਸੇ ਨੂੰ ਵੀ ਲਿਖਤ ਸੁਨੇਹਾ ਭੇਜ ਸਕਦੇ ਹੋ। ਉਪਲਬਧ ਹੋਣ \'ਤੇ ਤੁਹਾਡਾ ਫ਼ੋਨ ਮੋਬਾਈਲ ਨੈੱਟਵਰਕ ਨਾਲ ਮੁੜ-ਕਨੈਕਟ ਹੋ ਜਾਵੇਗਾ।"</string>
     <string name="summary_supported_service_for_manual_type" msgid="2147958362763058271">"ਤੁਹਾਡਾ ਫ਼ੋਨ ਕਨੈਕਟ ਹੋ ਜਾਣ ਤੋਂ ਬਾਅਦ, ਤੁਸੀਂ ਐਮਰਜੈਂਸੀ ਸੇਵਾਵਾਂ ਸਮੇਤ ਕਿਸੇ ਨੂੰ ਵੀ ਲਿਖਤ ਸੁਨੇਹਾ ਭੇਜ ਸਕਦੇ ਹੋ।"</string>
-    <string name="satellite_setting_summary_more_information" msgid="276312352285564071">"ਸੈਟੇਲਾਈਟ ਕਨੈਕਸ਼ਨ ਹੌਲੀ ਹੋ ਸਕਦਾ ਹੈ ਅਤੇ ਸਿਰਫ਼ ਕੁਝ ਖੇਤਰਾਂ ਵਿੱਚ ਹੀ ਉਪਲਬਧ ਹੈ। ਮੌਸਮ ਅਤੇ ਕੁਝ ਢਾਂਚੇ ਕਨੈਕਸ਼ਨ ਨੂੰ ਪ੍ਰਭਾਵਿਤ ਕਰ ਸਕਦੇ ਹਨ। ਸੈਟੇਲਾਈਟ ਰਾਹੀਂ ਕਾਲ ਕਰਨ ਦੀ ਸੁਵਿਧਾ ਉਪਲਬਧ ਨਹੀਂ ਹੈ। ਐਮਰਜੈਂਸੀ ਕਾਲਾਂ ਹਾਲੇ ਵੀ ਕਨੈਕਟ ਹੋ ਸਕਦੀਆਂ ਹਨ।\n\nਖਾਤਾ ਤਬਦੀਲੀਆਂ ਨੂੰ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਦਿਖਾਈ ਦੇਣ ਵਿੱਚ ਕੁਝ ਸਮਾਂ ਲੱਗ ਸਕਦਾ ਹੈ। ਵੇਰਵਿਆਂ ਲਈ <xliff:g id="CARRIER_NAME">%1$s</xliff:g> ਨੂੰ ਸੰਪਰਕ ਕਰੋ।"</string>
-    <string name="satellite_setting_summary_more_information_no_emergency_messaging" msgid="2090170250936862158">"ਸੈਟੇਲਾਈਟ ਕਨੈਕਸ਼ਨ ਹੌਲੀ ਹੋ ਸਕਦਾ ਹੈ ਅਤੇ ਸਿਰਫ਼ ਕੁਝ ਖੇਤਰਾਂ ਵਿੱਚ ਹੀ ਉਪਲਬਧ ਹੈ। ਮੌਸਮ ਅਤੇ ਕੁਝ ਢਾਂਚੇ ਕਨੈਕਸ਼ਨ ਨੂੰ ਪ੍ਰਭਾਵਿਤ ਕਰ ਸਕਦੇ ਹਨ। ਸੈਟੇਲਾਈਟ ਰਾਹੀਂ ਕਾਲ ਕਰਨ ਦੀ ਸੁਵਿਧਾ ਉਪਲਬਧ ਨਹੀਂ ਹੈ। ਐਮਰਜੈਂਸੀ ਕਾਲਾਂ ਹਾਲੇ ਵੀ ਕਨੈਕਟ ਹੋ ਸਕਦੀਆਂ ਹਨ। ਹੋ ਸਕਦਾ ਹੈ ਕਿ ਐਮਰਜੈਂਸੀ ਸੇਵਾਵਾਂ ਨੂੰ ਲਿਖਤ ਸੁਨੇਹੇ ਭੇਜਣ ਦੀ ਸੇਵਾ ਸਾਰੇ ਖੇਤਰਾਂ ਵਿੱਚ ਉਪਲਬਧ ਨਾ ਹੋਵੇ।\n\nਖਾਤੇ ਵਿੱਚ ਕੀਤੀਆਂ ਤਬਦੀਲੀਆਂ ਨੂੰ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਦਿਖਾਈ ਦੇਣ ਵਿੱਚ ਕੁਝ ਸਮਾਂ ਲੱਗ ਸਕਦਾ ਹੈ। ਵੇਰਵਿਆਂ ਲਈ <xliff:g id="CARRIER_NAME">%1$s</xliff:g> ਨੂੰ ਸੰਪਰਕ ਕਰੋ।"</string>
-    <!-- no translation found for more_about_satellite_messaging (5358981088419444073) -->
+    <!-- no translation found for satellite_footer_content_section_0 (4169483813004415556) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_1 (7925931577373229601) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_2 (7699185178461362541) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_3 (4652426135622555607) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_4 (2294227482962815751) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_5 (3053256489735265540) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_6 (1448633393918612418) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_7 (5524773673918954918) -->
+    <skip />
+    <!-- no translation found for more_about_satellite_connectivity (9110502891919936054) -->
     <skip />
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"<xliff:g id="FUNCTION">%1$s</xliff:g> ਨੂੰ ਚਾਲੂ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ"</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"<xliff:g id="FUNCTION">%1$s</xliff:g> ਨੂੰ ਚਾਲੂ ਕਰਨ ਲਈ, ਪਹਿਲਾਂ ਸੈਟੇਲਾਈਟ ਕਨੈਕਸ਼ਨ ਨੂੰ ਬੰਦ ਕਰੋ"</string>
@@ -5162,7 +5182,8 @@
     <string name="switch_sim_dialog_no_switch_text" msgid="7053939850026876088">"ਮੋਬਾਈਲ ਡਾਟਾ, ਕਾਲ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਅਤੇ SMS ਬਾਅਦ ਵਿੱਚ ਵਰਤਣ ਲਈ, ਆਪਣੀਆਂ ਨੈੱਟਵਰਕ ਸੈਟਿੰਗਾਂ \'ਤੇ ਜਾਓ"</string>
     <string name="sim_card_label" msgid="6263064316075963775">"ਸਿਮ"</string>
     <string name="erase_sim_dialog_title" msgid="4742077437653028326">"ਕੀ ਇਸ ਈ-ਸਿਮ ਨੂੰ ਮਿਟਾਉਣਾ ਹੈ?"</string>
-    <string name="erase_sim_dialog_text" msgid="1406141218170595272">"ਅਜਿਹਾ ਕਰਨ ਨਾਲ ਇਸ ਡੀਵਾਈਸ ਤੋਂ <xliff:g id="CARRIER_NAME_A">%1$s</xliff:g> ਸੇਵਾ ਨੂੰ ਹਟਾ ਦਿੱਤਾ ਜਾਵੇਗਾ, ਪਰ ਤੁਹਾਡੇ <xliff:g id="CARRIER_NAME_B">%1$s</xliff:g> ਪਲਾਨ ਨੂੰ ਰੱਦ ਨਹੀਂ ਕੀਤਾ ਜਾਵੇਗਾ।"</string>
+    <!-- no translation found for erase_sim_dialog_text (3982216582200709197) -->
+    <skip />
     <string name="erase_sim_confirm_button" msgid="8309115684335320541">"ਮਿਟਾਓ"</string>
     <string name="erasing_sim" msgid="4237180547590463930">"ਈ-ਸਿਮ ਨੂੰ ਮਿਟਾਇਆ ਜਾ ਰਿਹਾ ਹੈ…"</string>
     <string name="erase_sim_fail_title" msgid="1445700500168357303">"ਈ-ਸਿਮ ਨੂੰ ਮਿਟਾਇਆ ਨਹੀਂ ਜਾ ਸਕਦਾ"</string>

@@ -264,10 +264,8 @@
     <string name="title_regional_pref_footer" msgid="7450438024324794380">"‏اگر کوئی ایپ علاقائی ترجیحات کو سپورٹ نہیں کرتی ہے تو ایپ اپنی ڈیفالٹ locale کی ترتیبات استعمال کرے گی۔"</string>
     <string name="desc_regional_pref_footer_learn_more" msgid="4401708653329230081">"زبان کی ترجیحات کے بارے میں مزید جانیں۔"</string>
     <string name="metric_measurement_system" msgid="7489725697268321541">"میٹرک"</string>
-    <!-- no translation found for us_measurement_system (8406695347890345490) -->
-    <skip />
-    <!-- no translation found for uk_measurement_system (1814065008707689505) -->
-    <skip />
+    <string name="us_measurement_system" msgid="8406695347890345490">"امریکہ"</string>
+    <string name="uk_measurement_system" msgid="1814065008707689505">"UK"</string>
     <string name="category_title_terms_of_address" msgid="4309422700380895278">"اضافی ترجیحات"</string>
     <string name="terms_of_address_title" msgid="7338630812197476808">"منتخب کریں کہ آپ کو کیسے مخاطب کیا جائے"</string>
     <string name="terms_of_address_summary" msgid="7802443422612600620">"آپ کا آلہ آپ کو مخاطب کیے جانے کے طریقے کو ذاتی نوعیت کا بنا سکتا ہے"</string>
@@ -939,15 +937,13 @@
     <string name="bluetooth_scanning_on_info_message" msgid="786648535600075223">"بلوٹوتھ آن ہونے پر آپ کا آلہ دیگر قریبی بلوٹوتھ آلات کے ساتھ مواصلت کر سکتا ہے۔\n\nآلے کے تجربے کو بہتر بنانے کے لیے، ایپس اور سروسز بلوٹوتھ کے آف ہونے پر بھی کسی بھی وقت قریبی آلات کو اسکین کر سکتی ہیں۔ مثال کے طور، مقام پر مبنی خصوصیات اور سروسز کو بہتر بنانے کے لیے اس کا استعمال کیا جا سکتا ہے۔ آپ بلوٹوتھ اسکیننگ کی ترتیبات میں اسے تبدیل کر سکتے ہیں۔"</string>
     <string name="bluetooth_scanning_on_info_message_auto_on_available" msgid="7792443293031247638">"بلوٹوتھ آن ہونے پر، آپ کا آلہ دیگر قریبی بلوٹوتھ آلات کے ساتھ مواصلت کر سکتا ہے۔ فوری اشتراک اور \'میرا آلہ ڈھونڈیں\' جیسی خصوصیات بلوٹوتھ کا استعمال کرتی ہیں۔\n\nبلوٹوتھ آف ہونے پر بھی ایپس اور سروسز کسی بھی وقت قریبی آلات کو اسکین کر سکتی ہیں۔ مثال کے طور پر، مقام پر مبنی خصوصیات اور سروسز کو بہتر بنانے کے لیے اس کا استعمال کیا جا سکتا ہے۔ آپ اسے بلوٹوتھ اسکیننگ کی ترتیبات میں جا کر تبدیل کر سکتے ہیں۔"</string>
     <string name="bluetooth_scan_change" msgid="1744636222637390367">"تبدیل کریں"</string>
-    <!-- no translation found for bluetooth_key_missing_title (8462010102528132965) -->
-    <skip />
-    <!-- no translation found for bluetooth_key_missing_message (3188093580372443815) -->
-    <skip />
+    <string name="bluetooth_key_missing_title" msgid="8462010102528132965">"‫<xliff:g id="DEVICE_NAME">%1$s</xliff:g> منسلک نہیں ہو سکا"</string>
+    <string name="bluetooth_key_missing_message" msgid="3188093580372443815">"مزید تفصیلات کے لیے، آلے کی ترتیبات پر جائیں"</string>
     <string name="bluetooth_key_missing_forget" msgid="4692006517823001013">"آلہ بھول جائیں"</string>
     <string name="bluetooth_key_missing_cancel" msgid="2482416446357804371">"منسوخ کریں"</string>
-    <!-- no translation found for bluetooth_key_missing_device_settings (5512091368141961890) -->
-    <skip />
-    <!-- no translation found for bluetooth_key_missing_close (6724520133374312040) -->
+    <string name="bluetooth_key_missing_device_settings" msgid="5512091368141961890">"آلے کی ترتیبات"</string>
+    <string name="bluetooth_key_missing_close" msgid="6724520133374312040">"بند کریں"</string>
+    <!-- no translation found for bluetooth_key_missing_toast (8692796546000643569) -->
     <skip />
     <string name="device_details_title" msgid="1155622417516195481">"آلہ کی تفصیلات"</string>
     <string name="bluetooth_device_keyboard_settings_preference_title" msgid="3411693160917620519">"کی بورڈ کی ترتیبات"</string>
@@ -963,8 +959,7 @@
     <string name="device_details_leaudio_toggle_summary" msgid="7684848254433230809">"تجرباتی۔ اس سے آڈیو کی کوالٹی بہتر ہوتی ہے۔"</string>
     <string name="device_details_battery" msgid="5466987755790847884">"بیٹری"</string>
     <string name="device_details_battery_charging" msgid="3464969346075775143">"بیٹری چارج ہو رہی ہے"</string>
-    <!-- no translation found for device_details_key_missing_title (3568401701538114387) -->
-    <skip />
+    <string name="device_details_key_missing_title" msgid="3568401701538114387">"‫<xliff:g id="DEVICE_NAME">%1$s</xliff:g> کو ری سٹارٹ کرنے کی کوشش کریں۔ اگر یہ کام نہیں کرتا ہے تو آلہ کو بھول جائیں۔ اپنی سیکیورٹی کے لیے، اس کا صرف اس وقت دوبارہ جوڑا بنائیں جب آپ عوامی جگہ پر نہ ہوں۔\n\nاگر یہ آلہ قریب نہیں ہے تو آپ کو کچھ کرنے کی ضرورت نہیں ہے۔"</string>
     <string name="bluetooth_unpair_dialog_forget_confirm_button" msgid="9184489424930549015">"آلہ بھول جائیں"</string>
     <string name="bluetooth_companion_app_remove_association_confirm_button" msgid="76323555527926915">"ایپ کو غیر منسلک کریں"</string>
     <string name="device_details_more_settings" msgid="950302792331611271">"مزید ترتیبات"</string>
@@ -1077,8 +1072,7 @@
     <string name="wifi_show_advanced" msgid="2969378109942071741">"جدید ترین اختیارات"</string>
     <string name="wifi_advanced_toggle_description" msgid="7299179796727934885">"ڈراپ ڈاؤن فہرست کے اعلی درجے کے اختیارات"</string>
     <string name="wifi_advanced_toggle_description_collapsed" msgid="3615140699129928913">"پھیلائیں"</string>
-    <!-- no translation found for wifi_ssid (5139273830867723030) -->
-    <skip />
+    <string name="wifi_ssid" msgid="5139273830867723030">"نیٹ ورک کا نام*"</string>
     <string name="wifi_ssid_hint" msgid="1940577553241083524">"‏SSID درج کریں"</string>
     <string name="wifi_security" msgid="9095934643631406913">"سیکیورٹی"</string>
     <string name="wifi_hidden_network" msgid="6466834025375485596">"پوشیدہ نیٹ ورک"</string>
@@ -1101,12 +1095,9 @@
     <string name="wifi_eap_user_cert" msgid="3569182430929173220">"صارف کا سرٹیفیکیٹ"</string>
     <string name="wifi_eap_identity" msgid="3629406902174137028">"شناخت"</string>
     <string name="wifi_eap_anonymous" msgid="8630332141751267000">"گمنام شناخت"</string>
-    <!-- no translation found for wifi_password (165204973532996861) -->
-    <skip />
-    <!-- no translation found for wifi_password_optional (6770706664834070705) -->
-    <skip />
-    <!-- no translation found for wifi_password_invalid (8884500804472828356) -->
-    <skip />
+    <string name="wifi_password" msgid="165204973532996861">"پاس ورڈ*"</string>
+    <string name="wifi_password_optional" msgid="6770706664834070705">"پاس ورڈ (اختیاری)"</string>
+    <string name="wifi_password_invalid" msgid="8884500804472828356">"پاس ورڈ غلط ہے"</string>
     <string name="wifi_show_password" msgid="6865993988238157923">"پاس ورڈ دکھائیں"</string>
     <string name="wifi_ap_choose_2G" msgid="1436802195991542016">"‏2.4 GHz بینڈ"</string>
     <string name="wifi_ap_prefer_5G" msgid="2520628479818369902">"‏5.0 GHz بینڈ کو ترجیح دی جاتی ہے"</string>
@@ -1172,8 +1163,7 @@
     <string name="wifi_scan_always_turn_on_message_unknown" msgid="4903345360745717385">"‏مقام کی درستگی کو بہتر بنانے اور دیگر مقاصد کے لیے، ایک نامعلوم ایپ Wi-Fi بند ہونے پر بھی نیٹ ورک اسکیننگ کو آن کرنا چاہتی ہے۔\n\nاسکین کرنے کی خواہاں سبھی ایپس کے لیے اس کی اجازت دیں؟"</string>
     <string name="wifi_scan_always_confirm_allow" msgid="4154200627800959777">"اجازت دیں"</string>
     <string name="wifi_scan_always_confirm_deny" msgid="6997087934558839256">"مسترد کریں"</string>
-    <!-- no translation found for wifi_field_required (6312381745503042588) -->
-    <skip />
+    <string name="wifi_field_required" msgid="6312381745503042588">"‫*درکار ہے"</string>
     <string name="no_internet_access_text" msgid="3611993143350310936">"اس نیٹ ورک کو انٹرنیٹ تک رسائی نہیں ہے۔ منسلک رہیں؟"</string>
     <string name="partial_connectivity_text" msgid="8874614799723694554">"ہو سکتا ہے محدود کنیکٹوٹی کی وجہ سے کچھ ایپس اور سروسز کام نہ کریں۔ بہر حال استعمال کریں؟"</string>
     <string name="no_internet_access_remember" msgid="5113610157731269258">"اس نیٹ ورک کیلئے دوبارہ نہ پوچھیں"</string>
@@ -1392,6 +1382,8 @@
     <string name="night_display_not_currently_on" msgid="6600205753103093827">"فی الوقت نائٹ لائٹ آن نہیں ہے"</string>
     <string name="twilight_mode_location_off_dialog_message" msgid="4559150893687124801">"آپ کے غروب آفتاب اور طلوع آفتاب کے اوقات کا تعین کرنے کے ليے آلہ کا مقام درکار ہے۔"</string>
     <string name="twilight_mode_launch_location" msgid="7799112373591153956">"مقام کی ترتیبات"</string>
+    <!-- no translation found for twilight_mode_pending_location (6829434234071614405) -->
+    <skip />
     <string name="dark_ui_activation_on_manual" msgid="1541006734577325234">"ابھی آن کریں"</string>
     <string name="dark_ui_activation_off_manual" msgid="2395333709291250065">"ابھی آف کریں"</string>
     <string name="dark_ui_activation_on_auto" msgid="4824339634784765049">"طلوع آفتاب تک آن کریں"</string>
@@ -2129,7 +2121,8 @@
     <string name="trackpad_bottom_right_tap_title" msgid="230337692279220068">"نیچے دایاں کلک کرنا"</string>
     <string name="trackpad_bottom_right_tap_summary" msgid="4467915480282133447">"مزید اختیارات کے لیے ٹچ پیڈ کے نیچے بائیں کونے پر کلک کریں"</string>
     <string name="trackpad_pointer_speed" msgid="5672221910698079303">"کرسر کی رفتار"</string>
-    <string name="three_finger_tap_preference_title" msgid="3779242412749283386">"‫3 انگلیوں سے تھپتھپانے کو حسب ضرورت بنائیں"</string>
+    <!-- no translation found for three_finger_tap_preference_title (1836080810837854140) -->
+    <skip />
     <string name="touchpad_acceleration_title" msgid="176627555191021888">"ٹچ پیڈ کا ایکسیلریشن"</string>
     <string name="touchpad_acceleration_summary" msgid="8057075483967535793">"آپ کے ٹچ پیڈ پر تیز رفتار حرکتیں کرسر کو دور لے جائیں گی"</string>
     <string name="pointer_fill_style" msgid="8794616790175016092">"پوائنٹر کا رنگ"</string>
@@ -2146,7 +2139,8 @@
     <string name="trackpad_touch_gesture" msgid="8641725062131922497">"ٹچ پیڈ کے اشاروں کو جانیں"</string>
     <string name="keywords_touchpad" msgid="8159846254066666032">"ٹریک پیڈ، ٹریک پیڈ، ماؤس، کرسر، اسکرول، سوائپ، دائیں کلک، کلک، پوائنٹر"</string>
     <string name="keywords_trackpad_bottom_right_tap" msgid="1285062446073929305">"دائیں کلک کریں، تھپتھپائیں"</string>
-    <string name="three_finger_tap_middle_click" msgid="1759914275939765929">"ماؤس مڈل کلک والا بٹن"</string>
+    <!-- no translation found for three_finger_tap_middle_click (7898931632908866867) -->
+    <skip />
     <string name="three_finger_tap_launch_gemini" msgid="4030401656711588982">"اسسٹنٹ لانچ کریں"</string>
     <string name="three_finger_tap_go_home" msgid="6526301745535089812">"ہوم پر جائیں"</string>
     <string name="three_finger_tap_go_back" msgid="2898205524575684271">"واپس جائیں"</string>
@@ -4421,8 +4415,7 @@
     <string name="disconnected" msgid="3469373726996129247">"منسلک نہیں ہے"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"منسلک نہیں ہے"</string>
     <string name="apps_summary" msgid="4007416751775414252">"<xliff:g id="COUNT">%1$d</xliff:g> ایپس انسٹال ہیں"</string>
-    <!-- no translation found for storage_toplevel_summary (6708203706751754934) -->
-    <skip />
+    <string name="storage_toplevel_summary" msgid="6708203706751754934">"‫<xliff:g id="PERCENTAGE">%1$s</xliff:g> استعمال شدہ <xliff:g id="FREE_SPACE">%2$s</xliff:g> خالی"</string>
     <string name="display_dashboard_summary" msgid="1599453894989339454">"گہری تھیم، فونٹ سائز، چمکیلاپن"</string>
     <string name="memory_summary" msgid="8221954450951651735">"<xliff:g id="TOTAL_MEMORY">%2$s</xliff:g> میں سے اوسط <xliff:g id="USED_MEMORY">%1$s</xliff:g> میموری استعمال ہوئی"</string>
     <string name="users_summary" msgid="8473589474976307510">"بطور <xliff:g id="USER_NAME">%1$s</xliff:g> سائن ان ہے"</string>
@@ -4445,11 +4438,11 @@
     <string name="admin_profile_owner_user_message" msgid="4929926887231544950">"آپ کا منتظم اس صارف سے وابستہ ایپس اور ڈیٹا، بشمول ترتیبات، اجازتیں، کارپوریٹ رسائی، نیٹ ورک کی سرگرمی اور آلہ کے مقام کی معلومات مانیٹر اور منظم کر سکتا ہے۔"</string>
     <string name="admin_device_owner_message" msgid="5503131744126520590">"آپ کا منتظم اس آلہ سے وابستہ ایپس اور ڈیٹا، بشمول ترتیبات، اجازتیں، کارپوریٹ رسائی، نیٹ ورک کی سرگرمی اور آلہ کے مقام کی معلومات مانیٹر اور منظم کر سکتا ہے۔"</string>
     <string name="admin_financed_message" msgid="1156197630834947884">"آپ کے آلے کا منتظم اس آلے سے وابستہ ڈیٹا تک رسائی، ایپس کا نظم اور اس آلے کی ترتیبات کو تبدیل کر سکتا ہے۔"</string>
-    <string name="disabled_by_advanced_protection_title" msgid="9051476417559262469">"اعلی تحفظ کے ذریعے محدود"</string>
+    <string name="disabled_by_advanced_protection_title" msgid="9051476417559262469">"اعلی تحفظ کی وجہ سے ممنوع"</string>
     <string name="disabled_by_advanced_protection_setting_is_on_message" msgid="4242986779932956593">"آپ کی سیکیورٹی کے لیے، اعلیٰ تحفظ کے لیے اس ترتیب کو آن رکھنے کی ضرورت ہے"</string>
     <string name="disabled_by_advanced_protection_setting_is_off_message" msgid="7777487013672230696">"آپ کی سیکیورٹی کے لیے، اعلی تحفظ کے لیے اس ترتیب کو بند رکھنے کی ضرورت ہے"</string>
     <string name="disabled_by_advanced_protection_action_message" msgid="7164789633582857150">"آپ کی سکیورٹی کے لیے، اعلی تحفظ اس ایکشن کو روک دیتا ہے"</string>
-    <string name="disabled_by_advanced_protection_wep_action_message" msgid="239574547298386495">"‏یہ نیٹ ورک WEP استعمال کرتا ہے۔ یہ ایک پرانا مرموز کاری کا طریقہ ہے جو آپ کے ڈیٹا کو خطرے میں ڈال سکتا ہے۔ ‫WEP کنکشنز اعلی تحفظ کے ذریعے بلاک کر دیے گئے ہیں۔"</string>
+    <string name="disabled_by_advanced_protection_wep_action_message" msgid="239574547298386495">"‏یہ نیٹ ورک WEP استعمال کرتا ہے۔ یہ ایک پرانا مرموز کاری کا طریقہ ہے جو آپ کے ڈیٹا کو خطرے میں ڈال سکتا ہے۔ ‫WEP کنکشنز کو اعلی تحفظ بلاک کر دیتا ہے۔"</string>
     <string name="disabled_by_advanced_protection_help_button_title" msgid="6539346613660731777">"ترتیبات"</string>
     <string name="condition_turn_off" msgid="402707350778441939">"آف کریں"</string>
     <string name="condition_turn_on" msgid="3911077299444314791">"آن کریں"</string>
@@ -5045,16 +5038,13 @@
     <string name="roaming_alert_title" msgid="9052791521868787985">"ڈیٹا رومنگ کی اجازت دیں؟"</string>
     <string name="roaming_check_price_warning" msgid="5876977438036791361">"اپنے نیٹ ورک فراہم کنندہ سے قیمت معلوم کریں۔"</string>
     <string name="mobile_network_mode_error" msgid="9222056129897416074">"غلط نیٹ ورک موڈ <xliff:g id="NETWORKMODEID">%1$d</xliff:g>۔ نظر انداز کریں۔"</string>
-    <!-- no translation found for satellite_setting (4650503806634496443) -->
-    <skip />
+    <string name="satellite_setting" msgid="4650503806634496443">"سیٹلائٹ کنیکٹوٹی"</string>
     <string name="satellite_setting_enabled_summary" msgid="3554127722727530845">"سیٹلائٹ کے ذریعے ٹیکسٹ پیغامات بھیجیں اور موصول کریں۔ آپ کے اکاؤنٹ میں شامل ہے۔"</string>
     <string name="satellite_setting_disabled_summary" msgid="8428393986403708690">"سیٹلائٹ کے ذریعے ٹیکسٹ پیغامات بھیجیں اور موصول کریں۔ آپ کے اکاؤنٹ میں شامل نہیں ہے۔"</string>
     <string name="satellite_setting_summary_without_entitlement" msgid="5284998840770992554">"سیٹلائٹ کے ذریعے ٹیکسٹ پیغامات بھیجیں اور موصول کریں۔ تفاصیل کے لیے اپنے کیریئر سے رابطہ کریں۔"</string>
     <string name="keywords_satellite_setting" msgid="613553612424945946">"سیٹلائٹ پیغام رسانی، سیٹلائٹ کنیکٹیوٹی"</string>
-    <!-- no translation found for category_name_about_satellite_connectivity (3971142716898783631) -->
-    <skip />
-    <!-- no translation found for description_about_satellite_setting (5539359064330584941) -->
-    <skip />
+    <string name="category_name_about_satellite_connectivity" msgid="3971142716898783631">"سیٹلائٹ کنیکٹوٹی کے بارے میں"</string>
+    <string name="description_about_satellite_setting" msgid="5539359064330584941">"آپ ٹیکسٹ پیغامات بھیج اور موصول کر سکتے ہیں اور اہل <xliff:g id="CARRIER_NAME">%1$s</xliff:g> اکاؤنٹ کے ساتھ سیٹلائٹ کے ذریعے کچھ ایپس استعمال کر سکتے ہیں"</string>
     <string name="category_title_your_satellite_plan" msgid="8169426217950247126">"آپ کا <xliff:g id="CARRIER_NAME">%1$s</xliff:g> اکاؤنٹ"</string>
     <string name="title_have_satellite_plan" msgid="2048372355699977947">"سیٹلائٹ پیغام رسانی آپ کے اکاؤنٹ کے ساتھ شامل ہے"</string>
     <string name="title_no_satellite_plan" msgid="2876056203035197505">"سیٹلائٹ پیغام رسانی آپ کے اکاؤنٹ میں شامل نہیں ہے"</string>
@@ -5068,14 +5058,27 @@
     <string name="title_supported_service_for_manual_type" msgid="6009284624466359864">"سیٹلائٹ سے منسلک کرنے کے لیے اقدامات پر عمل کریں"</string>
     <string name="summary_supported_service" msgid="4320535903444834786">"آپ ایمرجنسی سروسز سمیت کسی کو بھی ٹیکسٹ پیغام بھیج سکتے ہیں۔ دستیاب ہونے پر آپ کا فون موبائل نیٹ ورک سے دوبارہ منسلک ہو جائے گا۔"</string>
     <string name="summary_supported_service_for_manual_type" msgid="2147958362763058271">"آپ کا فون منسلک ہونے کے بعد، آپ ایمرجنسی سروسز سمیت کسی کو بھی ٹیکسٹ پیغام بھیج سکتے ہیں۔"</string>
-    <string name="satellite_setting_summary_more_information" msgid="276312352285564071">"سیٹیلائٹ کنکشن سست ہو سکتا ہے اور ممکن ہے کہ کچھ ہی علاقوں میں دستیاب ہو۔ موسم اور کچھ ساختیں کنکشن کو متاثر کر سکتی ہیں۔ سیٹلائٹ کالنگ دستیاب نہیں ہے۔ ایمرجنسی کالز اب بھی منسلک ہو سکتی ہیں۔\n\nاکاؤنٹ کی تبدیلیوں کو ترتیبات میں ظاہر ہونے میں کچھ وقت لگ سکتا ہے۔ تفصیلات کے لیے <xliff:g id="CARRIER_NAME">%1$s</xliff:g> سے رابطہ کریں۔"</string>
-    <string name="satellite_setting_summary_more_information_no_emergency_messaging" msgid="2090170250936862158">"سیٹیلائٹ کنکشن سست ہو سکتا ہے اور ممکن ہے کہ کچھ ہی علاقوں میں دستیاب ہو۔ موسم اور کچھ ساختیں کنکشن کو متاثر کر سکتی ہیں۔ سیٹلائٹ کالنگ دستیاب نہیں ہے۔ ایمرجنسی کالز اب بھی منسلک ہو سکتی ہیں۔ ہو سکتا ہے کہ ایمرجنسی سروسز کے ذریعے ٹیکسٹ پیغام بھیجنا تمام علاقوں میں دستیاب نہ ہو۔\n\nاکاؤنٹ کی تبدیلیوں کو ترتیبات میں ظاہر ہونے میں کچھ وقت لگ سکتا ہے۔ تفصیلات کے لیے <xliff:g id="CARRIER_NAME">%1$s</xliff:g> سے رابطہ کریں۔"</string>
-    <!-- no translation found for more_about_satellite_messaging (5358981088419444073) -->
+    <!-- no translation found for satellite_footer_content_section_0 (4169483813004415556) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_1 (7925931577373229601) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_2 (7699185178461362541) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_3 (4652426135622555607) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_4 (2294227482962815751) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_5 (3053256489735265540) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_6 (1448633393918612418) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_7 (5524773673918954918) -->
+    <skip />
+    <!-- no translation found for more_about_satellite_connectivity (9110502891919936054) -->
     <skip />
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"<xliff:g id="FUNCTION">%1$s</xliff:g> آن نہیں ہو سکتا"</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"<xliff:g id="FUNCTION">%1$s</xliff:g> آن کرنے کے لیے، پہلے سیٹلائٹ کنکشن ختم کریں"</string>
-    <!-- no translation found for category_title_satellite_connectivity (7740500012311192133) -->
-    <skip />
+    <string name="category_title_satellite_connectivity" msgid="7740500012311192133">"سیٹلائٹ"</string>
     <string name="title_satellite_setting_connectivity" msgid="488626710934668313">"سیٹلائٹ کنیکٹوٹی"</string>
     <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"سیٹلائٹ کنیکٹوٹی"</string>
     <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"سیٹلائٹ پیغام رسانی"</string>
@@ -5166,7 +5169,8 @@
     <string name="switch_sim_dialog_no_switch_text" msgid="7053939850026876088">"‏موبائل ڈیٹا، کال کی خصوصیات اور SMS کو بعد میں استعمال کرنے کے لیے اپنے نیٹ ورک کی ترتیبات پر جائیں"</string>
     <string name="sim_card_label" msgid="6263064316075963775">"SIM"</string>
     <string name="erase_sim_dialog_title" msgid="4742077437653028326">"‏اس eSIM کو مٹائیں؟"</string>
-    <string name="erase_sim_dialog_text" msgid="1406141218170595272">"اس سے <xliff:g id="CARRIER_NAME_A">%1$s</xliff:g> سروس اس آلہ سے ہٹ جاتی ہے، لیکن آپ کا <xliff:g id="CARRIER_NAME_B">%1$s</xliff:g> پلان منسوخ نہیں ہوگا۔"</string>
+    <!-- no translation found for erase_sim_dialog_text (3982216582200709197) -->
+    <skip />
     <string name="erase_sim_confirm_button" msgid="8309115684335320541">"مٹائیں"</string>
     <string name="erasing_sim" msgid="4237180547590463930">"‏eSIM مٹایا جا رہا ہے…"</string>
     <string name="erase_sim_fail_title" msgid="1445700500168357303">"‏eSIM مٹایا نہیں جا سکا"</string>
@@ -5426,10 +5430,8 @@
     <string name="smart_forwarding_input_mdn_dialog_title" msgid="7542216086697868415">"فون نمبر درج کریں"</string>
     <string name="smart_forwarding_missing_mdn_text" msgid="2907314684242542226">"فون نمبر موجود نہیں ہے۔"</string>
     <string name="smart_forwarding_missing_alert_dialog_text" msgid="7870419247987316112">"ٹھیک ہے"</string>
-    <!-- no translation found for enable_2g_title (5657132300321750181) -->
-    <skip />
-    <!-- no translation found for enable_2g_summary (6317192326100541563) -->
-    <skip />
+    <string name="enable_2g_title" msgid="5657132300321750181">"‏‫2G نیٹ ورک کی کمزوریوں سے تحفظ"</string>
+    <string name="enable_2g_summary" msgid="6317192326100541563">"‏‫2G نیٹ ورک سے گریز کرتا ہے، جو کم محفوظ ہے۔ اس کی وجہ سے کچھ مقامات پر کنیکٹوٹی محدود ہو سکتی ہے۔ ایمرجنسی کالنگ کی ہمیشہ اجازت ہوتی ہے۔"</string>
     <string name="enable_2g_summary_disabled_carrier" msgid="8141118453219482762">"‏<xliff:g id="CARRIER_NAME_2G">%1$s</xliff:g> کو دستیاب ہونے کے لیے 2G درکار ہے"</string>
     <string name="require_cellular_encryption_title" msgid="6087085031703089235">"صرف مرموز کردہ نیٹ ورکس کی اجازت دیں"</string>
     <string name="require_cellular_encryption_summary" msgid="6090569065420631457">"یہ زیادہ محفوظ ہے لیکن کچھ مقامات پر آپ کے موبائل نیٹ ورک کنکشن کو محدود کر سکتا ہے۔ ایمرجنسی کالنگ ہمیشہ اجازت یافتہ ہے۔"</string>
@@ -5760,16 +5762,11 @@
     <string name="supervision_web_content_filters_browser_block_explicit_sites_title" msgid="7923982596891796260">"فُحش سائٹس کو مسدود کرنے کی کوشش کریں"</string>
     <string name="supervision_web_content_filters_browser_block_explicit_sites_summary" msgid="1477766506765966613">"کوئی فلٹر کامل نہیں ہے لیکن اس سے جنسی طور پر فُحش سائٹس کو چھپانے میں مدد ملنی چاہیے۔"</string>
     <string name="supervision_web_content_filters_browser_allow_all_sites_title" msgid="3909739592466381845">"سبھی سائٹس کو اجازت دیں"</string>
-    <!-- no translation found for supervision_web_content_filters_search_title (726335318009305564) -->
-    <skip />
-    <!-- no translation found for supervision_web_content_filters_search_filter_on_title (4855846261141136285) -->
-    <skip />
-    <!-- no translation found for supervision_web_content_filters_search_filter_on_summary (1162258144140293269) -->
-    <skip />
-    <!-- no translation found for supervision_web_content_filters_search_filter_off_title (6049461395304222346) -->
-    <skip />
-    <!-- no translation found for supervision_web_content_filters_search_filter_off_summary (3834238970190924433) -->
-    <skip />
+    <string name="supervision_web_content_filters_search_title" msgid="726335318009305564">"‏‫Google تلاش"</string>
+    <string name="supervision_web_content_filters_search_filter_on_title" msgid="4855846261141136285">"‏‫SafeSearch فلٹرنگ آن ہے"</string>
+    <string name="supervision_web_content_filters_search_filter_on_summary" msgid="1162258144140293269">"اس آلے پر تلاش کے نتئج سے فُحش تصاویر، ٹیکسٹ اور لنکس کو فلٹر کرنے میں مدد کرتا ہے"</string>
+    <string name="supervision_web_content_filters_search_filter_off_title" msgid="6049461395304222346">"‏SafeSearch فلٹرنگ آف ہے"</string>
+    <string name="supervision_web_content_filters_search_filter_off_summary" msgid="3834238970190924433">"اکاؤنٹ کی ترتیبات اب بھی فُحش نتائج | ناموزوں نتائج کو فلٹر یا دھندلا کر سکتی ہیں"</string>
     <string name="supervision_full_screen_pin_verification_title" msgid="78513043528333399">"‏نگرانی کا PIN درج کریں"</string>
     <string name="accessibility_illustration_content_description" msgid="557376174860150903">"‫<xliff:g id="FEATURE">%1$s</xliff:g> اینیمیشن"</string>
 </resources>

@@ -170,7 +170,7 @@
     <string name="date_and_time" msgid="1788358029823431692">"Data e hora"</string>
     <string name="proxy_settings_title" msgid="4201866858226087066">"Proxy"</string>
     <string name="proxy_clear_text" msgid="6529658759984031149">"Borrar"</string>
-    <string name="proxy_port_label" msgid="6698001018215165848">"Porto do proxy (optional)"</string>
+    <string name="proxy_port_label" msgid="6698001018215165848">"Porto do proxy (opcional)"</string>
     <string name="proxy_exclusionlist_label" msgid="2598613986784917542">"Omitir proxy para"</string>
     <string name="proxy_defaultView_text" msgid="6795150505379688451">"Restablecer configuración predeterminada"</string>
     <string name="proxy_action_text" msgid="1103328484441449542">"Feito"</string>
@@ -949,6 +949,8 @@
     <skip />
     <!-- no translation found for bluetooth_key_missing_close (6724520133374312040) -->
     <skip />
+    <!-- no translation found for bluetooth_key_missing_toast (8692796546000643569) -->
+    <skip />
     <string name="device_details_title" msgid="1155622417516195481">"Datos do dispositivo"</string>
     <string name="bluetooth_device_keyboard_settings_preference_title" msgid="3411693160917620519">"Configuración do teclado"</string>
     <string name="bluetooth_device_more_settings_preference_title" msgid="6034482566541746500">"Máis opcións de configuración"</string>
@@ -1077,8 +1079,7 @@
     <string name="wifi_show_advanced" msgid="2969378109942071741">"Opcións avanzadas"</string>
     <string name="wifi_advanced_toggle_description" msgid="7299179796727934885">"Lista despregable Opcións avanzadas"</string>
     <string name="wifi_advanced_toggle_description_collapsed" msgid="3615140699129928913">"despregar"</string>
-    <!-- no translation found for wifi_ssid (5139273830867723030) -->
-    <skip />
+    <string name="wifi_ssid" msgid="5139273830867723030">"Nome da rede*"</string>
     <string name="wifi_ssid_hint" msgid="1940577553241083524">"Introduce o SSID"</string>
     <string name="wifi_security" msgid="9095934643631406913">"Seguranza"</string>
     <string name="wifi_hidden_network" msgid="6466834025375485596">"Rede oculta"</string>
@@ -1101,12 +1102,10 @@
     <string name="wifi_eap_user_cert" msgid="3569182430929173220">"Certificado de usuario"</string>
     <string name="wifi_eap_identity" msgid="3629406902174137028">"Identidade"</string>
     <string name="wifi_eap_anonymous" msgid="8630332141751267000">"Identidade anónima"</string>
-    <!-- no translation found for wifi_password (165204973532996861) -->
-    <skip />
+    <string name="wifi_password" msgid="165204973532996861">"Contrasinal*"</string>
     <!-- no translation found for wifi_password_optional (6770706664834070705) -->
     <skip />
-    <!-- no translation found for wifi_password_invalid (8884500804472828356) -->
-    <skip />
+    <string name="wifi_password_invalid" msgid="8884500804472828356">"O contrasinal non é válido"</string>
     <string name="wifi_show_password" msgid="6865993988238157923">"Mostrar contrasinal"</string>
     <string name="wifi_ap_choose_2G" msgid="1436802195991542016">"Banda de 2,4 GHz"</string>
     <string name="wifi_ap_prefer_5G" msgid="2520628479818369902">"Banda de 5,0 GHz preferida"</string>
@@ -1172,8 +1171,7 @@
     <string name="wifi_scan_always_turn_on_message_unknown" msgid="4903345360745717385">"Para mellorar a precisión da localización e para outros fins, unha aplicación descoñecida quere activar a busca de redes aínda que a wifi estea desactivada.\n\nQueres permitírllelo a todas as aplicacións que queiran buscar redes?"</string>
     <string name="wifi_scan_always_confirm_allow" msgid="4154200627800959777">"Permitir"</string>
     <string name="wifi_scan_always_confirm_deny" msgid="6997087934558839256">"Rexeitar"</string>
-    <!-- no translation found for wifi_field_required (6312381745503042588) -->
-    <skip />
+    <string name="wifi_field_required" msgid="6312381745503042588">"*obrigatorio"</string>
     <string name="no_internet_access_text" msgid="3611993143350310936">"Estar rede non ten acceso a Internet. Queres manter a conexión?"</string>
     <string name="partial_connectivity_text" msgid="8874614799723694554">"Algunhas aplicacións e servizos poden non funcionar con pouca conectividade. Queres usalos igual?"</string>
     <string name="no_internet_access_remember" msgid="5113610157731269258">"Non volver preguntar por esta rede"</string>
@@ -1392,6 +1390,8 @@
     <string name="night_display_not_currently_on" msgid="6600205753103093827">"Luz nocturna non activada"</string>
     <string name="twilight_mode_location_off_dialog_message" msgid="4559150893687124801">"É necesario acceder á localización do dispositivo para determinar a hora do amencer e a do solpor."</string>
     <string name="twilight_mode_launch_location" msgid="7799112373591153956">"Configuración da localización"</string>
+    <!-- no translation found for twilight_mode_pending_location (6829434234071614405) -->
+    <skip />
     <string name="dark_ui_activation_on_manual" msgid="1541006734577325234">"Activar agora"</string>
     <string name="dark_ui_activation_off_manual" msgid="2395333709291250065">"Desactivar agora"</string>
     <string name="dark_ui_activation_on_auto" msgid="4824339634784765049">"Activar ata o amencer"</string>
@@ -2129,7 +2129,8 @@
     <string name="trackpad_bottom_right_tap_title" msgid="230337692279220068">"Clic na esquina inferior dereita"</string>
     <string name="trackpad_bottom_right_tap_summary" msgid="4467915480282133447">"Fai clic na esquina inferior dereita do panel para máis opcións"</string>
     <string name="trackpad_pointer_speed" msgid="5672221910698079303">"Velocidade do cursor"</string>
-    <string name="three_finger_tap_preference_title" msgid="3779242412749283386">"Personalizar toque con 3 dedos"</string>
+    <!-- no translation found for three_finger_tap_preference_title (1836080810837854140) -->
+    <skip />
     <string name="touchpad_acceleration_title" msgid="176627555191021888">"Aceleración do panel táctil"</string>
     <string name="touchpad_acceleration_summary" msgid="8057075483967535793">"Os movementos rápidos no panel táctil desprazan o cursor máis lonxe"</string>
     <string name="pointer_fill_style" msgid="8794616790175016092">"Cor do punteiro"</string>
@@ -2146,7 +2147,8 @@
     <string name="trackpad_touch_gesture" msgid="8641725062131922497">"Consultar xestos do panel táctil"</string>
     <string name="keywords_touchpad" msgid="8159846254066666032">"panel táctil, rato, cursor, desprazar, pasar o dedo, facer clic co botón dereito, facer clic, punteiro"</string>
     <string name="keywords_trackpad_bottom_right_tap" msgid="1285062446073929305">"facer clic co botón dereito, tocar"</string>
-    <string name="three_finger_tap_middle_click" msgid="1759914275939765929">"Botón de clic central do rato"</string>
+    <!-- no translation found for three_finger_tap_middle_click (7898931632908866867) -->
+    <skip />
     <string name="three_finger_tap_launch_gemini" msgid="4030401656711588982">"Iniciar Asistente"</string>
     <string name="three_finger_tap_go_home" msgid="6526301745535089812">"Ir á páxina de inicio"</string>
     <string name="three_finger_tap_go_back" msgid="2898205524575684271">"Volver"</string>
@@ -2439,7 +2441,7 @@
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="1830189632458752698">"Texto de alto contraste"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_summary" msgid="5286411556836346180">"Cambia a cor do texto a negro ou branco. Maximiza o contraste co fondo."</string>
     <string name="accessibility_notification_high_contrast_text_title" msgid="2297915407152953323">"Mellora o contraste do texto"</string>
-    <string name="accessibility_notification_high_contrast_text_body_message" msgid="6846453833480117658">"O texto co contorno substituíu o texto de alto contraste. Podes activar esta opción en <xliff:g id="SETTINGS">%1$s</xliff:g>."</string>
+    <string name="accessibility_notification_high_contrast_text_body_message" msgid="6846453833480117658">"O texto con contorno substituíu o texto de alto contraste. Podes activar esta opción en <xliff:g id="SETTINGS">%1$s</xliff:g>."</string>
     <string name="accessibility_notification_high_contrast_text_action_open_settings" msgid="5945069315472850294">"Ir a <xliff:g id="SETTINGS">%1$s</xliff:g>"</string>
     <string name="accessibility_toggle_maximize_text_contrast_preference_title" msgid="8848579943445806659">"texto con contorno"</string>
     <string name="accessibility_toggle_maximize_text_contrast_preference_summary" msgid="8200408691846666900">"Engade un fondo branco ou negro ao redor do texto para aumentar o contraste"</string>
@@ -4448,9 +4450,9 @@
     <string name="admin_device_owner_message" msgid="5503131744126520590">"O teu administrador pode supervisar e xestionar as aplicacións e os datos asociados a este dispositivo, mesmo os permisos, a configuración, o acceso corporativo, a actividade da rede e a información de localización do dispositivo."</string>
     <string name="admin_financed_message" msgid="1156197630834947884">"É posible que o administrador do teu dispositivo poida acceder aos datos asociados ao dispositivo, cambiar a súa configuración e xestionar as aplicacións."</string>
     <string name="disabled_by_advanced_protection_title" msgid="9051476417559262469">"Opción restrinxida por Protección avanzada"</string>
-    <string name="disabled_by_advanced_protection_setting_is_on_message" msgid="4242986779932956593">"Pola túa seguranza, Protección avanzada require que esta opción se manteña activada"</string>
-    <string name="disabled_by_advanced_protection_setting_is_off_message" msgid="7777487013672230696">"Pola túa seguranza, Protección avanzada require que esta opción se manteña desactivada"</string>
-    <string name="disabled_by_advanced_protection_action_message" msgid="7164789633582857150">"Pola túa seguranza, Protección avanzada impide esta acción"</string>
+    <string name="disabled_by_advanced_protection_setting_is_on_message" msgid="4242986779932956593">"Pola túa seguranza, Protección avanzada require que esta opción se manteña activada."</string>
+    <string name="disabled_by_advanced_protection_setting_is_off_message" msgid="7777487013672230696">"Pola túa seguranza, Protección avanzada require que esta opción se manteña desactivada."</string>
+    <string name="disabled_by_advanced_protection_action_message" msgid="7164789633582857150">"Pola túa seguranza, Protección avanzada impide esta acción."</string>
     <string name="disabled_by_advanced_protection_wep_action_message" msgid="239574547298386495">"Esta rede utiliza WEP, un método de encriptación obsoleto que pode poñer en risco os teus datos. Protección avanzada bloqueou as conexións WEP."</string>
     <string name="disabled_by_advanced_protection_help_button_title" msgid="6539346613660731777">"Configuración"</string>
     <string name="condition_turn_off" msgid="402707350778441939">"Desactivar"</string>
@@ -5070,9 +5072,23 @@
     <string name="title_supported_service_for_manual_type" msgid="6009284624466359864">"Sigue os pasos para conectarte ao satélite"</string>
     <string name="summary_supported_service" msgid="4320535903444834786">"Podes intercambiar mensaxes de texto con calquera persoa, mesmo cos servizos de emerxencia. O teléfono volverá conectarse a unha rede de telefonía móbil en canto haxa unha dispoñible."</string>
     <string name="summary_supported_service_for_manual_type" msgid="2147958362763058271">"Cando o teléfono estea conectado, poderás intercambiar mensaxes de texto con calquera persoa, mesmo cos servizos de emerxencia."</string>
-    <string name="satellite_setting_summary_more_information" msgid="276312352285564071">"As conexións por satélite poden ser máis lentas e só están dispoñibles nalgunhas zonas. Ademais, as condiciones meteorolóxicas e algunhas estruturas poden afectar a este tipo de conexión. Non é posible facer chamadas por satélite. Quizais poidas facer chamadas de emerxencia.\n\nOs cambios na conta poden tardar un anaco en aparecer na configuración. Contacta con <xliff:g id="CARRIER_NAME">%1$s</xliff:g> para ter máis información."</string>
-    <string name="satellite_setting_summary_more_information_no_emergency_messaging" msgid="2090170250936862158">"As conexións por satélite poden ser máis lentas e só están dispoñibles nalgunhas zonas. Ademais, as condiciones meteorolóxicas e algunhas estruturas poden afectar a este tipo de conexión. Non é posible facer chamadas por satélite. Quizais poidas facer chamadas de emerxencia. O envío de mensaxes de texto aos servizos de emerxencia pode que non estea dispoñible en todas as zonas.\n\nOs cambios na conta poden tardar un anaco en aparecer na configuración. Contacta con <xliff:g id="CARRIER_NAME">%1$s</xliff:g> para ter máis información."</string>
-    <!-- no translation found for more_about_satellite_messaging (5358981088419444073) -->
+    <!-- no translation found for satellite_footer_content_section_0 (4169483813004415556) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_1 (7925931577373229601) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_2 (7699185178461362541) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_3 (4652426135622555607) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_4 (2294227482962815751) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_5 (3053256489735265540) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_6 (1448633393918612418) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_7 (5524773673918954918) -->
+    <skip />
+    <!-- no translation found for more_about_satellite_connectivity (9110502891919936054) -->
     <skip />
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"Non se pode activar a función <xliff:g id="FUNCTION">%1$s</xliff:g>"</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"Para activar a función <xliff:g id="FUNCTION">%1$s</xliff:g>, primeiro pecha a conexión por satélite"</string>
@@ -5168,7 +5184,8 @@
     <string name="switch_sim_dialog_no_switch_text" msgid="7053939850026876088">"Para utilizar os datos móbiles, as funcións de chamada e as SMS máis tarde, vai á configuración de rede"</string>
     <string name="sim_card_label" msgid="6263064316075963775">"SIM"</string>
     <string name="erase_sim_dialog_title" msgid="4742077437653028326">"Queres borrar esta eSIM?"</string>
-    <string name="erase_sim_dialog_text" msgid="1406141218170595272">"Quitarase o servizo de <xliff:g id="CARRIER_NAME_A">%1$s</xliff:g> deste dispositivo, pero non se cancelará o teu plan de <xliff:g id="CARRIER_NAME_B">%1$s</xliff:g>."</string>
+    <!-- no translation found for erase_sim_dialog_text (3982216582200709197) -->
+    <skip />
     <string name="erase_sim_confirm_button" msgid="8309115684335320541">"Borrar"</string>
     <string name="erasing_sim" msgid="4237180547590463930">"Borrando eSIM…"</string>
     <string name="erase_sim_fail_title" msgid="1445700500168357303">"Non se puido borrar a eSIM"</string>
@@ -5428,10 +5445,8 @@
     <string name="smart_forwarding_input_mdn_dialog_title" msgid="7542216086697868415">"Escribir o número de teléfono"</string>
     <string name="smart_forwarding_missing_mdn_text" msgid="2907314684242542226">"Falta o número de teléfono."</string>
     <string name="smart_forwarding_missing_alert_dialog_text" msgid="7870419247987316112">"Aceptar"</string>
-    <!-- no translation found for enable_2g_title (5657132300321750181) -->
-    <skip />
-    <!-- no translation found for enable_2g_summary (6317192326100541563) -->
-    <skip />
+    <string name="enable_2g_title" msgid="5657132300321750181">"Protección de redes 2G"</string>
+    <string name="enable_2g_summary" msgid="6317192326100541563">"Evita as redes 2G, que son menos seguras. En consecuencia, poderías ter conectividade limitada nalgúns lugares. Sempre poderás facer chamadas de emerxencia."</string>
     <string name="enable_2g_summary_disabled_carrier" msgid="8141118453219482762">"<xliff:g id="CARRIER_NAME_2G">%1$s</xliff:g> require que a rede 2G estea dispoñible"</string>
     <string name="require_cellular_encryption_title" msgid="6087085031703089235">"Permitir só redes encriptadas"</string>
     <string name="require_cellular_encryption_summary" msgid="6090569065420631457">"Esta opción é máis segura, pero pode limitar a conexión coas redes de telefonía móbil nalgunhas localizacións. As chamadas de emerxencia sempre están permitidas."</string>

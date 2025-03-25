@@ -494,7 +494,7 @@
     <string name="spatial_audio_speaker" product="tablet" msgid="5452617980485166854">"タブレットのスピーカー"</string>
     <string name="spatial_audio_speaker" product="device" msgid="6204289590128303795">"デバイスのスピーカー"</string>
     <string name="spatial_audio_speaker" product="desktop" msgid="6204289590128303795">"デバイスのスピーカー"</string>
-    <string name="audio_sharing_dialog_share_content" product="default" msgid="708698992481271057">"このスマートフォンの音楽と動画は、両方のヘッドフォンで再生されます"</string>
+    <string name="audio_sharing_dialog_share_content" product="default" msgid="708698992481271057">"このスマートフォンの音楽と動画は、両方のヘ⁠ッ⁠ド⁠フ⁠ォ⁠ンで再生されます"</string>
     <string name="audio_sharing_dialog_share_content" product="tablet" msgid="3459594795397910145">"このタブレットの音楽と動画は、両方のヘッドフォンで再生されます"</string>
     <string name="audio_sharing_dialog_share_content" product="device" msgid="1297019559878011896">"このデバイスの音楽と動画は、両方のヘッドフォンで再生されます"</string>
     <string name="audio_sharing_dialog_share_content" product="desktop" msgid="1297019559878011896">"このデバイスの音楽と動画は、両方のヘッドフォンで再生されます"</string>

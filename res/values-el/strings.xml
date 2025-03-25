@@ -949,6 +949,8 @@
     <skip />
     <!-- no translation found for bluetooth_key_missing_close (6724520133374312040) -->
     <skip />
+    <!-- no translation found for bluetooth_key_missing_toast (8692796546000643569) -->
+    <skip />
     <string name="device_details_title" msgid="1155622417516195481">"Λεπτομέρειες συσκευής"</string>
     <string name="bluetooth_device_keyboard_settings_preference_title" msgid="3411693160917620519">"Ρυθμίσεις πληκτρολογίου"</string>
     <string name="bluetooth_device_more_settings_preference_title" msgid="6034482566541746500">"Περισσότερες ρυθμίσεις"</string>
@@ -1388,6 +1390,8 @@
     <string name="night_display_not_currently_on" msgid="6600205753103093827">"Νυχτερινός φωτισμός ανενεργός"</string>
     <string name="twilight_mode_location_off_dialog_message" msgid="4559150893687124801">"Απαιτείται η τοποθεσία συσκευής για τον καθορισμό των ωρών ανατολής και δύσης ηλίου."</string>
     <string name="twilight_mode_launch_location" msgid="7799112373591153956">"Ρυθμίσεις τοποθεσίας"</string>
+    <!-- no translation found for twilight_mode_pending_location (6829434234071614405) -->
+    <skip />
     <string name="dark_ui_activation_on_manual" msgid="1541006734577325234">"Ενεργοποίηση τώρα"</string>
     <string name="dark_ui_activation_off_manual" msgid="2395333709291250065">"Απενεργοποίηση τώρα"</string>
     <string name="dark_ui_activation_on_auto" msgid="4824339634784765049">"Ενεργοποίηση έως την ανατολή του ηλίου"</string>
@@ -2125,7 +2129,8 @@
     <string name="trackpad_bottom_right_tap_title" msgid="230337692279220068">"Πατήστε κάτω δεξιά για δεξί κλικ"</string>
     <string name="trackpad_bottom_right_tap_summary" msgid="4467915480282133447">"Πατήστε κάτω δεξιά στην επιφάνεια αφής για άλλες επιλογές"</string>
     <string name="trackpad_pointer_speed" msgid="5672221910698079303">"Ταχύτητα δείκτη"</string>
-    <string name="three_finger_tap_preference_title" msgid="3779242412749283386">"Προσαρμογή πατήματος με 3 δάχτυλα"</string>
+    <!-- no translation found for three_finger_tap_preference_title (1836080810837854140) -->
+    <skip />
     <string name="touchpad_acceleration_title" msgid="176627555191021888">"Επιτάχυνση επιφάνειας αφής"</string>
     <string name="touchpad_acceleration_summary" msgid="8057075483967535793">"Οι πιο γρήγορες κινήσεις στην επιφάνεια αφής θα μετακινούν τον δείκτη πιο μακριά"</string>
     <string name="pointer_fill_style" msgid="8794616790175016092">"Χρώμα δείκτη"</string>
@@ -2142,7 +2147,8 @@
     <string name="trackpad_touch_gesture" msgid="8641725062131922497">"Μάθετε κινήσεις επιφάνειας αφής"</string>
     <string name="keywords_touchpad" msgid="8159846254066666032">"επιφάνειας αφής, επιφάνεια, ποντίκι, δείκτης, κύλιση, σάρωση, δεξί κλικ, κλικ, δείκτης"</string>
     <string name="keywords_trackpad_bottom_right_tap" msgid="1285062446073929305">"δεξί κλικ, πάτημα"</string>
-    <string name="three_finger_tap_middle_click" msgid="1759914275939765929">"Μεσαίο κουμπί κλικ ποντικιού"</string>
+    <!-- no translation found for three_finger_tap_middle_click (7898931632908866867) -->
+    <skip />
     <string name="three_finger_tap_launch_gemini" msgid="4030401656711588982">"Εκκίνηση Βοηθού"</string>
     <string name="three_finger_tap_go_home" msgid="6526301745535089812">"Μετάβαση στην αρχική σελίδα"</string>
     <string name="three_finger_tap_go_back" msgid="2898205524575684271">"Επιστροφή"</string>
@@ -5064,9 +5070,23 @@
     <string name="title_supported_service_for_manual_type" msgid="6009284624466359864">"Ακολουθήστε τα βήματα, για να συνδεθείτε στον δορυφόρο"</string>
     <string name="summary_supported_service" msgid="4320535903444834786">"Μπορείτε να στέλνετε μηνύματα σε οποιονδήποτε, ακόμα και στις υπηρεσίες έκτακτης ανάγκης. Το τηλέφωνό σας θα συνδεθεί ξανά σε ένα δίκτυο κινητής τηλεφωνίας όταν είναι διαθέσιμο."</string>
     <string name="summary_supported_service_for_manual_type" msgid="2147958362763058271">"Αφού συνδεθεί το τηλέφωνό σας, μπορείτε να στέλνετε μηνύματα σε οποιονδήποτε, συμπεριλαμβανομένων των υπηρεσιών έκτακτης ανάγκης."</string>
-    <string name="satellite_setting_summary_more_information" msgid="276312352285564071">"Η δορυφορική σύνδεση είναι διαθέσιμη μόνο σε ορισμένες περιοχές και μπορεί να είναι πιο αργή. Ο καιρός και ορισμένες κατασκευές μπορεί να επηρεάσουν τη σύνδεση. Η πραγματοποίηση κλήσεων μέσω δορυφόρου δεν είναι διαθέσιμη. Η σύνδεση για κλήσεις έκτακτης ανάγκης μπορεί να εξακολουθεί να είναι δυνατή.\n\nΕνδέχεται να χρειαστεί λίγος χρόνος μέχρι να εμφανιστούν οι αλλαγές λογαριασμού στις Ρυθμίσεις. Για λεπτομέρειες, επικοινωνήστε με τον πάροχο <xliff:g id="CARRIER_NAME">%1$s</xliff:g>."</string>
-    <string name="satellite_setting_summary_more_information_no_emergency_messaging" msgid="2090170250936862158">"Η δορυφορική σύνδεση είναι διαθέσιμη μόνο σε ορισμένες περιοχές και μπορεί να είναι πιο αργή. Ο καιρός και ορισμένες κατασκευές μπορεί να επηρεάσουν τη σύνδεση. Η πραγματοποίηση κλήσεων μέσω δορυφόρου δεν είναι διαθέσιμη. Η σύνδεση για κλήσεις έκτακτης ανάγκης μπορεί να εξακολουθεί να είναι δυνατή. Η επικοινωνία μέσω μηνυμάτων με τις υπηρεσίες έκτακτης ανάγκης μπορεί να μην είναι διαθέσιμη σε όλες τις περιοχές.\n\nΕνδέχεται να χρειαστεί λίγος χρόνος μέχρι να εμφανιστούν οι αλλαγές λογαριασμού στις Ρυθμίσεις. Για λεπτομέρειες, επικοινωνήστε με τον πάροχο <xliff:g id="CARRIER_NAME">%1$s</xliff:g>."</string>
-    <!-- no translation found for more_about_satellite_messaging (5358981088419444073) -->
+    <!-- no translation found for satellite_footer_content_section_0 (4169483813004415556) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_1 (7925931577373229601) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_2 (7699185178461362541) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_3 (4652426135622555607) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_4 (2294227482962815751) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_5 (3053256489735265540) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_6 (1448633393918612418) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_7 (5524773673918954918) -->
+    <skip />
+    <!-- no translation found for more_about_satellite_connectivity (9110502891919936054) -->
     <skip />
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"Δεν είναι δυνατή η ενεργοποίηση της επιλογής <xliff:g id="FUNCTION">%1$s</xliff:g>"</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"Για να ενεργοποιήσετε την επιλογή <xliff:g id="FUNCTION">%1$s</xliff:g>, αρχικά τερματίστε τη σύνδεση μέσω δορυφόρου"</string>
@@ -5162,7 +5182,8 @@
     <string name="switch_sim_dialog_no_switch_text" msgid="7053939850026876088">"Για να χρησιμοποιήσετε αργότερα δεδομένα κινητής τηλεφωνίας, λειτουργίες κλήσεων και SMS, μεταβείτε στις ρυθμίσεις δικτύου σας."</string>
     <string name="sim_card_label" msgid="6263064316075963775">"SIM"</string>
     <string name="erase_sim_dialog_title" msgid="4742077437653028326">"Διαγραφή αυτής της eSIM;"</string>
-    <string name="erase_sim_dialog_text" msgid="1406141218170595272">"Με αυτή την ενέργεια, η υπηρεσία <xliff:g id="CARRIER_NAME_A">%1$s</xliff:g> καταργείται από αυτή τη συσκευή, αλλά το πρόγραμμά σας <xliff:g id="CARRIER_NAME_B">%1$s</xliff:g> δεν θα ακυρωθεί."</string>
+    <!-- no translation found for erase_sim_dialog_text (3982216582200709197) -->
+    <skip />
     <string name="erase_sim_confirm_button" msgid="8309115684335320541">"Διαγραφή"</string>
     <string name="erasing_sim" msgid="4237180547590463930">"Διαγραφή eSIM…"</string>
     <string name="erase_sim_fail_title" msgid="1445700500168357303">"Δεν είναι δυνατή η διαγραφή της eSIM"</string>
@@ -5618,7 +5639,7 @@
     <string name="audio_sharing_call_audio_title" msgid="7978867452289583929">"Ήχος κλήσης"</string>
     <string name="audio_sharing_call_audio_description" msgid="6573621048260616924">"Αναπαραγωγή μόνο στη συσκευή <xliff:g id="DEVICE_NAME">%1$s</xliff:g>"</string>
     <string name="audio_sharing_test_sound_title" msgid="6438868185641027763">"Αναπαραγωγή δοκιμαστικού ήχου"</string>
-    <string name="audio_sharing_test_sound_description" msgid="4072462502371937399">"Όλοι οι ακροατές θα μπορέσουν να τον ακούσουν"</string>
+    <string name="audio_sharing_test_sound_description" msgid="4072462502371937399">"Όλοι οι ακροατές πρέπει να τον ακούσουν"</string>
     <string name="audio_sharing_stream_settings_title" msgid="1374391898689242036">"Ρυθμίσεις ροής ήχου"</string>
     <string name="audio_sharing_stream_name_title" msgid="8156859441897180940">"Όνομα"</string>
     <string name="audio_sharing_stream_password_title" msgid="7026649168165764602">"Κωδικός πρόσβασης"</string>

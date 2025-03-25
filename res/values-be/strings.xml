@@ -262,12 +262,10 @@
     <string name="friday_first_day_of_week" msgid="7074795061812083541">"Пятніца"</string>
     <string name="saturday_first_day_of_week" msgid="3702282590450322727">"Субота"</string>
     <string name="title_regional_pref_footer" msgid="7450438024324794380">"Калі праграма не падтрымлівае рэгіянальныя налады, яна будзе выкарыстоўваць стандартныя налады для рэгіёнаў."</string>
-    <string name="desc_regional_pref_footer_learn_more" msgid="4401708653329230081">"Даведацца больш пра налады мовы."</string>
+    <string name="desc_regional_pref_footer_learn_more" msgid="4401708653329230081">"Даведацца больш пра моўныя налады"</string>
     <string name="metric_measurement_system" msgid="7489725697268321541">"Метрычная"</string>
-    <!-- no translation found for us_measurement_system (8406695347890345490) -->
-    <skip />
-    <!-- no translation found for uk_measurement_system (1814065008707689505) -->
-    <skip />
+    <string name="us_measurement_system" msgid="8406695347890345490">"ЗША"</string>
+    <string name="uk_measurement_system" msgid="1814065008707689505">"Вялікабрытанія"</string>
     <string name="category_title_terms_of_address" msgid="4309422700380895278">"Дадатковыя параметры"</string>
     <string name="terms_of_address_title" msgid="7338630812197476808">"Выберыце, як да вас звяртацца"</string>
     <string name="terms_of_address_summary" msgid="7802443422612600620">"Персаналізаваць зварот да вас на прыладзе"</string>
@@ -939,15 +937,13 @@
     <string name="bluetooth_scanning_on_info_message" msgid="786648535600075223">"Калі Bluetooth уключаны, прылада можа абменьвацца данымі з іншымі прыладамі з Bluetooth, якія знаходзяцца паблізу.\n\nПраграмы і сэрвісы будуць шукаць прылады паблізу, нават калі Bluetooth выключаны. Гэту функцыю можна выкарыстоўваць для паляпшэння працы прылады, напрыклад для больш дакладнага вызначэння месцазнаходжання. Вы можаце змяніць яе ў наладах пошуку Bluetooth."</string>
     <string name="bluetooth_scanning_on_info_message_auto_on_available" msgid="7792443293031247638">"Калі Bluetooth уключаны, ваша прылада можа абменьвацца данымі з іншымі прыладамі з Bluetooth, якія знаходзяцца побач. Bluetooth выкарыстоўваецца такімі функцыямі і сэрвісамі, як Хуткае абагульванне і Знайсці прыладу.\n\nПраграмы і сэрвісы могуць шукаць прылады паблізу, нават калі вы выключылі Bluetooth. Гэта дазваляе, у прыватнасці, паляпшаць работу функцый і сэрвісаў, якія працуюць на аснове геалакацыі. Вы можаце змяніць гэтыя параметры ў наладах пошуку прылад Bluetooth."</string>
     <string name="bluetooth_scan_change" msgid="1744636222637390367">"Змяніць"</string>
-    <!-- no translation found for bluetooth_key_missing_title (8462010102528132965) -->
-    <skip />
-    <!-- no translation found for bluetooth_key_missing_message (3188093580372443815) -->
-    <skip />
+    <string name="bluetooth_key_missing_title" msgid="8462010102528132965">"Не ўдалося падключыцца да прылады \"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>\""</string>
+    <string name="bluetooth_key_missing_message" msgid="3188093580372443815">"Падрабязныя звесткі глядзіце ў наладах прылады"</string>
     <string name="bluetooth_key_missing_forget" msgid="4692006517823001013">"Разлучыць прыладу"</string>
     <string name="bluetooth_key_missing_cancel" msgid="2482416446357804371">"Скасаваць"</string>
-    <!-- no translation found for bluetooth_key_missing_device_settings (5512091368141961890) -->
-    <skip />
-    <!-- no translation found for bluetooth_key_missing_close (6724520133374312040) -->
+    <string name="bluetooth_key_missing_device_settings" msgid="5512091368141961890">"Налады прылады"</string>
+    <string name="bluetooth_key_missing_close" msgid="6724520133374312040">"Закрыць"</string>
+    <!-- no translation found for bluetooth_key_missing_toast (8692796546000643569) -->
     <skip />
     <string name="device_details_title" msgid="1155622417516195481">"Звесткі пра прыладу"</string>
     <string name="bluetooth_device_keyboard_settings_preference_title" msgid="3411693160917620519">"Налады клавіятуры"</string>
@@ -963,8 +959,7 @@
     <string name="device_details_leaudio_toggle_summary" msgid="7684848254433230809">"Эксперыментальнае. Паляпшае якасць аўдыя."</string>
     <string name="device_details_battery" msgid="5466987755790847884">"Акумулятар"</string>
     <string name="device_details_battery_charging" msgid="3464969346075775143">"Ідзе зарадка акумулятара"</string>
-    <!-- no translation found for device_details_key_missing_title (3568401701538114387) -->
-    <skip />
+    <string name="device_details_key_missing_title" msgid="3568401701538114387">"Паспрабуйце перазапусціць прыладу \"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>\". Калі гэта не дапаможа, забудзьце прыладу. У мэтах бяспекі спалучыце прыладу зноў, калі не будзеце знаходзіцца ў агульнадаступнай прасторы.\n\nКалі гэта прылада не знаходзіцца паблізу, вам нічога не трэба рабіць."</string>
     <string name="bluetooth_unpair_dialog_forget_confirm_button" msgid="9184489424930549015">"Забыць прыладу"</string>
     <string name="bluetooth_companion_app_remove_association_confirm_button" msgid="76323555527926915">"Адключыць праграму"</string>
     <string name="device_details_more_settings" msgid="950302792331611271">"Дадатковыя налады"</string>
@@ -1101,8 +1096,7 @@
     <string name="wifi_eap_identity" msgid="3629406902174137028">"Ідэнтыфікатар"</string>
     <string name="wifi_eap_anonymous" msgid="8630332141751267000">"Ананімны ідэнтыфікатар"</string>
     <string name="wifi_password" msgid="165204973532996861">"Пароль*"</string>
-    <!-- no translation found for wifi_password_optional (6770706664834070705) -->
-    <skip />
+    <string name="wifi_password_optional" msgid="6770706664834070705">"Пароль (неабавязкова)"</string>
     <string name="wifi_password_invalid" msgid="8884500804472828356">"Няправільны пароль"</string>
     <string name="wifi_show_password" msgid="6865993988238157923">"Паказваць пароль"</string>
     <string name="wifi_ap_choose_2G" msgid="1436802195991542016">"Дыяпазон 2,4 ГГц"</string>
@@ -1388,6 +1382,8 @@
     <string name="night_display_not_currently_on" msgid="6600205753103093827">"Начная падсветка не ўключана"</string>
     <string name="twilight_mode_location_off_dialog_message" msgid="4559150893687124801">"Уключыце геалакацыю для вызначэння часу захаду і ўсходу сонца."</string>
     <string name="twilight_mode_launch_location" msgid="7799112373591153956">"Налады месцазнаходжання"</string>
+    <!-- no translation found for twilight_mode_pending_location (6829434234071614405) -->
+    <skip />
     <string name="dark_ui_activation_on_manual" msgid="1541006734577325234">"Уключыць"</string>
     <string name="dark_ui_activation_off_manual" msgid="2395333709291250065">"Выключыць"</string>
     <string name="dark_ui_activation_on_auto" msgid="4824339634784765049">"Уключыць да ўсходу сонца"</string>
@@ -2125,7 +2121,8 @@
     <string name="trackpad_bottom_right_tap_title" msgid="230337692279220068">"Націсканне ў ніжнім правым вугле"</string>
     <string name="trackpad_bottom_right_tap_summary" msgid="4467915480282133447">"Каб адкрыць дадатковыя параметры, націсніце ў ніжнім правым вугле сэнсарнай панэлі"</string>
     <string name="trackpad_pointer_speed" msgid="5672221910698079303">"Хуткасць курсора"</string>
-    <string name="three_finger_tap_preference_title" msgid="3779242412749283386">"Наладзіць націсканне трыма пальцамі"</string>
+    <!-- no translation found for three_finger_tap_preference_title (1836080810837854140) -->
+    <skip />
     <string name="touchpad_acceleration_title" msgid="176627555191021888">"Паскарэнне сэнсарнай панэлі"</string>
     <string name="touchpad_acceleration_summary" msgid="8057075483967535793">"Больш хуткія рухі па сэнсарнай панэлі будуць перамяшчаць курсор на большую адлегласць"</string>
     <string name="pointer_fill_style" msgid="8794616790175016092">"Колер паказальніка"</string>
@@ -2142,7 +2139,8 @@
     <string name="trackpad_touch_gesture" msgid="8641725062131922497">"Даведацца пра жэсты сэнсарнай панэлі"</string>
     <string name="keywords_touchpad" msgid="8159846254066666032">"сэнсарная панэль, мыш, курсор, прагартаць, правесці пальцам, націснуць правай кнопкай мышы, націснуць, націсканне, паказальнік"</string>
     <string name="keywords_trackpad_bottom_right_tap" msgid="1285062446073929305">"націснуць правай кнопкай мышы, дакрануцца, націснуць, дотык"</string>
-    <string name="three_finger_tap_middle_click" msgid="1759914275939765929">"Сярэдняя кнопка мышы"</string>
+    <!-- no translation found for three_finger_tap_middle_click (7898931632908866867) -->
+    <skip />
     <string name="three_finger_tap_launch_gemini" msgid="4030401656711588982">"Запусціць Памочніка"</string>
     <string name="three_finger_tap_go_home" msgid="6526301745535089812">"На галоўную старонку"</string>
     <string name="three_finger_tap_go_back" msgid="2898205524575684271">"Назад"</string>
@@ -4417,8 +4415,7 @@
     <string name="disconnected" msgid="3469373726996129247">"Падключэння няма"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"Падключэння няма"</string>
     <string name="apps_summary" msgid="4007416751775414252">"Усталявана праграм: <xliff:g id="COUNT">%1$d</xliff:g>"</string>
-    <!-- no translation found for storage_toplevel_summary (6708203706751754934) -->
-    <skip />
+    <string name="storage_toplevel_summary" msgid="6708203706751754934">"<xliff:g id="PERCENTAGE">%1$s</xliff:g> выкарыстана – <xliff:g id="FREE_SPACE">%2$s</xliff:g> свабодна"</string>
     <string name="display_dashboard_summary" msgid="1599453894989339454">"Цёмная тэма, памер шрыфту, яркасць"</string>
     <string name="memory_summary" msgid="8221954450951651735">"У сярэднім <xliff:g id="USED_MEMORY">%1$s</xliff:g> з <xliff:g id="TOTAL_MEMORY">%2$s</xliff:g> памяці выкарыстана"</string>
     <string name="users_summary" msgid="8473589474976307510">"Вы ўвайшлі як <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
@@ -5041,16 +5038,13 @@
     <string name="roaming_alert_title" msgid="9052791521868787985">"Дазволіць перадачу даных у роўмінгу?"</string>
     <string name="roaming_check_price_warning" msgid="5876977438036791361">"Высветліце цану ў свайго інтэрнэт-правайдара."</string>
     <string name="mobile_network_mode_error" msgid="9222056129897416074">"Несапраўдны рэжым сеткі <xliff:g id="NETWORKMODEID">%1$d</xliff:g>. Ігнараваць."</string>
-    <!-- no translation found for satellite_setting (4650503806634496443) -->
-    <skip />
+    <string name="satellite_setting" msgid="4650503806634496443">"Магчымасць спадарожнікавага падключэння"</string>
     <string name="satellite_setting_enabled_summary" msgid="3554127722727530845">"Адпраўка і атрыманне тэкставых паведамленняў па спадарожнікавай сувязі даступныя для вашага ўліковага запісу."</string>
     <string name="satellite_setting_disabled_summary" msgid="8428393986403708690">"Адпраўляйце і атрымлівайце тэкставыя паведамленні па спадарожнікавай сувязі. Паслуга не ўключана ва ўліковы запіс."</string>
     <string name="satellite_setting_summary_without_entitlement" msgid="5284998840770992554">"Адпраўка і атрыманне тэкставых паведамленняў па спадарожнікавай сувязі. Звяжыцеся з аператарам, каб даведацца больш."</string>
     <string name="keywords_satellite_setting" msgid="613553612424945946">"Абмен паведамленнямі па спадарожнікавай сувязі, спадарожнікавае падключэнне"</string>
-    <!-- no translation found for category_name_about_satellite_connectivity (3971142716898783631) -->
-    <skip />
-    <!-- no translation found for description_about_satellite_setting (5539359064330584941) -->
-    <skip />
+    <string name="category_name_about_satellite_connectivity" msgid="3971142716898783631">"Даведка пра магчымасць спадарожнікавага падключэння"</string>
+    <string name="description_about_satellite_setting" msgid="5539359064330584941">"Вы можаце адпраўляць і атрымліваць тэкставыя паведамленні, а таксама выкарыстоўваць некаторыя праграмы з дапамогай спадарожнікавай сувязі праз прыдатны ўліковы запіс <xliff:g id="CARRIER_NAME">%1$s</xliff:g>"</string>
     <string name="category_title_your_satellite_plan" msgid="8169426217950247126">"Ваш уліковы запіс <xliff:g id="CARRIER_NAME">%1$s</xliff:g>"</string>
     <string name="title_have_satellite_plan" msgid="2048372355699977947">"Функцыя абмену паведамленнямі па спадарожнікавай сувязі даступная для вашага ўліковага запісу."</string>
     <string name="title_no_satellite_plan" msgid="2876056203035197505">"Функцыя абмену паведамленнямі па спадарожнікавай сувязі недаступная для вашага ўліковага запісу."</string>
@@ -5064,14 +5058,27 @@
     <string name="title_supported_service_for_manual_type" msgid="6009284624466359864">"Выканайце інструкцыі па падключэнні да спадарожніка"</string>
     <string name="summary_supported_service" msgid="4320535903444834786">"Вы можаце адпраўляць тэкставыя паведамленні каму хочаце, у тым ліку экстранным службам. Ваш тэлефон зноў падключыцца да мабільнай сеткі, калі яна стане даступнай."</string>
     <string name="summary_supported_service_for_manual_type" msgid="2147958362763058271">"Пасля падключэння вы зможаце адпраўляць тэкставыя паведамленні каму хочаце, у тым ліку экстранным службам."</string>
-    <string name="satellite_setting_summary_more_information" msgid="276312352285564071">"Спадарожнікавае падключэнне можа працаваць больш павольна, і яно даступнае толькі ў некаторых рэгіёнах. На якасць такога падключэння могуць уплываць надвор’е і некаторыя віды пабудоў. Выклікі праз спадарожнікавую сувязь недаступныя. Пры гэтым дапускаецца магчымасць ажыццяўлення экстранных выклікаў.\n\nМожа спатрэбіцца некаторы час, каб змяненні ў вашым уліковым запісе з’явіліся ў наладах. Па падрабязныя звесткі звяртайцеся да аператара \"<xliff:g id="CARRIER_NAME">%1$s</xliff:g>\"."</string>
-    <string name="satellite_setting_summary_more_information_no_emergency_messaging" msgid="2090170250936862158">"Спадарожнікавае падключэнне можа працаваць больш павольна, і яно даступнае толькі ў некаторых рэгіёнах. На якасць такога падключэння могуць уплываць надвор’е і некаторыя віды пабудоў. Выклікі праз спадарожнікавую сувязь недаступныя. Пры гэтым дапускаецца магчымасць ажыццяўлення экстранных выклікаў. Абмен тэкставымі паведамленнямі з экстраннымі службамі ў некаторых рэгіёнах можа быць недаступны.\n\nМожа спатрэбіцца некаторы час, каб змяненні ў вашым уліковым запісе з’явіліся ў наладах. Па падрабязныя звесткі звяртайцеся да аператара \"<xliff:g id="CARRIER_NAME">%1$s</xliff:g>\"."</string>
-    <!-- no translation found for more_about_satellite_messaging (5358981088419444073) -->
+    <!-- no translation found for satellite_footer_content_section_0 (4169483813004415556) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_1 (7925931577373229601) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_2 (7699185178461362541) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_3 (4652426135622555607) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_4 (2294227482962815751) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_5 (3053256489735265540) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_6 (1448633393918612418) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_7 (5524773673918954918) -->
+    <skip />
+    <!-- no translation found for more_about_satellite_connectivity (9110502891919936054) -->
     <skip />
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"Не ўдалося ўключыць функцыю \"<xliff:g id="FUNCTION">%1$s</xliff:g>\""</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"Каб уключыць функцыю \"<xliff:g id="FUNCTION">%1$s</xliff:g>\", спачатку выканайце падключэнне да спадарожніка"</string>
-    <!-- no translation found for category_title_satellite_connectivity (7740500012311192133) -->
-    <skip />
+    <string name="category_title_satellite_connectivity" msgid="7740500012311192133">"Спадарожнік"</string>
     <string name="title_satellite_setting_connectivity" msgid="488626710934668313">"Спадарожнікавае падключэнне"</string>
     <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"спадарожнікавае падключэнне"</string>
     <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"абмен паведамленнямі па спадарожнікавай сувязі"</string>
@@ -5162,7 +5169,8 @@
     <string name="switch_sim_dialog_no_switch_text" msgid="7053939850026876088">"Каб пазней карыстацца мабільнай перадачай даных, функцыямі выклікаў і SMS, перайдзіце ў налады сеткі"</string>
     <string name="sim_card_label" msgid="6263064316075963775">"SIM-карта"</string>
     <string name="erase_sim_dialog_title" msgid="4742077437653028326">"Сцерці гэту eSIM-карту?"</string>
-    <string name="erase_sim_dialog_text" msgid="1406141218170595272">"Вы больш не зможаце карыстацца паслугамі аператара \"<xliff:g id="CARRIER_NAME_A">%1$s</xliff:g>\" на гэтай прыладзе, але тарыфны план аператара \"<xliff:g id="CARRIER_NAME_B">%1$s</xliff:g>\" не будзе скасаваны."</string>
+    <!-- no translation found for erase_sim_dialog_text (3982216582200709197) -->
+    <skip />
     <string name="erase_sim_confirm_button" msgid="8309115684335320541">"Сцерці"</string>
     <string name="erasing_sim" msgid="4237180547590463930">"Ідзе выдаленне eSIM-карты…"</string>
     <string name="erase_sim_fail_title" msgid="1445700500168357303">"Не ўдалося выдаліць eSIM-карту"</string>

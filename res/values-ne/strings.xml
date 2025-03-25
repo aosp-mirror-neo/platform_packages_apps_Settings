@@ -264,10 +264,8 @@
     <string name="title_regional_pref_footer" msgid="7450438024324794380">"कुनै एपमा क्षेत्रीय प्राथमिकताहरू प्रयोग गर्न नमिलेका खण्डमा सो एपले आफ्ना स्थानिक भाषासम्बन्धी डिफल्ट सेटिङ प्रयोग गर्ने छ।"</string>
     <string name="desc_regional_pref_footer_learn_more" msgid="4401708653329230081">"भाषासम्बन्धी प्राथमिकताका बारेमा थप जान्नुहोस्।"</string>
     <string name="metric_measurement_system" msgid="7489725697268321541">"मेट्रिक"</string>
-    <!-- no translation found for us_measurement_system (8406695347890345490) -->
-    <skip />
-    <!-- no translation found for uk_measurement_system (1814065008707689505) -->
-    <skip />
+    <string name="us_measurement_system" msgid="8406695347890345490">"संयुक्त राज्य अमेरिका"</string>
+    <string name="uk_measurement_system" msgid="1814065008707689505">"संयुक्त अधिराज्य"</string>
     <string name="category_title_terms_of_address" msgid="4309422700380895278">"थप प्राथमिकताहरू"</string>
     <string name="terms_of_address_title" msgid="7338630812197476808">"आफूलाई सम्बोधन गर्ने तरिका छनौट गर्नुहोस्"</string>
     <string name="terms_of_address_summary" msgid="7802443422612600620">"तपाईंको डिभाइसले तपाईंलाई सम्बोधन गर्ने तरिका पर्सनलाइज गर्न सक्छ"</string>
@@ -939,15 +937,13 @@
     <string name="bluetooth_scanning_on_info_message" msgid="786648535600075223">"ब्लुटुथ अन गरिएका बेला तपाईंको डिभाइस नजिकै रहेका ब्लुटुथ चल्ने अन्य डिभाइससँग कनेक्ट हुन सक्छ। \n\nडिभाइसका सुविधाहरूको गुणस्तर सुधार गर्ने प्रयोजनका लागि एप तथा सेवाहरूले ब्लुटुथ अफ भएका बेला र अरू बेला नजिकैका डिभाइसहरू स्क्यान गर्न सक्छन्। यसलाई लोकेसनमा आधारित सुविधा तथा सेवाहरूको गुणस्तर सुधार गर्ने जस्ता कार्यहरू गर्नका लागि प्रयोग गर्न सकिन्छ। तपाईं ब्लुटुथ स्क्यान गर्नेसम्बन्धी सेटिङमा गई यो कुरा परिवर्तन गर्न सक्नुहुन्छ।"</string>
     <string name="bluetooth_scanning_on_info_message_auto_on_available" msgid="7792443293031247638">"ब्लुटुथ अन हुँदा तपाईंको डिभाइस नजिकैका अन्य ब्लुटुथ डिभाइससँग कनेक्ट हुन सक्छ। क्विक सेयर र Find My Device जस्ता सुविधाहरू प्रयोग गर्न ब्लुटुथ चाहिन्छ।\n\nब्लुटुथ अफ गरिएको भए पनि एप तथा सेवाहरूले जुनसुकै बेला नजिकैका डिभाइसहरू स्क्यान गर्न सक्छन्। यसलाई लोकेसनमा आधारित सुविधा तथा सेवाहरूको गुणस्तर सुधार गर्नेलगायतका प्रयोजनहरूका लागि प्रयोग गर्न सकिन्छ। तपाईं ब्लुटुथ स्क्यानिङसम्बन्धी सेटिङमा गई यो सेटिङ बदल्न सक्नुहुन्छ।"</string>
     <string name="bluetooth_scan_change" msgid="1744636222637390367">"बदल्नुहोस्"</string>
-    <!-- no translation found for bluetooth_key_missing_title (8462010102528132965) -->
-    <skip />
-    <!-- no translation found for bluetooth_key_missing_message (3188093580372443815) -->
-    <skip />
+    <string name="bluetooth_key_missing_title" msgid="8462010102528132965">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> कनेक्ट गर्न सकिएन"</string>
+    <string name="bluetooth_key_missing_message" msgid="3188093580372443815">"थप विवरण हेर्न डिभाइसका सेटिङमा जानुहोस्"</string>
     <string name="bluetooth_key_missing_forget" msgid="4692006517823001013">"डिभाइस बिर्सनुहोस्"</string>
     <string name="bluetooth_key_missing_cancel" msgid="2482416446357804371">"रद्द गर्नुहोस्"</string>
-    <!-- no translation found for bluetooth_key_missing_device_settings (5512091368141961890) -->
-    <skip />
-    <!-- no translation found for bluetooth_key_missing_close (6724520133374312040) -->
+    <string name="bluetooth_key_missing_device_settings" msgid="5512091368141961890">"डिभाइसका सेटिङ"</string>
+    <string name="bluetooth_key_missing_close" msgid="6724520133374312040">"बन्द गर्नुहोस्"</string>
+    <!-- no translation found for bluetooth_key_missing_toast (8692796546000643569) -->
     <skip />
     <string name="device_details_title" msgid="1155622417516195481">"डिभाइसको विवरण"</string>
     <string name="bluetooth_device_keyboard_settings_preference_title" msgid="3411693160917620519">"किबोर्डसम्बन्धी सेटिङ"</string>
@@ -963,8 +959,7 @@
     <string name="device_details_leaudio_toggle_summary" msgid="7684848254433230809">"प्रयोगात्मक। अडियोको गुणस्तर सुधार्छ।"</string>
     <string name="device_details_battery" msgid="5466987755790847884">"ब्याट्री"</string>
     <string name="device_details_battery_charging" msgid="3464969346075775143">"ब्याट्री, चार्ज हुँदै छ"</string>
-    <!-- no translation found for device_details_key_missing_title (3568401701538114387) -->
-    <skip />
+    <string name="device_details_key_missing_title" msgid="3568401701538114387">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> रिस्टार्ट गरी हेर्नुहोस्। त्यसो गर्दा पनि भएन भने यो डिभाइस हटाउनुहोस्। तपाईंको सुरक्षाका लागि तपाईं सार्वजनिक स्थलमा नभएका बेला मात्र यसलाई फेरि कनेक्ट गर्नुहोस्।\n\nयो डिभाइस तपाईंको नजिकै छैन भने तपाईंले केही पनि गर्नु पर्दैन।"</string>
     <string name="bluetooth_unpair_dialog_forget_confirm_button" msgid="9184489424930549015">"डिभाइस बिर्सनुहोस्"</string>
     <string name="bluetooth_companion_app_remove_association_confirm_button" msgid="76323555527926915">"एप डिस्कनेक्ट गर्नुहोस्"</string>
     <string name="device_details_more_settings" msgid="950302792331611271">"थप सेटिङ"</string>
@@ -1077,8 +1072,7 @@
     <string name="wifi_show_advanced" msgid="2969378109942071741">"उन्नत विकल्पहरू"</string>
     <string name="wifi_advanced_toggle_description" msgid="7299179796727934885">"ड्रप-डाउन सूचीका उन्नत विकल्पहरू"</string>
     <string name="wifi_advanced_toggle_description_collapsed" msgid="3615140699129928913">"विस्तृत गर्नुहोस्"</string>
-    <!-- no translation found for wifi_ssid (5139273830867723030) -->
-    <skip />
+    <string name="wifi_ssid" msgid="5139273830867723030">"नेटवर्कको नाम*"</string>
     <string name="wifi_ssid_hint" msgid="1940577553241083524">" SSID हाल्नुहोस्"</string>
     <string name="wifi_security" msgid="9095934643631406913">"सुरक्षा"</string>
     <string name="wifi_hidden_network" msgid="6466834025375485596">"लुकाइएको नेटवर्क"</string>
@@ -1101,12 +1095,9 @@
     <string name="wifi_eap_user_cert" msgid="3569182430929173220">"प्रयोगकर्ता सर्टिफिकेट"</string>
     <string name="wifi_eap_identity" msgid="3629406902174137028">"पहिचान"</string>
     <string name="wifi_eap_anonymous" msgid="8630332141751267000">"अज्ञात पहिचान"</string>
-    <!-- no translation found for wifi_password (165204973532996861) -->
-    <skip />
-    <!-- no translation found for wifi_password_optional (6770706664834070705) -->
-    <skip />
-    <!-- no translation found for wifi_password_invalid (8884500804472828356) -->
-    <skip />
+    <string name="wifi_password" msgid="165204973532996861">"पासवर्ड*"</string>
+    <string name="wifi_password_optional" msgid="6770706664834070705">"पासवर्ड (ऐच्छिक)"</string>
+    <string name="wifi_password_invalid" msgid="8884500804472828356">"यो पासवर्ड अवैध छ"</string>
     <string name="wifi_show_password" msgid="6865993988238157923">"पासवर्ड देखाउनुहोस्"</string>
     <string name="wifi_ap_choose_2G" msgid="1436802195991542016">"2.4 GHz ब्यान्ड"</string>
     <string name="wifi_ap_prefer_5G" msgid="2520628479818369902">"५.० GHz ब्यान्ड भए राम्रो"</string>
@@ -1172,8 +1163,7 @@
     <string name="wifi_scan_always_turn_on_message_unknown" msgid="4903345360745717385">"लोकेसनको सटीकता सुधार गर्न र अन्य प्रायोजनहरूका लागि, एउटा अज्ञात एप Wi-Fi निष्क्रिय हुँदा समेत नेटवर्क स्क्यान गर्न चाहन्छ।\n\nस्क्यान गर्न चाहने सबै एपहरूलाई अनुमति दिने हो?"</string>
     <string name="wifi_scan_always_confirm_allow" msgid="4154200627800959777">"अनुमति दिनुहोस्"</string>
     <string name="wifi_scan_always_confirm_deny" msgid="6997087934558839256">"अस्वीकार गर्नुहोस्"</string>
-    <!-- no translation found for wifi_field_required (6312381745503042588) -->
-    <skip />
+    <string name="wifi_field_required" msgid="6312381745503042588">"*अनिवार्य"</string>
     <string name="no_internet_access_text" msgid="3611993143350310936">"यो नेटवर्कसँग इन्टरनेटमाथि पहुँच छैन। जडान भइरहने हो?"</string>
     <string name="partial_connectivity_text" msgid="8874614799723694554">"इन्टरनेट जडान सीमित हुँदा कतिपय एप तथा सेवाहरूले काम नगर्न सक्छन्। अघि बढ्नुहोस्"</string>
     <string name="no_internet_access_remember" msgid="5113610157731269258">"यस नेटवर्कको लागि फेरि नसोध्नुहोस्"</string>
@@ -1392,6 +1382,8 @@
     <string name="night_display_not_currently_on" msgid="6600205753103093827">"रात्रि प्रकाश हाल सक्रिय छैन"</string>
     <string name="twilight_mode_location_off_dialog_message" msgid="4559150893687124801">"सूर्यास्त र सूर्योदयको समय निर्धारण गर्न डिभाइसको लोकेसन सर्भिस अन गर्नु पर्ने हुन्छ।"</string>
     <string name="twilight_mode_launch_location" msgid="7799112373591153956">"लोकेसन सेटिङ"</string>
+    <!-- no translation found for twilight_mode_pending_location (6829434234071614405) -->
+    <skip />
     <string name="dark_ui_activation_on_manual" msgid="1541006734577325234">"अहिले नै अन गर्नुहोस्"</string>
     <string name="dark_ui_activation_off_manual" msgid="2395333709291250065">"अहिले नै अफ गर्नुहोस्"</string>
     <string name="dark_ui_activation_on_auto" msgid="4824339634784765049">"सूर्योदयसम्म अन गर्नुहोस्"</string>
@@ -2129,7 +2121,8 @@
     <string name="trackpad_bottom_right_tap_title" msgid="230337692279220068">"पुछारको दायाँ कुनामा क्लिक गर्ने"</string>
     <string name="trackpad_bottom_right_tap_summary" msgid="4467915480282133447">"थप विकल्प हेर्न टचप्याडको पुछारको दायाँ कुनामा क्लिक गर्नुहोस्"</string>
     <string name="trackpad_pointer_speed" msgid="5672221910698079303">"कर्सरको गति"</string>
-    <string name="three_finger_tap_preference_title" msgid="3779242412749283386">"३ वटा औँलाले ट्याप गरेपछि हुने कारबाही कस्टमाइज गर्नुहोस्"</string>
+    <!-- no translation found for three_finger_tap_preference_title (1836080810837854140) -->
+    <skip />
     <string name="touchpad_acceleration_title" msgid="176627555191021888">"टचप्याडको गति"</string>
     <string name="touchpad_acceleration_summary" msgid="8057075483967535793">"तपाईंले टचप्याडमा औँला अझ छिटो चलाउनुभयो भने कर्सर अझ टाढासम्म जान सक्छ"</string>
     <string name="pointer_fill_style" msgid="8794616790175016092">"पोइन्टरको रङ"</string>
@@ -2146,7 +2139,8 @@
     <string name="trackpad_touch_gesture" msgid="8641725062131922497">"टचप्याड जेस्चरका बारेमा जानकारी"</string>
     <string name="keywords_touchpad" msgid="8159846254066666032">"ट्र्याकप्याड, ट्र्याक प्याड, माउस, कर्सर, स्क्रोल, स्वाइप, राइट क्लिक, क्लिक, पोइन्टर"</string>
     <string name="keywords_trackpad_bottom_right_tap" msgid="1285062446073929305">"राइट क्लिक, ट्याप"</string>
-    <string name="three_finger_tap_middle_click" msgid="1759914275939765929">"माउसको बिचमा रहेको क्लिक गर्ने बटन"</string>
+    <!-- no translation found for three_finger_tap_middle_click (7898931632908866867) -->
+    <skip />
     <string name="three_finger_tap_launch_gemini" msgid="4030401656711588982">"सहायक सुरु गर्नुहोस्"</string>
     <string name="three_finger_tap_go_home" msgid="6526301745535089812">"होममा जानुहोस्"</string>
     <string name="three_finger_tap_go_back" msgid="2898205524575684271">"पछाडि जानुहोस्"</string>
@@ -4421,8 +4415,7 @@
     <string name="disconnected" msgid="3469373726996129247">"कनेक्ट भएको छैन"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"कनेक्ट भएको छैन"</string>
     <string name="apps_summary" msgid="4007416751775414252">"<xliff:g id="COUNT">%1$d</xliff:g> एपहरू इन्स्टल गरियो"</string>
-    <!-- no translation found for storage_toplevel_summary (6708203706751754934) -->
-    <skip />
+    <string name="storage_toplevel_summary" msgid="6708203706751754934">"<xliff:g id="PERCENTAGE">%1$s</xliff:g> प्रयोग गरिएको छ - <xliff:g id="FREE_SPACE">%2$s</xliff:g> खाली छ"</string>
     <string name="display_dashboard_summary" msgid="1599453894989339454">"अँध्यारो थिम, फन्टको आकार, चमक"</string>
     <string name="memory_summary" msgid="8221954450951651735">"<xliff:g id="TOTAL_MEMORY">%2$s</xliff:g> मध्ये औसत <xliff:g id="USED_MEMORY">%1$s</xliff:g> प्रयोग भएको छ"</string>
     <string name="users_summary" msgid="8473589474976307510">"<xliff:g id="USER_NAME">%1$s</xliff:g> का रूपमा साइन इन गरिएको छ"</string>
@@ -4445,11 +4438,11 @@
     <string name="admin_profile_owner_user_message" msgid="4929926887231544950">"तपाईंको प्रशासकले यस प्रयोगकर्तासँग सम्बन्धित एप तथा डेटाका साथै सेटिङ, अनुमति, संस्थागत पहुँच, नेटवर्क सम्बन्धी गतिविधि र यस डिभाइसको स्थानसम्बन्धी जानकारीको अनुगमन र व्यवस्थापन गर्न सक्छ।"</string>
     <string name="admin_device_owner_message" msgid="5503131744126520590">"तपाईंको प्रशासकले यस यन्त्रसँग सम्बन्धित एप र डेटाका साथै सेटिङ, अनुमति, संस्थागत पहुँच, नेटवर्क सम्बन्धी गतिविधि, र यस डिभाइसको स्थानसम्बन्धी जानकारीको अनुगमन र व्यवस्थापन गर्न सक्छ।"</string>
     <string name="admin_financed_message" msgid="1156197630834947884">"तपाईंको डिभाइसका एड्मिनले यो डिभाइससँग सम्बन्धित डेटा प्रयोग गर्न, एपहरू व्यवस्थापन गर्न र यी डिभाइसहरूको सेटिङ बदल्न सक्छ।"</string>
-    <string name="disabled_by_advanced_protection_title" msgid="9051476417559262469">"उन्नत सुरक्षाद्वारा प्रतिबन्धित"</string>
-    <string name="disabled_by_advanced_protection_setting_is_on_message" msgid="4242986779932956593">"तपाईंको सुरक्षाका लागि, उन्नत सुरक्षाले यो सेटिङ सक्रिय राख्न आवश्यक छ"</string>
-    <string name="disabled_by_advanced_protection_setting_is_off_message" msgid="7777487013672230696">"तपाईंको सुरक्षाका लागि, उन्नत सुरक्षाले यो सेटिङ निष्क्रिय राख्न आवश्यक छ"</string>
-    <string name="disabled_by_advanced_protection_action_message" msgid="7164789633582857150">"तपाईंको सुरक्षाका लागि, उन्नत सुरक्षाले यो कार्य रोक्छ"</string>
-    <string name="disabled_by_advanced_protection_wep_action_message" msgid="239574547298386495">"यो नेटवर्कले तपाईंको डेटा जोखिममा पार्न सक्ने पुरानो इन्क्रिप्सन विधि WEP प्रयोग गर्छ। WEP जडानहरू उन्नत सुरक्षाद्वारा अवरुद्ध छन्।"</string>
+    <string name="disabled_by_advanced_protection_title" msgid="9051476417559262469">"सुरक्षासम्बन्धी उन्नत सुविधाले प्रतिबन्ध लगाएको"</string>
+    <string name="disabled_by_advanced_protection_setting_is_on_message" msgid="4242986779932956593">"तपाईंको सुरक्षाका लागि सुरक्षासम्बन्धी उन्नत सुविधाले यो सेटिङ अन नै राख्नु पर्ने हुन्छ"</string>
+    <string name="disabled_by_advanced_protection_setting_is_off_message" msgid="7777487013672230696">"तपाईंको सुरक्षाका लागि, उन्नत सुरक्षाले यो सेटिङ अफ गर्नु पर्ने हुन्छ।"</string>
+    <string name="disabled_by_advanced_protection_action_message" msgid="7164789633582857150">"तपाईंको सुरक्षाका लागि सुरक्षासम्बन्धी उन्नत सुविधाले यो कारबाही रोक्छ"</string>
+    <string name="disabled_by_advanced_protection_wep_action_message" msgid="239574547298386495">"तपाईंको डेटा जोखिममा पार्न सक्ने पुरानो इन्क्रिप्सन विधि WEP प्रयोग गर्छ। उन्नत सुरक्षाले WEP कनेक्सनहरू ब्लक गर्छ।"</string>
     <string name="disabled_by_advanced_protection_help_button_title" msgid="6539346613660731777">"सेटिङहरू"</string>
     <string name="condition_turn_off" msgid="402707350778441939">"बन्द गर्नुहोस्"</string>
     <string name="condition_turn_on" msgid="3911077299444314791">"अन गर्नुहोस्"</string>
@@ -5045,16 +5038,13 @@
     <string name="roaming_alert_title" msgid="9052791521868787985">"डेटा रोमिङ अन गर्ने हो?"</string>
     <string name="roaming_check_price_warning" msgid="5876977438036791361">"मूल्यसम्बन्धी जानकारीका लागि आफ्नो नेटवर्क प्रदायकलाई सोध्नुहोस्।"</string>
     <string name="mobile_network_mode_error" msgid="9222056129897416074">"अमान्य नेटवर्क मोड <xliff:g id="NETWORKMODEID">%1$d</xliff:g>। बेवास्ता गर्नुहोस्।"</string>
-    <!-- no translation found for satellite_setting (4650503806634496443) -->
-    <skip />
+    <string name="satellite_setting" msgid="4650503806634496443">"स्याटलाइट कनेक्टिभिटी"</string>
     <string name="satellite_setting_enabled_summary" msgid="3554127722727530845">"स्याटलाइटमार्फत टेक्स्ट म्यासेजहरू पठाउनुहोस् र प्राप्त गर्नुहोस्। यो सुविधा तपाईंको खातामा उपलब्ध छ।"</string>
     <string name="satellite_setting_disabled_summary" msgid="8428393986403708690">"स्याटलाइटमार्फत टेक्स्ट म्यासेजहरू पठाउनुहोस् र प्राप्त गर्नुहोस्। यो सुविधा तपाईंको खातामार्फत प्रयोग गर्न मिल्दैन।"</string>
     <string name="satellite_setting_summary_without_entitlement" msgid="5284998840770992554">"स्याटलाइटमार्फत टेक्स्ट म्यासेजहरू पठाउनुहोस् र प्राप्त गर्नुहोस्। यस सम्बन्धमा विस्तृत विवरण प्राप्त गर्न आफ्नो सेवा प्रदायकलाई सम्पर्क गर्नुहोस्।"</string>
     <string name="keywords_satellite_setting" msgid="613553612424945946">"स्याटलाइटमार्फत म्यासेज पठाउने सुविधा, स्याटलाइट कनेक्टिभिटी"</string>
-    <!-- no translation found for category_name_about_satellite_connectivity (3971142716898783631) -->
-    <skip />
-    <!-- no translation found for description_about_satellite_setting (5539359064330584941) -->
-    <skip />
+    <string name="category_name_about_satellite_connectivity" msgid="3971142716898783631">"स्याटलाइट कनेक्टिभिटीका बारेमा जानकारी"</string>
+    <string name="description_about_satellite_setting" msgid="5539359064330584941">"तपाईं कुनै योग्य <xliff:g id="CARRIER_NAME">%1$s</xliff:g> खाता प्रयोग गरेर स्याटलाइटमार्फत टेक्स्ट म्यासेज पठाउन तथा प्राप्त गर्न र केही एप प्रयोग गर्न सक्नुहुन्छ"</string>
     <string name="category_title_your_satellite_plan" msgid="8169426217950247126">"तपाईंको <xliff:g id="CARRIER_NAME">%1$s</xliff:g> खाता"</string>
     <string name="title_have_satellite_plan" msgid="2048372355699977947">"स्याटलाइटमार्फत म्यासेज पठाउने सुविधा तपाईंको खातामा समावेश गरिएको हुन्छ"</string>
     <string name="title_no_satellite_plan" msgid="2876056203035197505">"स्याटलाइटमार्फत म्यासेज पठाउने सुविधा तपाईंको खातामा समावेश गरिएको हुँदैन"</string>
@@ -5068,14 +5058,27 @@
     <string name="title_supported_service_for_manual_type" msgid="6009284624466359864">"स्याटलाइटमा कनेक्ट गर्न दिइएका चरणहरूको पालना गर्नुहोस्"</string>
     <string name="summary_supported_service" msgid="4320535903444834786">"तपाईं आपत्‌कालीन सेवालगायत सबै जनालाई टेक्स्ट म्यासेज पठाउन सक्नुहुन्छ। तपाईंको फोन मोबाइल नेटवर्क उपलब्ध भएका बेला उक्त नेटवर्कमा रिकनेक्ट हुने छ।"</string>
     <string name="summary_supported_service_for_manual_type" msgid="2147958362763058271">"तपाईंको फोन कनेक्ट भएपछि तपाईं आपत्कालीन सेवाका सबै जनालाई टेक्स्ट म्यासेज पठाउन सक्नुहुन्छ।"</string>
-    <string name="satellite_setting_summary_more_information" msgid="276312352285564071">"स्याटलाइट कनेक्सन केही क्षेत्रहरूमा मात्र उपलब्ध छ र यसको गति सुस्त हुन सक्छ। मौसम र निश्चित संरचनाहरूका कारणले गर्दा यो कनेक्सनमा असर पर्न सक्छ। स्याटलाइटमार्फत कल गर्ने सुविधा उपलब्ध छैन। आपत्कालीन कल अझै पनि कनेक्ट हुन सक्छ।\n\nखातामा गरिएका परिवर्तनहरू सेटिङमा देखिन केही समय लाग्न सक्छ। यस सम्बन्धमा विस्तृत जानकारी प्राप्त गर्न <xliff:g id="CARRIER_NAME">%1$s</xliff:g> लाई सम्पर्क गर्नुहोस्।"</string>
-    <string name="satellite_setting_summary_more_information_no_emergency_messaging" msgid="2090170250936862158">"स्याटलाइट कनेक्सन केही क्षेत्रहरूमा मात्र उपलब्ध छ र यसको गति सुस्त हुन सक्छ। मौसम र निश्चित संरचनाहरूका कारणले गर्दा यो कनेक्सनमा असर पर्न सक्छ। स्याटलाइटमार्फत कल गर्ने सुविधा उपलब्ध छैन। आपत्कालीन कल गर्ने सुविधा अझै पनि कनेक्ट हुन सक्छ। आपत्कालीन सेवाहरू प्रयोग गरी टेक्स्ट म्यासेज पठाउने सुविधा सबै क्षेत्रहरूमा उपलब्ध नहुन सक्छ।\n\nखातामा गरिएका परिवर्तनहरू सेटिङमा देखिन केही समय लाग्न सक्छ। यस सम्बन्धमा विस्तृत जानकारी प्राप्त गर्न <xliff:g id="CARRIER_NAME">%1$s</xliff:g> लाई सम्पर्क गर्नुहोस्।"</string>
-    <!-- no translation found for more_about_satellite_messaging (5358981088419444073) -->
+    <!-- no translation found for satellite_footer_content_section_0 (4169483813004415556) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_1 (7925931577373229601) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_2 (7699185178461362541) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_3 (4652426135622555607) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_4 (2294227482962815751) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_5 (3053256489735265540) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_6 (1448633393918612418) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_7 (5524773673918954918) -->
+    <skip />
+    <!-- no translation found for more_about_satellite_connectivity (9110502891919936054) -->
     <skip />
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"<xliff:g id="FUNCTION">%1$s</xliff:g> अन गर्न सकिँदैन"</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"<xliff:g id="FUNCTION">%1$s</xliff:g> अन गर्न सर्वप्रथम स्याटलाइट कनेक्सन अन्त्य गर्नुहोस्।"</string>
-    <!-- no translation found for category_title_satellite_connectivity (7740500012311192133) -->
-    <skip />
+    <string name="category_title_satellite_connectivity" msgid="7740500012311192133">"स्याटलाइट"</string>
     <string name="title_satellite_setting_connectivity" msgid="488626710934668313">"स्याटलाइट कनेक्टिभिटी"</string>
     <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"स्याटलाइट कनेक्टिभिटी"</string>
     <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"स्याटलाइटमार्फत म्यासेज पठाउने सुविधा"</string>
@@ -5166,7 +5169,8 @@
     <string name="switch_sim_dialog_no_switch_text" msgid="7053939850026876088">"पछि मोबाइल डेटा, कल गर्ने सुविधा र SMS सेवा प्रयोग गर्नु परेमा आफ्नो नेटवर्कका सेटिङमा जानुहोस्"</string>
     <string name="sim_card_label" msgid="6263064316075963775">"SIM"</string>
     <string name="erase_sim_dialog_title" msgid="4742077437653028326">"यो eSIM मेटाउने हो?"</string>
-    <string name="erase_sim_dialog_text" msgid="1406141218170595272">"यसले यो डिभाइसबाट <xliff:g id="CARRIER_NAME_A">%1$s</xliff:g> को सेवा हटाउँछ तर तपाईंको <xliff:g id="CARRIER_NAME_B">%1$s</xliff:g> सम्बन्धी योजना भने रद्द हुने छैन।"</string>
+    <!-- no translation found for erase_sim_dialog_text (3982216582200709197) -->
+    <skip />
     <string name="erase_sim_confirm_button" msgid="8309115684335320541">"मेट्नुहोस्"</string>
     <string name="erasing_sim" msgid="4237180547590463930">"eSIM मेटाइँदै छ…"</string>
     <string name="erase_sim_fail_title" msgid="1445700500168357303">"eSIM मेटाउन सकिएन"</string>
@@ -5426,10 +5430,8 @@
     <string name="smart_forwarding_input_mdn_dialog_title" msgid="7542216086697868415">"फोन नम्बर हाल्नुहोस्"</string>
     <string name="smart_forwarding_missing_mdn_text" msgid="2907314684242542226">"फोन नम्बर हालिएको छैन।"</string>
     <string name="smart_forwarding_missing_alert_dialog_text" msgid="7870419247987316112">"ठिक छ"</string>
-    <!-- no translation found for enable_2g_title (5657132300321750181) -->
-    <skip />
-    <!-- no translation found for enable_2g_summary (6317192326100541563) -->
-    <skip />
+    <string name="enable_2g_title" msgid="5657132300321750181">"2G नेटवर्कको सुरक्षा"</string>
+    <string name="enable_2g_summary" msgid="6317192326100541563">"2G नेटवर्कहरू कम सुरक्षित हुने भएकाले त्यस्ता नेटवर्क प्रयोग गर्दैन। तपाईंले यो सुविधा अन गर्नुभयो भने केही ठाउँको कनेक्टिभिटीमा असर पर्न सक्छ। आपत्कालीन कल गर्न भने कहिले पनि रोक लगाइँदैन।"</string>
     <string name="enable_2g_summary_disabled_carrier" msgid="8141118453219482762">"<xliff:g id="CARRIER_NAME_2G">%1$s</xliff:g> को सेवा लिन 2G चाहिन्छ"</string>
     <string name="require_cellular_encryption_title" msgid="6087085031703089235">"इन्क्रिप्ट गरिएका नेटवर्क मात्र प्रयोग गर्न दिनुहोस्"</string>
     <string name="require_cellular_encryption_summary" msgid="6090569065420631457">"यो बढी सुरक्षित छ तर केही लोकेसनमा तपाईंको मोबाइल नेटवर्क कनेक्सनले राम्रोसँग काम नगर्न सक्छ। आपत्‌कालीन कल गर्न भने कहिले पनि रोक लगाइँदैन।"</string>

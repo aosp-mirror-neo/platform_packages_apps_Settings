@@ -949,6 +949,8 @@
     <skip />
     <!-- no translation found for bluetooth_key_missing_close (6724520133374312040) -->
     <skip />
+    <!-- no translation found for bluetooth_key_missing_toast (8692796546000643569) -->
+    <skip />
     <string name="device_details_title" msgid="1155622417516195481">"Detalles del dispositivo"</string>
     <string name="bluetooth_device_keyboard_settings_preference_title" msgid="3411693160917620519">"Ajustes del teclado"</string>
     <string name="bluetooth_device_more_settings_preference_title" msgid="6034482566541746500">"Más ajustes"</string>
@@ -1077,8 +1079,7 @@
     <string name="wifi_show_advanced" msgid="2969378109942071741">"Opciones avanzadas"</string>
     <string name="wifi_advanced_toggle_description" msgid="7299179796727934885">"Lista desplegable de opciones avanzadas"</string>
     <string name="wifi_advanced_toggle_description_collapsed" msgid="3615140699129928913">"mostrar"</string>
-    <!-- no translation found for wifi_ssid (5139273830867723030) -->
-    <skip />
+    <string name="wifi_ssid" msgid="5139273830867723030">"Nombre de red*"</string>
     <string name="wifi_ssid_hint" msgid="1940577553241083524">"Introduce el SSID"</string>
     <string name="wifi_security" msgid="9095934643631406913">"Seguridad"</string>
     <string name="wifi_hidden_network" msgid="6466834025375485596">"Red oculta"</string>
@@ -1101,12 +1102,10 @@
     <string name="wifi_eap_user_cert" msgid="3569182430929173220">"Certificado de usuario"</string>
     <string name="wifi_eap_identity" msgid="3629406902174137028">"Identidad"</string>
     <string name="wifi_eap_anonymous" msgid="8630332141751267000">"Identidad anónima"</string>
-    <!-- no translation found for wifi_password (165204973532996861) -->
-    <skip />
+    <string name="wifi_password" msgid="165204973532996861">"Contraseña*"</string>
     <!-- no translation found for wifi_password_optional (6770706664834070705) -->
     <skip />
-    <!-- no translation found for wifi_password_invalid (8884500804472828356) -->
-    <skip />
+    <string name="wifi_password_invalid" msgid="8884500804472828356">"La contraseña no es válida"</string>
     <string name="wifi_show_password" msgid="6865993988238157923">"Mostrar contraseña"</string>
     <string name="wifi_ap_choose_2G" msgid="1436802195991542016">"Banda de 2,4 GHz"</string>
     <string name="wifi_ap_prefer_5G" msgid="2520628479818369902">"Banda de 5,0 GHz (preferida)"</string>
@@ -1172,8 +1171,7 @@
     <string name="wifi_scan_always_turn_on_message_unknown" msgid="4903345360745717385">"Para mejorar la precisión de la ubicación y para otros fines, una aplicación quiere activar la búsqueda de redes aunque el Wi‑Fi esté desactivado.\n\n¿Permitir que todas las apps puedan hacerlo?"</string>
     <string name="wifi_scan_always_confirm_allow" msgid="4154200627800959777">"Permitir"</string>
     <string name="wifi_scan_always_confirm_deny" msgid="6997087934558839256">"Denegar"</string>
-    <!-- no translation found for wifi_field_required (6312381745503042588) -->
-    <skip />
+    <string name="wifi_field_required" msgid="6312381745503042588">"* obligatorio"</string>
     <string name="no_internet_access_text" msgid="3611993143350310936">"Esta red no tiene acceso a Internet. ¿Quieres mantener la conexión?"</string>
     <string name="partial_connectivity_text" msgid="8874614799723694554">"Algunas apps y servicios no funcionan por la conectividad limitada. ¿Quieres usarla de todos modos?"</string>
     <string name="no_internet_access_remember" msgid="5113610157731269258">"No volver a preguntar por esta red"</string>
@@ -1392,6 +1390,8 @@
     <string name="night_display_not_currently_on" msgid="6600205753103093827">"Luz nocturna desactivada"</string>
     <string name="twilight_mode_location_off_dialog_message" msgid="4559150893687124801">"Se necesita acceder a la ubicación del dispositivo para determinar la hora de la salida y la puesta de sol."</string>
     <string name="twilight_mode_launch_location" msgid="7799112373591153956">"Ajustes de ubicación"</string>
+    <!-- no translation found for twilight_mode_pending_location (6829434234071614405) -->
+    <skip />
     <string name="dark_ui_activation_on_manual" msgid="1541006734577325234">"Activar ahora"</string>
     <string name="dark_ui_activation_off_manual" msgid="2395333709291250065">"Desactivar"</string>
     <string name="dark_ui_activation_on_auto" msgid="4824339634784765049">"Activar hasta el amanecer"</string>
@@ -2129,7 +2129,8 @@
     <string name="trackpad_bottom_right_tap_title" msgid="230337692279220068">"Clic en la esquina inferior derecha"</string>
     <string name="trackpad_bottom_right_tap_summary" msgid="4467915480282133447">"Haz clic en la esquina inferior derecha del panel táctil para ver más opciones"</string>
     <string name="trackpad_pointer_speed" msgid="5672221910698079303">"Velocidad del cursor"</string>
-    <string name="three_finger_tap_preference_title" msgid="3779242412749283386">"Personalizar el toque con 3 dedos"</string>
+    <!-- no translation found for three_finger_tap_preference_title (1836080810837854140) -->
+    <skip />
     <string name="touchpad_acceleration_title" msgid="176627555191021888">"Aceleración del panel táctil"</string>
     <string name="touchpad_acceleration_summary" msgid="8057075483967535793">"Si haces movimientos más rápidos en el panel táctil, el cursor se moverá más lejos"</string>
     <string name="pointer_fill_style" msgid="8794616790175016092">"Color del puntero"</string>
@@ -2146,7 +2147,8 @@
     <string name="trackpad_touch_gesture" msgid="8641725062131922497">"Consultar gestos del panel táctil"</string>
     <string name="keywords_touchpad" msgid="8159846254066666032">"panel táctil, ratón, cursor, desplazar, deslizar, hacer clic con el botón derecho, clic, puntero"</string>
     <string name="keywords_trackpad_bottom_right_tap" msgid="1285062446073929305">"hacer clic con el botón derecho, tocar"</string>
-    <string name="three_finger_tap_middle_click" msgid="1759914275939765929">"Botón de clic central del ratón"</string>
+    <!-- no translation found for three_finger_tap_middle_click (7898931632908866867) -->
+    <skip />
     <string name="three_finger_tap_launch_gemini" msgid="4030401656711588982">"Iniciar el Asistente"</string>
     <string name="three_finger_tap_go_home" msgid="6526301745535089812">"Ir a Inicio"</string>
     <string name="three_finger_tap_go_back" msgid="2898205524575684271">"Volver"</string>
@@ -5068,9 +5070,23 @@
     <string name="title_supported_service_for_manual_type" msgid="6009284624466359864">"Sigue los pasos para conectarte al satélite"</string>
     <string name="summary_supported_service" msgid="4320535903444834786">"Puedes intercambiar mensajes de texto con cualquiera, incluidos los servicios de emergencias. Tu teléfono se volverá a conectar a una red móvil cuando esté disponible."</string>
     <string name="summary_supported_service_for_manual_type" msgid="2147958362763058271">"Cuando tu teléfono se conecte, podrás enviar mensajes de texto a cualquier persona, incluidos los servicios de emergencias."</string>
-    <string name="satellite_setting_summary_more_information" msgid="276312352285564071">"Las conexiones por satélite pueden ser más lentas y solo están disponibles en algunas zonas. Las condiciones meteorológicas y algunas estructuras pueden afectar a la conexión. Las llamadas por satélite no están disponibles. Puede que las llamadas de emergencia sí funcionen.\n\nLos cambios en tu cuenta pueden tardar un poco en aparecer en Ajustes. Ponte en contacto con <xliff:g id="CARRIER_NAME">%1$s</xliff:g> para saber más."</string>
-    <string name="satellite_setting_summary_more_information_no_emergency_messaging" msgid="2090170250936862158">"Las conexiones por satélite pueden ser más lentas y solo están disponibles en algunas zonas. Las condiciones meteorológicas y algunas estructuras pueden afectar a la conexión. Las llamadas por satélite no están disponibles. Es posible que las llamadas de emergencia sigan estando disponibles. Puede que no se puedan enviar mensajes de texto a los servicios de emergencias en determinadas zonas.\n\nLos cambios en tu cuenta pueden tardar un poco en aparecer en Ajustes. Ponte en contacto con <xliff:g id="CARRIER_NAME">%1$s</xliff:g> para saber más."</string>
-    <!-- no translation found for more_about_satellite_messaging (5358981088419444073) -->
+    <!-- no translation found for satellite_footer_content_section_0 (4169483813004415556) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_1 (7925931577373229601) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_2 (7699185178461362541) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_3 (4652426135622555607) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_4 (2294227482962815751) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_5 (3053256489735265540) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_6 (1448633393918612418) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_7 (5524773673918954918) -->
+    <skip />
+    <!-- no translation found for more_about_satellite_connectivity (9110502891919936054) -->
     <skip />
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"No se puede activar el <xliff:g id="FUNCTION">%1$s</xliff:g>"</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"Para activar el <xliff:g id="FUNCTION">%1$s</xliff:g>, primero finaliza la conexión por satélite"</string>
@@ -5166,7 +5182,8 @@
     <string name="switch_sim_dialog_no_switch_text" msgid="7053939850026876088">"Para usar datos móviles, funciones de llamada y SMS más adelante, ve a los ajustes de tu red"</string>
     <string name="sim_card_label" msgid="6263064316075963775">"SIM"</string>
     <string name="erase_sim_dialog_title" msgid="4742077437653028326">"¿Borrar esta eSIM?"</string>
-    <string name="erase_sim_dialog_text" msgid="1406141218170595272">"Se eliminará el servicio de <xliff:g id="CARRIER_NAME_A">%1$s</xliff:g> de este dispositivo, pero el plan de <xliff:g id="CARRIER_NAME_B">%1$s</xliff:g> no se cancelará."</string>
+    <!-- no translation found for erase_sim_dialog_text (3982216582200709197) -->
+    <skip />
     <string name="erase_sim_confirm_button" msgid="8309115684335320541">"Borrar"</string>
     <string name="erasing_sim" msgid="4237180547590463930">"Borrando eSIM…"</string>
     <string name="erase_sim_fail_title" msgid="1445700500168357303">"No se puede borrar la eSIM"</string>
@@ -5426,10 +5443,8 @@
     <string name="smart_forwarding_input_mdn_dialog_title" msgid="7542216086697868415">"Introducir número de teléfono"</string>
     <string name="smart_forwarding_missing_mdn_text" msgid="2907314684242542226">"Falta el número de teléfono."</string>
     <string name="smart_forwarding_missing_alert_dialog_text" msgid="7870419247987316112">"Aceptar"</string>
-    <!-- no translation found for enable_2g_title (5657132300321750181) -->
-    <skip />
-    <!-- no translation found for enable_2g_summary (6317192326100541563) -->
-    <skip />
+    <string name="enable_2g_title" msgid="5657132300321750181">"Protección de redes 2G"</string>
+    <string name="enable_2g_summary" msgid="6317192326100541563">"Evita las redes 2G, que son menos seguras. Esto puede limitar la conectividad en algunos lugares. Las llamadas de emergencia están permitidas siempre."</string>
     <string name="enable_2g_summary_disabled_carrier" msgid="8141118453219482762">"<xliff:g id="CARRIER_NAME_2G">%1$s</xliff:g> necesita una conexión 2G para estar disponible"</string>
     <string name="require_cellular_encryption_title" msgid="6087085031703089235">"Permitir solo redes cifradas"</string>
     <string name="require_cellular_encryption_summary" msgid="6090569065420631457">"Es una opción más segura, pero puede limitar tu conexión de red móvil en algunas ubicaciones. Las llamadas de emergencia están permitidas siempre."</string>
@@ -5616,7 +5631,7 @@
     <string name="sim_category_converted_sim" msgid="8575548015816988908">"Convertida a eSIM. Quitar y descartar."</string>
     <string name="sync_across_devices_title" msgid="3447757705383089345">"Sincronizar dispositivos"</string>
     <string name="device_diagnostics_title" msgid="2914523189695727897">"Diagnóstico del dispositivo"</string>
-    <string name="audio_sharing_title" msgid="4144157137502923821">"Uso compartido de audio"</string>
+    <string name="audio_sharing_title" msgid="4144157137502923821">"Compartir audio"</string>
     <string name="audio_sharing_switch_title" msgid="7052827328670825701">"Compartir audio"</string>
     <string name="calls_and_alarms_device_title" msgid="6993559028175454198">"Llamadas y alarmas"</string>
     <string name="audio_sharing_description" msgid="1660255584523640628">"Permite que otros usuarios escuchen tu contenido multimedia contigo. Tendrán que tener sus propios auriculares compatibles con LE Audio."</string>
@@ -5647,8 +5662,8 @@
     <string name="audio_sharing_share_with_button_label" msgid="4146194430380237357">"Compartir con <xliff:g id="DEVICE_NAME">%1$s</xliff:g>"</string>
     <string name="audio_sharing_close_button_label" msgid="2666534149100498574">"Cerrar"</string>
     <string name="audio_sharing_dialog_connect_device_content" msgid="2873230647152283734">"Conecta otro par de auriculares compatibles o comparte tu nombre y contraseña de transmisión con la otra persona"</string>
-    <string name="audio_sharing_dialog_qr_code_content" msgid="2246980817848351361">"Permite que otras personas escaneen este código y escuchen tu audio\n\nNombre de la emisión: <xliff:g id="STREAM_NAME">%1$s</xliff:g>\nContraseña: <xliff:g id="PASSWORD">%2$s</xliff:g>"</string>
-    <string name="audio_sharing_dialog_qr_code_content_no_password" msgid="7824076083031650113">"Permite que otras personas escaneen este código y escuchen tu audio\n\nNombre de la emisión: <xliff:g id="STREAM_NAME">%1$s</xliff:g>"</string>
+    <string name="audio_sharing_dialog_qr_code_content" msgid="2246980817848351361">"Pásales este código a otras personas para que escuchen tu audio\n\nNombre de la emisión: <xliff:g id="STREAM_NAME">%1$s</xliff:g>\nContraseña: <xliff:g id="PASSWORD">%2$s</xliff:g>"</string>
+    <string name="audio_sharing_dialog_qr_code_content_no_password" msgid="7824076083031650113">"Pásales este código a otras personas para que escuchen tu audio\n\nNombre de la emisión: <xliff:g id="STREAM_NAME">%1$s</xliff:g>"</string>
     <string name="audio_sharing_dialog_pair_new_device_content" msgid="6720472590211440206">"o empareja otro par de auriculares compatibles"</string>
     <string name="audio_sharing_dialog_pair_device_content" msgid="3136997898244863470">"Empareja otro par de auriculares compatibles o comparte el código QR de tu emisión de audio con la otra persona"</string>
     <string name="audio_sharing_sharing_label" msgid="1038021053061111508">"Compartiendo audio"</string>

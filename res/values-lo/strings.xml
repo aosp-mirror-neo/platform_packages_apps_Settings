@@ -264,10 +264,8 @@
     <string name="title_regional_pref_footer" msgid="7450438024324794380">"ຫາກແອັບບໍ່ຮອງຮັບການຕັ້ງຄ່າຕາມພາກພື້ນ, ແອັບກໍຈະໃຊ້ການຕັ້ງຄ່າພາສາເລີ່ມຕົ້ນ."</string>
     <string name="desc_regional_pref_footer_learn_more" msgid="4401708653329230081">"ສຶກສາເພີ່ມເຕີມກ່ຽວກັບການຕັ້ງຄ່າພາສາ."</string>
     <string name="metric_measurement_system" msgid="7489725697268321541">"ການວັດແທກ"</string>
-    <!-- no translation found for us_measurement_system (8406695347890345490) -->
-    <skip />
-    <!-- no translation found for uk_measurement_system (1814065008707689505) -->
-    <skip />
+    <string name="us_measurement_system" msgid="8406695347890345490">"ສະຫະລັດ"</string>
+    <string name="uk_measurement_system" msgid="1814065008707689505">"ສະຫະລາຊະອານາຈັກ"</string>
     <string name="category_title_terms_of_address" msgid="4309422700380895278">"ການຕັ້ງຄ່າເພີ່ມເຕີມ"</string>
     <string name="terms_of_address_title" msgid="7338630812197476808">"ເລືອກວິທີການເອີ້ນທ່ານ"</string>
     <string name="terms_of_address_summary" msgid="7802443422612600620">"ອຸປະກອນຂອງທ່ານສາມາດປັບແຕ່ງວິທີການເອີ້ນທ່ານໃຫ້ເປັນແບບສ່ວນຕົວໄດ້"</string>
@@ -939,16 +937,13 @@
     <string name="bluetooth_scanning_on_info_message" msgid="786648535600075223">"ເມື່ອເປີດໃຊ້ Bluetooth ແລ້ວ, ອຸປະກອນຂອງທ່ານຈະສາມາດສື່ສານກັບອຸປະກອນ Bluetooth ອື່ນທີ່ຢູ່ໃກ້ຄຽງໄດ້.\n\nເພື່ອປັບປຸງປະສົບການການນຳໃຊ້ອຸປະກອນ, ແອັບ ແລະ ບໍລິການຕ່າງໆຈະຍັງສາມາດສະແກນຫາອຸປະກອນທີ່ຢູ່ໃກ້ຄຽງໄດ້ທຸກເວລາ, ເຖິງແມ່ນວ່າຈະປິດ Bluetooth ໄວ້ກໍຕາມ. ການຕັ້ງຄ່ານີ້ໃຊ້ເພື່ອເຮັດສິ່ງຕ່າງໆ ຕົວຢ່າງ: ໃຊ້ເພື່ອປັບປຸງຄຸນສົມບັດ ແລະ ບໍລິການທີ່ອ້າງອີງສະຖານທີ່ໄດ້. ທ່ານສາມາດປ່ຽນຕົວເລືອກນີ້ໄດ້ໃນການຕັ້ງຄ່າການສະແກນ Bluetooth."</string>
     <string name="bluetooth_scanning_on_info_message_auto_on_available" msgid="7792443293031247638">"ເມື່ອເປີດ Bluetooth, ອຸປະກອນຂອງທ່ານຈະສາມາດສື່ສານກັບອຸປະກອນ Bluetooth ເຄື່ອງອື່ນໆທີ່ຢູ່ໃກ້ຄຽງໄດ້. ຄຸນສົມບັດຕ່າງໆໃຊ້ Bluetooth ເຊັ່ນ: ການແຊຣ໌ດ່ວນ ແລະ ຊອກຫາອຸປະກອນຂອງຂ້ອຍ.\n\nແອັບ ແລະ ບໍລິການຕ່າງໆຈະຍັງສາມາດສະແກນຫາອຸປະກອນທີ່ຢູ່ໃກ້ຄຽງໄດ້ທຸກເວລາເຖິງແມ່ນວ່າ Bluetooth ຈະປິດຢູ່ກໍຕາມ. ການຕັ້ງຄ່ານີ້ສາມາດໃຊ້ເພື່ອເຮັດສິ່ງຕ່າງໆ ເຊັ່ນ: ເພື່ອປັບປຸງຄຸນສົມບັດ ແລະ ບໍລິການທີ່ອີງຕາມສະຖານທີ່. ທ່ານສາມາດປ່ຽນຕົວເລືອກນີ້ໄດ້ໃນການຕັ້ງຄ່າການສະແກນ Bluetooth."</string>
     <string name="bluetooth_scan_change" msgid="1744636222637390367">"ປ່ຽນ"</string>
-    <!-- no translation found for bluetooth_key_missing_title (8462010102528132965) -->
-    <skip />
-    <!-- no translation found for bluetooth_key_missing_message (3188093580372443815) -->
-    <skip />
+    <string name="bluetooth_key_missing_title" msgid="8462010102528132965">"ບໍ່ສາມາດເຊື່ອມຕໍ່ <xliff:g id="DEVICE_NAME">%1$s</xliff:g> ໄດ້"</string>
+    <string name="bluetooth_key_missing_message" msgid="3188093580372443815">"ສຳລັບລາຍລະອຽດເພີ່ມເຕີມ, ໃຫ້ໄປຫາການຕັ້ງຄ່າອຸປະກອນ"</string>
     <string name="bluetooth_key_missing_forget" msgid="4692006517823001013">"ລືມອຸປະກອນ"</string>
     <string name="bluetooth_key_missing_cancel" msgid="2482416446357804371">"ຍົກເລີກ"</string>
-    <!-- no translation found for bluetooth_key_missing_device_settings (5512091368141961890) -->
-    <skip />
-    <!-- no translation found for bluetooth_key_missing_close (6724520133374312040) -->
-    <skip />
+    <string name="bluetooth_key_missing_device_settings" msgid="5512091368141961890">"ການຕັ້ງຄ່າອຸປະກອນ"</string>
+    <string name="bluetooth_key_missing_close" msgid="6724520133374312040">"ປິດ"</string>
+    <string name="bluetooth_key_missing_toast" msgid="8692796546000643569">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> ເຊື່ອມຕໍ່ບໍ່ສຳເລັດ"</string>
     <string name="device_details_title" msgid="1155622417516195481">"ລາຍລະອຽດອຸປະກອນ"</string>
     <string name="bluetooth_device_keyboard_settings_preference_title" msgid="3411693160917620519">"ການຕັ້ງຄ່າແປ້ນພິມ"</string>
     <string name="bluetooth_device_more_settings_preference_title" msgid="6034482566541746500">"ການຕັ້ງຄ່າເພີ່ມເຕີມ"</string>
@@ -963,8 +958,7 @@
     <string name="device_details_leaudio_toggle_summary" msgid="7684848254433230809">"ທົດລອງ. ປັບປຸງຄຸນນະພາບສຽງ."</string>
     <string name="device_details_battery" msgid="5466987755790847884">"ແບັດເຕີຣີ"</string>
     <string name="device_details_battery_charging" msgid="3464969346075775143">"ແບັດເຕີຣີ, ກຳລັງສາກ"</string>
-    <!-- no translation found for device_details_key_missing_title (3568401701538114387) -->
-    <skip />
+    <string name="device_details_key_missing_title" msgid="3568401701538114387">"ລອງຣີສະຕາດ <xliff:g id="DEVICE_NAME">%1$s</xliff:g>. ຫາກບໍ່ໄດ້ຜົນ, ໃຫ້ລືມອຸປະກອນ. ເພື່ອຄວາມປອດໄພຂອງທ່ານ, ໃຫ້ຈັບຄູ່ມັນອີກຄັ້ງເມື່ອທ່ານບໍ່ໄດ້ຢູ່ໃນພື້ນທີ່ສາທາລະນະເທົ່ານັ້ນ.\n\nຫາກອຸປະກອນນີ້ບໍ່ຢູ່ໃກ້, ທ່ານບໍ່ຈຳເປັນຕ້ອງເຮັດຫຍັງ."</string>
     <string name="bluetooth_unpair_dialog_forget_confirm_button" msgid="9184489424930549015">"ລືມອຸປະກອນ"</string>
     <string name="bluetooth_companion_app_remove_association_confirm_button" msgid="76323555527926915">"ຕັດການເຊື່ອມຕໍ່ແອັບ"</string>
     <string name="device_details_more_settings" msgid="950302792331611271">"ການຕັ້ງຄ່າເພີ່ມເຕີມ"</string>
@@ -1101,8 +1095,7 @@
     <string name="wifi_eap_identity" msgid="3629406902174137028">"ການລະບຸໂຕຕົນ"</string>
     <string name="wifi_eap_anonymous" msgid="8630332141751267000">"ໂຕຕົນທີ່ບໍ່ລະບຸຊື່"</string>
     <string name="wifi_password" msgid="165204973532996861">"ລະຫັດຜ່ານ*"</string>
-    <!-- no translation found for wifi_password_optional (6770706664834070705) -->
-    <skip />
+    <string name="wifi_password_optional" msgid="6770706664834070705">"ລະຫັດຜ່ານ (ບໍ່ບັງຄັບ)"</string>
     <string name="wifi_password_invalid" msgid="8884500804472828356">"ລະຫັດຜ່ານບໍ່ຖືກຕ້ອງ"</string>
     <string name="wifi_show_password" msgid="6865993988238157923">"ສະແດງລະຫັດຜ່ານ"</string>
     <string name="wifi_ap_choose_2G" msgid="1436802195991542016">"ຄື້ນ 2.4 GHz"</string>
@@ -1388,6 +1381,8 @@
     <string name="night_display_not_currently_on" msgid="6600205753103093827">"ຕອນນີ້ບໍ່ໄດ້ເປີດໂໝດແສງກາງຄືນ"</string>
     <string name="twilight_mode_location_off_dialog_message" msgid="4559150893687124801">"ຕ້ອງໃຊ້ສະຖານທີ່ອຸປະກອນເພື່ອລະບຸເວລາຕາເວັນຕົກ ແລະ ຕາເວັນຂຶ້ນຂອງທ່ານ."</string>
     <string name="twilight_mode_launch_location" msgid="7799112373591153956">"ການຕັ້ງຄ່າສະຖານທີ່"</string>
+    <!-- no translation found for twilight_mode_pending_location (6829434234071614405) -->
+    <skip />
     <string name="dark_ui_activation_on_manual" msgid="1541006734577325234">"ເປີດດຽວນີ້"</string>
     <string name="dark_ui_activation_off_manual" msgid="2395333709291250065">"ປິດດຽວນີ້"</string>
     <string name="dark_ui_activation_on_auto" msgid="4824339634784765049">"ເປີດໄວ້ຈົນກວ່າຕາເວັນຂຶ້ນ"</string>
@@ -2125,7 +2120,8 @@
     <string name="trackpad_bottom_right_tap_title" msgid="230337692279220068">"ຄລິກຂວາລຸ່ມສຸດ"</string>
     <string name="trackpad_bottom_right_tap_summary" msgid="4467915480282133447">"ຄລິກຢູ່ແຈຂວາລຸ່ມສຸດຂອງແຜ່ນສຳຜັດເພື່ອເບິ່ງຕົວເລືອກເພີ່ມເຕີມ"</string>
     <string name="trackpad_pointer_speed" msgid="5672221910698079303">"ຄວາມໄວຂອງເຄີເຊີ"</string>
-    <string name="three_finger_tap_preference_title" msgid="3779242412749283386">"ປັບແຕ່ງການໃຊ້ 3 ນິ້ວແຕະ"</string>
+    <!-- no translation found for three_finger_tap_preference_title (1836080810837854140) -->
+    <skip />
     <string name="touchpad_acceleration_title" msgid="176627555191021888">"ການເລັ່ງຄວາມໄວແຜ່ນສຳຜັດ"</string>
     <string name="touchpad_acceleration_summary" msgid="8057075483967535793">"ການເຄື່ອນໄຫວທີ່ໄວຂຶ້ນຢູ່ແຜ່ນສໍາຜັດຂອງທ່ານຈະຍ້າຍເຄີເຊີໄປໄກຂຶ້ນ"</string>
     <string name="pointer_fill_style" msgid="8794616790175016092">"ສີຂອງຕົວຊີ້"</string>
@@ -2142,7 +2138,8 @@
     <string name="trackpad_touch_gesture" msgid="8641725062131922497">"ສຶກສາທ່າທາງຂອງແຜ່ນສຳຜັດ"</string>
     <string name="keywords_touchpad" msgid="8159846254066666032">"ແທຣັກແຜດ, ແທຣັກ ແຜດ, ເມົ້າ, ເຄີເຊີ, ເລື່ອນ, ປັດ, ຄລິກຂວາ, ຄລິກ, ຕົວຊີ້"</string>
     <string name="keywords_trackpad_bottom_right_tap" msgid="1285062446073929305">"ຄລິກຂວາ, ແຕະ"</string>
-    <string name="three_finger_tap_middle_click" msgid="1759914275939765929">"ປຸ່ມຄລິກທາງກາງຂອງເມົ້າ"</string>
+    <!-- no translation found for three_finger_tap_middle_click (7898931632908866867) -->
+    <skip />
     <string name="three_finger_tap_launch_gemini" msgid="4030401656711588982">"ເປີດໃຊ້ຜູ້ຊ່ວຍ"</string>
     <string name="three_finger_tap_go_home" msgid="6526301745535089812">"ໄປຫາໜ້າຫຼັກ"</string>
     <string name="three_finger_tap_go_back" msgid="2898205524575684271">"ກັບຄືນ"</string>
@@ -4417,8 +4414,7 @@
     <string name="disconnected" msgid="3469373726996129247">"ບໍ່ໄດ້ເຊື່ອມຕໍ່"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"ບໍ່ໄດ້ເຊື່ອມຕໍ່"</string>
     <string name="apps_summary" msgid="4007416751775414252">"ຕິດຕັ້ງ <xliff:g id="COUNT">%1$d</xliff:g> ແອັບແລ້ວ"</string>
-    <!-- no translation found for storage_toplevel_summary (6708203706751754934) -->
-    <skip />
+    <string name="storage_toplevel_summary" msgid="6708203706751754934">"ໃຊ້ໄປແລ້ວ <xliff:g id="PERCENTAGE">%1$s</xliff:g> - ເຫຼືອ <xliff:g id="FREE_SPACE">%2$s</xliff:g>"</string>
     <string name="display_dashboard_summary" msgid="1599453894989339454">"ຮູບແບບສີສັນມືດ, ຂະໜາດຟອນ, ຄວາມສະຫວ່າງ"</string>
     <string name="memory_summary" msgid="8221954450951651735">"ໂດຍສະເລ່ຍ ໃຊ້ຄວາມຈຳໄປແລ້ວ <xliff:g id="USED_MEMORY">%1$s</xliff:g> ຈາກທັງໝົດ <xliff:g id="TOTAL_MEMORY">%2$s</xliff:g>"</string>
     <string name="users_summary" msgid="8473589474976307510">"ເຂົ້າສູ່ລະບົບເປັນ <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
@@ -5041,16 +5037,13 @@
     <string name="roaming_alert_title" msgid="9052791521868787985">"ອະນຸຍາດໃຫ້ໂຣມມິງຂໍ້ມູນບໍ?"</string>
     <string name="roaming_check_price_warning" msgid="5876977438036791361">"ກະລຸນາກວດສອບລາຄາກັບຜູ້ໃຫ້ບໍລິການເຄືອຂ່າຍຂອງທ່ານ."</string>
     <string name="mobile_network_mode_error" msgid="9222056129897416074">"ໂໝດເຄືອຂ່າຍ <xliff:g id="NETWORKMODEID">%1$d</xliff:g> ບໍ່ຖືກຕ້ອງ. ບໍ່ສົນໃຈ."</string>
-    <!-- no translation found for satellite_setting (4650503806634496443) -->
-    <skip />
+    <string name="satellite_setting" msgid="4650503806634496443">"ການເຊື່ອມຕໍ່ຜ່ານດາວທຽມ"</string>
     <string name="satellite_setting_enabled_summary" msgid="3554127722727530845">"ສົ່ງ ແລະ ຮັບຂໍ້ຄວາມຜ່ານດາວທຽມ. ຮວມຢູ່ໃນບັນຊີຂອງທ່ານ."</string>
     <string name="satellite_setting_disabled_summary" msgid="8428393986403708690">"ສົ່ງ ແລະ ຮັບຂໍ້ຄວາມຜ່ານດາວທຽມ. ບໍ່ຮວມມາກັບບັນຊີຂອງທ່ານ."</string>
     <string name="satellite_setting_summary_without_entitlement" msgid="5284998840770992554">"ສົ່ງ ແລະ ຮັບຂໍ້ຄວາມຜ່ານດາວທຽມ. ກະລຸນາຕິດຕໍ່ຜູ້ໃຫ້ບໍລິການຂອງທ່ານສຳລັບລາຍລະອຽດ."</string>
     <string name="keywords_satellite_setting" msgid="613553612424945946">"ການຮັບສົ່ງຂໍ້ຄວາມຜ່ານດາວທຽມ, ການເຊື່ອມຕໍ່ຜ່ານດາວທຽມ"</string>
-    <!-- no translation found for category_name_about_satellite_connectivity (3971142716898783631) -->
-    <skip />
-    <!-- no translation found for description_about_satellite_setting (5539359064330584941) -->
-    <skip />
+    <string name="category_name_about_satellite_connectivity" msgid="3971142716898783631">"ກ່ຽວກັບການເຊື່ອມຕໍ່ຜ່ານດາວທຽມ"</string>
+    <string name="description_about_satellite_setting" msgid="5539359064330584941">"ທ່ານສາມາດສົ່ງ ແລະ ຮັບຂໍ້ຄວາມ ແລະ ໃຊ້ບາງແອັບຜ່ານດາວທຽມດ້ວຍບັນຊີ <xliff:g id="CARRIER_NAME">%1$s</xliff:g> ທີ່ມີສິດໄດ້"</string>
     <string name="category_title_your_satellite_plan" msgid="8169426217950247126">"ບັນຊີ <xliff:g id="CARRIER_NAME">%1$s</xliff:g> ຂອງທ່ານ"</string>
     <string name="title_have_satellite_plan" msgid="2048372355699977947">"ການຮັບສົ່ງຂໍ້ຄວາມຜ່ານດາວທຽມຮວມຢູ່ໃນບັນຊີຂອງທ່ານ"</string>
     <string name="title_no_satellite_plan" msgid="2876056203035197505">"ການຮັບສົ່ງຂໍ້ຄວາມຜ່ານດາວທຽມບໍ່ໄດ້ຮວມຢູ່ໃນບັນຊີຂອງທ່ານ"</string>
@@ -5064,14 +5057,18 @@
     <string name="title_supported_service_for_manual_type" msgid="6009284624466359864">"ເຮັດຕາມຂັ້ນຕອນເພື່ອເຊື່ອມຕໍ່ກັບດາວທຽມ"</string>
     <string name="summary_supported_service" msgid="4320535903444834786">"ທ່ານສາມາດສົ່ງຂໍ້ຄວາມຫາໃຜກໍໄດ້, ເຊິ່ງຮວມທັງບໍລິການສຸກເສີນ. ໂທລະສັບຂອງທ່ານຈະເຊື່ອມຕໍ່ກັບເຄືອຂ່າຍມືຖືອີກຄັ້ງເມື່ອມີໃຫ້ໃຊ້."</string>
     <string name="summary_supported_service_for_manual_type" msgid="2147958362763058271">"ຫຼັງຈາກເຊື່ອມຕໍ່ໂທລະສັບຂອງທ່ານແລ້ວ, ທ່ານສາມາດສົ່ງຂໍ້ຄວາມຫາໃຜກໍໄດ້, ເຊິ່ງຮວມທັງບໍລິການສຸກເສີນ."</string>
-    <string name="satellite_setting_summary_more_information" msgid="276312352285564071">"ການເຊື່ອມຕໍ່ດາວທຽມອາດຈະຊ້າກວ່າ ແລະ ມີສັນຍານຢູ່ບາງເຂດເທົ່ານັ້ນ. ສະພາບອາກາດ ແລະ ໂຄງສ້າງບາງຢ່າງອາດສົ່ງຜົນຕໍ່ການເຊື່ອມຕໍ່. ການໂທຜ່ານດາວທຽມບໍ່ພ້ອມໃຫ້ບໍລິການ. ການໂທສຸກເສີນອາດຍັງເຊື່ອມຕໍ່ຢູ່.\n\nລະບົບອາດໃຊ້ເວລາໄລຍະໜຶ່ງຈົນກວ່າການປ່ຽນແປງໃນບັນຊີຈະສະແດງໃນການຕັ້ງຄ່າ. ຕິດຕໍ່ <xliff:g id="CARRIER_NAME">%1$s</xliff:g> ສຳລັບລາຍລະອຽດ."</string>
-    <string name="satellite_setting_summary_more_information_no_emergency_messaging" msgid="2090170250936862158">"ການເຊື່ອມຕໍ່ດາວທຽມອາດຈະຊ້າກວ່າ ແລະ ມີສັນຍານຢູ່ບາງເຂດເທົ່ານັ້ນ. ສະພາບອາກາດ ແລະ ໂຄງສ້າງບາງຢ່າງອາດສົ່ງຜົນຕໍ່ການເຊື່ອມຕໍ່. ການໂທຜ່ານດາວທຽມບໍ່ພ້ອມໃຫ້ບໍລິການ. ການໂທສຸກເສີນອາດຍັງເຊື່ອມຕໍ່ຢູ່. ການຮັບສົ່ງຂໍ້ຄວາມກັບບໍລິການສຸກເສີນອາດບໍ່ພ້ອມໃຫ້ບໍລິການໃນບາງພື້ນທີ່.\n\nອາດໃຊ້ເວລາໄລຍະໜຶ່ງກ່ອນທີ່ການປ່ຽນແປງໃນບັນຊີຈະສະແດງໃນການຕັ້ງຄ່າ. ຕິດຕໍ່ <xliff:g id="CARRIER_NAME">%1$s</xliff:g> ສຳລັບລາຍລະອຽດ."</string>
-    <!-- no translation found for more_about_satellite_messaging (5358981088419444073) -->
-    <skip />
+    <string name="satellite_footer_content_section_0" msgid="4169483813004415556">"ຂໍ້ຄວນຈື່"</string>
+    <string name="satellite_footer_content_section_1" msgid="7925931577373229601">"ການເຊື່ອມຕໍ່ຜ່ານດາວທຽມອາດໃຊ້ເວລາດົນກວ່າປົກກະຕິ ແລະ ພ້ອມໃຫ້ບໍລິການໃນບາງພື້ນທີ່ເທົ່ານັ້ນ."</string>
+    <string name="satellite_footer_content_section_2" msgid="7699185178461362541">"ສະພາບອາກາດ ແລະ ໂຄງສ້າງບາງຢ່າງອາດສົ່ງຜົນຕໍ່ການເຊື່ອມຕໍ່ຜ່ານດາວທຽມຂອງທ່ານ."</string>
+    <string name="satellite_footer_content_section_3" msgid="4652426135622555607">"ການໂທຜ່ານດາວທຽມບໍ່ພ້ອມໃຫ້ບໍລິການ."</string>
+    <string name="satellite_footer_content_section_4" msgid="2294227482962815751">"ການໂທສຸກເສີນອາດຍັງເຊື່ອມຕໍ່ຢູ່."</string>
+    <string name="satellite_footer_content_section_5" msgid="3053256489735265540">"ຈຳເປັນຕ້ອງມີເຄືອຂ່າຍໂທລະສັບມືຖື ຫຼື Wi‑Fi ເພື່ອເບິ່ງລິ້ງພາຍນອກ."</string>
+    <string name="satellite_footer_content_section_6" msgid="1448633393918612418">"ການສົ່ງຂໍ້ຄວາມດ້ວຍບໍລິການສຸກເສີນອາດບໍ່ມີໃຫ້ໃນທຸກພື້ນທີ່."</string>
+    <string name="satellite_footer_content_section_7" msgid="5524773673918954918">"ມັນອາດໃຊ້ເວລາຄາວໜຶ່ງເພື່ອໃຫ້ການປ່ຽນແປງບັນຊີສະແດງໃນການຕັ້ງຄ່າ. ຕິດຕໍ່ <xliff:g id="CARRIER_NAME">%1$s</xliff:g> ສຳລັບລາຍລະອຽດ."</string>
+    <string name="more_about_satellite_connectivity" msgid="9110502891919936054">"ເພີ່ມເຕີມກ່ຽວກັບການເຊື່ອມຕໍ່ຜ່ານດາວທຽມ"</string>
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"ບໍ່ສາມາດເປີດ <xliff:g id="FUNCTION">%1$s</xliff:g> ໄດ້"</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"ເພື່ອເປີດ <xliff:g id="FUNCTION">%1$s</xliff:g>, ໃຫ້ສິ້ນສຸດການເຊື່ອມຕໍ່ດາວທຽມກ່ອນ"</string>
-    <!-- no translation found for category_title_satellite_connectivity (7740500012311192133) -->
-    <skip />
+    <string name="category_title_satellite_connectivity" msgid="7740500012311192133">"ດາວທຽມ"</string>
     <string name="title_satellite_setting_connectivity" msgid="488626710934668313">"ການເຊື່ອມຕໍ່ຜ່ານດາວທຽມ"</string>
     <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"ການເຊື່ອມຕໍ່ຜ່ານດາວທຽມ"</string>
     <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"ການຮັບສົ່ງຂໍ້ຄວາມຜ່ານດາວທຽມ"</string>
@@ -5162,7 +5159,8 @@
     <string name="switch_sim_dialog_no_switch_text" msgid="7053939850026876088">"ເພື່ອໃຊ້ອິນເຕີເນັດມືຖື, ຄຸນສົມບັດການໂທ ແລະ SMS ໃນພາຍຫຼັງ, ໃຫ້ໄປທີ່ການຕັ້ງຄ່າເຄືອຂ່າຍຂອງທ່ານ"</string>
     <string name="sim_card_label" msgid="6263064316075963775">"ຊິມ"</string>
     <string name="erase_sim_dialog_title" msgid="4742077437653028326">"ລຶບ eSIM ນີ້ບໍ?"</string>
-    <string name="erase_sim_dialog_text" msgid="1406141218170595272">"ການດຳເນີນການນີ້ຈະລຶບບໍລິການຂອງ <xliff:g id="CARRIER_NAME_A">%1$s</xliff:g> ອອກຈາກອຸປະກອນນີ້, ແຕ່ຈະບໍ່ຍົກເລີກແພັກເກດຂອງ <xliff:g id="CARRIER_NAME_B">%1$s</xliff:g>."</string>
+    <!-- no translation found for erase_sim_dialog_text (3982216582200709197) -->
+    <skip />
     <string name="erase_sim_confirm_button" msgid="8309115684335320541">"ລຶບ"</string>
     <string name="erasing_sim" msgid="4237180547590463930">"ກຳລັງລຶບ eSIM…"</string>
     <string name="erase_sim_fail_title" msgid="1445700500168357303">"ບໍ່ສາມາດລຶບ eSIM ໄດ້"</string>
@@ -5754,16 +5752,11 @@
     <string name="supervision_web_content_filters_browser_block_explicit_sites_title" msgid="7923982596891796260">"ພະຍາຍາມບລັອກເວັບໄຊທີ່ຈະແຈ້ງ"</string>
     <string name="supervision_web_content_filters_browser_block_explicit_sites_summary" msgid="1477766506765966613">"ບໍ່ມີຕົວກັ່ນຕອງໃດສົມບູນແບບ, ແຕ່ວິທີນີ້ໜ້າຈະຊ່ວຍເຊື່ອງເວັບໄຊທີ່ສະແດງເລື່ອງເພດຢ່າງຊັດເຈນໄດ້"</string>
     <string name="supervision_web_content_filters_browser_allow_all_sites_title" msgid="3909739592466381845">"ອະນຸຍາດທຸກເວັບໄຊ"</string>
-    <!-- no translation found for supervision_web_content_filters_search_title (726335318009305564) -->
-    <skip />
-    <!-- no translation found for supervision_web_content_filters_search_filter_on_title (4855846261141136285) -->
-    <skip />
-    <!-- no translation found for supervision_web_content_filters_search_filter_on_summary (1162258144140293269) -->
-    <skip />
-    <!-- no translation found for supervision_web_content_filters_search_filter_off_title (6049461395304222346) -->
-    <skip />
-    <!-- no translation found for supervision_web_content_filters_search_filter_off_summary (3834238970190924433) -->
-    <skip />
+    <string name="supervision_web_content_filters_search_title" msgid="726335318009305564">"Google ຊອກຫາ"</string>
+    <string name="supervision_web_content_filters_search_filter_on_title" msgid="4855846261141136285">"ຕົວກັ່ນຕອງ SafeSearch ເປີດ"</string>
+    <string name="supervision_web_content_filters_search_filter_on_summary" msgid="1162258144140293269">"ຊ່ວຍກັ່ນຕອງຮູບພາບ, ຂໍ້ຄວາມ ແລະ ລິ້ງທີ່ຈະແຈ້ງອອກຈາກຜົນການຊອກຫາຢູ່ອຸປະກອນນີ້"</string>
+    <string name="supervision_web_content_filters_search_filter_off_title" msgid="6049461395304222346">"ຕົວກັ່ນຕອງ SafeSearch ປິດ"</string>
+    <string name="supervision_web_content_filters_search_filter_off_summary" msgid="3834238970190924433">"ຕັ້ງຄ່າບັນຊີອາດຍັງກັ່ນຕອງ ຫຼື ມົວຜົນການຊອກຫາທີ່ບໍ່ເໝາະສົມ"</string>
     <string name="supervision_full_screen_pin_verification_title" msgid="78513043528333399">"ປ້ອນ PIN ການເບິ່ງແຍງກວດກາ"</string>
     <string name="accessibility_illustration_content_description" msgid="557376174860150903">"ອະນິເມຊັນ <xliff:g id="FEATURE">%1$s</xliff:g>"</string>
 </resources>

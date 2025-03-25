@@ -949,6 +949,8 @@
     <skip />
     <!-- no translation found for bluetooth_key_missing_close (6724520133374312040) -->
     <skip />
+    <!-- no translation found for bluetooth_key_missing_toast (8692796546000643569) -->
+    <skip />
     <string name="device_details_title" msgid="1155622417516195481">"စက်အသေးစိတ်များ"</string>
     <string name="bluetooth_device_keyboard_settings_preference_title" msgid="3411693160917620519">"ကီးဘုတ် ဆက်တင်များ"</string>
     <string name="bluetooth_device_more_settings_preference_title" msgid="6034482566541746500">"နောက်ထပ်ဆက်တင်များ"</string>
@@ -1077,8 +1079,7 @@
     <string name="wifi_show_advanced" msgid="2969378109942071741">"အဆင့်မြင့် ရွေးစရာများ"</string>
     <string name="wifi_advanced_toggle_description" msgid="7299179796727934885">"ဆွဲချစာရင်း အဆင့်မြင့် ရွေးစရာများ"</string>
     <string name="wifi_advanced_toggle_description_collapsed" msgid="3615140699129928913">"ချဲ့ထွင်ရန်"</string>
-    <!-- no translation found for wifi_ssid (5139273830867723030) -->
-    <skip />
+    <string name="wifi_ssid" msgid="5139273830867723030">"ကွန်ရက်အမည်*"</string>
     <string name="wifi_ssid_hint" msgid="1940577553241083524">"SSID ထည့်သွင်းရန်"</string>
     <string name="wifi_security" msgid="9095934643631406913">"လုံခြုံရေး"</string>
     <string name="wifi_hidden_network" msgid="6466834025375485596">"ဝှက်ထားသည့် ကွန်ရက်"</string>
@@ -1101,12 +1102,10 @@
     <string name="wifi_eap_user_cert" msgid="3569182430929173220">"အသုံးပြုသူလက်မှတ်"</string>
     <string name="wifi_eap_identity" msgid="3629406902174137028">"အထောက်အထား"</string>
     <string name="wifi_eap_anonymous" msgid="8630332141751267000">"အမည်မသိသူ"</string>
-    <!-- no translation found for wifi_password (165204973532996861) -->
-    <skip />
+    <string name="wifi_password" msgid="165204973532996861">"စကားဝှက်*"</string>
     <!-- no translation found for wifi_password_optional (6770706664834070705) -->
     <skip />
-    <!-- no translation found for wifi_password_invalid (8884500804472828356) -->
-    <skip />
+    <string name="wifi_password_invalid" msgid="8884500804472828356">"စကားဝှက် မမှန်ပါ"</string>
     <string name="wifi_show_password" msgid="6865993988238157923">"စကားဝှက်ကို ပြသရန်"</string>
     <string name="wifi_ap_choose_2G" msgid="1436802195991542016">"၂.၄ GHz လိုင်း"</string>
     <string name="wifi_ap_prefer_5G" msgid="2520628479818369902">"5.0 GHz လိုင်း ရွေးချယ်ထားသည်"</string>
@@ -1172,8 +1171,7 @@
     <string name="wifi_scan_always_turn_on_message_unknown" msgid="4903345360745717385">"တည်နေရာ ပိုတိကျစေရန်နှင့် အခြားရည်ရွယ်ချက်များအတွက် အမည်ဖော်မထားသောအက်ပ်သည် Wi-Fi ပိတ်ထားသော်လည်း ကွန်ရက်ကြည့်ရှုခြင်းကို ဖွင့်လိုသည်။\n\nရှာဖွေလိုသော အက်ပ်အားလုံးအတွက် ၎င်းကို ခွင့်ပြုလိုသလား။"</string>
     <string name="wifi_scan_always_confirm_allow" msgid="4154200627800959777">"ခွင့်ပြုရန်"</string>
     <string name="wifi_scan_always_confirm_deny" msgid="6997087934558839256">"ငြင်းပယ်ရန်"</string>
-    <!-- no translation found for wifi_field_required (6312381745503042588) -->
-    <skip />
+    <string name="wifi_field_required" msgid="6312381745503042588">"*လိုအပ်သည်"</string>
     <string name="no_internet_access_text" msgid="3611993143350310936">"ဤကွန်ရက်တွင် အင်တာနက်သုံးစွဲခွင့် မရှိပါ။ ဆက်လက် ချိတ်ဆက်ထားမည်လား။"</string>
     <string name="partial_connectivity_text" msgid="8874614799723694554">"ချိတ်ဆက်မှု ကန့်သတ်ထားသောကြောင့် အချို့အက်ပ်နှင့် ဝန်ဆောင်မှုများ အလုပ်မလုပ်နိုင်ပါ။ အသုံးပြုမလား။"</string>
     <string name="no_internet_access_remember" msgid="5113610157731269258">"ဤကွန်ယက်အား ထပ်မံမေးမြန်းခြင်း မပြုရန်"</string>
@@ -1392,6 +1390,8 @@
     <string name="night_display_not_currently_on" msgid="6600205753103093827">"\'ညအလင်းရောင်\' ယခု ဖွင့်မထားပါ"</string>
     <string name="twilight_mode_location_off_dialog_message" msgid="4559150893687124801">"သင်၏ နေဝင်ချိန်နှင့် နေထွက်ချိန်များကို သိရှိနိုင်ရန် စက်၏တည်နေရာကို အသုံးပြုရန်လိုအပ်သည်"</string>
     <string name="twilight_mode_launch_location" msgid="7799112373591153956">"တည်နေရာဆက်တင်များ"</string>
+    <!-- no translation found for twilight_mode_pending_location (6829434234071614405) -->
+    <skip />
     <string name="dark_ui_activation_on_manual" msgid="1541006734577325234">"ယခုဖွင့်ရန်"</string>
     <string name="dark_ui_activation_off_manual" msgid="2395333709291250065">"ယခုပိတ်ရန်"</string>
     <string name="dark_ui_activation_on_auto" msgid="4824339634784765049">"နေထွက်ချိန်အထိ ဖွင့်ရန်"</string>
@@ -2129,7 +2129,8 @@
     <string name="trackpad_bottom_right_tap_title" msgid="230337692279220068">"အောက်ခြေညာဘက်ထောင့်ကို နှိပ်ရန်"</string>
     <string name="trackpad_bottom_right_tap_summary" msgid="4467915480282133447">"နောက်ထပ်ရွေးစရာအတွက် တာ့ချ်ပက်၏ အောက်ခြေညာထောင့်ကို နှိပ်နိုင်သည်"</string>
     <string name="trackpad_pointer_speed" msgid="5672221910698079303">"ကာဆာမြန်နှုန်း"</string>
-    <string name="three_finger_tap_preference_title" msgid="3779242412749283386">"လက် ၃ ချောင်းဖြင့်တို့ခြင်း စိတ်ကြိုက်လုပ်ရန်"</string>
+    <!-- no translation found for three_finger_tap_preference_title (1836080810837854140) -->
+    <skip />
     <string name="touchpad_acceleration_title" msgid="176627555191021888">"တာ့ချ်ပက် အရှိန်မြှင့်ခြင်း"</string>
     <string name="touchpad_acceleration_summary" msgid="8057075483967535793">"တာ့ချ်ပက်ပေါ်တွင် ပိုမြန်မြန်ရွှေ့ပါက ကာဆာ ပိုဝေးဝေးရောက်သည်"</string>
     <string name="pointer_fill_style" msgid="8794616790175016092">"မြားအရောင်"</string>
@@ -2146,7 +2147,8 @@
     <string name="trackpad_touch_gesture" msgid="8641725062131922497">"တာ့ချ်ပက်လက်ဟန်များကို လေ့လာရန်"</string>
     <string name="keywords_touchpad" msgid="8159846254066666032">"တာ့ချ်ပက်၊ တာ့ချ်ပက်၊ မောက်စ်၊ ကာဆာ၊ လှိမ့်၊ ပွတ်ဆွဲ၊ ညာဘက်ခလုတ်ကို နှိပ်၊ နှိပ်၊ မြား"</string>
     <string name="keywords_trackpad_bottom_right_tap" msgid="1285062446073929305">"ညာဘက်ခလုတ်ကို နှိပ်၊ တို့"</string>
-    <string name="three_finger_tap_middle_click" msgid="1759914275939765929">"မောက်စ် အလယ်ကလစ်ခလုတ်"</string>
+    <!-- no translation found for three_finger_tap_middle_click (7898931632908866867) -->
+    <skip />
     <string name="three_finger_tap_launch_gemini" msgid="4030401656711588982">"Assistant စတင်ရန်"</string>
     <string name="three_finger_tap_go_home" msgid="6526301745535089812">"ပင်မစာမျက်နှာသို့ သွားရန်"</string>
     <string name="three_finger_tap_go_back" msgid="2898205524575684271">"နောက်သို့"</string>
@@ -5068,9 +5070,23 @@
     <string name="title_supported_service_for_manual_type" msgid="6009284624466359864">"ဂြိုဟ်တုနှင့် ချိတ်ဆက်ရန် အဆင့်များအတိုင်း လုပ်ဆောင်ပါ"</string>
     <string name="summary_supported_service" msgid="4320535903444834786">"အရေးပေါ်ဝန်ဆောင်မှု ဌာနများအပါအဝင် မည်သူ့ထံမဆို စာတိုပို့နိုင်သည်။ ရနိုင်သည့်အခါ သင့်ဖုန်းသည် မိုဘိုင်းကွန်ရက်နှင့် ပြန်ချိတ်ဆက်ပါမည်။"</string>
     <string name="summary_supported_service_for_manual_type" msgid="2147958362763058271">"သင့်ဖုန်းနှင့် ချိတ်ဆက်ပြီးပါက အရေးပေါ်ဝန်ဆောင်မှုများအပါအဝင် မည်သူမဆိုထံ စာတိုပေးပို့နိုင်ပါသည်။"</string>
-    <string name="satellite_setting_summary_more_information" msgid="276312352285564071">"ဂြိုဟ်တုချိတ်ဆက်မှုသည် နှေးကွေးနိုင်ပြီး ဒေသအချို့အတွက်သာ ရနိုင်သည်။ မိုးလေဝသအခြေအနေနှင့် အဆောက်အအုံအချို့သည် ချိတ်ဆက်မှုအပေါ် သက်ရောက်နိုင်သည်။ ဂြိုဟ်တုဖြင့် ဖုန်းခေါ်ဆို၍ မရနိုင်ပါ။ အရေးပေါ်ဖုန်းခေါ်ခြင်းကို ချိတ်ဆက်နိုင်သေးသည်။\n\nဆက်တင်များတွင် အကောင့်ပြောင်းလဲမှုများကိုပြရန် အချိန်အနည်းငယ် ကြာနိုင်သည်။ အသေးစိတ်သိရှိရန် <xliff:g id="CARRIER_NAME">%1$s</xliff:g> ကို ဆက်သွယ်ပါ။"</string>
-    <string name="satellite_setting_summary_more_information_no_emergency_messaging" msgid="2090170250936862158">"ဂြိုဟ်တုချိတ်ဆက်မှုသည် နှေးကွေးနိုင်ပြီး ဒေသအချို့အတွက်သာ ရနိုင်သည်။ မိုးလေဝသအခြေအနေနှင့် အဆောက်အအုံအချို့သည် ချိတ်ဆက်မှုအပေါ် သက်ရောက်နိုင်သည်။ ဂြိုဟ်တုဖြင့် ဖုန်းခေါ်ဆို၍ မရနိုင်ပါ။ အရေးပေါ်ဖုန်းခေါ်မှုများသည် ချိတ်ဆက်နေနိုင်သေးသည်။ အရေးပေါ်ဝန်ဆောင်မှုများနှင့် စာတိုပို့ခြင်းကို ဒေသအားလုံးတွင် မရနိုင်ပါ။\n\nအကောင့်ပြောင်းလဲမှုများ ဆက်တင်များတွင် ပေါ်လာရန် အချိန်အနည်းငယ်ကြာနိုင်သည်။ အသေးစိတ်သိရှိရန် <xliff:g id="CARRIER_NAME">%1$s</xliff:g> ကို ဆက်သွယ်ပါ။"</string>
-    <!-- no translation found for more_about_satellite_messaging (5358981088419444073) -->
+    <!-- no translation found for satellite_footer_content_section_0 (4169483813004415556) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_1 (7925931577373229601) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_2 (7699185178461362541) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_3 (4652426135622555607) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_4 (2294227482962815751) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_5 (3053256489735265540) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_6 (1448633393918612418) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_7 (5524773673918954918) -->
+    <skip />
+    <!-- no translation found for more_about_satellite_connectivity (9110502891919936054) -->
     <skip />
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"<xliff:g id="FUNCTION">%1$s</xliff:g> ကို ဖွင့်၍မရပါ"</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"<xliff:g id="FUNCTION">%1$s</xliff:g> ကို ဖွင့်ရန် ဂြိုဟ်တုချိတ်ဆက်မှုကို ဦးစွာအဆုံးသတ်ပါ"</string>
@@ -5166,7 +5182,8 @@
     <string name="switch_sim_dialog_no_switch_text" msgid="7053939850026876088">"မိုဘိုင်းဒေတာ၊ ခေါ်ဆိုမှုဆိုင်ရာ ဝန်ဆောင်မှုများနှင့် SMS စာတိုစနစ်တို့ကို နောင်တွင် အသုံးပြုရန် သင့်ကွန်ရက်ဆက်တင်များသို့ သွားပါ"</string>
     <string name="sim_card_label" msgid="6263064316075963775">"ဆင်းမ်ကတ်"</string>
     <string name="erase_sim_dialog_title" msgid="4742077437653028326">"ဤ eSIM ကိုဖျက်မလား။"</string>
-    <string name="erase_sim_dialog_text" msgid="1406141218170595272">"၎င်းက ဤစက်ပစ္စည်းရှိ <xliff:g id="CARRIER_NAME_A">%1$s</xliff:g> ဝန်ဆောင်မှုကို ဖယ်ရှားမည်ဖြစ်သော်လည်း သင်၏ <xliff:g id="CARRIER_NAME_B">%1$s</xliff:g> အစီအစဉ်ကို ပယ်ဖျက်မည်မဟုတ်ပါ။"</string>
+    <!-- no translation found for erase_sim_dialog_text (3982216582200709197) -->
+    <skip />
     <string name="erase_sim_confirm_button" msgid="8309115684335320541">"ဖျက်ရန်"</string>
     <string name="erasing_sim" msgid="4237180547590463930">"eSIM ကို ဖျက်နေသည်…"</string>
     <string name="erase_sim_fail_title" msgid="1445700500168357303">"eSIM ကို ဖျက်၍မရပါ"</string>
@@ -5426,10 +5443,8 @@
     <string name="smart_forwarding_input_mdn_dialog_title" msgid="7542216086697868415">"ဖုန်းနံပါတ် ထည့်ပါ"</string>
     <string name="smart_forwarding_missing_mdn_text" msgid="2907314684242542226">"ဖုန်းနံပါတ် မထည့်ရသေးပါ။"</string>
     <string name="smart_forwarding_missing_alert_dialog_text" msgid="7870419247987316112">"OK"</string>
-    <!-- no translation found for enable_2g_title (5657132300321750181) -->
-    <skip />
-    <!-- no translation found for enable_2g_summary (6317192326100541563) -->
-    <skip />
+    <string name="enable_2g_title" msgid="5657132300321750181">"2G ကွန်ရက် အကာအကွယ်"</string>
+    <string name="enable_2g_summary" msgid="6317192326100541563">"လုံခြုံမှုအားနည်းသော 2G ကွန်ရက်များကို ရှောင်ပါ။ ၎င်းက အချို့နေရာများတွင် ချိတ်ဆက်မှုကန့်သတ်နိုင်သည်။ အရေးပေါ်ဖုန်းခေါ်ခြင်းကို အမြဲခွင့်ပြုထားသည်။"</string>
     <string name="enable_2g_summary_disabled_carrier" msgid="8141118453219482762">"<xliff:g id="CARRIER_NAME_2G">%1$s</xliff:g> သုံးနိုင်ရန် 2G လိုအပ်သည်"</string>
     <string name="require_cellular_encryption_title" msgid="6087085031703089235">"အသွင်ဝှက်ထားသော ကွန်ရက်များသာ"</string>
     <string name="require_cellular_encryption_summary" msgid="6090569065420631457">"၎င်းသည် ပိုမိုလုံခြုံသော်လည်း အချို့နေရာများ၌ သင့်မိုဘိုင်းကွန်ရက် ချိတ်ဆက်မှု အကန့်အသတ်ရှိနိုင်သည်။ အရေးပေါ် ခေါ်ဆိုမှုကို အမြဲခွင့်ပြုထားသည်။"</string>

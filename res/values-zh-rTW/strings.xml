@@ -264,10 +264,8 @@
     <string name="title_regional_pref_footer" msgid="7450438024324794380">"如果應用程式不支援地區偏好設定，就會使用預設的語言代碼設定。"</string>
     <string name="desc_regional_pref_footer_learn_more" msgid="4401708653329230081">"進一步瞭解語言偏好設定"</string>
     <string name="metric_measurement_system" msgid="7489725697268321541">"公制"</string>
-    <!-- no translation found for us_measurement_system (8406695347890345490) -->
-    <skip />
-    <!-- no translation found for uk_measurement_system (1814065008707689505) -->
-    <skip />
+    <string name="us_measurement_system" msgid="8406695347890345490">"美國"</string>
+    <string name="uk_measurement_system" msgid="1814065008707689505">"英國"</string>
     <string name="category_title_terms_of_address" msgid="4309422700380895278">"其他偏好設定"</string>
     <string name="terms_of_address_title" msgid="7338630812197476808">"選擇稱呼你的方式"</string>
     <string name="terms_of_address_summary" msgid="7802443422612600620">"你可以自訂裝置稱呼你的方式"</string>
@@ -939,15 +937,13 @@
     <string name="bluetooth_scanning_on_info_message" msgid="786648535600075223">"藍牙功能開啟後，裝置即可與附近的其他藍牙裝置通訊。\n\n為提升裝置使用體驗，即使藍牙功能未開啟，應用程式和服務仍可隨時掃描鄰近裝置。這項功能可加強適地性功能與服務，可在藍牙掃描設定中變更。"</string>
     <string name="bluetooth_scanning_on_info_message_auto_on_available" msgid="7792443293031247638">"藍牙開啟後，裝置就能與附近的其他藍牙裝置通訊。「快速分享」和「尋找我的裝置」等功能都會使用藍牙技術。\n\n即使藍牙功能未開啟，應用程式和服務仍可隨時掃描鄰近裝置，改善適地性功能和服務等等。你可以在藍牙掃描設定中變更這項功能。"</string>
     <string name="bluetooth_scan_change" msgid="1744636222637390367">"變更"</string>
-    <!-- no translation found for bluetooth_key_missing_title (8462010102528132965) -->
-    <skip />
-    <!-- no translation found for bluetooth_key_missing_message (3188093580372443815) -->
-    <skip />
+    <string name="bluetooth_key_missing_title" msgid="8462010102528132965">"無法連上「<xliff:g id="DEVICE_NAME">%1$s</xliff:g>」"</string>
+    <string name="bluetooth_key_missing_message" msgid="3188093580372443815">"詳情請前往裝置設定"</string>
     <string name="bluetooth_key_missing_forget" msgid="4692006517823001013">"清除裝置"</string>
     <string name="bluetooth_key_missing_cancel" msgid="2482416446357804371">"取消"</string>
-    <!-- no translation found for bluetooth_key_missing_device_settings (5512091368141961890) -->
-    <skip />
-    <!-- no translation found for bluetooth_key_missing_close (6724520133374312040) -->
+    <string name="bluetooth_key_missing_device_settings" msgid="5512091368141961890">"裝置設定"</string>
+    <string name="bluetooth_key_missing_close" msgid="6724520133374312040">"關閉"</string>
+    <!-- no translation found for bluetooth_key_missing_toast (8692796546000643569) -->
     <skip />
     <string name="device_details_title" msgid="1155622417516195481">"裝置詳細資料"</string>
     <string name="bluetooth_device_keyboard_settings_preference_title" msgid="3411693160917620519">"鍵盤設定"</string>
@@ -963,8 +959,7 @@
     <string name="device_details_leaudio_toggle_summary" msgid="7684848254433230809">"實驗功能，用於改善音質。"</string>
     <string name="device_details_battery" msgid="5466987755790847884">"電池"</string>
     <string name="device_details_battery_charging" msgid="3464969346075775143">"電池充電中"</string>
-    <!-- no translation found for device_details_key_missing_title (3568401701538114387) -->
-    <skip />
+    <string name="device_details_key_missing_title" msgid="3568401701538114387">"建議重新啟動「<xliff:g id="DEVICE_NAME">%1$s</xliff:g>」。如果無法解決問題，請清除裝置。為安全起見，請勿在公共場所重新配對這部裝置。\n\n如果這部裝置不在附近，就不必採取任何行動。"</string>
     <string name="bluetooth_unpair_dialog_forget_confirm_button" msgid="9184489424930549015">"清除裝置"</string>
     <string name="bluetooth_companion_app_remove_association_confirm_button" msgid="76323555527926915">"解除連結應用程式"</string>
     <string name="device_details_more_settings" msgid="950302792331611271">"更多設定"</string>
@@ -1077,8 +1072,7 @@
     <string name="wifi_show_advanced" msgid="2969378109942071741">"進階選項"</string>
     <string name="wifi_advanced_toggle_description" msgid="7299179796727934885">"下拉式清單進階選項"</string>
     <string name="wifi_advanced_toggle_description_collapsed" msgid="3615140699129928913">"展開"</string>
-    <!-- no translation found for wifi_ssid (5139273830867723030) -->
-    <skip />
+    <string name="wifi_ssid" msgid="5139273830867723030">"網路名稱*"</string>
     <string name="wifi_ssid_hint" msgid="1940577553241083524">"輸入 SSID"</string>
     <string name="wifi_security" msgid="9095934643631406913">"安全性"</string>
     <string name="wifi_hidden_network" msgid="6466834025375485596">"隱藏的網路"</string>
@@ -1101,12 +1095,9 @@
     <string name="wifi_eap_user_cert" msgid="3569182430929173220">"使用者憑證"</string>
     <string name="wifi_eap_identity" msgid="3629406902174137028">"身分"</string>
     <string name="wifi_eap_anonymous" msgid="8630332141751267000">"匿名身分"</string>
-    <!-- no translation found for wifi_password (165204973532996861) -->
-    <skip />
-    <!-- no translation found for wifi_password_optional (6770706664834070705) -->
-    <skip />
-    <!-- no translation found for wifi_password_invalid (8884500804472828356) -->
-    <skip />
+    <string name="wifi_password" msgid="165204973532996861">"密碼*"</string>
+    <string name="wifi_password_optional" msgid="6770706664834070705">"密碼 (選填)"</string>
+    <string name="wifi_password_invalid" msgid="8884500804472828356">"密碼無效"</string>
     <string name="wifi_show_password" msgid="6865993988238157923">"顯示密碼"</string>
     <string name="wifi_ap_choose_2G" msgid="1436802195991542016">"2.4 GHz 頻帶"</string>
     <string name="wifi_ap_prefer_5G" msgid="2520628479818369902">"5.0 GHz 頻帶優先"</string>
@@ -1172,8 +1163,7 @@
     <string name="wifi_scan_always_turn_on_message_unknown" msgid="4903345360745717385">"某個不明應用程式要求開啟網路掃描功能 (即使 Wi-Fi 已關閉)，藉此提升定位精確度及用於其他用途。\n\n你要對所有需要執行掃描的應用程式允許這項要求嗎？"</string>
     <string name="wifi_scan_always_confirm_allow" msgid="4154200627800959777">"允許"</string>
     <string name="wifi_scan_always_confirm_deny" msgid="6997087934558839256">"拒絕"</string>
-    <!-- no translation found for wifi_field_required (6312381745503042588) -->
-    <skip />
+    <string name="wifi_field_required" msgid="6312381745503042588">"*必填"</string>
     <string name="no_internet_access_text" msgid="3611993143350310936">"這個網路沒有網際網路連線。要繼續保持連線嗎？"</string>
     <string name="partial_connectivity_text" msgid="8874614799723694554">"連線能力受限，因此部分應用程式和服務可能無法運作，仍要使用嗎？"</string>
     <string name="no_internet_access_remember" msgid="5113610157731269258">"不要再詢問我是否使用這個網路"</string>
@@ -1392,6 +1382,8 @@
     <string name="night_display_not_currently_on" msgid="6600205753103093827">"夜燈模式目前已關閉"</string>
     <string name="twilight_mode_location_off_dialog_message" msgid="4559150893687124801">"必須開啟定位功能，裝置才能判斷日落和日出的時間。"</string>
     <string name="twilight_mode_launch_location" msgid="7799112373591153956">"位置資訊設定"</string>
+    <!-- no translation found for twilight_mode_pending_location (6829434234071614405) -->
+    <skip />
     <string name="dark_ui_activation_on_manual" msgid="1541006734577325234">"立即開啟"</string>
     <string name="dark_ui_activation_off_manual" msgid="2395333709291250065">"立即關閉"</string>
     <string name="dark_ui_activation_on_auto" msgid="4824339634784765049">"開啟，直到日出"</string>
@@ -2129,7 +2121,8 @@
     <string name="trackpad_bottom_right_tap_title" msgid="230337692279220068">"按一下右下角"</string>
     <string name="trackpad_bottom_right_tap_summary" msgid="4467915480282133447">"按一下觸控板的右下角即可查看更多選項"</string>
     <string name="trackpad_pointer_speed" msgid="5672221910698079303">"游標速度"</string>
-    <string name="three_finger_tap_preference_title" msgid="3779242412749283386">"自訂 3 指輕觸要執行的動作"</string>
+    <!-- no translation found for three_finger_tap_preference_title (1836080810837854140) -->
+    <skip />
     <string name="touchpad_acceleration_title" msgid="176627555191021888">"觸控板加速"</string>
     <string name="touchpad_acceleration_summary" msgid="8057075483967535793">"在觸控板上移動得越快，游標就移動得越遠"</string>
     <string name="pointer_fill_style" msgid="8794616790175016092">"游標顏色"</string>
@@ -2146,7 +2139,8 @@
     <string name="trackpad_touch_gesture" msgid="8641725062131922497">"學習觸控板手勢"</string>
     <string name="keywords_touchpad" msgid="8159846254066666032">"觸控板, 滑鼠, 游標, 捲動, 滑動, 按滑鼠右鍵, 點按, 指標"</string>
     <string name="keywords_trackpad_bottom_right_tap" msgid="1285062446073929305">"按滑鼠右鍵, 輕觸"</string>
-    <string name="three_finger_tap_middle_click" msgid="1759914275939765929">"按一下滑鼠中鍵"</string>
+    <!-- no translation found for three_finger_tap_middle_click (7898931632908866867) -->
+    <skip />
     <string name="three_finger_tap_launch_gemini" msgid="4030401656711588982">"啟動 Google 助理"</string>
     <string name="three_finger_tap_go_home" msgid="6526301745535089812">"返回主畫面"</string>
     <string name="three_finger_tap_go_back" msgid="2898205524575684271">"返回"</string>
@@ -4421,8 +4415,7 @@
     <string name="disconnected" msgid="3469373726996129247">"未連線"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"未連接"</string>
     <string name="apps_summary" msgid="4007416751775414252">"已安裝 <xliff:g id="COUNT">%1$d</xliff:g> 個應用程式"</string>
-    <!-- no translation found for storage_toplevel_summary (6708203706751754934) -->
-    <skip />
+    <string name="storage_toplevel_summary" msgid="6708203706751754934">"已使用：<xliff:g id="PERCENTAGE">%1$s</xliff:g> - 可用空間：<xliff:g id="FREE_SPACE">%2$s</xliff:g>"</string>
     <string name="display_dashboard_summary" msgid="1599453894989339454">"深色主題、字型大小、亮度"</string>
     <string name="memory_summary" msgid="8221954450951651735">"平均記憶體用量為 <xliff:g id="USED_MEMORY">%1$s</xliff:g> (共 <xliff:g id="TOTAL_MEMORY">%2$s</xliff:g>)"</string>
     <string name="users_summary" msgid="8473589474976307510">"登入身分：<xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
@@ -5045,16 +5038,13 @@
     <string name="roaming_alert_title" msgid="9052791521868787985">"要允許漫遊服務嗎？"</string>
     <string name="roaming_check_price_warning" msgid="5876977438036791361">"請向你的網路供應商洽詢定價。"</string>
     <string name="mobile_network_mode_error" msgid="9222056129897416074">"網路模式 <xliff:g id="NETWORKMODEID">%1$d</xliff:g> 無效。忽略。"</string>
-    <!-- no translation found for satellite_setting (4650503806634496443) -->
-    <skip />
+    <string name="satellite_setting" msgid="4650503806634496443">"衛星連線"</string>
     <string name="satellite_setting_enabled_summary" msgid="3554127722727530845">"透過衛星收發訊息。你的帳戶支援這項功能。"</string>
     <string name="satellite_setting_disabled_summary" msgid="8428393986403708690">"透過衛星收發訊息 (你的帳戶不支援這項功能)。"</string>
     <string name="satellite_setting_summary_without_entitlement" msgid="5284998840770992554">"透過衛星收發訊息。詳情請與你的電信業者聯絡。"</string>
     <string name="keywords_satellite_setting" msgid="613553612424945946">"衛星訊息, 衛星連線"</string>
-    <!-- no translation found for category_name_about_satellite_connectivity (3971142716898783631) -->
-    <skip />
-    <!-- no translation found for description_about_satellite_setting (5539359064330584941) -->
-    <skip />
+    <string name="category_name_about_satellite_connectivity" msgid="3971142716898783631">"關於衛星連線"</string>
+    <string name="description_about_satellite_setting" msgid="5539359064330584941">"如果「<xliff:g id="CARRIER_NAME">%1$s</xliff:g>」帳戶符合資格，就能透過衛星連線收發訊息及使用部分應用程式"</string>
     <string name="category_title_your_satellite_plan" msgid="8169426217950247126">"你的「<xliff:g id="CARRIER_NAME">%1$s</xliff:g>」帳戶"</string>
     <string name="title_have_satellite_plan" msgid="2048372355699977947">"你的帳戶支援衛星訊息"</string>
     <string name="title_no_satellite_plan" msgid="2876056203035197505">"你的帳戶不支援衛星訊息"</string>
@@ -5068,14 +5058,27 @@
     <string name="title_supported_service_for_manual_type" msgid="6009284624466359864">"按照步驟連上衛星"</string>
     <string name="summary_supported_service" msgid="4320535903444834786">"你可以傳送訊息給任何人，包括緊急救援服務。如果有可用的行動網路，手機就會重新連線。"</string>
     <string name="summary_supported_service_for_manual_type" msgid="2147958362763058271">"手機連線後，你可以傳送訊息給任何人，包括緊急救援服務。"</string>
-    <string name="satellite_setting_summary_more_information" msgid="276312352285564071">"衛星連線可能較慢，而且僅支援部分地區。天氣和特定結構可能會影響連線品質。系統不支援衛星電話，但或許仍可撥打緊急電話。\n\n「設定」頁面可能要一段時間後才會顯示帳戶變動，詳情請洽「<xliff:g id="CARRIER_NAME">%1$s</xliff:g>」。"</string>
-    <string name="satellite_setting_summary_more_information_no_emergency_messaging" msgid="2090170250936862158">"衛星連線可能較慢，而且僅在部分地區提供。天氣和特定結構可能會影響連線品質。系統不支援衛星電話，但或許仍可撥打緊急電話。在某些地區，可能無法用這項功能傳訊息給緊急救援服務。\n\n「設定」頁面可能要一段時間後才會顯示帳戶變動，詳情請洽「<xliff:g id="CARRIER_NAME">%1$s</xliff:g>」。"</string>
-    <!-- no translation found for more_about_satellite_messaging (5358981088419444073) -->
+    <!-- no translation found for satellite_footer_content_section_0 (4169483813004415556) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_1 (7925931577373229601) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_2 (7699185178461362541) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_3 (4652426135622555607) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_4 (2294227482962815751) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_5 (3053256489735265540) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_6 (1448633393918612418) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_7 (5524773673918954918) -->
+    <skip />
+    <!-- no translation found for more_about_satellite_connectivity (9110502891919936054) -->
     <skip />
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"無法開啟<xliff:g id="FUNCTION">%1$s</xliff:g>"</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"如要開啟<xliff:g id="FUNCTION">%1$s</xliff:g>，請先中斷衛星連線"</string>
-    <!-- no translation found for category_title_satellite_connectivity (7740500012311192133) -->
-    <skip />
+    <string name="category_title_satellite_connectivity" msgid="7740500012311192133">"衛星"</string>
     <string name="title_satellite_setting_connectivity" msgid="488626710934668313">"衛星連線"</string>
     <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"衛星連線"</string>
     <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"衛星訊息"</string>
@@ -5166,7 +5169,8 @@
     <string name="switch_sim_dialog_no_switch_text" msgid="7053939850026876088">"日後如要使用行動數據、通話和簡訊功能，請前往網路設定進行調整"</string>
     <string name="sim_card_label" msgid="6263064316075963775">"SIM 卡"</string>
     <string name="erase_sim_dialog_title" msgid="4742077437653028326">"要清除這張 eSIM 嗎？"</string>
-    <string name="erase_sim_dialog_text" msgid="1406141218170595272">"這麼做會從這部裝置移除「<xliff:g id="CARRIER_NAME_A">%1$s</xliff:g>」服務，但不會取消「<xliff:g id="CARRIER_NAME_B">%1$s</xliff:g>」方案。"</string>
+    <!-- no translation found for erase_sim_dialog_text (3982216582200709197) -->
+    <skip />
     <string name="erase_sim_confirm_button" msgid="8309115684335320541">"清除"</string>
     <string name="erasing_sim" msgid="4237180547590463930">"正在清除 eSIM…"</string>
     <string name="erase_sim_fail_title" msgid="1445700500168357303">"無法清除 eSIM"</string>
@@ -5426,10 +5430,8 @@
     <string name="smart_forwarding_input_mdn_dialog_title" msgid="7542216086697868415">"輸入手機號碼"</string>
     <string name="smart_forwarding_missing_mdn_text" msgid="2907314684242542226">"缺少電話號碼。"</string>
     <string name="smart_forwarding_missing_alert_dialog_text" msgid="7870419247987316112">"確定"</string>
-    <!-- no translation found for enable_2g_title (5657132300321750181) -->
-    <skip />
-    <!-- no translation found for enable_2g_summary (6317192326100541563) -->
-    <skip />
+    <string name="enable_2g_title" msgid="5657132300321750181">"2G 網路安全防護"</string>
+    <string name="enable_2g_summary" msgid="6317192326100541563">"避免使用安全性較低的 2G 網路，這可能會導致在某些地點無法連線。緊急電話撥號服務則隨時可用，不受任何影響。"</string>
     <string name="enable_2g_summary_disabled_carrier" msgid="8141118453219482762">"必須啟用 2G 才能使用「<xliff:g id="CARRIER_NAME_2G">%1$s</xliff:g>」的服務"</string>
     <string name="require_cellular_encryption_title" msgid="6087085031703089235">"僅允許加密網路"</string>
     <string name="require_cellular_encryption_summary" msgid="6090569065420631457">"這麼做雖然更加安全，但行動網路連線在某些地區可能會受到限制。緊急電話撥號服務則隨時可用，不會受到影響"</string>

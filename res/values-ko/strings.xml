@@ -264,10 +264,8 @@
     <string name="title_regional_pref_footer" msgid="7450438024324794380">"지역 설정을 지원하지 않는 앱에서는 기본 언어 설정이 사용됩니다"</string>
     <string name="desc_regional_pref_footer_learn_more" msgid="4401708653329230081">"언어 환경설정에 관해 자세히 알아보세요."</string>
     <string name="metric_measurement_system" msgid="7489725697268321541">"미터법"</string>
-    <!-- no translation found for us_measurement_system (8406695347890345490) -->
-    <skip />
-    <!-- no translation found for uk_measurement_system (1814065008707689505) -->
-    <skip />
+    <string name="us_measurement_system" msgid="8406695347890345490">"미국"</string>
+    <string name="uk_measurement_system" msgid="1814065008707689505">"영국"</string>
     <string name="category_title_terms_of_address" msgid="4309422700380895278">"추가 환경설정"</string>
     <string name="terms_of_address_title" msgid="7338630812197476808">"주소 지정 방식 선택하기"</string>
     <string name="terms_of_address_summary" msgid="7802443422612600620">"사용 중인 기기에서 주소 지정 방식을 맞춤설정할 수 있습니다"</string>
@@ -939,15 +937,13 @@
     <string name="bluetooth_scanning_on_info_message" msgid="786648535600075223">"블루투스가 켜져 있으면 기기가 근처의 다른 블루투스 기기와 통신할 수 있습니다.\n\n기기 사용 환경을 개선하기 위해 블루투스가 꺼져 있을 때도 앱 및 서비스에서 언제든지 근처에 기기가 있는지 검색할 수 있습니다. 예를 들면 위치 기반 기능 및 서비스를 개선하는 데 이 기능이 사용되기도 합니다. 설정을 변경하려면 블루투스 검색 설정으로 이동하세요."</string>
     <string name="bluetooth_scanning_on_info_message_auto_on_available" msgid="7792443293031247638">"기기에서 블루투스가 켜져 있으면 근처의 다른 블루투스 기기와 통신할 수 있습니다. Quick Share 및 내 기기 찾기 등의 기능에서 블루투스를 사용합니다.\n\n블루투스가 꺼져 있어도 앱 및 서비스에서 언제든지 근처 기기를 검색할 수 있습니다. 예를 들어 위치 기반 기능 및 서비스를 향상하기 위한 용도로 블루투스를 사용합니다. 이 설정은 블루투스 검색 설정에서 변경할 수 있습니다."</string>
     <string name="bluetooth_scan_change" msgid="1744636222637390367">"변경"</string>
-    <!-- no translation found for bluetooth_key_missing_title (8462010102528132965) -->
-    <skip />
-    <!-- no translation found for bluetooth_key_missing_message (3188093580372443815) -->
-    <skip />
+    <string name="bluetooth_key_missing_title" msgid="8462010102528132965">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>에 연결할 수 없음"</string>
+    <string name="bluetooth_key_missing_message" msgid="3188093580372443815">"자세한 내용은 기기 설정을 참고하세요."</string>
     <string name="bluetooth_key_missing_forget" msgid="4692006517823001013">"기기 삭제"</string>
     <string name="bluetooth_key_missing_cancel" msgid="2482416446357804371">"취소"</string>
-    <!-- no translation found for bluetooth_key_missing_device_settings (5512091368141961890) -->
-    <skip />
-    <!-- no translation found for bluetooth_key_missing_close (6724520133374312040) -->
+    <string name="bluetooth_key_missing_device_settings" msgid="5512091368141961890">"기기 설정"</string>
+    <string name="bluetooth_key_missing_close" msgid="6724520133374312040">"닫기"</string>
+    <!-- no translation found for bluetooth_key_missing_toast (8692796546000643569) -->
     <skip />
     <string name="device_details_title" msgid="1155622417516195481">"기기 세부정보"</string>
     <string name="bluetooth_device_keyboard_settings_preference_title" msgid="3411693160917620519">"키보드 설정"</string>
@@ -963,8 +959,7 @@
     <string name="device_details_leaudio_toggle_summary" msgid="7684848254433230809">"실험 단계이며 오디오 음질을 개선합니다."</string>
     <string name="device_details_battery" msgid="5466987755790847884">"배터리"</string>
     <string name="device_details_battery_charging" msgid="3464969346075775143">"배터리, 충전 중"</string>
-    <!-- no translation found for device_details_key_missing_title (3568401701538114387) -->
-    <skip />
+    <string name="device_details_key_missing_title" msgid="3568401701538114387">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> 기기를 다시 시작해 보세요. 그래도 문제가 해결되지 않으면 기기를 삭제하세요. 보안을 위해 공공장소가 아닌 곳에서만 다시 페어링하세요\n\n기기가 근처에 있지 않다면 아무 조치도 취할 필요가 없습니다"</string>
     <string name="bluetooth_unpair_dialog_forget_confirm_button" msgid="9184489424930549015">"기기 지우기"</string>
     <string name="bluetooth_companion_app_remove_association_confirm_button" msgid="76323555527926915">"앱 연결 해제"</string>
     <string name="device_details_more_settings" msgid="950302792331611271">"설정 더보기"</string>
@@ -1077,8 +1072,7 @@
     <string name="wifi_show_advanced" msgid="2969378109942071741">"고급 옵션"</string>
     <string name="wifi_advanced_toggle_description" msgid="7299179796727934885">"드롭다운 목록 고급 옵션"</string>
     <string name="wifi_advanced_toggle_description_collapsed" msgid="3615140699129928913">"펼치기"</string>
-    <!-- no translation found for wifi_ssid (5139273830867723030) -->
-    <skip />
+    <string name="wifi_ssid" msgid="5139273830867723030">"네트워크 이름*"</string>
     <string name="wifi_ssid_hint" msgid="1940577553241083524">"SSID 입력"</string>
     <string name="wifi_security" msgid="9095934643631406913">"보안"</string>
     <string name="wifi_hidden_network" msgid="6466834025375485596">"숨겨진 네트워크"</string>
@@ -1101,12 +1095,9 @@
     <string name="wifi_eap_user_cert" msgid="3569182430929173220">"사용자 인증서"</string>
     <string name="wifi_eap_identity" msgid="3629406902174137028">"ID"</string>
     <string name="wifi_eap_anonymous" msgid="8630332141751267000">"익명 ID"</string>
-    <!-- no translation found for wifi_password (165204973532996861) -->
-    <skip />
-    <!-- no translation found for wifi_password_optional (6770706664834070705) -->
-    <skip />
-    <!-- no translation found for wifi_password_invalid (8884500804472828356) -->
-    <skip />
+    <string name="wifi_password" msgid="165204973532996861">"비밀번호*"</string>
+    <string name="wifi_password_optional" msgid="6770706664834070705">"비밀번호(선택사항)"</string>
+    <string name="wifi_password_invalid" msgid="8884500804472828356">"비밀번호가 잘못됨"</string>
     <string name="wifi_show_password" msgid="6865993988238157923">"비밀번호 표시"</string>
     <string name="wifi_ap_choose_2G" msgid="1436802195991542016">"2.4GHz 대역"</string>
     <string name="wifi_ap_prefer_5G" msgid="2520628479818369902">"5.0GHz 대역 사용 선호"</string>
@@ -1172,8 +1163,7 @@
     <string name="wifi_scan_always_turn_on_message_unknown" msgid="4903345360745717385">"알 수 없는 앱에서 위치 정확성 개선 등의 목적으로 Wi-Fi가 꺼져 있을 때도 네트워크 검색 기능을 사용 설정하려 합니다.\n\n기능을 요청하는 모든 앱에 네트워크 검색을 허용하시겠습니까?"</string>
     <string name="wifi_scan_always_confirm_allow" msgid="4154200627800959777">"허용"</string>
     <string name="wifi_scan_always_confirm_deny" msgid="6997087934558839256">"거부"</string>
-    <!-- no translation found for wifi_field_required (6312381745503042588) -->
-    <skip />
+    <string name="wifi_field_required" msgid="6312381745503042588">"*필수 입력란"</string>
     <string name="no_internet_access_text" msgid="3611993143350310936">"이 네트워크에는 인터넷이 연결되어 있지 않습니다. 연결 상태를 유지하시겠습니까?"</string>
     <string name="partial_connectivity_text" msgid="8874614799723694554">"제한된 연결로 인해 일부 앱과 서비스가 작동하지 않을 수 있습니다. 계속 사용하시겠습니까?"</string>
     <string name="no_internet_access_remember" msgid="5113610157731269258">"이 네트워크를 다시 요청하지 마세요."</string>
@@ -1392,6 +1382,8 @@
     <string name="night_display_not_currently_on" msgid="6600205753103093827">"현재 야간 조명 사용 안함"</string>
     <string name="twilight_mode_location_off_dialog_message" msgid="4559150893687124801">"일몰 및 일출 시간을 확인하려면 기기 위치 정보가 필요합니다."</string>
     <string name="twilight_mode_launch_location" msgid="7799112373591153956">"위치 설정"</string>
+    <!-- no translation found for twilight_mode_pending_location (6829434234071614405) -->
+    <skip />
     <string name="dark_ui_activation_on_manual" msgid="1541006734577325234">"지금 켜기"</string>
     <string name="dark_ui_activation_off_manual" msgid="2395333709291250065">"지금 끄기"</string>
     <string name="dark_ui_activation_on_auto" msgid="4824339634784765049">"일출 시간까지 켜기"</string>
@@ -2129,7 +2121,8 @@
     <string name="trackpad_bottom_right_tap_title" msgid="230337692279220068">"오른쪽 하단 클릭"</string>
     <string name="trackpad_bottom_right_tap_summary" msgid="4467915480282133447">"더 많은 옵션을 확인하려면 터치패드 오른쪽 하단을 클릭합니다"</string>
     <string name="trackpad_pointer_speed" msgid="5672221910698079303">"커서 속도"</string>
-    <string name="three_finger_tap_preference_title" msgid="3779242412749283386">"세 손가락으로 탭 맞춤설정"</string>
+    <!-- no translation found for three_finger_tap_preference_title (1836080810837854140) -->
+    <skip />
     <string name="touchpad_acceleration_title" msgid="176627555191021888">"터치패드 가속"</string>
     <string name="touchpad_acceleration_summary" msgid="8057075483967535793">"터치패드에서 더 빠르게 움직이면 커서가 더 멀리 이동합니다"</string>
     <string name="pointer_fill_style" msgid="8794616790175016092">"포인터 색상"</string>
@@ -2146,7 +2139,8 @@
     <string name="trackpad_touch_gesture" msgid="8641725062131922497">"터치패드 동작 알아보기"</string>
     <string name="keywords_touchpad" msgid="8159846254066666032">"트랙패드, 트랙 패드, 마우스, 커서, 스크롤, 스와이프, 마우스 오른쪽 버튼으로 클릭, 클릭, 포인터"</string>
     <string name="keywords_trackpad_bottom_right_tap" msgid="1285062446073929305">"마우스 오른쪽 버튼으로 클릭, 탭"</string>
-    <string name="three_finger_tap_middle_click" msgid="1759914275939765929">"마우스 가운데 클릭 버튼"</string>
+    <!-- no translation found for three_finger_tap_middle_click (7898931632908866867) -->
+    <skip />
     <string name="three_finger_tap_launch_gemini" msgid="4030401656711588982">"어시스턴트 실행"</string>
     <string name="three_finger_tap_go_home" msgid="6526301745535089812">"홈으로 이동"</string>
     <string name="three_finger_tap_go_back" msgid="2898205524575684271">"뒤로"</string>
@@ -3803,7 +3797,7 @@
     <string name="unseen_notifs_lock_screen_summary" msgid="5996722793868021391">"잠금 화면에서 이미 본 알림 자동으로 삭제"</string>
     <string name="lock_screen_notifs_show_full_list" msgid="6767009263807771108">"전체 목록"</string>
     <string name="lock_screen_notifs_show_compact" msgid="1944867696357706016">"간단히 보기"</string>
-    <string name="lock_screen_notifs_title" msgid="3412042692317304449">"잠금 화면에 표시할 알림"</string>
+    <string name="lock_screen_notifs_title" msgid="3412042692317304449">"잠금 화면에 알림 표시"</string>
     <string name="lock_screen_notifs_show_all_summary" msgid="4226586018375762117">"대화, 기본 및 무음 알림 표시"</string>
     <string name="lock_screen_notifs_show_all" msgid="1300418674456749664">"모든 대화와 기본 및 무음 알림 표시"</string>
     <string name="lock_screen_notifs_show_alerting" msgid="6584682657382684566">"무음 대화 및 알림 숨기기"</string>
@@ -4421,8 +4415,7 @@
     <string name="disconnected" msgid="3469373726996129247">"연결되지 않음"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"연결되지 않음"</string>
     <string name="apps_summary" msgid="4007416751775414252">"<xliff:g id="COUNT">%1$d</xliff:g>개의 앱이 설치됨"</string>
-    <!-- no translation found for storage_toplevel_summary (6708203706751754934) -->
-    <skip />
+    <string name="storage_toplevel_summary" msgid="6708203706751754934">"<xliff:g id="PERCENTAGE">%1$s</xliff:g> 사용 - <xliff:g id="FREE_SPACE">%2$s</xliff:g> 사용 가능"</string>
     <string name="display_dashboard_summary" msgid="1599453894989339454">"어두운 테마, 글꼴 크기, 밝기"</string>
     <string name="memory_summary" msgid="8221954450951651735">"<xliff:g id="TOTAL_MEMORY">%2$s</xliff:g> 중 평균 <xliff:g id="USED_MEMORY">%1$s</xliff:g> 사용됨"</string>
     <string name="users_summary" msgid="8473589474976307510">"<xliff:g id="USER_NAME">%1$s</xliff:g>(으)로 로그인됨"</string>
@@ -4446,7 +4439,7 @@
     <string name="admin_device_owner_message" msgid="5503131744126520590">"관리자는 설정, 권한, 기업 액세스, 네트워크 활동, 기기의 위치 정보 등 기기와 연결된 데이터와 앱을 모니터링하고 관리할 수 있습니다."</string>
     <string name="admin_financed_message" msgid="1156197630834947884">"기기 관리자가 이 기기와 연결된 데이터에 액세스하고 앱을 관리하며 기기 설정을 변경할 수 있습니다."</string>
     <string name="disabled_by_advanced_protection_title" msgid="9051476417559262469">"고급 보호 기능으로 제한됨"</string>
-    <string name="disabled_by_advanced_protection_setting_is_on_message" msgid="4242986779932956593">"보안을 위해 고급 보호를 사용하려면 이 설정을 켜 두어야 합니다."</string>
+    <string name="disabled_by_advanced_protection_setting_is_on_message" msgid="4242986779932956593">"보안을 위해 고급 보호를 사용하려면 이 설정을 계속 사용 설정해야 합니다."</string>
     <string name="disabled_by_advanced_protection_setting_is_off_message" msgid="7777487013672230696">"보안을 위해 고급 보호를 사용하려면 이 설정을 계속 사용 중지해야 합니다."</string>
     <string name="disabled_by_advanced_protection_action_message" msgid="7164789633582857150">"보안을 위해 고급 보호 기능이 이 작업을 차단합니다"</string>
     <string name="disabled_by_advanced_protection_wep_action_message" msgid="239574547298386495">"이 네트워크는 데이터를 위험에 빠뜨릴 수 있는 오래된 암호화 방법인 WEP를 사용합니다. 고급 보호에서 WEP 연결을 차단합니다."</string>
@@ -5045,16 +5038,13 @@
     <string name="roaming_alert_title" msgid="9052791521868787985">"데이터 로밍을 허용하시겠습니까?"</string>
     <string name="roaming_check_price_warning" msgid="5876977438036791361">"요금은 이동통신사에 문의하세요."</string>
     <string name="mobile_network_mode_error" msgid="9222056129897416074">"잘못된 네트워크 모드(<xliff:g id="NETWORKMODEID">%1$d</xliff:g>)입니다. 무시하세요."</string>
-    <!-- no translation found for satellite_setting (4650503806634496443) -->
-    <skip />
+    <string name="satellite_setting" msgid="4650503806634496443">"위성 연결"</string>
     <string name="satellite_setting_enabled_summary" msgid="3554127722727530845">"위성을 통해 문자 메시지를 주고받습니다. 계정에 포함되어 있습니다."</string>
     <string name="satellite_setting_disabled_summary" msgid="8428393986403708690">"위성을 통해 문자 메시지를 주고받습니다. 계정에 포함되어 있지 않습니다."</string>
     <string name="satellite_setting_summary_without_entitlement" msgid="5284998840770992554">"위성을 통해 문자 메시지를 주고받습니다. 자세한 내용은 이동통신사에 문의하세요."</string>
     <string name="keywords_satellite_setting" msgid="613553612424945946">"위성 메시지, 위성 연결"</string>
-    <!-- no translation found for category_name_about_satellite_connectivity (3971142716898783631) -->
-    <skip />
-    <!-- no translation found for description_about_satellite_setting (5539359064330584941) -->
-    <skip />
+    <string name="category_name_about_satellite_connectivity" msgid="3971142716898783631">"위성 연결 정보"</string>
+    <string name="description_about_satellite_setting" msgid="5539359064330584941">"요건을 충족하는 <xliff:g id="CARRIER_NAME">%1$s</xliff:g> 계정을 사용하면 위성으로 문자 메시지를 주고받고 일부 앱을 사용할 수 있습니다."</string>
     <string name="category_title_your_satellite_plan" msgid="8169426217950247126">"내 <xliff:g id="CARRIER_NAME">%1$s</xliff:g> 계정"</string>
     <string name="title_have_satellite_plan" msgid="2048372355699977947">"위성 메시지가 계정에 포함되어 있음"</string>
     <string name="title_no_satellite_plan" msgid="2876056203035197505">"위성 메시지가 계정에 포함되어 있지 않음"</string>
@@ -5068,14 +5058,27 @@
     <string name="title_supported_service_for_manual_type" msgid="6009284624466359864">"단계에 따라 위성에 연결하세요"</string>
     <string name="summary_supported_service" msgid="4320535903444834786">"응급 서비스를 포함해 누구에게나 문자 메시지를 보낼 수 있습니다. 모바일 네트워크가 사용 가능해지면 휴대전화가 네트워크에 다시 연결됩니다."</string>
     <string name="summary_supported_service_for_manual_type" msgid="2147958362763058271">"휴대전화가 연결되면 응급 서비스를 포함해 누구에게나 문자 메시지를 보낼 수 있습니다."</string>
-    <string name="satellite_setting_summary_more_information" msgid="276312352285564071">"위성 연결은 속도가 느릴 수 있고, 일부 지역에서만 사용 가능합니다. 날씨 및 특정 구조물이 연결에 영향을 미칠 수 있습니다. 위성 통화는 사용할 수 없지만 긴급 전화는 연결될 수 있습니다.\n\n계정 변경사항이 설정에 표시되는 데 다소 시간이 걸릴 수 있습니다. 자세한 정보는 <xliff:g id="CARRIER_NAME">%1$s</xliff:g>에 문의하세요."</string>
-    <string name="satellite_setting_summary_more_information_no_emergency_messaging" msgid="2090170250936862158">"위성 연결은 속도가 느릴 수 있고, 일부 지역에서만 사용 가능합니다. 날씨 및 특정 구조물이 연결에 영향을 미칠 수 있습니다. 위성 통화는 사용할 수 없지만 긴급 전화는 계속 연결될 수 있습니다. 일부 지역에서는 응급 서비스에 문자 메시지를 전송할 수 없습니다.\n\n계정 변경사항이 설정에 표시되는 데 다소 시간이 걸릴 수 있습니다. 자세한 정보는 <xliff:g id="CARRIER_NAME">%1$s</xliff:g>에 문의하세요."</string>
-    <!-- no translation found for more_about_satellite_messaging (5358981088419444073) -->
+    <!-- no translation found for satellite_footer_content_section_0 (4169483813004415556) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_1 (7925931577373229601) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_2 (7699185178461362541) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_3 (4652426135622555607) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_4 (2294227482962815751) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_5 (3053256489735265540) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_6 (1448633393918612418) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_7 (5524773673918954918) -->
+    <skip />
+    <!-- no translation found for more_about_satellite_connectivity (9110502891919936054) -->
     <skip />
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"<xliff:g id="FUNCTION">%1$s</xliff:g> 기능을 사용 설정할 수 없음"</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"<xliff:g id="FUNCTION">%1$s</xliff:g> 기능을 사용 설정하려면 먼저 위성 연결을 해제하세요."</string>
-    <!-- no translation found for category_title_satellite_connectivity (7740500012311192133) -->
-    <skip />
+    <string name="category_title_satellite_connectivity" msgid="7740500012311192133">"위성"</string>
     <string name="title_satellite_setting_connectivity" msgid="488626710934668313">"위성 연결"</string>
     <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"위성 연결"</string>
     <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"위성 메시지"</string>
@@ -5166,7 +5169,8 @@
     <string name="switch_sim_dialog_no_switch_text" msgid="7053939850026876088">"나중에 모바일 데이터, 통화 기능, SMS를 사용하려면 네트워크 설정으로 이동하세요."</string>
     <string name="sim_card_label" msgid="6263064316075963775">"SIM"</string>
     <string name="erase_sim_dialog_title" msgid="4742077437653028326">"이 eSIM을 삭제하시겠습니까?"</string>
-    <string name="erase_sim_dialog_text" msgid="1406141218170595272">"이 기기에서 <xliff:g id="CARRIER_NAME_A">%1$s</xliff:g> 서비스를 사용할 수 없게 되지만 <xliff:g id="CARRIER_NAME_B">%1$s</xliff:g> 요금제는 취소되지 않습니다."</string>
+    <!-- no translation found for erase_sim_dialog_text (3982216582200709197) -->
+    <skip />
     <string name="erase_sim_confirm_button" msgid="8309115684335320541">"삭제"</string>
     <string name="erasing_sim" msgid="4237180547590463930">"eSIM 삭제 중…"</string>
     <string name="erase_sim_fail_title" msgid="1445700500168357303">"eSIM을 삭제할 수 없음"</string>
@@ -5426,10 +5430,8 @@
     <string name="smart_forwarding_input_mdn_dialog_title" msgid="7542216086697868415">"전화번호 입력"</string>
     <string name="smart_forwarding_missing_mdn_text" msgid="2907314684242542226">"전화번호를 입력하세요."</string>
     <string name="smart_forwarding_missing_alert_dialog_text" msgid="7870419247987316112">"확인"</string>
-    <!-- no translation found for enable_2g_title (5657132300321750181) -->
-    <skip />
-    <!-- no translation found for enable_2g_summary (6317192326100541563) -->
-    <skip />
+    <string name="enable_2g_title" msgid="5657132300321750181">"2G 네트워크 보호"</string>
+    <string name="enable_2g_summary" msgid="6317192326100541563">"보안 수준이 낮은 2G 네트워크는 사용하지 않습니다. 이로 인해 일부 지역에서 연결이 제한될 수 있습니다. 긴급 전화는 항상 허용됩니다"</string>
     <string name="enable_2g_summary_disabled_carrier" msgid="8141118453219482762">"<xliff:g id="CARRIER_NAME_2G">%1$s</xliff:g> 이동통신사 사용 시 2G 필요"</string>
     <string name="require_cellular_encryption_title" msgid="6087085031703089235">"암호화된 네트워크만 허용"</string>
     <string name="require_cellular_encryption_summary" msgid="6090569065420631457">"이렇게 하면 보안을 강화하지만 일부 위치에서 모바일 네트워크 연결이 제한될 수 있습니다. 긴급 전화는 항상 허용됩니다."</string>
@@ -5624,13 +5626,13 @@
     <string name="audio_sharing_call_audio_title" msgid="7978867452289583929">"통화 오디오"</string>
     <string name="audio_sharing_call_audio_description" msgid="6573621048260616924">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>에서만 재생합니다."</string>
     <string name="audio_sharing_test_sound_title" msgid="6438868185641027763">"테스트 소리 재생"</string>
-    <string name="audio_sharing_test_sound_description" msgid="4072462502371937399">"청취 중인 모든 사용자가 들어야 합니다."</string>
+    <string name="audio_sharing_test_sound_description" msgid="4072462502371937399">"청취 중인 모든 사용자가 들을 수 있어야 합니다."</string>
     <string name="audio_sharing_stream_settings_title" msgid="1374391898689242036">"오디오 스트림 설정"</string>
     <string name="audio_sharing_stream_name_title" msgid="8156859441897180940">"이름"</string>
     <string name="audio_sharing_stream_password_title" msgid="7026649168165764602">"비밀번호"</string>
     <string name="audio_sharing_stream_compatibility_title" msgid="5690947186724469918">"호환성 개선"</string>
     <string name="audio_sharing_stream_compatibility_description" msgid="8170241188606110963">"음질을 낮춰 보청기와 같은 일부 기기의 연결을 지원합니다."</string>
-    <string name="audio_sharing_stream_compatibility_disabled_description" msgid="2586408353546825682">"호환성을 높이기 위해 오디오 공유를 사용 중지합니다."</string>
+    <string name="audio_sharing_stream_compatibility_disabled_description" msgid="2586408353546825682">"호환성 구성을 위해 오디오 공유를 사용 중지합니다."</string>
     <string name="audio_sharing_nearby_audio_title" msgid="4795438407040677177">"주변 오디오 듣기"</string>
     <string name="audio_sharing_footer_description" msgid="4786942197840271680">"오디오 공유는 Auracast™를 지원합니다."</string>
     <string name="audio_sharing_stream_name_dialog_title" msgid="6706027295417556499">"오디오 스트림 이름"</string>
@@ -5649,7 +5651,7 @@
     <string name="audio_sharing_dialog_connect_device_content" msgid="2873230647152283734">"호환되는 다른 헤드폰을 연결하거나 스트림의 이름 및 비밀번호를 다른 사용자와 공유하세요."</string>
     <string name="audio_sharing_dialog_qr_code_content" msgid="2246980817848351361">"다른 사용자가 이 코드를 스캔하여 오디오를 들을 수 있도록 허용\n\n스트림 이름: <xliff:g id="STREAM_NAME">%1$s</xliff:g>\n비밀번호: <xliff:g id="PASSWORD">%2$s</xliff:g>"</string>
     <string name="audio_sharing_dialog_qr_code_content_no_password" msgid="7824076083031650113">"다른 사용자가 이 코드를 스캔하여 오디오를 들을 수 있도록 허용\n\n스트림 이름: <xliff:g id="STREAM_NAME">%1$s</xliff:g>"</string>
-    <string name="audio_sharing_dialog_pair_new_device_content" msgid="6720472590211440206">"또는 호환되는 다른 헤드폰과 페어링하세요."</string>
+    <string name="audio_sharing_dialog_pair_new_device_content" msgid="6720472590211440206">"또는 호환되는 다른 헤드폰과 페어링"</string>
     <string name="audio_sharing_dialog_pair_device_content" msgid="3136997898244863470">"호환되는 다른 헤드폰과 페어링하거나 오디오 스트림의 QR 코드를 다른 사용자와 공유하세요."</string>
     <string name="audio_sharing_sharing_label" msgid="1038021053061111508">"오디오 공유 중"</string>
     <string name="audio_sharing_pair_button_label" msgid="7987236990273083588">"새 기기와 페어링"</string>

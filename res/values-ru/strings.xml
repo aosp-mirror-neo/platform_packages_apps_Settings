@@ -949,6 +949,8 @@
     <skip />
     <!-- no translation found for bluetooth_key_missing_close (6724520133374312040) -->
     <skip />
+    <!-- no translation found for bluetooth_key_missing_toast (8692796546000643569) -->
+    <skip />
     <string name="device_details_title" msgid="1155622417516195481">"Об устройстве"</string>
     <string name="bluetooth_device_keyboard_settings_preference_title" msgid="3411693160917620519">"Настройки клавиатуры"</string>
     <string name="bluetooth_device_more_settings_preference_title" msgid="6034482566541746500">"Дополнительные настройки"</string>
@@ -1388,6 +1390,8 @@
     <string name="night_display_not_currently_on" msgid="6600205753103093827">"Ночная подсветка сейчас выключена"</string>
     <string name="twilight_mode_location_off_dialog_message" msgid="4559150893687124801">"Чтобы определять время заката и рассвета, требуется доступ к геоданным."</string>
     <string name="twilight_mode_launch_location" msgid="7799112373591153956">"Доступ к геоданным"</string>
+    <!-- no translation found for twilight_mode_pending_location (6829434234071614405) -->
+    <skip />
     <string name="dark_ui_activation_on_manual" msgid="1541006734577325234">"Включить"</string>
     <string name="dark_ui_activation_off_manual" msgid="2395333709291250065">"Отключить"</string>
     <string name="dark_ui_activation_on_auto" msgid="4824339634784765049">"Включить до рассвета"</string>
@@ -2125,7 +2129,8 @@
     <string name="trackpad_bottom_right_tap_title" msgid="230337692279220068">"Нажатие на правый нижний угол"</string>
     <string name="trackpad_bottom_right_tap_summary" msgid="4467915480282133447">"Нажмите на правый нижний угол сенсорной панели, чтобы увидеть другие опции"</string>
     <string name="trackpad_pointer_speed" msgid="5672221910698079303">"Скорость движения указателя"</string>
-    <string name="three_finger_tap_preference_title" msgid="3779242412749283386">"Настроить нажатие тремя пальцами"</string>
+    <!-- no translation found for three_finger_tap_preference_title (1836080810837854140) -->
+    <skip />
     <string name="touchpad_acceleration_title" msgid="176627555191021888">"Ускорение сенсорной панели"</string>
     <string name="touchpad_acceleration_summary" msgid="8057075483967535793">"Чем быстрее вы проводите пальцем по сенсорной панели, тем дальше перемещается курсор"</string>
     <string name="pointer_fill_style" msgid="8794616790175016092">"Цвет указателя"</string>
@@ -2142,7 +2147,8 @@
     <string name="trackpad_touch_gesture" msgid="8641725062131922497">"Узнать о жестах на сенсорной панели"</string>
     <string name="keywords_touchpad" msgid="8159846254066666032">"сенсорная панель, мышь, указатель мыши, прокрутить, провести по экрану, нажать правую кнопку мыши, нажать"</string>
     <string name="keywords_trackpad_bottom_right_tap" msgid="1285062446073929305">"нажать правую кнопку мыши, нажать"</string>
-    <string name="three_finger_tap_middle_click" msgid="1759914275939765929">"Средняя кнопка мыши"</string>
+    <!-- no translation found for three_finger_tap_middle_click (7898931632908866867) -->
+    <skip />
     <string name="three_finger_tap_launch_gemini" msgid="4030401656711588982">"Запустить Ассистента"</string>
     <string name="three_finger_tap_go_home" msgid="6526301745535089812">"Возврат на главный экран"</string>
     <string name="three_finger_tap_go_back" msgid="2898205524575684271">"Переход назад"</string>
@@ -5064,9 +5070,23 @@
     <string name="title_supported_service_for_manual_type" msgid="6009284624466359864">"Подключитесь к спутнику, следуя инструкциям"</string>
     <string name="summary_supported_service" msgid="4320535903444834786">"Вы можете отправлять текстовые сообщения кому угодно, в том числе экстренным службам. Ваш телефон повторно подключится к мобильной сети, когда она станет доступна."</string>
     <string name="summary_supported_service_for_manual_type" msgid="2147958362763058271">"После подключения к спутнику вы сможете отправлять текстовые сообщения кому угодно, в том числе экстренным службам."</string>
-    <string name="satellite_setting_summary_more_information" msgid="276312352285564071">"Спутниковое соединение может работать медленно и не во всех регионах. На его качество могут влиять погода и внешние препятствия. Звонки по спутниковой связи недоступны (кроме экстренных).\n\nМожет пройти некоторое время, прежде чем изменения в вашем аккаунте появятся в настройках. За дополнительной информацией обратитесь к оператору \"<xliff:g id="CARRIER_NAME">%1$s</xliff:g>\"."</string>
-    <string name="satellite_setting_summary_more_information_no_emergency_messaging" msgid="2090170250936862158">"Спутниковое соединение может работать медленно и не во всех регионах. На его качество могут влиять погода и внешние препятствия. Звонки по спутниковой связи недоступны (кроме экстренных). Отправка текстовых сообщений экстренным службам может быть разрешена не во всех регионах.\n\nНе исключено, что изменения в вашем аккаунте появятся в настройках не сразу. За дополнительной информацией обратитесь к оператору \"<xliff:g id="CARRIER_NAME">%1$s</xliff:g>\"."</string>
-    <!-- no translation found for more_about_satellite_messaging (5358981088419444073) -->
+    <!-- no translation found for satellite_footer_content_section_0 (4169483813004415556) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_1 (7925931577373229601) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_2 (7699185178461362541) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_3 (4652426135622555607) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_4 (2294227482962815751) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_5 (3053256489735265540) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_6 (1448633393918612418) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_7 (5524773673918954918) -->
+    <skip />
+    <!-- no translation found for more_about_satellite_connectivity (9110502891919936054) -->
     <skip />
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"Не удается включить функцию \"<xliff:g id="FUNCTION">%1$s</xliff:g>\""</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"Чтобы включить функцию \"<xliff:g id="FUNCTION">%1$s</xliff:g>\", сначала отключите спутниковую связь."</string>
@@ -5162,7 +5182,8 @@
     <string name="switch_sim_dialog_no_switch_text" msgid="7053939850026876088">"Чтобы использовать мобильный интернет, звонки и SMS, измените настройки сети."</string>
     <string name="sim_card_label" msgid="6263064316075963775">"SIM-карта"</string>
     <string name="erase_sim_dialog_title" msgid="4742077437653028326">"Удалить эту eSIM?"</string>
-    <string name="erase_sim_dialog_text" msgid="1406141218170595272">"Вы больше не сможете воспользоваться данными услугами от оператора \"<xliff:g id="CARRIER_NAME_A">%1$s</xliff:g>\" на этом устройстве, но тарифный план оператора \"<xliff:g id="CARRIER_NAME_B">%1$s</xliff:g>\" будет действовать."</string>
+    <!-- no translation found for erase_sim_dialog_text (3982216582200709197) -->
+    <skip />
     <string name="erase_sim_confirm_button" msgid="8309115684335320541">"Стереть"</string>
     <string name="erasing_sim" msgid="4237180547590463930">"Удаление eSIM…"</string>
     <string name="erase_sim_fail_title" msgid="1445700500168357303">"Не получилось удалить eSIM"</string>

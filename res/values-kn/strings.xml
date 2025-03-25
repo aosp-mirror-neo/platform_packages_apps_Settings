@@ -264,10 +264,8 @@
     <string name="title_regional_pref_footer" msgid="7450438024324794380">"ಒಂದು ಆ್ಯಪ್ ಪ್ರಾದೇಶಿಕ ಆದ್ಯತೆಗಳನ್ನು ಬೆಂಬಲಿಸದಿದ್ದರೆ, ಅದು ತನ್ನ ಡೀಫಾಲ್ಟ್ ಭಾಷೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಬಳಸುತ್ತದೆ."</string>
     <string name="desc_regional_pref_footer_learn_more" msgid="4401708653329230081">"ಭಾಷೆಯ ಆದ್ಯತೆಗಳ ಕುರಿತು ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ."</string>
     <string name="metric_measurement_system" msgid="7489725697268321541">"ಮೆಟ್ರಿಕ್"</string>
-    <!-- no translation found for us_measurement_system (8406695347890345490) -->
-    <skip />
-    <!-- no translation found for uk_measurement_system (1814065008707689505) -->
-    <skip />
+    <string name="us_measurement_system" msgid="8406695347890345490">"ಯುಎಸ್"</string>
+    <string name="uk_measurement_system" msgid="1814065008707689505">"ಯುಕೆ"</string>
     <string name="category_title_terms_of_address" msgid="4309422700380895278">"ಹೆಚ್ಚುವರಿ ಪ್ರಾಶಸ್ತ್ಯಗಳು"</string>
     <string name="terms_of_address_title" msgid="7338630812197476808">"ನಿಮ್ಮನ್ನು ಸಂಬೋಧಿಸುವ ವಿಧಾನವನ್ನು ಆರಿಸಿಕೊಳ್ಳಿ"</string>
     <string name="terms_of_address_summary" msgid="7802443422612600620">"ನಿಮ್ಮ ಸಾಧನವು ನಿಮ್ಮನ್ನು ಸಂಬೋಧಿಸುವ ವಿಧಾನವನ್ನು ವೈಯಕ್ತೀಕರಿಸಬಹುದು"</string>
@@ -800,7 +798,7 @@
     <string name="face_unlock_skip_face" msgid="189695556498300008">"ಫೇಸ್ ಅನ್‌ಲಾಕ್ ಇಲ್ಲದೆ ಮುಂದುವರಿಯಿರಿ"</string>
     <string name="biometrics_unlock_skip_biometrics" msgid="7399882488272450182">"ಫಿಂಗರ್ ಪ್ರಿಂಟ್ ಅಥವಾ ಫೇಸ್ ಅನ್‌ಲಾಕ್ ಇಲ್ಲದೆ ಮುಂದುವರಿಸಿ"</string>
     <string name="unlock_set_unlock_mode_off" msgid="4632139864722236359">"ಯಾವುದೂ ಇಲ್ಲ"</string>
-    <string name="unlock_set_unlock_mode_off_new" msgid="865396805830816266">"ಪಿನ್, ಪ್ಯಾಟರ್ನ್, ಪಾಸ್‌ವರ್ಡ್ ಸೇರಿಸಿ ಅಥವಾ ಸ್ವೈಪ್ ಮಾಡಿ"</string>
+    <string name="unlock_set_unlock_mode_off_new" msgid="865396805830816266">"ಪಿನ್, ಪ್ಯಾಟರ್ನ್, ಪಾಸ್‌ವರ್ಡ್ ಸೇರಿಸಿ/ಸ್ವೈಪ್ ಮಾಡಿ"</string>
     <string name="unlock_set_unlock_mode_none" msgid="5596049938457028214">"ಸ್ವೈಪ್"</string>
     <string name="unlock_set_unlock_mode_pattern" msgid="1926480143883094896">"ಪ್ಯಾಟರ್ನ್"</string>
     <string name="unlock_set_unlock_mode_pin" msgid="9028659554829888373">"ಪಿನ್‌"</string>
@@ -939,15 +937,13 @@
     <string name="bluetooth_scanning_on_info_message" msgid="786648535600075223">"ಬ್ಲೂಟೂತ್ ಆನ್‌ ಮಾಡಿದ ನಂತರ, ನಿಮ್ಮ ಬ್ಲೂಟೂತ್ ಸಾಧನವು ಸಮೀಪದ ಸಾಧನಗಳ ಜೊತೆ ಸಂವಹನ ಮಾಡಬಹುದು. \n\nಸಾಧನದ ಅನುಭವವನ್ನು ಸುಧಾರಿಸಲು, ಬ್ಲೂಟೂತ್‌ ಆಫ್‌ ಆಗಿದ್ದರೂ ಸಹ, ಯಾವ ಸಮಯದಲ್ಲಾದರೂ ಸಮೀಪದ ಸಾಧನಗಳಿಗೆ ಸ್ಕ್ಯಾನ್‌ ಮಾಡಲು ಆ್ಯಪ್‌ಗಳು ಮತ್ತು ಸೇವೆಗಳಿಗೆ ಅನುಮತಿ ನೀಡಿ. ಉದಾಹರಣೆಗೆ, ಸ್ಥಳ ಆಧಾರಿತ ಫೀಚರ್‌ಗಳು ಮತ್ತು ಸೇವೆಗಳನ್ನು ಸುಧಾರಿಸಲು ಇದನ್ನು ಬಳಸಬಹುದಾಗಿದೆ. ನೀವು ಇದನ್ನು ಸ್ಕ್ಯಾನಿಂಗ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಬದಲಾಯಿಸಬಹುದು."</string>
     <string name="bluetooth_scanning_on_info_message_auto_on_available" msgid="7792443293031247638">"ಬ್ಲೂಟೂತ್ ಆನ್ ಆಗಿರುವಾಗ, ನಿಮ್ಮ ಸಾಧನವು ಸಮೀಪದ ಇತರ ಬ್ಲೂಟೂತ್ ಸಾಧನಗಳ ಜೊತೆಗೆ ಸಂವಹನ ಮಾಡಬಹುದು. ಕ್ವಿಕ್ ಶೇರ್ ಮತ್ತು Find My Device ನಂತಹ ಫೀಚರ್‌ಗಳು ಬ್ಲೂಟೂತ್ ಅನ್ನು ಬಳಸುತ್ತವೆ.\n\nಬ್ಲೂಟೂತ್ ಆಫ್ ಆಗಿರುವಾಗಲೂ ಸಹ ಆ್ಯಪ್‌ಗಳು ಮತ್ತು ಸೇವೆಗಳು ಹತ್ತಿರದ ಸಾಧನಗಳನ್ನು ಯಾವಾಗ ಬೇಕಾದರೂ ಸ್ಕ್ಯಾನ್ ಮಾಡಬಹುದು. ಉದಾಹರಣೆಗೆ, ಸ್ಥಳ-ಆಧಾರಿತ ಫೀಚರ್‌ಗಳು ಮತ್ತು ಸೇವೆಗಳನ್ನು ಸುಧಾರಿಸಲು ಇದನ್ನು ಬಳಸಬಹುದು. ನೀವು ಇದನ್ನು ಬ್ಲೂಟೂತ್ ಸ್ಕ್ಯಾನಿಂಗ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಬದಲಾಯಿಸಬಹುದು."</string>
     <string name="bluetooth_scan_change" msgid="1744636222637390367">"ಬದಲಾಯಿಸಿ"</string>
-    <!-- no translation found for bluetooth_key_missing_title (8462010102528132965) -->
-    <skip />
-    <!-- no translation found for bluetooth_key_missing_message (3188093580372443815) -->
-    <skip />
+    <string name="bluetooth_key_missing_title" msgid="8462010102528132965">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> ಅನ್ನು ಕನೆಕ್ಟ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ"</string>
+    <string name="bluetooth_key_missing_message" msgid="3188093580372443815">"ಹೆಚ್ಚಿನ ವಿವರಗಳಿಗಾಗಿ, ಸಾಧನ ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗೆ ಹೋಗಿ"</string>
     <string name="bluetooth_key_missing_forget" msgid="4692006517823001013">"ಸಾಧನವನ್ನು ಮರೆತುಬಿಡಿ"</string>
     <string name="bluetooth_key_missing_cancel" msgid="2482416446357804371">"ರದ್ದುಮಾಡಿ"</string>
-    <!-- no translation found for bluetooth_key_missing_device_settings (5512091368141961890) -->
-    <skip />
-    <!-- no translation found for bluetooth_key_missing_close (6724520133374312040) -->
+    <string name="bluetooth_key_missing_device_settings" msgid="5512091368141961890">"ಸಾಧನದ ಸೆಟ್ಟಿಂಗ್‌ಗಳು"</string>
+    <string name="bluetooth_key_missing_close" msgid="6724520133374312040">"ಮುಚ್ಚಿರಿ"</string>
+    <!-- no translation found for bluetooth_key_missing_toast (8692796546000643569) -->
     <skip />
     <string name="device_details_title" msgid="1155622417516195481">"ಸಾಧನದ ವಿವರಗಳು"</string>
     <string name="bluetooth_device_keyboard_settings_preference_title" msgid="3411693160917620519">"ಕೀಬೋರ್ಡ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳು"</string>
@@ -963,8 +959,7 @@
     <string name="device_details_leaudio_toggle_summary" msgid="7684848254433230809">"ಪ್ರಾಯೋಗಿಕ. ಆಡಿಯೋ ಗುಣಮಟ್ಟ ಸುಧಾರಿಸುತ್ತದೆ."</string>
     <string name="device_details_battery" msgid="5466987755790847884">"ಬ್ಯಾಟರಿ"</string>
     <string name="device_details_battery_charging" msgid="3464969346075775143">"ಬ್ಯಾಟರಿ ಚಾರ್ಜ್ ಆಗುತ್ತಿದೆ"</string>
-    <!-- no translation found for device_details_key_missing_title (3568401701538114387) -->
-    <skip />
+    <string name="device_details_key_missing_title" msgid="3568401701538114387">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> ಅನ್ನು ಮರುಪ್ರಾರಂಭಿಸಲು ಪ್ರಯತ್ನಿಸಿ. ಇದು ಕೆಲಸ ಮಾಡದಿದ್ದರೆ, ಸಾಧನವನ್ನು ತೆಗೆದುಹಾಕಿ. ನಿಮ್ಮ ಭದ್ರತೆಗಾಗಿ, ನೀವು ಸಾರ್ವಜನಿಕ ಸ್ಥಳದಲ್ಲಿ ಇಲ್ಲದಿರುವಾಗ ಮಾತ್ರ ಇದನ್ನು ಪುನಃ ಪೇರ್ ಮಾಡಿ.\n\nಈ ಸಾಧನ ಸಮೀಪದಲ್ಲಿಲ್ಲದಿದ್ದರೆ, ನೀವು ಏನನ್ನೂ ಮಾಡುವ ಅಗತ್ಯವಿಲ್ಲ."</string>
     <string name="bluetooth_unpair_dialog_forget_confirm_button" msgid="9184489424930549015">"ಸಾಧನವನ್ನು ಮರೆತುಬಿಡಿ"</string>
     <string name="bluetooth_companion_app_remove_association_confirm_button" msgid="76323555527926915">"ಆ್ಯಪ್ ಅನ್ನು ಡಿಸ್‌ಕನೆಕ್ಟ್ ಮಾಡಿ"</string>
     <string name="device_details_more_settings" msgid="950302792331611271">"ಇನ್ನಷ್ಟು ಸೆಟ್ಟಿಂಗ್‌ಗಳು"</string>
@@ -1101,8 +1096,7 @@
     <string name="wifi_eap_identity" msgid="3629406902174137028">"ಗುರುತಿಸುವಿಕೆ"</string>
     <string name="wifi_eap_anonymous" msgid="8630332141751267000">"ಅನಾಮಧೇಯ ಗುರುತಿಸುವಿಕೆ"</string>
     <string name="wifi_password" msgid="165204973532996861">"ಪಾಸ್‌ವರ್ಡ್*"</string>
-    <!-- no translation found for wifi_password_optional (6770706664834070705) -->
-    <skip />
+    <string name="wifi_password_optional" msgid="6770706664834070705">"ಪಾಸ್‌ವರ್ಡ್ (ಐಚ್ಛಿಕ)"</string>
     <string name="wifi_password_invalid" msgid="8884500804472828356">"ಪಾಸ್‌ವರ್ಡ್ ಅಮಾನ್ಯವಾಗಿದೆ"</string>
     <string name="wifi_show_password" msgid="6865993988238157923">"ಪಾಸ್‌ವರ್ಡ್‌ ತೋರಿಸಿ"</string>
     <string name="wifi_ap_choose_2G" msgid="1436802195991542016">"2.4 GHz ಬ್ಯಾಂಡ್"</string>
@@ -1388,6 +1382,8 @@
     <string name="night_display_not_currently_on" msgid="6600205753103093827">"ನೈಟ್ ಲೈಟ್ ಸದ್ಯ ಆನ್ ಆಗಿಲ್ಲ"</string>
     <string name="twilight_mode_location_off_dialog_message" msgid="4559150893687124801">"ನಿಮ್ಮ ಸೂರ್ಯಾಸ್ತ ಮತ್ತು ಸೂರ್ಯೋದಯದ ಸಮಯಗಳನ್ನು ಪತ್ತೆಹಚ್ಚುವುದಕ್ಕಾಗಿ ಸಾಧನ ಸ್ಥಳದ ಅಗತ್ಯವಿದೆ."</string>
     <string name="twilight_mode_launch_location" msgid="7799112373591153956">"ಸ್ಥಳ ಸೆಟ್ಟಿಂಗ್‌ಗಳು"</string>
+    <!-- no translation found for twilight_mode_pending_location (6829434234071614405) -->
+    <skip />
     <string name="dark_ui_activation_on_manual" msgid="1541006734577325234">"ಈಗ ಆನ್ ಮಾಡಿ"</string>
     <string name="dark_ui_activation_off_manual" msgid="2395333709291250065">"ಈಗ ಆಫ್ ಮಾಡಿ"</string>
     <string name="dark_ui_activation_on_auto" msgid="4824339634784765049">"ಸೂರ್ಯೋದಯದ ತನಕ ಆನ್ ಮಾಡಿ"</string>
@@ -2125,7 +2121,8 @@
     <string name="trackpad_bottom_right_tap_title" msgid="230337692279220068">"ಕೆಳಗಿನ-ಬಲಭಾಗದ ಕ್ಲಿಕ್"</string>
     <string name="trackpad_bottom_right_tap_summary" msgid="4467915480282133447">"ಇನ್ನಷ್ಟು ಆಯ್ಕೆಗೆ ಟಚ್‌ಪ್ಯಾಡ್‌ನ ಕೆಳ ಬಲ ಮೂಲೆಯನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ"</string>
     <string name="trackpad_pointer_speed" msgid="5672221910698079303">"ಕರ್ಸರ್ ವೇಗ"</string>
-    <string name="three_finger_tap_preference_title" msgid="3779242412749283386">"3-ಫಿಂಗರ್ ಟ್ಯಾಪ್ ಅನ್ನು ಕಸ್ಟಮೈಸ್ ಮಾಡಿ"</string>
+    <!-- no translation found for three_finger_tap_preference_title (1836080810837854140) -->
+    <skip />
     <string name="touchpad_acceleration_title" msgid="176627555191021888">"ಟಚ್‌ಪ್ಯಾಡ್ ವೇಗವರ್ಧನೆ"</string>
     <string name="touchpad_acceleration_summary" msgid="8057075483967535793">"ನಿಮ್ಮ ಟಚ್‌ಪ್ಯಾಡ್‌ನಲ್ಲಿ ವೇಗವಾದ ಮೂವ್‌ಗಳು ಕರ್ಸರ್ ಅನ್ನು ದೂರಕ್ಕೆ ಮೂವ್ ಮಾಡುತ್ತವೆ"</string>
     <string name="pointer_fill_style" msgid="8794616790175016092">"ಪಾಯಿಂಟರ್‌ನ ಬಣ್ಣ"</string>
@@ -2142,7 +2139,8 @@
     <string name="trackpad_touch_gesture" msgid="8641725062131922497">"ಟಚ್‌ಪ್ಯಾಡ್ ಗೆಸ್ಚರ್‌ಗಳನ್ನು ಕಲಿಯಿರಿ"</string>
     <string name="keywords_touchpad" msgid="8159846254066666032">"ಟ್ರ್ಯಾಕ್‌ಪ್ಯಾಡ್, ಟ್ರ್ಯಾಕ್ ಪ್ಯಾಡ್, ಮೌಸ್, ಕರ್ಸರ್, ಸ್ಕ್ರಾಲ್, ಸ್ವೈಪ್, ಬಲ-ಕ್ಲಿಕ್, ಕ್ಲಿಕ್, ಪಾಯಿಂಟರ್"</string>
     <string name="keywords_trackpad_bottom_right_tap" msgid="1285062446073929305">"ಬಲ ಕ್ಲಿಕ್, ಟ್ಯಾಪ್ ಮಾಡಿ"</string>
-    <string name="three_finger_tap_middle_click" msgid="1759914275939765929">"ಮೌಸ್ ಮಧ್ಯದ ಕ್ಲಿಕ್ ಬಟನ್"</string>
+    <!-- no translation found for three_finger_tap_middle_click (7898931632908866867) -->
+    <skip />
     <string name="three_finger_tap_launch_gemini" msgid="4030401656711588982">"Assistant ಅನ್ನು ಪ್ರಾರಂಭಿಸಿ"</string>
     <string name="three_finger_tap_go_home" msgid="6526301745535089812">"ಮುಖಪುಟಕ್ಕೆ ಹೋಗಿ"</string>
     <string name="three_finger_tap_go_back" msgid="2898205524575684271">"ಹಿಂದಿರುಗಿ"</string>
@@ -4417,8 +4415,7 @@
     <string name="disconnected" msgid="3469373726996129247">"ಕನೆಕ್ಟ್ ಆಗಿಲ್ಲ"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"ಸಂಪರ್ಕಗೊಂಡಿಲ್ಲ"</string>
     <string name="apps_summary" msgid="4007416751775414252">"<xliff:g id="COUNT">%1$d</xliff:g> ಆ್ಯಪ್‌ಗಳನ್ನು ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಲಾಗಿದೆ"</string>
-    <!-- no translation found for storage_toplevel_summary (6708203706751754934) -->
-    <skip />
+    <string name="storage_toplevel_summary" msgid="6708203706751754934">"<xliff:g id="PERCENTAGE">%1$s</xliff:g> ಬಳಕೆಯಾಗಿರುವುದು - <xliff:g id="FREE_SPACE">%2$s</xliff:g> ಲಭ್ಯವಿರುವುದು"</string>
     <string name="display_dashboard_summary" msgid="1599453894989339454">"ಡಾರ್ಕ್‌ ಥೀಮ್, ಫಾಂಟ್ ಗಾತ್ರ, ಪ್ರಖರತೆ"</string>
     <string name="memory_summary" msgid="8221954450951651735">"<xliff:g id="TOTAL_MEMORY">%2$s</xliff:g> ಯಲ್ಲಿ ಸರಾಸರಿ <xliff:g id="USED_MEMORY">%1$s</xliff:g> ಮೆಮೊರಿ ಬಳಸಲಾಗಿದೆ"</string>
     <string name="users_summary" msgid="8473589474976307510">"<xliff:g id="USER_NAME">%1$s</xliff:g> ಎಂಬುದಾಗಿ ಸೈನ್ ಇನ್ ಮಾಡಲಾಗಿದೆ"</string>
@@ -5041,16 +5038,13 @@
     <string name="roaming_alert_title" msgid="9052791521868787985">"ಡೇಟಾ ರೋಮಿಂಗ್ ಅನುಮತಿಸುವುದೇ?"</string>
     <string name="roaming_check_price_warning" msgid="5876977438036791361">"ಬೆಲೆ ನಿಗದಿಗಾಗಿ ನಿಮ್ಮ ನೆಟ್‌ವರ್ಕ್ ಪೂರೈಕೆದಾರರೊಂದಿಗೆ ಪರಿಶೀಲಿಸಿ."</string>
     <string name="mobile_network_mode_error" msgid="9222056129897416074">"ಅಮಾನ್ಯ ನೆಟ್‌ವರ್ಕ್‌ ಮೋಡ್‌ <xliff:g id="NETWORKMODEID">%1$d</xliff:g>. ನಿರ್ಲಕ್ಷಿಸಿ."</string>
-    <!-- no translation found for satellite_setting (4650503806634496443) -->
-    <skip />
+    <string name="satellite_setting" msgid="4650503806634496443">"ಸ್ಯಾಟಲೈಟ್ ಕನೆಕ್ಟಿವಿಟಿ"</string>
     <string name="satellite_setting_enabled_summary" msgid="3554127722727530845">"ಸ್ಯಾಟಲೈಟ್ ಮೂಲಕ ಪಠ್ಯ ಸಂದೇಶಗಳನ್ನು ಕಳುಹಿಸಿ ಮತ್ತು ಸ್ವೀಕರಿಸಿ. ನಿಮ್ಮ ಖಾತೆಯ ಜೊತೆಗೆ ಸೇರಿಸಲಾಗಿದೆ."</string>
     <string name="satellite_setting_disabled_summary" msgid="8428393986403708690">"ಸ್ಯಾಟಲೈಟ್ ಮೂಲಕ ಪಠ್ಯ ಸಂದೇಶಗಳನ್ನು ಕಳುಹಿಸಿ ಮತ್ತು ಸ್ವೀಕರಿಸಿ. ನಿಮ್ಮ ಖಾತೆಯೊಂದಿಗೆ ಸೇರಿಸಲಾಗಿಲ್ಲ."</string>
     <string name="satellite_setting_summary_without_entitlement" msgid="5284998840770992554">"ಸ್ಯಾಟಲೈಟ್ ಮೂಲಕ ಪಠ್ಯ ಸಂದೇಶಗಳನ್ನು ಕಳುಹಿಸಿ ಮತ್ತು ಸ್ವೀಕರಿಸಿ. ವಿವರಗಳಿಗಾಗಿ ನಿಮ್ಮ ವಾಹಕ ಕಂಪನಿಯನ್ನು ಸಂಪರ್ಕಿಸಿ."</string>
     <string name="keywords_satellite_setting" msgid="613553612424945946">"ಸ್ಯಾಟಲೈಟ್ ಮೆಸೇಜಿಂಗ್, ಸ್ಯಾಟಲೈಟ್ ಕನೆಕ್ಟಿವಿಟಿ"</string>
-    <!-- no translation found for category_name_about_satellite_connectivity (3971142716898783631) -->
-    <skip />
-    <!-- no translation found for description_about_satellite_setting (5539359064330584941) -->
-    <skip />
+    <string name="category_name_about_satellite_connectivity" msgid="3971142716898783631">"ಸ್ಯಾಟಲೈಟ್ ಕನೆಕ್ಟಿವಿಟಿ ಕುರಿತು"</string>
+    <string name="description_about_satellite_setting" msgid="5539359064330584941">"ಅರ್ಹ <xliff:g id="CARRIER_NAME">%1$s</xliff:g> ಖಾತೆಯನ್ನು ಬಳಸಿಕೊಂಡು ನೀವು ಸ್ಯಾಟಲೈಟ್ ಮೂಲಕ ಪಠ್ಯ ಸಂದೇಶಗಳನ್ನು ಕಳುಹಿಸಬಹುದು ಮತ್ತು ಸ್ವೀಕರಿಸಬಹುದು ಹಾಗೂ ಕೆಲವು ಆ್ಯಪ್‌ಗಳನ್ನು ಬಳಸಬಹುದು"</string>
     <string name="category_title_your_satellite_plan" msgid="8169426217950247126">"ನಿಮ್ಮ <xliff:g id="CARRIER_NAME">%1$s</xliff:g> ಖಾತೆ"</string>
     <string name="title_have_satellite_plan" msgid="2048372355699977947">"ಸ್ಯಾಟಲೈಟ್ ಸಂದೇಶ ಕಳುಹಿಸುವಿಕೆಯು ನಿಮ್ಮ ಖಾತೆಯ ಜೊತೆಯಲ್ಲಿ ಸೇರಿದೆ"</string>
     <string name="title_no_satellite_plan" msgid="2876056203035197505">"ಸ್ಯಾಟಲೈಟ್ ಸಂದೇಶ ಕಳುಹಿಸುವಿಕೆಯು ನಿಮ್ಮ ಖಾತೆಯ ಜೊತೆಯಲ್ಲಿ ಸೇರಿಲ್ಲ"</string>
@@ -5064,14 +5058,27 @@
     <string name="title_supported_service_for_manual_type" msgid="6009284624466359864">"ಸ್ಯಾಟಲೈಟ್‌ಗೆ ಕನೆಕ್ಟ್ ಮಾಡಲು ಹಂತಗಳನ್ನು ಅನುಸರಿಸಿ"</string>
     <string name="summary_supported_service" msgid="4320535903444834786">"ತುರ್ತು ಸೇವೆಗಳಿಗೂ ಸಹಿತ, ನೀವು ಯಾರಿಗಾದರೂ ಸಂದೇಶ ಕಳುಹಿಸಬಹುದು. ಲಭ್ಯವಿರುವಾಗ ನಿಮ್ಮ ಫೋನ್ ಮೊಬೈಲ್ ನೆಟ್‌ವರ್ಕ್‌ಗೆ ರೀಕನೆಕ್ಟ್ ಆಗುತ್ತದೆ."</string>
     <string name="summary_supported_service_for_manual_type" msgid="2147958362763058271">"ನಿಮ್ಮ ಫೋನ್ ಕನೆಕ್ಟ್ ಆದ ನಂತರ, ತುರ್ತು ಸೇವೆಗಳು ಸೇರಿದಂತೆ ಯಾರಿಗಾದರೂ ನೀವು ಸಂದೇಶ ಕಳುಹಿಸಬಹುದು."</string>
-    <string name="satellite_setting_summary_more_information" msgid="276312352285564071">"ಸ್ಯಾಟಲೈಟ್ ಕನೆಕ್ಷನ್ ನಿಧಾನವಾಗಿರಬಹುದು ಮತ್ತು ಕೆಲವು ಪ್ರದೇಶಗಳಲ್ಲಿ ಮಾತ್ರ ಲಭ್ಯವಿದೆ. ಹವಾಮಾನ ಮತ್ತು ಕೆಲವೊಂದು ರಚನೆಗಳು ಕನೆಕ್ಷನ್ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರಬಹುದು. ಸ್ಯಾಟಲೈಟ್ ಮೂಲಕ ಕರೆ ಮಾಡುವ ಸೌಲಭ್ಯ ಲಭ್ಯವಿಲ್ಲ. ಹಾಗಿದ್ದರೂ ತುರ್ತು ಕರೆಗಳು ಕನೆಕ್ಟ್ ಆಗಬಹುದು.\n\nಖಾತೆಗೆ ಮಾಡಿರುವ ಬದಲಾವಣೆಗಳು ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಕಾಣಿಸಿಕೊಳ್ಳಲು ಸ್ವಲ್ಪ ಸಮಯ ತೆಗೆದುಕೊಳ್ಳಬಹುದು. ಹೆಚ್ಚಿನ ಮಾಹಿತಿಗಾಗಿ <xliff:g id="CARRIER_NAME">%1$s</xliff:g> ಅನ್ನು ಸಂಪರ್ಕಿಸಿ."</string>
-    <string name="satellite_setting_summary_more_information_no_emergency_messaging" msgid="2090170250936862158">"ಸ್ಯಾಟಲೈಟ್ ಕನೆಕ್ಷನ್ ನಿಧಾನವಾಗಿರಬಹುದು ಮತ್ತು ಕೆಲವು ಪ್ರದೇಶಗಳಲ್ಲಿ ಮಾತ್ರ ಲಭ್ಯವಿದೆ. ಹವಾಮಾನ ಮತ್ತು ಕೆಲವೊಂದು ರಚನೆಗಳು ಕನೆಕ್ಷನ್ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರಬಹುದು. ಸ್ಯಾಟಲೈಟ್ ಮೂಲಕ ಕರೆ ಮಾಡುವ ಸೌಲಭ್ಯ ಲಭ್ಯವಿಲ್ಲ. ತುರ್ತು ಕರೆಗಳು ಈಗಲೂ ಕನೆಕ್ಟ್ ಆಗಬಹುದು. ತುರ್ತು ಸೇವೆಗಳ ಮೂಲಕ ಪಠ್ಯ ಸಂದೇಶ ಕಳುಹಿಸುವಿಕೆಯು ಎಲ್ಲಾ ಪ್ರದೇಶಗಳಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲದಿರಬಹುದು.\n\nಖಾತೆ ಬದಲಾವಣೆಗಳು ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಕಾಣಿಸಿಕೊಳ್ಳಲು ಸ್ವಲ್ಪ ಸಮಯ ತೆಗೆದುಕೊಳ್ಳಬಹುದು. ಹೆಚ್ಚಿನ ಮಾಹಿತಿಗಾಗಿ <xliff:g id="CARRIER_NAME">%1$s</xliff:g> ಅನ್ನು ಸಂಪರ್ಕಿಸಿ."</string>
-    <!-- no translation found for more_about_satellite_messaging (5358981088419444073) -->
+    <!-- no translation found for satellite_footer_content_section_0 (4169483813004415556) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_1 (7925931577373229601) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_2 (7699185178461362541) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_3 (4652426135622555607) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_4 (2294227482962815751) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_5 (3053256489735265540) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_6 (1448633393918612418) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_7 (5524773673918954918) -->
+    <skip />
+    <!-- no translation found for more_about_satellite_connectivity (9110502891919936054) -->
     <skip />
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"<xliff:g id="FUNCTION">%1$s</xliff:g> ಅನ್ನು ಆನ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ"</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"<xliff:g id="FUNCTION">%1$s</xliff:g> ಅನ್ನು ಆನ್ ಮಾಡಲು, ಮೊದಲು ಸ್ಯಾಟಲೈಟ್ ಕನೆಕ್ಷನ್ ಅನ್ನು ಕೊನೆಗೊಳಿಸಿ"</string>
-    <!-- no translation found for category_title_satellite_connectivity (7740500012311192133) -->
-    <skip />
+    <string name="category_title_satellite_connectivity" msgid="7740500012311192133">"ಸ್ಯಾಟಲೈಟ್"</string>
     <string name="title_satellite_setting_connectivity" msgid="488626710934668313">"ಸ್ಯಾಟಲೈಟ್‌ ಕನೆಕ್ಟಿವಿಟಿ"</string>
     <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"ಸ್ಯಾಟಲೈಟ್‌ ಕನೆಕ್ಟಿವಿಟಿ"</string>
     <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"ಸ್ಯಾಟಲೈಟ್ ಮೆಸೇಜಿಂಗ್"</string>
@@ -5162,7 +5169,8 @@
     <string name="switch_sim_dialog_no_switch_text" msgid="7053939850026876088">"ಮೊಬೈಲ್ ಡೇಟಾ, ಕರೆಯ ವೈಶಿಷ್ಟ್ಯಗಳು ಮತ್ತು SMS ಅನ್ನು ಆನಂತರ ಬಳಸಲು, ನಿಮ್ಮ ನೆಟ್‌ವರ್ಕ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗೆ ಹೋಗಿ"</string>
     <string name="sim_card_label" msgid="6263064316075963775">"SIM"</string>
     <string name="erase_sim_dialog_title" msgid="4742077437653028326">"ಈ eSIM ಅನ್ನು ಅಳಿಸಬೇಕೆ?"</string>
-    <string name="erase_sim_dialog_text" msgid="1406141218170595272">"ಈ ಸಾಧನದಿಂದ ಇದು <xliff:g id="CARRIER_NAME_A">%1$s</xliff:g> ಸೇವೆಯನ್ನು ತೆಗೆದುಹಾಕುತ್ತದೆ, ಆದರೆ ನಿಮ್ಮ <xliff:g id="CARRIER_NAME_B">%1$s</xliff:g> ಪ್ಲಾನ್ ಅನ್ನು ರದ್ದುಗೊಳಿಸುವುದಿಲ್ಲ."</string>
+    <!-- no translation found for erase_sim_dialog_text (3982216582200709197) -->
+    <skip />
     <string name="erase_sim_confirm_button" msgid="8309115684335320541">"ಅಳಿಸಿ"</string>
     <string name="erasing_sim" msgid="4237180547590463930">"eSIM ಅನ್ನು ಅಳಿಸಲಾಗುತ್ತಿದೆ…"</string>
     <string name="erase_sim_fail_title" msgid="1445700500168357303">"eSIM ಅನ್ನು ಅಳಿಸಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ"</string>

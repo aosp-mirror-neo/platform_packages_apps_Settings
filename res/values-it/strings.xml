@@ -264,10 +264,8 @@
     <string name="title_regional_pref_footer" msgid="7450438024324794380">"Se un\'app non supporta le preferenze locali, userà le proprie impostazioni internazionali predefinite."</string>
     <string name="desc_regional_pref_footer_learn_more" msgid="4401708653329230081">"Scopri di più sulle preferenze di lingua."</string>
     <string name="metric_measurement_system" msgid="7489725697268321541">"Metrico"</string>
-    <!-- no translation found for us_measurement_system (8406695347890345490) -->
-    <skip />
-    <!-- no translation found for uk_measurement_system (1814065008707689505) -->
-    <skip />
+    <string name="us_measurement_system" msgid="8406695347890345490">"Stati Uniti"</string>
+    <string name="uk_measurement_system" msgid="1814065008707689505">"Regno Unito"</string>
     <string name="category_title_terms_of_address" msgid="4309422700380895278">"Preferenze aggiuntive"</string>
     <string name="terms_of_address_title" msgid="7338630812197476808">"Scegli il modo di rivolgersi a te"</string>
     <string name="terms_of_address_summary" msgid="7802443422612600620">"Il dispositivo può personalizzare il modo di rivolgersi a te"</string>
@@ -939,15 +937,13 @@
     <string name="bluetooth_scanning_on_info_message" msgid="786648535600075223">"Quando il Bluetooth è attivo, il dispositivo può comunicare con altri dispositivi Bluetooth nelle vicinanze.\n\nPer migliorare l\'esperienza sul dispositivo, app e servizi possono comunque cercare dispositivi nelle vicinanze in qualsiasi momento, anche quando il Bluetooth non è attivo. Questo può essere utile, ad esempio, per migliorare funzionalità e servizi basati sulla posizione. Puoi modificare questa opzione nelle impostazioni relative alla scansione Bluetooth."</string>
     <string name="bluetooth_scanning_on_info_message_auto_on_available" msgid="7792443293031247638">"Quando il Bluetooth è attivato, il tuo dispositivo può comunicare con altri dispositivi Bluetooth che si trovano nelle vicinanze. Funzionalità come Quick Share e Trova il mio dispositivo usano il Bluetooth.\n\nApp e servizi possono comunque cercare dispositivi nelle vicinanze in qualsiasi momento, anche quando il Bluetooth non è attivo. Questo può essere utile, ad esempio, per migliorare funzionalità e servizi basati sulla posizione. Puoi modificare questa opzione nelle impostazioni di scansione Bluetooth."</string>
     <string name="bluetooth_scan_change" msgid="1744636222637390367">"Modifica"</string>
-    <!-- no translation found for bluetooth_key_missing_title (8462010102528132965) -->
-    <skip />
-    <!-- no translation found for bluetooth_key_missing_message (3188093580372443815) -->
-    <skip />
+    <string name="bluetooth_key_missing_title" msgid="8462010102528132965">"Impossibile collegare <xliff:g id="DEVICE_NAME">%1$s</xliff:g>"</string>
+    <string name="bluetooth_key_missing_message" msgid="3188093580372443815">"Per maggiori dettagli, vai alle impostazioni del dispositivo"</string>
     <string name="bluetooth_key_missing_forget" msgid="4692006517823001013">"Elimina dispositivo"</string>
     <string name="bluetooth_key_missing_cancel" msgid="2482416446357804371">"Annulla"</string>
-    <!-- no translation found for bluetooth_key_missing_device_settings (5512091368141961890) -->
-    <skip />
-    <!-- no translation found for bluetooth_key_missing_close (6724520133374312040) -->
+    <string name="bluetooth_key_missing_device_settings" msgid="5512091368141961890">"Impostazioni del dispositivo"</string>
+    <string name="bluetooth_key_missing_close" msgid="6724520133374312040">"Chiudi"</string>
+    <!-- no translation found for bluetooth_key_missing_toast (8692796546000643569) -->
     <skip />
     <string name="device_details_title" msgid="1155622417516195481">"Dettagli dispositivo"</string>
     <string name="bluetooth_device_keyboard_settings_preference_title" msgid="3411693160917620519">"Impostazioni tastiera"</string>
@@ -963,8 +959,7 @@
     <string name="device_details_leaudio_toggle_summary" msgid="7684848254433230809">"Sperimentale. Migliora la qualità audio."</string>
     <string name="device_details_battery" msgid="5466987755790847884">"Batteria"</string>
     <string name="device_details_battery_charging" msgid="3464969346075775143">"Batteria, carica"</string>
-    <!-- no translation found for device_details_key_missing_title (3568401701538114387) -->
-    <skip />
+    <string name="device_details_key_missing_title" msgid="3568401701538114387">"Prova a riavviare <xliff:g id="DEVICE_NAME">%1$s</xliff:g>. Se il problema persiste, elimina il dispositivo. Per motivi di sicurezza, esegui nuovamente l\'accoppiamento solo quando non ti trovi in uno spazio pubblico.\n\nSe questo dispositivo non si trova nelle vicinanze, non devi fare nulla."</string>
     <string name="bluetooth_unpair_dialog_forget_confirm_button" msgid="9184489424930549015">"Elimina dispositivo"</string>
     <string name="bluetooth_companion_app_remove_association_confirm_button" msgid="76323555527926915">"Scollega app"</string>
     <string name="device_details_more_settings" msgid="950302792331611271">"Altre impostazioni"</string>
@@ -1101,8 +1096,7 @@
     <string name="wifi_eap_identity" msgid="3629406902174137028">"Identità"</string>
     <string name="wifi_eap_anonymous" msgid="8630332141751267000">"Identità anonima"</string>
     <string name="wifi_password" msgid="165204973532996861">"Password*"</string>
-    <!-- no translation found for wifi_password_optional (6770706664834070705) -->
-    <skip />
+    <string name="wifi_password_optional" msgid="6770706664834070705">"Password (facoltativo)"</string>
     <string name="wifi_password_invalid" msgid="8884500804472828356">"La password non è valida"</string>
     <string name="wifi_show_password" msgid="6865993988238157923">"Mostra password"</string>
     <string name="wifi_ap_choose_2G" msgid="1436802195991542016">"Banda a 2,4 GHz"</string>
@@ -1388,6 +1382,8 @@
     <string name="night_display_not_currently_on" msgid="6600205753103093827">"Luminosità notturna non attiva"</string>
     <string name="twilight_mode_location_off_dialog_message" msgid="4559150893687124801">"La posizione del dispositivo è necessaria per determinare gli orari di alba e tramonto."</string>
     <string name="twilight_mode_launch_location" msgid="7799112373591153956">"Impostazioni di localizzazione"</string>
+    <!-- no translation found for twilight_mode_pending_location (6829434234071614405) -->
+    <skip />
     <string name="dark_ui_activation_on_manual" msgid="1541006734577325234">"Attiva ora"</string>
     <string name="dark_ui_activation_off_manual" msgid="2395333709291250065">"Disattiva ora"</string>
     <string name="dark_ui_activation_on_auto" msgid="4824339634784765049">"Attiva fino all\'alba"</string>
@@ -2125,7 +2121,8 @@
     <string name="trackpad_bottom_right_tap_title" msgid="230337692279220068">"Clic in basso a destra"</string>
     <string name="trackpad_bottom_right_tap_summary" msgid="4467915480282133447">"Per altre opzioni, fai clic sull\'angolo inferiore destro del touchpad"</string>
     <string name="trackpad_pointer_speed" msgid="5672221910698079303">"Velocità del cursore"</string>
-    <string name="three_finger_tap_preference_title" msgid="3779242412749283386">"Personalizza il tocco con 3 dita"</string>
+    <!-- no translation found for three_finger_tap_preference_title (1836080810837854140) -->
+    <skip />
     <string name="touchpad_acceleration_title" msgid="176627555191021888">"Accelerazione del touchpad"</string>
     <string name="touchpad_acceleration_summary" msgid="8057075483967535793">"Con movimenti più rapidi sul touchpad, il cursore verrà spostato più lontano"</string>
     <string name="pointer_fill_style" msgid="8794616790175016092">"Colore del puntatore"</string>
@@ -2142,7 +2139,8 @@
     <string name="trackpad_touch_gesture" msgid="8641725062131922497">"Impara i gesti con il touchpad"</string>
     <string name="keywords_touchpad" msgid="8159846254066666032">"trackpad, track pad, mouse, cursore, scorrimento, scorrere, clic con il tasto destro del mouse, clic, puntatore"</string>
     <string name="keywords_trackpad_bottom_right_tap" msgid="1285062446073929305">"clic con il tasto destro del mouse, tocco"</string>
-    <string name="three_finger_tap_middle_click" msgid="1759914275939765929">"Clic con tasto centrale del mouse"</string>
+    <!-- no translation found for three_finger_tap_middle_click (7898931632908866867) -->
+    <skip />
     <string name="three_finger_tap_launch_gemini" msgid="4030401656711588982">"Avvia l\'assistente"</string>
     <string name="three_finger_tap_go_home" msgid="6526301745535089812">"Vai alla schermata Home"</string>
     <string name="three_finger_tap_go_back" msgid="2898205524575684271">"Indietro"</string>
@@ -4417,8 +4415,7 @@
     <string name="disconnected" msgid="3469373726996129247">"Nessuna connessione"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"Non collegata"</string>
     <string name="apps_summary" msgid="4007416751775414252">"<xliff:g id="COUNT">%1$d</xliff:g> app installate"</string>
-    <!-- no translation found for storage_toplevel_summary (6708203706751754934) -->
-    <skip />
+    <string name="storage_toplevel_summary" msgid="6708203706751754934">"Spazio utilizzato: <xliff:g id="PERCENTAGE">%1$s</xliff:g> - Spazio libero: <xliff:g id="FREE_SPACE">%2$s</xliff:g>"</string>
     <string name="display_dashboard_summary" msgid="1599453894989339454">"Tema scuro, dimensioni caratteri, luminosità"</string>
     <string name="memory_summary" msgid="8221954450951651735">"Utilizzo medio di <xliff:g id="USED_MEMORY">%1$s</xliff:g> di memoria su <xliff:g id="TOTAL_MEMORY">%2$s</xliff:g>"</string>
     <string name="users_summary" msgid="8473589474976307510">"Accesso eseguito come <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
@@ -5041,18 +5038,15 @@
     <string name="roaming_alert_title" msgid="9052791521868787985">"Consentire il roaming dei dati?"</string>
     <string name="roaming_check_price_warning" msgid="5876977438036791361">"Verifica i costi con il tuo fornitore di rete."</string>
     <string name="mobile_network_mode_error" msgid="9222056129897416074">"Modalità di rete <xliff:g id="NETWORKMODEID">%1$d</xliff:g> non valida. Ignora."</string>
-    <!-- no translation found for satellite_setting (4650503806634496443) -->
-    <skip />
+    <string name="satellite_setting" msgid="4650503806634496443">"Connettività satellitare"</string>
     <string name="satellite_setting_enabled_summary" msgid="3554127722727530845">"Invia e ricevi messaggi via satellite. Disponibile con il tuo account."</string>
     <string name="satellite_setting_disabled_summary" msgid="8428393986403708690">"Invia e ricevi messaggi via satellite. Funzione non disponibile con il tuo account."</string>
     <string name="satellite_setting_summary_without_entitlement" msgid="5284998840770992554">"Invia e ricevi messaggi via satellite. Contatta il tuo operatore per avere informazioni dettagliate."</string>
     <string name="keywords_satellite_setting" msgid="613553612424945946">"Messaggi via satellite, connettività satellitare"</string>
-    <!-- no translation found for category_name_about_satellite_connectivity (3971142716898783631) -->
-    <skip />
-    <!-- no translation found for description_about_satellite_setting (5539359064330584941) -->
-    <skip />
+    <string name="category_name_about_satellite_connectivity" msgid="3971142716898783631">"Informazioni sulla connettività satellitare"</string>
+    <string name="description_about_satellite_setting" msgid="5539359064330584941">"Puoi inviare e ricevere messaggi e utilizzare alcune app via satellite con un account <xliff:g id="CARRIER_NAME">%1$s</xliff:g> idoneo"</string>
     <string name="category_title_your_satellite_plan" msgid="8169426217950247126">"Il tuo account <xliff:g id="CARRIER_NAME">%1$s</xliff:g>"</string>
-    <string name="title_have_satellite_plan" msgid="2048372355699977947">"La messaggistica satellitare è inclusa nel tuo account"</string>
+    <string name="title_have_satellite_plan" msgid="2048372355699977947">"I messaggi via satellite sono inclusi nel tuo account"</string>
     <string name="title_no_satellite_plan" msgid="2876056203035197505">"I messaggi via satellite non sono inclusi nel tuo account"</string>
     <string name="summary_add_satellite_setting" msgid="190359698593056946">"Scopri di più"</string>
     <string name="category_name_how_it_works" msgid="585303230539269496">"Come funziona"</string>
@@ -5064,14 +5058,27 @@
     <string name="title_supported_service_for_manual_type" msgid="6009284624466359864">"Segui i passaggi per connetterti al satellite"</string>
     <string name="summary_supported_service" msgid="4320535903444834786">"Puoi inviare un messaggio a chiunque, anche ai servizi di emergenza. Quando sarà disponibile, lo smartphone si riconnetterà a una rete mobile."</string>
     <string name="summary_supported_service_for_manual_type" msgid="2147958362763058271">"Una volta che lo smartphone è connesso, puoi inviare un messaggio a chiunque, inclusi i servizi di emergenza."</string>
-    <string name="satellite_setting_summary_more_information" msgid="276312352285564071">"Una connessione satellitare potrebbe essere più lenta ed essere disponibile solo in alcune zone. Il meteo e determinate strutture potrebbero influire sulla connessione. Le chiamate via satellite non sono disponibili. Le chiamate di emergenza potrebbero invece ancora riuscire.\n\nPotrebbe passare del tempo prima che le modifiche al tuo account siano visibili nelle Impostazioni. Contatta <xliff:g id="CARRIER_NAME">%1$s</xliff:g> per maggiori dettagli."</string>
-    <string name="satellite_setting_summary_more_information_no_emergency_messaging" msgid="2090170250936862158">"Una connessione satellitare potrebbe essere più lenta ed essere disponibile solo in alcune zone. Il meteo e determinate strutture potrebbero influire sulla connessione. Le chiamate via satellite non sono disponibili. Le chiamate di emergenza potrebbero invece ancora riuscire. L\'invio di messaggi ai servizi di emergenza potrebbe non essere disponibile in tutte le zone.\n\nPotrebbe passare del tempo prima che le modifiche al tuo account siano visibili nelle Impostazioni. Contatta <xliff:g id="CARRIER_NAME">%1$s</xliff:g> per maggiori dettagli."</string>
-    <!-- no translation found for more_about_satellite_messaging (5358981088419444073) -->
+    <!-- no translation found for satellite_footer_content_section_0 (4169483813004415556) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_1 (7925931577373229601) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_2 (7699185178461362541) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_3 (4652426135622555607) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_4 (2294227482962815751) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_5 (3053256489735265540) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_6 (1448633393918612418) -->
+    <skip />
+    <!-- no translation found for satellite_footer_content_section_7 (5524773673918954918) -->
+    <skip />
+    <!-- no translation found for more_about_satellite_connectivity (9110502891919936054) -->
     <skip />
     <string name="satellite_warning_dialog_title" msgid="1610117852475376931">"Impossibile attivare la modalità <xliff:g id="FUNCTION">%1$s</xliff:g>"</string>
     <string name="satellite_warning_dialog_content" msgid="936419945275934955">"Per attivare la funzionalità <xliff:g id="FUNCTION">%1$s</xliff:g>, devi prima terminare la connessione satellitare"</string>
-    <!-- no translation found for category_title_satellite_connectivity (7740500012311192133) -->
-    <skip />
+    <string name="category_title_satellite_connectivity" msgid="7740500012311192133">"Satellite"</string>
     <string name="title_satellite_setting_connectivity" msgid="488626710934668313">"Connettività satellitare"</string>
     <string name="description_satellite_setting_connectivity" msgid="7337311015334186655">"connettività satellitare"</string>
     <string name="description_satellite_setting_messaging" msgid="4367494645429198805">"messaggi via satellite"</string>
@@ -5162,7 +5169,8 @@
     <string name="switch_sim_dialog_no_switch_text" msgid="7053939850026876088">"Per utilizzare i dati mobili, le funzionalità di chiamata e gli SMS in un secondo momento, vai alle impostazioni di rete"</string>
     <string name="sim_card_label" msgid="6263064316075963775">"SIM"</string>
     <string name="erase_sim_dialog_title" msgid="4742077437653028326">"Vuoi resettare questa eSIM?"</string>
-    <string name="erase_sim_dialog_text" msgid="1406141218170595272">"Questa operazione rimuove il servizio di <xliff:g id="CARRIER_NAME_A">%1$s</xliff:g> dal dispositivo, ma il tuo piano di <xliff:g id="CARRIER_NAME_B">%1$s</xliff:g> non sarà annullato."</string>
+    <!-- no translation found for erase_sim_dialog_text (3982216582200709197) -->
+    <skip />
     <string name="erase_sim_confirm_button" msgid="8309115684335320541">"Elimina"</string>
     <string name="erasing_sim" msgid="4237180547590463930">"Reset dell\'eSIM in corso…"</string>
     <string name="erase_sim_fail_title" msgid="1445700500168357303">"Impossibile resettare l\'eSIM"</string>
@@ -5188,8 +5196,8 @@
     <string name="settings_panel_title" msgid="346363079938069215">"Riquadro delle impostazioni"</string>
     <string name="enable_desktop_mode" msgid="5644818402534562302">"Attiva finestre a forma libera"</string>
     <string name="enable_desktop_experience_features" msgid="7389235241021706660">"Attiva le funzionalità dell\'esperienza desktop"</string>
-    <string name="enable_desktop_experience_features_summary_with_desktop" msgid="8586716390362684564">"Attiva il windowing del desktop sul dispositivo e su display secondari."</string>
-    <string name="enable_desktop_experience_features_summary_without_desktop" msgid="7567963048658976895">"Attiva il windowing del desktop su display secondari."</string>
+    <string name="enable_desktop_experience_features_summary_with_desktop" msgid="8586716390362684564">"Attiva le finestre delle app sul dispositivo e su display secondari."</string>
+    <string name="enable_desktop_experience_features_summary_without_desktop" msgid="7567963048658976895">"Attiva le finestre delle app  su display secondari."</string>
     <string name="enable_desktop_mode_on_secondary_display" msgid="2609567824593768780">"Attiva finestre forma libera su display secondario"</string>
     <string name="enable_non_resizable_multi_window" msgid="6832903754625404477">"Attiva app non ridimensionabili in multi-finestra"</string>
     <string name="enable_non_resizable_multi_window_summary" msgid="3275763753261901999">"Consente la presenza di app non ridimensionabili in modalità multi-finestra"</string>
