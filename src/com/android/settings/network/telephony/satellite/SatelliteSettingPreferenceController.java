@@ -48,7 +48,6 @@ import com.android.settings.network.telephony.TelephonyBasePreferenceController;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.Set;
 
 /**
  * Preference controller for "Satellite Setting"
@@ -191,10 +190,9 @@ public class SatelliteSettingPreferenceController extends
             }
 
             try {
-                Set<Integer> restrictionReason =
-                        mSatelliteManager.getAttachRestrictionReasonsForCarrier(mSubId);
-                boolean isSatelliteEligible = !restrictionReason.contains(
-                        SatelliteManager.SATELLITE_COMMUNICATION_RESTRICTION_REASON_ENTITLEMENT);
+                boolean isSatelliteEligible =
+                        SatelliteCarrierSettingUtils.isSatelliteAccountEligible(
+                                mContext, mSubId);
                 if (mIsSatelliteEligible == null || mIsSatelliteEligible != isSatelliteEligible) {
                     mIsSatelliteEligible = isSatelliteEligible;
                     String summary = mContext.getString(

@@ -230,7 +230,6 @@ public class ToggleScreenMagnificationPreferenceFragment extends
             // LINT.ThenChange(:search_data)
         }
         addCursorFollowingSetting(generalCategory);
-        addFeedbackSetting(generalCategory);
     }
 
     @Override
@@ -416,14 +415,6 @@ public class ToggleScreenMagnificationPreferenceFragment extends
         return pref;
     }
 
-    private static Preference createFeedbackPreference(Context context) {
-        final Preference pref = new Preference(context);
-        pref.setTitle(R.string.accessibility_feedback_title);
-        pref.setSummary(R.string.accessibility_feedback_summary);
-        pref.setKey(MagnificationFeedbackPreferenceController.PREF_KEY);
-        return pref;
-    }
-
     private static boolean isJoystickSupported() {
         return DeviceConfig.getBoolean(
                 DeviceConfig.NAMESPACE_WINDOW_MANAGER,
@@ -447,22 +438,6 @@ public class ToggleScreenMagnificationPreferenceFragment extends
         joystickPreferenceController.setInSetupWizard(mInSetupWizard);
         joystickPreferenceController.displayPreference(getPreferenceScreen());
         addPreferenceController(joystickPreferenceController);
-    }
-
-    private void addFeedbackSetting(PreferenceCategory generalCategory) {
-        if (!Flags.enableLowVisionHats()) {
-            return;
-        }
-
-        final Preference feedbackPreference = createFeedbackPreference(getPrefContext());
-        generalCategory.addPreference(feedbackPreference);
-
-        final MagnificationFeedbackPreferenceController magnificationFeedbackPreferenceController =
-                new MagnificationFeedbackPreferenceController(getContext(), this,
-                        MagnificationFeedbackPreferenceController.PREF_KEY);
-        magnificationFeedbackPreferenceController.setInSetupWizard(mInSetupWizard);
-        magnificationFeedbackPreferenceController.displayPreference(getPreferenceScreen());
-        addPreferenceController(magnificationFeedbackPreferenceController);
     }
 
     @Override
@@ -739,8 +714,7 @@ public class ToggleScreenMagnificationPreferenceFragment extends
                                     createOneFingerPanningPreference(context),
                                     createAlwaysOnPreference(context),
                                     createJoystickPreference(context),
-                                    createCursorFollowingPreference(context),
-                                    createFeedbackPreference(context)
+                                    createCursorFollowingPreference(context)
                             )
                             .forEach(pref ->
                                     rawData.add(createPreferenceSearchData(context, pref)));
@@ -782,10 +756,6 @@ public class ToggleScreenMagnificationPreferenceFragment extends
 
                     if (!isMagnificationCursorFollowingModeDialogSupported()) {
                         niks.add(MagnificationCursorFollowingModePreferenceController.PREF_KEY);
-                    }
-
-                    if (!Flags.enableLowVisionHats()) {
-                        niks.add(MagnificationFeedbackPreferenceController.PREF_KEY);
                     }
 
                     return niks;
