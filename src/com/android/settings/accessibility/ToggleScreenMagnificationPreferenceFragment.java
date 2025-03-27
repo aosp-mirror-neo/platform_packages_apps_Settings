@@ -83,7 +83,6 @@ public class ToggleScreenMagnificationPreferenceFragment extends
 
     private static final String TAG =
             ToggleScreenMagnificationPreferenceFragment.class.getSimpleName();
-    @VisibleForTesting
     static final String KEY_MAGNIFICATION_SHORTCUT_PREFERENCE = "magnification_shortcut_preference";
     private static final char COMPONENT_NAME_SEPARATOR = ':';
     private static final TextUtils.SimpleStringSplitter sStringColonSplitter =
@@ -298,6 +297,7 @@ public class ToggleScreenMagnificationPreferenceFragment extends
         magnificationModePreferenceController.setDialogHelper(/* dialogHelper= */this);
         mMagnificationModeDialogDelegate = magnificationModePreferenceController;
         getSettingsLifecycle().addObserver(magnificationModePreferenceController);
+        magnificationModePreferenceController.setInSetupWizard(mInSetupWizard);
         magnificationModePreferenceController.displayPreference(getPreferenceScreen());
         addPreferenceController(magnificationModePreferenceController);
     }
@@ -323,6 +323,7 @@ public class ToggleScreenMagnificationPreferenceFragment extends
                         MagnificationCursorFollowingModePreferenceController.PREF_KEY);
         controller.setDialogHelper(/* dialogHelper= */this);
         mMagnificationCursorFollowingModeDialogDelegate = controller;
+        controller.setInSetupWizard(mInSetupWizard);
         controller.displayPreference(getPreferenceScreen());
         addPreferenceController(controller);
     }
