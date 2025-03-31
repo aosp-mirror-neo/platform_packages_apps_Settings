@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019 The Android Open Source Project
+ * Copyright 2024 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,33 +14,31 @@
  * limitations under the License.
  */
 
-package com.android.settings.deviceinfo.hardwareinfo;
+package com.android.settings.inputmethod;
+
+import static com.android.settings.inputmethod.InputPeripheralsSettingsUtils.isTouchpad;
 
 import android.app.settings.SettingsEnums;
 import android.content.Context;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-
 import com.android.settings.R;
-import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
-// LINT.IfChange
-@SearchIndexable
-public class HardwareInfoFragment extends DashboardFragment {
+/** List all installed apps to be launched with three finger tap. */
+@SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
+public class TouchpadThreeFingerTapAppSelectionFragment extends InputDeviceDashboardFragment {
 
-    public static final String TAG = "HardwareInfo";
+    private static final String TAG = "TouchpadThreeFingerTapAppSelectionFragment";
 
     @Override
     public int getMetricsCategory() {
-        return SettingsEnums.DIALOG_SETTINGS_HARDWARE_INFO;
+        return SettingsEnums.TOUCHPAD_THREE_FINGER_TAP;
     }
 
     @Override
     protected int getPreferenceScreenResId() {
-        return R.xml.hardware_info;
+        return R.xml.input_touchpad_three_finger_tap_app_selection;
     }
 
     @Override
@@ -48,18 +46,16 @@ public class HardwareInfoFragment extends DashboardFragment {
         return TAG;
     }
 
-    @Override
-    public @Nullable String getPreferenceScreenBindingKey(@NonNull Context context) {
-        return HardwareInfoScreen.KEY;
-    }
-
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.hardware_info) {
-
+            new BaseSearchIndexProvider(R.xml.input_touchpad_three_finger_tap_app_selection) {
                 @Override
                 protected boolean isPageSearchEnabled(Context context) {
-                    return context.getResources().getBoolean(R.bool.config_show_device_model);
+                    return isTouchpad();
                 }
             };
+
+    @Override
+    protected boolean needToFinishEarly() {
+        return isTouchpadDetached();
+    }
 }
-// LINT.ThenChange(HardwareInfoScreen.kt)
