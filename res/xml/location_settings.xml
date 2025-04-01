@@ -35,9 +35,8 @@
         settings:controller="com.android.settings.location.RecentLocationAccessSeeAllButtonPreferenceController"
         settings:searchable="false"/>
 
-    <PreferenceCategory
-        android:key="location_advanced_settings"
-        android:layout="@layout/preference_category_no_label">
+    <com.android.settingslib.widget.SettingsTitlelessPreferenceCategory
+        android:key="location_advanced_settings">
 
         <!-- This preference gets removed if there is no managed profile -->
         <com.android.settingslib.RestrictedSwitchPreference
@@ -69,7 +68,7 @@
             android:title="@string/location_services_preference_title"
             settings:controller="com.android.settings.location.LocationServicesPreferenceController"/>
 
-    </PreferenceCategory>
+    </com.android.settingslib.widget.SettingsTitlelessPreferenceCategory>
 
     <com.android.settingslib.widget.FooterPreference
         android:title="@string/location_settings_footer_general"

@@ -42,9 +42,8 @@
         settings:restrictedSwitchSummary="@string/not_allowed_by_ent"
         settings:allowDividerAbove="true"/>
 
-    <PreferenceCategory
-        android:key="ethernet_interfaces"
-        android:layout="@layout/preference_category_no_label"/>
+    <com.android.settingslib.widget.SettingsTitlelessPreferenceCategory
+        android:key="ethernet_interfaces"/>
 
     <Preference
         android:key="connected_ethernet_network"
@@ -71,6 +70,7 @@
     <PreferenceCategory
         android:key="access_points"
         android:title="@string/wifi_networks_category">
+
         <com.android.settings.wifi.AddWifiNetworkPreference
             android:key="add_wifi_network"
             android:title="@string/wifi_add_network"
