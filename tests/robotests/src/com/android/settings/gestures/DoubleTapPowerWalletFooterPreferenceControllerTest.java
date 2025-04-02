@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2024 The Android Open Source Project
+ * Copyright (C) 2025 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -29,28 +29,28 @@ import android.content.Context;
 import android.content.res.Resources;
 import android.service.quickaccesswallet.QuickAccessWalletClient;
 
+import androidx.preference.Preference;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 
 import com.android.internal.R;
 import com.android.settings.core.BasePreferenceController;
-import com.android.settingslib.widget.SelectorWithWidgetPreference;
 
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
 @RunWith(AndroidJUnit4.class)
-public class DoubleTapPowerForWalletPreferenceControllerTest {
+public class DoubleTapPowerWalletFooterPreferenceControllerTest {
 
-    private static final String KEY = "gesture_double_power_tap_launch_wallet";
+    private static final String KEY = "gesture_double_tap_power_wallet_footer";
     private Context mContext;
     private Resources mResources;
     private final QuickAccessWalletClient mQuickAccessWalletClient = mock(
             QuickAccessWalletClient.class);
 
-    private DoubleTapPowerForWalletPreferenceController mController;
-    private SelectorWithWidgetPreference mPreference;
+    private DoubleTapPowerWalletFooterPreferenceController mController;
+    private Preference mPreference;
 
 
     @Before
@@ -60,37 +60,27 @@ public class DoubleTapPowerForWalletPreferenceControllerTest {
         when(mContext.getResources()).thenReturn(mResources);
         when(mQuickAccessWalletClient.isWalletServiceAvailable()).thenReturn(true);
 
-        mController = new DoubleTapPowerForWalletPreferenceController(mContext, KEY,
+        mController = new DoubleTapPowerWalletFooterPreferenceController(mContext, KEY,
                 mQuickAccessWalletClient);
-        mPreference = new SelectorWithWidgetPreference(mContext);
+        mPreference = new Preference(mContext);
     }
 
     @Test
-    public void updateState_launchWalletEnabled_preferenceChecked() {
-        DoubleTapPowerSettingsUtils.setDoubleTapPowerButtonForWalletLaunch(mContext);
+    public void updateState_quickAccessWalletAvailable_preferenceNotVisible() {
+        when(mQuickAccessWalletClient.isWalletServiceAvailable()).thenReturn(true);
 
         mController.updateState(mPreference);
 
-        assertThat(mPreference.isChecked()).isTrue();
+        assertThat(mPreference.isVisible()).isFalse();
     }
 
     @Test
-    public void updateState_launchWalletDisabled_preferenceNotChecked() {
-        DoubleTapPowerSettingsUtils.setDoubleTapPowerButtonForCameraLaunch(mContext);
-
-        mController.updateState(mPreference);
-
-        assertThat(mPreference.isChecked()).isFalse();
-    }
-
-    @Test
-    public void updateState_quickAccessWalletNotAvailable_preferenceDisabled() {
-        DoubleTapPowerSettingsUtils.setDoubleTapPowerButtonGestureEnabled(mContext, true);
+    public void updateState_quickAccessWalletNotAvailable_preferenceVisible() {
         when(mQuickAccessWalletClient.isWalletServiceAvailable()).thenReturn(false);
 
         mController.updateState(mPreference);
 
-        assertThat(mPreference.isEnabled()).isFalse();
+        assertThat(mPreference.isVisible()).isTrue();
     }
 
     @Test
@@ -103,13 +93,14 @@ public class DoubleTapPowerForWalletPreferenceControllerTest {
     }
 
     @Test
-    public void updateState_quickAccessWalletAndDoubleTapPowerGestureEnabled_preferenceEnabled() {
+    public void updateState_doubleTapPowerGestureEnabled_preferenceEnabled() {
         DoubleTapPowerSettingsUtils.setDoubleTapPowerButtonGestureEnabled(mContext, true);
 
         mController.updateState(mPreference);
 
         assertThat(mPreference.isEnabled()).isTrue();
     }
+
 
     @Test
     public void getAvailabilityStatus_setDoubleTapPowerGestureNotAvailable_preferenceUnsupported() {
@@ -131,23 +122,12 @@ public class DoubleTapPowerForWalletPreferenceControllerTest {
     }
 
     @Test
-    public void getAvailabilityStatus_quickAccessWalletNotAvailable_preferenceDisabled() {
-        when(mResources.getInteger(R.integer.config_doubleTapPowerGestureMode)).thenReturn(
-                DOUBLE_TAP_POWER_MULTI_TARGET_MODE);
-        DoubleTapPowerSettingsUtils.setDoubleTapPowerButtonGestureEnabled(mContext, true);
-        when(mQuickAccessWalletClient.isWalletServiceAvailable()).thenReturn(false);
-
-        assertThat(mController.getAvailabilityStatus())
-                .isEqualTo(BasePreferenceController.DISABLED_DEPENDENT_SETTING);
-    }
-
-    @Test
     public void getAvailabilityStatus_setDoubleTapPowerWalletLaunchEnabled_preferenceEnabled() {
         when(mResources.getInteger(R.integer.config_doubleTapPowerGestureMode)).thenReturn(
                 DOUBLE_TAP_POWER_MULTI_TARGET_MODE);
         DoubleTapPowerSettingsUtils.setDoubleTapPowerButtonGestureEnabled(mContext, true);
 
         assertThat(mController.getAvailabilityStatus())
-                .isEqualTo(BasePreferenceController.AVAILABLE);
+                .isEqualTo(BasePreferenceController.AVAILABLE_UNSEARCHABLE);
     }
 }

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2024 The Android Open Source Project
+ * Copyright (C) 2025 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,9 +16,13 @@
 
 package com.android.settings.gestures;
 
+import static com.android.settings.gestures.DoubleTapPowerSettingsUtils.DOUBLE_TAP_POWER_BUTTON_GESTURE_ENABLED_URI;
+
 import android.app.role.OnRoleHoldersChangedListener;
 import android.app.role.RoleManager;
+import android.content.ContentResolver;
 import android.content.Context;
+import android.content.Intent;
 import android.database.ContentObserver;
 import android.net.Uri;
 import android.os.Handler;
@@ -36,34 +40,26 @@ import com.android.settings.core.BasePreferenceController;
 import com.android.settingslib.core.lifecycle.LifecycleObserver;
 import com.android.settingslib.core.lifecycle.events.OnStart;
 import com.android.settingslib.core.lifecycle.events.OnStop;
-import com.android.settingslib.widget.SelectorWithWidgetPreference;
+import com.android.settingslib.widget.FooterPreference;
 
-public class DoubleTapPowerForWalletPreferenceController extends BasePreferenceController
+public class DoubleTapPowerWalletFooterPreferenceController extends BasePreferenceController
         implements LifecycleObserver, OnStart, OnStop {
 
-    @Nullable private final RoleManager mRoleManager;
+    private final Handler mHandler = new Handler(Looper.getMainLooper());
+
+    @Nullable
+    private final RoleManager mRoleManager;
     @NonNull private QuickAccessWalletClient mQuickAccessWalletClient;
-    @Nullable private SelectorWithWidgetPreference mPreference;
+    @Nullable private FooterPreference mPreference;
     private final ContentObserver mSettingsObserver =
-            new ContentObserver(new Handler(Looper.getMainLooper())) {
+            new ContentObserver(mHandler) {
                 @Override
                 public void onChange(boolean selfChange, @Nullable Uri uri) {
-                    if (mPreference == null || uri == null) {
-                        return;
-                    }
-                    if (uri.equals(
-                            DoubleTapPowerSettingsUtils
-                                    .DOUBLE_TAP_POWER_BUTTON_GESTURE_ENABLED_URI)) {
+                    if (mPreference != null) {
                         mPreference.setEnabled(
-                                DoubleTapPowerSettingsUtils
-                                        .isDoubleTapPowerButtonGestureEnabled(mContext));
-                    } else if (uri.equals(
-                            DoubleTapPowerSettingsUtils
-                                    .DOUBLE_TAP_POWER_BUTTON_GESTURE_TARGET_ACTION_URI)) {
-                        mPreference.setChecked(
-                                !DoubleTapPowerSettingsUtils
-                                       .isDoubleTapPowerButtonGestureForCameraLaunchEnabled(
-                                               mContext));
+                                DoubleTapPowerSettingsUtils.isDoubleTapPowerButtonGestureEnabled(
+                                        mContext)
+                        );
                     }
                 }
             };
@@ -73,10 +69,10 @@ public class DoubleTapPowerForWalletPreferenceController extends BasePreferenceC
             return;
         }
         mQuickAccessWalletClient = QuickAccessWalletClient.create(mContext);
-        mPreference.setEnabled(mQuickAccessWalletClient.isWalletServiceAvailable());
+        mPreference.setVisible(!mQuickAccessWalletClient.isWalletServiceAvailable());
     };
 
-    public DoubleTapPowerForWalletPreferenceController(
+    public DoubleTapPowerWalletFooterPreferenceController(
             @NonNull Context context, @NonNull String preferenceKey) {
         super(context, preferenceKey);
         mRoleManager = mContext.getSystemService(RoleManager.class);
@@ -84,7 +80,7 @@ public class DoubleTapPowerForWalletPreferenceController extends BasePreferenceC
     }
 
     @VisibleForTesting
-    public DoubleTapPowerForWalletPreferenceController(
+    public DoubleTapPowerWalletFooterPreferenceController(
             @NonNull Context context, @NonNull String preferenceKey,
             @NonNull QuickAccessWalletClient quickAccessWalletClient) {
         super(context, preferenceKey);
@@ -98,44 +94,40 @@ public class DoubleTapPowerForWalletPreferenceController extends BasePreferenceC
                 .isMultiTargetDoubleTapPowerButtonGestureAvailable(mContext)) {
             return UNSUPPORTED_ON_DEVICE;
         }
-        return isPreferenceEnabled()
-                ? AVAILABLE
+        return DoubleTapPowerSettingsUtils.isDoubleTapPowerButtonGestureEnabled(mContext)
+                ? AVAILABLE_UNSEARCHABLE
                 : DISABLED_DEPENDENT_SETTING;
     }
 
     @Override
-    public void displayPreference(@NonNull PreferenceScreen screen) {
+    public void displayPreference(PreferenceScreen screen) {
         super.displayPreference(screen);
         mPreference = screen.findPreference(getPreferenceKey());
+        if (mPreference != null) {
+            mPreference.setLearnMoreText(mContext.getString(
+                    com.android.settings.R.string.double_tap_power_wallet_footer_learn_more_text));
+            mPreference.setLearnMoreAction(v -> {
+                final Intent intent = new Intent(Intent.ACTION_MANAGE_DEFAULT_APP);
+                intent.putExtra(Intent.EXTRA_ROLE_NAME, RoleManager.ROLE_WALLET);
+                mContext.startActivity(intent);
+            });
+        }
     }
 
     @Override
     public void updateState(@NonNull Preference preference) {
         super.updateState(preference);
-        preference.setEnabled(isPreferenceEnabled());
-        if (preference instanceof SelectorWithWidgetPreference) {
-            ((SelectorWithWidgetPreference) preference)
-                    .setChecked(
-                            !DoubleTapPowerSettingsUtils
-                                    .isDoubleTapPowerButtonGestureForCameraLaunchEnabled(mContext));
-        }
-    }
-
-    @Override
-    public boolean handlePreferenceTreeClick(@NonNull Preference preference) {
-        if (!getPreferenceKey().equals(preference.getKey())) {
-            return false;
-        }
-        DoubleTapPowerSettingsUtils.setDoubleTapPowerButtonForWalletLaunch(mContext);
-        if (preference instanceof SelectorWithWidgetPreference) {
-            ((SelectorWithWidgetPreference) preference).setChecked(true);
-        }
-        return true;
+        preference.setVisible(!mQuickAccessWalletClient.isWalletServiceAvailable());
+        preference.setEnabled(
+                DoubleTapPowerSettingsUtils.isDoubleTapPowerButtonGestureEnabled(mContext)
+        );
     }
 
     @Override
     public void onStart() {
-        DoubleTapPowerSettingsUtils.registerObserver(mContext, mSettingsObserver);
+        final ContentResolver resolver = mContext.getContentResolver();
+        resolver.registerContentObserver(
+                DOUBLE_TAP_POWER_BUTTON_GESTURE_ENABLED_URI, true, mSettingsObserver);
         if (mRoleManager != null) {
             mRoleManager.addOnRoleHoldersChangedListenerAsUser(mContext.getMainExecutor(),
                     mOnRoleHoldersChangedListener, UserHandle.of(UserHandle.myUserId()));
@@ -149,10 +141,5 @@ public class DoubleTapPowerForWalletPreferenceController extends BasePreferenceC
             mRoleManager.removeOnRoleHoldersChangedListenerAsUser(mOnRoleHoldersChangedListener,
                     UserHandle.of(UserHandle.myUserId()));
         }
-    }
-
-    private boolean isPreferenceEnabled() {
-        return DoubleTapPowerSettingsUtils.isDoubleTapPowerButtonGestureEnabled(mContext)
-                && mQuickAccessWalletClient.isWalletServiceAvailable();
     }
 }

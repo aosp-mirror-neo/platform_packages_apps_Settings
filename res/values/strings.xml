@@ -11614,6 +11614,10 @@ Data usage charges may apply.</string>
     <string name="double_tap_power_lockscreen_shortcut_tip_title">Change lock screen shortcut?</string>
     <!-- Description text for tip suggesting user to modify lockscreen shortcut. [CHAR LIMIT=200]-->
     <string name="double_tap_power_lockscreen_shortcut_tip_description"><xliff:g id="double_tap_power_target_action" example="Camera">%1$s</xliff:g> is also your lock screen shortcut. Want to change it?</string>
+    <!-- Title for footer explaining why wallet is not available for the double tap power gesture. [CHAR LIMIT=200]-->
+    <string name="double_tap_power_wallet_footer_title">Wallet is not available. Your current default wallet app does not support the gesture.</string>
+    <!-- Summary for footer explaining why wallet is not available for the double tap power gesture. [CHAR LIMIT=100]-->
+    <string name="double_tap_power_wallet_footer_learn_more_text">Tap here to change it.</string>
 
 
     <!-- Title text for double twist for camera mode [CHAR LIMIT=60]-->
