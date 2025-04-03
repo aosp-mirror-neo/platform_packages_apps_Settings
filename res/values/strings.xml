@@ -792,10 +792,14 @@
         Apps with the nearby devices permission can determine the
         relative position of connected devices.
     </string>
-    <!-- Location settings footer warning text when location is off [CHAR LIMIT=NONE] -->
-    <string name="location_settings_footer_location_off">
+    <!-- Location settings footer warning text when location is off and calling and messaging are supported [CHAR LIMIT=NONE] -->
+    <string name="location_settings_footer_location_off_with_telephony">
         Location access is off for apps and services. Your device location may still be sent to
         emergency responders when you contact an emergency number.
+    </string>
+    <!-- Location settings footer warning text when location is off and calling and messaging are not supported [CHAR LIMIT=NONE] -->
+    <string name="location_settings_footer_location_off_no_telephony">
+        Location access is off for apps and services.
     </string>
     <!-- Location settings footer link to support page [CHAR LIMIT=NONE] -->
     <string name="location_settings_footer_learn_more_link" translatable="false">

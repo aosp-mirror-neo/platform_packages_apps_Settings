@@ -29,6 +29,7 @@ import android.util.Log;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.annotation.VisibleForTesting;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
 
@@ -38,6 +39,8 @@ import com.android.settingslib.core.lifecycle.LifecycleObserver;
 import com.android.settingslib.core.lifecycle.events.OnStart;
 import com.android.settingslib.core.lifecycle.events.OnStop;
 import com.android.settingslib.widget.CardPreference;
+
+import kotlin.Unit;
 
 public class DoubleTapPowerLockscreenTipPreferenceController extends BasePreferenceController
         implements LifecycleObserver, OnStart, OnStop {
@@ -58,6 +61,7 @@ public class DoubleTapPowerLockscreenTipPreferenceController extends BasePrefere
     static final String WALLET_KEYGUARD_QUICK_AFFORDANCE_NAME = "Wallet";
 
     @Nullable private CardPreference mPreference;
+    private boolean mHasBeenDismissed = false;
 
     private final Handler mHandler = new Handler(Looper.getMainLooper());
     private final ContentObserver mSettingsObserver =
@@ -116,7 +120,17 @@ public class DoubleTapPowerLockscreenTipPreferenceController extends BasePrefere
         super.displayPreference(screen);
         mPreference = screen.findPreference(getPreferenceKey());
         if (mPreference != null) {
-            mPreference.useDismissAction();
+            mPreference.setAdditionalAction(
+                    com.android.settingslib.widget
+                            .theme.R.drawable.settingslib_expressive_icon_close,
+                    mContext.getString(
+                            com.android.settingslib.widget
+                                    .theme.R.string.settingslib_dismiss_button_content_description),
+                    preference -> {
+                        onDismiss(preference);
+                        return Unit.INSTANCE;
+                    }
+            );
             mPreference.setOnPreferenceClickListener(preference -> {
                 final Intent intent = new Intent(Intent.ACTION_SET_WALLPAPER);
                 intent.putExtra("destination", "quick_affordances");
@@ -140,7 +154,8 @@ public class DoubleTapPowerLockscreenTipPreferenceController extends BasePrefere
     public void updateState(@NonNull Preference preference) {
         super.updateState(preference);
 
-        if (!DoubleTapPowerSettingsUtils.isDoubleTapPowerButtonGestureEnabled(mContext)) {
+        if (!DoubleTapPowerSettingsUtils.isDoubleTapPowerButtonGestureEnabled(mContext)
+                || mHasBeenDismissed) {
             preference.setVisible(false);
             return;
         }
@@ -158,6 +173,17 @@ public class DoubleTapPowerLockscreenTipPreferenceController extends BasePrefere
                     ));
             preference.setVisible(true);
         }
+    }
+
+    /**
+     * Dismisses the Preference
+     *
+     * @param preference Preference
+     */
+    @VisibleForTesting
+    public void onDismiss(@NonNull Preference preference) {
+        preference.setVisible(false);
+        mHasBeenDismissed = true;
     }
 
     @Nullable

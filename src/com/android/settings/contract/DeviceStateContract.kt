@@ -14,25 +14,19 @@
  * limitations under the License.
  */
 
-package com.android.settings.biometrics;
+package com.android.settings.contract
 
-import android.safetycenter.SafetySourceIssue;
+/**
+ * Tag to be associated with screen, which indicates some preferences in the screen are related to
+ * device state.
+ *
+ * Preferences associated with [TAG_DEVICE_STATE_PREFERENCE] are related to device state.
+ */
+const val TAG_DEVICE_STATE_SCREEN = "device_state_screen"
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-
-import com.android.settings.biometrics.metrics.BiometricsLogger;
-
-public interface BiometricsFeatureProvider {
-
-    /** Returns a SafetySourceIssue for biometrics. */
-    @Nullable
-    SafetySourceIssue getSafetySourceIssue(@NonNull String sourceId);
-
-    /** Notifies that the action of an issue is launched */
-    void notifySafetyIssueActionLaunched();
-
-    /** Return logger for biometrics */
-    @Nullable
-    BiometricsLogger getBiometricsLogger();
-}
+/**
+ * Tag to be associated with preference, which contains certain device state.
+ *
+ * The screen should be associated with [TAG_DEVICE_STATE_SCREEN].
+ */
+const val TAG_DEVICE_STATE_PREFERENCE = "device_state_pref"

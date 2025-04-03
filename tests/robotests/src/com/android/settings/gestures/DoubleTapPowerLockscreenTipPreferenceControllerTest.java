@@ -113,6 +113,17 @@ public class DoubleTapPowerLockscreenTipPreferenceControllerTest {
     }
 
     @Test
+    public void updateState_onDismissed_preferenceNotVisible() {
+        DoubleTapPowerSettingsUtils.setDoubleTapPowerButtonGestureEnabled(mContext, true);
+        setSelectedLockScreenShortcuts(CAMERA_KEYGUARD_QUICK_AFFORDANCE_NAME);
+        mController.onDismiss(mPreference);
+
+        mController.updateState(mPreference);
+
+        assertThat(mPreference.isVisible()).isFalse();
+    }
+
+    @Test
     public void updateState_targetActionInLockscreenShortcut_preferenceVisible() {
         DoubleTapPowerSettingsUtils.setDoubleTapPowerButtonGestureEnabled(mContext, true);
         DoubleTapPowerSettingsUtils.setDoubleTapPowerButtonForCameraLaunch(mContext);
