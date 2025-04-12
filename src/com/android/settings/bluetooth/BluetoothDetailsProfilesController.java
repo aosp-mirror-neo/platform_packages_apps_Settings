@@ -123,6 +123,7 @@ public class BluetoothDetailsProfilesController extends BluetoothDetailsControll
         if (invisibleProfiles != null) {
             mInvisibleProfiles = Set.copyOf(invisibleProfiles);
         }
+        refresh();
     }
 
     /** Sets whether it should show an extra padding on top of the preference. */
@@ -524,6 +525,7 @@ public class BluetoothDetailsProfilesController extends BluetoothDetailsControll
      */
     @Override
     protected void refresh() {
+        mProfilesContainer.setVisible(false);
         ThreadUtils.postOnBackgroundThread(
                 () -> {
                     mAdditionalInvisibleProfiles.set(
@@ -531,7 +533,10 @@ public class BluetoothDetailsProfilesController extends BluetoothDetailsControll
                                     .getBluetoothFeatureProvider()
                                     .getInvisibleProfilePreferenceKeys(
                                             mContext, mCachedDevice.getDevice()));
-                    ThreadUtils.postOnMainThread(this::refreshUi);
+                    ThreadUtils.postOnMainThread(() -> {
+                        refreshUi();
+                        mProfilesContainer.setVisible(true);
+                    });
                 });
     }
 

@@ -1721,6 +1721,15 @@
                        android:value="true" />
         </activity>
 
+        <activity android:name=".Settings$FirmwareVersionActivity"
+            android:label="@string/firmware_version"
+            android:exported="true">
+            <meta-data android:name="com.android.settings.HIGHLIGHT_MENU_KEY"
+                android:value="@string/menu_key_about_device"/>
+            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+        </activity>
+
         <activity
             android:name=".Settings$LockScreenSettingsActivity"
             android:label="@string/lockscreen_settings_title"
@@ -2179,6 +2188,17 @@
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
+        </activity>
+
+        <activity
+            android:name="Settings$NotificationBundlesActivity"
+            android:exported="true">
+            <intent-filter android:priority="1">
+                <action android:name="android.settings.NOTIFICATION_BUNDLES" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                       android:value="com.android.settings.notification.BundlePreferenceFragment" />
         </activity>
 
         <activity android:name=".notification.zen.ZenModeVoiceActivity"
@@ -4103,11 +4123,34 @@
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="com.android.settings.SHORTCUT" />
             </intent-filter>
-            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+            <meta-data
+                android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.notification.SoundSettings" />
-            <meta-data android:name="com.android.settings.HIGHLIGHT_MENU_KEY"
-                       android:value="@string/menu_key_sound"/>
-            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
+            <meta-data
+                android:name="com.android.settings.HIGHLIGHT_MENU_KEY"
+                android:value="@string/menu_key_sound"/>
+            <meta-data
+                android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+        </activity>
+
+        <activity
+            android:name="Settings$VibrationIntensitySettingsActivity"
+            android:label="@string/accessibility_vibration_settings_title"
+            android:featureFlag="com.android.settings.flags.device_state"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.accessibility.VibrationIntensitySettingsFragment" />
+            <meta-data
+                android:name="com.android.settings.HIGHLIGHT_MENU_KEY"
+                android:value="@string/menu_key_sound"/>
+            <meta-data
+                android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
                 android:value="true" />
         </activity>
 
@@ -4539,7 +4582,7 @@
         </activity>
 
         <activity android:name=".enterprise.ActionDisabledByAdminDialog"
-                  android:theme="@style/Theme.AlertDialog"
+                  android:theme="@style/Theme.AlertDialog.SettingsLib"
                 android:taskAffinity="com.android.settings.enterprise"
                 android:excludeFromRecents="true"
                 android:exported="true"
