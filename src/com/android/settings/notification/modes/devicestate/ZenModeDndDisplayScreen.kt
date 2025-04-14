@@ -21,31 +21,37 @@ import android.app.Flags as AppFlags
 import android.content.Context
 import android.content.Intent
 import android.provider.Settings.EXTRA_AUTOMATIC_ZEN_RULE_ID
-import com.android.settings.Settings.ModeSettingsActivity
+import com.android.settings.R
+import com.android.settings.Settings.ModeDisplaySettingsActivity
 import com.android.settings.contract.TAG_DEVICE_STATE_SCREEN
 import com.android.settings.flags.Flags
+import com.android.settings.notification.modes.ZenHelperBackend
+import com.android.settings.notification.modes.ZenModeSummaryHelper
 import com.android.settingslib.metadata.PreferenceAvailabilityProvider
 import com.android.settingslib.metadata.PreferenceMetadata
 import com.android.settingslib.metadata.PreferenceSummaryProvider
-import com.android.settingslib.metadata.PreferenceTitleProvider
 import com.android.settingslib.metadata.ProvidePreferenceScreen
 import com.android.settingslib.metadata.preferenceHierarchy
 import com.android.settingslib.preference.PreferenceFragment
 import com.android.settingslib.preference.PreferenceScreenCreator
 
 /**
- * This DND mode screen is dedicated for device state. It functions via a virtual key and is
- * separate from the current Settings user interface, which it does not affect. Obviously, this is
- * not fully migrated page.
+ * This DND mode Display settings screen is dedicated for device state. It functions via a virtual
+ * key and is separate from the current Settings user interface, which it does not affect.
+ * Obviously, this is not fully migrated page.
  */
-@ProvidePreferenceScreen(ZenModeDndScreen.KEY)
-class ZenModeDndScreen :
-    PreferenceScreenCreator,
-    PreferenceAvailabilityProvider,
-    PreferenceTitleProvider,
-    PreferenceSummaryProvider {
+// LINT.IfChange
+@ProvidePreferenceScreen(ZenModeDndDisplayScreen.KEY)
+class ZenModeDndDisplayScreen :
+    PreferenceScreenCreator, PreferenceAvailabilityProvider, PreferenceSummaryProvider {
     override val key: String
         get() = KEY
+
+    override val title: Int
+        get() = R.string.mode_display_settings_title
+
+    override val icon: Int
+        get() = R.drawable.ic_zen_mode_category_display
 
     override fun tags(context: Context) = arrayOf(TAG_DEVICE_STATE_SCREEN)
 
@@ -55,25 +61,25 @@ class ZenModeDndScreen :
 
     override fun isAvailable(context: Context) = AppFlags.modesUi() && context.hasDndMode()
 
-    override fun getTitle(context: Context): CharSequence? = context.getDndMode()?.name
-
-    override fun getSummary(context: Context): CharSequence? =
-        context.getZenModeScreenSummary(context.getDndMode())
+    override fun getSummary(context: Context): CharSequence? {
+        val summaryHelper = ZenModeSummaryHelper(context, ZenHelperBackend.getInstance(context))
+        return summaryHelper.getDisplayEffectsSummary(context.getDndMode()!!)
+    }
 
     @FlaggedApi(AppFlags.FLAG_MODES_UI)
     override fun getLaunchIntent(context: Context, metadata: PreferenceMetadata?): Intent? =
-        if (AppFlags.modesUi())
-            Intent(context, ModeSettingsActivity::class.java)
+        if (AppFlags.modesUi()) {
+            Intent(context, ModeDisplaySettingsActivity::class.java)
                 .putExtra(EXTRA_AUTOMATIC_ZEN_RULE_ID, context.getDndMode()?.id)
-        else null
+        } else null
 
-    override fun getPreferenceHierarchy(context: Context) =
-        preferenceHierarchy(context, this) {
-            +ZenModeButtonPreference(context.getDndMode()!!)
-            +ZenModeDndDisplayScreen.KEY
-        }
+    override fun getPreferenceHierarchy(context: Context) = preferenceHierarchy(context, this) {}
 
     companion object {
-        const val KEY = "device_state_dnd_mode_screen" // only for device state.
+        const val KEY = "device_state_dnd_mode_display_settings" // only for device state.
     }
 }
+// LINT.ThenChange(
+//     ../ZenModeDisplayFragment.java,
+//     ../ZenModeDisplayLinkPreferenceController.java,
+// )

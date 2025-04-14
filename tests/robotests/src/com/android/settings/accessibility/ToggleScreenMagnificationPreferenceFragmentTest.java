@@ -136,6 +136,8 @@ public class ToggleScreenMagnificationPreferenceFragmentTest {
             Settings.Secure.ACCESSIBILITY_MAGNIFICATION_ALWAYS_ON_ENABLED;
     private static final String KEY_JOYSTICK =
             Settings.Secure.ACCESSIBILITY_MAGNIFICATION_JOYSTICK_ENABLED;
+    private static final String KEY_MAGNIFY_NAV_AND_IME =
+            Settings.Secure.ACCESSIBILITY_MAGNIFICATION_MAGNIFY_NAV_AND_IME;
 
     private FragmentController<ToggleScreenMagnificationPreferenceFragment> mFragController;
     private Context mContext;
@@ -224,6 +226,35 @@ public class ToggleScreenMagnificationPreferenceFragmentTest {
                 MagnificationFollowTypingPreferenceController.PREF_KEY);
         assertThat(switchPreference).isNotNull();
         assertThat(switchPreference.isChecked()).isFalse();
+    }
+
+    @Test
+    @EnableFlags(Flags.FLAG_ENABLE_MAGNIFICATION_MAGNIFY_NAV_BAR_AND_IME)
+    public void onResume_disableMagnifyNavAndIme_preferenceNotChecked() {
+        setKeyMagnifyNavAndImeEnabled(false);
+
+        mFragController.create(R.id.main_content, /* bundle= */ null).start().resume();
+
+        final TwoStatePreference switchPreference =
+                mFragController.get().findPreference(
+                        MagnifyNavAndImePreferenceController.PREF_KEY);
+
+        assertThat(switchPreference).isNotNull();
+        assertThat(switchPreference.isChecked()).isFalse();
+    }
+
+    @Test
+    @EnableFlags(Flags.FLAG_ENABLE_MAGNIFICATION_MAGNIFY_NAV_BAR_AND_IME)
+    public void onResume_enableMagnifyNavAndIme_preferenceIsChecked() {
+        setKeyMagnifyNavAndImeEnabled(true);
+
+        mFragController.create(R.id.main_content, /* bundle= */ null).start().resume();
+
+        final TwoStatePreference switchPreference =
+                mFragController.get().findPreference(
+                        MagnifyNavAndImePreferenceController.PREF_KEY);
+        assertThat(switchPreference).isNotNull();
+        assertThat(switchPreference.isChecked()).isTrue();
     }
 
     @Test
@@ -351,6 +382,8 @@ public class ToggleScreenMagnificationPreferenceFragmentTest {
                         Settings.Secure.ACCESSIBILITY_QS_TARGETS),
                 Settings.Secure.getUriFor(
                         Settings.Secure.ACCESSIBILITY_MAGNIFICATION_FOLLOW_TYPING_ENABLED),
+                Settings.Secure.getUriFor(
+                        Settings.Secure.ACCESSIBILITY_MAGNIFICATION_MAGNIFY_NAV_AND_IME),
                 Settings.Secure.getUriFor(
                         Settings.Secure.ACCESSIBILITY_MAGNIFICATION_ALWAYS_ON_ENABLED)
         };
@@ -861,7 +894,8 @@ public class ToggleScreenMagnificationPreferenceFragmentTest {
                 MagnificationOneFingerPanningPreferenceController.PREF_KEY,
                 MagnificationAlwaysOnPreferenceController.PREF_KEY,
                 MagnificationJoystickPreferenceController.PREF_KEY,
-                MagnificationCursorFollowingModePreferenceController.PREF_KEY);
+                MagnificationCursorFollowingModePreferenceController.PREF_KEY,
+                MagnifyNavAndImePreferenceController.PREF_KEY);
 
         final List<SearchIndexableRaw> rawData = ToggleScreenMagnificationPreferenceFragment
                 .SEARCH_INDEX_DATA_PROVIDER.getRawDataToIndex(mContext, true);
@@ -890,6 +924,7 @@ public class ToggleScreenMagnificationPreferenceFragmentTest {
     @Test
     @EnableFlags({
             Flags.FLAG_ENABLE_MAGNIFICATION_ONE_FINGER_PANNING_GESTURE,
+            Flags.FLAG_ENABLE_MAGNIFICATION_MAGNIFY_NAV_BAR_AND_IME,
             com.android.settings.accessibility.Flags
                     .FLAG_ENABLE_MAGNIFICATION_CURSOR_FOLLOWING_DIALOG})
     @Config(shadows = ShadowInputDevice.class)
@@ -965,6 +1000,11 @@ public class ToggleScreenMagnificationPreferenceFragmentTest {
 
     private void setKeyFollowTypingEnabled(boolean enabled) {
         Settings.Secure.putInt(mContext.getContentResolver(), KEY_FOLLOW_TYPING,
+                enabled ? ON : OFF);
+    }
+
+    private void setKeyMagnifyNavAndImeEnabled(boolean enabled) {
+        Settings.Secure.putInt(mContext.getContentResolver(), KEY_MAGNIFY_NAV_AND_IME,
                 enabled ? ON : OFF);
     }
 

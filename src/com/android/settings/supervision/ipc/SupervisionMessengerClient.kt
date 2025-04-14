@@ -21,8 +21,6 @@ import android.util.Log
 import com.android.internal.R
 import com.android.settings.supervision.PreferenceDataProvider
 import com.android.settingslib.ipc.MessengerServiceClient
-import kotlinx.coroutines.CompletableDeferred
-import kotlinx.coroutines.Deferred
 
 /**
  * A specialized [MessengerServiceClient] for interacting with the system supervision service.
@@ -55,17 +53,17 @@ class SupervisionMessengerClient(context: Context) :
      * @return A map of preference data, where the keys are the preference keys and the values are
      *   [PreferenceData] objects, or an empty map if an error occurs.
      */
-    override suspend fun getPreferenceData(
-        keys: List<String>
-    ): Deferred<Map<String, PreferenceData>> =
+    override suspend fun getPreferenceData(keys: List<String>): Map<String, PreferenceData> =
         try {
             invoke(supervisionPackageName, PreferenceDataApi(), PreferenceDataRequest(keys = keys))
+                .await()
         } catch (e: Exception) {
-            Log.e("MessengerService", "Error fetching Preference data from supervision app", e)
-            CompletableDeferred(mapOf())
+            Log.e(TAG, "Error fetching Preference data from supervision app", e)
+            mapOf()
         }
 
     companion object {
+        private const val TAG = "SupervisionMessengerClient"
         private const val SUPERVISION_MESSENGER_SERVICE_BIND_ACTION =
             "android.app.supervision.action.SUPERVISION_MESSENGER_SERVICE"
     }

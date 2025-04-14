@@ -17,6 +17,7 @@ package com.android.settings.supervision
 
 import android.content.Context
 import android.content.Intent
+import androidx.preference.Preference
 import com.android.settingslib.metadata.PreferenceLifecycleContext
 import com.android.settingslib.metadata.PreferenceLifecycleProvider
 import com.android.settingslib.metadata.PreferenceMetadata
@@ -24,18 +25,30 @@ import com.android.settingslib.metadata.PreferenceSummaryProvider
 import com.android.settingslib.metadata.PreferenceTitleProvider
 import com.android.settingslib.preference.PreferenceBinding
 import com.android.settingslib.widget.CardPreference
+import kotlinx.coroutines.CoroutineDispatcher
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 
 /** A bottom banner promoting other supervision features offered by the supervision app. */
-class SupervisionPromoFooterPreference(private val preferenceDataProvider: PreferenceDataProvider) :
+class SupervisionPromoFooterPreference(
+    private val preferenceDataProvider: PreferenceDataProvider,
+    private val coroutineDispatcher: CoroutineDispatcher = Dispatchers.IO,
+) :
     PreferenceMetadata,
     PreferenceBinding,
     PreferenceLifecycleProvider,
     PreferenceTitleProvider,
     PreferenceSummaryProvider {
 
+    /** Whether [intent] holds an initialized value. */
+    private var initialized = false
+
     // Operation to be performed when the preference is clicked
     private var intent: Intent? = null
+
+    override val key: String
+        get() = KEY
 
     // TODO(b/399497788): Remove this and get title from supervision app
     override fun getTitle(context: Context) = "Full parental controls"
@@ -44,44 +57,40 @@ class SupervisionPromoFooterPreference(private val preferenceDataProvider: Prefe
     override fun getSummary(context: Context) =
         "Set up an account for your kid & help them manage it (required for kids under [AOC])"
 
-    override fun intent(context: Context): Intent? = intent
-
-    override val key: String
-        get() = KEY
-
     override fun createWidget(context: Context) = CardPreference(context)
 
+    override fun bind(preference: Preference, metadata: PreferenceMetadata) {
+        super.bind(preference, metadata)
+        if (initialized) {
+            preference.intent = intent
+            preference.isVisible = intent != null
+        }
+    }
+
     override fun onResume(context: PreferenceLifecycleContext) {
-        super.onResume(context)
-        val preference = context.findPreference<CardPreference>(KEY)
-        if (preference != null) {
-            context.lifecycleScope.launch {
-                // TODO(b/399497788) Get title & summary from supervision app.
-                val preferenceData =
-                    preferenceDataProvider.getPreferenceData(listOf(KEY)).await()[KEY]
-                intent = intent ?: Intent()
-                intent?.setAction(preferenceData?.action)
-                intent?.setPackage(preferenceData?.targetPackage)
-                // Hide the preference if the target package can not respond to the action
-                if (!canTargetPackageRespondToAction(preference.context)) {
-                    preference.isVisible = false
+        context.lifecycleScope.launch {
+            // TODO(b/399497788) Get title & summary from supervision app.
+            val preferenceData =
+                withContext(coroutineDispatcher) {
+                    preferenceDataProvider.getPreferenceData(listOf(KEY))[KEY]
                 }
-            }
+            initialized = true
+            val targetIntent =
+                Intent(preferenceData?.action).apply {
+                    `package` = preferenceData?.targetPackage
+                    addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                }
+            if (targetIntent.isValid(context)) intent = targetIntent
+            context.notifyPreferenceChange(KEY)
         }
     }
 
-    private fun canTargetPackageRespondToAction(context: Context): Boolean {
-        if (intent?.action == null || intent?.`package` == null) {
-            return false
-        }
-
-        intent!!.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
-        val activities =
-            context.packageManager.queryIntentActivitiesAsUser(intent!!, 0, context.userId)
-        return activities.isNotEmpty()
-    }
+    private fun Intent.isValid(context: Context) =
+        action != null &&
+            `package` != null &&
+            context.packageManager.queryIntentActivitiesAsUser(this, 0, context.userId).isNotEmpty()
 
     companion object {
-        const val KEY = "supervision_promo_footer"
+        const val KEY = "promo_footer"
     }
 }

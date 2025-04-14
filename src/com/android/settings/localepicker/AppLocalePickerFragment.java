@@ -21,6 +21,7 @@ import android.app.settings.SettingsEnums;
 import android.content.Context;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.LocaleList;
 import android.text.TextUtils;
@@ -415,8 +416,18 @@ public class AppLocalePickerFragment extends DashboardFragment implements
 
     private List<AbstractPreferenceController> buildPreferenceControllers(
             @NonNull Context context) {
+        final List<AbstractPreferenceController> controllers = new ArrayList<>();
         Bundle args = getArguments();
-        mPackageName = args.getString(ARG_PACKAGE_NAME);
+        Uri data = getIntent().getData();
+        if (data != null) {
+            mPackageName = data.getSchemeSpecificPart();
+        } else if (args != null) {
+            mPackageName = args.getString(ARG_PACKAGE_NAME);
+        }
+        if (TextUtils.isEmpty(mPackageName)) {
+            return controllers;
+        }
+
         mUid = args.getInt(ARG_PACKAGE_UID);
         mLocaleInfo = (LocaleStore.LocaleInfo) args.getSerializable(
                 RegionAndNumberingSystemPickerFragment.EXTRA_TARGET_LOCALE);
@@ -431,7 +442,6 @@ public class AppLocalePickerFragment extends DashboardFragment implements
         mAppLocaleAllListPreferenceController = new AppLocaleAllListPreferenceController(
                 context, KEY_PREFERENCE_APP_LOCALE_LIST, mPackageName, mIsNumberingMode,
                 mLocaleInfo, getActivity(), appLocaleCollector);
-        final List<AbstractPreferenceController> controllers = new ArrayList<>();
         controllers.add(mSuggestedListPreferenceController);
         controllers.add(mAppLocaleAllListPreferenceController);
 
