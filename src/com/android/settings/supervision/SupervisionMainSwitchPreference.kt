@@ -19,6 +19,8 @@ import android.app.Activity
 import android.app.supervision.SupervisionManager
 import android.content.Context
 import android.content.Intent
+import android.util.Log
+import androidx.annotation.VisibleForTesting
 import androidx.preference.Preference
 import com.android.settings.R
 import com.android.settingslib.datastore.KeyValueStore
@@ -32,6 +34,7 @@ import com.android.settingslib.metadata.ReadWritePermit
 import com.android.settingslib.metadata.SensitivityLevel
 import com.android.settingslib.preference.MainSwitchPreferenceBinding
 import com.android.settingslib.preference.forEachRecursively
+import com.android.settingslib.supervision.SupervisionLog
 
 /** Main toggle to enable or disable device supervision. */
 class SupervisionMainSwitchPreference(context: Context) :
@@ -77,6 +80,10 @@ class SupervisionMainSwitchPreference(context: Context) :
         resultCode: Int,
         data: Intent?,
     ): Boolean {
+        if (requestCode != REQUEST_CODE_SET_UP_SUPERVISION
+            && requestCode != REQUEST_CODE_CONFIRM_SUPERVISION_CREDENTIALS) {
+            return false
+        }
         if (resultCode == Activity.RESULT_OK) {
             val mainSwitchPreference =
                 lifeCycleContext.requirePreference<com.android.settingslib.widget.MainSwitchPreference>(KEY)
@@ -96,7 +103,17 @@ class SupervisionMainSwitchPreference(context: Context) :
 
     override fun onPreferenceChange(preference: Preference, newValue: Any?): Boolean {
         if (newValue !is Boolean) return true
+        val supervisionHelper = SupervisionHelper.getInstance(preference.context)
 
+        // If supervision is being enabled but either the supervising profile hasn't been created
+        // or the credentials aren't set, launch SetupSupervisionActivity.
+        if (newValue && !supervisionHelper.isSupervisingCredentialSet()) {
+            val intent = Intent(lifeCycleContext, SetupSupervisionActivity::class.java)
+            lifeCycleContext.startActivityForResult(intent, REQUEST_CODE_SET_UP_SUPERVISION, null)
+            return false
+        }
+
+        // If supervision is already set up, confirm credentials before any change.
         val intent = Intent(lifeCycleContext, ConfirmSupervisionCredentialsActivity::class.java)
         lifeCycleContext.startActivityForResult(
             intent,
@@ -137,6 +154,10 @@ class SupervisionMainSwitchPreference(context: Context) :
 
     companion object {
         const val KEY = "device_supervision_switch"
+        @VisibleForTesting
         const val REQUEST_CODE_CONFIRM_SUPERVISION_CREDENTIALS = 0
+        @VisibleForTesting
+        const val REQUEST_CODE_SET_UP_SUPERVISION = 1
     }
+
 }

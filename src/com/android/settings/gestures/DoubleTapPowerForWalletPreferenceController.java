@@ -133,6 +133,7 @@ public class DoubleTapPowerForWalletPreferenceController extends BasePreferenceC
 
     @Override
     public void onStart() {
+        mQuickAccessWalletClient = QuickAccessWalletClient.create(mContext);
         DoubleTapPowerSettingsUtils.registerObserver(mContext, mSettingsObserver);
         if (mRoleManager != null) {
             mRoleManager.addOnRoleHoldersChangedListenerAsUser(mContext.getMainExecutor(),

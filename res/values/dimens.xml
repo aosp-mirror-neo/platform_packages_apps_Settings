@@ -535,6 +535,7 @@
     <dimen name="audio_streams_qrcode_preview_size">300dp</dimen>
     <dimen name="audio_streams_qrcode_preview_radius">30dp</dimen>
     <dimen name="audio_streams_qrcode_scanner_fragment_padding">16dp</dimen>
+    <dimen name="audio_sharing_name_preference_edit_text_format_alert_padding">24dp</dimen>
 
     <!-- Zen Modes -->
     <dimen name="zen_mode_header_size">136dp</dimen>

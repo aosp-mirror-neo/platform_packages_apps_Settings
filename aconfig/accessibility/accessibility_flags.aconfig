@@ -66,16 +66,6 @@ flag {
 }
 
 flag {
-  name: "hide_magnification_always_on_toggle_when_window_mode_only"
-  namespace: "accessibility"
-  description: "Decides whether to hide the magnification always on setting when capabilities is window mode only."
-  bug: "328787031"
-  metadata {
-    purpose: PURPOSE_BUGFIX
-  }
-}
-
-flag {
   name: "never_restrict_accessibility_activity"
   namespace: "accessibility"
   description: "Stops possibly restricting AccessibilityActivityPreferences"

@@ -2870,6 +2870,8 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".supervision.SetupSupervisionActivity" android:exported="false" />
+
         <activity android:name=".SetupRedactionInterstitial"
             android:enabled="false"
             android:exported="true"
@@ -4274,7 +4276,7 @@
         <!-- Show regulatory info (from settings item or dialing "*#07#") -->
         <activity
             android:name="RegulatoryInfoDisplayActivity"
-            android:theme="@style/Theme.AlertDialog"
+            android:theme="@style/Transparent"
             android:label="@string/regulatory_labels"
             android:exported="true"
             android:enabled="@bool/config_show_regulatory_info">

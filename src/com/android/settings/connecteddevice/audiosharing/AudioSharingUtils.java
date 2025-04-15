@@ -60,11 +60,23 @@ public class AudioSharingUtils {
     private static final boolean DEBUG = BluetoothUtils.D;
 
     public enum MetricKey {
-        METRIC_KEY_SOURCE_PAGE_ID,
-        METRIC_KEY_PAGE_ID,
-        METRIC_KEY_USER_TRIGGERED,
-        METRIC_KEY_DEVICE_COUNT_IN_SHARING,
-        METRIC_KEY_CANDIDATE_DEVICE_COUNT
+        METRIC_KEY_SOURCE_PAGE_ID(0),
+        METRIC_KEY_PAGE_ID(1),
+        METRIC_KEY_USER_TRIGGERED(2),
+        METRIC_KEY_DEVICE_COUNT_IN_SHARING(3),
+        METRIC_KEY_CANDIDATE_DEVICE_COUNT(4),
+        METRIC_KEY_DEVICE_CONNECTION_TYPE(5),
+        METRIC_KEY_DEVICE_IS_TEMP_BOND(6);
+
+        private final int mId;
+
+        MetricKey(int id) {
+            this.mId = id;
+        }
+
+        public int getId() {
+            return mId;
+        }
     }
 
     /**

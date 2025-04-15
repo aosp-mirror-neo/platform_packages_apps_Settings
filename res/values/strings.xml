@@ -100,10 +100,6 @@
     <string name="stay_awake_on_fold_title">Always</string>
     <!-- Summary for stay awake on fold radio button. [CHAR_LIMIT=NONE] -->
     <string name="stay_awake_on_fold_summary">Front display turns on when you fold your device</string>
-    <!-- Title for selective stay awake radio button. [CHAR_LIMIT=NONE] -->
-    <string name="selective_stay_awake_title">Only games, videos, and more</string>
-    <!-- Summary for selective stay awake radio button. [CHAR_LIMIT=NONE] -->
-    <string name="selective_stay_awake_summary">Front display turns on for apps that stop your screen going idle</string>
     <!-- Title for fold grace period radio button that, on fold, goes to the lockscreen. [CHAR_LIMIT=NONE] -->
     <string name="stay_awake_on_lockscreen_title">Swipe up to continue</string>
     <!-- Summary for folding grace period radio button that, on fold, goes to the lockscreen. [CHAR_LIMIT=NONE] -->
@@ -12492,7 +12488,7 @@ Data usage charges may apply.</string>
     <!-- Available networks screen, text when a network cannot be connected [CHAR LIMIT=60] -->
     <string name="network_could_not_connect">Couldn\u2019t connect</string>
     <!-- Available networks screen, text when no networks are found [CHAR LIMIT=NONE] -->
-    <string name="empty_networks_list">No networks found.</string>
+    <string name="empty_networks_list">No networks found</string>
     <!-- Available networks screen, toast when an error is encountered when searching for networks [CHAR LIMIT=NONE] -->
     <string name="network_query_error">Couldn\u2019t find networks. Try again.</string>
     <!-- Text to show this network is forbidden [CHAR LIMIT=NONE] -->
@@ -14385,6 +14381,8 @@ Data usage charges may apply.</string>
     <string name="audio_streams_main_page_password_dialog_cannot_edit">Can\u0027t edit password while sharing. To change the password, first turn off audio sharing.</string>
     <!-- Le audio streams password dialog password format alert [CHAR LIMIT=NONE] -->
     <string name="audio_streams_main_page_password_dialog_format_alert">Your password must contain 4-16 characters and use only letters, numbers and symbols</string>
+    <!-- Le audio streams name dialog password format alert [CHAR LIMIT=NONE] -->
+    <string name="audio_streams_main_page_name_dialog_format_alert">Your audio stream name must contain 4-32 characters and use only letters, numbers and symbols</string>
     <!-- Text for audio sharing qrcode scanner [CHAR LIMIT=none]-->
     <string name="audio_streams_qr_code_scanner_label">QR code scanner</string>
     <!-- Learn more link for audio sharing qrcode [CHAR LIMIT=none]-->
