@@ -570,7 +570,6 @@ public class BluetoothDetailsProfilesControllerTest extends BluetoothDetailsCont
     @Test
     public void prefKeyInBlockingList_hideToggle() {
         mController.setInvisibleProfiles(List.of("A2DP"));
-        mController.setHasExtraSpace(true);
         setupDevice(makeDefaultDeviceConfig());
 
         addA2dpProfileToDevice(true, true, true);

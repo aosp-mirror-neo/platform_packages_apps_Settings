@@ -19,19 +19,23 @@ package com.android.settings.spa.app.catalyst
 import android.Manifest.permission.MANAGE_EXTERNAL_STORAGE
 import android.app.Application
 import android.content.Context
+import android.content.Intent
 import android.content.pm.ApplicationInfo
 import android.content.pm.PackageInfo
 import android.content.pm.PackageManager
 import android.os.Bundle
+import androidx.core.net.toUri
 import com.android.settings.R
 import com.android.settings.applications.AppStateManageExternalStorageBridge
 import com.android.settings.contract.TAG_DEVICE_STATE_PREFERENCE
 import com.android.settings.contract.TAG_DEVICE_STATE_SCREEN
 import com.android.settings.flags.Flags
+import com.android.settings.utils.highlightPreference
 import com.android.settingslib.applications.ApplicationsState
 import com.android.settingslib.datastore.KeyValueStore
 import com.android.settingslib.datastore.NoOpKeyedObservable
 import com.android.settingslib.metadata.MainSwitchPreference
+import com.android.settingslib.metadata.PreferenceMetadata
 import com.android.settingslib.metadata.PreferenceSummaryProvider
 import com.android.settingslib.metadata.PreferenceTitleProvider
 import com.android.settingslib.metadata.ProvidePreferenceScreen
@@ -72,6 +76,11 @@ class AppInfoAllFilesAccessScreen(context: Context, override val arguments: Bund
                 else -> R.string.app_permission_summary_not_allowed
             }
         )
+
+    override fun getLaunchIntent(context: Context, metadata: PreferenceMetadata?) =
+        Intent("android.settings.MANAGE_APP_ALL_FILES_ACCESS_PERMISSION").apply {
+            data = "package:${appInfo.packageName}".toUri()
+        }
 
     override fun isFlagEnabled(context: Context) = Flags.deviceState()
 

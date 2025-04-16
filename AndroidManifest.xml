@@ -2558,6 +2558,12 @@
                        android:value="@string/menu_key_security"/>
         </activity>
 
+        <service
+            android:name=".accessibility.notification.SurveyNotificationService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.POST_NOTIFICATIONS"/>
+
         <activity
             android:name="Settings$AccessibilitySettingsActivity"
             android:label="@string/accessibility_settings"

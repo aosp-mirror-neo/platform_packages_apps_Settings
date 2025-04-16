@@ -229,6 +229,7 @@ public class UserSettingsTest {
         Settings.Global.putInt(mContext.getContentResolver(),
                 Settings.Global.DEVICE_PROVISIONED, mProvisionedBackupValue);
         SettingsShadowResources.reset();
+        ShadowLockPatternUtils.reset();
     }
 
     @Test
@@ -469,6 +470,9 @@ public class UserSettingsTest {
     @Test
     @RequiresFlagsEnabled(Flags.FLAG_REQUIRE_PIN_BEFORE_USER_DELETION)
     public void removeUserSelf_userHasNoScreenlock_shouldNotAskForCredentials() {
+        ShadowLockPatternUtils.setKeyguardStoredPasswordQuality(
+                DevicePolicyManager.PASSWORD_QUALITY_UNSPECIFIED);
+
         doReturn(SWITCHABILITY_STATUS_OK).when(mUserManager).getUserSwitchability();
 
         doReturn(mUserManager).when(mActivity).getSystemService(Context.USER_SERVICE);

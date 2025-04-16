@@ -244,7 +244,9 @@
 
         </PreferenceCategory>
 
-        <com.android.settingslib.widget.SettingsTitlelessPreferenceCategory>
+        <com.android.settingslib.widget.SettingsTitlelessPreferenceCategory
+            settings:isPreferenceVisible="false">
+
           <com.android.settings.network.telephony.cdma.CdmaListPreference
               android:key="cdma_system_select_key"
               android:title="@string/cdma_system_select_title"

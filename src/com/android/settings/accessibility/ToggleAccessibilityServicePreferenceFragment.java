@@ -21,7 +21,6 @@ import static com.android.settings.accessibility.AccessibilityStatsLogUtils.logA
 
 import android.accessibilityservice.AccessibilityServiceInfo;
 import android.annotation.SuppressLint;
-import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.settings.SettingsEnums;
 import android.content.BroadcastReceiver;
@@ -43,6 +42,7 @@ import android.view.accessibility.AccessibilityManager;
 import android.widget.CompoundButton;
 
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.AlertDialog;
 
 import com.android.internal.accessibility.common.ShortcutConstants;
 import com.android.settings.R;

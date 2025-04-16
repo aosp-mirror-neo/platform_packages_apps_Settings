@@ -19,17 +19,21 @@ package com.android.settings.spa.app.catalyst
 import android.Manifest.permission.USE_FULL_SCREEN_INTENT
 import android.app.AppOpsManager
 import android.content.Context
+import android.content.Intent
 import android.content.pm.ApplicationInfo
 import android.content.pm.PackageInfo
 import android.content.pm.PackageManager
 import android.os.Bundle
+import androidx.core.net.toUri
 import com.android.settings.R
 import com.android.settings.contract.TAG_DEVICE_STATE_PREFERENCE
 import com.android.settings.contract.TAG_DEVICE_STATE_SCREEN
 import com.android.settings.flags.Flags
+import com.android.settings.utils.highlightPreference
 import com.android.settingslib.datastore.KeyValueStore
 import com.android.settingslib.datastore.NoOpKeyedObservable
 import com.android.settingslib.metadata.MainSwitchPreference
+import com.android.settingslib.metadata.PreferenceMetadata
 import com.android.settingslib.metadata.PreferenceSummaryProvider
 import com.android.settingslib.metadata.PreferenceTitleProvider
 import com.android.settingslib.metadata.ProvidePreferenceScreen
@@ -70,6 +74,11 @@ class AppInfoFullScreenIntentScreen(context: Context, override val arguments: Bu
                 else -> R.string.app_permission_summary_not_allowed
             }
         )
+
+    override fun getLaunchIntent(context: Context, metadata: PreferenceMetadata?) =
+        Intent("android.settings.MANAGE_APP_USE_FULL_SCREEN_INTENT").apply {
+            data = "package:${appInfo.packageName}".toUri()
+        }
 
     override fun isFlagEnabled(context: Context) = Flags.deviceState()
 

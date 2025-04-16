@@ -3314,7 +3314,7 @@
     <!-- Display settings screen, summary for screen saver options, screen saver is turned off [CHAR LIMIT=20] -->
     <string name="screensaver_settings_summary_off">Off</string>
     <!-- Dream settings screen, action label, when to dream [CHAR LIMIT=20] -->
-    <string name="screensaver_settings_when_to_dream">When to start</string>
+    <string name="screensaver_settings_when_to_dream">When to show</string>
     <!-- [CHAR LIMIT=40] Display settings screen, setting option name to change whether the device wakes up when a lift gesture is detected. -->
     <string name="lift_to_wake_title">Lift to wake</string>
     <!-- Title of toggle preference in screensaver "when to start" screen to restrict to starting only when charging wirelessly [CHAR LIMIT=NONE] -->
@@ -5284,6 +5284,14 @@
     <string name="accessibility_send_feedback_title">Send feedback</string>
     <!-- The menu item to start the survey process for the accessibility [CHAR LIMIT=30] -->
     <string name="accessibility_send_survey_title">Rate us</string>
+    <!-- Channel name for the accessibility survey notification. [CHAR LIMIT=50] -->
+    <string name="accessibility_send_survey_notification_channel">Accessibility Survey</string>
+    <!-- Title of a survey notification about dark theme. [CHAR LIMIT=50] -->
+    <string name="dark_theme_survey_notification_title">Enjoying Dark theme in more apps?</string>
+    <!-- Summary for a survey notification about dark theme. [CHAR LIMIT=100] -->
+    <string name="dark_theme_survey_notification_summary">Share your feedback</string>
+    <!-- Action for a survey notification about dark theme. [CHAR LIMIT=50] -->
+    <string name="dark_theme_survey_notification_action">Take survey</string>
     <!-- Title for the accessibility preference category of services downloaded by the user. [CHAR LIMIT=50] -->
     <string name="user_installed_services_category_title">Downloaded apps</string>
     <!-- Title for the accessibility preference category of settings considered to be experimental, meaning they might be changed or removed in the future. [CHAR LIMIT=50] -->
@@ -5513,8 +5521,6 @@
     <string name="accessibility_tutorial_dialog_title_quick_setting">Quick Settings shortcut</string>
     <!-- Title for the accessibility tutorial dialog in accessibility service with gesture. [CHAR LIMIT=50] -->
     <string name="accessibility_tutorial_dialog_title_gesture">Accessibility gesture shortcut</string>
-    <!-- Title for the accessibility tutorial dialog in gesture navigation settings. [CHAR LIMIT=50] -->
-    <string name="accessibility_tutorial_dialog_title_gesture_settings">Use accessibility gesture</string>
     <!-- Message for the accessibility tutorial dialog when user enables an accessibility service while using the 3-button nav bar. [CHAR LIMIT=NONE] -->
     <string name="accessibility_tutorial_dialog_message_button">To use this feature, tap the accessibility button <xliff:g id="accessibility_icon" example="[Icon]">%s</xliff:g> at the bottom of your screen.\n\nTo switch between features, touch &amp; hold the accessibility button.</string>
     <!-- Message for the accessibility tutorial dialog when user enables an accessibility service while using the accessibility floating button. [CHAR LIMIT=100] -->
@@ -5543,10 +5549,6 @@
         }</string>
     <!-- Message for the accessibility tutorial dialog when user enables an accessibility service while using gesture navigation and touch exploration is enabled. [CHAR LIMIT=NONE] -->
     <string name="accessibility_tutorial_dialog_message_gesture_talkback">To use this feature, swipe up from the bottom of the screen with 3 fingers.\n\nTo switch between features, swipe up with 3 fingers and hold.</string>
-    <!-- Message for the accessibility tutorial dialog when user chooses gesture navigation in navigation settings, an accessibility service is using the accessibility button, and touch exploration is disabled. [CHAR LIMIT=NONE] -->
-    <string name="accessibility_tutorial_dialog_message_gesture_settings">To use an accessibility feature, swipe up from the bottom of the screen with 2 fingers.\n\nTo switch between features, swipe up with 2 fingers and hold.</string>
-    <!-- Message for the accessibility tutorial dialog when user chooses gesture navigation in navigation settings, an accessibility service is using the accessibility button, and touch exploration is enabled. [CHAR LIMIT=NONE] -->
-    <string name="accessibility_tutorial_dialog_message_gesture_settings_talkback">To use an accessibility feature, swipe up from the bottom of the screen with 3 fingers.\n\nTo switch between features, swipe up with 3 fingers and hold.</string>
     <!-- Button for the accessibility tutorial dialog to dismiss the dialog when user clicks it. [CHAR LIMIT=10] -->
     <string name="accessibility_tutorial_dialog_button">Got it</string>
     <!-- Button for the accessibility tutorial dialog to open the Accessibility button settings page. [CHAR LIMIT=30] -->
@@ -5628,8 +5630,6 @@
     <string name="accessibility_shortcut_description">Allow feature shortcut to turn on from the lock screen. Hold both volume keys for a few seconds.</string>
     <!-- Title for the accessibility button page. [CHAR LIMIT=35] -->
     <string name="accessibility_button_title">Accessibility button</string>
-    <!-- Title for the accessibility button & gesture page. [CHAR LIMIT=35] -->
-    <string name="accessibility_button_gesture_title">Accessibility button &amp; gesture</string>
     <!-- Introduction for the accessibility button page. [CHAR LIMIT=NONE] -->
     <string name="accessibility_button_intro_text">Quickly access accessibility features from any screen</string>
     <!-- Title for the accessibility button footer. [CHAR LIMIT=35] -->
@@ -5642,15 +5642,6 @@
     <string name="accessibility_button_intro">Using the accessibility button. The gesture isn\u2019t available with 3-button navigation.</string>
     <!-- Summary text for the accessibility button preference. [CHAR LIMIT=50] -->
     <string name="accessibility_button_summary">Quickly access accessibility features</string>
-    <!-- Description for the accessibility button in gesture navigation. Explain how this page works in numbered ordered list. [CHAR LIMIT=NONE] -->
-    <string name="accessibility_button_gesture_description">
-        <![CDATA[
-        <b>To get started</b><br/>
-        {0,number,integer}. Go to accessibility settings<br/>
-        {1,number,integer}. Select a feature and tap the shortcut<br/>
-        {2,number,integer}. Choose whether you want to use a button or gesture to access the feature<br/>
-        ]]>
-    </string>
     <!-- Description for the accessibility button page. Explain how this page works in numbered ordered list. [CHAR LIMIT=NONE] -->
     <string name="accessibility_button_description">
         <![CDATA[
@@ -5660,8 +5651,6 @@
         {2,number,integer}. Choose the button to access the feature<br/>
         ]]>
     </string>
-    <!-- Title for the button or gesture of the accessibility button. [CHAR LIMIT=35] -->
-    <string name="accessibility_button_or_gesture_title">Use button or gesture</string>
     <!-- Title for the location of the accessibility button. [CHAR LIMIT=35] -->
     <string name="accessibility_button_location_title">Location</string>
     <!-- Title for the size of the accessibility button. [CHAR LIMIT=35] -->
@@ -8299,6 +8288,7 @@ Data usage charges may apply.</string>
     <string name="keywords_wallet">wallet</string>
     <string name="keywords_payment_settings">pay, tap, payments</string>
     <string name="keywords_backup">backup, back up</string>
+    <string name="keywords_fingerprint_unlock">fingerprint, unlock, auth, sign in</string>
     <string name="keywords_face_unlock">face, unlock, auth, sign in</string>
     <string name="keywords_biometric_unlock">face, unlock, auth, sign in, fingerprint, biometric</string>
     <string name="keywords_imei_info">imei, meid, min, prl version, imei sv</string>
@@ -14280,6 +14270,8 @@ Data usage charges may apply.</string>
     <string name="audio_sharing_turn_off_button_label">Turn off</string>
     <!-- Title for audio sharing notification to share audio with headset [CHAR LIMIT=none]-->
     <string name="share_audio_notification_title">Share audio with <xliff:g example="My buds" id="device_name">%1$s</xliff:g></string>
+    <!-- Content description for accessibility: audio sharing device volume sliders [CHAR LIMIT=NONE] -->
+    <string name="audio_sharing_device_volume_description"><xliff:g example="My buds" id="device_name">%1$s</xliff:g> volume</string>
 
     <!-- Title for audio streams preference category [CHAR LIMIT=none]-->
     <string name="audio_streams_category_title">Connect to a LE audio stream</string>
@@ -14476,4 +14468,18 @@ Data usage charges may apply.</string>
     <!-- Title for supervision PIN verification screen [CHAR LIMIT=60] -->
     <string name="supervision_full_screen_pin_verification_title">Enter supervision PIN</string>
     <string name="accessibility_illustration_content_description"><xliff:g id="feature" example="Select to Speak">%1$s</xliff:g> animation</string>
+
+    <!-- Light theme customization for lottie illustration. Not translatable. -->
+    <string-array name="va_animation_customization" translatable="false">
+        <item>.surfaceContainer:@sud_system_surface_container_light</item>
+        <item>.primary:@sud_system_primary_light</item>
+        <item>.primaryContainer:@sud_system_primary_container_light</item>
+        <item>.onPrimary:@sud_system_on_primary_light</item>
+        <item>.sContainerLowest:@sud_system_surface_container_lowest_light</item>
+        <item>.secondaryContainer:@sud_system_secondary_container_light</item>
+        <item>.onSecondary:@sud_system_on_secondary_light</item>
+        <item>.tertiary:@sud_system_tertiary_light</item>
+        <item>.inversePrimary:@sud_system_primary_inverse_light</item>
+    </string-array>
+
 </resources>
