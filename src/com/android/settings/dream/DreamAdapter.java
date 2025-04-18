@@ -98,6 +98,11 @@ public class DreamAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
             icon.setBounds(0, 0, iconSize, iconSize);
             mTitleView.setCompoundDrawablesRelative(icon, null, null, null);
 
+            if (dreamsV2()) {
+                mTitleView.setEllipsize(TextUtils.TruncateAt.MARQUEE);
+                mTitleView.setSingleLine();
+            }
+
             itemView.setOnClickListener(v -> {
                 item.onItemClicked();
                 if (mLastSelectedPos > -1 && mLastSelectedPos != position) {

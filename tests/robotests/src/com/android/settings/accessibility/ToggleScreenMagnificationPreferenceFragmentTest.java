@@ -138,6 +138,8 @@ public class ToggleScreenMagnificationPreferenceFragmentTest {
             Settings.Secure.ACCESSIBILITY_MAGNIFICATION_JOYSTICK_ENABLED;
     private static final String KEY_MAGNIFY_NAV_AND_IME =
             Settings.Secure.ACCESSIBILITY_MAGNIFICATION_MAGNIFY_NAV_AND_IME;
+    private static final String KEY_FOLLOW_KEYBOARD =
+            Settings.Secure.ACCESSIBILITY_MAGNIFICATION_FOLLOW_KEYBOARD_ENABLED;
 
     private FragmentController<ToggleScreenMagnificationPreferenceFragment> mFragController;
     private Context mContext;
@@ -370,6 +372,33 @@ public class ToggleScreenMagnificationPreferenceFragmentTest {
         assertThat(switchPreference.isChecked()).isFalse();
     }
 
+
+    @Test
+    @EnableFlags(android.view.accessibility.Flags.FLAG_REQUEST_RECTANGLE_WITH_SOURCE)
+    public void onResume_defaultStateForFollowingKeyboard_switchPreferenceShouldReturnFalse() {
+        setKeyFollowKeyboardEnabled(false);
+
+        mFragController.create(R.id.main_content, /* bundle= */ null).start().resume();
+
+        final TwoStatePreference switchPreference = mFragController.get().findPreference(
+                MagnificationFollowKeyboardPreferenceController.PREF_KEY);
+        assertThat(switchPreference).isNotNull();
+        assertThat(switchPreference.isChecked()).isFalse();
+    }
+
+    @Test
+    @EnableFlags(android.view.accessibility.Flags.FLAG_REQUEST_RECTANGLE_WITH_SOURCE)
+    public void onResume_enableFollowingKeyboard_switchPreferenceShouldReturnTrue() {
+        setKeyFollowKeyboardEnabled(true);
+
+        mFragController.create(R.id.main_content, /* bundle= */ null).start().resume();
+
+        final TwoStatePreference switchPreference = mFragController.get().findPreference(
+                MagnificationFollowKeyboardPreferenceController.PREF_KEY);
+        assertThat(switchPreference).isNotNull();
+        assertThat(switchPreference.isChecked()).isTrue();
+    }
+
     @Test
     public void onResume_haveRegisterToSpecificUris() {
         ShadowContentResolver shadowContentResolver = Shadows.shadowOf(
@@ -382,6 +411,8 @@ public class ToggleScreenMagnificationPreferenceFragmentTest {
                         Settings.Secure.ACCESSIBILITY_QS_TARGETS),
                 Settings.Secure.getUriFor(
                         Settings.Secure.ACCESSIBILITY_MAGNIFICATION_FOLLOW_TYPING_ENABLED),
+                Settings.Secure.getUriFor(
+                        Settings.Secure.ACCESSIBILITY_MAGNIFICATION_FOLLOW_KEYBOARD_ENABLED),
                 Settings.Secure.getUriFor(
                         Settings.Secure.ACCESSIBILITY_MAGNIFICATION_MAGNIFY_NAV_AND_IME),
                 Settings.Secure.getUriFor(
@@ -891,6 +922,7 @@ public class ToggleScreenMagnificationPreferenceFragmentTest {
                 KEY_MAGNIFICATION_SHORTCUT_PREFERENCE,
                 MagnificationModePreferenceController.PREF_KEY,
                 MagnificationFollowTypingPreferenceController.PREF_KEY,
+                MagnificationFollowKeyboardPreferenceController.PREF_KEY,
                 MagnificationOneFingerPanningPreferenceController.PREF_KEY,
                 MagnificationAlwaysOnPreferenceController.PREF_KEY,
                 MagnificationJoystickPreferenceController.PREF_KEY,
@@ -926,7 +958,8 @@ public class ToggleScreenMagnificationPreferenceFragmentTest {
             Flags.FLAG_ENABLE_MAGNIFICATION_ONE_FINGER_PANNING_GESTURE,
             Flags.FLAG_ENABLE_MAGNIFICATION_MAGNIFY_NAV_BAR_AND_IME,
             com.android.settings.accessibility.Flags
-                    .FLAG_ENABLE_MAGNIFICATION_CURSOR_FOLLOWING_DIALOG})
+                    .FLAG_ENABLE_MAGNIFICATION_CURSOR_FOLLOWING_DIALOG,
+            android.view.accessibility.Flags.FLAG_REQUEST_RECTANGLE_WITH_SOURCE})
     @Config(shadows = ShadowInputDevice.class)
     public void getNonIndexableKeys_hasShortcutAndAllFeaturesEnabled_allItemsSearchable() {
         mShadowAccessibilityManager.setAccessibilityShortcutTargets(
@@ -1036,6 +1069,11 @@ public class ToggleScreenMagnificationPreferenceFragmentTest {
 
     private void setKeyJoystickEnabled(boolean enabled) {
         Settings.Secure.putInt(mContext.getContentResolver(), KEY_JOYSTICK,
+                enabled ? ON : OFF);
+    }
+
+    private void setKeyFollowKeyboardEnabled(boolean enabled) {
+        Settings.Secure.putInt(mContext.getContentResolver(), KEY_FOLLOW_KEYBOARD,
                 enabled ? ON : OFF);
     }
 

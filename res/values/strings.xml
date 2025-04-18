@@ -445,7 +445,7 @@
     <string name="app_locales_picker_menu_title">App languages</string>
 
     <!-- Summary for the app's locale picker activity. [CHAR LIMIT=50]-->
-    <string name="app_locale_picker_summary">Set the language for each app</string>
+    <string name="app_locale_picker_summary">Choose the language for each app</string>
 
     <!-- Title for the App's locale picker activity. [CHAR LIMIT=50]-->
     <string name="app_locale_picker_title">App language</string>
@@ -484,7 +484,9 @@
     <string name="desc_app_locale_disclaimer">Language may differ from languages available in the app. Some apps may not support this setting.</string>
 
     <!-- Description for introduction of the locale selection supported of app list [CHAR LIMIT=NONE]-->
-    <string name="desc_app_locale_selection_supported">Set the language for each app.</string>
+    <string name="desc_app_locale_selection_supported">Choose the language for each app.</string>
+    <!-- Description for introduction of the locale selection supported of app list with disclaimer if the feature is in opt-out mode [CHAR LIMIT=NONE]-->
+    <string name="desc_app_locale_selection_supported_with_disclaimer">Choose the language for each app. Language may differ from languages available in the app. Some apps may not support this setting.</string>
 
     <!-- Description for the introduction to language picker activity. [CHAR LIMIT=NONE]-->
     <string name="desc_introduction_of_language_picker">Your device, apps, and websites use the first supported language from your preferred language list.\n\nMany apps will also use the region from your preferred language to format dates, numbers, and units. To change your region, add a language, then choose your preferred region.</string>
@@ -4930,7 +4932,7 @@
     <!-- Summary text for 'Bottom-right click', a setting that allows the user to right-click by pressing in the bottom-right corner of a touchpad [CHAR LIMIT=60] -->
     <string name="trackpad_bottom_right_tap_summary">Click in the bottom right corner of the touchpad for more options</string>
     <!-- Title text for 'Pointer speed'. [CHAR LIMIT=35] -->
-    <string name="trackpad_pointer_speed">Cursor speed</string>
+    <string name="trackpad_pointer_speed">Pointer speed</string>
     <!-- Title text for 'Three finger tap' touchpad preference. This preference allows the user to select an action that will trigger when they tap three fingers on a touchpad. [CHAR LIMIT=60] -->
     <string name="three_finger_tap_preference_title">Use three-finger tap</string>
     <!-- Title for the 'Touchpad acceleration' preference switch, which dynamically adjusts cursor movement based on speed. [CHAR LIMIT=60] -->
@@ -5346,6 +5348,10 @@
     <string name="accessibility_screen_magnification_follow_typing_title">Magnify typing</string>
     <!-- Summary for accessibility follow typing preference for magnification. [CHAR LIMIT=none] -->
     <string name="accessibility_screen_magnification_follow_typing_summary">Magnifier follows text as you type</string>
+    <!-- Title for focus following keyboard focus preference for magnification. [CHAR LIMIT=none] -->
+    <string name="accessibility_screen_magnification_follow_keyboard_title">Magnify keyboard focus</string>
+    <!-- Title for focus following keyboard focus preference for magnification. [CHAR LIMIT=none] -->
+    <string name="accessibility_screen_magnification_follow_keyboard_summary">Magnifier follows keyboard focus</string>
     <!-- Title for accessibility magnifier preference allowing the magnification of navigation bar and IME. [CHAR LIMIT=35] -->
     <string name="accessibility_screen_magnification_nav_ime_title">Magnify keyboard</string>
     <!-- Summary for accessibility magnifier preference allowing the magnification of navigation bar and IME. [CHAR LIMIT=35] -->
@@ -14444,6 +14450,8 @@ Data usage charges may apply.</string>
     <string name="supervision_delete_pin_preference_title">Delete PIN</string>
     <!-- Summary for supervision delete pin setting entry [CHAR LIMIT=NONE] -->
     <string name="supervision_delete_pin_preference_summary">This will reset all your supervision settings</string>
+    <!-- Title for adding supervision PIN recovery setting entry [CHAR LIMIT=NONE] -->
+    <string name="supervision_add_pin_recovery_title">Tap to add recovery</string>
     <!-- Title for web content filters entry [CHAR LIMIT=60] -->
     <string name="supervision_web_content_filters_title">Web content filters</string>
     <!-- Title for web content filters browser category [CHAR LIMIT=60] -->
@@ -14467,6 +14475,11 @@ Data usage charges may apply.</string>
     <!-- Generic content description that is attached to the preview illustration at the top of an Accessibility feature toggle page. [CHAR LIMIT=NONE] -->
     <!-- Title for supervision PIN verification screen [CHAR LIMIT=60] -->
     <string name="supervision_full_screen_pin_verification_title">Enter supervision PIN</string>
+    <!-- Title on activity to choose lock for supervision setup [CHAR LIMIT=NONE] -->
+    <string name="supervision_lock_setup_title">Choose lock for supervision</string>
+    <!-- description on activity to choose lock supervision setup [CHAR LIMIT=NONE] -->
+    <string name="supervision_lock_setup_description">You can unlock supervision settings with this code</string>
+    <string name ="supervision_pin_reset_success_toast">Parental control PIN reset</string>
     <string name="accessibility_illustration_content_description"><xliff:g id="feature" example="Select to Speak">%1$s</xliff:g> animation</string>
 
     <!-- Light theme customization for lottie illustration. Not translatable. -->

@@ -712,6 +712,9 @@
     <!-- Whether the dream setup activity should be enabled as part of setupwizard -->
     <bool name="dream_setup_supported">false</bool>
 
+    <!-- The minimum number of spans (columns) to show in the dream picker preference. -->
+    <integer name="config_dream_picker_min_span_count">2</integer>
+
     <!-- Whether to show communal settings at the top level. -->
     <bool name="config_show_communal_settings">false</bool>
 

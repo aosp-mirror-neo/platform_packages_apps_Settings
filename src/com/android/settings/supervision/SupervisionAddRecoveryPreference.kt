@@ -5,7 +5,7 @@
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
  *
- *      http://www.apache.org/licenses/LICENSE-2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
@@ -15,6 +15,7 @@
  */
 package com.android.settings.supervision
 
+import android.annotation.DrawableRes
 import android.app.Activity
 import android.app.supervision.SupervisionManager
 import android.app.supervision.flags.Flags
@@ -26,19 +27,17 @@ import com.android.settingslib.metadata.PreferenceAvailabilityProvider
 import com.android.settingslib.metadata.PreferenceLifecycleContext
 import com.android.settingslib.metadata.PreferenceLifecycleProvider
 import com.android.settingslib.metadata.PreferenceMetadata
-import com.android.settingslib.metadata.PreferenceSummaryProvider
 import com.android.settingslib.preference.PreferenceBinding
 
 /**
  * Setting on PIN Management screen (Settings > Supervision > Manage Pin) that invokes the flow to
- * update the PIN recovery email.
+ * add the device PIN recovery method.
  */
-class SupervisionUpdateRecoveryEmailPreference :
+class SupervisionAddRecoveryPreference :
     PreferenceMetadata,
     PreferenceAvailabilityProvider,
     PreferenceLifecycleProvider,
     PreferenceBinding,
-    PreferenceSummaryProvider,
     Preference.OnPreferenceClickListener {
 
     private lateinit var lifeCycleContext: PreferenceLifecycleContext
@@ -46,15 +45,11 @@ class SupervisionUpdateRecoveryEmailPreference :
         get() = KEY
 
     override val title: Int
-        get() = R.string.supervision_update_recovery_email_preference_title
+        get() = R.string.supervision_add_pin_recovery_title
 
-    override fun getSummary(context: Context): CharSequence? {
-        return context
-            .getSystemService(SupervisionManager::class.java)
-            ?.getSupervisionRecoveryInfo()
-            ?.email
-            ?.asMaskedEmail()
-    }
+    // TODO(b/409837094): get icon with dynamic color.
+    override val icon: Int
+        @DrawableRes get() = R.drawable.exclamation_icon
 
     override fun isAvailable(context: Context): Boolean {
         if (!Flags.enableSupervisionPinRecoveryScreen()) {
@@ -63,7 +58,7 @@ class SupervisionUpdateRecoveryEmailPreference :
         return context
             .getSystemService(SupervisionManager::class.java)
             ?.getSupervisionRecoveryInfo()
-            ?.let { !it.email.isNullOrEmpty() && !it.id.isNullOrEmpty() } ?: false
+            ?.let { it.email.isNullOrEmpty() && it.id.isNullOrEmpty() } ?: true
     }
 
     override fun onCreate(context: PreferenceLifecycleContext) {
@@ -81,11 +76,12 @@ class SupervisionUpdateRecoveryEmailPreference :
         resultCode: Int,
         data: Intent?,
     ): Boolean {
-        if (requestCode != REQUEST_CODE_UPDATE_RECOVERY) {
+        if (requestCode != ADD_RECOVERY_REQUEST_CODE) {
             return false
         }
         if (resultCode == Activity.RESULT_OK) {
             context.notifyPreferenceChange(KEY)
+            context.notifyPreferenceChange(SupervisionUpdateRecoveryEmailPreference.KEY)
         }
         return true
     }
@@ -93,32 +89,13 @@ class SupervisionUpdateRecoveryEmailPreference :
     override fun onPreferenceClick(preference: Preference): Boolean {
         val intent =
             Intent(lifeCycleContext, SupervisionPinRecoveryActivity::class.java)
-                .setAction(SupervisionPinRecoveryActivity.ACTION_UPDATE)
-        lifeCycleContext.startActivityForResult(intent, REQUEST_CODE_UPDATE_RECOVERY, null)
+                .setAction(SupervisionPinRecoveryActivity.ACTION_SETUP_VERIFIED)
+        lifeCycleContext.startActivityForResult(intent, ADD_RECOVERY_REQUEST_CODE, null)
         return true
     }
 
     companion object {
-        const val KEY = "supervision_update_recovery_email"
-        const val REQUEST_CODE_UPDATE_RECOVERY = 2
-
-        fun String.asMaskedEmail(): String? {
-            val atIndex = this.indexOf('@')
-            if (atIndex <= 0) {
-                return null // Invalid email format
-            }
-            val username = this.substring(0, atIndex)
-            val domain = this.substring(atIndex)
-
-            return if (username.length <= 1) {
-                username + domain
-            } else if (username.length == 2) {
-                "${username.first()}•$domain"
-            } else {
-                "${username.first()}" +
-                    "•".repeat(username.length - 2) +
-                    "${username.last()}$domain"
-            }
-        }
+        const val KEY = "supervision_add_recovery"
+        const val ADD_RECOVERY_REQUEST_CODE = 1
     }
 }

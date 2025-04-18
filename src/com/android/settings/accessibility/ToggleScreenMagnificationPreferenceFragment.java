@@ -213,6 +213,10 @@ public class ToggleScreenMagnificationPreferenceFragment extends
                 && hasMouse();
     }
 
+    private static boolean isMagnificationKeyboardFollowingSupported() {
+        return android.view.accessibility.Flags.requestRectangleWithSource();
+    }
+
     private static boolean isMagnificationMagnifyNavAndImeSupported() {
         return com.android.server.accessibility.Flags.enableMagnificationMagnifyNavBarAndIme();
     }
@@ -230,6 +234,7 @@ public class ToggleScreenMagnificationPreferenceFragment extends
             addJoystickSetting(generalCategory);
             // LINT.ThenChange(:search_data)
         }
+        addFollowKeyboardSetting(generalCategory);
         addCursorFollowingSetting(generalCategory);
     }
 
@@ -371,6 +376,29 @@ public class ToggleScreenMagnificationPreferenceFragment extends
         addPreferenceController(followTypingPreferenceController);
     }
 
+    private static Preference createFollowKeyboardPreference(Context context) {
+        final Preference pref = new SwitchPreferenceCompat(context);
+        pref.setTitle(R.string.accessibility_screen_magnification_follow_keyboard_title);
+        pref.setSummary(R.string.accessibility_screen_magnification_follow_keyboard_summary);
+        pref.setKey(MagnificationFollowKeyboardPreferenceController.PREF_KEY);
+        return pref;
+    }
+
+    private void addFollowKeyboardSetting(PreferenceCategory generalCategory) {
+        if (!isMagnificationKeyboardFollowingSupported()) {
+            return;
+        }
+
+        generalCategory.addPreference(createFollowKeyboardPreference(getPrefContext()));
+
+        var followKeyboardPreferenceController = new
+                MagnificationFollowKeyboardPreferenceController(getContext(),
+                MagnificationFollowKeyboardPreferenceController.PREF_KEY);
+        followKeyboardPreferenceController.setInSetupWizard(mInSetupWizard);
+        followKeyboardPreferenceController.displayPreference(getPreferenceScreen());
+        addPreferenceController(followKeyboardPreferenceController);
+    }
+
     private static boolean isAlwaysOnSupported(Context context) {
         final boolean defaultValue = context.getResources().getBoolean(
                 com.android.internal.R.bool.config_magnification_always_on_enabled);
@@ -478,6 +506,7 @@ public class ToggleScreenMagnificationPreferenceFragment extends
 
         var keysToObserve = List.of(
                 Settings.Secure.ACCESSIBILITY_MAGNIFICATION_FOLLOW_TYPING_ENABLED,
+                Settings.Secure.ACCESSIBILITY_MAGNIFICATION_FOLLOW_KEYBOARD_ENABLED,
                 Settings.Secure.ACCESSIBILITY_MAGNIFICATION_MAGNIFY_NAV_AND_IME,
                 Settings.Secure.ACCESSIBILITY_MAGNIFICATION_ALWAYS_ON_ENABLED,
                 Settings.Secure.ACCESSIBILITY_MAGNIFICATION_JOYSTICK_ENABLED
@@ -730,6 +759,7 @@ public class ToggleScreenMagnificationPreferenceFragment extends
                     Stream.of(
                                     createMagnificationModePreference(context),
                                     createFollowTypingPreference(context),
+                                    createFollowKeyboardPreference(context),
                                     createOneFingerPanningPreference(context),
                                     createAlwaysOnPreference(context),
                                     createJoystickPreference(context),
@@ -772,6 +802,10 @@ public class ToggleScreenMagnificationPreferenceFragment extends
                         if (!isJoystickSupported()) {
                             niks.add(MagnificationJoystickPreferenceController.PREF_KEY);
                         }
+                    }
+
+                    if (!isMagnificationKeyboardFollowingSupported()) {
+                        niks.add(MagnificationFollowKeyboardPreferenceController.PREF_KEY);
                     }
 
                     if (!isMagnificationCursorFollowingModeDialogSupported()) {

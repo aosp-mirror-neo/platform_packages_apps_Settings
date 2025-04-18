@@ -44,14 +44,14 @@ import org.mockito.kotlin.verify
 import org.mockito.kotlin.whenever
 
 @RunWith(AndroidJUnit4::class)
-class SupervisionUpdateRecoveryEmailPreferenceTest {
+class SupervisionAddRecoveryPreferenceTest {
 
     private val appContext: Context = ApplicationProvider.getApplicationContext()
     private val mockLifeCycleContext = mock<PreferenceLifecycleContext>()
     private val mockSupervisionManager = mock<SupervisionManager>()
 
     @get:Rule val setFlagsRule = SetFlagsRule()
-    private val preference = SupervisionUpdateRecoveryEmailPreference()
+    private var preference = SupervisionAddRecoveryPreference()
     private val context =
         object : ContextWrapper(appContext) {
             override fun getSystemService(name: String): Any =
@@ -68,60 +68,29 @@ class SupervisionUpdateRecoveryEmailPreferenceTest {
 
     @Test
     fun getTitle() {
-        assertThat(preference.title)
-            .isEqualTo(R.string.supervision_update_recovery_email_preference_title)
-    }
-
-    @Test
-    fun getSummary_emailAvailable_regularEmail() {
-        val recoveryInfo = SupervisionRecoveryInfo().apply { email = "test@example.com" }
-        whenever(mockSupervisionManager.supervisionRecoveryInfo).thenReturn(recoveryInfo)
-
-        assertThat(preference.getSummary(context)).isEqualTo("t••t@example.com")
-    }
-
-    @Test
-    fun getSummary_emailAvailable_invalidEmail() {
-        val recoveryInfo = SupervisionRecoveryInfo().apply { email = "test.com" }
-        whenever(mockSupervisionManager.supervisionRecoveryInfo).thenReturn(recoveryInfo)
-
-        assertThat(preference.getSummary(context)).isNull()
-    }
-
-    @Test
-    fun getSummary_emailAvailable_singleCharEmail() {
-        val recoveryInfo = SupervisionRecoveryInfo().apply { email = "t@example.com" }
-        whenever(mockSupervisionManager.supervisionRecoveryInfo).thenReturn(recoveryInfo)
-
-        assertThat(preference.getSummary(context)).isEqualTo("t@example.com")
-    }
-
-    @Test
-    fun getSummary_emailAvailable_twoCharsEmail() {
-        val recoveryInfo = SupervisionRecoveryInfo().apply { email = "te@example.com" }
-        whenever(mockSupervisionManager.supervisionRecoveryInfo).thenReturn(recoveryInfo)
-
-        assertThat(preference.getSummary(context)).isEqualTo("t•@example.com")
-    }
-
-    @Test
-    fun getSummary_emailNotAvailable() {
-        whenever(mockSupervisionManager.supervisionRecoveryInfo).thenReturn(null)
-
-        assertThat(preference.getSummary(context)).isNull()
+        assertThat(preference.title).isEqualTo(R.string.supervision_add_pin_recovery_title)
     }
 
     @Test
     @EnableFlags(Flags.FLAG_ENABLE_SUPERVISION_PIN_RECOVERY_SCREEN)
-    fun flagEnabled_recoveryInfoNotExist_notAvailable() {
+    fun flagEnabled_recoveryNotExist_isAvailable() {
         whenever(mockSupervisionManager.supervisionRecoveryInfo).thenReturn(null)
 
-        assertThat(preference.isAvailable(context)).isFalse()
+        assertThat(preference.isAvailable(context)).isTrue()
     }
 
     @Test
     @EnableFlags(Flags.FLAG_ENABLE_SUPERVISION_PIN_RECOVERY_SCREEN)
-    fun flagEnabled_recoveryIdNotExist_notAvailable() {
+    fun flagEnabled_recoveryInfoEmpty_isAvailable() {
+        whenever(mockSupervisionManager.supervisionRecoveryInfo)
+            .thenReturn(SupervisionRecoveryInfo())
+
+        assertThat(preference.isAvailable(context)).isTrue()
+    }
+
+    @Test
+    @EnableFlags(Flags.FLAG_ENABLE_SUPERVISION_PIN_RECOVERY_SCREEN)
+    fun flagEnabled_recoveryExist_notAvailable() {
         val recoveryInfo = SupervisionRecoveryInfo().apply { email = "email" }
         whenever(mockSupervisionManager.supervisionRecoveryInfo).thenReturn(recoveryInfo)
 
@@ -129,27 +98,9 @@ class SupervisionUpdateRecoveryEmailPreferenceTest {
     }
 
     @Test
-    @EnableFlags(Flags.FLAG_ENABLE_SUPERVISION_PIN_RECOVERY_SCREEN)
-    fun flagEnabled_recoveryInfoExist_isAvailable() {
-        val recoveryInfo =
-            SupervisionRecoveryInfo().apply {
-                id = "id"
-                email = "email"
-            }
-        whenever(mockSupervisionManager.supervisionRecoveryInfo).thenReturn(recoveryInfo)
-
-        assertThat(preference.isAvailable(context)).isTrue()
-    }
-
-    @Test
     @DisableFlags(Flags.FLAG_ENABLE_SUPERVISION_PIN_RECOVERY_SCREEN)
-    fun flagDisabled_recoveryInfoExist_notAvailable() {
-        val recoveryInfo =
-            SupervisionRecoveryInfo().apply {
-                id = "id"
-                email = "email"
-            }
-        whenever(mockSupervisionManager.supervisionRecoveryInfo).thenReturn(recoveryInfo)
+    fun flagDisabled_recoveryInfoNotExist_notAvailable() {
+        whenever(mockSupervisionManager.supervisionRecoveryInfo).thenReturn(null)
 
         assertThat(preference.isAvailable(context)).isFalse()
     }
@@ -173,13 +124,13 @@ class SupervisionUpdateRecoveryEmailPreferenceTest {
         verify(mockLifeCycleContext)
             .startActivityForResult(
                 intentCaptor.capture(),
-                eq(SupervisionUpdateRecoveryEmailPreference.REQUEST_CODE_UPDATE_RECOVERY),
+                eq(SupervisionAddRecoveryPreference.ADD_RECOVERY_REQUEST_CODE),
                 eq(null),
             )
         assertThat(intentCaptor.allValues.size).isEqualTo(1)
         assertThat(intentCaptor.firstValue.component?.className)
             .isEqualTo(SupervisionPinRecoveryActivity::class.java.name)
         assertThat(intentCaptor.firstValue.action)
-            .isEqualTo(SupervisionPinRecoveryActivity.ACTION_UPDATE)
+            .isEqualTo(SupervisionPinRecoveryActivity.ACTION_SETUP_VERIFIED)
     }
 }

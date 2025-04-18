@@ -25,27 +25,33 @@ import androidx.preference.Preference
 import com.android.settings.R
 import com.android.settingslib.datastore.KeyValueStore
 import com.android.settingslib.datastore.NoOpKeyedObservable
-import com.android.settingslib.metadata.MainSwitchPreference
+import com.android.settingslib.metadata.BooleanValuePreference
 import com.android.settingslib.metadata.PreferenceLifecycleContext
 import com.android.settingslib.metadata.PreferenceLifecycleProvider
 import com.android.settingslib.metadata.PreferenceMetadata
 import com.android.settingslib.metadata.PreferenceSummaryProvider
 import com.android.settingslib.metadata.ReadWritePermit
 import com.android.settingslib.metadata.SensitivityLevel
-import com.android.settingslib.preference.MainSwitchPreferenceBinding
 import com.android.settingslib.preference.forEachRecursively
-import com.android.settingslib.supervision.SupervisionLog
+import com.android.settingslib.widget.MainSwitchPreference
+import com.android.settingslib.widget.MainSwitchPreferenceBinding
 
 /** Main toggle to enable or disable device supervision. */
 class SupervisionMainSwitchPreference(context: Context) :
-    MainSwitchPreference(KEY, R.string.device_supervision_switch_title),
-    PreferenceSummaryProvider,
+    BooleanValuePreference,
     MainSwitchPreferenceBinding,
+    PreferenceSummaryProvider,
     Preference.OnPreferenceChangeListener,
     PreferenceLifecycleProvider {
 
     private val supervisionMainSwitchStorage = SupervisionMainSwitchStorage(context)
     private lateinit var lifeCycleContext: PreferenceLifecycleContext
+
+    override val key
+        get() = KEY
+
+    override val title
+        get() = R.string.device_supervision_switch_title
 
     // TODO(b/383568136): Make presence of summary conditional on whether PIN
     // has been set up before or not.
@@ -85,8 +91,7 @@ class SupervisionMainSwitchPreference(context: Context) :
             return false
         }
         if (resultCode == Activity.RESULT_OK) {
-            val mainSwitchPreference =
-                lifeCycleContext.requirePreference<com.android.settingslib.widget.MainSwitchPreference>(KEY)
+            val mainSwitchPreference = lifeCycleContext.requirePreference<MainSwitchPreference>(KEY)
             val newValue = !supervisionMainSwitchStorage.getBoolean(KEY)!!
             mainSwitchPreference.setChecked(newValue)
             updateDependentPreferencesEnabledState(mainSwitchPreference, newValue)

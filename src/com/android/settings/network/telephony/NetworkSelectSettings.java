@@ -488,7 +488,7 @@ public class NetworkSelectSettings extends DashboardFragment {
     private void addMessagePreference(int messageId) {
         if (mStatusMessagePreference == null) {
             mStatusMessagePreference = new ZeroStatePreference(getContext());
-            mStatusMessagePreference.setIcon(R.drawable.ic_homepage_search);
+            mStatusMessagePreference.setIcon(R.drawable.cell_tower_24px);
             mStatusMessagePreference.setSelectable(false);
         }
         mStatusMessagePreference.setTitle(messageId);

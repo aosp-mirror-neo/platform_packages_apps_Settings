@@ -34,7 +34,7 @@ import com.android.settings.utils.highlightPreference
 import com.android.settingslib.applications.ApplicationsState
 import com.android.settingslib.datastore.KeyValueStore
 import com.android.settingslib.datastore.NoOpKeyedObservable
-import com.android.settingslib.metadata.MainSwitchPreference
+import com.android.settingslib.metadata.BooleanValuePreference
 import com.android.settingslib.metadata.PreferenceMetadata
 import com.android.settingslib.metadata.PreferenceSummaryProvider
 import com.android.settingslib.metadata.PreferenceTitleProvider
@@ -43,6 +43,7 @@ import com.android.settingslib.metadata.preferenceHierarchy
 import com.android.settingslib.preference.PreferenceFragment
 import com.android.settingslib.preference.PreferenceScreenCreator
 import com.android.settingslib.spaprivileged.model.app.AppListRepositoryImpl
+import com.android.settingslib.widget.MainSwitchPreferenceBinding
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 
@@ -120,7 +121,13 @@ class AppInfoDisplayOverOtherAppsScreen(context: Context, override val arguments
 }
 
 private class DisplayOverOtherAppsMainSwitch(private val storage: KeyValueStore) :
-    MainSwitchPreference(KEY, R.string.permit_draw_overlay) {
+    BooleanValuePreference, MainSwitchPreferenceBinding {
+
+    override val key
+        get() = KEY
+
+    override val title
+        get() = R.string.permit_draw_overlay
 
     override fun storage(context: Context) = storage
 

@@ -41,6 +41,7 @@ import com.android.settings.network.NetworkDashboardScreen
 import com.android.settings.network.NetworkProviderScreen
 import com.android.settings.network.tether.TetherScreen
 import com.android.settings.notification.SoundScreen
+import com.android.settings.notification.modes.devicestate.ZenModeBedtimeScreen
 import com.android.settings.notification.modes.devicestate.ZenModeButtonPreference
 import com.android.settings.notification.modes.devicestate.ZenModeDndDisplayScreen
 import com.android.settings.notification.modes.devicestate.ZenModeDndScreen
@@ -180,6 +181,11 @@ fun getScreenConfigs() =
         PerScreenConfig(
             enabled = true,
             screenKey = ZenModeDndDisplayScreen.KEY,
+            category = setOf(DeviceStateCategory.UNCATEGORIZED),
+        ),
+        PerScreenConfig(
+            enabled = true,
+            screenKey = ZenModeBedtimeScreen.KEY,
             category = setOf(DeviceStateCategory.UNCATEGORIZED),
         ),
     )

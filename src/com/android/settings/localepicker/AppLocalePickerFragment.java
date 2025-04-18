@@ -82,7 +82,6 @@ public class AppLocalePickerFragment extends DashboardFragment implements
     private static final String KEY_PREFERENCE_APP_LOCALE_LIST = "app_locale_list";
     private static final String KEY_PREFERENCE_APP_LOCALE_SUGGESTED_LIST =
             "app_locale_suggested_list";
-    private static final String KEY_PREFERENCE_APP_DISCLAIMER = "app_locale_disclaimer";
     private static final String KEY_PREFERENCE_APP_INTRO = "app_intro";
     private static final String KEY_PREFERENCE_APP_DESCRIPTION = "app_locale_description";
 
@@ -136,7 +135,6 @@ public class AppLocalePickerFragment extends DashboardFragment implements
         mPreferenceScreen = getPreferenceScreen();
         setHasOptionsMenu(true);
         mApplicationInfo = getApplicationInfo(mPackageName, mUid);
-        setupDisclaimerPreference();
         setupIntroPreference();
         setupDescriptionPreference();
         mExpandSearch = mActivity.getIntent().getBooleanExtra(EXTRA_EXPAND_SEARCH_VIEW, false);
@@ -198,13 +196,6 @@ public class AppLocalePickerFragment extends DashboardFragment implements
                 mSearchView.setQuery(null, false /* submit */);
             }
         }
-    }
-
-    private void setupDisclaimerPreference() {
-        final Preference pref = mPreferenceScreen.findPreference(KEY_PREFERENCE_APP_DISCLAIMER);
-        boolean shouldShowPref = pref != null && FeatureFlagUtils.isEnabled(
-                mActivity, FeatureFlagUtils.SETTINGS_APP_LOCALE_OPT_IN_ENABLED);
-        pref.setVisible(shouldShowPref);
     }
 
     private void setupIntroPreference() {

@@ -42,7 +42,7 @@ public class PowerUsageTimePreference extends WarningFramePreference
                 mContext.getResources()
                         .getDimensionPixelSize(
                                 com.android.settingslib.widget.theme.R.dimen
-                                        .settingslib_expressive_space_small1);
+                                        .settingslib_expressive_space_extrasmall4);
     }
 
     @Override
