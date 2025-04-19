@@ -31,6 +31,8 @@ import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
 import androidx.preference.Preference;
 import androidx.recyclerview.widget.RecyclerView;
@@ -48,6 +50,7 @@ import com.android.settingslib.widget.MainSwitchPreference;
 import java.util.ArrayList;
 import java.util.List;
 
+// LINT.IfChange
 @SearchIndexable
 public class DreamSettings extends DashboardFragment implements OnCheckedChangeListener {
 
@@ -131,6 +134,11 @@ public class DreamSettings extends DashboardFragment implements OnCheckedChangeL
     @Override
     protected int getPreferenceScreenResId() {
         return R.xml.dream_fragment_overview;
+    }
+
+    @Override
+    public @Nullable String getPreferenceScreenBindingKey(@NonNull Context context) {
+        return ScreensaverScreen.KEY;
     }
 
     @Override
@@ -322,4 +330,4 @@ public class DreamSettings extends DashboardFragment implements OnCheckedChangeL
         }
     }
 }
-
+// LINT.ThenChange(ScreensaverScreen.kt)

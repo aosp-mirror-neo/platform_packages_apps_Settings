@@ -19,10 +19,10 @@ import android.app.Activity
 import android.app.supervision.SupervisionManager
 import android.content.Context
 import android.content.Intent
-import android.util.Log
 import androidx.annotation.VisibleForTesting
 import androidx.preference.Preference
 import com.android.settings.R
+import com.android.settings.supervision.ipc.PreferenceData
 import com.android.settingslib.datastore.KeyValueStore
 import com.android.settingslib.datastore.NoOpKeyedObservable
 import com.android.settingslib.metadata.BooleanValuePreference
@@ -35,9 +35,17 @@ import com.android.settingslib.metadata.SensitivityLevel
 import com.android.settingslib.preference.forEachRecursively
 import com.android.settingslib.widget.MainSwitchPreference
 import com.android.settingslib.widget.MainSwitchPreferenceBinding
+import kotlinx.coroutines.CoroutineDispatcher
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 
 /** Main toggle to enable or disable device supervision. */
-class SupervisionMainSwitchPreference(context: Context) :
+class SupervisionMainSwitchPreference(
+    context: Context,
+    private val preferenceDataProvider: PreferenceDataProvider,
+    private val coroutineDispatcher: CoroutineDispatcher = Dispatchers.IO,
+) :
     BooleanValuePreference,
     MainSwitchPreferenceBinding,
     PreferenceSummaryProvider,
@@ -45,6 +53,7 @@ class SupervisionMainSwitchPreference(context: Context) :
     PreferenceLifecycleProvider {
 
     private val supervisionMainSwitchStorage = SupervisionMainSwitchStorage(context)
+    private var preferenceDataMap: Map<String, PreferenceData>? = null
     private lateinit var lifeCycleContext: PreferenceLifecycleContext
 
     override val key
@@ -74,10 +83,27 @@ class SupervisionMainSwitchPreference(context: Context) :
     }
 
     override fun onResume(context: PreferenceLifecycleContext) {
+        val mainSwitchPreference = context.findPreference<Preference>(KEY)
         updateDependentPreferencesEnabledState(
-            context.findPreference<Preference>(KEY),
+            mainSwitchPreference,
             supervisionMainSwitchStorage.getBoolean(KEY)!!,
         )
+
+        val preferenceKeys = buildList<String> {
+            mainSwitchPreference?.parent?.forEachRecursively {
+                if (it.parent?.key == SupervisionDashboardScreen.SUPERVISION_DYNAMIC_GROUP_1) {
+                    add(it.key)
+                }
+            }
+        }
+        context.lifecycleScope.launch {
+            preferenceDataMap =
+                withContext(coroutineDispatcher) {
+                    preferenceDataProvider.getPreferenceData(preferenceKeys)
+                }
+
+            updateDependentPreferenceSummary(mainSwitchPreference)
+        }
     }
 
     override fun onActivityResult(
@@ -86,8 +112,10 @@ class SupervisionMainSwitchPreference(context: Context) :
         resultCode: Int,
         data: Intent?,
     ): Boolean {
-        if (requestCode != REQUEST_CODE_SET_UP_SUPERVISION
-            && requestCode != REQUEST_CODE_CONFIRM_SUPERVISION_CREDENTIALS) {
+        if (
+            requestCode != REQUEST_CODE_SET_UP_SUPERVISION &&
+                requestCode != REQUEST_CODE_CONFIRM_SUPERVISION_CREDENTIALS
+        ) {
             return false
         }
         if (resultCode == Activity.RESULT_OK) {
@@ -95,6 +123,7 @@ class SupervisionMainSwitchPreference(context: Context) :
             val newValue = !supervisionMainSwitchStorage.getBoolean(KEY)!!
             mainSwitchPreference.setChecked(newValue)
             updateDependentPreferencesEnabledState(mainSwitchPreference, newValue)
+            updateDependentPreferenceSummary(mainSwitchPreference)
             lifeCycleContext.notifyPreferenceChange(SupervisionPinManagementScreen.KEY)
         }
 
@@ -139,6 +168,17 @@ class SupervisionMainSwitchPreference(context: Context) :
         }
     }
 
+    private fun updateDependentPreferenceSummary(preference: Preference?) {
+        preference?.parent?.forEachRecursively {
+            if (it.parent?.key == SupervisionDashboardScreen.SUPERVISION_DYNAMIC_GROUP_1) {
+                val newSummary = preferenceDataMap?.get(it.key)?.summary
+                if (newSummary != null) {
+                    it.summary = newSummary
+                }
+            }
+        }
+    }
+
     @Suppress("UNCHECKED_CAST")
     private class SupervisionMainSwitchStorage(private val context: Context) :
         NoOpKeyedObservable<String>(), KeyValueStore {
@@ -159,10 +199,7 @@ class SupervisionMainSwitchPreference(context: Context) :
 
     companion object {
         const val KEY = "device_supervision_switch"
-        @VisibleForTesting
-        const val REQUEST_CODE_CONFIRM_SUPERVISION_CREDENTIALS = 0
-        @VisibleForTesting
-        const val REQUEST_CODE_SET_UP_SUPERVISION = 1
+        @VisibleForTesting const val REQUEST_CODE_CONFIRM_SUPERVISION_CREDENTIALS = 0
+        @VisibleForTesting const val REQUEST_CODE_SET_UP_SUPERVISION = 1
     }
-
 }

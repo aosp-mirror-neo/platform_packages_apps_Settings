@@ -57,7 +57,7 @@ class SupervisionDashboardScreen : PreferenceScreenCreator {
 
     override fun getPreferenceHierarchy(context: Context) =
         preferenceHierarchy(context, this) {
-            +SupervisionMainSwitchPreference(context)
+            +SupervisionMainSwitchPreference(context, SupervisionMessengerClient(context))
             +TitlelessPreferenceGroup(SUPERVISION_DYNAMIC_GROUP_1) += {
                 +SupervisionWebContentFiltersScreen.KEY
             }

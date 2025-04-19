@@ -15,7 +15,9 @@
  */
 package com.android.settings.supervision
 
+import android.app.role.RoleManager
 import android.content.Context
+import android.content.ContextWrapper
 import android.content.pm.PackageManager
 import android.content.pm.ResolveInfo
 import androidx.preference.Preference
@@ -24,17 +26,17 @@ import androidx.test.ext.junit.runners.AndroidJUnit4
 import com.android.settings.supervision.SupervisionPromoFooterPreference.Companion.KEY
 import com.android.settings.supervision.ipc.PreferenceData
 import com.android.settingslib.metadata.PreferenceLifecycleContext
-import com.android.settingslib.metadata.getPreferenceSummary
-import com.android.settingslib.metadata.getPreferenceTitle
 import com.android.settingslib.widget.CardPreference
 import com.google.common.truth.Truth.assertThat
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.test.TestScope
 import kotlinx.coroutines.test.UnconfinedTestDispatcher
 import kotlinx.coroutines.test.runTest
+import org.junit.Before
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.mockito.kotlin.any
+import org.mockito.kotlin.doReturn
 import org.mockito.kotlin.mock
 import org.mockito.kotlin.never
 import org.mockito.kotlin.stub
@@ -43,7 +45,21 @@ import org.mockito.kotlin.verify
 @ExperimentalCoroutinesApi
 @RunWith(AndroidJUnit4::class)
 class SupervisionPromoFooterPreferenceTest {
-    private val context: Context = ApplicationProvider.getApplicationContext()
+    private val mockPackageManager: PackageManager = mock()
+    private val context: Context =
+        object : ContextWrapper(ApplicationProvider.getApplicationContext()) {
+            override fun getSystemService(name: String): Any? =
+                when (name) {
+                    ROLE_SERVICE -> mockRoleManager
+                    else -> super.getSystemService(name)
+                }
+
+            override fun getPackageManager(): PackageManager {
+                return mockPackageManager
+            }
+        }
+    private val mockRoleManager =
+        mock<RoleManager> { on { getRoleHolders(any()) } doReturn listOf("test.package") }
     private val preference = CardPreference(context)
 
     private var preferenceData: PreferenceData? = null
@@ -51,7 +67,6 @@ class SupervisionPromoFooterPreferenceTest {
     private val testDispatcher = UnconfinedTestDispatcher()
     private val testScope = TestScope(testDispatcher)
 
-    private val mockPackageManager: PackageManager = mock()
     private val preferenceLifecycleContext: PreferenceLifecycleContext = mock {
         on { lifecycleScope }.thenReturn(testScope)
         on { packageManager }.thenReturn(mockPackageManager)
@@ -67,24 +82,57 @@ class SupervisionPromoFooterPreferenceTest {
             }
     }
 
-    @Test
-    fun getTitle_returnsCorrectTitle() {
-        val supervisionPromoFooterPreference =
-            SupervisionPromoFooterPreference(preferenceDataProvider)
-        assertThat(supervisionPromoFooterPreference.getPreferenceTitle(context))
-            .isEqualTo("Full parental controls")
+    @Before
+    fun setUp() {
+        SupervisionHelper.sInstance = null
     }
 
     @Test
-    fun getSummary_returnsCorrectSummary() {
-        val supervisionPromoFooterPreference =
-            SupervisionPromoFooterPreference(preferenceDataProvider)
-        assertThat(supervisionPromoFooterPreference.getPreferenceSummary(context))
-            .isEqualTo(
-                "Set up an account for your kid & help them manage it (required for " +
-                    "kids under [AOC])"
-            )
-    }
+    fun onResume_setTitle() =
+        testScope.runTest {
+            val title = "test title"
+            preferenceData = PreferenceData(title = title)
+
+            val promoPreference =
+                SupervisionPromoFooterPreference(preferenceDataProvider, testDispatcher)
+
+            promoPreference.onResume(preferenceLifecycleContext)
+            verify(preferenceLifecycleContext).notifyPreferenceChange(KEY)
+            promoPreference.bind(preference, mock())
+
+            assertThat(preference.title).isEqualTo(title)
+        }
+
+    @Test
+    fun onResume_setSummary() =
+        testScope.runTest {
+            val summary = "test summary"
+            preferenceData = PreferenceData(summary = summary)
+
+            val promoPreference =
+                SupervisionPromoFooterPreference(preferenceDataProvider, testDispatcher)
+
+            promoPreference.onResume(preferenceLifecycleContext)
+            verify(preferenceLifecycleContext).notifyPreferenceChange(KEY)
+            promoPreference.bind(preference, mock())
+
+            assertThat(preference.summary).isEqualTo(summary)
+        }
+
+    @Test
+    fun onResume_loadingIconSetFromSupervisionPackage() =
+        testScope.runTest {
+            preferenceData = PreferenceData(icon = 123)
+            SupervisionHelper.sInstance = SupervisionHelper.getInstance(context)
+            val promoPreference =
+                SupervisionPromoFooterPreference(preferenceDataProvider, testDispatcher)
+
+            promoPreference.onResume(preferenceLifecycleContext)
+            verify(preferenceLifecycleContext).notifyPreferenceChange(KEY)
+            promoPreference.bind(preference, mock())
+
+            verify(mockRoleManager).getRoleHolders(RoleManager.ROLE_SYSTEM_SUPERVISION)
+        }
 
     @Test
     fun onResume_actionIsNull_preferenceIsHidden() =
@@ -162,7 +210,12 @@ class SupervisionPromoFooterPreferenceTest {
         testScope.runTest {
             val promoPreference =
                 SupervisionPromoFooterPreference(preferenceDataProvider, testDispatcher)
-            preferenceData = PreferenceData(action = "Test Action", targetPackage = "test.package")
+            preferenceData =
+                PreferenceData(
+                    title = "Test Title",
+                    action = "Test Action",
+                    targetPackage = "test.package",
+                )
 
             mockPackageManager.stub {
                 on { queryIntentActivitiesAsUser(any(), any<Int>(), any<Int>()) }

@@ -30,6 +30,7 @@ import androidx.test.core.app.ApplicationProvider
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import com.android.settings.supervision.SupervisionMainSwitchPreference.Companion.REQUEST_CODE_CONFIRM_SUPERVISION_CREDENTIALS
 import com.android.settings.supervision.SupervisionMainSwitchPreference.Companion.REQUEST_CODE_SET_UP_SUPERVISION
+import com.android.settings.supervision.ipc.PreferenceData
 import com.android.settingslib.metadata.PreferenceLifecycleContext
 import com.android.settingslib.preference.createAndBindWidget
 import com.android.settingslib.widget.MainSwitchPreference
@@ -37,6 +38,7 @@ import com.google.common.truth.Truth.assertThat
 import org.junit.Before
 import org.junit.Test
 import org.junit.runner.RunWith
+import org.mockito.kotlin.any
 import org.mockito.kotlin.argumentCaptor
 import org.mockito.kotlin.doReturn
 import org.mockito.kotlin.eq
@@ -63,7 +65,10 @@ class SupervisionMainSwitchPreferenceTest {
                 }
         }
 
-    private val preference = SupervisionMainSwitchPreference(context)
+    private val preferenceDataProvider: PreferenceDataProvider = mock {
+        onBlocking { getPreferenceData(any()) }.thenAnswer { mapOf<String, PreferenceData>() }
+    }
+    private val preference = SupervisionMainSwitchPreference(context, preferenceDataProvider)
 
     @Before
     fun setUp() {
@@ -95,8 +100,10 @@ class SupervisionMainSwitchPreferenceTest {
 
         widget.performClick()
 
-        verifyActivityStarted(REQUEST_CODE_CONFIRM_SUPERVISION_CREDENTIALS,
-            ConfirmSupervisionCredentialsActivity::class.java.name)
+        verifyActivityStarted(
+            REQUEST_CODE_CONFIRM_SUPERVISION_CREDENTIALS,
+            ConfirmSupervisionCredentialsActivity::class.java.name,
+        )
         assertThat(widget.isChecked).isFalse()
         verify(mockSupervisionManager, never()).setSupervisionEnabled(false)
     }
@@ -111,8 +118,10 @@ class SupervisionMainSwitchPreferenceTest {
 
         widget.performClick()
 
-        verifyActivityStarted(REQUEST_CODE_CONFIRM_SUPERVISION_CREDENTIALS,
-            ConfirmSupervisionCredentialsActivity::class.java.name)
+        verifyActivityStarted(
+            REQUEST_CODE_CONFIRM_SUPERVISION_CREDENTIALS,
+            ConfirmSupervisionCredentialsActivity::class.java.name,
+        )
         assertThat(widget.isChecked).isTrue()
         verify(mockSupervisionManager, never()).setSupervisionEnabled(false)
     }
@@ -127,8 +136,10 @@ class SupervisionMainSwitchPreferenceTest {
 
         widget.performClick()
 
-        verifyActivityStarted(REQUEST_CODE_SET_UP_SUPERVISION,
-            SetupSupervisionActivity::class.java.name)
+        verifyActivityStarted(
+            REQUEST_CODE_SET_UP_SUPERVISION,
+            SetupSupervisionActivity::class.java.name,
+        )
         assertThat(widget.isChecked).isFalse()
         verify(mockSupervisionManager, never()).setSupervisionEnabled(false)
     }
@@ -231,15 +242,16 @@ class SupervisionMainSwitchPreferenceTest {
     private fun setSupervisionEnabled(enabled: Boolean) =
         mockSupervisionManager.stub { on { isSupervisionEnabled } doReturn enabled }
 
-    private fun setSupervisingProfileCreated(supervisingProfileCreated : Boolean) {
+    private fun setSupervisingProfileCreated(supervisingProfileCreated: Boolean) {
         // TODO(408027029): Might be better to mock SupervisionHelper
         mockUserManager.stub {
             on { users } doReturn
-                    if (supervisingProfileCreated) listOf(MAIN_USER, SUPERVISING_PROFILE)
-                    else listOf(MAIN_USER)
+                if (supervisingProfileCreated) listOf(MAIN_USER, SUPERVISING_PROFILE)
+                else listOf(MAIN_USER)
         }
         mockKeyguardManager.stub {
-            on { isDeviceSecure(SUPERVISING_PROFILE.id) } doReturn supervisingProfileCreated }
+            on { isDeviceSecure(SUPERVISING_PROFILE.id) } doReturn supervisingProfileCreated
+        }
     }
 
     private fun getMainSwitchPreference(): MainSwitchPreference {
@@ -257,19 +269,14 @@ class SupervisionMainSwitchPreferenceTest {
     private fun verifyActivityStarted(requestCode: Int, className: String) {
         val intentCaptor = argumentCaptor<Intent>()
         verify(mockLifeCycleContext)
-            .startActivityForResult(
-                intentCaptor.capture(),
-                eq(requestCode),
-                eq(null),
-            )
+            .startActivityForResult(intentCaptor.capture(), eq(requestCode), eq(null))
         assertThat(intentCaptor.allValues.size).isEqualTo(1)
-        assertThat(intentCaptor.firstValue.component?.className)
-            .isEqualTo(className)
+        assertThat(intentCaptor.firstValue.component?.className).isEqualTo(className)
     }
 
     companion object {
         private val MAIN_USER = UserInfo(0, "Main", null, 0, USER_TYPE_FULL_SYSTEM)
-        private val SUPERVISING_PROFILE = UserInfo(10, "Supervising", null, 0,
-            USER_TYPE_PROFILE_SUPERVISING)
+        private val SUPERVISING_PROFILE =
+            UserInfo(10, "Supervising", null, 0, USER_TYPE_PROFILE_SUPERVISING)
     }
 }

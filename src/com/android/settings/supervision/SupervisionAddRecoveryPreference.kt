@@ -82,6 +82,7 @@ class SupervisionAddRecoveryPreference :
         if (resultCode == Activity.RESULT_OK) {
             context.notifyPreferenceChange(KEY)
             context.notifyPreferenceChange(SupervisionUpdateRecoveryEmailPreference.KEY)
+            context.notifyPreferenceChange(SupervisionPinManagementScreen.KEY)
         }
         return true
     }

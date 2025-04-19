@@ -3333,8 +3333,22 @@
     <string name="doze_summary">When screen is dark, it turns on for new notifications</string>
     <!-- [CHAR LIMIT=30] Display settings screen, setting option name to change whether the always-on ambient display feature is enabled. -->
     <string name="doze_always_on_title">Always show time and info</string>
+    <!-- [CHAR LIMIT=30] Display settings screen, setting option name to change whether the always-on ambient display feature is enabled. -->
+    <string name="doze_always_on_title2">Always-on display</string>
     <!-- [CHAR LIMIT=NONE] Display settings screen, setting description for the always-on ambient display feature. -->
     <string name="doze_always_on_summary">Increased battery usage</string>
+    <!-- [CHAR LIMIT=NONE] Display settings screen, setting description for the always-on ambient display feature with wallpaper visible on AOD. -->
+    <string name="doze_always_on_summary_with_wallpaper">Show lock screen wallpaper when screen is off</string>
+    <!-- [CHAR LIMIT=NONE] Display settings screen, setting description for the always-on ambient display feature with wallpaper not visible on AOD. -->
+    <string name="doze_always_on_summary_without_wallpaper">Hide lock screen wallpaper when screen is off</string>
+    <!-- [CHAR LIMIT=NONE] Display settings screen, always-on display, long description-->
+    <string name="doze_always_on_summary_long">Always-on display shows the time, date, and more when the screen is off</string>
+    <!-- [CHAR LIMIT=50] Title for a group of settings related to the wallpaper on always-on display-->
+    <string name="doze_always_on_wallpaper_options">Wallpaper options</string>
+    <!-- [CHAR LIMIT=50] Title for always-on display that will enable the wallpaper to be visible-->
+    <string name="doze_always_on_wallpaper_title">Show lock screen wallpaper</string>
+    <!-- [CHAR LIMIT=NONE] Description for always-on display that will enable the wallpaper to be visible-->
+    <string name="doze_always_on_wallpaper_description">Lock screen wallpaper is visible with always-on display</string>
     <!-- [CHAR LIMIT=30] Display and accessibility settings screens, setting option name to force bold text. -->
     <string name="force_bold_text">Bold text</string>
     <!-- [CHAR LIMIT=30] Sound & display settings screen, setting option name to change font size -->
@@ -14427,7 +14441,7 @@ Data usage charges may apply.</string>
     <!-- Supervision settings -->
 
     <!-- Title for Supervision settings menu entry [CHAR LIMIT=60] -->
-    <string name="supervision_settings_title">Supervision</string>
+    <string name="supervision_settings_title">Parental controls</string>
     <!-- Description for Supervision settings menu entry [CHAR LIMIT=NONE] -->
     <string name="supervision_settings_summary">Content restrictions &amp; other limits</string>
     <!-- Title of toggle to enable or disable device supervision [CHAR LIMIT=60] -->
@@ -14438,8 +14452,10 @@ Data usage charges may apply.</string>
     <string name="keywords_supervision_settings">supervision, parental supervision, parental controls</string>
     <!-- Title for supervision PIN management settings entry [CHAR LIMIT=60] -->
     <string name="supervision_pin_management_preference_title">Manage PIN</string>
-    <!-- Description for supervision PIN management settings entry, in the case of adding a PIN [CHAR LIMIT=NONE] -->
-    <string name="supervision_pin_management_preference_summary_add">Add a PIN recovery method</string>
+    <!-- Description for supervision PIN management settings entry, in the case of adding a PIN recovery method[CHAR LIMIT=NONE] -->
+    <string name="supervision_pin_management_preference_summary_add">Add PIN recovery</string>
+    <!-- Description for supervision PIN management settings entry, in the case of verifying the PIN recovery method[CHAR LIMIT=NONE] -->
+    <string name="supervision_pin_management_preference_summary_verify_recovery">Verify PIN recovery</string>
     <!-- Title for supervision change PIN setting entry [CHAR LIMIT=60] -->
     <string name="supervision_change_pin_preference_title">Change PIN</string>
     <!-- Title for supervision forgot PIN setting entry [CHAR LIMIT=60] -->
