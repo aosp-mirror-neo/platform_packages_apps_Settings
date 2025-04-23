@@ -1087,6 +1087,18 @@
                        android:value="com.android.settings.localepicker.AppLocalePickerFragment"/>
         </activity>
 
+        <activity
+            android:name=".localepicker.AppLocalePickerActivity"
+            android:label="@string/app_locale_picker_title"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.settings.APP_LOCALE_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </activity>
+
         <activity android:name=".localepicker.NotificationActionActivity"
             android:excludeFromRecents="true"
             android:theme="@android:style/Theme.NoDisplay">
@@ -2558,11 +2570,15 @@
                        android:value="@string/menu_key_security"/>
         </activity>
 
-        <service
-            android:name=".accessibility.notification.SurveyNotificationService"
-            android:enabled="true"
-            android:exported="false"
-            android:permission="android.permission.POST_NOTIFICATIONS"/>
+        <receiver
+            android:name=".accessibility.notification.SurveyNotificationReceiver"
+            android:permission="android.permission.MANAGE_ACCESSIBILITY"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.settings.ACCESSIBILITY_SURVEY_NOTIFICATION_SHOWN"/>
+                <action android:name="android.settings.ACCESSIBILITY_SURVEY_NOTIFICATION_DISMISSED"/>
+            </intent-filter>
+        </receiver>
 
         <activity
             android:name="Settings$AccessibilitySettingsActivity"
