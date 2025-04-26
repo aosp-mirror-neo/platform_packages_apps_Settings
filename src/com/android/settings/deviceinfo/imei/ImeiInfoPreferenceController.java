@@ -35,10 +35,15 @@ import com.android.settings.R;
 import com.android.settings.Utils;
 import com.android.settings.core.BasePreferenceController;
 import com.android.settings.deviceinfo.simstatus.SlotSimStatus;
+import com.android.settings.flags.Flags;
 
 /**
  * Controller that manages preference for single and multi sim devices.
+ *
+ * @deprecated Since PHONE_TYPE_CDMA has been deprecated in TelephonyManager, this controller
+ * will be deprecated and removed after V.
  */
+@Deprecated(forRemoval = true)
 public class ImeiInfoPreferenceController extends BasePreferenceController {
 
     private static final String TAG = "ImeiInfoPreferenceController";
@@ -131,6 +136,9 @@ public class ImeiInfoPreferenceController extends BasePreferenceController {
 
     @Override
     public int getAvailabilityStatus() {
+        if (Flags.catalystMyDeviceInfoPrefScreen()) {
+            return UNSUPPORTED_ON_DEVICE;
+        }
         if (!Utils.isMobileDataCapable(mContext) && !Utils.isVoiceCapable(mContext)) {
             return UNSUPPORTED_ON_DEVICE;
         }

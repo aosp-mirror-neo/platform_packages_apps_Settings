@@ -47,6 +47,7 @@ import com.android.settings.deviceinfo.simstatus.EidStatus;
 import com.android.settings.deviceinfo.simstatus.SimEidPreferenceController;
 import com.android.settings.deviceinfo.simstatus.SimStatusPreferenceController;
 import com.android.settings.deviceinfo.simstatus.SlotSimStatus;
+import com.android.settings.flags.Flags;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.widget.EntityHeaderController;
 import com.android.settingslib.core.AbstractPreferenceController;
@@ -130,6 +131,9 @@ public class MyDeviceInfoFragment extends DashboardFragment
         controllers.add(new UptimePreferenceController(context, lifecycle));
 
         Consumer<String> imeiInfoList = imeiKey -> {
+            if (Flags.catalystMyDeviceInfoPrefScreen()) {
+                return;
+            }
             ImeiInfoPreferenceController imeiRecord =
                     new ImeiInfoPreferenceController(context, imeiKey);
             imeiRecord.init(fragment, slotSimStatus);
