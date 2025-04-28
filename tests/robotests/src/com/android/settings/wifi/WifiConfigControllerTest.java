@@ -42,7 +42,6 @@ import android.telephony.TelephonyManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
-import android.widget.ArrayAdapter;
 import android.widget.CheckBox;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
@@ -53,6 +52,7 @@ import androidx.test.core.app.ApplicationProvider;
 import com.android.settings.R;
 import com.android.settings.network.SubscriptionUtil;
 import com.android.settings.testutils.shadow.ShadowConnectivityManager;
+import com.android.settings.widget.EnhancedSettingsSpinnerAdapter;
 import com.android.settingslib.wifi.AccessPoint;
 
 import org.junit.Before;
@@ -297,7 +297,8 @@ public class WifiConfigControllerTest {
                 WifiConfigUiBase.MODE_MODIFY, wifiManager);
 
         final Spinner securitySpinner = mView.findViewById(R.id.security);
-        final ArrayAdapter<String> adapter = (ArrayAdapter) securitySpinner.getAdapter();
+        EnhancedSettingsSpinnerAdapter<String> adapter =
+                (EnhancedSettingsSpinnerAdapter) securitySpinner.getAdapter();
         boolean saeFound = false;
         boolean suitebFound = false;
         boolean oweFound = false;

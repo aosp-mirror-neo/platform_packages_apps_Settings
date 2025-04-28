@@ -94,6 +94,10 @@ class AppNotificationRepository(
         }
     }
 
+    fun hasSentMessageNotification(app: ApplicationInfo): Boolean =
+        notificationManager.hasSentValidMsg(app.packageName, app.uid)
+                || notificationManager.isInInvalidMsgState(app.packageName, app.uid)
+
     fun isEnabled(app: ApplicationInfo): Boolean =
         notificationManager.areNotificationsEnabledForPackage(app.packageName, app.uid)
 

@@ -50,7 +50,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.CheckBox;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
@@ -61,6 +60,7 @@ import com.android.settings.R;
 import com.android.settings.connectivity.Flags;
 import com.android.settings.network.SubscriptionUtil;
 import com.android.settings.utils.AndroidKeystoreAliasLoader;
+import com.android.settings.widget.EnhancedSettingsSpinnerAdapter;
 import com.android.settings.wifi.details2.WifiPrivacyPreferenceController;
 import com.android.settings.wifi.details2.WifiPrivacyPreferenceController2;
 import com.android.wifitrackerlib.WifiEntry;
@@ -376,7 +376,8 @@ public class WifiConfigController2Test {
         createController(null, WifiConfigUiBase2.MODE_MODIFY, false);
 
         final Spinner securitySpinner = mView.findViewById(R.id.security);
-        final ArrayAdapter<String> adapter = (ArrayAdapter) securitySpinner.getAdapter();
+        EnhancedSettingsSpinnerAdapter<String> adapter =
+                (EnhancedSettingsSpinnerAdapter) securitySpinner.getAdapter();
         boolean saeFound = false;
         boolean suitebFound = false;
         boolean oweFound = false;

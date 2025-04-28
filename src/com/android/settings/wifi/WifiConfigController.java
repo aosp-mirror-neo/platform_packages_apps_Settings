@@ -53,7 +53,6 @@ import android.view.accessibility.AccessibilityNodeInfo.AccessibilityAction;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
@@ -73,6 +72,7 @@ import com.android.settings.R;
 import com.android.settings.Utils;
 import com.android.settings.network.SubscriptionUtil;
 import com.android.settings.utils.AndroidKeystoreAliasLoader;
+import com.android.settings.widget.EnhancedSettingsSpinnerAdapter;
 import com.android.settings.wifi.details2.WifiPrivacyPreferenceController;
 import com.android.settings.wifi.dpp.WifiDppUtils;
 import com.android.settings.wifi.utils.TextInputGroup;
@@ -163,9 +163,9 @@ public class WifiConfigController implements TextWatcher,
     @VisibleForTesting static final int DHCP_SPINNER_INDEX_SEND_DHCP_HOST_NAME_DISABLE = 1;
 
     /* Phase2 methods supported by PEAP are limited */
-    private ArrayAdapter<CharSequence> mPhase2PeapAdapter;
+    private EnhancedSettingsSpinnerAdapter<CharSequence> mPhase2PeapAdapter;
     /* Phase2 methods supported by TTLS are limited */
-    private ArrayAdapter<CharSequence> mPhase2TtlsAdapter;
+    private EnhancedSettingsSpinnerAdapter<CharSequence> mPhase2TtlsAdapter;
 
     // e.g. AccessPoint.SECURITY_NONE
     @VisibleForTesting
@@ -186,7 +186,7 @@ public class WifiConfigController implements TextWatcher,
     private TextView mEapDomainView;
     private Spinner mPhase2Spinner;
     // Associated with mPhase2Spinner, one of mPhase2TtlsAdapter or mPhase2PeapAdapter
-    private ArrayAdapter<CharSequence> mPhase2Adapter;
+    private EnhancedSettingsSpinnerAdapter<CharSequence> mPhase2Adapter;
     private Spinner mEapUserCertSpinner;
     private TextView mEapIdentityView;
     private TextView mEapAnonymousView;
@@ -302,14 +302,20 @@ public class WifiConfigController implements TextWatcher,
 
         mSsidScanButton = (ImageButton) mView.findViewById(R.id.ssid_scanner_button);
         mIpSettingsSpinner = (Spinner) mView.findViewById(R.id.ip_settings);
+        mIpSettingsSpinner.setAdapter(getSpinnerAdapter(R.array.wifi_ip_settings));
         mIpSettingsSpinner.setOnItemSelectedListener(this);
         mProxySettingsSpinner = (Spinner) mView.findViewById(R.id.proxy_settings);
+        mProxySettingsSpinner.setAdapter(getSpinnerAdapter(R.array.wifi_proxy_settings));
         mProxySettingsSpinner.setOnItemSelectedListener(this);
         mSharedCheckBox = (CheckBox) mView.findViewById(R.id.shared);
         mMeteredSettingsSpinner = mView.findViewById(R.id.metered_settings);
+        mMeteredSettingsSpinner.setAdapter(getSpinnerAdapter(R.array.wifi_metered_entries));
         mHiddenSettingsSpinner = mView.findViewById(R.id.hidden_settings);
+        mHiddenSettingsSpinner.setAdapter(getSpinnerAdapter(R.array.wifi_hidden_entries));
         mPrivacySettingsSpinner = mView.findViewById(R.id.privacy_settings);
+        mPrivacySettingsSpinner.setAdapter(getSpinnerAdapter(R.array.wifi_privacy_entries));
         mDhcpSettingsSpinner = mView.findViewById(R.id.dhcp_settings);
+        mDhcpSettingsSpinner.setAdapter(getSpinnerAdapter(R.array.wifi_dhcp_entries));
         if (mWifiManager.isConnectedMacRandomizationSupported()) {
             View privacySettingsLayout = mView.findViewById(R.id.privacy_settings_fields);
             privacySettingsLayout.setVisibility(View.VISIBLE);
@@ -1022,6 +1028,7 @@ public class WifiConfigController implements TextWatcher,
             mEapCaCertSpinner = (Spinner) mView.findViewById(R.id.ca_cert);
             mEapCaCertSpinner.setOnItemSelectedListener(this);
             mEapOcspSpinner = (Spinner) mView.findViewById(R.id.ocsp);
+            mEapOcspSpinner.setAdapter(getSpinnerAdapter(R.array.eap_ocsp_type));
             mEapDomainView = (TextView) mView.findViewById(R.id.domain);
             mEapDomainView.addTextChangedListener(this);
             mEapUserCertSpinner = (Spinner) mView.findViewById(R.id.user_cert);
@@ -1033,7 +1040,7 @@ public class WifiConfigController implements TextWatcher,
         }
 
         if (refreshEapMethods) {
-            ArrayAdapter<CharSequence> eapMethodSpinnerAdapter;
+            EnhancedSettingsSpinnerAdapter<CharSequence> eapMethodSpinnerAdapter;
             if (mAccessPointSecurity == AccessPoint.SECURITY_EAP_SUITE_B) {
                 eapMethodSpinnerAdapter = getSpinnerAdapter(R.array.wifi_eap_method);
                 mEapMethodSpinner.setAdapter(eapMethodSpinnerAdapter);
@@ -1501,7 +1508,6 @@ public class WifiConfigController implements TextWatcher,
             final String[] noSim = new String[]{mContext.getString(R.string.wifi_no_sim_card)};
             mEapSimSpinner.setAdapter(getSpinnerAdapter(noSim));
             mEapSimSpinner.setSelection(0 /* position */);
-            mEapSimSpinner.setEnabled(false);
             return;
         }
 
@@ -1514,9 +1520,6 @@ public class WifiConfigController implements TextWatcher,
         mEapSimSpinner.setAdapter(
             getSpinnerAdapter(displayNames.toArray(new String[displayNames.size()])));
         mEapSimSpinner.setSelection(0 /* position */);
-        if (displayNames.size() == 1) {
-            mEapSimSpinner.setEnabled(false);
-        }
     }
 
     @VisibleForTesting
@@ -1557,20 +1560,18 @@ public class WifiConfigController implements TextWatcher,
         // If there is only mUnspecifiedCertString and one item to select, only shows the item
         if (certs.size() == 2) {
             certs.remove(mUnspecifiedCertString);
-            spinner.setEnabled(false);
-        } else {
-            spinner.setEnabled(true);
         }
 
-        final ArrayAdapter<CharSequence> adapter = getSpinnerAdapter(
-                certs.toArray(new String[certs.size()]));
+        EnhancedSettingsSpinnerAdapter<CharSequence> adapter =
+                getSpinnerAdapter(certs.toArray(new String[certs.size()]));
         spinner.setAdapter(adapter);
     }
 
     private void setSelection(Spinner spinner, String value) {
         if (value != null) {
             @SuppressWarnings("unchecked")
-            ArrayAdapter<String> adapter = (ArrayAdapter<String>) spinner.getAdapter();
+            EnhancedSettingsSpinnerAdapter<String> adapter =
+                    (EnhancedSettingsSpinnerAdapter<String>) spinner.getAdapter();
             for (int i = adapter.getCount() - 1; i >= 0; --i) {
                 if (value.equals(adapter.getItem(i))) {
                     spinner.setSelection(i);
@@ -1701,9 +1702,8 @@ public class WifiConfigController implements TextWatcher,
         mSecuritySpinner = ((Spinner) mView.findViewById(R.id.security));
         mSecuritySpinner.setOnItemSelectedListener(this);
 
-        ArrayAdapter<String> spinnerAdapter = new ArrayAdapter<String>(mContext,
-                android.R.layout.simple_spinner_item, android.R.id.text1);
-        spinnerAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        EnhancedSettingsSpinnerAdapter<String> spinnerAdapter =
+                new EnhancedSettingsSpinnerAdapter<>(mContext, new String[0]);
         mSecuritySpinner.setAdapter(spinnerAdapter);
         int idx = 0;
 
@@ -1784,19 +1784,17 @@ public class WifiConfigController implements TextWatcher,
         return returnEntries;
     }
 
-    private ArrayAdapter<CharSequence> getSpinnerAdapter(
+    private EnhancedSettingsSpinnerAdapter<CharSequence> getSpinnerAdapter(
             int contentStringArrayResId) {
         return getSpinnerAdapter(
                 mContext.getResources().getStringArray(contentStringArrayResId));
     }
 
     @VisibleForTesting
-    ArrayAdapter<CharSequence> getSpinnerAdapter(
+    EnhancedSettingsSpinnerAdapter<CharSequence> getSpinnerAdapter(
             String[] contentStringArray) {
-        ArrayAdapter<CharSequence> spinnerAdapter = new ArrayAdapter<>(mContext,
-                android.R.layout.simple_spinner_item, contentStringArray);
-        spinnerAdapter.setDropDownViewResource(
-                android.R.layout.simple_spinner_dropdown_item);
+        EnhancedSettingsSpinnerAdapter<CharSequence> spinnerAdapter =
+                new EnhancedSettingsSpinnerAdapter<>(mContext, contentStringArray);
         return spinnerAdapter;
     }
 
@@ -1804,7 +1802,7 @@ public class WifiConfigController implements TextWatcher,
      * This function is to span the TTS strings to each EAP method items in the
      * spinner to have detail TTS content for the TTS engine usage.
      */
-    private ArrayAdapter<CharSequence> getSpinnerAdapterWithEapMethodsTts(
+    private EnhancedSettingsSpinnerAdapter<CharSequence> getSpinnerAdapterWithEapMethodsTts(
                 int contentStringArrayResId) {
         final Resources res = mContext.getResources();
         CharSequence[] sourceStrings = res.getStringArray(
@@ -1822,11 +1820,9 @@ public class WifiConfigController implements TextWatcher,
         final CharSequence[] accessibilityArray = createAccessibleEntries(
                 sourceStrings, newTtsSourceStrings);
 
-        // Return a new ArrayAdapter with the new TalkBack array.
-        ArrayAdapter<CharSequence> spinnerAdapter = new ArrayAdapter<>(
-                mContext, android.R.layout.simple_spinner_item, accessibilityArray);
-        spinnerAdapter.setDropDownViewResource(
-                android.R.layout.simple_spinner_dropdown_item);
+        // Return a new EnhancedSettingsSpinnerAdapter with the new TalkBack array.
+        EnhancedSettingsSpinnerAdapter<CharSequence> spinnerAdapter =
+                new EnhancedSettingsSpinnerAdapter<>(mContext, accessibilityArray);
         return spinnerAdapter;
     }
 

@@ -4927,6 +4927,12 @@
     <!-- Summary text for Mouse keys click secondary button image. [CHAR LIMIT=NONE] -->
     <string name="mouse_keys_release2_summary">Use the \"<xliff:g id="release_2_label" example="/">%s</xliff:g>\" key to click the secondary mouse button</string>
 
+    <!-- TODO(b/411206889): finalize this string and mark it translatable. -->
+    <!-- Title for the mouse keys acceleration seekbar -->
+    <string name="mouse_keys_acceleration_seekbar_title" translatable="false">Acceleration</string>
+    <string name="mouse_keys_acceleration_fast_icon_desc" translatable="false">Fast</string>
+    <string name="mouse_keys_acceleration_slow_icon_desc" translatable="false">Slow</string>
+
     <!-- Title for the button to trigger the 'keyboard shortcuts helper' dialog. [CHAR LIMIT=35] -->
     <string name="keyboard_shortcuts_helper">View keyboard shortcuts</string>
     <!-- Summary text for the 'keyboard shortcuts helper' dialog. [CHAR LIMIT=100] -->

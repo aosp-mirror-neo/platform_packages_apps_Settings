@@ -33,6 +33,11 @@
         settings:controller="com.android.settings.inputmethod.KeyboardAccessibilityMouseKeysShortcutController"/>
 
     <com.android.settingslib.widget.LayoutPreference
+        android:key="mouse_keys_acceleration_seekbar"
+        android:layout="@layout/mouse_keys_acceleration_seekbar"
+        settings:controller="com.android.settings.inputmethod.MouseKeysAccelerationController"/>
+
+    <com.android.settingslib.widget.LayoutPreference
         android:key="mouse_keys_list"
         android:layout="@layout/mouse_keys_image_list"/>
 
