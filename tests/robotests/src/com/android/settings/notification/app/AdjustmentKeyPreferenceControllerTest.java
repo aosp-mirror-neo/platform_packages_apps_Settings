@@ -51,6 +51,7 @@ import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 import org.robolectric.RobolectricTestRunner;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @RunWith(RobolectricTestRunner.class)
@@ -73,6 +74,7 @@ public class AdjustmentKeyPreferenceControllerTest {
         mSwitch = new RestrictedSwitchPreference(mContext);
         new PreferenceManager(mContext).createPreferenceScreen(mContext).addPreference(mSwitch);
         when(mBackend.hasSentValidMsg(anyString(), anyInt())).thenReturn(true);
+        when(mBackend.getAllowedAssistantAdjustments()).thenReturn(List.of(KEY_TYPE));
 
         mPrefController = new AdjustmentKeyPreferenceController(mContext, mBackend, KEY_TYPE);
 
@@ -86,6 +88,14 @@ public class AdjustmentKeyPreferenceControllerTest {
     @DisableFlags({Flags.FLAG_NM_SUMMARIZATION, Flags.FLAG_NM_SUMMARIZATION_UI,
             Flags.FLAG_NOTIFICATION_CLASSIFICATION_UI})
     public void testIsAvailable_flagOff() {
+        assertThat(mPrefController.isAvailable()).isFalse();
+    }
+
+    @Test
+    @EnableFlags({Flags.FLAG_NM_SUMMARIZATION, Flags.FLAG_NM_SUMMARIZATION_UI,
+            Flags.FLAG_NOTIFICATION_CLASSIFICATION_UI})
+    public void testIsAvailable_globalFeatureOff() {
+        when(mBackend.getAllowedAssistantAdjustments()).thenReturn(new ArrayList<>());
         assertThat(mPrefController.isAvailable()).isFalse();
     }
 

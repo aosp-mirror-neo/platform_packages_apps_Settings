@@ -121,7 +121,12 @@ class SupervisionMainSwitchPreference(
         }
         if (resultCode == Activity.RESULT_OK) {
             val mainSwitchPreference = lifeCycleContext.requirePreference<MainSwitchPreference>(KEY)
-            val newValue = !supervisionMainSwitchStorage.getBoolean(KEY)!!
+            val newValue =
+                if (requestCode == REQUEST_CODE_SET_UP_SUPERVISION) {
+                    true
+                } else {
+                    !supervisionMainSwitchStorage.getBoolean(KEY)!!
+                }
             mainSwitchPreference.setChecked(newValue)
             updateDependentPreferencesEnabledState(mainSwitchPreference, newValue)
             updateDependentPreferenceSummary(mainSwitchPreference)

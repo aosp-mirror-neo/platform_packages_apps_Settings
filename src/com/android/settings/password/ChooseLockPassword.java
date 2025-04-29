@@ -25,6 +25,7 @@ import static android.app.admin.DevicePolicyResources.Strings.Settings.REENTER_W
 import static android.app.admin.DevicePolicyResources.Strings.Settings.SET_WORK_PROFILE_PASSWORD_HEADER;
 import static android.app.admin.DevicePolicyResources.Strings.Settings.SET_WORK_PROFILE_PIN_HEADER;
 import static android.app.admin.DevicePolicyResources.UNDEFINED;
+import static android.os.UserManager.USER_TYPE_PROFILE_SUPERVISING;
 import static android.view.View.ACCESSIBILITY_LIVE_REGION_ASSERTIVE;
 import static android.view.View.ACCESSIBILITY_LIVE_REGION_POLITE;
 
@@ -287,6 +288,7 @@ public class ChooseLockPassword extends SettingsActivity {
             None,
             Managed,
             Private,
+            Supervising,
             Other
         };
         protected ProfileType mProfileType;
@@ -311,6 +313,7 @@ public class ChooseLockPassword extends SettingsActivity {
                     R.string.lockpassword_choose_your_pin_header_for_face,
                     R.string.lockpassword_choose_your_pin_header_for_biometrics,
                     R.string.private_space_choose_your_pin_header, // private space pin
+                    R.string.supervision_choose_your_pin_header, // supervision pin
                     R.string.lock_settings_picker_biometrics_added_security_message,
                     R.string.lock_settings_picker_biometrics_added_security_message,
                     R.string.next_label),
@@ -330,6 +333,7 @@ public class ChooseLockPassword extends SettingsActivity {
                     R.string.lockpassword_confirm_your_pin_header,
                     R.string.lockpassword_confirm_your_pin_header,
                     R.string.lockpassword_confirm_your_pin_header,
+                    R.string.supervision_confirm_your_pin_header,
                     0,
                     0,
                     R.string.lockpassword_confirm_label),
@@ -344,6 +348,7 @@ public class ChooseLockPassword extends SettingsActivity {
                     R.string.lockpassword_confirm_passwords_dont_match,
                     R.string.lockpassword_confirm_pins_dont_match,
                     UNDEFINED,
+                    R.string.lockpassword_confirm_pins_dont_match,
                     R.string.lockpassword_confirm_pins_dont_match,
                     R.string.lockpassword_confirm_pins_dont_match,
                     R.string.lockpassword_confirm_pins_dont_match,
@@ -367,6 +372,7 @@ public class ChooseLockPassword extends SettingsActivity {
                     int hintInNumericForFace,
                     int hintInNumericForBiometrics,
                     int hintInNumericForPrivateProfile,
+                    int hintInNumericForSupervisingProfile,
                     int messageInAlphaForBiometrics,
                     int messageInNumericForBiometrics,
                     int nextButtonText) {
@@ -386,6 +392,7 @@ public class ChooseLockPassword extends SettingsActivity {
                 this.numericHintForFace = hintInNumericForFace;
                 this.numericHintForBiometrics = hintInNumericForBiometrics;
                 this.numericHintForPrivateProfile = hintInNumericForPrivateProfile;
+                this.numericHintForSupervisingProfile = hintInNumericForSupervisingProfile;
 
                 this.alphaMessageForBiometrics = messageInAlphaForBiometrics;
                 this.numericMessageForBiometrics = messageInNumericForBiometrics;
@@ -410,6 +417,7 @@ public class ChooseLockPassword extends SettingsActivity {
             // PIN header
             public final int numericHint;
             public final int numericHintForPrivateProfile;
+            public final int numericHintForSupervisingProfile;
             public final String numericHintOverrideForProfile;
             public final int numericHintForManagedProfile;
             public final int numericHintForFingerprint;
@@ -448,6 +456,9 @@ public class ChooseLockPassword extends SettingsActivity {
                             && android.multiuser.Flags.enablePrivateSpaceFeatures()
                             && profile.equals(ProfileType.Private)) {
                         return context.getString(numericHintForPrivateProfile);
+                    } else if (android.multiuser.Flags.allowSupervisingProfile()
+                            && profile.equals(ProfileType.Supervising)) {
+                        return context.getString(numericHintForSupervisingProfile);
                     } else if (type == TYPE_FINGERPRINT) {
                         return context.getString(numericHintForFingerprint);
                     } else if (type == TYPE_FACE) {
@@ -761,7 +772,13 @@ public class ChooseLockPassword extends SettingsActivity {
             }
         }
 
+        @Nullable
         protected Intent getRedactionInterstitialIntent(Context context) {
+            // The supervising profile does not have its own lock screen, and thus can skip the
+            // redaction interstitial.
+            if (isSupervisingProfile()) {
+                return null;
+            }
             return RedactionInterstitial.createStartIntent(context, mUserId);
         }
 
@@ -1023,7 +1040,10 @@ public class ChooseLockPassword extends SettingsActivity {
                     || mAutoPinConfirmOption == null) {
                 return;
             }
-            if (enabled && !mIsAlphaMode && isAutoPinConfirmPossible(length)) {
+            if (enabled
+                    && !mIsAlphaMode
+                    && isAutoPinConfirmPossible(length)
+                    && !isSupervisingProfile()) {
                 mAutoPinConfirmOption.setVisibility(View.VISIBLE);
                 mAutoConfirmSecurityMessage.setVisibility(View.VISIBLE);
                 if (!mIsAutoPinConfirmOptionSetManually) {
@@ -1184,10 +1204,18 @@ public class ChooseLockPassword extends SettingsActivity {
                     && android.multiuser.Flags.enablePrivateSpaceFeatures()
                     && userManager.isPrivateProfile()) {
                 return ProfileType.Private;
+            } else if (android.multiuser.Flags.allowSupervisingProfile()
+                    && userManager.isUserOfType(USER_TYPE_PROFILE_SUPERVISING)) {
+                return ProfileType.Supervising;
             } else if (userManager.isProfile()) {
                 return ProfileType.Other;
             }
             return ProfileType.None;
+        }
+
+        private boolean isSupervisingProfile() {
+            return android.multiuser.Flags.allowSupervisingProfile()
+                    && mProfileType.equals(ProfileType.Supervising);
         }
     }
 }

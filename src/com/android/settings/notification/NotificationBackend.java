@@ -452,9 +452,10 @@ public class NotificationBackend {
         }
     }
 
-    public List<String> getAllowedAssistantAdjustments(String pkg) {
+    public List<String> getAllowedAssistantAdjustments() {
         try {
-            return sINM.getAllowedAssistantAdjustments(pkg);
+            // this app is system uid so the pkg arg is not checked
+            return sINM.getAllowedAssistantAdjustments("");
         } catch (Exception e) {
             Log.w(TAG, "Error calling NoMan", e);
         }

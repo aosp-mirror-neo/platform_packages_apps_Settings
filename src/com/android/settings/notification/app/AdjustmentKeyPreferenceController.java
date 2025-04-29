@@ -15,6 +15,8 @@
  */
 package com.android.settings.notification.app;
 
+import static android.service.notification.Adjustment.KEY_TYPE;
+
 import android.app.Flags;
 import android.content.Context;
 import android.service.notification.Adjustment;
@@ -64,6 +66,9 @@ public class AdjustmentKeyPreferenceController extends
         }
         if (isSummarizePref && !(mBackend.hasSentValidMsg(mAppRow.pkg, mAppRow.uid)
                 || mBackend.isInInvalidMsgState(mAppRow.pkg, mAppRow.uid))) {
+            return false;
+        }
+        if (!mBackend.getAllowedAssistantAdjustments().contains(mKey)) {
             return false;
         }
         return super.isAvailable();

@@ -4890,6 +4890,12 @@
     <string name="accessibility_mouse_keys_shortcut_title">Mouse keys shortcut</string>
     <!-- Summary text for the accessibility setting 'Mouse keys' preference sub-screen. [CHAR LIMIT=100] -->
     <string name="mouse_keys_summary">Use your keyboard to control the pointer</string>
+    <!-- Title for the mouse keys max speed slider preference under mouse key main page, an accessibility mouse keys setting that controls how fast the mouse key can move. [CHAR LIMIT=35] -->
+    <string name="mouse_keys_max_speed_title">Maximum speed</string>
+    <!-- Description for the button that decreases the seekbar in mouse keys settings page. [CHAR_LIMIT=NONE] -->
+    <string name="mouse_keys_seek_bar_decrease_button_description">Decrease</string>
+    <!-- Description for the button that increases the seekbar in mouse keys settings page. [CHAR_LIMIT=NONE] -->
+    <string name="mouse_keys_seek_bar_increase_button_description">Increase</string>
     <!-- Title for the 'Mouse reverse scrolling' preference switch, which reverses the direction of mouse scroll wheels so that moving the wheel up scrolls the content down. [CHAR LIMIT=60] -->
     <string name="mouse_reverse_vertical_scrolling">Reverse scrolling</string>
     <!-- Summary text for the 'Mouse reverse scrolling' preference switch indicating to users that when the setting is enabled that scrolling up with their mouse wheel will move the page content down. [CHAR LIMIT=NONE] -->
@@ -14429,6 +14435,10 @@ Data usage charges may apply.</string>
     <string name="audio_streams_dialog_turn_off_talkback_subtitle">Talkback cannot be used when listening to audio streams. Turn off talkback to start listening.</string>
     <!-- Le audio streams turn off talkback dialog button [CHAR LIMIT=NONE] -->
     <string name="audio_streams_dialog_turn_off_talkback_button">Turn off</string>
+    <!-- Le audio streams turn off audio sharing dialog title [CHAR LIMIT=NONE] -->
+    <string name="audio_streams_dialog_turn_off_audio_sharing_title">Can\u0027t listen to audio streams while sharing</string>
+    <!-- Le audio streams turn off audio sharing dialog subtitle [CHAR LIMIT=NONE] -->
+    <string name="audio_streams_dialog_turn_off_audio_sharing_subtitle">To listen to this stream, turn off audio sharing.</string>
     <!-- Le audio streams no le device dialog button [CHAR LIMIT=NONE] -->
     <string name="audio_streams_dialog_no_le_device_button">Connect a device</string>
     <!-- Le audio streams detail page title [CHAR LIMIT=NONE] -->
@@ -14563,10 +14573,9 @@ Data usage charges may apply.</string>
     <!-- Generic content description that is attached to the preview illustration at the top of an Accessibility feature toggle page. [CHAR LIMIT=NONE] -->
     <!-- Title for supervision PIN verification screen [CHAR LIMIT=60] -->
     <string name="supervision_full_screen_pin_verification_title">Enter supervision PIN</string>
-    <!-- Title on activity to choose lock for supervision setup [CHAR LIMIT=NONE] -->
-    <string name="supervision_lock_setup_title">Choose lock for supervision</string>
-    <!-- description on activity to choose lock supervision setup [CHAR LIMIT=NONE] -->
-    <string name="supervision_lock_setup_description">You can unlock supervision settings with this code</string>
+    <!-- Title on activity to choose PIN for supervision setup [CHAR LIMIT=NONE] -->
+    <string name="supervision_choose_your_pin_header">Set a parental controls PIN</string>
+    <string name="supervision_confirm_your_pin_header">Confirm PIN</string>
     <string name ="supervision_pin_reset_success_toast">Parental control PIN reset</string>
     <string name="accessibility_illustration_content_description"><xliff:g id="feature" example="Select to Speak">%1$s</xliff:g> animation</string>
 

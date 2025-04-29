@@ -38,6 +38,12 @@
         settings:controller="com.android.settings.inputmethod.MouseKeysAccelerationController"/>
 
     <com.android.settingslib.widget.LayoutPreference
+        android:key="mouse_keys_max_speed_seekbar"
+        android:layout="@layout/mouse_keys_max_speed_seekbar"
+        android:selectable="false"
+        settings:controller="com.android.settings.inputmethod.MouseKeysMaxSpeedController"/>
+
+    <com.android.settingslib.widget.LayoutPreference
         android:key="mouse_keys_list"
         android:layout="@layout/mouse_keys_image_list"/>
 

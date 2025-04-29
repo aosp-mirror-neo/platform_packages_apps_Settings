@@ -33,7 +33,7 @@ import com.android.settingslib.preference.PreferenceScreenCreator
 //  between toggle or slider preferences based on device config, depending on how overlays are done.
 // LINT.IfChange
 @ProvidePreferenceScreen(VibrationIntensityScreen.KEY)
-class VibrationIntensityScreen : PreferenceScreenCreator, PreferenceAvailabilityProvider {
+open class VibrationIntensityScreen : PreferenceScreenCreator, PreferenceAvailabilityProvider {
     override val key: String
         get() = KEY
 
