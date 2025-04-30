@@ -200,6 +200,9 @@ public class ChooseLockGeneric extends SettingsActivity {
         private int mUnificationProfileId = UserHandle.USER_NULL;
         private LockscreenCredential mUnificationProfileCredential;
 
+        @Nullable
+        private AutoPinConfirmPreferenceController mAutoPinConfirmPreferenceController;
+
         /**
          * From intent extra {@link ChooseLockSettingsHelper#EXTRA_KEY_REQUESTED_MIN_COMPLEXITY}.
          * Only contains complexity requested by calling app, not complexity enforced by device
@@ -491,6 +494,16 @@ public class ChooseLockGeneric extends SettingsActivity {
                 }
                 startActivityForResult(chooseLockGenericIntent, SKIP_FINGERPRINT_REQUEST);
                 return true;
+            } else if (mAutoPinConfirmPreferenceController != null
+                    && mAutoPinConfirmPreferenceController.getPreferenceKey().equals(key)) {
+                final boolean enabled = !mLockPatternUtils.isAutoPinConfirmEnabled(mUserId);
+                // update the auto pin confirm setting.
+                mLockPatternUtils.setAutoPinConfirm(enabled, mUserId);
+                // store the pin length info to disk; If it fails, reset the setting to prev state.
+                if (!mLockPatternUtils.refreshStoredPinLength(mUserId)) {
+                    mLockPatternUtils.setAutoPinConfirm(!enabled, mUserId);
+                }
+                return true;
             } else {
                 return setUnlockMethod(key);
             }
@@ -691,8 +704,9 @@ public class ChooseLockGeneric extends SettingsActivity {
                     getContext(), mUserId, mLockPatternUtils));
             mUnlockSettingsControllers.add(new LockAfterTimeoutPreferenceController(
                     getContext(), mUserId, mLockPatternUtils));
-            mUnlockSettingsControllers.add(new AutoPinConfirmPreferenceController(
-                    getContext(), mUserId, mLockPatternUtils, this));
+            mAutoPinConfirmPreferenceController = new AutoPinConfirmPreferenceController(
+                    getContext(), mUserId, mLockPatternUtils, this);
+            mUnlockSettingsControllers.add(mAutoPinConfirmPreferenceController);
         }
 
         private void setUpUnlockSettingsPreference() {
@@ -704,8 +718,10 @@ public class ChooseLockGeneric extends SettingsActivity {
                 if (!isAvailable) {
                     continue;
                 }
-                preference.setOnPreferenceChangeListener(
-                        (Preference.OnPreferenceChangeListener) controller);
+                if (!(controller instanceof AutoPinConfirmPreferenceController)) {
+                    preference.setOnPreferenceChangeListener(
+                            (Preference.OnPreferenceChangeListener) controller);
+                }
                 controller.updateState(preference);
                 showUnlockSettingsCategory = true;
             }

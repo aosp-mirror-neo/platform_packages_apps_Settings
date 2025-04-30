@@ -6492,10 +6492,6 @@
 
     <!-- Title for the battery summary tip [CHAR LIMIT=NONE] -->
     <string name="battery_tip_summary_title">Apps are running normally</string>
-    <!-- Title for the battery replacement tip [CHAR LIMIT=NONE] -->
-    <string name="battery_tip_replacement_title">Battery replacement recommended</string>
-    <!-- Summary for the battery replacement tip [CHAR LIMIT=NONE] -->
-    <string name="battery_tip_replacement_summary">Battery capacity and charging performance are reduced, and battery replacement is recommended.</string>
     <!-- Title for the low battery tip [CHAR LIMIT=NONE] -->
     <string name="battery_tip_low_battery_title">Battery level low</string>
     <!-- Summary for the low battery tip [CHAR LIMIT=NONE] -->
@@ -7724,6 +7720,8 @@ Data usage charges may apply.</string>
     <string name="user_confirm_remove_message">All apps and data will be deleted.</string>
     <!-- Work profile removal confirmation message [CHAR LIMIT=none] -->
     <string name="work_profile_confirm_remove_message">All apps and data in this profile will be deleted if you continue.</string>
+    <!-- Work profile removal confirmation message mentioning eSIM [CHAR LIMIT=none] -->
+    <string name="work_profile_confirm_remove_message_with_esim">All apps and data in this profile, including work eSIMs, will be deleted if you continue.</string>
     <!-- User profile removal confirmation message [CHAR LIMIT=none] -->
     <string name="user_profile_confirm_remove_message">All apps and data will be deleted.</string>
     <!-- Setting label to show that a new user is being added [CHAR LIMIT=30] -->
@@ -7944,8 +7942,6 @@ Data usage charges may apply.</string>
     <string name="help_url_battery" translatable="false"></string>
     <!-- Help URL, Battery Defender [DO NOT TRANSLATE] -->
     <string name="help_url_battery_defender" translatable="false"></string>
-    <!-- Help URL, Battery Replacement [DO NOT TRANSLATE] -->
-    <string name="help_url_battery_replacement" translatable="false"></string>
     <!-- Help URL, Dock Defender [DO NOT TRANSLATE] -->
     <string name="help_url_dock_defender" translatable="false"></string>
     <!-- Help URL, Incompatible charging [DO NOT TRANSLATE] -->
@@ -14533,11 +14529,11 @@ Data usage charges may apply.</string>
     <!-- Search keywords for supervision settings [CHAR LIMIT=NONE] -->
     <string name="keywords_supervision_settings">supervision, parental supervision, parental controls</string>
     <!-- Title for supervision PIN management settings entry [CHAR LIMIT=60] -->
-    <string name="supervision_pin_management_preference_title">Manage PIN</string>
+    <string name="supervision_pin_management_preference_title">Manage your PIN</string>
     <!-- Description for supervision PIN management settings entry, in the case of adding a PIN recovery method[CHAR LIMIT=NONE] -->
-    <string name="supervision_pin_management_preference_summary_add">Add PIN recovery</string>
+    <string name="supervision_pin_management_preference_summary_add">Add recovery email</string>
     <!-- Description for supervision PIN management settings entry, in the case of verifying the PIN recovery method[CHAR LIMIT=NONE] -->
-    <string name="supervision_pin_management_preference_summary_verify_recovery">Verify PIN recovery</string>
+    <string name="supervision_pin_management_preference_summary_verify_recovery">Verify recovery email</string>
     <!-- Title for supervision change PIN setting entry [CHAR LIMIT=60] -->
     <string name="supervision_change_pin_preference_title">Change PIN</string>
     <!-- Title for supervision forgot PIN setting entry [CHAR LIMIT=60] -->
@@ -14549,9 +14545,9 @@ Data usage charges may apply.</string>
     <!-- Summary for supervision delete pin setting entry [CHAR LIMIT=NONE] -->
     <string name="supervision_delete_pin_preference_summary">This will reset all your supervision settings</string>
     <!-- Title for adding supervision PIN recovery setting entry [CHAR LIMIT=NONE] -->
-    <string name="supervision_add_pin_recovery_title">Tap to add recovery</string>
+    <string name="supervision_add_pin_recovery_title">Add recovery email</string>
     <!-- Title for adding supervision PIN recovery setting entry [CHAR LIMIT=NONE] -->
-    <string name="supervision_verify_pin_recovery_title">Tap to verify recovery</string>
+    <string name="supervision_verify_pin_recovery_title">Verify your email</string>
     <!-- Title for web content filters entry [CHAR LIMIT=60] -->
     <string name="supervision_web_content_filters_title">Web content filters</string>
     <!-- Title for web content filters browser category [CHAR LIMIT=60] -->
@@ -14576,7 +14572,7 @@ Data usage charges may apply.</string>
     <!-- Title on activity to choose PIN for supervision setup [CHAR LIMIT=NONE] -->
     <string name="supervision_choose_your_pin_header">Set a parental controls PIN</string>
     <string name="supervision_confirm_your_pin_header">Confirm PIN</string>
-    <string name ="supervision_pin_reset_success_toast">Parental control PIN reset</string>
+    <string name="supervision_pin_reset_success_toast">PIN updated</string>
     <string name="accessibility_illustration_content_description"><xliff:g id="feature" example="Select to Speak">%1$s</xliff:g> animation</string>
 
     <!-- Light theme customization for lottie illustration. Not translatable. -->

@@ -50,7 +50,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
-import android.widget.CheckBox;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.Switch;
@@ -598,10 +597,10 @@ public class WifiConfigController2Test {
         final InputMethodManager inputMethodManager = mContext
                 .getSystemService(InputMethodManager.class);
         final ShadowInputMethodManager shadowImm = Shadows.shadowOf(inputMethodManager);
-        final CheckBox advButton = mView.findViewById(R.id.wifi_advanced_togglebox);
+        final LinearLayout advLayout = mView.findViewById(R.id.advanced_options_layout);
 
         inputMethodManager.showSoftInput(null /* view */, 0 /* flags */);
-        advButton.performClick();
+        advLayout.performClick();
 
         assertThat(shadowImm.isSoftInputVisible()).isFalse();
     }
@@ -645,9 +644,9 @@ public class WifiConfigController2Test {
 
     @Test
     public void getAdvancedOptionContentDescription_whenViewInitialed_shouldBeCorrect() {
-        final CheckBox advButton = mView.findViewById(R.id.wifi_advanced_togglebox);
+        final LinearLayout advLayout = mView.findViewById(R.id.advanced_options_layout);
 
-        assertThat(advButton.getContentDescription()).isEqualTo(
+        assertThat(advLayout.getContentDescription()).isEqualTo(
                 mContext.getString(R.string.wifi_advanced_toggle_description));
     }
 

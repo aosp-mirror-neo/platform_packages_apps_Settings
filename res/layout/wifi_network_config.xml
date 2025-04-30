@@ -367,26 +367,47 @@
         </LinearLayout>
     </LinearLayout>
 
-    <LinearLayout android:id="@+id/wifi_advanced_toggle"
-                  android:layout_width="match_parent"
-                  android:layout_height="wrap_content"
-                  style="@style/wifi_item"
-                  android:paddingTop="2dp"
-                  android:paddingBottom="4dp"
-                  android:importantForAccessibility="no"
-                  android:visibility="gone">
-        <CheckBox android:id="@+id/wifi_advanced_togglebox"
-                  android:layout_width="match_parent"
-                  android:layout_height="wrap_content"
-                  style="@style/wifi_advanced_toggle"
-                  android:importantForAccessibility="yes"
-                  android:contentDescription="@string/wifi_advanced_toggle_description"
-                  android:text="@string/wifi_show_advanced"/>
+    <LinearLayout
+        android:id="@+id/advanced_options_layout"
+        android:background="@drawable/advanced_options_collapsed_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/settingslib_expressive_space_small1"
+        android:layout_marginBottom="2dp"
+        android:layout_marginStart="@dimen/settingslib_expressive_space_small1"
+        android:layout_marginEnd="@dimen/settingslib_expressive_space_small1"
+        android:padding="@dimen/settingslib_expressive_space_small1"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:selectable="true"
+        android:contentDescription="@string/wifi_advanced_toggle_description">
+
+        <TextView
+            android:text="@string/wifi_show_advanced"
+            style="@style/TextAppearance.Material3.BodyLarge"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:selectable="false"/>
+
+        <ImageView
+            android:id="@+id/advanced_options_icon"
+            android:src="@drawable/ic_keyboard_arrow_down"
+            android:background="@drawable/advanced_options_icon_background"
+            android:layout_width="28dp"
+            android:layout_height="wrap_content"
+            android:minHeight="40dp"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:selectable="false"/>
     </LinearLayout>
 
     <LinearLayout android:id="@+id/wifi_advanced_fields"
+                  android:background="@drawable/advanced_options_content_background"
                   android:layout_width="match_parent"
                   android:layout_height="wrap_content"
+                  android:layout_marginStart="@dimen/settingslib_expressive_space_small1"
+                  android:layout_marginEnd="@dimen/settingslib_expressive_space_small1"
                   android:orientation="vertical"
                   android:visibility="gone">
 

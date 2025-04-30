@@ -89,7 +89,8 @@ public class AdjustmentKeyPreferenceController extends
         if (pref != null && mAppRow != null) {
             pref.setDisabledByAdmin(mAdmin);
             pref.setEnabled(!pref.isDisabledByAdmin());
-            pref.setChecked(!mBackend.getAdjustmentDeniedPackages(mKey).contains(mAppRow.pkg));
+            pref.setChecked(
+                    mBackend.isAdjustmentSupportedForPackage(mAppRow.userId, mKey, mAppRow.pkg));
             pref.setOnPreferenceChangeListener(this);
         }
     }
@@ -97,7 +98,7 @@ public class AdjustmentKeyPreferenceController extends
     @Override
     public boolean onPreferenceChange(@NonNull Preference preference, @NonNull Object newValue) {
         final boolean allowedForPkg = (Boolean) newValue;
-        mBackend.setAdjustmentSupportedForPackage(mKey, mAppRow.pkg, allowedForPkg);
+        mBackend.setAdjustmentSupportedForPackage(mAppRow.userId, mKey, mAppRow.pkg, allowedForPkg);
         return true;
     }
 }

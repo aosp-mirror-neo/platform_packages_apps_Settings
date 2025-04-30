@@ -66,9 +66,11 @@ public class ExternalDisplaySettingsConfiguration {
      * @return whether the settings page is enabled or not.
      */
     public static boolean isExternalDisplaySettingsPageEnabled(@NonNull FeatureFlags flags) {
-        return flags.rotationConnectedDisplaySetting()
-                || flags.resolutionAndEnableConnectedDisplaySetting()
-                || flags.displayTopologyPaneInDisplayList();
+        DesktopExperienceFlags desktopExperienceFlags = new DesktopExperienceFlags(flags);
+        boolean result = desktopExperienceFlags.rotationConnectedDisplaySetting()
+                || desktopExperienceFlags.resolutionAndEnableConnectedDisplaySetting()
+                || desktopExperienceFlags.displayTopologyPaneInDisplayList();
+        return result;
     }
 
     static boolean isTopologyPaneEnabled(@Nullable ConnectedDisplayInjector injector) {

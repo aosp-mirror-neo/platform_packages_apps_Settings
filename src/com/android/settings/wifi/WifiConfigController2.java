@@ -33,7 +33,6 @@ import android.net.wifi.WifiEnterpriseConfig;
 import android.net.wifi.WifiEnterpriseConfig.Eap;
 import android.net.wifi.WifiEnterpriseConfig.Phase2;
 import android.net.wifi.WifiManager;
-import android.os.IBinder;
 import android.security.keystore.KeyProperties;
 import android.telephony.SubscriptionInfo;
 import android.telephony.SubscriptionManager;
@@ -49,10 +48,7 @@ import android.view.View;
 import android.view.View.AccessibilityDelegate;
 import android.view.ViewGroup;
 import android.view.accessibility.AccessibilityEvent;
-import android.view.accessibility.AccessibilityNodeInfo;
-import android.view.accessibility.AccessibilityNodeInfo.AccessibilityAction;
 import android.view.inputmethod.EditorInfo;
-import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -248,6 +244,8 @@ public class WifiConfigController2 implements TextWatcher,
 
     private final ArrayMap<Integer, SubscriptionInfo> mActiveSubscriptionInfos = new ArrayMap<>();
 
+    private WifiConfigAdvancedLayout mWifiConfigAdvancedLayout;
+
     public WifiConfigController2(WifiConfigUiBase2 parent, View view, WifiEntry wifiEntry,
             int mode) {
         this(parent, view, wifiEntry, mode, false);
@@ -276,6 +274,7 @@ public class WifiConfigController2 implements TextWatcher,
     }
 
     private void initWifiConfigController2(WifiEntry wifiEntry) {
+        mWifiConfigAdvancedLayout = new WifiConfigAdvancedLayout(mView);
         mWifiEntrySecurity = (wifiEntry == null) ? WifiEntry.SECURITY_NONE :
                 wifiEntry.getSecurity();
         mIsTrustOnFirstUseSupported = mWifiManager.isTrustOnFirstUseSupported();
@@ -421,6 +420,7 @@ public class WifiConfigController2 implements TextWatcher,
                             config.providerFriendlyName));
                 }
             }
+            mWifiConfigAdvancedLayout.setExpanded(showAdvancedFields);
 
             if ((!mWifiEntry.isSaved()
                     && mWifiEntry.getConnectedState() != WifiEntry.CONNECTED_STATE_CONNECTED
@@ -429,17 +429,6 @@ public class WifiConfigController2 implements TextWatcher,
                 showSecurityFields(/* refreshEapMethods */ true, /* refreshCertificates */ true);
                 showIpConfigFields();
                 showProxyFields();
-                final CheckBox advancedTogglebox =
-                        (CheckBox) mView.findViewById(R.id.wifi_advanced_togglebox);
-                if (!showAdvancedFields) {
-                    // Need to show Advanced Option button.
-                    mView.findViewById(R.id.wifi_advanced_toggle).setVisibility(View.VISIBLE);
-                    advancedTogglebox.setOnCheckedChangeListener(this);
-                    advancedTogglebox.setChecked(showAdvancedFields);
-                    setAdvancedOptionAccessibilityString();
-                }
-                mView.findViewById(R.id.wifi_advanced_fields)
-                        .setVisibility(showAdvancedFields ? View.VISIBLE : View.GONE);
             }
 
             if (mMode == WifiConfigUiBase2.MODE_MODIFY) {
@@ -1734,11 +1723,6 @@ public class WifiConfigController2 implements TextWatcher,
             if (pos >= 0) {
                 ((EditText) mPasswordView).setSelection(pos);
             }
-        } else if (view.getId() == R.id.wifi_advanced_togglebox) {
-            // Hide the SoftKeyboard temporary to let user can see most of the expanded items.
-            hideSoftKeyboard(mView.getWindowToken());
-            view.setVisibility(View.GONE);
-            mView.findViewById(R.id.wifi_advanced_fields).setVisibility(View.VISIBLE);
         } else if (view.getId() == R.id.share_wifi_network) {
             mEditConfigurationSwitch.setEnabled(isChecked);
             if (!isChecked) {
@@ -1871,13 +1855,9 @@ public class WifiConfigController2 implements TextWatcher,
 
         showIpConfigFields();
         showProxyFields();
-        mView.findViewById(R.id.wifi_advanced_toggle).setVisibility(View.VISIBLE);
         // Hidden option can be changed only when the user adds a network manually.
         mView.findViewById(R.id.hidden_settings_field).setVisibility(View.VISIBLE);
-        ((CheckBox) mView.findViewById(R.id.wifi_advanced_togglebox))
-                .setOnCheckedChangeListener(this);
-        // Set correct accessibility strings.
-        setAdvancedOptionAccessibilityString();
+        mWifiConfigAdvancedLayout.setExpanded(false);
     }
 
     /**
@@ -1958,32 +1938,6 @@ public class WifiConfigController2 implements TextWatcher,
                     contentDescriptions[i].toString());
         }
         return accessibleEntries;
-    }
-
-    private void hideSoftKeyboard(IBinder windowToken) {
-        final InputMethodManager inputMethodManager = mContext.getSystemService(
-                InputMethodManager.class);
-        inputMethodManager.hideSoftInputFromWindow(windowToken, 0 /* flags */);
-    }
-
-    private void setAdvancedOptionAccessibilityString() {
-        final CheckBox advancedToggleBox = mView.findViewById(R.id.wifi_advanced_togglebox);
-        advancedToggleBox.setAccessibilityDelegate(new AccessibilityDelegate() {
-            @Override
-            public void onInitializeAccessibilityNodeInfo(
-                    View v, AccessibilityNodeInfo info) {
-                super.onInitializeAccessibilityNodeInfo(v, info);
-                // To let TalkBack don't pronounce checked/unchecked.
-                info.setCheckable(false /* checkable */);
-                // To let TalkBack don't pronounce CheckBox.
-                info.setClassName(null /* className */);
-                // Customize TalkBack's pronunciation which been appended to "Double-tap to".
-                final AccessibilityAction customClick = new AccessibilityAction(
-                        AccessibilityNodeInfo.ACTION_CLICK,
-                        mContext.getString(R.string.wifi_advanced_toggle_description_collapsed));
-                info.addAction(customClick);
-            }
-        });
     }
 
     @VisibleForTesting

@@ -15,24 +15,21 @@
  */
 package com.android.settings.notification.app;
 
-import static android.service.notification.Adjustment.KEY_IMPORTANCE;
 import static android.service.notification.Adjustment.KEY_SUMMARIZATION;
 import static android.service.notification.Adjustment.KEY_TYPE;
 
 import static com.google.common.truth.Truth.assertThat;
 
-import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.ArgumentMatchers.anyBoolean;
 import static org.mockito.ArgumentMatchers.anyInt;
 import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.ArgumentMatchers.eq;
-import static org.mockito.Mockito.never;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
 import android.app.Flags;
 import android.content.Context;
+import android.os.UserHandle;
 import android.platform.test.annotations.DisableFlags;
 import android.platform.test.annotations.EnableFlags;
 import android.platform.test.flag.junit.SetFlagsRule;
@@ -81,6 +78,7 @@ public class AdjustmentKeyPreferenceControllerTest {
         mAppRow = new NotificationBackend.AppRow();
         mAppRow.pkg = "pkg.name";
         mAppRow.uid = 12345;
+        mAppRow.userId = UserHandle.getUserId(mAppRow.uid);
         mPrefController.onResume(mAppRow, null, null, null, null, null, null);
     }
 
@@ -123,8 +121,8 @@ public class AdjustmentKeyPreferenceControllerTest {
     @EnableFlags({Flags.FLAG_NM_SUMMARIZATION, Flags.FLAG_NM_SUMMARIZATION_UI,
             Flags.FLAG_NOTIFICATION_CLASSIFICATION_UI})
     public void testChecked_adjustmentAllowed() {
-        when(mBackend.getAdjustmentDeniedPackages(KEY_TYPE)).thenReturn(
-                List.of("not this"));
+        when(mBackend.isAdjustmentSupportedForPackage(mAppRow.userId, KEY_TYPE,
+                mAppRow.pkg)).thenReturn(true);
         mPrefController.onResume(mAppRow, null, null, null, null, null, null);
 
         mPrefController.updateState(mSwitch);
@@ -135,8 +133,8 @@ public class AdjustmentKeyPreferenceControllerTest {
     @EnableFlags({Flags.FLAG_NM_SUMMARIZATION, Flags.FLAG_NM_SUMMARIZATION_UI,
             Flags.FLAG_NOTIFICATION_CLASSIFICATION_UI})
     public void testChecked_adjustmentNotAllowed() {
-        when(mBackend.getAdjustmentDeniedPackages(KEY_TYPE)).thenReturn(
-                List.of(mAppRow.pkg));
+        when(mBackend.isAdjustmentSupportedForPackage(mAppRow.userId, KEY_TYPE,
+                mAppRow.pkg)).thenReturn(false);
         mPrefController.onResume(mAppRow, null, null, null, null, null, null);
 
         mPrefController.updateState(mSwitch);
@@ -147,19 +145,19 @@ public class AdjustmentKeyPreferenceControllerTest {
     @EnableFlags({Flags.FLAG_NM_SUMMARIZATION, Flags.FLAG_NM_SUMMARIZATION_UI,
             Flags.FLAG_NOTIFICATION_CLASSIFICATION_UI})
     public void testOnPreferenceChange_changeOnAndOff() {
-        when(mBackend.getAdjustmentDeniedPackages(KEY_TYPE)).thenReturn(
-                List.of("not this"));
+        when(mBackend.isAdjustmentSupportedForPackage(mAppRow.userId, KEY_TYPE,
+                mAppRow.pkg)).thenReturn(true);
         mPrefController.onResume(mAppRow, null, null, null, null, null, null);
 
         // when the switch value changes to false
         mPrefController.onPreferenceChange(mSwitch, false);
 
-        verify(mBackend, times(1))
-                .setAdjustmentSupportedForPackage(eq(KEY_TYPE), eq(mAppRow.pkg), eq(false));
+        verify(mBackend, times(1)).setAdjustmentSupportedForPackage(eq(mAppRow.userId),
+                eq(KEY_TYPE), eq(mAppRow.pkg), eq(false));
 
         // same as above but now from false -> true
         mPrefController.onPreferenceChange(mSwitch, true);
-        verify(mBackend, times(1))
-                .setAdjustmentSupportedForPackage(eq(KEY_TYPE), eq(mAppRow.pkg), eq(true));
+        verify(mBackend, times(1)).setAdjustmentSupportedForPackage(eq(mAppRow.userId),
+                eq(KEY_TYPE), eq(mAppRow.pkg), eq(true));
     }
 }
