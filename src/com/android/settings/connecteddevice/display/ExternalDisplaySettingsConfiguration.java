@@ -18,7 +18,6 @@ package com.android.settings.connecteddevice.display;
 import android.hardware.display.DisplayManager;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 
 import com.android.settings.R;
 import com.android.settings.flags.FeatureFlags;
@@ -71,26 +70,5 @@ public class ExternalDisplaySettingsConfiguration {
                 || desktopExperienceFlags.resolutionAndEnableConnectedDisplaySetting()
                 || desktopExperienceFlags.displayTopologyPaneInDisplayList();
         return result;
-    }
-
-    static boolean isTopologyPaneEnabled(@Nullable ConnectedDisplayInjector injector) {
-        return injector != null && injector.getFlags().displayTopologyPaneInDisplayList();
-    }
-
-    static boolean isUseDisplaySettingEnabled(@Nullable ConnectedDisplayInjector injector) {
-        return injector != null && injector.getFlags().resolutionAndEnableConnectedDisplaySetting()
-                && !injector.getFlags().displayTopologyPaneInDisplayList();
-    }
-
-    static boolean isResolutionSettingEnabled(@Nullable ConnectedDisplayInjector injector) {
-        return injector != null && injector.getFlags().resolutionAndEnableConnectedDisplaySetting();
-    }
-
-    static boolean isRotationSettingEnabled(@Nullable ConnectedDisplayInjector injector) {
-        return injector != null && injector.getFlags().rotationConnectedDisplaySetting();
-    }
-
-    static boolean isDisplaySizeSettingEnabled(@Nullable ConnectedDisplayInjector injector) {
-        return injector != null && injector.getFlags().displaySizeConnectedDisplaySetting();
     }
 }

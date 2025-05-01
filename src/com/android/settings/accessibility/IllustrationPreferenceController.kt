@@ -39,7 +39,8 @@ open class IllustrationPreferenceController(context: Context, prefKey: String) :
         this.contentDescription = contentDescription
     }
 
-    override fun getAvailabilityStatus(): Int = AVAILABLE_UNSEARCHABLE
+    override fun getAvailabilityStatus(): Int =
+        if (imageUri != null) AVAILABLE_UNSEARCHABLE else CONDITIONALLY_UNAVAILABLE
 
     override fun displayPreference(screen: PreferenceScreen?) {
         super.displayPreference(screen)

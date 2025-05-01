@@ -26,7 +26,6 @@ import com.android.settingslib.metadata.PreferenceSummaryProvider
 import com.android.settingslib.metadata.ProvidePreferenceScreen
 import com.android.settingslib.metadata.preferenceHierarchy
 import com.android.settingslib.preference.PreferenceScreenCreator
-import com.android.settingslib.widget.UntitledPreferenceCategoryMetadata
 
 /** Pin Management landing page (Settings > Supervision > Manage Pin). */
 @ProvidePreferenceScreen(SupervisionPinManagementScreen.KEY)
@@ -80,7 +79,7 @@ class SupervisionPinManagementScreen :
     override fun getPreferenceHierarchy(context: Context) =
         preferenceHierarchy(context, this) {
             +SupervisionSetupRecoveryPreference()
-            +UntitledPreferenceCategoryMetadata(GROUP_KEY) += {
+            +TitlelessPreferenceGroup(GROUP_KEY) += {
                 +SupervisionPinRecoveryPreference()
                 // TODO(b/391992481) implement the screen.
                 +SupervisionChangePinPreference()

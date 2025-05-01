@@ -14525,7 +14525,9 @@ Data usage charges may apply.</string>
     <!-- Title of toggle to enable or disable device supervision [CHAR LIMIT=60] -->
     <string name="device_supervision_switch_title">Use device supervision</string>
     <!-- Description of device supervision toggle when PIN has never been set up [CHAR LIMIT=NONE] -->
-    <string name="device_supervision_switch_no_pin_summary">Set up PIN to get started</string>
+    <string name="device_supervision_switch_no_pin_summary">Set up PIN</string>
+    <!-- Description of device supervision toggle when PIN is set up but supervision is not enabled [CHAR LIMIT=NONE] -->
+    <string name="device_supervision_switch_paused_summary">Paused</string>
     <!-- Search keywords for supervision settings [CHAR LIMIT=NONE] -->
     <string name="keywords_supervision_settings">supervision, parental supervision, parental controls</string>
     <!-- Title for supervision PIN management settings entry [CHAR LIMIT=60] -->

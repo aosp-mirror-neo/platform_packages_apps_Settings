@@ -42,14 +42,21 @@ open class HtmlFooterPreferenceController(context: Context, prefKey: String) :
      * getter.
      */
     override fun setSummary(summary: CharSequence) {
-        val htmlDescription: CharSequence =
+        setSummary(summary, isHtml = true)
+    }
+
+    protected fun setSummary(summary: CharSequence, isHtml: Boolean) {
+        val description: CharSequence = if (isHtml) {
             Html.fromHtml(
                 summary.toString(),
                 Html.FROM_HTML_MODE_COMPACT,
                 /* imageGetter= */ null,
                 /* tagHandler= */ null,
             )
-        super.setSummary(htmlDescription)
+        } else {
+            summary
+        }
+        super.setSummary(description)
     }
 }
 

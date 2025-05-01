@@ -62,10 +62,14 @@ class SupervisionMainSwitchPreference(
     override val title
         get() = R.string.device_supervision_switch_title
 
-    // TODO(b/383568136): Make presence of summary conditional on whether PIN
-    // has been set up before or not.
     override fun getSummary(context: Context): CharSequence? =
-        context.getString(R.string.device_supervision_switch_no_pin_summary)
+        if (!context.isSupervisingCredentialSet) {
+            context.getString(R.string.device_supervision_switch_no_pin_summary)
+        } else if (supervisionMainSwitchStorage.getBoolean(KEY)!!) {
+            context.getString(R.string.switch_on_text)
+        } else {
+            context.getString(R.string.device_supervision_switch_paused_summary)
+        }
 
     override fun storage(context: Context): KeyValueStore = supervisionMainSwitchStorage
 
@@ -121,6 +125,9 @@ class SupervisionMainSwitchPreference(
         }
         if (resultCode == Activity.RESULT_OK) {
             val mainSwitchPreference = lifeCycleContext.requirePreference<MainSwitchPreference>(KEY)
+
+            // Value only needs to be toggled in the non-setup case. The setup flow will
+            // unconditionally enable supervision internally when successful.
             val newValue =
                 if (requestCode == REQUEST_CODE_SET_UP_SUPERVISION) {
                     true
@@ -128,6 +135,7 @@ class SupervisionMainSwitchPreference(
                     !supervisionMainSwitchStorage.getBoolean(KEY)!!
                 }
             mainSwitchPreference.setChecked(newValue)
+            lifeCycleContext.notifyPreferenceChange(KEY)
             updateDependentPreferencesEnabledState(mainSwitchPreference, newValue)
             updateDependentPreferenceSummary(mainSwitchPreference)
             lifeCycleContext.notifyPreferenceChange(SupervisionPinManagementScreen.KEY)

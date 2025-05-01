@@ -17,64 +17,47 @@
 package com.android.settings.accessibility;
 
 import static com.android.internal.accessibility.AccessibilityShortcutController.DALTONIZER_COMPONENT_NAME;
-import static com.android.internal.accessibility.common.ShortcutConstants.UserShortcutType.ALL;
-import static com.android.internal.accessibility.common.ShortcutConstants.UserShortcutType.HARDWARE;
 import static com.android.settings.accessibility.AccessibilityUtil.State.OFF;
 import static com.android.settings.accessibility.AccessibilityUtil.State.ON;
-import static com.android.settings.testutils.AccessibilityTestUtils.assertEditShortcutsScreenShown;
-import static com.android.settings.testutils.AccessibilityTestUtils.assertShortcutsTutorialDialogShown;
-import static com.android.settings.testutils.AccessibilityTestUtils.inflateShortcutPreferenceView;
 
 import static com.google.common.truth.Truth.assertThat;
 
 import android.app.settings.SettingsEnums;
+import android.content.ComponentName;
 import android.content.Context;
 import android.provider.SearchIndexableResource;
 import android.provider.Settings;
-import android.view.View;
-import android.view.accessibility.AccessibilityManager;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.fragment.app.FragmentFactory;
 import androidx.fragment.app.testing.FragmentScenario;
 import androidx.lifecycle.Lifecycle;
 import androidx.preference.CheckBoxPreference;
-import androidx.preference.PreferenceViewHolder;
 import androidx.preference.TwoStatePreference;
 import androidx.test.core.app.ApplicationProvider;
 
 import com.android.settings.R;
-import com.android.settings.testutils.shadow.ShadowAccessibilityManager;
 
 import com.google.testing.junit.testparameterinjector.TestParameters;
 
 import org.junit.After;
-import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.robolectric.RobolectricTestParameterInjector;
-import org.robolectric.shadow.api.Shadow;
-import org.robolectric.shadows.ShadowDialog;
 import org.robolectric.shadows.ShadowLooper;
 
 import java.util.List;
-import java.util.Set;
 
 /** Tests for {@link ToggleDaltonizerPreferenceFragment} */
 @RunWith(RobolectricTestParameterInjector.class)
-public class ToggleDaltonizerPreferenceFragmentTest {
+public class ToggleDaltonizerPreferenceFragmentTest extends
+        BaseShortcutFragmentTestCases<ToggleDaltonizerPreferenceFragment> {
     private static final String MAIN_SWITCH_PREF_KEY = "daltonizer_switch_preference_key";
     private static final String SHORTCUT_PREF_KEY = "daltonizer_shortcut_key";
     private final Context mContext = ApplicationProvider.getApplicationContext();
     private FragmentScenario<ToggleDaltonizerPreferenceFragment> mFragScenario = null;
     private ToggleDaltonizerPreferenceFragment mFragment;
-    private ShadowAccessibilityManager mA11yManager =
-            Shadow.extract(mContext.getSystemService(AccessibilityManager.class));
-
-
-    @Before
-    public void setUp() {
-        mContext.setTheme(androidx.appcompat.R.style.Theme_AppCompat);
-    }
 
     @After
     public void cleanUp() {
@@ -101,65 +84,6 @@ public class ToggleDaltonizerPreferenceFragmentTest {
         launchFragment();
 
         assertThat(getMainSwitch().isChecked()).isFalse();
-    }
-
-    @Test
-    public void clickShortcutToggle_shortcutWasOff_turnOnShortcutAndShowShortcutTutorial() {
-        mA11yManager.enableShortcutsForTargets(
-                /* enable= */ false, ALL, Set.of(DALTONIZER_COMPONENT_NAME.flattenToString()),
-                mContext.getUserId());
-        launchFragment();
-
-        ShortcutPreference pref = getShortcutToggle();
-        assertThat(pref).isNotNull();
-        assertThat(pref.isChecked()).isFalse();
-        PreferenceViewHolder viewHolder =
-                inflateShortcutPreferenceView(mFragment.getContext(), pref);
-
-        View widget = viewHolder.findViewById(pref.getSwitchResId());
-        assertThat(widget).isNotNull();
-        widget.performClick();
-        ShadowLooper.idleMainLooper();
-
-        assertThat(pref.isChecked()).isTrue();
-        assertShortcutsTutorialDialogShown(mFragment);
-    }
-
-    @Test
-    public void clickShortcutToggle_shortcutWasOn_turnOffShortcutAndNoTutorialShown() {
-        mA11yManager.enableShortcutsForTargets(
-                /* enable= */ true, HARDWARE,
-                Set.of(DALTONIZER_COMPONENT_NAME.flattenToString()), mContext.getUserId());
-        launchFragment();
-
-        ShortcutPreference pref = getShortcutToggle();
-        assertThat(pref).isNotNull();
-        assertThat(pref.isChecked()).isTrue();
-        PreferenceViewHolder viewHolder = inflateShortcutPreferenceView(
-                mFragment.getContext(), pref);
-
-        View widget = viewHolder.findViewById(pref.getSwitchResId());
-        assertThat(widget).isNotNull();
-        widget.performClick();
-        ShadowLooper.idleMainLooper();
-
-        assertThat(pref.isChecked()).isFalse();
-        assertThat(mA11yManager.getAccessibilityShortcutTargets(HARDWARE)).isEmpty();
-        assertThat(ShadowDialog.getLatestDialog()).isNull();
-    }
-
-    @Test
-    public void clickShortcutSettings_showEditShortcutsScreenWithoutChangingShortcutToggleState() {
-        launchFragment();
-
-        final ShortcutPreference pref = getShortcutToggle();
-        assertThat(pref).isNotNull();
-        final boolean shortcutToggleState = pref.isChecked();
-        pref.performClick();
-        ShadowLooper.idleMainLooper();
-
-        assertEditShortcutsScreenShown(mFragment);
-        assertThat(pref.isChecked()).isEqualTo(shortcutToggleState);
     }
 
     @Test
@@ -270,20 +194,31 @@ public class ToggleDaltonizerPreferenceFragmentTest {
                 R.xml.accessibility_daltonizer_settings);
     }
 
-    private void launchFragment() {
+    @NonNull
+    @Override
+    public ToggleDaltonizerPreferenceFragment launchFragment() {
         mFragScenario = FragmentScenario.launch(
                 ToggleDaltonizerPreferenceFragment.class,
                 /* bundle= */ null,
                 androidx.appcompat.R.style.Theme_AppCompat,
                 (FragmentFactory) null).moveToState(Lifecycle.State.RESUMED);
         mFragScenario.onFragment(frag -> mFragment = frag);
+        return mFragment;
     }
 
     private TwoStatePreference getMainSwitch() {
         return mFragment.findPreference(MAIN_SWITCH_PREF_KEY);
     }
 
-    private ShortcutPreference getShortcutToggle() {
+    @Nullable
+    @Override
+    public ShortcutPreference getShortcutToggle() {
         return mFragment.findPreference(SHORTCUT_PREF_KEY);
+    }
+
+    @NonNull
+    @Override
+    public ComponentName getFeatureComponent() {
+        return DALTONIZER_COMPONENT_NAME;
     }
 }

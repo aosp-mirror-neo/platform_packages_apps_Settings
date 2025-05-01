@@ -27,7 +27,6 @@ import com.android.settingslib.metadata.ProvidePreferenceScreen
 import com.android.settingslib.metadata.preferenceHierarchy
 import com.android.settingslib.preference.PreferenceScreenCreator
 import com.android.settingslib.widget.SettingsThemeHelper.isExpressiveTheme
-import com.android.settingslib.widget.UntitledPreferenceCategoryMetadata
 
 @ProvidePreferenceScreen(PowerUsageSummaryScreen.KEY)
 class PowerUsageSummaryScreen :
@@ -60,7 +59,7 @@ class PowerUsageSummaryScreen :
     override fun getPreferenceHierarchy(context: Context) =
         preferenceHierarchy(context, this) {
             +BatteryHeaderPreference()
-            +UntitledPreferenceCategoryMetadata("percentage_category") += {
+            +PreferenceCategory("percentage_category", 0) += {
                 +BatteryPercentageSwitchPreference()
             }
         }

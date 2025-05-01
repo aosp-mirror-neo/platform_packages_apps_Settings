@@ -44,7 +44,7 @@ public class AccessibilityFooterPreferenceController extends BasePreferenceContr
 
     @Override
     public int getAvailabilityStatus() {
-        return AVAILABLE;
+        return AVAILABLE_UNSEARCHABLE;
     }
 
     @Override
@@ -140,5 +140,12 @@ public class AccessibilityFooterPreferenceController extends BasePreferenceContr
 
         // Grouping subcomponents to make more accessible.
         footerPreference.setSelectable(false);
+
+        if (TextUtils.isEmpty(footerPreference.getTitle())
+                && TextUtils.isEmpty(footerPreference.getSummary())) {
+            footerPreference.setVisible(false);
+        } else {
+            footerPreference.setVisible(true);
+        }
     }
 }
