@@ -4669,7 +4669,7 @@
         </activity>
 
         <activity android:name=".enterprise.ActionDisabledByAdminDialog"
-                  android:theme="@style/Theme.AlertDialog.SettingsLib"
+                  android:theme="@style/Theme.AlertDialog"
                 android:taskAffinity="com.android.settings.enterprise"
                 android:excludeFromRecents="true"
                 android:exported="true"

@@ -33,6 +33,7 @@ import android.net.wifi.WifiEnterpriseConfig;
 import android.net.wifi.WifiEnterpriseConfig.Eap;
 import android.net.wifi.WifiEnterpriseConfig.Phase2;
 import android.net.wifi.WifiManager;
+import android.os.UserManager;
 import android.security.keystore.KeyProperties;
 import android.telephony.SubscriptionInfo;
 import android.telephony.SubscriptionManager;
@@ -279,6 +280,8 @@ public class WifiConfigController2 implements TextWatcher,
                 wifiEntry.getSecurity();
         mIsTrustOnFirstUseSupported = mWifiManager.isTrustOnFirstUseSupported();
 
+        UserManager mUserManager = mContext.getSystemService(UserManager.class);
+
         final Resources res = mContext.getResources();
 
         mLevels = res.getStringArray(R.array.wifi_signal);
@@ -347,16 +350,19 @@ public class WifiConfigController2 implements TextWatcher,
         mEditConfigurationSwitch =
             (Switch) mView.findViewById(R.id.edit_wifi_network_configuration);
 
+        if (com.android.settings.connectivity.Flags.wifiMultiuser()) {
+            int userCount = mUserManager.getUserCount();
+            mSharedSwitch.setOnCheckedChangeListener(this);
+            mView.findViewById(R.id.sharing_toggle_fields)
+                    .setVisibility(userCount > 1 ? View.VISIBLE : View.GONE);
+            mEditConfigurationSwitch.setEnabled(false);
+            mView.findViewById(R.id.edit_wifi_network_configuration_fields)
+                    .setVisibility(userCount > 1 ? View.VISIBLE : View.GONE);
+        }
+
         if (mWifiEntry == null) { // new network
             configureSecuritySpinner();
             mConfigUi.setSubmitButton(res.getString(R.string.wifi_save));
-            if (com.android.settings.connectivity.Flags.wifiMultiuser()) {
-                mSharedSwitch.setOnCheckedChangeListener(this);
-                mView.findViewById(R.id.sharing_toggle_fields).setVisibility(View.VISIBLE);
-                mEditConfigurationSwitch.setEnabled(false);
-                mView.findViewById(R.id.edit_wifi_network_configuration_fields)
-                        .setVisibility(View.VISIBLE);
-            }
         } else {
             mConfigUi.setTitle(mWifiEntry.getTitle());
 
