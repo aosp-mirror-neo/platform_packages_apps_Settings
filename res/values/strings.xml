@@ -5095,6 +5095,21 @@
     <!-- Text for 'Done' button in gesture education [CHAR LIMIT=10] -->
     <string name="gesture_button_done">Done</string>
 
+    <!-- Title text for 'Customize action corners' preference. This preference allows the user to select actions to be triggered when moving the cursor to a corner. [CHAR LIMIT=60] -->
+    <string name="action_corners_title">Customize action corners</string>
+    <!-- Summary text for 'Customize action corners' preference. [CHAR LIMIT=NONE] -->
+    <string name="action_corners_summary">Use cursors to navigate the system</string>
+    <!-- Intro text for 'Customize action corners'. [CHAR LIMIT=NONE] -->
+    <string name="action_corners_intro">Choose the following areas to customize action corners</string>
+    <!-- Text for 'Bottom-left corner'. [CHAR LIMIT=60] -->
+    <string name="action_corners_bottom_left_title">Bottom-left corner</string>
+    <!-- Text for 'Bottom-right corner'. [CHAR LIMIT=60] -->
+    <string name="action_corners_bottom_right_title">Bottom-right corner</string>
+    <!-- Text for 'Top-left corner'. [CHAR LIMIT=60] -->
+    <string name="action_corners_top_left_title">Top-left corner</string>
+    <!-- Text for 'Top-right corner'. [CHAR LIMIT=60] -->
+    <string name="action_corners_top_right_title">Top-right corner</string>
+
     <!-- Title for the button to trigger the 'modifier keys settings' page. [CHAR LIMIT=35] -->
     <string name="modifier_keys_settings">Modifier keys</string>
     <!-- Summary text for the 'modifier_keys_settings' page. [CHAR LIMIT=100] -->
