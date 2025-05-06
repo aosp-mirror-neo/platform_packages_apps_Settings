@@ -5922,6 +5922,12 @@
     <!-- Title for the switch setting to toggle on/off the revert to left click after action. [CHAR LIMIT=NONE] -->
     <string name="autoclick_revert_to_left_click_title">Revert to left click after action</string>
     <!-- Title for preference screen for configuring vibrations. [CHAR LIMIT=NONE] -->
+    <!-- TODO(b/394683600): Update string to translatable once approved by UXW. -->
+    <!-- Title for autoclick navigation recommendation dialog [CHAR LIMIT=NONE] -->
+    <string name="accessibility_autoclick_navigation_title">Autoclick works best with 3-button navigation</string>
+    <!-- TODO(b/394683600): Update string to translatable once approved by UXW. -->
+    <!-- Message for autoclick navigation recommendation dialog [CHAR LIMIT=NONE] -->
+    <string name="accessibility_autoclick_navigation_message">Enable 3-button navigation in settings so that you can use autoclick to go home, go back, and open recent apps.</string>
     <string name="accessibility_vibration_settings_title">Vibration &amp; haptics</string>
     <!-- Summary for preference screen for configuring vibrations. [CHAR LIMIT=NONE] -->
     <string name="accessibility_vibration_settings_summary">Control the vibration strength for different usages</string>
@@ -11718,7 +11724,7 @@ Data usage charges may apply.</string>
     <!-- Title text for tip suggesting user to modify lockscreen shortcut. [CHAR LIMIT=100] -->
     <string name="double_tap_power_lockscreen_shortcut_tip_title">Change lock screen shortcut?</string>
     <!-- Description text for tip suggesting user to modify lockscreen shortcut. [CHAR LIMIT=200]-->
-    <string name="double_tap_power_lockscreen_shortcut_tip_description"><xliff:g id="double_tap_power_target_action" example="Camera">%1$s</xliff:g> is also your lock screen shortcut. Want to change it?</string>
+    <string name="double_tap_power_lockscreen_shortcut_tip_description"><xliff:g id="double_tap_power_target_action" example="Camera">%1$s</xliff:g> is also your lock screen shortcut. Tap to change it.</string>
     <!-- Title for footer explaining why wallet is not available for the double tap power gesture. [CHAR LIMIT=200]-->
     <string name="double_tap_power_wallet_footer_title">Your current default wallet app does not support this gesture</string>
     <!-- Summary for footer explaining why wallet is not available for the double tap power gesture. [CHAR LIMIT=100]-->
