@@ -14607,13 +14607,15 @@ Data usage charges may apply.</string>
     <string name="supervision_pin_reset_success_toast">PIN updated</string>
     <string name="accessibility_illustration_content_description"><xliff:g id="feature" example="Select to Speak">%1$s</xliff:g> animation</string>
 
-    <!-- Light theme customization for Face Education lottie illustration. Not translatable. -->
-    <string-array name="fac_education_illustration" translatable="false">
+    <!-- Light theme customization for lottie illustration. Not translatable. -->
+    <string-array name="va_animation_customization" translatable="false">
         <item>.surfaceContainer:@sud_system_surface_container_light</item>
         <item>.primary:@sud_system_primary_light</item>
         <item>.primaryContainer:@sud_system_primary_container_light</item>
-        <item>.outline:@sud_system_outline_light</item>
-        <item>.onSecondaryContainer:@sud_system_secondary_container_light</item>
+        <item>.onPrimary:@sud_system_on_primary_light</item>
+        <item>.sContainerLowest:@sud_system_surface_container_lowest_light</item>
+        <item>.secondaryContainer:@sud_system_secondary_container_light</item>
+        <item>.onSecondary:@sud_system_on_secondary_light</item>
         <item>.tertiary:@sud_system_tertiary_light</item>
         <item>.inversePrimary:@sud_system_primary_inverse_light</item>
     </string-array>
