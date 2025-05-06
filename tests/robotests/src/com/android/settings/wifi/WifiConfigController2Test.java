@@ -652,13 +652,17 @@ public class WifiConfigController2Test {
     }
 
     @Test
-    public void getSharingSettingsPosition_whenAdvancedToggled_shouldBeFirst() {
-        final LinearLayout advancedFieldsLayout = mView.findViewById(R.id.wifi_advanced_fields);
-        final LinearLayout shareSettingLayout = mView.findViewById(R.id.sharing_toggle_fields);
+    public void loginScreenMode() {
+        createController(mWifiEntry, WifiConfigUiBase2.MODE_LOGIN_SCREEN, false);
+        assertThat(mView.findViewById(R.id.shared_network_login_screen_warning).getVisibility())
+                .isEqualTo(View.VISIBLE);
+        assertThat(mView.findViewById(R.id.sharing_toggle_fields).getVisibility())
+                .isEqualTo(View.GONE);
+        assertThat(mView.findViewById(R.id.edit_wifi_network_configuration_fields).getVisibility())
+                .isEqualTo(View.GONE);
 
-        final LinearLayout firstChild = (LinearLayout) advancedFieldsLayout.getChildAt(0);
-
-        assertThat(firstChild).isEqualTo(shareSettingLayout);
+        WifiConfiguration wifiConfiguration = mController.getConfig();
+        assertThat(wifiConfiguration.shared).isTrue();
     }
 
     @Test

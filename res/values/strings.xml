@@ -2605,6 +2605,8 @@
     <string name="wifi_scan_always_confirm_deny">Deny</string>
     <!-- Error message displayed below the Wi-Fi EditText when the filed is required. [CHAR LIMIT=NONE] -->
     <string name="wifi_field_required">*required</string>
+    <!-- Message to inform user, the network can only be configured at a shared network.  [CHAR LIMIT=250] -->
+    <string name="wifi_shared_network_login_screen_warning">This is a shared network. You can change this setting once logged in.</string>
     <!-- Label for the share wifi network toggle. [CHAR LIMIT=250] -->
     <string name="share_wifi_network">Share this network with other device users</string>
     <!-- Label for the share wifi network summary. [CHAR LIMIT=NONE] -->
@@ -5894,44 +5896,31 @@
     <!-- Description for the seekbar that adjust auto click time. [CHAR_LIMIT=NONE] -->
     <string name="accessibility_autoclick_seekbar_desc">Auto click time</string>
     <!-- Title for the toggle button that turns on/off the autoclick setting. [CHAR_LIMIT=NONE] -->
-    <!-- TODO(b/394683600): Update string to translatable once approved by UXW. -->
-    <string name="accessibility_autoclick_main_switch_title" translatable="false">Use autoclick</string>
+    <string name="accessibility_autoclick_main_switch_title">Use autoclick (dwell timing)</string>
     <!-- Title for the toggle button that turns on/off the autoclick shortcut. [CHAR_LIMIT=NONE] -->
-    <!-- TODO(b/394683600): Update string to translatable once approved by UXW. -->
-    <string name="accessibility_autoclick_shortcut_title" translatable="false">Autoclick shortcut</string>
+    <string name="accessibility_autoclick_shortcut_title">Autoclick shortcut</string>
     <!-- Title for the alert dialog that adjust the time for the mouse to hover before autoclick performs. [CHAR_LIMIT=NONE] -->
-    <!-- TODO(b/394683600): Update string to translatable once approved by UXW. -->
-    <string name="autoclick_delay_before_click_title" translatable="false">Delay before click</string>
+    <string name="autoclick_delay_before_click_title">Delay before click</string>
     <!-- Summary for the alert dialog that adjust the time for the mouse to hover before autoclick performs. [CHAR_LIMIT=NONE] -->
-    <!-- TODO(b/394683600): Update string to translatable once approved by UXW. -->
-    <string name="autoclick_delay_before_click_summary" translatable="false">Time it takes to click after the cursor stops moving</string>
+    <string name="autoclick_delay_before_click_summary">Set the length of time it takes to click after the cursor stops moving</string>
     <!-- Title for the alert dialog that adjust auto click cursor area size. [CHAR_LIMIT=NONE] -->
-    <!-- TODO(b/394683600): Update string to translatable once approved by UXW. -->
-    <string name="autoclick_cursor_area_size_title" translatable="false">Click area</string>
+    <string name="autoclick_cursor_area_size_title">Click area</string>
     <!-- Summary for the alert dialog that adjust auto click cursor area size. [CHAR_LIMIT=NONE] -->
-    <!-- TODO(b/394683600): Update string to translatable once approved by UXW. -->
-    <string name="autoclick_cursor_area_size_summary" translatable="false">The area where the cursor can move freely without canceling the click once the countdown starts</string>
+    <string name="autoclick_cursor_area_size_summary">If the cursor moves outside of the click area, autoclick is cancelled</string>
     <!-- Option for the autoclick area dialog that adjust auto click cursor area size to extra large. [CHAR_LIMIT=NONE] -->
-    <!-- TODO(b/394683600): Update string to translatable once approved by UXW. -->
-    <string name="autoclick_cursor_area_size_dialog_option_extra_large" translatable="false">Extra large</string>
+    <string name="autoclick_cursor_area_size_dialog_option_extra_large">Extra large</string>
     <!-- Option for the autoclick area dialog that adjust auto click cursor area size to large. [CHAR_LIMIT=NONE] -->
-    <!-- TODO(b/394683600): Update string to translatable once approved by UXW. -->
-    <string name="autoclick_cursor_area_size_dialog_option_large" translatable="false">Large</string>
+    <string name="autoclick_cursor_area_size_dialog_option_large">Large</string>
     <!-- Option for the autoclick area dialog that adjust auto click cursor area size to Medium(Default). [CHAR_LIMIT=NONE] -->
-    <!-- TODO(b/394683600): Update string to translatable once approved by UXW. -->
-    <string name="autoclick_cursor_area_size_dialog_option_default" translatable="false">Default</string>
+    <string name="autoclick_cursor_area_size_dialog_option_default">Default</string>
     <!-- Option for the autoclick area dialog that adjust auto click cursor area size to small. [CHAR_LIMIT=NONE] -->
-    <!-- TODO(b/394683600): Update string to translatable once approved by UXW. -->
-    <string name="autoclick_cursor_area_size_dialog_option_small" translatable="false">Small</string>
+    <string name="autoclick_cursor_area_size_dialog_option_small">Small</string>
     <!-- Option for the autoclick area dialog that adjust auto click cursor area size to extra small. [CHAR_LIMIT=NONE] -->
-    <!-- TODO(b/394683600): Update string to translatable once approved by UXW. -->
-    <string name="autoclick_cursor_area_size_dialog_option_extra_small" translatable="false">Extra small</string>
+    <string name="autoclick_cursor_area_size_dialog_option_extra_small">Extra small</string>
     <!-- Title for the toggle button that turns on/off the autoclick setting of ignoring minor cursor movement. [CHAR_LIMIT=NONE] -->
-    <!-- TODO(b/388845718): Update string to translatable once approved by UXW. -->
-    <string name="autoclick_ignore_minor_cursor_movement_title" translatable="false">Ignore minor cursor movement</string>
-    <!-- TODO(b/394683600): Update string to translatable once approved by UXW. -->
+    <string name="autoclick_ignore_minor_cursor_movement_title">Ignore minor cursor movement</string>
     <!-- Title for the switch setting to toggle on/off the revert to left click after action. [CHAR LIMIT=NONE] -->
-    <string name="autoclick_revert_to_left_click_title" translatable="false">Revert to left click after action</string>
+    <string name="autoclick_revert_to_left_click_title">Revert to left click after action</string>
     <!-- Title for preference screen for configuring vibrations. [CHAR LIMIT=NONE] -->
     <string name="accessibility_vibration_settings_title">Vibration &amp; haptics</string>
     <!-- Summary for preference screen for configuring vibrations. [CHAR LIMIT=NONE] -->
@@ -9363,8 +9352,11 @@ Data usage charges may apply.</string>
     <!-- Notification Settings > Notifications on lock screen > Title for showing notifications on the lock screen. [CHAR LIMIT=100] -->
     <string name="lockscreen_notification_what_to_show_title">What to show on lock screen</string>
 
-    <!-- Notification Settings > Notifications on lock screen > Title for showing seen notifications toggle. [CHAR LIMIT=60] -->
-    <string name="lock_screen_notification_show_seen_title">Show seen notifications</string>
+    <!-- Notification Settings > Notifications on lock screen > Title for showing viewed notifications toggle at full list mode. [CHAR LIMIT=NONE] -->
+    <string name="lock_screen_notification_show_viewed_notifs">Show viewed notifications</string>
+
+    <!-- Notification Settings > Notifications on lock screen > Title for showing seen notifications toggle at compact mode. [CHAR LIMIT=NONE] -->
+    <string name="lock_screen_notification_show_viewed_notif_icons">Show viewed notification icons</string>
 
     <!-- Notification Settings > Notifications on lock screen > Title for hiding silent notifications toggle. [CHAR LIMIT=60] -->
     <string name="lock_screen_notification_show_silent_title">Show silent notifications</string>
@@ -14615,15 +14607,13 @@ Data usage charges may apply.</string>
     <string name="supervision_pin_reset_success_toast">PIN updated</string>
     <string name="accessibility_illustration_content_description"><xliff:g id="feature" example="Select to Speak">%1$s</xliff:g> animation</string>
 
-    <!-- Light theme customization for lottie illustration. Not translatable. -->
-    <string-array name="va_animation_customization" translatable="false">
+    <!-- Light theme customization for Face Education lottie illustration. Not translatable. -->
+    <string-array name="fac_education_illustration" translatable="false">
         <item>.surfaceContainer:@sud_system_surface_container_light</item>
         <item>.primary:@sud_system_primary_light</item>
         <item>.primaryContainer:@sud_system_primary_container_light</item>
-        <item>.onPrimary:@sud_system_on_primary_light</item>
-        <item>.sContainerLowest:@sud_system_surface_container_lowest_light</item>
-        <item>.secondaryContainer:@sud_system_secondary_container_light</item>
-        <item>.onSecondary:@sud_system_on_secondary_light</item>
+        <item>.outline:@sud_system_outline_light</item>
+        <item>.onSecondaryContainer:@sud_system_secondary_container_light</item>
         <item>.tertiary:@sud_system_tertiary_light</item>
         <item>.inversePrimary:@sud_system_primary_inverse_light</item>
     </string-array>
