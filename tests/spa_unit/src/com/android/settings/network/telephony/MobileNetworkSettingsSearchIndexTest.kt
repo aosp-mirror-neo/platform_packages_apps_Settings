@@ -27,9 +27,11 @@ import androidx.test.ext.junit.runners.AndroidJUnit4
 import com.android.settings.R
 import com.android.settings.network.telephony.MobileNetworkSettingsSearchIndex.Companion.isMobileNetworkSettingsSearchable
 import com.android.settings.network.telephony.MobileNetworkSettingsSearchIndex.MobileNetworkSettingsSearchResult
-import com.android.settingslib.spa.search.SpaSearchLanding.BundleValue
-import com.android.settingslib.spa.search.SpaSearchLanding.SpaSearchLandingFragment
-import com.android.settingslib.spa.search.SpaSearchLanding.SpaSearchLandingKey
+import com.android.settings.spa.SpaSearchLanding.BundleValue
+import com.android.settings.spa.SpaSearchLanding.SpaSearchLandingFragment
+import com.android.settings.spa.SpaSearchLanding.SpaSearchLandingKey
+import com.android.settings.spa.search.SpaSearchLandingActivity
+import com.android.settings.spa.search.decodeToSpaSearchLandingKey
 import com.google.common.truth.Truth.assertThat
 import org.junit.Before
 import org.junit.Test
@@ -114,14 +116,16 @@ class MobileNetworkSettingsSearchIndexTest {
     }
 
     @Test
-    fun getSearchIndexablePage() {
-        val searchIndexablePage = mobileNetworkSettingsSearchIndex.getSearchIndexablePage()
+    fun createSearchIndexableData() {
+        val searchIndexableData = mobileNetworkSettingsSearchIndex.createSearchIndexableData()
 
-        assertThat(searchIndexablePage.targetClass).isEqualTo(MobileNetworkSettings::class.java)
-        val items = searchIndexablePage.itemsProvider(context)
-        assertThat(items).hasSize(1)
-        val item = items.single()
-        assertThat(item.searchLandingKey)
+        assertThat(searchIndexableData.targetClass).isEqualTo(MobileNetworkSettings::class.java)
+        val dynamicRawDataToIndex =
+            searchIndexableData.searchIndexProvider.getDynamicRawDataToIndex(context, true)
+        assertThat(dynamicRawDataToIndex).hasSize(1)
+        val rawData = dynamicRawDataToIndex[0]
+        val key = decodeToSpaSearchLandingKey(rawData.key)
+        assertThat(key)
             .isEqualTo(
                 SpaSearchLandingKey.newBuilder()
                     .setFragment(
@@ -132,8 +136,12 @@ class MobileNetworkSettingsSearchIndexTest {
                                 Settings.EXTRA_SUB_ID,
                                 BundleValue.newBuilder().setIntValue(SUB_ID_1).build()))
                     .build())
-        assertThat(item.pageTitle).isEqualTo("SIMs > $SUB_DISPLAY_NAME_1")
-        assertThat(item.itemTitle).isEqualTo(TITLE)
+        assertThat(rawData.title).isEqualTo(TITLE)
+        assertThat(rawData.intentAction).isEqualTo("android.settings.SPA_SEARCH_LANDING")
+        assertThat(rawData.intentTargetClass)
+            .isEqualTo(SpaSearchLandingActivity::class.qualifiedName)
+        assertThat(rawData.className).isEqualTo(MobileNetworkSettings::class.java.name)
+        assertThat(rawData.screenTitle).isEqualTo("SIMs > $SUB_DISPLAY_NAME_1")
     }
 
     private companion object {

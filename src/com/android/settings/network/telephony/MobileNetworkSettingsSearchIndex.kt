@@ -28,15 +28,18 @@ import com.android.settings.network.telephony.NrAdvancedCallingPreferenceControl
 import com.android.settings.network.telephony.RoamingPreferenceController.Companion.RoamingSearchItem
 import com.android.settings.network.telephony.VideoCallingPreferenceController.Companion.VideoCallingSearchItem
 import com.android.settings.network.telephony.WifiCallingPreferenceController.Companion.WifiCallingSearchItem
-import com.android.settingslib.spa.search.SpaSearchIndexableItem
-import com.android.settingslib.spa.search.SpaSearchIndexablePage
-import com.android.settingslib.spa.search.SpaSearchLanding.BundleValue
-import com.android.settingslib.spa.search.SpaSearchLanding.SpaSearchLandingFragment
-import com.android.settingslib.spa.search.SpaSearchLanding.SpaSearchLandingKey
+import com.android.settings.spa.SpaSearchLanding.BundleValue
+import com.android.settings.spa.SpaSearchLanding.SpaSearchLandingFragment
+import com.android.settings.spa.SpaSearchLanding.SpaSearchLandingKey
+import com.android.settings.spa.search.SpaSearchRepository.Companion.createSearchIndexableRaw
+import com.android.settings.spa.search.SpaSearchRepository.Companion.searchIndexProviderOf
+import com.android.settingslib.search.SearchIndexableData
+import com.android.settingslib.search.SearchIndexableRaw
+import com.android.settingslib.spaprivileged.settingsprovider.settingsGlobalBoolean
 
 class MobileNetworkSettingsSearchIndex(
     private val searchItemsFactory: (context: Context) -> List<MobileNetworkSettingsSearchItem> =
-        ::createSearchItems
+        ::createSearchItems,
 ) {
     data class MobileNetworkSettingsSearchResult(
         val key: String,
@@ -48,37 +51,38 @@ class MobileNetworkSettingsSearchIndex(
         fun getSearchResult(subId: Int): MobileNetworkSettingsSearchResult?
     }
 
-    fun getSearchIndexablePage(): SpaSearchIndexablePage {
-        return SpaSearchIndexablePage(targetClass = MobileNetworkSettings::class.java) { context ->
+    fun createSearchIndexableData(): SearchIndexableData {
+        val searchIndexProvider = searchIndexProviderOf { context ->
             if (!isMobileNetworkSettingsSearchable(context)) {
-                return@SpaSearchIndexablePage emptyList()
+                return@searchIndexProviderOf emptyList()
             }
             val subInfos = context.requireSubscriptionManager().activeSubscriptionInfoList
             if (subInfos.isNullOrEmpty()) {
-                return@SpaSearchIndexablePage emptyList()
+                return@searchIndexProviderOf emptyList()
             }
             searchItemsFactory(context).flatMap { searchItem ->
-                spaSearchIndexableItemList(context, searchItem, subInfos)
+                searchIndexableRawList(context, searchItem, subInfos)
             }
         }
+        return SearchIndexableData(MobileNetworkSettings::class.java, searchIndexProvider)
     }
 
-    private fun spaSearchIndexableItemList(
+    private fun searchIndexableRawList(
         context: Context,
         searchItem: MobileNetworkSettingsSearchItem,
-        subInfos: List<SubscriptionInfo>,
-    ): List<SpaSearchIndexableItem> =
+        subInfos: List<SubscriptionInfo>
+    ): List<SearchIndexableRaw> =
         subInfos.mapNotNull { subInfo ->
             searchItem.getSearchResult(subInfo.subscriptionId)?.let { searchResult ->
-                searchIndexableItem(context, searchResult, subInfo)
+                searchIndexableRaw(context, searchResult, subInfo)
             }
         }
 
-    private fun searchIndexableItem(
+    private fun searchIndexableRaw(
         context: Context,
         searchResult: MobileNetworkSettingsSearchResult,
         subInfo: SubscriptionInfo,
-    ): SpaSearchIndexableItem {
+    ): SearchIndexableRaw {
         val key =
             SpaSearchLandingKey.newBuilder()
                 .setFragment(
@@ -87,16 +91,16 @@ class MobileNetworkSettingsSearchIndex(
                         .setPreferenceKey(searchResult.key)
                         .putArguments(
                             Settings.EXTRA_SUB_ID,
-                            BundleValue.newBuilder().setIntValue(subInfo.subscriptionId).build(),
-                        )
-                )
+                            BundleValue.newBuilder().setIntValue(subInfo.subscriptionId).build()))
                 .build()
         val simsTitle = context.getString(R.string.provider_network_settings_title)
-        return SpaSearchIndexableItem(
-            searchLandingKey = key,
-            pageTitle = "$simsTitle > ${subInfo.displayName}",
+        return createSearchIndexableRaw(
+            context = context,
+            spaSearchLandingKey = key,
             itemTitle = searchResult.title,
             keywords = searchResult.keywords,
+            indexableClass = MobileNetworkSettings::class.java,
+            pageTitle = "$simsTitle > ${subInfo.displayName}",
         )
     }
 

@@ -5430,7 +5430,7 @@
         <activity android:name=".spa.SpaAppBridgeActivity" android:exported="false"/>
 
         <activity
-            android:name=".spa.search.SettingsSpaSearchLandingActivity"
+            android:name=".spa.search.SpaSearchLandingActivity"
             android:exported="true">
             <intent-filter android:priority="1">
                 <action android:name="android.settings.SPA_SEARCH_LANDING" />

@@ -3331,7 +3331,7 @@
     <string name="screensaver_settings_summary_off">Off</string>
     <!-- Dream settings screen, action label, when to dream [CHAR LIMIT=20] -->
     <string name="screensaver_settings_when_to_dream">When to show</string>
-    <!-- Dream settings screen, action label, what to show in low light [CHAR LIMIT=30] -->
+    <!-- Dream settings screen, action label, what to show in low light [CHAR LIMIT=NONE] -->
     <string name="screensaver_settings_low_light_mode">Low light mode</string>
     <!-- [CHAR LIMIT=40] Display settings screen, setting option name to change whether the device wakes up when a lift gesture is detected. -->
     <string name="lift_to_wake_title">Lift to wake</string>
@@ -9060,6 +9060,10 @@ Data usage charges may apply.</string>
     <!-- App Info > Notifications: Title for section where notifications bundles can be configured [CHAR LIMIT=80]-->
     <string name="notification_bundles">Notification organizer</string>
 
+
+    <!-- App Info > Notifications: Title for section where notifications AI features can be configured [CHAR LIMIT=80]-->
+    <string name="notification_ai_features_title">AI-powered notifications</string>
+
     <!-- App Info > Notifications: Title for section where notifications summaries can be configured [CHAR LIMIT=80]-->
     <string name="notification_summarization_title">Notification summaries</string>
     <string name="notification_summarization_summary">Get quick recaps of longer messages</string>
@@ -9496,6 +9500,9 @@ Data usage charges may apply.</string>
     <string name="notification_app_level_bundle_subtext">Notifications with similar themes will be silenced and grouped together for a quieter experience</string>
     <string name="notification_bundle_excluded_description">Notifications from these apps won\’t be bundled</string>
     <string name="notification_bundle_manage_excluded_apps_title">Allow notification bundling for apps</string>
+
+    <!-- Label for switch enabling notification adjustments (notification organizer, summaries) for work profile -->
+    <string name="notification_adjustment_work_switch_title">Apply to work profile apps</string>
 
     <!-- Title for managing VR (virtual reality) helper services. [CHAR LIMIT=50] -->
     <string name="vr_listeners_title">VR helper services</string>

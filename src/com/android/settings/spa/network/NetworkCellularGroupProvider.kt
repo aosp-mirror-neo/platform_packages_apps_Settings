@@ -53,14 +53,13 @@ import com.android.settings.network.telephony.MobileDataRepository
 import com.android.settings.network.telephony.SimRepository
 import com.android.settings.network.telephony.requireSubscriptionManager
 import com.android.settings.spa.network.PrimarySimRepository.PrimarySimInfo
+import com.android.settings.spa.search.SearchablePage
 import com.android.settings.wifi.WifiPickerTrackerHelper
 import com.android.settingslib.spa.framework.common.SettingsEntryBuilder
 import com.android.settingslib.spa.framework.common.SettingsPageProvider
 import com.android.settingslib.spa.framework.common.createSettingsPage
 import com.android.settingslib.spa.framework.compose.navigator
 import com.android.settingslib.spa.framework.compose.rememberContext
-import com.android.settingslib.spa.search.SearchablePage
-import com.android.settingslib.spa.search.SearchablePage.SearchItem
 import com.android.settingslib.spa.widget.preference.Preference
 import com.android.settingslib.spa.widget.preference.PreferenceModel
 import com.android.settingslib.spa.widget.scaffold.RegularScaffold
@@ -196,11 +195,11 @@ open class NetworkCellularGroupProvider : SettingsPageProvider, SearchablePage {
     override fun getPageTitleForSearch(context: Context): String =
         context.getString(R.string.provider_network_settings_title)
 
-    override fun getSearchItems(context: Context): List<SearchItem> {
+    override fun getSearchableTitles(context: Context): List<String> {
         if (!isPageSearchable(context)) return emptyList()
         return buildList {
             if (context.requireSubscriptionManager().activeSubscriptionInfoCount > 0) {
-                add(SearchItem(context.getString(R.string.mobile_data_settings_title)))
+                add(context.getString(R.string.mobile_data_settings_title))
             }
         }
     }
