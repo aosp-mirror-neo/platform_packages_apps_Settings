@@ -85,7 +85,7 @@
         <item name="colorSurface">@color/settingslib_colorSurface</item>
     </style>
 
-    <style name="Theme.SubSettings.Expressive.Base" parent="Theme.Settings.Expressive.NoActionBar">
+    <style name="Theme.SubSettings.Expressive" parent="Theme.Settings.Expressive.NoActionBar">
         <!-- Redefine the ActionBar style for contentInsetStart -->
         <item name="android:actionBarStyle">@style/Widget.ActionBar.SubSettings</item>
 
@@ -93,5 +93,7 @@
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
 
-    <style name="Theme.SubSettings.Expressive" parent="Theme.SubSettings.Expressive.Base"/>
+    <style name="Theme.Settings.Home.Expressive" parent="Theme.Settings.Expressive.NoActionBar">
+        <item name="android:colorBackground">@color/settingslib_materialColorSurfaceContainerLow</item>
+    </style>
 </resources>
