@@ -69,6 +69,8 @@ public class SatelliteSettingPreferenceController extends
     public SatelliteSettingPreferenceController(@NonNull Context context, @NonNull String key) {
         super(context, key);
         mCarrierConfigCache = CarrierConfigCache.getInstance(mContext);
+        mSatelliteManager = mContext.getSystemService(SatelliteManager.class);
+        mTelephonyManager = mContext.getSystemService(TelephonyManager.class);
     }
 
     /**
@@ -79,12 +81,15 @@ public class SatelliteSettingPreferenceController extends
     public void initialize(int subId) {
         logd("initialize(), subId=" + subId);
         mSubId = subId;
-        mSatelliteManager = mContext.getSystemService(SatelliteManager.class);
-        mTelephonyManager = mContext.getSystemService(TelephonyManager.class);
         if (mTelephonyManager != null) {
             mTelephonyManager = mTelephonyManager.createForSubscriptionId(subId);
         }
-        mCarrierConfigs = mCarrierConfigCache.getConfigForSubId(subId);
+        if (mCarrierConfigs == null) {
+            return;
+        }
+        mCarrierConfigs = mCarrierConfigCache.getSpecificConfigsForSubId(
+                subId, KEY_SATELLITE_ATTACH_SUPPORTED_BOOL,
+                KEY_CARRIER_ROAMING_NTN_CONNECT_TYPE_INT);
     }
 
     @Override
@@ -93,7 +98,15 @@ public class SatelliteSettingPreferenceController extends
             return UNSUPPORTED_ON_DEVICE;
         }
 
-        if (!mCarrierConfigs.getBoolean(KEY_SATELLITE_ATTACH_SUPPORTED_BOOL)) {
+        if (mCarrierConfigs.isEmpty()) {
+            // for search
+            mCarrierConfigs = mCarrierConfigCache.getSpecificConfigsForSubId(
+                    subId,
+                    KEY_SATELLITE_ATTACH_SUPPORTED_BOOL,
+                    KEY_CARRIER_ROAMING_NTN_CONNECT_TYPE_INT);
+        }
+
+        if (!mCarrierConfigs.getBoolean(KEY_SATELLITE_ATTACH_SUPPORTED_BOOL, false)) {
             return CONDITIONALLY_UNAVAILABLE;
         }
 
