@@ -2825,6 +2825,7 @@
 
         <activity android:name=".supervision.ConfirmSupervisionCredentialsActivity"
             android:exported="true"
+            android:excludeFromRecents="true"
             android:featureFlag="android.app.supervision.flags.supervision_manager_apis">
             <intent-filter>
                 <action android:name="android.app.supervision.action.CONFIRM_SUPERVISION_CREDENTIALS" />
@@ -2832,13 +2833,18 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".supervision.SetupSupervisionActivity" android:exported="false" />
+        <activity android:name=".supervision.SetupSupervisionActivity"
+            android:excludeFromRecents="true"
+            android:exported="false" />
 
         <activity
             android:name=".supervision.SupervisionPinRecoveryActivity"
+            android:excludeFromRecents="true"
             android:exported="false" />
 
-        <activity android:name=".supervision.SupervisionCredentialProxyActivity" android:exported="false"/>
+        <activity android:name=".supervision.SupervisionCredentialProxyActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"/>
 
         <activity android:name=".SetupRedactionInterstitial"
             android:enabled="false"
@@ -3478,6 +3484,15 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
+        <receiver android:name=".bluetooth.LeAudioProfileEnablementRequestReceiver"
+            android:exported="true"
+            android:permission="android.permission.BLUETOOTH_PRIVILEGED">
+            <intent-filter>
+                <action android:name="com.android.settings.bluetooth.UPDATE_LE_AUDIO_PROFILE" />
+            </intent-filter>
+        </receiver>
+
 
         <activity android:name="ActivityPicker"
                 android:label="@string/activity_picker_label"
