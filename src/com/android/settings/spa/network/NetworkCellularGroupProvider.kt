@@ -58,7 +58,6 @@ import com.android.settingslib.spa.framework.common.SettingsEntryBuilder
 import com.android.settingslib.spa.framework.common.SettingsPageProvider
 import com.android.settingslib.spa.framework.common.createSettingsPage
 import com.android.settingslib.spa.framework.compose.navigator
-import com.android.settingslib.spa.framework.compose.rememberContext
 import com.android.settingslib.spa.search.SearchablePage
 import com.android.settingslib.spa.search.SearchablePage.SearchItem
 import com.android.settingslib.spa.widget.preference.Preference
@@ -198,10 +197,11 @@ open class NetworkCellularGroupProvider : SettingsPageProvider, SearchablePage {
 
     override fun getSearchItems(context: Context): List<SearchItem> {
         if (!isPageSearchable(context)) return emptyList()
+        val activeSubscriptionCount =
+            context.requireSubscriptionManager().activeSubscriptionInfoCount
         return buildList {
-            if (context.requireSubscriptionManager().activeSubscriptionInfoCount > 0) {
-                add(getMobileDataSearchItem(context))
-            }
+            if (activeSubscriptionCount > 0) add(getMobileDataSearchItem(context))
+            if (activeSubscriptionCount >= 2) add(getAutomaticDataSwitchingSearchItem(context))
         }
     }
 
@@ -215,25 +215,10 @@ open class NetworkCellularGroupProvider : SettingsPageProvider, SearchablePage {
 
 @Composable
 fun MobileDataSectionImpl(mobileDataSelectedId: Int, nonDds: Int) {
-    val mobileDataRepository = rememberContext(::MobileDataRepository)
-
     Category(title = stringResource(id = R.string.mobile_data_settings_title)) {
         MobileDataSwitchPreference(subId = mobileDataSelectedId)
 
-        val isAutoDataEnabled by remember(nonDds) {
-            mobileDataRepository.isMobileDataPolicyEnabledFlow(
-                subId = nonDds,
-                policy = TelephonyManager.MOBILE_DATA_POLICY_AUTO_DATA_SWITCH
-            )
-        }.collectAsStateWithLifecycle(initialValue = null)
-        if (SubscriptionManager.isValidSubscriptionId(nonDds)) {
-            AutomaticDataSwitchingPreference(
-                isAutoDataEnabled = { isAutoDataEnabled },
-                setAutoDataEnabled = { newEnabled ->
-                    mobileDataRepository.setAutoDataSwitch(nonDds, newEnabled)
-                },
-            )
-        }
+        AutomaticDataSwitchingPreference(nonDds)
     }
 }
 

@@ -24,6 +24,7 @@ import android.view.View
 import androidx.annotation.VisibleForTesting
 import androidx.preference.Preference
 import com.android.settings.R
+import com.android.settings.SettingsActivity.EXTRA_FRAGMENT_ARG_KEY
 import com.android.settings.SettingsPreferenceFragment
 import com.android.settings.dashboard.DashboardFragment
 import com.android.settings.flags.Flags
@@ -47,7 +48,10 @@ class MobileNetworkListFragment : DashboardFragment() {
         super.onCreate(icicle)
 
         if (Flags.isDualSimOnboardingEnabled()) {
-            context?.startSpaActivity(NetworkCellularGroupProvider.fileName)
+            context?.startSpaActivity(
+                destination = NetworkCellularGroupProvider.fileName,
+                highlightItemKey = arguments?.getString(EXTRA_FRAGMENT_ARG_KEY),
+            )
             finish()
         }
     }
