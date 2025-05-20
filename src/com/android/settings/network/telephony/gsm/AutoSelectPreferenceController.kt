@@ -40,7 +40,6 @@ import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.android.settings.R
 import com.android.settings.Settings.NetworkSelectActivity
-import com.android.settings.flags.Flags
 import com.android.settings.network.CarrierConfigCache
 import com.android.settings.network.telephony.MobileNetworkUtils
 import com.android.settings.network.telephony.allowedNetworkTypesFlow
@@ -158,33 +157,30 @@ class AutoSelectPreferenceController @JvmOverloads constructor(
     }
 
     override fun onStart(owner: LifecycleOwner) {
-        if (Flags.satelliteOemSettingsUxMigration()) {
-            if (satelliteManager != null) {
-                try {
-                    satelliteManager.registerForModemStateChanged(
-                        mContext.mainExecutor, satelliteModemStateCallback
-                    )
-                    satelliteManager.registerForSelectedNbIotSatelliteSubscriptionChanged(
-                        mContext.mainExecutor, selectedNbIotSatelliteSubscriptionCallback
-                    )
-                } catch (e: IllegalStateException) {
-                    Log.w(TAG, "IllegalStateException $e")
-                }
+        if (satelliteManager != null) {
+            try {
+                satelliteManager.registerForModemStateChanged(
+                    mContext.mainExecutor, satelliteModemStateCallback
+                )
+                satelliteManager.registerForSelectedNbIotSatelliteSubscriptionChanged(
+                    mContext.mainExecutor, selectedNbIotSatelliteSubscriptionCallback
+                )
+            } catch (e: IllegalStateException) {
+                Log.w(TAG, "IllegalStateException $e")
             }
         }
+
     }
 
     override fun onStop(owner: LifecycleOwner) {
-        if (Flags.satelliteOemSettingsUxMigration()) {
-            if (satelliteManager != null) {
-                try {
-                    satelliteManager.unregisterForModemStateChanged(satelliteModemStateCallback)
-                    satelliteManager.unregisterForSelectedNbIotSatelliteSubscriptionChanged(
-                        selectedNbIotSatelliteSubscriptionCallback
-                    )
-                } catch (e: IllegalStateException) {
-                    Log.w(TAG, "IllegalStateException $e")
-                }
+        if (satelliteManager != null) {
+            try {
+                satelliteManager.unregisterForModemStateChanged(satelliteModemStateCallback)
+                satelliteManager.unregisterForSelectedNbIotSatelliteSubscriptionChanged(
+                    selectedNbIotSatelliteSubscriptionCallback
+                )
+            } catch (e: IllegalStateException) {
+                Log.w(TAG, "IllegalStateException $e")
             }
         }
     }
