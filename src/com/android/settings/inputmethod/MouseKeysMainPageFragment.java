@@ -26,6 +26,7 @@ import android.content.res.Configuration;
 import android.hardware.input.InputManager;
 import android.os.Bundle;
 import android.view.InputDevice;
+import android.view.View;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -164,6 +165,9 @@ public class MouseKeysMainPageFragment extends ShortcutFragment
             numKeyboardRecyclerView.setLayoutManager(new GridLayoutManager(getActivity(), column));
             numKeyboardRecyclerView.setAdapter(
                     new MouseKeysNumKeyboardImageListAdapter(getActivity(), mCurrentInputDevice));
+            final View infoIcon = mMouseKeyImagesPreference.findViewById(
+                    R.id.mouse_keys_info_icon);
+            infoIcon.setVisibility(View.VISIBLE);
         }
     }
 

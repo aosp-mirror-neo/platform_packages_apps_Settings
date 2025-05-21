@@ -75,8 +75,7 @@ public class AudioSharingDeviceVolumeSliderPreference extends SliderPreference {
                 (pref, value) -> {
                     handleProgressChange((int) value);
                     return true;
-                }
-        );
+                });
         refreshPreference();
     }
 
@@ -85,8 +84,7 @@ public class AudioSharingDeviceVolumeSliderPreference extends SliderPreference {
         if ((o == null) || !(o instanceof AudioSharingDeviceVolumeSliderPreference)) {
             return false;
         }
-        return mCachedDevice.equals(
-                ((AudioSharingDeviceVolumeSliderPreference) o).mCachedDevice);
+        return mCachedDevice.equals(((AudioSharingDeviceVolumeSliderPreference) o).mCachedDevice);
     }
 
     @Override
@@ -145,8 +143,10 @@ public class AudioSharingDeviceVolumeSliderPreference extends SliderPreference {
             Log.d(TAG, "Skip set device volume, device is null");
             return;
         }
-        VolumeControlProfile vc = mBtManager == null ? null
-                : mBtManager.getProfileManager().getVolumeControlProfile();
+        VolumeControlProfile vc =
+                mBtManager == null
+                        ? null
+                        : mBtManager.getProfileManager().getVolumeControlProfile();
         if (vc != null) {
             vc.setDeviceVolume(device, progress, /* isGroupOp= */ true);
             mMetricsFeatureProvider.action(

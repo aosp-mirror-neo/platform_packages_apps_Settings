@@ -88,11 +88,11 @@ public class AudioSharingDialogFragment extends InstrumentedDialogFragment {
     /**
      * Display the {@link AudioSharingDialogFragment} dialog.
      *
-     * @param host        The Fragment this dialog will be hosted.
+     * @param host The Fragment this dialog will be hosted.
      * @param deviceItems The connected device items eligible for audio sharing.
-     * @param metadata    The audio sharing metadata, nullable.
-     * @param listener    The callback to handle the user action on this dialog.
-     * @param eventData   The eventData to log with for dialog onClick events.
+     * @param metadata The audio sharing metadata, nullable.
+     * @param listener The callback to handle the user action on this dialog.
+     * @param eventData The eventData to log with for dialog onClick events.
      */
     public static void show(
             @Nullable Fragment host,
@@ -163,8 +163,9 @@ public class AudioSharingDialogFragment extends InstrumentedDialogFragment {
             Log.d(TAG, "Create dialog error: null deviceItems");
             return builder.build();
         }
-        BluetoothLeBroadcastMetadata metadata = arguments.getParcelable(
-                BUNDLE_KEY_BROADCAST_METADATA, BluetoothLeBroadcastMetadata.class);
+        BluetoothLeBroadcastMetadata metadata =
+                arguments.getParcelable(
+                        BUNDLE_KEY_BROADCAST_METADATA, BluetoothLeBroadcastMetadata.class);
         Drawable qrCodeDrawable = null;
         if (deviceItems.isEmpty()) {
             builder.setTitle(R.string.audio_sharing_share_dialog_title)
@@ -189,22 +190,31 @@ public class AudioSharingDialogFragment extends InstrumentedDialogFragment {
                                 }
                                 launcher.launch();
                             });
-            qrCodeDrawable = metadata == null ? null : getQrCodeDrawable(metadata,
-                    getContext()).orElse(null);
+            qrCodeDrawable =
+                    metadata == null
+                            ? null
+                            : getQrCodeDrawable(metadata, getContext()).orElse(null);
             if (qrCodeDrawable != null) {
                 String broadcastName =
                         metadata.getBroadcastName() == null ? "" : metadata.getBroadcastName();
-                boolean hasPassword = metadata.getBroadcastCode() != null
-                        && metadata.getBroadcastCode().length > 0;
-                String message = hasPassword ? getString(
-                        R.string.audio_sharing_dialog_qr_code_content, broadcastName,
-                        new String(metadata.getBroadcastCode(), StandardCharsets.UTF_8)) :
-                        getString(R.string.audio_sharing_dialog_qr_code_content_no_password,
-                                broadcastName);
+                boolean hasPassword =
+                        metadata.getBroadcastCode() != null
+                                && metadata.getBroadcastCode().length > 0;
+                String message =
+                        hasPassword
+                                ? getString(
+                                        R.string.audio_sharing_dialog_qr_code_content,
+                                        broadcastName,
+                                        new String(
+                                                metadata.getBroadcastCode(),
+                                                StandardCharsets.UTF_8))
+                                : getString(
+                                        R.string.audio_sharing_dialog_qr_code_content_no_password,
+                                        broadcastName);
                 builder.setCustomMessage(message)
                         .setCustomMessage2(R.string.audio_sharing_dialog_pair_new_device_content)
-                        .setCustomNegativeButton(R.string.audio_streams_dialog_close,
-                                v -> onCancelClick());
+                        .setCustomNegativeButton(
+                                R.string.audio_streams_dialog_close, v -> onCancelClick());
             } else {
                 builder.setCustomImage(R.drawable.audio_sharing_guidance)
                         .setCustomMessage(R.string.audio_sharing_dialog_connect_device_content)

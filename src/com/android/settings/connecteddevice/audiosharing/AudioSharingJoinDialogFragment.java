@@ -21,6 +21,7 @@ import android.app.settings.SettingsEnums;
 import android.os.Bundle;
 import android.util.Log;
 import android.util.Pair;
+import android.view.View;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -77,7 +78,6 @@ public class AudioSharingJoinDialogFragment extends InstrumentedDialogFragment {
      * @param newDevice The latest connected device triggered this dialog.
      * @param listener The callback to handle the user action on this dialog.
      * @param eventData The eventData to log with for dialog onClick events.
-     *
      * @return whether the dialog is shown
      */
     public static boolean show(
@@ -112,8 +112,7 @@ public class AudioSharingJoinDialogFragment extends InstrumentedDialogFragment {
         AudioSharingUtils.postOnMainThread(
                 host.getContext(),
                 () -> {
-                    AlertDialog dialog = AudioSharingDialogHelper.getDialogIfShowing(manager,
-                            TAG);
+                    AlertDialog dialog = AudioSharingDialogHelper.getDialogIfShowing(manager, TAG);
                     if (dialog != null) {
                         Log.d(TAG, "Dialog is showing, update the content.");
                         updateDialog(deviceItems, newDevice.getName(), dialog);
@@ -162,6 +161,28 @@ public class AudioSharingJoinDialogFragment extends InstrumentedDialogFragment {
         List<AudioSharingDeviceItem> deviceItems =
                 arguments.getParcelable(BUNDLE_KEY_DEVICE_ITEMS, List.class);
         String newDeviceName = arguments.getString(BUNDLE_KEY_NEW_DEVICE_NAME);
+        View.OnClickListener onPositiveBtnClicked =
+                v -> {
+                    if (sListener != null) {
+                        sListener.onShareClick();
+                        mMetricsFeatureProvider.action(
+                                getContext(),
+                                SettingsEnums.ACTION_AUDIO_SHARING_DIALOG_POSITIVE_BTN_CLICKED,
+                                sEventData);
+                    }
+                    dismiss();
+                };
+        View.OnClickListener onNegativeBtnClicked =
+                v -> {
+                    if (sListener != null) {
+                        sListener.onCancelClick();
+                        mMetricsFeatureProvider.action(
+                                getContext(),
+                                SettingsEnums.ACTION_AUDIO_SHARING_DIALOG_NEGATIVE_BTN_CLICKED,
+                                sEventData);
+                    }
+                    dismiss();
+                };
         AlertDialog dialog =
                 AudioSharingDialogFactory.newBuilder(getActivity())
                         .setTitle(R.string.audio_sharing_share_dialog_title)
@@ -169,35 +190,14 @@ public class AudioSharingJoinDialogFragment extends InstrumentedDialogFragment {
                         .setIsCustomBodyEnabled(true)
                         .setCustomMessage(R.string.audio_sharing_dialog_share_content)
                         .setCustomPositiveButton(
-                                R.string.audio_sharing_share_button_label,
-                                v -> {
-                                    if (sListener != null) {
-                                        sListener.onShareClick();
-                                        mMetricsFeatureProvider.action(
-                                                getContext(),
-                                                SettingsEnums
-                                                .ACTION_AUDIO_SHARING_DIALOG_POSITIVE_BTN_CLICKED,
-                                                sEventData);
-                                    }
-                                    dismiss();
-                                })
+                                R.string.audio_sharing_share_button_label, onPositiveBtnClicked)
                         .setCustomNegativeButton(
                                 getMetricsCategory() == SettingsEnums.DIALOG_START_AUDIO_SHARING
                                         ? getString(
                                                 R.string.audio_sharing_switch_active_button_label,
                                                 newDeviceName)
                                         : getString(R.string.audio_sharing_no_thanks_button_label),
-                                v -> {
-                                    if (sListener != null) {
-                                        sListener.onCancelClick();
-                                        mMetricsFeatureProvider.action(
-                                                getContext(),
-                                                SettingsEnums
-                                                .ACTION_AUDIO_SHARING_DIALOG_NEGATIVE_BTN_CLICKED,
-                                                sEventData);
-                                    }
-                                    dismiss();
-                                })
+                                onNegativeBtnClicked)
                         .build();
         if (deviceItems == null) {
             Log.d(TAG, "Fail to create dialog: null deviceItems");
@@ -215,7 +215,8 @@ public class AudioSharingJoinDialogFragment extends InstrumentedDialogFragment {
         FragmentActivity activity = getActivity();
         if (Flags.promoteAudioSharingForSecondAutoConnectedLeaDevice()
                 && activity instanceof AudioSharingJoinHandlerActivity
-                && !activity.isChangingConfigurations() && !activity.isFinishing()) {
+                && !activity.isChangingConfigurations()
+                && !activity.isFinishing()) {
             Log.d(TAG, "onDestroy, finish activity = " + activity.getClass().getName());
             activity.finish();
         }

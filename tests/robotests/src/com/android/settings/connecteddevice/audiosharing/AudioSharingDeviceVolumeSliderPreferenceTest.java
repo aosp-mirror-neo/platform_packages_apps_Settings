@@ -134,9 +134,11 @@ public class AudioSharingDeviceVolumeSliderPreferenceTest {
         assertThat(mPreference.getMin())
                 .isEqualTo(AudioSharingDeviceVolumeSliderPreference.MIN_VOLUME);
         assertThat(mPreference.getTitle().toString()).isEqualTo(TEST_DEVICE_NAME);
-        verify(mPreference).setSliderContentDescription(
-                mContext.getString(R.string.audio_sharing_device_volume_description,
-                        TEST_DEVICE_NAME));
+        verify(mPreference)
+                .setSliderContentDescription(
+                        mContext.getString(
+                                R.string.audio_sharing_device_volume_description,
+                                TEST_DEVICE_NAME));
     }
 
     @Test
@@ -267,7 +269,9 @@ public class AudioSharingDeviceVolumeSliderPreferenceTest {
         shadowOf(Looper.getMainLooper()).idle();
 
         assertThat(mPreference.getTitle().toString()).isEqualTo("new");
-        verify(mPreference).setSliderContentDescription(
-                mContext.getString(R.string.audio_sharing_device_volume_description, "new"));
+        verify(mPreference)
+                .setSliderContentDescription(
+                        mContext.getString(
+                                R.string.audio_sharing_device_volume_description, "new"));
     }
 }

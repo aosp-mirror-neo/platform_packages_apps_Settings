@@ -15,10 +15,12 @@
  */
 package com.android.settings.location
 
+import android.app.settings.SettingsEnums
 import android.content.Context
 import android.content.Intent
 import android.location.LocationManager
 import com.android.settings.R
+import com.android.settings.core.PreferenceScreenMixin
 import com.android.settings.flags.Flags
 import com.android.settingslib.datastore.KeyValueStore
 import com.android.settingslib.datastore.NoOpKeyedObservable
@@ -30,12 +32,13 @@ import com.android.settingslib.metadata.ProvidePreferenceScreen
 import com.android.settingslib.metadata.ReadWritePermit
 import com.android.settingslib.metadata.SensitivityLevel
 import com.android.settingslib.metadata.preferenceHierarchy
-import com.android.settingslib.preference.PreferenceScreenCreator
 import com.android.settingslib.widget.MainSwitchPreferenceBinding
 import com.android.settingslib.widget.SettingsThemeHelper.isExpressiveTheme
 
 @ProvidePreferenceScreen(LocationScreen.KEY)
-class LocationScreen : PreferenceScreenCreator, PreferenceSummaryProvider, PreferenceIconProvider {
+open class LocationScreen :
+    PreferenceScreenMixin, PreferenceSummaryProvider, PreferenceIconProvider {
+
     override val key: String
         get() = KEY
 
@@ -44,6 +47,11 @@ class LocationScreen : PreferenceScreenCreator, PreferenceSummaryProvider, Prefe
 
     override val keywords: Int
         get() = R.string.keywords_location
+
+    override val highlightMenuKey: Int
+        get() = R.string.menu_key_location
+
+    override fun getMetricsCategory() = SettingsEnums.LOCATION
 
     override fun getLaunchIntent(context: Context, metadata: PreferenceMetadata?): Intent? {
         return Intent(android.provider.Settings.ACTION_LOCATION_SOURCE_SETTINGS)

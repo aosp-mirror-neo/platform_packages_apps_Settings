@@ -16,8 +16,8 @@
 package com.android.settings.supervision
 
 import android.app.Activity
-import android.app.settings.SettingsEnums.ACTION_SUPERVISION_ALLOW_ALL_SITES
-import android.app.settings.SettingsEnums.ACTION_SUPERVISION_BLOCK_EXPLICIT_SITES
+import android.app.settings.SettingsEnums.ACTION_SUPERVISION_SEARCH_FILTER_ON
+import android.app.settings.SettingsEnums.ACTION_SUPERVISION_SEARCH_FILTER_OFF
 import android.content.Context
 import android.content.Intent
 import androidx.activity.result.ActivityResult
@@ -25,30 +25,31 @@ import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts.StartActivityForResult
 import androidx.annotation.VisibleForTesting
 import androidx.preference.Preference
+import androidx.preference.SwitchPreferenceCompat
 import com.android.settings.R
-import com.android.settings.metrics.PreferenceActionMetricsProvider
+import com.android.settings.overlay.FeatureFactory
 import com.android.settingslib.datastore.SettingsSecureStore
-import com.android.settingslib.metadata.BooleanValuePreference
 import com.android.settingslib.metadata.PreferenceLifecycleContext
 import com.android.settingslib.metadata.PreferenceLifecycleProvider
 import com.android.settingslib.metadata.PreferenceMetadata
 import com.android.settingslib.metadata.ReadWritePermit
-import com.android.settingslib.preference.BooleanValuePreferenceBinding
+import com.android.settingslib.metadata.SwitchPreference
+import com.android.settingslib.preference.SwitchPreferenceBinding
 import com.android.settingslib.supervision.SupervisionIntentProvider
-import com.android.settingslib.widget.SelectorWithWidgetPreference
 
-/** Base class of web content filters Safe sites preferences. */
-sealed class SupervisionSafeSitesPreference(
-    protected val dataStore: SupervisionSafeSitesDataStore
-) :
-    BooleanValuePreference,
-    BooleanValuePreferenceBinding,
-    PreferenceActionMetricsProvider,
-    SelectorWithWidgetPreference.OnClickListener,
+/** Web content filters search filter preference. */
+class SupervisionSafeSearchSwitchPreference(private val dataStore: SupervisionSafeSearchDataStore) :
+    SwitchPreference(KEY),
+    SwitchPreferenceBinding,
+    Preference.OnPreferenceChangeListener,
     PreferenceLifecycleProvider {
+
     private lateinit var lifeCycleContext: PreferenceLifecycleContext
 
     private lateinit var supervisionCredentialLauncher: ActivityResultLauncher<Intent>
+
+    override val title
+        get() = R.string.supervision_web_content_filters_search_filter_title
 
     override fun storage(context: Context) = dataStore
 
@@ -62,68 +63,48 @@ sealed class SupervisionSafeSitesPreference(
     override fun getWritePermit(context: Context, callingPid: Int, callingUid: Int) =
         ReadWritePermit.DISALLOW
 
-    override fun createWidget(context: Context) = SelectorWithWidgetPreference(context)
-
     override fun onCreate(context: PreferenceLifecycleContext) {
         lifeCycleContext = context
         supervisionCredentialLauncher =
             context.registerForActivityResult(StartActivityForResult(), ::onConfirmCredentials)
     }
 
-    override fun onRadioButtonClicked(emitter: SelectorWithWidgetPreference) {
+    override fun onPreferenceChange(preference: Preference, newValue: Any?): Boolean {
+        if (newValue !is Boolean) return true
+
         val intent =
             SupervisionIntentProvider.getConfirmSupervisionCredentialsIntent(lifeCycleContext)
         if (intent != null) {
             supervisionCredentialLauncher.launch(intent)
         }
+        return false
     }
 
     override fun bind(preference: Preference, metadata: PreferenceMetadata) {
         super.bind(preference, metadata)
-        (preference as SelectorWithWidgetPreference).setOnClickListener(this)
+        preference.onPreferenceChangeListener = this
     }
 
     @VisibleForTesting(otherwise = VisibleForTesting.PRIVATE)
     fun onConfirmCredentials(result: ActivityResult) {
         if (result.resultCode == Activity.RESULT_OK) {
-            lifeCycleContext.requirePreference<SelectorWithWidgetPreference>(key).isChecked = true
+            val preference = lifeCycleContext.requirePreference<SwitchPreferenceCompat>(key)
+            val isChecked = preference.isChecked
+            preference.isChecked = !isChecked
+            logMetrics(preference)
         }
     }
-}
 
-/** The "Try to block explicit sites" preference. */
-class SupervisionBlockExplicitSitesPreference(dataStore: SupervisionSafeSitesDataStore) :
-    SupervisionSafeSitesPreference(dataStore) {
-    override val key
-        get() = KEY
-
-    override val title
-        get() = R.string.supervision_web_content_filters_browser_block_explicit_sites_title
-
-    override val summary
-        get() = R.string.supervision_web_content_filters_browser_block_explicit_sites_summary
-
-    override val preferenceActionMetrics: Int
-        get() = ACTION_SUPERVISION_BLOCK_EXPLICIT_SITES
-
-    companion object {
-        const val KEY = "web_content_filters_browser_block_explicit_sites"
+    private fun logMetrics(preference: SwitchPreferenceCompat) {
+        val isChecked = preference.isChecked
+        val metricsFeatureProvider = FeatureFactory.featureFactory.metricsFeatureProvider
+        val action =
+            if (isChecked) ACTION_SUPERVISION_SEARCH_FILTER_ON
+            else ACTION_SUPERVISION_SEARCH_FILTER_OFF
+        metricsFeatureProvider.action(preference.context, action)
     }
-}
-
-/** The "Allow all sites" preference. */
-class SupervisionAllowAllSitesPreference(dataStore: SupervisionSafeSitesDataStore) :
-    SupervisionSafeSitesPreference(dataStore) {
-    override val key
-        get() = KEY
-
-    override val title
-        get() = R.string.supervision_web_content_filters_browser_allow_all_sites_title
-
-    override val preferenceActionMetrics: Int
-        get() = ACTION_SUPERVISION_ALLOW_ALL_SITES
 
     companion object {
-        const val KEY = "web_content_filters_browser_allow_all_sites"
+        const val KEY = "web_content_filters_search_filter"
     }
 }

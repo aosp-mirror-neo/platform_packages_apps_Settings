@@ -18,16 +18,20 @@ package com.android.settings.deviceinfo.aboutphone
 
 import android.app.settings.SettingsEnums
 import android.content.Context
+import android.content.Intent
 import android.os.Build
 import android.provider.Settings
 import com.android.settings.R
+import com.android.settings.Settings.MyDeviceInfoActivity
 import com.android.settings.core.PreferenceScreenMixin
 import com.android.settings.deviceinfo.imei.ImeiPreference
 import com.android.settings.deviceinfo.simstatus.SimEidPreference
 import com.android.settings.flags.Flags
+import com.android.settings.utils.makeLaunchIntent
 import com.android.settings.wifi.utils.activeModemCount
 import com.android.settingslib.metadata.PreferenceCategory
 import com.android.settingslib.metadata.PreferenceIconProvider
+import com.android.settingslib.metadata.PreferenceMetadata
 import com.android.settingslib.metadata.PreferenceSummaryProvider
 import com.android.settingslib.metadata.ProvidePreferenceScreen
 import com.android.settingslib.metadata.preferenceHierarchy
@@ -62,6 +66,9 @@ open class MyDeviceInfoScreen :
     override fun isFlagEnabled(context: Context) = Flags.catalystMyDeviceInfoPrefScreen()
 
     override fun fragmentClass() = MyDeviceInfoFragment::class.java
+
+    override fun getLaunchIntent(context: Context, metadata: PreferenceMetadata?): Intent? =
+        makeLaunchIntent(context, MyDeviceInfoActivity::class.java, metadata?.key)
 
     override fun getPreferenceHierarchy(context: Context) =
         preferenceHierarchy(context, this) {

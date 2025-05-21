@@ -131,9 +131,11 @@ public class AudioSharingDeviceVolumePreferenceTest {
         assertThat(mPreference.getMax()).isEqualTo(AudioSharingDeviceVolumePreference.MAX_VOLUME);
         assertThat(mPreference.getMin()).isEqualTo(AudioSharingDeviceVolumePreference.MIN_VOLUME);
         assertThat(mPreference.getTitle().toString()).isEqualTo(TEST_DEVICE_NAME);
-        verify(mPreference).setSeekBarContentDescription(
-                mContext.getString(R.string.audio_sharing_device_volume_description,
-                        TEST_DEVICE_NAME));
+        verify(mPreference)
+                .setSeekBarContentDescription(
+                        mContext.getString(
+                                R.string.audio_sharing_device_volume_description,
+                                TEST_DEVICE_NAME));
     }
 
     @Test
@@ -329,16 +331,16 @@ public class AudioSharingDeviceVolumePreferenceTest {
 
     @Test
     public void equals_returnsTrue() {
-        AudioSharingDeviceVolumePreference preference = new AudioSharingDeviceVolumePreference(
-                mContext, mCachedDevice);
+        AudioSharingDeviceVolumePreference preference =
+                new AudioSharingDeviceVolumePreference(mContext, mCachedDevice);
         assertThat(mPreference.equals(preference)).isTrue();
     }
 
     @Test
     public void equals_returnsFalse() {
         CachedBluetoothDevice cachedDevice = mock(CachedBluetoothDevice.class);
-        AudioSharingDeviceVolumePreference preference = new AudioSharingDeviceVolumePreference(
-                mContext, cachedDevice);
+        AudioSharingDeviceVolumePreference preference =
+                new AudioSharingDeviceVolumePreference(mContext, cachedDevice);
         assertThat(mPreference.equals(preference)).isFalse();
     }
 
@@ -361,7 +363,9 @@ public class AudioSharingDeviceVolumePreferenceTest {
         shadowOf(Looper.getMainLooper()).idle();
 
         assertThat(mPreference.getTitle().toString()).isEqualTo("new");
-        verify(mPreference).setSeekBarContentDescription(
-                mContext.getString(R.string.audio_sharing_device_volume_description, "new"));
+        verify(mPreference)
+                .setSeekBarContentDescription(
+                        mContext.getString(
+                                R.string.audio_sharing_device_volume_description, "new"));
     }
 }

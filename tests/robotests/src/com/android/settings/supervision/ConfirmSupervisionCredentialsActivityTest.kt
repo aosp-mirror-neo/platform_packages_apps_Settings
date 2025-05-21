@@ -31,7 +31,6 @@ import android.os.Process
 import android.os.UserHandle
 import android.os.UserManager
 import android.os.UserManager.USER_TYPE_PROFILE_SUPERVISING
-import android.os.UserManager.USER_TYPE_PROFILE_TEST
 import androidx.test.core.app.ApplicationProvider
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import com.android.settings.R
@@ -93,6 +92,7 @@ class ConfirmSupervisionCredentialsActivityTest {
             setSystemService(Context.SUPERVISION_SERVICE, mockSupervisionManager)
             setSystemService(Context.USER_SERVICE, mockUserManager)
         }
+        SupervisionAuthController.sInstance = null
     }
 
     @Test
@@ -137,6 +137,20 @@ class ConfirmSupervisionCredentialsActivityTest {
 
         assertThat(mActivity.isFinishing).isTrue()
         assertThat(shadowActivity.resultCode).isEqualTo(Activity.RESULT_CANCELED)
+    }
+
+    @Test
+    fun onCreate_authSessionActive_finishWithResultOK() {
+        ShadowRoleManager.addRoleHolder(ROLE_SYSTEM_SUPERVISION, callingPackage, currentUser)
+        mockUserManager.stub { on { users } doReturn listOf(SUPERVISING_USER_INFO) }
+        mockActivityManager.stub { on { startProfile(any()) } doReturn true }
+        shadowKeyguardManager.setIsDeviceSecure(SUPERVISING_USER_ID, true)
+        SupervisionAuthController.getInstance(context).startSession(mActivity.taskId)
+
+        mActivityController.setup()
+
+        assertThat(mActivity.isFinishing).isTrue()
+        assertThat(shadowActivity.resultCode).isEqualTo(Activity.RESULT_OK)
     }
 
     @Test
@@ -211,6 +225,17 @@ class ConfirmSupervisionCredentialsActivityTest {
         assertThat(biometricPrompt.contentView).isNull()
     }
 
+    fun onAuthenticationSucceeded_startsAuthSession_returnsResultOK() {
+        mockUserManager.stub { on { users } doReturn listOf(SUPERVISING_USER_INFO) }
+        shadowKeyguardManager.setIsDeviceSecure(SUPERVISING_USER_ID, true)
+
+        mActivity.mAuthenticationCallback.onAuthenticationSucceeded(null)
+
+        assertThat(SupervisionAuthController.getInstance(context).isSessionActive(mActivity.taskId))
+            .isTrue()
+        assertThat(shadowActivity.resultCode).isEqualTo(Activity.RESULT_OK)
+    }
+
     private companion object {
         const val SUPERVISING_USER_ID = 5
         val SUPERVISING_USER_INFO =
@@ -220,15 +245,6 @@ class ConfirmSupervisionCredentialsActivityTest {
                 /* iconPath */ "",
                 /* flags */ 0,
                 USER_TYPE_PROFILE_SUPERVISING,
-            )
-        const val TESTING_USER_ID = 6
-        val TESTING_USER_INFO =
-            UserInfo(
-                TESTING_USER_ID,
-                /* name */ "testing",
-                /* iconPath */ "",
-                /* flags */ 0,
-                USER_TYPE_PROFILE_TEST,
             )
     }
 }

@@ -21,6 +21,28 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
+    <LinearLayout
+        android:id="@+id/mouse_keys_info_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start|top"
+        android:orientation="horizontal"
+        android:paddingHorizontal="12dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/mouse_keys_image_recycler_list">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/settingslib_ic_info_outline_24"
+            android:tint="@color/settingslib_materialColorOnSurfaceVariant"
+            android:importantForAccessibility="no"/>
+    </LinearLayout>
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/mouse_keys_image_recycler_list"
         android:layout_width="wrap_content"
@@ -30,7 +52,7 @@
         android:padding="12dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mouse_keys_info_icon"
         app:layout_constraintBottom_toTopOf="@+id/mouse_keys_numpad_image_recycler_list"/>
 
     <androidx.recyclerview.widget.RecyclerView

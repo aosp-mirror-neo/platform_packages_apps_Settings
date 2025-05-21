@@ -205,7 +205,8 @@ public class AudioSharingDialogHandlerTest {
     @EnableFlags(Flags.FLAG_ADOPT_PRIMARY_GROUP_MANAGEMENT_API)
     @DisableFlags(Flags.FLAG_AUDIO_SHARING_HYSTERESIS_MODE_FIX)
     public void handleUserTriggeredDeviceConnected_inCall_setActive() {
-        Settings.Secure.putInt(mContext.getContentResolver(),
+        Settings.Secure.putInt(
+                mContext.getContentResolver(),
                 BLUETOOTH_LE_BROADCAST_PRIMARY_DEVICE_GROUP_ID,
                 BluetoothCsipSetCoordinator.GROUP_ID_INVALID);
         when(mAudioManager.getMode()).thenReturn(AudioManager.MODE_IN_CALL);
@@ -213,22 +214,27 @@ public class AudioSharingDialogHandlerTest {
         ImmutableList<BluetoothDevice> deviceList = ImmutableList.of(mDevice1);
         when(mAssistant.getAllConnectedDevices()).thenReturn(deviceList);
         when(mAssistant.getAllSources(any())).thenReturn(ImmutableList.of());
-        boolean showDialog = mHandler.handleDeviceConnected(mCachedDevice1, /* userTriggered= */
-                true);
+        boolean showDialog =
+                mHandler.handleDeviceConnected(mCachedDevice1, /* userTriggered= */ true);
         shadowOf(Looper.getMainLooper()).idle();
         verify(mCachedDevice1).setActive();
-        assertThat(Settings.Secure.getInt(mContext.getContentResolver(),
-                BLUETOOTH_LE_BROADCAST_PRIMARY_DEVICE_GROUP_ID,
-                BluetoothCsipSetCoordinator.GROUP_ID_INVALID)).isEqualTo(
-                BluetoothCsipSetCoordinator.GROUP_ID_INVALID);
+        assertThat(
+                        Settings.Secure.getInt(
+                                mContext.getContentResolver(),
+                                BLUETOOTH_LE_BROADCAST_PRIMARY_DEVICE_GROUP_ID,
+                                BluetoothCsipSetCoordinator.GROUP_ID_INVALID))
+                .isEqualTo(BluetoothCsipSetCoordinator.GROUP_ID_INVALID);
         assertThat(showDialog).isFalse();
     }
 
     @Test
-    @EnableFlags({Flags.FLAG_AUDIO_SHARING_HYSTERESIS_MODE_FIX,
-            Flags.FLAG_ADOPT_PRIMARY_GROUP_MANAGEMENT_API})
+    @EnableFlags({
+        Flags.FLAG_AUDIO_SHARING_HYSTERESIS_MODE_FIX,
+        Flags.FLAG_ADOPT_PRIMARY_GROUP_MANAGEMENT_API
+    })
     public void handleUserTriggeredDeviceConnected_inCall_enableHysteresisFix_setAndSaveActive() {
-        Settings.Secure.putInt(mContext.getContentResolver(),
+        Settings.Secure.putInt(
+                mContext.getContentResolver(),
                 BLUETOOTH_LE_BROADCAST_PRIMARY_DEVICE_GROUP_ID,
                 BluetoothCsipSetCoordinator.GROUP_ID_INVALID);
         when(mAudioManager.getMode()).thenReturn(AudioManager.MODE_IN_CALL);
@@ -236,13 +242,16 @@ public class AudioSharingDialogHandlerTest {
         ImmutableList<BluetoothDevice> deviceList = ImmutableList.of(mDevice1);
         when(mAssistant.getAllConnectedDevices()).thenReturn(deviceList);
         when(mAssistant.getAllSources(any())).thenReturn(ImmutableList.of());
-        boolean showDialog = mHandler.handleDeviceConnected(mCachedDevice1, /* userTriggered= */
-                true);
+        boolean showDialog =
+                mHandler.handleDeviceConnected(mCachedDevice1, /* userTriggered= */ true);
         shadowOf(Looper.getMainLooper()).idle();
         verify(mCachedDevice1).setActive();
-        assertThat(Settings.Secure.getInt(mContext.getContentResolver(),
-                BLUETOOTH_LE_BROADCAST_PRIMARY_DEVICE_GROUP_ID,
-                BluetoothCsipSetCoordinator.GROUP_ID_INVALID)).isEqualTo(1);
+        assertThat(
+                        Settings.Secure.getInt(
+                                mContext.getContentResolver(),
+                                BLUETOOTH_LE_BROADCAST_PRIMARY_DEVICE_GROUP_ID,
+                                BluetoothCsipSetCoordinator.GROUP_ID_INVALID))
+                .isEqualTo(1);
         assertThat(showDialog).isFalse();
     }
 
@@ -252,8 +261,8 @@ public class AudioSharingDialogHandlerTest {
         ImmutableList<BluetoothDevice> deviceList = ImmutableList.of(mDevice2);
         when(mAssistant.getAllConnectedDevices()).thenReturn(deviceList);
         when(mAssistant.getAllSources(any())).thenReturn(ImmutableList.of());
-        boolean showDialog = mHandler.handleDeviceConnected(mCachedDevice2, /* userTriggered= */
-                true);
+        boolean showDialog =
+                mHandler.handleDeviceConnected(mCachedDevice2, /* userTriggered= */ true);
         shadowOf(Looper.getMainLooper()).idle();
         verify(mCachedDevice2).setActive();
         assertThat(showDialog).isFalse();
@@ -265,8 +274,8 @@ public class AudioSharingDialogHandlerTest {
         ImmutableList<BluetoothDevice> deviceList = ImmutableList.of(mDevice2);
         when(mAssistant.getAllConnectedDevices()).thenReturn(deviceList);
         when(mAssistant.getAllSources(any())).thenReturn(ImmutableList.of(mState));
-        boolean showDialog = mHandler.handleDeviceConnected(mCachedDevice2, /* userTriggered= */
-                true);
+        boolean showDialog =
+                mHandler.handleDeviceConnected(mCachedDevice2, /* userTriggered= */ true);
         shadowOf(Looper.getMainLooper()).idle();
         List<Fragment> childFragments = mParentFragment.getChildFragmentManager().getFragments();
         assertThat(childFragments)
@@ -304,8 +313,8 @@ public class AudioSharingDialogHandlerTest {
         ImmutableList<BluetoothDevice> deviceList = ImmutableList.of(mDevice1);
         when(mAssistant.getAllConnectedDevices()).thenReturn(deviceList);
         when(mAssistant.getAllSources(any())).thenReturn(ImmutableList.of());
-        boolean showDialog = mHandler.handleDeviceConnected(mCachedDevice1, /* userTriggered= */
-                true);
+        boolean showDialog =
+                mHandler.handleDeviceConnected(mCachedDevice1, /* userTriggered= */ true);
         shadowOf(Looper.getMainLooper()).idle();
         verify(mCachedDevice1).setActive();
         assertThat(showDialog).isFalse();
@@ -319,8 +328,8 @@ public class AudioSharingDialogHandlerTest {
         ImmutableList<BluetoothDevice> deviceList = ImmutableList.of(mDevice1, mDevice3);
         when(mAssistant.getAllConnectedDevices()).thenReturn(deviceList);
         when(mAssistant.getAllSources(any())).thenReturn(ImmutableList.of());
-        boolean showDialog = mHandler.handleDeviceConnected(mCachedDevice1, /* userTriggered= */
-                true);
+        boolean showDialog =
+                mHandler.handleDeviceConnected(mCachedDevice1, /* userTriggered= */ true);
         shadowOf(Looper.getMainLooper()).idle();
         List<Fragment> childFragments = mParentFragment.getChildFragmentManager().getFragments();
         assertThat(childFragments).isEmpty();
@@ -334,8 +343,8 @@ public class AudioSharingDialogHandlerTest {
         ImmutableList<BluetoothDevice> deviceList = ImmutableList.of(mDevice1, mDevice3);
         when(mAssistant.getAllConnectedDevices()).thenReturn(deviceList);
         when(mAssistant.getAllSources(any())).thenReturn(ImmutableList.of());
-        boolean showDialog = mHandler.handleDeviceConnected(mCachedDevice1, /* userTriggered= */
-                true);
+        boolean showDialog =
+                mHandler.handleDeviceConnected(mCachedDevice1, /* userTriggered= */ true);
         shadowOf(Looper.getMainLooper()).idle();
         List<Fragment> childFragments = mParentFragment.getChildFragmentManager().getFragments();
         assertThat(childFragments)
@@ -391,8 +400,8 @@ public class AudioSharingDialogHandlerTest {
         when(mAssistant.getAllConnectedDevices()).thenReturn(deviceList);
         when(mAssistant.getAllSources(mDevice1)).thenReturn(ImmutableList.of());
         when(mAssistant.getAllSources(mDevice3)).thenReturn(ImmutableList.of(mState));
-        boolean showDialog = mHandler.handleDeviceConnected(mCachedDevice1, /* userTriggered= */
-                true);
+        boolean showDialog =
+                mHandler.handleDeviceConnected(mCachedDevice1, /* userTriggered= */ true);
         shadowOf(Looper.getMainLooper()).idle();
         List<Fragment> childFragments = mParentFragment.getChildFragmentManager().getFragments();
         assertThat(childFragments)
@@ -427,18 +436,24 @@ public class AudioSharingDialogHandlerTest {
         assertThat(listener).isNotNull();
         listener.onCancelClick();
         verify(mAssistant, never()).addSource(mDevice1, mMetadata, /* isGroupOp= */ false);
-        verify(mFeatureFactory.metricsFeatureProvider, never()).action(mContext,
-                SettingsEnums.ACTION_AUDIO_SHARING_ADD_SOURCE,
-                Pair.create(METRIC_KEY_SOURCE_PAGE_ID.getId(),
-                        SettingsEnums.DIALOG_AUDIO_SHARING_ADD_DEVICE),
-                Pair.create(METRIC_KEY_USER_TRIGGERED.getId(), 1));
+        verify(mFeatureFactory.metricsFeatureProvider, never())
+                .action(
+                        mContext,
+                        SettingsEnums.ACTION_AUDIO_SHARING_ADD_SOURCE,
+                        Pair.create(
+                                METRIC_KEY_SOURCE_PAGE_ID.getId(),
+                                SettingsEnums.DIALOG_AUDIO_SHARING_ADD_DEVICE),
+                        Pair.create(METRIC_KEY_USER_TRIGGERED.getId(), 1));
         listener.onShareClick();
         verify(mAssistant).addSource(mDevice1, mMetadata, /* isGroupOp= */ false);
-        verify(mFeatureFactory.metricsFeatureProvider).action(mContext,
-                SettingsEnums.ACTION_AUDIO_SHARING_ADD_SOURCE,
-                Pair.create(METRIC_KEY_SOURCE_PAGE_ID.getId(),
-                        SettingsEnums.DIALOG_AUDIO_SHARING_ADD_DEVICE),
-                Pair.create(METRIC_KEY_USER_TRIGGERED.getId(), 1));
+        verify(mFeatureFactory.metricsFeatureProvider)
+                .action(
+                        mContext,
+                        SettingsEnums.ACTION_AUDIO_SHARING_ADD_SOURCE,
+                        Pair.create(
+                                METRIC_KEY_SOURCE_PAGE_ID.getId(),
+                                SettingsEnums.DIALOG_AUDIO_SHARING_ADD_DEVICE),
+                        Pair.create(METRIC_KEY_USER_TRIGGERED.getId(), 1));
     }
 
     @Test
@@ -450,8 +465,8 @@ public class AudioSharingDialogHandlerTest {
         when(mAssistant.getAllSources(mDevice1)).thenReturn(ImmutableList.of());
         when(mAssistant.getAllSources(mDevice3)).thenReturn(ImmutableList.of(mState));
         when(mAssistant.getAllSources(mDevice4)).thenReturn(ImmutableList.of(mState));
-        boolean showDialog = mHandler.handleDeviceConnected(mCachedDevice1, /* userTriggered= */
-                true);
+        boolean showDialog =
+                mHandler.handleDeviceConnected(mCachedDevice1, /* userTriggered= */ true);
         shadowOf(Looper.getMainLooper()).idle();
         List<Fragment> childFragments = mParentFragment.getChildFragmentManager().getFragments();
         assertThat(childFragments)
@@ -486,16 +501,21 @@ public class AudioSharingDialogHandlerTest {
         assertThat(listener).isNotNull();
         listener.onItemClick(AudioSharingUtils.buildAudioSharingDeviceItem(mCachedDevice3));
         verify(mAssistant).removeSource(mDevice3, TEST_SOURCE_ID);
-        verify(mFeatureFactory.metricsFeatureProvider).action(mContext,
-                SettingsEnums.ACTION_AUDIO_SHARING_REMOVE_SOURCE,
-                Pair.create(METRIC_KEY_DEVICE_IS_PRIMARY.getId(), 0),
-                Pair.create(METRIC_KEY_DEVICE_IS_TEMP_BOND.getId(), 0));
+        verify(mFeatureFactory.metricsFeatureProvider)
+                .action(
+                        mContext,
+                        SettingsEnums.ACTION_AUDIO_SHARING_REMOVE_SOURCE,
+                        Pair.create(METRIC_KEY_DEVICE_IS_PRIMARY.getId(), 0),
+                        Pair.create(METRIC_KEY_DEVICE_IS_TEMP_BOND.getId(), 0));
         verify(mAssistant).addSource(mDevice1, mMetadata, /* isGroupOp= */ false);
-        verify(mFeatureFactory.metricsFeatureProvider).action(mContext,
-                SettingsEnums.ACTION_AUDIO_SHARING_ADD_SOURCE,
-                Pair.create(METRIC_KEY_SOURCE_PAGE_ID.getId(),
-                        SettingsEnums.DIALOG_AUDIO_SHARING_SWITCH_DEVICE),
-                Pair.create(METRIC_KEY_USER_TRIGGERED.getId(), 1));
+        verify(mFeatureFactory.metricsFeatureProvider)
+                .action(
+                        mContext,
+                        SettingsEnums.ACTION_AUDIO_SHARING_ADD_SOURCE,
+                        Pair.create(
+                                METRIC_KEY_SOURCE_PAGE_ID.getId(),
+                                SettingsEnums.DIALOG_AUDIO_SHARING_SWITCH_DEVICE),
+                        Pair.create(METRIC_KEY_USER_TRIGGERED.getId(), 1));
     }
 
     @Test
@@ -504,8 +524,8 @@ public class AudioSharingDialogHandlerTest {
         when(mAudioManager.getMode()).thenReturn(AudioManager.MODE_IN_CALL);
         setUpBroadcast(true);
         when(mAssistant.getAllConnectedDevices()).thenReturn(ImmutableList.of());
-        boolean showDialog = mHandler.handleDeviceConnected(mCachedDevice2, /* userTriggered= */
-                false);
+        boolean showDialog =
+                mHandler.handleDeviceConnected(mCachedDevice2, /* userTriggered= */ false);
         shadowOf(Looper.getMainLooper()).idle();
         verify(mCachedDevice2, never()).setActive();
         List<Fragment> childFragments = mParentFragment.getChildFragmentManager().getFragments();
@@ -519,8 +539,8 @@ public class AudioSharingDialogHandlerTest {
         ImmutableList<BluetoothDevice> deviceList = ImmutableList.of(mDevice2);
         when(mAssistant.getAllConnectedDevices()).thenReturn(deviceList);
         when(mAssistant.getAllSources(any())).thenReturn(ImmutableList.of());
-        boolean showDialog = mHandler.handleDeviceConnected(mCachedDevice2, /* userTriggered= */
-                false);
+        boolean showDialog =
+                mHandler.handleDeviceConnected(mCachedDevice2, /* userTriggered= */ false);
         shadowOf(Looper.getMainLooper()).idle();
         verify(mCachedDevice2, never()).setActive();
         assertThat(showDialog).isFalse();
@@ -532,8 +552,8 @@ public class AudioSharingDialogHandlerTest {
         ImmutableList<BluetoothDevice> deviceList = ImmutableList.of(mDevice1);
         when(mAssistant.getAllConnectedDevices()).thenReturn(deviceList);
         when(mAssistant.getAllSources(any())).thenReturn(ImmutableList.of(mState));
-        boolean showDialog = mHandler.handleDeviceConnected(mCachedDevice2, /* userTriggered= */
-                false);
+        boolean showDialog =
+                mHandler.handleDeviceConnected(mCachedDevice2, /* userTriggered= */ false);
         shadowOf(Looper.getMainLooper()).idle();
         List<Fragment> childFragments = mParentFragment.getChildFragmentManager().getFragments();
         assertThat(childFragments)
@@ -571,8 +591,8 @@ public class AudioSharingDialogHandlerTest {
         ImmutableList<BluetoothDevice> deviceList = ImmutableList.of(mDevice1);
         when(mAssistant.getAllConnectedDevices()).thenReturn(deviceList);
         when(mAssistant.getAllSources(any())).thenReturn(ImmutableList.of());
-        boolean showDialog = mHandler.handleDeviceConnected(mCachedDevice1, /* userTriggered= */
-                false);
+        boolean showDialog =
+                mHandler.handleDeviceConnected(mCachedDevice1, /* userTriggered= */ false);
         shadowOf(Looper.getMainLooper()).idle();
         verify(mCachedDevice1, never()).setActive();
         assertThat(showDialog).isFalse();
@@ -586,8 +606,8 @@ public class AudioSharingDialogHandlerTest {
         ImmutableList<BluetoothDevice> deviceList = ImmutableList.of(mDevice1, mDevice3);
         when(mAssistant.getAllConnectedDevices()).thenReturn(deviceList);
         when(mAssistant.getAllSources(any())).thenReturn(ImmutableList.of());
-        boolean showDialog = mHandler.handleDeviceConnected(mCachedDevice1, /* userTriggered= */
-                false);
+        boolean showDialog =
+                mHandler.handleDeviceConnected(mCachedDevice1, /* userTriggered= */ false);
         shadowOf(Looper.getMainLooper()).idle();
         List<Fragment> childFragments = mParentFragment.getChildFragmentManager().getFragments();
         assertThat(childFragments).isEmpty();
@@ -601,8 +621,8 @@ public class AudioSharingDialogHandlerTest {
         ImmutableList<BluetoothDevice> deviceList = ImmutableList.of(mDevice1, mDevice3);
         when(mAssistant.getAllConnectedDevices()).thenReturn(deviceList);
         when(mAssistant.getAllSources(any())).thenReturn(ImmutableList.of());
-        boolean showDialog = mHandler.handleDeviceConnected(mCachedDevice1, /* userTriggered= */
-                false);
+        boolean showDialog =
+                mHandler.handleDeviceConnected(mCachedDevice1, /* userTriggered= */ false);
         shadowOf(Looper.getMainLooper()).idle();
         List<Fragment> childFragments = mParentFragment.getChildFragmentManager().getFragments();
         assertThat(childFragments)
@@ -658,8 +678,8 @@ public class AudioSharingDialogHandlerTest {
         when(mAssistant.getAllConnectedDevices()).thenReturn(deviceList);
         when(mAssistant.getAllSources(mDevice1)).thenReturn(ImmutableList.of());
         when(mAssistant.getAllSources(mDevice3)).thenReturn(ImmutableList.of(mState));
-        boolean showDialog = mHandler.handleDeviceConnected(mCachedDevice1, /* userTriggered= */
-                false);
+        boolean showDialog =
+                mHandler.handleDeviceConnected(mCachedDevice1, /* userTriggered= */ false);
         shadowOf(Looper.getMainLooper()).idle();
         List<Fragment> childFragments = mParentFragment.getChildFragmentManager().getFragments();
         assertThat(childFragments)
@@ -694,18 +714,24 @@ public class AudioSharingDialogHandlerTest {
         assertThat(listener).isNotNull();
         listener.onCancelClick();
         verify(mAssistant, never()).addSource(mDevice1, mMetadata, /* isGroupOp= */ false);
-        verify(mFeatureFactory.metricsFeatureProvider, never()).action(mContext,
-                SettingsEnums.ACTION_AUDIO_SHARING_ADD_SOURCE,
-                Pair.create(METRIC_KEY_SOURCE_PAGE_ID.getId(),
-                        SettingsEnums.DIALOG_AUDIO_SHARING_ADD_DEVICE),
-                Pair.create(METRIC_KEY_USER_TRIGGERED.getId(), 0));
+        verify(mFeatureFactory.metricsFeatureProvider, never())
+                .action(
+                        mContext,
+                        SettingsEnums.ACTION_AUDIO_SHARING_ADD_SOURCE,
+                        Pair.create(
+                                METRIC_KEY_SOURCE_PAGE_ID.getId(),
+                                SettingsEnums.DIALOG_AUDIO_SHARING_ADD_DEVICE),
+                        Pair.create(METRIC_KEY_USER_TRIGGERED.getId(), 0));
         listener.onShareClick();
         verify(mAssistant).addSource(mDevice1, mMetadata, /* isGroupOp= */ false);
-        verify(mFeatureFactory.metricsFeatureProvider).action(mContext,
-                SettingsEnums.ACTION_AUDIO_SHARING_ADD_SOURCE,
-                Pair.create(METRIC_KEY_SOURCE_PAGE_ID.getId(),
-                        SettingsEnums.DIALOG_AUDIO_SHARING_ADD_DEVICE),
-                Pair.create(METRIC_KEY_USER_TRIGGERED.getId(), 0));
+        verify(mFeatureFactory.metricsFeatureProvider)
+                .action(
+                        mContext,
+                        SettingsEnums.ACTION_AUDIO_SHARING_ADD_SOURCE,
+                        Pair.create(
+                                METRIC_KEY_SOURCE_PAGE_ID.getId(),
+                                SettingsEnums.DIALOG_AUDIO_SHARING_ADD_DEVICE),
+                        Pair.create(METRIC_KEY_USER_TRIGGERED.getId(), 0));
     }
 
     @Test
@@ -719,8 +745,8 @@ public class AudioSharingDialogHandlerTest {
         when(mAssistant.getAllSources(mDevice1)).thenReturn(ImmutableList.of());
         when(mAssistant.getAllSources(mDevice3)).thenReturn(ImmutableList.of(mState));
         when(mAssistant.getAllSources(mDevice4)).thenReturn(ImmutableList.of(mState));
-        boolean showDialog = mHandler.handleDeviceConnected(mCachedDevice1, /* userTriggered= */
-                false);
+        boolean showDialog =
+                mHandler.handleDeviceConnected(mCachedDevice1, /* userTriggered= */ false);
         shadowOf(Looper.getMainLooper()).idle();
         List<Fragment> childFragments = mParentFragment.getChildFragmentManager().getFragments();
         assertThat(childFragments)
@@ -755,16 +781,21 @@ public class AudioSharingDialogHandlerTest {
         assertThat(listener).isNotNull();
         listener.onItemClick(AudioSharingUtils.buildAudioSharingDeviceItem(mCachedDevice3));
         verify(mAssistant).removeSource(mDevice3, TEST_SOURCE_ID);
-        verify(mFeatureFactory.metricsFeatureProvider).action(mContext,
-                SettingsEnums.ACTION_AUDIO_SHARING_REMOVE_SOURCE,
-                Pair.create(METRIC_KEY_DEVICE_IS_PRIMARY.getId(), 1),
-                Pair.create(METRIC_KEY_DEVICE_IS_TEMP_BOND.getId(), 0));
+        verify(mFeatureFactory.metricsFeatureProvider)
+                .action(
+                        mContext,
+                        SettingsEnums.ACTION_AUDIO_SHARING_REMOVE_SOURCE,
+                        Pair.create(METRIC_KEY_DEVICE_IS_PRIMARY.getId(), 1),
+                        Pair.create(METRIC_KEY_DEVICE_IS_TEMP_BOND.getId(), 0));
         verify(mAssistant).addSource(mDevice1, mMetadata, /* isGroupOp= */ false);
-        verify(mFeatureFactory.metricsFeatureProvider).action(mContext,
-                SettingsEnums.ACTION_AUDIO_SHARING_ADD_SOURCE,
-                Pair.create(METRIC_KEY_SOURCE_PAGE_ID.getId(),
-                        SettingsEnums.DIALOG_AUDIO_SHARING_SWITCH_DEVICE),
-                Pair.create(METRIC_KEY_USER_TRIGGERED.getId(), 0));
+        verify(mFeatureFactory.metricsFeatureProvider)
+                .action(
+                        mContext,
+                        SettingsEnums.ACTION_AUDIO_SHARING_ADD_SOURCE,
+                        Pair.create(
+                                METRIC_KEY_SOURCE_PAGE_ID.getId(),
+                                SettingsEnums.DIALOG_AUDIO_SHARING_SWITCH_DEVICE),
+                        Pair.create(METRIC_KEY_USER_TRIGGERED.getId(), 0));
     }
 
     @Test

@@ -14497,22 +14497,14 @@ Data usage charges may apply.</string>
     <string name="supervision_web_content_filters_title">Web content filters</string>
     <!-- Title for web content filters browser category [CHAR LIMIT=60] -->
     <string name="supervision_web_content_filters_browser_title">Websites</string>
-    <!-- Title for web content filters browser category block explicit sites option [CHAR LIMIT=60] -->
-    <string name="supervision_web_content_filters_browser_block_explicit_sites_title">Block explicit web content</string>
-    <!-- Summary for web content filters browser category block explicit sites option [CHAR LIMIT=NONE] -->
-    <string name="supervision_web_content_filters_browser_block_explicit_sites_summary">For browsers on this device</string>
-    <!-- Title for web content filters browser category allow all sites option [CHAR LIMIT=60] -->
-    <string name="supervision_web_content_filters_browser_allow_all_sites_title">Allow all sites</string>
+    <!-- Title for web content filters browser filters [CHAR LIMIT=60] -->
+    <string name="supervision_web_content_filters_browser_filter_title">Block explicit sites</string>
     <!-- Title for web content filters search category [CHAR LIMIT=60] -->
     <string name="supervision_web_content_filters_search_title">Search results</string>
-    <!-- Title for web content filters search category filter on option [CHAR LIMIT=60] -->
-    <string name="supervision_web_content_filters_search_filter_on_title">Block explicit search result</string>
-    <!-- Summary for web content filters search category filter on option [CHAR LIMIT=NONE] -->
-    <string name="supervision_web_content_filters_search_filter_on_summary">For search engines on this device</string>
+    <!-- Title for web content filters search filters switch [CHAR LIMIT=60] -->
+    <string name="supervision_web_content_filters_search_filter_title">Filter out explicit search results</string>
     <!-- Learn more link for web content filters footer. [CHAR LIMIT=NONE]-->
     <string name="supervision_web_content_filters_learn_more_link" translatable="false">https://support.google.com/android?p=device_supervision_web_filters</string>
-    <!-- Title for web content filters search category filter off option [CHAR LIMIT=60] -->
-    <string name="supervision_web_content_filters_search_filter_off_title">Filter off</string>
     <!-- Generic content description that is attached to the preview illustration at the top of an Accessibility feature toggle page. [CHAR LIMIT=NONE] -->
     <!-- Title for supervision PIN verification screen [CHAR LIMIT=60] -->
     <string name="supervision_full_screen_pin_verification_title">Enter supervision PIN</string>

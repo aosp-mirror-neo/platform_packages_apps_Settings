@@ -87,8 +87,7 @@ public class AudioSharingDialogFragmentTest {
     private static final AudioSharingDeviceItem TEST_DEVICE_ITEM3 =
             new AudioSharingDeviceItem(TEST_DEVICE_NAME3, /* groupId= */ 3, /* isActive= */ false);
     private static final AudioSharingDialogFragment.DialogEventListener EMPTY_EVENT_LISTENER =
-            new AudioSharingDialogFragment.DialogEventListener() {
-            };
+            new AudioSharingDialogFragment.DialogEventListener() {};
     private static final Pair<Integer, Object> TEST_EVENT_DATA = Pair.create(1, 1);
     private static final Pair<Integer, Object>[] TEST_EVENT_DATA_LIST =
             new Pair[] {TEST_EVENT_DATA};
@@ -149,7 +148,10 @@ public class AudioSharingDialogFragmentTest {
     @EnableFlags(Flags.FLAG_ENABLE_LE_AUDIO_SHARING)
     public void onCreateDialog_unattachedFragment_dialogNotExist() {
         AudioSharingDialogFragment.show(
-                new Fragment(), new ArrayList<>(), null, EMPTY_EVENT_LISTENER,
+                new Fragment(),
+                new ArrayList<>(),
+                null,
+                EMPTY_EVENT_LISTENER,
                 TEST_EVENT_DATA_LIST);
         shadowMainLooper().idle();
         AlertDialog dialog = ShadowAlertDialogCompat.getLatestAlertDialog();
@@ -275,15 +277,17 @@ public class AudioSharingDialogFragmentTest {
         TextView text = dialog.findViewById(R.id.description_text);
         assertThat(text).isNotNull();
         assertThat(METADATA).isNotNull();
-        assertThat(text.getText().toString()).isEqualTo(
-                mParent.getString(R.string.audio_sharing_dialog_qr_code_content,
-                        METADATA.getBroadcastName(), new String(
-                                METADATA.getBroadcastCode(),
-                                StandardCharsets.UTF_8)));
+        assertThat(text.getText().toString())
+                .isEqualTo(
+                        mParent.getString(
+                                R.string.audio_sharing_dialog_qr_code_content,
+                                METADATA.getBroadcastName(),
+                                new String(METADATA.getBroadcastCode(), StandardCharsets.UTF_8)));
         TextView textBottom = dialog.findViewById(R.id.description_text_2);
         assertThat(textBottom).isNotNull();
-        assertThat(textBottom.getText().toString()).isEqualTo(
-                mParent.getString(R.string.audio_sharing_dialog_pair_new_device_content));
+        assertThat(textBottom.getText().toString())
+                .isEqualTo(
+                        mParent.getString(R.string.audio_sharing_dialog_pair_new_device_content));
         Button cancelBtn = dialog.findViewById(R.id.negative_btn);
         assertThat(cancelBtn).isNotNull();
         cancelBtn.performClick();
@@ -321,13 +325,16 @@ public class AudioSharingDialogFragmentTest {
         TextView text = dialog.findViewById(R.id.description_text);
         assertThat(text).isNotNull();
         assertThat(METADATA_NO_PASSWORD).isNotNull();
-        assertThat(text.getText().toString()).isEqualTo(
-                mParent.getString(R.string.audio_sharing_dialog_qr_code_content_no_password,
-                        METADATA_NO_PASSWORD.getBroadcastName()));
+        assertThat(text.getText().toString())
+                .isEqualTo(
+                        mParent.getString(
+                                R.string.audio_sharing_dialog_qr_code_content_no_password,
+                                METADATA_NO_PASSWORD.getBroadcastName()));
         TextView textBottom = dialog.findViewById(R.id.description_text_2);
         assertThat(textBottom).isNotNull();
-        assertThat(textBottom.getText().toString()).isEqualTo(
-                mParent.getString(R.string.audio_sharing_dialog_pair_new_device_content));
+        assertThat(textBottom.getText().toString())
+                .isEqualTo(
+                        mParent.getString(R.string.audio_sharing_dialog_pair_new_device_content));
         Button cancelBtn = dialog.findViewById(R.id.negative_btn);
         assertThat(cancelBtn).isNotNull();
         cancelBtn.performClick();
@@ -347,8 +354,8 @@ public class AudioSharingDialogFragmentTest {
     public void onCreateDialog_flagOn_singleExtraConnectedDevice() {
         ArrayList<AudioSharingDeviceItem> list = new ArrayList<>();
         list.add(TEST_DEVICE_ITEM1);
-        AudioSharingDialogFragment.show(mParent, list, null, EMPTY_EVENT_LISTENER,
-                TEST_EVENT_DATA_LIST);
+        AudioSharingDialogFragment.show(
+                mParent, list, null, EMPTY_EVENT_LISTENER, TEST_EVENT_DATA_LIST);
         shadowMainLooper().idle();
 
         AlertDialog dialog = ShadowAlertDialogCompat.getLatestAlertDialog();
@@ -385,8 +392,8 @@ public class AudioSharingDialogFragmentTest {
     public void onCreateDialog_singleExtraConnectedDevice_dialogDismiss() {
         ArrayList<AudioSharingDeviceItem> list = new ArrayList<>();
         list.add(TEST_DEVICE_ITEM1);
-        AudioSharingDialogFragment.show(mParent, list, null, EMPTY_EVENT_LISTENER,
-                TEST_EVENT_DATA_LIST);
+        AudioSharingDialogFragment.show(
+                mParent, list, null, EMPTY_EVENT_LISTENER, TEST_EVENT_DATA_LIST);
         shadowMainLooper().idle();
 
         AlertDialog dialog = ShadowAlertDialogCompat.getLatestAlertDialog();
@@ -446,8 +453,8 @@ public class AudioSharingDialogFragmentTest {
         list.add(TEST_DEVICE_ITEM1);
         list.add(TEST_DEVICE_ITEM2);
         list.add(TEST_DEVICE_ITEM3);
-        AudioSharingDialogFragment.show(mParent, list, null, EMPTY_EVENT_LISTENER,
-                TEST_EVENT_DATA_LIST);
+        AudioSharingDialogFragment.show(
+                mParent, list, null, EMPTY_EVENT_LISTENER, TEST_EVENT_DATA_LIST);
         shadowMainLooper().idle();
 
         AlertDialog dialog = ShadowAlertDialogCompat.getLatestAlertDialog();

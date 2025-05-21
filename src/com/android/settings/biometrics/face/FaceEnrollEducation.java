@@ -53,6 +53,7 @@ import com.android.systemui.unfold.compat.ScreenSizeFoldProvider;
 import com.android.systemui.unfold.updates.FoldProvider;
 
 import com.airbnb.lottie.LottieAnimationView;
+import com.google.android.material.materialswitch.MaterialSwitch;
 import com.google.android.setupcompat.template.FooterBarMixin;
 import com.google.android.setupcompat.template.FooterButton;
 import com.google.android.setupcompat.util.WizardManagerHelper;
@@ -214,6 +215,12 @@ public class FaceEnrollEducation extends BiometricEnrollBase {
             );
             mSwitchDiversity.getSwitch().toggle();
         });
+        if (mIsUsingExpressiveStyle) {
+            final MaterialSwitch switchButton = (MaterialSwitch) mSwitchDiversity.getSwitch();
+            switchButton.setThumbIconDrawable(switchButton.getContext().getDrawable(
+                    com.android.settingslib.widget.theme.R.drawable
+                            .settingslib_expressive_switch_thumb_icon));
+        }
 
         if (mAccessibilityEnabled) {
             accessibilityButton.callOnClick();

@@ -293,8 +293,10 @@ public class AudioSharingDisconnectDialogFragmentTest {
     }
 
     @Test
-    @EnableFlags({Flags.FLAG_ENABLE_LE_AUDIO_SHARING,
-            Flags.FLAG_PROMOTE_AUDIO_SHARING_FOR_SECOND_AUTO_CONNECTED_LEA_DEVICE})
+    @EnableFlags({
+        Flags.FLAG_ENABLE_LE_AUDIO_SHARING,
+        Flags.FLAG_PROMOTE_AUDIO_SHARING_FOR_SECOND_AUTO_CONNECTED_LEA_DEVICE
+    })
     public void onCreateDialog_clickCancel_dialogDismiss() {
         mDeviceItems = new ArrayList<>();
         mDeviceItems.add(TEST_DEVICE_ITEM1);
@@ -320,16 +322,20 @@ public class AudioSharingDisconnectDialogFragmentTest {
     }
 
     @Test
-    @EnableFlags({Flags.FLAG_ENABLE_LE_AUDIO_SHARING,
-            Flags.FLAG_PROMOTE_AUDIO_SHARING_FOR_SECOND_AUTO_CONNECTED_LEA_DEVICE})
+    @EnableFlags({
+        Flags.FLAG_ENABLE_LE_AUDIO_SHARING,
+        Flags.FLAG_PROMOTE_AUDIO_SHARING_FOR_SECOND_AUTO_CONNECTED_LEA_DEVICE
+    })
     public void onDestroy_finishAudioSharingJoinHandlerActivity() {
         mDeviceItems = new ArrayList<>();
         mDeviceItems.add(TEST_DEVICE_ITEM1);
         mDeviceItems.add(TEST_DEVICE_ITEM2);
         Fragment parent = new Fragment();
         FragmentController.setupFragment(
-                parent, AudioSharingJoinHandlerActivity.class, /* containerViewId= */
-                0, /* bundle= */ null);
+                parent,
+                AudioSharingJoinHandlerActivity.class,
+                /* containerViewId= */ 0,
+                /* bundle= */ null);
         AudioSharingDisconnectDialogFragment.show(
                 parent, mDeviceItems, mCachedDevice3, EMPTY_EVENT_LISTENER, TEST_EVENT_DATA_LIST);
         shadowMainLooper().idle();
@@ -344,7 +350,7 @@ public class AudioSharingDisconnectDialogFragmentTest {
         shadowMainLooper().idle();
 
         assertThat(dialog.isShowing()).isFalse();
-        assertThat(
-                parent.getActivity().isFinishing() || parent.getActivity().isDestroyed()).isTrue();
+        assertThat(parent.getActivity().isFinishing() || parent.getActivity().isDestroyed())
+                .isTrue();
     }
 }

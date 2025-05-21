@@ -189,7 +189,7 @@ class SupervisionPinRecoveryActivity : FragmentActivity() {
                                     },
                                 )
                             }
-                        supervisionManager?.supervisionRecoveryInfo = recoveryInfo
+                        supervisionManager?.setSupervisionRecoveryInfo(recoveryInfo)
                         handleSuccess()
                     } else {
                         handleError("Cannot save recovery info, no recovery info from result.")
@@ -261,7 +261,7 @@ class SupervisionPinRecoveryActivity : FragmentActivity() {
     private fun resetSupervisionUser(): Boolean {
         val userManager = getSystemService(UserManager::class.java)
         val supervisionManager = getSystemService(SupervisionManager::class.java)
-        val isSupervisionEnabled = supervisionManager.isSupervisionEnabled
+        val isSupervisionEnabled = supervisionManager.isSupervisionEnabled()
         if (isSupervisionEnabled) {
             // Disables supervision temporally to allow user reset.
             supervisionManager.setSupervisionEnabled(false)

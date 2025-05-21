@@ -155,7 +155,8 @@ public class AudioSharingCompatibilityPreferenceController extends TogglePrefere
 
     @Override
     public int getAvailabilityStatus() {
-        return BluetoothUtils.isAudioSharingUIAvailable(mContext) ? AVAILABLE
+        return BluetoothUtils.isAudioSharingUIAvailable(mContext)
+                ? AVAILABLE
                 : UNSUPPORTED_ON_DEVICE;
     }
 

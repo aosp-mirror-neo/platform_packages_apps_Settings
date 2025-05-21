@@ -514,8 +514,8 @@ class SupervisionPinRecoveryActivityTest {
                 // Verifies the supervision state is disabled and re-enabled.
                 val inOrder = inOrder(mockSupervisionManager)
                 // Verifies the calls in the specific order
-                inOrder.verify(mockSupervisionManager).isSupervisionEnabled = false
-                inOrder.verify(mockSupervisionManager).isSupervisionEnabled = true
+                inOrder.verify(mockSupervisionManager).setSupervisionEnabled(false)
+                inOrder.verify(mockSupervisionManager).setSupervisionEnabled(true)
                 val startedIntent = shadowActivity.nextStartedActivity
                 assertThat(startedIntent.component?.className)
                     .isEqualTo(SupervisionCredentialProxyActivity::class.java.name)

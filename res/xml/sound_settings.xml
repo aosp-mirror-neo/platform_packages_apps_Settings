@@ -183,7 +183,7 @@
 
     <!-- Touch sounds -->
     <SwitchPreferenceCompat
-        android:key="touch_sounds"
+        android:key="sound_effects_enabled"
         android:title="@string/touch_sounds_title"
         android:order="-30"/>
 

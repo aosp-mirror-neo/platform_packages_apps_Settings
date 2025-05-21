@@ -417,18 +417,17 @@ public class AudioSharingUtils {
     /**
      * Build add source log event data
      *
-     * @param sourcePageId  The source page id on which the add source is triggered.
+     * @param sourcePageId The source page id on which the add source is triggered.
      * @param userTriggered Indicates whether the add source or the source page is triggered by user
-     *                      click.
+     *     click.
      * @return The event data to be attached to the add source action logs.
      */
     @NonNull
     public static Pair<Integer, Object>[] buildAddSourceEventData(
-            int sourcePageId,
-            boolean userTriggered) {
+            int sourcePageId, boolean userTriggered) {
         return new Pair[] {
-                Pair.create(METRIC_KEY_SOURCE_PAGE_ID.getId(), sourcePageId),
-                Pair.create(METRIC_KEY_USER_TRIGGERED.getId(), userTriggered ? 1 : 0)
+            Pair.create(METRIC_KEY_SOURCE_PAGE_ID.getId(), sourcePageId),
+            Pair.create(METRIC_KEY_USER_TRIGGERED.getId(), userTriggered ? 1 : 0)
         };
     }
 

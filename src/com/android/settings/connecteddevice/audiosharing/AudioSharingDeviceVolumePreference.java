@@ -110,8 +110,7 @@ public class AudioSharingDeviceVolumePreference extends SeekBarPreference {
         if ((o == null) || !(o instanceof AudioSharingDeviceVolumePreference)) {
             return false;
         }
-        return mCachedDevice.equals(
-                ((AudioSharingDeviceVolumePreference) o).mCachedDevice);
+        return mCachedDevice.equals(((AudioSharingDeviceVolumePreference) o).mCachedDevice);
     }
 
     @Override
@@ -170,8 +169,10 @@ public class AudioSharingDeviceVolumePreference extends SeekBarPreference {
             Log.d(TAG, "Skip set device volume, device is null");
             return;
         }
-        VolumeControlProfile vc = mBtManager == null ? null
-                : mBtManager.getProfileManager().getVolumeControlProfile();
+        VolumeControlProfile vc =
+                mBtManager == null
+                        ? null
+                        : mBtManager.getProfileManager().getVolumeControlProfile();
         if (vc != null) {
             vc.setDeviceVolume(device, progress, /* isGroupOp= */ true);
             mMetricsFeatureProvider.action(

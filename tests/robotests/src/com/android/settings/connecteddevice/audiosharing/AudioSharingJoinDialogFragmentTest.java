@@ -260,8 +260,10 @@ public class AudioSharingJoinDialogFragmentTest {
     }
 
     @Test
-    @EnableFlags({Flags.FLAG_ENABLE_LE_AUDIO_SHARING,
-            Flags.FLAG_PROMOTE_AUDIO_SHARING_FOR_SECOND_AUTO_CONNECTED_LEA_DEVICE})
+    @EnableFlags({
+        Flags.FLAG_ENABLE_LE_AUDIO_SHARING,
+        Flags.FLAG_PROMOTE_AUDIO_SHARING_FOR_SECOND_AUTO_CONNECTED_LEA_DEVICE
+    })
     public void onCreateDialog_clickCancel_dialogDismiss() {
         AudioSharingJoinDialogFragment.show(
                 mParent,
@@ -286,8 +288,10 @@ public class AudioSharingJoinDialogFragmentTest {
     }
 
     @Test
-    @EnableFlags({Flags.FLAG_ENABLE_LE_AUDIO_SHARING,
-            Flags.FLAG_PROMOTE_AUDIO_SHARING_FOR_SECOND_AUTO_CONNECTED_LEA_DEVICE})
+    @EnableFlags({
+        Flags.FLAG_ENABLE_LE_AUDIO_SHARING,
+        Flags.FLAG_PROMOTE_AUDIO_SHARING_FOR_SECOND_AUTO_CONNECTED_LEA_DEVICE
+    })
     public void onCreateDialog_clickBtn_callbackTriggered() {
         AtomicBoolean isShareBtnClicked = new AtomicBoolean(false);
         mFragment.show(
@@ -322,8 +326,10 @@ public class AudioSharingJoinDialogFragmentTest {
     }
 
     @Test
-    @EnableFlags({Flags.FLAG_ENABLE_LE_AUDIO_SHARING,
-            Flags.FLAG_PROMOTE_AUDIO_SHARING_FOR_SECOND_AUTO_CONNECTED_LEA_DEVICE})
+    @EnableFlags({
+        Flags.FLAG_ENABLE_LE_AUDIO_SHARING,
+        Flags.FLAG_PROMOTE_AUDIO_SHARING_FOR_SECOND_AUTO_CONNECTED_LEA_DEVICE
+    })
     public void onCreateDialog_clickCancel_callbackTriggered() {
         AtomicBoolean isCancelBtnClicked = new AtomicBoolean(false);
         mFragment.show(
@@ -358,13 +364,17 @@ public class AudioSharingJoinDialogFragmentTest {
     }
 
     @Test
-    @EnableFlags({Flags.FLAG_ENABLE_LE_AUDIO_SHARING,
-            Flags.FLAG_PROMOTE_AUDIO_SHARING_FOR_SECOND_AUTO_CONNECTED_LEA_DEVICE})
+    @EnableFlags({
+        Flags.FLAG_ENABLE_LE_AUDIO_SHARING,
+        Flags.FLAG_PROMOTE_AUDIO_SHARING_FOR_SECOND_AUTO_CONNECTED_LEA_DEVICE
+    })
     public void onDestroy_finishAudioSharingJoinHandlerActivity() {
         Fragment parent = new Fragment();
         FragmentController.setupFragment(
-                parent, AudioSharingJoinHandlerActivity.class, /* containerViewId= */
-                0, /* bundle= */ null);
+                parent,
+                AudioSharingJoinHandlerActivity.class,
+                /* containerViewId= */ 0,
+                /* bundle= */ null);
         AudioSharingJoinDialogFragment.show(
                 parent,
                 new ArrayList<>(),
@@ -382,7 +392,7 @@ public class AudioSharingJoinDialogFragmentTest {
         shadowMainLooper().idle();
 
         assertThat(dialog.isShowing()).isFalse();
-        assertThat(
-                parent.getActivity().isFinishing() || parent.getActivity().isDestroyed()).isTrue();
+        assertThat(parent.getActivity().isFinishing() || parent.getActivity().isDestroyed())
+                .isTrue();
     }
 }

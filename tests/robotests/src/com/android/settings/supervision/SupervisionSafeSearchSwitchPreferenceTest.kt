@@ -16,6 +16,8 @@
 package com.android.settings.supervision
 
 import android.app.Activity
+import android.app.settings.SettingsEnums.ACTION_SUPERVISION_SEARCH_FILTER_OFF
+import android.app.settings.SettingsEnums.ACTION_SUPERVISION_SEARCH_FILTER_ON
 import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageManager
@@ -25,6 +27,7 @@ import androidx.activity.result.ActivityResult
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts.StartActivityForResult
 import androidx.preference.Preference
+import androidx.preference.SwitchPreferenceCompat
 import androidx.test.core.app.ApplicationProvider
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import com.android.settings.R
@@ -32,7 +35,6 @@ import com.android.settings.testutils.MetricsRule
 import com.android.settingslib.datastore.SettingsSecureStore
 import com.android.settingslib.metadata.PreferenceLifecycleContext
 import com.android.settingslib.preference.createAndBindWidget
-import com.android.settingslib.widget.SelectorWithWidgetPreference
 import com.google.common.truth.Truth.assertThat
 import org.junit.Before
 import org.junit.Rule
@@ -49,13 +51,12 @@ import org.mockito.kotlin.verify
 import org.mockito.kotlin.verifyNoInteractions
 
 @RunWith(AndroidJUnit4::class)
-class SupervisionSafeSearchPreferenceTest {
+class SupervisionSafeSearchSwitchPreferenceTest {
     @get:Rule val metricsRule = MetricsRule()
 
     private val context: Context = ApplicationProvider.getApplicationContext()
     private val dataStore = SupervisionSafeSearchDataStore(context)
-    private val searchFilterOffPreference = SupervisionSearchFilterOffPreference(dataStore)
-    private val searchFilterOnPreference = SupervisionSearchFilterOnPreference(dataStore)
+    private val switchPreference = SupervisionSafeSearchSwitchPreference(dataStore)
 
     private val mockActivityResultLauncher: ActivityResultLauncher<Intent> = mock()
     private val mockPackageManager: PackageManager = mock {
@@ -74,109 +75,94 @@ class SupervisionSafeSearchPreferenceTest {
 
     @Before
     fun setUp() {
-        searchFilterOffPreference.onCreate(mockLifeCycleContext)
-        searchFilterOnPreference.onCreate(mockLifeCycleContext)
+        switchPreference.onCreate(mockLifeCycleContext)
     }
 
     @Test
-    fun getTitle_filterOn() {
-        assertThat(searchFilterOnPreference.title)
-            .isEqualTo(R.string.supervision_web_content_filters_search_filter_on_title)
-    }
-
-    @Test
-    fun getSummary_filterOn() {
-        assertThat(searchFilterOnPreference.summary)
-            .isEqualTo(R.string.supervision_web_content_filters_search_filter_on_summary)
-    }
-
-    @Test
-    fun getTitle_filterOff() {
-        assertThat(searchFilterOffPreference.title)
-            .isEqualTo(R.string.supervision_web_content_filters_search_filter_off_title)
+    fun getTitle() {
+        assertThat(switchPreference.title)
+            .isEqualTo(R.string.supervision_web_content_filters_search_filter_title)
     }
 
     @Test
     fun filterOffIsChecked_whenNoValueIsSet() {
         dataStoreValue = null
-        assertThat(searchFilterOnPreference.createWidget().isChecked).isFalse()
-        assertThat(searchFilterOffPreference.createWidget().isChecked).isTrue()
+        assertThat(switchPreference.createWidget().isChecked).isFalse()
     }
 
     @Test
     fun filterOnIsChecked_whenPreviouslyEnabled() {
         dataStoreValue = 1
-        assertThat(searchFilterOnPreference.createWidget().isChecked).isTrue()
-        assertThat(searchFilterOffPreference.createWidget().isChecked).isFalse()
+        assertThat(switchPreference.createWidget().isChecked).isTrue()
     }
 
     @Test
-    fun clickFilterOn_failedToEnablesFilter_activityFailed() {
+    fun switchToFilterOn_failedToEnablesFilter_activityFailed() {
         dataStoreValue = 0
-        val filterOnWidget = searchFilterOnPreference.createWidget()
-        assertThat(filterOnWidget.isChecked).isFalse()
+        val searchSwitchWidget = switchPreference.createWidget()
+        assertThat(searchSwitchWidget.isChecked).isFalse()
 
-        filterOnWidget.performClick()
+        searchSwitchWidget.performClick()
         verifyConfirmSupervisionCredentialsActivity()
-        searchFilterOnPreference.onConfirmCredentials(
-            ActivityResult(Activity.RESULT_CANCELED, null)
-        )
+        switchPreference.onConfirmCredentials(ActivityResult(Activity.RESULT_CANCELED, null))
 
         verifyNoInteractions(metricsRule.metricsFeatureProvider)
         assertThat(dataStoreValue).isEqualTo(0)
-        assertThat(filterOnWidget.isChecked).isFalse()
+        assertThat(searchSwitchWidget.isChecked).isFalse()
     }
 
     @Test
-    fun clickFilterOn_unresolvedIntent_activityNotLaunched() {
+    fun switchToFilterOn_unresolvedIntent_activityNotLaunched() {
         mockPackageManager.stub {
             on { queryIntentActivitiesAsUser(any<Intent>(), anyInt(), anyInt()) } doReturn listOf()
         }
 
         dataStoreValue = 0
-        val filterOnWidget = searchFilterOnPreference.createWidget()
-        assertThat(filterOnWidget.isChecked).isFalse()
+        val searchSwitchWidget = switchPreference.createWidget()
+        assertThat(searchSwitchWidget.isChecked).isFalse()
 
-        filterOnWidget.performClick()
+        searchSwitchWidget.performClick()
 
         verify(mockActivityResultLauncher, never()).launch(any())
         verifyNoInteractions(metricsRule.metricsFeatureProvider)
         assertThat(dataStoreValue).isEqualTo(0)
-        assertThat(filterOnWidget.isChecked).isFalse()
+        assertThat(searchSwitchWidget.isChecked).isFalse()
     }
 
     @Test
-    fun clickFilterOn_enablesFilter() {
+    fun switchToFilterOn_enablesFilter() {
         dataStoreValue = -1
-        val filterOnWidget = searchFilterOnPreference.createWidget()
-        assertThat(filterOnWidget.isChecked).isFalse()
+        val searchSwitchWidget = switchPreference.createWidget()
+        assertThat(searchSwitchWidget.isChecked).isFalse()
 
-        filterOnWidget.performClick()
+        searchSwitchWidget.performClick()
         verifyConfirmSupervisionCredentialsActivity()
-        searchFilterOnPreference.onConfirmCredentials(ActivityResult(Activity.RESULT_OK, null))
+        switchPreference.onConfirmCredentials(ActivityResult(Activity.RESULT_OK, null))
 
         assertThat(dataStoreValue).isEqualTo(1)
-        assertThat(filterOnWidget.isChecked).isTrue()
-        verify(metricsRule.metricsFeatureProvider).changed(0, searchFilterOnPreference.key, 1)
+        assertThat(searchSwitchWidget.isChecked).isTrue()
+        verify(metricsRule.metricsFeatureProvider)
+            .action(context, ACTION_SUPERVISION_SEARCH_FILTER_ON)
     }
 
     @Test
-    fun clickFilterOff_disablesFilter() {
+    fun switchToFilterOff_disablesFilter() {
         dataStoreValue = 1
-        val filterOffWidget = searchFilterOffPreference.createWidget()
-        assertThat(filterOffWidget.isChecked).isFalse()
+        val searchSwitchWidget = switchPreference.createWidget()
+        assertThat(searchSwitchWidget.isChecked).isTrue()
 
-        filterOffWidget.performClick()
+        searchSwitchWidget.performClick()
         verifyConfirmSupervisionCredentialsActivity()
-        searchFilterOffPreference.onConfirmCredentials(ActivityResult(Activity.RESULT_OK, null))
+        switchPreference.onConfirmCredentials(ActivityResult(Activity.RESULT_OK, null))
 
         assertThat(dataStoreValue).isEqualTo(0)
-        assertThat(filterOffWidget.isChecked).isTrue()
-        verify(metricsRule.metricsFeatureProvider).changed(0, searchFilterOffPreference.key, 1)
+        assertThat(searchSwitchWidget.isChecked).isFalse()
+        verify(metricsRule.metricsFeatureProvider)
+            .action(context, ACTION_SUPERVISION_SEARCH_FILTER_OFF)
     }
 
-    private fun SupervisionSafeSearchPreference.createWidget() =
-        createAndBindWidget<SelectorWithWidgetPreference>(context).also { widget ->
+    private fun SupervisionSafeSearchSwitchPreference.createWidget() =
+        createAndBindWidget<SwitchPreferenceCompat>(context).also { widget ->
             mockLifeCycleContext.stub { on { requirePreference<Preference>(key) } doReturn widget }
         }
 

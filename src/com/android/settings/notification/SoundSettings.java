@@ -41,7 +41,6 @@ import com.android.settings.core.OnActivityResultListener;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.sound.HandsFreeProfileOutputPreferenceController;
-import com.android.settings.widget.PreferenceCategoryController;
 import com.android.settings.widget.UpdatableListPreferenceDialogFragment;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.instrumentation.Instrumentable;
@@ -50,7 +49,6 @@ import com.android.settingslib.preference.UtilsKt;
 import com.android.settingslib.search.SearchIndexable;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 @SearchIndexable
@@ -286,18 +284,6 @@ public class SoundSettings extends DashboardFragment implements OnActivityResult
         controllers.add(dockAudioMediaPreferenceController);
         controllers.add(bootSoundPreferenceController);
         controllers.add(emergencyTonePreferenceController);
-        controllers.add(new PreferenceCategoryController(context,
-                "other_sounds_and_vibrations_category").setChildren(
-                Arrays.asList(dialPadTonePreferenceController,
-                        screenLockSoundPreferenceController,
-                        chargingSoundPreferenceController,
-                        dockingSoundPreferenceController,
-                        touchSoundPreferenceController,
-                        vibrateIconPreferenceController,
-                        dockAudioMediaPreferenceController,
-                        bootSoundPreferenceController,
-                        emergencyTonePreferenceController)));
-
         return controllers;
     }
 
