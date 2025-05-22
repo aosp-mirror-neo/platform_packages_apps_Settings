@@ -22,18 +22,19 @@ import androidx.annotation.VisibleForTesting;
 import androidx.preference.PreferenceScreen;
 
 import com.android.settings.R;
+import com.android.settings.sound.VolumeSliderPreference;
 
 /**
- * Base class for preference controller that handles VolumeSeekBarPreference
+ * Base class for preference controller that handles VolumeSliderPreference
  */
-public abstract class VolumeSeekBarPreferenceController extends
+public abstract class VolumeSliderPreferenceController extends
         AdjustVolumeRestrictedPreferenceController {
 
-    protected VolumeSeekBarPreference mPreference;
+    protected VolumeSliderPreference mPreference;
     protected AudioHelper mHelper;
-    protected VolumeSeekBarPreference.Listener mVolumePreferenceListener;
+    protected VolumeSliderPreference.Listener mVolumePreferenceListener;
 
-    public VolumeSeekBarPreferenceController(Context context, String key) {
+    public VolumeSliderPreferenceController(Context context, String key) {
         super(context, key);
         setAudioHelper(new AudioHelper(context));
     }
@@ -66,7 +67,7 @@ public abstract class VolumeSeekBarPreferenceController extends
     @Override
     public int getSliderPosition() {
         if (mPreference != null) {
-            return mPreference.getProgress();
+            return mPreference.getValue();
         }
         return mHelper.getStreamVolume(getAudioStream());
     }
@@ -74,7 +75,7 @@ public abstract class VolumeSeekBarPreferenceController extends
     @Override
     public boolean setSliderPosition(int position) {
         if (mPreference != null) {
-            mPreference.setProgress(position);
+            mPreference.setValue(position);
         }
         return mHelper.setStreamVolume(getAudioStream(), position);
     }

@@ -282,7 +282,7 @@ public class AudioSharingSwitchBarController extends BasePreferenceController
                             // To avoid users advance to share then pair flow before the
                             // primary/active sinks successfully join the audio sharing,
                             // popup dialog till adding source complete for mSinksToWaitFor.
-                            Pair<Integer, Object>[] eventData =
+                            ImmutableList<Pair<Integer, Object>> eventData =
                                     AudioSharingUtils.buildAudioSharingDialogEventData(
                                             SettingsEnums.AUDIO_SHARING_SETTINGS,
                                             SettingsEnums.DIALOG_AUDIO_SHARING_MAIN,
@@ -665,7 +665,7 @@ public class AudioSharingSwitchBarController extends BasePreferenceController
                         ? ImmutableList.of()
                         : mGroupedConnectedDevices.getOrDefault(
                                 mTargetActiveItem.getGroupId(), ImmutableList.of());
-        Pair<Integer, Object>[] eventData =
+        ImmutableList<Pair<Integer, Object>> eventData =
                 AudioSharingUtils.buildAudioSharingDialogEventData(
                         SettingsEnums.AUDIO_SHARING_SETTINGS,
                         SettingsEnums.DIALOG_AUDIO_SHARING_MAIN,
@@ -733,7 +733,8 @@ public class AudioSharingSwitchBarController extends BasePreferenceController
     }
 
     private void showJoinAudioSharingDialog(
-            Pair<Integer, Object>[] eventData, @Nullable BluetoothLeBroadcastMetadata metadata) {
+            ImmutableList<Pair<Integer, Object>> eventData,
+            @Nullable BluetoothLeBroadcastMetadata metadata) {
         if (!BluetoothUtils.isBroadcasting(mBtManager)) {
             Log.d(TAG, "Skip showJoinAudioSharingDialog, broadcast is stopped");
             return;
@@ -867,7 +868,7 @@ public class AudioSharingSwitchBarController extends BasePreferenceController
             List<BluetoothDevice> targetGroupedSinks,
             @NonNull String targetSinkName,
             @Nullable BluetoothLeBroadcastMetadata metadata,
-            Pair<Integer, Object>[] eventData) {
+            ImmutableList<Pair<Integer, Object>> eventData) {
         if (targetGroupedSinks.isEmpty()) {
             Log.d(TAG, "Skip addSourceToTargetSinks, no sinks.");
             return;
@@ -889,7 +890,11 @@ public class AudioSharingSwitchBarController extends BasePreferenceController
             mAssistant.addSource(sink, metadata, /* isGroupOp= */ false);
         }
         mMetricsFeatureProvider.action(
-                mContext, SettingsEnums.ACTION_AUDIO_SHARING_ADD_SOURCE, eventData);
+                SettingsEnums.AUDIO_SHARING_SETTINGS,
+                SettingsEnums.ACTION_AUDIO_SHARING_ADD_SOURCE,
+                SettingsEnums.AUDIO_SHARING_SETTINGS,
+                eventData.toString(),
+                /* changedPreferenceIntValue= */ 0);
     }
 
     private void showProgressDialog(@NonNull String progressMessage) {
@@ -928,20 +933,24 @@ public class AudioSharingSwitchBarController extends BasePreferenceController
                 callingPackage = settingsActivity.getInitialCallingPackage();
             }
         }
-        Pair<Integer, Object>[] eventData =
-                new Pair[] {
-                    Pair.create(
-                            AudioSharingUtils.MetricKey.METRIC_KEY_SOURCE_PAGE_ID.getId(),
-                            sourceMetric),
-                    Pair.create(
-                            AudioSharingUtils.MetricKey.METRIC_KEY_SOURCE_PACKAGE_NAME.getId(),
-                            callingPackage),
-                    Pair.create(
-                            AudioSharingUtils.MetricKey.METRIC_KEY_CANDIDATE_DEVICE_COUNT.getId(),
-                            candidateDeviceCount)
-                };
+        ImmutableList<Pair<Integer, Object>> eventData =
+                ImmutableList.of(
+                        Pair.create(
+                                AudioSharingUtils.MetricKey.METRIC_KEY_SOURCE_PAGE_ID.getId(),
+                                sourceMetric),
+                        Pair.create(
+                                AudioSharingUtils.MetricKey.METRIC_KEY_SOURCE_PACKAGE_NAME.getId(),
+                                callingPackage),
+                        Pair.create(
+                                AudioSharingUtils.MetricKey.METRIC_KEY_CANDIDATE_DEVICE_COUNT
+                                        .getId(),
+                                candidateDeviceCount));
         mMetricsFeatureProvider.action(
-                mContext, SettingsEnums.ACTION_AUDIO_SHARING_MAIN_SWITCH_ON, eventData);
+                SettingsEnums.AUDIO_SHARING_SETTINGS,
+                SettingsEnums.ACTION_AUDIO_SHARING_MAIN_SWITCH_ON,
+                SettingsEnums.AUDIO_SHARING_SETTINGS,
+                eventData.toString(),
+                /* changedPreferenceIntValue= */ 0);
     }
 
     private enum StartIntentHandleStage {

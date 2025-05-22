@@ -544,22 +544,19 @@ public class AudioSharingCallAudioPreferenceController extends AudioSharingBaseP
                                                     : ChangeCallAudioType.CONNECTED_EARLIER;
                                 }
                             }
-                            Pair<Integer, Object>[] eventData =
-                                    new Pair[] {
-                                        Pair.create(
-                                                METRIC_KEY_DEVICE_CONNECTION_TYPE.getId(),
-                                                type.getName()),
-                                        Pair.create(
-                                                METRIC_KEY_DEVICE_IS_TEMP_BOND.getId(),
-                                                BluetoothUtils.isTemporaryBondDevice(
-                                                                target.getDevice())
-                                                        ? 1
-                                                        : 0)
-                                    };
+                            ImmutableList<Pair<Integer, Object>> eventData =
+                                    ImmutableList.of(
+                                            Pair.create(
+                                                    METRIC_KEY_DEVICE_CONNECTION_TYPE.getId(),
+                                                    type.getName()),
+                                            Pair.create(
+                                                    METRIC_KEY_DEVICE_IS_TEMP_BOND.getId(),
+                                                    BluetoothUtils.isTemporaryBondDevice(
+                                                            target.getDevice())));
                             mMetricsFeatureProvider.action(
                                     mContext,
                                     SettingsEnums.ACTION_AUDIO_SHARING_CHANGE_CALL_AUDIO,
-                                    eventData);
+                                    eventData.toString());
                         });
     }
 }

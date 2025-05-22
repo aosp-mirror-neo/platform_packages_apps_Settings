@@ -4950,6 +4950,14 @@
     <string name="mouse_reverse_vertical_scrolling">Reverse scrolling</string>
     <!-- Title for a toggle switch for 'Use primary keys' under mouse key main page, an accessibility setting that allows the user to use primary keyboard keys to control the cursor instead of using numpad keys. [CHAR LIMIT=35] -->
     <string name="mouse_keys_use_primary_keys_title">Use primary keys</string>
+    <!-- Label for the reset settings button in mouse key main page, [CHAR LIMIT=35] -->
+    <string name="mouse_keys_reset_button_label">Reset settings</string>
+    <!-- Title for the primary keys keyboard diagrams in mouse key main page, [CHAR LIMIT=35] -->
+    <string name="mouse_keys_primary_keys_image_list_title">How to use primary keys</string>
+    <!-- Title for the numpad keys keyboard diagrams in mouse key main page. [CHAR LIMIT=35] -->
+    <string name="mouse_keys_numpad_keys_image_list_title">How to use a numeric keypad</string>
+    <!-- Summary text for the numpad keys keyboard diagrams in mouse key main page. [CHAR LIMIT=35] -->
+    <string name="mouse_keys_numpad_keys_image_list_summary">Numeric keypad will always be used when Num Lock is on</string>
     <!-- Summary text for the 'Mouse reverse scrolling' preference switch indicating to users that when the setting is enabled that scrolling up with their mouse wheel will move the page content down. [CHAR LIMIT=NONE] -->
     <string name="mouse_reverse_vertical_scrolling_summary">Scroll up to move the page down</string>
     <!-- Title for the scrolling section of the mouse settings page. [CHAR LIMIT=60] -->
@@ -8640,6 +8648,18 @@ Data usage charges may apply.</string>
 
     <!-- Sound: Other sounds: Title for the option enabling boot sounds. [CHAR LIMIT=30] -->
     <string name="boot_sounds_title">Power on sounds</string>
+
+    <!-- Sound: Title for the sound patterns category. [CHAR LIMIT=60] -->
+    <string name="sound_patterns_category_title">Sound patterns</string>
+
+    <!-- Sound: Title for the audio category. [CHAR LIMIT=60] -->
+    <string name="sound_audio_category_title">Audio</string>
+
+    <!-- Sound: Title for the system sounds & vibrations category. [CHAR LIMIT=60] -->
+    <string name="system_sounds_and_vibrations_category_title">System sounds &amp; vibrations</string>
+
+    <!-- Sound: Title for the work profile sound category. [CHAR LIMIT=60] -->
+    <string name="work_profile_sound_category_title">Work profile sound</string>
 
     <!-- Setting title for controlling how caption text display in real time [CHAR LIMIT=40]-->
     <string name="live_caption_title">Live Caption</string>

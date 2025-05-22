@@ -45,6 +45,7 @@ import com.android.settings.overlay.FeatureFactory;
 import com.android.settingslib.bluetooth.BluetoothLeBroadcastMetadataExt;
 import com.android.settingslib.bluetooth.BluetoothUtils;
 
+import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Iterables;
 
 import java.nio.charset.StandardCharsets;
@@ -74,7 +75,7 @@ public class AudioSharingDialogFragment extends InstrumentedDialogFragment {
     }
 
     @Nullable private static DialogEventListener sListener;
-    private static Pair<Integer, Object>[] sEventData = new Pair[0];
+    private static ImmutableList<Pair<Integer, Object>> sEventData = ImmutableList.of();
     @Nullable private static Fragment sHost;
 
     AudioSharingFeatureProvider audioSharingFeatureProvider =
@@ -99,7 +100,7 @@ public class AudioSharingDialogFragment extends InstrumentedDialogFragment {
             @NonNull List<AudioSharingDeviceItem> deviceItems,
             @Nullable BluetoothLeBroadcastMetadata metadata,
             @NonNull DialogEventListener listener,
-            @NonNull Pair<Integer, Object>[] eventData) {
+            @NonNull ImmutableList<Pair<Integer, Object>> eventData) {
         if (host == null) {
             Log.d(TAG, "Fail to show dialog, host is null");
             return;
@@ -145,7 +146,7 @@ public class AudioSharingDialogFragment extends InstrumentedDialogFragment {
     /** Test only: get the event data passed to the dialog. */
     @VisibleForTesting
     @NonNull
-    Pair<Integer, Object>[] getEventData() {
+    ImmutableList<Pair<Integer, Object>> getEventData() {
         return sEventData;
     }
 
@@ -289,15 +290,19 @@ public class AudioSharingDialogFragment extends InstrumentedDialogFragment {
 
     private void logDialogPositiveBtnClick() {
         mMetricsFeatureProvider.action(
-                getContext(),
+                getMetricsCategory(),
                 SettingsEnums.ACTION_AUDIO_SHARING_DIALOG_POSITIVE_BTN_CLICKED,
-                sEventData);
+                getMetricsCategory(),
+                sEventData.toString(),
+                /* changedPreferenceIntValue= */ 0);
     }
 
     private void logDialogNegativeBtnClick() {
         mMetricsFeatureProvider.action(
-                getContext(),
+                getMetricsCategory(),
                 SettingsEnums.ACTION_AUDIO_SHARING_DIALOG_NEGATIVE_BTN_CLICKED,
-                sEventData);
+                getMetricsCategory(),
+                sEventData.toString(),
+                /* changedPreferenceIntValue= */ 0);
     }
 }

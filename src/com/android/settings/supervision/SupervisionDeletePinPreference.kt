@@ -131,10 +131,11 @@ class SupervisionDeletePinPreference() :
             Log.e(TAG, "Can't delete supervision data; supervising user does not exist.")
             return
         }
+        // Supervision must be disabled before the supervising profile can be removed
+        supervisionManager.setSupervisionEnabled(false)
+        lifeCycleContext.notifyPreferenceChange(KEY)
         if (userManager.removeUser(supervisingUser)) {
-            supervisionManager.setSupervisionEnabled(false)
             supervisionManager.setSupervisionRecoveryInfo(null)
-            lifeCycleContext.notifyPreferenceChange(KEY)
             SubSettingLauncher(lifeCycleContext)
                 .setDestination(SupervisionDashboardFragment::class.java.name)
                 .setSourceMetricsCategory(SettingsEnums.SUPERVISION_DASHBOARD)

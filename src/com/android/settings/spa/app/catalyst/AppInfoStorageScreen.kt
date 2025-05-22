@@ -22,7 +22,9 @@ import android.content.Intent
 import android.os.Bundle
 import android.os.UserHandle
 import androidx.core.net.toUri
+import androidx.fragment.app.Fragment
 import com.android.settings.R
+import com.android.settings.applications.AppStorageSettings
 import com.android.settings.contract.TAG_DEVICE_STATE_PREFERENCE
 import com.android.settings.contract.TAG_DEVICE_STATE_SCREEN
 import com.android.settings.core.PreferenceScreenMixin
@@ -57,7 +59,7 @@ open class AppInfoStorageScreen(context: Context, override val arguments: Bundle
     override val highlightMenuKey: Int
         get() = R.string.menu_key_apps
 
-    override fun getMetricsCategory() = SettingsEnums.PAGE_UNKNOWN // TODO: correct page id
+    override fun getMetricsCategory() = SettingsEnums.APPLICATIONS_APP_STORAGE
 
     override fun tags(context: Context) =
         arrayOf(TAG_DEVICE_STATE_SCREEN, TAG_DEVICE_STATE_PREFERENCE)
@@ -74,10 +76,12 @@ open class AppInfoStorageScreen(context: Context, override val arguments: Bundle
 
     override fun hasCompleteHierarchy() = false
 
+    override fun fragmentClass(): Class<out Fragment>? = AppStorageSettings::class.java
+
     override fun getLaunchIntent(context: Context, metadata: PreferenceMetadata?) =
         Intent("com.android.settings.APP_STORAGE_SETTINGS").apply {
             data = "package:${appInfo.packageName}".toUri()
-            highlightPreference(metadata?.key)
+            highlightPreference(arguments, metadata?.key)
         }
 
     override fun getPreferenceHierarchy(context: Context) =

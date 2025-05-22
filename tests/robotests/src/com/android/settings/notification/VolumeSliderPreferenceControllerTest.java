@@ -30,6 +30,8 @@ import android.content.Context;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
 
+import com.android.settings.sound.VolumeSliderPreference;
+
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
@@ -40,7 +42,7 @@ import org.mockito.junit.MockitoRule;
 import org.robolectric.RobolectricTestRunner;
 
 @RunWith(RobolectricTestRunner.class)
-public class VolumeSeekBarPreferenceControllerTest {
+public class VolumeSliderPreferenceControllerTest {
     @Rule
     public final MockitoRule mMockitoRule = MockitoJUnit.rule();
 
@@ -49,19 +51,19 @@ public class VolumeSeekBarPreferenceControllerTest {
     @Mock
     private PreferenceScreen mScreen;
     @Mock
-    private VolumeSeekBarPreference mPreference;
+    private VolumeSliderPreference mPreference;
     @Mock
-    private VolumeSeekBarPreference.Listener mListener;
+    private VolumeSliderPreference.Listener mListener;
     @Mock
     private AudioHelper mHelper;
 
-    private VolumeSeekBarPreferenceControllerTestable mController;
+    private VolumeSliderPreferenceControllerTestable mController;
 
     @Before
     public void setUp() {
         when(mScreen.findPreference(nullable(String.class))).thenReturn(mPreference);
         when(mPreference.getKey()).thenReturn("key");
-        mController = new VolumeSeekBarPreferenceControllerTestable(mContext, true,
+        mController = new VolumeSliderPreferenceControllerTestable(mContext, true,
                 mPreference.getKey(), mListener);
         mController.setAudioHelper(mHelper);
     }
@@ -70,19 +72,19 @@ public class VolumeSeekBarPreferenceControllerTest {
     public void displayPreference_available_shouldUpdatePreference() {
         mController.displayPreference(mScreen);
 
-        verify(mPreference).setStream(VolumeSeekBarPreferenceControllerTestable.AUDIO_STREAM);
-        verify(mPreference).setMuteIcon(VolumeSeekBarPreferenceControllerTestable.MUTE_ICON);
+        verify(mPreference).setStream(VolumeSliderPreferenceControllerTestable.AUDIO_STREAM);
+        verify(mPreference).setMuteIcon(VolumeSliderPreferenceControllerTestable.MUTE_ICON);
         verify(mPreference).setListener(mListener);
     }
 
     @Test
     public void displayPreference_notAvailable_shouldNotUpdatePreference() {
-        mController = new VolumeSeekBarPreferenceControllerTestable(mContext, false,
+        mController = new VolumeSliderPreferenceControllerTestable(mContext, false,
                 mPreference.getKey(), mListener);
 
         mController.displayPreference(mScreen);
 
-        verify(mPreference, never()).setCallback(any(VolumeSeekBarPreference.Callback.class));
+        verify(mPreference, never()).setCallback(any(VolumeSliderPreference.Callback.class));
         verify(mPreference, never()).setStream(anyInt());
         verify(mPreference, never()).setMuteIcon(anyInt());
         verify(mPreference, never()).setListener(mListener);
@@ -107,7 +109,7 @@ public class VolumeSeekBarPreferenceControllerTest {
         mController.displayPreference(mScreen);
 
         mController.setSliderPosition(2);
-        verify(mPreference).setProgress(2);
+        verify(mPreference).setValue(2);
     }
 
     @Test
@@ -128,22 +130,22 @@ public class VolumeSeekBarPreferenceControllerTest {
 
     @Test
     public void getSliderPosition_passesAlongValue() {
-        when(mPreference.getProgress()).thenReturn(7);
+        when(mPreference.getValue()).thenReturn(7);
         mController.displayPreference(mScreen);
 
         assertThat(mController.getSliderPosition()).isEqualTo(7);
     }
 
-    private static class VolumeSeekBarPreferenceControllerTestable extends
-            VolumeSeekBarPreferenceController {
+    private static class VolumeSliderPreferenceControllerTestable extends
+            VolumeSliderPreferenceController {
 
         private static final int AUDIO_STREAM = 1;
         private static final int MUTE_ICON = 2;
 
         private final boolean mAvailable;
 
-        VolumeSeekBarPreferenceControllerTestable(Context context, boolean available, String key,
-                VolumeSeekBarPreference.Listener listener) {
+        VolumeSliderPreferenceControllerTestable(Context context, boolean available, String key,
+                VolumeSliderPreference.Listener listener) {
             super(context, key);
             mAvailable = available;
             mVolumePreferenceListener = listener;

@@ -293,8 +293,7 @@
     <string name="share" msgid="8502235338607613795">"Del"</string>
     <string name="add" msgid="8335206931421683426">"Legg til"</string>
     <string name="remove" msgid="1028414219245072102">"Fjern"</string>
-    <!-- no translation found for process (2614220641928709668) -->
-    <skip />
+    <string name="process" msgid="2614220641928709668">"Behandle"</string>
     <string name="settings_label" msgid="943294133671632976">"Innstillinger"</string>
     <string name="settings_label_launcher" msgid="820982375501978609">"Innstillinger"</string>
     <string name="settings_shortcut" msgid="8548239727871847171">"Snarvei for Innstillinger"</string>
@@ -932,10 +931,8 @@
     <string name="bluetooth_pairing_shares_phonebook" msgid="4329325125260724843">"Gi tilgang til kontakter og anropslogg"</string>
     <string name="bluetooth_pairing_phonebook_toggle_text" msgid="2474015367387690034">"Gi også tilgang til kontakter og anropsloggen"</string>
     <string name="bluetooth_pairing_phonebook_toggle_details" msgid="1367197978487212581">"Informasjonen brukes for anropskunngjøringer med mer"</string>
-    <!-- no translation found for bluetooth_pairing_confirmation_title (3359642089708714808) -->
-    <skip />
-    <!-- no translation found for bluetooth_pairing_confirmation_msg (8204761740738350792) -->
-    <skip />
+    <string name="bluetooth_pairing_confirmation_title" msgid="3359642089708714808">"Sjekk sammenkoblingskoder"</string>
+    <string name="bluetooth_pairing_confirmation_msg" msgid="8204761740738350792">"Sjekk om denne koden samsvarer med koden på <xliff:g id="DEVICE_NAME">%1$s</xliff:g>.\n\nAv sikkerhetshensyn må du ikke skrive inn denne koden noe sted."</string>
     <string name="bluetooth_error_title" msgid="2284738188253690278"></string>
     <string name="bluetooth_connecting_error_message" msgid="3941893154784152112">"Kunne ikke koble til <xliff:g id="DEVICE_NAME">%1$s</xliff:g>."</string>
     <string name="bluetooth_preference_found_media_devices" msgid="830061195998352840">"Tilgjengelige enheter"</string>
@@ -1000,8 +997,7 @@
     <string name="external_display_more_options_title" msgid="1222751990705118774">"Flere alternativer"</string>
     <string name="external_display_topology_hint" msgid="854973327795578470">"Hold og dra for å omorganisere skjermer."</string>
     <string name="external_display_mirroring_title" msgid="2688288527687724603">"Speil den innebygde skjermen"</string>
-    <!-- no translation found for wifi_display_settings_title (2622548133505158832) -->
-    <skip />
+    <string name="wifi_display_settings_title" msgid="2622548133505158832">"Google Cast"</string>
     <string name="keywords_wifi_display_settings" msgid="5753883229564422679">"speil"</string>
     <string name="wifi_display_enable_menu_item" msgid="7391841780777318134">"Slå på trådløs skjermdeling"</string>
     <string name="wifi_display_no_devices_found" msgid="7904877793677102805">"Finner ingen enheter i nærheten."</string>
@@ -1040,7 +1036,7 @@
     <string name="android_beam_explained" msgid="5684416131846701256">"Når denne funksjonen er slått på, kan du beame appinnhold til en annen enhet som støtter nærfeltskommunikasjon (NFC). Du gjør dette ved å holde enhetene tett sammen. Du kan for eksempel beame nettsider, YouTube-videoer, kontakter med mer.\n\nDu holder bare enhetene mot hverandre (vanligvis rygg mot rygg) og trykker på skjermen. Appen avgjør hva som beames."</string>
     <string name="wifi_settings" msgid="8313301946393559700">"Wifi"</string>
     <string name="wifi_settings_primary_switch_title" msgid="628360786662947258">"Bruk wifi"</string>
-    <string name="wifi_networks_category" msgid="8011323954745036753">"Kanaler"</string>
+    <string name="wifi_networks_category" msgid="8011323954745036753">"Nettverk"</string>
     <string name="wifi_settings_category" msgid="3523464780563778321">"Innstillinger for wifi"</string>
     <string name="wifi_select_network" msgid="6692897876718813259">"Velg Wifi-nettverk"</string>
     <string name="wifi_starting" msgid="6147022683967506341">"Slår på Wifi …"</string>
@@ -1366,6 +1362,16 @@
     <string name="auto_brightness_description" msgid="6807117118142381193">"Lysstyrken på skjermen justeres automatisk etter omgivelser og aktiviteter. Du kan flytte glidebryteren manuelt for lære tilpasset lysstyrke om preferansene dine."</string>
     <string name="auto_brightness_summary_on" msgid="2748088951224387004">"På"</string>
     <string name="auto_brightness_summary_off" msgid="8077066192887677956">"Av"</string>
+    <!-- no translation found for hdr_brightness_title (6997980740096282616) -->
+    <skip />
+    <!-- no translation found for hdr_brightness_level_title (770342878327164738) -->
+    <skip />
+    <!-- no translation found for hdr_brightness_standard_image_label (8262353134660098785) -->
+    <skip />
+    <!-- no translation found for hdr_brightness_hdr_image_label (8068442758910393158) -->
+    <skip />
+    <!-- no translation found for hdr_brightness_warning (2755151579539607928) -->
+    <skip />
     <string name="display_white_balance_title" msgid="2624544323029364713">"Vis hvitbalanse"</string>
     <string name="display_white_balance_summary" msgid="7625456704950209050"></string>
     <string name="fold_lock_behavior_title" msgid="786228803694268449">"Fortsett å bruke apper etter sammenlegging"</string>
@@ -1435,6 +1441,8 @@
     <string name="dark_ui_bedtime_footer_action" msgid="1493095487994054339">"Innstillinger for sengetidsmodus"</string>
     <string name="dark_ui_modes_footer_summary" msgid="1041117250408363391">"{count,plural,offset:2 =0{Moduser kan også slå på mørkt tema}=1{{mode_1} slår også på mørkt tema}=2{{mode_1} og {mode_2} slår også på mørkt tema}=3{{mode_1}, {mode_2} og {mode_3} slår også på mørkt tema}other{{mode_1}, {mode_2} og # til slår også på mørkt tema}}"</string>
     <string name="dark_ui_modes_footer_action" msgid="80671811848446248">"Modusinnstillinger"</string>
+    <!-- no translation found for hdr_brigtness_text (1912629316654528876) -->
+    <skip />
     <string name="screen_timeout" msgid="7709947617767439410">"Skjermsparer"</string>
     <string name="screen_timeout_summary" msgid="5558778019594643427">"Etter <xliff:g id="TIMEOUT_DESCRIPTION">%1$s</xliff:g> med inaktivitet"</string>
     <string name="screen_timeout_summary_not_set" msgid="5107680774964178875">"Ikke angitt"</string>
@@ -2119,6 +2127,8 @@
     <string name="input_setting_keys_dialog_option_200" msgid="2785528287150314940">"0,2 sekunder"</string>
     <string name="input_setting_keys_dialog_option_400" msgid="91571674179896177">"0,4 sekunder"</string>
     <string name="input_setting_keys_dialog_option_600" msgid="6983252972219539375">"0,6 sekunder"</string>
+    <!-- no translation found for input_setting_keys_dialog_option_custom (2353045390598308685) -->
+    <skip />
     <string name="input_setting_keys_custom_title" msgid="670425691119253202">"Egendefinert"</string>
     <string name="input_setting_keys_custom_value" msgid="4455905650507193648">"egendefinert verdi"</string>
     <string name="input_setting_bounce_keys_seekbar_desc" msgid="4575595566548124309">"Tidsgrense for filtertaster"</string>
@@ -2368,17 +2378,14 @@
     <string name="accessibility_magnification_cursor_following_center" msgid="3504798009192014460">"Beveg skjermen, og hold musen midt på skjermen"</string>
     <string name="accessibility_magnification_cursor_following_edge" msgid="8675207762416655758">"Beveg skjermen når musen berører kantene av skjermen"</string>
     <string name="accessibility_screen_magnification_follow_typing_title" msgid="494025442124701045">"Følg skriving"</string>
-    <!-- no translation found for accessibility_screen_magnification_follow_typing_summary (2678347754211619662) -->
-    <skip />
+    <string name="accessibility_screen_magnification_follow_typing_summary" msgid="2678347754211619662">"Forstørrelsesglasset følger teksten når du skriver"</string>
     <string name="accessibility_screen_magnification_follow_keyboard_title" msgid="7342198645736402048">"Forstørr tastaturfokuset"</string>
     <string name="accessibility_screen_magnification_follow_keyboard_summary" msgid="9091733229413835358">"Lupen følger tastaturets fokus"</string>
     <string name="accessibility_screen_magnification_nav_ime_title" msgid="8804501318161774285">"Forstørr tastaturet"</string>
-    <!-- no translation found for accessibility_screen_magnification_nav_ime_summary (2102651227079047801) -->
-    <skip />
+    <string name="accessibility_screen_magnification_nav_ime_summary" msgid="2102651227079047801">"Zoom inn på tastaturet for å se emojier og bokstaver når du bruker forstørrelse i fullskjerm"</string>
     <string name="accessibility_screen_magnification_nav_ime_unavailable_summary" msgid="2248787024685382054">"Utilgjengelig ved forstørring av deler av skjermen"</string>
     <string name="accessibility_screen_magnification_always_on_title" msgid="3814297443759580936">"La være på ved appbytte"</string>
-    <!-- no translation found for accessibility_screen_magnification_always_on_summary (642275893256862796) -->
-    <skip />
+    <string name="accessibility_screen_magnification_always_on_summary" msgid="642275893256862796">"Forstørrelsesglasset blir værende på og zoomer ut når du bytter app"</string>
     <string name="accessibility_screen_magnification_always_on_unavailable_summary" msgid="3844732482037416038">"Ikke tilgjengelig ved forstørring av bare en del av skjermen"</string>
     <string name="accessibility_screen_magnification_joystick_title" msgid="1803769708582404964">"Joystick"</string>
     <string name="accessibility_screen_magnification_joystick_summary" msgid="4640300148573982720">"Aktiver og flytt forstørringen med joysticken på skjermen. Trykk og hold og dra joysticken for å kontrollere forstørringen. Trykk og dra for å flytte selve joysticken."</string>
@@ -2567,8 +2574,8 @@
     <string name="autoclick_cursor_area_size_dialog_option_extra_small" msgid="6056674574040448864">"Ekstra liten"</string>
     <string name="autoclick_ignore_minor_cursor_movement_title" msgid="5038721995720529808">"Ignorer små markørbevegelser"</string>
     <string name="autoclick_revert_to_left_click_title" msgid="9213418243482609005">"Gå tilbake til venstreklikk etter handling"</string>
-    <string name="accessibility_autoclick_navigation_title" msgid="2580632445700896655">"Autoklikk fungerer best med navigasjon med tre knapper"</string>
-    <string name="accessibility_autoclick_navigation_message" msgid="8007946937334710898">"Slå på navigasjon med tre knapper i innstillingene, slik at du kan bruke autoklikk for å gå til startskjermen, gå tilbake og åpne nylig brukte apper."</string>
+    <string name="accessibility_autoclick_navigation_title" msgid="6808216178814576714">"Endre navigasjonsmodus for å bruke autoklikk"</string>
+    <string name="accessibility_autoclick_navigation_message" msgid="112626284307103141">"For å gå tilbake, gå til startsiden og bytte apper når du bruker autoklikk, må du bruke navigasjon med tre knapper i stedet for navigasjon med bevegelser"</string>
     <string name="accessibility_vibration_settings_title" msgid="936301142478631993">"Vibrering og fysisk tilbakemelding"</string>
     <string name="accessibility_vibration_settings_summary" msgid="3690308537483465527">"Kontroller vibrasjonsstyrken for forskjellig bruk"</string>
     <string name="accessibility_vibration_settings_state_on" msgid="5566026932372832502">"På"</string>
@@ -3528,6 +3535,8 @@
     <string name="keywords_display_wallpaper" msgid="8478137541939526564">"bakgrunn, gi personlig preg, tilpass skjermen"</string>
     <string name="keywords_display_font_size" msgid="3593317215149813183">"tekststørrelse"</string>
     <string name="keywords_display_cast_screen" msgid="2572331770299149370">"projiser, cast, skjermspeiling, skjermdeling, speiling, del skjerm, skjermcasting"</string>
+    <!-- no translation found for keywords_display_hdr_brightness (2553194332263860092) -->
+    <skip />
     <string name="keywords_storage" msgid="3004667910133021783">"plass, disk, harddisk, enhetsbruk"</string>
     <string name="keywords_battery" msgid="7040323668283600530">"strømforbruk, lad"</string>
     <string name="keywords_battery_usage" msgid="1763573071014260220">"se batteribruk, batteribruk, strømbruk"</string>
@@ -3618,8 +3627,7 @@
     <string name="keywords_keyboard_vibration" msgid="6485149510591654697">"tastatur, haptisk teknologi, vibrer,"</string>
     <string name="sound_dashboard_summary" msgid="8254699132423665654">"Volum og vibrering"</string>
     <string name="media_volume_option_title" msgid="5966569685119475630">"Medievolum"</string>
-    <!-- no translation found for remote_media_volume_option_title (7907330631195715350) -->
-    <skip />
+    <string name="remote_media_volume_option_title" msgid="7907330631195715350">"Google Cast-volum"</string>
     <string name="call_volume_option_title" msgid="1461105986437268924">"Samtalevolum"</string>
     <string name="alarm_volume_option_title" msgid="6398641749273697140">"Alarmvolum"</string>
     <string name="ring_volume_option_title" msgid="1520802026403038560">"Ringe- og varselvolum"</string>
@@ -3793,8 +3801,15 @@
     <string name="snooze_options_title" msgid="2109795569568344617">"Tillat slumring av varsler"</string>
     <string name="notification_badging_title" msgid="5469616894819568917">"Varselprikk på appikoner"</string>
     <string name="notification_bundles" msgid="496852738958148317">"Varselorganisering"</string>
-    <!-- no translation found for notification_ai_features_title (6497959797331796296) -->
+    <!-- no translation found for notification_bundle_promotions_summary (3196830882575438887) -->
     <skip />
+    <!-- no translation found for notification_bundle_news_summary (2524877244105778120) -->
+    <skip />
+    <!-- no translation found for notification_bundle_social_summary (1880042768055317701) -->
+    <skip />
+    <!-- no translation found for notification_bundle_recs_summary (9200357300848343691) -->
+    <skip />
+    <string name="notification_ai_features_title" msgid="6497959797331796296">"AI-baserte varsler"</string>
     <string name="notification_summarization_title" msgid="1516039882005781529">"Varseloppsummeringer"</string>
     <string name="notification_summarization_summary" msgid="1963425736716175590">"Få raske oppsummeringer av lengre meldinger"</string>
     <string name="notification_summarization_main_control_title" msgid="3341727937605794607">"Bruk varseloppsummeringer"</string>
@@ -3802,12 +3817,15 @@
     <string name="notification_summarization_excluded_description" msgid="5819160700526641394">"Varsler fra disse appene blir ikke oppsummert"</string>
     <string name="notification_summarization_manage_excluded_apps" msgid="1691177835156220384">"Administrer apper"</string>
     <string name="notification_summarization_manage_excluded_apps_title" msgid="1299744594788208296">"Tillat oppsummeringer av varsler for apper"</string>
-    <string name="notification_excluded_apps" msgid="6648267716069216826">"Appunntak"</string>
+    <!-- no translation found for notification_excluded_apps (317898848790046528) -->
+    <skip />
     <string name="notification_app_level_summarize_title" msgid="3829343457958246733">"Oppsummer varsler"</string>
     <string name="notification_app_level_summarize_subtext" msgid="7949649262631157728">"Oppsummer samtalevarsler fra denne appen"</string>
     <string name="live_notifications" msgid="4650406646292963831">"Sanntidsvarsler"</string>
-    <string name="live_notifications_switch" msgid="50547709843410137">"Vis sanntidsinformasjon"</string>
-    <string name="live_notifications_desc" msgid="7383414458419053003">"Festede varsler viser sanntidsinformasjon fra apper og vises alltid i statusfeltet og på låseskjermen"</string>
+    <!-- no translation found for live_notifications_switch (7745275403210881110) -->
+    <skip />
+    <!-- no translation found for live_notifications_desc (6857161077319125625) -->
+    <skip />
     <string name="notification_bubbles_title" msgid="5681506665322329301">"Bobler"</string>
     <string name="bubbles_app_toggle_title" msgid="5319021259954576150">"Bobler"</string>
     <string name="bubbles_conversation_toggle_title" msgid="5225039214083311316">"Lag boble for denne samtalen"</string>
@@ -3959,10 +3977,8 @@
     <string name="notification_bundle_description" msgid="8439963475488583612">"Velg varslingstyper du vil dempe og gruppere sammen for å minimere avbrudd. Gruppering er AI-basert og kan inneholde feil."</string>
     <string name="notification_app_level_bundle_title" msgid="8917807675495480483">"Pakkevarsler"</string>
     <string name="notification_app_level_bundle_subtext" msgid="7330731485247761388">"Varsler med lignende temaer blir dempet og gruppert sammen for å gi deg en roligere opplevelse"</string>
-    <string name="notification_bundle_excluded_description" msgid="2667461772332132250">"Varsler fra disse appene grupperes ikke"</string>
     <string name="notification_bundle_manage_excluded_apps_title" msgid="7019831234073590293">"Tillat varselsgruppering for apper"</string>
-    <!-- no translation found for notification_adjustment_work_switch_title (5858034709870660002) -->
-    <skip />
+    <string name="notification_adjustment_work_switch_title" msgid="5858034709870660002">"Bruk for apper i jobbprofilen"</string>
     <string name="vr_listeners_title" msgid="4960357292472540964">"Hjelpetjenester for VR"</string>
     <string name="no_vr_listeners" msgid="8442646085375949755">"Ingen av de installerte appene har bedt om å bli kjørt som hjelpetjeneste for VR."</string>
     <string name="vr_listener_security_warning_title" msgid="7026351795627615177">"Vil du tillate tjenestetilgang for VR for <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
@@ -4510,10 +4526,8 @@
     <string name="condition_grayscale_title" msgid="9029271080007984542">"Gråtoner"</string>
     <string name="condition_grayscale_summary" msgid="1306034149271251292">"Bare vis i grått"</string>
     <string name="homepage_condition_footer_content_description" msgid="1568313430995646108">"Skjul"</string>
-    <!-- no translation found for homepage_unnumbered_alert_description (8393737409248958672) -->
-    <skip />
-    <!-- no translation found for homepage_numbered_alert_description (4965963469296900322) -->
-    <skip />
+    <string name="homepage_unnumbered_alert_description" msgid="8393737409248958672">"Dette elementet har et varsel"</string>
+    <string name="homepage_numbered_alert_description" msgid="4965963469296900322">"Dette elementet har <xliff:g id="ALERT_COUNT">%1$s</xliff:g> varsler"</string>
     <string name="color_temperature" msgid="8256912135746305176">"Kald fargetemperatur"</string>
     <string name="color_temperature_desc" msgid="6713259535885669622">"Bruk kaldere skjermfarger"</string>
     <string name="color_temperature_toast" msgid="7611532183532407342">"For å bruke fargeendringen, slå av skjermen"</string>
@@ -5109,6 +5123,8 @@
     <string name="title_supported_service" msgid="4275535165812691571">"Når telefonen kobles til en satellitt"</string>
     <string name="title_supported_service_for_manual_type" msgid="6009284624466359864">"Følg trinnene for å koble til satellitten"</string>
     <string name="summary_supported_service" msgid="6380533552383355977">"Du kan sende meldinger til hvem som helst, inkludert nødtjenester, og bruke begrensede data i noen apper. Telefonen kobles til et mobilnettverk igjen når det er tilgjengelig."</string>
+    <!-- no translation found for summary_supported_service_without_data_supported (179845377285866178) -->
+    <skip />
     <string name="summary_supported_service_for_manual_type" msgid="2147958362763058271">"Når telefonen er tilkoblet, kan du sende melding til hvem som helst, inkludert nødtjenester."</string>
     <string name="satellite_footer_content_section_0" msgid="4169483813004415556">"Husk"</string>
     <string name="satellite_footer_content_section_1" msgid="7925931577373229601">"Satellittilkobling kan ta lengre tid og er bare tilgjengelig i noen områder."</string>
@@ -5383,6 +5399,10 @@
     <string name="media_controls_lockscreen_description" msgid="3320333660404439510">"Medieavspilleren vises fortsatt på låseskjermen, slik at du kan gjenoppta avspillingen raskt"</string>
     <string name="media_controls_hide_player" msgid="2751439192580884015">"Skjul spilleren"</string>
     <string name="media_controls_show_player" msgid="8504571042365814021">"Vis spilleren"</string>
+    <!-- no translation found for media_controls_suggestions_title (4089438765632340413) -->
+    <skip />
+    <!-- no translation found for media_controls_suggestions_description (5001121785028325037) -->
+    <skip />
     <string name="keywords_media_controls" msgid="8345490568291778638">"medier"</string>
     <string name="camera_extensions_fallback_title" msgid="3604579046777004989">"Tillat utvidelser av kameraprogramvare"</string>
     <string name="camera_extensions_fallback_description" msgid="4306833827773277263">"Gjør det mulig å bruke standardimplementeringen av programvare for avanserte kamerafunksjoner, for eksempel HDR, nattmodus eller andre kamerautvidelser."</string>
@@ -5447,6 +5467,8 @@
     <string name="category_name_general" msgid="7737273712848115886">"Generelt"</string>
     <string name="dark_theme_main_switch_title" msgid="4045147031947562280">"Bruk mørkt tema"</string>
     <string name="bluetooth_main_switch_title" msgid="8409835540311309632">"Bruk Bluetooth"</string>
+    <!-- no translation found for hdr_brightness_main_switch_title (1850974699921514297) -->
+    <skip />
     <string name="prevent_ringing_main_switch_title" msgid="4726252811262086643">"Bruk «Forhindre ringing»"</string>
     <string name="use_wifi_hotsopt_main_switch_title" msgid="3909731167290690539">"Bruk wifi-sone"</string>
     <string name="app_pinning_main_switch_title" msgid="5465506660064032876">"Bruk festing av apper"</string>
@@ -5740,6 +5762,10 @@
     <string name="audio_streams_add_source_bad_code_state_summary" msgid="6527086906921868757">"Sjekk passordet og prøv igjen"</string>
     <string name="audio_streams_add_source_failed_state_summary" msgid="3937546443978562322">"Kan ikke koble til. Prøv på nytt."</string>
     <string name="audio_streams_connecting_summary" msgid="7237827765572331702">"Kobler til …"</string>
+    <!-- no translation found for audio_streams_dialog_failed_to_join (4942840673393552978) -->
+    <skip />
+    <!-- no translation found for audio_streams_dialog_failed_to_join_detail (1498719800517594252) -->
+    <skip />
     <string name="audio_streams_dialog_stream_is_not_available" msgid="4032878851270690546">"Lydstrømmen er ikke tilgjengelig"</string>
     <string name="audio_streams_is_not_playing" msgid="8480293894696007941">"Denne lydstrømmen spiller ikke av noe akkurat nå"</string>
     <string name="audio_streams_dialog_close" msgid="8177201719298408431">"Lukk"</string>
@@ -5827,5 +5853,17 @@
     <string name="supervision_choose_your_pin_header" msgid="3872062168986738629">"Angi en PIN-kode for foreldrekontroll"</string>
     <string name="supervision_confirm_your_pin_header" msgid="8236956712482718354">"Bekreft PIN-koden"</string>
     <string name="supervision_pin_reset_success_toast" msgid="9163550161698311831">"PIN-koden er oppdatert"</string>
+    <!-- no translation found for supervision_delete_pin_confirm_header (8499276643990949268) -->
+    <skip />
+    <!-- no translation found for supervision_delete_pin_confirm_message (5482080400973042178) -->
+    <skip />
+    <!-- no translation found for supervision_delete_pin_supervision_enabled_header (2072311894107038402) -->
+    <skip />
+    <!-- no translation found for supervision_delete_pin_supervision_enabled_message (5643922966568203196) -->
+    <skip />
+    <!-- no translation found for supervision_delete_pin_error_header (1271034883245391839) -->
+    <skip />
+    <!-- no translation found for supervision_delete_pin_error_message (3400536232973539259) -->
+    <skip />
     <string name="accessibility_illustration_content_description" msgid="557376174860150903">"<xliff:g id="FEATURE">%1$s</xliff:g>-animasjon"</string>
 </resources>

@@ -20,6 +20,7 @@ import static com.android.settings.connecteddevice.audiosharing.AudioSharingUtil
 import static com.android.settings.connecteddevice.audiosharing.AudioSharingUtils.MetricKey.METRIC_KEY_DEVICE_IS_TEMP_BOND;
 import static com.android.settings.connecteddevice.audiosharing.AudioSharingUtils.MetricKey.METRIC_KEY_SOURCE_PAGE_ID;
 import static com.android.settings.connecteddevice.audiosharing.AudioSharingUtils.MetricKey.METRIC_KEY_USER_TRIGGERED;
+import static com.android.settings.connecteddevice.audiosharing.AudioSharingUtils.MetricKey.METRIC_KEY_VALUE;
 import static com.android.settingslib.bluetooth.LocalBluetoothLeBroadcast.BLUETOOTH_LE_BROADCAST_PRIMARY_DEVICE_GROUP_ID;
 
 import static com.google.common.truth.Truth.assertThat;
@@ -284,9 +285,8 @@ public class AudioSharingDialogHandlerTest {
 
         AudioSharingStopDialogFragment fragment =
                 (AudioSharingStopDialogFragment) Iterables.getOnlyElement(childFragments);
-        Pair<Integer, Object>[] eventData = fragment.getEventData();
+        ImmutableList<Pair<Integer, Object>> eventData = fragment.getEventData();
         assertThat(eventData)
-                .asList()
                 .containsExactly(
                         Pair.create(
                                 AudioSharingUtils.MetricKey.METRIC_KEY_SOURCE_PAGE_ID.getId(),
@@ -295,7 +295,8 @@ public class AudioSharingDialogHandlerTest {
                                 AudioSharingUtils.MetricKey.METRIC_KEY_PAGE_ID.getId(),
                                 SettingsEnums.DIALOG_STOP_AUDIO_SHARING),
                         Pair.create(
-                                AudioSharingUtils.MetricKey.METRIC_KEY_USER_TRIGGERED.getId(), 1),
+                                AudioSharingUtils.MetricKey.METRIC_KEY_USER_TRIGGERED.getId(),
+                                true),
                         Pair.create(
                                 AudioSharingUtils.MetricKey.METRIC_KEY_DEVICE_COUNT_IN_SHARING
                                         .getId(),
@@ -353,9 +354,8 @@ public class AudioSharingDialogHandlerTest {
 
         AudioSharingJoinDialogFragment fragment =
                 (AudioSharingJoinDialogFragment) Iterables.getOnlyElement(childFragments);
-        Pair<Integer, Object>[] eventData = fragment.getEventData();
+        ImmutableList<Pair<Integer, Object>> eventData = fragment.getEventData();
         assertThat(eventData)
-                .asList()
                 .containsExactly(
                         Pair.create(
                                 AudioSharingUtils.MetricKey.METRIC_KEY_SOURCE_PAGE_ID.getId(),
@@ -364,7 +364,8 @@ public class AudioSharingDialogHandlerTest {
                                 AudioSharingUtils.MetricKey.METRIC_KEY_PAGE_ID.getId(),
                                 SettingsEnums.DIALOG_START_AUDIO_SHARING),
                         Pair.create(
-                                AudioSharingUtils.MetricKey.METRIC_KEY_USER_TRIGGERED.getId(), 1),
+                                AudioSharingUtils.MetricKey.METRIC_KEY_USER_TRIGGERED.getId(),
+                                true),
                         Pair.create(
                                 AudioSharingUtils.MetricKey.METRIC_KEY_DEVICE_COUNT_IN_SHARING
                                         .getId(),
@@ -410,9 +411,8 @@ public class AudioSharingDialogHandlerTest {
 
         AudioSharingJoinDialogFragment fragment =
                 (AudioSharingJoinDialogFragment) Iterables.getOnlyElement(childFragments);
-        Pair<Integer, Object>[] eventData = fragment.getEventData();
+        ImmutableList<Pair<Integer, Object>> eventData = fragment.getEventData();
         assertThat(eventData)
-                .asList()
                 .containsExactly(
                         Pair.create(
                                 AudioSharingUtils.MetricKey.METRIC_KEY_SOURCE_PAGE_ID.getId(),
@@ -421,7 +421,8 @@ public class AudioSharingDialogHandlerTest {
                                 AudioSharingUtils.MetricKey.METRIC_KEY_PAGE_ID.getId(),
                                 SettingsEnums.DIALOG_AUDIO_SHARING_ADD_DEVICE),
                         Pair.create(
-                                AudioSharingUtils.MetricKey.METRIC_KEY_USER_TRIGGERED.getId(), 1),
+                                AudioSharingUtils.MetricKey.METRIC_KEY_USER_TRIGGERED.getId(),
+                                true),
                         Pair.create(
                                 AudioSharingUtils.MetricKey.METRIC_KEY_DEVICE_COUNT_IN_SHARING
                                         .getId(),
@@ -436,24 +437,28 @@ public class AudioSharingDialogHandlerTest {
         assertThat(listener).isNotNull();
         listener.onCancelClick();
         verify(mAssistant, never()).addSource(mDevice1, mMetadata, /* isGroupOp= */ false);
-        verify(mFeatureFactory.metricsFeatureProvider, never())
-                .action(
-                        mContext,
-                        SettingsEnums.ACTION_AUDIO_SHARING_ADD_SOURCE,
+        ImmutableList<Pair<Integer, Object>> addEventData =
+                ImmutableList.of(
                         Pair.create(
                                 METRIC_KEY_SOURCE_PAGE_ID.getId(),
                                 SettingsEnums.DIALOG_AUDIO_SHARING_ADD_DEVICE),
-                        Pair.create(METRIC_KEY_USER_TRIGGERED.getId(), 1));
+                        Pair.create(METRIC_KEY_USER_TRIGGERED.getId(), true));
+        verify(mFeatureFactory.metricsFeatureProvider, never())
+                .action(
+                        SettingsEnums.PAGE_UNKNOWN,
+                        SettingsEnums.ACTION_AUDIO_SHARING_ADD_SOURCE,
+                        SettingsEnums.PAGE_UNKNOWN,
+                        addEventData.toString(),
+                        /* changedPreferenceIntValue */ 0);
         listener.onShareClick();
         verify(mAssistant).addSource(mDevice1, mMetadata, /* isGroupOp= */ false);
         verify(mFeatureFactory.metricsFeatureProvider)
                 .action(
-                        mContext,
+                        SettingsEnums.PAGE_UNKNOWN,
                         SettingsEnums.ACTION_AUDIO_SHARING_ADD_SOURCE,
-                        Pair.create(
-                                METRIC_KEY_SOURCE_PAGE_ID.getId(),
-                                SettingsEnums.DIALOG_AUDIO_SHARING_ADD_DEVICE),
-                        Pair.create(METRIC_KEY_USER_TRIGGERED.getId(), 1));
+                        SettingsEnums.PAGE_UNKNOWN,
+                        addEventData.toString(),
+                        /* changedPreferenceIntValue */ 0);
     }
 
     @Test
@@ -475,9 +480,8 @@ public class AudioSharingDialogHandlerTest {
 
         AudioSharingDisconnectDialogFragment fragment =
                 (AudioSharingDisconnectDialogFragment) Iterables.getOnlyElement(childFragments);
-        Pair<Integer, Object>[] eventData = fragment.getEventData();
+        ImmutableList<Pair<Integer, Object>> eventData = fragment.getEventData();
         assertThat(eventData)
-                .asList()
                 .containsExactly(
                         Pair.create(
                                 AudioSharingUtils.MetricKey.METRIC_KEY_SOURCE_PAGE_ID.getId(),
@@ -486,7 +490,8 @@ public class AudioSharingDialogHandlerTest {
                                 AudioSharingUtils.MetricKey.METRIC_KEY_PAGE_ID.getId(),
                                 SettingsEnums.DIALOG_AUDIO_SHARING_SWITCH_DEVICE),
                         Pair.create(
-                                AudioSharingUtils.MetricKey.METRIC_KEY_USER_TRIGGERED.getId(), 1),
+                                AudioSharingUtils.MetricKey.METRIC_KEY_USER_TRIGGERED.getId(),
+                                true),
                         Pair.create(
                                 AudioSharingUtils.MetricKey.METRIC_KEY_DEVICE_COUNT_IN_SHARING
                                         .getId(),
@@ -501,21 +506,31 @@ public class AudioSharingDialogHandlerTest {
         assertThat(listener).isNotNull();
         listener.onItemClick(AudioSharingUtils.buildAudioSharingDeviceItem(mCachedDevice3));
         verify(mAssistant).removeSource(mDevice3, TEST_SOURCE_ID);
+        ImmutableList<Pair<Integer, Object>> removeEventData =
+                ImmutableList.of(
+                        Pair.create(METRIC_KEY_DEVICE_IS_PRIMARY.getId(), false),
+                        Pair.create(METRIC_KEY_DEVICE_IS_TEMP_BOND.getId(), false));
         verify(mFeatureFactory.metricsFeatureProvider)
                 .action(
-                        mContext,
+                        SettingsEnums.PAGE_UNKNOWN,
                         SettingsEnums.ACTION_AUDIO_SHARING_REMOVE_SOURCE,
-                        Pair.create(METRIC_KEY_DEVICE_IS_PRIMARY.getId(), 0),
-                        Pair.create(METRIC_KEY_DEVICE_IS_TEMP_BOND.getId(), 0));
+                        SettingsEnums.PAGE_UNKNOWN,
+                        removeEventData.toString(),
+                        /* changedPreferenceIntValue */ 0);
         verify(mAssistant).addSource(mDevice1, mMetadata, /* isGroupOp= */ false);
-        verify(mFeatureFactory.metricsFeatureProvider)
-                .action(
-                        mContext,
-                        SettingsEnums.ACTION_AUDIO_SHARING_ADD_SOURCE,
+        ImmutableList<Pair<Integer, Object>> addEventData =
+                ImmutableList.of(
                         Pair.create(
                                 METRIC_KEY_SOURCE_PAGE_ID.getId(),
                                 SettingsEnums.DIALOG_AUDIO_SHARING_SWITCH_DEVICE),
-                        Pair.create(METRIC_KEY_USER_TRIGGERED.getId(), 1));
+                        Pair.create(METRIC_KEY_USER_TRIGGERED.getId(), true));
+        verify(mFeatureFactory.metricsFeatureProvider)
+                .action(
+                        SettingsEnums.PAGE_UNKNOWN,
+                        SettingsEnums.ACTION_AUDIO_SHARING_ADD_SOURCE,
+                        SettingsEnums.PAGE_UNKNOWN,
+                        addEventData.toString(),
+                        /* changedPreferenceIntValue */ 0);
     }
 
     @Test
@@ -562,9 +577,8 @@ public class AudioSharingDialogHandlerTest {
 
         AudioSharingStopDialogFragment fragment =
                 (AudioSharingStopDialogFragment) Iterables.getOnlyElement(childFragments);
-        Pair<Integer, Object>[] eventData = fragment.getEventData();
+        ImmutableList<Pair<Integer, Object>> eventData = fragment.getEventData();
         assertThat(eventData)
-                .asList()
                 .containsExactly(
                         Pair.create(
                                 AudioSharingUtils.MetricKey.METRIC_KEY_SOURCE_PAGE_ID.getId(),
@@ -573,7 +587,8 @@ public class AudioSharingDialogHandlerTest {
                                 AudioSharingUtils.MetricKey.METRIC_KEY_PAGE_ID.getId(),
                                 SettingsEnums.DIALOG_STOP_AUDIO_SHARING),
                         Pair.create(
-                                AudioSharingUtils.MetricKey.METRIC_KEY_USER_TRIGGERED.getId(), 0),
+                                AudioSharingUtils.MetricKey.METRIC_KEY_USER_TRIGGERED.getId(),
+                                false),
                         Pair.create(
                                 AudioSharingUtils.MetricKey.METRIC_KEY_DEVICE_COUNT_IN_SHARING
                                         .getId(),
@@ -631,9 +646,8 @@ public class AudioSharingDialogHandlerTest {
 
         AudioSharingJoinDialogFragment fragment =
                 (AudioSharingJoinDialogFragment) Iterables.getOnlyElement(childFragments);
-        Pair<Integer, Object>[] eventData = fragment.getEventData();
+        ImmutableList<Pair<Integer, Object>> eventData = fragment.getEventData();
         assertThat(eventData)
-                .asList()
                 .containsExactly(
                         Pair.create(
                                 AudioSharingUtils.MetricKey.METRIC_KEY_SOURCE_PAGE_ID.getId(),
@@ -642,7 +656,8 @@ public class AudioSharingDialogHandlerTest {
                                 AudioSharingUtils.MetricKey.METRIC_KEY_PAGE_ID.getId(),
                                 SettingsEnums.DIALOG_START_AUDIO_SHARING),
                         Pair.create(
-                                AudioSharingUtils.MetricKey.METRIC_KEY_USER_TRIGGERED.getId(), 0),
+                                AudioSharingUtils.MetricKey.METRIC_KEY_USER_TRIGGERED.getId(),
+                                false),
                         Pair.create(
                                 AudioSharingUtils.MetricKey.METRIC_KEY_DEVICE_COUNT_IN_SHARING
                                         .getId(),
@@ -688,9 +703,8 @@ public class AudioSharingDialogHandlerTest {
 
         AudioSharingJoinDialogFragment fragment =
                 (AudioSharingJoinDialogFragment) Iterables.getOnlyElement(childFragments);
-        Pair<Integer, Object>[] eventData = fragment.getEventData();
+        ImmutableList<Pair<Integer, Object>> eventData = fragment.getEventData();
         assertThat(eventData)
-                .asList()
                 .containsExactly(
                         Pair.create(
                                 AudioSharingUtils.MetricKey.METRIC_KEY_SOURCE_PAGE_ID.getId(),
@@ -699,7 +713,8 @@ public class AudioSharingDialogHandlerTest {
                                 AudioSharingUtils.MetricKey.METRIC_KEY_PAGE_ID.getId(),
                                 SettingsEnums.DIALOG_AUDIO_SHARING_ADD_DEVICE),
                         Pair.create(
-                                AudioSharingUtils.MetricKey.METRIC_KEY_USER_TRIGGERED.getId(), 0),
+                                AudioSharingUtils.MetricKey.METRIC_KEY_USER_TRIGGERED.getId(),
+                                false),
                         Pair.create(
                                 AudioSharingUtils.MetricKey.METRIC_KEY_DEVICE_COUNT_IN_SHARING
                                         .getId(),
@@ -714,24 +729,28 @@ public class AudioSharingDialogHandlerTest {
         assertThat(listener).isNotNull();
         listener.onCancelClick();
         verify(mAssistant, never()).addSource(mDevice1, mMetadata, /* isGroupOp= */ false);
-        verify(mFeatureFactory.metricsFeatureProvider, never())
-                .action(
-                        mContext,
-                        SettingsEnums.ACTION_AUDIO_SHARING_ADD_SOURCE,
+        ImmutableList<Pair<Integer, Object>> addEventData =
+                ImmutableList.of(
                         Pair.create(
                                 METRIC_KEY_SOURCE_PAGE_ID.getId(),
                                 SettingsEnums.DIALOG_AUDIO_SHARING_ADD_DEVICE),
-                        Pair.create(METRIC_KEY_USER_TRIGGERED.getId(), 0));
+                        Pair.create(METRIC_KEY_USER_TRIGGERED.getId(), false));
+        verify(mFeatureFactory.metricsFeatureProvider, never())
+                .action(
+                        SettingsEnums.PAGE_UNKNOWN,
+                        SettingsEnums.ACTION_AUDIO_SHARING_ADD_SOURCE,
+                        SettingsEnums.PAGE_UNKNOWN,
+                        addEventData.toString(),
+                        /* changedPreferenceIntValue */ 0);
         listener.onShareClick();
         verify(mAssistant).addSource(mDevice1, mMetadata, /* isGroupOp= */ false);
         verify(mFeatureFactory.metricsFeatureProvider)
                 .action(
-                        mContext,
+                        SettingsEnums.PAGE_UNKNOWN,
                         SettingsEnums.ACTION_AUDIO_SHARING_ADD_SOURCE,
-                        Pair.create(
-                                METRIC_KEY_SOURCE_PAGE_ID.getId(),
-                                SettingsEnums.DIALOG_AUDIO_SHARING_ADD_DEVICE),
-                        Pair.create(METRIC_KEY_USER_TRIGGERED.getId(), 0));
+                        SettingsEnums.PAGE_UNKNOWN,
+                        addEventData.toString(),
+                        /* changedPreferenceIntValue */ 0);
     }
 
     @Test
@@ -755,9 +774,8 @@ public class AudioSharingDialogHandlerTest {
 
         AudioSharingDisconnectDialogFragment fragment =
                 (AudioSharingDisconnectDialogFragment) Iterables.getOnlyElement(childFragments);
-        Pair<Integer, Object>[] eventData = fragment.getEventData();
+        ImmutableList<Pair<Integer, Object>> eventData = fragment.getEventData();
         assertThat(eventData)
-                .asList()
                 .containsExactly(
                         Pair.create(
                                 AudioSharingUtils.MetricKey.METRIC_KEY_SOURCE_PAGE_ID.getId(),
@@ -766,7 +784,8 @@ public class AudioSharingDialogHandlerTest {
                                 AudioSharingUtils.MetricKey.METRIC_KEY_PAGE_ID.getId(),
                                 SettingsEnums.DIALOG_AUDIO_SHARING_SWITCH_DEVICE),
                         Pair.create(
-                                AudioSharingUtils.MetricKey.METRIC_KEY_USER_TRIGGERED.getId(), 0),
+                                AudioSharingUtils.MetricKey.METRIC_KEY_USER_TRIGGERED.getId(),
+                                false),
                         Pair.create(
                                 AudioSharingUtils.MetricKey.METRIC_KEY_DEVICE_COUNT_IN_SHARING
                                         .getId(),
@@ -781,21 +800,31 @@ public class AudioSharingDialogHandlerTest {
         assertThat(listener).isNotNull();
         listener.onItemClick(AudioSharingUtils.buildAudioSharingDeviceItem(mCachedDevice3));
         verify(mAssistant).removeSource(mDevice3, TEST_SOURCE_ID);
+        ImmutableList<Pair<Integer, Object>> removeEventData =
+                ImmutableList.of(
+                        Pair.create(METRIC_KEY_DEVICE_IS_PRIMARY.getId(), true),
+                        Pair.create(METRIC_KEY_DEVICE_IS_TEMP_BOND.getId(), false));
         verify(mFeatureFactory.metricsFeatureProvider)
                 .action(
-                        mContext,
+                        SettingsEnums.PAGE_UNKNOWN,
                         SettingsEnums.ACTION_AUDIO_SHARING_REMOVE_SOURCE,
-                        Pair.create(METRIC_KEY_DEVICE_IS_PRIMARY.getId(), 1),
-                        Pair.create(METRIC_KEY_DEVICE_IS_TEMP_BOND.getId(), 0));
+                        SettingsEnums.PAGE_UNKNOWN,
+                        removeEventData.toString(),
+                        /* changedPreferenceIntValue */ 0);
         verify(mAssistant).addSource(mDevice1, mMetadata, /* isGroupOp= */ false);
-        verify(mFeatureFactory.metricsFeatureProvider)
-                .action(
-                        mContext,
-                        SettingsEnums.ACTION_AUDIO_SHARING_ADD_SOURCE,
+        ImmutableList<Pair<Integer, Object>> addEventData =
+                ImmutableList.of(
                         Pair.create(
                                 METRIC_KEY_SOURCE_PAGE_ID.getId(),
                                 SettingsEnums.DIALOG_AUDIO_SHARING_SWITCH_DEVICE),
-                        Pair.create(METRIC_KEY_USER_TRIGGERED.getId(), 0));
+                        Pair.create(METRIC_KEY_USER_TRIGGERED.getId(), false));
+        verify(mFeatureFactory.metricsFeatureProvider)
+                .action(
+                        SettingsEnums.PAGE_UNKNOWN,
+                        SettingsEnums.ACTION_AUDIO_SHARING_ADD_SOURCE,
+                        SettingsEnums.PAGE_UNKNOWN,
+                        addEventData.toString(),
+                        /* changedPreferenceIntValue */ 0);
     }
 
     @Test
@@ -816,9 +845,11 @@ public class AudioSharingDialogHandlerTest {
         assertThat(mParentFragment.getChildFragmentManager().getFragments()).isEmpty();
         verify(mFeatureFactory.metricsFeatureProvider)
                 .action(
-                        mContext,
+                        SettingsEnums.PAGE_UNKNOWN,
                         SettingsEnums.ACTION_AUDIO_SHARING_DIALOG_AUTO_DISMISS,
-                        SettingsEnums.DIALOG_START_AUDIO_SHARING);
+                        SettingsEnums.PAGE_UNKNOWN,
+                        /* changedPreferenceKey */ METRIC_KEY_VALUE.toString(),
+                        /* changedPreferenceIntValue */ SettingsEnums.DIALOG_START_AUDIO_SHARING);
     }
 
     @Test
@@ -850,9 +881,12 @@ public class AudioSharingDialogHandlerTest {
         assertThat(mParentFragment.getChildFragmentManager().getFragments()).isEmpty();
         verify(mFeatureFactory.metricsFeatureProvider)
                 .action(
-                        mContext,
+                        SettingsEnums.PAGE_UNKNOWN,
                         SettingsEnums.ACTION_AUDIO_SHARING_DIALOG_AUTO_DISMISS,
-                        SettingsEnums.DIALOG_AUDIO_SHARING_SWITCH_DEVICE);
+                        SettingsEnums.PAGE_UNKNOWN,
+                        /* changedPreferenceKey */ METRIC_KEY_VALUE.toString(),
+                        /* changedPreferenceIntValue */ SettingsEnums
+                                .DIALOG_AUDIO_SHARING_SWITCH_DEVICE);
     }
 
     @Test
@@ -882,9 +916,11 @@ public class AudioSharingDialogHandlerTest {
         assertThat(mParentFragment.getChildFragmentManager().getFragments()).isEmpty();
         verify(mFeatureFactory.metricsFeatureProvider)
                 .action(
-                        mContext,
+                        SettingsEnums.PAGE_UNKNOWN,
                         SettingsEnums.ACTION_AUDIO_SHARING_DIALOG_AUTO_DISMISS,
-                        SettingsEnums.DIALOG_STOP_AUDIO_SHARING);
+                        SettingsEnums.PAGE_UNKNOWN,
+                        /* changedPreferenceKey */ METRIC_KEY_VALUE.toString(),
+                        /* changedPreferenceIntValue */ SettingsEnums.DIALOG_STOP_AUDIO_SHARING);
     }
 
     @Test
@@ -912,9 +948,11 @@ public class AudioSharingDialogHandlerTest {
 
         verify(mFeatureFactory.metricsFeatureProvider)
                 .action(
-                        mContext,
+                        SettingsEnums.PAGE_UNKNOWN,
                         SettingsEnums.ACTION_AUDIO_SHARING_DIALOG_AUTO_DISMISS,
-                        SettingsEnums.DIALOG_STOP_AUDIO_SHARING);
+                        SettingsEnums.PAGE_UNKNOWN,
+                        /* changedPreferenceKey */ METRIC_KEY_VALUE.toString(),
+                        /* changedPreferenceIntValue */ SettingsEnums.DIALOG_STOP_AUDIO_SHARING);
     }
 
     @Test

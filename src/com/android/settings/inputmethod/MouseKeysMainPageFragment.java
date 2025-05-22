@@ -168,6 +168,15 @@ public class MouseKeysMainPageFragment extends ShortcutFragment
             final View infoIcon = mMouseKeyImagesPreference.findViewById(
                     R.id.mouse_keys_info_icon);
             infoIcon.setVisibility(View.VISIBLE);
+
+            mMouseKeyImagesPreference.findViewById(R.id.title_mouse_keys_image_recycler_list)
+                    .setVisibility(View.VISIBLE);
+            mMouseKeyImagesPreference
+                    .findViewById(R.id.title_mouse_keys_numpad_image_recycler_list)
+                    .setVisibility(View.VISIBLE);
+            mMouseKeyImagesPreference
+                    .findViewById(R.id.summary_mouse_keys_numpad_image_recycler_list)
+                    .setVisibility(View.VISIBLE);
         }
     }
 

@@ -20,26 +20,23 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.widget.SeekBar;
 
+import com.android.settings.sound.VolumeSliderPreference;
+
 /**
  * A slider preference that controls remote volume, which doesn't go through
  * {@link android.media.AudioManager}
  **/
-public class RemoteVolumeSeekBarPreference extends VolumeSeekBarPreference {
+public class RemoteVolumeSliderPreference extends VolumeSliderPreference {
 
-    public RemoteVolumeSeekBarPreference(Context context, AttributeSet attrs, int defStyleAttr,
-            int defStyleRes) {
-        super(context, attrs, defStyleAttr, defStyleRes);
-    }
-
-    public RemoteVolumeSeekBarPreference(Context context, AttributeSet attrs, int defStyleAttr) {
+    public RemoteVolumeSliderPreference(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
 
-    public RemoteVolumeSeekBarPreference(Context context, AttributeSet attrs) {
+    public RemoteVolumeSliderPreference(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 
-    public RemoteVolumeSeekBarPreference(Context context) {
+    public RemoteVolumeSliderPreference(Context context) {
         super(context);
     }
 
@@ -50,17 +47,8 @@ public class RemoteVolumeSeekBarPreference extends VolumeSeekBarPreference {
 
     @Override
     protected void onBindViewHolder() {
-        setContinuousUpdates(true);
         updateIconView();
         updateSuppressionText();
         notifyHierarchyChanged();
-    }
-
-    @Override
-    public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-        super.onProgressChanged(seekBar, progress, fromUser);
-        if (fromUser) {
-            notifyChanged();
-        }
     }
 }

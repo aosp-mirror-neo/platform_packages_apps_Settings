@@ -62,7 +62,7 @@ public class AudioSharingDisconnectDialogFragment extends InstrumentedDialogFrag
 
     @Nullable private static DialogEventListener sListener;
     @Nullable private static CachedBluetoothDevice sNewDevice;
-    private static Pair<Integer, Object>[] sEventData = new Pair[0];
+    private static ImmutableList<Pair<Integer, Object>> sEventData = ImmutableList.of();
 
     @Override
     public int getMetricsCategory() {
@@ -86,7 +86,7 @@ public class AudioSharingDisconnectDialogFragment extends InstrumentedDialogFrag
             @NonNull List<AudioSharingDeviceItem> deviceItems,
             @NonNull CachedBluetoothDevice newDevice,
             @NonNull DialogEventListener listener,
-            @NonNull Pair<Integer, Object>[] eventData) {
+            @NonNull ImmutableList<Pair<Integer, Object>> eventData) {
         if (host == null) {
             Log.d(TAG, "Fail to show dialog, host is null");
             return false;
@@ -151,7 +151,7 @@ public class AudioSharingDisconnectDialogFragment extends InstrumentedDialogFrag
     /** Test only: get the event data passed to the dialog. */
     @VisibleForTesting
     @NonNull
-    Pair<Integer, Object>[] getEventData() {
+    ImmutableList<Pair<Integer, Object>> getEventData() {
         return sEventData;
     }
 
@@ -164,9 +164,11 @@ public class AudioSharingDisconnectDialogFragment extends InstrumentedDialogFrag
         View.OnClickListener onNegativeBtnClicked =
                 v -> {
                     mMetricsFeatureProvider.action(
-                            getContext(),
+                            getMetricsCategory(),
                             SettingsEnums.ACTION_AUDIO_SHARING_DIALOG_NEGATIVE_BTN_CLICKED,
-                            sEventData);
+                            getMetricsCategory(),
+                            sEventData.toString(),
+                            /* changedPreferenceIntValue= */ 0);
                     dismiss();
                 };
         AudioSharingDialogFactory.DialogBuilder builder =
@@ -186,9 +188,11 @@ public class AudioSharingDisconnectDialogFragment extends InstrumentedDialogFrag
                     if (sListener != null) {
                         sListener.onItemClick(item);
                         mMetricsFeatureProvider.action(
-                                getContext(),
+                                getMetricsCategory(),
                                 SettingsEnums.ACTION_AUDIO_SHARING_DIALOG_POSITIVE_BTN_CLICKED,
-                                sEventData);
+                                getMetricsCategory(),
+                                sEventData.toString(),
+                                /* changedPreferenceIntValue= */ 0);
                     }
                     dismiss();
                 };

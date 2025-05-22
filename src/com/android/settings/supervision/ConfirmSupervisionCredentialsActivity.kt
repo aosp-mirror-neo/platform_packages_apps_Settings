@@ -122,9 +122,11 @@ class ConfirmSupervisionCredentialsActivity : FragmentActivity() {
             getResultLauncher.launch(setupIntent)
             return
         }
-
-        val authController = SupervisionAuthController.getInstance(this)
-        if (!authController.isSessionActive(taskId)) {
+        val forceConfirmation = intent.getBooleanExtra(EXTRA_FORCE_CONFIRMATION, false)
+        if (
+            forceConfirmation ||
+                !SupervisionAuthController.getInstance(this).isSessionActive(taskId)
+        ) {
             val activityManager = getSystemService(ActivityManager::class.java)
             if (!activityManager.startProfile(supervisingUser)) {
                 errorHandler("Unable to start supervising user, cannot verify credentials.")
@@ -212,5 +214,10 @@ class ConfirmSupervisionCredentialsActivity : FragmentActivity() {
         errStr?.let { Log.e(TAG, it) }
         setResult(RESULT_CANCELED)
         finish()
+    }
+
+    companion object {
+        // If true, force confirmation of supervision credentials, regardless of active auth session
+        @VisibleForTesting const val EXTRA_FORCE_CONFIRMATION = "force_confirmation"
     }
 }

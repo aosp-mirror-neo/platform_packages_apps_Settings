@@ -226,7 +226,7 @@ class SupervisionDeletePinPreferenceTest {
     }
 
     @Test
-    fun onConfirmDeleteClick_removeUserFails_doesNotDeleteSupervisionData() {
+    fun onConfirmDeleteClick_removeUserFails_doesNotDeleteSupervisionRecoveryData() {
         mockUserManager.stub {
             on { users } doReturn listOf(MAIN_USER, SECONDARY_USER, SUPERVISING_PROFILE)
             on { removeUser(UserHandle(SUPERVISING_USER_ID)) } doReturn false
@@ -238,8 +238,9 @@ class SupervisionDeletePinPreferenceTest {
         }
 
         preference.onConfirmDeleteClick()
+        // We should disable supervision before the supervising profile is removed
+        verify(mockSupervisionManager).setSupervisionEnabled(false)
         verify(mockSupervisionManager, never()).setSupervisionRecoveryInfo(any())
-        verify(mockSupervisionManager, never()).setSupervisionEnabled(false)
         assertThat(startedIntent).isNull()
         assertAlertDialogHasMessage(R.string.supervision_delete_pin_error_message)
     }

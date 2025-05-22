@@ -27,6 +27,7 @@ import static com.google.common.truth.Truth.assertThat;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.anyBoolean;
 import static org.mockito.ArgumentMatchers.anyInt;
+import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.ArgumentMatchers.eq;
 import static org.mockito.Mockito.doNothing;
 import static org.mockito.Mockito.mock;
@@ -565,14 +566,19 @@ public class AudioSharingSwitchBarControllerTest {
         mController.mBroadcastCallback.onBroadcastMetadataChanged(/* reason= */ 1, mMetadata);
         shadowOf(Looper.getMainLooper()).idle();
 
-        verify(mFeatureFactory.metricsFeatureProvider)
-                .action(
-                        mContext,
-                        SettingsEnums.ACTION_AUDIO_SHARING_ADD_SOURCE,
+        ImmutableList<Pair<Integer, Object>> addEventData =
+                ImmutableList.of(
                         Pair.create(
                                 METRIC_KEY_SOURCE_PAGE_ID.getId(),
                                 SettingsEnums.ACTION_AUTO_JOIN_AUDIO_SHARING),
-                        Pair.create(METRIC_KEY_USER_TRIGGERED.getId(), 0));
+                        Pair.create(METRIC_KEY_USER_TRIGGERED.getId(), false));
+        verify(mFeatureFactory.metricsFeatureProvider)
+                .action(
+                        SettingsEnums.AUDIO_SHARING_SETTINGS,
+                        SettingsEnums.ACTION_AUDIO_SHARING_ADD_SOURCE,
+                        SettingsEnums.AUDIO_SHARING_SETTINGS,
+                        addEventData.toString(),
+                        /* changedPreferenceIntValue */ 0);
 
         childFragments = mParentFragment.getChildFragmentManager().getFragments();
         // No audio sharing dialog.
@@ -595,10 +601,11 @@ public class AudioSharingSwitchBarControllerTest {
         verify(mAssistant, never()).addSource(any(), any(), anyBoolean());
         verify(mFeatureFactory.metricsFeatureProvider, never())
                 .action(
-                        any(Context.class),
+                        eq(SettingsEnums.AUDIO_SHARING_SETTINGS),
                         eq(SettingsEnums.ACTION_AUDIO_SHARING_ADD_SOURCE),
-                        any(Pair.class),
-                        any(Pair.class));
+                        eq(SettingsEnums.AUDIO_SHARING_SETTINGS),
+                        anyString(),
+                        anyInt());
 
         List<Fragment> childFragments = mParentFragment.getChildFragmentManager().getFragments();
         // No audio sharing dialog.
@@ -627,10 +634,8 @@ public class AudioSharingSwitchBarControllerTest {
         shadowOf(Looper.getMainLooper()).idle();
 
         verify(mBroadcast).startPrivateBroadcast();
-        verify(mFeatureFactory.metricsFeatureProvider)
-                .action(
-                        mContext,
-                        SettingsEnums.ACTION_AUDIO_SHARING_MAIN_SWITCH_ON,
+        ImmutableList<Pair<Integer, Object>> switchOnEventData =
+                ImmutableList.of(
                         Pair.create(
                                 AudioSharingUtils.MetricKey.METRIC_KEY_SOURCE_PAGE_ID.getId(),
                                 SettingsEnums.AUDIO_SHARING_SETTINGS),
@@ -641,6 +646,13 @@ public class AudioSharingSwitchBarControllerTest {
                                 AudioSharingUtils.MetricKey.METRIC_KEY_CANDIDATE_DEVICE_COUNT
                                         .getId(),
                                 1));
+        verify(mFeatureFactory.metricsFeatureProvider)
+                .action(
+                        SettingsEnums.AUDIO_SHARING_SETTINGS,
+                        SettingsEnums.ACTION_AUDIO_SHARING_MAIN_SWITCH_ON,
+                        SettingsEnums.AUDIO_SHARING_SETTINGS,
+                        switchOnEventData.toString(),
+                        /* changedPreferenceIntValue */ 0);
         List<Fragment> childFragments = mParentFragment.getChildFragmentManager().getFragments();
         assertThat(childFragments)
                 .comparingElementsUsing(CLAZZNAME_EQUALS)
@@ -652,14 +664,19 @@ public class AudioSharingSwitchBarControllerTest {
         shadowOf(Looper.getMainLooper()).idle();
 
         verify(mAssistant).addSource(mDevice2, realMetadata, /* isGroupOp= */ false);
-        verify(mFeatureFactory.metricsFeatureProvider)
-                .action(
-                        mContext,
-                        SettingsEnums.ACTION_AUDIO_SHARING_ADD_SOURCE,
+        ImmutableList<Pair<Integer, Object>> addEventData =
+                ImmutableList.of(
                         Pair.create(
                                 METRIC_KEY_SOURCE_PAGE_ID.getId(),
                                 SettingsEnums.ACTION_AUTO_JOIN_AUDIO_SHARING),
-                        Pair.create(METRIC_KEY_USER_TRIGGERED.getId(), 0));
+                        Pair.create(METRIC_KEY_USER_TRIGGERED.getId(), false));
+        verify(mFeatureFactory.metricsFeatureProvider)
+                .action(
+                        SettingsEnums.AUDIO_SHARING_SETTINGS,
+                        SettingsEnums.ACTION_AUDIO_SHARING_ADD_SOURCE,
+                        SettingsEnums.AUDIO_SHARING_SETTINGS,
+                        addEventData.toString(),
+                        /* changedPreferenceIntValue */ 0);
 
         when(mState.getBisSyncState()).thenReturn(ImmutableList.of(1L));
         mController.mBroadcastAssistantCallback.onSourceAdded(
@@ -671,7 +688,7 @@ public class AudioSharingSwitchBarControllerTest {
                 .comparingElementsUsing(CLAZZNAME_EQUALS)
                 .containsExactly(AudioSharingDialogFragment.class.getName());
 
-        Pair<Integer, Object>[] eventData = new Pair[0];
+        ImmutableList<Pair<Integer, Object>> eventData = ImmutableList.of();
         for (Fragment fragment : childFragments) {
             if (fragment instanceof AudioSharingDialogFragment) {
                 eventData = ((AudioSharingDialogFragment) fragment).getEventData();
@@ -679,7 +696,6 @@ public class AudioSharingSwitchBarControllerTest {
             }
         }
         assertThat(eventData)
-                .asList()
                 .containsExactly(
                         Pair.create(
                                 AudioSharingUtils.MetricKey.METRIC_KEY_SOURCE_PAGE_ID.getId(),
@@ -688,7 +704,8 @@ public class AudioSharingSwitchBarControllerTest {
                                 AudioSharingUtils.MetricKey.METRIC_KEY_PAGE_ID.getId(),
                                 SettingsEnums.DIALOG_AUDIO_SHARING_MAIN),
                         Pair.create(
-                                AudioSharingUtils.MetricKey.METRIC_KEY_USER_TRIGGERED.getId(), 0),
+                                AudioSharingUtils.MetricKey.METRIC_KEY_USER_TRIGGERED.getId(),
+                                false),
                         Pair.create(
                                 AudioSharingUtils.MetricKey.METRIC_KEY_DEVICE_COUNT_IN_SHARING
                                         .getId(),
@@ -713,10 +730,8 @@ public class AudioSharingSwitchBarControllerTest {
         shadowOf(Looper.getMainLooper()).idle();
 
         verify(mBroadcast).startPrivateBroadcast();
-        verify(mFeatureFactory.metricsFeatureProvider)
-                .action(
-                        mContext,
-                        SettingsEnums.ACTION_AUDIO_SHARING_MAIN_SWITCH_ON,
+        ImmutableList<Pair<Integer, Object>> switchOnEventData =
+                ImmutableList.of(
                         Pair.create(
                                 AudioSharingUtils.MetricKey.METRIC_KEY_SOURCE_PAGE_ID.getId(),
                                 SettingsEnums.AUDIO_SHARING_SETTINGS),
@@ -727,6 +742,13 @@ public class AudioSharingSwitchBarControllerTest {
                                 AudioSharingUtils.MetricKey.METRIC_KEY_CANDIDATE_DEVICE_COUNT
                                         .getId(),
                                 2));
+        verify(mFeatureFactory.metricsFeatureProvider)
+                .action(
+                        SettingsEnums.AUDIO_SHARING_SETTINGS,
+                        SettingsEnums.ACTION_AUDIO_SHARING_MAIN_SWITCH_ON,
+                        SettingsEnums.AUDIO_SHARING_SETTINGS,
+                        switchOnEventData.toString(),
+                        /* changedPreferenceIntValue */ 0);
         List<Fragment> childFragments = mParentFragment.getChildFragmentManager().getFragments();
         assertThat(childFragments)
                 .comparingElementsUsing(CLAZZNAME_EQUALS)
@@ -743,14 +765,19 @@ public class AudioSharingSwitchBarControllerTest {
         shadowOf(Looper.getMainLooper()).idle();
 
         verify(mAssistant).addSource(mDevice2, mMetadata, /* isGroupOp= */ false);
-        verify(mFeatureFactory.metricsFeatureProvider)
-                .action(
-                        mContext,
-                        SettingsEnums.ACTION_AUDIO_SHARING_ADD_SOURCE,
+        ImmutableList<Pair<Integer, Object>> addEventData =
+                ImmutableList.of(
                         Pair.create(
                                 METRIC_KEY_SOURCE_PAGE_ID.getId(),
                                 SettingsEnums.ACTION_AUTO_JOIN_AUDIO_SHARING),
-                        Pair.create(METRIC_KEY_USER_TRIGGERED.getId(), 0));
+                        Pair.create(METRIC_KEY_USER_TRIGGERED.getId(), false));
+        verify(mFeatureFactory.metricsFeatureProvider)
+                .action(
+                        SettingsEnums.AUDIO_SHARING_SETTINGS,
+                        SettingsEnums.ACTION_AUDIO_SHARING_ADD_SOURCE,
+                        SettingsEnums.AUDIO_SHARING_SETTINGS,
+                        addEventData.toString(),
+                        /* changedPreferenceIntValue */ 0);
         expectedMessage =
                 mContext.getString(
                         R.string.audio_sharing_progress_dialog_add_source_content,
@@ -764,7 +791,7 @@ public class AudioSharingSwitchBarControllerTest {
                         AudioSharingDialogFragment.class.getName(),
                         AudioSharingProgressDialogFragment.class.getName());
 
-        Pair<Integer, Object>[] eventData = new Pair[0];
+        ImmutableList<Pair<Integer, Object>> eventData = ImmutableList.of();
         for (Fragment fragment : childFragments) {
             if (fragment instanceof AudioSharingDialogFragment) {
                 eventData = ((AudioSharingDialogFragment) fragment).getEventData();
@@ -772,7 +799,6 @@ public class AudioSharingSwitchBarControllerTest {
             }
         }
         assertThat(eventData)
-                .asList()
                 .containsExactly(
                         Pair.create(
                                 AudioSharingUtils.MetricKey.METRIC_KEY_SOURCE_PAGE_ID.getId(),
@@ -781,7 +807,8 @@ public class AudioSharingSwitchBarControllerTest {
                                 AudioSharingUtils.MetricKey.METRIC_KEY_PAGE_ID.getId(),
                                 SettingsEnums.DIALOG_AUDIO_SHARING_MAIN),
                         Pair.create(
-                                AudioSharingUtils.MetricKey.METRIC_KEY_USER_TRIGGERED.getId(), 0),
+                                AudioSharingUtils.MetricKey.METRIC_KEY_USER_TRIGGERED.getId(),
+                                false),
                         Pair.create(
                                 AudioSharingUtils.MetricKey.METRIC_KEY_DEVICE_COUNT_IN_SHARING
                                         .getId(),
@@ -821,14 +848,19 @@ public class AudioSharingSwitchBarControllerTest {
         shadowMainLooper().idle();
 
         verify(mAssistant).addSource(mDevice1, mMetadata, /* isGroupOp= */ false);
-        verify(mFeatureFactory.metricsFeatureProvider)
-                .action(
-                        mContext,
-                        SettingsEnums.ACTION_AUDIO_SHARING_ADD_SOURCE,
+        ImmutableList<Pair<Integer, Object>> addEventData =
+                ImmutableList.of(
                         Pair.create(
                                 METRIC_KEY_SOURCE_PAGE_ID.getId(),
                                 SettingsEnums.DIALOG_AUDIO_SHARING_MAIN),
-                        Pair.create(METRIC_KEY_USER_TRIGGERED.getId(), 1));
+                        Pair.create(METRIC_KEY_USER_TRIGGERED.getId(), true));
+        verify(mFeatureFactory.metricsFeatureProvider)
+                .action(
+                        SettingsEnums.AUDIO_SHARING_SETTINGS,
+                        SettingsEnums.ACTION_AUDIO_SHARING_ADD_SOURCE,
+                        SettingsEnums.AUDIO_SHARING_SETTINGS,
+                        addEventData.toString(),
+                        /* changedPreferenceIntValue */ 0);
         assertThat(dialog.isShowing()).isFalse();
         // Progress dialog shows sharing progress for the user chosen sink.
         List<Fragment> childFragments = mParentFragment.getChildFragmentManager().getFragments();
@@ -873,14 +905,19 @@ public class AudioSharingSwitchBarControllerTest {
         shadowMainLooper().idle();
 
         verify(mAssistant, never()).addSource(mDevice1, mMetadata, /* isGroupOp= */ false);
-        verify(mFeatureFactory.metricsFeatureProvider, never())
-                .action(
-                        mContext,
-                        SettingsEnums.ACTION_AUDIO_SHARING_ADD_SOURCE,
+        ImmutableList<Pair<Integer, Object>> addEventData =
+                ImmutableList.of(
                         Pair.create(
                                 METRIC_KEY_SOURCE_PAGE_ID.getId(),
                                 SettingsEnums.DIALOG_AUDIO_SHARING_MAIN),
-                        Pair.create(METRIC_KEY_USER_TRIGGERED.getId(), 1));
+                        Pair.create(METRIC_KEY_USER_TRIGGERED.getId(), true));
+        verify(mFeatureFactory.metricsFeatureProvider, never())
+                .action(
+                        SettingsEnums.AUDIO_SHARING_SETTINGS,
+                        SettingsEnums.ACTION_AUDIO_SHARING_ADD_SOURCE,
+                        SettingsEnums.AUDIO_SHARING_SETTINGS,
+                        addEventData.toString(),
+                        /* changedPreferenceIntValue */ 0);
         assertThat(dialog.isShowing()).isFalse();
         // Progress dialog shows sharing progress for the auto add active sink.
         List<Fragment> childFragments = mParentFragment.getChildFragmentManager().getFragments();
@@ -1148,10 +1185,8 @@ public class AudioSharingSwitchBarControllerTest {
         shadowOf(Looper.getMainLooper()).idle();
 
         verify(mBroadcast).startPrivateBroadcast();
-        verify(mFeatureFactory.metricsFeatureProvider)
-                .action(
-                        mContext,
-                        SettingsEnums.ACTION_AUDIO_SHARING_MAIN_SWITCH_ON,
+        ImmutableList<Pair<Integer, Object>> switchOnEventData =
+                ImmutableList.of(
                         Pair.create(
                                 AudioSharingUtils.MetricKey.METRIC_KEY_SOURCE_PAGE_ID.getId(),
                                 TEST_SOURCE_METRICS),
@@ -1162,27 +1197,44 @@ public class AudioSharingSwitchBarControllerTest {
                                 AudioSharingUtils.MetricKey.METRIC_KEY_CANDIDATE_DEVICE_COUNT
                                         .getId(),
                                 2));
+        verify(mFeatureFactory.metricsFeatureProvider)
+                .action(
+                        SettingsEnums.AUDIO_SHARING_SETTINGS,
+                        SettingsEnums.ACTION_AUDIO_SHARING_MAIN_SWITCH_ON,
+                        SettingsEnums.AUDIO_SHARING_SETTINGS,
+                        switchOnEventData.toString(),
+                        /* changedPreferenceIntValue */ 0);
         mController.mBroadcastCallback.onBroadcastMetadataChanged(/* reason= */ 1, mMetadata);
         shadowOf(Looper.getMainLooper()).idle();
 
         verify(mAssistant).addSource(mDevice1, mMetadata, /* isGroupOp= */ false);
         verify(mAssistant).addSource(mDevice2, mMetadata, /* isGroupOp= */ false);
-        verify(mFeatureFactory.metricsFeatureProvider)
-                .action(
-                        mContext,
-                        SettingsEnums.ACTION_AUDIO_SHARING_ADD_SOURCE,
+        ImmutableList<Pair<Integer, Object>> addEventData1 =
+                ImmutableList.of(
                         Pair.create(
                                 METRIC_KEY_SOURCE_PAGE_ID.getId(),
                                 SettingsEnums.ACTION_AUTO_JOIN_AUDIO_SHARING),
-                        Pair.create(METRIC_KEY_USER_TRIGGERED.getId(), 0));
+                        Pair.create(METRIC_KEY_USER_TRIGGERED.getId(), false));
         verify(mFeatureFactory.metricsFeatureProvider)
                 .action(
-                        mContext,
+                        SettingsEnums.AUDIO_SHARING_SETTINGS,
                         SettingsEnums.ACTION_AUDIO_SHARING_ADD_SOURCE,
+                        SettingsEnums.AUDIO_SHARING_SETTINGS,
+                        addEventData1.toString(),
+                        /* changedPreferenceIntValue */ 0);
+        ImmutableList<Pair<Integer, Object>> addEventData2 =
+                ImmutableList.of(
                         Pair.create(
                                 METRIC_KEY_SOURCE_PAGE_ID.getId(),
                                 SettingsEnums.ACTION_AUTO_JOIN_AUDIO_SHARING),
-                        Pair.create(METRIC_KEY_USER_TRIGGERED.getId(), 1));
+                        Pair.create(METRIC_KEY_USER_TRIGGERED.getId(), true));
+        verify(mFeatureFactory.metricsFeatureProvider)
+                .action(
+                        SettingsEnums.AUDIO_SHARING_SETTINGS,
+                        SettingsEnums.ACTION_AUDIO_SHARING_ADD_SOURCE,
+                        SettingsEnums.AUDIO_SHARING_SETTINGS,
+                        addEventData2.toString(),
+                        /* changedPreferenceIntValue */ 0);
         List<Fragment> childFragments = parentFragment.getChildFragmentManager().getFragments();
         // Skip audio sharing dialog.
         assertThat(childFragments)
@@ -1208,13 +1260,18 @@ public class AudioSharingSwitchBarControllerTest {
         shadowOf(Looper.getMainLooper()).idle();
 
         verify(mAssistant).addSource(mDevice1, mMetadata, /* isGroupOp= */ false);
-        verify(mFeatureFactory.metricsFeatureProvider)
-                .action(
-                        mContext,
-                        SettingsEnums.ACTION_AUDIO_SHARING_ADD_SOURCE,
+        ImmutableList<Pair<Integer, Object>> addEventData =
+                ImmutableList.of(
                         Pair.create(
                                 METRIC_KEY_SOURCE_PAGE_ID.getId(), SettingsEnums.BLUETOOTH_PAIRING),
-                        Pair.create(METRIC_KEY_USER_TRIGGERED.getId(), 1));
+                        Pair.create(METRIC_KEY_USER_TRIGGERED.getId(), true));
+        verify(mFeatureFactory.metricsFeatureProvider)
+                .action(
+                        SettingsEnums.AUDIO_SHARING_SETTINGS,
+                        SettingsEnums.ACTION_AUDIO_SHARING_ADD_SOURCE,
+                        SettingsEnums.AUDIO_SHARING_SETTINGS,
+                        addEventData.toString(),
+                        /* changedPreferenceIntValue */ 0);
         List<Fragment> childFragments = mParentFragment.getChildFragmentManager().getFragments();
         assertThat(childFragments)
                 .comparingElementsUsing(CLAZZNAME_EQUALS)

@@ -2055,8 +2055,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <data android:scheme="package" />
             </intent-filter>
-            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                   android:value="com.android.settings.applications.AppStorageSettings" />
             <meta-data android:name="com.android.settings.HIGHLIGHT_MENU_KEY"
                    android:value="@string/menu_key_apps"/>
         </activity>

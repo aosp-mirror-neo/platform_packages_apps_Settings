@@ -177,11 +177,14 @@ public class AudioSharingReceiver extends BroadcastReceiver {
                 cancelSharingNotification(context, ADD_SOURCE_NOTIFICATION_ID);
                 if (!sinksToAdd.isEmpty()) {
                     metricsFeatureProvider.action(
-                            context,
+                            SettingsEnums.ACTION_SHOW_ADD_SOURCE_NOTIFICATION,
                             SettingsEnums.ACTION_AUDIO_SHARING_ADD_SOURCE,
+                            SettingsEnums.ACTION_SHOW_ADD_SOURCE_NOTIFICATION,
                             AudioSharingUtils.buildAddSourceEventData(
-                                    SettingsEnums.ACTION_SHOW_ADD_SOURCE_NOTIFICATION,
-                                    /* userTriggered= */ false));
+                                            SettingsEnums.ACTION_SHOW_ADD_SOURCE_NOTIFICATION,
+                                            /* userTriggered= */ false)
+                                    .toString(),
+                            /* changedPreferenceIntValue= */ 0);
                 }
                 break;
             case ACTION_LE_AUDIO_SHARING_CANCEL_NOTIF:

@@ -39,6 +39,7 @@ import com.android.settingslib.bluetooth.BluetoothUtils;
 import com.android.settingslib.bluetooth.CachedBluetoothDevice;
 import com.android.settingslib.flags.Flags;
 
+import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Iterables;
 
 import java.util.List;
@@ -59,7 +60,7 @@ public class AudioSharingStopDialogFragment extends InstrumentedDialogFragment {
 
     @Nullable private static DialogEventListener sListener;
     @Nullable private static CachedBluetoothDevice sCachedDevice;
-    private static Pair<Integer, Object>[] sEventData = new Pair[0];
+    private static ImmutableList<Pair<Integer, Object>> sEventData = ImmutableList.of();
 
     @Override
     public int getMetricsCategory() {
@@ -83,7 +84,7 @@ public class AudioSharingStopDialogFragment extends InstrumentedDialogFragment {
             @NonNull List<AudioSharingDeviceItem> deviceItems,
             @NonNull CachedBluetoothDevice newDevice,
             @NonNull DialogEventListener listener,
-            @NonNull Pair<Integer, Object>[] eventData) {
+            @NonNull ImmutableList<Pair<Integer, Object>> eventData) {
         if (host == null) {
             Log.d(TAG, "Fail to show dialog, host is null");
             return false;
@@ -149,7 +150,7 @@ public class AudioSharingStopDialogFragment extends InstrumentedDialogFragment {
     /** Test only: get the event data passed to the dialog. */
     @VisibleForTesting
     @NonNull
-    Pair<Integer, Object>[] getEventData() {
+    ImmutableList<Pair<Integer, Object>> getEventData() {
         return sEventData;
     }
 
@@ -165,17 +166,21 @@ public class AudioSharingStopDialogFragment extends InstrumentedDialogFragment {
                     if (sListener != null) {
                         sListener.onStopSharingClick();
                         mMetricsFeatureProvider.action(
-                                getContext(),
+                                getMetricsCategory(),
                                 SettingsEnums.ACTION_AUDIO_SHARING_DIALOG_POSITIVE_BTN_CLICKED,
-                                sEventData);
+                                getMetricsCategory(),
+                                sEventData.toString(),
+                                /* changedPreferenceIntValue= */ 0);
                     }
                 };
         DialogInterface.OnClickListener onNegativeBtnClicked =
                 (dlg, which) ->
                         mMetricsFeatureProvider.action(
-                                getContext(),
+                                getMetricsCategory(),
                                 SettingsEnums.ACTION_AUDIO_SHARING_DIALOG_NEGATIVE_BTN_CLICKED,
-                                sEventData);
+                                getMetricsCategory(),
+                                sEventData.toString(),
+                                /* changedPreferenceIntValue= */ 0);
         AlertDialog dialog =
                 AudioSharingDialogFactory.newBuilder(getActivity())
                         .setTitleIcon(com.android.settings.R.drawable.ic_warning_24dp)

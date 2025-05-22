@@ -23,6 +23,7 @@ import android.app.supervision.SupervisionManager
 import android.app.supervision.SupervisionRecoveryInfo
 import android.app.supervision.SupervisionRecoveryInfo.STATE_PENDING
 import android.content.Context
+import android.content.Intent
 import android.content.pm.UserInfo
 import android.hardware.biometrics.BiometricManager
 import android.hardware.biometrics.PromptContentViewWithMoreOptionsButton
@@ -34,6 +35,7 @@ import android.os.UserManager.USER_TYPE_PROFILE_SUPERVISING
 import androidx.test.core.app.ApplicationProvider
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import com.android.settings.R
+import com.android.settings.supervision.ConfirmSupervisionCredentialsActivity.Companion.EXTRA_FORCE_CONFIRMATION
 import com.google.common.truth.Truth.assertThat
 import org.junit.Before
 import org.junit.Test
@@ -76,22 +78,7 @@ class ConfirmSupervisionCredentialsActivityTest {
     @Before
     fun setUp() {
         ShadowRoleManager.reset()
-
-        // Note, we have to use ActivityController (instead of ActivityScenario) in order to access
-        // the activity before it is created, so we can set up various mocked responses before they
-        // are referenced in onCreate.
-        mActivityController =
-            Robolectric.buildActivity(ConfirmSupervisionCredentialsActivity::class.java)
-        mActivity = mActivityController.get()
-
-        shadowActivity = shadowOf(mActivity)
-        shadowActivity.setCallingPackage(callingPackage)
-        shadowKeyguardManager = shadowOf(mActivity.getSystemService(KeyguardManager::class.java))
-        Shadow.extract<ShadowContextImpl>(mActivity.baseContext).apply {
-            setSystemService(Context.ACTIVITY_SERVICE, mockActivityManager)
-            setSystemService(Context.SUPERVISION_SERVICE, mockSupervisionManager)
-            setSystemService(Context.USER_SERVICE, mockUserManager)
-        }
+        setUpActivity(forceConfirm = false)
         SupervisionAuthController.sInstance = null
     }
 
@@ -154,6 +141,25 @@ class ConfirmSupervisionCredentialsActivityTest {
     }
 
     @Test
+    fun onCreate_authSessionActive_forceConfirmation_doesNotFinish() {
+        ShadowRoleManager.addRoleHolder(ROLE_SYSTEM_SUPERVISION, callingPackage, currentUser)
+        mockUserManager.stub { on { users } doReturn listOf(SUPERVISING_USER_INFO) }
+        mockActivityManager.stub { on { startProfile(any()) } doReturn true }
+        shadowKeyguardManager.setIsDeviceSecure(SUPERVISING_USER_ID, true)
+        SupervisionAuthController.getInstance(context).startSession(mActivity.taskId)
+
+        setUpActivity(forceConfirm = true)
+        mActivityController.setup()
+
+        assertThat(mActivity.isFinishing).isFalse()
+
+        // Ensure that the supervising profile is started
+        val userCaptor = argumentCaptor<UserHandle>()
+        verify(mockActivityManager).startProfile(userCaptor.capture())
+        assert(userCaptor.lastValue.identifier == SUPERVISING_USER_ID)
+    }
+
+    @Test
     @Config(sdk = [Build.VERSION_CODES.BAKLAVA])
     fun onCreate_callerIsSystemUid_doesNotFinish() {
         ShadowBinder.setCallingUid(
@@ -212,6 +218,7 @@ class ConfirmSupervisionCredentialsActivityTest {
             .isInstanceOf(PromptContentViewWithMoreOptionsButton::class.java)
     }
 
+    @Test
     fun getBiometricPrompt_recoveryInfoEmpty_noMoreOptionsButton() {
         whenever(mockSupervisionManager.supervisionRecoveryInfo).thenReturn(null)
 
@@ -225,6 +232,7 @@ class ConfirmSupervisionCredentialsActivityTest {
         assertThat(biometricPrompt.contentView).isNull()
     }
 
+    @Test
     fun onAuthenticationSucceeded_startsAuthSession_returnsResultOK() {
         mockUserManager.stub { on { users } doReturn listOf(SUPERVISING_USER_INFO) }
         shadowKeyguardManager.setIsDeviceSecure(SUPERVISING_USER_ID, true)
@@ -234,6 +242,30 @@ class ConfirmSupervisionCredentialsActivityTest {
         assertThat(SupervisionAuthController.getInstance(context).isSessionActive(mActivity.taskId))
             .isTrue()
         assertThat(shadowActivity.resultCode).isEqualTo(Activity.RESULT_OK)
+    }
+
+    private fun setUpActivity(forceConfirm: Boolean) {
+        // Note, we have to use ActivityController (instead of ActivityScenario) in order to access
+        // the activity before it is created, so we can set up various mocked responses before they
+        // are referenced in onCreate.
+        if (forceConfirm) {
+            val intent = Intent().putExtra(EXTRA_FORCE_CONFIRMATION, true)
+            mActivityController =
+                Robolectric.buildActivity(ConfirmSupervisionCredentialsActivity::class.java, intent)
+        } else {
+            mActivityController =
+                Robolectric.buildActivity(ConfirmSupervisionCredentialsActivity::class.java)
+        }
+        mActivity = mActivityController.get()
+
+        shadowActivity = shadowOf(mActivity)
+        shadowActivity.setCallingPackage(callingPackage)
+        shadowKeyguardManager = shadowOf(mActivity.getSystemService(KeyguardManager::class.java))
+        Shadow.extract<ShadowContextImpl>(mActivity.baseContext).apply {
+            setSystemService(Context.ACTIVITY_SERVICE, mockActivityManager)
+            setSystemService(Context.SUPERVISION_SERVICE, mockSupervisionManager)
+            setSystemService(Context.USER_SERVICE, mockUserManager)
+        }
     }
 
     private companion object {

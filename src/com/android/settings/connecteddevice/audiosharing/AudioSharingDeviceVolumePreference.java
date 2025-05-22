@@ -16,6 +16,8 @@
 
 package com.android.settings.connecteddevice.audiosharing;
 
+import static com.android.settings.connecteddevice.audiosharing.AudioSharingUtils.MetricKey.METRIC_KEY_DEVICE_IS_PRIMARY;
+
 import android.app.settings.SettingsEnums;
 import android.bluetooth.BluetoothCsipSetCoordinator;
 import android.bluetooth.BluetoothDevice;
@@ -55,7 +57,7 @@ public class AudioSharingDeviceVolumePreference extends SeekBarPreference {
     public AudioSharingDeviceVolumePreference(
             Context context, @NonNull CachedBluetoothDevice device) {
         super(context);
-        setLayoutResource(R.layout.preference_volume_slider);
+        setLayoutResource(R.layout.preference_volume_seekbar);
         mContext = context;
         mCachedDevice = device;
         mBtManager = Utils.getLocalBtManager(mContext);
@@ -176,9 +178,11 @@ public class AudioSharingDeviceVolumePreference extends SeekBarPreference {
         if (vc != null) {
             vc.setDeviceVolume(device, progress, /* isGroupOp= */ true);
             mMetricsFeatureProvider.action(
-                    mContext,
+                    SettingsEnums.PAGE_UNKNOWN,
                     SettingsEnums.ACTION_AUDIO_SHARING_CHANGE_MEDIA_DEVICE_VOLUME,
-                    /* isPrimary= */ false);
+                    SettingsEnums.PAGE_UNKNOWN,
+                    String.valueOf(METRIC_KEY_DEVICE_IS_PRIMARY.getId()),
+                    /* isPrimary= */ 0);
             Log.d(
                     TAG,
                     "set device volume, device = "
@@ -200,9 +204,11 @@ public class AudioSharingDeviceVolumePreference extends SeekBarPreference {
             int volume = Math.round((float) progress * streamVolumeRange / seekbarRange);
             audioManager.setStreamVolume(AudioManager.STREAM_MUSIC, volume, 0);
             mMetricsFeatureProvider.action(
-                    mContext,
+                    SettingsEnums.PAGE_UNKNOWN,
                     SettingsEnums.ACTION_AUDIO_SHARING_CHANGE_MEDIA_DEVICE_VOLUME,
-                    /* isPrimary= */ true);
+                    SettingsEnums.PAGE_UNKNOWN,
+                    String.valueOf(METRIC_KEY_DEVICE_IS_PRIMARY.getId()),
+                    /* isPrimary= */ 1);
             Log.d(TAG, "set music stream volume, volume = " + progress);
         } catch (RuntimeException e) {
             Log.e(TAG, "Fail to setAudioManagerStreamVolumeForFallbackDevice, error = " + e);

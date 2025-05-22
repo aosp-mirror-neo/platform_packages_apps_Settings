@@ -39,6 +39,8 @@ import com.android.settingslib.bluetooth.BluetoothUtils;
 import com.android.settingslib.bluetooth.CachedBluetoothDevice;
 import com.android.settingslib.flags.Flags;
 
+import com.google.common.collect.ImmutableList;
+
 import java.util.List;
 
 public class AudioSharingJoinDialogFragment extends InstrumentedDialogFragment {
@@ -59,7 +61,7 @@ public class AudioSharingJoinDialogFragment extends InstrumentedDialogFragment {
 
     @Nullable private static DialogEventListener sListener;
     @Nullable private static CachedBluetoothDevice sNewDevice;
-    private static Pair<Integer, Object>[] sEventData = new Pair[0];
+    private static ImmutableList<Pair<Integer, Object>> sEventData = ImmutableList.of();
 
     @Override
     public int getMetricsCategory() {
@@ -85,7 +87,7 @@ public class AudioSharingJoinDialogFragment extends InstrumentedDialogFragment {
             @NonNull List<AudioSharingDeviceItem> deviceItems,
             @NonNull CachedBluetoothDevice newDevice,
             @NonNull DialogEventListener listener,
-            @NonNull Pair<Integer, Object>[] eventData) {
+            @NonNull ImmutableList<Pair<Integer, Object>> eventData) {
         if (host == null) {
             Log.d(TAG, "Fail to show dialog, host is null");
             return false;
@@ -150,7 +152,7 @@ public class AudioSharingJoinDialogFragment extends InstrumentedDialogFragment {
     /** Test only: get the event data passed to the dialog. */
     @VisibleForTesting
     @NonNull
-    Pair<Integer, Object>[] getEventData() {
+    ImmutableList<Pair<Integer, Object>> getEventData() {
         return sEventData;
     }
 
@@ -166,9 +168,11 @@ public class AudioSharingJoinDialogFragment extends InstrumentedDialogFragment {
                     if (sListener != null) {
                         sListener.onShareClick();
                         mMetricsFeatureProvider.action(
-                                getContext(),
+                                getMetricsCategory(),
                                 SettingsEnums.ACTION_AUDIO_SHARING_DIALOG_POSITIVE_BTN_CLICKED,
-                                sEventData);
+                                getMetricsCategory(),
+                                sEventData.toString(),
+                                /* changedPreferenceIntValue= */ 0);
                     }
                     dismiss();
                 };
@@ -177,9 +181,11 @@ public class AudioSharingJoinDialogFragment extends InstrumentedDialogFragment {
                     if (sListener != null) {
                         sListener.onCancelClick();
                         mMetricsFeatureProvider.action(
-                                getContext(),
+                                getMetricsCategory(),
                                 SettingsEnums.ACTION_AUDIO_SHARING_DIALOG_NEGATIVE_BTN_CLICKED,
-                                sEventData);
+                                getMetricsCategory(),
+                                sEventData.toString(),
+                                /* changedPreferenceIntValue= */ 0);
                     }
                     dismiss();
                 };
