@@ -21,6 +21,8 @@
     <string name="create" msgid="986997212165228751">"Crear"</string>
     <string name="allow" msgid="3763244945363657722">"Permitir"</string>
     <string name="deny" msgid="7326117222944479942">"Rexeitar"</string>
+    <!-- no translation found for edit (8128799559456697510) -->
+    <skip />
     <string name="confirmation_turn_on" msgid="2979094011928347665">"Activar"</string>
     <string name="device_info_default" msgid="1406619232867343310">"Descoñecido"</string>
     <string name="device_info_protected_single_press" msgid="3810785480060743677">"Toca para mostrar máis información"</string>
@@ -1362,16 +1364,11 @@
     <string name="auto_brightness_description" msgid="6807117118142381193">"O brillo da pantalla axustarase automaticamente segundo o ambiente e as actividades que leves a cabo. Podes mover o control desprazable de forma manual para que o brillo intelixente recoñeza as túas preferencias."</string>
     <string name="auto_brightness_summary_on" msgid="2748088951224387004">"Activado"</string>
     <string name="auto_brightness_summary_off" msgid="8077066192887677956">"Desactivado"</string>
-    <!-- no translation found for hdr_brightness_title (6997980740096282616) -->
-    <skip />
-    <!-- no translation found for hdr_brightness_level_title (770342878327164738) -->
-    <skip />
-    <!-- no translation found for hdr_brightness_standard_image_label (8262353134660098785) -->
-    <skip />
-    <!-- no translation found for hdr_brightness_hdr_image_label (8068442758910393158) -->
-    <skip />
-    <!-- no translation found for hdr_brightness_warning (2755151579539607928) -->
-    <skip />
+    <string name="hdr_brightness_title" msgid="6997980740096282616">"Brillo HDR mellorado"</string>
+    <string name="hdr_brightness_level_title" msgid="770342878327164738">"Intensidade"</string>
+    <string name="hdr_brightness_standard_image_label" msgid="8262353134660098785">"Imaxe estándar"</string>
+    <string name="hdr_brightness_hdr_image_label" msgid="8068442758910393158">"Imaxe HDR"</string>
+    <string name="hdr_brightness_warning" msgid="2755151579539607928">"Esta opción de configuración aplícase unicamente a imaxes e vídeos que admiten o alto rango dinámico (HDR)."</string>
     <string name="display_white_balance_title" msgid="2624544323029364713">"Balance de brancos da pantalla"</string>
     <string name="display_white_balance_summary" msgid="7625456704950209050"></string>
     <string name="fold_lock_behavior_title" msgid="786228803694268449">"Usar apps co dispositivo pregado"</string>
@@ -1441,8 +1438,7 @@
     <string name="dark_ui_bedtime_footer_action" msgid="1493095487994054339">"Configuración do modo Hora de durmir"</string>
     <string name="dark_ui_modes_footer_summary" msgid="1041117250408363391">"{count,plural,offset:2 =0{Os modos tamén poden activar o tema escuro}=1{O modo {mode_1} tamén activa o tema escuro}=2{Os modos {mode_1} e {mode_2} tamén activan o tema escuro}=3{Os modos {mode_1}, {mode_2} e {mode_3} tamén activan o tema escuro}other{Os modos {mode_1}, {mode_2} e # máis tamén activan o tema escuro}}"</string>
     <string name="dark_ui_modes_footer_action" msgid="80671811848446248">"Configuración de modos"</string>
-    <!-- no translation found for hdr_brigtness_text (1912629316654528876) -->
-    <skip />
+    <string name="hdr_brigtness_text" msgid="1912629316654528876">"Mellora a luz e amplía a gama de cores e a claridade nas imaxes e vídeos de alto rango dinámico (HDR). O contido con HDR verase máis luminoso."</string>
     <string name="screen_timeout" msgid="7709947617767439410">"Tempo de espera da pantalla"</string>
     <string name="screen_timeout_summary" msgid="5558778019594643427">"Despois de <xliff:g id="TIMEOUT_DESCRIPTION">%1$s</xliff:g> de inactividade"</string>
     <string name="screen_timeout_summary_not_set" msgid="5107680774964178875">"Sen configurar"</string>
@@ -2146,6 +2142,14 @@
     <string name="mouse_keys_seek_bar_increase_button_description" msgid="2721662400858172203">"Aumentar"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"Inverter desprazamento"</string>
     <string name="mouse_keys_use_primary_keys_title" msgid="525897583406210252">"Usar teclas principais"</string>
+    <!-- no translation found for mouse_keys_reset_button_label (513004295662247230) -->
+    <skip />
+    <!-- no translation found for mouse_keys_primary_keys_image_list_title (7470827693078490251) -->
+    <skip />
+    <!-- no translation found for mouse_keys_numpad_keys_image_list_title (6682341389811538017) -->
+    <skip />
+    <!-- no translation found for mouse_keys_numpad_keys_image_list_summary (2728318055237217919) -->
+    <skip />
     <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"Desprázate cara arriba para mover a páxina cara abaixo"</string>
     <string name="mouse_scrolling_category_title" msgid="2992126595687187296">"Desprazamento"</string>
     <string name="mouse_scrolling_acceleration" msgid="7119758828203396430">"Desprazamento controlado"</string>
@@ -2549,7 +2553,7 @@
     <string name="accessibility_autoclick_about_title" msgid="152923024405552594">"Clic automático (tempo permanencia)"</string>
     <string name="accessibility_autoclick_footer_learn_more_content_description" msgid="7056189627042350691">"Máis información acerca do clic automático (tempo de permanencia do cursor)"</string>
     <string name="accessibility_autoclick_intro_text" msgid="8959680635470639347">"Podes configurar un rato conectado para que faga clic de forma automática cando o cursor deixe de moverse durante certo tempo"</string>
-    <string name="accessibility_autoclick_description" msgid="6695732131412361101">"O clic automático pode serche útil se che resulta difícil facer clic co rato"</string>
+    <string name="accessibility_autoclick_description" msgid="6695732131412361101">"O clic automático pode serche útil se che resulta difícil facer clic co rato."</string>
     <string name="accessibility_autoclick_default_title" msgid="2024730028293793490">"Clic automático desactivado"</string>
     <string name="accessibility_autoclick_short_title" msgid="7938302504358912984">"Curto"</string>
     <string name="accessibility_autoclick_short_summary" msgid="4106953930081213514">"0,2 segundos"</string>
@@ -2968,7 +2972,7 @@
     <string name="battery_usage_spinner_view_by_systems" msgid="7904104223212160541">"Ver por sistemas"</string>
     <string name="battery_usage_less_than_percent" msgid="5873099028895001082">"&lt; <xliff:g id="PERCENTAGE">%1$s</xliff:g>"</string>
     <string name="battery_usage_less_than_percent_content_description" msgid="6265933174815461493">"menos do <xliff:g id="PERCENTAGE">%1$s</xliff:g>"</string>
-    <string name="battery_cycle_count_footer" msgid="3642121059800373545">"Pode que, cando vaias usar a batería por primeira vez, o reconto de ciclos non sexa cero, o cal se debe ás inspeccións de calidade previas ao envío"</string>
+    <string name="battery_cycle_count_footer" msgid="3642121059800373545">"Pode que, cando vaias usar a batería por primeira vez, o reconto de ciclos non sexa cero, o cal se debe ás inspeccións de calidade previas ao envío."</string>
     <string name="process_stats_summary_title" msgid="502683176231281732">"Estatísticas de procesos"</string>
     <string name="process_stats_summary" msgid="522842188571764699">"Estatísticas frikis sobre procesos en execución"</string>
     <string name="app_memory_use" msgid="7559666138324410666">"Uso da memoria"</string>
@@ -3537,8 +3541,7 @@
     <string name="keywords_display_wallpaper" msgid="8478137541939526564">"segundo plano, personalizar pantalla"</string>
     <string name="keywords_display_font_size" msgid="3593317215149813183">"tamaño do texto"</string>
     <string name="keywords_display_cast_screen" msgid="2572331770299149370">"proxectar, emitir, proxección de pantalla, pantalla compartida, proxección, compartir pantalla, emisión de pantalla"</string>
-    <!-- no translation found for keywords_display_hdr_brightness (2553194332263860092) -->
-    <skip />
+    <string name="keywords_display_hdr_brightness" msgid="2553194332263860092">"hdr, brillo, alto rango dinámico, iluminar, más luminoso"</string>
     <string name="keywords_storage" msgid="3004667910133021783">"espazo, disco, unidade de disco duro, uso do dispositivo"</string>
     <string name="keywords_battery" msgid="7040323668283600530">"consumo de enerxía, carga"</string>
     <string name="keywords_battery_usage" msgid="1763573071014260220">"ver uso da batería, uso da batería, uso da carga"</string>
@@ -3660,6 +3663,14 @@
     <string name="emergency_tone_alert" msgid="1977698889522966589">"Tons"</string>
     <string name="emergency_tone_vibrate" msgid="6282296789406984698">"Vibracións"</string>
     <string name="boot_sounds_title" msgid="5033062848948884111">"Sons de acendido"</string>
+    <!-- no translation found for sound_patterns_category_title (4290495769747444271) -->
+    <skip />
+    <!-- no translation found for sound_audio_category_title (3445871661303518618) -->
+    <skip />
+    <!-- no translation found for system_sounds_and_vibrations_category_title (4162079598490981456) -->
+    <skip />
+    <!-- no translation found for work_profile_sound_category_title (1708926655170323454) -->
+    <skip />
     <string name="live_caption_title" msgid="8617086825712756983">"Subtítulos instantáneos"</string>
     <string name="live_caption_summary" msgid="2898451867595161809">"Crea subtítulos automáticos"</string>
     <string name="spatial_audio_wired_headphones" msgid="2237355789145828648">"Auriculares con cable"</string>
@@ -3803,14 +3814,10 @@
     <string name="snooze_options_title" msgid="2109795569568344617">"Permitir adiar notificacións"</string>
     <string name="notification_badging_title" msgid="5469616894819568917">"Punto de notificacións nas iconas"</string>
     <string name="notification_bundles" msgid="496852738958148317">"Organizador de notificacións"</string>
-    <!-- no translation found for notification_bundle_promotions_summary (3196830882575438887) -->
-    <skip />
-    <!-- no translation found for notification_bundle_news_summary (2524877244105778120) -->
-    <skip />
-    <!-- no translation found for notification_bundle_social_summary (1880042768055317701) -->
-    <skip />
-    <!-- no translation found for notification_bundle_recs_summary (9200357300848343691) -->
-    <skip />
+    <string name="notification_bundle_promotions_summary" msgid="3196830882575438887">"Ofertas, funcións novas e moito máis"</string>
+    <string name="notification_bundle_news_summary" msgid="2524877244105778120">"Editoriais, historias destacadas e moito máis"</string>
+    <string name="notification_bundle_social_summary" msgid="1880042768055317701">"Gústame, publicacións e moito máis"</string>
+    <string name="notification_bundle_recs_summary" msgid="9200357300848343691">"Boletíns informativos, contido multimedia recomendado e moito máis"</string>
     <string name="notification_ai_features_title" msgid="6497959797331796296">"Notificacións con tecnoloxía de IA"</string>
     <string name="notification_summarization_title" msgid="1516039882005781529">"Resumos de notificacións"</string>
     <string name="notification_summarization_summary" msgid="1963425736716175590">"Obtén resumos rápidos das mensaxes máis longas"</string>
@@ -3819,15 +3826,12 @@
     <string name="notification_summarization_excluded_description" msgid="5819160700526641394">"Non se resumirán as notificacións procedentes destas aplicacións"</string>
     <string name="notification_summarization_manage_excluded_apps" msgid="1691177835156220384">"Xestionar as aplicacións"</string>
     <string name="notification_summarization_manage_excluded_apps_title" msgid="1299744594788208296">"Permitir os resumos de notificacións das aplicacións"</string>
-    <!-- no translation found for notification_excluded_apps (317898848790046528) -->
-    <skip />
+    <string name="notification_excluded_apps" msgid="317898848790046528">"Non incluír estas aplicacións"</string>
     <string name="notification_app_level_summarize_title" msgid="3829343457958246733">"Resumir as notificacións"</string>
     <string name="notification_app_level_summarize_subtext" msgid="7949649262631157728">"Resume as notificacións de conversas procedentes desta aplicación"</string>
     <string name="live_notifications" msgid="4650406646292963831">"Notificacións en directo"</string>
-    <!-- no translation found for live_notifications_switch (7745275403210881110) -->
-    <skip />
-    <!-- no translation found for live_notifications_desc (6857161077319125625) -->
-    <skip />
+    <string name="live_notifications_switch" msgid="7745275403210881110">"Novidades en tempo real"</string>
+    <string name="live_notifications_desc" msgid="6857161077319125625">"Mostra as notificacións de actividade en curso urxentes na barra de estado e na pantalla de bloqueo"</string>
     <string name="notification_bubbles_title" msgid="5681506665322329301">"Burbullas"</string>
     <string name="bubbles_app_toggle_title" msgid="5319021259954576150">"Burbullas"</string>
     <string name="bubbles_conversation_toggle_title" msgid="5225039214083311316">"Mostrar esta conversa nunha burbulla"</string>
@@ -4903,6 +4907,10 @@
     <string name="autofill_confirmation_message" msgid="4888767934273494272">"&lt;b&gt;Asegúrate de que confías nesta aplicación&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Google Autofill&gt;%1$s&lt;/xliff:g&gt; utiliza o contido da pantalla para determinar o que se pode completar."</string>
     <string name="credman_autofill_confirmation_message" msgid="843829628024668466">"&lt;b&gt;Queres utilizar &lt;xliff:g id=app_name example=Provider&gt;%1$s&lt;/xliff:g&gt;?&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; A partir de agora, determinada información nova (contrasinais, claves de acceso e outros datos) gardarase aquí. &lt;xliff:g id=app_name example=Provider&gt;%1$s&lt;/xliff:g&gt; pode usar o que apareza na pantalla para determinar o que se pode autocompletar."</string>
     <string name="credman_picker_title" msgid="8442086614222006564">"Servizo preferido para contrasinais, claves de acceso e autocompletar"</string>
+    <!-- no translation found for credman_picker_title_new (4292105803864397398) -->
+    <skip />
+    <!-- no translation found for credman_picker_page_summary (4633938046738617332) -->
+    <skip />
     <string name="credman_confirmation_message_title" msgid="8847900085593880729">"Queres desactivar %1$s?"</string>
     <string name="credman_confirmation_message" msgid="2357324543658635239">"&lt;b&gt;Queres desactivar este servizo?&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; A información gardada (por exemplo, contrasinais, claves de acceso, métodos de pago…) non se completará cando inicies sesión. Para usar a información gardada, escolle un servizo de contrasinais, claves de acceso ou datos."</string>
     <string name="account_dashboard_title_with_passkeys" msgid="648242372086733541">"Contrasinais, claves de acceso e contas"</string>
@@ -5125,8 +5133,7 @@
     <string name="title_supported_service" msgid="4275535165812691571">"Despois de que o teléfono se conecte a un satélite"</string>
     <string name="title_supported_service_for_manual_type" msgid="6009284624466359864">"Sigue os pasos para conectarte ao satélite"</string>
     <string name="summary_supported_service" msgid="6380533552383355977">"Podes intercambiar mensaxes de texto con calquera persoa, mesmo cos servizos de emerxencia, e usar datos limitados nalgunhas aplicacións. O teléfono volverá conectarse a unha rede de telefonía móbil en canto haxa unha dispoñible."</string>
-    <!-- no translation found for summary_supported_service_without_data_supported (179845377285866178) -->
-    <skip />
+    <string name="summary_supported_service_without_data_supported" msgid="179845377285866178">"Podes intercambiar mensaxes de texto con calquera persoa, mesmo cos servizos de emerxencia. O teléfono volverá conectarse a unha rede de telefonía móbil en canto haxa unha dispoñible."</string>
     <string name="summary_supported_service_for_manual_type" msgid="2147958362763058271">"Cando o teléfono estea conectado, poderás intercambiar mensaxes de texto con calquera persoa, mesmo cos servizos de emerxencia."</string>
     <string name="satellite_footer_content_section_0" msgid="4169483813004415556">"Importante"</string>
     <string name="satellite_footer_content_section_1" msgid="7925931577373229601">"A conectividade por satélite pode tardar máis e só está dispoñible en certas zonas."</string>
@@ -5401,10 +5408,8 @@
     <string name="media_controls_lockscreen_description" msgid="3320333660404439510">"O reprodutor multimedia permanece aberto na pantalla de bloqueo para que poidas retomar rapidamente a reprodución"</string>
     <string name="media_controls_hide_player" msgid="2751439192580884015">"Ocultar reprodutor"</string>
     <string name="media_controls_show_player" msgid="8504571042365814021">"Mostrar reprodutor"</string>
-    <!-- no translation found for media_controls_suggestions_title (4089438765632340413) -->
-    <skip />
-    <!-- no translation found for media_controls_suggestions_description (5001121785028325037) -->
-    <skip />
+    <string name="media_controls_suggestions_title" msgid="4089438765632340413">"Suxestións de contido multimedia"</string>
+    <string name="media_controls_suggestions_description" msgid="5001121785028325037">"Proporciona suxestións de contido de aplicacións multimedia en función da túa actividade e localización."</string>
     <string name="keywords_media_controls" msgid="8345490568291778638">"contido multimedia"</string>
     <string name="camera_extensions_fallback_title" msgid="3604579046777004989">"Permitir extensións de software da cámara"</string>
     <string name="camera_extensions_fallback_description" msgid="4306833827773277263">"Activa a implementación do software predeterminado das funcións avanzadas da cámara, como HDR, Visión nocturna ou outras extensións da cámara."</string>
@@ -5469,8 +5474,7 @@
     <string name="category_name_general" msgid="7737273712848115886">"Xeral"</string>
     <string name="dark_theme_main_switch_title" msgid="4045147031947562280">"Usar tema escuro"</string>
     <string name="bluetooth_main_switch_title" msgid="8409835540311309632">"Usar Bluetooth"</string>
-    <!-- no translation found for hdr_brightness_main_switch_title (1850974699921514297) -->
-    <skip />
+    <string name="hdr_brightness_main_switch_title" msgid="1850974699921514297">"Usar brillo HDR mellorado"</string>
     <string name="prevent_ringing_main_switch_title" msgid="4726252811262086643">"Usar Evitar que soe"</string>
     <string name="use_wifi_hotsopt_main_switch_title" msgid="3909731167290690539">"Usar zona wifi"</string>
     <string name="app_pinning_main_switch_title" msgid="5465506660064032876">"Usar fixación de aplicación"</string>
@@ -5764,10 +5768,8 @@
     <string name="audio_streams_add_source_bad_code_state_summary" msgid="6527086906921868757">"Revisa o contrasinal e téntao de novo"</string>
     <string name="audio_streams_add_source_failed_state_summary" msgid="3937546443978562322">"Non se puido establecer a conexión. Téntao de novo."</string>
     <string name="audio_streams_connecting_summary" msgid="7237827765572331702">"Conectando…"</string>
-    <!-- no translation found for audio_streams_dialog_failed_to_join (4942840673393552978) -->
-    <skip />
-    <!-- no translation found for audio_streams_dialog_failed_to_join_detail (1498719800517594252) -->
-    <skip />
+    <string name="audio_streams_dialog_failed_to_join" msgid="4942840673393552978">"Produciuse un erro ao entrar na emisión de audio"</string>
+    <string name="audio_streams_dialog_failed_to_join_detail" msgid="1498719800517594252">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> non puido conectarse á emisión de audio"</string>
     <string name="audio_streams_dialog_stream_is_not_available" msgid="4032878851270690546">"A emisión de audio non está dispoñible"</string>
     <string name="audio_streams_is_not_playing" msgid="8480293894696007941">"Esta emisión de audio non está reproducindo nada neste momento"</string>
     <string name="audio_streams_dialog_close" msgid="8177201719298408431">"Pechar"</string>
@@ -5844,28 +5846,20 @@
     <string name="supervision_verify_pin_recovery_title" msgid="3166602415814821497">"Verificar o teu correo electrónico"</string>
     <string name="supervision_web_content_filters_title" msgid="3653430162065686156">"Filtros de contido web"</string>
     <string name="supervision_web_content_filters_browser_title" msgid="8737341514264129889">"Sitios web"</string>
-    <string name="supervision_web_content_filters_browser_block_explicit_sites_title" msgid="1786398287521485576">"Bloquear contido web explícito"</string>
-    <string name="supervision_web_content_filters_browser_block_explicit_sites_summary" msgid="1427357961145247788">"Para os navegadores deste dispositivo"</string>
-    <string name="supervision_web_content_filters_browser_allow_all_sites_title" msgid="3909739592466381845">"Permitir todos os sitios"</string>
+    <!-- no translation found for supervision_web_content_filters_browser_filter_title (7957976669412075070) -->
+    <skip />
     <string name="supervision_web_content_filters_search_title" msgid="8608480392956106029">"Resultados de busca"</string>
-    <string name="supervision_web_content_filters_search_filter_on_title" msgid="1136440775294190806">"Bloquear resultados de busca explícitos"</string>
-    <string name="supervision_web_content_filters_search_filter_on_summary" msgid="6797184284369033101">"Para os buscadores desde dispositivo"</string>
-    <string name="supervision_web_content_filters_search_filter_off_title" msgid="7171966260908166395">"Filtro desactivado"</string>
+    <!-- no translation found for supervision_web_content_filters_search_filter_title (4212134055017429017) -->
+    <skip />
     <string name="supervision_full_screen_pin_verification_title" msgid="78513043528333399">"Mete o PIN de supervisión"</string>
     <string name="supervision_choose_your_pin_header" msgid="3872062168986738629">"Configurar un PIN de controis parentais"</string>
     <string name="supervision_confirm_your_pin_header" msgid="8236956712482718354">"Confirmar o PIN"</string>
     <string name="supervision_pin_reset_success_toast" msgid="9163550161698311831">"PIN actualizado"</string>
-    <!-- no translation found for supervision_delete_pin_confirm_header (8499276643990949268) -->
-    <skip />
-    <!-- no translation found for supervision_delete_pin_confirm_message (5482080400973042178) -->
-    <skip />
-    <!-- no translation found for supervision_delete_pin_supervision_enabled_header (2072311894107038402) -->
-    <skip />
-    <!-- no translation found for supervision_delete_pin_supervision_enabled_message (5643922966568203196) -->
-    <skip />
-    <!-- no translation found for supervision_delete_pin_error_header (1271034883245391839) -->
-    <skip />
-    <!-- no translation found for supervision_delete_pin_error_message (3400536232973539259) -->
-    <skip />
+    <string name="supervision_delete_pin_confirm_header" msgid="8499276643990949268">"Queres eliminar o PIN?"</string>
+    <string name="supervision_delete_pin_confirm_message" msgid="5482080400973042178">"Eliminarase o teu PIN actual para todos os usuarios deste dispositivo e desactivaranse os controis que teñas configurados. Esta acción non se pode desfacer."</string>
+    <string name="supervision_delete_pin_supervision_enabled_header" msgid="2072311894107038402">"Pon en pausa os controis doutros perfís primeiro"</string>
+    <string name="supervision_delete_pin_supervision_enabled_message" msgid="5643922966568203196">"Para poder eliminar o PIN e restablecer a configuración de supervisión, pon en pausa os controis doutros perfís."</string>
+    <string name="supervision_delete_pin_error_header" msgid="1271034883245391839">"Non se puido eliminar o PIN"</string>
+    <string name="supervision_delete_pin_error_message" msgid="3400536232973539259">"Produciuse un erro ao tentar eliminar o PIN."</string>
     <string name="accessibility_illustration_content_description" msgid="557376174860150903">"Animación de <xliff:g id="FEATURE">%1$s</xliff:g>"</string>
 </resources>

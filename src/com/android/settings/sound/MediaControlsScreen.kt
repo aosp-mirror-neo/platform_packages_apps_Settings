@@ -16,6 +16,8 @@
 
 package com.android.settings.sound
 
+import com.android.media.flags.Flags.enableDeviceSuggestionsPreference
+
 import android.app.settings.SettingsEnums
 import android.content.Context
 import com.android.settings.R
@@ -74,7 +76,7 @@ open class MediaControlsScreen(context: Context) :
         preferenceHierarchy(context, this) {
             +MediaControlsSwitchPreference(mediaControlsStore)
             +MediaControlsLockscreenSwitchPreference()
-            if (Flags.deviceSuggestionsPreference()) {
+            if (enableDeviceSuggestionsPreference()) {
                 +SuggestionsPreference()
             }
         }

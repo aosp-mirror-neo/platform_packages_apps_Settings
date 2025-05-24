@@ -21,6 +21,8 @@
     <string name="create" msgid="986997212165228751">"तयार करा"</string>
     <string name="allow" msgid="3763244945363657722">"अनुमती द्या"</string>
     <string name="deny" msgid="7326117222944479942">"नकार द्या"</string>
+    <!-- no translation found for edit (8128799559456697510) -->
+    <skip />
     <string name="confirmation_turn_on" msgid="2979094011928347665">"सुरू करा"</string>
     <string name="device_info_default" msgid="1406619232867343310">"अज्ञात"</string>
     <string name="device_info_protected_single_press" msgid="3810785480060743677">"माहिती दाखवण्यासाठी टॅप करा"</string>
@@ -1362,16 +1364,11 @@
     <string name="auto_brightness_description" msgid="6807117118142381193">"तुमच्या स्क्रीनचा ब्राइटनेस तुमच्या वातावरण आणि अ‍ॅक्टिव्हिटीशी आपोआप अ‍ॅडजस्ट होईल. अडॅप्टिव्ह ब्राइटनेसला तुमची प्राधान्ये जाणून घेण्यात मदत करण्यासाठी तुम्ही स्लायडर मॅन्युअली हलवू शकता."</string>
     <string name="auto_brightness_summary_on" msgid="2748088951224387004">"सुरू"</string>
     <string name="auto_brightness_summary_off" msgid="8077066192887677956">"बंद"</string>
-    <!-- no translation found for hdr_brightness_title (6997980740096282616) -->
-    <skip />
-    <!-- no translation found for hdr_brightness_level_title (770342878327164738) -->
-    <skip />
-    <!-- no translation found for hdr_brightness_standard_image_label (8262353134660098785) -->
-    <skip />
-    <!-- no translation found for hdr_brightness_hdr_image_label (8068442758910393158) -->
-    <skip />
-    <!-- no translation found for hdr_brightness_warning (2755151579539607928) -->
-    <skip />
+    <string name="hdr_brightness_title" msgid="6997980740096282616">"वर्धित HDR ब्राइटनेस"</string>
+    <string name="hdr_brightness_level_title" msgid="770342878327164738">"तीव्रता"</string>
+    <string name="hdr_brightness_standard_image_label" msgid="8262353134660098785">"साधारण इमेज"</string>
+    <string name="hdr_brightness_hdr_image_label" msgid="8068442758910393158">"HDR इमेज"</string>
+    <string name="hdr_brightness_warning" msgid="2755151579539607928">"या सेटिंगचा परिणाम फक्त उच्च डायनॅमिक रेंज (HDR) ला सपोर्ट करणाऱ्या इमेज आणि व्हिडिओवर होतो."</string>
     <string name="display_white_balance_title" msgid="2624544323029364713">"व्हाइट बॅलन्स डिस्प्ले करा"</string>
     <string name="display_white_balance_summary" msgid="7625456704950209050"></string>
     <string name="fold_lock_behavior_title" msgid="786228803694268449">"फोल्डवर ॲप्स वापरणे पुढे सुरू ठेवा"</string>
@@ -1441,8 +1438,7 @@
     <string name="dark_ui_bedtime_footer_action" msgid="1493095487994054339">"बेडटाइम मोडशी संबंधित सेटिंग्ज"</string>
     <string name="dark_ui_modes_footer_summary" msgid="1041117250408363391">"{count,plural,offset:2 =0{मोड गडद थीमदेखील अ‍ॅक्टिव्हेट करू शकतात}=1{{mode_1} गडद थीमदेखील अ‍ॅक्टिव्हेट करतो}=2{{mode_1} आणि {mode_2} हे गडद थीमदेखील अ‍ॅक्टिव्हेट करतात}=3{{mode_1}, {mode_2} आणि {mode_3} हे गडद थीमदेखील अ‍ॅक्टिव्हेट करतात}other{{mode_1}, {mode_2} आणि आणखी # हे गडद थीमदेखील अ‍ॅक्टिव्हेट करतात}}"</string>
     <string name="dark_ui_modes_footer_action" msgid="80671811848446248">"मोडची सेटिंग्ज"</string>
-    <!-- no translation found for hdr_brigtness_text (1912629316654528876) -->
-    <skip />
+    <string name="hdr_brigtness_text" msgid="1912629316654528876">"उच्च डायनॅमिक रेंज (HDR) इमेज आणि व्हिडिओमध्ये रंगाची रेंज आणि स्पष्टता आणखी ब्राइट करा व त्यांचा विस्तार करा. HDR आशय आणखी ब्राइट दिसेल."</string>
     <string name="screen_timeout" msgid="7709947617767439410">"स्क्रीन टाइमआउट"</string>
     <string name="screen_timeout_summary" msgid="5558778019594643427">"इनॅक्टिव्हिटीच्या <xliff:g id="TIMEOUT_DESCRIPTION">%1$s</xliff:g> नंतर"</string>
     <string name="screen_timeout_summary_not_set" msgid="5107680774964178875">"सेट केलेले नाही"</string>
@@ -2146,6 +2142,14 @@
     <string name="mouse_keys_seek_bar_increase_button_description" msgid="2721662400858172203">"वाढवा"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"स्क्रोलिंग उलट करा"</string>
     <string name="mouse_keys_use_primary_keys_title" msgid="525897583406210252">"प्राथमिक की वापरा"</string>
+    <!-- no translation found for mouse_keys_reset_button_label (513004295662247230) -->
+    <skip />
+    <!-- no translation found for mouse_keys_primary_keys_image_list_title (7470827693078490251) -->
+    <skip />
+    <!-- no translation found for mouse_keys_numpad_keys_image_list_title (6682341389811538017) -->
+    <skip />
+    <!-- no translation found for mouse_keys_numpad_keys_image_list_summary (2728318055237217919) -->
+    <skip />
     <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"पेज खाली हलवण्यासाठी वरती स्क्रोल करा"</string>
     <string name="mouse_scrolling_category_title" msgid="2992126595687187296">"स्क्रोल करणे"</string>
     <string name="mouse_scrolling_acceleration" msgid="7119758828203396430">"स्क्रोल करणे नियंत्रित केले आहे"</string>
@@ -3535,8 +3539,7 @@
     <string name="keywords_display_wallpaper" msgid="8478137541939526564">"पार्श्वभूमी, वैयक्तीकृत करा, कस्टम डिस्प्ले"</string>
     <string name="keywords_display_font_size" msgid="3593317215149813183">"मजकूर आकार"</string>
     <string name="keywords_display_cast_screen" msgid="2572331770299149370">"प्रोजेक्ट, कास्ट, स्क्रीन मिररिंग, स्क्रीन शेअरिंग, मिररिंग, शेअर स्क्रीन, स्क्रीन कास्टिंग"</string>
-    <!-- no translation found for keywords_display_hdr_brightness (2553194332263860092) -->
-    <skip />
+    <string name="keywords_display_hdr_brightness" msgid="2553194332263860092">"hdr, ब्राइटनेस, उच्च डायनॅमिक रेंज, ब्राइट करा, आणखी ब्राइट"</string>
     <string name="keywords_storage" msgid="3004667910133021783">"स्थान, डिस्क, हार्ड ड्राइव्ह, डिव्हाइस वापर"</string>
     <string name="keywords_battery" msgid="7040323668283600530">"पॉवर वापर, चार्ज"</string>
     <string name="keywords_battery_usage" msgid="1763573071014260220">"बॅटरीचा वापर पहा, बॅटरीचा वापर, पॉवरचा वापर"</string>
@@ -3658,6 +3661,14 @@
     <string name="emergency_tone_alert" msgid="1977698889522966589">"टोन"</string>
     <string name="emergency_tone_vibrate" msgid="6282296789406984698">"स्पंदने"</string>
     <string name="boot_sounds_title" msgid="5033062848948884111">"ध्वनी सुरू करा"</string>
+    <!-- no translation found for sound_patterns_category_title (4290495769747444271) -->
+    <skip />
+    <!-- no translation found for sound_audio_category_title (3445871661303518618) -->
+    <skip />
+    <!-- no translation found for system_sounds_and_vibrations_category_title (4162079598490981456) -->
+    <skip />
+    <!-- no translation found for work_profile_sound_category_title (1708926655170323454) -->
+    <skip />
     <string name="live_caption_title" msgid="8617086825712756983">"लाइव्ह कॅप्शन"</string>
     <string name="live_caption_summary" msgid="2898451867595161809">"मीडियाला आपोआप कॅप्शन द्या"</string>
     <string name="spatial_audio_wired_headphones" msgid="2237355789145828648">"वायर असलेले हेडफोन"</string>
@@ -3801,14 +3812,10 @@
     <string name="snooze_options_title" msgid="2109795569568344617">"नोटिफिकेशन स्नूझ करण्याची अनुमती द्या"</string>
     <string name="notification_badging_title" msgid="5469616894819568917">"ॲप आयकनवर नोटिफिकेशन बिंदू"</string>
     <string name="notification_bundles" msgid="496852738958148317">"नोटिफिकेशन आयोजक"</string>
-    <!-- no translation found for notification_bundle_promotions_summary (3196830882575438887) -->
-    <skip />
-    <!-- no translation found for notification_bundle_news_summary (2524877244105778120) -->
-    <skip />
-    <!-- no translation found for notification_bundle_social_summary (1880042768055317701) -->
-    <skip />
-    <!-- no translation found for notification_bundle_recs_summary (9200357300848343691) -->
-    <skip />
+    <string name="notification_bundle_promotions_summary" msgid="3196830882575438887">"विक्री, बातम्यांसंबंधित वैशिष्ट्ये आणि आणखी बरेच काही"</string>
+    <string name="notification_bundle_news_summary" msgid="2524877244105778120">"टॉप स्टोरी, संपादकीय आणि आणखी बरेच काही"</string>
+    <string name="notification_bundle_social_summary" msgid="1880042768055317701">"लाइक, पोस्ट आणि आणखी बरेच काही"</string>
+    <string name="notification_bundle_recs_summary" msgid="9200357300848343691">"बातमीपत्रक, शिफारस केलेला मीडिया आणि आणखी बरेच काही"</string>
     <string name="notification_ai_features_title" msgid="6497959797331796296">"AI द्वारे सक्षम केलेली नोटिफिकेशन"</string>
     <string name="notification_summarization_title" msgid="1516039882005781529">"नोटिफिकेशनचे सारांश"</string>
     <string name="notification_summarization_summary" msgid="1963425736716175590">"मोठ्या मेसेजचे झटपट रीकॅप मिळवा"</string>
@@ -3817,15 +3824,12 @@
     <string name="notification_summarization_excluded_description" msgid="5819160700526641394">"या अ‍ॅप्सच्या नोटिफिकेशनचा सारांश दिला जाणार नाही"</string>
     <string name="notification_summarization_manage_excluded_apps" msgid="1691177835156220384">"अ‍ॅप्स व्यवस्थापित करा"</string>
     <string name="notification_summarization_manage_excluded_apps_title" msgid="1299744594788208296">"अ‍ॅप्ससाठी नोटिफिकेशन सारांशांना अनुमती द्या"</string>
-    <!-- no translation found for notification_excluded_apps (317898848790046528) -->
-    <skip />
+    <string name="notification_excluded_apps" msgid="317898848790046528">"या अ‍ॅप्सचा समावेश करू नका"</string>
     <string name="notification_app_level_summarize_title" msgid="3829343457958246733">"नोटिफिकेशनचा सारांश द्या"</string>
     <string name="notification_app_level_summarize_subtext" msgid="7949649262631157728">"या ॲपवरील संभाषणाच्या नोटिफिकेशनचा सारांश द्या"</string>
     <string name="live_notifications" msgid="4650406646292963831">"लाइव्ह नोटिफिकेशन"</string>
-    <!-- no translation found for live_notifications_switch (7745275403210881110) -->
-    <skip />
-    <!-- no translation found for live_notifications_desc (6857161077319125625) -->
-    <skip />
+    <string name="live_notifications_switch" msgid="7745275403210881110">"लाइव्ह अपडेट"</string>
+    <string name="live_notifications_desc" msgid="6857161077319125625">"स्टेटस बार आणि लॉक स्क्रीनवर सुरू असलेली, वेळेनुसार संवेदनशील नोटिफिकेशन प्रदर्शित करा"</string>
     <string name="notification_bubbles_title" msgid="5681506665322329301">"बबल"</string>
     <string name="bubbles_app_toggle_title" msgid="5319021259954576150">"बबल"</string>
     <string name="bubbles_conversation_toggle_title" msgid="5225039214083311316">"हे संभाषण बबल करा"</string>
@@ -4901,6 +4905,10 @@
     <string name="autofill_confirmation_message" msgid="4888767934273494272">"&lt;b&gt;तुमचा या ॲपवर विश्वास असल्याची खात्री करा&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Google Autofill&gt;%1$s&lt;/xliff:g&gt; ऑटोफिल काय होऊ शकते हे ठरवण्यासाठी तुमच्या स्क्रीनवर काय आहे याचा वापर करते."</string>
     <string name="credman_autofill_confirmation_message" msgid="843829628024668466">"&lt;b&gt;&lt;xliff:g id=app_name example=Provider&gt;%1$s&lt;/xliff:g&gt;वापरायचे आहे का?&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; नवीन पासवर्ड, पासकी आणि इतर माहिती आता येथे सेव्ह केली जाईल. काय ऑटोफिल केले जाऊ शकते हे निर्धारित करण्यासाठी &lt;xliff:g id=app_name example=Provider&gt;%1$s&lt;/xliff:g&gt; हे तुमच्या स्क्रीनवर असलेल्या गोष्टी वापरू शकते."</string>
     <string name="credman_picker_title" msgid="8442086614222006564">"पासवर्ड, पासकी आणि ऑटोफिलसाठी प्राधान्य दिलेली सेवा"</string>
+    <!-- no translation found for credman_picker_title_new (4292105803864397398) -->
+    <skip />
+    <!-- no translation found for credman_picker_page_summary (4633938046738617332) -->
+    <skip />
     <string name="credman_confirmation_message_title" msgid="8847900085593880729">"%1$s बंद करायचे का?"</string>
     <string name="credman_confirmation_message" msgid="2357324543658635239">"&lt;b&gt;ही सेवा बंद करायची आहे का?&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; पासवर्ड, पासकी, पेमेंट पद्धती आणि इतर माहिती यांसारखी सेव्ह केलेली माहिती तुम्ही साइन इन करता, तेव्हा भरली जाणार नाही. तुमची सेव्ह केलेली माहिती वापरण्यासाठी, पासवर्ड, पासकी किंवा डेटा सेवा निवडा."</string>
     <string name="account_dashboard_title_with_passkeys" msgid="648242372086733541">"पासवर्ड, पासकी आणि खाती"</string>
@@ -5123,8 +5131,7 @@
     <string name="title_supported_service" msgid="4275535165812691571">"तुमचा फोन उपग्रहाशी जोडल्यानंतर"</string>
     <string name="title_supported_service_for_manual_type" msgid="6009284624466359864">"सॅटेलाइटशी कनेक्ट करण्यासाठी पायऱ्या फॉलो करा"</string>
     <string name="summary_supported_service" msgid="6380533552383355977">"तुम्ही कोणालाही एसएमएस पाठवू शकता आणि काही अ‍ॅप्सवर मर्यादित डेटा वापरू शकता आणीबाणी सेवांच्या समावेशासह. उपलब्ध असेल, तेव्हा तुमचा फोन मोबाइल नेटवर्कशी पुन्हा कनेक्ट होईल."</string>
-    <!-- no translation found for summary_supported_service_without_data_supported (179845377285866178) -->
-    <skip />
+    <string name="summary_supported_service_without_data_supported" msgid="179845377285866178">"आणीबाणी सेवांसह तुम्ही कोणालाही एसएमएस पाठवू शकता. उपलब्ध असेल, तेव्हा तुमचा फोन मोबाइल नेटवर्कशी पुन्हा कनेक्ट होईल."</string>
     <string name="summary_supported_service_for_manual_type" msgid="2147958362763058271">"तुमचा फोन कनेक्ट केल्यानंतर, तुम्ही आणीबाणी सेवांसोबतच इतर कोणालाही एसएमएस पाठवू शकता."</string>
     <string name="satellite_footer_content_section_0" msgid="4169483813004415556">"लक्षात ठेवा"</string>
     <string name="satellite_footer_content_section_1" msgid="7925931577373229601">"सॅटेलाइट कनेक्टिव्हिटीला जास्त वेळ लागू शकतो आणि ते फक्त काही भागांमध्ये उपलब्ध आहे."</string>
@@ -5399,10 +5406,8 @@
     <string name="media_controls_lockscreen_description" msgid="3320333660404439510">"प्लेबॅक पुन्हा झटपट सुरू करण्यासाठी, मीडिया प्लेअर लॉक स्क्रीनवर उघडलेला राहतो"</string>
     <string name="media_controls_hide_player" msgid="2751439192580884015">"प्‍लेअर लपवा"</string>
     <string name="media_controls_show_player" msgid="8504571042365814021">"प्‍लेअर दाखवा"</string>
-    <!-- no translation found for media_controls_suggestions_title (4089438765632340413) -->
-    <skip />
-    <!-- no translation found for media_controls_suggestions_description (5001121785028325037) -->
-    <skip />
+    <string name="media_controls_suggestions_title" msgid="4089438765632340413">"मीडियासंबंधित सूचना"</string>
+    <string name="media_controls_suggestions_description" msgid="5001121785028325037">"तुमच्या अ‍ॅक्टिव्हिटी आणि स्थानानुसार मीडिया अ‍ॅप्समधून मीडियासंबंधित सूचना द्या."</string>
     <string name="keywords_media_controls" msgid="8345490568291778638">"मीडिया"</string>
     <string name="camera_extensions_fallback_title" msgid="3604579046777004989">"कॅमेरा सॉफ्टवेअरच्या एक्स्टेंशनना अनुमती द्या"</string>
     <string name="camera_extensions_fallback_description" msgid="4306833827773277263">"HDR, नाइट किंवा इतर कॅमेरा एक्स्टेंशन यांसारख्या प्रगत कॅमेरा वैशिष्ट्यांच्या डीफॉल्ट सॉफ्टवेअरची अंमलबजावणी सुरू करते."</string>
@@ -5467,8 +5472,7 @@
     <string name="category_name_general" msgid="7737273712848115886">"साधारण"</string>
     <string name="dark_theme_main_switch_title" msgid="4045147031947562280">"गडद थीम वापरा"</string>
     <string name="bluetooth_main_switch_title" msgid="8409835540311309632">"ब्‍लूटूथ वापरा"</string>
-    <!-- no translation found for hdr_brightness_main_switch_title (1850974699921514297) -->
-    <skip />
+    <string name="hdr_brightness_main_switch_title" msgid="1850974699921514297">"वर्धित HDR ब्राइटनेस वापरा"</string>
     <string name="prevent_ringing_main_switch_title" msgid="4726252811262086643">"रिंग होण्यापासून थांबवणे वापरा"</string>
     <string name="use_wifi_hotsopt_main_switch_title" msgid="3909731167290690539">"वाय-फाय हॉटस्पॉट वापरणे"</string>
     <string name="app_pinning_main_switch_title" msgid="5465506660064032876">"ॲप पिनिंग वापरणे"</string>
@@ -5762,10 +5766,8 @@
     <string name="audio_streams_add_source_bad_code_state_summary" msgid="6527086906921868757">"पासवर्ड तपासा आणि पुन्‍हा प्रयत्न करा"</string>
     <string name="audio_streams_add_source_failed_state_summary" msgid="3937546443978562322">"कनेक्ट करू शकत नाही. पुन्हा प्रयत्न करा."</string>
     <string name="audio_streams_connecting_summary" msgid="7237827765572331702">"कनेक्ट करत आहे…"</string>
-    <!-- no translation found for audio_streams_dialog_failed_to_join (4942840673393552978) -->
-    <skip />
-    <!-- no translation found for audio_streams_dialog_failed_to_join_detail (1498719800517594252) -->
-    <skip />
+    <string name="audio_streams_dialog_failed_to_join" msgid="4942840673393552978">"ऑडिओ स्ट्रीममध्ये सामील होता आले नाही"</string>
+    <string name="audio_streams_dialog_failed_to_join_detail" msgid="1498719800517594252">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> ला ऑडिओ स्ट्रीमशी कनेक्ट करता आले नाही"</string>
     <string name="audio_streams_dialog_stream_is_not_available" msgid="4032878851270690546">"ऑडिओ स्ट्रीम उपलब्ध नाही"</string>
     <string name="audio_streams_is_not_playing" msgid="8480293894696007941">"हे ऑडिओ स्ट्रीम आता काहीही प्ले करत नाही"</string>
     <string name="audio_streams_dialog_close" msgid="8177201719298408431">"बंद करा"</string>
@@ -5842,28 +5844,20 @@
     <string name="supervision_verify_pin_recovery_title" msgid="3166602415814821497">"तुमच्या ईमेलची पडताळणी करा"</string>
     <string name="supervision_web_content_filters_title" msgid="3653430162065686156">"वेब आशय फिल्टर"</string>
     <string name="supervision_web_content_filters_browser_title" msgid="8737341514264129889">"वेबसाइट"</string>
-    <string name="supervision_web_content_filters_browser_block_explicit_sites_title" msgid="1786398287521485576">"भडक वेब आशय ब्लॉक करा"</string>
-    <string name="supervision_web_content_filters_browser_block_explicit_sites_summary" msgid="1427357961145247788">"या डिव्हाइसवरील ब्राउझरसाठी"</string>
-    <string name="supervision_web_content_filters_browser_allow_all_sites_title" msgid="3909739592466381845">"सर्व साइटना अनुमती द्या"</string>
+    <!-- no translation found for supervision_web_content_filters_browser_filter_title (7957976669412075070) -->
+    <skip />
     <string name="supervision_web_content_filters_search_title" msgid="8608480392956106029">"शोध परिणाम"</string>
-    <string name="supervision_web_content_filters_search_filter_on_title" msgid="1136440775294190806">"भडक शोध परिणाम ब्लॉक करा"</string>
-    <string name="supervision_web_content_filters_search_filter_on_summary" msgid="6797184284369033101">"या डिव्हाइसवरील शोध इंजीनसाठी"</string>
-    <string name="supervision_web_content_filters_search_filter_off_title" msgid="7171966260908166395">"फिल्टर बंद आहे"</string>
+    <!-- no translation found for supervision_web_content_filters_search_filter_title (4212134055017429017) -->
+    <skip />
     <string name="supervision_full_screen_pin_verification_title" msgid="78513043528333399">"पर्यवेक्षण पिन एंटर करा"</string>
     <string name="supervision_choose_your_pin_header" msgid="3872062168986738629">"पालक नियंत्रणे पिन सेट करा"</string>
     <string name="supervision_confirm_your_pin_header" msgid="8236956712482718354">"पिन कन्फर्म करा"</string>
     <string name="supervision_pin_reset_success_toast" msgid="9163550161698311831">"पिन अपडेट केला"</string>
-    <!-- no translation found for supervision_delete_pin_confirm_header (8499276643990949268) -->
-    <skip />
-    <!-- no translation found for supervision_delete_pin_confirm_message (5482080400973042178) -->
-    <skip />
-    <!-- no translation found for supervision_delete_pin_supervision_enabled_header (2072311894107038402) -->
-    <skip />
-    <!-- no translation found for supervision_delete_pin_supervision_enabled_message (5643922966568203196) -->
-    <skip />
-    <!-- no translation found for supervision_delete_pin_error_header (1271034883245391839) -->
-    <skip />
-    <!-- no translation found for supervision_delete_pin_error_message (3400536232973539259) -->
-    <skip />
+    <string name="supervision_delete_pin_confirm_header" msgid="8499276643990949268">"पिन हटवायचा आहे का?"</string>
+    <string name="supervision_delete_pin_confirm_message" msgid="5482080400973042178">"यामुळे या डिव्हाइसवरील सर्व वापरकर्त्यांसाठी तुमचा सध्याचा पिन हटवला जाईल आणि तुम्ही सेट केलेली नियंत्रणे बंद केली जातील. ही कृती पहिल्यासारखी केली जाऊ शकत नाही."</string>
+    <string name="supervision_delete_pin_supervision_enabled_header" msgid="2072311894107038402">"सर्वप्रथम इतर प्रोफाइलवरील नियंत्रणे थांबवा"</string>
+    <string name="supervision_delete_pin_supervision_enabled_message" msgid="5643922966568203196">"हा पिन हटवून पर्यवेक्षण सेटिंग्ज रीसेट करण्यासाठी, कृपया इतर सर्व प्रोफाइलवरील नियंत्रणे थांबवा."</string>
+    <string name="supervision_delete_pin_error_header" msgid="1271034883245391839">"पिन हटवता येणार नाही"</string>
+    <string name="supervision_delete_pin_error_message" msgid="3400536232973539259">"पिन हटवण्याचा प्रयत्न करताना एरर आली."</string>
     <string name="accessibility_illustration_content_description" msgid="557376174860150903">"<xliff:g id="FEATURE">%1$s</xliff:g> अ‍ॅनिमेशन"</string>
 </resources>

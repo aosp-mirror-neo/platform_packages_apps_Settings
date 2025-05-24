@@ -21,6 +21,8 @@
     <string name="create" msgid="986997212165228751">"உருவாக்கு"</string>
     <string name="allow" msgid="3763244945363657722">"அனுமதி"</string>
     <string name="deny" msgid="7326117222944479942">"நிராகரி"</string>
+    <!-- no translation found for edit (8128799559456697510) -->
+    <skip />
     <string name="confirmation_turn_on" msgid="2979094011928347665">"ஆன் செய்"</string>
     <string name="device_info_default" msgid="1406619232867343310">"தெரியவில்லை"</string>
     <string name="device_info_protected_single_press" msgid="3810785480060743677">"தகவல்களைக் காட்ட தட்டவும்"</string>
@@ -1362,16 +1364,11 @@
     <string name="auto_brightness_description" msgid="6807117118142381193">"நீங்கள் இருக்கும் சூழலுக்கும், செய்யும் வேலைகளுக்கும் ஏற்றவாறு, தானாகவே உங்களின் திரை ஒளிர்வு கூடும், குறையும். நீங்கள் எவ்வளவு வெளிச்சத்தை விரும்புகிறீர்கள் என்பதைச் சூழலுக்கேற்ற ஒளிர்வு தெரிந்துகொள்ள, ஸ்லைடரை நீங்கள் நகர்த்தலாம்."</string>
     <string name="auto_brightness_summary_on" msgid="2748088951224387004">"ஆன்"</string>
     <string name="auto_brightness_summary_off" msgid="8077066192887677956">"ஆஃப்"</string>
-    <!-- no translation found for hdr_brightness_title (6997980740096282616) -->
-    <skip />
-    <!-- no translation found for hdr_brightness_level_title (770342878327164738) -->
-    <skip />
-    <!-- no translation found for hdr_brightness_standard_image_label (8262353134660098785) -->
-    <skip />
-    <!-- no translation found for hdr_brightness_hdr_image_label (8068442758910393158) -->
-    <skip />
-    <!-- no translation found for hdr_brightness_warning (2755151579539607928) -->
-    <skip />
+    <string name="hdr_brightness_title" msgid="6997980740096282616">"மேம்பட்ட HDR ஒளிர்வு"</string>
+    <string name="hdr_brightness_level_title" msgid="770342878327164738">"ஒளிச்செறிவு"</string>
+    <string name="hdr_brightness_standard_image_label" msgid="8262353134660098785">"நிலையான படம்"</string>
+    <string name="hdr_brightness_hdr_image_label" msgid="8068442758910393158">"HDR படம்"</string>
+    <string name="hdr_brightness_warning" msgid="2755151579539607928">"ஹை டைனமிக் ரேஞ்சை (HDR) ஆதரிக்கும் படங்களையும் வீடியோக்களையும் மட்டுமே இந்த அமைப்பு பாதிக்கும்."</string>
     <string name="display_white_balance_title" msgid="2624544323029364713">"வெண் சமநிலையை காட்சிப்படுத்தல்"</string>
     <string name="display_white_balance_summary" msgid="7625456704950209050"></string>
     <string name="fold_lock_behavior_title" msgid="786228803694268449">"மடக்கிய நிலையிலேயே தொடர்ந்து ஆப்ஸைப் பயன்படுத்துதல்"</string>
@@ -1441,8 +1438,7 @@
     <string name="dark_ui_bedtime_footer_action" msgid="1493095487994054339">"உறக்கநேரப் பயன்முறை அமைப்புகள்"</string>
     <string name="dark_ui_modes_footer_summary" msgid="1041117250408363391">"{count,plural,offset:2 =0{பயன்முறைகள் டார்க் தீமையும் இயக்கலாம்}=1{{mode_1} டார்க் தீமையும் இயக்கும்}=2{{mode_1}, {mode_2} ஆகியவை டார்க் தீமையும் இயக்கும்}=3{{mode_1}, {mode_2}, {mode_3} ஆகியவை டார்க் தீமையும் இயக்கும்}other{{mode_1}, {mode_2} மற்றும் # பயன்முறைகள் டார்க் தீமையும் இயக்கும்}}"</string>
     <string name="dark_ui_modes_footer_action" msgid="80671811848446248">"பயன்முறைகளுக்கான அமைப்புகள்"</string>
-    <!-- no translation found for hdr_brigtness_text (1912629316654528876) -->
-    <skip />
+    <string name="hdr_brigtness_text" msgid="1912629316654528876">"ஹை டைனமிக் ரேஞ்ச் (HDR) படங்களிலும் வீடியோக்களிலும் வண்ண அளவு மற்றும் தெளிவுத்தன்மையை அதிகரியுங்கள். HDR உள்ளடக்கம் பிரகாசமாகத் தெரியும்."</string>
     <string name="screen_timeout" msgid="7709947617767439410">"திரை அணைவு நேரம்"</string>
     <string name="screen_timeout_summary" msgid="5558778019594643427">"<xliff:g id="TIMEOUT_DESCRIPTION">%1$s</xliff:g> செயல்படாமல் இருப்பின்"</string>
     <string name="screen_timeout_summary_not_set" msgid="5107680774964178875">"அமைக்கப்படவில்லை"</string>
@@ -2146,6 +2142,14 @@
     <string name="mouse_keys_seek_bar_increase_button_description" msgid="2721662400858172203">"அதிகரிக்கும்"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"ரிவர்ஸ் ஸ்க்ரோலிங்"</string>
     <string name="mouse_keys_use_primary_keys_title" msgid="525897583406210252">"முதன்மை பட்டன்களைப் பயன்படுத்துதல்"</string>
+    <!-- no translation found for mouse_keys_reset_button_label (513004295662247230) -->
+    <skip />
+    <!-- no translation found for mouse_keys_primary_keys_image_list_title (7470827693078490251) -->
+    <skip />
+    <!-- no translation found for mouse_keys_numpad_keys_image_list_title (6682341389811538017) -->
+    <skip />
+    <!-- no translation found for mouse_keys_numpad_keys_image_list_summary (2728318055237217919) -->
+    <skip />
     <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"பக்கத்தை மேலிருந்து கீழே நகர்த்த மவுஸை முன்னோக்கி ஸ்க்ரோல் செய்யலாம்"</string>
     <string name="mouse_scrolling_category_title" msgid="2992126595687187296">"ஸ்க்ரோலிங்"</string>
     <string name="mouse_scrolling_acceleration" msgid="7119758828203396430">"கட்டுப்படுத்தப்பட்ட ஸ்க்ரோலிங்"</string>
@@ -3535,8 +3539,7 @@
     <string name="keywords_display_wallpaper" msgid="8478137541939526564">"பின்னணி, தனிப்படுத்து, பிரத்தியேகமாக்கு திரை"</string>
     <string name="keywords_display_font_size" msgid="3593317215149813183">"உரை அளவு"</string>
     <string name="keywords_display_cast_screen" msgid="2572331770299149370">"திரையில் காட்டு, அலைபரப்பு, திரையை மிரரிங் செய், திரையைக் காட்டு, திரையைப் பகிர், திரைப் பகிர்தல், மிரரிங், திரையை அலைபரப்பு, திரை அலைபரப்புதல்"</string>
-    <!-- no translation found for keywords_display_hdr_brightness (2553194332263860092) -->
-    <skip />
+    <string name="keywords_display_hdr_brightness" msgid="2553194332263860092">"hdr, ஒளிர்வு, ஹை டைனமிக் ரேஞ்ச், பிரகாசம், அதிகப் பிரகாசம்"</string>
     <string name="keywords_storage" msgid="3004667910133021783">"இடம், டிஸ்க், ஹார்டு டிரைவ், சாதனப் பயன்பாடு"</string>
     <string name="keywords_battery" msgid="7040323668283600530">"பவர் பயன்பாடு, சார்ஜ்"</string>
     <string name="keywords_battery_usage" msgid="1763573071014260220">"பேட்டரி உபயோகத்தைக் காட்டு, பேட்டரி உபயோகம், பவர் உபயோகம்"</string>
@@ -3658,6 +3661,14 @@
     <string name="emergency_tone_alert" msgid="1977698889522966589">"டோன்கள்"</string>
     <string name="emergency_tone_vibrate" msgid="6282296789406984698">"அதிர்வுகள்"</string>
     <string name="boot_sounds_title" msgid="5033062848948884111">"ஒலிகளை இயக்கு"</string>
+    <!-- no translation found for sound_patterns_category_title (4290495769747444271) -->
+    <skip />
+    <!-- no translation found for sound_audio_category_title (3445871661303518618) -->
+    <skip />
+    <!-- no translation found for system_sounds_and_vibrations_category_title (4162079598490981456) -->
+    <skip />
+    <!-- no translation found for work_profile_sound_category_title (1708926655170323454) -->
+    <skip />
     <string name="live_caption_title" msgid="8617086825712756983">"உடனடி வசனம்"</string>
     <string name="live_caption_summary" msgid="2898451867595161809">"வசனங்களைத் தானாகக் காட்டும்"</string>
     <string name="spatial_audio_wired_headphones" msgid="2237355789145828648">"வயருள்ள ஹெட்ஃபோன்கள்"</string>
@@ -3801,14 +3812,10 @@
     <string name="snooze_options_title" msgid="2109795569568344617">"அறிவிப்புகளை ஸ்னூஸ் செய்ய அனுமதி"</string>
     <string name="notification_badging_title" msgid="5469616894819568917">"ஆப்ஸ் ஐகானில் அறிவிப்பு புள்ளி"</string>
     <string name="notification_bundles" msgid="496852738958148317">"அறிவிப்பு ஒருங்கிணைப்பாளர்"</string>
-    <!-- no translation found for notification_bundle_promotions_summary (3196830882575438887) -->
-    <skip />
-    <!-- no translation found for notification_bundle_news_summary (2524877244105778120) -->
-    <skip />
-    <!-- no translation found for notification_bundle_social_summary (1880042768055317701) -->
-    <skip />
-    <!-- no translation found for notification_bundle_recs_summary (9200357300848343691) -->
-    <skip />
+    <string name="notification_bundle_promotions_summary" msgid="3196830882575438887">"விற்பனை, புதிய அம்சங்கள் மற்றும் பல"</string>
+    <string name="notification_bundle_news_summary" msgid="2524877244105778120">"டாப் கதைகள், சிறப்புக் கட்டுரைகள் மற்றும் பல"</string>
+    <string name="notification_bundle_social_summary" msgid="1880042768055317701">"விருப்பங்கள், பதிவுகள் மற்றும் பல"</string>
+    <string name="notification_bundle_recs_summary" msgid="9200357300848343691">"செய்திமடல்கள், பரிந்துரைக்கப்படும் மீடியா மற்றும் பல"</string>
     <string name="notification_ai_features_title" msgid="6497959797331796296">"AI-திறனுள்ள அறிவிப்புகள்"</string>
     <string name="notification_summarization_title" msgid="1516039882005781529">"அறிவிப்பின் சுருக்க விவரங்கள்"</string>
     <string name="notification_summarization_summary" msgid="1963425736716175590">"பெரிய மெசேஜ்களுக்கான விரைவு ரீகேப்களைப் பெறலாம்"</string>
@@ -3817,15 +3824,12 @@
     <string name="notification_summarization_excluded_description" msgid="5819160700526641394">"இந்த ஆப்ஸிலிருந்து வரும் அறிவிப்புகள் சுருக்கப்படாது"</string>
     <string name="notification_summarization_manage_excluded_apps" msgid="1691177835156220384">"ஆப்ஸை நிர்வகித்தல்"</string>
     <string name="notification_summarization_manage_excluded_apps_title" msgid="1299744594788208296">"ஆப்ஸுக்கான அறிவிப்புச் சுருக்க விவரங்களை அனுமதித்தல்"</string>
-    <!-- no translation found for notification_excluded_apps (317898848790046528) -->
-    <skip />
+    <string name="notification_excluded_apps" msgid="317898848790046528">"இந்த ஆப்ஸைச் சேர்க்காதே"</string>
     <string name="notification_app_level_summarize_title" msgid="3829343457958246733">"அறிவிப்புகளுக்கான சுருக்க விவரத்தைப் பெறுதல்"</string>
     <string name="notification_app_level_summarize_subtext" msgid="7949649262631157728">"இந்த ஆப்ஸிலிருந்து வரும் உரையாடல் அறிவிப்புகளுக்கான சுருக்க விவரத்தைப் பெறலாம்"</string>
     <string name="live_notifications" msgid="4650406646292963831">"நேரலை அறிவிப்புகள்"</string>
-    <!-- no translation found for live_notifications_switch (7745275403210881110) -->
-    <skip />
-    <!-- no translation found for live_notifications_desc (6857161077319125625) -->
-    <skip />
+    <string name="live_notifications_switch" msgid="7745275403210881110">"நேரலை அறிவிப்புகள்"</string>
+    <string name="live_notifications_desc" msgid="6857161077319125625">"நிலைப் பட்டியிலும் பூட்டுத் திரையிலும் தற்போதைய, அதிமுக்கிய அறிவிப்புகளைக் காட்டும்"</string>
     <string name="notification_bubbles_title" msgid="5681506665322329301">"குமிழ்கள்"</string>
     <string name="bubbles_app_toggle_title" msgid="5319021259954576150">"குமிழ்கள்"</string>
     <string name="bubbles_conversation_toggle_title" msgid="5225039214083311316">"இந்த உரையாடலைக் குமிழாக்கு"</string>
@@ -4901,6 +4905,10 @@
     <string name="autofill_confirmation_message" msgid="4888767934273494272">"&lt;b&gt;இந்த ஆப்ஸை நம்புகிறீர்கள் என்பதை உறுதிப்படுத்திக்கொள்ளவும்&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Google Autofill&gt;%1$s&lt;/xliff:g&gt; உங்கள் திரையில் இருப்பதைப் பயன்படுத்தி, எவற்றையெல்லாம் தன்னிரப்ப முடியும் என்பதைத் தீர்மானிக்கும்."</string>
     <string name="credman_autofill_confirmation_message" msgid="843829628024668466">"&lt;b&gt;&lt;xliff:g id=app_name example=Provider&gt;%1$s&lt;/xliff:g&gt; ஆப்ஸைப் பயன்படுத்த வேண்டுமா?&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; இனி புதிய கடவுச்சொற்கள், கடவுச்சாவிகள் மற்றும் பிற தகவல்கள் இங்கே சேமிக்கப்படும். எவற்றைத் தானாக நிரப்ப முடியும் என்பதைத் தீர்மானிக்க &lt;xliff:g id=app_name example=Provider&gt;%1$s&lt;/xliff:g&gt; உங்கள் திரையில் உள்ளவற்றைப் பயன்படுத்தக்கூடும்."</string>
     <string name="credman_picker_title" msgid="8442086614222006564">"கடவுச்சொற்கள், கடவுச்சாவிகள் &amp; தன்னிரப்பிக்கான விருப்பச் சேவை"</string>
+    <!-- no translation found for credman_picker_title_new (4292105803864397398) -->
+    <skip />
+    <!-- no translation found for credman_picker_page_summary (4633938046738617332) -->
+    <skip />
     <string name="credman_confirmation_message_title" msgid="8847900085593880729">"%1$s ஐ முடக்கவா?"</string>
     <string name="credman_confirmation_message" msgid="2357324543658635239">"&lt;b&gt;இந்தச் சேவையை முடக்கவா?&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; கடவுச்சொற்கள், கடவுச்சாவிகள், பேமெண்ட் முறைகள் போன்ற சேமிக்கப்பட்ட தகவல்களும் பிற தகவல்களும் நீங்கள் உள்நுழையும்போது நிரப்பப்படாது. உங்கள் சேமிக்கப்பட்ட தகவல்களைப் பயன்படுத்த ஒரு கடவுச்சொல், கடவுச்சாவி அல்லது தரவுச் சேவையைத் தேர்ந்தெடுங்கள்."</string>
     <string name="account_dashboard_title_with_passkeys" msgid="648242372086733541">"கடவுச்சொற்கள், கடவுச்சாவிகள், கணக்குகள்"</string>
@@ -5123,8 +5131,7 @@
     <string name="title_supported_service" msgid="4275535165812691571">"சாட்டிலைட்டுடன் மொபைல் இணைக்கப்பட்ட பிறகு"</string>
     <string name="title_supported_service_for_manual_type" msgid="6009284624466359864">"சாட்டிலைட்டுடன் இணைப்பதற்கான படிகளைப் பின்பற்றுங்கள்"</string>
     <string name="summary_supported_service" msgid="6380533552383355977">"அவசரகாலச் சேவைகள் உட்பட எவருக்கும் நீங்கள் மெச்செஜ் அனுப்பலாம். மேலும் சில ஆப்ஸில் வரம்பிடப்பட்ட டேட்டாவைப் பயன்படுத்தலாம். மொபைல் நெட்வொர்க் கிடைக்கும்போது மீண்டும் உங்கள் மொபைல் அதனுடன் இணையும்."</string>
-    <!-- no translation found for summary_supported_service_without_data_supported (179845377285866178) -->
-    <skip />
+    <string name="summary_supported_service_without_data_supported" msgid="179845377285866178">"அவசரகாலச் சேவைகள் உட்பட யாருக்கு வேண்டுமானாலும் நீங்கள் மெசேஜ் அனுப்பலாம். மொபைல் நெட்வொர்க் கிடைக்கும்போது உங்கள் மொபைல் அதனுடன் மீண்டும் இணைக்கப்படும்."</string>
     <string name="summary_supported_service_for_manual_type" msgid="2147958362763058271">"உங்கள் மொபைல் இணைக்கப்பட்டதும், அவசரகாலச் சேவைகள் உட்பட யாருக்கு வேண்டுமானாலும் நீங்கள் மெசேஜ் அனுப்பலாம்."</string>
     <string name="satellite_footer_content_section_0" msgid="4169483813004415556">"நினைவில்கொள்ள வேண்டியவை"</string>
     <string name="satellite_footer_content_section_1" msgid="7925931577373229601">"சாட்டிலைட் இணைப்புநிலைக்கு அதிக நேரம் ஆகலாம், சில பகுதிகளில் மட்டுமே இந்தச் சேவை கிடைக்கும்."</string>
@@ -5399,10 +5406,8 @@
     <string name="media_controls_lockscreen_description" msgid="3320333660404439510">"பிளேபேக்கை விரைவாகத் தொடங்க, பூட்டுத் திரையில் மீடியா பிளேயரைத் திறந்து வைத்திருக்கும்"</string>
     <string name="media_controls_hide_player" msgid="2751439192580884015">"பிளேயர் மறை"</string>
     <string name="media_controls_show_player" msgid="8504571042365814021">"பிளேயரைக் காட்டும்"</string>
-    <!-- no translation found for media_controls_suggestions_title (4089438765632340413) -->
-    <skip />
-    <!-- no translation found for media_controls_suggestions_description (5001121785028325037) -->
-    <skip />
+    <string name="media_controls_suggestions_title" msgid="4089438765632340413">"மீடியா பரிந்துரைகள்"</string>
+    <string name="media_controls_suggestions_description" msgid="5001121785028325037">"உங்கள் செயல்பாடு, இருப்பிடம் ஆகியவற்றின் அடிப்படையில் மீடியா ஆப்ஸிலிருந்து மீடியா பரிந்துரைகளை வழங்கும்."</string>
     <string name="keywords_media_controls" msgid="8345490568291778638">"மீடியா"</string>
     <string name="camera_extensions_fallback_title" msgid="3604579046777004989">"கேமரா மென்பொருள் நீட்டிப்புகளை அனுமதித்தல்"</string>
     <string name="camera_extensions_fallback_description" msgid="4306833827773277263">"HDR, இரவுப் பயன்முறை, பிற கேமரா நீட்டிப்புகள் போன்ற மேம்பட்ட கேமரா அம்சங்களின் இயல்புநிலை மென்பொருள் செயலாக்கத்தை இயக்கும்."</string>
@@ -5467,8 +5472,7 @@
     <string name="category_name_general" msgid="7737273712848115886">"பொதுவானவை"</string>
     <string name="dark_theme_main_switch_title" msgid="4045147031947562280">"டார்க் தீமைப் பயன்படுத்துதல்"</string>
     <string name="bluetooth_main_switch_title" msgid="8409835540311309632">"புளூடூத்தைப் பயன்படுத்துதல்"</string>
-    <!-- no translation found for hdr_brightness_main_switch_title (1850974699921514297) -->
-    <skip />
+    <string name="hdr_brightness_main_switch_title" msgid="1850974699921514297">"மேம்பட்ட HDR ஒளிர்வைப் பயன்படுத்துதல்"</string>
     <string name="prevent_ringing_main_switch_title" msgid="4726252811262086643">"ஒலிக்காமல் தடுக்கும் அம்சத்தைப் பயன்படுத்துதல்"</string>
     <string name="use_wifi_hotsopt_main_switch_title" msgid="3909731167290690539">"வைஃபை ஹாட்ஸ்பாட்டைப் பயன்படுத்துதல்"</string>
     <string name="app_pinning_main_switch_title" msgid="5465506660064032876">"ஆப்ஸைப் பின் செய்தல் அம்சத்தைப் பயன்படுத்துதல்"</string>
@@ -5762,10 +5766,8 @@
     <string name="audio_streams_add_source_bad_code_state_summary" msgid="6527086906921868757">"கடவுச்சொல்லைச் சரிபார்த்து மீண்டும் முயலவும்"</string>
     <string name="audio_streams_add_source_failed_state_summary" msgid="3937546443978562322">"இணைக்க முடியவில்லை. மீண்டும் முயலவும்."</string>
     <string name="audio_streams_connecting_summary" msgid="7237827765572331702">"இணைக்கிறது…"</string>
-    <!-- no translation found for audio_streams_dialog_failed_to_join (4942840673393552978) -->
-    <skip />
-    <!-- no translation found for audio_streams_dialog_failed_to_join_detail (1498719800517594252) -->
-    <skip />
+    <string name="audio_streams_dialog_failed_to_join" msgid="4942840673393552978">"ஆடியோ ஸ்ட்ரீமில் சேர முடியவில்லை"</string>
+    <string name="audio_streams_dialog_failed_to_join_detail" msgid="1498719800517594252">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> சாதனத்தை ஆடியோ ஸ்ட்ரீமுடன் இணைக்க முடியவில்லை"</string>
     <string name="audio_streams_dialog_stream_is_not_available" msgid="4032878851270690546">"ஆடியோ ஸ்ட்ரீம் கிடைக்கவில்லை"</string>
     <string name="audio_streams_is_not_playing" msgid="8480293894696007941">"தற்போது இந்த ஆடியோ ஸ்ட்ரீம் எதையும் பிளே செய்யவில்லை"</string>
     <string name="audio_streams_dialog_close" msgid="8177201719298408431">"மூடு"</string>
@@ -5842,28 +5844,20 @@
     <string name="supervision_verify_pin_recovery_title" msgid="3166602415814821497">"மின்னஞ்சல் முகவரியை உறுதிப்படுத்துங்கள்"</string>
     <string name="supervision_web_content_filters_title" msgid="3653430162065686156">"இணைய உள்ளடக்க வடிப்பான்கள்"</string>
     <string name="supervision_web_content_filters_browser_title" msgid="8737341514264129889">"இணையதளங்கள்"</string>
-    <string name="supervision_web_content_filters_browser_block_explicit_sites_title" msgid="1786398287521485576">"வெளிப்படையான இணைய உள்ளடக்கத்தைத் தடுத்தல்"</string>
-    <string name="supervision_web_content_filters_browser_block_explicit_sites_summary" msgid="1427357961145247788">"இந்தச் சாதனத்தில் உள்ள பிரவுசர்களுக்கு"</string>
-    <string name="supervision_web_content_filters_browser_allow_all_sites_title" msgid="3909739592466381845">"எல்லாத் தளங்களையும் அனுமதித்தல்"</string>
+    <!-- no translation found for supervision_web_content_filters_browser_filter_title (7957976669412075070) -->
+    <skip />
     <string name="supervision_web_content_filters_search_title" msgid="8608480392956106029">"தேடல் முடிவுகள்"</string>
-    <string name="supervision_web_content_filters_search_filter_on_title" msgid="1136440775294190806">"வெளிப்படையான தேடல் முடிவைத் தடுத்தல்"</string>
-    <string name="supervision_web_content_filters_search_filter_on_summary" msgid="6797184284369033101">"இந்தச் சாதனத்தில் உள்ள தேடல் இன்ஜின்களுக்கு"</string>
-    <string name="supervision_web_content_filters_search_filter_off_title" msgid="7171966260908166395">"ஃபில்டரை ஆஃப் செய்தல்"</string>
+    <!-- no translation found for supervision_web_content_filters_search_filter_title (4212134055017429017) -->
+    <skip />
     <string name="supervision_full_screen_pin_verification_title" msgid="78513043528333399">"கண்காணிப்புப் பின்னை (PIN) உள்ளிடுங்கள்"</string>
     <string name="supervision_choose_your_pin_header" msgid="3872062168986738629">"பெற்றோர் கட்டுப்பாடுகளுக்கான பின்னை அமைத்தல்"</string>
     <string name="supervision_confirm_your_pin_header" msgid="8236956712482718354">"பின்னை உறுதிப்படுத்துதல்"</string>
     <string name="supervision_pin_reset_success_toast" msgid="9163550161698311831">"பின் மாற்றப்பட்டது"</string>
-    <!-- no translation found for supervision_delete_pin_confirm_header (8499276643990949268) -->
-    <skip />
-    <!-- no translation found for supervision_delete_pin_confirm_message (5482080400973042178) -->
-    <skip />
-    <!-- no translation found for supervision_delete_pin_supervision_enabled_header (2072311894107038402) -->
-    <skip />
-    <!-- no translation found for supervision_delete_pin_supervision_enabled_message (5643922966568203196) -->
-    <skip />
-    <!-- no translation found for supervision_delete_pin_error_header (1271034883245391839) -->
-    <skip />
-    <!-- no translation found for supervision_delete_pin_error_message (3400536232973539259) -->
-    <skip />
+    <string name="supervision_delete_pin_confirm_header" msgid="8499276643990949268">"பின்னை நீக்கவா?"</string>
+    <string name="supervision_delete_pin_confirm_message" msgid="5482080400973042178">"இது இந்தச் சாதனத்தைப் பயன்படுத்தும் அனைத்துப் பயனர்களுக்கும் உங்களின் தற்போதைய பின்னை நீக்கி, நீங்கள் அமைத்துள்ள கட்டுப்பாடுகளை முடக்கும். இதைச் செயல்தவிர்க்க முடியாது."</string>
+    <string name="supervision_delete_pin_supervision_enabled_header" msgid="2072311894107038402">"முதலில் வேறு சுயவிவரங்களில் உள்ள கட்டுப்பாடுகளை இடைநிறுத்துங்கள்"</string>
+    <string name="supervision_delete_pin_supervision_enabled_message" msgid="5643922966568203196">"இந்தப் பின்னை நீக்கி, கண்காணித்தல் அமைப்புகளை ரீசெட் செய்வதைத் தொடர, வேறு சுயவிவரங்கள் அனைத்திலும் உள்ள கட்டுப்பாடுகளை இடைநிறுத்துங்கள்."</string>
+    <string name="supervision_delete_pin_error_header" msgid="1271034883245391839">"பின்னை நீக்க முடியவில்லை"</string>
+    <string name="supervision_delete_pin_error_message" msgid="3400536232973539259">"பின்னை நீக்க முயலும்போது பிழை ஏற்பட்டது."</string>
     <string name="accessibility_illustration_content_description" msgid="557376174860150903">"<xliff:g id="FEATURE">%1$s</xliff:g> அனிமேஷன்"</string>
 </resources>

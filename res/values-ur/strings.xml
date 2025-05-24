@@ -21,6 +21,8 @@
     <string name="create" msgid="986997212165228751">"بنائیں"</string>
     <string name="allow" msgid="3763244945363657722">"اجازت دیں"</string>
     <string name="deny" msgid="7326117222944479942">"مسترد کریں"</string>
+    <!-- no translation found for edit (8128799559456697510) -->
+    <skip />
     <string name="confirmation_turn_on" msgid="2979094011928347665">"آن کریں"</string>
     <string name="device_info_default" msgid="1406619232867343310">"نامعلوم"</string>
     <string name="device_info_protected_single_press" msgid="3810785480060743677">"معلومات دکھانے کے لیے تھپتھپائیں"</string>
@@ -2142,6 +2144,14 @@
     <string name="mouse_keys_seek_bar_increase_button_description" msgid="2721662400858172203">"بڑھائیں"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"ریورس اسکرولنگ"</string>
     <string name="mouse_keys_use_primary_keys_title" msgid="525897583406210252">"بنیادی کلیدیں استعمال کریں"</string>
+    <!-- no translation found for mouse_keys_reset_button_label (513004295662247230) -->
+    <skip />
+    <!-- no translation found for mouse_keys_primary_keys_image_list_title (7470827693078490251) -->
+    <skip />
+    <!-- no translation found for mouse_keys_numpad_keys_image_list_title (6682341389811538017) -->
+    <skip />
+    <!-- no translation found for mouse_keys_numpad_keys_image_list_summary (2728318055237217919) -->
+    <skip />
     <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"صفحہ کو نیچے منتقل کرنے کے لیے اوپر اسکرول کریں"</string>
     <string name="mouse_scrolling_category_title" msgid="2992126595687187296">"اسکرولنگ"</string>
     <string name="mouse_scrolling_acceleration" msgid="7119758828203396430">"ماؤس کے زیر کنٹرول سکرولنگ"</string>
@@ -3653,6 +3663,14 @@
     <string name="emergency_tone_alert" msgid="1977698889522966589">"ٹونز"</string>
     <string name="emergency_tone_vibrate" msgid="6282296789406984698">"وائبریشنز"</string>
     <string name="boot_sounds_title" msgid="5033062848948884111">"آوازیں آن کریں"</string>
+    <!-- no translation found for sound_patterns_category_title (4290495769747444271) -->
+    <skip />
+    <!-- no translation found for sound_audio_category_title (3445871661303518618) -->
+    <skip />
+    <!-- no translation found for system_sounds_and_vibrations_category_title (4162079598490981456) -->
+    <skip />
+    <!-- no translation found for work_profile_sound_category_title (1708926655170323454) -->
+    <skip />
     <string name="live_caption_title" msgid="8617086825712756983">"لائیو کیپشن"</string>
     <string name="live_caption_summary" msgid="2898451867595161809">"خودکار طور پر میڈیا پر کیپشن لگائیں"</string>
     <string name="spatial_audio_wired_headphones" msgid="2237355789145828648">"تار والے ہیڈ فونز"</string>
@@ -4889,6 +4907,10 @@
     <string name="autofill_confirmation_message" msgid="4888767934273494272">"‏&lt;b&gt;یہ یقینی بنائیں کہ آپ کو اس ایپ پر اعتماد ہے&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Google Autofill&gt;‫%1$s&lt;/xliff:g&gt; آٹو فل کی جا سکنے والی چیزوں کی تعیین کیلئے آپ کی اسکرین پر موجود چیزوں کو استعمال کرتا ہے۔"</string>
     <string name="credman_autofill_confirmation_message" msgid="843829628024668466">"‏‎&lt;b&gt;Use &lt;xliff:g id=app_name example=Provider&gt;%1$s&lt;/xliff:g&gt;?&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; نئے پاس ورڈز، پاس کیز اور دیگر معلومات اب سے یہاں محفوظ کی جائیں گی۔ &lt;xliff:g id=app_name example=Provider&gt;%1$s&lt;/xliff:g&gt; آپ کی اسکرین پر موجود چیزوں کا استعمال کر سکتا ہے تاکہ یہ تعین کیا جا سکے کہ کیا آٹو فل ہو سکتا ہے۔"</string>
     <string name="credman_picker_title" msgid="8442086614222006564">"پاس ورڈز، پاس کیز اور آٹو فل کے لیے ترجیحی سروس"</string>
+    <!-- no translation found for credman_picker_title_new (4292105803864397398) -->
+    <skip />
+    <!-- no translation found for credman_picker_page_summary (4633938046738617332) -->
+    <skip />
     <string name="credman_confirmation_message_title" msgid="8847900085593880729">"‏%1$s کو آف کریں؟"</string>
     <string name="credman_confirmation_message" msgid="2357324543658635239">"‏&lt;b&gt;یہ سروس آف کریں؟&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; جب آپ سائن ان کرتے ہیں تو محفوظ کردہ معلومات جیسے پاس ورڈ، پاس کیز، ادائیگی کے طریقے اور دیگر معلومات کو پُر نہیں کیا جائے گا۔ اپنی محفوظ کردہ معلومات کو استعمال کرنے کے لیے، پاس ورڈ، پاس کی، یا ڈیٹا سروس کا انتخاب کریں۔"</string>
     <string name="account_dashboard_title_with_passkeys" msgid="648242372086733541">"پاس ورڈز، پاس کیز اور اکاؤنٹس"</string>
@@ -5824,13 +5846,11 @@
     <string name="supervision_verify_pin_recovery_title" msgid="3166602415814821497">"اپنے ای میل کی توثیق کریں"</string>
     <string name="supervision_web_content_filters_title" msgid="3653430162065686156">"ویب مواد فلٹرز"</string>
     <string name="supervision_web_content_filters_browser_title" msgid="8737341514264129889">"ویب سائٹس"</string>
-    <string name="supervision_web_content_filters_browser_block_explicit_sites_title" msgid="1786398287521485576">"فُحش ویب مواد کو بلاک کریں"</string>
-    <string name="supervision_web_content_filters_browser_block_explicit_sites_summary" msgid="1427357961145247788">"اس آلے پر براؤزرز کے لیے"</string>
-    <string name="supervision_web_content_filters_browser_allow_all_sites_title" msgid="3909739592466381845">"سبھی سائٹس کو اجازت دیں"</string>
+    <!-- no translation found for supervision_web_content_filters_browser_filter_title (7957976669412075070) -->
+    <skip />
     <string name="supervision_web_content_filters_search_title" msgid="8608480392956106029">"تلاش کے نتائج"</string>
-    <string name="supervision_web_content_filters_search_filter_on_title" msgid="1136440775294190806">"فُحش تلاش کے نتیجے کو بلاک کریں"</string>
-    <string name="supervision_web_content_filters_search_filter_on_summary" msgid="6797184284369033101">"اس آلے پر سرچ انجنوں کے لیے"</string>
-    <string name="supervision_web_content_filters_search_filter_off_title" msgid="7171966260908166395">"فلٹر آف"</string>
+    <!-- no translation found for supervision_web_content_filters_search_filter_title (4212134055017429017) -->
+    <skip />
     <string name="supervision_full_screen_pin_verification_title" msgid="78513043528333399">"‏نگرانی کا PIN درج کریں"</string>
     <string name="supervision_choose_your_pin_header" msgid="3872062168986738629">"‏پیرنٹل کنٹرولز PIN سیٹ کریں"</string>
     <string name="supervision_confirm_your_pin_header" msgid="8236956712482718354">"‏‫PIN کی توثیق کریں"</string>

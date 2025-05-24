@@ -21,6 +21,8 @@
     <string name="create" msgid="986997212165228751">"Oluştur"</string>
     <string name="allow" msgid="3763244945363657722">"İzin ver"</string>
     <string name="deny" msgid="7326117222944479942">"Reddet"</string>
+    <!-- no translation found for edit (8128799559456697510) -->
+    <skip />
     <string name="confirmation_turn_on" msgid="2979094011928347665">"Aç"</string>
     <string name="device_info_default" msgid="1406619232867343310">"Bilinmiyor"</string>
     <string name="device_info_protected_single_press" msgid="3810785480060743677">"Bilgileri göstermek için dokunun"</string>
@@ -1362,16 +1364,11 @@
     <string name="auto_brightness_description" msgid="6807117118142381193">"Ekranınızın parlaklığı, bulunduğunuz ortama ve aktivitelerinize göre otomatik olarak ayarlanır. Otomatik parlaklık özelliğinin tercihlerinizi öğrenmesine yardımcı olmak için kaydırma çubuğunu manuel olarak hareket ettirebilirsiniz."</string>
     <string name="auto_brightness_summary_on" msgid="2748088951224387004">"Açık"</string>
     <string name="auto_brightness_summary_off" msgid="8077066192887677956">"Kapalı"</string>
-    <!-- no translation found for hdr_brightness_title (6997980740096282616) -->
-    <skip />
-    <!-- no translation found for hdr_brightness_level_title (770342878327164738) -->
-    <skip />
-    <!-- no translation found for hdr_brightness_standard_image_label (8262353134660098785) -->
-    <skip />
-    <!-- no translation found for hdr_brightness_hdr_image_label (8068442758910393158) -->
-    <skip />
-    <!-- no translation found for hdr_brightness_warning (2755151579539607928) -->
-    <skip />
+    <string name="hdr_brightness_title" msgid="6997980740096282616">"Gelişmiş HDR parlaklığı"</string>
+    <string name="hdr_brightness_level_title" msgid="770342878327164738">"Yoğunluk"</string>
+    <string name="hdr_brightness_standard_image_label" msgid="8262353134660098785">"Standart görsel"</string>
+    <string name="hdr_brightness_hdr_image_label" msgid="8068442758910393158">"HDR görüntü"</string>
+    <string name="hdr_brightness_warning" msgid="2755151579539607928">"Bu ayar yalnızca Yüksek Dinamik Aralık (HDR) özelliğini destekleyen görselleri ve videoları etkiler."</string>
     <string name="display_white_balance_title" msgid="2624544323029364713">"Beyaz dengeyi göster"</string>
     <string name="display_white_balance_summary" msgid="7625456704950209050"></string>
     <string name="fold_lock_behavior_title" msgid="786228803694268449">"Cihaz katlıyken uygulamaları kullanmaya devam et"</string>
@@ -1441,8 +1438,7 @@
     <string name="dark_ui_bedtime_footer_action" msgid="1493095487994054339">"Uyku Vakti modu ayarları"</string>
     <string name="dark_ui_modes_footer_summary" msgid="1041117250408363391">"{count,plural,offset:2 =0{Modlar koyu temayı da etkinleştirebilir}=1{{mode_1}, koyu temayı da etkinleştirir}=2{{mode_1} ve {mode_2}, koyu temayı da etkinleştirir}=3{{mode_1}, {mode_2} ve {mode_3}, koyu temayı da etkinleştirir}other{{mode_1}, {mode_2} ve diğer # mod koyu temayı da etkinleştirir}}"</string>
     <string name="dark_ui_modes_footer_action" msgid="80671811848446248">"Mod ayarları"</string>
-    <!-- no translation found for hdr_brigtness_text (1912629316654528876) -->
-    <skip />
+    <string name="hdr_brigtness_text" msgid="1912629316654528876">"Yüksek Dinamik Aralık (HDR) özellikli görsel ve videolardaki renk aralığını/netliği artırın ve parlaklaştırın. HDR içerikler daha parlak görünür."</string>
     <string name="screen_timeout" msgid="7709947617767439410">"Ekran zaman aşımı"</string>
     <string name="screen_timeout_summary" msgid="5558778019594643427">"<xliff:g id="TIMEOUT_DESCRIPTION">%1$s</xliff:g> işlem yapılmadığında"</string>
     <string name="screen_timeout_summary_not_set" msgid="5107680774964178875">"Ayarlanmadı"</string>
@@ -2146,6 +2142,14 @@
     <string name="mouse_keys_seek_bar_increase_button_description" msgid="2721662400858172203">"Artır"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"Ters kaydırma"</string>
     <string name="mouse_keys_use_primary_keys_title" msgid="525897583406210252">"Birincil tuşları kullanma"</string>
+    <!-- no translation found for mouse_keys_reset_button_label (513004295662247230) -->
+    <skip />
+    <!-- no translation found for mouse_keys_primary_keys_image_list_title (7470827693078490251) -->
+    <skip />
+    <!-- no translation found for mouse_keys_numpad_keys_image_list_title (6682341389811538017) -->
+    <skip />
+    <!-- no translation found for mouse_keys_numpad_keys_image_list_summary (2728318055237217919) -->
+    <skip />
     <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"Sayfayı aşağı taşımak için yukarı kaydırın"</string>
     <string name="mouse_scrolling_category_title" msgid="2992126595687187296">"Kaydırma"</string>
     <string name="mouse_scrolling_acceleration" msgid="7119758828203396430">"Kontrollü kaydırma"</string>
@@ -2561,10 +2565,10 @@
     <string name="accessibility_autoclick_shorter_desc" msgid="7631013255724544348">"Daha kısa"</string>
     <string name="accessibility_autoclick_longer_desc" msgid="2566025502981487443">"Daha uzun"</string>
     <string name="accessibility_autoclick_seekbar_desc" msgid="8363959277814621118">"Otomatik tıklama süresi"</string>
-    <string name="accessibility_autoclick_main_switch_title" msgid="1968409462935503999">"Otomatik tıklama (bekleme süresi) özelliğini kullanın"</string>
+    <string name="accessibility_autoclick_main_switch_title" msgid="1968409462935503999">"Otomatik tıklamayı (bekleme süresi) kullan"</string>
     <string name="accessibility_autoclick_shortcut_title" msgid="5337438503429302081">"Otomatik tıklama kısayolu"</string>
-    <string name="autoclick_delay_before_click_title" msgid="4625722241966706931">"Tıklamadan önce gecikme süresi"</string>
-    <string name="autoclick_delay_before_click_summary" msgid="3685183305849901339">"İmlecin hareketi durdurduktan sonra tıklama işleminin gerçekleşeceği süreyi ayarlayın"</string>
+    <string name="autoclick_delay_before_click_title" msgid="4625722241966706931">"Tıklamadan önce bekleme süresi"</string>
+    <string name="autoclick_delay_before_click_summary" msgid="3685183305849901339">"İmlecin hareketi durdurduktan sonra tıklama işleminden önce beklenecek süreyi ayarlayın"</string>
     <string name="autoclick_cursor_area_size_title" msgid="8988239939645854279">"Tıklama alanı"</string>
     <string name="autoclick_cursor_area_size_summary" msgid="6993249143332791469">"İmleç, tıklama alanının dışına çıkarsa otomatik tıklama işlemi iptal edilir"</string>
     <string name="autoclick_cursor_area_size_dialog_option_extra_large" msgid="3802014133363801617">"Çok büyük"</string>
@@ -3536,8 +3540,7 @@
     <string name="keywords_display_wallpaper" msgid="8478137541939526564">"arka plan, kişiselleştirme, ekranı özelleştirme"</string>
     <string name="keywords_display_font_size" msgid="3593317215149813183">"metin boyutu"</string>
     <string name="keywords_display_cast_screen" msgid="2572331770299149370">"proje, yayınlama, Ekran yansıtma, Ekran paylaşımı, yansıtma, ekran paylaş, ekran yayınlama"</string>
-    <!-- no translation found for keywords_display_hdr_brightness (2553194332263860092) -->
-    <skip />
+    <string name="keywords_display_hdr_brightness" msgid="2553194332263860092">"hdr, parlaklık, yüksek dinamik aralık, parlak, daha parlak"</string>
     <string name="keywords_storage" msgid="3004667910133021783">"alan, disk, sabit sürücü, cihaz kullanımı"</string>
     <string name="keywords_battery" msgid="7040323668283600530">"güç kullanımı, şarj"</string>
     <string name="keywords_battery_usage" msgid="1763573071014260220">"pil kullanımını göster, pil kullanımı, güç kullanımı"</string>
@@ -3659,6 +3662,14 @@
     <string name="emergency_tone_alert" msgid="1977698889522966589">"Tonlar"</string>
     <string name="emergency_tone_vibrate" msgid="6282296789406984698">"Titreşimler"</string>
     <string name="boot_sounds_title" msgid="5033062848948884111">"Açılış sesleri"</string>
+    <!-- no translation found for sound_patterns_category_title (4290495769747444271) -->
+    <skip />
+    <!-- no translation found for sound_audio_category_title (3445871661303518618) -->
+    <skip />
+    <!-- no translation found for system_sounds_and_vibrations_category_title (4162079598490981456) -->
+    <skip />
+    <!-- no translation found for work_profile_sound_category_title (1708926655170323454) -->
+    <skip />
     <string name="live_caption_title" msgid="8617086825712756983">"Canlı Altyazı"</string>
     <string name="live_caption_summary" msgid="2898451867595161809">"Otomatik medya altyazısı"</string>
     <string name="spatial_audio_wired_headphones" msgid="2237355789145828648">"Kablolu kulaklık"</string>
@@ -3802,14 +3813,10 @@
     <string name="snooze_options_title" msgid="2109795569568344617">"Bildirimin ertelenmesine izin ver"</string>
     <string name="notification_badging_title" msgid="5469616894819568917">"Uygulama simgesinde bildirim noktası"</string>
     <string name="notification_bundles" msgid="496852738958148317">"Bildirim düzenleyici"</string>
-    <!-- no translation found for notification_bundle_promotions_summary (3196830882575438887) -->
-    <skip />
-    <!-- no translation found for notification_bundle_news_summary (2524877244105778120) -->
-    <skip />
-    <!-- no translation found for notification_bundle_social_summary (1880042768055317701) -->
-    <skip />
-    <!-- no translation found for notification_bundle_recs_summary (9200357300848343691) -->
-    <skip />
+    <string name="notification_bundle_promotions_summary" msgid="3196830882575438887">"Satışlar, yeni özellikler ve daha fazlası"</string>
+    <string name="notification_bundle_news_summary" msgid="2524877244105778120">"En çok okunan haberler, editoryal içerikler ve daha fazlası"</string>
+    <string name="notification_bundle_social_summary" msgid="1880042768055317701">"Beğeniler, gönderiler ve daha fazlası"</string>
+    <string name="notification_bundle_recs_summary" msgid="9200357300848343691">"Bültenler, önerilen medya ve daha fazlası"</string>
     <string name="notification_ai_features_title" msgid="6497959797331796296">"Yapay zeka destekli bildirimler"</string>
     <string name="notification_summarization_title" msgid="1516039882005781529">"Bildirim özetleri"</string>
     <string name="notification_summarization_summary" msgid="1963425736716175590">"Uzun mesajların özetlerini hızlıca alın"</string>
@@ -3818,15 +3825,12 @@
     <string name="notification_summarization_excluded_description" msgid="5819160700526641394">"Bu uygulamalardan gelen görüşme bildirimleri paketlenemez"</string>
     <string name="notification_summarization_manage_excluded_apps" msgid="1691177835156220384">"Uygulamaları yönet"</string>
     <string name="notification_summarization_manage_excluded_apps_title" msgid="1299744594788208296">"Uygulamalar için bildirim özetlerine izin ver"</string>
-    <!-- no translation found for notification_excluded_apps (317898848790046528) -->
-    <skip />
+    <string name="notification_excluded_apps" msgid="317898848790046528">"Bu uygulamaları dahil etme"</string>
     <string name="notification_app_level_summarize_title" msgid="3829343457958246733">"Bildirimleri özetle"</string>
     <string name="notification_app_level_summarize_subtext" msgid="7949649262631157728">"Bu uygulamadan gelen görüşme bildirimleri özetlenir"</string>
     <string name="live_notifications" msgid="4650406646292963831">"Canlı bildirimler"</string>
-    <!-- no translation found for live_notifications_switch (7745275403210881110) -->
-    <skip />
-    <!-- no translation found for live_notifications_desc (6857161077319125625) -->
-    <skip />
+    <string name="live_notifications_switch" msgid="7745275403210881110">"Canlı güncellemeler"</string>
+    <string name="live_notifications_desc" msgid="6857161077319125625">"Devam eden ve zamana duyarlı bildirimleri durum çubuğunda ve kilit ekranında göster"</string>
     <string name="notification_bubbles_title" msgid="5681506665322329301">"Baloncuklar"</string>
     <string name="bubbles_app_toggle_title" msgid="5319021259954576150">"Baloncuklar"</string>
     <string name="bubbles_conversation_toggle_title" msgid="5225039214083311316">"Bu görüşmeyi baloncuk olarak göster"</string>
@@ -4902,6 +4906,10 @@
     <string name="autofill_confirmation_message" msgid="4888767934273494272">"&lt;b&gt;Bu uygulamaya güvendiğinizden emin olun&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Google Otomatik Doldurma&gt;%1$s&lt;/xliff:g&gt; otomatik doldurulabilecek öğeleri belirlemek için ekranınızdaki bilgileri kullanır."</string>
     <string name="credman_autofill_confirmation_message" msgid="843829628024668466">"&lt;b&gt;&lt;xliff:g id=app_name example=Provider&gt;%1$s&lt;/xliff:g&gt; kullanılsın mı?&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; Yeni şifreler, geçiş anahtarları ve diğer bilgiler artık buraya kaydedilecek. &lt;xliff:g id=app_name example=Provider&gt;%1$s&lt;/xliff:g&gt; otomatik doldurulabilecek alanları belirlemek için ekranınızdaki bilgileri kullanabilir."</string>
     <string name="credman_picker_title" msgid="8442086614222006564">"Şifreler, geçiş anahtarları ve otomatik doldurma için tercih edilen hizmet"</string>
+    <!-- no translation found for credman_picker_title_new (4292105803864397398) -->
+    <skip />
+    <!-- no translation found for credman_picker_page_summary (4633938046738617332) -->
+    <skip />
     <string name="credman_confirmation_message_title" msgid="8847900085593880729">"%1$s kapatılsın mı?"</string>
     <string name="credman_confirmation_message" msgid="2357324543658635239">"&lt;b&gt;Bu hizmet kapatılsın mı?&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; Şifreler, geçiş anahtarları, ödeme yöntemleri gibi kayıtlı bilgiler ve diğer bilgiler oturum açtığınızda doldurulmaz. Kayıtlı bilgilerinizi kullanmak için bir şifre, geçiş anahtarı veya veri hizmeti seçin."</string>
     <string name="account_dashboard_title_with_passkeys" msgid="648242372086733541">"Şifreler, geçiş anahtarları ve hesaplar"</string>
@@ -5124,8 +5132,7 @@
     <string name="title_supported_service" msgid="4275535165812691571">"Telefonunuz bir uyduya bağlandıktan sonra"</string>
     <string name="title_supported_service_for_manual_type" msgid="6009284624466359864">"Uyduya bağlanmayla ilgili adımları uygulayın"</string>
     <string name="summary_supported_service" msgid="6380533552383355977">"Acil durum hizmetleri de dahil istediğiniz kişilere mesaj gönderebilir ve bazı uygulamalarda sınırlı miktarda veri kullanabilirsiniz. Telefonunuz, mevcut olduğunda mobil ağa tekrar bağlanır."</string>
-    <!-- no translation found for summary_supported_service_without_data_supported (179845377285866178) -->
-    <skip />
+    <string name="summary_supported_service_without_data_supported" msgid="179845377285866178">"Acil durum hizmetleri de dahil istediğiniz kişilere mesaj gönderebilirsiniz. Telefonunuz, mevcut olduğunda mobil ağa tekrar bağlanır."</string>
     <string name="summary_supported_service_for_manual_type" msgid="2147958362763058271">"Telefonunuz bağlandıktan sonra acil durum hizmetleri de dahil istediğiniz kişilere mesaj gönderebilirsiniz."</string>
     <string name="satellite_footer_content_section_0" msgid="4169483813004415556">"Unutmayın"</string>
     <string name="satellite_footer_content_section_1" msgid="7925931577373229601">"Uydu üzerinden bağlantı daha uzun sürebilir ve yalnızca bazı bölgelerde kullanılabilir."</string>
@@ -5400,10 +5407,8 @@
     <string name="media_controls_lockscreen_description" msgid="3320333660404439510">"Medya oynatıcı, oynatmayı hızlıca devam ettirmek için kilit ekranında açık kalır"</string>
     <string name="media_controls_hide_player" msgid="2751439192580884015">"Oynatıcıyı gizle"</string>
     <string name="media_controls_show_player" msgid="8504571042365814021">"Oynatıcıyı göster"</string>
-    <!-- no translation found for media_controls_suggestions_title (4089438765632340413) -->
-    <skip />
-    <!-- no translation found for media_controls_suggestions_description (5001121785028325037) -->
-    <skip />
+    <string name="media_controls_suggestions_title" msgid="4089438765632340413">"Medya önerileri"</string>
+    <string name="media_controls_suggestions_description" msgid="5001121785028325037">"Etkinliğinize ve konumunuza göre medya uygulamalarından medya önerileri alırsınız."</string>
     <string name="keywords_media_controls" msgid="8345490568291778638">"medya"</string>
     <string name="camera_extensions_fallback_title" msgid="3604579046777004989">"Kamera yazılım uzantılarına izin ver"</string>
     <string name="camera_extensions_fallback_description" msgid="4306833827773277263">"HDR ve Gece Görüşü gibi gelişmiş kamera özelliklerinin veya diğer kamera uzantılarının varsayılan yazılımını uygulama sürecini etkinleştirir."</string>
@@ -5468,8 +5473,7 @@
     <string name="category_name_general" msgid="7737273712848115886">"Genel"</string>
     <string name="dark_theme_main_switch_title" msgid="4045147031947562280">"Koyu temayı kullan"</string>
     <string name="bluetooth_main_switch_title" msgid="8409835540311309632">"Bluetooth\'u kullan"</string>
-    <!-- no translation found for hdr_brightness_main_switch_title (1850974699921514297) -->
-    <skip />
+    <string name="hdr_brightness_main_switch_title" msgid="1850974699921514297">"Gelişmiş HDR parlaklığını kullan"</string>
     <string name="prevent_ringing_main_switch_title" msgid="4726252811262086643">"Zilin çalmasını engelleme özelliğini kullan"</string>
     <string name="use_wifi_hotsopt_main_switch_title" msgid="3909731167290690539">"Kablosuz hotspot\'u kullan"</string>
     <string name="app_pinning_main_switch_title" msgid="5465506660064032876">"Uygulama sabitlemeyi kullan"</string>
@@ -5763,10 +5767,8 @@
     <string name="audio_streams_add_source_bad_code_state_summary" msgid="6527086906921868757">"Şifreyi kontrol edin ve tekrar deneyin"</string>
     <string name="audio_streams_add_source_failed_state_summary" msgid="3937546443978562322">"Bağlanılamıyor. Tekrar deneyin."</string>
     <string name="audio_streams_connecting_summary" msgid="7237827765572331702">"Bağlanıyor…"</string>
-    <!-- no translation found for audio_streams_dialog_failed_to_join (4942840673393552978) -->
-    <skip />
-    <!-- no translation found for audio_streams_dialog_failed_to_join_detail (1498719800517594252) -->
-    <skip />
+    <string name="audio_streams_dialog_failed_to_join" msgid="4942840673393552978">"Ses yayınına katılamadınız"</string>
+    <string name="audio_streams_dialog_failed_to_join_detail" msgid="1498719800517594252">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>, ses yayınına bağlanamadı"</string>
     <string name="audio_streams_dialog_stream_is_not_available" msgid="4032878851270690546">"Ses yayını kullanılamıyor"</string>
     <string name="audio_streams_is_not_playing" msgid="8480293894696007941">"Bu ses yayınında şu anda hiçbir şey çalınmıyor"</string>
     <string name="audio_streams_dialog_close" msgid="8177201719298408431">"Kapat"</string>
@@ -5843,28 +5845,20 @@
     <string name="supervision_verify_pin_recovery_title" msgid="3166602415814821497">"E-postanızı doğrulayın"</string>
     <string name="supervision_web_content_filters_title" msgid="3653430162065686156">"Web içeriği filtreleri"</string>
     <string name="supervision_web_content_filters_browser_title" msgid="8737341514264129889">"Web siteleri"</string>
-    <string name="supervision_web_content_filters_browser_block_explicit_sites_title" msgid="1786398287521485576">"Uygunsuz web içeriğini engelle"</string>
-    <string name="supervision_web_content_filters_browser_block_explicit_sites_summary" msgid="1427357961145247788">"Bu cihazdaki tarayıcılar için"</string>
-    <string name="supervision_web_content_filters_browser_allow_all_sites_title" msgid="3909739592466381845">"Tüm sitelere izin ver"</string>
+    <!-- no translation found for supervision_web_content_filters_browser_filter_title (7957976669412075070) -->
+    <skip />
     <string name="supervision_web_content_filters_search_title" msgid="8608480392956106029">"Arama sonuçları"</string>
-    <string name="supervision_web_content_filters_search_filter_on_title" msgid="1136440775294190806">"Uygunsuz arama sonucunu engelle"</string>
-    <string name="supervision_web_content_filters_search_filter_on_summary" msgid="6797184284369033101">"Bu cihazdaki arama motorları için"</string>
-    <string name="supervision_web_content_filters_search_filter_off_title" msgid="7171966260908166395">"Filtre kapalı"</string>
+    <!-- no translation found for supervision_web_content_filters_search_filter_title (4212134055017429017) -->
+    <skip />
     <string name="supervision_full_screen_pin_verification_title" msgid="78513043528333399">"Gözetim PIN\'ini girin"</string>
     <string name="supervision_choose_your_pin_header" msgid="3872062168986738629">"Ebeveyn denetimleri PIN\'i ayarlayın"</string>
     <string name="supervision_confirm_your_pin_header" msgid="8236956712482718354">"PIN\'i doğrulayın"</string>
     <string name="supervision_pin_reset_success_toast" msgid="9163550161698311831">"PIN güncellendi"</string>
-    <!-- no translation found for supervision_delete_pin_confirm_header (8499276643990949268) -->
-    <skip />
-    <!-- no translation found for supervision_delete_pin_confirm_message (5482080400973042178) -->
-    <skip />
-    <!-- no translation found for supervision_delete_pin_supervision_enabled_header (2072311894107038402) -->
-    <skip />
-    <!-- no translation found for supervision_delete_pin_supervision_enabled_message (5643922966568203196) -->
-    <skip />
-    <!-- no translation found for supervision_delete_pin_error_header (1271034883245391839) -->
-    <skip />
-    <!-- no translation found for supervision_delete_pin_error_message (3400536232973539259) -->
-    <skip />
+    <string name="supervision_delete_pin_confirm_header" msgid="8499276643990949268">"PIN silinsin mi?"</string>
+    <string name="supervision_delete_pin_confirm_message" msgid="5482080400973042178">"Bu işlem, mevcut PIN\'inizi bu cihazdaki tüm kullanıcılar için siler ve ayarladığınız kontrolleri devre dışı bırakır. Bu işlem geri alınamaz."</string>
+    <string name="supervision_delete_pin_supervision_enabled_header" msgid="2072311894107038402">"Önce diğer profillerdeki kontrolleri duraklatın"</string>
+    <string name="supervision_delete_pin_supervision_enabled_message" msgid="5643922966568203196">"Bu PIN\'i silmek ve gözetim ayarlarını sıfırlamak için lütfen diğer tüm profillerdeki kontrolleri duraklatın."</string>
+    <string name="supervision_delete_pin_error_header" msgid="1271034883245391839">"PIN silinemiyor"</string>
+    <string name="supervision_delete_pin_error_message" msgid="3400536232973539259">"PIN\'i silmeye çalışırken bir hata oluştu."</string>
     <string name="accessibility_illustration_content_description" msgid="557376174860150903">"<xliff:g id="FEATURE">%1$s</xliff:g> animasyonu"</string>
 </resources>

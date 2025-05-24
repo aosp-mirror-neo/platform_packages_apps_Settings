@@ -21,6 +21,8 @@
     <string name="create" msgid="986997212165228751">"Ստեղծել"</string>
     <string name="allow" msgid="3763244945363657722">"Թույլատրել"</string>
     <string name="deny" msgid="7326117222944479942">"Մերժել"</string>
+    <!-- no translation found for edit (8128799559456697510) -->
+    <skip />
     <string name="confirmation_turn_on" msgid="2979094011928347665">"Միացնել"</string>
     <string name="device_info_default" msgid="1406619232867343310">"Անհայտ"</string>
     <string name="device_info_protected_single_press" msgid="3810785480060743677">"Հպեք՝ տեղեկություններ ցուցադրելու համար"</string>
@@ -1362,16 +1364,11 @@
     <string name="auto_brightness_description" msgid="6807117118142381193">"Էկրանի պայծառությունն ավտոմատ կկարգավորվի՝ կախված միջավայրի պայմաններից և ձեր գործողություններից։ Դուք կարող եք տեղաշարժել սահիչը՝ թույլ տալով հարմարվող պայծառությանը հիշել ձեր կարգավորումները։"</string>
     <string name="auto_brightness_summary_on" msgid="2748088951224387004">"Միացված է"</string>
     <string name="auto_brightness_summary_off" msgid="8077066192887677956">"Անջատված է"</string>
-    <!-- no translation found for hdr_brightness_title (6997980740096282616) -->
-    <skip />
-    <!-- no translation found for hdr_brightness_level_title (770342878327164738) -->
-    <skip />
-    <!-- no translation found for hdr_brightness_standard_image_label (8262353134660098785) -->
-    <skip />
-    <!-- no translation found for hdr_brightness_hdr_image_label (8068442758910393158) -->
-    <skip />
-    <!-- no translation found for hdr_brightness_warning (2755151579539607928) -->
-    <skip />
+    <string name="hdr_brightness_title" msgid="6997980740096282616">"Բարելավված HDR պայծառություն"</string>
+    <string name="hdr_brightness_level_title" msgid="770342878327164738">"Ինտենսիվություն"</string>
+    <string name="hdr_brightness_standard_image_label" msgid="8262353134660098785">"Սովորական պատկեր"</string>
+    <string name="hdr_brightness_hdr_image_label" msgid="8068442758910393158">"HDR պատկեր"</string>
+    <string name="hdr_brightness_warning" msgid="2755151579539607928">"Այս կարգավորումը կիրառվում է միայն այն պատկերների և տեսանյութերի համար, որոնք աջակցում են Բարձր դինամիկական ընդգրկույթ (HDR) տեխնոլոգիան։"</string>
     <string name="display_white_balance_title" msgid="2624544323029364713">"Էկրանի սպիտակի բալանս"</string>
     <string name="display_white_balance_summary" msgid="7625456704950209050"></string>
     <string name="fold_lock_behavior_title" msgid="786228803694268449">"Շարունակել օգտագործել հավելվածները ծալված սարքում"</string>
@@ -1441,8 +1438,7 @@
     <string name="dark_ui_bedtime_footer_action" msgid="1493095487994054339">"«Քնելու ժամ» ռեժիմի կարգավորումներ"</string>
     <string name="dark_ui_modes_footer_summary" msgid="1041117250408363391">"{count,plural,offset:2 =0{Ռեժիմները կարող են նաև ակտիվացնել մուգ թեման}=1{{mode_1} ռեժիմը նաև ակտիվացնում է մուգ թեման}=2{{mode_1} և {mode_2} ռեժիմները նաև ակտիվացնում են մուգ թեման}=3{{mode_1}, {mode_2} և {mode_3} ռեժիմները նաև ակտիվացնում են մուգ թեման}one{{mode_1}, {mode_2} ու ևս # ռեժիմներ նաև ակտիվացնում են մուգ թեման}other{{mode_1}, {mode_2} ու ևս # ռեժիմներ նաև ակտիվացնում են մուգ թեման}}"</string>
     <string name="dark_ui_modes_footer_action" msgid="80671811848446248">"Ռեժիմների կարգավորումներ"</string>
-    <!-- no translation found for hdr_brigtness_text (1912629316654528876) -->
-    <skip />
+    <string name="hdr_brigtness_text" msgid="1912629316654528876">"Պայծառացրեք և ընդլայնեք գունային ընդգրկույթն ու պարզությունը Բարձր դինամիկական ընդգրկույթով (HDR) պատկերներում և տեսանյութերում։ HDR բովանդակությունն ավելի պայծառ կլինի։"</string>
     <string name="screen_timeout" msgid="7709947617767439410">"Էկրանի անջատում"</string>
     <string name="screen_timeout_summary" msgid="5558778019594643427">"<xliff:g id="TIMEOUT_DESCRIPTION">%1$s</xliff:g> անգործուն լինելուց հետո"</string>
     <string name="screen_timeout_summary_not_set" msgid="5107680774964178875">"Կարգավորված չէ"</string>
@@ -2146,6 +2142,14 @@
     <string name="mouse_keys_seek_bar_increase_button_description" msgid="2721662400858172203">"Բարձրացնել"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"Հետադարձ ոլորում"</string>
     <string name="mouse_keys_use_primary_keys_title" msgid="525897583406210252">"Օգտագործել հիմնական ստեղները"</string>
+    <!-- no translation found for mouse_keys_reset_button_label (513004295662247230) -->
+    <skip />
+    <!-- no translation found for mouse_keys_primary_keys_image_list_title (7470827693078490251) -->
+    <skip />
+    <!-- no translation found for mouse_keys_numpad_keys_image_list_title (6682341389811538017) -->
+    <skip />
+    <!-- no translation found for mouse_keys_numpad_keys_image_list_summary (2728318055237217919) -->
+    <skip />
     <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"Ոլորեք վերև՝ էջի ներքև անցնելու համար"</string>
     <string name="mouse_scrolling_category_title" msgid="2992126595687187296">"Ոլորում"</string>
     <string name="mouse_scrolling_acceleration" msgid="7119758828203396430">"Վերահսկվող ոլորում"</string>
@@ -2566,7 +2570,7 @@
     <string name="autoclick_delay_before_click_title" msgid="4625722241966706931">"Հապաղումը սեղմելուց առաջ"</string>
     <string name="autoclick_delay_before_click_summary" msgid="3685183305849901339">"Սահմանեք ժամանակի տևողությունը, որն անհրաժեշտ է սեղմման համար, երբ նշորդը դադարում է շարժվել"</string>
     <string name="autoclick_cursor_area_size_title" msgid="8988239939645854279">"Սեղմման տարածք"</string>
-    <string name="autoclick_cursor_area_size_summary" msgid="6993249143332791469">"Եթե նշորդը շարժվում է սեղմման տարածքից դուրս, ապա ավտոմատ սեղմումն անջատվել է"</string>
+    <string name="autoclick_cursor_area_size_summary" msgid="6993249143332791469">"Եթե նշորդը շարժվի սեղմման տարածքից դուրս, ավտոմատ սեղմումը չի աշխատի"</string>
     <string name="autoclick_cursor_area_size_dialog_option_extra_large" msgid="3802014133363801617">"Շատ մեծ"</string>
     <string name="autoclick_cursor_area_size_dialog_option_large" msgid="1115930762484519488">"Մեծ"</string>
     <string name="autoclick_cursor_area_size_dialog_option_default" msgid="4934363711068310028">"Կանխադրված"</string>
@@ -3535,8 +3539,7 @@
     <string name="keywords_display_wallpaper" msgid="8478137541939526564">"ետին պլան, անհատականացնել, հարմարեցնել էկրանը"</string>
     <string name="keywords_display_font_size" msgid="3593317215149813183">"տեքստի չափը"</string>
     <string name="keywords_display_cast_screen" msgid="2572331770299149370">"պրոյեկտոր, հեռարձակում, էկրանի հայելապատճենում, էկրանի ցուցադրում, հայելապատճենում, կիսվել էկրանի բովանդակությամբ, էկրանի հեռարձակում"</string>
-    <!-- no translation found for keywords_display_hdr_brightness (2553194332263860092) -->
-    <skip />
+    <string name="keywords_display_hdr_brightness" msgid="2553194332263860092">"hdr, պայծառություն, բարձր դինամիկական ընդգրկույթ, պայծառացնել, պայծառ"</string>
     <string name="keywords_storage" msgid="3004667910133021783">"տարածք, սկավառակ, կոշտ սկավառակ, սարքի օգտագործում"</string>
     <string name="keywords_battery" msgid="7040323668283600530">"հոսանքի օգտագործում, լիցքավորում"</string>
     <string name="keywords_battery_usage" msgid="1763573071014260220">"դիտել մարտկոցի օգտագործման տվյալները, մարտկոցի օգտագործում, լիցքի օգտագործում"</string>
@@ -3658,6 +3661,14 @@
     <string name="emergency_tone_alert" msgid="1977698889522966589">"Ձայներանգներ"</string>
     <string name="emergency_tone_vibrate" msgid="6282296789406984698">"Թրթռոց"</string>
     <string name="boot_sounds_title" msgid="5033062848948884111">"Միացման ձայներ"</string>
+    <!-- no translation found for sound_patterns_category_title (4290495769747444271) -->
+    <skip />
+    <!-- no translation found for sound_audio_category_title (3445871661303518618) -->
+    <skip />
+    <!-- no translation found for system_sounds_and_vibrations_category_title (4162079598490981456) -->
+    <skip />
+    <!-- no translation found for work_profile_sound_category_title (1708926655170323454) -->
+    <skip />
     <string name="live_caption_title" msgid="8617086825712756983">"Կենդանի ենթագրեր"</string>
     <string name="live_caption_summary" msgid="2898451867595161809">"Ավտոմատ ավելացնել ենթագրեր"</string>
     <string name="spatial_audio_wired_headphones" msgid="2237355789145828648">"Լարով ականջակալ"</string>
@@ -3822,10 +3833,8 @@
     <string name="notification_app_level_summarize_title" msgid="3829343457958246733">"Ամփոփել ծանուցումները"</string>
     <string name="notification_app_level_summarize_subtext" msgid="7949649262631157728">"Ամփոփել այս հավելվածից նամակագրությունների մասին ծանուցումները"</string>
     <string name="live_notifications" msgid="4650406646292963831">"Կենդանի ծանուցումներ"</string>
-    <!-- no translation found for live_notifications_switch (7745275403210881110) -->
-    <skip />
-    <!-- no translation found for live_notifications_desc (6857161077319125625) -->
-    <skip />
+    <string name="live_notifications_switch" msgid="7745275403210881110">"Թարմացումներ իրական ժամանակում"</string>
+    <string name="live_notifications_desc" msgid="6857161077319125625">"Ցույց տալ կարևոր և շտապ ծանուցումները կարգավիճակի գոտում և կողպէկրանին"</string>
     <string name="notification_bubbles_title" msgid="5681506665322329301">"Ամպիկներ"</string>
     <string name="bubbles_app_toggle_title" msgid="5319021259954576150">"Ամպիկներ"</string>
     <string name="bubbles_conversation_toggle_title" msgid="5225039214083311316">"Ցույց տալ այս զրույցն ամպիկներում"</string>
@@ -4901,6 +4910,10 @@
     <string name="autofill_confirmation_message" msgid="4888767934273494272">"&lt;b&gt;Համոզվեք, որ վստահում եք այս հավելվածին&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Google Autofill&gt;%1$s&lt;/xliff:g&gt;-ն օգտագործում է էկրանի բովանդակությունը՝ որոշելու, թե ինչը կարող է ինքնալրացվել:"</string>
     <string name="credman_autofill_confirmation_message" msgid="843829628024668466">"&lt;b&gt;Օգտագործեք &lt;xliff:g id=app_name example=Provider&gt;%1$s&lt;/xliff:g&gt;?&lt;/b&gt; հավելվածը &lt;br/&gt; &lt;br/&gt; Նոր գաղտնաբառերը, մուտքի բանալիները և այլ տեղեկություններ այսուհետ կպահվեն այստեղ։ &lt;xliff:g id=app_name example=Provider&gt;%1$s&lt;/xliff:g&gt; հավելվածը կարող է օգտագործել ձեր էկրանի բովանդակությունը՝ որոշելու, թե ինչ կարելի է ինքնալրացնել։"</string>
     <string name="credman_picker_title" msgid="8442086614222006564">"Նախընտրելի ծառայությունը գաղտնաբառերի, մուտքի բանալիների և ինքնալրացման համար"</string>
+    <!-- no translation found for credman_picker_title_new (4292105803864397398) -->
+    <skip />
+    <!-- no translation found for credman_picker_page_summary (4633938046738617332) -->
+    <skip />
     <string name="credman_confirmation_message_title" msgid="8847900085593880729">"Անջատե՞լ %1$s ծառայությունը"</string>
     <string name="credman_confirmation_message" msgid="2357324543658635239">"&lt;b&gt;Անջատե՞լ այս ծառայությունը&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; Պահված տեղեկությունները, ինչպիսիք են գաղտնաբառերը, մուտքի բանալիները, վճարման եղանակները և այլ տվյալներ, չեն լրացվի, երբ մուտք գործեք։ Ձեր պահված տեղեկությունները օգտագործելու համար ընտրեք գաղտնաբառ, մուտքի բանալի կամ ծառայություն։"</string>
     <string name="account_dashboard_title_with_passkeys" msgid="648242372086733541">"Գաղտնաբառեր, մուտքի բանալիներ և հաշիվներ"</string>
@@ -5467,8 +5480,7 @@
     <string name="category_name_general" msgid="7737273712848115886">"Ընդհանուր"</string>
     <string name="dark_theme_main_switch_title" msgid="4045147031947562280">"Օգտագործել մուգ թեման"</string>
     <string name="bluetooth_main_switch_title" msgid="8409835540311309632">"Օգտագործել Bluetooth-ը"</string>
-    <!-- no translation found for hdr_brightness_main_switch_title (1850974699921514297) -->
-    <skip />
+    <string name="hdr_brightness_main_switch_title" msgid="1850974699921514297">"Օգտագործել բարելավված HDR պայծառությունը"</string>
     <string name="prevent_ringing_main_switch_title" msgid="4726252811262086643">"Օգտագործել զանգի ձայնի անջատումը"</string>
     <string name="use_wifi_hotsopt_main_switch_title" msgid="3909731167290690539">"Օգտագործել Wi‑Fi թեժ կետը"</string>
     <string name="app_pinning_main_switch_title" msgid="5465506660064032876">"Օգտագործել հավելվածների ամրացումը"</string>
@@ -5762,10 +5774,8 @@
     <string name="audio_streams_add_source_bad_code_state_summary" msgid="6527086906921868757">"Ստուգեք գաղտնաբառը և նորից փորձեք"</string>
     <string name="audio_streams_add_source_failed_state_summary" msgid="3937546443978562322">"Կապ չկա։ Նորից փորձեք։"</string>
     <string name="audio_streams_connecting_summary" msgid="7237827765572331702">"Միանում է…"</string>
-    <!-- no translation found for audio_streams_dialog_failed_to_join (4942840673393552978) -->
-    <skip />
-    <!-- no translation found for audio_streams_dialog_failed_to_join_detail (1498719800517594252) -->
-    <skip />
+    <string name="audio_streams_dialog_failed_to_join" msgid="4942840673393552978">"Չհաջողվեց միանալ աուդիո հոսքին"</string>
+    <string name="audio_streams_dialog_failed_to_join_detail" msgid="1498719800517594252">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> սարքը չկարողացավ միանալ աուդիո հոսքին"</string>
     <string name="audio_streams_dialog_stream_is_not_available" msgid="4032878851270690546">"Աուդիո հոսքն անհասանելի է"</string>
     <string name="audio_streams_is_not_playing" msgid="8480293894696007941">"Այս աուդիո հոսքում հիմա ոչինչ չի նվագարկվում"</string>
     <string name="audio_streams_dialog_close" msgid="8177201719298408431">"Փակել"</string>
@@ -5842,28 +5852,20 @@
     <string name="supervision_verify_pin_recovery_title" msgid="3166602415814821497">"Հաստատեք ձեր էլ․ հասցեն"</string>
     <string name="supervision_web_content_filters_title" msgid="3653430162065686156">"Վեբ բովանդակության զտիչներ"</string>
     <string name="supervision_web_content_filters_browser_title" msgid="8737341514264129889">"Վեբ կայքեր"</string>
-    <string name="supervision_web_content_filters_browser_block_explicit_sites_title" msgid="1786398287521485576">"Արգելափակել մեծահասակների համար վեբ բովանդակությունը"</string>
-    <string name="supervision_web_content_filters_browser_block_explicit_sites_summary" msgid="1427357961145247788">"Այս սարքում դիտարկիչների համար"</string>
-    <string name="supervision_web_content_filters_browser_allow_all_sites_title" msgid="3909739592466381845">"Թույլատրել բոլոր կայքերը"</string>
+    <!-- no translation found for supervision_web_content_filters_browser_filter_title (7957976669412075070) -->
+    <skip />
     <string name="supervision_web_content_filters_search_title" msgid="8608480392956106029">"Որոնման արդյունքներ"</string>
-    <string name="supervision_web_content_filters_search_filter_on_title" msgid="1136440775294190806">"Արգելափակել մեծահասակների համար որոնման արդյունքները"</string>
-    <string name="supervision_web_content_filters_search_filter_on_summary" msgid="6797184284369033101">"Այս սարքում որոնողական համակարգերի համար"</string>
-    <string name="supervision_web_content_filters_search_filter_off_title" msgid="7171966260908166395">"Չօգտագործել զտիչները"</string>
+    <!-- no translation found for supervision_web_content_filters_search_filter_title (4212134055017429017) -->
+    <skip />
     <string name="supervision_full_screen_pin_verification_title" msgid="78513043528333399">"Մուտքագրել ծնողական վերահսկողության PIN կոդ"</string>
     <string name="supervision_choose_your_pin_header" msgid="3872062168986738629">"Սահմանեք ծնողական վերահսկողության PIN կոդ"</string>
     <string name="supervision_confirm_your_pin_header" msgid="8236956712482718354">"Հաստատեք PIN կոդը"</string>
     <string name="supervision_pin_reset_success_toast" msgid="9163550161698311831">"PIN կոդը թարմացվեց"</string>
-    <!-- no translation found for supervision_delete_pin_confirm_header (8499276643990949268) -->
-    <skip />
-    <!-- no translation found for supervision_delete_pin_confirm_message (5482080400973042178) -->
-    <skip />
-    <!-- no translation found for supervision_delete_pin_supervision_enabled_header (2072311894107038402) -->
-    <skip />
-    <!-- no translation found for supervision_delete_pin_supervision_enabled_message (5643922966568203196) -->
-    <skip />
-    <!-- no translation found for supervision_delete_pin_error_header (1271034883245391839) -->
-    <skip />
-    <!-- no translation found for supervision_delete_pin_error_message (3400536232973539259) -->
-    <skip />
+    <string name="supervision_delete_pin_confirm_header" msgid="8499276643990949268">"Ջնջե՞լ PIN կոդը"</string>
+    <string name="supervision_delete_pin_confirm_message" msgid="5482080400973042178">"Ձեր ընթացիկ PIN կոդը կջնջվի այս սարքում բոլոր օգտատերերի համար, և ձեր կարգավորումները կանջատվեն։ Այս գործողությունը չի կարող հետարկվել։"</string>
+    <string name="supervision_delete_pin_supervision_enabled_header" msgid="2072311894107038402">"Նախ դադարեցրեք կարգավորումները մյուս պրոֆիլներում"</string>
+    <string name="supervision_delete_pin_supervision_enabled_message" msgid="5643922966568203196">"Այս PIN կոդը ջնջելու և ծնողական վերահսկողության կարգավորումները զրոյացնելու համար նախ դադարեցրեք կարգավորումները մյուս պրոֆիլներում։"</string>
+    <string name="supervision_delete_pin_error_header" msgid="1271034883245391839">"Չհաջողվեց ջնջել PIN կոդը"</string>
+    <string name="supervision_delete_pin_error_message" msgid="3400536232973539259">"PIN կոդը ջնջելիս սխալ առաջացավ։"</string>
     <string name="accessibility_illustration_content_description" msgid="557376174860150903">"<xliff:g id="FEATURE">%1$s</xliff:g> Անիմացիա"</string>
 </resources>

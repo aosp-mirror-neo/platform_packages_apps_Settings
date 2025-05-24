@@ -13,19 +13,21 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.settings.display.ambient
+package com.android.settings.supervision
 
-import android.content.Context
-import com.android.internal.R as InternalR
+import androidx.test.ext.junit.runners.AndroidJUnit4
 import com.android.settings.R
-import com.android.settingslib.metadata.PreferenceAvailabilityProvider
-import com.android.settingslib.metadata.PreferenceCategory
-import com.android.systemui.shared.Flags.ambientAod
+import com.google.common.truth.Truth.assertThat
+import org.junit.Test
+import org.junit.runner.RunWith
 
-class AmbientWallpaperOptionsCategory :
-    PreferenceCategory("ambient_wallpaperGroup", R.string.doze_always_on_wallpaper_options),
-    PreferenceAvailabilityProvider {
+@RunWith(AndroidJUnit4::class)
+class SupervisionWebContentFiltersTopIntroPreferenceTest {
+    private val topIntroPreference = SupervisionWebContentFiltersTopIntroPreference()
 
-    override fun isAvailable(context: Context): Boolean =
-        ambientAod() && context.resources.getBoolean(InternalR.bool.config_dozeSupportsAodWallpaper)
+    @Test
+    fun getTitle() {
+        assertThat(topIntroPreference.title)
+            .isEqualTo(R.string.supervision_web_content_filters_top_intro)
+    }
 }

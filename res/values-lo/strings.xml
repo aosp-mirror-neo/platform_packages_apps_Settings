@@ -21,6 +21,8 @@
     <string name="create" msgid="986997212165228751">"ສ້າງ"</string>
     <string name="allow" msgid="3763244945363657722">"ອະນຸຍາດ"</string>
     <string name="deny" msgid="7326117222944479942">"ປະ​ຕິ​ເສດ"</string>
+    <!-- no translation found for edit (8128799559456697510) -->
+    <skip />
     <string name="confirmation_turn_on" msgid="2979094011928347665">"ເປີດໃຊ້"</string>
     <string name="device_info_default" msgid="1406619232867343310">"ບໍ່ຮູ້ຈັກ"</string>
     <string name="device_info_protected_single_press" msgid="3810785480060743677">"ແຕະເພື່ອສະແດງຂໍ້ມູນ"</string>
@@ -2121,8 +2123,7 @@
     <string name="input_setting_keys_dialog_option_200" msgid="2785528287150314940">"0.2 ວິນາທີ"</string>
     <string name="input_setting_keys_dialog_option_400" msgid="91571674179896177">"0.4 ວິນາທີ"</string>
     <string name="input_setting_keys_dialog_option_600" msgid="6983252972219539375">"0.6 ວິນາທີ"</string>
-    <!-- no translation found for input_setting_keys_dialog_option_custom (2353045390598308685) -->
-    <skip />
+    <string name="input_setting_keys_dialog_option_custom" msgid="2353045390598308685">"<xliff:g id="THRESHOLD">%.1f</xliff:g> ວິນາທີ"</string>
     <string name="input_setting_keys_custom_title" msgid="670425691119253202">"ກຳນົດເອງ"</string>
     <string name="input_setting_keys_custom_value" msgid="4455905650507193648">"ຄ່າທີ່ກຳນົດເອງ"</string>
     <string name="input_setting_bounce_keys_seekbar_desc" msgid="4575595566548124309">"ເວລາເກນຂອງການຍົກເລີກການກົດປຸ່ມຊໍ້າໆ"</string>
@@ -2140,6 +2141,14 @@
     <string name="mouse_keys_seek_bar_increase_button_description" msgid="2721662400858172203">"ເພີ່ມຂຶ້ນ"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"ການເລື່ອນຍ້ອນກັບ"</string>
     <string name="mouse_keys_use_primary_keys_title" msgid="525897583406210252">"ໃຊ້ປຸ່ມຫຼັກ"</string>
+    <!-- no translation found for mouse_keys_reset_button_label (513004295662247230) -->
+    <skip />
+    <!-- no translation found for mouse_keys_primary_keys_image_list_title (7470827693078490251) -->
+    <skip />
+    <!-- no translation found for mouse_keys_numpad_keys_image_list_title (6682341389811538017) -->
+    <skip />
+    <!-- no translation found for mouse_keys_numpad_keys_image_list_summary (2728318055237217919) -->
+    <skip />
     <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"ເລື່ອນຂຶ້ນເພື່ອຍ້າຍໜ້າລົງ"</string>
     <string name="mouse_scrolling_category_title" msgid="2992126595687187296">"ການເລື່ອນ"</string>
     <string name="mouse_scrolling_acceleration" msgid="7119758828203396430">"ການເລື່ອນທີ່ມີການຄວບຄຸມ"</string>
@@ -3651,6 +3660,14 @@
     <string name="emergency_tone_alert" msgid="1977698889522966589">"ສຽງ"</string>
     <string name="emergency_tone_vibrate" msgid="6282296789406984698">"ສັ່ນເຕືອນ"</string>
     <string name="boot_sounds_title" msgid="5033062848948884111">"ສຽງຕອນເປີດເຄື່ອງ"</string>
+    <!-- no translation found for sound_patterns_category_title (4290495769747444271) -->
+    <skip />
+    <!-- no translation found for sound_audio_category_title (3445871661303518618) -->
+    <skip />
+    <!-- no translation found for system_sounds_and_vibrations_category_title (4162079598490981456) -->
+    <skip />
+    <!-- no translation found for work_profile_sound_category_title (1708926655170323454) -->
+    <skip />
     <string name="live_caption_title" msgid="8617086825712756983">"ຄຳບັນຍາຍສົດ"</string>
     <string name="live_caption_summary" msgid="2898451867595161809">"ສ້າງຄຳບັນຍາຍມີເດຍໂດຍອັດຕະໂນມັດ"</string>
     <string name="spatial_audio_wired_headphones" msgid="2237355789145828648">"ຫູຟັງແບບມີສາຍ"</string>
@@ -3794,14 +3811,10 @@
     <string name="snooze_options_title" msgid="2109795569568344617">"ອະນຸຍາດໃຫ້ເລື່ອນການແຈ້ງເຕືອນ"</string>
     <string name="notification_badging_title" msgid="5469616894819568917">"ໄອຄອນຈຸດການແຈ້ງເຕືອນຢູ່ແອັບ"</string>
     <string name="notification_bundles" msgid="496852738958148317">"ຕົວຈັດລະບຽບການແຈ້ງເຕືອນ"</string>
-    <!-- no translation found for notification_bundle_promotions_summary (3196830882575438887) -->
-    <skip />
-    <!-- no translation found for notification_bundle_news_summary (2524877244105778120) -->
-    <skip />
-    <!-- no translation found for notification_bundle_social_summary (1880042768055317701) -->
-    <skip />
-    <!-- no translation found for notification_bundle_recs_summary (9200357300848343691) -->
-    <skip />
+    <string name="notification_bundle_promotions_summary" msgid="3196830882575438887">"ຍອດຂາຍ, ຄຸນສົມບັດໃໝ່ ແລະ ອື່ນໆ"</string>
+    <string name="notification_bundle_news_summary" msgid="2524877244105778120">"ສະຕໍຣີຍອດນິຍົມ, ບົດຄວາມ ແລະ ອື່ນໆ"</string>
+    <string name="notification_bundle_social_summary" msgid="1880042768055317701">"ການກົດຖືກໃຈ, ໂພສ ແລະ ອື່ນໆ"</string>
+    <string name="notification_bundle_recs_summary" msgid="9200357300848343691">"ຈົດໝາຍຂ່າວ, ສື່ທີ່ແນະນຳ ແລະ ອື່ນໆ"</string>
     <string name="notification_ai_features_title" msgid="6497959797331796296">"ການແຈ້ງເຕືອນທີ່ຂັບເຄື່ອນໂດຍ AI"</string>
     <string name="notification_summarization_title" msgid="1516039882005781529">"ສະຫຼຸບການແຈ້ງເຕືອນ"</string>
     <string name="notification_summarization_summary" msgid="1963425736716175590">"ຮັບສະຫຼຸບຂໍ້ຄວາມຍາວໆຢ່າງວ່ອງໄວ"</string>
@@ -3810,8 +3823,7 @@
     <string name="notification_summarization_excluded_description" msgid="5819160700526641394">"ຈະບໍ່ສະຫຼຸບການແຈ້ງເຕືອນຈາກແອັບເຫຼົ່ານີ້"</string>
     <string name="notification_summarization_manage_excluded_apps" msgid="1691177835156220384">"ຈັດການແອັບ"</string>
     <string name="notification_summarization_manage_excluded_apps_title" msgid="1299744594788208296">"ອະນຸຍາດໃຫ້ສະຫຼຸບການແຈ້ງເຕືອນສຳລັບແອັບ"</string>
-    <!-- no translation found for notification_excluded_apps (317898848790046528) -->
-    <skip />
+    <string name="notification_excluded_apps" msgid="317898848790046528">"ບໍ່ຕ້ອງຮວມແອັບເຫຼົ່ານີ້"</string>
     <string name="notification_app_level_summarize_title" msgid="3829343457958246733">"ສະຫຼຸບການແຈ້ງເຕືອນ"</string>
     <string name="notification_app_level_summarize_subtext" msgid="7949649262631157728">"ສະຫຼຸບການແຈ້ງເຕືອນການສົນທະນາຈາກແອັບນີ້"</string>
     <string name="live_notifications" msgid="4650406646292963831">"ການແຈ້ງເຕືອນສົດ"</string>
@@ -4892,6 +4904,10 @@
     <string name="autofill_confirmation_message" msgid="4888767934273494272">"&lt;b&gt;ໃຫ້ກວດສອບວ່າທ່ານເຊື່ອແອັບນີ້&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Google Autofill&gt;%1$s&lt;/xliff:g&gt; ຈະໃຊ້ສິ່ງທີ່ຢູ່ໃນໜ້າຈໍຂອງທ່ານເພື່ອກວດເບິ່ງວ່າຈະຕື່ມຂໍ້ມູນຫຍັງອັດຕະໂນມັດ."</string>
     <string name="credman_autofill_confirmation_message" msgid="843829628024668466">"&lt;b&gt;Use &lt;xliff:g id=app_name example=Provider&gt;%1$s&lt;/xliff:g&gt;?&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; ລະຫັດຜ່ານໃໝ່, ກະແຈຜ່ານ ແລະ ຂໍ້ມູນອື່ນໆຈະຖືກບັນທຶກໄວ້ບ່ອນນີ້ນັບຈາກນີ້ເປັນຕົ້ນໄປ. &lt;xliff:g id=app_name example=Provider&gt;%1$s&lt;/xliff:g&gt; ອາດໃຊ້ສິ່ງທີ່ຢູ່ໜ້າຈໍຂອງທ່ານເພື່ອເບິ່ງວ່າຈະຕື່ມຂໍ້ມູນອັດຕະໂນມັດໃດໄດ້ແດ່."</string>
     <string name="credman_picker_title" msgid="8442086614222006564">"ບໍລິການທີ່ຕ້ອງການສຳລັບລະຫັດຜ່ານ, ກະແຈຜ່ານ ແລະ ການຕື່ມຂໍ້ມູນອັດຕະໂນມັດ"</string>
+    <!-- no translation found for credman_picker_title_new (4292105803864397398) -->
+    <skip />
+    <!-- no translation found for credman_picker_page_summary (4633938046738617332) -->
+    <skip />
     <string name="credman_confirmation_message_title" msgid="8847900085593880729">"ປິດ %1$s ບໍ?"</string>
     <string name="credman_confirmation_message" msgid="2357324543658635239">"&lt;b&gt;ປິດບໍລິການນີ້ບໍ?&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; ຂໍ້ມູນທີ່ບັນທຶກໄວ້ເຊັ່ນ: ລະຫັດຜ່ານ, ກະແຈຜ່ານ, ວິທີການຈ່າຍເງິນ ແລະ ຂໍ້ມູນອື່ນໆຈະບໍ່ຖືກຕື່ມໃສ່ເມື່ອທ່ານເຂົ້າສູ່ລະບົບ. ເພື່ອນຳໃຊ້ຂໍ້ມູນທີ່ບັນທຶກໄວ້, ໃຫ້ເລືອກລະຫັດຜ່ານ, ກະແຈຜ່ານ ຫຼື ບໍລິການຂໍ້ມູນ."</string>
     <string name="account_dashboard_title_with_passkeys" msgid="648242372086733541">"ລະຫັດຜ່ານ, ກະແຈຜ່ານ ແລະ ບັນຊີ"</string>
@@ -5114,8 +5130,7 @@
     <string name="title_supported_service" msgid="4275535165812691571">"ຫຼັງຈາກທີ່ໂທລະສັບຂອງທ່ານເຊື່ອມຕໍ່ກັບດາວທຽມ"</string>
     <string name="title_supported_service_for_manual_type" msgid="6009284624466359864">"ເຮັດຕາມຂັ້ນຕອນເພື່ອເຊື່ອມຕໍ່ກັບດາວທຽມ"</string>
     <string name="summary_supported_service" msgid="6380533552383355977">"ທ່ານສາມາດສົ່ງຂໍ້ຄວາມຫາໃຜກໍໄດ້, ຮວມທັງບໍລິການສຸກເສີນ ແລະ ໃຊ້ຂໍ້ມູນທີ່ຈຳກັດຢູ່ບາງແອັບໄດ້. ໂທລະສັບຂອງທ່ານຈະເຊື່ອມຕໍ່ກັບເຄືອຂ່າຍມືຖືອີກຄັ້ງເມື່ອມີໃຫ້ໃຊ້."</string>
-    <!-- no translation found for summary_supported_service_without_data_supported (179845377285866178) -->
-    <skip />
+    <string name="summary_supported_service_without_data_supported" msgid="179845377285866178">"ທ່ານສາມາດສົ່ງຂໍ້ຄວາມຫາໃຜກໍໄດ້, ເຊິ່ງຮວມທັງບໍລິການສຸກເສີນ. ໂທລະສັບຂອງທ່ານຈະເຊື່ອມຕໍ່ກັບເຄືອຂ່າຍມືຖືອີກຄັ້ງເມື່ອມີໃຫ້ໃຊ້."</string>
     <string name="summary_supported_service_for_manual_type" msgid="2147958362763058271">"ຫຼັງຈາກເຊື່ອມຕໍ່ໂທລະສັບຂອງທ່ານແລ້ວ, ທ່ານສາມາດສົ່ງຂໍ້ຄວາມຫາໃຜກໍໄດ້, ເຊິ່ງຮວມທັງບໍລິການສຸກເສີນ."</string>
     <string name="satellite_footer_content_section_0" msgid="4169483813004415556">"ຂໍ້ຄວນຈື່"</string>
     <string name="satellite_footer_content_section_1" msgid="7925931577373229601">"ການເຊື່ອມຕໍ່ຜ່ານດາວທຽມອາດໃຊ້ເວລາດົນກວ່າປົກກະຕິ ແລະ ພ້ອມໃຫ້ບໍລິການໃນບາງພື້ນທີ່ເທົ່ານັ້ນ."</string>
@@ -5390,10 +5405,8 @@
     <string name="media_controls_lockscreen_description" msgid="3320333660404439510">"ເພື່ອສືບຕໍ່ການຫຼິ້ນໃນທັນທີ, ເຄື່ອງຫຼິ້ນມີເດຍຈະເປີດປະໄວ້ຢູ່ໜ້າຈໍລັອກ"</string>
     <string name="media_controls_hide_player" msgid="2751439192580884015">"ເຊື່ອງຕົວຫຼິ້ນ"</string>
     <string name="media_controls_show_player" msgid="8504571042365814021">"ສະແດງຕົວຫຼິ້ນ"</string>
-    <!-- no translation found for media_controls_suggestions_title (4089438765632340413) -->
-    <skip />
-    <!-- no translation found for media_controls_suggestions_description (5001121785028325037) -->
-    <skip />
+    <string name="media_controls_suggestions_title" msgid="4089438765632340413">"ການແນະນຳມີເດຍ"</string>
+    <string name="media_controls_suggestions_description" msgid="5001121785028325037">"ສະແດງມີເດຍທີ່ແນະນຳຈາກແອັບມີເດຍໂດຍອີງຕາມການເຄື່ອນໄຫວ ແລະ ສະຖານທີ່ຂອງທ່ານ."</string>
     <string name="keywords_media_controls" msgid="8345490568291778638">"ມີເດຍ"</string>
     <string name="camera_extensions_fallback_title" msgid="3604579046777004989">"ອະນຸຍາດສ່ວນຂະຫຍາຍຊອບແວກ້ອງຖ່າຍຮູບ"</string>
     <string name="camera_extensions_fallback_description" msgid="4306833827773277263">"ເປີດການນຳໃຊ້ຊອບແວເລີ່ມຕົ້ນຂອງຄຸນສົມບັດກ້ອງຖ່າຍຮູບຂັ້ນສູງ ເຊັ່ນ: HDR, ໂໝດກາງຄືນ ຫຼື ສ່ວນຂະຫຍາຍອື່ນໆຂອງກ້ອງ."</string>
@@ -5830,13 +5843,11 @@
     <string name="supervision_verify_pin_recovery_title" msgid="3166602415814821497">"ຢັ້ງຢືນອີເມວຂອງທ່ານ"</string>
     <string name="supervision_web_content_filters_title" msgid="3653430162065686156">"ຕົວກັ່ນຕອງເນື້ອຫາເວັບ"</string>
     <string name="supervision_web_content_filters_browser_title" msgid="8737341514264129889">"ເວັບໄຊ"</string>
-    <string name="supervision_web_content_filters_browser_block_explicit_sites_title" msgid="1786398287521485576">"ບລັອກເນື້ອຫາເວັບທີ່ຈະແຈ້ງ"</string>
-    <string name="supervision_web_content_filters_browser_block_explicit_sites_summary" msgid="1427357961145247788">"ສໍາລັບໂປຣແກຣມທ່ອງເວັບຢູ່ອຸປະກອນນີ້"</string>
-    <string name="supervision_web_content_filters_browser_allow_all_sites_title" msgid="3909739592466381845">"ອະນຸຍາດທຸກເວັບໄຊ"</string>
+    <!-- no translation found for supervision_web_content_filters_browser_filter_title (7957976669412075070) -->
+    <skip />
     <string name="supervision_web_content_filters_search_title" msgid="8608480392956106029">"ຜົນການຊອກຫາ"</string>
-    <string name="supervision_web_content_filters_search_filter_on_title" msgid="1136440775294190806">"ບລັອກຜົນການຊອກຫາທີ່ຈະແຈ້ງ"</string>
-    <string name="supervision_web_content_filters_search_filter_on_summary" msgid="6797184284369033101">"ສໍາລັບໂປຣແກຣມຊອກຫາຢູ່ອຸປະກອນນີ້"</string>
-    <string name="supervision_web_content_filters_search_filter_off_title" msgid="7171966260908166395">"ຟິວເຕີປິດຢູ່"</string>
+    <!-- no translation found for supervision_web_content_filters_search_filter_title (4212134055017429017) -->
+    <skip />
     <string name="supervision_full_screen_pin_verification_title" msgid="78513043528333399">"ປ້ອນ PIN ການເບິ່ງແຍງກວດກາ"</string>
     <string name="supervision_choose_your_pin_header" msgid="3872062168986738629">"ຕັ້ງ PIN ການຄວບຄຸມຂອງພໍ່ແມ່"</string>
     <string name="supervision_confirm_your_pin_header" msgid="8236956712482718354">"ຢືນຢັນ PIN"</string>

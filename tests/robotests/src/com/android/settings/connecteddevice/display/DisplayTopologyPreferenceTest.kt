@@ -22,6 +22,7 @@ import android.hardware.display.DisplayTopology
 import android.hardware.display.DisplayTopology.TreeNode.POSITION_BOTTOM
 import android.hardware.display.DisplayTopology.TreeNode.POSITION_LEFT
 import android.hardware.display.DisplayTopology.TreeNode.POSITION_TOP
+import android.provider.Settings
 import android.util.DisplayMetrics
 import android.util.Size
 import android.view.MotionEvent
@@ -33,6 +34,8 @@ import androidx.preference.PreferenceViewHolder
 import androidx.test.core.app.ApplicationProvider
 import androidx.test.core.view.MotionEventBuilder
 import com.android.settings.R
+import com.android.settings.flags.FakeFeatureFlagsImpl
+import com.android.settings.flags.Flags.FLAG_SHOW_STACKED_MIRRORING_DISPLAY_CONNECTED_DISPLAY_SETTING
 import com.google.common.truth.Truth.assertThat
 import java.util.function.Consumer
 import kotlin.math.abs
@@ -43,16 +46,20 @@ import org.robolectric.RobolectricTestRunner
 @RunWith(RobolectricTestRunner::class)
 class DisplayTopologyPreferenceTest {
     val context = ApplicationProvider.getApplicationContext<Context>()
-    val injector = TestInjector(context)
+    val featureFlags = FakeFeatureFlagsImpl()
+    val injector = TestInjector(context, featureFlags)
     val preference = DisplayTopologyPreference(injector)
     val rootView = View.inflate(context, preference.layoutResource, /* parent= */ null)
     val holder = PreferenceViewHolder.createInstanceForTests(rootView)
 
     init {
         preference.onBindViewHolder(holder)
+
+        featureFlags.setFlag(FLAG_SHOW_STACKED_MIRRORING_DISPLAY_CONNECTED_DISPLAY_SETTING, true)
     }
 
-    class TestInjector(context: Context) : ConnectedDisplayInjector(context) {
+    class TestInjector(context: Context, featureFlags: FakeFeatureFlagsImpl) :
+        ConnectedDisplayInjector(context) {
         var displaysSize = mutableMapOf<Int, Size>()
         var topology: DisplayTopology? = null
 
@@ -64,6 +71,8 @@ class DisplayTopologyPreferenceTest {
                 topology = value
             }
 
+        override val flags = DesktopExperienceFlags(featureFlags)
+
         /** A log of events related to wallpaper revealing. */
         val revealLog = mutableListOf<String>()
 
@@ -71,6 +80,10 @@ class DisplayTopologyPreferenceTest {
 
         override fun getLogicalSize(displayId: Int): Size? {
             return displaysSize.get(displayId)
+        }
+
+        override fun getAllDisplayIds(): List<Int> {
+            return displaysSize.keys.toList()
         }
 
         override fun registerTopologyListener(listener: Consumer<DisplayTopology>) {
@@ -228,6 +241,14 @@ class DisplayTopologyPreferenceTest {
         assertThat(block.selectionMarkerView.visibility).isEqualTo(vis)
     }
 
+    fun setMirroringMode(enable: Boolean) {
+        Settings.Secure.putInt(
+            context.contentResolver,
+            Settings.Secure.MIRROR_BUILT_IN_DISPLAY,
+            if (enable) 1 else 0,
+        )
+    }
+
     @Test
     fun twoDisplaysGenerateBlocks() {
         val (childBlock, rootBlock) = setupPaneWithTwoDisplays()
@@ -244,6 +265,36 @@ class DisplayTopologyPreferenceTest {
 
         assertThat(preference.topologyHint.text)
             .isEqualTo(context.getString(R.string.external_display_topology_hint))
+    }
+
+    @Test
+    fun twoDisplaysMirroringGenerateBlocks() {
+        setMirroringMode(true)
+        setupPaneWithTwoDisplays()
+        val newDisplayId = 123
+        val newDisplaySize = Size(500, 500)
+        injector.topology!!.addDisplay(
+            newDisplayId,
+            newDisplaySize.width,
+            newDisplaySize.height,
+            /* logicalDensity= */ 160,
+        )
+        injector.displaysSize.put(newDisplayId, newDisplaySize)
+
+        val paneChildren = getPaneChildren()
+        assertThat(paneChildren).hasSize(2)
+
+        for (i in 1..paneChildren.size - 1) {
+            // Bounds are arranged 45 degrees diagonally from the top left corner, in a decreasing
+            // X and increasing Y, since the backmost display will be the first on the list.
+            val bounds = virtualBounds(paneChildren[i])
+            val prevBounds = virtualBounds(paneChildren[i - 1])
+            assertThat(bounds.left).isLessThan(prevBounds.left)
+            assertThat(bounds.top).isGreaterThan(prevBounds.top)
+            assertSelected(paneChildren[i], false)
+        }
+
+        assertThat(preference.topologyHint.text).isEqualTo("")
     }
 
     @Test
@@ -478,6 +529,39 @@ class DisplayTopologyPreferenceTest {
 
         // Block should be back to original position.
         assertThat(block.y).isWithin(0.01f).of(origY)
+    }
+
+    @Test
+    fun cannotMoveDisplayMirroringMode() {
+        setMirroringMode(true)
+        setupPaneWithTwoDisplays()
+
+        val paneChildren = getPaneChildren()
+        assertThat(paneChildren).hasSize(2)
+        for (block in paneChildren) {
+            val origY = block.y
+
+            block.dispatchTouchEvent(
+                MotionEventBuilder.newBuilder()
+                    .setAction(MotionEvent.ACTION_DOWN)
+                    .setPointer(0f, 0f)
+                    .build()
+            )
+            assertSelected(block, false)
+
+            block.dispatchTouchEvent(
+                MotionEventBuilder.newBuilder()
+                    .setAction(MotionEvent.ACTION_MOVE)
+                    .setPointer(0f, 30f)
+                    .build()
+            )
+            assertThat(block.y).isWithin(0.01f).of(origY)
+
+            block.dispatchTouchEvent(
+                MotionEventBuilder.newBuilder().setAction(MotionEvent.ACTION_UP).build()
+            )
+            assertThat(block.y).isWithin(0.01f).of(origY)
+        }
     }
 
     @Test

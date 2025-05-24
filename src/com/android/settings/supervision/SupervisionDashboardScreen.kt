@@ -18,11 +18,14 @@ package com.android.settings.supervision
 import android.app.settings.SettingsEnums
 import android.app.supervision.flags.Flags
 import android.content.Context
+import android.content.Intent
 import com.android.settings.R
 import com.android.settings.core.PreferenceScreenMixin
 import com.android.settings.supervision.ipc.SupervisionMessengerClient
+import com.android.settings.utils.highlightPreference
 import com.android.settingslib.metadata.PreferenceLifecycleContext
 import com.android.settingslib.metadata.PreferenceLifecycleProvider
+import com.android.settingslib.metadata.PreferenceMetadata
 import com.android.settingslib.metadata.ProvidePreferenceScreen
 import com.android.settingslib.metadata.preferenceHierarchy
 import com.android.settingslib.widget.UntitledPreferenceCategoryMetadata
@@ -69,6 +72,10 @@ open class SupervisionDashboardScreen : PreferenceScreenMixin, PreferenceLifecyc
         supervisionClient?.close()
     }
 
+    override fun isIndexable(context: Context) = true
+
+    override fun hasCompleteHierarchy() = true
+
     override fun getPreferenceHierarchy(context: Context) =
         preferenceHierarchy(context, this) {
             val supervisionClient = getSupervisionClient(context)
@@ -84,6 +91,9 @@ open class SupervisionDashboardScreen : PreferenceScreenMixin, PreferenceLifecyc
                 +SupervisionAocFooterPreference(supervisionClient) order 40
             }
         }
+
+    override fun getLaunchIntent(context: Context, metadata: PreferenceMetadata?) =
+        Intent("android.settings.SUPERVISION_SETTINGS").apply { highlightPreference(metadata?.key) }
 
     private fun getSupervisionClient(context: Context) =
         supervisionClient ?: SupervisionMessengerClient(context).also { supervisionClient = it }

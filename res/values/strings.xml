@@ -5340,6 +5340,9 @@
     <!-- label for usage time -->
     <string name="usage_time_label">Usage time</string>
 
+    <!-- In the Testing screen. The item title of the activity that shows the new phone information v2.  -->
+    <string name="phone_information_v2_title">Phone Information V2</string>
+
     <!-- Accessibility settings -->
     <skip />
 
@@ -5531,14 +5534,6 @@
     <string name="accessibility_magnification_mode_dialog_option_switch">Switch between full and partial screen</string>
     <!-- Message of the magnification mode option to choose the magnification mode. [CHAR LIMIT=none] -->
     <string name="accessibility_magnification_area_settings_mode_switch_summary">Tap the switch button to move between both options</string>
-    <!-- Title for the accessibility magnification switch shortcut dialog. [CHAR LIMIT=48] -->
-    <string name="accessibility_magnification_switch_shortcut_title">Switch to accessibility button?</string>
-    <!-- Message for the accessibility magnification switch shortcut dialog. [CHAR LIMIT=none] -->
-    <string name="accessibility_magnification_switch_shortcut_message">Using triple-tap to magnify part of your screen causes typing and other delays.\n\nThe accessibility button floats on your screen over other apps. Tap it to magnify.</string>
-    <!-- Title for the switch shortcut button in accessibility switch shortcut dialog to change the config shortcut value. [CHAR LIMIT=45] -->
-    <string name="accessibility_magnification_switch_shortcut_positive_button">Switch to accessibility button</string>
-    <!-- Title for the cancel button in accessibility switch shortcut dialog to keep the config shortcut value. [CHAR LIMIT=54] -->
-    <string name="accessibility_magnification_switch_shortcut_negative_button">Use triple-tap</string>
     <!-- Title for the accessibility magnification triple tap warning dialog. [CHAR LIMIT=48] -->
     <string name="accessibility_magnification_triple_tap_warning_title">This may slow down your keyboard</string>
     <!-- Message for the accessibility magnification triple tap warning dialog. [CHAR LIMIT=none] -->
@@ -14485,8 +14480,6 @@ Data usage charges may apply.</string>
     <string name="supervision_settings_title">Parental controls</string>
     <!-- Description for Supervision settings menu entry [CHAR LIMIT=NONE] -->
     <string name="supervision_settings_summary">Content restrictions &amp; other limits</string>
-    <!-- Title of toggle to enable or disable device supervision [CHAR LIMIT=60] -->
-    <string name="device_supervision_switch_title">Use device supervision</string>
     <!-- Description of device supervision toggle when PIN has never been set up [CHAR LIMIT=NONE] -->
     <string name="device_supervision_switch_no_pin_summary">Set up PIN</string>
     <!-- Description of device supervision toggle when PIN is set up but supervision is not enabled [CHAR LIMIT=NONE] -->
@@ -14515,6 +14508,8 @@ Data usage charges may apply.</string>
     <string name="supervision_verify_pin_recovery_title">Verify your email</string>
     <!-- Title for web content filters entry [CHAR LIMIT=60] -->
     <string name="supervision_web_content_filters_title">Web content filters</string>
+    <!-- Top intro for web content filters [CHAR LIMIT=NONE] -->
+    <string name="supervision_web_content_filters_top_intro">Block mature content on websites and search results on supported apps on this device. Unsupported apps may still show explicit content.</string>
     <!-- Title for web content filters browser category [CHAR LIMIT=60] -->
     <string name="supervision_web_content_filters_browser_title">Websites</string>
     <!-- Title for web content filters browser filters [CHAR LIMIT=60] -->

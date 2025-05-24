@@ -43,6 +43,7 @@ import com.android.settingslib.ipc.MessengerServiceRule
 import com.android.settingslib.preference.launchFragmentScenario
 import com.android.settingslib.widget.FooterPreference
 import com.android.settingslib.widget.SelectorWithWidgetPreference
+import com.android.settingslib.widget.TopIntroPreference
 import com.google.common.truth.Truth.assertThat
 import org.junit.Before
 import org.junit.Rule
@@ -111,6 +112,18 @@ class SupervisionWebContentFiltersScreenTest {
     fun getMetricsCategory() {
         assertThat(supervisionWebContentFiltersScreen.getMetricsCategory())
             .isEqualTo(SettingsEnums.SUPERVISION_WEB_CONTENT_FILTERS)
+    }
+
+    @Test
+    @EnableFlags(Flags.FLAG_ENABLE_WEB_CONTENT_FILTERS_SCREEN)
+    fun topIntroExists() {
+        supervisionWebContentFiltersScreen.launchFragmentScenario().onFragment { fragment ->
+                val topIntroPreference =
+                    fragment.findPreference<TopIntroPreference>(
+                        SupervisionWebContentFiltersTopIntroPreference.KEY
+                    )
+                assertThat(topIntroPreference).isNotNull()
+            }
     }
 
     @Test

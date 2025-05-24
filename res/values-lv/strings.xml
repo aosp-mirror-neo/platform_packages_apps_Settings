@@ -21,6 +21,8 @@
     <string name="create" msgid="986997212165228751">"Izveidot"</string>
     <string name="allow" msgid="3763244945363657722">"Atļaut"</string>
     <string name="deny" msgid="7326117222944479942">"Aizliegt"</string>
+    <!-- no translation found for edit (8128799559456697510) -->
+    <skip />
     <string name="confirmation_turn_on" msgid="2979094011928347665">"Ieslēgt"</string>
     <string name="device_info_default" msgid="1406619232867343310">"Nezināms"</string>
     <string name="device_info_protected_single_press" msgid="3810785480060743677">"Lai rādītu informāciju, pieskarieties"</string>
@@ -1362,16 +1364,11 @@
     <string name="auto_brightness_description" msgid="6807117118142381193">"Ekrāna spilgtums automātiski tiks pielāgots apkārtējai videi un veiktajām darbībām. Lai adaptīvajam spilgtumam iestatītu savas preferences, pārvietojiet slīdni."</string>
     <string name="auto_brightness_summary_on" msgid="2748088951224387004">"Ieslēgt"</string>
     <string name="auto_brightness_summary_off" msgid="8077066192887677956">"Izslēgts"</string>
-    <!-- no translation found for hdr_brightness_title (6997980740096282616) -->
-    <skip />
-    <!-- no translation found for hdr_brightness_level_title (770342878327164738) -->
-    <skip />
-    <!-- no translation found for hdr_brightness_standard_image_label (8262353134660098785) -->
-    <skip />
-    <!-- no translation found for hdr_brightness_hdr_image_label (8068442758910393158) -->
-    <skip />
-    <!-- no translation found for hdr_brightness_warning (2755151579539607928) -->
-    <skip />
+    <string name="hdr_brightness_title" msgid="6997980740096282616">"Uzlabots HDR spilgtums"</string>
+    <string name="hdr_brightness_level_title" msgid="770342878327164738">"Intensitāte"</string>
+    <string name="hdr_brightness_standard_image_label" msgid="8262353134660098785">"Standarta attēls"</string>
+    <string name="hdr_brightness_hdr_image_label" msgid="8068442758910393158">"HDR attēls"</string>
+    <string name="hdr_brightness_warning" msgid="2755151579539607928">"Šis iestatījums attiecas tikai uz attēliem un videoklipiem, kas atbalsta augstu dinamisko diapazonu (HDR)."</string>
     <string name="display_white_balance_title" msgid="2624544323029364713">"Displeja baltās krāsas balanss"</string>
     <string name="display_white_balance_summary" msgid="7625456704950209050"></string>
     <string name="fold_lock_behavior_title" msgid="786228803694268449">"Turpināt izmantot lietotnes, kad ierīce ir salocīta"</string>
@@ -1441,8 +1438,7 @@
     <string name="dark_ui_bedtime_footer_action" msgid="1493095487994054339">"Gulēšanas režīma iestatījumi"</string>
     <string name="dark_ui_modes_footer_summary" msgid="1041117250408363391">"{count,plural,offset:2 =0{Režīmi var arī aktivizēt tumšo motīvu.}=1{Režīms “{mode_1}” arī aktivizē tumšo motīvu.}=2{Režīmi “{mode_1}” un “{mode_2}” arī aktivizē tumšo motīvu.}=3{Režīmi “{mode_1}”, “{mode_2}” un “{mode_3}” arī aktivizē tumšo motīvu.}zero{Režīmi “{mode_1}”, “{mode_2}” un vēl # režīmi arī aktivizē tumšo motīvu.}one{Režīmi “{mode_1}”, “{mode_2}” un vēl # režīms arī aktivizē tumšo motīvu.}other{Režīmi “{mode_1}”, “{mode_2}” un vēl # režīmi arī aktivizē tumšo motīvu.}}"</string>
     <string name="dark_ui_modes_footer_action" msgid="80671811848446248">"Režīmu iestatījumi"</string>
-    <!-- no translation found for hdr_brigtness_text (1912629316654528876) -->
-    <skip />
+    <string name="hdr_brigtness_text" msgid="1912629316654528876">"Augsta dinamiskā diapazona (HDR) attēlos un videoklipos nodrošina spilgtāku un plašāku krāsu diapazonu un labāku asumu. HDR saturs tiks rādīts spilgtāks."</string>
     <string name="screen_timeout" msgid="7709947617767439410">"Ekrāna noildze"</string>
     <string name="screen_timeout_summary" msgid="5558778019594643427">"Pēc <xliff:g id="TIMEOUT_DESCRIPTION">%1$s</xliff:g> neaktivitātes"</string>
     <string name="screen_timeout_summary_not_set" msgid="5107680774964178875">"Nav iestatīts"</string>
@@ -2146,6 +2142,14 @@
     <string name="mouse_keys_seek_bar_increase_button_description" msgid="2721662400858172203">"Palielināt"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"Ritināšana pretējā virzienā"</string>
     <string name="mouse_keys_use_primary_keys_title" msgid="525897583406210252">"Izmantot galvenos taustiņus"</string>
+    <!-- no translation found for mouse_keys_reset_button_label (513004295662247230) -->
+    <skip />
+    <!-- no translation found for mouse_keys_primary_keys_image_list_title (7470827693078490251) -->
+    <skip />
+    <!-- no translation found for mouse_keys_numpad_keys_image_list_title (6682341389811538017) -->
+    <skip />
+    <!-- no translation found for mouse_keys_numpad_keys_image_list_summary (2728318055237217919) -->
+    <skip />
     <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"Ritiniet augšup, lai pārvietotu lapu uz leju"</string>
     <string name="mouse_scrolling_category_title" msgid="2992126595687187296">"Ritināšana"</string>
     <string name="mouse_scrolling_acceleration" msgid="7119758828203396430">"Kontrolēta ritināšana"</string>
@@ -3535,8 +3539,7 @@
     <string name="keywords_display_wallpaper" msgid="8478137541939526564">"fons, personalizēt, pielāgot displeju"</string>
     <string name="keywords_display_font_size" msgid="3593317215149813183">"teksta lielums"</string>
     <string name="keywords_display_cast_screen" msgid="2572331770299149370">"projekcija, apraide, ekrāna spoguļošana, ekrāna kopīgošana, spoguļošana, kopīgot ekrānu, ekrāna apraide"</string>
-    <!-- no translation found for keywords_display_hdr_brightness (2553194332263860092) -->
-    <skip />
+    <string name="keywords_display_hdr_brightness" msgid="2553194332263860092">"hdr, spilgtums, augsts dinamiskais diapazons, padarīt spilgtāku, spilgtāks"</string>
     <string name="keywords_storage" msgid="3004667910133021783">"vieta, disks, cietais disks, ierīces lietojums"</string>
     <string name="keywords_battery" msgid="7040323668283600530">"jaudas lietojums, uzlāde"</string>
     <string name="keywords_battery_usage" msgid="1763573071014260220">"skatīt akumulatora lietojumu, akumulatora lietojums, enerģijas patēriņš"</string>
@@ -3658,6 +3661,14 @@
     <string name="emergency_tone_alert" msgid="1977698889522966589">"Signāli"</string>
     <string name="emergency_tone_vibrate" msgid="6282296789406984698">"Vibrācija"</string>
     <string name="boot_sounds_title" msgid="5033062848948884111">"Ieslēgšanas skaņas"</string>
+    <!-- no translation found for sound_patterns_category_title (4290495769747444271) -->
+    <skip />
+    <!-- no translation found for sound_audio_category_title (3445871661303518618) -->
+    <skip />
+    <!-- no translation found for system_sounds_and_vibrations_category_title (4162079598490981456) -->
+    <skip />
+    <!-- no translation found for work_profile_sound_category_title (1708926655170323454) -->
+    <skip />
     <string name="live_caption_title" msgid="8617086825712756983">"Subtitri reāllaikā"</string>
     <string name="live_caption_summary" msgid="2898451867595161809">"Automātiskie paraksti multividei"</string>
     <string name="spatial_audio_wired_headphones" msgid="2237355789145828648">"Vadu austiņas"</string>
@@ -3822,10 +3833,8 @@
     <string name="notification_app_level_summarize_title" msgid="3829343457958246733">"Paziņojumu apkopošana"</string>
     <string name="notification_app_level_summarize_subtext" msgid="7949649262631157728">"Apkopojiet paziņojumus par sarunām no šīs lietotnes."</string>
     <string name="live_notifications" msgid="4650406646292963831">"Paziņojumi reāllaikā"</string>
-    <!-- no translation found for live_notifications_switch (7745275403210881110) -->
-    <skip />
-    <!-- no translation found for live_notifications_desc (6857161077319125625) -->
-    <skip />
+    <string name="live_notifications_switch" msgid="7745275403210881110">"Reāllaika atjauninājumi"</string>
+    <string name="live_notifications_desc" msgid="6857161077319125625">"Rādīt aktīvus, laika ziņā svarīgus paziņojumus statusa joslā un bloķēšanas ekrānā"</string>
     <string name="notification_bubbles_title" msgid="5681506665322329301">"Burbuļi"</string>
     <string name="bubbles_app_toggle_title" msgid="5319021259954576150">"Burbuļi"</string>
     <string name="bubbles_conversation_toggle_title" msgid="5225039214083311316">"Sarunas rādīšana burbulī"</string>
@@ -4901,6 +4910,10 @@
     <string name="autofill_confirmation_message" msgid="4888767934273494272">"&lt;b&gt;Pārliecinieties, ka šī lietotne ir uzticama&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Google automātiskā aizpilde&gt;%1$s&lt;/xliff:g&gt; izmanto ekrānā redzamo, lai noteiktu, kādu informāciju aizpildīt automātiski."</string>
     <string name="credman_autofill_confirmation_message" msgid="843829628024668466">"&lt;b&gt;Izmantojiet lietotni &lt;xliff:g id=app_name example=Provider&gt;%1$s&lt;/xliff:g&gt;?&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; Turpmāk jaunās paroles, piekļuves atslēgas un cita informācija tiks saglabāta šeit. Lietotne &lt;xliff:g id=app_name example=Provider&gt;%1$s&lt;/xliff:g&gt; var izmantot ekrānā redzamo saturu, lai noteiktu, kādu informāciju var aizpildīt automātiski."</string>
     <string name="credman_picker_title" msgid="8442086614222006564">"Vēlamais pakalpojums parolēm, piekļuves atslēgām un autom. aizpildei"</string>
+    <!-- no translation found for credman_picker_title_new (4292105803864397398) -->
+    <skip />
+    <!-- no translation found for credman_picker_page_summary (4633938046738617332) -->
+    <skip />
     <string name="credman_confirmation_message_title" msgid="8847900085593880729">"Vai izslēgt pakalpojumu %1$s?"</string>
     <string name="credman_confirmation_message" msgid="2357324543658635239">"&lt;b&gt;Vai izslēgt šo pakalpojumu?&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; Pierakstoties netiks aizpildīta saglabātā informācija, piemēram, paroles, piekļuves atslēgas, maksājumu veidi un cita informācija. Lai izmantotu saglabāto informāciju, izvēlieties paroli, piekļuves atslēgu vai datu pakalpojumu."</string>
     <string name="account_dashboard_title_with_passkeys" msgid="648242372086733541">"Paroles, piekļuves atslēgas un konti"</string>
@@ -5468,8 +5481,7 @@
     <string name="category_name_general" msgid="7737273712848115886">"Vispārīgi"</string>
     <string name="dark_theme_main_switch_title" msgid="4045147031947562280">"Izmantot tumšo motīvu"</string>
     <string name="bluetooth_main_switch_title" msgid="8409835540311309632">"Izmantot Bluetooth"</string>
-    <!-- no translation found for hdr_brightness_main_switch_title (1850974699921514297) -->
-    <skip />
+    <string name="hdr_brightness_main_switch_title" msgid="1850974699921514297">"Izmantot uzlabotu HDR spilgtumu"</string>
     <string name="prevent_ringing_main_switch_title" msgid="4726252811262086643">"Izmantot zvana signāla novēršanu"</string>
     <string name="use_wifi_hotsopt_main_switch_title" msgid="3909731167290690539">"Izmantot Wi-Fi tīklāju"</string>
     <string name="app_pinning_main_switch_title" msgid="5465506660064032876">"Izmantot lietotņu piespraušanu"</string>
@@ -5763,10 +5775,8 @@
     <string name="audio_streams_add_source_bad_code_state_summary" msgid="6527086906921868757">"Pārbaudiet paroli un mēģiniet vēlreiz"</string>
     <string name="audio_streams_add_source_failed_state_summary" msgid="3937546443978562322">"Nevar izveidot savienojumu. Mēģiniet vēlreiz."</string>
     <string name="audio_streams_connecting_summary" msgid="7237827765572331702">"Notiek savienojuma izveide…"</string>
-    <!-- no translation found for audio_streams_dialog_failed_to_join (4942840673393552978) -->
-    <skip />
-    <!-- no translation found for audio_streams_dialog_failed_to_join_detail (1498719800517594252) -->
-    <skip />
+    <string name="audio_streams_dialog_failed_to_join" msgid="4942840673393552978">"Neizdevās pievienoties audio straumei"</string>
+    <string name="audio_streams_dialog_failed_to_join_detail" msgid="1498719800517594252">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> nevarēja izveidot savienojumu ar audio straumi"</string>
     <string name="audio_streams_dialog_stream_is_not_available" msgid="4032878851270690546">"Audio straume nav pieejama"</string>
     <string name="audio_streams_is_not_playing" msgid="8480293894696007941">"Šajā audio straumē šobrīd nekas netiek atskaņots"</string>
     <string name="audio_streams_dialog_close" msgid="8177201719298408431">"Aizvērt"</string>
@@ -5843,28 +5853,20 @@
     <string name="supervision_verify_pin_recovery_title" msgid="3166602415814821497">"E-pasta adreses verificēšana"</string>
     <string name="supervision_web_content_filters_title" msgid="3653430162065686156">"Tīmekļa satura filtri"</string>
     <string name="supervision_web_content_filters_browser_title" msgid="8737341514264129889">"Vietnes"</string>
-    <string name="supervision_web_content_filters_browser_block_explicit_sites_title" msgid="1786398287521485576">"Bloķēt necenzētu tīmekļa saturu"</string>
-    <string name="supervision_web_content_filters_browser_block_explicit_sites_summary" msgid="1427357961145247788">"Pārlūkprogrammām šajā ierīcē"</string>
-    <string name="supervision_web_content_filters_browser_allow_all_sites_title" msgid="3909739592466381845">"Atļaut visas vietnes"</string>
+    <!-- no translation found for supervision_web_content_filters_browser_filter_title (7957976669412075070) -->
+    <skip />
     <string name="supervision_web_content_filters_search_title" msgid="8608480392956106029">"Meklēšanas rezultāti"</string>
-    <string name="supervision_web_content_filters_search_filter_on_title" msgid="1136440775294190806">"Bloķēt necenzētus meklēšanas rezultātus"</string>
-    <string name="supervision_web_content_filters_search_filter_on_summary" msgid="6797184284369033101">"Meklētājprogrammām šajā ierīcē"</string>
-    <string name="supervision_web_content_filters_search_filter_off_title" msgid="7171966260908166395">"Filtrs ir izslēgts"</string>
+    <!-- no translation found for supervision_web_content_filters_search_filter_title (4212134055017429017) -->
+    <skip />
     <string name="supervision_full_screen_pin_verification_title" msgid="78513043528333399">"Ievadiet uzraudzības funkcijas PIN"</string>
     <string name="supervision_choose_your_pin_header" msgid="3872062168986738629">"Iestatīt vecāku kontroles PIN"</string>
     <string name="supervision_confirm_your_pin_header" msgid="8236956712482718354">"Apstiprināt PIN"</string>
     <string name="supervision_pin_reset_success_toast" msgid="9163550161698311831">"PIN atjaunināts"</string>
-    <!-- no translation found for supervision_delete_pin_confirm_header (8499276643990949268) -->
-    <skip />
-    <!-- no translation found for supervision_delete_pin_confirm_message (5482080400973042178) -->
-    <skip />
-    <!-- no translation found for supervision_delete_pin_supervision_enabled_header (2072311894107038402) -->
-    <skip />
-    <!-- no translation found for supervision_delete_pin_supervision_enabled_message (5643922966568203196) -->
-    <skip />
-    <!-- no translation found for supervision_delete_pin_error_header (1271034883245391839) -->
-    <skip />
-    <!-- no translation found for supervision_delete_pin_error_message (3400536232973539259) -->
-    <skip />
+    <string name="supervision_delete_pin_confirm_header" msgid="8499276643990949268">"Vai dzēst PIN?"</string>
+    <string name="supervision_delete_pin_confirm_message" msgid="5482080400973042178">"Tādējādi tiks dzēsts jūsu pašreizējais PIN visiem lietotājiem šajā ierīcē un atspējotas jūsu iestatītās vadīklas. Šo darbību nevar atsaukt."</string>
+    <string name="supervision_delete_pin_supervision_enabled_header" msgid="2072311894107038402">"Vispirms pārtrauciet vadīklu darbību citos profilos"</string>
+    <string name="supervision_delete_pin_supervision_enabled_message" msgid="5643922966568203196">"Lai turpinātu šī PIN dzēšanu un atiestatītu uzraudzības iestatījumus, pārtrauciet vadīklu darbību pārējos profilos."</string>
+    <string name="supervision_delete_pin_error_header" msgid="1271034883245391839">"PIN nevar izdzēst"</string>
+    <string name="supervision_delete_pin_error_message" msgid="3400536232973539259">"Mēģinot dzēst PIN, radās kļūda."</string>
     <string name="accessibility_illustration_content_description" msgid="557376174860150903">"<xliff:g id="FEATURE">%1$s</xliff:g>: animācija"</string>
 </resources>

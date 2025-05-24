@@ -31,7 +31,7 @@ import com.android.settingslib.metadata.EXTRA_BINDING_SCREEN_ARGS
  * @param key preference key to locate
  */
 fun makeLaunchIntent(context: Context, activityClass: Class<out Activity>, key: String?) =
-    Intent(context, activityClass).apply { highlightPreference(key) }
+    createIntent(context, activityClass).apply { highlightPreference(key) }
 
 /**
  * Returns the [Intent] to start given settings activity that is parameterized screen and then
@@ -47,7 +47,15 @@ fun makeLaunchIntent(
     activityClass: Class<out Activity>,
     arguments: Bundle,
     key: String?,
-) = Intent(context, activityClass).apply { highlightPreference(arguments, key) }
+) = createIntent(context, activityClass).apply { highlightPreference(arguments, key) }
+
+private fun createIntent(context: Context, activityClass: Class<out Activity>) =
+    Intent(context, activityClass).apply {
+        // MUST provide an action even no action is specified in AndroidManifest.xml, otherwise
+        // SettingsIntelligence starts intent with com.android.settings.SEARCH_RESULT_TRAMPOLINE
+        // action instead of given activity.
+        action = Intent.ACTION_MAIN
+    }
 
 /**
  * Sets the intent extra to highlight given preference on a parameterized screen.

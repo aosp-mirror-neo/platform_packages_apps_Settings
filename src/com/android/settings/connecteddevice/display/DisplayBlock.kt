@@ -32,16 +32,18 @@ import com.android.settings.R
 class DisplayBlock(val injector: ConnectedDisplayInjector) : FrameLayout(injector.context!!) {
     @VisibleForTesting
     val highlightPx = context.resources.getDimensionPixelSize(R.dimen.display_block_highlight_width)
-    val cornerRadiusPx =
+    private val cornerRadiusPx =
         context.resources.getDimensionPixelSize(R.dimen.display_block_corner_radius)
+    private val displayBlockPaddingPx =
+        context.resources.getDimensionPixelSize(R.dimen.display_block_padding)
+    private val paneBgColor = context.resources.getColor(R.color.display_topology_background_color)
 
-    private var _displayId: Int? = null
+    // This doesn't necessarily refer to the actual display this block represents. In case of
+    // mirroring, it will be the id of the mirrored display
+    private var displayIdToShowWallpaper: Int? = null
 
     /** Scale of the mirrored wallpaper to the actual wallpaper size. */
     private var surfaceScale: Float? = null
-
-    val displayId: Int?
-        get() = _displayId
 
     // These are surfaces which must be removed from the display block hierarchy and released once
     // the new surface is put in place. This list can have more than one item because we may get
@@ -53,7 +55,7 @@ class DisplayBlock(val injector: ConnectedDisplayInjector) : FrameLayout(injecto
 
     @VisibleForTesting
     fun updateSurfaceView() {
-        val displayId = _displayId ?: return
+        val displayId = displayIdToShowWallpaper ?: return
 
         if (parent == null) {
             Log.i(TAG, "View for display $displayId has no parent - cancelling update")
@@ -92,14 +94,17 @@ class DisplayBlock(val injector: ConnectedDisplayInjector) : FrameLayout(injecto
         }
 
     val wallpaperView = SurfaceView(context)
-    private val backgroundView =
-        View(context).apply {
-            background = context.getDrawable(R.drawable.display_block_background)
-        }
     @VisibleForTesting
     val selectionMarkerView =
         View(context).apply {
             background = context.getDrawable(R.drawable.display_block_selection_marker_background)
+        }
+
+    val roundedCornerOutline =
+        object : ViewOutlineProvider() {
+            override fun getOutline(view: View, outline: Outline) {
+                outline.setRoundRect(0, 0, view.width, view.height, cornerRadiusPx.toFloat())
+            }
         }
 
     init {
@@ -111,10 +116,13 @@ class DisplayBlock(val injector: ConnectedDisplayInjector) : FrameLayout(injecto
         stateListAnimator = null
 
         addView(wallpaperView)
-        addView(backgroundView)
         addView(selectionMarkerView)
 
         wallpaperView.holder.addCallback(holderCallback)
+
+        setBackgroundColor(paneBgColor)
+        outlineProvider = roundedCornerOutline
+        clipToOutline = true
     }
 
     /**
@@ -139,21 +147,27 @@ class DisplayBlock(val injector: ConnectedDisplayInjector) : FrameLayout(injecto
     /**
      * Sets position and size of the block given coordinates in pane space.
      *
-     * @param displayId ID of display this block represents, needed for fetching wallpaper
+     * @param displayIdToShowWallpaper ID of the display whose wallpaper would be projected on this
+     *  display block.
      * @param topLeft coordinates of top left corner of the block, not including highlight border
      * @param bottomRight coordinates of bottom right corner of the block, not including highlight
      *   border
      * @param surfaceScale scale in pixels of the size of the wallpaper mirror to the actual
      *   wallpaper on the screen - should be less than one to indicate scaling to smaller size
      */
-    fun reset(displayId: Int, topLeft: PointF, bottomRight: PointF, surfaceScale: Float) {
+    fun reset(
+        displayIdToShowWallpaper: Int,
+        topLeft: PointF,
+        bottomRight: PointF,
+        surfaceScale: Float,
+    ) {
         wallpaperSurface?.let { oldSurfaces.add(it) }
         injector.handler.removeCallbacks(updateSurfaceView)
         wallpaperSurface = null
         setHighlighted(false)
         positionInPane = topLeft
 
-        _displayId = displayId
+        this.displayIdToShowWallpaper = displayIdToShowWallpaper
         this.surfaceScale = surfaceScale
 
         val newWidth = (bottomRight.x - topLeft.x).toInt()
@@ -178,23 +192,19 @@ class DisplayBlock(val injector: ConnectedDisplayInjector) : FrameLayout(injecto
         // The highlight is the outermost border. The highlight is shown outside of the parent
         // FrameLayout so that it consumes the padding between the blocks.
         wallpaperView.layoutParams.let {
-            it.width = newWidth
-            it.height = newHeight
+            it.width = newWidth - 2 * displayBlockPaddingPx
+            it.height = newHeight - 2 * displayBlockPaddingPx
             if (it is MarginLayoutParams) {
-                it.leftMargin = highlightPx
-                it.topMargin = highlightPx
-                it.bottomMargin = highlightPx
-                it.topMargin = highlightPx
+                val totalPaddingPx = highlightPx + displayBlockPaddingPx
+                it.leftMargin = totalPaddingPx
+                it.topMargin = totalPaddingPx
+                it.bottomMargin = totalPaddingPx
+                it.topMargin = totalPaddingPx
             }
             wallpaperView.layoutParams = it
         }
 
-        wallpaperView.outlineProvider =
-            object : ViewOutlineProvider() {
-                override fun getOutline(view: View, outline: Outline) {
-                    outline.setRoundRect(0, 0, view.width, view.height, cornerRadiusPx.toFloat())
-                }
-            }
+        wallpaperView.outlineProvider = roundedCornerOutline
         wallpaperView.clipToOutline = true
 
         // The other two child views are MATCH_PARENT by default so will resize to fill up the

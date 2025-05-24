@@ -57,6 +57,10 @@ open class FirmwareVersionScreen : PreferenceScreenMixin, PreferenceSummaryProvi
     override val highlightMenuKey: Int
         get() = R.string.menu_key_about_device
 
+    override fun isIndexable(context: Context) = true
+
+    override fun hasCompleteHierarchy() = true
+
     override fun getLaunchIntent(context: Context, metadata: PreferenceMetadata?) =
         makeLaunchIntent(context, FirmwareVersionActivity::class.java, metadata?.key)
 

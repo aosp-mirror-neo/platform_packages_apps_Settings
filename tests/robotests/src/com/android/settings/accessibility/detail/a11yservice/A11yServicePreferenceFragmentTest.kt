@@ -489,7 +489,7 @@ class A11yServicePreferenceFragmentTest :
         val a11yServiceInfo = createA11yServiceInfo()
         if (isDefaultA11yService) {
             SettingsShadowResources.overrideResource(
-                com.android.internal.R.string.config_defaultAutofillService,
+                com.android.internal.R.string.config_defaultAccessibilityService,
                 a11yServiceInfo.componentName.flattenToString(),
             )
         }

@@ -19,8 +19,10 @@ package com.android.settings.connecteddevice.display
 import android.graphics.PointF
 import android.graphics.RectF
 import android.hardware.display.DisplayTopology
+import android.hardware.display.DisplayTopology.TreeNode
 import android.util.Log
 import android.util.Size
+import android.view.Display.DEFAULT_DISPLAY
 import android.view.MotionEvent
 import android.view.View
 import android.widget.FrameLayout
@@ -202,15 +204,34 @@ class DisplayTopologyPreference(val injector: ConnectedDisplayInjector) :
 
     @VisibleForTesting var timesRefreshedBlocks = 0
 
+    /**
+     * Updating DisplayTopology pane consists of multiple steps:
+     * 1. Update hint text
+     * 2. Prepare display blocks positioning
+     * 3. Adjust display blocks bounds and scale within the pane
+     * 4. Ensure wallpapers are revealed
+     */
     private fun applyTopology(topology: DisplayTopology) {
-        topologyHint.text = context.getString(R.string.external_display_topology_hint)
+        // Step 1
+        val showStackedMirroringDisplay =
+            isDisplayInMiroringMode(context) &&
+                injector.flags.showStackedMirroringDisplayConnectedDisplaySetting()
+        topologyHint.text =
+            if (showStackedMirroringDisplay) {
+                ""
+            } else {
+                context.getString(R.string.external_display_topology_hint)
+            }
 
+        val idToNode = topology.allNodesIdMap()
+        val logicalDisplaySizeFetcher = LogicalDisplaySizeFetcher(injector, idToNode)
+
+        // Step 2
         val oldBounds = topologyInfo?.positions
-        val newBounds = buildList {
-            val bounds = topology.absoluteBounds
-            (0..bounds.size() - 1).forEach { add(Pair(bounds.keyAt(it), bounds.valueAt(it))) }
-        }
-
+        val newBounds =
+            if (showStackedMirroringDisplay)
+                processDisplayBoundsMirroringMode(logicalDisplaySizeFetcher)
+            else processDisplayBounds(topology)
         if (
             oldBounds != null &&
                 oldBounds.size == newBounds.size &&
@@ -221,17 +242,7 @@ class DisplayTopologyPreference(val injector: ConnectedDisplayInjector) :
             return
         }
 
-        val recycleableBlocks = ArrayDeque<DisplayBlock>()
-        for (i in 0..paneContent.childCount - 1) {
-            recycleableBlocks.add(paneContent.getChildAt(i) as DisplayBlock)
-        }
-
-        val idToNode = topology.allNodesIdMap()
-        val topologyLogicalDisplaySize =
-            idToNode
-                .filter { it.key != null && it.value != null }
-                .map { it.key!! to Size(it.value.logicalWidth, it.value.logicalHeight) }
-                .toMap()
+        // Step 3
         val scaling =
             TopologyScale(
                 paneContent.width,
@@ -239,15 +250,26 @@ class DisplayTopologyPreference(val injector: ConnectedDisplayInjector) :
                 maxEdgeLength = DisplayTopology.dpToPx(MAX_EDGE_LENGTH_DP, injector.densityDpi),
                 newBounds.map { it.second },
             )
-        setupDisplayPaneAndBlocks(scaling, newBounds, topologyLogicalDisplaySize)
+        setupDisplayPaneAndBlocks(
+            scaling,
+            newBounds,
+            logicalDisplaySizeFetcher,
+            showStackedMirroringDisplay,
+        )
         topologyInfo = TopologyInfo(topology, scaling, newBounds)
 
+        // Step 4
+        val displayIdsToRevealWallpaper =
+            if (showStackedMirroringDisplay) setOf(DEFAULT_DISPLAY)
+            else {
+                idToNode.keys.toSet()
+            }
         // Construct a map containing revealers that we want to keep (keepRevealing). Then create a
         // list comprised of the values of that map as well as new revealers (revealedWallpapers).
         val keepRevealing =
             buildMap<Int, RevealedWallpaper> {
                 revealedWallpapers.forEach { r ->
-                    if (idToNode.containsKey(r.displayId)) {
+                    if (displayIdsToRevealWallpaper.contains(r.displayId)) {
                         put(r.displayId, r)
                     } else {
                         r.viewManager.removeView(r.revealer)
@@ -255,16 +277,49 @@ class DisplayTopologyPreference(val injector: ConnectedDisplayInjector) :
                 }
             }
         revealedWallpapers =
-            idToNode.keys
+            displayIdsToRevealWallpaper
                 .map { keepRevealing.get(it) ?: injector.revealWallpaper(it) }
                 .filterNotNull()
                 .toList()
     }
 
+    private fun processDisplayBounds(topology: DisplayTopology) = buildList {
+        val bounds = topology.absoluteBounds
+        (0..bounds.size() - 1).forEach { add(Pair(bounds.keyAt(it), bounds.valueAt(it))) }
+    }
+
+    private fun processDisplayBoundsMirroringMode(
+        logicalDisplaySizeFetcher: LogicalDisplaySizeFetcher
+    ): List<Pair<Int, RectF>> {
+        val displayIds = injector.getAllDisplayIds().sortedBy { it }
+
+        val bounds = mutableListOf<Pair<Int, RectF>>()
+        val mirroringDiagonalStackOffsetPx =
+            DisplayTopology.dpToPx(MIRRORING_DIAGONAL_STACK_OFFSET_DP, injector.densityDpi)
+
+        // Displays are arranged 45 degrees diagonally, with DEFAULT_DISPLAY on the front and
+        // leftmost, and other displays on the back, top-right of the display on the front.
+        for (i in 0..displayIds.size - 1) {
+            val displayId = displayIds[i]
+            val offsetPx = mirroringDiagonalStackOffsetPx * i
+            logicalDisplaySizeFetcher.get(displayId)?.let {
+                bounds.add(
+                    Pair(
+                        displayId,
+                        RectF(offsetPx, -offsetPx, it.width + offsetPx, it.height - offsetPx),
+                    )
+                )
+            }
+        }
+        // Reverse the z-order to make the first added display (DEFAULT_DISPLAY) on the front.
+        return bounds.reversed()
+    }
+
     private fun setupDisplayPaneAndBlocks(
         scaling: TopologyScale,
         newBounds: List<Pair<Int, RectF>>,
-        topologyLogicalDisplaySize: Map<Int, Size>,
+        logicalDisplaySizeFetcher: LogicalDisplaySizeFetcher,
+        isMirroring: Boolean,
     ) {
         // Resize pane holder
         paneHolder.layoutParams.let {
@@ -284,21 +339,27 @@ class DisplayTopologyPreference(val injector: ConnectedDisplayInjector) :
             val block =
                 recycleableBlocks.removeFirstOrNull()
                     ?: DisplayBlock(injector).apply { paneContent.addView(this) }
-            // First check from DisplayTopology for quick lookup on logical display size. If display
-            // is not in topology, then query from DisplayInfo.
-            val logicalDisplaySize =
-                topologyLogicalDisplaySize.get(id) ?: injector.getLogicalSize(id)
-            logicalDisplaySize?.let {
+            logicalDisplaySizeFetcher.get(id)?.let {
                 val topLeft = scaling.displayToPaneCoor(pos.left, pos.top)
                 val bottomRight = scaling.displayToPaneCoor(pos.right, pos.bottom)
-                block.reset(id, topLeft, bottomRight, (bottomRight.x - topLeft.x) / it.width)
+                block.reset(
+                    // Mirroring is only supported for DEFAULT_DISPLAY for now
+                    if (isMirroring) DEFAULT_DISPLAY else id,
+                    topLeft,
+                    bottomRight,
+                    (bottomRight.x - topLeft.x) / it.width,
+                )
             }
-            block.setOnTouchListener { view, ev ->
-                when (ev.actionMasked) {
-                    MotionEvent.ACTION_DOWN -> onBlockTouchDown(id, pos, block, ev)
-                    MotionEvent.ACTION_MOVE -> onBlockTouchMove(ev)
-                    MotionEvent.ACTION_UP -> onBlockTouchUp(ev)
-                    else -> false
+            if (isMirroring) {
+                block.setOnTouchListener(null)
+            } else {
+                block.setOnTouchListener { view, ev ->
+                    when (ev.actionMasked) {
+                        MotionEvent.ACTION_DOWN -> onBlockTouchDown(id, pos, block, ev)
+                        MotionEvent.ACTION_MOVE -> onBlockTouchMove(ev)
+                        MotionEvent.ACTION_UP -> onBlockTouchUp(ev)
+                        else -> false
+                    }
                 }
             }
         }
@@ -412,9 +473,32 @@ class DisplayTopologyPreference(val injector: ConnectedDisplayInjector) :
         return true
     }
 
+    /**
+     * A simple wrapper class to fetch logical display size from either DisplayTopology or directly
+     * from DisplayManager. This should used as a temporary variable only for the current
+     * DisplayTopology update.
+     */
+    private class LogicalDisplaySizeFetcher(
+        val injector: ConnectedDisplayInjector,
+        idToNode: Map<Int?, TreeNode?>,
+    ) {
+        private val topologyLogicalDisplaySize =
+            idToNode
+                .filter { it.key != null && it.value != null }
+                .map { it.key!! to Size(it.value!!.logicalWidth, it.value!!.logicalHeight) }
+                .toMap()
+
+        fun get(id: Int): Size? {
+            // First check from DisplayTopology for quick lookup on logical display size. If display
+            // is not in topology, then query from DisplayInfo.
+            return topologyLogicalDisplaySize.get(id) ?: injector.getLogicalSize(id)
+        }
+    }
+
     private companion object {
         private val MIN_EDGE_LENGTH_DP = 60f
         private val MAX_EDGE_LENGTH_DP = 256f
+        private val MIRRORING_DIAGONAL_STACK_OFFSET_DP = 120f
         private val TAG = "DisplayTopologyPreference"
     }
 }

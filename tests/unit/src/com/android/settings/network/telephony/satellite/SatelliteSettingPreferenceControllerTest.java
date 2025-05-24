@@ -28,12 +28,14 @@ import static com.android.settings.core.BasePreferenceController.UNSUPPORTED_ON_
 import static com.google.common.truth.Truth.assertThat;
 
 import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.ArgumentMatchers.anyInt;
 import static org.mockito.ArgumentMatchers.eq;
 import static org.mockito.Mockito.spy;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
 import android.content.Context;
+import android.content.res.Resources;
 import android.os.Looper;
 import android.os.PersistableBundle;
 import android.telephony.CarrierConfigManager;
@@ -58,11 +60,14 @@ import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnit;
 import org.mockito.junit.MockitoRule;
 
+import java.util.List;
+
 @RunWith(AndroidJUnit4.class)
 @UiThreadTest
 public class SatelliteSettingPreferenceControllerTest {
     private static final String KEY = "SatelliteSettingsPreferenceControllerTest";
     private static final int TEST_SUB_ID = 5;
+    private static final int TEST_CARRIER_ID = 1234;
 
     @Rule
     public final MockitoRule mMockitoRule = MockitoJUnit.rule();
@@ -71,6 +76,8 @@ public class SatelliteSettingPreferenceControllerTest {
     private CarrierConfigCache mCarrierConfigCache;
     @Mock
     private TelephonyManager mTelephonyManager;
+    @Mock
+    private Resources mResources;
 
     private Context mContext;
     private SatelliteSettingPreferenceController mController;
@@ -90,6 +97,8 @@ public class SatelliteSettingPreferenceControllerTest {
         when(mCarrierConfigCache.getSpecificConfigsForSubId(eq(TEST_SUB_ID), any())).thenReturn(
                 mCarrierConfig);
         mController = new SatelliteSettingPreferenceController(mContext, KEY);
+        when(mTelephonyManager.getSimSpecificCarrierId()).thenReturn(TEST_CARRIER_ID);
+        when(mContext.getResources()).thenReturn(mResources);
     }
 
     @Test
@@ -242,5 +251,81 @@ public class SatelliteSettingPreferenceControllerTest {
 
         assertThat(preference.getSummary()).isEqualTo(ResourcesUtils.getResourcesString(mContext,
                 "satellite_setting_disabled_summary"));
+    }
+
+    @Test
+    public void updateState_regionIsAllowed_preferenceEnabled() {
+        mCarrierConfig.putBoolean(
+                KEY_SATELLITE_ENTITLEMENT_SUPPORTED_BOOL,
+                true);
+        mCarrierConfig.putInt(
+                CarrierConfigManager.KEY_CARRIER_ROAMING_NTN_CONNECT_TYPE_INT,
+                CARRIER_ROAMING_NTN_CONNECT_MANUAL);
+        mController.initialize(TEST_SUB_ID);
+        int[] testCarrierId = new int[]{TEST_CARRIER_ID};
+        when(mResources.getIntArray(anyInt())).thenReturn(testCarrierId);
+
+        PreferenceManager preferenceManager = new PreferenceManager(mContext);
+        PreferenceScreen preferenceScreen = preferenceManager.createPreferenceScreen(mContext);
+        Preference preference = new Preference(mContext);
+        preference.setKey(KEY);
+        preference.setTitle("test title");
+        preferenceScreen.addPreference(preference);
+        mController.displayPreference(preferenceScreen);
+        mController.mTagIds = List.of(1001);
+
+        mController.updateState(preference);
+
+        assertThat(preference.isEnabled()).isEqualTo(true);
+    }
+
+    @Test
+    public void updateState_noCorrespondingCarrierId_preferenceEnabled() {
+        mCarrierConfig.putBoolean(
+                KEY_SATELLITE_ENTITLEMENT_SUPPORTED_BOOL,
+                true);
+        mCarrierConfig.putInt(
+                CarrierConfigManager.KEY_CARRIER_ROAMING_NTN_CONNECT_TYPE_INT,
+                CARRIER_ROAMING_NTN_CONNECT_MANUAL);
+        mController.initialize(TEST_SUB_ID);
+        when(mResources.getIntArray(anyInt())).thenReturn(new int[]{});
+
+        PreferenceManager preferenceManager = new PreferenceManager(mContext);
+        PreferenceScreen preferenceScreen = preferenceManager.createPreferenceScreen(mContext);
+        Preference preference = new Preference(mContext);
+        preference.setKey(KEY);
+        preference.setTitle("test title");
+        preferenceScreen.addPreference(preference);
+        mController.displayPreference(preferenceScreen);
+
+        mController.updateState(preference);
+
+        assertThat(preference.isEnabled()).isEqualTo(true);
+    }
+
+    @Test
+    public void updateState_regionIsNotAllowed_preferenceDisabled() {
+        mCarrierConfig.putBoolean(
+                KEY_SATELLITE_ENTITLEMENT_SUPPORTED_BOOL,
+                true);
+        mCarrierConfig.putInt(
+                CarrierConfigManager.KEY_CARRIER_ROAMING_NTN_CONNECT_TYPE_INT,
+                CARRIER_ROAMING_NTN_CONNECT_MANUAL);
+        mController.initialize(TEST_SUB_ID);
+        int[] testCarrierId = new int[]{TEST_CARRIER_ID};
+        when(mResources.getIntArray(anyInt())).thenReturn(testCarrierId);
+
+        PreferenceManager preferenceManager = new PreferenceManager(mContext);
+        PreferenceScreen preferenceScreen = preferenceManager.createPreferenceScreen(mContext);
+        Preference preference = new Preference(mContext);
+        preference.setKey(KEY);
+        preference.setTitle("test title");
+        preferenceScreen.addPreference(preference);
+        mController.displayPreference(preferenceScreen);
+        mController.mTagIds = List.of(100);
+
+        mController.updateState(preference);
+
+        assertThat(preference.isEnabled()).isEqualTo(false);
     }
 }

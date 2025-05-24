@@ -542,6 +542,14 @@
                 android:value="@string/menu_key_display"/>
         </activity>
 
+        <activity
+            android:name=".display.AmbientDisplayAlwaysOnActivity"
+            android:exported="true">
+            <meta-data
+                android:name="com.android.settings.HIGHLIGHT_MENU_KEY"
+                android:value="@string/menu_key_display" />
+        </activity>
+
         <activity android:name=".Settings$ScreenTimeoutActivity"
                   android:label="@string/screen_timeout"
                   android:exported="true">
@@ -2812,10 +2820,15 @@
                 <action android:name="android.settings.SUPERVISION_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
-
             <meta-data
-                android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.supervision.SupervisionDashboardFragment" />
+                android:name="com.android.settings.HIGHLIGHT_MENU_KEY"
+                android:value="@string/menu_key_supervision" />
+        </activity>
+
+        <activity
+            android:name=".supervision.SupervisionWebContentFiltersActivity"
+            android:label="@string/supervision_web_content_filters_title"
+            android:exported="true">
             <meta-data
                 android:name="com.android.settings.HIGHLIGHT_MENU_KEY"
                 android:value="@string/menu_key_supervision" />
@@ -2828,6 +2841,17 @@
             android:featureFlag="android.app.supervision.flags.supervision_manager_apis">
             <intent-filter>
                 <action android:name="android.app.supervision.action.CONFIRM_SUPERVISION_CREDENTIALS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".supervision.EnableSupervisionActivity"
+            android:excludeFromRecents="true"
+            android:theme="@style/Transparent"
+            android:exported="true"
+            android:featureFlag="android.app.supervision.flags.supervision_manager_apis">
+            <intent-filter>
+                <action android:name="android.app.supervision.action.ENABLE_SUPERVISION" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>

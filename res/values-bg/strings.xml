@@ -21,6 +21,8 @@
     <string name="create" msgid="986997212165228751">"Създаване"</string>
     <string name="allow" msgid="3763244945363657722">"Разрешаване"</string>
     <string name="deny" msgid="7326117222944479942">"Отказ"</string>
+    <!-- no translation found for edit (8128799559456697510) -->
+    <skip />
     <string name="confirmation_turn_on" msgid="2979094011928347665">"Включване"</string>
     <string name="device_info_default" msgid="1406619232867343310">"Неизвестно"</string>
     <string name="device_info_protected_single_press" msgid="3810785480060743677">"Докоснете за показване на информацията"</string>
@@ -1362,16 +1364,11 @@
     <string name="auto_brightness_description" msgid="6807117118142381193">"Яркостта на екрана ще се коригира автоматично спрямо средата и активностите ви. Можете да преместите плъзгача ръчно, за да помогнете на функцията за адаптивна яркост да научи предпочитанията ви."</string>
     <string name="auto_brightness_summary_on" msgid="2748088951224387004">"Вкл."</string>
     <string name="auto_brightness_summary_off" msgid="8077066192887677956">"Изключено"</string>
-    <!-- no translation found for hdr_brightness_title (6997980740096282616) -->
-    <skip />
-    <!-- no translation found for hdr_brightness_level_title (770342878327164738) -->
-    <skip />
-    <!-- no translation found for hdr_brightness_standard_image_label (8262353134660098785) -->
-    <skip />
-    <!-- no translation found for hdr_brightness_hdr_image_label (8068442758910393158) -->
-    <skip />
-    <!-- no translation found for hdr_brightness_warning (2755151579539607928) -->
-    <skip />
+    <string name="hdr_brightness_title" msgid="6997980740096282616">"Подобрена яркост при HDR"</string>
+    <string name="hdr_brightness_level_title" msgid="770342878327164738">"Интензивност"</string>
+    <string name="hdr_brightness_standard_image_label" msgid="8262353134660098785">"Стандартно изображение"</string>
+    <string name="hdr_brightness_hdr_image_label" msgid="8068442758910393158">"Изображение с HDR"</string>
+    <string name="hdr_brightness_warning" msgid="2755151579539607928">"Тази настройка засяга само изображенията и видеоклиповете, които поддържат HDR (голям динамичен обхват)."</string>
     <string name="display_white_balance_title" msgid="2624544323029364713">"Баланс на бялото на дисплея"</string>
     <string name="display_white_balance_summary" msgid="7625456704950209050"></string>
     <string name="fold_lock_behavior_title" msgid="786228803694268449">"Продължаване на използването на приложенията при сгъване"</string>
@@ -1441,8 +1438,7 @@
     <string name="dark_ui_bedtime_footer_action" msgid="1493095487994054339">"Настройки за режима „Време за сън“"</string>
     <string name="dark_ui_modes_footer_summary" msgid="1041117250408363391">"{count,plural,offset:2 =0{Режимите могат да активират и тъмната тема}=1{{mode_1} активира и тъмната тема}=2{{mode_1} и {mode_2} активират и тъмната тема}=3{{mode_1}, {mode_2} и {mode_3} активират и тъмната тема}other{{mode_1}, {mode_2} и още # активират и тъмната тема}}"</string>
     <string name="dark_ui_modes_footer_action" msgid="80671811848446248">"Настройки за режимите"</string>
-    <!-- no translation found for hdr_brigtness_text (1912629316654528876) -->
-    <skip />
+    <string name="hdr_brigtness_text" msgid="1912629316654528876">"Увеличаване на яркостта и разгъване на цветовата гама и яснотата в изображенията и видеоклиповете с HDR (голям динамичен обхват). Съдържанието с HDR ще изглежда по-ярко."</string>
     <string name="screen_timeout" msgid="7709947617767439410">"Време до автоматично изключване на екрана"</string>
     <string name="screen_timeout_summary" msgid="5558778019594643427">"След <xliff:g id="TIMEOUT_DESCRIPTION">%1$s</xliff:g> неактивност"</string>
     <string name="screen_timeout_summary_not_set" msgid="5107680774964178875">"Не е зададено"</string>
@@ -2146,6 +2142,14 @@
     <string name="mouse_keys_seek_bar_increase_button_description" msgid="2721662400858172203">"Увеличаване"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"Обръщане на посоката на превъртане"</string>
     <string name="mouse_keys_use_primary_keys_title" msgid="525897583406210252">"Използване на основни клавиши"</string>
+    <!-- no translation found for mouse_keys_reset_button_label (513004295662247230) -->
+    <skip />
+    <!-- no translation found for mouse_keys_primary_keys_image_list_title (7470827693078490251) -->
+    <skip />
+    <!-- no translation found for mouse_keys_numpad_keys_image_list_title (6682341389811538017) -->
+    <skip />
+    <!-- no translation found for mouse_keys_numpad_keys_image_list_summary (2728318055237217919) -->
+    <skip />
     <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"Превъртете нагоре, за да преместите страницата надолу"</string>
     <string name="mouse_scrolling_category_title" msgid="2992126595687187296">"Превъртане"</string>
     <string name="mouse_scrolling_acceleration" msgid="7119758828203396430">"Контролирано превъртане"</string>
@@ -2568,10 +2572,10 @@
     <string name="autoclick_cursor_area_size_title" msgid="8988239939645854279">"Област на кликване"</string>
     <string name="autoclick_cursor_area_size_summary" msgid="6993249143332791469">"Ако курсорът се премести извън областта за кликване, автоматичното кликване се анулира"</string>
     <string name="autoclick_cursor_area_size_dialog_option_extra_large" msgid="3802014133363801617">"Много голям"</string>
-    <string name="autoclick_cursor_area_size_dialog_option_large" msgid="1115930762484519488">"Голям"</string>
+    <string name="autoclick_cursor_area_size_dialog_option_large" msgid="1115930762484519488">"Голяма"</string>
     <string name="autoclick_cursor_area_size_dialog_option_default" msgid="4934363711068310028">"По подразбиране"</string>
-    <string name="autoclick_cursor_area_size_dialog_option_small" msgid="3987901922883658043">"Малък"</string>
-    <string name="autoclick_cursor_area_size_dialog_option_extra_small" msgid="6056674574040448864">"Много малък"</string>
+    <string name="autoclick_cursor_area_size_dialog_option_small" msgid="3987901922883658043">"Малка"</string>
+    <string name="autoclick_cursor_area_size_dialog_option_extra_small" msgid="6056674574040448864">"Много малка"</string>
     <string name="autoclick_ignore_minor_cursor_movement_title" msgid="5038721995720529808">"Пренебрегване на малките движения на курсора"</string>
     <string name="autoclick_revert_to_left_click_title" msgid="9213418243482609005">"Връщане към кликване с ляв бутон след действието"</string>
     <string name="accessibility_autoclick_navigation_title" msgid="6808216178814576714">"Променете режима за навигация, за да използвате функцията за автоматично кликване"</string>
@@ -3535,8 +3539,7 @@
     <string name="keywords_display_wallpaper" msgid="8478137541939526564">"фон, персонализиране, персонализиране на дисплея"</string>
     <string name="keywords_display_font_size" msgid="3593317215149813183">"размер на текста"</string>
     <string name="keywords_display_cast_screen" msgid="2572331770299149370">"прожектиране, предаване, дублиране на екрана, споделяне на екрана, дублиране, споделен екран, предаване на екрана"</string>
-    <!-- no translation found for keywords_display_hdr_brightness (2553194332263860092) -->
-    <skip />
+    <string name="keywords_display_hdr_brightness" msgid="2553194332263860092">"hdr, яркост, голям динамичен обхват, увеличаване на яркостта, по-ярко"</string>
     <string name="keywords_storage" msgid="3004667910133021783">"място, диск, твърд диск, използване на устройството"</string>
     <string name="keywords_battery" msgid="7040323668283600530">"разход на енергия, зареждане"</string>
     <string name="keywords_battery_usage" msgid="1763573071014260220">"преглед на използването на батерията, използване на батерията, консумация на енергия"</string>
@@ -3658,6 +3661,14 @@
     <string name="emergency_tone_alert" msgid="1977698889522966589">"Звуци"</string>
     <string name="emergency_tone_vibrate" msgid="6282296789406984698">"Вибрации"</string>
     <string name="boot_sounds_title" msgid="5033062848948884111">"Звуци при включване"</string>
+    <!-- no translation found for sound_patterns_category_title (4290495769747444271) -->
+    <skip />
+    <!-- no translation found for sound_audio_category_title (3445871661303518618) -->
+    <skip />
+    <!-- no translation found for system_sounds_and_vibrations_category_title (4162079598490981456) -->
+    <skip />
+    <!-- no translation found for work_profile_sound_category_title (1708926655170323454) -->
+    <skip />
     <string name="live_caption_title" msgid="8617086825712756983">"Надписи на живо"</string>
     <string name="live_caption_summary" msgid="2898451867595161809">"Мултимедия с автоматични надписи"</string>
     <string name="spatial_audio_wired_headphones" msgid="2237355789145828648">"Слушалки с кабел"</string>
@@ -3801,14 +3812,10 @@
     <string name="snooze_options_title" msgid="2109795569568344617">"Разрешаване на отлагането на известията"</string>
     <string name="notification_badging_title" msgid="5469616894819568917">"Точка за известия в иконата на прил."</string>
     <string name="notification_bundles" msgid="496852738958148317">"Инструмент за организиране на известията"</string>
-    <!-- no translation found for notification_bundle_promotions_summary (3196830882575438887) -->
-    <skip />
-    <!-- no translation found for notification_bundle_news_summary (2524877244105778120) -->
-    <skip />
-    <!-- no translation found for notification_bundle_social_summary (1880042768055317701) -->
-    <skip />
-    <!-- no translation found for notification_bundle_recs_summary (9200357300848343691) -->
-    <skip />
+    <string name="notification_bundle_promotions_summary" msgid="3196830882575438887">"Разпродажби, нови функции и др."</string>
+    <string name="notification_bundle_news_summary" msgid="2524877244105778120">"Водещи материали, редакторски статии и др."</string>
+    <string name="notification_bundle_social_summary" msgid="1880042768055317701">"Харесвания, публикации и др."</string>
+    <string name="notification_bundle_recs_summary" msgid="9200357300848343691">"Бюлетини, препоръчани медии и др."</string>
     <string name="notification_ai_features_title" msgid="6497959797331796296">"Известия, базирани на AI"</string>
     <string name="notification_summarization_title" msgid="1516039882005781529">"Обобщения на известията"</string>
     <string name="notification_summarization_summary" msgid="1963425736716175590">"Получавайте кратка обзорна информация за по-дългите съобщения"</string>
@@ -3817,15 +3824,12 @@
     <string name="notification_summarization_excluded_description" msgid="5819160700526641394">"Известията от тези приложения няма да бъдат обобщавани"</string>
     <string name="notification_summarization_manage_excluded_apps" msgid="1691177835156220384">"Управление на приложенията"</string>
     <string name="notification_summarization_manage_excluded_apps_title" msgid="1299744594788208296">"Разрешаване на обобщаването на известията за приложенията"</string>
-    <!-- no translation found for notification_excluded_apps (317898848790046528) -->
-    <skip />
+    <string name="notification_excluded_apps" msgid="317898848790046528">"Без включване на тези приложения"</string>
     <string name="notification_app_level_summarize_title" msgid="3829343457958246733">"Обобщаване на известията"</string>
     <string name="notification_app_level_summarize_subtext" msgid="7949649262631157728">"Обобщаване на известията за разговори от това приложение"</string>
     <string name="live_notifications" msgid="4650406646292963831">"Известия в реално време"</string>
-    <!-- no translation found for live_notifications_switch (7745275403210881110) -->
-    <skip />
-    <!-- no translation found for live_notifications_desc (6857161077319125625) -->
-    <skip />
+    <string name="live_notifications_switch" msgid="7745275403210881110">"Актуализации на живо"</string>
+    <string name="live_notifications_desc" msgid="6857161077319125625">"Показване на текущите и ограничени във времето известия в лентата на състоянието и на заключения екран"</string>
     <string name="notification_bubbles_title" msgid="5681506665322329301">"Балончета"</string>
     <string name="bubbles_app_toggle_title" msgid="5319021259954576150">"Балончета"</string>
     <string name="bubbles_conversation_toggle_title" msgid="5225039214083311316">"Показване на балонче за този разговор"</string>
@@ -4901,6 +4905,10 @@
     <string name="autofill_confirmation_message" msgid="4888767934273494272">"&lt;b&gt;Уверете се, че имате доверие на това приложение&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Функцията на Google за автоматично попълване&gt;%1$s&lt;/xliff:g&gt; използва това, което е на екрана ви, за да определи какво може да се попълни автоматично."</string>
     <string name="credman_autofill_confirmation_message" msgid="843829628024668466">"&lt;b&gt;Да се използва ли &lt;xliff:g id=app_name example=Provider&gt;%1$s&lt;/xliff:g&gt;?&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; От сега нататък тук ще се запазват новите пароли, ключове за достъп и друга информация. &lt;xliff:g id=app_name example=Provider&gt;%1$s&lt;/xliff:g&gt; може да използва съдържанието на екрана ви, за да определи какво може да бъде попълнено автоматично."</string>
     <string name="credman_picker_title" msgid="8442086614222006564">"Предпочитана услуга за пароли, ключове за достъп и автоматично попълване"</string>
+    <!-- no translation found for credman_picker_title_new (4292105803864397398) -->
+    <skip />
+    <!-- no translation found for credman_picker_page_summary (4633938046738617332) -->
+    <skip />
     <string name="credman_confirmation_message_title" msgid="8847900085593880729">"Искате ли да изключите %1$s?"</string>
     <string name="credman_confirmation_message" msgid="2357324543658635239">"&lt;b&gt;Искате ли да изключите тази услуга?&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; Запазената информация, като например пароли, ключове за достъп, начини на плащане и други данни, няма да се попълва автоматично, когато влизате в даден профил. За да използвате запазената си информация, изберете услуга за пароли, ключове за достъп или данни."</string>
     <string name="account_dashboard_title_with_passkeys" msgid="648242372086733541">"Пароли, ключове за достъп и профили"</string>
@@ -5123,8 +5131,7 @@
     <string name="title_supported_service" msgid="4275535165812691571">"След като телефонът ви се свърже със сателит"</string>
     <string name="title_supported_service_for_manual_type" msgid="6009284624466359864">"Изпълнете стъпките за свързване със сателита"</string>
     <string name="summary_supported_service" msgid="6380533552383355977">"Можете да изпращате текстови съобщения до когото пожелаете, включително до службите за спешни случаи, и да използвате ограничени данни в някои приложения. Телефонът ви ще се свърже отново с мобилна мрежа, когато е възможно."</string>
-    <!-- no translation found for summary_supported_service_without_data_supported (179845377285866178) -->
-    <skip />
+    <string name="summary_supported_service_without_data_supported" msgid="179845377285866178">"Можете да изпращате текстови съобщения на когото пожелаете, включително на службите за спешни случаи. Телефонът ви ще се свърже отново с мобилна мрежа, когато е възможно."</string>
     <string name="summary_supported_service_for_manual_type" msgid="2147958362763058271">"След като телефонът ви се свърже, можете да изпращате текстови съобщения на когото пожелаете, включително на службите за спешни случаи."</string>
     <string name="satellite_footer_content_section_0" msgid="4169483813004415556">"Имайте предвид следното"</string>
     <string name="satellite_footer_content_section_1" msgid="7925931577373229601">"Свързването със сателит може да отнеме по-дълго време. Услугата се предлага само в някои райони"</string>
@@ -5399,10 +5406,8 @@
     <string name="media_controls_lockscreen_description" msgid="3320333660404439510">"С цел бързо възобновяване на възпроизвеждането медийният плейър остава отворен на заключения екран"</string>
     <string name="media_controls_hide_player" msgid="2751439192580884015">"Скриване на плейъра"</string>
     <string name="media_controls_show_player" msgid="8504571042365814021">"Показване на плейъра"</string>
-    <!-- no translation found for media_controls_suggestions_title (4089438765632340413) -->
-    <skip />
-    <!-- no translation found for media_controls_suggestions_description (5001121785028325037) -->
-    <skip />
+    <string name="media_controls_suggestions_title" msgid="4089438765632340413">"Предложения за мултимедия"</string>
+    <string name="media_controls_suggestions_description" msgid="5001121785028325037">"Предоставяне на предложения за мултимедия от медийни приложения въз основа на активността и местоположението ви."</string>
     <string name="keywords_media_controls" msgid="8345490568291778638">"мултимедия"</string>
     <string name="camera_extensions_fallback_title" msgid="3604579046777004989">"Разрешаване на разширенията за софтуера на камерата"</string>
     <string name="camera_extensions_fallback_description" msgid="4306833827773277263">"Дава възможност за внедряването на основния софтуер за разширените функции на камерата, като например HDR, нощен режим или други разширения за камерата."</string>
@@ -5467,8 +5472,7 @@
     <string name="category_name_general" msgid="7737273712848115886">"Общи"</string>
     <string name="dark_theme_main_switch_title" msgid="4045147031947562280">"Използване на тъмна тема"</string>
     <string name="bluetooth_main_switch_title" msgid="8409835540311309632">"Използване на Bluetooth"</string>
-    <!-- no translation found for hdr_brightness_main_switch_title (1850974699921514297) -->
-    <skip />
+    <string name="hdr_brightness_main_switch_title" msgid="1850974699921514297">"Използване на подобрената яркост при HDR"</string>
     <string name="prevent_ringing_main_switch_title" msgid="4726252811262086643">"Функция за предотвратяване на звъненето"</string>
     <string name="use_wifi_hotsopt_main_switch_title" msgid="3909731167290690539">"Използване на точка за достъп до Wi-Fi"</string>
     <string name="app_pinning_main_switch_title" msgid="5465506660064032876">"Използване на функцията за фиксиране на приложение"</string>
@@ -5762,10 +5766,8 @@
     <string name="audio_streams_add_source_bad_code_state_summary" msgid="6527086906921868757">"Проверете паролата и опитайте отново"</string>
     <string name="audio_streams_add_source_failed_state_summary" msgid="3937546443978562322">"Не може да се установи връзка. Опитайте отново."</string>
     <string name="audio_streams_connecting_summary" msgid="7237827765572331702">"Установява се връзка…"</string>
-    <!-- no translation found for audio_streams_dialog_failed_to_join (4942840673393552978) -->
-    <skip />
-    <!-- no translation found for audio_streams_dialog_failed_to_join_detail (1498719800517594252) -->
-    <skip />
+    <string name="audio_streams_dialog_failed_to_join" msgid="4942840673393552978">"Присъединяването към аудиопотока не бе успешно"</string>
+    <string name="audio_streams_dialog_failed_to_join_detail" msgid="1498719800517594252">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> не успя да се свърже с аудиопотока"</string>
     <string name="audio_streams_dialog_stream_is_not_available" msgid="4032878851270690546">"Аудиопотокът не е налице"</string>
     <string name="audio_streams_is_not_playing" msgid="8480293894696007941">"В момента аудиопотокът не възпроизвежда съдържание"</string>
     <string name="audio_streams_dialog_close" msgid="8177201719298408431">"Затваряне"</string>
@@ -5842,28 +5844,20 @@
     <string name="supervision_verify_pin_recovery_title" msgid="3166602415814821497">"Потвърдете имейл адреса си"</string>
     <string name="supervision_web_content_filters_title" msgid="3653430162065686156">"Филтри за уеб съдържанието"</string>
     <string name="supervision_web_content_filters_browser_title" msgid="8737341514264129889">"Уебсайтове"</string>
-    <string name="supervision_web_content_filters_browser_block_explicit_sites_title" msgid="1786398287521485576">"Блокиране на нецензурното уеб съдържание"</string>
-    <string name="supervision_web_content_filters_browser_block_explicit_sites_summary" msgid="1427357961145247788">"За браузърите на това устройство"</string>
-    <string name="supervision_web_content_filters_browser_allow_all_sites_title" msgid="3909739592466381845">"Разрешаване на всички сайтове"</string>
+    <!-- no translation found for supervision_web_content_filters_browser_filter_title (7957976669412075070) -->
+    <skip />
     <string name="supervision_web_content_filters_search_title" msgid="8608480392956106029">"Резултати от търсенето"</string>
-    <string name="supervision_web_content_filters_search_filter_on_title" msgid="1136440775294190806">"Блокиране на резултати от търсенето с нецензурно съдържание"</string>
-    <string name="supervision_web_content_filters_search_filter_on_summary" msgid="6797184284369033101">"За търсещите машини на това устройство"</string>
-    <string name="supervision_web_content_filters_search_filter_off_title" msgid="7171966260908166395">"Филтрирането е изключено"</string>
+    <!-- no translation found for supervision_web_content_filters_search_filter_title (4212134055017429017) -->
+    <skip />
     <string name="supervision_full_screen_pin_verification_title" msgid="78513043528333399">"Въведете ПИН кода за контролиране"</string>
     <string name="supervision_choose_your_pin_header" msgid="3872062168986738629">"Задаване на ПИН код за родителските контроли"</string>
     <string name="supervision_confirm_your_pin_header" msgid="8236956712482718354">"Потвърдете ПИН кода"</string>
     <string name="supervision_pin_reset_success_toast" msgid="9163550161698311831">"ПИН кодът е актуализиран"</string>
-    <!-- no translation found for supervision_delete_pin_confirm_header (8499276643990949268) -->
-    <skip />
-    <!-- no translation found for supervision_delete_pin_confirm_message (5482080400973042178) -->
-    <skip />
-    <!-- no translation found for supervision_delete_pin_supervision_enabled_header (2072311894107038402) -->
-    <skip />
-    <!-- no translation found for supervision_delete_pin_supervision_enabled_message (5643922966568203196) -->
-    <skip />
-    <!-- no translation found for supervision_delete_pin_error_header (1271034883245391839) -->
-    <skip />
-    <!-- no translation found for supervision_delete_pin_error_message (3400536232973539259) -->
-    <skip />
+    <string name="supervision_delete_pin_confirm_header" msgid="8499276643990949268">"Да се изтрие ли ПИН кодът?"</string>
+    <string name="supervision_delete_pin_confirm_message" msgid="5482080400973042178">"Това ще изтрие текущия ви ПИН код за всички потребители на това устройство и ще деактивира контролите, които сте настроили. Това действие не може да бъде отменено."</string>
+    <string name="supervision_delete_pin_supervision_enabled_header" msgid="2072311894107038402">"Първо поставете на пауза контролите за другите потребителски профили"</string>
+    <string name="supervision_delete_pin_supervision_enabled_message" msgid="5643922966568203196">"За да продължите с изтриването на този ПИН код и с нулирането на настройките за контролиране, поставете на пауза контролите за всички други потребителски профили."</string>
+    <string name="supervision_delete_pin_error_header" msgid="1271034883245391839">"ПИН кодът не може да бъде изтрит"</string>
+    <string name="supervision_delete_pin_error_message" msgid="3400536232973539259">"При опита за изтриване на ПИН кода възникна грешка."</string>
     <string name="accessibility_illustration_content_description" msgid="557376174860150903">"Анимация за <xliff:g id="FEATURE">%1$s</xliff:g>"</string>
 </resources>

@@ -175,7 +175,7 @@ open class A11yServicePreferenceFragment : ShortcutFragment() {
         // `ACCESSIBILITY_SHORTCUT_TARGET_SERVICE`.
         val defaultService =
             ComponentName.unflattenFromString(
-                getString(com.android.internal.R.string.config_defaultAutofillService)
+                getString(com.android.internal.R.string.config_defaultAccessibilityService)
             )
 
         if (defaultService == null || name != defaultService) {
