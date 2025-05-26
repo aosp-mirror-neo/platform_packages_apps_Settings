@@ -84,7 +84,8 @@
     </PreferenceCategory>
 
 
-    <com.android.settingslib.widget.UntitledPreferenceCategory>
+    <com.android.settingslib.widget.UntitledPreferenceCategory
+        android:key="wifi_ext_category">
       <Preference
           android:key="configure_network_settings"
           android:title="@string/network_and_internet_preferences_title"

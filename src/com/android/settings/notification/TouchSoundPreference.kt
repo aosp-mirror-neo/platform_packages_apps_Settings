@@ -48,25 +48,7 @@ class TouchSoundPreference :
     override fun isAvailable(context: Context) =
         context.resources.getBoolean(R.bool.config_show_touch_sounds)
 
-    override fun storage(context: Context): KeyValueStore =
-        object : KeyValueStoreDelegate {
-            override val keyValueStoreDelegate
-                get() = context.dataStore
-
-            override fun <T : Any> setValue(key: String, valueType: Class<T>, value: T?) {
-                super.setValue(key, valueType, value)
-                val isChecked = getValue(key, valueType) as Boolean
-                val coroutineScope = CoroutineScope(Dispatchers.Default)
-                coroutineScope.launch {
-                    val audioManager = context.getSystemService(AudioManager::class.java)
-                    if (isChecked) {
-                        audioManager.loadSoundEffects()
-                    } else {
-                        audioManager.unloadSoundEffects()
-                    }
-                }
-            }
-        }
+    override fun storage(context: Context): KeyValueStore = TouchSoundStorage(context)
 
     override fun getReadPermissions(context: Context) = SettingsSystemStore.getReadPermissions()
 
@@ -83,9 +65,25 @@ class TouchSoundPreference :
 
     companion object {
         const val KEY = SOUND_EFFECTS_ENABLED
+    }
+}
 
-        private val Context.dataStore: KeyValueStore
-            get() = SettingsSystemStore.get(this).apply { setDefaultValue(KEY, true) }
+private class TouchSoundStorage(private val context: Context) : KeyValueStoreDelegate {
+    override val keyValueStoreDelegate: KeyValueStore =
+        SettingsSystemStore.get(context).apply { setDefaultValue(TouchSoundPreference.KEY, true) }
+
+    override fun <T : Any> setValue(key: String, valueType: Class<T>, value: T?) {
+        super.setValue(key, valueType, value)
+        val isChecked = getBoolean(key)
+        val coroutineScope = CoroutineScope(Dispatchers.Default.limitedParallelism(1))
+        coroutineScope.launch {
+            val audioManager = context.getSystemService(AudioManager::class.java)
+            if (isChecked == true) {
+                audioManager.loadSoundEffects()
+            } else {
+                audioManager.unloadSoundEffects()
+            }
+        }
     }
 }
 // LINT.ThenChange(TouchSoundPreferenceController.java)

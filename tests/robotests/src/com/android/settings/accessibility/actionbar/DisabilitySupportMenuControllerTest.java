@@ -26,11 +26,8 @@ import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 import static org.robolectric.Shadows.shadowOf;
 
-import android.app.settings.SettingsEnums;
 import android.content.Intent;
-import android.platform.test.annotations.DisableFlags;
-import android.platform.test.annotations.EnableFlags;
-import android.platform.test.flag.junit.SetFlagsRule;
+import android.net.Uri;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -38,7 +35,7 @@ import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.testing.EmptyFragmentActivity;
 import androidx.test.ext.junit.rules.ActivityScenarioRule;
 
-import com.android.settings.accessibility.FeedbackManager;
+import com.android.settings.R;
 import com.android.settings.core.InstrumentedPreferenceFragment;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 
@@ -52,26 +49,24 @@ import org.mockito.junit.MockitoRule;
 import org.robolectric.RobolectricTestRunner;
 import org.robolectric.annotation.Config;
 
-/** Tests for {@link FeedbackMenuController} */
+/** Tests for {@link DisabilitySupportMenuController} */
 @Config(shadows = {
         com.android.settings.testutils.shadow.ShadowFragment.class,
 })
 @RunWith(RobolectricTestRunner.class)
-public class FeedbackMenuControllerTest {
-    private static final String PACKAGE_NAME = "com.android.test";
-    private static final String DEFAULT_CATEGORY = "default category";
+public class DisabilitySupportMenuControllerTest {
+
+    private static final String TEST_URL = "http://www.example.com/disability_support";
+    private static final String EMPTY_URL = "";
 
     @Rule
     public final MockitoRule mMocks = MockitoJUnit.rule();
-    @Rule
-    public final SetFlagsRule mSetFlagsRule = new SetFlagsRule();
     @Rule
     public ActivityScenarioRule<EmptyFragmentActivity> mActivityScenario =
             new ActivityScenarioRule<>(EmptyFragmentActivity.class);
 
     private FragmentActivity mActivity;
     private InstrumentedPreferenceFragment mHost;
-    private FeedbackManager mFeedbackManager;
     @Mock
     private Lifecycle mLifecycle;
     @Mock
@@ -85,47 +80,36 @@ public class FeedbackMenuControllerTest {
         mHost = spy(new InstrumentedPreferenceFragment() {
             @Override
             public int getMetricsCategory() {
-                return 0;
+                return 0; // Not relevant for this controller
             }
         });
         when(mHost.getActivity()).thenReturn(mActivity);
         when(mMenu.add(anyInt(), anyInt(), anyInt(), anyInt())).thenReturn(mMenuItem);
-        when(mMenuItem.getItemId()).thenReturn(MenusUtils.MenuId.FEEDBACK.getValue());
-        mFeedbackManager = new FeedbackManager(mActivity, PACKAGE_NAME, DEFAULT_CATEGORY);
+        when(mMenuItem.getItemId()).thenReturn(MenusUtils.MenuId.DISABILITY_SUPPORT.getValue());
     }
 
     @Test
-    public void init_withPageId_shouldAttachToLifecycle() {
+    public void init_shouldAttachToLifecycle() {
         when(mHost.getSettingsLifecycle()).thenReturn(mLifecycle);
 
-        FeedbackMenuController.init(mHost, SettingsEnums.ACCESSIBILITY);
+        DisabilitySupportMenuController.init(mHost, TEST_URL);
 
-        verify(mLifecycle).addObserver(any(FeedbackMenuController.class));
+        verify(mLifecycle).addObserver(any(DisabilitySupportMenuController.class));
     }
 
     @Test
-    public void init_withFeedbackManager_shouldAttachToLifecycle() {
-        when(mHost.getSettingsLifecycle()).thenReturn(mLifecycle);
-
-        FeedbackMenuController.init(mHost, mFeedbackManager);
-
-        verify(mLifecycle).addObserver(any(FeedbackMenuController.class));
-    }
-
-    @Test
-    @EnableFlags(com.android.server.accessibility.Flags.FLAG_ENABLE_LOW_VISION_GENERIC_FEEDBACK)
-    public void onCreateOptionsMenu_enableLowVisionGenericFeedback_shouldAddSendFeedbackMenu() {
-        FeedbackMenuController.init(mHost, mFeedbackManager);
+    public void onCreateOptionsMenu_withValidUrl_shouldAddDisabilitySupportMenu() {
+        DisabilitySupportMenuController.init(mHost, TEST_URL);
 
         mHost.getSettingsLifecycle().onCreateOptionsMenu(mMenu, /* inflater= */ null);
 
-        verify(mMenu).add(anyInt(), anyInt(), anyInt(), anyInt());
+        verify(mMenu).add(Menu.NONE, MenusUtils.MenuId.DISABILITY_SUPPORT.getValue(), Menu.NONE,
+                R.string.accessibility_disability_support_title);
     }
 
     @Test
-    @DisableFlags(com.android.server.accessibility.Flags.FLAG_ENABLE_LOW_VISION_GENERIC_FEEDBACK)
-    public void onCreateOptionsMenu_disableLowVisionGenericFeedback_shouldNotAddSendFeedbackMenu() {
-        FeedbackMenuController.init(mHost, mFeedbackManager);
+    public void onCreateOptionsMenu_withEmptyUrl_shouldNotAddDisabilitySupportMenu() {
+        DisabilitySupportMenuController.init(mHost, EMPTY_URL);
 
         mHost.getSettingsLifecycle().onCreateOptionsMenu(mMenu, /* inflater= */ null);
 
@@ -133,24 +117,26 @@ public class FeedbackMenuControllerTest {
     }
 
     @Test
-    @EnableFlags(com.android.server.accessibility.Flags.FLAG_ENABLE_LOW_VISION_GENERIC_FEEDBACK)
-    public void onOptionsItemSelected_enableLowVisionGenericFeedback_shouldStartSendFeedback() {
-        FeedbackMenuController.init(mHost, mFeedbackManager);
+    public void onOptionsItemSelected_disabilitySupportMenuSelected_shouldStartBrowserIntent() {
+        DisabilitySupportMenuController.init(mHost, TEST_URL);
 
         mHost.getSettingsLifecycle().onOptionsItemSelected(mMenuItem);
 
-        Intent intent = shadowOf(mActivity).getNextStartedActivity();
-        assertThat(intent.getAction()).isEqualTo(Intent.ACTION_BUG_REPORT);
+        Intent startedIntent = shadowOf(mActivity).getNextStartedActivity();
+        assertThat(startedIntent).isNotNull();
+        assertThat(startedIntent.getAction()).isEqualTo(Intent.ACTION_VIEW);
+        assertThat(startedIntent.getCategories()).contains(Intent.CATEGORY_BROWSABLE);
+        assertThat(startedIntent.getData()).isEqualTo(Uri.parse(TEST_URL));
     }
 
     @Test
-    @DisableFlags(com.android.server.accessibility.Flags.FLAG_ENABLE_LOW_VISION_GENERIC_FEEDBACK)
-    public void onOptionsItemSelected_disableLowVisionGenericFeedback_shouldNotStartSendFeedback() {
-        FeedbackMenuController.init(mHost, mFeedbackManager);
+    public void onOptionsItemSelected_otherMenuItemSelected_shouldNotStartBrowserIntent() {
+        DisabilitySupportMenuController.init(mHost, TEST_URL);
+        when(mMenuItem.getItemId()).thenReturn(Menu.FIRST);
 
         mHost.getSettingsLifecycle().onOptionsItemSelected(mMenuItem);
 
-        Intent intent = shadowOf(mActivity).getNextStartedActivity();
-        assertThat(intent).isNull();
+        Intent startedIntent = shadowOf(mActivity).getNextStartedActivity();
+        assertThat(startedIntent).isNull();
     }
 }

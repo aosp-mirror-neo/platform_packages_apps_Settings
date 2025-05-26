@@ -43,10 +43,10 @@ import java.util.function.Consumer;
 /** A dialog fragment for constructing and showing audio stream dialogs. */
 public class AudioStreamsDialogFragment extends InstrumentedDialogFragment {
     private static final String TAG = "AudioStreamsDialogFragment";
-    private final DialogBuilder mDialogBuilder;
+    private DialogBuilder mDialogBuilder;
     private int mDialogId = SettingsEnums.PAGE_UNKNOWN;
 
-    AudioStreamsDialogFragment(DialogBuilder dialogBuilder, int dialogId) {
+    void init(DialogBuilder dialogBuilder, int dialogId) {
         mDialogBuilder = dialogBuilder;
         mDialogId = dialogId;
     }
@@ -58,6 +58,11 @@ public class AudioStreamsDialogFragment extends InstrumentedDialogFragment {
 
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
+        if (mDialogBuilder == null) {
+            // Will not show the dialog if mDialogBuilder is null.
+            setShowsDialog(false);
+            return null;
+        }
         return mDialogBuilder.build();
     }
 
@@ -77,7 +82,9 @@ public class AudioStreamsDialogFragment extends InstrumentedDialogFragment {
             return;
         }
         FragmentManager manager = host.getChildFragmentManager();
-        (new AudioStreamsDialogFragment(dialogBuilder, dialogId)).show(manager, TAG);
+        var dialogFragment = new AudioStreamsDialogFragment();
+        dialogFragment.init(dialogBuilder, dialogId);
+        dialogFragment.show(manager, TAG);
     }
 
     static void dismissAll(@Nullable Fragment host) {

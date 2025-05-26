@@ -32,11 +32,8 @@ import com.android.settings.R
 class DisplayBlock(val injector: ConnectedDisplayInjector) : FrameLayout(injector.context!!) {
     @VisibleForTesting
     val highlightPx = context.resources.getDimensionPixelSize(R.dimen.display_block_highlight_width)
-    private val cornerRadiusPx =
+    val cornerRadiusPx =
         context.resources.getDimensionPixelSize(R.dimen.display_block_corner_radius)
-    private val displayBlockPaddingPx =
-        context.resources.getDimensionPixelSize(R.dimen.display_block_padding)
-    private val paneBgColor = context.resources.getColor(R.color.display_topology_background_color)
 
     // This doesn't necessarily refer to the actual display this block represents. In case of
     // mirroring, it will be the id of the mirrored display
@@ -94,17 +91,14 @@ class DisplayBlock(val injector: ConnectedDisplayInjector) : FrameLayout(injecto
         }
 
     val wallpaperView = SurfaceView(context)
+    private val backgroundView =
+        View(context).apply {
+            background = context.getDrawable(R.drawable.display_block_background)
+        }
     @VisibleForTesting
     val selectionMarkerView =
         View(context).apply {
             background = context.getDrawable(R.drawable.display_block_selection_marker_background)
-        }
-
-    val roundedCornerOutline =
-        object : ViewOutlineProvider() {
-            override fun getOutline(view: View, outline: Outline) {
-                outline.setRoundRect(0, 0, view.width, view.height, cornerRadiusPx.toFloat())
-            }
         }
 
     init {
@@ -116,13 +110,10 @@ class DisplayBlock(val injector: ConnectedDisplayInjector) : FrameLayout(injecto
         stateListAnimator = null
 
         addView(wallpaperView)
+        addView(backgroundView)
         addView(selectionMarkerView)
 
         wallpaperView.holder.addCallback(holderCallback)
-
-        setBackgroundColor(paneBgColor)
-        outlineProvider = roundedCornerOutline
-        clipToOutline = true
     }
 
     /**
@@ -192,19 +183,23 @@ class DisplayBlock(val injector: ConnectedDisplayInjector) : FrameLayout(injecto
         // The highlight is the outermost border. The highlight is shown outside of the parent
         // FrameLayout so that it consumes the padding between the blocks.
         wallpaperView.layoutParams.let {
-            it.width = newWidth - 2 * displayBlockPaddingPx
-            it.height = newHeight - 2 * displayBlockPaddingPx
+            it.width = newWidth
+            it.height = newHeight
             if (it is MarginLayoutParams) {
-                val totalPaddingPx = highlightPx + displayBlockPaddingPx
-                it.leftMargin = totalPaddingPx
-                it.topMargin = totalPaddingPx
-                it.bottomMargin = totalPaddingPx
-                it.topMargin = totalPaddingPx
+                it.leftMargin = highlightPx
+                it.topMargin = highlightPx
+                it.bottomMargin = highlightPx
+                it.topMargin = highlightPx
             }
             wallpaperView.layoutParams = it
         }
 
-        wallpaperView.outlineProvider = roundedCornerOutline
+        wallpaperView.outlineProvider =
+            object : ViewOutlineProvider() {
+                override fun getOutline(view: View, outline: Outline) {
+                    outline.setRoundRect(0, 0, view.width, view.height, cornerRadiusPx.toFloat())
+                }
+            }
         wallpaperView.clipToOutline = true
 
         // The other two child views are MATCH_PARENT by default so will resize to fill up the

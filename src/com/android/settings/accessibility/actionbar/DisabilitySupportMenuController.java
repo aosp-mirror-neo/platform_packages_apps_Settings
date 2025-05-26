@@ -16,75 +16,74 @@
 
 package com.android.settings.accessibility.actionbar;
 
+import android.content.Intent;
+import android.net.Uri;
+import android.text.TextUtils;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
 import androidx.annotation.NonNull;
+import androidx.fragment.app.FragmentActivity;
 
 import com.android.settings.R;
-import com.android.settings.accessibility.FeedbackManager;
 import com.android.settings.core.InstrumentedPreferenceFragment;
 import com.android.settingslib.core.lifecycle.LifecycleObserver;
 import com.android.settingslib.core.lifecycle.events.OnCreateOptionsMenu;
 import com.android.settingslib.core.lifecycle.events.OnOptionsItemSelected;
 
 /**
- * A controller that adds feedback menu to any Settings page.
+ * A controller that adds disability support menu to any Settings page.
  */
-public class FeedbackMenuController implements LifecycleObserver, OnCreateOptionsMenu,
+public class DisabilitySupportMenuController implements LifecycleObserver, OnCreateOptionsMenu,
         OnOptionsItemSelected {
 
-    /**
-     * The menu item ID for the feedback menu option.
-     */
-    private final FeedbackManager mFeedbackManager;
+    @NonNull
+    private final InstrumentedPreferenceFragment mHost;
+
+    @NonNull
+    private final String mDisabilitySupportUrl;
 
     /**
-     * Initializes the FeedbackMenuController for an InstrumentedPreferenceFragment with a provided
-     * pade ID.
+     * Initializes the DisabilitySupportMenuController for an InstrumentedPreferenceFragment.
      *
      * @param host The InstrumentedPreferenceFragment to which the menu controller will be added.
-     * @param pageId The page ID used for feedback tracking.
-     */
-    public static void init(@NonNull InstrumentedPreferenceFragment host, int pageId) {
-        host.getSettingsLifecycle().addObserver(
-                new FeedbackMenuController(
-                        new FeedbackManager(host.getActivity(), pageId)));
-    }
-
-    /**
-     * Initializes the FeedbackMenuController for an InstrumentedPreferenceFragment with a provided
-     * FeedbackManager.
-     *
-     * @param host The InstrumentedPreferenceFragment to which the menu controller will be added.
-     * @param feedbackManager The FeedbackManager to use for handling feedback actions.
      */
     public static void init(@NonNull InstrumentedPreferenceFragment host,
-            @NonNull FeedbackManager feedbackManager) {
+            @NonNull String disabilitySupportUrl) {
         host.getSettingsLifecycle().addObserver(
-                new FeedbackMenuController(feedbackManager));
+                new DisabilitySupportMenuController(host, disabilitySupportUrl));
     }
+
 
     @Override
     public void onCreateOptionsMenu(@NonNull Menu menu, @NonNull MenuInflater inflater) {
-        if (!mFeedbackManager.isAvailable()) {
+        if (TextUtils.isEmpty(mDisabilitySupportUrl)) {
             return;
         }
-        menu.add(Menu.NONE, MenusUtils.MenuId.FEEDBACK.getValue(), Menu.NONE,
-                R.string.accessibility_send_feedback_title);
+
+        menu.add(Menu.NONE, MenusUtils.MenuId.DISABILITY_SUPPORT.getValue(), Menu.NONE,
+                R.string.accessibility_disability_support_title);
     }
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem menuItem) {
-        if (menuItem.getItemId() == MenusUtils.MenuId.FEEDBACK.getValue()) {
-            mFeedbackManager.sendFeedback();
+        if (menuItem.getItemId() == MenusUtils.MenuId.DISABILITY_SUPPORT.getValue()) {
+            final FragmentActivity activity = mHost.getActivity();
+            if (activity != null) {
+                final Intent browserIntent = new Intent(Intent.ACTION_VIEW);
+                browserIntent.addCategory(Intent.CATEGORY_BROWSABLE);
+                browserIntent.setData(Uri.parse(mDisabilitySupportUrl));
+                activity.startActivity(browserIntent);
+            }
             return true;
         }
         return false;
     }
 
-    private FeedbackMenuController(@NonNull FeedbackManager feedbackManager) {
-        mFeedbackManager = feedbackManager;
+    private DisabilitySupportMenuController(@NonNull InstrumentedPreferenceFragment host,
+            @NonNull String disabilitySupportUrl) {
+        mHost = host;
+        mDisabilitySupportUrl = disabilitySupportUrl;
     }
 }
