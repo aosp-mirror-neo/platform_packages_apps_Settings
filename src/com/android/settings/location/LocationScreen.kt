@@ -19,6 +19,7 @@ import android.app.settings.SettingsEnums
 import android.content.Context
 import android.content.Intent
 import android.location.LocationManager
+import androidx.fragment.app.Fragment
 import com.android.settings.R
 import com.android.settings.core.PreferenceScreenMixin
 import com.android.settings.flags.Flags
@@ -78,7 +79,7 @@ open class LocationScreen :
 
     override fun hasCompleteHierarchy() = false
 
-    override fun fragmentClass() = LocationSettings::class.java
+    override fun fragmentClass(): Class<out Fragment>? = LocationSettings::class.java
 
     override fun getPreferenceHierarchy(context: Context) = preferenceHierarchy(context, this) {
         +LocationMainSwitch()

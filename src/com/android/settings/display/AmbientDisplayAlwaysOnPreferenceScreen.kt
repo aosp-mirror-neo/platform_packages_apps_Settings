@@ -22,6 +22,7 @@ import android.hardware.display.AmbientDisplayConfiguration
 import android.os.SystemProperties
 import android.os.UserHandle
 import android.os.UserManager
+import androidx.fragment.app.Fragment
 import com.android.internal.R.bool.config_dozeSupportsAodWallpaper
 import com.android.settings.CatalystFragment
 import com.android.settings.CatalystSettingsActivity
@@ -131,7 +132,7 @@ open class AmbientDisplayAlwaysOnPreferenceScreen(context: Context) :
             .removeObserver(AmbientWallpaperPreference.KEY, keyedObserver)
     }
 
-    override fun fragmentClass() = AmbientPreferenceFragment::class.java
+    override fun fragmentClass(): Class<out Fragment>? = AmbientPreferenceFragment::class.java
 
     override fun isIndexable(context: Context) = true
 

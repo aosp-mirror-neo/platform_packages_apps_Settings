@@ -26,6 +26,7 @@ import android.os.storage.StorageManager
 import android.util.DataUnit
 import android.util.SparseArray
 import androidx.core.net.toUri
+import androidx.fragment.app.Fragment
 import com.android.settings.R
 import com.android.settings.core.PreferenceScreenMixin
 import com.android.settings.deviceinfo.StorageDashboardFragment
@@ -261,7 +262,7 @@ open class StoragePreferenceScreen(private val context: Context) :
     override val defaultType: Int
         get() = context.userId
 
-    override fun fragmentClass() = StorageDashboardFragment::class.java
+    override fun fragmentClass(): Class<out Fragment>? = StorageDashboardFragment::class.java
 
     private fun getStorageCache(context: Context, userId: Int): StorageCacheHelper.StorageCache {
         val cacheHelper = StorageCacheHelper(context, userId)

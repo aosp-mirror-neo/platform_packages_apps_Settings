@@ -19,6 +19,7 @@ import android.app.settings.SettingsEnums
 import android.app.supervision.flags.Flags
 import android.content.Context
 import android.content.Intent
+import androidx.fragment.app.Fragment
 import com.android.settings.R
 import com.android.settings.core.PreferenceScreenMixin
 import com.android.settings.supervision.ipc.SupervisionMessengerClient
@@ -61,7 +62,7 @@ open class SupervisionDashboardScreen : PreferenceScreenMixin, PreferenceLifecyc
     override val keywords: Int
         get() = R.string.keywords_supervision_settings
 
-    override fun fragmentClass() = SupervisionDashboardFragment::class.java
+    override fun fragmentClass(): Class<out Fragment>? = SupervisionDashboardFragment::class.java
 
     override fun getMetricsCategory() = SettingsEnums.SUPERVISION_DASHBOARD
 

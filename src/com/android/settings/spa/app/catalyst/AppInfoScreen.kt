@@ -21,6 +21,7 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import androidx.core.net.toUri
+import androidx.fragment.app.Fragment
 import com.android.settings.R
 import com.android.settings.applications.appinfo.AppInfoDashboardFragment
 import com.android.settings.core.PreferenceScreenMixin
@@ -65,7 +66,7 @@ open class AppInfoScreen(context: Context, override val arguments: Bundle) :
 
     override fun hasCompleteHierarchy() = false
 
-    override fun fragmentClass() = AppInfoDashboardFragment::class.java
+    override fun fragmentClass(): Class<out Fragment>? = AppInfoDashboardFragment::class.java
 
     override fun getPreferenceHierarchy(context: Context) = preferenceHierarchy(context, this) {}
 

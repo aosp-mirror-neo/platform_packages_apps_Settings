@@ -21,6 +21,7 @@ import android.content.Context
 import android.content.Intent
 import android.os.Build
 import android.provider.Settings
+import androidx.fragment.app.Fragment
 import com.android.settings.R
 import com.android.settings.Settings.MyDeviceInfoActivity
 import com.android.settings.core.PreferenceScreenMixin
@@ -65,7 +66,7 @@ open class MyDeviceInfoScreen :
 
     override fun isFlagEnabled(context: Context) = Flags.catalystMyDeviceInfoPrefScreen()
 
-    override fun fragmentClass() = MyDeviceInfoFragment::class.java
+    override fun fragmentClass(): Class<out Fragment>? = MyDeviceInfoFragment::class.java
 
     override fun getLaunchIntent(context: Context, metadata: PreferenceMetadata?): Intent? =
         makeLaunchIntent(context, MyDeviceInfoActivity::class.java, metadata?.key)

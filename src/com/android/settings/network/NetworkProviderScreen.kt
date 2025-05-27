@@ -19,6 +19,7 @@ import android.app.settings.SettingsEnums
 import android.content.Context
 import android.content.Intent
 import android.os.UserManager
+import androidx.fragment.app.Fragment
 import com.android.settings.R
 import com.android.settings.Settings.NetworkProviderSettingsActivity
 import com.android.settings.core.PreferenceScreenMixin
@@ -66,7 +67,7 @@ open class NetworkProviderScreen :
 
     override fun hasCompleteHierarchy() = false
 
-    override fun fragmentClass() = NetworkProviderSettings::class.java
+    override fun fragmentClass(): Class<out Fragment>? = NetworkProviderSettings::class.java
 
     override fun getPreferenceHierarchy(context: Context) =
         preferenceHierarchy(context, this) {

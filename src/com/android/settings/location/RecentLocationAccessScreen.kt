@@ -23,6 +23,7 @@ import android.icu.text.RelativeDateTimeFormatter
 import android.os.Bundle
 import android.os.UserManager
 import android.provider.Settings
+import androidx.fragment.app.Fragment
 import com.android.settings.R
 import com.android.settings.contract.TAG_DEVICE_STATE_SCREEN
 import com.android.settings.core.PreferenceScreenMixin
@@ -35,7 +36,6 @@ import com.android.settingslib.metadata.PreferenceSummaryProvider
 import com.android.settingslib.metadata.PreferenceTitleProvider
 import com.android.settingslib.metadata.ProvidePreferenceScreen
 import com.android.settingslib.metadata.preferenceHierarchy
-import com.android.settingslib.preference.PreferenceScreenCreator
 import com.android.settingslib.utils.StringUtil
 
 @ProvidePreferenceScreen(RecentLocationAccessScreen.KEY)
@@ -65,7 +65,8 @@ open class RecentLocationAccessScreen: PreferenceScreenMixin, PreferenceAvailabi
         )
     )
 
-    override fun fragmentClass() = RecentLocationAccessSeeAllFragment::class.java
+    override fun fragmentClass(): Class<out Fragment>? =
+        RecentLocationAccessSeeAllFragment::class.java
 
     override fun getPreferenceHierarchy(context: Context) = preferenceHierarchy(context, this) {
         // not showing system app access for now
