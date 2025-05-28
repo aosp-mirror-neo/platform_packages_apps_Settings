@@ -251,10 +251,21 @@ public class ConfirmLockPassword extends ConfirmDeviceCredentialBaseActivity {
                             ? getDefaultCheckboxLabel()
                             : mCheckBoxLabel);
                 }
-                if (mCancelButton != null && TextUtils.isEmpty(mAlternateButtonText)) {
-                    mCancelButton.setText(mIsAlpha
-                            ? R.string.lockpassword_forgot_password
-                            : R.string.lockpassword_forgot_pin);
+                if (TextUtils.isEmpty(mAlternateButtonText)) {
+                    int forgotLockPasswordResId =
+                            mIsAlpha
+                                    ? R.string.lockpassword_forgot_password
+                                    : R.string.lockpassword_forgot_pin;
+                    if (mExpressiveTheme
+                            && mFooterBarMixin != null
+                            && mFooterBarMixin.getSecondaryButton() != null) {
+                        mFooterBarMixin
+                                .getSecondaryButton()
+                                .setText(getActivity(), forgotLockPasswordResId);
+
+                    } else if (mCancelButton != null) {
+                        mCancelButton.setText(forgotLockPasswordResId);
+                    }
                 }
                 updateRemoteLockscreenValidationViews();
             }

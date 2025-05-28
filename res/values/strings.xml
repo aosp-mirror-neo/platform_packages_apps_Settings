@@ -93,9 +93,9 @@
     <string name="preview_pager_next_button">Next preview</string>
 
     <!-- Description for the button that makes interface elements smaller. [CHAR_LIMIT=NONE] -->
-    <string name="font_size_make_smaller_desc">Make smaller</string>
+    <string name="font_size_make_smaller_desc">Make font size smaller</string>
     <!-- Description for the button that makes interface elements larger. [CHAR_LIMIT=NONE] -->
-    <string name="font_size_make_larger_desc">Make larger</string>
+    <string name="font_size_make_larger_desc">Make font size bigger</string>
 
     <!-- Title for stay awake on fold radio button. [CHAR_LIMIT=NONE] -->
     <string name="stay_awake_on_fold_title">Always</string>
@@ -2097,6 +2097,10 @@
     <string name="bluetooth_device_context_disconnect">Disconnect</string>
     <!-- Bluetooth settings.  Context menu item for a device.  Action will first pair, and then connect to all profiles on the device. -->
     <string name="bluetooth_device_context_pair_connect">Pair &amp; connect</string>
+    <!-- Bluetooth settings.  Message when connecting to a device -->
+    <string name="bluetooth_connecting">Connecting</string>
+    <!-- Bluetooth settings.  Message when disconnecting from a device -->
+    <string name="bluetooth_disconnecting">Disconnecting</string>
     <!-- Bluetooth settings. Text displayed when Bluetooth is off and device list is empty [CHAR LIMIT=NONE]-->
     <string name="bluetooth_empty_list_bluetooth_off">When Bluetooth is turned on, your device can communicate with other nearby Bluetooth devices</string>
     <!-- Bluetooth settings. Text displayed when Bluetooth is off and device list is empty when auto-on feature is enabled [CHAR LIMIT=NONE]-->
@@ -10504,6 +10508,12 @@ Data usage charges may apply.</string>
     <!-- Summary for the entrypoint that navigates to the App Data Sharing Updates page. [CHAR LIMIT=130]-->
     <string name="app_data_sharing_updates_summary">Review apps that changed the way they may share your location data</string>
 
+    <!-- Title for the entrypoint that navigates to the App Function Access Settings page. [CHAR LIMIT=70]-->
+    <string name="app_function_access_settings_title">Agent control of other apps</string>
+
+    <!-- Summary for the entrypoint that navigates to the App Function Access Settings page. [CHAR LIMIT=130]-->
+    <string name="app_function_access_settings_summary">Perform actions on your device and in other apps</string>
+
     <!-- Label for tap to wake setting [CHAR LIMIT=30] -->
     <string name="tap_to_wake">Tap to wake</string>
 
@@ -10961,9 +10971,9 @@ Data usage charges may apply.</string>
     <!-- Title of the screen zoom preview activity. -->
     <string name="screen_zoom_preview_title">Preview</string>
     <!-- Description for the button that makes interface elements smaller. [CHAR_LIMIT=NONE] -->
-    <string name="screen_zoom_make_smaller_desc">Make smaller</string>
+    <string name="screen_zoom_make_smaller_desc">Make display size smaller</string>
     <!-- Description for the button that makes interface elements larger. [CHAR_LIMIT=NONE] -->
-    <string name="screen_zoom_make_larger_desc">Make larger</string>
+    <string name="screen_zoom_make_larger_desc">Make display size bigger</string>
 
     <!-- Wi-Fi state - Disconnected [CHAR LIMIT=NONE] -->
     <string name="disconnected">Not connected</string>
@@ -14530,6 +14540,10 @@ Data usage charges may apply.</string>
     <!-- Title on activity to confirm PIN for supervision setup [CHAR LIMIT=NONE] -->
     <string name="supervision_confirm_your_pin_header">Confirm PIN</string>
     <string name="supervision_pin_reset_success_toast">PIN updated</string>
+    <!-- Content description for the action button in the supervision promo footer.
+         This button typically opens a related application or a web page for more information.
+         [CHAR LIMIT=NONE] -->
+    <string name="supervision_promo_footer_action_button_description">Open app</string>
     <!-- Title on dialog that confirms whether user wants to delete their supervision PIN [CHAR LIMIT=NONE] -->
     <string name="supervision_delete_pin_confirm_header">Delete PIN?</string>
     <!-- Message in dialog that confirms whether user wants to delete their supervision PIN [CHAR LIMIT=NONE] -->

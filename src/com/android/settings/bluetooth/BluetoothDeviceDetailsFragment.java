@@ -402,7 +402,7 @@ public class BluetoothDeviceDetailsFragment extends BluetoothDetailsConfigurable
     @Override
     protected List<AbstractPreferenceController> createPreferenceControllers(Context context) {
         ArrayList<AbstractPreferenceController> controllers = new ArrayList<>();
-        if (cachedDevice != null) {
+        if (isCachedDeviceInitialized()) {
             Lifecycle lifecycle = getSettingsLifecycle();
             controllers.add(
                     new BluetoothDetailsBannerController(
