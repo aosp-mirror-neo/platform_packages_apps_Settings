@@ -13298,6 +13298,14 @@ Data usage charges may apply.</string>
     <!-- Confirmation dialog title to ensure user wishes to enable 16 KB page size -->
     <string name="confirm_enable_16k_pages_title">Switch from 4 KB mode to 16 KB mode</string>
     <!-- Warning dialog message to confirm user wishes to enable 16 KB page size -->
+    <string name="confirm_enable_16k_pages_update_wipe"> This device’s data partition needs to be converted to ext4 before using the 16 KB developer option.
+        The device will be wiped and the filesystem will be changed to ext4 after confirmation. You are in production mode running a 4 KB kernel,
+        and you are switching to the 16 KB mode. Once you are in this mode, you can switch back and forth between 4 KB and 16 KB mode with a single reboot.
+        Software integrity cannot be guaranteed in this mode, and any data stored on the phone while the bootloader is unlocked may be at risk.
+        Some features will be disabled in these modes, so some applications may not work. To return the device to production mode,
+        you would need to then switch back to the 4 KB mode and lock the bootloader, which factory resets the device.
+        After the device successfully boots into Android, disable OEM unlocking in Developer options.
+        To proceed, click on \'Erase all data and update\'. This will reboot the device.</string>
     <string name="confirm_enable_16k_pages_text">You are in the page-agnostic mode running a 4 KB kernel, and you are switching to the 16 KB mode.
         Software integrity cannot be guaranteed in this mode, and any data stored on the phone while the bootloader is unlocked may be at risk.
         This will reboot the device. Some features will be disabled in these modes, so some applications may not work.
@@ -13313,17 +13321,8 @@ Data usage charges may apply.</string>
     <!-- Toast message when 16k OTA update fails -->
     <string name="toast_16k_update_failed_text">Failed to update kernel to 16 KB pages compatible kernel.</string>
     <string name="progress_16k_ota_title">Applying change</string>
-    <!-- Confirmation dialog title and text to reformat data to ext4 -->
-    <string name="confirm_format_ext4_title">Reformat device to ext4? (required for 16 KB mode)</string>
-    <string name="confirm_format_ext4_text">This device’s data partition needs to be converted to ext4 before using the 16 KB developer option.
-        Software integrity cannot be guaranteed in this mode, and any data stored on the phone while the bootloader is unlocked may be at risk.
-        Activating the 16 KB option will require one more reboot after this. Once you are in this mode, you can switch back and forth between 4 KB and 16 KB mode with a single reboot.
-        Some features will be disabled in these modes, so some applications may not work. To return the device to production mode, you would need to switch back to 4 KB mode and
-        then lock the bootloader, which factory resets the device. After the device successfully boots into Android, disable OEM unlocking in Developer options.
-        The device will be wiped and the filesystem will be changed to ext4 after confirmation. After this completes, please come back to enable 16 KB again.
-    </string>
     <!-- Text for confirmation buttion for ext4 -->
-    <string name="confirm_ext4_button_text">Erase all data</string>
+    <string name="confirm_ext4_button_text">Erase all data and update</string>
     <!-- Toast on failure to reformat data to ext4 -->
     <string name="format_ext4_failure_toast">Failed to reformat and wipe the data partition to ext4.</string>
     <!-- Dialog to OEM unlock the device before using 16K developer option -->
