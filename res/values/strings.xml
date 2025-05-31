@@ -5865,6 +5865,16 @@
     <string name="accessibility_disable_animations">Remove animations</string>
     <!-- Summary for the accessibility preference for disabling animations. [CHAR LIMIT=60] -->
     <string name="accessibility_disable_animations_summary">Reduce movement on the screen</string>
+    <!-- Title for the accessibility preference for the text cursor blink rate. [CHAR LIMIT=35] -->
+    <string name="accessibility_text_cursor_blink_rate_title">Text cursor blinking</string>
+    <!-- Summary for the accessibility preference for the text cursor blink rate. [CHAR LIMIT=60] -->
+    <string name="accessibility_text_cursor_blink_rate_summary">Adjust the text cursor\'s blinking speed or turn off blinking. May not be supported on all apps or websites.</string>
+    <!-- Description for the button that decreases the text cursor blink rate. [CHAR_LIMIT=NONE] -->
+    <string name="accessibility_text_cursor_blink_rate_slower_desc">Decrease blink speed</string>
+    <!-- Description for the button that increases the text cursor blink rate. [CHAR_LIMIT=NONE] -->
+    <string name="accessibility_text_cursor_blink_rate_faster_desc">Increase blink speed</string>
+    <!-- Label for the button that resets the text cursor blink rate. [CHAR_LIMIT=20] -->
+    <string name="accessibility_text_cursor_blink_rate_reset_button_label">Reset</string>
     <!-- Title for the accessibility preference for primary mono. [CHAR LIMIT=35] -->
     <string name="accessibility_toggle_primary_mono_title">Mono audio</string>
     <!-- Summary for the accessibility preference for primary mono. [CHAR LIMIT=60] -->
