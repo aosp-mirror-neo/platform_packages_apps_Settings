@@ -4384,7 +4384,7 @@
     <!-- Header shown when the password needs to be solved because the device was factory reset. [CHAR LIMIT=100] -->
     <string name="lockpassword_confirm_your_password_header_frp">Verify password</string>
 
-    <!-- Header shown when prompted for remote device credential validation. [CHAR LIMIT=17] -->
+    <!-- Header shown when prompted for remote device credential validation. [CHAR LIMIT=NONE] -->
     <string name="lockpassword_remote_validation_header">Verify it\u0027s you</string>
 
     <!-- Details shown when pattern is prompted for remote device credential validation. [CHAR LIMIT=160] -->
@@ -5137,19 +5137,39 @@
     <string name="gesture_button_done">Done</string>
 
     <!-- Title text for 'Customize action corners' preference. This preference allows the user to select actions to be triggered when moving the cursor to a corner. [CHAR LIMIT=60] -->
-    <string name="action_corners_title">Customize action corners</string>
+    <string name="action_corner_title">Customize action corners</string>
     <!-- Summary text for 'Customize action corners' preference. [CHAR LIMIT=NONE] -->
-    <string name="action_corners_summary">Use cursors to navigate the system</string>
+    <string name="action_corner_summary">Use cursors to navigate the system</string>
     <!-- Intro text for 'Customize action corners'. [CHAR LIMIT=NONE] -->
-    <string name="action_corners_intro">Choose the following areas to customize action corners</string>
+    <string name="action_corner_intro">Choose the following areas to customize action corners</string>
+    <!-- Preference title for 'Bottom-left corner'. [CHAR LIMIT=60] -->
+    <string name="action_corner_bottom_left_title">Bottom-left corner</string>
+    <!-- Preference title for 'Bottom-right corner'. [CHAR LIMIT=60] -->
+    <string name="action_corner_bottom_right_title">Bottom-right corner</string>
+    <!-- Preference title for 'Top-left corner'. [CHAR LIMIT=60] -->
+    <string name="action_corner_top_left_title">Top-left corner</string>
+    <!-- Preference title for 'Top-right corner'. [CHAR LIMIT=60] -->
+    <string name="action_corner_top_right_title">Top-right corner</string>
+    <!-- Text for 'None' action radio button. [CHAR LIMIT=60] -->
+    <string name="action_corner_action_none">None</string>
+    <!-- Text for 'Home' action radio button. [CHAR LIMIT=60] -->
+    <string name="action_corner_action_home">Home</string>
+    <!-- Text for 'Recent apps' action radio button. [CHAR LIMIT=60] -->
+    <string name="action_corner_action_recent_apps">Recent apps</string>
+    <!-- Text for 'Notifications' action radio button. [CHAR LIMIT=60] -->
+    <string name="action_corner_action_notifications">Notifications</string>
+    <!-- Text for 'Quick settings' action radio button. [CHAR LIMIT=60] -->
+    <string name="action_corner_action_quick_settings">Quick settings</string>
+    <!-- Title text for action selection dialog. [CHAR LIMIT=NONE] -->
+    <string name="action_corner_action_dialog_title">Choose a shortcut for the <xliff:g id="corner">%1$s</xliff:g></string>
     <!-- Text for 'Bottom-left corner'. [CHAR LIMIT=60] -->
-    <string name="action_corners_bottom_left_title">Bottom-left corner</string>
+    <string name="action_corner_bottom_left_name">bottom-left corner</string>
     <!-- Text for 'Bottom-right corner'. [CHAR LIMIT=60] -->
-    <string name="action_corners_bottom_right_title">Bottom-right corner</string>
+    <string name="action_corner_bottom_right_name">bottom-right corner</string>
     <!-- Text for 'Top-left corner'. [CHAR LIMIT=60] -->
-    <string name="action_corners_top_left_title">Top-left corner</string>
+    <string name="action_corner_top_left_name">top-left corner</string>
     <!-- Text for 'Top-right corner'. [CHAR LIMIT=60] -->
-    <string name="action_corners_top_right_title">Top-right corner</string>
+    <string name="action_corner_top_right_name">top-right corner</string>
 
     <!-- Title for the button to trigger the 'modifier keys settings' page. [CHAR LIMIT=35] -->
     <string name="modifier_keys_settings">Modifier keys</string>
@@ -5486,6 +5506,8 @@
     <string name="accessibility_magnification_cursor_following_title">Cursor following</string>
     <!-- Header message of cursor following mode dialog for magnification. [CHAR LIMIT=none] -->
     <string name="accessibility_magnification_cursor_following_header">Choose how Magnification follows your cursor.</string>
+    <!-- Summary for cursor following preference where cursor following setting is unavailable while partial-only capability. [CHAR LIMIT=none] -->
+    <string name="accessibility_magnification_cursor_following_unavailable_summary">Unavailable while only magnifying part of the screen</string>
     <!-- Option title of cursor following continuous mode in the mode selection dialog. [CHAR LIMIT=none] -->
     <string name="accessibility_magnification_cursor_following_continuous">Move screen continuously as mouse moves</string>
     <!-- Option title of cursor following center mode in the mode selection dialog. [CHAR LIMIT=none] -->
@@ -8717,7 +8739,7 @@ Data usage charges may apply.</string>
     <string name="zen_modes_list_title">Modes</string>
 
     <!-- Zen Modes: Intro text describing the feature. [CHAR LIMIT=NONE]-->
-    <string name="zen_modes_list_intro">Minimize distractions and take control of your attention with modes for sleep, work, driving, and everything in between.</string>
+    <string name="zen_modes_list_intro">Minimize distractions and take control of your attention with modes for sleep, work, driving, and everything in between</string>
 
     <!-- Zen Modes: Caption of the "add a mode" item in the modes list -->
     <string name="zen_modes_add_mode">Create your own mode</string>
