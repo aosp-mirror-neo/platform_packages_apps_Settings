@@ -2896,8 +2896,6 @@
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="com.android.settings.suggested.category.LOCK_SCREEN_REDACTION" />
             </intent-filter>
-            <meta-data android:name="com.android.settings.require_user_type"
-                       android:value="primary" />
             <meta-data android:name="com.android.settings.title"
                        android:resource="@string/notification_suggestion_title" />
             <meta-data android:name="com.android.settings.summary"

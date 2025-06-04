@@ -532,7 +532,6 @@ public class BluetoothDetailsProfilesController extends BluetoothDetailsControll
                                             mContext, mCachedDevice.getDevice()));
                     ThreadUtils.postOnMainThread(() -> {
                         refreshUi();
-                        mProfilesContainer.setVisible(true);
                     });
                 });
     }
@@ -581,10 +580,13 @@ public class BluetoothDetailsProfilesController extends BluetoothDetailsControll
             combinedInvisibleProfiles.addAll(additionalInvisibleProfiles);
         }
         Log.i(TAG, "Invisible profiles: " + combinedInvisibleProfiles);
+        boolean hasVisibleProfile = false;
         for (int i = 0; i < mProfilesContainer.getPreferenceCount(); ++i) {
             Preference pref = mProfilesContainer.getPreference(i);
             pref.setVisible(pref.isVisible() && !combinedInvisibleProfiles.contains(pref.getKey()));
+            hasVisibleProfile = hasVisibleProfile || pref.isVisible();
         }
+        mProfilesContainer.setVisible(hasVisibleProfile);
     }
 
     @Override
