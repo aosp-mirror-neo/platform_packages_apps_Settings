@@ -16,6 +16,8 @@
 
 package com.android.settings.deviceinfo.aboutphone;
 
+import static androidx.core.content.ContextCompat.getMainExecutor;
+
 import android.app.Activity;
 import android.app.settings.SettingsEnums;
 import android.content.Context;
@@ -57,6 +59,7 @@ import com.android.settingslib.widget.LayoutPreference;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.Executor;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.function.Consumer;
@@ -114,7 +117,7 @@ public class MyDeviceInfoFragment extends DashboardFragment
             Context context, MyDeviceInfoFragment fragment, Lifecycle lifecycle) {
         final List<AbstractPreferenceController> controllers = new ArrayList<>();
 
-        final ExecutorService executor = (fragment == null) ? null :
+        final Executor executor = (fragment == null) ? getMainExecutor(context) :
                 Executors.newSingleThreadExecutor();
         androidx.lifecycle.Lifecycle lifecycleObject = (fragment == null) ? null :
                 fragment.getLifecycle();
@@ -156,16 +159,14 @@ public class MyDeviceInfoFragment extends DashboardFragment
             }
         }
 
-        if (!Flags.catalystMyDeviceInfoPrefScreen()) {
-            EidStatus eidStatus = new EidStatus(slotSimStatus, context, executor);
-            SimEidPreferenceController simEid = new SimEidPreferenceController(context,
-                    KEY_EID_INFO);
-            simEid.init(slotSimStatus, eidStatus);
-            controllers.add(simEid);
-        }
+        EidStatus eidStatus = new EidStatus(slotSimStatus, context, executor);
+        SimEidPreferenceController simEid = new SimEidPreferenceController(context,
+                KEY_EID_INFO);
+        simEid.init(slotSimStatus, eidStatus);
+        controllers.add(simEid);
 
-        if (executor != null) {
-            executor.shutdown();
+        if (executor instanceof ExecutorService) {
+            ((ExecutorService) executor).shutdown();
         }
         return controllers;
     }
