@@ -47,10 +47,8 @@
     <string name="preview_pager_email_title" msgid="8767864657910457562">"ኢሜይል"</string>
     <string name="preview_pager_previous_button" msgid="607771113300838313">"ቀዳሚ ቅድመ ዕይታ"</string>
     <string name="preview_pager_next_button" msgid="8700907912508927271">"ቀጣይ ቅድመ ዕይታ"</string>
-    <!-- no translation found for font_size_make_smaller_desc (319927200356692406) -->
-    <skip />
-    <!-- no translation found for font_size_make_larger_desc (6739310980713118605) -->
-    <skip />
+    <string name="font_size_make_smaller_desc" msgid="319927200356692406">"የቅርጸ-ቁምፊ መጠንን አነስ ያለ አድርግ"</string>
+    <string name="font_size_make_larger_desc" msgid="6739310980713118605">"የቅርጸ-ቁምፊ መጠንን ተለቅ ያለ አድርግ"</string>
     <string name="stay_awake_on_fold_title" msgid="6590454679898134221">"ሁልጊዜ"</string>
     <string name="stay_awake_on_fold_summary" msgid="1939963751585954262">"የፊት ማሳያ መሣሪያዎን ሲያጠፉ ይበራል"</string>
     <string name="stay_awake_on_lockscreen_title" msgid="8088456642083051068">"ለመቀጠል ወደ ላይ ያንሸራትቱ"</string>
@@ -200,7 +198,8 @@
     <string name="locale_remove_menu" msgid="3521546263421387474">"አስወግድ"</string>
     <string name="add_a_language" msgid="2126220398077503271">"ቋንቋ አክል"</string>
     <string name="app_locale_preference_title" msgid="5513627099300360232">"ቋንቋ"</string>
-    <string name="locale_picker_category_title" msgid="6212064706962721255">"የተመረጠ ቋንቋ"</string>
+    <!-- no translation found for locale_picker_category_title (296835514014453679) -->
+    <skip />
     <string name="app_locales_picker_menu_title" msgid="7617427959223831373">"የመተግበሪያ ቋንቋዎች"</string>
     <string name="app_locale_picker_summary" msgid="616928580653613998">"ለእያንዳንዱ መተግበሪያ ቋንቋውን ይምረጡ"</string>
     <string name="app_locale_picker_title" msgid="2431448962911301366">"የመተግበሪያ ቋንቋ"</string>
@@ -226,10 +225,17 @@
     <string name="title_change_system_locale" msgid="4102991236063984803">"የሥርዓት ቋንቋ ወደ %s ይለወጥ?"</string>
     <string name="title_system_locale_addition" msgid="8218683660751479466">"%s ወደ ተመራጭ ቋንቋዎች ይታከል?"</string>
     <string name="desc_system_locale_addition" msgid="3409917362651596070">"እንዲሁም እርስዎ ይህን ቋንቋ እንደሚመርጡ ይህ መተግበሪያዎች እና ድር ጣቢያዎችን ያሳውቃቸዋል።"</string>
-    <string name="desc_notice_device_locale_settings_change" msgid="8311132485850714160">"የእርስዎ የመሣሪያ ቅንብሮች እና ክልላዊ አማራጮች ይለወጣሉ።"</string>
+    <!-- no translation found for desc_notice_device_locale_and_region_settings_change (909261686577914396) -->
+    <skip />
+    <!-- no translation found for desc_notice_device_locale_settings_change (5012353615235634881) -->
+    <skip />
+    <!-- no translation found for dlg_desc_delete_preferred_default_locale (690828405078078513) -->
+    <skip />
     <string name="button_label_confirmation_of_system_locale_change" msgid="5593798559604894733">"ለውጥ"</string>
-    <string name="title_unavailable_locale" msgid="2628898110416542386">"%s አይገኝም"</string>
-    <string name="desc_unavailable_locale" msgid="2201756477400935896">"ይህ ቋንቋ እንደ የስርዓት ቋንቋ ጥቅም ላይ መዋል አይችልም ግን ለመተግበሪያዎች እና ድር ጣቢያዎች ይህን ቋንቋ እንደሚመርጡ አሳውቀዋል።"</string>
+    <!-- no translation found for title_unavailable_locale (5382411204559213983) -->
+    <skip />
+    <!-- no translation found for desc_unavailable_locale (7223655766703116782) -->
+    <skip />
     <string name="locale_search_menu" msgid="297782694044826686">"ፈልግ"</string>
     <string name="language_and_region_title" msgid="8374151891112162767">"ቋንቋ እና ክልል"</string>
     <string name="language_selection_title" msgid="968179636453982415">"ቋንቋ ያክሉ"</string>
@@ -243,6 +249,12 @@
     <string name="title_change_system_locale_region" msgid="4401478579429442695">"ክልል ወደ <xliff:g id="SYSTEM_LANGUAGE_REGION">%1$s</xliff:g> ይለወጥ?"</string>
     <string name="body_change_system_locale_region" msgid="9064318449821043189">"መሣሪያዎ <xliff:g id="SYSTEM_LANGUAGE">%1$s</xliff:g> እንደ የሥርዓት ቁንቋ ያቆያል"</string>
     <string name="top_intro_numbering_system_title" msgid="3962000662073238392">"የእርስዎ መሣሪያ፣ ድር ጣቢያዎች እና መተግበሪያዎች እንዴት ቁጥሮችን እንደሚያሳዩ ይምረጡ"</string>
+    <!-- no translation found for preferred_locale_menu_up (4009560552099567485) -->
+    <skip />
+    <!-- no translation found for preferred_locale_menu_down (1033373887552535585) -->
+    <skip />
+    <!-- no translation found for preferred_locale_menu_remove (8547483341987864590) -->
+    <skip />
     <string name="regional_preferences_title" msgid="4304567374498629528">"ክልላዊ ምርጫዎች"</string>
     <string name="regional_preferences_summary" msgid="1189876997389469650">"አሃዶች እና የቁጥር ምርጫዎችን ያቀናብሩ"</string>
     <string name="regional_preferences_main_page_sub_title" msgid="4237109940015254725">"መተግበሪያዎች ተሞክሮዎን ግላዊነት ማላበስ ይችሉ ዘንድ የእርስዎን ክልላዊ ምርጫዎች ያሳውቋቸው።"</string>
@@ -281,6 +293,10 @@
     <string name="dlg_remove_locales_error_title" msgid="5875503658221562572">"ሁሉንም ቋንቋዎች ማስወገድ አይቻልም"</string>
     <string name="dlg_remove_locales_error_message" msgid="6504279959974675302">"ቢያንስ አንድ የተመረጠ ቋንቋ ያቆዩ"</string>
     <string name="locale_not_translated" msgid="3071618135527110152">"እንደ የስርዓት ቋንቋ አይገኝም"</string>
+    <!-- no translation found for dlg_title_delete_preferred_locale (4167214348946940002) -->
+    <skip />
+    <!-- no translation found for dlg_desc_delete_preferred_locale (4658301652628456858) -->
+    <skip />
     <string name="action_drag_label_move_up" msgid="3392196942330705015">"ወደ ላይ ውሰድ"</string>
     <string name="action_drag_label_move_down" msgid="9069518740553953426">"ወደ ታች ውሰድ"</string>
     <string name="action_drag_label_move_top" msgid="2430471023612171619">"ወደ ላይ ውሰድ"</string>
@@ -460,6 +476,8 @@
     <string name="security_settings_fingerprint_enroll_introduction_no_thanks" msgid="1663906389456119842">"አሁን አይደለም"</string>
     <string name="security_settings_fingerprint_enroll_introduction_agree" msgid="4068276083536421828">"እስማማለሁ"</string>
     <string name="security_settings_fingerprint_rename_description" msgid="6301505700382531086">"እንደገና ለመሰየም ሁለቴ መታ ያድርጉ"</string>
+    <!-- no translation found for security_settings_fingerprint_recognition_description (1805171116182647136) -->
+    <skip />
     <string name="setup_fingerprint_enroll_skip_title" msgid="2473807887676247264">"የጣት አሻራ ይዘለል?"</string>
     <string name="setup_fingerprint_enroll_skip_after_adding_lock_text" msgid="2412645723804450304">"የጣት አሻራን ማዋቀር አንድ ወይም ሁለት ደቂቃ ብቻ ነው የሚወስደው። ይህን ከዘለሉት የጣት አሻራዎን በኋላ ላይ በቅንብሮች ውስጥ ማከል ይችላሉ።"</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_setup" msgid="6255210343107484206">"ይህን አዶ ሲያዩ እንደ ወደ መተግበሪያዎች ሲገቡ ወይም ግዢን ሲያፀድቁ ባለ ጊዜ ላይ የጣት አሻራዎን ለማረጋገጫነት ይጠቀሙ"</string>
@@ -942,10 +960,8 @@
     <string name="bluetooth_device_context_connect" msgid="4913860372216815855">"አያይዝ"</string>
     <string name="bluetooth_device_context_disconnect" msgid="4464167389972513232">"አለያይ"</string>
     <string name="bluetooth_device_context_pair_connect" msgid="2406032703622371826">"አጣምር&amp;  አያይዝ"</string>
-    <!-- no translation found for bluetooth_connecting (5315496594905010438) -->
-    <skip />
-    <!-- no translation found for bluetooth_disconnecting (1643422701532873735) -->
-    <skip />
+    <string name="bluetooth_connecting" msgid="5315496594905010438">"በማገናኘት ላይ"</string>
+    <string name="bluetooth_disconnecting" msgid="1643422701532873735">"ግንኙነት በማቋረጥ ላይ"</string>
     <string name="bluetooth_empty_list_bluetooth_off" msgid="7326727272747345476">"ብሉቱዝ ሲበራ መሣሪያዎ ሌልች በአቅራቢያ ካሉ መሣሪያዎች ጋር መገናኘት ይችላል"</string>
     <string name="bluetooth_empty_list_bluetooth_off_auto_on_available" msgid="3430864468105204282">"ብሉቱዝ ሲበራ መሣሪያዎ በአቅራቢያ ካሉ ሌሎች የብሉቱዝ መሣሪያዎች ጋር መገናኘት ይችላል። እንደ ፈጣን ማጋራት እና የእኔን መሣሪያ አግኝ ያሉ ባህሪዎች ብሉቱዝን ይጠቀማሉ።"</string>
     <string name="bluetooth_scanning_on_info_message" msgid="786648535600075223">"ብሉቱዝ ሲበራ የእርስዎ መሣሪያ በአቅራቢያ ካሉ ሌሎች የብሉቱዝ መሣሪያዎች ጋር መነጋገር ይችላል።\n\nየመሣሪያ ተሞክሮን ለማሻሻል መተግበሪያዎች እና አገልግሎቶች ብሉቱዝ ጠፍቶ ቢሆንም እንኳን አሁንም በማንኛውም ጊዜ በአቅራቢያ ያሉ መሣሪያዎችን መቃኘት ይችላሉ። ይህ ለምሳሌ በአካባቢ ላይ የተመሠረቱ ባህሪያትን እና አገልግሎቶችን ለማሻሻል ጥቅም ላይ መዋል ይችላል። ይህን የብሉቱዝ ቅኝት ቅንብሮች ውስጥ መለወጥ ይችላሉ።"</string>
@@ -2231,40 +2247,25 @@
     <string name="gesture_button_next" msgid="695288092704187356">"ቀጣይ"</string>
     <string name="gesture_button_restart" msgid="1895850891992530133">"እንደገና ጀምር"</string>
     <string name="gesture_button_done" msgid="6387900351203032188">"ተከናውኗል"</string>
-    <!-- no translation found for action_corner_title (1489042651433221319) -->
+    <!-- no translation found for action_corner_title (7411160165577367757) -->
     <skip />
-    <!-- no translation found for action_corner_summary (695618538930535335) -->
+    <string name="action_corner_summary" msgid="695618538930535335">"ሥርዓቱን ለማሰስ ጠቋሚዎች ይጠቀሙ"</string>
+    <!-- no translation found for action_corner_intro (2170609118659718140) -->
     <skip />
-    <!-- no translation found for action_corner_intro (8782001241997579665) -->
-    <skip />
-    <!-- no translation found for action_corner_bottom_left_title (2857258272736432174) -->
-    <skip />
-    <!-- no translation found for action_corner_bottom_right_title (7222233500548465684) -->
-    <skip />
-    <!-- no translation found for action_corner_top_left_title (4633975226092344210) -->
-    <skip />
-    <!-- no translation found for action_corner_top_right_title (4995999693840776032) -->
-    <skip />
-    <!-- no translation found for action_corner_action_none (5203163099950649999) -->
-    <skip />
-    <!-- no translation found for action_corner_action_home (6779642573582379579) -->
-    <skip />
-    <!-- no translation found for action_corner_action_recent_apps (7450480676812648813) -->
-    <skip />
-    <!-- no translation found for action_corner_action_notifications (3779353356349774469) -->
-    <skip />
-    <!-- no translation found for action_corner_action_quick_settings (4660901117283653069) -->
-    <skip />
-    <!-- no translation found for action_corner_action_dialog_title (8253240813317885237) -->
-    <skip />
-    <!-- no translation found for action_corner_bottom_left_name (9193788067022476544) -->
-    <skip />
-    <!-- no translation found for action_corner_bottom_right_name (1031603363418505375) -->
-    <skip />
-    <!-- no translation found for action_corner_top_left_name (8077670910600032291) -->
-    <skip />
-    <!-- no translation found for action_corner_top_right_name (6307321595919080297) -->
-    <skip />
+    <string name="action_corner_bottom_left_title" msgid="2857258272736432174">"ከታች ግራ ጥግ"</string>
+    <string name="action_corner_bottom_right_title" msgid="7222233500548465684">"ከታች ቀኝ ጥግ"</string>
+    <string name="action_corner_top_left_title" msgid="4633975226092344210">"ከላይ ግራ ጥግ"</string>
+    <string name="action_corner_top_right_title" msgid="4995999693840776032">"ከላይ ቀኝ ጥግ"</string>
+    <string name="action_corner_action_none" msgid="5203163099950649999">"ምንም"</string>
+    <string name="action_corner_action_home" msgid="6779642573582379579">"መነሻ"</string>
+    <string name="action_corner_action_recent_apps" msgid="7450480676812648813">"የቅርብ ጊዜ መተግበሪያዎች"</string>
+    <string name="action_corner_action_notifications" msgid="3779353356349774469">"ማሳወቂያዎች"</string>
+    <string name="action_corner_action_quick_settings" msgid="4660901117283653069">"ፈጣን ቅንብሮች"</string>
+    <string name="action_corner_action_dialog_title" msgid="8253240813317885237">"ለ<xliff:g id="CORNER">%1$s</xliff:g> አቅጣጫ ይምረጡ"</string>
+    <string name="action_corner_bottom_left_name" msgid="9193788067022476544">"ከታች ግራ ጥግ"</string>
+    <string name="action_corner_bottom_right_name" msgid="1031603363418505375">"ከታች ቀኝ ጥግ"</string>
+    <string name="action_corner_top_left_name" msgid="8077670910600032291">"ከላይ ግራ ጥግ"</string>
+    <string name="action_corner_top_right_name" msgid="6307321595919080297">"ከላይ ቀኝ ጥግ"</string>
     <string name="modifier_keys_settings" msgid="2537108435032034683">"የአሻሻይ ቁልፎች"</string>
     <string name="modifier_keys_settings_summary" msgid="6933143361657444436">"የቁልፎችን ባህሪ ይለውጡ"</string>
     <string name="modifier_keys_reset_title" msgid="948294258402761066">"ሁሉንም ዳግም አስጀምር"</string>
@@ -2409,8 +2410,7 @@
     <string name="accessibility_screen_magnification_shortcut_title" msgid="2387963646377987780">"የማጉላት አቋራጭ"</string>
     <string name="accessibility_magnification_cursor_following_title" msgid="29531257984012743">"የሚከተል ጠቋሚ"</string>
     <string name="accessibility_magnification_cursor_following_header" msgid="7283095798622223509">"ማጉላት እንዴት ጠቋሚዎን እንደሚከተል ይምረጡ።"</string>
-    <!-- no translation found for accessibility_magnification_cursor_following_unavailable_summary (1683880243856242269) -->
-    <skip />
+    <string name="accessibility_magnification_cursor_following_unavailable_summary" msgid="1683880243856242269">"የተወሰነ የማያ ገፁን ክፍል ብቻ በማጉላት ላይ ሳለ አይገኝም"</string>
     <string name="accessibility_magnification_cursor_following_continuous" msgid="1119319218662522794">"መዳፊት በሚንቀሳቀስበት ጊዜ ማያ ገፁን ያለማቋረጥ ያንቀሳቅሱ"</string>
     <string name="accessibility_magnification_cursor_following_center" msgid="3504798009192014460">"መዳፊትን በማያ ገፁ መሃል ላይ አድርገው ማያ ገፁን ያንቀሳቅሱ"</string>
     <string name="accessibility_magnification_cursor_following_edge" msgid="8675207762416655758">"መዳፊት የማያ ገፁን ጠርዞች ሲነካ ማያ ገፁን ያንቀሳቅሱ"</string>
@@ -2666,6 +2666,10 @@
     <string name="accessibility_daltonizer_footer_learn_more_content_description" msgid="2091679253892040910">"ስለቀለም ማስተካከያ የበለጠ ይወቁ"</string>
     <string name="accessibility_color_inversion_about_title" msgid="8275754480247040136">"ስለተቃራኒ ቀለም"</string>
     <string name="accessibility_color_inversion_footer_learn_more_content_description" msgid="5382579548498952445">"ስለተቃራኒ ቀለም የበለጠ ይወቁ"</string>
+    <!-- no translation found for accessibility_dark_theme_footer_learn_more_helper_link (7084955775821075280) -->
+    <skip />
+    <!-- no translation found for accessibility_dark_theme_preference_footer_content (4431044600779983609) -->
+    <skip />
     <string name="accessibility_captioning_primary_switch_title" msgid="3663677340286206100">"መግለጫ ጽሑፎችን አሳይ"</string>
     <string name="accessibility_captioning_primary_switch_summary" msgid="2544094070306830218">"ለሚደገፍ መተግበሪያ ብቻ"</string>
     <string name="captioning_appearance_title" msgid="3128792092290011408">"የመግለጫ ጽሑፍ መጠን እና ቅጥ"</string>
@@ -4355,10 +4359,8 @@
     <string name="app_permissions" msgid="8666537659217653626">"የፈቃድ አቀናባሪ"</string>
     <string name="app_data_sharing_updates_title" msgid="1694297952320402788">"ለአካባቢ የውሂብ ማጋራት ዝማኔዎች"</string>
     <string name="app_data_sharing_updates_summary" msgid="4465929918457739443">"የእርስዎን የአካባቢ ውሂብ ሊያጋሩ የሚችሉበትን መንገድ የለወጡ መተግበሪያዎችን ይገምግሙ"</string>
-    <!-- no translation found for app_function_access_settings_title (1474765429611652468) -->
-    <skip />
-    <!-- no translation found for app_function_access_settings_summary (6465715820745848068) -->
-    <skip />
+    <string name="app_function_access_settings_title" msgid="1474765429611652468">"የሌሎች መተግበሪያዎች ወኪል ቁጥጥር"</string>
+    <string name="app_function_access_settings_summary" msgid="6465715820745848068">"መሣሪያዎ እና ሌሎች መተግበሪያዎች ላይ ተግባሮችን ይፈጽሙ"</string>
     <string name="tap_to_wake" msgid="3313433536261440068">"ለማንቃት መታ ያድርጉ"</string>
     <string name="tap_to_wake_summary" msgid="6641039858241611072">"መሣሪያን ለማንቃት በማያ ገጹ ማንኛውም ቦታ ላይ ሁለቴ መታ ያድርጉ"</string>
     <string name="domain_urls_title" msgid="7012209752049678876">"አገናኞችን በመክፈት ላይ"</string>
@@ -4518,10 +4520,8 @@
     <string name="screen_zoom_short_summary" msgid="756254364808639194">"ሁሉንም ነገር ያተልቁ ወይም ያሳንሱ"</string>
     <string name="screen_zoom_keywords" msgid="5964023524422386592">"የማሳያ ትፍገት፣ ማያ ገፅ ማጉያ፣ ልኬት፣ ማመጣጠን"</string>
     <string name="screen_zoom_preview_title" msgid="5288355628444562735">"ቅድመ-ዕይታ"</string>
-    <!-- no translation found for screen_zoom_make_smaller_desc (1450649885198381123) -->
-    <skip />
-    <!-- no translation found for screen_zoom_make_larger_desc (7125594310562596457) -->
-    <skip />
+    <string name="screen_zoom_make_smaller_desc" msgid="1450649885198381123">"የማሳያ መጠንን አነስ ያለ አድርግ"</string>
+    <string name="screen_zoom_make_larger_desc" msgid="7125594310562596457">"የማሳያ መጠንን ተለቅ ያለ አድርግ"</string>
     <string name="disconnected" msgid="3469373726996129247">"አልተያያዘም"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"አልተገናኘም"</string>
     <string name="apps_summary" msgid="4007416751775414252">"<xliff:g id="COUNT">%1$d</xliff:g> መተግበሪያዎች ተጭነዋል"</string>
@@ -4541,6 +4541,10 @@
     <string name="disabled_by_policy_title_financed_device" msgid="2328740314082888228">"በክሬዲት አቅራቢዎ ታግዷል"</string>
     <string name="disabled_by_policy_title_biometric_parental_consent" msgid="2463673997797134678">"ወላጅ ያስፈልጋል"</string>
     <string name="disabled_by_policy_content_biometric_parental_consent" msgid="7124116806784305206">"ይህን ማዋቀር ለመጀመር ስልኩን ለወላጅዎ ይስጡት"</string>
+    <!-- no translation found for disabled_by_policy_title_parental_controls (8875976588644052371) -->
+    <skip />
+    <!-- no translation found for disabled_by_policy_content_parental_controls (4648160125103768738) -->
+    <skip />
     <string name="disabled_by_policy_parental_consent" msgid="9166060049019018978">"ይህ ቅንብር እንዲለውጥ ለመፍቀድ ለወላጅዎ ስልኩን ይስጡ።"</string>
     <string name="default_admin_support_msg" msgid="8816296554831532033">"ለተጨማሪ መረጃ የአይቲ አስተዳዳሪዎን ያነጋግሩ"</string>
     <string name="admin_support_more_info" msgid="8407433155725898290">"ተጨማሪ ዝርዝሮች"</string>
@@ -4656,7 +4660,8 @@
     <string name="battery_tips_card_action_button_check" msgid="1535140204105479318">"ፈትሽ"</string>
     <string name="battery_tips_card_dismiss_button" msgid="1885756985544936618">"ገባኝ"</string>
     <string name="battery_tips_card_feedback_info" msgid="767117835675157298">"ይህ መልዕክት አጋዥ ነው?"</string>
-    <string name="battery_hints_warning_icon_a11y" msgid="5312542323401447620">"የባትሪ ጠቃሚ ምክሮች የማስጠንቀቂያ አዶ"</string>
+    <!-- no translation found for battery_hints_warning_icon_a11y (709629805028175434) -->
+    <skip />
     <string name="battery_tips_settings_summary_brightness" msgid="546145032616077783">"የባትሪ ዕድሜን ለማራዘም ተለዋዋጭ ብሩህነትን ያብሩ"</string>
     <string name="battery_tips_settings_summary_screen_timeout" msgid="556801426050962077">"የባትሪ ዕድሜ ለማራዘም ማያ ጊዜው ማብቂያን ይቀንሱ"</string>
     <string name="battery_tips_apps_summary_always_high" msgid="6334519477067044920">"<xliff:g id="APP_LABEL">%1$s</xliff:g> ተጨማሪ ባትሪ ተጠቅሟል"</string>
@@ -5376,15 +5381,13 @@
     <string name="enable_16k_pages" msgid="1758111531461408337">"በ16 ኪባ የገፅ መጠን አስነሳ"</string>
     <string name="enable_16k_pages_summary" msgid="1937836453571509085">"በ16 ኪባ የገፅ መጠን የሚደገፍ አውራ ከዋኝ በመጠቀም መሣሪያን አስነሳ"</string>
     <string name="confirm_enable_16k_pages_title" msgid="5477376227161609124">"ከ4 ኪባ ሁነታ ወደ 16 ኪባ ሁነታ ይቀይሩ"</string>
-    <!-- no translation found for confirm_enable_16k_pages_update_wipe (4760548401414644138) -->
-    <skip />
+    <string name="confirm_enable_16k_pages_update_wipe" msgid="4760548401414644138">"የ16 ኪባ የገንቢ አማራጭን ከመጠቀምዎ በፊት የዚህ መሣሪያ የውሂብ ክፍልፋይ ወደ ext4 መቀየር ይኖርበታል። መሣሪያው ይጠረጋል እና የፋይል ሥርዓቱ ከተረጋገጠ በኋላ ወደ ext4 ይቀየራል። 4 ኪባ አውራ ከዋኝ እያሄደ ባለው በምርት ሁነታ ላይ ነዎት እና ወደ የ16 ኪባ ሁነታ እየቀየሩ ነው። አንዴ በዚህ ሁነታ ላይ ከሆኑ፣ በአንድ ዳግም ማስነሳት ከ4 ኪባ ወደ 16 ኪባ ሁነታ መካከል መቀያየር ይችላሉ። የሶፍትዌር ታማኝነት በዚህ ሁነታ ሊረጋገጥ አይችልም፣ እና bootloader ክፍት ሆኖ ሳለ በስልኩ ላይ የተከማቸ ማንኛውም ውሂብ ለአደጋ ሊጋለጥ ይችላል። አንዳንድ ባህሪያት በእነዚህ ሁነታዎች ላይ ይሰናከላሉ፣ ስለዚህ አንዳንድ መተግበሪያዎች ላይሰሩ ይችላሉ። መሣሪያውን ወደ የምርት ሁነታ መመለስ እንዲችሉ ወደ የ4 ኪባ ሁነታ መልሶ መቀየር እና bootloaderን መቆለፍ ይኖርብዎታል፣ ይህም መሣሪያውን የፋብሪካ ዳግም ያስጀምረዋል። መሣሪያው በተሳካ ሁኔታ ወደ Android ከተነሳ በኋላ በገንቢ አማራጮች ውስጥ የOEM መክፈትን ያሰናክሉ። ለመቀጠል «ሁሉንም ውሂብ እና ዝማኔ ደምስስ» ላይ ጠቅ ያድርጉ። ይህ መሣሪያውን ዳግም ያስነሳዋል።"</string>
     <string name="confirm_enable_16k_pages_text" msgid="6211693250692246982">"4 ኪባ አውራ ከዋኝ እያሄደ ባለው በገፅ-አግኖስቲክ ሁነታ ላይ ነዎት እና ወደ የ16 ኪባ ሁነታ እየቀየሩ ነው። የሶፍትዌር ታማኝነት በዚህ ሁነታ ሊረጋገጥ አይችልም፣ እና bootloader ክፍት ሆኖ ሳለ በስልኩ ላይ የተከማቸ ማንኛውም መረጃ ለአደጋ ሊጋለጥ ይችላል። ይህ መሣሪያውን ዳግም ያስነሳዋል። አንዳንድ ባህሪያት በእነዚህ ሁነታዎች ላይ ይሰናከላሉ፣ ስለዚህ አንዳንድ መተግበሪያዎች ላይሠሩ ይችላሉ። መሣሪያውን ወደ የምርት ሁነታ መመለስ እንዲችሉ ወደ የ4 ኪባ ሁነታ መልሶ መቀየር እና bootloaderን መቆለፍ ይኖርብዎታል፣ ይህም መሣሪያውን የፋብሪካ ዳግም ያስጀምረዋል። መሣሪያው በተሳካ ሁኔታ ወደ Android ከተነሳ በኋላ በገንቢ አማራጮች ውስጥ የOEM መክፈቻን ያሰናክሉ።"</string>
     <string name="confirm_enable_4k_pages_title" msgid="3001009010581393119">"ከ16 ኪባ ሁነታ ወደ 4 ኪባ ሁነታ ይቀይሩ"</string>
     <string name="confirm_enable_4k_pages_text" msgid="3398001587586470689">"16 ኪባ አውራ ከዋኝ እያሄደ ባለው በገፅ-አግኖስቲክ ሁነታ ላይ ነዎት እና ወደ የ4 ኪባ ሁነታ እየቀየሩ ነው። የሶፍትዌር ታማኝነት በዚህ ሁነታ ሊረጋገጥ አይችልም፣ እና bootloader ክፍት ሆኖ ሳለ በስልኩ ላይ የተከማቸ ማንኛውም መረጃ ለአደጋ ሊጋለጥ ይችላል። ይህ መሣሪያውን ዳግም ያስነሳዋል። አንዳንድ ባህሪያት በእነዚህ ሁነታዎች ላይ ይሰናከላሉ፣ ስለዚህ አንዳንድ መተግበሪያዎች ላይሠሩ ይችላሉ። መሣሪያውን ወደ የምርት ሁነታ መመለስ እንዲችሉ bootloaderን መቆለፍ ይኖርብዎታል፣ ይህም መሣሪያውን የፋብሪካ ዳግም ያስጀምረዋል። መሣሪያው በተሳካ ሁኔታ ወደ Android ከተነሳ በኋላ በገንቢ አማራጮች ውስጥ የOEM መክፈቻን ያሰናክሉ።"</string>
     <string name="toast_16k_update_failed_text" msgid="7848383020572918850">"አውራ ከዋኝን ወደ 16ኪባ ገጾች ተኳዃኝ አውራ ከዋኝ ማዘመን አልተሳካም።"</string>
     <string name="progress_16k_ota_title" msgid="2117218313875523741">"ለውጦችን በመተግበር ላይ"</string>
-    <!-- no translation found for confirm_ext4_button_text (697563319110759422) -->
-    <skip />
+    <string name="confirm_ext4_button_text" msgid="697563319110759422">"ሁሉንም ውሂብ እና ዝማኔ ይደምስሱ"</string>
     <string name="format_ext4_failure_toast" msgid="8059453995800471549">"ቅርጸት መሥራት እና የውሂብ ክፍልፋይን ወደ ext4 መጥረግ አልተሳካም።"</string>
     <string name="confirm_oem_unlock_for_16k_title" msgid="6062041826568112078">"በBootloader መክፈት ያስፈልጋል"</string>
     <string name="confirm_oem_unlock_for_16k_text" msgid="8089310116854544106">"ይህ መሣሪያ የ16 ኪባ ገንቢ አማራጩን ከመጠቀሙ በፊት bootloader ክፍት መሆኑ ያስፈልገዋል። የሶፍትዌር ታማኝነት በዚህ ሁነታ ሊረጋገጥ አይችልም፣ እና bootloader ክፍት ሆኖ ሳለ በስልኩ ላይ የተከማቸ ማንኛውም መረጃ ለአደጋ ሊጋለጥ ይችላል። የ16 ኪባ ሁነታ ሲነቃ ሁሉም የተጠቃሚ ውሂብ እና ቅንብሮች ይጠረጋሉ። አንዴ bootloader ከተከፈተ በኋላ የ16 ኪባ አማራጩን ለማንቃት ሁለት ዳግም ማስነሳቶች ያስፈልጉታል። አንዴ በዚህ ሁነታ ላይ ከሆኑ፣ በአንድ ዳግም ማስነሳት ከ4 ኪባ ወደ 16 ኪባ ሁነታ መካከል መቀያየር ይችላሉ። አንዳንድ ባህሪያት በእነዚህ ሁነታዎች ላይ ይሰናከላሉ፣ ስለዚህ አንዳንድ መተግበሪያዎች ላይሠሩ ይችላሉ። መሣሪያውን ወደ የምርት ሁነታ መመለስ እንዲችሉ ወደ የ4 ኪባ ሁነታ መመለስ እና መሣሪያውን OEM/bootloader መቆለፍ ይኖርብዎታል (ይህም መሣሪያውን የፋብሪካ ዳግም ያስጀምረዋል)። እባክዎ bootloaderን ይክፈቱ እና እንደገና ይሞክሩ። &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt; ላይ ይህን እንዴት ማድረግ እንደሚቻል መመሪያዎችን ማየት ይችላሉ"</string>
@@ -5880,21 +5883,28 @@
     <string name="search_gesture_feature_summary" msgid="1793056495030564014">"በማያ ገፅዎ ላይ ያለውን ይዘት በመጠቀም ለመፈለግ የመነሻ አዝራሩን ወይም የአሰሳ መያዣውን ይንኩ እና ይያዙ።"</string>
     <string name="device_detail_icon_content_description" msgid="6699151424374841937">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>። የመሣሪያ ዝርዝር ያዋቅሩ።"</string>
     <string name="supervision_settings_title" msgid="8507163323870367711">"የወላጅ መቆጣጠሪያዎች"</string>
-    <string name="supervision_settings_summary" msgid="5020634300370322741">"የይዘት ገደቦች &amp; ሌሎች ገደቦች"</string>
+    <!-- no translation found for supervision_settings_summary (6304257872307136073) -->
+    <skip />
     <string name="device_supervision_switch_no_pin_summary" msgid="4869563544571033220">"ፒን አዋቅር"</string>
-    <string name="device_supervision_switch_paused_summary" msgid="1014381188739295656">"ባለበት ቆሟል"</string>
-    <string name="keywords_supervision_settings" msgid="2580555201483955376">"ክትትል፣ የወላጅ ክትትል፣ የወላጅ መቆጣጠሪያዎች"</string>
+    <!-- no translation found for keywords_supervision_settings (43064288661561602) -->
+    <skip />
     <string name="supervision_pin_management_preference_title" msgid="7721501202320841845">"ፒንዎን ያስተዳድሩ"</string>
+    <!-- no translation found for supervision_pin_management_preference_keywords (5034450635706621750) -->
+    <skip />
     <string name="supervision_pin_management_preference_summary_add" msgid="2247921267270577374">"የመልሶ ማግኛ ኢሜይል ያክሉ"</string>
     <string name="supervision_pin_management_preference_summary_verify_recovery" msgid="5072554239108915119">"የመልሶ ማግኛ ኢሜይልን ያረጋግጡ"</string>
     <string name="supervision_change_pin_preference_title" msgid="2288584039438231801">"ፒን ይቀይሩ"</string>
     <string name="supervision_add_forgot_pin_preference_title" msgid="8939945404255748516">"ፒን ረሳሁ"</string>
+    <!-- no translation found for supervision_auth_prompt_forgot_pin_button_label (1019337828884793557) -->
+    <skip />
     <string name="supervision_update_recovery_email_preference_title" msgid="2057393838251915087">"መልሶ ማግኛ ኢሜይልን ያዘምኑ"</string>
     <string name="supervision_delete_pin_preference_title" msgid="8447541098148430866">"ፒንን ሰርዝ"</string>
-    <string name="supervision_delete_pin_preference_summary" msgid="4865713157106413979">"ይህ ሁሉንም የቁጥጥር ቅንብሮችዎን ዳግም ያስጀምራል"</string>
     <string name="supervision_add_pin_recovery_title" msgid="3487098027604685794">"የመልሶ ማግኛ ኢሜይል ያክሉ"</string>
     <string name="supervision_verify_pin_recovery_title" msgid="3166602415814821497">"ኢሜይልዎን ያረጋግጡ"</string>
-    <string name="supervision_web_content_filters_title" msgid="3653430162065686156">"የድር የይዘት ማጣሪያዎች"</string>
+    <!-- no translation found for supervision_web_content_filters_title (2412562442507104921) -->
+    <skip />
+    <!-- no translation found for supervision_web_content_filters_keywords (8469519676189544447) -->
+    <skip />
     <string name="supervision_web_content_filters_top_intro" msgid="5264773769840566499">"በዚህ መሣሪያ ላይ በሚደገፉ መተግበሪያዎች ላይ ድር ጣቢያዎች እና የፍለጋ ውጤቶች ላይ የአዋቂ ይዘትን ያግዱ። የማይደገፉ መተግበሪያዎች አሁንም ግልፅ ይዘት ሊያሳዩ ይችላሉ።"</string>
     <string name="supervision_web_content_filters_browser_title" msgid="8737341514264129889">"ድር ጣቢያዎች"</string>
     <string name="supervision_web_content_filters_browser_filter_title" msgid="7957976669412075070">"ግልፅ ጣቢያዎችን ያግዱ"</string>
@@ -5904,8 +5914,7 @@
     <string name="supervision_choose_your_pin_header" msgid="3872062168986738629">"የወላጅ መቆጣጠሪያዎች ፒን ያቀናብሩ"</string>
     <string name="supervision_confirm_your_pin_header" msgid="8236956712482718354">"ፒን ያረጋግጡ"</string>
     <string name="supervision_pin_reset_success_toast" msgid="9163550161698311831">"ፒን ተዘምኗል"</string>
-    <!-- no translation found for supervision_promo_footer_action_button_description (7617359721703338141) -->
-    <skip />
+    <string name="supervision_promo_footer_action_button_description" msgid="7617359721703338141">"መተግበሪያን ክፈት"</string>
     <string name="supervision_delete_pin_confirm_header" msgid="8499276643990949268">"ፒን ይሰረዝ?"</string>
     <string name="supervision_delete_pin_confirm_message" msgid="5482080400973042178">"ይህ የአሁን ፒንዎን ለሁሉም በዚህ መሣሪያ ላይ ያሉ ተጠቃሚዎች ይሰርዛል እና ያዋቀሯቸውን መቆጣጠሪያዎች ያሰናክላል። ይህ እርምጃ ሊቀለበስ አይችልም።"</string>
     <string name="supervision_delete_pin_supervision_enabled_header" msgid="2072311894107038402">"በሌሎች መገለጫዎች ላይ መጀመሪያ መቆጣጠሪያዎችን ባሉበት ያቁሙ"</string>

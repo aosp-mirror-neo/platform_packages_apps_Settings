@@ -47,10 +47,8 @@
     <string name="preview_pager_email_title" msgid="8767864657910457562">"Էլփոստ"</string>
     <string name="preview_pager_previous_button" msgid="607771113300838313">"Նախորդ նախադիտում"</string>
     <string name="preview_pager_next_button" msgid="8700907912508927271">"Հաջորդ նախադիտում"</string>
-    <!-- no translation found for font_size_make_smaller_desc (319927200356692406) -->
-    <skip />
-    <!-- no translation found for font_size_make_larger_desc (6739310980713118605) -->
-    <skip />
+    <string name="font_size_make_smaller_desc" msgid="319927200356692406">"Փոքրացնել տառատեսակի չափսը"</string>
+    <string name="font_size_make_larger_desc" msgid="6739310980713118605">"Մեծացնել տառատեսակի չափսը"</string>
     <string name="stay_awake_on_fold_title" msgid="6590454679898134221">"Միշտ"</string>
     <string name="stay_awake_on_fold_summary" msgid="1939963751585954262">"Առջևի էկրանը միանում է, երբ սարքը ծալում եք"</string>
     <string name="stay_awake_on_lockscreen_title" msgid="8088456642083051068">"Սահեցնել վերև՝ շարունակելու համար"</string>
@@ -200,7 +198,8 @@
     <string name="locale_remove_menu" msgid="3521546263421387474">"Հեռացնել"</string>
     <string name="add_a_language" msgid="2126220398077503271">"Ավելացնել լեզու"</string>
     <string name="app_locale_preference_title" msgid="5513627099300360232">"Լեզու"</string>
-    <string name="locale_picker_category_title" msgid="6212064706962721255">"Նախընտրած լեզուն"</string>
+    <!-- no translation found for locale_picker_category_title (296835514014453679) -->
+    <skip />
     <string name="app_locales_picker_menu_title" msgid="7617427959223831373">"Հավելվածների լեզուներ"</string>
     <string name="app_locale_picker_summary" msgid="616928580653613998">"Լեզու ընտրեք յուրաքանչյուր հավելվածի համար"</string>
     <string name="app_locale_picker_title" msgid="2431448962911301366">"Հավելվածի լեզու"</string>
@@ -226,10 +225,17 @@
     <string name="title_change_system_locale" msgid="4102991236063984803">"Դարձնե՞լ համակարգի լեզուն %s"</string>
     <string name="title_system_locale_addition" msgid="8218683660751479466">"Ավելացնե՞լ %s լեզուն նախընտրած լեզուների ցանկում"</string>
     <string name="desc_system_locale_addition" msgid="3409917362651596070">"Հավելվածներն ու կայքերը կիմանան, որ դուք նախընտրում եք այս լեզուն։"</string>
-    <string name="desc_notice_device_locale_settings_change" msgid="8311132485850714160">"Ձեր սարքի պարամետրերը և տարածաշրջանային կարգավորումները կփոխվեն։"</string>
+    <!-- no translation found for desc_notice_device_locale_and_region_settings_change (909261686577914396) -->
+    <skip />
+    <!-- no translation found for desc_notice_device_locale_settings_change (5012353615235634881) -->
+    <skip />
+    <!-- no translation found for dlg_desc_delete_preferred_default_locale (690828405078078513) -->
+    <skip />
     <string name="button_label_confirmation_of_system_locale_change" msgid="5593798559604894733">"Փոխել"</string>
-    <string name="title_unavailable_locale" msgid="2628898110416542386">"%s լեզուն հասանելի չէ"</string>
-    <string name="desc_unavailable_locale" msgid="2201756477400935896">"Այս լեզուն չի կարող օգտագործվել որպես համակարգի լեզու, սակայն դուք սահմանել եք այն որպես նախընտրած լեզու հավելվածների և կայքերի համար։"</string>
+    <!-- no translation found for title_unavailable_locale (5382411204559213983) -->
+    <skip />
+    <!-- no translation found for desc_unavailable_locale (7223655766703116782) -->
+    <skip />
     <string name="locale_search_menu" msgid="297782694044826686">"Որոնում"</string>
     <string name="language_and_region_title" msgid="8374151891112162767">"Լեզու և տարածաշրջան"</string>
     <string name="language_selection_title" msgid="968179636453982415">"Լեզվի ավելացում"</string>
@@ -243,6 +249,12 @@
     <string name="title_change_system_locale_region" msgid="4401478579429442695">"Դարձնե\"լ տարածաշրջանը <xliff:g id="SYSTEM_LANGUAGE_REGION">%1$s</xliff:g>"</string>
     <string name="body_change_system_locale_region" msgid="9064318449821043189">"Ձեր սարքը կպահի <xliff:g id="SYSTEM_LANGUAGE">%1$s</xliff:g> լեզուն որպես համակարգի լեզու"</string>
     <string name="top_intro_numbering_system_title" msgid="3962000662073238392">"Ընտրեք, թե ինչպես են ձեր սարքը, կայքերը և հավելվածները ցուցադրում համարները"</string>
+    <!-- no translation found for preferred_locale_menu_up (4009560552099567485) -->
+    <skip />
+    <!-- no translation found for preferred_locale_menu_down (1033373887552535585) -->
+    <skip />
+    <!-- no translation found for preferred_locale_menu_remove (8547483341987864590) -->
+    <skip />
     <string name="regional_preferences_title" msgid="4304567374498629528">"Տարածաշրջանային կարգավորումներ"</string>
     <string name="regional_preferences_summary" msgid="1189876997389469650">"Սահմանել չափման միավորների և թվերի կարգավորումներ"</string>
     <string name="regional_preferences_main_page_sub_title" msgid="4237109940015254725">"Հասանելի դարձրեք հավելվածներին ձեր տարածաշրջանային կարգավորումները, որպեսզի նրանք կարողանան անհատականացնել իրենց ծառայությունները"</string>
@@ -281,6 +293,10 @@
     <string name="dlg_remove_locales_error_title" msgid="5875503658221562572">"Հնարավոր չէ հեռացնել բոլոր լեզուները"</string>
     <string name="dlg_remove_locales_error_message" msgid="6504279959974675302">"Թողեք առնվազն մեկ նախընտրած լեզու"</string>
     <string name="locale_not_translated" msgid="3071618135527110152">"Հասանելի չէ որպես համակարգի լեզու"</string>
+    <!-- no translation found for dlg_title_delete_preferred_locale (4167214348946940002) -->
+    <skip />
+    <!-- no translation found for dlg_desc_delete_preferred_locale (4658301652628456858) -->
+    <skip />
     <string name="action_drag_label_move_up" msgid="3392196942330705015">"Տեղափոխել վերև"</string>
     <string name="action_drag_label_move_down" msgid="9069518740553953426">"Տեղափոխել ներքև"</string>
     <string name="action_drag_label_move_top" msgid="2430471023612171619">"Տանել ցանկի սկիզբ"</string>
@@ -460,6 +476,8 @@
     <string name="security_settings_fingerprint_enroll_introduction_no_thanks" msgid="1663906389456119842">"Ոչ հիմա"</string>
     <string name="security_settings_fingerprint_enroll_introduction_agree" msgid="4068276083536421828">"Ընդունել"</string>
     <string name="security_settings_fingerprint_rename_description" msgid="6301505700382531086">"Կրկնակի հպեք վերանվանելու համար"</string>
+    <!-- no translation found for security_settings_fingerprint_recognition_description (1805171116182647136) -->
+    <skip />
     <string name="setup_fingerprint_enroll_skip_title" msgid="2473807887676247264">"Բաց թողնե՞լ"</string>
     <string name="setup_fingerprint_enroll_skip_after_adding_lock_text" msgid="2412645723804450304">"Մատնահետքի կարգավորումն ընդամենը մեկ-երկու րոպե է տևում: Եթե բաց թողնեք, ավելի ուշ կարող եք անցնել կարգավորումներ և ավելացնել ձեր մատնահետքը:"</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_setup" msgid="6255210343107484206">"Երբ տեսնեք այս պատկերակը, նույնականացում անցնելու համար (օր․՝ հավելվածներ մտնելիս կամ գնումներ հաստատելիս) օգտագործեք ձեր մատնահետքը"</string>
@@ -942,10 +960,8 @@
     <string name="bluetooth_device_context_connect" msgid="4913860372216815855">"Միանալ"</string>
     <string name="bluetooth_device_context_disconnect" msgid="4464167389972513232">"Անջատել"</string>
     <string name="bluetooth_device_context_pair_connect" msgid="2406032703622371826">"Զուգակցել և միանալ"</string>
-    <!-- no translation found for bluetooth_connecting (5315496594905010438) -->
-    <skip />
-    <!-- no translation found for bluetooth_disconnecting (1643422701532873735) -->
-    <skip />
+    <string name="bluetooth_connecting" msgid="5315496594905010438">"Միացում"</string>
+    <string name="bluetooth_disconnecting" msgid="1643422701532873735">"Անջատում"</string>
     <string name="bluetooth_empty_list_bluetooth_off" msgid="7326727272747345476">"Երբ Bluetooth-ը միացված է, ձեր սարքը կարող է հաղորդակցել մոտակայքում գտնվող Bluetooth սարքերի հետ"</string>
     <string name="bluetooth_empty_list_bluetooth_off_auto_on_available" msgid="3430864468105204282">"Երբ Bluetooth-ը միացված է, ձեր սարքը կարող է հաղորդակցվել մոտակայքում գտնվող Bluetooth սարքերի հետ: Bluetooth-ն օգտագործում են, օրինակ, Quick Share և «Գտնել իմ սարքը» գործառույթները։"</string>
     <string name="bluetooth_scanning_on_info_message" msgid="786648535600075223">"Երբ Bluetooth-ը միացված է, ձեր սարքը կարող է հաղորդակցվել մոտակայքում գտնվող Bluetooth սարքերի հետ։\n\nՍարքի աշխատանքը բարելավելու նպատակով հավելվածներն ու ծառայությունները կորոնեն մոտակայքում գտնվող սարքեր, նույնիսկ երբ Bluetooth-ն անջատված է։ Դա կարելի է օգտագործել, օրինակ, տեղադրության տվյալների վրա հիմնված գործառույթների և ծառայությունների աշխատանքը բարելավելու համար։ Այս պարամետրը կարող եք փոխել Bluetooth-ի որոնման կարգավորումներում։"</string>
@@ -2231,40 +2247,25 @@
     <string name="gesture_button_next" msgid="695288092704187356">"Առաջ"</string>
     <string name="gesture_button_restart" msgid="1895850891992530133">"Վերագործարկել"</string>
     <string name="gesture_button_done" msgid="6387900351203032188">"Պատրաստ է"</string>
-    <!-- no translation found for action_corner_title (1489042651433221319) -->
+    <!-- no translation found for action_corner_title (7411160165577367757) -->
     <skip />
-    <!-- no translation found for action_corner_summary (695618538930535335) -->
+    <string name="action_corner_summary" msgid="695618538930535335">"Համակարգում տեղաշարժվելու համար օգտագործեք նշորդներ"</string>
+    <!-- no translation found for action_corner_intro (2170609118659718140) -->
     <skip />
-    <!-- no translation found for action_corner_intro (8782001241997579665) -->
-    <skip />
-    <!-- no translation found for action_corner_bottom_left_title (2857258272736432174) -->
-    <skip />
-    <!-- no translation found for action_corner_bottom_right_title (7222233500548465684) -->
-    <skip />
-    <!-- no translation found for action_corner_top_left_title (4633975226092344210) -->
-    <skip />
-    <!-- no translation found for action_corner_top_right_title (4995999693840776032) -->
-    <skip />
-    <!-- no translation found for action_corner_action_none (5203163099950649999) -->
-    <skip />
-    <!-- no translation found for action_corner_action_home (6779642573582379579) -->
-    <skip />
-    <!-- no translation found for action_corner_action_recent_apps (7450480676812648813) -->
-    <skip />
-    <!-- no translation found for action_corner_action_notifications (3779353356349774469) -->
-    <skip />
-    <!-- no translation found for action_corner_action_quick_settings (4660901117283653069) -->
-    <skip />
-    <!-- no translation found for action_corner_action_dialog_title (8253240813317885237) -->
-    <skip />
-    <!-- no translation found for action_corner_bottom_left_name (9193788067022476544) -->
-    <skip />
-    <!-- no translation found for action_corner_bottom_right_name (1031603363418505375) -->
-    <skip />
-    <!-- no translation found for action_corner_top_left_name (8077670910600032291) -->
-    <skip />
-    <!-- no translation found for action_corner_top_right_name (6307321595919080297) -->
-    <skip />
+    <string name="action_corner_bottom_left_title" msgid="2857258272736432174">"Ներքևի ձախ անկյուն"</string>
+    <string name="action_corner_bottom_right_title" msgid="7222233500548465684">"Ներքևի աջ անկյուն"</string>
+    <string name="action_corner_top_left_title" msgid="4633975226092344210">"Վերևի ձախ անկյուն"</string>
+    <string name="action_corner_top_right_title" msgid="4995999693840776032">"Վերևի աջ անկյուն"</string>
+    <string name="action_corner_action_none" msgid="5203163099950649999">"Ոչ մեկը"</string>
+    <string name="action_corner_action_home" msgid="6779642573582379579">"Գլխավոր էջ"</string>
+    <string name="action_corner_action_recent_apps" msgid="7450480676812648813">"Վերջին օգտագործած հավելվածները"</string>
+    <string name="action_corner_action_notifications" msgid="3779353356349774469">"Ծանուցումներ"</string>
+    <string name="action_corner_action_quick_settings" msgid="4660901117283653069">"Արագ կարգավորումներ"</string>
+    <string name="action_corner_action_dialog_title" msgid="8253240813317885237">"Ընտրեք դյուրանցում <xliff:g id="CORNER">%1$s</xliff:g> անկյան համար"</string>
+    <string name="action_corner_bottom_left_name" msgid="9193788067022476544">"ներքևի ձախ անկյուն"</string>
+    <string name="action_corner_bottom_right_name" msgid="1031603363418505375">"ներքևի աջ անկյուն"</string>
+    <string name="action_corner_top_left_name" msgid="8077670910600032291">"վերևի ձախ անկյուն"</string>
+    <string name="action_corner_top_right_name" msgid="6307321595919080297">"վերևի աջ անկյուն"</string>
     <string name="modifier_keys_settings" msgid="2537108435032034683">"Կերպափոխիչ ստեղներ"</string>
     <string name="modifier_keys_settings_summary" msgid="6933143361657444436">"Փոխել ստեղների գործառույթը"</string>
     <string name="modifier_keys_reset_title" msgid="948294258402761066">"Վերականգնել բոլորը"</string>
@@ -2409,8 +2410,7 @@
     <string name="accessibility_screen_magnification_shortcut_title" msgid="2387963646377987780">"Խոշորացման դյուրանցում"</string>
     <string name="accessibility_magnification_cursor_following_title" msgid="29531257984012743">"Կուրսորի շարժում"</string>
     <string name="accessibility_magnification_cursor_following_header" msgid="7283095798622223509">"Ընտրեք, թե ինչպես է խոշորացումը կատարվում՝ ձեր կուրսորի շարժվելուն զուգընթաց"</string>
-    <!-- no translation found for accessibility_magnification_cursor_following_unavailable_summary (1683880243856242269) -->
-    <skip />
+    <string name="accessibility_magnification_cursor_following_unavailable_summary" msgid="1683880243856242269">"Հասանելի չէ, երբ էկրանը մասնակի է խոշորացվում"</string>
     <string name="accessibility_magnification_cursor_following_continuous" msgid="1119319218662522794">"Շարունակաբար տեղափոխել էկրանը, երբ մկնիկը շարժվում է"</string>
     <string name="accessibility_magnification_cursor_following_center" msgid="3504798009192014460">"Տեղափոխել էկրանը՝ մկնիկը պահելով կենտրոնում"</string>
     <string name="accessibility_magnification_cursor_following_edge" msgid="8675207762416655758">"Տեղափոխել էկրանը, երբ մկնիկը դիպչի էկրանի եզրերին"</string>
@@ -2666,6 +2666,10 @@
     <string name="accessibility_daltonizer_footer_learn_more_content_description" msgid="2091679253892040910">"Իմացեք ավելին գունաշտկման մասին"</string>
     <string name="accessibility_color_inversion_about_title" msgid="8275754480247040136">"Գունաշրջում"</string>
     <string name="accessibility_color_inversion_footer_learn_more_content_description" msgid="5382579548498952445">"Իմացեք ավելին գունաշրջման մասին"</string>
+    <!-- no translation found for accessibility_dark_theme_footer_learn_more_helper_link (7084955775821075280) -->
+    <skip />
+    <!-- no translation found for accessibility_dark_theme_preference_footer_content (4431044600779983609) -->
+    <skip />
     <string name="accessibility_captioning_primary_switch_title" msgid="3663677340286206100">"Ցույց տալ ենթագրերը"</string>
     <string name="accessibility_captioning_primary_switch_summary" msgid="2544094070306830218">"Միայն աջակցվող հավելվածի համար"</string>
     <string name="captioning_appearance_title" msgid="3128792092290011408">"Ենթագրերի չափն ու ոճը"</string>
@@ -4355,10 +4359,8 @@
     <string name="app_permissions" msgid="8666537659217653626">"Թույլտվությունների կառավարիչ"</string>
     <string name="app_data_sharing_updates_title" msgid="1694297952320402788">"Տեղադրության տվյալներով կիսվելու թույլտվության թարմացում"</string>
     <string name="app_data_sharing_updates_summary" msgid="4465929918457739443">"Ստուգեք հավելվածների ցանկը, որոնք փոխել են ձեր տեղադրության տվյալներով կիսվելու եղանակը"</string>
-    <!-- no translation found for app_function_access_settings_title (1474765429611652468) -->
-    <skip />
-    <!-- no translation found for app_function_access_settings_summary (6465715820745848068) -->
-    <skip />
+    <string name="app_function_access_settings_title" msgid="1474765429611652468">"Այլ հավելվածների կառավարում գործակալի միջոցով"</string>
+    <string name="app_function_access_settings_summary" msgid="6465715820745848068">"Կատարեք գործողություններ ձեր սարքում և այլ հավելվածներում"</string>
     <string name="tap_to_wake" msgid="3313433536261440068">"Հպեք՝ արթնացնելու համար"</string>
     <string name="tap_to_wake_summary" msgid="6641039858241611072">"Երկակի հպեք էկրանի ցանկացած մասին՝ սարքը արթնացնելու համար"</string>
     <string name="domain_urls_title" msgid="7012209752049678876">"Հղումների բացում"</string>
@@ -4518,10 +4520,8 @@
     <string name="screen_zoom_short_summary" msgid="756254364808639194">"Տարրերի չափսի փոփոխում"</string>
     <string name="screen_zoom_keywords" msgid="5964023524422386592">"ցուցադրման խտություն, էկրանի մասշտաբ, մասշտաբ, մասշտաբավորում"</string>
     <string name="screen_zoom_preview_title" msgid="5288355628444562735">"Նախադիտում"</string>
-    <!-- no translation found for screen_zoom_make_smaller_desc (1450649885198381123) -->
-    <skip />
-    <!-- no translation found for screen_zoom_make_larger_desc (7125594310562596457) -->
-    <skip />
+    <string name="screen_zoom_make_smaller_desc" msgid="1450649885198381123">"Փոքրացնել ցուցադրման չափսը"</string>
+    <string name="screen_zoom_make_larger_desc" msgid="7125594310562596457">"Մեծացնել ցուցադրման չափսը"</string>
     <string name="disconnected" msgid="3469373726996129247">"Միացած չէ"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"Միացված չէ"</string>
     <string name="apps_summary" msgid="4007416751775414252">"Տեղադրված հավելվածներ՝ <xliff:g id="COUNT">%1$d</xliff:g>"</string>
@@ -4541,6 +4541,10 @@
     <string name="disabled_by_policy_title_financed_device" msgid="2328740314082888228">"Արգելափակվել է ձեր բանկի կողմից"</string>
     <string name="disabled_by_policy_title_biometric_parental_consent" msgid="2463673997797134678">"Պետք է ծնողի համաձայնություն"</string>
     <string name="disabled_by_policy_content_biometric_parental_consent" msgid="7124116806784305206">"Կարգավորումը սկսելու համար հեռախոսը տվեք ձեր ծնողներից մեկին"</string>
+    <!-- no translation found for disabled_by_policy_title_parental_controls (8875976588644052371) -->
+    <skip />
+    <!-- no translation found for disabled_by_policy_content_parental_controls (4648160125103768738) -->
+    <skip />
     <string name="disabled_by_policy_parental_consent" msgid="9166060049019018978">"Այս կարգավորումը փոխելու համար հեռախոսը տվեք ձեր ծնողին։"</string>
     <string name="default_admin_support_msg" msgid="8816296554831532033">"Լրացուցիչ տեղեկություններ ստանալու համար դիմեք ձեր ՏՏ ադմինիստրատորին"</string>
     <string name="admin_support_more_info" msgid="8407433155725898290">"Մանրամասն"</string>
@@ -4656,7 +4660,8 @@
     <string name="battery_tips_card_action_button_check" msgid="1535140204105479318">"Ստուգել"</string>
     <string name="battery_tips_card_dismiss_button" msgid="1885756985544936618">"Եղավ"</string>
     <string name="battery_tips_card_feedback_info" msgid="767117835675157298">"Այս հաղորդագրությունն օգտակա՞ր է։"</string>
-    <string name="battery_hints_warning_icon_a11y" msgid="5312542323401447620">"Մարտկոցի սպառման մասին ծանուցման պատկերակ"</string>
+    <!-- no translation found for battery_hints_warning_icon_a11y (709629805028175434) -->
+    <skip />
     <string name="battery_tips_settings_summary_brightness" msgid="546145032616077783">"Մարտկոցի աշխատաժամանակը կերկարի, եթե միացնեք հարմարվող պայծառությունը"</string>
     <string name="battery_tips_settings_summary_screen_timeout" msgid="556801426050962077">"Մարտկոցի աշխատաժամանակը կերկարի, եթե էկրանն այնպես կարգավորեք, որ ավելի շուտ անջատվի"</string>
     <string name="battery_tips_apps_summary_always_high" msgid="6334519477067044920">"<xliff:g id="APP_LABEL">%1$s</xliff:g> հավելվածը շատ էներգիա է սպառում"</string>
@@ -5376,15 +5381,13 @@
     <string name="enable_16k_pages" msgid="1758111531461408337">"Գործարկել 16 ԿԲ էջաչափով"</string>
     <string name="enable_16k_pages_summary" msgid="1937836453571509085">"Գործարկել սարքը 16 ԿԲ էջի հետ համատեղելի միջուկով"</string>
     <string name="confirm_enable_16k_pages_title" msgid="5477376227161609124">"4 ԿԲ ռեժիմից անցեք 16 ԿԲ ռեժիմին"</string>
-    <!-- no translation found for confirm_enable_16k_pages_update_wipe (4760548401414644138) -->
-    <skip />
+    <string name="confirm_enable_16k_pages_update_wipe" msgid="4760548401414644138">"Նախքան մշակողի 16 ԿԲ ընտրանքն օգտագործելը սարքի տվյալների բաժինն անհրաժեշտ է փոխարկել ext4 ֆայլային համակարգի։ Հաստատումից հետո սարքի տվյալները կսրբվեն, և ֆայլային համակարգը կփոխարինվի ext4-ով։ Դուք արտադրական ռեժիմում եք՝ աշխատելով 4 ԿԲ միջուկով, և այժմ անցում եք կատարում 16 ԿԲ ռեժիմի։ Երբ անցնեք այս ռեժիմին, մեկ վերագործարկմամբ կկարողանաք անցում կատարել 4 ԿԲ և 16 ԿԲ ռեժիմների միջև։ Ծրագրի ամբողջականությունը հնարավոր չէ երաշխավորել այս ռեժիմում, և ցանկացած տվյալ, որը պահվում է հեռախոսում, քանի դեռ բեռնիչը ապակողպված է, կարող է վտանգված լինել։ Որոշ գործառույթներ կանջատվեն այս ռեժիմներում, ուստի հնարավոր է՝ ոչ բոլոր հավելվածներն աշխատեն։ Սարքը արտադրական ռեժիմին վերադարձնելու համար անհրաժեշտ է նորից անցնել 4 ԿԲ ռեժիմին և կողպել օպերացիոն համակարգի բեռնիչը, որը վերականգնում է սարքի գործարանային կարգավորումները։ Android-ը հաջողությամբ գործարկելուց հետո Մշակողի ընտրանքներում անջատեք OEM-ի ապակողպումը։ Շարունակելու համար սեղմեք «Ջնջել բոլոր տվյալները և թարմացնել»։ Սարքը կվերագործարկվի։"</string>
     <string name="confirm_enable_16k_pages_text" msgid="6211693250692246982">"Դուք գտնվում եք էջի չափսից չկախված ռեժիմում՝ աշխատելով 4 ԿԲ միջուկով, և այժմ փոխվում եք 16 ԿԲ ռեժիմի։ Ծրագրի ամբողջականությունը հնարավոր չէ երաշխավորել այս ռեժիմում, և ցանկացած տվյալ, որը պահվում է հեռախոսում, քանի դեռ բեռնիչը ապակողպված է, կարող է վտանգված լինել։ Սարքը կվերագործարկվի։ Որոշ գործառույթներ կանջատվեն այս ռեժիմներում, ուստի հնարավոր է՝ ոչ բոլոր հավելվածներն աշխատեն։ Սարքը արտադրական ռեժիմին վերադարձնելու համար անհրաժեշտ է նորից անցնել 4 ԿԲ ռեժիմին և կողպել օպերացիոն համակարգի բեռնիչը, որը վերականգնում է սարքի գործարանային կարգավորումները։ Android-ը հաջողությամբ գործարկելուց հետո Մշակողի ընտրանքներում անջատեք OEM-ի ապակողպումը։"</string>
     <string name="confirm_enable_4k_pages_title" msgid="3001009010581393119">"4 ԿԲ ռեժիմից անցեք 16 ԿԲ ռեժիմին"</string>
     <string name="confirm_enable_4k_pages_text" msgid="3398001587586470689">"Դուք օգտագործում եք էջի չափսից չկախված ռեժիմ, որն աշխատեցնում է 4 ԿԲ էջաչափով միջուկ, և պատրաստվում եք անցնել 16 ԿԲ ռեժիմին։ Ծրագրի ամբողջականությունը հնարավոր չէ երաշխավորել այս ռեժիմում, և ցանկացած տվյալ, որը պահվում է հեռախոսում, քանի դեռ բեռնիչը ապակողպված է, կարող է վտանգված լինել։ Սարքը կվերագործարկվի։ Որոշ գործառույթներ կանջատվեն այս ռեժիմներում, ուստի հնարավոր է՝ ոչ բոլոր հավելվածներն աշխատեն։ Սարքն արտադրական ռեժիմին վերադարձնելու համար պետք է կողպեք օպերացիոն համակարգի բեռնիչը, որը վերականգնում է սարքի գործարանային կարգավորումները։ Android-ը հաջողությամբ գործարկելուց հետո Մշակողի ընտրանքներում անջատեք OEM-ի ապակողպումը։"</string>
     <string name="toast_16k_update_failed_text" msgid="7848383020572918850">"Չհաջողվեց փոխել միջուկը 16 ԿԲ էջերի հետ համատեղելիության միջուկով։"</string>
     <string name="progress_16k_ota_title" msgid="2117218313875523741">"Փոփոխությունը կիրառվում է"</string>
-    <!-- no translation found for confirm_ext4_button_text (697563319110759422) -->
-    <skip />
+    <string name="confirm_ext4_button_text" msgid="697563319110759422">"Ջնջել բոլոր տվյալները և թարմացնել"</string>
     <string name="format_ext4_failure_toast" msgid="8059453995800471549">"Չհաջողվեց վերաֆորմատավորել սարքը ext4 ֆայլային համակարգի և սրբել տվյալների բաժինը։"</string>
     <string name="confirm_oem_unlock_for_16k_title" msgid="6062041826568112078">"Պահանջվում է բեռնիչով ապակողպում"</string>
     <string name="confirm_oem_unlock_for_16k_text" msgid="8089310116854544106">"Նախքան մշակողի 16 ԿԲ ընտրանքն օգտագործելը հարկավոր է ապակողպել օպերացիոն համակարգի բեռնիչը։ Ծրագրի ամբողջականությունը հնարավոր չէ երաշխավորել այս ռեժիմում, և ցանկացած տվյալ, որը պահվում է հեռախոսում, քանի դեռ բեռնիչը ապակողպված է, կարող է վտանգված լինել։ Երբ 16 ԿԲ ռեժիմն ակտիվացվի, օգտատիրոջ բոլոր տվյալները և կարգավորումները կսրբվեն։ Հենց որ օպերացիոն համակարգի բեռնիչն ապակողպվի, 16 ԿԲ ընտրանքի ակտիվացման համար կպահանջվի երկու վերագործարկում։ Երբ անցնեք այս ռեժիմին, մեկ վերագործարկմամբ կկարողանաք անցում կատարել 4 ԿԲ և 16 ԿԲ ռեժիմների միջև։ Որոշ գործառույթներ կանջատվեն այս ռեժիմներում, ուստի հնարավոր է՝ ոչ բոլոր հավելվածներն աշխատեն։ Սարքը արտադրական ռեժիմին վերադարձնելու համար անհրաժեշտ է նորից անցնել 4 ԿԲ ռեժիմին և կողպել OEM-ը/օպերացիոն համակարգի բեռնիչը, որը վերականգնում է սարքի գործարանային կարգավորումները։ Ապակողպեք օպերացիոն համակարգի բեռնիչը և նորից փորձեք։ Թե ինչպես կարող եք դա անել, կարդացեք այստեղ՝ &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt;"</string>
@@ -5880,21 +5883,28 @@
     <string name="search_gesture_feature_summary" msgid="1793056495030564014">"Հպեք և պահեք գլխավոր էկրանի կոճակը կամ նավիգացիայի նշիչը, որպեսզի որոնեք՝ օգտագործելով ձեր էկրանի բովանդակությունը։"</string>
     <string name="device_detail_icon_content_description" msgid="6699151424374841937">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>։ Կարգավորեք սարքի տվյալները"</string>
     <string name="supervision_settings_title" msgid="8507163323870367711">"Ծնողական վերահսկողություն"</string>
-    <string name="supervision_settings_summary" msgid="5020634300370322741">"Բովանդակության և այլ սահմանափակումներ"</string>
+    <!-- no translation found for supervision_settings_summary (6304257872307136073) -->
+    <skip />
     <string name="device_supervision_switch_no_pin_summary" msgid="4869563544571033220">"Նշել PIN կոդ"</string>
-    <string name="device_supervision_switch_paused_summary" msgid="1014381188739295656">"Դադարեցված է"</string>
-    <string name="keywords_supervision_settings" msgid="2580555201483955376">"վերահսկողություն, ծնողական վերահսկողություն"</string>
+    <!-- no translation found for keywords_supervision_settings (43064288661561602) -->
+    <skip />
     <string name="supervision_pin_management_preference_title" msgid="7721501202320841845">"Կառավարեք ձեր PIN կոդը"</string>
+    <!-- no translation found for supervision_pin_management_preference_keywords (5034450635706621750) -->
+    <skip />
     <string name="supervision_pin_management_preference_summary_add" msgid="2247921267270577374">"Ավելացնել հաշվի վերականգնման հասցե"</string>
     <string name="supervision_pin_management_preference_summary_verify_recovery" msgid="5072554239108915119">"Հաստատել վերականգնման հասցեն"</string>
     <string name="supervision_change_pin_preference_title" msgid="2288584039438231801">"Փոխեք PIN-ը"</string>
     <string name="supervision_add_forgot_pin_preference_title" msgid="8939945404255748516">"Մոռացել եմ PIN կոդը"</string>
+    <!-- no translation found for supervision_auth_prompt_forgot_pin_button_label (1019337828884793557) -->
+    <skip />
     <string name="supervision_update_recovery_email_preference_title" msgid="2057393838251915087">"Թարմացնել հաշվի վերականգնման հասցեն"</string>
     <string name="supervision_delete_pin_preference_title" msgid="8447541098148430866">"Ջնջել PIN կոդը"</string>
-    <string name="supervision_delete_pin_preference_summary" msgid="4865713157106413979">"Ծնողական վերահսկողության բոլոր կարգավորումները կզրոյացվեն"</string>
     <string name="supervision_add_pin_recovery_title" msgid="3487098027604685794">"Ավելացրեք հաշվի վերականգնման հասցե"</string>
     <string name="supervision_verify_pin_recovery_title" msgid="3166602415814821497">"Հաստատեք ձեր էլ․ հասցեն"</string>
-    <string name="supervision_web_content_filters_title" msgid="3653430162065686156">"Վեբ բովանդակության զտիչներ"</string>
+    <!-- no translation found for supervision_web_content_filters_title (2412562442507104921) -->
+    <skip />
+    <!-- no translation found for supervision_web_content_filters_keywords (8469519676189544447) -->
+    <skip />
     <string name="supervision_web_content_filters_top_intro" msgid="5264773769840566499">"Արգելափակել մեծահասակների համար նախատեսված բովանդակությունը կայքերում և որոնման արդյունքներն այս սարքում առկա աջակցվող հավելվածներում։ Չաջակցվող հավելվածներում նախկինի պես կարող է ցուցադրվել մեծահասակների համար նախատեսված բովանդակություն։"</string>
     <string name="supervision_web_content_filters_browser_title" msgid="8737341514264129889">"Վեբ կայքեր"</string>
     <string name="supervision_web_content_filters_browser_filter_title" msgid="7957976669412075070">"Արգելափակել մեծահասակների համար նախատեսված կայքերը"</string>
@@ -5904,8 +5914,7 @@
     <string name="supervision_choose_your_pin_header" msgid="3872062168986738629">"Սահմանեք ծնողական վերահսկողության PIN կոդ"</string>
     <string name="supervision_confirm_your_pin_header" msgid="8236956712482718354">"Հաստատեք PIN կոդը"</string>
     <string name="supervision_pin_reset_success_toast" msgid="9163550161698311831">"PIN կոդը թարմացվեց"</string>
-    <!-- no translation found for supervision_promo_footer_action_button_description (7617359721703338141) -->
-    <skip />
+    <string name="supervision_promo_footer_action_button_description" msgid="7617359721703338141">"Բացել հավելվածը"</string>
     <string name="supervision_delete_pin_confirm_header" msgid="8499276643990949268">"Ջնջե՞լ PIN կոդը"</string>
     <string name="supervision_delete_pin_confirm_message" msgid="5482080400973042178">"Ձեր ընթացիկ PIN կոդը կջնջվի այս սարքում բոլոր օգտատերերի համար, և ձեր կարգավորումները կանջատվեն։ Այս գործողությունը չի կարող հետարկվել։"</string>
     <string name="supervision_delete_pin_supervision_enabled_header" msgid="2072311894107038402">"Նախ դադարեցրեք կարգավորումները մյուս պրոֆիլներում"</string>

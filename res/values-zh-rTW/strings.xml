@@ -47,10 +47,8 @@
     <string name="preview_pager_email_title" msgid="8767864657910457562">"電子郵件"</string>
     <string name="preview_pager_previous_button" msgid="607771113300838313">"上一個預覽畫面"</string>
     <string name="preview_pager_next_button" msgid="8700907912508927271">"下一個預覽畫面"</string>
-    <!-- no translation found for font_size_make_smaller_desc (319927200356692406) -->
-    <skip />
-    <!-- no translation found for font_size_make_larger_desc (6739310980713118605) -->
-    <skip />
+    <string name="font_size_make_smaller_desc" msgid="319927200356692406">"縮小字型"</string>
+    <string name="font_size_make_larger_desc" msgid="6739310980713118605">"放大字型"</string>
     <string name="stay_awake_on_fold_title" msgid="6590454679898134221">"一律允許"</string>
     <string name="stay_awake_on_fold_summary" msgid="1939963751585954262">"裝置摺疊時開啟封面螢幕"</string>
     <string name="stay_awake_on_lockscreen_title" msgid="8088456642083051068">"向上滑動繼續使用"</string>
@@ -200,7 +198,8 @@
     <string name="locale_remove_menu" msgid="3521546263421387474">"移除"</string>
     <string name="add_a_language" msgid="2126220398077503271">"新增語言"</string>
     <string name="app_locale_preference_title" msgid="5513627099300360232">"語言"</string>
-    <string name="locale_picker_category_title" msgid="6212064706962721255">"偏好語言"</string>
+    <!-- no translation found for locale_picker_category_title (296835514014453679) -->
+    <skip />
     <string name="app_locales_picker_menu_title" msgid="7617427959223831373">"應用程式語言"</string>
     <string name="app_locale_picker_summary" msgid="616928580653613998">"選擇各個應用程式的語言"</string>
     <string name="app_locale_picker_title" msgid="2431448962911301366">"應用程式語言"</string>
@@ -226,10 +225,17 @@
     <string name="title_change_system_locale" msgid="4102991236063984803">"要將系統語言變更為%s嗎？"</string>
     <string name="title_system_locale_addition" msgid="8218683660751479466">"要將「%s」新增為偏好語言嗎？"</string>
     <string name="desc_system_locale_addition" msgid="3409917362651596070">"這麼做可讓應用程式和網站知道這也是你的偏好語言。"</string>
-    <string name="desc_notice_device_locale_settings_change" msgid="8311132485850714160">"系統將變更裝置設定和地區偏好設定。"</string>
+    <!-- no translation found for desc_notice_device_locale_and_region_settings_change (909261686577914396) -->
+    <skip />
+    <!-- no translation found for desc_notice_device_locale_settings_change (5012353615235634881) -->
+    <skip />
+    <!-- no translation found for dlg_desc_delete_preferred_default_locale (690828405078078513) -->
+    <skip />
     <string name="button_label_confirmation_of_system_locale_change" msgid="5593798559604894733">"變更"</string>
-    <string name="title_unavailable_locale" msgid="2628898110416542386">"「%s」無法使用"</string>
-    <string name="desc_unavailable_locale" msgid="2201756477400935896">"這個語言無法做為系統語言，但你已在應用程式和網站上將此設為偏好語言。"</string>
+    <!-- no translation found for title_unavailable_locale (5382411204559213983) -->
+    <skip />
+    <!-- no translation found for desc_unavailable_locale (7223655766703116782) -->
+    <skip />
     <string name="locale_search_menu" msgid="297782694044826686">"搜尋"</string>
     <string name="language_and_region_title" msgid="8374151891112162767">"語言和區域"</string>
     <string name="language_selection_title" msgid="968179636453982415">"新增語言"</string>
@@ -243,6 +249,12 @@
     <string name="title_change_system_locale_region" msgid="4401478579429442695">"要將地區變更為<xliff:g id="SYSTEM_LANGUAGE_REGION">%1$s</xliff:g>嗎？"</string>
     <string name="body_change_system_locale_region" msgid="9064318449821043189">"裝置將繼續使用<xliff:g id="SYSTEM_LANGUAGE">%1$s</xliff:g>做為系統語言"</string>
     <string name="top_intro_numbering_system_title" msgid="3962000662073238392">"選擇裝置、網站和應用程式顯示號碼的方式"</string>
+    <!-- no translation found for preferred_locale_menu_up (4009560552099567485) -->
+    <skip />
+    <!-- no translation found for preferred_locale_menu_down (1033373887552535585) -->
+    <skip />
+    <!-- no translation found for preferred_locale_menu_remove (8547483341987864590) -->
+    <skip />
     <string name="regional_preferences_title" msgid="4304567374498629528">"地區偏好設定"</string>
     <string name="regional_preferences_summary" msgid="1189876997389469650">"設定單位和數字偏好設定"</string>
     <string name="regional_preferences_main_page_sub_title" msgid="4237109940015254725">"讓應用程式取得地區偏好設定，為你提供個人化體驗。"</string>
@@ -281,6 +293,10 @@
     <string name="dlg_remove_locales_error_title" msgid="5875503658221562572">"無法移除所有語言"</string>
     <string name="dlg_remove_locales_error_message" msgid="6504279959974675302">"請保留至少一種偏好語言"</string>
     <string name="locale_not_translated" msgid="3071618135527110152">"無法設為系統語言"</string>
+    <!-- no translation found for dlg_title_delete_preferred_locale (4167214348946940002) -->
+    <skip />
+    <!-- no translation found for dlg_desc_delete_preferred_locale (4658301652628456858) -->
+    <skip />
     <string name="action_drag_label_move_up" msgid="3392196942330705015">"向上移"</string>
     <string name="action_drag_label_move_down" msgid="9069518740553953426">"向下移"</string>
     <string name="action_drag_label_move_top" msgid="2430471023612171619">"移至頂端"</string>
@@ -460,6 +476,8 @@
     <string name="security_settings_fingerprint_enroll_introduction_no_thanks" msgid="1663906389456119842">"暫時不要"</string>
     <string name="security_settings_fingerprint_enroll_introduction_agree" msgid="4068276083536421828">"我同意"</string>
     <string name="security_settings_fingerprint_rename_description" msgid="6301505700382531086">"輕觸兩下即可重新命名"</string>
+    <!-- no translation found for security_settings_fingerprint_recognition_description (1805171116182647136) -->
+    <skip />
     <string name="setup_fingerprint_enroll_skip_title" msgid="2473807887676247264">"要略過指紋設定程序嗎？"</string>
     <string name="setup_fingerprint_enroll_skip_after_adding_lock_text" msgid="2412645723804450304">"指紋設定只需一兩分鐘即可完成。如果選擇略過，之後可以在「設定」中新增指紋。"</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_setup" msgid="6255210343107484206">"看到這個圖示時，請使用你的指紋驗證身分，以便執行特定操作，例如登入應用程式或核准購買交易"</string>
@@ -942,10 +960,8 @@
     <string name="bluetooth_device_context_connect" msgid="4913860372216815855">"連線"</string>
     <string name="bluetooth_device_context_disconnect" msgid="4464167389972513232">"中斷連線"</string>
     <string name="bluetooth_device_context_pair_connect" msgid="2406032703622371826">"配對並連線"</string>
-    <!-- no translation found for bluetooth_connecting (5315496594905010438) -->
-    <skip />
-    <!-- no translation found for bluetooth_disconnecting (1643422701532873735) -->
-    <skip />
+    <string name="bluetooth_connecting" msgid="5315496594905010438">"連線中"</string>
+    <string name="bluetooth_disconnecting" msgid="1643422701532873735">"正在中斷連線"</string>
     <string name="bluetooth_empty_list_bluetooth_off" msgid="7326727272747345476">"藍牙開啟後，裝置即可與其他鄰近的藍牙裝置互傳資料"</string>
     <string name="bluetooth_empty_list_bluetooth_off_auto_on_available" msgid="3430864468105204282">"藍牙開啟後，裝置就能與附近的其他藍牙裝置通訊。「快速分享」和「尋找我的裝置」等功能都會使用藍牙技術。"</string>
     <string name="bluetooth_scanning_on_info_message" msgid="786648535600075223">"藍牙功能開啟後，裝置即可與附近的其他藍牙裝置通訊。\n\n為提升裝置使用體驗，即使藍牙功能未開啟，應用程式和服務仍可隨時掃描鄰近裝置。這項功能可加強適地性功能與服務，可在藍牙掃描設定中變更。"</string>
@@ -1184,8 +1200,7 @@
     <string name="share_wifi_network" msgid="4064997404339571584">"與其他裝置使用者共用這個網路"</string>
     <string name="share_wifi_network_summary" msgid="4316236421149769333">"這部裝置的所有使用者都能看到並連上共用網路。系統管理員可以刪除共用網路。瞭解詳情"</string>
     <string name="edit_wifi_network_configuration" msgid="5712989655083072417">"允許其他使用者編輯網路設定"</string>
-    <!-- no translation found for edit_wifi_network_non_owner_message (4291718452228643581) -->
-    <skip />
+    <string name="edit_wifi_network_non_owner_message" msgid="4291718452228643581">"如要變更這個網路，請與這部裝置的管理員聯絡。"</string>
     <string name="no_internet_access_text" msgid="3611993143350310936">"這個網路沒有網際網路連線。要繼續保持連線嗎？"</string>
     <string name="partial_connectivity_text" msgid="8874614799723694554">"連線能力受限，因此部分應用程式和服務可能無法運作，仍要使用嗎？"</string>
     <string name="no_internet_access_remember" msgid="5113610157731269258">"不要再詢問我是否使用這個網路"</string>
@@ -2231,40 +2246,25 @@
     <string name="gesture_button_next" msgid="695288092704187356">"繼續"</string>
     <string name="gesture_button_restart" msgid="1895850891992530133">"重新開始"</string>
     <string name="gesture_button_done" msgid="6387900351203032188">"完成"</string>
-    <!-- no translation found for action_corner_title (1489042651433221319) -->
+    <!-- no translation found for action_corner_title (7411160165577367757) -->
     <skip />
-    <!-- no translation found for action_corner_summary (695618538930535335) -->
+    <string name="action_corner_summary" msgid="695618538930535335">"使用游標操作系統"</string>
+    <!-- no translation found for action_corner_intro (2170609118659718140) -->
     <skip />
-    <!-- no translation found for action_corner_intro (8782001241997579665) -->
-    <skip />
-    <!-- no translation found for action_corner_bottom_left_title (2857258272736432174) -->
-    <skip />
-    <!-- no translation found for action_corner_bottom_right_title (7222233500548465684) -->
-    <skip />
-    <!-- no translation found for action_corner_top_left_title (4633975226092344210) -->
-    <skip />
-    <!-- no translation found for action_corner_top_right_title (4995999693840776032) -->
-    <skip />
-    <!-- no translation found for action_corner_action_none (5203163099950649999) -->
-    <skip />
-    <!-- no translation found for action_corner_action_home (6779642573582379579) -->
-    <skip />
-    <!-- no translation found for action_corner_action_recent_apps (7450480676812648813) -->
-    <skip />
-    <!-- no translation found for action_corner_action_notifications (3779353356349774469) -->
-    <skip />
-    <!-- no translation found for action_corner_action_quick_settings (4660901117283653069) -->
-    <skip />
-    <!-- no translation found for action_corner_action_dialog_title (8253240813317885237) -->
-    <skip />
-    <!-- no translation found for action_corner_bottom_left_name (9193788067022476544) -->
-    <skip />
-    <!-- no translation found for action_corner_bottom_right_name (1031603363418505375) -->
-    <skip />
-    <!-- no translation found for action_corner_top_left_name (8077670910600032291) -->
-    <skip />
-    <!-- no translation found for action_corner_top_right_name (6307321595919080297) -->
-    <skip />
+    <string name="action_corner_bottom_left_title" msgid="2857258272736432174">"左下角"</string>
+    <string name="action_corner_bottom_right_title" msgid="7222233500548465684">"右下角"</string>
+    <string name="action_corner_top_left_title" msgid="4633975226092344210">"左上角"</string>
+    <string name="action_corner_top_right_title" msgid="4995999693840776032">"右上角"</string>
+    <string name="action_corner_action_none" msgid="5203163099950649999">"無"</string>
+    <string name="action_corner_action_home" msgid="6779642573582379579">"主畫面"</string>
+    <string name="action_corner_action_recent_apps" msgid="7450480676812648813">"最近使用的應用程式"</string>
+    <string name="action_corner_action_notifications" msgid="3779353356349774469">"通知"</string>
+    <string name="action_corner_action_quick_settings" msgid="4660901117283653069">"快速設定"</string>
+    <string name="action_corner_action_dialog_title" msgid="8253240813317885237">"選擇<xliff:g id="CORNER">%1$s</xliff:g>的快速鍵"</string>
+    <string name="action_corner_bottom_left_name" msgid="9193788067022476544">"左下角"</string>
+    <string name="action_corner_bottom_right_name" msgid="1031603363418505375">"右下角"</string>
+    <string name="action_corner_top_left_name" msgid="8077670910600032291">"左上角"</string>
+    <string name="action_corner_top_right_name" msgid="6307321595919080297">"右上角"</string>
     <string name="modifier_keys_settings" msgid="2537108435032034683">"輔助鍵"</string>
     <string name="modifier_keys_settings_summary" msgid="6933143361657444436">"變更按鍵行為"</string>
     <string name="modifier_keys_reset_title" msgid="948294258402761066">"全部重設"</string>
@@ -2409,8 +2409,7 @@
     <string name="accessibility_screen_magnification_shortcut_title" msgid="2387963646377987780">"放大功能捷徑"</string>
     <string name="accessibility_magnification_cursor_following_title" msgid="29531257984012743">"游標跟隨"</string>
     <string name="accessibility_magnification_cursor_following_header" msgid="7283095798622223509">"選擇放大功能追隨游標的方式。"</string>
-    <!-- no translation found for accessibility_magnification_cursor_following_unavailable_summary (1683880243856242269) -->
-    <skip />
+    <string name="accessibility_magnification_cursor_following_unavailable_summary" msgid="1683880243856242269">"只放大部分畫面時無法使用"</string>
     <string name="accessibility_magnification_cursor_following_continuous" msgid="1119319218662522794">"跟隨滑鼠游標持續移動畫面"</string>
     <string name="accessibility_magnification_cursor_following_center" msgid="3504798009192014460">"以滑鼠游標為中心移動畫面"</string>
     <string name="accessibility_magnification_cursor_following_edge" msgid="8675207762416655758">"滑鼠游標碰觸畫面邊緣時移動畫面"</string>
@@ -2551,32 +2550,20 @@
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_title" msgid="4987009529235165664">"自動更新螢幕放大設定"</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_summary" msgid="9034532513972547720">"更新應用程式轉場後的螢幕放大設定"</string>
     <string name="accessibility_power_button_ends_call_prerefence_title" msgid="8187306131979612144">"按電源鍵結束通話"</string>
-    <!-- no translation found for dark_theme_version_category (8563711427335567656) -->
-    <skip />
-    <!-- no translation found for accessibility_standard_dark_theme_title (7755139172613415921) -->
-    <skip />
-    <!-- no translation found for accessibility_standard_dark_theme_title_in_search (6182199392044601252) -->
-    <skip />
-    <!-- no translation found for accessibility_standard_dark_theme_summary (5462837198570089294) -->
-    <skip />
-    <!-- no translation found for accessibility_expanded_dark_theme_title (9221540446783335817) -->
-    <skip />
-    <!-- no translation found for accessibility_expanded_dark_theme_title_in_search (6003085770489582863) -->
-    <skip />
-    <!-- no translation found for accessibility_expanded_dark_theme_summary (7600947929245673753) -->
-    <skip />
+    <string name="dark_theme_version_category" msgid="8563711427335567656">"模式"</string>
+    <string name="accessibility_standard_dark_theme_title" msgid="7755139172613415921">"標準"</string>
+    <string name="accessibility_standard_dark_theme_title_in_search" msgid="6182199392044601252">"標準深色主題"</string>
+    <string name="accessibility_standard_dark_theme_summary" msgid="5462837198570089294">"在裝置和支援的應用程式中套用深色主題"</string>
+    <string name="accessibility_expanded_dark_theme_title" msgid="9221540446783335817">"擴展"</string>
+    <string name="accessibility_expanded_dark_theme_title_in_search" msgid="6003085770489582863">"擴展深色主題"</string>
+    <string name="accessibility_expanded_dark_theme_summary" msgid="7600947929245673753">"自動在更多應用程式中套用深色主題，提升無障礙使用體驗"</string>
     <string name="accessibility_disable_animations" msgid="2993529829457179058">"移除動畫"</string>
     <string name="accessibility_disable_animations_summary" msgid="5828228669556554565">"減少畫面上的動態效果"</string>
-    <!-- no translation found for accessibility_text_cursor_blink_rate_title (2560387611012958520) -->
-    <skip />
-    <!-- no translation found for accessibility_text_cursor_blink_rate_summary (6629885087638846245) -->
-    <skip />
-    <!-- no translation found for accessibility_text_cursor_blink_rate_slower_desc (5255697869959801747) -->
-    <skip />
-    <!-- no translation found for accessibility_text_cursor_blink_rate_faster_desc (5236406089575390876) -->
-    <skip />
-    <!-- no translation found for accessibility_text_cursor_blink_rate_reset_button_label (393679766407314372) -->
-    <skip />
+    <string name="accessibility_text_cursor_blink_rate_title" msgid="2560387611012958520">"文字游標閃爍"</string>
+    <string name="accessibility_text_cursor_blink_rate_summary" msgid="6629885087638846245">"調整文字游標閃爍速率或關閉閃爍 (應用程式或網站不一定支援)。"</string>
+    <string name="accessibility_text_cursor_blink_rate_slower_desc" msgid="5255697869959801747">"降低閃爍速度"</string>
+    <string name="accessibility_text_cursor_blink_rate_faster_desc" msgid="5236406089575390876">"提高閃爍速度"</string>
+    <string name="accessibility_text_cursor_blink_rate_reset_button_label" msgid="393679766407314372">"重設"</string>
     <string name="accessibility_toggle_primary_mono_title" msgid="7587152099472946571">"單聲道音訊"</string>
     <string name="accessibility_toggle_primary_mono_summary" msgid="1935283927319407303">"播放音訊時合併聲道"</string>
     <string name="accessibility_toggle_primary_balance_title" msgid="7332275200153366714">"音訊平衡"</string>
@@ -2666,6 +2653,10 @@
     <string name="accessibility_daltonizer_footer_learn_more_content_description" msgid="2091679253892040910">"進一步瞭解色彩校正"</string>
     <string name="accessibility_color_inversion_about_title" msgid="8275754480247040136">"關於色彩反轉"</string>
     <string name="accessibility_color_inversion_footer_learn_more_content_description" msgid="5382579548498952445">"進一步瞭解色彩反轉"</string>
+    <!-- no translation found for accessibility_dark_theme_footer_learn_more_helper_link (7084955775821075280) -->
+    <skip />
+    <!-- no translation found for accessibility_dark_theme_preference_footer_content (4431044600779983609) -->
+    <skip />
     <string name="accessibility_captioning_primary_switch_title" msgid="3663677340286206100">"顯示字幕"</string>
     <string name="accessibility_captioning_primary_switch_summary" msgid="2544094070306830218">"僅限支援的應用程式"</string>
     <string name="captioning_appearance_title" msgid="3128792092290011408">"字幕大小和樣式"</string>
@@ -3732,8 +3723,7 @@
     <string name="zen_mode_settings_schedules_summary" msgid="2047688589286811617">"{count,plural, =0{無}=1{已設定 1 個時間表}other{已設定 # 個時間表}}"</string>
     <string name="zen_mode_settings_title" msgid="682676757791334259">"零打擾"</string>
     <string name="zen_modes_list_title" msgid="4796033710444068729">"模式"</string>
-    <!-- no translation found for zen_modes_list_intro (1879511587535247228) -->
-    <skip />
+    <string name="zen_modes_list_intro" msgid="1879511587535247228">"運用睡眠、工作、行車等模式減少干擾，保持專注"</string>
     <string name="zen_modes_add_mode" msgid="5926457160307593664">"建立自己的模式"</string>
     <string name="zen_mode_settings_summary" msgid="6040862775514495191">"僅接收重要聯絡人和應用程式的通知"</string>
     <string name="zen_mode_select_schedule" msgid="663163931596092952">"設定時間表"</string>
@@ -4355,10 +4345,8 @@
     <string name="app_permissions" msgid="8666537659217653626">"權限管理工具"</string>
     <string name="app_data_sharing_updates_title" msgid="1694297952320402788">"位置資料共用方式更新"</string>
     <string name="app_data_sharing_updates_summary" msgid="4465929918457739443">"查看曾變更位置資料共用方式的應用程式"</string>
-    <!-- no translation found for app_function_access_settings_title (1474765429611652468) -->
-    <skip />
-    <!-- no translation found for app_function_access_settings_summary (6465715820745848068) -->
-    <skip />
+    <string name="app_function_access_settings_title" msgid="1474765429611652468">"其他應用程式的代理控制選項"</string>
+    <string name="app_function_access_settings_summary" msgid="6465715820745848068">"在裝置和其他應用程式中執行操作"</string>
     <string name="tap_to_wake" msgid="3313433536261440068">"輕觸即可喚醒"</string>
     <string name="tap_to_wake_summary" msgid="6641039858241611072">"在螢幕上任一處輕觸兩下即可喚醒裝置"</string>
     <string name="domain_urls_title" msgid="7012209752049678876">"開啟連結"</string>
@@ -4518,10 +4506,8 @@
     <string name="screen_zoom_short_summary" msgid="756254364808639194">"放大或縮小所有內容"</string>
     <string name="screen_zoom_keywords" msgid="5964023524422386592">"顯示密度、畫面縮放、縮放、縮放比例"</string>
     <string name="screen_zoom_preview_title" msgid="5288355628444562735">"預覽"</string>
-    <!-- no translation found for screen_zoom_make_smaller_desc (1450649885198381123) -->
-    <skip />
-    <!-- no translation found for screen_zoom_make_larger_desc (7125594310562596457) -->
-    <skip />
+    <string name="screen_zoom_make_smaller_desc" msgid="1450649885198381123">"縮小"</string>
+    <string name="screen_zoom_make_larger_desc" msgid="7125594310562596457">"放大"</string>
     <string name="disconnected" msgid="3469373726996129247">"未連線"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"未連接"</string>
     <string name="apps_summary" msgid="4007416751775414252">"已安裝 <xliff:g id="COUNT">%1$d</xliff:g> 個應用程式"</string>
@@ -4541,6 +4527,10 @@
     <string name="disabled_by_policy_title_financed_device" msgid="2328740314082888228">"信貸提供者已封鎖這項設定"</string>
     <string name="disabled_by_policy_title_biometric_parental_consent" msgid="2463673997797134678">"必須由家長操作"</string>
     <string name="disabled_by_policy_content_biometric_parental_consent" msgid="7124116806784305206">"如要開始設定這項功能，請將手機交給家長"</string>
+    <!-- no translation found for disabled_by_policy_title_parental_controls (8875976588644052371) -->
+    <skip />
+    <!-- no translation found for disabled_by_policy_content_parental_controls (4648160125103768738) -->
+    <skip />
     <string name="disabled_by_policy_parental_consent" msgid="9166060049019018978">"這項設定必須經由家長同意才能變更，因此請將手機交給家長。"</string>
     <string name="default_admin_support_msg" msgid="8816296554831532033">"詳情請洽 IT 管理員"</string>
     <string name="admin_support_more_info" msgid="8407433155725898290">"其他詳細資訊"</string>
@@ -4656,7 +4646,8 @@
     <string name="battery_tips_card_action_button_check" msgid="1535140204105479318">"查看"</string>
     <string name="battery_tips_card_dismiss_button" msgid="1885756985544936618">"我知道了"</string>
     <string name="battery_tips_card_feedback_info" msgid="767117835675157298">"這則訊息是否有幫助？"</string>
-    <string name="battery_hints_warning_icon_a11y" msgid="5312542323401447620">"電池提示警告圖示"</string>
+    <!-- no translation found for battery_hints_warning_icon_a11y (709629805028175434) -->
+    <skip />
     <string name="battery_tips_settings_summary_brightness" msgid="546145032616077783">"開啟自動調整亮度功能可延長電池續航力"</string>
     <string name="battery_tips_settings_summary_screen_timeout" msgid="556801426050962077">"縮短螢幕自動關閉時間可延長電池續航力"</string>
     <string name="battery_tips_apps_summary_always_high" msgid="6334519477067044920">"「<xliff:g id="APP_LABEL">%1$s</xliff:g>」比較耗電"</string>
@@ -5376,15 +5367,13 @@
     <string name="enable_16k_pages" msgid="1758111531461408337">"以 16 KB 頁面大小啟動"</string>
     <string name="enable_16k_pages_summary" msgid="1937836453571509085">"使用支援 16 KB 頁面大小的核心啟動裝置"</string>
     <string name="confirm_enable_16k_pages_title" msgid="5477376227161609124">"從 4 KB 切換為 16 KB 模式"</string>
-    <!-- no translation found for confirm_enable_16k_pages_update_wipe (4760548401414644138) -->
-    <skip />
+    <string name="confirm_enable_16k_pages_update_wipe" msgid="4760548401414644138">"這部裝置的資料分區必須轉換成 ext4，才能使用 16 KB 開發人員選項。裝置將抹除資料，檔案系統會在確認後變更為 ext4。目前處於 4 KB 核心的實際工作環境模式，即將切換到 16 KB 模式。在此模式下，只要重新啟動一次，就能在 4 KB 和 16 KB 模式之間切換。此模式無法保證軟體完整性，且系統啟動載入程式解鎖時，手機上的資料可能會有風險。在這類模式下，部分功能會停用，因此有些應用程式可能無法運作。如要讓裝置返回實際工作環境模式，必須切回 4 KB 模式，並鎖定系統啟動載入程式，將裝置恢復原廠設定。裝置成功啟動 Android 系統後，請前往開發人員選項停用 OEM 解鎖設定。如要繼續操作，按一下「清除所有資料並更新」，即可重新啟動裝置。"</string>
     <string name="confirm_enable_16k_pages_text" msgid="6211693250692246982">"你正處於執行 4 KB 核心的可變頁面模式，即將切換為 16 KB 模式。此模式無法保證軟體完整性，且系統啟動載入程式解鎖時，手機上的資料可能會有風險。切換以後，裝置會重新啟動。在這類模式中，部分功能會停用，因此有些應用程式可能無法運作。如要讓裝置返回實際工作環境模式，必須切換回 4 KB 模式並鎖定系統啟動載入程式，這時裝置會恢復原廠設定。裝置成功啟動 Android 系統後，請前往「開發人員選項」停用「OEM 解鎖」設定。"</string>
     <string name="confirm_enable_4k_pages_title" msgid="3001009010581393119">"從 16 KB 切換為 4 KB 模式"</string>
     <string name="confirm_enable_4k_pages_text" msgid="3398001587586470689">"你正處於執行 16 KB 核心的可變頁面模式，即將切換為 4 KB 模式。此模式無法保證軟體完整性，且系統啟動載入程式解鎖時，手機上的資料可能會有風險。切換以後，裝置會重新啟動。在這類模式中，部分功能會停用，因此有些應用程式可能無法運作。如要讓裝置返回實際工作環境模式，必須鎖定系統啟動載入程式，這時裝置會恢復原廠設定。裝置成功啟動 Android 系統後，請前往「開發人員選項」停用「OEM 解鎖」設定。"</string>
     <string name="toast_16k_update_failed_text" msgid="7848383020572918850">"無法將核心更新為 16 KB 頁面相容核心。"</string>
     <string name="progress_16k_ota_title" msgid="2117218313875523741">"正在套用變更"</string>
-    <!-- no translation found for confirm_ext4_button_text (697563319110759422) -->
-    <skip />
+    <string name="confirm_ext4_button_text" msgid="697563319110759422">"清除所有資料並更新"</string>
     <string name="format_ext4_failure_toast" msgid="8059453995800471549">"無法抹除資料分區並重新格式化為 ext4。"</string>
     <string name="confirm_oem_unlock_for_16k_title" msgid="6062041826568112078">"必須解鎖系統啟動載入程式"</string>
     <string name="confirm_oem_unlock_for_16k_text" msgid="8089310116854544106">"必須先將這部裝置的系統啟動載入程式解鎖，才能使用 16 KB 開發人員選項。此模式無法保證軟體完整性，且系統啟動載入程式解鎖時，手機上的資料可能會有風險。啟用 16K B 模式時，所有使用者資料和設定都將抹除。系統啟動載入程式解鎖後，需要經過兩次重新啟動，才能啟用 16 KB 選項。在此模式下，只要重新啟動一次，就能在 4 KB 和 16 KB 模式之間來回切換。在這類模式中，部分功能會停用，因此有些應用程式可能無法運作。如要讓裝置返回實際工作環境模式，必須切換回 4 KB 模式，OEM/系統啟動載入程式就會鎖定裝置，這時裝置會恢復原廠設定。請解鎖系統啟動載入程式，然後再試一次。操作方法如以下網址說明：&lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt;"</string>
@@ -5880,21 +5869,28 @@
     <string name="search_gesture_feature_summary" msgid="1793056495030564014">"按住主畫面按鈕或導覽列，就能搜尋畫面內容。"</string>
     <string name="device_detail_icon_content_description" msgid="6699151424374841937">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>。設定裝置詳細資料。"</string>
     <string name="supervision_settings_title" msgid="8507163323870367711">"家長監護"</string>
-    <string name="supervision_settings_summary" msgid="5020634300370322741">"內容限制和其他限制"</string>
+    <!-- no translation found for supervision_settings_summary (6304257872307136073) -->
+    <skip />
     <string name="device_supervision_switch_no_pin_summary" msgid="4869563544571033220">"設定 PIN 碼"</string>
-    <string name="device_supervision_switch_paused_summary" msgid="1014381188739295656">"已暫停"</string>
-    <string name="keywords_supervision_settings" msgid="2580555201483955376">"監護, 家長監護"</string>
+    <!-- no translation found for keywords_supervision_settings (43064288661561602) -->
+    <skip />
     <string name="supervision_pin_management_preference_title" msgid="7721501202320841845">"管理 PIN 碼"</string>
+    <!-- no translation found for supervision_pin_management_preference_keywords (5034450635706621750) -->
+    <skip />
     <string name="supervision_pin_management_preference_summary_add" msgid="2247921267270577374">"新增備援電子郵件地址"</string>
     <string name="supervision_pin_management_preference_summary_verify_recovery" msgid="5072554239108915119">"驗證備援電子郵件地址"</string>
     <string name="supervision_change_pin_preference_title" msgid="2288584039438231801">"變更 PIN 碼"</string>
     <string name="supervision_add_forgot_pin_preference_title" msgid="8939945404255748516">"忘記 PIN 碼"</string>
+    <!-- no translation found for supervision_auth_prompt_forgot_pin_button_label (1019337828884793557) -->
+    <skip />
     <string name="supervision_update_recovery_email_preference_title" msgid="2057393838251915087">"更新備援電子郵件地址"</string>
     <string name="supervision_delete_pin_preference_title" msgid="8447541098148430866">"刪除 PIN 碼"</string>
-    <string name="supervision_delete_pin_preference_summary" msgid="4865713157106413979">"這項操作會重設所有監護設定"</string>
     <string name="supervision_add_pin_recovery_title" msgid="3487098027604685794">"新增備援電子郵件地址"</string>
     <string name="supervision_verify_pin_recovery_title" msgid="3166602415814821497">"驗證電子郵件地址"</string>
-    <string name="supervision_web_content_filters_title" msgid="3653430162065686156">"網路內容篩選器"</string>
+    <!-- no translation found for supervision_web_content_filters_title (2412562442507104921) -->
+    <skip />
+    <!-- no translation found for supervision_web_content_filters_keywords (8469519676189544447) -->
+    <skip />
     <string name="supervision_web_content_filters_top_intro" msgid="5264773769840566499">"在這部裝置的支援應用程式中，封鎖網站和搜尋結果內的兒童不宜內容。不支援的應用程式仍可能會顯示情色露骨內容。"</string>
     <string name="supervision_web_content_filters_browser_title" msgid="8737341514264129889">"網站"</string>
     <string name="supervision_web_content_filters_browser_filter_title" msgid="7957976669412075070">"封鎖涉及情色露骨內容的網站"</string>
@@ -5904,8 +5900,7 @@
     <string name="supervision_choose_your_pin_header" msgid="3872062168986738629">"設定家長監護 PIN 碼"</string>
     <string name="supervision_confirm_your_pin_header" msgid="8236956712482718354">"確認 PIN 碼"</string>
     <string name="supervision_pin_reset_success_toast" msgid="9163550161698311831">"PIN 碼已更新"</string>
-    <!-- no translation found for supervision_promo_footer_action_button_description (7617359721703338141) -->
-    <skip />
+    <string name="supervision_promo_footer_action_button_description" msgid="7617359721703338141">"開啟應用程式"</string>
     <string name="supervision_delete_pin_confirm_header" msgid="8499276643990949268">"要刪除 PIN 碼嗎？"</string>
     <string name="supervision_delete_pin_confirm_message" msgid="5482080400973042178">"這麼做會刪除你目前在這部裝置上控管所有使用者的 PIN 碼，並停用你已設定的控制選項。請注意，這項操作無法復原。"</string>
     <string name="supervision_delete_pin_supervision_enabled_header" msgid="2072311894107038402">"請先暫停對其他設定檔的控制選項"</string>

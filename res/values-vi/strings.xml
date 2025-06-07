@@ -47,10 +47,8 @@
     <string name="preview_pager_email_title" msgid="8767864657910457562">"Email"</string>
     <string name="preview_pager_previous_button" msgid="607771113300838313">"Bản xem trước trước"</string>
     <string name="preview_pager_next_button" msgid="8700907912508927271">"Bản xem trước tiếp theo"</string>
-    <!-- no translation found for font_size_make_smaller_desc (319927200356692406) -->
-    <skip />
-    <!-- no translation found for font_size_make_larger_desc (6739310980713118605) -->
-    <skip />
+    <string name="font_size_make_smaller_desc" msgid="319927200356692406">"Giảm cỡ chữ"</string>
+    <string name="font_size_make_larger_desc" msgid="6739310980713118605">"Tăng cỡ chữ"</string>
     <string name="stay_awake_on_fold_title" msgid="6590454679898134221">"Luôn luôn"</string>
     <string name="stay_awake_on_fold_summary" msgid="1939963751585954262">"Màn hình ngoài sẽ bật khi bạn gập thiết bị"</string>
     <string name="stay_awake_on_lockscreen_title" msgid="8088456642083051068">"Vuốt lên để tiếp tục"</string>
@@ -200,7 +198,8 @@
     <string name="locale_remove_menu" msgid="3521546263421387474">"Xóa"</string>
     <string name="add_a_language" msgid="2126220398077503271">"Thêm ngôn ngữ"</string>
     <string name="app_locale_preference_title" msgid="5513627099300360232">"Ngôn ngữ"</string>
-    <string name="locale_picker_category_title" msgid="6212064706962721255">"Ngôn ngữ ưu tiên"</string>
+    <!-- no translation found for locale_picker_category_title (296835514014453679) -->
+    <skip />
     <string name="app_locales_picker_menu_title" msgid="7617427959223831373">"Ngôn ngữ ứng dụng"</string>
     <string name="app_locale_picker_summary" msgid="616928580653613998">"Chọn ngôn ngữ cho từng ứng dụng"</string>
     <string name="app_locale_picker_title" msgid="2431448962911301366">"Ngôn ngữ ứng dụng"</string>
@@ -226,10 +225,17 @@
     <string name="title_change_system_locale" msgid="4102991236063984803">"Thay đổi ngôn ngữ hệ thống thành %s?"</string>
     <string name="title_system_locale_addition" msgid="8218683660751479466">"Thêm %s vào ngôn ngữ được ưu tiên?"</string>
     <string name="desc_system_locale_addition" msgid="3409917362651596070">"Thao tác này cho phép các ứng dụng và trang web biết rằng bạn cũng ưu tiên ngôn ngữ này."</string>
-    <string name="desc_notice_device_locale_settings_change" msgid="8311132485850714160">"Các chế độ cài đặt thiết bị và lựa chọn ưu tiên theo khu vực sẽ thay đổi."</string>
+    <!-- no translation found for desc_notice_device_locale_and_region_settings_change (909261686577914396) -->
+    <skip />
+    <!-- no translation found for desc_notice_device_locale_settings_change (5012353615235634881) -->
+    <skip />
+    <!-- no translation found for dlg_desc_delete_preferred_default_locale (690828405078078513) -->
+    <skip />
     <string name="button_label_confirmation_of_system_locale_change" msgid="5593798559604894733">"Thay đổi"</string>
-    <string name="title_unavailable_locale" msgid="2628898110416542386">"%s không dùng được"</string>
-    <string name="desc_unavailable_locale" msgid="2201756477400935896">"Bạn không thể dùng ngôn ngữ này làm ngôn ngữ hệ thống, nhưng đã cho các ứng dụng và trang web biết rằng bạn ưu tiên ngôn ngữ này."</string>
+    <!-- no translation found for title_unavailable_locale (5382411204559213983) -->
+    <skip />
+    <!-- no translation found for desc_unavailable_locale (7223655766703116782) -->
+    <skip />
     <string name="locale_search_menu" msgid="297782694044826686">"Tìm kiếm"</string>
     <string name="language_and_region_title" msgid="8374151891112162767">"Ngôn ngữ và khu vực"</string>
     <string name="language_selection_title" msgid="968179636453982415">"Thêm ngôn ngữ"</string>
@@ -243,6 +249,12 @@
     <string name="title_change_system_locale_region" msgid="4401478579429442695">"Thay đổi khu vực thành <xliff:g id="SYSTEM_LANGUAGE_REGION">%1$s</xliff:g>?"</string>
     <string name="body_change_system_locale_region" msgid="9064318449821043189">"Thiết bị sẽ tiếp tục dùng <xliff:g id="SYSTEM_LANGUAGE">%1$s</xliff:g> làm ngôn ngữ hệ thống"</string>
     <string name="top_intro_numbering_system_title" msgid="3962000662073238392">"Chọn cách thiết bị, trang web và ứng dụng hiện số"</string>
+    <!-- no translation found for preferred_locale_menu_up (4009560552099567485) -->
+    <skip />
+    <!-- no translation found for preferred_locale_menu_down (1033373887552535585) -->
+    <skip />
+    <!-- no translation found for preferred_locale_menu_remove (8547483341987864590) -->
+    <skip />
     <string name="regional_preferences_title" msgid="4304567374498629528">"Lựa chọn ưu tiên theo khu vực"</string>
     <string name="regional_preferences_summary" msgid="1189876997389469650">"Đặt các lựa chọn ưu tiên về số và đơn vị"</string>
     <string name="regional_preferences_main_page_sub_title" msgid="4237109940015254725">"Cho ứng dụng biết lựa chọn ưu tiên theo khu vực của bạn để ứng dụng có thể mang đến trải nghiệm phù hợp."</string>
@@ -281,6 +293,10 @@
     <string name="dlg_remove_locales_error_title" msgid="5875503658221562572">"Không thể xóa tất cả ngôn ngữ"</string>
     <string name="dlg_remove_locales_error_message" msgid="6504279959974675302">"Giữ ít nhất một ngôn ngữ ưa thích"</string>
     <string name="locale_not_translated" msgid="3071618135527110152">"Không có ở dạng ngôn ngữ hệ thống"</string>
+    <!-- no translation found for dlg_title_delete_preferred_locale (4167214348946940002) -->
+    <skip />
+    <!-- no translation found for dlg_desc_delete_preferred_locale (4658301652628456858) -->
+    <skip />
     <string name="action_drag_label_move_up" msgid="3392196942330705015">"Chuyển lên"</string>
     <string name="action_drag_label_move_down" msgid="9069518740553953426">"Chuyển xuống"</string>
     <string name="action_drag_label_move_top" msgid="2430471023612171619">"Chuyển lên trên cùng"</string>
@@ -460,6 +476,8 @@
     <string name="security_settings_fingerprint_enroll_introduction_no_thanks" msgid="1663906389456119842">"Để sau"</string>
     <string name="security_settings_fingerprint_enroll_introduction_agree" msgid="4068276083536421828">"Tôi đồng ý"</string>
     <string name="security_settings_fingerprint_rename_description" msgid="6301505700382531086">"Nhấn đúp để đổi tên"</string>
+    <!-- no translation found for security_settings_fingerprint_recognition_description (1805171116182647136) -->
+    <skip />
     <string name="setup_fingerprint_enroll_skip_title" msgid="2473807887676247264">"Bạn muốn bỏ qua vân tay?"</string>
     <string name="setup_fingerprint_enroll_skip_after_adding_lock_text" msgid="2412645723804450304">"Bạn chỉ mất một hoặc hai phút để thiết lập vân tay. Nếu bỏ qua bước này, bạn có thể thêm vân tay vào lúc khác trong phần cài đặt."</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_setup" msgid="6255210343107484206">"Khi thấy biểu tượng này, hãy dùng vân tay để xác thực, chẳng hạn như khi bạn đăng nhập vào ứng dụng hoặc phê duyệt một giao dịch mua"</string>
@@ -942,10 +960,8 @@
     <string name="bluetooth_device_context_connect" msgid="4913860372216815855">"Kết nối"</string>
     <string name="bluetooth_device_context_disconnect" msgid="4464167389972513232">"Ngắt kết nối"</string>
     <string name="bluetooth_device_context_pair_connect" msgid="2406032703622371826">"Ghép nối và kết nối"</string>
-    <!-- no translation found for bluetooth_connecting (5315496594905010438) -->
-    <skip />
-    <!-- no translation found for bluetooth_disconnecting (1643422701532873735) -->
-    <skip />
+    <string name="bluetooth_connecting" msgid="5315496594905010438">"Đang kết nối"</string>
+    <string name="bluetooth_disconnecting" msgid="1643422701532873735">"Đang ngắt kết nối"</string>
     <string name="bluetooth_empty_list_bluetooth_off" msgid="7326727272747345476">"Khi bạn bật Bluetooth, thiết bị của bạn có thể giao tiếp với các thiết bị Bluetooth khác ở gần"</string>
     <string name="bluetooth_empty_list_bluetooth_off_auto_on_available" msgid="3430864468105204282">"Khi Bluetooth bật, thiết bị của bạn có thể kết nối với các thiết bị Bluetooth khác ở gần. Các tính năng như Chia sẻ nhanh và Tìm thiết bị của tôi đều sử dụng Bluetooth."</string>
     <string name="bluetooth_scanning_on_info_message" msgid="786648535600075223">"Khi bạn bật Bluetooth, thiết bị của bạn có thể kết nối với các thiết bị Bluetooth khác ở gần.\n\nĐể cải thiện trải nghiệm sử dụng thiết bị, các ứng dụng và dịch vụ vẫn có thể quét tìm những thiết bị ở gần bất cứ lúc nào, ngay cả khi Bluetooth tắt. Chế độ này có thể được dùng để cải thiện các tính năng và dịch vụ dựa trên vị trí. Bạn có thể thay đổi chế độ này trong phần cài đặt tính năng Quét tìm Bluetooth."</string>
@@ -2231,40 +2247,25 @@
     <string name="gesture_button_next" msgid="695288092704187356">"Tiếp theo"</string>
     <string name="gesture_button_restart" msgid="1895850891992530133">"Khởi động lại"</string>
     <string name="gesture_button_done" msgid="6387900351203032188">"Xong"</string>
-    <!-- no translation found for action_corner_title (1489042651433221319) -->
+    <!-- no translation found for action_corner_title (7411160165577367757) -->
     <skip />
-    <!-- no translation found for action_corner_summary (695618538930535335) -->
+    <string name="action_corner_summary" msgid="695618538930535335">"Dùng con trỏ để thao tác trong hệ thống"</string>
+    <!-- no translation found for action_corner_intro (2170609118659718140) -->
     <skip />
-    <!-- no translation found for action_corner_intro (8782001241997579665) -->
-    <skip />
-    <!-- no translation found for action_corner_bottom_left_title (2857258272736432174) -->
-    <skip />
-    <!-- no translation found for action_corner_bottom_right_title (7222233500548465684) -->
-    <skip />
-    <!-- no translation found for action_corner_top_left_title (4633975226092344210) -->
-    <skip />
-    <!-- no translation found for action_corner_top_right_title (4995999693840776032) -->
-    <skip />
-    <!-- no translation found for action_corner_action_none (5203163099950649999) -->
-    <skip />
-    <!-- no translation found for action_corner_action_home (6779642573582379579) -->
-    <skip />
-    <!-- no translation found for action_corner_action_recent_apps (7450480676812648813) -->
-    <skip />
-    <!-- no translation found for action_corner_action_notifications (3779353356349774469) -->
-    <skip />
-    <!-- no translation found for action_corner_action_quick_settings (4660901117283653069) -->
-    <skip />
-    <!-- no translation found for action_corner_action_dialog_title (8253240813317885237) -->
-    <skip />
-    <!-- no translation found for action_corner_bottom_left_name (9193788067022476544) -->
-    <skip />
-    <!-- no translation found for action_corner_bottom_right_name (1031603363418505375) -->
-    <skip />
-    <!-- no translation found for action_corner_top_left_name (8077670910600032291) -->
-    <skip />
-    <!-- no translation found for action_corner_top_right_name (6307321595919080297) -->
-    <skip />
+    <string name="action_corner_bottom_left_title" msgid="2857258272736432174">"Góc dưới cùng bên trái"</string>
+    <string name="action_corner_bottom_right_title" msgid="7222233500548465684">"Góc dưới cùng bên phải"</string>
+    <string name="action_corner_top_left_title" msgid="4633975226092344210">"Góc trên cùng bên trái"</string>
+    <string name="action_corner_top_right_title" msgid="4995999693840776032">"Góc trên cùng bên phải"</string>
+    <string name="action_corner_action_none" msgid="5203163099950649999">"Không có"</string>
+    <string name="action_corner_action_home" msgid="6779642573582379579">"Màn hình chính"</string>
+    <string name="action_corner_action_recent_apps" msgid="7450480676812648813">"Ứng dụng gần đây"</string>
+    <string name="action_corner_action_notifications" msgid="3779353356349774469">"Thông báo"</string>
+    <string name="action_corner_action_quick_settings" msgid="4660901117283653069">"Cài đặt nhanh"</string>
+    <string name="action_corner_action_dialog_title" msgid="8253240813317885237">"Chọn một phím tắt cho <xliff:g id="CORNER">%1$s</xliff:g>"</string>
+    <string name="action_corner_bottom_left_name" msgid="9193788067022476544">"góc dưới cùng bên trái"</string>
+    <string name="action_corner_bottom_right_name" msgid="1031603363418505375">"góc dưới cùng bên phải"</string>
+    <string name="action_corner_top_left_name" msgid="8077670910600032291">"góc trên cùng bên trái"</string>
+    <string name="action_corner_top_right_name" msgid="6307321595919080297">"góc trên cùng bên phải"</string>
     <string name="modifier_keys_settings" msgid="2537108435032034683">"Phím bổ trợ"</string>
     <string name="modifier_keys_settings_summary" msgid="6933143361657444436">"Thay đổi hành vi của phím"</string>
     <string name="modifier_keys_reset_title" msgid="948294258402761066">"Đặt lại tất cả"</string>
@@ -2409,8 +2410,7 @@
     <string name="accessibility_screen_magnification_shortcut_title" msgid="2387963646377987780">"Lối tắt cho tính năng phóng to"</string>
     <string name="accessibility_magnification_cursor_following_title" msgid="29531257984012743">"Theo dõi con trỏ"</string>
     <string name="accessibility_magnification_cursor_following_header" msgid="7283095798622223509">"Chọn cách tính năng Phóng to theo dõi con trỏ."</string>
-    <!-- no translation found for accessibility_magnification_cursor_following_unavailable_summary (1683880243856242269) -->
-    <skip />
+    <string name="accessibility_magnification_cursor_following_unavailable_summary" msgid="1683880243856242269">"Không dùng được khi chỉ phóng to một phần màn hình"</string>
     <string name="accessibility_magnification_cursor_following_continuous" msgid="1119319218662522794">"Di chuyển màn hình liên tục khi chuột di chuyển"</string>
     <string name="accessibility_magnification_cursor_following_center" msgid="3504798009192014460">"Di chuyển màn hình trong khi giữ chuột ở giữa màn hình"</string>
     <string name="accessibility_magnification_cursor_following_edge" msgid="8675207762416655758">"Di chuyển màn hình khi chuột chạm vào các cạnh màn hình"</string>
@@ -2629,8 +2629,8 @@
     <string name="autoclick_cursor_area_size_dialog_option_extra_small" msgid="6056674574040448864">"Rất nhỏ"</string>
     <string name="autoclick_ignore_minor_cursor_movement_title" msgid="5038721995720529808">"Bỏ qua chuyển động nhỏ của con trỏ"</string>
     <string name="autoclick_revert_to_left_click_title" msgid="9213418243482609005">"Trở về chức năng nhấp chuột trái sau khi hoàn tất hành động"</string>
-    <string name="accessibility_autoclick_navigation_title" msgid="6808216178814576714">"Thay đổi chế độ thao tác để sử dụng tính năng tự động nhấp"</string>
-    <string name="accessibility_autoclick_navigation_message" msgid="112626284307103141">"Để quay lại Màn hình chính và chuyển đổi ứng dụng khi dùng tính năng tự động nhấp, hãy sử dụng thao tác bằng 3 nút thay vì thao tác bằng cử chỉ"</string>
+    <string name="accessibility_autoclick_navigation_title" msgid="6808216178814576714">"Thay đổi chế độ điều hướng để sử dụng tính năng tự động nhấp"</string>
+    <string name="accessibility_autoclick_navigation_message" msgid="112626284307103141">"Để quay lại Màn hình chính và chuyển đổi ứng dụng khi dùng tính năng tự động nhấp, hãy sử dụng thao tác bằng 3 nút thay vì điều hướng bằng cử chỉ"</string>
     <string name="accessibility_vibration_settings_title" msgid="936301142478631993">"Chế độ rung và phản hồi xúc giác"</string>
     <string name="accessibility_vibration_settings_summary" msgid="3690308537483465527">"Kiểm soát cường độ rung cho các mục đích sử dụng khác nhau"</string>
     <string name="accessibility_vibration_settings_state_on" msgid="5566026932372832502">"Đang bật"</string>
@@ -2666,6 +2666,10 @@
     <string name="accessibility_daltonizer_footer_learn_more_content_description" msgid="2091679253892040910">"Tìm hiểu thêm về tính năng chỉnh màu"</string>
     <string name="accessibility_color_inversion_about_title" msgid="8275754480247040136">"Giới thiệu về tính năng đảo màu"</string>
     <string name="accessibility_color_inversion_footer_learn_more_content_description" msgid="5382579548498952445">"Tìm hiểu thêm về tính năng đảo màu"</string>
+    <!-- no translation found for accessibility_dark_theme_footer_learn_more_helper_link (7084955775821075280) -->
+    <skip />
+    <!-- no translation found for accessibility_dark_theme_preference_footer_content (4431044600779983609) -->
+    <skip />
     <string name="accessibility_captioning_primary_switch_title" msgid="3663677340286206100">"Hiện phụ đề"</string>
     <string name="accessibility_captioning_primary_switch_summary" msgid="2544094070306830218">"Chỉ dành cho ứng dụng được hỗ trợ"</string>
     <string name="captioning_appearance_title" msgid="3128792092290011408">"Cỡ chữ và kiểu phụ đề"</string>
@@ -4355,10 +4359,8 @@
     <string name="app_permissions" msgid="8666537659217653626">"Trình quản lý quyền"</string>
     <string name="app_data_sharing_updates_title" msgid="1694297952320402788">"Cập nhật đối với tính năng chia sẻ dữ liệu vị trí"</string>
     <string name="app_data_sharing_updates_summary" msgid="4465929918457739443">"Xem xét những ứng dụng đã thay đổi cách mà chúng có thể chia sẻ dữ liệu vị trí của bạn"</string>
-    <!-- no translation found for app_function_access_settings_title (1474765429611652468) -->
-    <skip />
-    <!-- no translation found for app_function_access_settings_summary (6465715820745848068) -->
-    <skip />
+    <string name="app_function_access_settings_title" msgid="1474765429611652468">"Tác nhân kiểm soát các ứng dụng khác"</string>
+    <string name="app_function_access_settings_summary" msgid="6465715820745848068">"Thao tác trên thiết bị và trong các ứng dụng khác"</string>
     <string name="tap_to_wake" msgid="3313433536261440068">"Nhấn để đánh thức"</string>
     <string name="tap_to_wake_summary" msgid="6641039858241611072">"Nhấn đúp vào vị trí bất kỳ trên màn hình để đánh thức thiết bị"</string>
     <string name="domain_urls_title" msgid="7012209752049678876">"Mở đường liên kết"</string>
@@ -4518,10 +4520,8 @@
     <string name="screen_zoom_short_summary" msgid="756254364808639194">"Phóng to hoặc thu nhỏ mọi thứ"</string>
     <string name="screen_zoom_keywords" msgid="5964023524422386592">"mật độ hiển thị, thu phóng màn hình, tỷ lệ, chia tỷ lệ"</string>
     <string name="screen_zoom_preview_title" msgid="5288355628444562735">"Xem trước"</string>
-    <!-- no translation found for screen_zoom_make_smaller_desc (1450649885198381123) -->
-    <skip />
-    <!-- no translation found for screen_zoom_make_larger_desc (7125594310562596457) -->
-    <skip />
+    <string name="screen_zoom_make_smaller_desc" msgid="1450649885198381123">"Giảm kích thước hiển thị"</string>
+    <string name="screen_zoom_make_larger_desc" msgid="7125594310562596457">"Tăng kích thước hiển thị"</string>
     <string name="disconnected" msgid="3469373726996129247">"Chưa kết nối"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"Chưa kết nối"</string>
     <string name="apps_summary" msgid="4007416751775414252">"Đã cài đặt <xliff:g id="COUNT">%1$d</xliff:g> ứng dụng"</string>
@@ -4541,6 +4541,10 @@
     <string name="disabled_by_policy_title_financed_device" msgid="2328740314082888228">"Đã bị nhà cung cấp dịch vụ tín dụng của bạn chặn"</string>
     <string name="disabled_by_policy_title_biometric_parental_consent" msgid="2463673997797134678">"Cần có sự đồng ý của cha mẹ"</string>
     <string name="disabled_by_policy_content_biometric_parental_consent" msgid="7124116806784305206">"Hãy đưa điện thoại cho cha mẹ bạn để họ bắt đầu thiết lập phương thức này"</string>
+    <!-- no translation found for disabled_by_policy_title_parental_controls (8875976588644052371) -->
+    <skip />
+    <!-- no translation found for disabled_by_policy_content_parental_controls (4648160125103768738) -->
+    <skip />
     <string name="disabled_by_policy_parental_consent" msgid="9166060049019018978">"Hãy đưa điện thoại cho cha mẹ để họ cho phép thay đổi chế độ cài đặt này."</string>
     <string name="default_admin_support_msg" msgid="8816296554831532033">"Để biết thêm thông tin, hãy liên hệ với quản trị viên CNTT của bạn"</string>
     <string name="admin_support_more_info" msgid="8407433155725898290">"Thông tin chi tiết khác"</string>
@@ -4656,7 +4660,8 @@
     <string name="battery_tips_card_action_button_check" msgid="1535140204105479318">"Kiểm tra"</string>
     <string name="battery_tips_card_dismiss_button" msgid="1885756985544936618">"Tôi hiểu"</string>
     <string name="battery_tips_card_feedback_info" msgid="767117835675157298">"Tin nhắn này có hữu ích không?"</string>
-    <string name="battery_hints_warning_icon_a11y" msgid="5312542323401447620">"Biểu tượng nhắc nhở về mẹo sử dụng pin"</string>
+    <!-- no translation found for battery_hints_warning_icon_a11y (709629805028175434) -->
+    <skip />
     <string name="battery_tips_settings_summary_brightness" msgid="546145032616077783">"Bật tính năng độ sáng thích ứng để kéo dài thời lượng pin"</string>
     <string name="battery_tips_settings_summary_screen_timeout" msgid="556801426050962077">"Giảm thời gian chờ khoá màn hình để kéo dài thời lượng pin"</string>
     <string name="battery_tips_apps_summary_always_high" msgid="6334519477067044920">"<xliff:g id="APP_LABEL">%1$s</xliff:g> dùng nhiều pin hơn"</string>
@@ -4762,7 +4767,7 @@
     <string name="double_tap_power_wallet_footer_learn_more_text" msgid="4871482943751760132">"Thay đổi ví mặc định"</string>
     <string name="double_twist_for_camera_mode_title" msgid="472455236910935684">"Lật máy ảnh để selfie"</string>
     <string name="double_twist_for_camera_mode_summary" msgid="592503740044744951"></string>
-    <string name="system_navigation_title" msgid="4890381153527184636">"Chế độ thao tác"</string>
+    <string name="system_navigation_title" msgid="4890381153527184636">"Chế độ điều hướng"</string>
     <string name="swipe_up_to_switch_apps_title" msgid="6677266952021118342">"Điều hướng bằng 2 nút"</string>
     <string name="swipe_up_to_switch_apps_summary" msgid="1415457307836359560">"Để chuyển ứng dụng, hãy vuốt lên trên nút Màn hình chính. Để xem tất cả các ứng dụng, hãy vuốt lên một lần nữa. Để quay lại, hãy nhấn vào nút quay lại."</string>
     <string name="shade_panels_title" msgid="6816157397029469997">"Thông báo và trình đơn Cài đặt nhanh"</string>
@@ -4775,11 +4780,11 @@
     <string name="shade_panels_foldables_footer_message" msgid="3974376428811063936">"Chế độ xem kết hợp (cũ) chỉ dùng được trên màn hình ngoài của thiết bị gập"</string>
     <string name="emergency_settings_preference_title" msgid="6183455153241187148">"An toàn và khẩn cấp"</string>
     <string name="emergency_dashboard_summary" msgid="401033951074039302">"SOS khẩn cấp, thông tin y tế, cảnh báo"</string>
-    <string name="edge_to_edge_navigation_title" msgid="714427081306043819">"Thao tác bằng cử chỉ"</string>
+    <string name="edge_to_edge_navigation_title" msgid="714427081306043819">"Điều hướng bằng cử chỉ"</string>
     <string name="edge_to_edge_navigation_summary" msgid="818109176611921504">"Để trở về màn hình chính, hãy vuốt từ cuối màn hình lên. Để chuyển đổi giữa các ứng dụng, hãy vuốt từ cuối màn hình lên, giữ rồi thả ra. Để quay lại, hãy vuốt từ mép trái hoặc mép phải."</string>
     <string name="legacy_navigation_title" msgid="7877402855994423727">"Điều hướng bằng 3 nút"</string>
     <string name="legacy_navigation_summary" msgid="5905301067778326433">"Quay lại, trở về Màn hình chính và chuyển đổi ứng dụng bằng các nút ở cuối màn hình."</string>
-    <string name="nav_tutorial_button_description" msgid="7195363082216233970">"Bắt đầu hướng dẫn thao tác bằng cử chỉ."</string>
+    <string name="nav_tutorial_button_description" msgid="7195363082216233970">"Bắt đầu hướng dẫn điều hướng bằng cử chỉ."</string>
     <string name="keywords_system_navigation" msgid="3131782378486554934">"điều hướng trên hệ thống, điều hướng bằng 2 nút, điều hướng bằng 3 nút, điều hướng bằng cử chỉ, vuốt"</string>
     <string name="assistant_gesture_category_title" msgid="2478251256585807920">"Trợ lý kỹ thuật số"</string>
     <string name="assistant_corner_gesture_title" msgid="1895061522687002106">"Vuốt để gọi trợ lý"</string>
@@ -4792,10 +4797,10 @@
     <string name="right_edge" msgid="1505309103265829121">"Cạnh bên phải"</string>
     <string name="back_sensitivity_dialog_message" msgid="6638367716784103306">"Độ nhạy cao hơn có thể xung đột với những cử chỉ trong ứng dụng dọc theo các cạnh màn hình."</string>
     <string name="back_sensitivity_dialog_title" msgid="6153608904168908264">"Độ nhạy với cử chỉ quay lại"</string>
-    <string name="gesture_settings_activity_title" msgid="1882463161833981820">"Thao tác bằng cử chỉ"</string>
+    <string name="gesture_settings_activity_title" msgid="1882463161833981820">"Điều hướng bằng cử chỉ"</string>
     <string name="gesture_navigation_tutorial_title" msgid="1605955266131665429">"Dùng thử bản minh hoạ"</string>
     <string name="button_navigation_settings_activity_title" msgid="7335636045504461813">"Thao tác bằng nút"</string>
-    <string name="keywords_gesture_navigation_settings" msgid="667561222717238931">"thao tác bằng cử chỉ, độ nhạy với cử chỉ quay lại, cử chỉ quay lại"</string>
+    <string name="keywords_gesture_navigation_settings" msgid="667561222717238931">"điều hướng bằng cử chỉ, độ nhạy với cử chỉ quay lại, cử chỉ quay lại"</string>
     <string name="keywords_button_navigation_settings" msgid="7888812253110553920">"thao tác, nút màn hình chính"</string>
     <string name="one_handed_title" msgid="2584414010282746195">"Chế độ một tay"</string>
     <string name="one_handed_mode_enabled" msgid="3396864848786359651">"Sử dụng chế độ một tay"</string>
@@ -4804,7 +4809,7 @@
     <string name="one_handed_mode_swipe_down_category" msgid="110178629274462484">"Vuốt xuống để"</string>
     <string name="one_handed_mode_use_shortcut_category" msgid="1414714099339147711">"Dùng phím tắt để"</string>
     <string name="one_handed_mode_intro_text" msgid="7921988617828924342">"Kéo xuống từ nửa trên của màn hình để dễ dàng thao tác bằng một tay"</string>
-    <string name="one_handed_mode_footer_text" msgid="6336209800330679840">" "<b>"Cách dùng chế độ một tay"</b>\n" • Đảm bảo rằng bạn đã chọn chế độ thao tác bằng cử chỉ trong phần cài đặt thao tác hệ thống\n • Vuốt xuống ở gần phần cạnh dưới màn hình"</string>
+    <string name="one_handed_mode_footer_text" msgid="6336209800330679840">" "<b>"Cách dùng chế độ một tay"</b>\n" • Đảm bảo rằng bạn đã chọn chế độ điều hướng bằng cử chỉ trong phần cài đặt điều hướng trên hệ thống\n • Vuốt xuống ở gần phần cạnh dưới màn hình"</string>
     <string name="one_handed_action_pull_down_screen_title" msgid="9187194533815438150">"Kéo màn hình vào tầm tay"</string>
     <string name="one_handed_action_pull_down_screen_summary" msgid="7582432473450036628">"Phần trên cùng của màn hình sẽ di chuyển vào trong phạm vi ngón tay cái của bạn."</string>
     <string name="one_handed_action_show_notification_title" msgid="8789305491485437130">"Hiện thông báo"</string>
@@ -5376,15 +5381,13 @@
     <string name="enable_16k_pages" msgid="1758111531461408337">"Khởi động với kích thước trang 16KB"</string>
     <string name="enable_16k_pages_summary" msgid="1937836453571509085">"Khởi động thiết bị với nhân hỗ trợ kích thước 16KB"</string>
     <string name="confirm_enable_16k_pages_title" msgid="5477376227161609124">"Chuyển từ chế độ 4 KB sang chế độ 16 KB"</string>
-    <!-- no translation found for confirm_enable_16k_pages_update_wipe (4760548401414644138) -->
-    <skip />
+    <string name="confirm_enable_16k_pages_update_wipe" msgid="4760548401414644138">"Bạn phải chuyển đổi phân vùng dữ liệu của thiết bị này sang ext4 thì mới có thể dùng tuỳ chọn 16 KB cho nhà phát triển. Sau khi bạn xác nhận, dữ liệu trên thiết bị sẽ được xoá sạch và hệ thống tệp sẽ được thay đổi thành ext4. Bạn đang ở chế độ sản xuất chạy nhân hệ điều hành 4 KB và bạn sắp chuyển sang chế độ 16 KB. Khi đã ở chế độ này, bạn chỉ cần khởi động lại một lần là có thể chuyển qua lại giữa chế độ 4 KB và 16 KB. Ở chế độ này, tính toàn vẹn của phần mềm không được đảm bảo, đồng thời mọi dữ liệu lưu trữ trên điện thoại này có thể gặp rủi ro trong khi trình tải khởi động được mở khoá. Một số tính năng bị tắt ở những chế độ này nên có thể một vài ứng dụng sẽ không hoạt động được. Để đặt lại thiết bị về chế độ sản xuất, bạn cần chuyển lại về chế độ 4 KB và khoá trình tải khởi động. Thao tác này sẽ đặt lại thiết bị về trạng thái ban đầu. Sau khi thiết bị khởi động thành công vào Android, hãy tắt chế độ mở khoá OEM trong Tuỳ chọn cho nhà phát triển. Để tiếp tục, hãy nhấp vào \"Xoá tất cả dữ liệu và nội dung cập nhật\". Thao tác này sẽ khởi động lại thiết bị."</string>
     <string name="confirm_enable_16k_pages_text" msgid="6211693250692246982">"Bạn đang ở chế độ không phụ thuộc vào kích thước trang chạy nhân hệ điều hành 4 KB và bạn sắp chuyển sang chế độ 16 KB. Ở chế độ này, tính toàn vẹn của phần mềm không được đảm bảo, đồng thời mọi dữ liệu lưu trữ trên điện thoại này có thể gặp rủi ro trong khi trình tải khởi động được mở khoá. Sau khi bạn xác nhận, thiết bị sẽ khởi động lại. Một số tính năng bị tắt ở những chế độ này nên có thể một vài ứng dụng sẽ không hoạt động được. Để đặt lại thiết bị về chế độ cài đặt gốc, bạn cần chuyển lại về chế độ 4 KB và khoá trình tải khởi động (thao tác này sẽ đặt lại thiết bị về trạng thái ban đầu). Sau khi thiết bị khởi động thành công vào Android, hãy tắt chế độ mở khoá OEM trong Tuỳ chọn cho nhà phát triển."</string>
     <string name="confirm_enable_4k_pages_title" msgid="3001009010581393119">"Chuyển từ chế độ 16 KB sang chế độ 4 KB"</string>
     <string name="confirm_enable_4k_pages_text" msgid="3398001587586470689">"Bạn đang ở chế độ không phụ thuộc vào kích thước trang chạy nhân hệ điều hành 16 KB và bạn sắp chuyển sang chế độ 4 KB. Ở chế độ này, tính toàn vẹn của phần mềm không được đảm bảo, đồng thời mọi dữ liệu lưu trữ trên điện thoại này có thể gặp rủi ro trong khi trình tải khởi động được mở khoá. Sau khi bạn xác nhận, thiết bị sẽ khởi động lại. Một số tính năng bị tắt ở những chế độ này nên có thể một vài ứng dụng sẽ không hoạt động được. Để đặt lại thiết bị về chế độ cài đặt gốc, bạn cần khoá trình tải khởi động (thao tác này sẽ đặt lại thiết bị về trạng thái ban đầu). Sau khi thiết bị khởi động thành công vào Android, hãy tắt chế độ mở khoá OEM trong Tuỳ chọn cho nhà phát triển."</string>
     <string name="toast_16k_update_failed_text" msgid="7848383020572918850">"Không cập nhật được nhân hệ điều hành thành nhân hệ điều hành tương thích với trang 16 KB"</string>
     <string name="progress_16k_ota_title" msgid="2117218313875523741">"Đang áp dụng thay đổi"</string>
-    <!-- no translation found for confirm_ext4_button_text (697563319110759422) -->
-    <skip />
+    <string name="confirm_ext4_button_text" msgid="697563319110759422">"Xoá tất cả dữ liệu và nội dung cập nhật"</string>
     <string name="format_ext4_failure_toast" msgid="8059453995800471549">"Không định dạng lại được phân vùng dữ liệu về ext4 và không xoá sạch được phân vùng dữ liệu."</string>
     <string name="confirm_oem_unlock_for_16k_title" msgid="6062041826568112078">"Cần mở khoá trình tải khởi động"</string>
     <string name="confirm_oem_unlock_for_16k_text" msgid="8089310116854544106">"Bạn cần phải mở khoá trình tải khởi động cho thiết bị này thì mới dùng được tuỳ chọn 16 KB cho nhà phát triển. Ở chế độ này, tính toàn vẹn của phần mềm không được đảm bảo, đồng thời mọi dữ liệu lưu trữ trên điện thoại này có thể gặp rủi ro trong khi trình tải khởi động được mở khoá. Tất cả dữ liệu người dùng và các chế độ cài đặt sẽ bị xoá sạch khi bạn kích hoạt chế độ 16 KB. Sau khi trình tải khởi động được mở khoá, bạn cần khởi động lại 2 lần thì mới kích hoạt được chế độ 16 KB. Khi đã ở chế độ này, bạn chỉ cần khởi động lại một lần là có thể chuyển qua lại giữa chế độ 4 KB và 16 KB. Một số tính năng bị tắt ở những chế độ này nên có thể một vài ứng dụng sẽ không hoạt động được. Để đặt lại thiết bị về chế độ cài đặt gốc, bạn cần quay lại chế độ 4 KB, sau đó khoá OEM/trình tải khởi động (thao tác này sẽ đặt lại thiết bị về trạng thái ban đầu). Hãy mở khoá trình tải khởi động rồi thử lại. Bạn có thể xem hướng dẫn về cách thực hiện việc này tại &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt;"</string>
@@ -5880,21 +5883,28 @@
     <string name="search_gesture_feature_summary" msgid="1793056495030564014">"Bạn có thể chạm và giữ nút Màn hình chính hoặc thanh điều hướng để tìm kiếm bằng nội dung có trên màn hình của mình."</string>
     <string name="device_detail_icon_content_description" msgid="6699151424374841937">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>. Định cấu hình thông tin chi tiết về thiết bị."</string>
     <string name="supervision_settings_title" msgid="8507163323870367711">"Chế độ kiểm soát của cha mẹ"</string>
-    <string name="supervision_settings_summary" msgid="5020634300370322741">"Giới hạn nội dung và các giới hạn khác"</string>
+    <!-- no translation found for supervision_settings_summary (6304257872307136073) -->
+    <skip />
     <string name="device_supervision_switch_no_pin_summary" msgid="4869563544571033220">"Thiết lập mã PIN"</string>
-    <string name="device_supervision_switch_paused_summary" msgid="1014381188739295656">"Đã tạm dừng"</string>
-    <string name="keywords_supervision_settings" msgid="2580555201483955376">"giám sát, giám sát của cha mẹ, chế độ kiểm soát của cha mẹ"</string>
+    <!-- no translation found for keywords_supervision_settings (43064288661561602) -->
+    <skip />
     <string name="supervision_pin_management_preference_title" msgid="7721501202320841845">"Quản lý mã PIN của bạn"</string>
+    <!-- no translation found for supervision_pin_management_preference_keywords (5034450635706621750) -->
+    <skip />
     <string name="supervision_pin_management_preference_summary_add" msgid="2247921267270577374">"Thêm email khôi phục"</string>
     <string name="supervision_pin_management_preference_summary_verify_recovery" msgid="5072554239108915119">"Xác minh email khôi phục"</string>
     <string name="supervision_change_pin_preference_title" msgid="2288584039438231801">"Thay đổi mã PIN"</string>
     <string name="supervision_add_forgot_pin_preference_title" msgid="8939945404255748516">"Quên mã PIN"</string>
+    <!-- no translation found for supervision_auth_prompt_forgot_pin_button_label (1019337828884793557) -->
+    <skip />
     <string name="supervision_update_recovery_email_preference_title" msgid="2057393838251915087">"Cập nhật email khôi phục"</string>
     <string name="supervision_delete_pin_preference_title" msgid="8447541098148430866">"Xoá mã PIN"</string>
-    <string name="supervision_delete_pin_preference_summary" msgid="4865713157106413979">"Thao tác này sẽ đặt lại tất cả chế độ cài đặt tính năng giám sát của bạn"</string>
     <string name="supervision_add_pin_recovery_title" msgid="3487098027604685794">"Thêm email khôi phục"</string>
     <string name="supervision_verify_pin_recovery_title" msgid="3166602415814821497">"Xác minh email của bạn"</string>
-    <string name="supervision_web_content_filters_title" msgid="3653430162065686156">"Bộ lọc nội dung trên web"</string>
+    <!-- no translation found for supervision_web_content_filters_title (2412562442507104921) -->
+    <skip />
+    <!-- no translation found for supervision_web_content_filters_keywords (8469519676189544447) -->
+    <skip />
     <string name="supervision_web_content_filters_top_intro" msgid="5264773769840566499">"Chặn nội dung dành cho người trưởng thành trên các trang web và kết quả tìm kiếm trên các ứng dụng được hỗ trợ trên thiết bị này. Các ứng dụng không được hỗ trợ có thể vẫn hiện nội dung phản cảm."</string>
     <string name="supervision_web_content_filters_browser_title" msgid="8737341514264129889">"Trang web"</string>
     <string name="supervision_web_content_filters_browser_filter_title" msgid="7957976669412075070">"Chặn các trang web có nội dung phản cảm"</string>
@@ -5904,8 +5914,7 @@
     <string name="supervision_choose_your_pin_header" msgid="3872062168986738629">"Đặt mã PIN cho chế độ kiểm soát của cha mẹ"</string>
     <string name="supervision_confirm_your_pin_header" msgid="8236956712482718354">"Xác nhận mã PIN"</string>
     <string name="supervision_pin_reset_success_toast" msgid="9163550161698311831">"Đã cập nhật mã PIN"</string>
-    <!-- no translation found for supervision_promo_footer_action_button_description (7617359721703338141) -->
-    <skip />
+    <string name="supervision_promo_footer_action_button_description" msgid="7617359721703338141">"Mở ứng dụng"</string>
     <string name="supervision_delete_pin_confirm_header" msgid="8499276643990949268">"Xoá mã PIN?"</string>
     <string name="supervision_delete_pin_confirm_message" msgid="5482080400973042178">"Thao tác này sẽ xoá mã PIN hiện tại của bạn đối với tất cả người dùng trên thiết bị này và tắt các chế độ kiểm soát mà bạn đã thiết lập. Bạn không thể huỷ thao tác này."</string>
     <string name="supervision_delete_pin_supervision_enabled_header" msgid="2072311894107038402">"Trước tiên, hãy tạm dừng các chế độ kiểm soát trên các hồ sơ khác"</string>

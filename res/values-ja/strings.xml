@@ -198,7 +198,7 @@
     <string name="locale_remove_menu" msgid="3521546263421387474">"削除"</string>
     <string name="add_a_language" msgid="2126220398077503271">"言語を追加"</string>
     <string name="app_locale_preference_title" msgid="5513627099300360232">"言語"</string>
-    <string name="locale_picker_category_title" msgid="6212064706962721255">"使用する言語"</string>
+    <string name="locale_picker_category_title" msgid="296835514014453679">"優先言語"</string>
     <string name="app_locales_picker_menu_title" msgid="7617427959223831373">"アプリの言語"</string>
     <string name="app_locale_picker_summary" msgid="616928580653613998">"アプリごとに言語を選択できます"</string>
     <string name="app_locale_picker_title" msgid="2431448962911301366">"アプリの言語"</string>
@@ -224,10 +224,12 @@
     <string name="title_change_system_locale" msgid="4102991236063984803">"システムの言語を%sに変更しますか？"</string>
     <string name="title_system_locale_addition" msgid="8218683660751479466">"%sを使用言語に追加しますか？"</string>
     <string name="desc_system_locale_addition" msgid="3409917362651596070">"これにより、この言語もアプリやウェブサイトで使用言語として認識されるようになります。"</string>
-    <string name="desc_notice_device_locale_settings_change" msgid="8311132485850714160">"デバイスの設定と地域別の設定が変更されます。"</string>
+    <string name="desc_notice_device_locale_and_region_settings_change" msgid="909261686577914396">"このデバイスでは<xliff:g id="LANGUAGE">%1$s</xliff:g>が使用され、地域が<xliff:g id="REGION">%2$s</xliff:g>に変更されます。"</string>
+    <string name="desc_notice_device_locale_settings_change" msgid="5012353615235634881">"このデバイスでは<xliff:g id="LANGUAGE">%s</xliff:g>が使用されます。"</string>
+    <string name="dlg_desc_delete_preferred_default_locale" msgid="690828405078078513">"<xliff:g id="REMOVED_LANGUAGE">%s</xliff:g>は優先言語から削除されます"</string>
     <string name="button_label_confirmation_of_system_locale_change" msgid="5593798559604894733">"変更"</string>
-    <string name="title_unavailable_locale" msgid="2628898110416542386">"%sは使用できません"</string>
-    <string name="desc_unavailable_locale" msgid="2201756477400935896">"この言語はシステムの言語としては使用できませんが、アプリやウェブサイトの優先言語として認識されています。"</string>
+    <string name="title_unavailable_locale" msgid="5382411204559213983">"<xliff:g id="SELECTED_LANGUAGE">%s</xliff:g>をシステム言語として設定できません"</string>
+    <string name="desc_unavailable_locale" msgid="7223655766703116782">"お使いのデバイスはこの言語に対応していませんが、アプリはこの言語を優先言語として認識します"</string>
     <string name="locale_search_menu" msgid="297782694044826686">"検索"</string>
     <string name="language_and_region_title" msgid="8374151891112162767">"言語と地域"</string>
     <string name="language_selection_title" msgid="968179636453982415">"言語の追加"</string>
@@ -241,6 +243,9 @@
     <string name="title_change_system_locale_region" msgid="4401478579429442695">"地域を<xliff:g id="SYSTEM_LANGUAGE_REGION">%1$s</xliff:g>に変更しますか？"</string>
     <string name="body_change_system_locale_region" msgid="9064318449821043189">"デバイスのシステム言語は<xliff:g id="SYSTEM_LANGUAGE">%1$s</xliff:g>のままとなります"</string>
     <string name="top_intro_numbering_system_title" msgid="3962000662073238392">"デバイス、ウェブサイト、アプリで数字を表示する方法を選択します"</string>
+    <string name="preferred_locale_menu_up" msgid="4009560552099567485">"上に移動"</string>
+    <string name="preferred_locale_menu_down" msgid="1033373887552535585">"下に移動"</string>
+    <string name="preferred_locale_menu_remove" msgid="8547483341987864590">"削除"</string>
     <string name="regional_preferences_title" msgid="4304567374498629528">"地域別の設定"</string>
     <string name="regional_preferences_summary" msgid="1189876997389469650">"使用する単位と数字を指定します"</string>
     <string name="regional_preferences_main_page_sub_title" msgid="4237109940015254725">"地域別の設定を行えば、アプリが機能をパーソナライズします。"</string>
@@ -279,6 +284,8 @@
     <string name="dlg_remove_locales_error_title" msgid="5875503658221562572">"すべての言語を削除することはできません"</string>
     <string name="dlg_remove_locales_error_message" msgid="6504279959974675302">"優先する言語を設定しておく必要があります"</string>
     <string name="locale_not_translated" msgid="3071618135527110152">"システムの言語として使用できません"</string>
+    <string name="dlg_title_delete_preferred_locale" msgid="4167214348946940002">"<xliff:g id="REMOVED_LANGUAGE">%s</xliff:g>を削除しますか？"</string>
+    <string name="dlg_desc_delete_preferred_locale" msgid="4658301652628456858">"<xliff:g id="REMOVED_LANGUAGE">%s</xliff:g>は優先言語から削除されます。後で追加し直すことができます。"</string>
     <string name="action_drag_label_move_up" msgid="3392196942330705015">"上に移動します"</string>
     <string name="action_drag_label_move_down" msgid="9069518740553953426">"下に移動します"</string>
     <string name="action_drag_label_move_top" msgid="2430471023612171619">"一番上に移動します"</string>
@@ -458,6 +465,7 @@
     <string name="security_settings_fingerprint_enroll_introduction_no_thanks" msgid="1663906389456119842">"後で"</string>
     <string name="security_settings_fingerprint_enroll_introduction_agree" msgid="4068276083536421828">"同意する"</string>
     <string name="security_settings_fingerprint_rename_description" msgid="6301505700382531086">"名前を変更するにはダブルタップします"</string>
+    <string name="security_settings_fingerprint_recognition_description" msgid="1805171116182647136">"<xliff:g id="FP_NAME">%1$s</xliff:g> を認識しました"</string>
     <string name="setup_fingerprint_enroll_skip_title" msgid="2473807887676247264">"指紋の設定をスキップしますか？"</string>
     <string name="setup_fingerprint_enroll_skip_after_adding_lock_text" msgid="2412645723804450304">"指紋の設定にかかる時間は 1～2 分です。スキップした場合は、後で設定から指紋を追加できます。"</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_setup" msgid="6255210343107484206">"このアイコンが表示される場合は、アプリへのログイン時や購入の承認時などの認証に指紋を使用してください"</string>
@@ -1180,8 +1188,7 @@
     <string name="share_wifi_network" msgid="4064997404339571584">"このネットワークを他のデバイス ユーザーと共有する"</string>
     <string name="share_wifi_network_summary" msgid="4316236421149769333">"このデバイスのすべてのユーザーが共有ネットワークの確認と接続を行えます。管理者は共有ネットワークを削除できます。詳細"</string>
     <string name="edit_wifi_network_configuration" msgid="5712989655083072417">"他のユーザーにネットワーク構成の編集を許可する"</string>
-    <!-- no translation found for edit_wifi_network_non_owner_message (4291718452228643581) -->
-    <skip />
+    <string name="edit_wifi_network_non_owner_message" msgid="4291718452228643581">"このネットワークに変更を加えるには、このデバイスの管理者に連絡してください。"</string>
     <string name="no_internet_access_text" msgid="3611993143350310936">"このネットワークはインターネットに接続していません。接続を維持しますか？"</string>
     <string name="partial_connectivity_text" msgid="8874614799723694554">"接続制限のため、一部のアプリやサービスが使用できなくなることがあります。このまま使用しますか？"</string>
     <string name="no_internet_access_remember" msgid="5113610157731269258">"このネットワークについて次回から表示しない"</string>
@@ -1378,7 +1385,7 @@
     <string name="disable_game_default_frame_rate_title" msgid="3712908601744143753">"ゲームのデフォルトの fps を無効にする"</string>
     <string name="disable_game_default_frame_rate_summary" msgid="4436762704707434225">"ゲームの最大フレームレート（<xliff:g id="FRAME_RATE">%1$d</xliff:g> Hz）の制限を無効にします。"</string>
     <string name="peak_refresh_rate_title" msgid="2056355754210341011">"スムーズ ディスプレイ"</string>
-    <string name="peak_refresh_rate_summary" msgid="3212309985294885790">"コンテンツに応じて、リフレッシュ レートを自動的に <xliff:g id="ID_1">%1$d</xliff:g> Hz に変更します。バッテリー使用量が増えます。"</string>
+    <string name="peak_refresh_rate_summary" msgid="3212309985294885790">"コンテンツに応じて、リフレッシュ レートを自動的に最大 <xliff:g id="ID_1">%1$d</xliff:g> Hz に変更します。バッテリー使用量が増えます。"</string>
     <string name="force_high_refresh_rate_toggle" msgid="3325789621928312050">"ピーク時のリフレッシュ レートの適用"</string>
     <string name="force_high_refresh_rate_desc" msgid="7794566420873814875">"最高のリフレッシュ レートを適用します。タップの反応とアニメーションの品質が向上します。バッテリー使用量が増えます。"</string>
     <string name="adaptive_sleep_title" msgid="2987961991423539233">"スクリーン アテンション"</string>
@@ -2227,9 +2234,9 @@
     <string name="gesture_button_next" msgid="695288092704187356">"次へ"</string>
     <string name="gesture_button_restart" msgid="1895850891992530133">"再開"</string>
     <string name="gesture_button_done" msgid="6387900351203032188">"完了"</string>
-    <string name="action_corner_title" msgid="1489042651433221319">"コーナー アクションのカスタマイズ"</string>
+    <string name="action_corner_title" msgid="7411160165577367757">"コーナー ショートカットのカスタマイズ"</string>
     <string name="action_corner_summary" msgid="695618538930535335">"カーソルを使用してシステムを操作します"</string>
-    <string name="action_corner_intro" msgid="8782001241997579665">"コーナー アクションをカスタマイズするには、次の領域を選択します"</string>
+    <string name="action_corner_intro" msgid="2170609118659718140">"コーナー ショートカットをカスタマイズするには、次の領域を選択します"</string>
     <string name="action_corner_bottom_left_title" msgid="2857258272736432174">"左下の角"</string>
     <string name="action_corner_bottom_right_title" msgid="7222233500548465684">"右下の角"</string>
     <string name="action_corner_top_left_title" msgid="4633975226092344210">"左上の角"</string>
@@ -2529,32 +2536,20 @@
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_title" msgid="4987009529235165664">"画面の拡大を自動更新"</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_summary" msgid="9034532513972547720">"アプリの遷移時に画面の拡大を更新"</string>
     <string name="accessibility_power_button_ends_call_prerefence_title" msgid="8187306131979612144">"電源ボタンで通話を終了"</string>
-    <!-- no translation found for dark_theme_version_category (8563711427335567656) -->
-    <skip />
-    <!-- no translation found for accessibility_standard_dark_theme_title (7755139172613415921) -->
-    <skip />
-    <!-- no translation found for accessibility_standard_dark_theme_title_in_search (6182199392044601252) -->
-    <skip />
-    <!-- no translation found for accessibility_standard_dark_theme_summary (5462837198570089294) -->
-    <skip />
-    <!-- no translation found for accessibility_expanded_dark_theme_title (9221540446783335817) -->
-    <skip />
-    <!-- no translation found for accessibility_expanded_dark_theme_title_in_search (6003085770489582863) -->
-    <skip />
-    <!-- no translation found for accessibility_expanded_dark_theme_summary (7600947929245673753) -->
-    <skip />
+    <string name="dark_theme_version_category" msgid="8563711427335567656">"モード"</string>
+    <string name="accessibility_standard_dark_theme_title" msgid="7755139172613415921">"標準"</string>
+    <string name="accessibility_standard_dark_theme_title_in_search" msgid="6182199392044601252">"標準ダークモード"</string>
+    <string name="accessibility_standard_dark_theme_summary" msgid="5462837198570089294">"デバイスと対応アプリすべてにダークモードを適用します"</string>
+    <string name="accessibility_expanded_dark_theme_title" msgid="9221540446783335817">"拡張"</string>
+    <string name="accessibility_expanded_dark_theme_title_in_search" msgid="6003085770489582863">"拡張ダークモード"</string>
+    <string name="accessibility_expanded_dark_theme_summary" msgid="7600947929245673753">"アクセシビリティ向上のため、より多くのアプリに自動的にダークモードを適用します"</string>
     <string name="accessibility_disable_animations" msgid="2993529829457179058">"アニメーションを無効化"</string>
     <string name="accessibility_disable_animations_summary" msgid="5828228669556554565">"画面上の動きを軽減できます"</string>
-    <!-- no translation found for accessibility_text_cursor_blink_rate_title (2560387611012958520) -->
-    <skip />
-    <!-- no translation found for accessibility_text_cursor_blink_rate_summary (6629885087638846245) -->
-    <skip />
-    <!-- no translation found for accessibility_text_cursor_blink_rate_slower_desc (5255697869959801747) -->
-    <skip />
-    <!-- no translation found for accessibility_text_cursor_blink_rate_faster_desc (5236406089575390876) -->
-    <skip />
-    <!-- no translation found for accessibility_text_cursor_blink_rate_reset_button_label (393679766407314372) -->
-    <skip />
+    <string name="accessibility_text_cursor_blink_rate_title" msgid="2560387611012958520">"テキスト カーソルの点滅"</string>
+    <string name="accessibility_text_cursor_blink_rate_summary" msgid="6629885087638846245">"テキスト カーソルの点滅速度を調整したり、点滅を OFF にしたりできます。一部のアプリやウェブサイトではサポートされていない場合があります。"</string>
+    <string name="accessibility_text_cursor_blink_rate_slower_desc" msgid="5255697869959801747">"点滅速度を下げます"</string>
+    <string name="accessibility_text_cursor_blink_rate_faster_desc" msgid="5236406089575390876">"点滅速度を上げます"</string>
+    <string name="accessibility_text_cursor_blink_rate_reset_button_label" msgid="393679766407314372">"リセット"</string>
     <string name="accessibility_toggle_primary_mono_title" msgid="7587152099472946571">"モノラル音声"</string>
     <string name="accessibility_toggle_primary_mono_summary" msgid="1935283927319407303">"音声再生時のチャンネルを統合する"</string>
     <string name="accessibility_toggle_primary_balance_title" msgid="7332275200153366714">"オーディオ バランス"</string>
@@ -2644,6 +2639,10 @@
     <string name="accessibility_daltonizer_footer_learn_more_content_description" msgid="2091679253892040910">"色補正の詳細"</string>
     <string name="accessibility_color_inversion_about_title" msgid="8275754480247040136">"色反転について"</string>
     <string name="accessibility_color_inversion_footer_learn_more_content_description" msgid="5382579548498952445">"色反転の詳細"</string>
+    <!-- no translation found for accessibility_dark_theme_footer_learn_more_helper_link (7084955775821075280) -->
+    <skip />
+    <!-- no translation found for accessibility_dark_theme_preference_footer_content (4431044600779983609) -->
+    <skip />
     <string name="accessibility_captioning_primary_switch_title" msgid="3663677340286206100">"字幕を表示"</string>
     <string name="accessibility_captioning_primary_switch_summary" msgid="2544094070306830218">"対応アプリでのみ利用可能です"</string>
     <string name="captioning_appearance_title" msgid="3128792092290011408">"字幕のサイズとスタイル"</string>
@@ -3710,8 +3709,7 @@
     <string name="zen_mode_settings_schedules_summary" msgid="2047688589286811617">"{count,plural, =0{なし}=1{1 件のスケジュールが有効}other{# 件のスケジュールが有効}}"</string>
     <string name="zen_mode_settings_title" msgid="682676757791334259">"サイレント モード"</string>
     <string name="zen_modes_list_title" msgid="4796033710444068729">"モード"</string>
-    <!-- no translation found for zen_modes_list_intro (1879511587535247228) -->
-    <skip />
+    <string name="zen_modes_list_intro" msgid="1879511587535247228">"就寝中、仕事中、運転中などの特定の状況において、割り込みを最小限に抑えて集中できるようにします"</string>
     <string name="zen_modes_add_mode" msgid="5926457160307593664">"独自のモードを作成する"</string>
     <string name="zen_mode_settings_summary" msgid="6040862775514495191">"大切な人やアプリからの通知のみ受け取ります"</string>
     <string name="zen_mode_select_schedule" msgid="663163931596092952">"スケジュールの設定"</string>
@@ -4221,7 +4219,7 @@
     <string name="zen_mode_trigger_summary_settings_in_app" msgid="4860667191183702601">"<xliff:g id="APP_NAME">%1$s</xliff:g>の情報と設定"</string>
     <string name="zen_mode_trigger_summary_managed_by_app" msgid="8631011868193102098">"<xliff:g id="APP_NAME">%1$s</xliff:g>によって管理されています"</string>
     <string name="zen_mode_confirm_disable_mode_title" msgid="7314998098582325018">"<xliff:g id="MODE_NAME">%1$s</xliff:g>を無効にしますか？"</string>
-    <string name="zen_mode_confirm_disable_message" msgid="2703882646066764140">"無効にすると、有効にならなくなります"</string>
+    <string name="zen_mode_confirm_disable_message" msgid="2703882646066764140">"このモードは無効になっていると有効になることはありません"</string>
     <string name="zen_mode_action_disable" msgid="3552921561331044881">"無効にする"</string>
     <string name="zen_mode_confirm_enable_mode_title" msgid="6020902148457106017">"<xliff:g id="MODE_NAME">%1$s</xliff:g>を有効にしますか？"</string>
     <string name="zen_mode_confirm_enable_message" msgid="8707142927858064775">"このモードは設定に応じて自動的に有効になることがあります。"</string>
@@ -4515,6 +4513,10 @@
     <string name="disabled_by_policy_title_financed_device" msgid="2328740314082888228">"クレジット プロバイダによりブロックされています"</string>
     <string name="disabled_by_policy_title_biometric_parental_consent" msgid="2463673997797134678">"保護者の同意が必要です"</string>
     <string name="disabled_by_policy_content_biometric_parental_consent" msgid="7124116806784305206">"スマートフォンを保護者に渡し、設定してもらってください"</string>
+    <!-- no translation found for disabled_by_policy_title_parental_controls (8875976588644052371) -->
+    <skip />
+    <!-- no translation found for disabled_by_policy_content_parental_controls (4648160125103768738) -->
+    <skip />
     <string name="disabled_by_policy_parental_consent" msgid="9166060049019018978">"スマートフォンを保護者に渡し、この設定を変更してもらってください。"</string>
     <string name="default_admin_support_msg" msgid="8816296554831532033">"詳しくは、IT 管理者にお問い合わせください"</string>
     <string name="admin_support_more_info" msgid="8407433155725898290">"詳細"</string>
@@ -4630,7 +4632,8 @@
     <string name="battery_tips_card_action_button_check" msgid="1535140204105479318">"確認"</string>
     <string name="battery_tips_card_dismiss_button" msgid="1885756985544936618">"OK"</string>
     <string name="battery_tips_card_feedback_info" msgid="767117835675157298">"このメッセージは役に立ちましたか？"</string>
-    <string name="battery_hints_warning_icon_a11y" msgid="5312542323401447620">"バッテリーの使い方に関する警告アイコン"</string>
+    <!-- no translation found for battery_hints_warning_icon_a11y (709629805028175434) -->
+    <skip />
     <string name="battery_tips_settings_summary_brightness" msgid="546145032616077783">"「明るさの自動調節」機能を ON にするとバッテリーを長持ちさせることができます"</string>
     <string name="battery_tips_settings_summary_screen_timeout" msgid="556801426050962077">"画面自動消灯までの時間を短くするとバッテリーを長持ちさせることができます"</string>
     <string name="battery_tips_apps_summary_always_high" msgid="6334519477067044920">"<xliff:g id="APP_LABEL">%1$s</xliff:g>: バッテリー使用量が増えました"</string>
@@ -5350,15 +5353,13 @@
     <string name="enable_16k_pages" msgid="1758111531461408337">"16 KB ページサイズで起動する"</string>
     <string name="enable_16k_pages_summary" msgid="1937836453571509085">"16 KB ページサイズの対応カーネルでデバイスを起動します"</string>
     <string name="confirm_enable_16k_pages_title" msgid="5477376227161609124">"4 KB モードから 16 KB モードへの切り替え"</string>
-    <!-- no translation found for confirm_enable_16k_pages_update_wipe (4760548401414644138) -->
-    <skip />
+    <string name="confirm_enable_16k_pages_update_wipe" msgid="4760548401414644138">"16 KB 開発者向けオプションを使用するには、このデバイスのデータ パーティションを ext4 に変換する必要があります。確認後に、デバイスがワイプされて、ファイルシステムが ext4 に変更されます。現在は、本番環境モードで 4 KB カーネルを実行しており、それを 16 KB モードに切り替えようとしています。このモードになったら、4 KB モードと 16 KB モードの間で切り替えることができます（切り替えのたびに 1 回再起動します）。ソフトウェアの完全性はこのモードでは保証されないため、ブートローダーのロック解除中にスマートフォンに保存されているデータが失われる恐れがあります。これらのモードで無効になる機能があるため、一部のアプリが動作しなくなることがあります。デバイスを本番環境モードに戻すには、4 KB モードに戻してから、ブートローダーをロックする必要があります。その操作で、デバイスは出荷時の設定にリセットされます。デバイスが Android で起動したら、開発者向けオプションで OEM のロック解除を無効にしてください。続行するには、[すべてのデータを消去して更新] をクリックします。これにより、デバイスが再起動します。"</string>
     <string name="confirm_enable_16k_pages_text" msgid="6211693250692246982">"ページ非依存モードで 4 KB カーネルを実行していますが、16 KB モードに切り替えようとしています。ソフトウェアの完全性はこのモードでは保証されないため、ブートローダーのロック解除中にスマートフォンに保存されているデータが失われる恐れがあります。この切り替えにより、デバイスが再起動します。これらのモードで無効になる機能があるため、一部のアプリが動作しないことがあります。デバイスを本番環境モードに戻すには、4 KB モードに戻してから、ブートローダーをロックする必要があります。この操作で、デバイスは出荷時の設定にリセットされます。デバイスが Android で起動したら、開発者向けオプションで [OEM のロック解除] を無効にします。"</string>
     <string name="confirm_enable_4k_pages_title" msgid="3001009010581393119">"16 KB モードから 4 KB モードへの切り替え"</string>
     <string name="confirm_enable_4k_pages_text" msgid="3398001587586470689">"ページ非依存モードで 16 KB カーネルを実行していますが、4 KB モードに切り替えようとしています。ソフトウェアの完全性はこのモードでは保証されないため、ブートローダーのロック解除中にスマートフォンに保存されているデータが失われる恐れがあります。この切り替えにより、デバイスが再起動します。これらのモードで無効になる機能があるため、一部のアプリが動作しないことがあります。デバイスを本番環境モードに戻すには、ブートローダーをロックする必要があります。この操作で、デバイスは出荷時の設定にリセットされます。デバイスが Android で起動したら、開発者向けオプションで [OEM のロック解除] を無効にします。"</string>
     <string name="toast_16k_update_failed_text" msgid="7848383020572918850">"16 KB ページの互換性のあるカーネルにアップデートできませんでした。"</string>
     <string name="progress_16k_ota_title" msgid="2117218313875523741">"変更を適用しています"</string>
-    <!-- no translation found for confirm_ext4_button_text (697563319110759422) -->
-    <skip />
+    <string name="confirm_ext4_button_text" msgid="697563319110759422">"すべてのデータを消去して更新"</string>
     <string name="format_ext4_failure_toast" msgid="8059453995800471549">"データ パーティションを ext4 に再フォーマットしてワイプすることができませんでした。"</string>
     <string name="confirm_oem_unlock_for_16k_title" msgid="6062041826568112078">"ブートローダーのロック解除が必要です"</string>
     <string name="confirm_oem_unlock_for_16k_text" msgid="8089310116854544106">"このデバイスで 16 KB デベロッパー オプションを使用するには、ブートローダーのロックを解除しておく必要があります。ソフトウェアの完全性はこのモードでは保証されないため、ブートローダーのロック解除中にスマートフォンに保存されているデータが失われる恐れがあります。16 KB モードの有効化中にユーザーデータと設定はすべてワイプされます。ブートローダーのロックが解除されたら、16 KB オプションを有効にするために再起動が 2 回必要です。このモードになったら、4 KB モードと 16 KB モードの間で切り替えることができます（切り替えのたびに 1 回再起動します）。これらのモードで無効になる機能があるため、一部のアプリが動作しないことがあります。デバイスを本番環境モードに戻すには、4 KB モードに戻してから、OEM / ブートローダーをロックする必要があります。この操作で、デバイスは出荷時の設定にリセットされます。ブートローダーのロックを解除してから、もう一度お試しください。この手順については、&lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt; をご覧ください。"</string>
@@ -5854,21 +5855,27 @@
     <string name="search_gesture_feature_summary" msgid="1793056495030564014">"ホームボタンまたはナビゲーション ハンドルを長押しすると、画面上のコンテンツを使って検索できます。"</string>
     <string name="device_detail_icon_content_description" msgid="6699151424374841937">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>。デバイスの詳細を設定してください。"</string>
     <string name="supervision_settings_title" msgid="8507163323870367711">"保護者による使用制限"</string>
-    <string name="supervision_settings_summary" msgid="5020634300370322741">"コンテンツの制限とその他の制限"</string>
+    <string name="supervision_settings_summary" msgid="6304257872307136073">"デバイス利用に関する基本ルールと利用時間の上限"</string>
     <string name="device_supervision_switch_no_pin_summary" msgid="4869563544571033220">"PIN を設定"</string>
-    <string name="device_supervision_switch_paused_summary" msgid="1014381188739295656">"一時停止中"</string>
-    <string name="keywords_supervision_settings" msgid="2580555201483955376">"管理機能, 保護者向け管理ツール, 保護者による使用制限"</string>
+    <!-- no translation found for keywords_supervision_settings (43064288661561602) -->
+    <skip />
     <string name="supervision_pin_management_preference_title" msgid="7721501202320841845">"PIN の管理"</string>
+    <!-- no translation found for supervision_pin_management_preference_keywords (5034450635706621750) -->
+    <skip />
     <string name="supervision_pin_management_preference_summary_add" msgid="2247921267270577374">"再設定用のメールアドレスの追加"</string>
     <string name="supervision_pin_management_preference_summary_verify_recovery" msgid="5072554239108915119">"再設定用のメールアドレスの検証"</string>
     <string name="supervision_change_pin_preference_title" msgid="2288584039438231801">"PIN を変更する"</string>
     <string name="supervision_add_forgot_pin_preference_title" msgid="8939945404255748516">"PIN を忘れた場合"</string>
+    <!-- no translation found for supervision_auth_prompt_forgot_pin_button_label (1019337828884793557) -->
+    <skip />
     <string name="supervision_update_recovery_email_preference_title" msgid="2057393838251915087">"再設定用のメールアドレスを更新する"</string>
     <string name="supervision_delete_pin_preference_title" msgid="8447541098148430866">"PIN を削除する"</string>
-    <string name="supervision_delete_pin_preference_summary" msgid="4865713157106413979">"管理機能の設定がすべてリセットされます"</string>
     <string name="supervision_add_pin_recovery_title" msgid="3487098027604685794">"再設定用のメールアドレスの追加"</string>
     <string name="supervision_verify_pin_recovery_title" msgid="3166602415814821497">"メールアドレスの確認"</string>
-    <string name="supervision_web_content_filters_title" msgid="3653430162065686156">"ウェブ コンテンツ フィルタ"</string>
+    <!-- no translation found for supervision_web_content_filters_title (2412562442507104921) -->
+    <skip />
+    <!-- no translation found for supervision_web_content_filters_keywords (8469519676189544447) -->
+    <skip />
     <string name="supervision_web_content_filters_top_intro" msgid="5264773769840566499">"このデバイス上の対応アプリにおいて、アクセスしたウェブサイトと検索結果で成人向けコンテンツをブロックします。対応していないアプリでは、露骨な表現を含むコンテンツが引き続き表示される場合があります。"</string>
     <string name="supervision_web_content_filters_browser_title" msgid="8737341514264129889">"ウェブサイト"</string>
     <string name="supervision_web_content_filters_browser_filter_title" msgid="7957976669412075070">"露骨な表現を含むサイトをブロックする"</string>

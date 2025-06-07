@@ -47,10 +47,8 @@
     <string name="preview_pager_email_title" msgid="8767864657910457562">"Email-i"</string>
     <string name="preview_pager_previous_button" msgid="607771113300838313">"Pamja paraprake e mëparshme"</string>
     <string name="preview_pager_next_button" msgid="8700907912508927271">"Pamja tjetër paraprake"</string>
-    <!-- no translation found for font_size_make_smaller_desc (319927200356692406) -->
-    <skip />
-    <!-- no translation found for font_size_make_larger_desc (6739310980713118605) -->
-    <skip />
+    <string name="font_size_make_smaller_desc" msgid="319927200356692406">"Zvogëlo përmasat e fontit"</string>
+    <string name="font_size_make_larger_desc" msgid="6739310980713118605">"Zmadho përmasat e fontit"</string>
     <string name="stay_awake_on_fold_title" msgid="6590454679898134221">"Gjithmonë"</string>
     <string name="stay_awake_on_fold_summary" msgid="1939963751585954262">"Ekrani i përparmë ndizet kur palos pajisjen"</string>
     <string name="stay_awake_on_lockscreen_title" msgid="8088456642083051068">"Rrëshqit shpejt lart për të vazhduar"</string>
@@ -200,7 +198,8 @@
     <string name="locale_remove_menu" msgid="3521546263421387474">"Hiqe"</string>
     <string name="add_a_language" msgid="2126220398077503271">"Shto gjuhë"</string>
     <string name="app_locale_preference_title" msgid="5513627099300360232">"Gjuha"</string>
-    <string name="locale_picker_category_title" msgid="6212064706962721255">"Gjuha e preferuar"</string>
+    <!-- no translation found for locale_picker_category_title (296835514014453679) -->
+    <skip />
     <string name="app_locales_picker_menu_title" msgid="7617427959223831373">"Gjuhët e aplikacioneve"</string>
     <string name="app_locale_picker_summary" msgid="616928580653613998">"Zgjidh gjuhën për secilin aplikacion"</string>
     <string name="app_locale_picker_title" msgid="2431448962911301366">"Gjuha e aplikacionit"</string>
@@ -226,10 +225,17 @@
     <string name="title_change_system_locale" msgid="4102991236063984803">"Të ndryshohet gjuha e sistemit në %s?"</string>
     <string name="title_system_locale_addition" msgid="8218683660751479466">"Të shtohet %s në gjuhët e preferuara?"</string>
     <string name="desc_system_locale_addition" msgid="3409917362651596070">"Kjo i lejon aplikacionet dhe uebsajtet të dinë se ti preferon edhe këtë gjuhë."</string>
-    <string name="desc_notice_device_locale_settings_change" msgid="8311132485850714160">"Cilësimet e pajisjes dhe preferencat rajonale do të ndryshojnë."</string>
+    <!-- no translation found for desc_notice_device_locale_and_region_settings_change (909261686577914396) -->
+    <skip />
+    <!-- no translation found for desc_notice_device_locale_settings_change (5012353615235634881) -->
+    <skip />
+    <!-- no translation found for dlg_desc_delete_preferred_default_locale (690828405078078513) -->
+    <skip />
     <string name="button_label_confirmation_of_system_locale_change" msgid="5593798559604894733">"Ndrysho"</string>
-    <string name="title_unavailable_locale" msgid="2628898110416542386">"%s nuk ofrohet"</string>
-    <string name="desc_unavailable_locale" msgid="2201756477400935896">"Kjo gjuhë nuk mund të përdoret si një gjuhë sistemi, por ti i ke informuar aplikacionet dhe uebsajtet që preferon këtë gjuhë."</string>
+    <!-- no translation found for title_unavailable_locale (5382411204559213983) -->
+    <skip />
+    <!-- no translation found for desc_unavailable_locale (7223655766703116782) -->
+    <skip />
     <string name="locale_search_menu" msgid="297782694044826686">"Kërko"</string>
     <string name="language_and_region_title" msgid="8374151891112162767">"Gjuha dhe rajoni"</string>
     <string name="language_selection_title" msgid="968179636453982415">"Shto një gjuhë"</string>
@@ -243,6 +249,12 @@
     <string name="title_change_system_locale_region" msgid="4401478579429442695">"Të ndryshohet rajoni në: <xliff:g id="SYSTEM_LANGUAGE_REGION">%1$s</xliff:g>?"</string>
     <string name="body_change_system_locale_region" msgid="9064318449821043189">"Si gjuhë të sistemit, pajisja do të mbajë gjuhën: <xliff:g id="SYSTEM_LANGUAGE">%1$s</xliff:g>"</string>
     <string name="top_intro_numbering_system_title" msgid="3962000662073238392">"Zgjidh se si pajisja, uebsajtet dhe aplikacionet shfaqin numrat"</string>
+    <!-- no translation found for preferred_locale_menu_up (4009560552099567485) -->
+    <skip />
+    <!-- no translation found for preferred_locale_menu_down (1033373887552535585) -->
+    <skip />
+    <!-- no translation found for preferred_locale_menu_remove (8547483341987864590) -->
+    <skip />
     <string name="regional_preferences_title" msgid="4304567374498629528">"Preferencat rajonale"</string>
     <string name="regional_preferences_summary" msgid="1189876997389469650">"Cakto njësitë dhe preferencat e numrave"</string>
     <string name="regional_preferences_main_page_sub_title" msgid="4237109940015254725">"Tregoju aplikacioneve preferencat e tua rajonale në mënyrë që të personalizojnë përvojën tënde."</string>
@@ -281,6 +293,10 @@
     <string name="dlg_remove_locales_error_title" msgid="5875503658221562572">"Nuk mund të hiqen të gjitha gjuhët"</string>
     <string name="dlg_remove_locales_error_message" msgid="6504279959974675302">"Mbaj të paktën një gjuhë të preferuar"</string>
     <string name="locale_not_translated" msgid="3071618135527110152">"Nuk ofrohet si gjuhë sistemi"</string>
+    <!-- no translation found for dlg_title_delete_preferred_locale (4167214348946940002) -->
+    <skip />
+    <!-- no translation found for dlg_desc_delete_preferred_locale (4658301652628456858) -->
+    <skip />
     <string name="action_drag_label_move_up" msgid="3392196942330705015">"Lëvize lart"</string>
     <string name="action_drag_label_move_down" msgid="9069518740553953426">"Lëvize poshtë"</string>
     <string name="action_drag_label_move_top" msgid="2430471023612171619">"Lëvize në krye"</string>
@@ -460,6 +476,8 @@
     <string name="security_settings_fingerprint_enroll_introduction_no_thanks" msgid="1663906389456119842">"Jo tani"</string>
     <string name="security_settings_fingerprint_enroll_introduction_agree" msgid="4068276083536421828">"Pranoj"</string>
     <string name="security_settings_fingerprint_rename_description" msgid="6301505700382531086">"Trokit dy herë për ta riemërtuar"</string>
+    <!-- no translation found for security_settings_fingerprint_recognition_description (1805171116182647136) -->
+    <skip />
     <string name="setup_fingerprint_enroll_skip_title" msgid="2473807887676247264">"Të kapërcehet gjurma e gishtit?"</string>
     <string name="setup_fingerprint_enroll_skip_after_adding_lock_text" msgid="2412645723804450304">"Konfigurimi i gjurmës së gishtit zgjat vetëm një ose dy minuta. Nëse e kapërcen këtë, mund ta shtosh gjurmën tënde të gishtit më vonë te \"Cilësimet\"."</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_setup" msgid="6255210343107484206">"Kur të shikosh këtë ikonë, përdor gjurmën tënde të gishtit për vërtetim, p.sh. kur të identifikohesh në aplikacione ose për të miratuar një blerje"</string>
@@ -942,10 +960,8 @@
     <string name="bluetooth_device_context_connect" msgid="4913860372216815855">"Lidh"</string>
     <string name="bluetooth_device_context_disconnect" msgid="4464167389972513232">"Shkëput"</string>
     <string name="bluetooth_device_context_pair_connect" msgid="2406032703622371826">"Ҫifto dhe lidh"</string>
-    <!-- no translation found for bluetooth_connecting (5315496594905010438) -->
-    <skip />
-    <!-- no translation found for bluetooth_disconnecting (1643422701532873735) -->
-    <skip />
+    <string name="bluetooth_connecting" msgid="5315496594905010438">"Po lidhet"</string>
+    <string name="bluetooth_disconnecting" msgid="1643422701532873735">"Po shkëputet"</string>
     <string name="bluetooth_empty_list_bluetooth_off" msgid="7326727272747345476">"Kur Bluetooth-i është i aktivizuar, pajisja jote mund të komunikojë me pajisjet e tjera me Bluetooth në afërsi"</string>
     <string name="bluetooth_empty_list_bluetooth_off_auto_on_available" msgid="3430864468105204282">"Kur Bluetooth-i është aktiv, pajisja jote mund të komunikojë me pajisjet e tjera me Bluetooth në afërsi. Veçoritë e tilla si \"Ndarja e shpejtë\" dhe \"Gjej pajisjen time\" përdorin Bluetooth-in."</string>
     <string name="bluetooth_scanning_on_info_message" msgid="786648535600075223">"Kur Bluetooth-i është i aktivizuar, pajisja jote mund të komunikojë me pajisje të tjera me Bluetooth në afërsi.\n\nPër të përmirësuar përvojën e pajisjes, aplikacionet dhe shërbimet mund të vazhdojnë të skanojnë për pajisje në afërsi në çdo kohë, edhe kur Bluetooth-i është joaktiv. Kjo mund të përdoret, për shembull, për të përmirësuar veçoritë dhe shërbimet e bazuara te vendndodhja. Mund ta ndryshosh këtë te cilësimet e skanimit me Bluetooth."</string>
@@ -2177,8 +2193,7 @@
     <string name="trackpad_settings" msgid="2071131324087677005">"Blloku me prekje"</string>
     <string name="trackpad_mouse_settings" msgid="136226693583218429">"Blloku me prekje dhe miu"</string>
     <string name="mouse_settings" msgid="7301671756721327122">"Miu"</string>
-    <!-- no translation found for mouse_settings_summary (1308610072914620926) -->
-    <skip />
+    <string name="mouse_settings_summary" msgid="1308610072914620926">"Shpejtësi treguesi, personalizim butonash"</string>
     <string name="trackpad_settings_summary" msgid="3369855644136760402">"Shpejtësia e treguesit, gjestet"</string>
     <string name="trackpad_tap_to_click" msgid="1938230946542070746">"Trokit për të klikuar"</string>
     <string name="trackpad_tap_dragging_title" msgid="4198317837427535015">"Trokit dhe zvarrit për të zhvendosur artikujt"</string>
@@ -2232,40 +2247,25 @@
     <string name="gesture_button_next" msgid="695288092704187356">"Tjetra"</string>
     <string name="gesture_button_restart" msgid="1895850891992530133">"Rinis"</string>
     <string name="gesture_button_done" msgid="6387900351203032188">"U krye"</string>
-    <!-- no translation found for action_corner_title (1489042651433221319) -->
+    <!-- no translation found for action_corner_title (7411160165577367757) -->
     <skip />
-    <!-- no translation found for action_corner_summary (695618538930535335) -->
+    <string name="action_corner_summary" msgid="695618538930535335">"Përdor kursorët për të naviguar në sistem"</string>
+    <!-- no translation found for action_corner_intro (2170609118659718140) -->
     <skip />
-    <!-- no translation found for action_corner_intro (8782001241997579665) -->
-    <skip />
-    <!-- no translation found for action_corner_bottom_left_title (2857258272736432174) -->
-    <skip />
-    <!-- no translation found for action_corner_bottom_right_title (7222233500548465684) -->
-    <skip />
-    <!-- no translation found for action_corner_top_left_title (4633975226092344210) -->
-    <skip />
-    <!-- no translation found for action_corner_top_right_title (4995999693840776032) -->
-    <skip />
-    <!-- no translation found for action_corner_action_none (5203163099950649999) -->
-    <skip />
-    <!-- no translation found for action_corner_action_home (6779642573582379579) -->
-    <skip />
-    <!-- no translation found for action_corner_action_recent_apps (7450480676812648813) -->
-    <skip />
-    <!-- no translation found for action_corner_action_notifications (3779353356349774469) -->
-    <skip />
-    <!-- no translation found for action_corner_action_quick_settings (4660901117283653069) -->
-    <skip />
-    <!-- no translation found for action_corner_action_dialog_title (8253240813317885237) -->
-    <skip />
-    <!-- no translation found for action_corner_bottom_left_name (9193788067022476544) -->
-    <skip />
-    <!-- no translation found for action_corner_bottom_right_name (1031603363418505375) -->
-    <skip />
-    <!-- no translation found for action_corner_top_left_name (8077670910600032291) -->
-    <skip />
-    <!-- no translation found for action_corner_top_right_name (6307321595919080297) -->
-    <skip />
+    <string name="action_corner_bottom_left_title" msgid="2857258272736432174">"Këndi i poshtëm majtas"</string>
+    <string name="action_corner_bottom_right_title" msgid="7222233500548465684">"Këndi i poshtëm djathtas"</string>
+    <string name="action_corner_top_left_title" msgid="4633975226092344210">"Këndi i sipërm majtas"</string>
+    <string name="action_corner_top_right_title" msgid="4995999693840776032">"Këndi i sipërm djathtas"</string>
+    <string name="action_corner_action_none" msgid="5203163099950649999">"Asnjë"</string>
+    <string name="action_corner_action_home" msgid="6779642573582379579">"Faqja e parë"</string>
+    <string name="action_corner_action_recent_apps" msgid="7450480676812648813">"Aplikacionet e fundit"</string>
+    <string name="action_corner_action_notifications" msgid="3779353356349774469">"Njoftimet"</string>
+    <string name="action_corner_action_quick_settings" msgid="4660901117283653069">"Cilësimet e shpejta"</string>
+    <string name="action_corner_action_dialog_title" msgid="8253240813317885237">"Zgjidh një shkurtore për <xliff:g id="CORNER">%1$s</xliff:g>"</string>
+    <string name="action_corner_bottom_left_name" msgid="9193788067022476544">"këndi i poshtëm majtas"</string>
+    <string name="action_corner_bottom_right_name" msgid="1031603363418505375">"këndi i poshtëm djathtas"</string>
+    <string name="action_corner_top_left_name" msgid="8077670910600032291">"këndi i sipërm majtas"</string>
+    <string name="action_corner_top_right_name" msgid="6307321595919080297">"këndi i sipërm djathtas"</string>
     <string name="modifier_keys_settings" msgid="2537108435032034683">"Çelësat modifikues"</string>
     <string name="modifier_keys_settings_summary" msgid="6933143361657444436">"Ndrysho sjelljen e çelësave"</string>
     <string name="modifier_keys_reset_title" msgid="948294258402761066">"Rivendosi të gjitha"</string>
@@ -2344,8 +2344,7 @@
     <string name="last_time_used_label" msgid="7589377271406011659">"Përdorur për herë të fundit"</string>
     <string name="last_time_used_never" msgid="2936073559267990034">"asnjëherë"</string>
     <string name="usage_time_label" msgid="9105343335151559883">"Koha e përdorimit"</string>
-    <!-- no translation found for phone_information_v2_title (3373745314543222111) -->
-    <skip />
+    <string name="phone_information_v2_title" msgid="3373745314543222111">"Informacionet e telefonit V2"</string>
     <string name="accessibility_settings" msgid="4713215774904704682">"Qasshmëria"</string>
     <string name="accessibility_settings_title" msgid="6739115703615065716">"Cilësimet e qasjes"</string>
     <string name="accessibility_settings_summary" msgid="2366627644570558503">"Ekrani, ndërveprimi, audioja"</string>
@@ -2384,8 +2383,7 @@
     <string name="accessibility_system_controls_title" msgid="6403287349518987624">"Kontrollet e sistemit"</string>
     <string name="accessibility_send_feedback_title" msgid="6455703838689943046">"Dërgo komente"</string>
     <string name="accessibility_send_survey_title" msgid="7899716184811587023">"Na vlerëso"</string>
-    <!-- no translation found for accessibility_disability_support_title (7934160403456751664) -->
-    <skip />
+    <string name="accessibility_disability_support_title" msgid="7934160403456751664">"Kontakto mbështetjen për aftësi të kufizuara"</string>
     <string name="accessibility_send_survey_notification_channel" msgid="6136555229886306184">"Anketa për qasshmërinë"</string>
     <string name="dark_theme_survey_notification_title" msgid="4035183263314404750">"Të pëlqen \"Tema e errët\" në më shumë aplikacione?"</string>
     <string name="dark_theme_survey_notification_summary" msgid="801472177955048195">"Ndaj komentet e tua"</string>
@@ -2412,8 +2410,7 @@
     <string name="accessibility_screen_magnification_shortcut_title" msgid="2387963646377987780">"Shkurtorja e zmadhimit"</string>
     <string name="accessibility_magnification_cursor_following_title" msgid="29531257984012743">"Ndjekja e kursorit"</string>
     <string name="accessibility_magnification_cursor_following_header" msgid="7283095798622223509">"Zgjidh se si \"Zmadhimi\" ndjek kursorin tënd."</string>
-    <!-- no translation found for accessibility_magnification_cursor_following_unavailable_summary (1683880243856242269) -->
-    <skip />
+    <string name="accessibility_magnification_cursor_following_unavailable_summary" msgid="1683880243856242269">"Nuk ofrohet kur zmadhohet vetëm një pjesë e ekranit"</string>
     <string name="accessibility_magnification_cursor_following_continuous" msgid="1119319218662522794">"Lëvize ekranin vazhdimisht ndërsa lëviz miu"</string>
     <string name="accessibility_magnification_cursor_following_center" msgid="3504798009192014460">"Lëvize ekranin duke e mbajtur miun në qendër të ekranit"</string>
     <string name="accessibility_magnification_cursor_following_edge" msgid="8675207762416655758">"Lëvize ekranin kur miu prek skajet e ekranit"</string>
@@ -2669,6 +2666,10 @@
     <string name="accessibility_daltonizer_footer_learn_more_content_description" msgid="2091679253892040910">"Mëso më shumë rreth korrigjimit të ngjyrës"</string>
     <string name="accessibility_color_inversion_about_title" msgid="8275754480247040136">"Rreth anasjelljes së ngjyrës"</string>
     <string name="accessibility_color_inversion_footer_learn_more_content_description" msgid="5382579548498952445">"Mëso më shumë rreth anasjelljes së ngjyrës"</string>
+    <!-- no translation found for accessibility_dark_theme_footer_learn_more_helper_link (7084955775821075280) -->
+    <skip />
+    <!-- no translation found for accessibility_dark_theme_preference_footer_content (4431044600779983609) -->
+    <skip />
     <string name="accessibility_captioning_primary_switch_title" msgid="3663677340286206100">"Shfaq titrat"</string>
     <string name="accessibility_captioning_primary_switch_summary" msgid="2544094070306830218">"Vetëm për aplikacionet e mbështetura"</string>
     <string name="captioning_appearance_title" msgid="3128792092290011408">"Madhësia dhe stili i titrave"</string>
@@ -4358,10 +4359,8 @@
     <string name="app_permissions" msgid="8666537659217653626">"Menaxheri i lejeve"</string>
     <string name="app_data_sharing_updates_title" msgid="1694297952320402788">"Përditësime të të dhënave të ndara për vendndodhjen"</string>
     <string name="app_data_sharing_updates_summary" msgid="4465929918457739443">"Shqyrto aplikacionet që ndryshuan mënyrën se si mund të ndajnë të dhënat e vendndodhjes sate"</string>
-    <!-- no translation found for app_function_access_settings_title (1474765429611652468) -->
-    <skip />
-    <!-- no translation found for app_function_access_settings_summary (6465715820745848068) -->
-    <skip />
+    <string name="app_function_access_settings_title" msgid="1474765429611652468">"Kontrolli i agjentit në aplikacione të tjera"</string>
+    <string name="app_function_access_settings_summary" msgid="6465715820745848068">"Kryej veprime në pajisjen tënde dhe në aplikacione të tjera"</string>
     <string name="tap_to_wake" msgid="3313433536261440068">"Trokit për ta zgjuar"</string>
     <string name="tap_to_wake_summary" msgid="6641039858241611072">"Trokit dy herë diku në ekran për ta zgjuar pajisjen."</string>
     <string name="domain_urls_title" msgid="7012209752049678876">"Hapja e lidhjeve"</string>
@@ -4521,10 +4520,8 @@
     <string name="screen_zoom_short_summary" msgid="756254364808639194">"Zmadho ose zvogëlo gjithçka"</string>
     <string name="screen_zoom_keywords" msgid="5964023524422386592">"dendësia e pamjes, zmadhimi i ekranit, shkalla, shkallëzimi"</string>
     <string name="screen_zoom_preview_title" msgid="5288355628444562735">"Pamja paraprake"</string>
-    <!-- no translation found for screen_zoom_make_smaller_desc (1450649885198381123) -->
-    <skip />
-    <!-- no translation found for screen_zoom_make_larger_desc (7125594310562596457) -->
-    <skip />
+    <string name="screen_zoom_make_smaller_desc" msgid="1450649885198381123">"Zvogëlo përmasat e ekranit"</string>
+    <string name="screen_zoom_make_larger_desc" msgid="7125594310562596457">"Zmadho përmasat e ekranit"</string>
     <string name="disconnected" msgid="3469373726996129247">"Nuk është i lidhur"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"Nuk është e lidhur"</string>
     <string name="apps_summary" msgid="4007416751775414252">"<xliff:g id="COUNT">%1$d</xliff:g> aplikacione të instaluara"</string>
@@ -4544,6 +4541,10 @@
     <string name="disabled_by_policy_title_financed_device" msgid="2328740314082888228">"Bllokuar nga ofruesi i kreditit"</string>
     <string name="disabled_by_policy_title_biometric_parental_consent" msgid="2463673997797134678">"Nevojitet prindi"</string>
     <string name="disabled_by_policy_content_biometric_parental_consent" msgid="7124116806784305206">"Jepja telefonin prindit për të filluar konfigurimin e kësaj"</string>
+    <!-- no translation found for disabled_by_policy_title_parental_controls (8875976588644052371) -->
+    <skip />
+    <!-- no translation found for disabled_by_policy_content_parental_controls (4648160125103768738) -->
+    <skip />
     <string name="disabled_by_policy_parental_consent" msgid="9166060049019018978">"Jepja telefonin prindit tënd për të lejuar që ky cilësim të ndryshohet."</string>
     <string name="default_admin_support_msg" msgid="8816296554831532033">"Për më shumë informacione, kontakto me administratorin e teknologjisë së informacionit"</string>
     <string name="admin_support_more_info" msgid="8407433155725898290">"Më shumë detaje"</string>
@@ -4659,7 +4660,8 @@
     <string name="battery_tips_card_action_button_check" msgid="1535140204105479318">"Kontrollo"</string>
     <string name="battery_tips_card_dismiss_button" msgid="1885756985544936618">"E kuptova"</string>
     <string name="battery_tips_card_feedback_info" msgid="767117835675157298">"A është i dobishëm ky mesazh?"</string>
-    <string name="battery_hints_warning_icon_a11y" msgid="5312542323401447620">"Ikona e paralajmërimit për këshillat për baterinë"</string>
+    <!-- no translation found for battery_hints_warning_icon_a11y (709629805028175434) -->
+    <skip />
     <string name="battery_tips_settings_summary_brightness" msgid="546145032616077783">"Aktivizo ndriçimin me përshtatje për të rritur kohëzgjatjen e baterisë"</string>
     <string name="battery_tips_settings_summary_screen_timeout" msgid="556801426050962077">"Zvogëlo kohën e pritjes të ekranit për të rritur kohëzgjatjen e baterisë"</string>
     <string name="battery_tips_apps_summary_always_high" msgid="6334519477067044920">"<xliff:g id="APP_LABEL">%1$s</xliff:g> ka përdorur më shumë bateri"</string>
@@ -5379,15 +5381,13 @@
     <string name="enable_16k_pages" msgid="1758111531461408337">"Nise me madhësinë e faqeve 16 KB"</string>
     <string name="enable_16k_pages_summary" msgid="1937836453571509085">"Nis pajisjen me bërthamën e mbështetur me madhësi faqesh 16 KB"</string>
     <string name="confirm_enable_16k_pages_title" msgid="5477376227161609124">"Kalo nga modaliteti 4 KB në modalitetin 16 KB"</string>
-    <!-- no translation found for confirm_enable_16k_pages_update_wipe (4760548401414644138) -->
-    <skip />
+    <string name="confirm_enable_16k_pages_update_wipe" msgid="4760548401414644138">"Ndarja e të dhënave të kësaj pajisjeje duhet të konvertohet në ext4 para se të përdoret opsioni i zhvilluesit 16 KB. Pajisja do të pastrohet dhe sistemi i skedarëve do të ndryshohet në ext4 pas konfirmimit. Je në modalitetin e prodhimit nga madhësia e faqes duke ekzekutuar një bërthamë 4 KB dhe po kalon në modalitetin 16 KB. Pasi të jesh në këtë modalitet, mund t\'i ndërrosh modalitetet 4 KB dhe 16 KB me vetëm një rinisje. Integriteti i softuerit nuk mund të garantohet në këtë modalitet dhe mund të rrezikohet çdo e dhënë e ruajtur në telefon kur ngarkuesi i fillimit është i shkyçur. Disa veçori do të çaktivizohen në këto modalitete, kështu që disa aplikacione mund të mos funksionojnë. Për ta kthyer pajisjen në modalitetin e prodhimit, do të duhet që të kthehesh përsëri në modalitetin 4 KB dhe të kyçësh ngarkuesin e fillimit, i cili e rivendos pajisjen në gjendje fabrike. Pasi pajisja të niset me sukses në Android, çaktivizo shkyçjen e OEM-së tek \"Opsionet e zhvilluesit\". Për të vazhduar, kliko te \'Spastro të gjitha të dhënat dhe përditëso\'. Ky veprim do ta rinisë pajisjen."</string>
     <string name="confirm_enable_16k_pages_text" msgid="6211693250692246982">"Je në modalitetin e pavarësisë nga madhësia e faqes duke ekzekutuar një bërthamë 4 KB dhe po kalon në modalitetin 16 KB. Integriteti i softuerit nuk mund të garantohet në këtë modalitet dhe mund të rrezikohet çdo e dhënë e ruajtur në telefon kur ngarkuesi i fillimit është i shkyçur. Ky veprim do ta rinisë pajisjen. Disa veçori do të çaktivizohen në këto modalitete, kështu që disa aplikacione mund të mos funksionojnë. Për ta kthyer pajisjen në modalitetin e prodhimit, do të duhet që të kthehesh përsëri në modalitetin 4 KB dhe të kyçësh ngarkuesin e fillimit, i cili e rivendos pajisjen në gjendje fabrike. Pasi pajisja të niset me sukses në Android, çaktivizo shkyçjen e OEM-së tek \"Opsionet e zhvilluesit\"."</string>
     <string name="confirm_enable_4k_pages_title" msgid="3001009010581393119">"Kalo nga modaliteti 16 KB në modalitetin 4 KB"</string>
     <string name="confirm_enable_4k_pages_text" msgid="3398001587586470689">"Je në modalitetin e pavarësisë nga madhësia e faqes duke ekzekutuar një bërthamë 16 KB dhe po kalon në modalitetin 4 KB. Integriteti i softuerit nuk mund të garantohet në këtë modalitet dhe mund të rrezikohet çdo e dhënë e ruajtur në telefon kur ngarkuesi i fillimit është i shkyçur. Ky veprim do ta rinisë pajisjen. Disa veçori do të çaktivizohen në këto modalitete, kështu që disa aplikacione mund të mos funksionojnë. Për ta kthyer pajisjen në modalitetin e prodhimit, do të duhet që të kyçësh ngarkuesin e fillimit, i cili e rivendos pajisjen në gjendje fabrike. Pasi pajisja të niset me sukses në Android, çaktivizo shkyçjen e OEM-së tek \"Opsionet e zhvilluesit\"."</string>
     <string name="toast_16k_update_failed_text" msgid="7848383020572918850">"Përditësimi i bërthamës në bërthamën e përputhshme me faqet 16 KB dështoi."</string>
     <string name="progress_16k_ota_title" msgid="2117218313875523741">"Ndryshimi po zbatohet"</string>
-    <!-- no translation found for confirm_ext4_button_text (697563319110759422) -->
-    <skip />
+    <string name="confirm_ext4_button_text" msgid="697563319110759422">"Spastro të gjitha të dhënat dhe përditëso"</string>
     <string name="format_ext4_failure_toast" msgid="8059453995800471549">"Riformatimi dhe pastrimi i ndarjes së të dhënave në ext4 dështoi."</string>
     <string name="confirm_oem_unlock_for_16k_title" msgid="6062041826568112078">"Kërkohet shkyçja e ngarkuesit të fillimit"</string>
     <string name="confirm_oem_unlock_for_16k_text" msgid="8089310116854544106">"Kjo pajisje duhet ta ketë të shkyçur ngarkuesin e fillimit para se të përdoret opsioni i zhvilluesit 16 KB. Integriteti i softuerit nuk mund të garantohet në këtë modalitet dhe mund të rrezikohet çdo e dhënë e ruajtur në telefon kur ngarkuesi i fillimit është i shkyçur. Të gjitha të dhënat dhe cilësimet e përdoruesit do të pastrohen kur të aktivizohet modaliteti 16 KB. Kur të shkyçet ngarkuesi i fillimit, aktivizimi i opsionit 16 KB do të kërkojë dy rinisje. Pasi të jesh në këtë modalitet, mund t\'i ndërrosh modalitetet 4 KB dhe 16 KB me vetëm një rinisje. Disa veçori do të çaktivizohen në këto modalitete, kështu që disa aplikacione mund të mos funksionojnë. Për ta kthyer pajisjen në modalitetin e prodhimit, do të duhet që të kthehesh përsëri në modalitetin 4 KB dhe të kyçësh OEM-në/ngarkuesin e fillimit (që e rivendos pajisjen në gjendje fabrike). Shkyçe ngarkuesin e fillimit dhe provo përsëri. Mund t\'i shikosh udhëzimet se si ta bësh këtë në &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt;"</string>
@@ -5883,21 +5883,28 @@
     <string name="search_gesture_feature_summary" msgid="1793056495030564014">"Prek dhe mbaj shtypur butonin \"Kreu\" ose emërtimin e navigimit për të kërkuar duke përdorur përmbajtjen në ekranin tënd."</string>
     <string name="device_detail_icon_content_description" msgid="6699151424374841937">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>. Konfiguro detajet e pajisjes."</string>
     <string name="supervision_settings_title" msgid="8507163323870367711">"Kontrollet prindërore"</string>
-    <string name="supervision_settings_summary" msgid="5020634300370322741">"Kufizimet e përmbajtjet dhe kufizime të tjera"</string>
+    <!-- no translation found for supervision_settings_summary (6304257872307136073) -->
+    <skip />
     <string name="device_supervision_switch_no_pin_summary" msgid="4869563544571033220">"Konfiguro kodin PIN"</string>
-    <string name="device_supervision_switch_paused_summary" msgid="1014381188739295656">"Në pauzë"</string>
-    <string name="keywords_supervision_settings" msgid="2580555201483955376">"mbikëqyrja, mbikëqyrja prindërore, kontrollet prindërore"</string>
+    <!-- no translation found for keywords_supervision_settings (43064288661561602) -->
+    <skip />
     <string name="supervision_pin_management_preference_title" msgid="7721501202320841845">"Menaxho kodin PIN"</string>
+    <!-- no translation found for supervision_pin_management_preference_keywords (5034450635706621750) -->
+    <skip />
     <string name="supervision_pin_management_preference_summary_add" msgid="2247921267270577374">"Shto email-in e rikuperimit"</string>
     <string name="supervision_pin_management_preference_summary_verify_recovery" msgid="5072554239108915119">"Verifiko email-in e rikuperimit"</string>
     <string name="supervision_change_pin_preference_title" msgid="2288584039438231801">"Ndrysho kodin PIN"</string>
     <string name="supervision_add_forgot_pin_preference_title" msgid="8939945404255748516">"Harrova kodin PIN"</string>
+    <!-- no translation found for supervision_auth_prompt_forgot_pin_button_label (1019337828884793557) -->
+    <skip />
     <string name="supervision_update_recovery_email_preference_title" msgid="2057393838251915087">"Përditëso email-in e rikuperimit"</string>
     <string name="supervision_delete_pin_preference_title" msgid="8447541098148430866">"Fshi kodin PIN"</string>
-    <string name="supervision_delete_pin_preference_summary" msgid="4865713157106413979">"Kjo do të rivendosë të gjitha cilësimet e mbikëqyrjes"</string>
     <string name="supervision_add_pin_recovery_title" msgid="3487098027604685794">"Shto email-in e rikuperimit"</string>
     <string name="supervision_verify_pin_recovery_title" msgid="3166602415814821497">"Verifiko email-in"</string>
-    <string name="supervision_web_content_filters_title" msgid="3653430162065686156">"Filtrat e përmbajtjeve të uebit"</string>
+    <!-- no translation found for supervision_web_content_filters_title (2412562442507104921) -->
+    <skip />
+    <!-- no translation found for supervision_web_content_filters_keywords (8469519676189544447) -->
+    <skip />
     <string name="supervision_web_content_filters_top_intro" msgid="5264773769840566499">"Blloko përmbajtjen për të rritur në uebsajte dhe rezultatet e kërkimit për aplikacionet e mbështetura në këtë pajisje. Aplikacionet e pambështetura mund të shfaqin ende përmbajtje të papërshtatshme."</string>
     <string name="supervision_web_content_filters_browser_title" msgid="8737341514264129889">"Uebsajtet"</string>
     <string name="supervision_web_content_filters_browser_filter_title" msgid="7957976669412075070">"Blloko sajtet e papërshtatshme"</string>
@@ -5907,8 +5914,7 @@
     <string name="supervision_choose_your_pin_header" msgid="3872062168986738629">"Cakto kodin PIN për kontrollet prindërore"</string>
     <string name="supervision_confirm_your_pin_header" msgid="8236956712482718354">"Konfirmo kodin PIN"</string>
     <string name="supervision_pin_reset_success_toast" msgid="9163550161698311831">"Kodi PIN u pëditësua"</string>
-    <!-- no translation found for supervision_promo_footer_action_button_description (7617359721703338141) -->
-    <skip />
+    <string name="supervision_promo_footer_action_button_description" msgid="7617359721703338141">"Hap aplikacionin"</string>
     <string name="supervision_delete_pin_confirm_header" msgid="8499276643990949268">"Të fshihet kodi PIN?"</string>
     <string name="supervision_delete_pin_confirm_message" msgid="5482080400973042178">"Kjo do të fshijë kodin aktual PIN për të gjithë përdoruesit në këtë pajisje dhe do të çaktivizojë kontrollet që ke konfiguruar. Ky veprim nuk mund të zhbëhet."</string>
     <string name="supervision_delete_pin_supervision_enabled_header" msgid="2072311894107038402">"Fillimisht, vendos në pauzë kontrollet në profilet e tjera"</string>

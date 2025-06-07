@@ -47,10 +47,8 @@
     <string name="preview_pager_email_title" msgid="8767864657910457562">"ईमेल"</string>
     <string name="preview_pager_previous_button" msgid="607771113300838313">"पिछली झलक"</string>
     <string name="preview_pager_next_button" msgid="8700907912508927271">"अगली झलक"</string>
-    <!-- no translation found for font_size_make_smaller_desc (319927200356692406) -->
-    <skip />
-    <!-- no translation found for font_size_make_larger_desc (6739310980713118605) -->
-    <skip />
+    <string name="font_size_make_smaller_desc" msgid="319927200356692406">"फ़ॉन्ट का साइज़ छोटा करें"</string>
+    <string name="font_size_make_larger_desc" msgid="6739310980713118605">"फ़ॉन्ट का साइज़ बड़ा करें"</string>
     <string name="stay_awake_on_fold_title" msgid="6590454679898134221">"हमेशा"</string>
     <string name="stay_awake_on_fold_summary" msgid="1939963751585954262">"फ़ोन को फ़ोल्ड करने पर, फ़्रंट डिसप्ले चालू हो जाएगा"</string>
     <string name="stay_awake_on_lockscreen_title" msgid="8088456642083051068">"जारी रखने के लिए, ऊपर की ओर स्वाइप करें"</string>
@@ -200,7 +198,8 @@
     <string name="locale_remove_menu" msgid="3521546263421387474">"हटाएं"</string>
     <string name="add_a_language" msgid="2126220398077503271">"कोई भाषा जोड़ें"</string>
     <string name="app_locale_preference_title" msgid="5513627099300360232">"भाषा"</string>
-    <string name="locale_picker_category_title" msgid="6212064706962721255">"पसंदीदा भाषा"</string>
+    <!-- no translation found for locale_picker_category_title (296835514014453679) -->
+    <skip />
     <string name="app_locales_picker_menu_title" msgid="7617427959223831373">"ऐप्लिकेशन की भाषाएं"</string>
     <string name="app_locale_picker_summary" msgid="616928580653613998">"हर ऐप्लिकेशन के लिए भाषा चुनें"</string>
     <string name="app_locale_picker_title" msgid="2431448962911301366">"ऐप्लिकेशन की भाषा"</string>
@@ -226,10 +225,17 @@
     <string name="title_change_system_locale" msgid="4102991236063984803">"क्या सिस्टम की भाषा बदलकर %s करनी है?"</string>
     <string name="title_system_locale_addition" msgid="8218683660751479466">"क्या आपको पसंदीदा भाषाओं में %s को जोड़ना है?"</string>
     <string name="desc_system_locale_addition" msgid="3409917362651596070">"इससे ऐप्लिकेशन और वेबसाइट को जानकारी मिलेगी कि आपको यह भाषा भी इस्तेमाल करनी है."</string>
-    <string name="desc_notice_device_locale_settings_change" msgid="8311132485850714160">"आपके डिवाइस की सेटिंग और जगह के हिसाब से प्राथमिकताएं बदल जाएंगी."</string>
+    <!-- no translation found for desc_notice_device_locale_and_region_settings_change (909261686577914396) -->
+    <skip />
+    <!-- no translation found for desc_notice_device_locale_settings_change (5012353615235634881) -->
+    <skip />
+    <!-- no translation found for dlg_desc_delete_preferred_default_locale (690828405078078513) -->
+    <skip />
     <string name="button_label_confirmation_of_system_locale_change" msgid="5593798559604894733">"बदलें"</string>
-    <string name="title_unavailable_locale" msgid="2628898110416542386">"%s उपलब्ध नहीं है"</string>
-    <string name="desc_unavailable_locale" msgid="2201756477400935896">"इस भाषा को सिस्टम की भाषा के तौर पर इस्तेमाल नहीं किया जा सकता. हालांकि, आपने ऐप्लिकेशन और वेबसाइटों पर इसे अपनी पसंदीदा भाषा के तौर पर चुना है."</string>
+    <!-- no translation found for title_unavailable_locale (5382411204559213983) -->
+    <skip />
+    <!-- no translation found for desc_unavailable_locale (7223655766703116782) -->
+    <skip />
     <string name="locale_search_menu" msgid="297782694044826686">"खोजें"</string>
     <string name="language_and_region_title" msgid="8374151891112162767">"भाषा और इलाका"</string>
     <string name="language_selection_title" msgid="968179636453982415">"कोई भाषा जोड़ें"</string>
@@ -243,6 +249,12 @@
     <string name="title_change_system_locale_region" msgid="4401478579429442695">"क्या इलाके को बदलकर <xliff:g id="SYSTEM_LANGUAGE_REGION">%1$s</xliff:g> पर सेट करना है?"</string>
     <string name="body_change_system_locale_region" msgid="9064318449821043189">"सिस्टम की भाषा के तौर पर, आपका डिवाइस <xliff:g id="SYSTEM_LANGUAGE">%1$s</xliff:g> का इस्तेमाल करेगा"</string>
     <string name="top_intro_numbering_system_title" msgid="3962000662073238392">"डिवाइस, वेबसाइट, और ऐप्लिकेशन पर नंबर दिखने का तरीका चुनें"</string>
+    <!-- no translation found for preferred_locale_menu_up (4009560552099567485) -->
+    <skip />
+    <!-- no translation found for preferred_locale_menu_down (1033373887552535585) -->
+    <skip />
+    <!-- no translation found for preferred_locale_menu_remove (8547483341987864590) -->
+    <skip />
     <string name="regional_preferences_title" msgid="4304567374498629528">"जगह के हिसाब से प्राथमिकताएं"</string>
     <string name="regional_preferences_summary" msgid="1189876997389469650">"यूनिट और नंबर की प्राथमिकताएं तय करें"</string>
     <string name="regional_preferences_main_page_sub_title" msgid="4237109940015254725">"ऐप्लिकेशन को जगह के हिसाब से तय की गई अपनी प्राथमिकताओं का ऐक्सेस दें, ताकि आपको मनमुताबिक अनुभव मिल सके."</string>
@@ -281,6 +293,10 @@
     <string name="dlg_remove_locales_error_title" msgid="5875503658221562572">"सभी भाषाएं नहीं निकाली जा सकती हैं"</string>
     <string name="dlg_remove_locales_error_message" msgid="6504279959974675302">"कम से कम एक पसंदीदा भाषा रखें"</string>
     <string name="locale_not_translated" msgid="3071618135527110152">"यह सिस्टम की भाषा के तौर पर उपलब्ध नहीं है"</string>
+    <!-- no translation found for dlg_title_delete_preferred_locale (4167214348946940002) -->
+    <skip />
+    <!-- no translation found for dlg_desc_delete_preferred_locale (4658301652628456858) -->
+    <skip />
     <string name="action_drag_label_move_up" msgid="3392196942330705015">"ऊपर ले जाएं"</string>
     <string name="action_drag_label_move_down" msgid="9069518740553953426">"नीचे ले जाएं"</string>
     <string name="action_drag_label_move_top" msgid="2430471023612171619">"शीर्ष पर ले जाएं"</string>
@@ -460,6 +476,8 @@
     <string name="security_settings_fingerprint_enroll_introduction_no_thanks" msgid="1663906389456119842">"अभी नहीं"</string>
     <string name="security_settings_fingerprint_enroll_introduction_agree" msgid="4068276083536421828">"मैं सहमत हूं"</string>
     <string name="security_settings_fingerprint_rename_description" msgid="6301505700382531086">"नाम बदलने के लिए दो बार टैप करें"</string>
+    <!-- no translation found for security_settings_fingerprint_recognition_description (1805171116182647136) -->
+    <skip />
     <string name="setup_fingerprint_enroll_skip_title" msgid="2473807887676247264">"फ़िंगरप्रिंट सेटअप नहीं करना?"</string>
     <string name="setup_fingerprint_enroll_skip_after_adding_lock_text" msgid="2412645723804450304">"फ़िंगरप्रिंट सेटअप करने में सिर्फ़ एक या दो मिनट लगते हैं. अगर आपको अभी सेटअप नहीं करना है, तो बाद में सेटिंग में जाकर फ़िंगरप्रिंट जोड़ा जा सकता है."</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_setup" msgid="6255210343107484206">"यह आइकॉन दिखने पर, किसी ऐप में साइन इन करने या खरीदारी की मंज़ूरी देने के लिए, पहचान की पुष्टि करते समय फ़िंगरप्रिंट इस्तेमाल करें"</string>
@@ -942,10 +960,8 @@
     <string name="bluetooth_device_context_connect" msgid="4913860372216815855">"कनेक्ट करें"</string>
     <string name="bluetooth_device_context_disconnect" msgid="4464167389972513232">"डिसकनेक्ट करें"</string>
     <string name="bluetooth_device_context_pair_connect" msgid="2406032703622371826">"जोड़े और कनेक्‍ट करें"</string>
-    <!-- no translation found for bluetooth_connecting (5315496594905010438) -->
-    <skip />
-    <!-- no translation found for bluetooth_disconnecting (1643422701532873735) -->
-    <skip />
+    <string name="bluetooth_connecting" msgid="5315496594905010438">"कनेक्ट किया जा रहा है"</string>
+    <string name="bluetooth_disconnecting" msgid="1643422701532873735">"डिसकनेक्ट किया जा रहा है"</string>
     <string name="bluetooth_empty_list_bluetooth_off" msgid="7326727272747345476">"ब्लूटूथ चालू होने पर, आपका डिवाइस आस-पास के ब्लूटूथ डिवाइसों से कनेक्ट हो सकता है"</string>
     <string name="bluetooth_empty_list_bluetooth_off_auto_on_available" msgid="3430864468105204282">"ब्लूटूथ चालू होने पर, आपका डिवाइस आस-पास मौजूद अन्य ब्लूटूथ डिवाइसों से कनेक्ट हो सकता है. क्विक शेयर और Find My Device जैसी सुविधाएं ब्लूटूथ का इस्तेमाल करती हैं."</string>
     <string name="bluetooth_scanning_on_info_message" msgid="786648535600075223">"ब्लूटूथ चालू हाेने पर, आपका डिवाइस आस-पास के ब्लूटूथ डिवाइसों से कनेक्ट हो सकता है. \n\nडिवाइस इस्तेमाल करने के अनुभव काे बेहतर बनाने के लिए, ऐप्लिकेशन और सेवाएं किसी भी समय आस-पास के डिवाइसों काे स्कैन कर सकती हैं. ऐसा ब्लूटूथ बंद होने पर भी किया जा सकता है. उदाहरण के लिए, इसका इस्तेमाल जगह से जुड़ी सुविधाओं और सेवाओं को बेहतर बनाने के लिए किया जा सकता है. ब्लूटूथ डिवाइस का पता लगाने की सुविधा की सेटिंग में जाकर, इसे बदला जा सकता है."</string>
@@ -2177,8 +2193,7 @@
     <string name="trackpad_settings" msgid="2071131324087677005">"टचपैड"</string>
     <string name="trackpad_mouse_settings" msgid="136226693583218429">"टचपैड और माउस"</string>
     <string name="mouse_settings" msgid="7301671756721327122">"माउस"</string>
-    <!-- no translation found for mouse_settings_summary (1308610072914620926) -->
-    <skip />
+    <string name="mouse_settings_summary" msgid="1308610072914620926">"पॉइंटर की स्पीड सेट करना, बटन को पसंद के मुताबिक बनाना"</string>
     <string name="trackpad_settings_summary" msgid="3369855644136760402">"पॉइंटर की स्पीड, हाथ के जेस्चर"</string>
     <string name="trackpad_tap_to_click" msgid="1938230946542070746">"क्लिक करने के लिए टैप करें"</string>
     <string name="trackpad_tap_dragging_title" msgid="4198317837427535015">"टैप करके खींचें और छोड़ें"</string>
@@ -2232,40 +2247,25 @@
     <string name="gesture_button_next" msgid="695288092704187356">"आगे बढ़ें"</string>
     <string name="gesture_button_restart" msgid="1895850891992530133">"रीस्टार्ट करें"</string>
     <string name="gesture_button_done" msgid="6387900351203032188">"हो गया"</string>
-    <!-- no translation found for action_corner_title (1489042651433221319) -->
+    <!-- no translation found for action_corner_title (7411160165577367757) -->
     <skip />
-    <!-- no translation found for action_corner_summary (695618538930535335) -->
+    <string name="action_corner_summary" msgid="695618538930535335">"सिस्टम में नेविगेट करने के लिए कर्सर का इस्तेमाल करें"</string>
+    <!-- no translation found for action_corner_intro (2170609118659718140) -->
     <skip />
-    <!-- no translation found for action_corner_intro (8782001241997579665) -->
-    <skip />
-    <!-- no translation found for action_corner_bottom_left_title (2857258272736432174) -->
-    <skip />
-    <!-- no translation found for action_corner_bottom_right_title (7222233500548465684) -->
-    <skip />
-    <!-- no translation found for action_corner_top_left_title (4633975226092344210) -->
-    <skip />
-    <!-- no translation found for action_corner_top_right_title (4995999693840776032) -->
-    <skip />
-    <!-- no translation found for action_corner_action_none (5203163099950649999) -->
-    <skip />
-    <!-- no translation found for action_corner_action_home (6779642573582379579) -->
-    <skip />
-    <!-- no translation found for action_corner_action_recent_apps (7450480676812648813) -->
-    <skip />
-    <!-- no translation found for action_corner_action_notifications (3779353356349774469) -->
-    <skip />
-    <!-- no translation found for action_corner_action_quick_settings (4660901117283653069) -->
-    <skip />
-    <!-- no translation found for action_corner_action_dialog_title (8253240813317885237) -->
-    <skip />
-    <!-- no translation found for action_corner_bottom_left_name (9193788067022476544) -->
-    <skip />
-    <!-- no translation found for action_corner_bottom_right_name (1031603363418505375) -->
-    <skip />
-    <!-- no translation found for action_corner_top_left_name (8077670910600032291) -->
-    <skip />
-    <!-- no translation found for action_corner_top_right_name (6307321595919080297) -->
-    <skip />
+    <string name="action_corner_bottom_left_title" msgid="2857258272736432174">"सबसे नीचे बाईं ओर"</string>
+    <string name="action_corner_bottom_right_title" msgid="7222233500548465684">"सबसे नीचे दाईं ओर"</string>
+    <string name="action_corner_top_left_title" msgid="4633975226092344210">"सबसे ऊपर बाईं ओर"</string>
+    <string name="action_corner_top_right_title" msgid="4995999693840776032">"सबसे ऊपर दाईं ओर"</string>
+    <string name="action_corner_action_none" msgid="5203163099950649999">"कोई नहीं"</string>
+    <string name="action_corner_action_home" msgid="6779642573582379579">"होम"</string>
+    <string name="action_corner_action_recent_apps" msgid="7450480676812648813">"हाल ही में इस्तेमाल किए गए ऐप्लिकेशन"</string>
+    <string name="action_corner_action_notifications" msgid="3779353356349774469">"सूचनाएं"</string>
+    <string name="action_corner_action_quick_settings" msgid="4660901117283653069">"क्विक सेटिंग"</string>
+    <string name="action_corner_action_dialog_title" msgid="8253240813317885237">"<xliff:g id="CORNER">%1$s</xliff:g> के लिए कोई शॉर्टकट चुनें"</string>
+    <string name="action_corner_bottom_left_name" msgid="9193788067022476544">"सबसे नीचे बाईं ओर"</string>
+    <string name="action_corner_bottom_right_name" msgid="1031603363418505375">"सबसे नीचे दाईं ओर"</string>
+    <string name="action_corner_top_left_name" msgid="8077670910600032291">"सबसे ऊपर बाईं ओर"</string>
+    <string name="action_corner_top_right_name" msgid="6307321595919080297">"सबसे ऊपर दाईं ओर"</string>
     <string name="modifier_keys_settings" msgid="2537108435032034683">"कार्रवाई बदलने वाली कुंजियां"</string>
     <string name="modifier_keys_settings_summary" msgid="6933143361657444436">"कुंजियों के काम करने का तरीका बदलें"</string>
     <string name="modifier_keys_reset_title" msgid="948294258402761066">"सभी को रीसेट करें"</string>
@@ -2344,8 +2344,7 @@
     <string name="last_time_used_label" msgid="7589377271406011659">"पिछली बार कब इस्तेमाल किया गया"</string>
     <string name="last_time_used_never" msgid="2936073559267990034">"कभी नहीं"</string>
     <string name="usage_time_label" msgid="9105343335151559883">"उपयोग समय"</string>
-    <!-- no translation found for phone_information_v2_title (3373745314543222111) -->
-    <skip />
+    <string name="phone_information_v2_title" msgid="3373745314543222111">"फ़ोन की जानकारी V2"</string>
     <string name="accessibility_settings" msgid="4713215774904704682">"सुलभता"</string>
     <string name="accessibility_settings_title" msgid="6739115703615065716">"सरल उपयोग सेटिंग"</string>
     <string name="accessibility_settings_summary" msgid="2366627644570558503">"डिसप्ले, इंटरैक्शन, ऑडियो"</string>
@@ -2384,8 +2383,7 @@
     <string name="accessibility_system_controls_title" msgid="6403287349518987624">"सिस्टम से जुड़े कंट्रोल"</string>
     <string name="accessibility_send_feedback_title" msgid="6455703838689943046">"सुझाव, राय या शिकायत भेजें"</string>
     <string name="accessibility_send_survey_title" msgid="7899716184811587023">"हमें रेटिंग दें"</string>
-    <!-- no translation found for accessibility_disability_support_title (7934160403456751664) -->
-    <skip />
+    <string name="accessibility_disability_support_title" msgid="7934160403456751664">"दिव्यांगों के लिए Google सहायता टीम से संपर्क करें"</string>
     <string name="accessibility_send_survey_notification_channel" msgid="6136555229886306184">"सुलभता सुविधाओं से जुड़ा सर्वे"</string>
     <string name="dark_theme_survey_notification_title" msgid="4035183263314404750">"क्या आपको अन्य ऐप्लिकेशन में गहरे रंग वाली थीम इस्तेमाल करने में मज़ा आ रहा है?"</string>
     <string name="dark_theme_survey_notification_summary" msgid="801472177955048195">"सुझाव/राय दें या शिकायत करें"</string>
@@ -2412,8 +2410,7 @@
     <string name="accessibility_screen_magnification_shortcut_title" msgid="2387963646377987780">"ज़ूम करने की सुविधा का शॉर्टकट"</string>
     <string name="accessibility_magnification_cursor_following_title" msgid="29531257984012743">"कर्सर फ़ॉलो करें"</string>
     <string name="accessibility_magnification_cursor_following_header" msgid="7283095798622223509">"चुनें कि ज़ूम करने की सुविधा, आपके कर्सर के मूवमेंट को किस तरह फ़ॉलो करे."</string>
-    <!-- no translation found for accessibility_magnification_cursor_following_unavailable_summary (1683880243856242269) -->
-    <skip />
+    <string name="accessibility_magnification_cursor_following_unavailable_summary" msgid="1683880243856242269">"स्क्रीन का एक हिस्सा ज़ूम करने के दौरान, यह सुविधा उपलब्ध नहीं होगी"</string>
     <string name="accessibility_magnification_cursor_following_continuous" msgid="1119319218662522794">"माउस को मूव करने के साथ-साथ स्क्रीन को लगातार मूव करें"</string>
     <string name="accessibility_magnification_cursor_following_center" msgid="3504798009192014460">"माउस को स्क्रीन के बीच में रखने पर स्क्रीन को मूव करें"</string>
     <string name="accessibility_magnification_cursor_following_edge" msgid="8675207762416655758">"माउस को स्क्रीन के किनारों को छूने पर स्क्रीन को मूव करें"</string>
@@ -2669,6 +2666,10 @@
     <string name="accessibility_daltonizer_footer_learn_more_content_description" msgid="2091679253892040910">"रंग में सुधार करने की सुविधा के बारे में ज़्यादा जानें"</string>
     <string name="accessibility_color_inversion_about_title" msgid="8275754480247040136">"रंग बदलने की सुविधा के बारे में जानकारी"</string>
     <string name="accessibility_color_inversion_footer_learn_more_content_description" msgid="5382579548498952445">"रंग बदलने की सुविधा के बारे में ज़्यादा जानें"</string>
+    <!-- no translation found for accessibility_dark_theme_footer_learn_more_helper_link (7084955775821075280) -->
+    <skip />
+    <!-- no translation found for accessibility_dark_theme_preference_footer_content (4431044600779983609) -->
+    <skip />
     <string name="accessibility_captioning_primary_switch_title" msgid="3663677340286206100">"कैप्शन दिखाएं"</string>
     <string name="accessibility_captioning_primary_switch_summary" msgid="2544094070306830218">"सिर्फ़ इस सुविधा के साथ काम करने वाले ऐप्लिकेशन के लिए उपलब्ध है"</string>
     <string name="captioning_appearance_title" msgid="3128792092290011408">"कैप्शन का साइज़ और स्टाइल"</string>
@@ -4358,10 +4359,8 @@
     <string name="app_permissions" msgid="8666537659217653626">"अनुमतियों को मैनेज करें"</string>
     <string name="app_data_sharing_updates_title" msgid="1694297952320402788">"जगह की जानकारी का डेटा शेयर करने के तरीके के बारे में अपडेट"</string>
     <string name="app_data_sharing_updates_summary" msgid="4465929918457739443">"ऐसे ऐप्लिकेशन देखें जिनमें आपकी जगह की जानकारी के डेटा को शेयर करने का तरीका बदल दिया है"</string>
-    <!-- no translation found for app_function_access_settings_title (1474765429611652468) -->
-    <skip />
-    <!-- no translation found for app_function_access_settings_summary (6465715820745848068) -->
-    <skip />
+    <string name="app_function_access_settings_title" msgid="1474765429611652468">"अन्य ऐप्लिकेशन के लिए एजेंट कंट्रोल"</string>
+    <string name="app_function_access_settings_summary" msgid="6465715820745848068">"डिवाइस और अन्य ऐप्लिकेशन में कार्रवाइयां करने की अनुमति दें"</string>
     <string name="tap_to_wake" msgid="3313433536261440068">"वेक करने के लिए टैप करें"</string>
     <string name="tap_to_wake_summary" msgid="6641039858241611072">"डिवाइस की स्क्रीन को चालू करने के लिए, स्क्रीन पर कहीं भी दो बार छूएं"</string>
     <string name="domain_urls_title" msgid="7012209752049678876">"लिंक खुलने से जुड़ी सेटिंग"</string>
@@ -4521,10 +4520,8 @@
     <string name="screen_zoom_short_summary" msgid="756254364808639194">"स्क्रीन पर मौजूद कॉन्टेंट को बड़ा या छोटा करें"</string>
     <string name="screen_zoom_keywords" msgid="5964023524422386592">"डिस्प्ले डेंसिटी (स्क्रीन के हर इंच में पिक्सेल की संख्या), स्‍क्रीन को ज़ूम करना, स्केल, स्‍केलिंग"</string>
     <string name="screen_zoom_preview_title" msgid="5288355628444562735">"झलक"</string>
-    <!-- no translation found for screen_zoom_make_smaller_desc (1450649885198381123) -->
-    <skip />
-    <!-- no translation found for screen_zoom_make_larger_desc (7125594310562596457) -->
-    <skip />
+    <string name="screen_zoom_make_smaller_desc" msgid="1450649885198381123">"डिसप्ले साइज़ को छोटा करें"</string>
+    <string name="screen_zoom_make_larger_desc" msgid="7125594310562596457">"डिसप्ले साइज़ को बड़ा करें"</string>
     <string name="disconnected" msgid="3469373726996129247">"कनेक्ट नहीं है"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"कनेक्ट नहीं है"</string>
     <string name="apps_summary" msgid="4007416751775414252">"<xliff:g id="COUNT">%1$d</xliff:g> ऐप्‍स इंस्‍टॉल किए गए हैं"</string>
@@ -4544,6 +4541,10 @@
     <string name="disabled_by_policy_title_financed_device" msgid="2328740314082888228">"क्रेडिट देने वाली कंपनी ने ब्लॉक किया है"</string>
     <string name="disabled_by_policy_title_biometric_parental_consent" msgid="2463673997797134678">"माता-पिता की अनुमति ज़रूरी है"</string>
     <string name="disabled_by_policy_content_biometric_parental_consent" msgid="7124116806784305206">"बायोमेट्रिक्स के ज़रिए पुष्टि करने की सुविधा सेट अप करने के लिए, अपने माता-पिता की मदद लें"</string>
+    <!-- no translation found for disabled_by_policy_title_parental_controls (8875976588644052371) -->
+    <skip />
+    <!-- no translation found for disabled_by_policy_content_parental_controls (4648160125103768738) -->
+    <skip />
     <string name="disabled_by_policy_parental_consent" msgid="9166060049019018978">"इस सेटिंग को बदलने के लिए, अपने माता-पिता की अनुमति लें."</string>
     <string name="default_admin_support_msg" msgid="8816296554831532033">"ज़्यादा जानकारी के लिए, अपने आईटी एडमिन से संपर्क करें"</string>
     <string name="admin_support_more_info" msgid="8407433155725898290">"ज़्यादा जानकारी"</string>
@@ -4659,7 +4660,8 @@
     <string name="battery_tips_card_action_button_check" msgid="1535140204105479318">"जांच करें"</string>
     <string name="battery_tips_card_dismiss_button" msgid="1885756985544936618">"ठीक है"</string>
     <string name="battery_tips_card_feedback_info" msgid="767117835675157298">"क्या यह मैसेज उपयोगी है?"</string>
-    <string name="battery_hints_warning_icon_a11y" msgid="5312542323401447620">"बैटरी के बारे में चेतावनी देने वाला आइकॉन"</string>
+    <!-- no translation found for battery_hints_warning_icon_a11y (709629805028175434) -->
+    <skip />
     <string name="battery_tips_settings_summary_brightness" msgid="546145032616077783">"बैटरी लाइफ़ बढ़ाने के लिए, आस-पास की लाइट के हिसाब से स्क्रीन की रोशनी वाली सुविधा चालू करें"</string>
     <string name="battery_tips_settings_summary_screen_timeout" msgid="556801426050962077">"बैटरी लाइफ़ बढ़ाने के लिए, स्क्रीन बंद होने में लगने वाला समय कम करें"</string>
     <string name="battery_tips_apps_summary_always_high" msgid="6334519477067044920">"<xliff:g id="APP_LABEL">%1$s</xliff:g> ने ज़्यादा बैटरी खर्च की"</string>
@@ -5379,15 +5381,13 @@
     <string name="enable_16k_pages" msgid="1758111531461408337">"16 केबी पेज साइज़ के साथ चालू करें"</string>
     <string name="enable_16k_pages_summary" msgid="1937836453571509085">"16 केबी के पेज वाले कर्नेल के साथ डिवाइस चालू करें"</string>
     <string name="confirm_enable_16k_pages_title" msgid="5477376227161609124">"4 केबी मोड से 16 केबी मोड पर स्विच करें"</string>
-    <!-- no translation found for confirm_enable_16k_pages_update_wipe (4760548401414644138) -->
-    <skip />
+    <string name="confirm_enable_16k_pages_update_wipe" msgid="4760548401414644138">"डेवलपर के लिए 16 केबी मोड वाली सेटिंग और टूल का इस्तेमाल करने से पहले, इस डिवाइस के डेटा के हिस्से को ext4 में बदलना होगा. ऐसा करने पर डिवाइस का पूरा डेटा मिट जाएगा. इसलिए, पुष्टि होने के बाद फ़ाइलसिस्टम को ext4 में बदला जाएगा. आप 4 केबी कर्नेल पर चल रहे प्रोडक्शन मोड में हैं और अब आपको 16 केबी मोड पर स्विच किया जा रहा है. यह मोड चालू हो जाने के बाद, डिवाइस को सिर्फ़ एक बार रीबूट करके 4 केबी और 16 केबी मोड के बीच स्विच किया जा सकेगा. इस मोड में सॉफ़्टवेयर के रखरखाव की गारंटी नहीं होती. यह गारंटी भी नहीं होती कि बूटलोडर अनलॉक होने के दौरान आपके फ़ोन में सेव डेटा पूरी तरह सुरक्षित रहेगा. इन मोड में कुछ सुविधाएं बंद हो जाएंगी और हो सकता है कि कुछ ऐप्लिकेशन काम न करें. डिवाइस को प्रोडक्शन मोड में वापस लाने के लिए, आपको फिर से 4 केबी मोड पर स्विच करना होगा और बूटलोडर लॉक करना होगा. इससे डिवाइस फ़ैक्ट्री रीसेट हो जाएगा. जब डिवाइस Android में चालू हो जाए, तब \'डेवलपर के लिए सेटिंग और टूल\' में जाकर ओईएम से अनलॉक करने की सेटिंग बंद कर दें. आगे बढ़ने के लिए, \'सारा डेटा मिटाएं और अपडेट करें\' पर क्लिक करें. इससे डिवाइस फिर से चालू हो जाएगा."</string>
     <string name="confirm_enable_16k_pages_text" msgid="6211693250692246982">"आप 4 केबी कर्नेल पर चल रहे पेज-ऐग्नोस्टिक मोड में हैं. आपको 16 केबी मोड पर स्विच किया जा रहा है. इस मोड में सॉफ़्टवेयर के रखरखाव की गारंटी नहीं होती. बूटलोडर अनलॉक होने के दौरान आपके फ़ोन में सेव डेटा की सुरक्षा खतरे में पड़ सकती है. इससे डिवाइस फिर से चालू होगा. इन मोड में कुछ सुविधाएं बंद हो जाएंगी. इसलिए, ऐसा हो सकता है कि कुछ ऐप्लिकेशन काम न करें. डिवाइस को प्रोडक्शन मोड में वापस लाने के लिए, आपको फिर से 4 केबी मोड पर स्विच करना होगा और बूटलोडर लॉक करना होगा. ऐसा करने पर, डिवाइस फ़ैक्ट्री रीसेट हो जाता है. डिवाइस के Android में चालू हो जाने के बाद, \'डेवलपर के लिए सेटिंग और टूल\' में जाकर ओईएम से अनलॉक करने की सेटिंग बंद करें."</string>
     <string name="confirm_enable_4k_pages_title" msgid="3001009010581393119">"16 केबी मोड से 4 केबी मोड पर स्विच करें"</string>
     <string name="confirm_enable_4k_pages_text" msgid="3398001587586470689">"आप 16 केबी कर्नेल पर चल रहे पेज-ऐग्नोस्टिक मोड में हैं. आपको 4 केबी मोड पर स्विच किया जा रहा है. इस मोड में सॉफ़्टवेयर के रखरखाव की गारंटी नहीं होती. बूटलोडर अनलॉक होने के दौरान आपके फ़ोन में सेव डेटा की सुरक्षा खतरे में पड़ सकती है. इससे डिवाइस फिर से चालू होगा. इन मोड में कुछ सुविधाएं बंद हो जाएंगी. इसलिए, ऐसा हो सकता है कि कुछ ऐप्लिकेशन काम न करें. डिवाइस को प्रोडक्शन मोड में वापस लाने के लिए, आपको बूटलोडर लॉक करना होगा. ऐसा करने पर, डिवाइस फ़ैक्ट्री रीसेट हो जाता है. डिवाइस के Android में चालू हो जाने के बाद, \'डेवलपर के लिए सेटिंग और टूल\' में जाकर ओईएम से अनलॉक करने की सेटिंग बंद करें."</string>
     <string name="toast_16k_update_failed_text" msgid="7848383020572918850">"कर्नेल को 16 केबी पेज साइज़ के साथ काम करने वाले कर्नेल में अपडेट नहीं किया जा सका."</string>
     <string name="progress_16k_ota_title" msgid="2117218313875523741">"बदलाव लागू किया जा रहा है"</string>
-    <!-- no translation found for confirm_ext4_button_text (697563319110759422) -->
-    <skip />
+    <string name="confirm_ext4_button_text" msgid="697563319110759422">"पूरा डेटा मिटाएं और अपडेट करें"</string>
     <string name="format_ext4_failure_toast" msgid="8059453995800471549">"डेटा के हिस्से को ext4 में फिर से फ़ॉर्मैट नहीं किया जा सका, न ही इसे वाइप किया जा सका."</string>
     <string name="confirm_oem_unlock_for_16k_title" msgid="6062041826568112078">"बूटलोडर को अनलॉक करना ज़रूरी है"</string>
     <string name="confirm_oem_unlock_for_16k_text" msgid="8089310116854544106">"अगर डेवलपर के लिए 16 केबी मोड वाली सेटिंग और टूल का इस्तेमाल करना है, तो इस डिवाइस के लिए बूटलोडर अनलॉक करना ज़रूरी है. इस मोड में सॉफ़्टवेयर के रखरखाव की गारंटी नहीं होती. बूटलोडर अनलॉक होने के दौरान आपके फ़ोन में सेव डेटा की सुरक्षा खतरे में पड़ सकती है. अगर 16 केबी मोड चालू किया जाता है, तो उपयोगकर्ता का पूरा डेटा और सभी सेटिंग वाइप हो जाती हैं. बूटलोडर अनलॉक होने के बाद, 16 केबी मोड चालू करने के लिए डिवाइस को दो बार फिर से चालू करने की ज़रूरत होती है. इस मोड में आ जाने के बाद, 4 केबी और 16 केबी मोड के बीच स्विच करने के लिए आपको डिवाइस को फिर से चालू करना होगा. इन मोड में कुछ सुविधाएं बंद हो जाएंगी. इसलिए, ऐसा हो सकता है कि कुछ ऐप्लिकेशन काम न करें. डिवाइस को प्रोडक्शन मोड में वापस लाने के लिए, आपको 4 केबी मोड पर स्विच करने की ज़रूरत होगी. इसके बाद, ओईएम/बूटलोडर लॉक हो जाएगा. इससे डिवाइस फ़ैक्ट्री रीसेट हो जाता है. कृपया बूटलोडर अनलॉक करें और फिर से कोशिश करें. बूटलोडर अनलॉक करने के निर्देश यहां देखे जा सकते हैं: &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt;"</string>
@@ -5522,7 +5522,7 @@
     <string name="bluetooth_phonebook_access_dialog_content" msgid="959658135522249170">"एक ब्लूटूथ डिवाइस, <xliff:g id="DEVICE_NAME_0">%1$s</xliff:g> आपके संपर्क और कॉल लॉग ऐक्सेस करना चाहता है. इसमें, आपके किए गए (आउटगोइंग) कॉल और आने वाले (इनकमिंग) कॉल से जुड़ा डेटा भी शामिल है.\n\nआपने इससे पहले कभी अपने डिवाइस को <xliff:g id="DEVICE_NAME_1">%2$s</xliff:g> से कनेक्ट नहीं किया है."</string>
     <string name="category_name_brightness" msgid="8520372392029305084">"स्क्रीन की रोशनी"</string>
     <string name="category_name_lock_display" msgid="8310402558217129670">"लॉक स्क्रीन का डिसप्ले"</string>
-    <string name="category_name_appearance" msgid="8287486771764166805">"दिखने का तरीका"</string>
+    <string name="category_name_appearance" msgid="8287486771764166805">"कैसी दिखे"</string>
     <string name="category_name_color" msgid="937514550918977151">"रंग"</string>
     <string name="category_name_display_controls" msgid="7046581691184725216">"डिसप्ले से जुड़े अन्य कंट्रोल"</string>
     <string name="category_name_general" msgid="7737273712848115886">"सामान्य"</string>
@@ -5883,21 +5883,28 @@
     <string name="search_gesture_feature_summary" msgid="1793056495030564014">"स्क्रीन पर दिख रहे कॉन्टेंट से जुड़ी कोई जानकारी खोजने के लिए, होम बटन या नेविगेशन हैंडल को दबाकर रखें."</string>
     <string name="device_detail_icon_content_description" msgid="6699151424374841937">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>. डिवाइस की जानकारी कॉन्फ़िगर करें."</string>
     <string name="supervision_settings_title" msgid="8507163323870367711">"माता-पिता के कंट्रोल"</string>
-    <string name="supervision_settings_summary" msgid="5020634300370322741">"कॉन्टेंट पर लगी पाबंदियां और अन्य सीमाएं"</string>
+    <!-- no translation found for supervision_settings_summary (6304257872307136073) -->
+    <skip />
     <string name="device_supervision_switch_no_pin_summary" msgid="4869563544571033220">"पिन सेट अप करें"</string>
-    <string name="device_supervision_switch_paused_summary" msgid="1014381188739295656">"बंद है"</string>
-    <string name="keywords_supervision_settings" msgid="2580555201483955376">"निगरानी की सुविधा, \'माता-पिता की निगरानी में\' सुविधा, माता-पिता के कंट्रोल की सुविधाएं"</string>
+    <!-- no translation found for keywords_supervision_settings (43064288661561602) -->
+    <skip />
     <string name="supervision_pin_management_preference_title" msgid="7721501202320841845">"अपना पिन मैनेज करें"</string>
+    <!-- no translation found for supervision_pin_management_preference_keywords (5034450635706621750) -->
+    <skip />
     <string name="supervision_pin_management_preference_summary_add" msgid="2247921267270577374">"खाता वापस पाने के लिए ईमेल पता जोड़ें"</string>
     <string name="supervision_pin_management_preference_summary_verify_recovery" msgid="5072554239108915119">"खाता वापस पाने के लिए जोड़े गए ईमेल पते की पुष्टि करें"</string>
     <string name="supervision_change_pin_preference_title" msgid="2288584039438231801">"पिन बदलें"</string>
     <string name="supervision_add_forgot_pin_preference_title" msgid="8939945404255748516">"पिन याद नहीं है"</string>
+    <!-- no translation found for supervision_auth_prompt_forgot_pin_button_label (1019337828884793557) -->
+    <skip />
     <string name="supervision_update_recovery_email_preference_title" msgid="2057393838251915087">"खाता वापस पाने के लिए ईमेल पता अपडेट करें"</string>
     <string name="supervision_delete_pin_preference_title" msgid="8447541098148430866">"पिन मिटाएं"</string>
-    <string name="supervision_delete_pin_preference_summary" msgid="4865713157106413979">"इससे, निगरानी की सभी सेटिंग रीसेट हो जाएंगी"</string>
     <string name="supervision_add_pin_recovery_title" msgid="3487098027604685794">"खाता वापस पाने के लिए ईमेल पता जोड़ें"</string>
     <string name="supervision_verify_pin_recovery_title" msgid="3166602415814821497">"अपने ईमेल पते की पुष्टि करें"</string>
-    <string name="supervision_web_content_filters_title" msgid="3653430162065686156">"वेब कॉन्टेंट के लिए फ़िल्टर"</string>
+    <!-- no translation found for supervision_web_content_filters_title (2412562442507104921) -->
+    <skip />
+    <!-- no translation found for supervision_web_content_filters_keywords (8469519676189544447) -->
+    <skip />
     <string name="supervision_web_content_filters_top_intro" msgid="5264773769840566499">"इस डिवाइस पर वेब कॉन्टेंट को फ़िल्टर करने वाली सुविधा के साथ काम करने वाले ऐप्लिकेशन में, वेबसाइटों और खोज के नतीजों में दिखने वाला वयस्कों के बना कॉन्टेंट ब्लॉक करें. इस सुविधा के साथ काम न करने वाले ऐप्लिकेशन में, अब भी अश्लील कॉन्टेंट दिख सकता है."</string>
     <string name="supervision_web_content_filters_browser_title" msgid="8737341514264129889">"वेबसाइटें"</string>
     <string name="supervision_web_content_filters_browser_filter_title" msgid="7957976669412075070">"अश्लील कॉन्टेंट वाली साइटों को ब्लॉक करें"</string>
@@ -5907,8 +5914,7 @@
     <string name="supervision_choose_your_pin_header" msgid="3872062168986738629">"माता-पिता के कंट्रोल की सुविधा के लिए पिन सेट करें"</string>
     <string name="supervision_confirm_your_pin_header" msgid="8236956712482718354">"पिन की पुष्टि करें"</string>
     <string name="supervision_pin_reset_success_toast" msgid="9163550161698311831">"पिन अपडेट किया गया"</string>
-    <!-- no translation found for supervision_promo_footer_action_button_description (7617359721703338141) -->
-    <skip />
+    <string name="supervision_promo_footer_action_button_description" msgid="7617359721703338141">"ऐप्लिकेशन खोलें"</string>
     <string name="supervision_delete_pin_confirm_header" msgid="8499276643990949268">"क्या आपको पिन मिटाना है?"</string>
     <string name="supervision_delete_pin_confirm_message" msgid="5482080400973042178">"इससे, इस डिवाइस के सभी उपयोगकर्ताओं के लिए आपका मौजूदा पिन मिट जाएगा. साथ ही, आपने जो कंट्रोल सेट अप किए हैं वे भी बंद हो जाएंगे. इस कार्रवाई को पहले जैसा नहीं किया जा सकता."</string>
     <string name="supervision_delete_pin_supervision_enabled_header" msgid="2072311894107038402">"पहले अन्य प्रोफ़ाइलों पर सेट किए गए कंट्रोल रोकें"</string>

@@ -47,10 +47,8 @@
     <string name="preview_pager_email_title" msgid="8767864657910457562">"E‑mail"</string>
     <string name="preview_pager_previous_button" msgid="607771113300838313">"Předchozí náhled"</string>
     <string name="preview_pager_next_button" msgid="8700907912508927271">"Další náhled"</string>
-    <!-- no translation found for font_size_make_smaller_desc (319927200356692406) -->
-    <skip />
-    <!-- no translation found for font_size_make_larger_desc (6739310980713118605) -->
-    <skip />
+    <string name="font_size_make_smaller_desc" msgid="319927200356692406">"Zmenšit písmo"</string>
+    <string name="font_size_make_larger_desc" msgid="6739310980713118605">"Zvětšit písmo"</string>
     <string name="stay_awake_on_fold_title" msgid="6590454679898134221">"Vždy"</string>
     <string name="stay_awake_on_fold_summary" msgid="1939963751585954262">"Když zařízení složíte, přední displej se zapne"</string>
     <string name="stay_awake_on_lockscreen_title" msgid="8088456642083051068">"Pokračovat přejetím nahoru"</string>
@@ -200,7 +198,8 @@
     <string name="locale_remove_menu" msgid="3521546263421387474">"Odstranit"</string>
     <string name="add_a_language" msgid="2126220398077503271">"Přidat jazyk"</string>
     <string name="app_locale_preference_title" msgid="5513627099300360232">"Jazyk"</string>
-    <string name="locale_picker_category_title" msgid="6212064706962721255">"Preferovaný jazyk"</string>
+    <!-- no translation found for locale_picker_category_title (296835514014453679) -->
+    <skip />
     <string name="app_locales_picker_menu_title" msgid="7617427959223831373">"Jazyky aplikací"</string>
     <string name="app_locale_picker_summary" msgid="616928580653613998">"Vyberte jazyk pro každou aplikaci"</string>
     <string name="app_locale_picker_title" msgid="2431448962911301366">"Jazyk aplikace"</string>
@@ -226,10 +225,17 @@
     <string name="title_change_system_locale" msgid="4102991236063984803">"Změnit jazyk systému na %s?"</string>
     <string name="title_system_locale_addition" msgid="8218683660751479466">"Přidat jazyk %s k preferovaným jazykům?"</string>
     <string name="desc_system_locale_addition" msgid="3409917362651596070">"Aplikace a weby budou vědět, že také preferujete tento jazyk."</string>
-    <string name="desc_notice_device_locale_settings_change" msgid="8311132485850714160">"Změní se nastavení vašeho zařízení a regionální preference."</string>
+    <!-- no translation found for desc_notice_device_locale_and_region_settings_change (909261686577914396) -->
+    <skip />
+    <!-- no translation found for desc_notice_device_locale_settings_change (5012353615235634881) -->
+    <skip />
+    <!-- no translation found for dlg_desc_delete_preferred_default_locale (690828405078078513) -->
+    <skip />
     <string name="button_label_confirmation_of_system_locale_change" msgid="5593798559604894733">"Změnit"</string>
-    <string name="title_unavailable_locale" msgid="2628898110416542386">"%s není k dispozici"</string>
-    <string name="desc_unavailable_locale" msgid="2201756477400935896">"Tento jazyk nelze použít jako jazyk systému, ale dali jste aplikacím a webům vědět, že ho preferujete."</string>
+    <!-- no translation found for title_unavailable_locale (5382411204559213983) -->
+    <skip />
+    <!-- no translation found for desc_unavailable_locale (7223655766703116782) -->
+    <skip />
     <string name="locale_search_menu" msgid="297782694044826686">"Vyhledávání"</string>
     <string name="language_and_region_title" msgid="8374151891112162767">"Jazyk a oblast"</string>
     <string name="language_selection_title" msgid="968179636453982415">"Přidání jazyka"</string>
@@ -243,6 +249,12 @@
     <string name="title_change_system_locale_region" msgid="4401478579429442695">"Změnit oblast na <xliff:g id="SYSTEM_LANGUAGE_REGION">%1$s</xliff:g>?"</string>
     <string name="body_change_system_locale_region" msgid="9064318449821043189">"Systémovým jazykem zařízení zůstane <xliff:g id="SYSTEM_LANGUAGE">%1$s</xliff:g>"</string>
     <string name="top_intro_numbering_system_title" msgid="3962000662073238392">"Určete, jak budou zařízení, weby a aplikace zobrazovat čísla"</string>
+    <!-- no translation found for preferred_locale_menu_up (4009560552099567485) -->
+    <skip />
+    <!-- no translation found for preferred_locale_menu_down (1033373887552535585) -->
+    <skip />
+    <!-- no translation found for preferred_locale_menu_remove (8547483341987864590) -->
+    <skip />
     <string name="regional_preferences_title" msgid="4304567374498629528">"Regionální preference"</string>
     <string name="regional_preferences_summary" msgid="1189876997389469650">"Nastavení předvoleb jednotek a čísel"</string>
     <string name="regional_preferences_main_page_sub_title" msgid="4237109940015254725">"Sdělte aplikacím své regionální preference, aby vám mohly přizpůsobit prostředí."</string>
@@ -281,6 +293,10 @@
     <string name="dlg_remove_locales_error_title" msgid="5875503658221562572">"Nelze odstranit všechny jazyky"</string>
     <string name="dlg_remove_locales_error_message" msgid="6504279959974675302">"Ponechte alespoň jeden preferovaný jazyk"</string>
     <string name="locale_not_translated" msgid="3071618135527110152">"Není k dispozici jako systémový jazyk"</string>
+    <!-- no translation found for dlg_title_delete_preferred_locale (4167214348946940002) -->
+    <skip />
+    <!-- no translation found for dlg_desc_delete_preferred_locale (4658301652628456858) -->
+    <skip />
     <string name="action_drag_label_move_up" msgid="3392196942330705015">"Přesunout nahoru"</string>
     <string name="action_drag_label_move_down" msgid="9069518740553953426">"Přesunout dolů"</string>
     <string name="action_drag_label_move_top" msgid="2430471023612171619">"Přesunout na začátek"</string>
@@ -460,6 +476,8 @@
     <string name="security_settings_fingerprint_enroll_introduction_no_thanks" msgid="1663906389456119842">"Teď ne"</string>
     <string name="security_settings_fingerprint_enroll_introduction_agree" msgid="4068276083536421828">"Souhlasím"</string>
     <string name="security_settings_fingerprint_rename_description" msgid="6301505700382531086">"Dvojitým klepnutím přejmenujete"</string>
+    <!-- no translation found for security_settings_fingerprint_recognition_description (1805171116182647136) -->
+    <skip />
     <string name="setup_fingerprint_enroll_skip_title" msgid="2473807887676247264">"Přeskočit zadání otisku prstu?"</string>
     <string name="setup_fingerprint_enroll_skip_after_adding_lock_text" msgid="2412645723804450304">"Nastavení otisku prstu trvá jen minutu nebo dvě. Pokud tento krok přeskočíte, můžete otisk prstu přidat později v nastavení."</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_setup" msgid="6255210343107484206">"Když uvidíte tuto ikonu, proveďte ověření pomocí otisku prstu, například při přihlašování do aplikací nebo schvalování nákupů"</string>
@@ -942,10 +960,8 @@
     <string name="bluetooth_device_context_connect" msgid="4913860372216815855">"Připojit"</string>
     <string name="bluetooth_device_context_disconnect" msgid="4464167389972513232">"Odpojit"</string>
     <string name="bluetooth_device_context_pair_connect" msgid="2406032703622371826">"Spárovat a připojit"</string>
-    <!-- no translation found for bluetooth_connecting (5315496594905010438) -->
-    <skip />
-    <!-- no translation found for bluetooth_disconnecting (1643422701532873735) -->
-    <skip />
+    <string name="bluetooth_connecting" msgid="5315496594905010438">"Připojování"</string>
+    <string name="bluetooth_disconnecting" msgid="1643422701532873735">"Odpojování"</string>
     <string name="bluetooth_empty_list_bluetooth_off" msgid="7326727272747345476">"Když je připojení Bluetooth zapnuto, vaše zařízení může komunikovat s ostatními zařízeními Bluetooth v okolí."</string>
     <string name="bluetooth_empty_list_bluetooth_off_auto_on_available" msgid="3430864468105204282">"Když je připojení Bluetooth zapnuté, zařízení může komunikovat s ostatními zařízeními Bluetooth v okolí. Bluetooth využívají funkce jako Quick Share a Najdi moje zařízení."</string>
     <string name="bluetooth_scanning_on_info_message" msgid="786648535600075223">"Když je připojení Bluetooth zapnuté, zařízení může komunikovat s ostatními zařízeními Bluetooth v okolí.\n\nZa účelem vylepšení funkcí však můžou aplikace a služby vyhledávat zařízení v okolí kdykoliv, dokonce i tehdy, když je Bluetooth vypnuté. Je tak například možné vylepšit funkce a služby založené na poloze. Toto chování můžete změnit v nastavení vyhledávání Bluetooth."</string>
@@ -2177,8 +2193,7 @@
     <string name="trackpad_settings" msgid="2071131324087677005">"Touchpad"</string>
     <string name="trackpad_mouse_settings" msgid="136226693583218429">"Touchpad a myš"</string>
     <string name="mouse_settings" msgid="7301671756721327122">"Myš"</string>
-    <!-- no translation found for mouse_settings_summary (1308610072914620926) -->
-    <skip />
+    <string name="mouse_settings_summary" msgid="1308610072914620926">"Rychlost ukazatele, přizpůsobení tlačítek"</string>
     <string name="trackpad_settings_summary" msgid="3369855644136760402">"Rychlost kurzoru, gesta"</string>
     <string name="trackpad_tap_to_click" msgid="1938230946542070746">"Kliknutí klepnutím"</string>
     <string name="trackpad_tap_dragging_title" msgid="4198317837427535015">"Klepnutím a přetažením přesouvat položky"</string>
@@ -2232,40 +2247,25 @@
     <string name="gesture_button_next" msgid="695288092704187356">"Další"</string>
     <string name="gesture_button_restart" msgid="1895850891992530133">"Restartovat"</string>
     <string name="gesture_button_done" msgid="6387900351203032188">"Hotovo"</string>
-    <!-- no translation found for action_corner_title (1489042651433221319) -->
+    <!-- no translation found for action_corner_title (7411160165577367757) -->
     <skip />
-    <!-- no translation found for action_corner_summary (695618538930535335) -->
+    <string name="action_corner_summary" msgid="695618538930535335">"Používat k procházení systému kurzory"</string>
+    <!-- no translation found for action_corner_intro (2170609118659718140) -->
     <skip />
-    <!-- no translation found for action_corner_intro (8782001241997579665) -->
-    <skip />
-    <!-- no translation found for action_corner_bottom_left_title (2857258272736432174) -->
-    <skip />
-    <!-- no translation found for action_corner_bottom_right_title (7222233500548465684) -->
-    <skip />
-    <!-- no translation found for action_corner_top_left_title (4633975226092344210) -->
-    <skip />
-    <!-- no translation found for action_corner_top_right_title (4995999693840776032) -->
-    <skip />
-    <!-- no translation found for action_corner_action_none (5203163099950649999) -->
-    <skip />
-    <!-- no translation found for action_corner_action_home (6779642573582379579) -->
-    <skip />
-    <!-- no translation found for action_corner_action_recent_apps (7450480676812648813) -->
-    <skip />
-    <!-- no translation found for action_corner_action_notifications (3779353356349774469) -->
-    <skip />
-    <!-- no translation found for action_corner_action_quick_settings (4660901117283653069) -->
-    <skip />
-    <!-- no translation found for action_corner_action_dialog_title (8253240813317885237) -->
-    <skip />
-    <!-- no translation found for action_corner_bottom_left_name (9193788067022476544) -->
-    <skip />
-    <!-- no translation found for action_corner_bottom_right_name (1031603363418505375) -->
-    <skip />
-    <!-- no translation found for action_corner_top_left_name (8077670910600032291) -->
-    <skip />
-    <!-- no translation found for action_corner_top_right_name (6307321595919080297) -->
-    <skip />
+    <string name="action_corner_bottom_left_title" msgid="2857258272736432174">"Levý dolní roh"</string>
+    <string name="action_corner_bottom_right_title" msgid="7222233500548465684">"Pravý dolní roh"</string>
+    <string name="action_corner_top_left_title" msgid="4633975226092344210">"Levý horní roh"</string>
+    <string name="action_corner_top_right_title" msgid="4995999693840776032">"Pravý horní roh"</string>
+    <string name="action_corner_action_none" msgid="5203163099950649999">"Žádné"</string>
+    <string name="action_corner_action_home" msgid="6779642573582379579">"Plocha"</string>
+    <string name="action_corner_action_recent_apps" msgid="7450480676812648813">"Poslední aplikace"</string>
+    <string name="action_corner_action_notifications" msgid="3779353356349774469">"Oznámení"</string>
+    <string name="action_corner_action_quick_settings" msgid="4660901117283653069">"Rychlé nastavení"</string>
+    <string name="action_corner_action_dialog_title" msgid="8253240813317885237">"Vyberte zkratku pro <xliff:g id="CORNER">%1$s</xliff:g>"</string>
+    <string name="action_corner_bottom_left_name" msgid="9193788067022476544">"levý dolní roh"</string>
+    <string name="action_corner_bottom_right_name" msgid="1031603363418505375">"pravý dolní roh"</string>
+    <string name="action_corner_top_left_name" msgid="8077670910600032291">"levý horní roh"</string>
+    <string name="action_corner_top_right_name" msgid="6307321595919080297">"pravý horní roh"</string>
     <string name="modifier_keys_settings" msgid="2537108435032034683">"Modifikační klávesy"</string>
     <string name="modifier_keys_settings_summary" msgid="6933143361657444436">"Změnit chování kláves"</string>
     <string name="modifier_keys_reset_title" msgid="948294258402761066">"Resetovat vše"</string>
@@ -2344,8 +2344,7 @@
     <string name="last_time_used_label" msgid="7589377271406011659">"Naposledy použito"</string>
     <string name="last_time_used_never" msgid="2936073559267990034">"nikdy"</string>
     <string name="usage_time_label" msgid="9105343335151559883">"Doba použití"</string>
-    <!-- no translation found for phone_information_v2_title (3373745314543222111) -->
-    <skip />
+    <string name="phone_information_v2_title" msgid="3373745314543222111">"Informace o telefonu, V2"</string>
     <string name="accessibility_settings" msgid="4713215774904704682">"Přístupnost"</string>
     <string name="accessibility_settings_title" msgid="6739115703615065716">"Nastavení přístupnosti"</string>
     <string name="accessibility_settings_summary" msgid="2366627644570558503">"Zobrazení, interakce, zvuk"</string>
@@ -2384,8 +2383,7 @@
     <string name="accessibility_system_controls_title" msgid="6403287349518987624">"Ovládací prvky systému"</string>
     <string name="accessibility_send_feedback_title" msgid="6455703838689943046">"Odeslat zpětnou vazbu"</string>
     <string name="accessibility_send_survey_title" msgid="7899716184811587023">"Ohodnoťte nás"</string>
-    <!-- no translation found for accessibility_disability_support_title (7934160403456751664) -->
-    <skip />
+    <string name="accessibility_disability_support_title" msgid="7934160403456751664">"Kontaktovat podporu Google pro osoby s postižením"</string>
     <string name="accessibility_send_survey_notification_channel" msgid="6136555229886306184">"Průzkum přístupnosti"</string>
     <string name="dark_theme_survey_notification_title" msgid="4035183263314404750">"Líbí se vám tmavý motiv ve více aplikacích?"</string>
     <string name="dark_theme_survey_notification_summary" msgid="801472177955048195">"Podělte se o svůj názor"</string>
@@ -2412,8 +2410,7 @@
     <string name="accessibility_screen_magnification_shortcut_title" msgid="2387963646377987780">"Zkratka pro zvětšení"</string>
     <string name="accessibility_magnification_cursor_following_title" msgid="29531257984012743">"Následování kurzoru"</string>
     <string name="accessibility_magnification_cursor_following_header" msgid="7283095798622223509">"Zvolte, jak má zvětšení následovat váš kurzor."</string>
-    <!-- no translation found for accessibility_magnification_cursor_following_unavailable_summary (1683880243856242269) -->
-    <skip />
+    <string name="accessibility_magnification_cursor_following_unavailable_summary" msgid="1683880243856242269">"Při zvětšení pouze části obrazovky není k dispozici"</string>
     <string name="accessibility_magnification_cursor_following_continuous" msgid="1119319218662522794">"Při pohybu myši posouvat obrazovku souvisle"</string>
     <string name="accessibility_magnification_cursor_following_center" msgid="3504798009192014460">"Posouvat obrazovku tak, aby ukazatel myši zůstal uprostřed obrazovky"</string>
     <string name="accessibility_magnification_cursor_following_edge" msgid="8675207762416655758">"Posunout obrazovku, když se myš dotkne okraje obrazovky"</string>
@@ -2669,6 +2666,10 @@
     <string name="accessibility_daltonizer_footer_learn_more_content_description" msgid="2091679253892040910">"Další informace o korekci barev"</string>
     <string name="accessibility_color_inversion_about_title" msgid="8275754480247040136">"Převrácení barev"</string>
     <string name="accessibility_color_inversion_footer_learn_more_content_description" msgid="5382579548498952445">"Další informace o převrácení barev"</string>
+    <!-- no translation found for accessibility_dark_theme_footer_learn_more_helper_link (7084955775821075280) -->
+    <skip />
+    <!-- no translation found for accessibility_dark_theme_preference_footer_content (4431044600779983609) -->
+    <skip />
     <string name="accessibility_captioning_primary_switch_title" msgid="3663677340286206100">"Zobrazovat titulky"</string>
     <string name="accessibility_captioning_primary_switch_summary" msgid="2544094070306830218">"Jen pro podporovanou aplikaci"</string>
     <string name="captioning_appearance_title" msgid="3128792092290011408">"Velikost a styl titulků"</string>
@@ -4358,10 +4359,8 @@
     <string name="app_permissions" msgid="8666537659217653626">"Správce oprávnění"</string>
     <string name="app_data_sharing_updates_title" msgid="1694297952320402788">"Aktualizace sdílení dat pro zjišťování polohy"</string>
     <string name="app_data_sharing_updates_summary" msgid="4465929918457739443">"Zkontrolujte aplikace, které změnily způsob, jakým mohou sdílet vaše údaje o poloze"</string>
-    <!-- no translation found for app_function_access_settings_title (1474765429611652468) -->
-    <skip />
-    <!-- no translation found for app_function_access_settings_summary (6465715820745848068) -->
-    <skip />
+    <string name="app_function_access_settings_title" msgid="1474765429611652468">"Agentní ovládání ostatních aplikací"</string>
+    <string name="app_function_access_settings_summary" msgid="6465715820745848068">"Provádějte akce na zařízení a v ostatních aplikacích"</string>
     <string name="tap_to_wake" msgid="3313433536261440068">"Probudit klepnutím"</string>
     <string name="tap_to_wake_summary" msgid="6641039858241611072">"Dvojitým klepnutím kamkoli na obrazovku zařízení probudíte"</string>
     <string name="domain_urls_title" msgid="7012209752049678876">"Otevírání odkazů"</string>
@@ -4521,10 +4520,8 @@
     <string name="screen_zoom_short_summary" msgid="756254364808639194">"Všechno zvětšit nebo zmenšit"</string>
     <string name="screen_zoom_keywords" msgid="5964023524422386592">"displej, hustota, přiblížení obrazovky, měřítko, zvětšení"</string>
     <string name="screen_zoom_preview_title" msgid="5288355628444562735">"Náhled"</string>
-    <!-- no translation found for screen_zoom_make_smaller_desc (1450649885198381123) -->
-    <skip />
-    <!-- no translation found for screen_zoom_make_larger_desc (7125594310562596457) -->
-    <skip />
+    <string name="screen_zoom_make_smaller_desc" msgid="1450649885198381123">"Zmenšit zobrazení"</string>
+    <string name="screen_zoom_make_larger_desc" msgid="7125594310562596457">"Zvětšit zobrazení"</string>
     <string name="disconnected" msgid="3469373726996129247">"Nepřipojeno"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"Nepřipojena"</string>
     <string name="apps_summary" msgid="4007416751775414252">"Nainstalované aplikace: <xliff:g id="COUNT">%1$d</xliff:g>"</string>
@@ -4544,6 +4541,10 @@
     <string name="disabled_by_policy_title_financed_device" msgid="2328740314082888228">"Blokováno vaším poskytovatelem kreditu"</string>
     <string name="disabled_by_policy_title_biometric_parental_consent" msgid="2463673997797134678">"Je potřeba rodič"</string>
     <string name="disabled_by_policy_content_biometric_parental_consent" msgid="7124116806784305206">"Dejte telefon rodiči, který vše nastaví"</string>
+    <!-- no translation found for disabled_by_policy_title_parental_controls (8875976588644052371) -->
+    <skip />
+    <!-- no translation found for disabled_by_policy_content_parental_controls (4648160125103768738) -->
+    <skip />
     <string name="disabled_by_policy_parental_consent" msgid="9166060049019018978">"Předejte telefon rodiči, aby povolil změnu tohoto nastavení."</string>
     <string name="default_admin_support_msg" msgid="8816296554831532033">"Další informace vám poskytne váš administrátor IT."</string>
     <string name="admin_support_more_info" msgid="8407433155725898290">"Další podrobnosti"</string>
@@ -4659,7 +4660,8 @@
     <string name="battery_tips_card_action_button_check" msgid="1535140204105479318">"Zkontrolovat"</string>
     <string name="battery_tips_card_dismiss_button" msgid="1885756985544936618">"Rozumím"</string>
     <string name="battery_tips_card_feedback_info" msgid="767117835675157298">"Je tahle zpráva užitečná?"</string>
-    <string name="battery_hints_warning_icon_a11y" msgid="5312542323401447620">"Ikona upozornění tipů k baterii"</string>
+    <!-- no translation found for battery_hints_warning_icon_a11y (709629805028175434) -->
+    <skip />
     <string name="battery_tips_settings_summary_brightness" msgid="546145032616077783">"Pokud chcete prodloužit výdrž baterie, zapněte adaptivní jas"</string>
     <string name="battery_tips_settings_summary_screen_timeout" msgid="556801426050962077">"Pokud chcete prodloužit výdrž baterie, zkraťte interval vypnutí obrazovky"</string>
     <string name="battery_tips_apps_summary_always_high" msgid="6334519477067044920">"Aplikace <xliff:g id="APP_LABEL">%1$s</xliff:g> spotřebovala více baterie"</string>
@@ -5379,15 +5381,13 @@
     <string name="enable_16k_pages" msgid="1758111531461408337">"Spouštět se stránkami o velikosti 16 KB"</string>
     <string name="enable_16k_pages_summary" msgid="1937836453571509085">"Spouštět zařízení s jádrem s podporou 16KB stránek"</string>
     <string name="confirm_enable_16k_pages_title" msgid="5477376227161609124">"Přepnutí ze 4KB do 16KB režimu"</string>
-    <!-- no translation found for confirm_enable_16k_pages_update_wipe (4760548401414644138) -->
-    <skip />
+    <string name="confirm_enable_16k_pages_update_wipe" msgid="4760548401414644138">"Před použitím 16KB možnosti pro vývojáře je potřeba převést datový oddíl tohoto zařízení na systém souborů ext4. Po potvrzení se zařízení vymaže a systém souborů se změní na ext4. Aktuálně používáte produkční režim se 4KB jádrem a chystáte se přepnout na 16KB režim. Po jeho aktivaci pak bude k přepnutí mezi 4KB a 16KB režimem stačit pouze jeden restart. V tomto režimu nelze zaručit integritu softwaru a veškerá data uložená v telefonu při odemknutém bootloaderu mohou být ohrožena. Některé funkce budou v těchto režimech zakázány, takže některé aplikace nemusí fungovat. Pokud budete chtít zařízení vrátit do produkčního režimu, budete ho muset přepnout zpět do 4KB režimu a uzamknout bootloader, čímž zařízení resetujete do továrního nastavení. Až se systém Android v zařízení úspěšně spustí, vypněte v sekci Pro vývojáře možnost Odemknutí OEM. Pokud chcete pokračovat, klikněte na Vymazat všechna data a aktualizovat. Touto akcí zařízení restartujete."</string>
     <string name="confirm_enable_16k_pages_text" msgid="6211693250692246982">"Aktuálně používáte stránkově agnostický režim se 4KB jádrem a chystáte se přepnout na 16KB režim. V tomto režimu nelze zaručit integritu softwaru a veškerá data uložená v telefonu při odemknutém bootloaderu mohou být ohrožena. Touto akcí zařízení restartujete. Některé funkce budou v těchto režimech zakázány, takže některé aplikace nemusí fungovat. Pokud budete chtít zařízení vrátit do produkčního režimu, budete ho muset přepnout zpět do 4KB režimu a uzamknout bootloader, čímž zařízení resetujete do továrního nastavení. Až se systém Android v zařízení úspěšně spustí, vypněte v sekci Pro vývojáře možnost Odemknutí OEM."</string>
     <string name="confirm_enable_4k_pages_title" msgid="3001009010581393119">"Přepnutí ze 16KB do 4KB režimu"</string>
     <string name="confirm_enable_4k_pages_text" msgid="3398001587586470689">"Aktuálně používáte stránkově agnostický režim se 16KB jádrem a chystáte se přepnout na 4KB režim. V tomto režimu nelze zaručit integritu softwaru a veškerá data uložená v telefonu při odemknutém bootloaderu mohou být ohrožena. Touto akcí zařízení restartujete. Některé funkce budou v těchto režimech zakázány, takže některé aplikace nemusí fungovat. Pokud budete chtít zařízení vrátit do produkčního režimu, budete muset uzamknout bootloader, čímž zařízení resetujete do továrního nastavení. Až se systém Android v zařízení úspěšně spustí, vypněte v sekci Pro vývojáře možnost Odemknutí OEM."</string>
     <string name="toast_16k_update_failed_text" msgid="7848383020572918850">"Jádro se nepodařilo aktualizovat na kompatibilní se 16KB stránkami."</string>
     <string name="progress_16k_ota_title" msgid="2117218313875523741">"Změna se uplatňuje"</string>
-    <!-- no translation found for confirm_ext4_button_text (697563319110759422) -->
-    <skip />
+    <string name="confirm_ext4_button_text" msgid="697563319110759422">"Vymazat všechna data a aktualizovat"</string>
     <string name="format_ext4_failure_toast" msgid="8059453995800471549">"Přeformátování na ext4 a nevratné vymazání datového oddílu se nezdařilo."</string>
     <string name="confirm_oem_unlock_for_16k_title" msgid="6062041826568112078">"Je vyžadováno odemknutí bootloaderu"</string>
     <string name="confirm_oem_unlock_for_16k_text" msgid="8089310116854544106">"K použití možnosti 16KB režimu pro vývojáře musí mít zařízení odemknutý bootloader. V tomto režimu nelze zaručit integritu softwaru a veškerá data uložená v telefonu při odemknutém bootloaderu mohou být ohrožena. Při aktivaci 16KB režimu se vymažou všechna uživatelská data a nastavení. Po odemknutí bootloaderu bude aktivace 16KB režimu vyžadovat dva restarty. Po jeho aktivaci pak bude k přepnutí mezi 4KB a 16KB režimem stačit pouze jeden restart. Některé funkce budou v těchto režimech zakázány, takže některé aplikace nemusí fungovat. Pokud budete chtít zařízení vrátit do produkčního režimu, budete systém muset přepnout zpět do 4KB režimu a pak v něm deaktivovat odemknutí OEM / uzamknout bootloader (čímž zařízení resetujete do továrního nastavení). Odemkněte bootloader a zkuste to znovu. Pokyny, jak to provést, najdete na stránce &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt;"</string>
@@ -5885,21 +5885,28 @@
     <string name="search_gesture_feature_summary" msgid="1793056495030564014">"Pokud chcete vyhledávat pomocí obsahu na obrazovce, podržte tlačítko plochy nebo navigační úchyt."</string>
     <string name="device_detail_icon_content_description" msgid="6699151424374841937">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>. Konfigurovat podrobnosti o zařízení."</string>
     <string name="supervision_settings_title" msgid="8507163323870367711">"Rodičovská kontrola"</string>
-    <string name="supervision_settings_summary" msgid="5020634300370322741">"Omezení obsahu a jiné limity"</string>
+    <!-- no translation found for supervision_settings_summary (6304257872307136073) -->
+    <skip />
     <string name="device_supervision_switch_no_pin_summary" msgid="4869563544571033220">"Nastavit PIN"</string>
-    <string name="device_supervision_switch_paused_summary" msgid="1014381188739295656">"Pozastaveno"</string>
-    <string name="keywords_supervision_settings" msgid="2580555201483955376">"dohled, dohled rodičů, rodičovská kontrola"</string>
+    <!-- no translation found for keywords_supervision_settings (43064288661561602) -->
+    <skip />
     <string name="supervision_pin_management_preference_title" msgid="7721501202320841845">"Spravovat kód PIN"</string>
+    <!-- no translation found for supervision_pin_management_preference_keywords (5034450635706621750) -->
+    <skip />
     <string name="supervision_pin_management_preference_summary_add" msgid="2247921267270577374">"Přidat e-mail pro obnovení"</string>
     <string name="supervision_pin_management_preference_summary_verify_recovery" msgid="5072554239108915119">"Ověřit e-mail pro obnovení"</string>
     <string name="supervision_change_pin_preference_title" msgid="2288584039438231801">"Změnit PIN"</string>
     <string name="supervision_add_forgot_pin_preference_title" msgid="8939945404255748516">"Zapomenutý PIN"</string>
+    <!-- no translation found for supervision_auth_prompt_forgot_pin_button_label (1019337828884793557) -->
+    <skip />
     <string name="supervision_update_recovery_email_preference_title" msgid="2057393838251915087">"Aktualizujte e‑mail pro obnovení"</string>
     <string name="supervision_delete_pin_preference_title" msgid="8447541098148430866">"Smazat PIN"</string>
-    <string name="supervision_delete_pin_preference_summary" msgid="4865713157106413979">"Všechna vaše nastavení dohledu se resetují"</string>
     <string name="supervision_add_pin_recovery_title" msgid="3487098027604685794">"Přidat e-mail pro obnovení"</string>
     <string name="supervision_verify_pin_recovery_title" msgid="3166602415814821497">"Ověřte svou e‑mailovou adresu"</string>
-    <string name="supervision_web_content_filters_title" msgid="3653430162065686156">"Filtry webového obsahu"</string>
+    <!-- no translation found for supervision_web_content_filters_title (2412562442507104921) -->
+    <skip />
+    <!-- no translation found for supervision_web_content_filters_keywords (8469519676189544447) -->
+    <skip />
     <string name="supervision_web_content_filters_top_intro" msgid="5264773769840566499">"Zablokujte obsah nevhodný pro děti na webech a ve výsledcích vyhledávání v podporovaných aplikacích v zařízení. Nepodporované aplikace můžou dál zobrazovat explicitní obsah."</string>
     <string name="supervision_web_content_filters_browser_title" msgid="8737341514264129889">"Weby"</string>
     <string name="supervision_web_content_filters_browser_filter_title" msgid="7957976669412075070">"Blokovat explicitní weby"</string>
@@ -5909,8 +5916,7 @@
     <string name="supervision_choose_your_pin_header" msgid="3872062168986738629">"Nastavení PINu rodičovské kontroly"</string>
     <string name="supervision_confirm_your_pin_header" msgid="8236956712482718354">"Potvrdit PIN"</string>
     <string name="supervision_pin_reset_success_toast" msgid="9163550161698311831">"PIN byl aktualizován"</string>
-    <!-- no translation found for supervision_promo_footer_action_button_description (7617359721703338141) -->
-    <skip />
+    <string name="supervision_promo_footer_action_button_description" msgid="7617359721703338141">"Otevřít aplikaci"</string>
     <string name="supervision_delete_pin_confirm_header" msgid="8499276643990949268">"Smazat PIN?"</string>
     <string name="supervision_delete_pin_confirm_message" msgid="5482080400973042178">"Aktuální PIN se smaže pro všechny uživatele zařízení a nastavené ovládací prvky se deaktivují. Tuto akci nebude možné vrátit zpět."</string>
     <string name="supervision_delete_pin_supervision_enabled_header" msgid="2072311894107038402">"Nejprve pozastavte ovládání u ostatních profilů"</string>

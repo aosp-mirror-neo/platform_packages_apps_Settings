@@ -47,10 +47,8 @@
     <string name="preview_pager_email_title" msgid="8767864657910457562">"ইমেল"</string>
     <string name="preview_pager_previous_button" msgid="607771113300838313">"পূর্ববর্তী প্রিভিউ"</string>
     <string name="preview_pager_next_button" msgid="8700907912508927271">"পরবর্তী প্রিভিউ"</string>
-    <!-- no translation found for font_size_make_smaller_desc (319927200356692406) -->
-    <skip />
-    <!-- no translation found for font_size_make_larger_desc (6739310980713118605) -->
-    <skip />
+    <string name="font_size_make_smaller_desc" msgid="319927200356692406">"ফন্টের সাইজ ছোট করুন"</string>
+    <string name="font_size_make_larger_desc" msgid="6739310980713118605">"ফন্টের সাইজ বড় করুন"</string>
     <string name="stay_awake_on_fold_title" msgid="6590454679898134221">"সবসময়"</string>
     <string name="stay_awake_on_fold_summary" msgid="1939963751585954262">"আপনি ডিভাইস ফোল্ড করলে ফ্রন্ট ডিসপ্লে চালু হয়ে যায়"</string>
     <string name="stay_awake_on_lockscreen_title" msgid="8088456642083051068">"চালিয়ে যেতে, উপরের দিকে সোয়াইপ করুন"</string>
@@ -200,7 +198,7 @@
     <string name="locale_remove_menu" msgid="3521546263421387474">"সরান"</string>
     <string name="add_a_language" msgid="2126220398077503271">"একটি ভাষা যোগ করুন"</string>
     <string name="app_locale_preference_title" msgid="5513627099300360232">"ভাষা"</string>
-    <string name="locale_picker_category_title" msgid="6212064706962721255">"পছন্দসই ভাষা"</string>
+    <string name="locale_picker_category_title" msgid="296835514014453679">"পছন্দসই ভাষা"</string>
     <string name="app_locales_picker_menu_title" msgid="7617427959223831373">"অ্যাপের ভাষা"</string>
     <string name="app_locale_picker_summary" msgid="616928580653613998">"প্রত্যেকটি অ্যাপের জন্য ভাষা বেছে নিন"</string>
     <string name="app_locale_picker_title" msgid="2431448962911301366">"অ্যাপের ভাষা"</string>
@@ -226,10 +224,15 @@
     <string name="title_change_system_locale" msgid="4102991236063984803">"সিস্টেমের ভাষা %s ভাষায় পরিবর্তন করতে চান?"</string>
     <string name="title_system_locale_addition" msgid="8218683660751479466">"আপনার পছন্দের ভাষায় %s যোগ করবেন?"</string>
     <string name="desc_system_locale_addition" msgid="3409917362651596070">"এতে অ্যাপ ও ওয়েবসাইট জানতে পারবে যে আপনিও এই ভাষা ব্যবহার করতে চান।"</string>
-    <string name="desc_notice_device_locale_settings_change" msgid="8311132485850714160">"আপনার ডিভাইসের সেটিংস ও আঞ্চলিক অভিরুচি বদলে যাবে।"</string>
+    <!-- no translation found for desc_notice_device_locale_and_region_settings_change (909261686577914396) -->
+    <skip />
+    <!-- no translation found for desc_notice_device_locale_settings_change (5012353615235634881) -->
+    <skip />
+    <!-- no translation found for dlg_desc_delete_preferred_default_locale (690828405078078513) -->
+    <skip />
     <string name="button_label_confirmation_of_system_locale_change" msgid="5593798559604894733">"পরিবর্তন করুন"</string>
-    <string name="title_unavailable_locale" msgid="2628898110416542386">"%s ভাষা উপলভ্য নেই"</string>
-    <string name="desc_unavailable_locale" msgid="2201756477400935896">"সিস্টেমের ভাষা হিসেবে এই ভাষা ব্যবহার করা যাবে না, তবে এটি যে আপনার পছন্দের ভাষা তা আপনি অ্যাপ ও ওয়েবসাইটে জানিয়েছেন।"</string>
+    <string name="title_unavailable_locale" msgid="5382411204559213983">"সিস্টেমের ভাষা হিসেবে <xliff:g id="SELECTED_LANGUAGE">%s</xliff:g> সেট করা যাচ্ছে না"</string>
+    <string name="desc_unavailable_locale" msgid="7223655766703116782">"আপনার ডিভাইসে এই ভাষাটি কাজ করবে না, তবে আপনি যে এই ভাষাটি পছন্দ করেন, অ্যাপ তা মনে রাখবে"</string>
     <string name="locale_search_menu" msgid="297782694044826686">"সার্চ"</string>
     <string name="language_and_region_title" msgid="8374151891112162767">"ভাষা ও অঞ্চল"</string>
     <string name="language_selection_title" msgid="968179636453982415">"একটি ভাষা যোগ করুন"</string>
@@ -243,6 +246,9 @@
     <string name="title_change_system_locale_region" msgid="4401478579429442695">"অঞ্চল পরিবর্তন করে <xliff:g id="SYSTEM_LANGUAGE_REGION">%1$s</xliff:g>-এ সেট করতে চান?"</string>
     <string name="body_change_system_locale_region" msgid="9064318449821043189">"আপনার ডিভাইস <xliff:g id="SYSTEM_LANGUAGE">%1$s</xliff:g> সিস্টেমের ভাষা হিসেবে সেট করবে"</string>
     <string name="top_intro_numbering_system_title" msgid="3962000662073238392">"আপনার ডিভাইস, ওয়েবসাইট ও অ্যাপে কীভাবে সংখ্যা দেখানো হবে তা বেছে নিন"</string>
+    <string name="preferred_locale_menu_up" msgid="4009560552099567485">"উপরে তুলুন"</string>
+    <string name="preferred_locale_menu_down" msgid="1033373887552535585">"নিচে নামান"</string>
+    <string name="preferred_locale_menu_remove" msgid="8547483341987864590">"সরান"</string>
     <string name="regional_preferences_title" msgid="4304567374498629528">"আঞ্চলিক অভিরুচি"</string>
     <string name="regional_preferences_summary" msgid="1189876997389469650">"ইউনিট ও নম্বর সংক্রান্ত পছন্দ সেট করুন"</string>
     <string name="regional_preferences_main_page_sub_title" msgid="4237109940015254725">"অ্যাপকে আপনার আঞ্চলিক অভিরুচি সম্পর্কে জানতে দিন, যাতে সেগুলি আপনার অভিজ্ঞতা পছন্দমতো করে তুলতে পারে।"</string>
@@ -281,6 +287,8 @@
     <string name="dlg_remove_locales_error_title" msgid="5875503658221562572">"সমস্ত ভাষা সরানো যাবে না"</string>
     <string name="dlg_remove_locales_error_message" msgid="6504279959974675302">"অন্তত পক্ষে একটি পছন্দের ভাষা রাখুন"</string>
     <string name="locale_not_translated" msgid="3071618135527110152">"সিস্টেমের ভাষা হিসেবে উপলভ্য নয়"</string>
+    <string name="dlg_title_delete_preferred_locale" msgid="4167214348946940002">"<xliff:g id="REMOVED_LANGUAGE">%s</xliff:g> সরাতে চান?"</string>
+    <string name="dlg_desc_delete_preferred_locale" msgid="4658301652628456858">"<xliff:g id="REMOVED_LANGUAGE">%s</xliff:g> আপনার পছন্দের ভাষা থেকে সরিয়ে দেওয়া হবে। আপনি পরে আবার এটি যোগ করতে পারবেন।"</string>
     <string name="action_drag_label_move_up" msgid="3392196942330705015">"উপরে সরান"</string>
     <string name="action_drag_label_move_down" msgid="9069518740553953426">"নিচে সরান"</string>
     <string name="action_drag_label_move_top" msgid="2430471023612171619">"শীর্ষে সরান"</string>
@@ -460,6 +468,7 @@
     <string name="security_settings_fingerprint_enroll_introduction_no_thanks" msgid="1663906389456119842">"এখন নয়"</string>
     <string name="security_settings_fingerprint_enroll_introduction_agree" msgid="4068276083536421828">"সম্মতি দিচ্ছি"</string>
     <string name="security_settings_fingerprint_rename_description" msgid="6301505700382531086">"নাম পরিবর্তন করার জন্য ডবল ট্যাপ করুন"</string>
+    <string name="security_settings_fingerprint_recognition_description" msgid="1805171116182647136">"<xliff:g id="FP_NAME">%1$s</xliff:g> শনাক্ত করা হয়েছে"</string>
     <string name="setup_fingerprint_enroll_skip_title" msgid="2473807887676247264">"ফিঙ্গারপ্রিন্ট এড়িয়ে যাবেন?"</string>
     <string name="setup_fingerprint_enroll_skip_after_adding_lock_text" msgid="2412645723804450304">"ফিঙ্গারপ্রিন্ট সেট-আপ করতে এক থেকে দুই মিনিট মতো সময় লাগবে। আপনি যদি এড়িয়ে যেতে চান তবে পরে সেটিংসে গিয়ে পরিবর্তন করতে পারবেন।"</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_setup" msgid="6255210343107484206">"এই আইকনটি দেখলে যাচাই করার জন্য আপনার আঙ্গুলের ছাপ ব্যবহার করুন, যেভাবে কোনও অ্যাপে সাইন-ইন করেন অথবা কেনাকাটায় অনুমোদন দেন"</string>
@@ -942,10 +951,8 @@
     <string name="bluetooth_device_context_connect" msgid="4913860372216815855">"কানেক্ট করুন"</string>
     <string name="bluetooth_device_context_disconnect" msgid="4464167389972513232">"ডিসকানেক্ট করুন"</string>
     <string name="bluetooth_device_context_pair_connect" msgid="2406032703622371826">"যুক্ত করুন ও কানেক্ট করুন"</string>
-    <!-- no translation found for bluetooth_connecting (5315496594905010438) -->
-    <skip />
-    <!-- no translation found for bluetooth_disconnecting (1643422701532873735) -->
-    <skip />
+    <string name="bluetooth_connecting" msgid="5315496594905010438">"কানেক্ট করা হচ্ছে"</string>
+    <string name="bluetooth_disconnecting" msgid="1643422701532873735">"ডিসকানেক্ট করা হচ্ছে"</string>
     <string name="bluetooth_empty_list_bluetooth_off" msgid="7326727272747345476">"ব্লুটুথ চালু করা হলে, আপনার ডিভাইস আশেপাশের অন্যান্য ব্লুটুথ ডিভাইসের সাথে যোগাযোগ করতে পারে"</string>
     <string name="bluetooth_empty_list_bluetooth_off_auto_on_available" msgid="3430864468105204282">"ব্লুটুথ চালু করা থাকলে, আপনার ডিভাইস আশেপাশে থাকা ব্লুটুথ ডিভাইসগুলির সাথে কানেক্ট করতে পারে। দ্রুত শেয়ার ও Find My Device-এর মতো ফিচার ব্লুটুথ ব্যবহার করে।"</string>
     <string name="bluetooth_scanning_on_info_message" msgid="786648535600075223">"ব্লুটুথ চালু করা থাকলে, আপনার ডিভাইস কাছাকাছি অন্যান্য ব্লুটুথ ডিভাইসের সাথে যোগাযোগ করতে পারবে।\n\nডিভাইস ব্যবহারের অভিজ্ঞতা উন্নত করতে, এমনকি ব্লুটুথ বন্ধ থাকাকালীনও, অ্যাপ ও পরিষেবাগুলি কাছাকাছি থাকা ডিভাইস যেকোনও সময় স্ক্যান করতে পারবে। যেমন, এটি লোকেশন-ভিত্তিক ফিচার এবং পরিষেবা উন্নত করার মতো বিভিন্ন কাজের জন্য ব্যবহার করা হতে পারে। আপনি ব্লুটুথ স্ক্যানিং সেটিংস থেকে এটি পরিবর্তন করতে পারবেন।"</string>
@@ -1184,8 +1191,7 @@
     <string name="share_wifi_network" msgid="4064997404339571584">"অন্যান্য ডিভাইস ব্যবহারকারীদের সাথে এই নেটওয়ার্ক শেয়ার করুন"</string>
     <string name="share_wifi_network_summary" msgid="4316236421149769333">"এই ডিভাইসের সব ব্যবহারকারী শেয়ার করা নেটওয়ার্ক দেখতে ও কানেক্ট করতে পারবে। অ্যাডমিনিস্ট্রেটর শেয়ার করা নেটওয়ার্ক মুছে দিতে পারবে। আরও জানুন"</string>
     <string name="edit_wifi_network_configuration" msgid="5712989655083072417">"নেটওয়ার্ক কনফিগারেশন এডিট করতে অন্যান্য ব্যবহারকারীদের অনুমতি দিন"</string>
-    <!-- no translation found for edit_wifi_network_non_owner_message (4291718452228643581) -->
-    <skip />
+    <string name="edit_wifi_network_non_owner_message" msgid="4291718452228643581">"এই নেটওয়ার্কে পরিবর্তন করার জন্য এই ডিভাইসের অ্যাডমিনের সাথে যোগাযোগ করুন।"</string>
     <string name="no_internet_access_text" msgid="3611993143350310936">"এই নেটওয়ার্কে ইন্টারনেট অ্যাক্সেস নেই৷ এতে কানেক্ট থাকতে চান?"</string>
     <string name="partial_connectivity_text" msgid="8874614799723694554">"সীমিত কানেক্টিভিটির জন্য কিছু অ্যাপ এবং পরিষেবা নাও কাজ করতে পারে। তবুও ব্যবহার করতে চান?"</string>
     <string name="no_internet_access_remember" msgid="5113610157731269258">"এই নেটওয়ার্কের জন্য আবার জিজ্ঞাসা করবেন না"</string>
@@ -2231,40 +2237,25 @@
     <string name="gesture_button_next" msgid="695288092704187356">"পরবর্তী"</string>
     <string name="gesture_button_restart" msgid="1895850891992530133">"রিস্টার্ট করুন"</string>
     <string name="gesture_button_done" msgid="6387900351203032188">"হয়ে গেছে"</string>
-    <!-- no translation found for action_corner_title (1489042651433221319) -->
+    <!-- no translation found for action_corner_title (7411160165577367757) -->
     <skip />
-    <!-- no translation found for action_corner_summary (695618538930535335) -->
+    <string name="action_corner_summary" msgid="695618538930535335">"সিস্টেম নেভিগেট করতে কার্সার ব্যবহার করুন"</string>
+    <!-- no translation found for action_corner_intro (2170609118659718140) -->
     <skip />
-    <!-- no translation found for action_corner_intro (8782001241997579665) -->
-    <skip />
-    <!-- no translation found for action_corner_bottom_left_title (2857258272736432174) -->
-    <skip />
-    <!-- no translation found for action_corner_bottom_right_title (7222233500548465684) -->
-    <skip />
-    <!-- no translation found for action_corner_top_left_title (4633975226092344210) -->
-    <skip />
-    <!-- no translation found for action_corner_top_right_title (4995999693840776032) -->
-    <skip />
-    <!-- no translation found for action_corner_action_none (5203163099950649999) -->
-    <skip />
-    <!-- no translation found for action_corner_action_home (6779642573582379579) -->
-    <skip />
-    <!-- no translation found for action_corner_action_recent_apps (7450480676812648813) -->
-    <skip />
-    <!-- no translation found for action_corner_action_notifications (3779353356349774469) -->
-    <skip />
-    <!-- no translation found for action_corner_action_quick_settings (4660901117283653069) -->
-    <skip />
-    <!-- no translation found for action_corner_action_dialog_title (8253240813317885237) -->
-    <skip />
-    <!-- no translation found for action_corner_bottom_left_name (9193788067022476544) -->
-    <skip />
-    <!-- no translation found for action_corner_bottom_right_name (1031603363418505375) -->
-    <skip />
-    <!-- no translation found for action_corner_top_left_name (8077670910600032291) -->
-    <skip />
-    <!-- no translation found for action_corner_top_right_name (6307321595919080297) -->
-    <skip />
+    <string name="action_corner_bottom_left_title" msgid="2857258272736432174">"একদম নিচে বাঁদিকের কোণে"</string>
+    <string name="action_corner_bottom_right_title" msgid="7222233500548465684">"একদম নিচে ডানদিকের কোণে"</string>
+    <string name="action_corner_top_left_title" msgid="4633975226092344210">"একদম উপরে বাঁদিকের কোণে"</string>
+    <string name="action_corner_top_right_title" msgid="4995999693840776032">"একদম উপরে ডানদিকের কোণে"</string>
+    <string name="action_corner_action_none" msgid="5203163099950649999">"কোনওটিই নয়"</string>
+    <string name="action_corner_action_home" msgid="6779642573582379579">"হোম"</string>
+    <string name="action_corner_action_recent_apps" msgid="7450480676812648813">"সম্প্রতি ব্যবহৃত অ্যাপ"</string>
+    <string name="action_corner_action_notifications" msgid="3779353356349774469">"বিজ্ঞপ্তি"</string>
+    <string name="action_corner_action_quick_settings" msgid="4660901117283653069">"দ্রুত সেটিংস"</string>
+    <string name="action_corner_action_dialog_title" msgid="8253240813317885237">"<xliff:g id="CORNER">%1$s</xliff:g>-এর জন্য শর্টকাট বেছে নিন"</string>
+    <string name="action_corner_bottom_left_name" msgid="9193788067022476544">"একদম নিচে বাঁদিকের কোণে"</string>
+    <string name="action_corner_bottom_right_name" msgid="1031603363418505375">"একদম নিচে ডানদিকের কোণে"</string>
+    <string name="action_corner_top_left_name" msgid="8077670910600032291">"একদম উপরে বাঁদিকের কোণে"</string>
+    <string name="action_corner_top_right_name" msgid="6307321595919080297">"একদম উপরে ডানদিকের কোণে"</string>
     <string name="modifier_keys_settings" msgid="2537108435032034683">"মডিফায়ার \'কী\'"</string>
     <string name="modifier_keys_settings_summary" msgid="6933143361657444436">"\'কী\'-এর সেটিংস পরিবর্তন করুন"</string>
     <string name="modifier_keys_reset_title" msgid="948294258402761066">"সবকটি রিসেট করুন"</string>
@@ -2409,8 +2400,7 @@
     <string name="accessibility_screen_magnification_shortcut_title" msgid="2387963646377987780">"বড় করে দেখার শর্টকাট"</string>
     <string name="accessibility_magnification_cursor_following_title" msgid="29531257984012743">"কার্সার অনুসরণ করা"</string>
     <string name="accessibility_magnification_cursor_following_header" msgid="7283095798622223509">"বড় করে দেখার সুবিধা কীভাবে আপনার কার্সার অনুসরণ করে তা বেছে নিন।"</string>
-    <!-- no translation found for accessibility_magnification_cursor_following_unavailable_summary (1683880243856242269) -->
-    <skip />
+    <string name="accessibility_magnification_cursor_following_unavailable_summary" msgid="1683880243856242269">"শুধু স্ক্রিনের বড় করে দেখানো অংশে উপলভ্য থাকে না"</string>
     <string name="accessibility_magnification_cursor_following_continuous" msgid="1119319218662522794">"মাউস সরানোর সাথে সাথে স্ক্রিন একটানা সরান"</string>
     <string name="accessibility_magnification_cursor_following_center" msgid="3504798009192014460">"মাউসকে স্ক্রিনের মাঝখানে রেখে স্ক্রিন সরান"</string>
     <string name="accessibility_magnification_cursor_following_edge" msgid="8675207762416655758">"মাউস স্ক্রিনের ধারে পৌঁছে গেলে স্ক্রিন সরান"</string>
@@ -2502,7 +2492,7 @@
     <string name="accessibility_shortcut_edit_dialog_summary_floating_button" msgid="6266489864614886247">"ফ্লোটিং বোতামে ট্যাপ করুন"</string>
     <string name="accessibility_shortcut_edit_dialog_title_software_by_gesture" msgid="4775049370625630546">"অ্যাক্সেসিবিলিটি জেসচার"</string>
     <string name="accessibility_shortcut_edit_dialog_summary_software" msgid="8315934725362849788">"স্ক্রিনের একেবারে নিচে অ্যাক্সেসিবিলিটি বোতামে <xliff:g id="ACCESSIBILITY_ICON">%s</xliff:g> ট্যাপ করুন। একটি ফিচার থেকে অন্যটিতে পাল্টে নিতে, অ্যাক্সেসিবিলিটি বোতাম টাচ করে ধরে থাকুন।"</string>
-    <string name="accessibility_shortcut_edit_dialog_summary_gesture" msgid="2081123009255579884">"{count,plural, =1{আপনার স্ক্রিনের একেবারে নিচ থেকে সোয়াইপ করুন। একটি ফিচার থেকে অন্যটিতে পাল্টে নিতে, উপরের দিকে সোয়াইপ করে ধরে রাখুন।}one{#টি আঙ্গুল দিয়ে আপনার স্ক্রিনের একেবারে নিচ থেকে উপরের দিকে সোয়াইপ করুন। একটি ফিচার থেকে অন্যটিতে পাল্টে নিতে, #টি আঙ্গুল দিয়ে উপরের দিকে সোয়াইপ করে ধরে থাকুন।}other{#টি আঙ্গুল দিয়ে আপনার স্ক্রিনের একেবারে নিচ থেকে উপরের দিকে সোয়াইপ করুন। একটি ফিচার থেকে অন্যটিতে পাল্টে নিতে, #টি আঙ্গুল দিয়ে উপরের দিকে সোয়াইপ করে ধরে থাকুন।}}"</string>
+    <string name="accessibility_shortcut_edit_dialog_summary_gesture" msgid="2081123009255579884">"{count,plural, =1{আপনার স্ক্রিনের একেবারে নিচ থেকে সোয়াইপ করুন। একটি ফিচার থেকে অন্যটিতে পাল্টে নিতে, উপরের দিকে সোয়াইপ করে ধরে রাখুন।}one{#টি আঙুল দিয়ে আপনার স্ক্রিনের একেবারে নিচ থেকে উপরের দিকে সোয়াইপ করুন। একটি ফিচার থেকে অন্যটিতে পাল্টে নিতে, #টি আঙুল দিয়ে উপরের দিকে সোয়াইপ করে ধরে থাকুন।}other{#টি আঙুল দিয়ে আপনার স্ক্রিনের একেবারে নিচ থেকে উপরের দিকে সোয়াইপ করুন। একটি ফিচার থেকে অন্যটিতে পাল্টে নিতে, #টি আঙুল দিয়ে উপরের দিকে সোয়াইপ করে ধরে থাকুন।}}"</string>
     <string name="accessibility_shortcut_edit_dialog_summary_software_floating" msgid="4459254227203203324"><annotation id="link">"আরও বিকল্প"</annotation></string>
     <string name="footer_learn_more_content_description" msgid="8843798273152131341">"<xliff:g id="SERVICE">%1$s</xliff:g> সম্পর্কে আরও জানুন"</string>
     <string name="accessibility_shortcut_edit_dialog_title_quick_settings" msgid="140959604014177304">"দ্রুত সেটিংস"</string>
@@ -2551,32 +2541,20 @@
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_title" msgid="4987009529235165664">"স্ক্রিন বৃহত্তরীকরণ স্বতঃ আপডেট"</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_summary" msgid="9034532513972547720">"অ্যাপ্লিকেশান ট্রানজিশনের উপর স্ক্রিন বৃহত্তরীকরণ আপডেট"</string>
     <string name="accessibility_power_button_ends_call_prerefence_title" msgid="8187306131979612144">"পাওয়ার বোতামে কল শেষ হয়"</string>
-    <!-- no translation found for dark_theme_version_category (8563711427335567656) -->
-    <skip />
-    <!-- no translation found for accessibility_standard_dark_theme_title (7755139172613415921) -->
-    <skip />
-    <!-- no translation found for accessibility_standard_dark_theme_title_in_search (6182199392044601252) -->
-    <skip />
-    <!-- no translation found for accessibility_standard_dark_theme_summary (5462837198570089294) -->
-    <skip />
-    <!-- no translation found for accessibility_expanded_dark_theme_title (9221540446783335817) -->
-    <skip />
-    <!-- no translation found for accessibility_expanded_dark_theme_title_in_search (6003085770489582863) -->
-    <skip />
-    <!-- no translation found for accessibility_expanded_dark_theme_summary (7600947929245673753) -->
-    <skip />
+    <string name="dark_theme_version_category" msgid="8563711427335567656">"মোড"</string>
+    <string name="accessibility_standard_dark_theme_title" msgid="7755139172613415921">"স্ট্যান্ডার্ড"</string>
+    <string name="accessibility_standard_dark_theme_title_in_search" msgid="6182199392044601252">"স্ট্যান্ডার্ড ডার্ক থিম"</string>
+    <string name="accessibility_standard_dark_theme_summary" msgid="5462837198570089294">"আপনার ডিভাইস এবং কাজ করে এমন অ্যাপ জুড়ে ডার্ক থিম প্রয়োগ করে"</string>
+    <string name="accessibility_expanded_dark_theme_title" msgid="9221540446783335817">"বড় করা হয়েছে"</string>
+    <string name="accessibility_expanded_dark_theme_title_in_search" msgid="6003085770489582863">"বড় করা ডার্ক থিম"</string>
+    <string name="accessibility_expanded_dark_theme_summary" msgid="7600947929245673753">"উন্নত অ্যাক্সেসিবিলিটির জন্য আরও অ্যাপে অটোমেটিক ডার্ক থিম প্রয়োগ করে"</string>
     <string name="accessibility_disable_animations" msgid="2993529829457179058">"অ্যানিমেশন সরিয়ে দিন"</string>
     <string name="accessibility_disable_animations_summary" msgid="5828228669556554565">"স্ক্রিনের নড়াচড়া কমিয়ে দিন"</string>
-    <!-- no translation found for accessibility_text_cursor_blink_rate_title (2560387611012958520) -->
-    <skip />
-    <!-- no translation found for accessibility_text_cursor_blink_rate_summary (6629885087638846245) -->
-    <skip />
-    <!-- no translation found for accessibility_text_cursor_blink_rate_slower_desc (5255697869959801747) -->
-    <skip />
-    <!-- no translation found for accessibility_text_cursor_blink_rate_faster_desc (5236406089575390876) -->
-    <skip />
-    <!-- no translation found for accessibility_text_cursor_blink_rate_reset_button_label (393679766407314372) -->
-    <skip />
+    <string name="accessibility_text_cursor_blink_rate_title" msgid="2560387611012958520">"টেক্সটের কার্সর ব্লিঙ্ক করা"</string>
+    <string name="accessibility_text_cursor_blink_rate_summary" msgid="6629885087638846245">"টেক্সটের কার্সর ব্লিঙ্ক করার গতি কমান বা ব্লিঙ্ক করা বন্ধ করুন। সব অ্যাপ বা ওয়েবসাইটে কাজ নাও করতে পারে।"</string>
+    <string name="accessibility_text_cursor_blink_rate_slower_desc" msgid="5255697869959801747">"ব্লিঙ্ক করার গতি কমান"</string>
+    <string name="accessibility_text_cursor_blink_rate_faster_desc" msgid="5236406089575390876">"ব্লিঙ্ক করার গতি বাড়ান"</string>
+    <string name="accessibility_text_cursor_blink_rate_reset_button_label" msgid="393679766407314372">"রিসেট করুন"</string>
     <string name="accessibility_toggle_primary_mono_title" msgid="7587152099472946571">"মোনো অডিও"</string>
     <string name="accessibility_toggle_primary_mono_summary" msgid="1935283927319407303">"অডিও বাজানোর সময় সব চ্যানেলের অডিও সিঙ্ক করুন"</string>
     <string name="accessibility_toggle_primary_balance_title" msgid="7332275200153366714">"অডিও ব্যালেন্স"</string>
@@ -2666,6 +2644,10 @@
     <string name="accessibility_daltonizer_footer_learn_more_content_description" msgid="2091679253892040910">"রং সংশোধন ফিচারের বিষয়ে আরও জানুন"</string>
     <string name="accessibility_color_inversion_about_title" msgid="8275754480247040136">"কালার ইনভার্সন বিষয়ক"</string>
     <string name="accessibility_color_inversion_footer_learn_more_content_description" msgid="5382579548498952445">"কালার ইনভার্সনের বিষয়ে আরও জানুন"</string>
+    <!-- no translation found for accessibility_dark_theme_footer_learn_more_helper_link (7084955775821075280) -->
+    <skip />
+    <!-- no translation found for accessibility_dark_theme_preference_footer_content (4431044600779983609) -->
+    <skip />
     <string name="accessibility_captioning_primary_switch_title" msgid="3663677340286206100">"ক্যাপশন দেখুন"</string>
     <string name="accessibility_captioning_primary_switch_summary" msgid="2544094070306830218">"কাজ করবে শুধুমাত্র এমন অ্যাপের জন্য"</string>
     <string name="captioning_appearance_title" msgid="3128792092290011408">"ক্যাপশনের সাইজ এবং স্টাইল"</string>
@@ -3732,8 +3714,7 @@
     <string name="zen_mode_settings_schedules_summary" msgid="2047688589286811617">"{count,plural, =0{একটিও নেই}=1{১টি শিডিউল সেট করা হয়েছে}one{#টি শিডিউল সেট করা হয়েছে}other{#টি শিডিউল সেট করা হয়েছে}}"</string>
     <string name="zen_mode_settings_title" msgid="682676757791334259">"বিরক্ত করবে না"</string>
     <string name="zen_modes_list_title" msgid="4796033710444068729">"মোড"</string>
-    <!-- no translation found for zen_modes_list_intro (1879511587535247228) -->
-    <skip />
+    <string name="zen_modes_list_intro" msgid="1879511587535247228">"ঘুম, কাজ, ড্রাইভিং এবং এর মধ্যে অন্য সবকিছুর জন্য নির্দিষ্ট মোড ব্যবহার করে, মনোযোগে ব্যাঘাত ঘটানো কমান এবং তা বজায় রাখুন"</string>
     <string name="zen_modes_add_mode" msgid="5926457160307593664">"আপনার নিজস্ব মোড তৈরি করুন"</string>
     <string name="zen_mode_settings_summary" msgid="6040862775514495191">"শুধু গুরুত্বপূর্ণ লোকজন এবং অ্যাপ থেকে বিজ্ঞপ্তি পান"</string>
     <string name="zen_mode_select_schedule" msgid="663163931596092952">"শিডিউল সেট করুন"</string>
@@ -4355,10 +4336,8 @@
     <string name="app_permissions" msgid="8666537659217653626">"অনুমতি ম্যানেজার"</string>
     <string name="app_data_sharing_updates_title" msgid="1694297952320402788">"লোকেশনের জন্য ডেটা শেয়ার করা সম্পর্কিত আপডেট"</string>
     <string name="app_data_sharing_updates_summary" msgid="4465929918457739443">"আপনার লোকেশন ডেটা শেয়ার করার উপায় পরিবর্তন করে এমন অ্যাপ পর্যালোচনা করুন"</string>
-    <!-- no translation found for app_function_access_settings_title (1474765429611652468) -->
-    <skip />
-    <!-- no translation found for app_function_access_settings_summary (6465715820745848068) -->
-    <skip />
+    <string name="app_function_access_settings_title" msgid="1474765429611652468">"অন্যান্য অ্যাপের এজেন্ট কন্ট্রোল"</string>
+    <string name="app_function_access_settings_summary" msgid="6465715820745848068">"আপনার ডিভাইস ও অন্যান্য অ্যাপে অ্যাকশন পারফর্ম করুন"</string>
     <string name="tap_to_wake" msgid="3313433536261440068">"জাগাতে আলতো চাপুন"</string>
     <string name="tap_to_wake_summary" msgid="6641039858241611072">"ডিভাইসকে জাগাতে স্ক্রিনের যেকোনও জায়গায় ডাবল-ট্যাপ করুন"</string>
     <string name="domain_urls_title" msgid="7012209752049678876">"লিঙ্ক খোলা"</string>
@@ -4518,10 +4497,8 @@
     <string name="screen_zoom_short_summary" msgid="756254364808639194">"সবকিছু আরও বড় বা ছোট করুন"</string>
     <string name="screen_zoom_keywords" msgid="5964023524422386592">"ঘনত্ব হিসেবে প্রদর্শন, স্ক্রিন জুম করা, স্কেল, স্কেলের মাপ"</string>
     <string name="screen_zoom_preview_title" msgid="5288355628444562735">"প্রিভিউ"</string>
-    <!-- no translation found for screen_zoom_make_smaller_desc (1450649885198381123) -->
-    <skip />
-    <!-- no translation found for screen_zoom_make_larger_desc (7125594310562596457) -->
-    <skip />
+    <string name="screen_zoom_make_smaller_desc" msgid="1450649885198381123">"ডিসপ্লের সাইজ ছোট করুন"</string>
+    <string name="screen_zoom_make_larger_desc" msgid="7125594310562596457">"ডিসপ্লের সাইজ বড় করুন"</string>
     <string name="disconnected" msgid="3469373726996129247">"কানেক্ট করা নেই"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"ডিসকানেক্ট রয়েছে"</string>
     <string name="apps_summary" msgid="4007416751775414252">"<xliff:g id="COUNT">%1$d</xliff:g>টি অ্যাপ ইনস্টল করা হয়েছে"</string>
@@ -4541,6 +4518,10 @@
     <string name="disabled_by_policy_title_financed_device" msgid="2328740314082888228">"ক্রেডিট প্রদানকারী ব্লক করেছেন"</string>
     <string name="disabled_by_policy_title_biometric_parental_consent" msgid="2463673997797134678">"অভিভাবকের অনুমতি প্রয়োজন"</string>
     <string name="disabled_by_policy_content_biometric_parental_consent" msgid="7124116806784305206">"এই ফিচারটি সেটআপ করার জন্য আপনার অভিভাবকের সাহায্য নিন"</string>
+    <!-- no translation found for disabled_by_policy_title_parental_controls (8875976588644052371) -->
+    <skip />
+    <!-- no translation found for disabled_by_policy_content_parental_controls (4648160125103768738) -->
+    <skip />
     <string name="disabled_by_policy_parental_consent" msgid="9166060049019018978">"এই সেটিং পরিবর্তন করার জন্য ফোনটি তোমার অভিভাবককে দাও।"</string>
     <string name="default_admin_support_msg" msgid="8816296554831532033">"আরও তথ্যের জন্য, আপনার আইটি অ্যাডমিনের সাথে যোগাযোগ করুন"</string>
     <string name="admin_support_more_info" msgid="8407433155725898290">"আরো বিশদ বিবরণ"</string>
@@ -4656,7 +4637,8 @@
     <string name="battery_tips_card_action_button_check" msgid="1535140204105479318">"চেক করুন"</string>
     <string name="battery_tips_card_dismiss_button" msgid="1885756985544936618">"বুঝেছি"</string>
     <string name="battery_tips_card_feedback_info" msgid="767117835675157298">"এই মেসেজ কি আপনার কোনও কাজে লেগেছে?"</string>
-    <string name="battery_hints_warning_icon_a11y" msgid="5312542323401447620">"ব্যাটারির ব্যবহার সংক্রান্ত সতর্কতা আইকন"</string>
+    <!-- no translation found for battery_hints_warning_icon_a11y (709629805028175434) -->
+    <skip />
     <string name="battery_tips_settings_summary_brightness" msgid="546145032616077783">"ব্যাটারির আয়ু বাড়াতে পরিবেশের আলো অনুযায়ী উজ্জ্বলতা চালু করুন"</string>
     <string name="battery_tips_settings_summary_screen_timeout" msgid="556801426050962077">"ব্যাটারির আয়ু বাড়াতে স্ক্রিন টাইমআউট কমান"</string>
     <string name="battery_tips_apps_summary_always_high" msgid="6334519477067044920">"<xliff:g id="APP_LABEL">%1$s</xliff:g> আরও বেশি ব্যাটারি ব্যবহার করেছে"</string>
@@ -5376,15 +5358,13 @@
     <string name="enable_16k_pages" msgid="1758111531461408337">"১৬ কেবি সাইজের পৃষ্ঠা সহ বুট করুন"</string>
     <string name="enable_16k_pages_summary" msgid="1937836453571509085">"বুট ডিভাইস, ১৬ কেবি পৃষ্ঠায় কাজ করে এমন কার্নেল ব্যবহার করছে"</string>
     <string name="confirm_enable_16k_pages_title" msgid="5477376227161609124">"৪ কেবি মোড থেকে ১৬ কেবি মোডে পরিবর্তন করুন"</string>
-    <!-- no translation found for confirm_enable_16k_pages_update_wipe (4760548401414644138) -->
-    <skip />
+    <string name="confirm_enable_16k_pages_update_wipe" msgid="4760548401414644138">"১৬ কেবি ডেভেলপার বিকল্প ব্যবহার করার আগে, এই ডিভাইসের ডেটা পার্টিশন ext4-এ পরিবর্তন করতে হবে। কনফার্ম করার পরে ডিভাইস ওয়াইপ করা হবে এবং ফাইল সিস্টেম ext4-এ পরিবর্তিত হয়ে যাবে। আপনি ৪ কেবি কার্নেল রান করে এমন প্রোডাকশন মোডে আছেন এবং ১৬ কেবি মোডে পরিবর্তন করছেন। আপনি এই মোড থাকলে, একবার রিবুট করার মাধ্যমে ৪ কেবি এবং ১৬ কেবি মোডের মধ্যে সুইচ করতে পারবেন। এই মোডে সফ্টওয়্যার ইন্টিগ্রিটির গ্যারান্টি দেওয়া যায় না এবং বুটলোডার আনলক করা অবস্থায় ফোনে সেভ করে রাখা ডেটা নিয়ে ঝুঁকি থাকতে পারে। এই মোডে কিছু ফিচার বন্ধ করা থাকে, তাই কোনও কোনও অ্যাপ্লিকেশন কাজ নাও করতে পারে। ডিভাইস প্রোডাকশন মোডে ফিরিয়ে নিয়ে যেতে, আপনাকে ৪ কেবি মোডে পরিবর্তন করতে এবং বুটলোডার লক করতে হবে। এর ফলে ডিভাইস ফ্যাক্টরি রিসেট হবে। ডিভাইস সফলভাবে Android-এ বুট হয়ে গেলে, ডেভেলপার বিকল্প থেকে OEM আনলক বন্ধ করুন। এগিয়ে যেতে, \'সব ডেটা ও আপডেট মুছুন\' বিকল্পে ক্লিক করুন। এর ফলে ডিভাইস রিবুট হবে।"</string>
     <string name="confirm_enable_16k_pages_text" msgid="6211693250692246982">"আপনি ৪ কেবি কার্নেল রান করে এমন পেজ-অ্যাগনোস্টিক মোডে আছেন এবং ১৬ কেবি মোডে পরিবর্তন করছেন। এই মোডে সফ্টওয়্যার ইন্টিগ্রিটির গ্যারান্টি দেওয়া যায় না এবং বুটলোডার আনলক করা অবস্থায়, ফোনে সেভ করে রাখা ডেটা নিয়ে ঝুঁকি থাকতে পারে। এর ফলে ডিভাইস রিবুট হবে। এই মোডে কিছু ফিচার বন্ধ করা হবে, তাই কোনও কোনও অ্যাপ্লিকেশন কাজ নাও করতে পারে। ডিভাইস প্রোডাকশন মোডে ফিরিয়ে নিয়ে যেতে, আপনাকে ৪ কেবি মোডে পরিবর্তন করতে এবং বুটলোডার লক করতে হবে। এর ফলে ডিভাইস ফ্যাক্টরি রিসেট হবে। ডিভাইস সফলভাবে Android-এ বুট হয়ে গেলে, ডেভেলপার বিকল্প থেকে OEM আনলক বন্ধ করুন।"</string>
     <string name="confirm_enable_4k_pages_title" msgid="3001009010581393119">"১৬ কেবি মোড থেকে ৪ কেবি মোডে পরিবর্তন করুন"</string>
     <string name="confirm_enable_4k_pages_text" msgid="3398001587586470689">"আপনি ১৬ কেবি কার্নেল রান করে এমন পেজ-অ্যাগনোস্টিক মোডে আছেন এবং ৪ কেবি মোডে পরিবর্তন করছেন। এই মোডে সফ্টওয়্যার ইন্টিগ্রিটির গ্যারান্টি দেওয়া যায় না এবং বুটলোডার আনলক করা অবস্থায়, ফোনে সেভ করে রাখা ডেটা নিয়ে ঝুঁকি থাকতে পারে। এর ফলে ডিভাইস রিবুট হবে। এই মোডে কিছু ফিচার বন্ধ করা হবে, তাই কোনও কোনও অ্যাপ্লিকেশন কাজ নাও করতে পারে। ডিভাইসটি প্রোডাকশন মোডে রাখতে, বুটলোডার লক করতে হবে যেটি ডিভাইসকে ফ্যাক্টরি রিসেট করবে। ডিভাইস সফলভাবে Android-এ বুট হয়ে গেলে, ডেভেলপার বিকল্প থেকে OEM আনলক বন্ধ করুন।"</string>
     <string name="toast_16k_update_failed_text" msgid="7848383020572918850">"কার্নেল ১৬ কেবি পৃষ্ঠার জন্য মানানসই কার্নেলে আপডেট করা যায়নি।"</string>
     <string name="progress_16k_ota_title" msgid="2117218313875523741">"পরিবর্তন প্রয়োগ করা হচ্ছে"</string>
-    <!-- no translation found for confirm_ext4_button_text (697563319110759422) -->
-    <skip />
+    <string name="confirm_ext4_button_text" msgid="697563319110759422">"সব ডেটা ও আপডেট মুছুন"</string>
     <string name="format_ext4_failure_toast" msgid="8059453995800471549">"ডেটা পার্টিশানকে ext4 ফর্ম্যাটে আবার ফর্ম্যাট করা ও ওয়াইপ করা যায়নি।"</string>
     <string name="confirm_oem_unlock_for_16k_title" msgid="6062041826568112078">"বুটলোডার আনলক করতে হবে"</string>
     <string name="confirm_oem_unlock_for_16k_text" msgid="8089310116854544106">"১৬ কেবি ডেভেলপার বিকল্প ব্যবহার করতে হলে, এই ডিভাইসের জন্য বুটলোডার আনলক করতে হবে। এই মোডে সফ্টওয়্যার ইন্টিগ্রিটির গ্যারান্টি দেওয়া যায় না এবং বুটলোডার আনলক করা অবস্থায়, ফোনে সেভ করে রাখা ডেটা নিয়ে ঝুঁকি থাকতে পারে। ১৬ কেবি মোড অ্যাক্টিভেট করে দিলে, ব্যবহারকারীর সব ডেটা ও সেটিংস ওয়াইপ হয়ে যাবে। বুটলোডার আনলক হয়ে গেলে, ১৬ কেবি মোড বিকল্প চালু করার জন্য ডিভাইস দুবার রিবুট করার প্রয়োজন হয়। আপনি এই মোড থাকলে, একবার রিবুট করার মাধ্যমে ৪ কেবি এবং ১৬ কেবি মোডের মধ্যে সুইচ করতে পারবেন। এই মোডে কিছু ফিচার বন্ধ করা হবে, তাই কোনও কোনও অ্যাপ্লিকেশন কাজ নাও করতে পারে। ডিভাইসটিকে আবার প্রোডাকশন মোডে রাখতে, আপনাকে ৪ কেবি মোডে ফিরে আসতে হবে ও তারপরে OEM/বুটলোডার লক করতে হবে (যেটি ডিভাইসকে ফ্যাক্টরি রিসেট করবে)। বুটলোডার আনলক করে আবার চেষ্টা করুন। বুটলোডার কীভাবে আনলক করবেন তার নির্দেশাবলী এখানে দেখতে পারেন &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt;"</string>
@@ -5880,21 +5860,28 @@
     <string name="search_gesture_feature_summary" msgid="1793056495030564014">"আপনার স্ক্রিনে কন্টেন্ট ব্যবহার করে সার্চ করতে হোম বোতাম বা নেভিগেশন হ্যান্ডেল টাচ করে ধরে রাখুন।"</string>
     <string name="device_detail_icon_content_description" msgid="6699151424374841937">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>। ডিভাইসের বিবরণ কনফিগার করুন।"</string>
     <string name="supervision_settings_title" msgid="8507163323870367711">"অভিভাবকীয় নিয়ন্ত্রণ"</string>
-    <string name="supervision_settings_summary" msgid="5020634300370322741">"কন্টেন্ট সংক্রান্ত বিধিনিষেধ ও অন্যান্য লিমিট"</string>
+    <!-- no translation found for supervision_settings_summary (6304257872307136073) -->
+    <skip />
     <string name="device_supervision_switch_no_pin_summary" msgid="4869563544571033220">"পিন সেট-আপ করুন"</string>
-    <string name="device_supervision_switch_paused_summary" msgid="1014381188739295656">"পজ করা আছে"</string>
-    <string name="keywords_supervision_settings" msgid="2580555201483955376">"তত্ত্বাবধান, পিতামাতার তত্ত্বাবধান, অভিভাবকীয় নিয়ন্ত্রণ"</string>
+    <!-- no translation found for keywords_supervision_settings (43064288661561602) -->
+    <skip />
     <string name="supervision_pin_management_preference_title" msgid="7721501202320841845">"আপনার পিন ম্যানেজ করুন"</string>
+    <!-- no translation found for supervision_pin_management_preference_keywords (5034450635706621750) -->
+    <skip />
     <string name="supervision_pin_management_preference_summary_add" msgid="2247921267270577374">"অ্যাকাউন্ট ফিরিয়ে আনার ইমেল যোগ করুন"</string>
     <string name="supervision_pin_management_preference_summary_verify_recovery" msgid="5072554239108915119">"অ্যাকাউন্ট ফিরিয়ে আনার ইমেল যাচাই করান"</string>
     <string name="supervision_change_pin_preference_title" msgid="2288584039438231801">"পিন পরিবর্তন করুন"</string>
     <string name="supervision_add_forgot_pin_preference_title" msgid="8939945404255748516">"পিন ভুলে গেছি"</string>
+    <!-- no translation found for supervision_auth_prompt_forgot_pin_button_label (1019337828884793557) -->
+    <skip />
     <string name="supervision_update_recovery_email_preference_title" msgid="2057393838251915087">"অ্যাকাউন্ট ফিরিয়ে আনার ইমেল আপডেট করুন"</string>
     <string name="supervision_delete_pin_preference_title" msgid="8447541098148430866">"পিন মুছুন"</string>
-    <string name="supervision_delete_pin_preference_summary" msgid="4865713157106413979">"এর ফলে আপনার তত্ত্বাবধান সম্পর্কিত সব সেটিংস রিসেট হয়ে যাবে"</string>
     <string name="supervision_add_pin_recovery_title" msgid="3487098027604685794">"অ্যাকাউন্ট ফিরিয়ে আনার ইমেল যোগ করুন"</string>
     <string name="supervision_verify_pin_recovery_title" msgid="3166602415814821497">"আপনার ইমেল আইডি যাচাই করুন"</string>
-    <string name="supervision_web_content_filters_title" msgid="3653430162065686156">"ওয়েব কন্টেন্টের ফিল্টার"</string>
+    <!-- no translation found for supervision_web_content_filters_title (2412562442507104921) -->
+    <skip />
+    <!-- no translation found for supervision_web_content_filters_keywords (8469519676189544447) -->
+    <skip />
     <string name="supervision_web_content_filters_top_intro" msgid="5264773769840566499">"এই ডিভাইসে কাজ করে এমন অ্যাপে ওয়েবসাইট এবং সার্চ ফলাফলে প্রাপ্তবয়স্কদের জন্য কন্টেন্ট ব্লক করুন। যেসব অ্যাপে কাজ করে না, সেখানে অনুপযুক্ত কন্টেন্ট এখনও দেখা যেতে পারে।"</string>
     <string name="supervision_web_content_filters_browser_title" msgid="8737341514264129889">"ওয়েবসাইট"</string>
     <string name="supervision_web_content_filters_browser_filter_title" msgid="7957976669412075070">"অনুপযুক্ত সাইট ব্লক করুন"</string>
@@ -5904,8 +5891,7 @@
     <string name="supervision_choose_your_pin_header" msgid="3872062168986738629">"একটি অভিভাবকীয় নিয়ন্ত্রণ পিন সেট করুন"</string>
     <string name="supervision_confirm_your_pin_header" msgid="8236956712482718354">"পিন কনফার্ম করুন"</string>
     <string name="supervision_pin_reset_success_toast" msgid="9163550161698311831">"পিন আপডেট করা হয়েছে"</string>
-    <!-- no translation found for supervision_promo_footer_action_button_description (7617359721703338141) -->
-    <skip />
+    <string name="supervision_promo_footer_action_button_description" msgid="7617359721703338141">"অ্যাপ খুলুন"</string>
     <string name="supervision_delete_pin_confirm_header" msgid="8499276643990949268">"পিন মুছবেন?"</string>
     <string name="supervision_delete_pin_confirm_message" msgid="5482080400973042178">"এই ডিভাইসের সব ব্যবহারকারীর জন্য এটি আপনার বর্তমান পিন মুছে দেবে এবং আপনার সেট-আপ করা কন্ট্রোলগুলি বন্ধ করে দেবে। এই অ্যাকশন ফেরানো যাবে না।"</string>
     <string name="supervision_delete_pin_supervision_enabled_header" msgid="2072311894107038402">"অন্যান্য প্রোফাইলে প্রথমে কন্ট্রোলগুলি পজ করুন"</string>

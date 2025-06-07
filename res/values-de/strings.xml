@@ -47,10 +47,8 @@
     <string name="preview_pager_email_title" msgid="8767864657910457562">"E-Mail"</string>
     <string name="preview_pager_previous_button" msgid="607771113300838313">"Vorherige Vorschau"</string>
     <string name="preview_pager_next_button" msgid="8700907912508927271">"Nächste Vorschau"</string>
-    <!-- no translation found for font_size_make_smaller_desc (319927200356692406) -->
-    <skip />
-    <!-- no translation found for font_size_make_larger_desc (6739310980713118605) -->
-    <skip />
+    <string name="font_size_make_smaller_desc" msgid="319927200356692406">"Schriftgröße verkleinern"</string>
+    <string name="font_size_make_larger_desc" msgid="6739310980713118605">"Schriftgröße vergrößern"</string>
     <string name="stay_awake_on_fold_title" msgid="6590454679898134221">"Immer"</string>
     <string name="stay_awake_on_fold_summary" msgid="1939963751585954262">"Beim Zuklappen des Geräts wird das Frontdisplay eingeschaltet."</string>
     <string name="stay_awake_on_lockscreen_title" msgid="8088456642083051068">"Zum Fortfahren nach oben wischen"</string>
@@ -200,7 +198,7 @@
     <string name="locale_remove_menu" msgid="3521546263421387474">"Entfernen"</string>
     <string name="add_a_language" msgid="2126220398077503271">"Sprache hinzufügen"</string>
     <string name="app_locale_preference_title" msgid="5513627099300360232">"Sprache"</string>
-    <string name="locale_picker_category_title" msgid="6212064706962721255">"Bevorzugte Sprache"</string>
+    <string name="locale_picker_category_title" msgid="296835514014453679">"Bevorzugte Sprachen"</string>
     <string name="app_locales_picker_menu_title" msgid="7617427959223831373">"App-Sprachen"</string>
     <string name="app_locale_picker_summary" msgid="616928580653613998">"Sprache für jede App auswählen"</string>
     <string name="app_locale_picker_title" msgid="2431448962911301366">"App-Sprache"</string>
@@ -226,10 +224,15 @@
     <string name="title_change_system_locale" msgid="4102991236063984803">"Systemsprache ändern zu „%s“?"</string>
     <string name="title_system_locale_addition" msgid="8218683660751479466">"%s zu bevorzugten Sprachen hinzufügen?"</string>
     <string name="desc_system_locale_addition" msgid="3409917362651596070">"Damit teilst du Apps und Websites mit, dass du auch diese Sprache verstehst."</string>
-    <string name="desc_notice_device_locale_settings_change" msgid="8311132485850714160">"Hierdurch werden deine Geräteeinstellungen und deine regionalen Einstellungen geändert."</string>
+    <!-- no translation found for desc_notice_device_locale_and_region_settings_change (909261686577914396) -->
+    <skip />
+    <!-- no translation found for desc_notice_device_locale_settings_change (5012353615235634881) -->
+    <skip />
+    <!-- no translation found for dlg_desc_delete_preferred_default_locale (690828405078078513) -->
+    <skip />
     <string name="button_label_confirmation_of_system_locale_change" msgid="5593798559604894733">"Ändern"</string>
-    <string name="title_unavailable_locale" msgid="2628898110416542386">"%s nicht verfügbar"</string>
-    <string name="desc_unavailable_locale" msgid="2201756477400935896">"Diese Sprache kann nicht als Systemsprache verwendet werden, aber Apps und Websites werden darüber informiert, dass du diese Sprache bevorzugst."</string>
+    <string name="title_unavailable_locale" msgid="5382411204559213983">"<xliff:g id="SELECTED_LANGUAGE">%s</xliff:g> kann nicht als Systemsprache festgelegt werden"</string>
+    <string name="desc_unavailable_locale" msgid="7223655766703116782">"Diese Sprache wird von deinem Gerät nicht unterstützt, aber Apps wissen, dass du diese Sprache bevorzugst"</string>
     <string name="locale_search_menu" msgid="297782694044826686">"Suche"</string>
     <string name="language_and_region_title" msgid="8374151891112162767">"Sprache &amp; Region"</string>
     <string name="language_selection_title" msgid="968179636453982415">"Sprache hinzufügen"</string>
@@ -243,6 +246,9 @@
     <string name="title_change_system_locale_region" msgid="4401478579429442695">"Region ändern zu „<xliff:g id="SYSTEM_LANGUAGE_REGION">%1$s</xliff:g>“?"</string>
     <string name="body_change_system_locale_region" msgid="9064318449821043189">"Dein Gerät verwendet weiterhin <xliff:g id="SYSTEM_LANGUAGE">%1$s</xliff:g> als Systemsprache"</string>
     <string name="top_intro_numbering_system_title" msgid="3962000662073238392">"Du kannst festlegen, wie Zahlen auf deinem Gerät, auf Websites und in Apps angezeigt werden"</string>
+    <string name="preferred_locale_menu_up" msgid="4009560552099567485">"Nach oben verschieben"</string>
+    <string name="preferred_locale_menu_down" msgid="1033373887552535585">"Nach unten verschieben"</string>
+    <string name="preferred_locale_menu_remove" msgid="8547483341987864590">"Entfernen"</string>
     <string name="regional_preferences_title" msgid="4304567374498629528">"Regionale Einstellungen"</string>
     <string name="regional_preferences_summary" msgid="1189876997389469650">"Einstellungen für Einheiten und Zahlen festlegen"</string>
     <string name="regional_preferences_main_page_sub_title" msgid="4237109940015254725">"Wenn du Apps deine regionalen Einstellungen mitteilst, können ihre Dienste für dich personalisiert werden."</string>
@@ -281,6 +287,8 @@
     <string name="dlg_remove_locales_error_title" msgid="5875503658221562572">"Du kannst nicht alle Sprachen entfernen"</string>
     <string name="dlg_remove_locales_error_message" msgid="6504279959974675302">"Behalte mindestens eine bevorzugte Sprache"</string>
     <string name="locale_not_translated" msgid="3071618135527110152">"Als Systemsprache nicht verfügbar"</string>
+    <string name="dlg_title_delete_preferred_locale" msgid="4167214348946940002">"<xliff:g id="REMOVED_LANGUAGE">%s</xliff:g> entfernen?"</string>
+    <string name="dlg_desc_delete_preferred_locale" msgid="4658301652628456858">"<xliff:g id="REMOVED_LANGUAGE">%s</xliff:g> wird aus deinen bevorzugten Sprachen entfernt. Du kannst diese Sprache später wieder hinzufügen."</string>
     <string name="action_drag_label_move_up" msgid="3392196942330705015">"Nach oben"</string>
     <string name="action_drag_label_move_down" msgid="9069518740553953426">"Nach unten"</string>
     <string name="action_drag_label_move_top" msgid="2430471023612171619">"Ganz nach oben"</string>
@@ -460,6 +468,7 @@
     <string name="security_settings_fingerprint_enroll_introduction_no_thanks" msgid="1663906389456119842">"Nicht jetzt"</string>
     <string name="security_settings_fingerprint_enroll_introduction_agree" msgid="4068276083536421828">"Ich stimme zu"</string>
     <string name="security_settings_fingerprint_rename_description" msgid="6301505700382531086">"Zum Umbenennen doppeltippen"</string>
+    <string name="security_settings_fingerprint_recognition_description" msgid="1805171116182647136">"<xliff:g id="FP_NAME">%1$s</xliff:g> erkannt"</string>
     <string name="setup_fingerprint_enroll_skip_title" msgid="2473807887676247264">"Fingerabdruck überspringen?"</string>
     <string name="setup_fingerprint_enroll_skip_after_adding_lock_text" msgid="2412645723804450304">"Die Einrichtung des Fingerabdrucks dauert nur wenige Minuten. Wenn du sie jetzt überspringst, kannst du sie später über die Einstellungen nachholen."</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_setup" msgid="6255210343107484206">"Wenn du dieses Symbol siehst, kannst du deinen Fingerabdruck zur Authentifizierung verwenden, beispielsweise zur Anmeldung in Apps oder um Käufe zu autorisieren"</string>
@@ -942,10 +951,8 @@
     <string name="bluetooth_device_context_connect" msgid="4913860372216815855">"Verbinden"</string>
     <string name="bluetooth_device_context_disconnect" msgid="4464167389972513232">"Verbindung trennen"</string>
     <string name="bluetooth_device_context_pair_connect" msgid="2406032703622371826">"Koppeln und verbinden"</string>
-    <!-- no translation found for bluetooth_connecting (5315496594905010438) -->
-    <skip />
-    <!-- no translation found for bluetooth_disconnecting (1643422701532873735) -->
-    <skip />
+    <string name="bluetooth_connecting" msgid="5315496594905010438">"Verbindung wird hergestellt"</string>
+    <string name="bluetooth_disconnecting" msgid="1643422701532873735">"Verbindung wird getrennt"</string>
     <string name="bluetooth_empty_list_bluetooth_off" msgid="7326727272747345476">"Bei aktiviertem Bluetooth kann dein Gerät mit Bluetooth-Geräten in der Nähe kommunizieren"</string>
     <string name="bluetooth_empty_list_bluetooth_off_auto_on_available" msgid="3430864468105204282">"Bei aktiviertem Bluetooth kann dein Gerät mit Bluetooth-Geräten in der Nähe kommunizieren. Funktionen wie „Quick Share“ und „Mein Gerät finden“ verwenden Bluetooth."</string>
     <string name="bluetooth_scanning_on_info_message" msgid="786648535600075223">"Bei aktiviertem Bluetooth kann dein Gerät mit anderen Bluetooth-Geräten in der Nähe kommunizieren.\n\nDamit es optimal funktioniert, können Apps und Dienste immer nach Geräten in der Nähe suchen, auch wenn Bluetooth deaktiviert ist. Dadurch werden beispielsweise standortbasierte Funktionen und Dienste verbessert. Dies lässt sich in den Bluetooth-Sucheinstellungen ändern."</string>
@@ -1184,8 +1191,7 @@
     <string name="share_wifi_network" msgid="4064997404339571584">"Dieses Netzwerk für andere Gerätenutzer freigeben"</string>
     <string name="share_wifi_network_summary" msgid="4316236421149769333">"Alle Nutzer auf diesem Gerät können ein freigegebenes Netzwerk sehen und sich mit ihm verbinden. Administratoren können ein freigegebenes Netzwerk löschen. Weitere Informationen"</string>
     <string name="edit_wifi_network_configuration" msgid="5712989655083072417">"Anderen Nutzern erlauben, die Netzwerkkonfiguration zu bearbeiten"</string>
-    <!-- no translation found for edit_wifi_network_non_owner_message (4291718452228643581) -->
-    <skip />
+    <string name="edit_wifi_network_non_owner_message" msgid="4291718452228643581">"Wenn du Änderungen an diesem Netzwerk vornehmen möchtest, wende dich an den Administrator dieses Geräts."</string>
     <string name="no_internet_access_text" msgid="3611993143350310936">"Dieses Netzwerk hat keinen Internetzugriff. Verbindung beibehalten?"</string>
     <string name="partial_connectivity_text" msgid="8874614799723694554">"Wegen beschränkter Konnektivität funktionieren Apps und Dienste eventuell nicht. Trotzdem verwenden?"</string>
     <string name="no_internet_access_remember" msgid="5113610157731269258">"Für dieses Netzwerk nicht mehr fragen"</string>
@@ -2231,40 +2237,25 @@
     <string name="gesture_button_next" msgid="695288092704187356">"Weiter"</string>
     <string name="gesture_button_restart" msgid="1895850891992530133">"Neustart"</string>
     <string name="gesture_button_done" msgid="6387900351203032188">"Fertig"</string>
-    <!-- no translation found for action_corner_title (1489042651433221319) -->
+    <!-- no translation found for action_corner_title (7411160165577367757) -->
     <skip />
-    <!-- no translation found for action_corner_summary (695618538930535335) -->
+    <string name="action_corner_summary" msgid="695618538930535335">"System mit Cursorn bedienen"</string>
+    <!-- no translation found for action_corner_intro (2170609118659718140) -->
     <skip />
-    <!-- no translation found for action_corner_intro (8782001241997579665) -->
-    <skip />
-    <!-- no translation found for action_corner_bottom_left_title (2857258272736432174) -->
-    <skip />
-    <!-- no translation found for action_corner_bottom_right_title (7222233500548465684) -->
-    <skip />
-    <!-- no translation found for action_corner_top_left_title (4633975226092344210) -->
-    <skip />
-    <!-- no translation found for action_corner_top_right_title (4995999693840776032) -->
-    <skip />
-    <!-- no translation found for action_corner_action_none (5203163099950649999) -->
-    <skip />
-    <!-- no translation found for action_corner_action_home (6779642573582379579) -->
-    <skip />
-    <!-- no translation found for action_corner_action_recent_apps (7450480676812648813) -->
-    <skip />
-    <!-- no translation found for action_corner_action_notifications (3779353356349774469) -->
-    <skip />
-    <!-- no translation found for action_corner_action_quick_settings (4660901117283653069) -->
-    <skip />
-    <!-- no translation found for action_corner_action_dialog_title (8253240813317885237) -->
-    <skip />
-    <!-- no translation found for action_corner_bottom_left_name (9193788067022476544) -->
-    <skip />
-    <!-- no translation found for action_corner_bottom_right_name (1031603363418505375) -->
-    <skip />
-    <!-- no translation found for action_corner_top_left_name (8077670910600032291) -->
-    <skip />
-    <!-- no translation found for action_corner_top_right_name (6307321595919080297) -->
-    <skip />
+    <string name="action_corner_bottom_left_title" msgid="2857258272736432174">"Linke untere Ecke"</string>
+    <string name="action_corner_bottom_right_title" msgid="7222233500548465684">"Rechte untere Ecke"</string>
+    <string name="action_corner_top_left_title" msgid="4633975226092344210">"Linke obere Ecke"</string>
+    <string name="action_corner_top_right_title" msgid="4995999693840776032">"Rechte obere Ecke"</string>
+    <string name="action_corner_action_none" msgid="5203163099950649999">"Keine"</string>
+    <string name="action_corner_action_home" msgid="6779642573582379579">"Startseite"</string>
+    <string name="action_corner_action_recent_apps" msgid="7450480676812648813">"Zuletzt aktive Apps"</string>
+    <string name="action_corner_action_notifications" msgid="3779353356349774469">"Benachrichtigungen"</string>
+    <string name="action_corner_action_quick_settings" msgid="4660901117283653069">"Schnelleinstellungen"</string>
+    <string name="action_corner_action_dialog_title" msgid="8253240813317885237">"Verknüpfung für <xliff:g id="CORNER">%1$s</xliff:g> auswählen"</string>
+    <string name="action_corner_bottom_left_name" msgid="9193788067022476544">"linke untere Ecke"</string>
+    <string name="action_corner_bottom_right_name" msgid="1031603363418505375">"rechte untere Ecke"</string>
+    <string name="action_corner_top_left_name" msgid="8077670910600032291">"linke obere Ecke"</string>
+    <string name="action_corner_top_right_name" msgid="6307321595919080297">"rechte obere Ecke"</string>
     <string name="modifier_keys_settings" msgid="2537108435032034683">"Modifikatortasten"</string>
     <string name="modifier_keys_settings_summary" msgid="6933143361657444436">"Verhalten von Tasten ändern"</string>
     <string name="modifier_keys_reset_title" msgid="948294258402761066">"Alle zurücksetzen"</string>
@@ -2409,8 +2400,7 @@
     <string name="accessibility_screen_magnification_shortcut_title" msgid="2387963646377987780">"Kurzbefehl für Vergrößerung"</string>
     <string name="accessibility_magnification_cursor_following_title" msgid="29531257984012743">"Folgemodus für Cursor"</string>
     <string name="accessibility_magnification_cursor_following_header" msgid="7283095798622223509">"Wähle aus, wie die Vergrößerung deinem Cursor folgt."</string>
-    <!-- no translation found for accessibility_magnification_cursor_following_unavailable_summary (1683880243856242269) -->
-    <skip />
+    <string name="accessibility_magnification_cursor_following_unavailable_summary" msgid="1683880243856242269">"Nicht verfügbar, solange nur ein Teil des Bildschirms vergrößert wird"</string>
     <string name="accessibility_magnification_cursor_following_continuous" msgid="1119319218662522794">"Display kontinuierlich mit den Bewegungen der Maus bewegen"</string>
     <string name="accessibility_magnification_cursor_following_center" msgid="3504798009192014460">"Maus beim Bewegen des Displays in der Mitte halten"</string>
     <string name="accessibility_magnification_cursor_following_edge" msgid="8675207762416655758">"Display bewegen, wenn die Maus den Displayrand berührt"</string>
@@ -2551,32 +2541,20 @@
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_title" msgid="4987009529235165664">"Vergrößerung automatisch aktualisieren"</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_summary" msgid="9034532513972547720">"Vergrößerung bei App-Übergängen aktualisieren"</string>
     <string name="accessibility_power_button_ends_call_prerefence_title" msgid="8187306131979612144">"Ein/Aus-Taste beendet Anruf"</string>
-    <!-- no translation found for dark_theme_version_category (8563711427335567656) -->
-    <skip />
-    <!-- no translation found for accessibility_standard_dark_theme_title (7755139172613415921) -->
-    <skip />
-    <!-- no translation found for accessibility_standard_dark_theme_title_in_search (6182199392044601252) -->
-    <skip />
-    <!-- no translation found for accessibility_standard_dark_theme_summary (5462837198570089294) -->
-    <skip />
-    <!-- no translation found for accessibility_expanded_dark_theme_title (9221540446783335817) -->
-    <skip />
-    <!-- no translation found for accessibility_expanded_dark_theme_title_in_search (6003085770489582863) -->
-    <skip />
-    <!-- no translation found for accessibility_expanded_dark_theme_summary (7600947929245673753) -->
-    <skip />
+    <string name="dark_theme_version_category" msgid="8563711427335567656">"Modus"</string>
+    <string name="accessibility_standard_dark_theme_title" msgid="7755139172613415921">"Standard"</string>
+    <string name="accessibility_standard_dark_theme_title_in_search" msgid="6182199392044601252">"Dunkles Standard-Design"</string>
+    <string name="accessibility_standard_dark_theme_summary" msgid="5462837198570089294">"Wendet das dunkle Design auf deinem Gerät und in unterstützten Apps an"</string>
+    <string name="accessibility_expanded_dark_theme_title" msgid="9221540446783335817">"Erweitert"</string>
+    <string name="accessibility_expanded_dark_theme_title_in_search" msgid="6003085770489582863">"Erweitertes dunkles Design"</string>
+    <string name="accessibility_expanded_dark_theme_summary" msgid="7600947929245673753">"Das dunkle Design wird automatisch auf mehr Apps angewendet, um die Barrierefreiheit zu verbessern"</string>
     <string name="accessibility_disable_animations" msgid="2993529829457179058">"Animationen entfernen"</string>
     <string name="accessibility_disable_animations_summary" msgid="5828228669556554565">"Bewegung auf dem Bildschirm verringern"</string>
-    <!-- no translation found for accessibility_text_cursor_blink_rate_title (2560387611012958520) -->
-    <skip />
-    <!-- no translation found for accessibility_text_cursor_blink_rate_summary (6629885087638846245) -->
-    <skip />
-    <!-- no translation found for accessibility_text_cursor_blink_rate_slower_desc (5255697869959801747) -->
-    <skip />
-    <!-- no translation found for accessibility_text_cursor_blink_rate_faster_desc (5236406089575390876) -->
-    <skip />
-    <!-- no translation found for accessibility_text_cursor_blink_rate_reset_button_label (393679766407314372) -->
-    <skip />
+    <string name="accessibility_text_cursor_blink_rate_title" msgid="2560387611012958520">"Blinken des Textcursors"</string>
+    <string name="accessibility_text_cursor_blink_rate_summary" msgid="6629885087638846245">"Du kannst die Blinkgeschwindigkeit des Textcursors anpassen oder das Blinken deaktivieren. Dies wird möglicherweise nicht in allen Apps oder auf allen Websites unterstützt."</string>
+    <string name="accessibility_text_cursor_blink_rate_slower_desc" msgid="5255697869959801747">"Blinkgeschwindigkeit verringern"</string>
+    <string name="accessibility_text_cursor_blink_rate_faster_desc" msgid="5236406089575390876">"Blinkgeschwindigkeit erhöhen"</string>
+    <string name="accessibility_text_cursor_blink_rate_reset_button_label" msgid="393679766407314372">"Zurücksetzen"</string>
     <string name="accessibility_toggle_primary_mono_title" msgid="7587152099472946571">"Mono-Audio"</string>
     <string name="accessibility_toggle_primary_mono_summary" msgid="1935283927319407303">"Kanäle bei Audiowiedergabe kombinieren"</string>
     <string name="accessibility_toggle_primary_balance_title" msgid="7332275200153366714">"Audiobalance"</string>
@@ -2666,6 +2644,10 @@
     <string name="accessibility_daltonizer_footer_learn_more_content_description" msgid="2091679253892040910">"Weitere Informationen zur Farbkorrektur"</string>
     <string name="accessibility_color_inversion_about_title" msgid="8275754480247040136">"Über die Farbumkehr"</string>
     <string name="accessibility_color_inversion_footer_learn_more_content_description" msgid="5382579548498952445">"Weitere Informationen zur Farbumkehr"</string>
+    <!-- no translation found for accessibility_dark_theme_footer_learn_more_helper_link (7084955775821075280) -->
+    <skip />
+    <!-- no translation found for accessibility_dark_theme_preference_footer_content (4431044600779983609) -->
+    <skip />
     <string name="accessibility_captioning_primary_switch_title" msgid="3663677340286206100">"Untertitel anzeigen"</string>
     <string name="accessibility_captioning_primary_switch_summary" msgid="2544094070306830218">"Nur für unterstützte Apps"</string>
     <string name="captioning_appearance_title" msgid="3128792092290011408">"Untertitelgröße und -stil"</string>
@@ -3732,8 +3714,7 @@
     <string name="zen_mode_settings_schedules_summary" msgid="2047688589286811617">"{count,plural, =0{Keine}=1{1 Zeitplan festgelegt}other{# Zeitpläne festgelegt}}"</string>
     <string name="zen_mode_settings_title" msgid="682676757791334259">"Bitte nicht stören"</string>
     <string name="zen_modes_list_title" msgid="4796033710444068729">"Modi"</string>
-    <!-- no translation found for zen_modes_list_intro (1879511587535247228) -->
-    <skip />
+    <string name="zen_modes_list_intro" msgid="1879511587535247228">"Mit dem passenden Modus für Schlaf, Arbeit, Autofahren und viele andere Situationen kannst du Ablenkungen minimieren und fokussiert bleiben"</string>
     <string name="zen_modes_add_mode" msgid="5926457160307593664">"Eigenen Modus erstellen"</string>
     <string name="zen_mode_settings_summary" msgid="6040862775514495191">"Benachrichtigungen nur von wichtigen Personen und Apps"</string>
     <string name="zen_mode_select_schedule" msgid="663163931596092952">"Zeitplan festlegen"</string>
@@ -4355,10 +4336,8 @@
     <string name="app_permissions" msgid="8666537659217653626">"Berechtigungs­manager"</string>
     <string name="app_data_sharing_updates_title" msgid="1694297952320402788">"Änderungen bei der Weitergabe von Standortdaten"</string>
     <string name="app_data_sharing_updates_summary" msgid="4465929918457739443">"Apps ansehen, bei denen sich die Art der Weitergabe deiner Standortdaten geändert hat"</string>
-    <!-- no translation found for app_function_access_settings_title (1474765429611652468) -->
-    <skip />
-    <!-- no translation found for app_function_access_settings_summary (6465715820745848068) -->
-    <skip />
+    <string name="app_function_access_settings_title" msgid="1474765429611652468">"KI-Agent-Steuerung anderer Apps"</string>
+    <string name="app_function_access_settings_summary" msgid="6465715820745848068">"Aktionen werden auf deinem Gerät und in anderen Apps ausgeführt"</string>
     <string name="tap_to_wake" msgid="3313433536261440068">"Zum Aktivieren tippen"</string>
     <string name="tap_to_wake_summary" msgid="6641039858241611072">"Tippe doppelt auf den Bildschirm, um das Gerät zu aktivieren."</string>
     <string name="domain_urls_title" msgid="7012209752049678876">"Links öffnen"</string>
@@ -4518,10 +4497,8 @@
     <string name="screen_zoom_short_summary" msgid="756254364808639194">"Alles vergrößern oder verkleinern"</string>
     <string name="screen_zoom_keywords" msgid="5964023524422386592">"kompaktheitsgrad, bildschirm zoom, display zoom, maßstab, skalierung, skalieren"</string>
     <string name="screen_zoom_preview_title" msgid="5288355628444562735">"Vorschau"</string>
-    <!-- no translation found for screen_zoom_make_smaller_desc (1450649885198381123) -->
-    <skip />
-    <!-- no translation found for screen_zoom_make_larger_desc (7125594310562596457) -->
-    <skip />
+    <string name="screen_zoom_make_smaller_desc" msgid="1450649885198381123">"Anzeigegröße verkleinern"</string>
+    <string name="screen_zoom_make_larger_desc" msgid="7125594310562596457">"Anzeigegröße vergrößern"</string>
     <string name="disconnected" msgid="3469373726996129247">"Nicht verbunden"</string>
     <string name="keyboard_disconnected" msgid="796053864561894531">"Nicht verbunden"</string>
     <string name="apps_summary" msgid="4007416751775414252">"<xliff:g id="COUNT">%1$d</xliff:g> Apps installiert"</string>
@@ -4541,6 +4518,10 @@
     <string name="disabled_by_policy_title_financed_device" msgid="2328740314082888228">"Von deinem Kreditinstitut blockiert"</string>
     <string name="disabled_by_policy_title_biometric_parental_consent" msgid="2463673997797134678">"Elternerlaubnis erforderlich"</string>
     <string name="disabled_by_policy_content_biometric_parental_consent" msgid="7124116806784305206">"Gib das Smartphone einem Elternteil, um mit der Einrichtung zu beginnen"</string>
+    <!-- no translation found for disabled_by_policy_title_parental_controls (8875976588644052371) -->
+    <skip />
+    <!-- no translation found for disabled_by_policy_content_parental_controls (4648160125103768738) -->
+    <skip />
     <string name="disabled_by_policy_parental_consent" msgid="9166060049019018978">"Gib das Smartphone zum Ändern dieser Einstellung einem Elternteil."</string>
     <string name="default_admin_support_msg" msgid="8816296554831532033">"Wenn du mehr wissen möchtest, wende dich an deinen IT-Administrator"</string>
     <string name="admin_support_more_info" msgid="8407433155725898290">"Weitere Details"</string>
@@ -4656,7 +4637,8 @@
     <string name="battery_tips_card_action_button_check" msgid="1535140204105479318">"Ansehen"</string>
     <string name="battery_tips_card_dismiss_button" msgid="1885756985544936618">"Ok"</string>
     <string name="battery_tips_card_feedback_info" msgid="767117835675157298">"War diese Nachricht hilfreich?"</string>
-    <string name="battery_hints_warning_icon_a11y" msgid="5312542323401447620">"Warnsymbol für Akkutipps"</string>
+    <!-- no translation found for battery_hints_warning_icon_a11y (709629805028175434) -->
+    <skip />
     <string name="battery_tips_settings_summary_brightness" msgid="546145032616077783">"Automatische Helligkeit aktivieren, um die Akkulaufzeit zu verlängern"</string>
     <string name="battery_tips_settings_summary_screen_timeout" msgid="556801426050962077">"Zeit bis zum automatischen Ausschalten des Displays verkürzen, um die Akkulaufzeit zu verlängern"</string>
     <string name="battery_tips_apps_summary_always_high" msgid="6334519477067044920">"<xliff:g id="APP_LABEL">%1$s</xliff:g> hat den Akku stärker beansprucht"</string>
@@ -5376,15 +5358,13 @@
     <string name="enable_16k_pages" msgid="1758111531461408337">"Mit Seitengröße von 16 KB starten"</string>
     <string name="enable_16k_pages_summary" msgid="1937836453571509085">"Mit Kernel starten, der 16‑KB-Seiten unterstützt"</string>
     <string name="confirm_enable_16k_pages_title" msgid="5477376227161609124">"Vom 4‑KB-Modus zum 16‑KB-Modus wechseln"</string>
-    <!-- no translation found for confirm_enable_16k_pages_update_wipe (4760548401414644138) -->
-    <skip />
+    <string name="confirm_enable_16k_pages_update_wipe" msgid="4760548401414644138">"Bevor die 16‑KB-Entwickleroption verwendet werden kann, muss die Datenpartition des Geräts in ext4 umgewandelt werden. Alle Daten auf dem Gerät werden gelöscht und das Dateisystem wird nach entsprechender Bestätigung in ext4 geändert. Du befindest dich gerade im Produktionsmodus mit einem 4‑KB-Kernel und bist im Begriff, zum 16‑KB-Modus zu wechseln. Wenn du dann in diesem Modus bist, reicht für den Wechsel zwischen dem 4‑KB-Modus und dem 16‑KB-Modus ein einmaliger Neustart aus. Beachte, dass in diesem Modus die Softwareintegrität nicht sichergestellt werden kann und alle auf dem Smartphone gespeicherten Daten gefährdet sind, während der Bootloader entsperrt ist. Einige Funktionen werden in diesen Modi deaktiviert, weshalb bestimmte Anwendungen möglicherweise nicht funktionieren. Wenn du das Gerät in den Produktionsmodus zurückversetzen möchtest, musst du zurück in den 4‑KB-Modus wechseln und dann den Bootloader sperren. Dadurch wird das Gerät auf die Werkseinstellungen zurückgesetzt. Nachdem das Gerät hochgefahren und Android gestartet wurde, deaktiviere in den Entwickleroptionen die OEM‑Entsperrung. Klicke zum Fortfahren auf „Alle Daten löschen und aktualisieren“. Dadurch wird das Gerät neu gestartet."</string>
     <string name="confirm_enable_16k_pages_text" msgid="6211693250692246982">"Du befindest dich zurzeit im speicherseitenunabhängigen Modus mit einem 4‑KB-Kernel und bist dabei, zum 16‑KB-Modus zu wechseln. Beachte, dass bei entsperrtem Bootloader die Softwareintegrität nicht sichergestellt werden kann und alle auf dem Smartphone gespeicherten Daten gefährdet sind. Wenn du dennoch wechselst, wird das Gerät neu gestartet. Einige Funktionen werden in diesen Modi deaktiviert, weshalb bestimmte Anwendungen möglicherweise nicht funktionieren. Wenn du das Gerät in den Produktionsmodus zurückversetzen möchtest, musst du zurück in den 4‑KB-Modus wechseln und dann den Bootloader sperren. Dadurch wird das Gerät auf die Werkseinstellungen zurückgesetzt. Nachdem das Gerät hochgefahren und Android gestartet wurde, deaktiviere in den Entwickleroptionen die OEM-Entsperrung."</string>
     <string name="confirm_enable_4k_pages_title" msgid="3001009010581393119">"Vom 16‑KB-Modus zum 4‑KB-Modus wechseln"</string>
     <string name="confirm_enable_4k_pages_text" msgid="3398001587586470689">"Du befindest dich zurzeit im speicherseitenunabhängigen Modus mit einem 4‑KB-Kernel und bist dabei, zum 16‑KB-Modus zu wechseln. Beachte, dass bei entsperrtem Bootloader die Softwareintegrität nicht sichergestellt werden kann und alle auf dem Smartphone gespeicherten Daten gefährdet sind. Wenn du dennoch wechselst, wird das Gerät neu gestartet. Einige Funktionen werden in diesen Modi deaktiviert, weshalb bestimmte Anwendungen möglicherweise nicht funktionieren. Wenn du das Gerät in den Produktionsmodus zurückversetzen möchtest, musst du zuerst den Bootloader sperren. Dadurch wird das Gerät auf die Werkseinstellungen zurückgesetzt. Nachdem das Gerät hochgefahren und Android gestartet wurde, deaktiviere in den Entwickleroptionen die OEM-Entsperrung."</string>
     <string name="toast_16k_update_failed_text" msgid="7848383020572918850">"Kernel konnte nicht auf mit 16‑KB-Seiten kompatiblen Kernel aktualisiert werden."</string>
     <string name="progress_16k_ota_title" msgid="2117218313875523741">"Änderung wird übernommen"</string>
-    <!-- no translation found for confirm_ext4_button_text (697563319110759422) -->
-    <skip />
+    <string name="confirm_ext4_button_text" msgid="697563319110759422">"Alle Daten löschen und aktualisieren"</string>
     <string name="format_ext4_failure_toast" msgid="8059453995800471549">"Die Datenpartition konnte nicht gelöscht und mit ext4 neu formatiert werden."</string>
     <string name="confirm_oem_unlock_for_16k_title" msgid="6062041826568112078">"Entsperrren des Bootloaders erforderlich"</string>
     <string name="confirm_oem_unlock_for_16k_text" msgid="8089310116854544106">"Bevor auf diesem Gerät die 16‑KB-Entwickleroption verwendet werden kann, muss der Bootloader entsperrt werden. Beachte, dass bei entsperrtem Bootloader die Softwareintegrität nicht sichergestellt werden kann und alle auf dem Smartphone gespeicherten Daten gefährdet sind. Durch Aktivieren des 16‑KB-Modus werden alle Nutzerdaten und ‑einstellungen gelöscht. Nachdem der Bootloader entsperrt wurde, sind zur Aktivierung des 16‑KB-Modus zwei Neustarts erforderlich. Wenn du dann in diesem Modus bist, reicht für den Wechsel zwischen dem 4‑KB-Modus und dem 16‑KB-Modus ein einmaliger Neustart aus. Einige Funktionen werden in diesen Modi deaktiviert, weshalb bestimmte Anwendungen möglicherweise nicht funktionieren. Wenn du das Gerät in den Produktionsmodus zurückversetzen möchtest, musst du zurück in den 4‑KB-Modus wechseln und dann die OEM-/Bootloader-Sperre einrichten. Dadurch wird das Gerät auf die Werkseinstellungen zurückgesetzt. Bitte entsperre den Bootloader und versuch es noch einmal. Eine Anleitung hierzu findest du unter &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt;."</string>
@@ -5880,21 +5860,28 @@
     <string name="search_gesture_feature_summary" msgid="1793056495030564014">"Halte den Home-Button oder den Navigationsziehpunkt gedrückt, um anhand des Inhalts auf dem Bildschirm zu suchen."</string>
     <string name="device_detail_icon_content_description" msgid="6699151424374841937">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>. Gerätedetail konfigurieren."</string>
     <string name="supervision_settings_title" msgid="8507163323870367711">"Jugendschutzeinstellungen"</string>
-    <string name="supervision_settings_summary" msgid="5020634300370322741">"Inhaltsbeschränkungen und andere Limits"</string>
+    <!-- no translation found for supervision_settings_summary (6304257872307136073) -->
+    <skip />
     <string name="device_supervision_switch_no_pin_summary" msgid="4869563544571033220">"PIN einrichten"</string>
-    <string name="device_supervision_switch_paused_summary" msgid="1014381188739295656">"Pausiert"</string>
-    <string name="keywords_supervision_settings" msgid="2580555201483955376">"Aufsicht, Elternaufsicht, Jugendschutzeinstellungen"</string>
+    <!-- no translation found for keywords_supervision_settings (43064288661561602) -->
+    <skip />
     <string name="supervision_pin_management_preference_title" msgid="7721501202320841845">"PIN verwalten"</string>
+    <!-- no translation found for supervision_pin_management_preference_keywords (5034450635706621750) -->
+    <skip />
     <string name="supervision_pin_management_preference_summary_add" msgid="2247921267270577374">"E‑Mail-Adresse zur Kontowiederherstellung hinzufügen"</string>
     <string name="supervision_pin_management_preference_summary_verify_recovery" msgid="5072554239108915119">"E‑Mail-Adresse zur Kontowiederherstellung bestätigen"</string>
     <string name="supervision_change_pin_preference_title" msgid="2288584039438231801">"PIN ändern"</string>
     <string name="supervision_add_forgot_pin_preference_title" msgid="8939945404255748516">"PIN vergessen"</string>
+    <!-- no translation found for supervision_auth_prompt_forgot_pin_button_label (1019337828884793557) -->
+    <skip />
     <string name="supervision_update_recovery_email_preference_title" msgid="2057393838251915087">"E‑Mail-Adresse zur Kontowiederherstellung aktualisieren"</string>
     <string name="supervision_delete_pin_preference_title" msgid="8447541098148430866">"PIN löschen"</string>
-    <string name="supervision_delete_pin_preference_summary" msgid="4865713157106413979">"Dadurch werden alle Einstellungen für die Elternaufsicht zurückgesetzt"</string>
     <string name="supervision_add_pin_recovery_title" msgid="3487098027604685794">"E‑Mail-Adresse zur Kontowiederherstellung hinzufügen"</string>
     <string name="supervision_verify_pin_recovery_title" msgid="3166602415814821497">"E‑Mail-Adresse bestätigen"</string>
-    <string name="supervision_web_content_filters_title" msgid="3653430162065686156">"Filter für Webinhalte"</string>
+    <!-- no translation found for supervision_web_content_filters_title (2412562442507104921) -->
+    <skip />
+    <!-- no translation found for supervision_web_content_filters_keywords (8469519676189544447) -->
+    <skip />
     <string name="supervision_web_content_filters_top_intro" msgid="5264773769840566499">"Nicht jugendfreie Inhalte auf Websites und in Suchergebnissen in unterstützten Apps auf diesem Gerät blockieren. In nicht unterstützten Apps können weiterhin nicht jugendfreie Inhalte angezeigt werden."</string>
     <string name="supervision_web_content_filters_browser_title" msgid="8737341514264129889">"Websites"</string>
     <string name="supervision_web_content_filters_browser_filter_title" msgid="7957976669412075070">"Anstößige Websites blockieren"</string>
@@ -5904,8 +5891,7 @@
     <string name="supervision_choose_your_pin_header" msgid="3872062168986738629">"PIN für Jugendschutzeinstellungen festlegen"</string>
     <string name="supervision_confirm_your_pin_header" msgid="8236956712482718354">"PIN bestätigen"</string>
     <string name="supervision_pin_reset_success_toast" msgid="9163550161698311831">"PIN aktualisiert"</string>
-    <!-- no translation found for supervision_promo_footer_action_button_description (7617359721703338141) -->
-    <skip />
+    <string name="supervision_promo_footer_action_button_description" msgid="7617359721703338141">"App öffnen"</string>
     <string name="supervision_delete_pin_confirm_header" msgid="8499276643990949268">"PIN löschen?"</string>
     <string name="supervision_delete_pin_confirm_message" msgid="5482080400973042178">"Dadurch wird deine aktuelle PIN für alle Nutzer auf diesem Gerät gelöscht und die von dir eingerichteten Einstellungen werden deaktiviert. Diese Aktion kann nicht rückgängig gemacht werden."</string>
     <string name="supervision_delete_pin_supervision_enabled_header" msgid="2072311894107038402">"Zuerst Jugendschutzeinstellungen für andere Profile deaktivieren"</string>
