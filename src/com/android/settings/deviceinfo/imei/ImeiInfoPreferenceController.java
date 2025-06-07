@@ -99,6 +99,10 @@ public class ImeiInfoPreferenceController extends BasePreferenceController {
         screen.removePreference(preference);
         preference.setVisible(false);
 
+        if (Flags.catalystMyDeviceInfoPrefScreen()) {
+            return;
+        }
+
         // Add additional preferences for each imei slot in the device
         for (int simSlotNumber = 0; simSlotNumber < mSlotSimStatus.size(); simSlotNumber++) {
             Preference multiImeiPreference = createNewPreference(screen.getContext());
@@ -136,9 +140,6 @@ public class ImeiInfoPreferenceController extends BasePreferenceController {
 
     @Override
     public int getAvailabilityStatus() {
-        if (Flags.catalystMyDeviceInfoPrefScreen()) {
-            return UNSUPPORTED_ON_DEVICE;
-        }
         if (!Utils.isMobileDataCapable(mContext) && !Utils.isVoiceCapable(mContext)) {
             return UNSUPPORTED_ON_DEVICE;
         }

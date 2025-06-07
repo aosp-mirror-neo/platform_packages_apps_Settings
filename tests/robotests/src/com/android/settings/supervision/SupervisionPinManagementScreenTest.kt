@@ -96,6 +96,17 @@ class SupervisionPinManagementScreenTest {
     }
 
     @Test
+    fun getKeywords() {
+        assertThat(supervisionPinManagementScreen.keywords)
+            .isEqualTo(R.string.supervision_pin_management_preference_keywords)
+    }
+
+    @Test
+    fun isIndexable() {
+        assertThat(supervisionPinManagementScreen.isIndexable(context)).isTrue()
+    }
+
+    @Test
     @EnableFlags(Flags.FLAG_ENABLE_SUPERVISION_PIN_RECOVERY_SCREEN)
     fun getDescription_recoveryInfoMissing_addPinRecovery() {
         whenever(mockSupervisionManager.getSupervisionRecoveryInfo()).thenReturn(null)

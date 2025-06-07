@@ -76,6 +76,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
 import androidx.appcompat.app.AlertDialog;
+import androidx.lifecycle.Lifecycle;
 import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.PreferenceCategory;
@@ -523,6 +524,16 @@ public class FingerprintSettings extends SubSettings {
                 case FingerprintManager.FINGERPRINT_ERROR_USER_CANCELED:
                     // Only happens if we get preempted by another activity, or canceled by the
                     // user (e.g. swipe up to home). Ignored.
+                    // See b/401470277, the authentication may be cancelled by
+                    // FingerprintResetLockoutClient which is triggered after the confirmation of
+                    // either ConfirmLockPassword or ConfirmLockPattern.
+                    // In this case or other unexpected cases, let's retry authentication.
+                    // If the cancellation dues to the device is going to sleep, then
+                    // this authentication attempt would be cancelled later within onPause().
+                    if (getLifecycle().getCurrentState() == Lifecycle.State.RESUMED) {
+                        mInFingerprintLockout = false;
+                        retryFingerprint();
+                    }
                     return;
                 case FingerprintManager.FINGERPRINT_ERROR_LOCKOUT:
                     mInFingerprintLockout = true;

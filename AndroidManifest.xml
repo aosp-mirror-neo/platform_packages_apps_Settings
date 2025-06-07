@@ -2510,6 +2510,9 @@
                        android:value="@string/menu_key_security"/>
         </activity>
 
+        <service android:name=".accessibility.AccessibilitySurveyNotificationJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
         <receiver
             android:name=".accessibility.notification.SurveyNotificationReceiver"
             android:permission="android.permission.MANAGE_ACCESSIBILITY"
@@ -2846,6 +2849,15 @@
         <activity
             android:name=".supervision.SupervisionWebContentFiltersActivity"
             android:label="@string/supervision_web_content_filters_title"
+            android:exported="true">
+            <meta-data
+                android:name="com.android.settings.HIGHLIGHT_MENU_KEY"
+                android:value="@string/menu_key_supervision" />
+        </activity>
+
+        <activity
+            android:name=".supervision.SupervisionPinManagementActivity"
+            android:label="@string/supervision_pin_management_preference_title"
             android:exported="true">
             <meta-data
                 android:name="com.android.settings.HIGHLIGHT_MENU_KEY"

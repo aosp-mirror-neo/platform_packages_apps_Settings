@@ -63,6 +63,7 @@ open class VibrationScreen : PreferenceScreenMixin, PreferenceAvailabilityProvid
             if (Flags.catalystVibrationIntensityScreen25q4()) {
                 +CallVibrationPreferenceCategory() += {
                     +RingVibrationIntensitySwitchPreference(context)
+                    +RampingRingerVibrationSwitchPreference(context)
                 }
                 +NotificationAlarmVibrationPreferenceCategory() += {
                     +NotificationVibrationIntensitySwitchPreference(context)

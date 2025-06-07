@@ -24,6 +24,7 @@ import android.platform.test.flag.junit.SetFlagsRule
 import androidx.preference.Preference
 import androidx.test.core.app.ApplicationProvider
 import androidx.test.ext.junit.runners.AndroidJUnit4
+import com.android.settings.R
 import com.android.settings.supervision.SupervisionMainSwitchPreference.Companion.REQUEST_CODE_CONFIRM_SUPERVISION_CREDENTIALS
 import com.android.settings.supervision.ipc.SupervisionMessengerClient
 import com.android.settingslib.ipc.MessengerServiceRule
@@ -111,5 +112,22 @@ class SupervisionDashboardScreenTest {
 
             assertThat(childPreference.isEnabled).isFalse()
         }
+    }
+
+    @Test
+    fun getTitle() {
+        assertThat(preferenceScreenCreator.title)
+            .isEqualTo(R.string.supervision_settings_title)
+    }
+
+    @Test
+    fun getKeywords() {
+        assertThat(preferenceScreenCreator.keywords)
+            .isEqualTo(R.string.keywords_supervision_settings)
+    }
+
+    @Test
+    fun isIndexable() {
+        assertThat(preferenceScreenCreator.isIndexable(context)).isTrue()
     }
 }

@@ -326,6 +326,11 @@ public class SettingsBaseActivity extends FragmentActivity implements CategoryHa
         getToolbarDelegate().setOnItemSelectedListener(listener);
     }
 
+    @Override
+    public void removeOnItemSelectedListener() {
+        getToolbarDelegate().removeOnItemSelectedListener();
+    }
+
     private CollapsingToolbarDelegate getToolbarDelegate() {
         if (mToolbardelegate == null) {
             mToolbardelegate = new CollapsingToolbarDelegate(new EmptyDelegateCallback(), true);

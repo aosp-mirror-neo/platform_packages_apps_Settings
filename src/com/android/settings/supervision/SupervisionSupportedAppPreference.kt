@@ -20,8 +20,9 @@ import androidx.preference.Preference
 import com.android.settingslib.metadata.PreferenceMetadata
 import com.android.settingslib.preference.PreferenceBinding
 
-class SupervisionSearchFiltersSupportedAppPreference(
+class SupervisionSupportedAppPreference(
     private val titleString: CharSequence?,
+    private val summaryString: CharSequence?,
     private val packageName: String,
 ) : PreferenceMetadata, PreferenceBinding {
     override val key: String
@@ -35,10 +36,11 @@ class SupervisionSearchFiltersSupportedAppPreference(
             val icon = packageManager.getApplicationIcon(packageName)
 
             title = titleString
+            summary = summaryString
             setIcon(icon)
         }
 
     companion object {
-        const val KEY = "search_filters_supported_app"
+        const val KEY = "browser_filters_supported_app"
     }
 }

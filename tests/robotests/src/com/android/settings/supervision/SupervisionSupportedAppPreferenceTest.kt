@@ -31,9 +31,10 @@ import org.robolectric.Shadows.shadowOf
 import org.robolectric.shadows.ShadowPackageManager
 
 @RunWith(AndroidJUnit4::class)
-class SupervisionBrowserFiltersSupportedAppPreferenceTest {
+class SupervisionSupportedAppPreferenceTest {
     private val context: Context = ApplicationProvider.getApplicationContext()
     private val title = "title"
+    private val summary = "summary"
     private val appPackageName = "packageName"
     private val appIcon = ColorDrawable(Color.RED)
     private lateinit var preference: Preference
@@ -42,10 +43,7 @@ class SupervisionBrowserFiltersSupportedAppPreferenceTest {
     @Before
     fun setUp() {
         shadowPackageManager = shadowOf(context.packageManager)
-        val applicationInfo =
-            ApplicationInfo().apply {
-                packageName = appPackageName
-            }
+        val applicationInfo = ApplicationInfo().apply { packageName = appPackageName }
         shadowPackageManager.installPackage(
             PackageInfo().apply {
                 packageName = appPackageName
@@ -54,13 +52,17 @@ class SupervisionBrowserFiltersSupportedAppPreferenceTest {
         )
         shadowPackageManager.setApplicationIcon(appPackageName, appIcon)
         preference =
-            SupervisionBrowserFiltersSupportedAppPreference(title, appPackageName)
-                .createWidget(context)
+            SupervisionSupportedAppPreference(title, summary, appPackageName).createWidget(context)
     }
 
     @Test
     fun getTitle() {
         assertThat(preference.title).isEqualTo(title)
+    }
+
+    @Test
+    fun getSummary() {
+        assertThat(preference.summary).isEqualTo(summary)
     }
 
     @Test

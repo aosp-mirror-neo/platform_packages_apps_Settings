@@ -167,46 +167,6 @@ class SupervisionDeletePinPreferenceTest {
     }
 
     @Test
-    fun areAnyUsersSupervisedExceptCurrent_currentUserSupervised_returnsFalse() {
-        mockUserManager.stub {
-            on { users } doReturn listOf(MAIN_USER, SECONDARY_USER, SUPERVISING_PROFILE)
-        }
-        mockSupervisionManager.stub {
-            on { isSupervisionEnabledForUser(MAIN_USER_ID) } doReturn true
-            on { isSupervisionEnabledForUser(SECONDARY_USER_ID) } doReturn false
-            on { isSupervisionEnabledForUser(SUPERVISING_USER_ID) } doReturn false
-        }
-
-        assertThat(
-                preference.areAnyUsersExceptCurrentSupervised(
-                    mockSupervisionManager,
-                    mockUserManager,
-                )
-            )
-            .isFalse()
-    }
-
-    @Test
-    fun areAnyUsersSupervisedExceptCurrent_secondaryUserSupervised_returnsTrue() {
-        mockUserManager.stub {
-            on { users } doReturn listOf(MAIN_USER, SECONDARY_USER, SUPERVISING_PROFILE)
-        }
-        mockSupervisionManager.stub {
-            on { isSupervisionEnabledForUser(MAIN_USER_ID) } doReturn true
-            on { isSupervisionEnabledForUser(SECONDARY_USER_ID) } doReturn true
-            on { isSupervisionEnabledForUser(SUPERVISING_USER_ID) } doReturn false
-        }
-
-        assertThat(
-                preference.areAnyUsersExceptCurrentSupervised(
-                    mockSupervisionManager,
-                    mockUserManager,
-                )
-            )
-            .isTrue()
-    }
-
-    @Test
     fun onConfirmDeleteClick_currentUserSupervised_deletesSupervisionData() {
         mockUserManager.stub {
             on { users } doReturn listOf(MAIN_USER, SECONDARY_USER, SUPERVISING_PROFILE)
@@ -247,8 +207,8 @@ class SupervisionDeletePinPreferenceTest {
 
         val result = ActivityResult(Activity.RESULT_OK, null)
         capturedActivityResultCallback?.onActivityResult(result)
-        // We should disable supervision before the supervising profile is removed
-        verify(mockSupervisionManager).setSupervisionEnabled(false)
+        // Don't disable supervision if we can't delete data, even though we could.
+        verify(mockSupervisionManager, never()).setSupervisionEnabled(any())
         verify(mockSupervisionManager, never()).setSupervisionRecoveryInfo(any())
         assertThat(startedIntent).isNull()
         assertAlertDialogHasMessage(R.string.supervision_delete_pin_error_message)

@@ -6090,6 +6090,12 @@
     <string name="accessibility_color_inversion_about_title">About color inversion</string>
     <!-- Color correction footer link content description [CHAR LIMIT=NONE] -->
     <string name="accessibility_color_inversion_footer_learn_more_content_description">Learn more about color inversion</string>
+    <!-- Dark theme footer link text [CHAR LIMIT=NONE] -->
+    <string name="accessibility_dark_theme_footer_learn_more_helper_link">Learn more about Dark theme</string>
+    <!-- Footer Content for the expanded dark theme. [CHAR LIMIT=NONE] -->
+    <string name="accessibility_dark_theme_preference_footer_content">
+        Some apps may not support Dark theme in the expanded setting. If you experience appearance issues, use the standard setting.
+    </string>
     <!-- Title for captioning settings screen to control turning on/off the feature entirely [CHAR LIMIT=60] -->
     <string name="accessibility_captioning_primary_switch_title">Show captions</string>
     <!-- Summary for captioning settings screen to control turning on/off the feature entirely [CHAR LIMIT=NONE] -->
@@ -8128,6 +8134,8 @@ Data usage charges may apply.</string>
     <string name="help_url_apps_and_notifications" translatable="false"></string>
     <string name="help_url_night_display" translatable="false"></string>
     <string name="help_url_dark_theme" translatable="false"></string>
+    <!-- Help URL, Expanded Dark Theme [DO NOT TRANSLATE] -->
+    <string name="help_url_dark_theme_link" translatable="false"></string>
     <string name="help_url_screen_saver" translatable="false"></string>
     <string name="help_url_pickup_gesture" translatable="false"></string>
     <string name="help_url_storage_dashboard" translatable="false"></string>
@@ -11432,7 +11440,7 @@ Data usage charges may apply.</string>
     <string name="battery_tips_card_feedback_info">Is this message helpful?</string>
 
     <!-- Content description for battery hints warning icon of app anomaly [CHAR LIMIT=NONE] -->
-    <string name="battery_hints_warning_icon_a11y">Battery tips warning icon</string>
+    <string name="battery_hints_warning_icon_a11y">Battery warning tips</string>
 
     <!-- Summary of settings anomaly for adaptive brightness [CHAR LIMIT=NONE] -->
     <string name="battery_tips_settings_summary_brightness">Turn on adaptive brightness to extend battery life</string>
@@ -14557,9 +14565,11 @@ Data usage charges may apply.</string>
     <!-- Description of device supervision toggle when PIN has never been set up [CHAR LIMIT=NONE] -->
     <string name="device_supervision_switch_no_pin_summary">Set up PIN</string>
     <!-- Search keywords for supervision settings [CHAR LIMIT=NONE] -->
-    <string name="keywords_supervision_settings">supervision, parental supervision, parental controls</string>
+    <string name="keywords_supervision_settings">supervision, parental controls, parents, supervision pin, pin</string>
     <!-- Title for supervision PIN management settings entry [CHAR LIMIT=60] -->
     <string name="supervision_pin_management_preference_title">Manage your PIN</string>
+    <!-- Search keywords for supervision PIN management settings entry [CHAR LIMIT=NONE] -->
+    <string name="supervision_pin_management_preference_keywords">Parent PIN, Parental controls PIN</string>
     <!-- Description for supervision PIN management settings entry, in the case of adding a PIN recovery method[CHAR LIMIT=NONE] -->
     <string name="supervision_pin_management_preference_summary_add">Add recovery email</string>
     <!-- Description for supervision PIN management settings entry, in the case of verifying the PIN recovery method[CHAR LIMIT=NONE] -->
@@ -14568,6 +14578,8 @@ Data usage charges may apply.</string>
     <string name="supervision_change_pin_preference_title">Change PIN</string>
     <!-- Title for supervision forgot PIN setting entry [CHAR LIMIT=60] -->
     <string name="supervision_add_forgot_pin_preference_title">Forgot PIN</string>
+    <!-- Label for the fallback option button "Forgot PIN?" on the authentication prompt [CHAR LIMIT=60] -->
+    <string name="supervision_auth_prompt_forgot_pin_button_label">Forgot PIN?</string>
     <!-- Title for supervision update PIN recovery email setting entry [CHAR LIMIT=60] -->
     <string name="supervision_update_recovery_email_preference_title">Update recovery email</string>
     <!-- Title for supervision delete pin setting entry [CHAR LIMIT=60] -->
@@ -14577,7 +14589,9 @@ Data usage charges may apply.</string>
     <!-- Title for adding supervision PIN recovery setting entry [CHAR LIMIT=NONE] -->
     <string name="supervision_verify_pin_recovery_title">Verify your email</string>
     <!-- Title for web content filters entry [CHAR LIMIT=60] -->
-    <string name="supervision_web_content_filters_title">Web content filters</string>
+    <string name="supervision_web_content_filters_title">Website content filters</string>
+    <!-- Search keywords for web content filters entry [CHAR LIMIT=NONE] -->
+    <string name="supervision_web_content_filters_keywords">Website filters, Block sites, Browser filters, Block explicit sites, Filter sites, Block search results, Filter explicit search results, content restrictions</string>
     <!-- Top intro for web content filters [CHAR LIMIT=NONE] -->
     <string name="supervision_web_content_filters_top_intro">Block mature content on websites and search results on supported apps on this device. Unsupported apps may still show explicit content.</string>
     <!-- Title for web content filters browser category [CHAR LIMIT=60] -->
@@ -14592,7 +14606,7 @@ Data usage charges may apply.</string>
     <string name="supervision_web_content_filters_learn_more_link" translatable="false">https://support.google.com/android?p=device_supervision_web_filters</string>
     <!-- Generic content description that is attached to the preview illustration at the top of an Accessibility feature toggle page. [CHAR LIMIT=NONE] -->
     <!-- Title for supervision PIN verification screen [CHAR LIMIT=60] -->
-    <string name="supervision_full_screen_pin_verification_title">Enter supervision PIN</string>
+    <string name="supervision_full_screen_pin_verification_title">Enter parental controls PIN</string>
     <!-- Title on activity to choose PIN for supervision setup [CHAR LIMIT=NONE] -->
     <string name="supervision_choose_your_pin_header">Set a parental controls PIN</string>
     <!-- Title on activity to confirm PIN for supervision setup [CHAR LIMIT=NONE] -->

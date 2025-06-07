@@ -38,5 +38,27 @@ class SupervisionDashboardActivity :
             startActivity(loadingActivity)
             finish()
         }
+
+        if (shouldRedirectToFullSupervision()) {
+            val intent =
+                Intent(FULL_SUPERVISION_REDIRECT_ACTION).setPackage(systemSupervisionPackageName)
+            startActivity(intent)
+            finish()
+        }
+    }
+
+    private fun shouldRedirectToFullSupervision(): Boolean {
+        // The user is deemed to be fully supervised if the supervision role holder is not empty
+        if (supervisionRoleHolders.isEmpty() || systemSupervisionPackageName == null) {
+            return false
+        }
+
+        val intent =
+            Intent(FULL_SUPERVISION_REDIRECT_ACTION).setPackage(systemSupervisionPackageName)
+        return packageManager.queryIntentActivitiesAsUser(intent, 0, userId).isNotEmpty()
+    }
+
+    companion object {
+        const val FULL_SUPERVISION_REDIRECT_ACTION = "android.app.supervision.action.VIEW_SETTINGS"
     }
 }

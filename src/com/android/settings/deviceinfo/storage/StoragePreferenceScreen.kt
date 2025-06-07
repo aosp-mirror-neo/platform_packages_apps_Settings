@@ -63,8 +63,7 @@ open class StoragePreferenceScreen(private val context: Context) :
             .setPackage(context.packageName)
     }
 
-    override fun isFlagEnabled(context: Context) =
-        Flags.catalystSystemStorage() || Flags.deviceState()
+    override fun isFlagEnabled(context: Context) = Flags.catalystSystemStorage()
 
     override fun hasCompleteHierarchy() = false
 

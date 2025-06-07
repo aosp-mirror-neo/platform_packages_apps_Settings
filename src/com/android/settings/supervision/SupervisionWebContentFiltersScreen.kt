@@ -25,6 +25,7 @@ import com.android.settings.CatalystSettingsActivity
 import com.android.settings.R
 import com.android.settings.core.PreferenceScreenMixin
 import com.android.settings.supervision.ipc.SupervisionMessengerClient
+import com.android.settings.supervision.ipc.SupportedApp
 import com.android.settings.utils.makeLaunchIntent
 import com.android.settingslib.metadata.PreferenceCategory
 import com.android.settingslib.metadata.PreferenceLifecycleContext
@@ -33,6 +34,7 @@ import com.android.settingslib.metadata.PreferenceMetadata
 import com.android.settingslib.metadata.ProvidePreferenceScreen
 import com.android.settingslib.metadata.preferenceHierarchy
 import com.android.settingslib.preference.forEachRecursively
+import kotlin.text.get
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -54,6 +56,9 @@ open class SupervisionWebContentFiltersScreen : PreferenceScreenMixin, Preferenc
 
     override val title: Int
         get() = R.string.supervision_web_content_filters_title
+
+    override val keywords: Int
+        get() = R.string.supervision_web_content_filters_keywords
 
     override val icon: Int
         get() = R.drawable.ic_globe
@@ -136,35 +141,39 @@ open class SupervisionWebContentFiltersScreen : PreferenceScreenMixin, Preferenc
                     )
                 }
 
-            val browserFilterSupportedApps =
-                supportedAppsMap?.get(BROWSER_FILTERS_SUPPORTED_APPS) ?: emptyList()
-            context.findPreference<PreferenceGroup>(BROWSER_FILTERS_GROUP)?.apply {
-                for (supportedApp in browserFilterSupportedApps) {
-                    val packageName = supportedApp.packageName
-                    if (packageName != null) {
-                        SupervisionBrowserFiltersSupportedAppPreference(
-                                supportedApp.title,
-                                packageName,
-                            )
-                            .createWidget(context)
-                            .let { addPreference(it) }
-                    }
-                }
-            }
+            createSupportedAppPreference(
+                context,
+                BROWSER_FILTERS_GROUP,
+                BROWSER_FILTERS_SUPPORTED_APPS,
+                supportedAppsMap,
+            )
+            createSupportedAppPreference(
+                context,
+                SEARCH_FILTERS_GROUP,
+                SEARCH_FILTERS_SUPPORTED_APPS,
+                supportedAppsMap,
+            )
+        }
+    }
 
-            val searchFilterSupportedApps =
-                supportedAppsMap?.get(SEARCH_FILTERS_SUPPORTED_APPS) ?: emptyList()
-            context.findPreference<PreferenceGroup>(SEARCH_FILTERS_GROUP)?.apply {
-                for (supportedApp in searchFilterSupportedApps) {
-                    val packageName = supportedApp.packageName
-                    if (packageName != null) {
-                        SupervisionSearchFiltersSupportedAppPreference(
-                                supportedApp.title,
-                                packageName,
-                            )
-                            .createWidget(context)
-                            .let { addPreference(it) }
-                    }
+    private fun createSupportedAppPreference(
+        context: PreferenceLifecycleContext,
+        filterGroup: String,
+        filterType: String,
+        supportedAppsMap: Map<String, List<SupportedApp>>?,
+    ) {
+        val supportedApps = supportedAppsMap?.get(filterType) ?: emptyList()
+        context.findPreference<PreferenceGroup>(filterGroup)?.apply {
+            for (supportedApp in supportedApps) {
+                val packageName = supportedApp.packageName
+                if (packageName != null) {
+                    SupervisionSupportedAppPreference(
+                            supportedApp.title,
+                            supportedApp.summary,
+                            packageName,
+                        )
+                        .createWidget(context)
+                        .let { addPreference(it) }
                 }
             }
         }
