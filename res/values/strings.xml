@@ -2606,8 +2606,26 @@
     <string name="retry">Retry</string>
     <!-- Label for the check box to share a network with other users on the same device -->
     <string name="wifi_shared">Share with other device users</string>
+    <!-- Label for the shared wifi message -->
+    <string name="shared_message">shared</string>
+    <!-- Label for the private wifi message -->
+    <string name="private_message">private</string>
+    <!-- Label for the conflict wifi dialog confirm button -->
+    <string name="wifi_conflict_dialog_confirm">Confirm</string>
+    <!-- Label for the conflict wifi dialog cancel button -->
+    <string name="wifi_conflict_dialog_cancel">Cancel</string>
+    <!-- Title for the preference to share a network with other users on the same device -->
+    <string name="wifi_share_preference_title">This is a shared network</string>
+    <!-- Summary for the preference to share a network with other users on the same device -->
+    <string name="wifi_share_preference_summary">All users with the exception of guest users, will be able to view, edit and delete this network</string>
+    <!-- Alert dialog title, informing the user to switch to the conflicting network.  [CHAR LIMIT=250] -->
+    <string name="wifi_conflict_dialog_title">Switch to <xliff:g id="shared">%1$s</xliff:g> \"<xliff:g id="network_name">%2$s</xliff:g>\" network?</string>
+    <!-- Alert dialog summary, informing the user to switch to the conflicting network.  [CHAR LIMIT=250] -->
+    <string name="wifi_conflict_dialog_message">You\'re currently connected to a <xliff:g id="shared">%1$s</xliff:g> network with the same name. When you switch, you\'ll disconnect from the <xliff:g id="shared">%2$s</xliff:g> network and then reconnect to the <xliff:g id="private">%3$s</xliff:g> network. You may temporarily have no internet.</string>
     <!-- Hint for unchanged fields -->
     <string name="wifi_unchanged">(unchanged)</string>
+    <!-- Label for the check box to allow other device users to edit network details -->
+    <string name="wifi_allow_edit_configuration_title">Allow other users to edit network configuration</string>
     <!-- Hint for unspecified fields -->
     <string name="wifi_unspecified">Please select</string>
     <!-- Hint for multiple certificates being added to the configuration -->
@@ -4960,9 +4978,9 @@
     <!-- Title for the toggle button that turns on/off the mouse keys shortcut. [CHAR_LIMIT=NONE] -->
     <string name="accessibility_mouse_keys_shortcut_title">Mouse keys shortcut</string>
     <!-- Summary text for the accessibility setting 'Mouse keys' preference sub-screen. [CHAR LIMIT=100] -->
-    <string name="mouse_keys_summary">Use your keyboard to control the pointer</string>
+    <string name="mouse_keys_summary">Use your keyboard to control the cursor</string>
     <!-- Title for the mouse keys max speed slider preference under mouse key main page, an accessibility mouse keys setting that controls how fast the mouse key can move. [CHAR LIMIT=35] -->
-    <string name="mouse_keys_max_speed_title">Maximum speed</string>
+    <string name="mouse_keys_max_speed_title">Speed</string>
     <!-- Description for the button that decreases the seekbar in mouse keys settings page. [CHAR_LIMIT=NONE] -->
     <string name="mouse_keys_seek_bar_decrease_button_description">Decrease</string>
     <!-- Description for the button that increases the seekbar in mouse keys settings page. [CHAR_LIMIT=NONE] -->
@@ -5014,11 +5032,10 @@
     <!-- Summary text for Mouse keys click secondary button image. [CHAR LIMIT=NONE] -->
     <string name="mouse_keys_release2_summary">Use the \"<xliff:g id="release_2_label" example="/">%s</xliff:g>\" key to click the secondary mouse button</string>
 
-    <!-- TODO(b/411206889): finalize this string and mark it translatable. -->
     <!-- Title for the mouse keys acceleration seekbar -->
-    <string name="mouse_keys_acceleration_seekbar_title" translatable="false">Acceleration</string>
-    <string name="mouse_keys_acceleration_fast_icon_desc" translatable="false">Fast</string>
-    <string name="mouse_keys_acceleration_slow_icon_desc" translatable="false">Slow</string>
+    <string name="mouse_keys_acceleration_seekbar_title">Acceleration</string>
+    <string name="mouse_keys_acceleration_fast_icon_desc">Fast</string>
+    <string name="mouse_keys_acceleration_slow_icon_desc">Slow</string>
 
     <!-- Title for the button to trigger the 'keyboard shortcuts helper' dialog. [CHAR LIMIT=35] -->
     <string name="keyboard_shortcuts_helper">View keyboard shortcuts</string>
@@ -12358,11 +12375,6 @@ Data usage charges may apply.</string>
     <!-- Developer options location category strings -->
     <!-- Title for privacy category [CHAR LIMIT=30]-->
     <string name="location_category">Location</string>
-    <!-- [CHAR LIMIT=130] Title for location indicator settings -->
-    <string name="location_indicator_settings_title">Status bar location indicator</string>
-    <!-- [CHAR LIMIT=130] Description for location indicator settings -->
-    <string name="location_indicator_settings_description">Show for all locations, including network and connectivity</string>
-
     <!-- Location setting: preference title - enforce full raw GNSS satellite measurements [CHAR LIMIT=60] -->
     <string name="enable_gnss_raw_meas_full_tracking">Force full GNSS measurements</string>
     <!-- Location setting: preference summary - describes the behavior of forcing full raw GNSS satellite measurements [CHAR LIMIT=NONE] -->

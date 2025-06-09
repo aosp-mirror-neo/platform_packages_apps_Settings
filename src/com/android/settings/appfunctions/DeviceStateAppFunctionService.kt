@@ -36,8 +36,6 @@ import com.android.settings.utils.getLocale
 import com.android.settingslib.metadata.PersistentPreference
 import com.android.settingslib.metadata.PreferenceAvailabilityProvider
 import com.android.settingslib.metadata.PreferenceScreenCoordinate
-import com.android.settingslib.metadata.PreferenceHierarchyGenerator
-import com.android.settingslib.metadata.PreferenceScreenMetadata
 import com.android.settingslib.metadata.PreferenceScreenRegistry
 import com.android.settingslib.metadata.getPreferenceScreenTitle
 import com.android.settingslib.metadata.getPreferenceSummary
@@ -153,7 +151,7 @@ class DeviceStateAppFunctionService : AppFunctionService() {
         }
         val deviceStateItemList: MutableList<DeviceStateItem> = ArrayList()
         // TODO if child node is PreferenceScreen, recursively process it
-        screenMetaData.getPreferenceHierarchy(this).forEachRecursivelyAsync {
+        screenMetaData.getPreferenceHierarchy(applicationContext, this).forEachRecursivelyAsync {
             val metadata = it.metadata
             val config = settingConfigMap[metadata.key]
             // skip over explicitly disabled preferences
@@ -188,15 +186,6 @@ class DeviceStateAppFunctionService : AppFunctionService() {
             intentUri = launchingIntent?.toUri(Intent.URI_INTENT_SCHEME)
         )
     }
-
-    private suspend fun PreferenceScreenMetadata.getPreferenceHierarchy(
-        coroutineScope: CoroutineScope
-    ) =
-        when (this) {
-            is PreferenceHierarchyGenerator<*> ->
-                generatePreferenceHierarchy(applicationContext, coroutineScope, defaultType)
-            else -> getPreferenceHierarchy(applicationContext, coroutineScope)
-        }
 
     private fun createEnglishContext(): Context {
         val configuration = Configuration(applicationContext.resources.configuration)

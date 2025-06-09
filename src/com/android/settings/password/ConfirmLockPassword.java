@@ -149,12 +149,11 @@ public class ConfirmLockPassword extends ConfirmDeviceCredentialBaseActivity {
             final boolean isExpressiveStyle = getActivity().getIntent().getBooleanExtra(
                     ChooseLockSettingsHelper.EXTRA_KEY_USE_EXPRESSIVE_STYLE, false) || (
                     activity.getConfirmCredentialTheme() == ConfirmCredentialTheme.EXPRESSIVE);
-            int layoutId = R.layout.confirm_lock_password /* default layout */;
-            if (activity.getConfirmCredentialTheme() == ConfirmCredentialTheme.NORMAL) {
-                layoutId = R.layout.confirm_lock_password_normal;
-            } else if (isExpressiveStyle) {
-                layoutId = R.layout.confirm_lock_password_expressive;
-            }
+            int layoutId = switch (activity.getConfirmCredentialTheme()) {
+                case ConfirmCredentialTheme.NORMAL -> R.layout.confirm_lock_password_normal;
+                case ConfirmCredentialTheme.EXPRESSIVE -> R.layout.confirm_lock_password_expressive;
+                default -> R.layout.confirm_lock_password;
+            };
             View view = inflater.inflate(layoutId, container, false);
             mGlifLayout = view.findViewById(R.id.setup_wizard_layout);
             mPasswordEntry = (EditText) view.findViewById(R.id.password_entry);

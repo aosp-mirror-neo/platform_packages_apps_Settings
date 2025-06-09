@@ -4205,17 +4205,31 @@
         </activity>
 
         <activity
-            android:name="Settings$VibrationIntensitySettingsActivity"
+            android:name="Settings$VibrationSettingsActivity"
             android:label="@string/accessibility_vibration_settings_title"
-            android:featureFlag="com.android.settings.flags.device_state"
+            android:featureFlag="com.android.settings.flags.deeplink_sound_and_vibration_25q4"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data
-                android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.accessibility.VibrationIntensitySettingsFragment" />
+                android:name="com.android.settings.HIGHLIGHT_MENU_KEY"
+                android:value="@string/menu_key_sound"/>
+            <meta-data
+                android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+        </activity>
+
+        <activity
+            android:name="Settings$VibrationIntensitySettingsActivity"
+            android:label="@string/accessibility_vibration_settings_title"
+            android:featureFlag="com.android.settings.flags.deeplink_sound_and_vibration_25q4"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
             <meta-data
                 android:name="com.android.settings.HIGHLIGHT_MENU_KEY"
                 android:value="@string/menu_key_sound"/>

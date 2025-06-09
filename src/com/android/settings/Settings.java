@@ -30,6 +30,10 @@ import android.util.Log;
 import androidx.annotation.Nullable;
 
 import com.android.internal.annotations.VisibleForTesting;
+import com.android.settings.accessibility.VibrationIntensityScreen;
+import com.android.settings.accessibility.VibrationIntensitySettingsFragment;
+import com.android.settings.accessibility.VibrationScreen;
+import com.android.settings.accessibility.VibrationSettings;
 import com.android.settings.applications.AppStorageSettings;
 import com.android.settings.biometrics.face.FaceSettings;
 import com.android.settings.communal.CommunalPreferenceController;
@@ -383,7 +387,16 @@ public class Settings extends SettingsActivity {
         }
     }
     public static class SoundSettingsActivity extends SettingsActivity { /* empty */ }
-    public static class VibrationIntensitySettingsActivity extends SettingsActivity { /* empty */ }
+    public static class VibrationSettingsActivity extends CatalystSettingsActivity {
+        public VibrationSettingsActivity() {
+            super(VibrationScreen.KEY, VibrationSettings.class);
+        }
+    }
+    public static class VibrationIntensitySettingsActivity extends CatalystSettingsActivity {
+        public VibrationIntensitySettingsActivity() {
+            super(VibrationIntensityScreen.KEY, VibrationIntensitySettingsFragment.class);
+        }
+    }
     public static class ConfigureNotificationSettingsActivity extends SettingsActivity { /* empty */ }
     public static class ConversationListSettingsActivity extends SettingsActivity { /* empty */ }
     public static class AppBubbleNotificationSettingsActivity extends SettingsActivity { /* empty */ }

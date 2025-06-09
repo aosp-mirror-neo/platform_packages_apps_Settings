@@ -609,8 +609,7 @@ public class AdvancedBluetoothDetailsHeaderControllerTest {
     }
 
     @Test
-    @EnableFlags(Flags.FLAG_ENABLE_BLUETOOTH_DEVICE_DETAILS_POLISH)
-    public void enablePolishFlag_renameButtonShown() {
+    public void renameButtonShown() {
         when(mBluetoothDevice.getMetadata(BluetoothDevice.METADATA_IS_UNTETHERED_HEADSET))
                 .thenReturn("true".getBytes());
         Set<CachedBluetoothDevice> cacheBluetoothDevices = new HashSet<>();
@@ -623,8 +622,7 @@ public class AdvancedBluetoothDetailsHeaderControllerTest {
     }
 
     @Test
-    @EnableFlags({Flags.FLAG_ENABLE_BLUETOOTH_DEVICE_DETAILS_POLISH,
-            com.android.settingslib.flags.Flags.FLAG_ENABLE_TEMPORARY_BOND_DEVICES_UI})
+    @EnableFlags(com.android.settingslib.flags.Flags.FLAG_ENABLE_TEMPORARY_BOND_DEVICES_UI)
     public void temporaryBondDevice_renameButtonNotShown() {
         when(mBluetoothDevice.getMetadata(BluetoothDevice.METADATA_IS_UNTETHERED_HEADSET))
                 .thenReturn("true".getBytes());
@@ -843,10 +841,8 @@ public class AdvancedBluetoothDetailsHeaderControllerTest {
         final TextView textView = linearLayout.findViewById(R.id.bt_battery_summary);
         assertThat(textView.getText().toString()).isEqualTo(
                 com.android.settings.Utils.formatPercentage(batteryLevel));
-        if (Flags.enableBluetoothDeviceDetailsPolish()) {
-            final ProgressBar bar = linearLayout.findViewById(R.id.battery_ring);
-            assertThat(bar.getProgress()).isEqualTo(batteryLevel);
-        }
+        final ProgressBar bar = linearLayout.findViewById(R.id.battery_ring);
+        assertThat(bar.getProgress()).isEqualTo(batteryLevel);
     }
 
     private void assertBatteryIcon(LinearLayout linearLayout, int resId, boolean charging) {

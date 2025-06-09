@@ -68,9 +68,9 @@ open class StoragePreferenceScreen(private val context: Context) :
     override fun hasCompleteHierarchy() = false
 
     override fun getPreferenceHierarchy(context: Context, coroutineScope: CoroutineScope) =
-        preferenceHierarchy(context) {}
+        generatePreferenceHierarchy(context, coroutineScope, context.userId)
 
-    override suspend fun generatePreferenceHierarchy(
+    override fun generatePreferenceHierarchy(
         context: Context,
         coroutineScope: CoroutineScope,
         type: Int // userId
@@ -258,9 +258,6 @@ open class StoragePreferenceScreen(private val context: Context) :
             }
         )
     }
-
-    override val defaultType: Int
-        get() = context.userId
 
     override fun fragmentClass(): Class<out Fragment>? = StorageDashboardFragment::class.java
 

@@ -39,7 +39,7 @@ import com.android.settingslib.metadata.preferenceHierarchy
 import kotlinx.coroutines.CoroutineScope
 
 /** "Apps" -> "Special app access" -> "Notification read, reply & control" */
-@ProvidePreferenceScreen(AppsNotificationAccessScreen.KEY)
+//@ProvidePreferenceScreen(AppsNotificationAccessScreen.KEY)
 open class AppsNotificationAccessScreen : PreferenceScreenMixin {
 
     override val key: String

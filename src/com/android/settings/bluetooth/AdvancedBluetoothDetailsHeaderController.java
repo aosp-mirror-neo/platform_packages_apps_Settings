@@ -405,7 +405,7 @@ public class AdvancedBluetoothDetailsHeaderController extends BasePreferenceCont
                     });
             boolean isTempBond = com.android.settingslib.flags.Flags.enableTemporaryBondDevicesUi()
                     && BluetoothUtils.isTemporaryBondDevice(mCachedDevice.getDevice());
-            if (Flags.enableBluetoothDeviceDetailsPolish() && !isTempBond) {
+            if (!isTempBond) {
                 ImageButton renameButton = mLayoutPreference.findViewById(R.id.rename_button);
                 renameButton.setVisibility(View.VISIBLE);
                 renameButton.setOnClickListener(view -> {
@@ -570,9 +570,7 @@ public class AdvancedBluetoothDetailsHeaderController extends BasePreferenceCont
 
                     if (refactorBatteryLevelDisplay()) {
                         batterySummaryView.setVisibility(View.GONE);
-                        if (Flags.enableBluetoothDeviceDetailsPolish()) {
-                            linearLayout.findViewById(R.id.battery_ring).setVisibility(View.GONE);
-                        }
+                        linearLayout.findViewById(R.id.battery_ring).setVisibility(View.GONE);
                     } else {
                         int level = preloadedNativeBatteryLevel.get();
                         if (level != BluetoothDevice.BATTERY_LEVEL_UNKNOWN
@@ -583,11 +581,9 @@ public class AdvancedBluetoothDetailsHeaderController extends BasePreferenceCont
                             showBatteryRing(linearLayout, level);
                         } else {
                             batterySummaryView.setVisibility(View.GONE);
-                            if (Flags.enableBluetoothDeviceDetailsPolish()) {
-                                linearLayout
-                                        .findViewById(R.id.battery_ring)
-                                        .setVisibility(View.GONE);
-                            }
+                            linearLayout
+                                    .findViewById(R.id.battery_ring)
+                                    .setVisibility(View.GONE);
                         }
                     }
                 } else {
@@ -738,11 +734,9 @@ public class AdvancedBluetoothDetailsHeaderController extends BasePreferenceCont
     }
 
     private void showBatteryRing(LinearLayout linearLayout, int level) {
-        if (Flags.enableBluetoothDeviceDetailsPolish()) {
-            ProgressBar batteryProgress = linearLayout.findViewById(R.id.battery_ring);
-            batteryProgress.setProgress(level);
-            batteryProgress.setVisibility(View.VISIBLE);
-        }
+        ProgressBar batteryProgress = linearLayout.findViewById(R.id.battery_ring);
+        batteryProgress.setProgress(level);
+        batteryProgress.setVisibility(View.VISIBLE);
     }
 
     private void updateDisconnectLayout() {
@@ -758,9 +752,7 @@ public class AdvancedBluetoothDetailsHeaderController extends BasePreferenceCont
         linearLayout.findViewById(R.id.header_title).setVisibility(View.GONE);
         linearLayout.findViewById(R.id.bt_battery_summary).setVisibility(View.GONE);
         linearLayout.findViewById(R.id.bt_battery_icon).setVisibility(View.GONE);
-        if (Flags.enableBluetoothDeviceDetailsPolish()) {
-            linearLayout.findViewById(R.id.battery_ring).setVisibility(View.GONE);
-        }
+        linearLayout.findViewById(R.id.battery_ring).setVisibility(View.GONE);
 
         // Only show bluetooth icon
         final BluetoothDevice bluetoothDevice = mCachedDevice.getDevice();
