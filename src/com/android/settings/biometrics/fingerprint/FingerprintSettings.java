@@ -1532,6 +1532,7 @@ public class FingerprintSettings extends SubSettings {
             } else {
                 highlightForSfps(fpref);
             }
+            setupFingerprintRecognition(fpref.getView(), fpref.getFingerprint());
         }
 
         private void highlightForSfps(FingerprintPreference preference) {
@@ -1548,7 +1549,6 @@ public class FingerprintSettings extends SubSettings {
                 view.setBackground(highlight);
                 view.setPressed(true);
                 view.setPressed(false);
-                setupSfpsFingerprintRecognition(view, preference.getFingerprint());
                 mHandler.postDelayed(new Runnable() {
                     @Override
                     public void run() {
@@ -1558,10 +1558,10 @@ public class FingerprintSettings extends SubSettings {
             }
         }
 
-        private void setupSfpsFingerprintRecognition(View view, Fingerprint fp) {
+        private void setupFingerprintRecognition(View view, Fingerprint fp) {
             final AccessibilityManager a11y =
                     view.getContext().getSystemService(AccessibilityManager.class);
-            if (a11y == null || !a11y.isEnabled()) return;
+            if (a11y == null || !a11y.isTouchExplorationEnabled()) return;
             // Set content description that indicates which finger is recognized.
             view.setAccessibilityLiveRegion(View.ACCESSIBILITY_LIVE_REGION_POLITE);
             view.setContentDescription(view.getContext().getString(
