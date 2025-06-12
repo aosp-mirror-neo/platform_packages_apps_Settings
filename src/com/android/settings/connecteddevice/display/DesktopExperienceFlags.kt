@@ -45,7 +45,7 @@ class DesktopExperienceFlags(private val featureFlagsImpl: FeatureFlags) : Featu
     private val resolutionAndEnableConnectedDisplaySettingFlag =
         DesktopExperienceFlag(
             featureFlagsImpl::resolutionAndEnableConnectedDisplaySetting,
-            /* shouldOverrideByDevOption= */ true,
+            /* shouldOverrideByDevOption= */ false,
             Flags.FLAG_RESOLUTION_AND_ENABLE_CONNECTED_DISPLAY_SETTING,
         )
 
