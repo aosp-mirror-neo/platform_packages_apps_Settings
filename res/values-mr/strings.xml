@@ -198,8 +198,7 @@
     <string name="locale_remove_menu" msgid="3521546263421387474">"काढा"</string>
     <string name="add_a_language" msgid="2126220398077503271">"भाषा जोडा"</string>
     <string name="app_locale_preference_title" msgid="5513627099300360232">"भाषा"</string>
-    <!-- no translation found for locale_picker_category_title (296835514014453679) -->
-    <skip />
+    <string name="locale_picker_category_title" msgid="296835514014453679">"प्राधान्य असलेल्या भाषा"</string>
     <string name="app_locales_picker_menu_title" msgid="7617427959223831373">"ॲपच्या भाषा"</string>
     <string name="app_locale_picker_summary" msgid="616928580653613998">"प्रत्येक ॲपसाठी भाषा निवडा"</string>
     <string name="app_locale_picker_title" msgid="2431448962911301366">"अ‍ॅपची भाषा"</string>
@@ -225,17 +224,12 @@
     <string name="title_change_system_locale" msgid="4102991236063984803">"सिस्टीमची भाषा बदलून %s करायची आहे का?"</string>
     <string name="title_system_locale_addition" msgid="8218683660751479466">"प्राधान्य दिलेल्या भाषांवर %s जोडायचे आहे का?"</string>
     <string name="desc_system_locale_addition" msgid="3409917362651596070">"तुम्ही या भाषेलादेखील प्राधान्य देता हे अ‍ॅप्स आणि वेबसाइटना यामुळे समजते."</string>
-    <!-- no translation found for desc_notice_device_locale_and_region_settings_change (909261686577914396) -->
-    <skip />
-    <!-- no translation found for desc_notice_device_locale_settings_change (5012353615235634881) -->
-    <skip />
-    <!-- no translation found for dlg_desc_delete_preferred_default_locale (690828405078078513) -->
-    <skip />
+    <string name="desc_notice_device_locale_and_region_settings_change" msgid="909261686577914396">"तुमचे डिव्हाइस <xliff:g id="LANGUAGE">%1$s</xliff:g> वापरेल आणि तुमचा प्रदेश <xliff:g id="REGION">%2$s</xliff:g> मध्ये बदलला जाईल."</string>
+    <string name="desc_notice_device_locale_settings_change" msgid="5012353615235634881">"तुमचे डिव्हाइस <xliff:g id="LANGUAGE">%s</xliff:g> वापरेल."</string>
+    <string name="dlg_desc_delete_preferred_default_locale" msgid="690828405078078513">"<xliff:g id="REMOVED_LANGUAGE">%s</xliff:g> ला तुमच्या प्राधान्य दिलेल्या भाषांमधून काढून टाकले जाईल"</string>
     <string name="button_label_confirmation_of_system_locale_change" msgid="5593798559604894733">"बदला"</string>
-    <!-- no translation found for title_unavailable_locale (5382411204559213983) -->
-    <skip />
-    <!-- no translation found for desc_unavailable_locale (7223655766703116782) -->
-    <skip />
+    <string name="title_unavailable_locale" msgid="5382411204559213983">"<xliff:g id="SELECTED_LANGUAGE">%s</xliff:g> ही सिस्टीम भाषा म्हणून सेट करू शकत नाही"</string>
+    <string name="desc_unavailable_locale" msgid="7223655766703116782">"तुमचे डिव्हाइस या भाषेला सपोर्ट करत नाही, पण तुम्ही या भाषेला प्राधान्य देता हे अ‍ॅप्सना समजेल"</string>
     <string name="locale_search_menu" msgid="297782694044826686">"शोध"</string>
     <string name="language_and_region_title" msgid="8374151891112162767">"भाषा आणि प्रदेश"</string>
     <string name="language_selection_title" msgid="968179636453982415">"भाषा जोडा"</string>
@@ -249,12 +243,9 @@
     <string name="title_change_system_locale_region" msgid="4401478579429442695">"प्रदेश बदलून <xliff:g id="SYSTEM_LANGUAGE_REGION">%1$s</xliff:g> करायचा आहे का?"</string>
     <string name="body_change_system_locale_region" msgid="9064318449821043189">"तुमचे डिव्हाइस <xliff:g id="SYSTEM_LANGUAGE">%1$s</xliff:g> ही सिस्टीमची भाषा म्हणून ठेवेल"</string>
     <string name="top_intro_numbering_system_title" msgid="3962000662073238392">"तुमचे डिव्हाइस, वेबसाइट आणि अ‍ॅप्स अंक कसे प्रदर्शित करतात हे निवडा"</string>
-    <!-- no translation found for preferred_locale_menu_up (4009560552099567485) -->
-    <skip />
-    <!-- no translation found for preferred_locale_menu_down (1033373887552535585) -->
-    <skip />
-    <!-- no translation found for preferred_locale_menu_remove (8547483341987864590) -->
-    <skip />
+    <string name="preferred_locale_menu_up" msgid="4009560552099567485">"वर हलवा"</string>
+    <string name="preferred_locale_menu_down" msgid="1033373887552535585">"खाली हलवा"</string>
+    <string name="preferred_locale_menu_remove" msgid="8547483341987864590">"काढून टाका"</string>
     <string name="regional_preferences_title" msgid="4304567374498629528">"प्रादेशिक प्राधान्ये"</string>
     <string name="regional_preferences_summary" msgid="1189876997389469650">"युनिट आणि नंबर प्राधान्ये सेट करा"</string>
     <string name="regional_preferences_main_page_sub_title" msgid="4237109940015254725">"अ‍ॅप्सना तुमची प्रादेशिक प्राधान्ये सांगा ज्यामुळे ते तुमचा अनुभव पर्सनलाइझ करतील."</string>
@@ -293,10 +284,8 @@
     <string name="dlg_remove_locales_error_title" msgid="5875503658221562572">"सर्व भाषा काढू शकत नाही"</string>
     <string name="dlg_remove_locales_error_message" msgid="6504279959974675302">"किमान एक प्राधान्यीकृत भाषा ठेवा"</string>
     <string name="locale_not_translated" msgid="3071618135527110152">"सिस्टीम भाषा म्हणून उपलब्ध नाही"</string>
-    <!-- no translation found for dlg_title_delete_preferred_locale (4167214348946940002) -->
-    <skip />
-    <!-- no translation found for dlg_desc_delete_preferred_locale (4658301652628456858) -->
-    <skip />
+    <string name="dlg_title_delete_preferred_locale" msgid="4167214348946940002">"<xliff:g id="REMOVED_LANGUAGE">%s</xliff:g> यांना काढून टाकायचे आहे का?"</string>
+    <string name="dlg_desc_delete_preferred_locale" msgid="4658301652628456858">"<xliff:g id="REMOVED_LANGUAGE">%s</xliff:g> ला तुमच्या प्राधान्य दिलेल्या भाषांमधून काढून टाकले जाईल. तुम्ही नंतर पुन्हा ती जोडू शकता."</string>
     <string name="action_drag_label_move_up" msgid="3392196942330705015">"वर हलवा"</string>
     <string name="action_drag_label_move_down" msgid="9069518740553953426">"खाली हलवा"</string>
     <string name="action_drag_label_move_top" msgid="2430471023612171619">"शीर्षस्थानी हलवा"</string>
@@ -476,8 +465,7 @@
     <string name="security_settings_fingerprint_enroll_introduction_no_thanks" msgid="1663906389456119842">"आताच नको"</string>
     <string name="security_settings_fingerprint_enroll_introduction_agree" msgid="4068276083536421828">"मी सहमत आहे"</string>
     <string name="security_settings_fingerprint_rename_description" msgid="6301505700382531086">"नाव बदलण्यासाठी दोनदा टॅप करा"</string>
-    <!-- no translation found for security_settings_fingerprint_recognition_description (1805171116182647136) -->
-    <skip />
+    <string name="security_settings_fingerprint_recognition_description" msgid="1805171116182647136">"<xliff:g id="FP_NAME">%1$s</xliff:g> ओळखले"</string>
     <string name="setup_fingerprint_enroll_skip_title" msgid="2473807887676247264">"फिंगरप्रिंट पायरी वगळायची?"</string>
     <string name="setup_fingerprint_enroll_skip_after_adding_lock_text" msgid="2412645723804450304">"फिंगरप्रिंट सेटअपला फक्त एक किंवा दोन मिनिटे लागतात. ही पायरी वगळली तरी तुम्ही नंतर सेटिंग्जमध्ये जाऊन तुमची फिंगरप्रिंट जोडू शकता."</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_setup" msgid="6255210343107484206">"तुम्हाला हा आयकन दिसेल तेव्हा, तुम्ही ॲप्समध्ये साइन इन करणे किंवा खरेदी मंजूर करणे यांसारख्या गोष्टी करताना ऑथेंटिकेशनसाठी तुमची फिंगरप्रिंट वापरा"</string>
@@ -1182,7 +1170,16 @@
     <string name="wifi_dpp_qr_code_is_not_valid_format" msgid="5190689503019328279">"QR कोडचा फॉरमॅट चुकीचा आहे"</string>
     <string name="retry" msgid="7542103800274026915">"पुन्हा प्रयत्न करा"</string>
     <string name="wifi_shared" msgid="8850748923537589782">"इतर डिव्हाइस वापरकर्त्यांसह शेअर करा"</string>
+    <string name="shared_message" msgid="2104244057926025072">"शेअर केले"</string>
+    <string name="private_message" msgid="5897966950396765392">"खाजगी"</string>
+    <string name="wifi_conflict_dialog_confirm" msgid="4577313983128123779">"कन्फर्म करा"</string>
+    <string name="wifi_conflict_dialog_cancel" msgid="5200571850377525343">"रद्द करा"</string>
+    <string name="wifi_share_preference_title" msgid="6346200020322308703">"हे शेअर केलेले नेटवर्क आहे"</string>
+    <string name="wifi_share_preference_summary" msgid="4356010425167713046">"अतिथी वापरकर्त्यांचा अपवाद वगळता, सर्व वापरकर्ते हे नेटवर्क पाहू शकतील, संपादित करू शकतील आणि हटवू शकतील"</string>
+    <string name="wifi_conflict_dialog_title" msgid="1127530499054245755">"<xliff:g id="SHARED">%1$s</xliff:g> \"<xliff:g id="NETWORK_NAME">%2$s</xliff:g>\" नेटवर्कवर स्विच करायचे आहे का?"</string>
+    <string name="wifi_conflict_dialog_message" msgid="3192435395074097168">"तुम्ही सध्या त्याच नावाच्या <xliff:g id="SHARED_0">%1$s</xliff:g> नेटवर्कशी कनेक्ट केलेले आहे. तुम्ही स्विच करता, तेव्हा तुम्ही <xliff:g id="SHARED_1">%2$s</xliff:g> नेटवर्कपासून डिस्कनेक्ट व्हाल आणि नंतर <xliff:g id="PRIVATE">%3$s</xliff:g> नेटवर्कशी पुन्हा कनेक्ट व्हाल. तुमच्याकडे तात्पुरते इंटरनेट नसू शकते."</string>
     <string name="wifi_unchanged" msgid="8026045290856150191">"(बदल केलेला नाही)"</string>
+    <string name="wifi_allow_edit_configuration_title" msgid="3928254385019370063">"इतरांना नेटवर्क कॉन्फिगरेशन संपादित करण्याची अनुमती द्या"</string>
     <string name="wifi_unspecified" msgid="4561964943472312208">"कृपया निवडा"</string>
     <string name="wifi_multiple_cert_added" msgid="2151019652853383776">"(एकाधिक प्रमाणपत्रे जोडली)"</string>
     <string name="wifi_use_system_certs" msgid="5587866698144996931">"सिस्टीम प्रमाणपत्रे वापरा"</string>
@@ -2157,8 +2154,8 @@
     <string name="mouse_keys" msgid="6237254627808525540">"माउस की"</string>
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"माउस की वापरा"</string>
     <string name="accessibility_mouse_keys_shortcut_title" msgid="7621635104533584115">"माउस की शॉर्टकट"</string>
-    <string name="mouse_keys_summary" msgid="7030731235143286467">"पॉइंटर नियंत्रित करण्यासाठी तुमचा कीबोर्ड वापरा"</string>
-    <string name="mouse_keys_max_speed_title" msgid="1788751803245422659">"कमाल वेग"</string>
+    <string name="mouse_keys_summary" msgid="6512910710030108693">"कर्सर नियंत्रित करण्यासाठी तुमचा कीबोर्ड वापरा"</string>
+    <string name="mouse_keys_max_speed_title" msgid="2651688711606971145">"वेग"</string>
     <string name="mouse_keys_seek_bar_decrease_button_description" msgid="9077624857206032509">"कमी करा"</string>
     <string name="mouse_keys_seek_bar_increase_button_description" msgid="2721662400858172203">"वाढवा"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"स्क्रोलिंग उलट करा"</string>
@@ -2184,6 +2181,9 @@
     <string name="mouse_keys_release_summary" msgid="7209370896835993434">"प्राथमिक माउस बटण रिलीझ करण्यासाठी \"<xliff:g id="RELEASE_LABEL">%s</xliff:g>\" की वापरा"</string>
     <string name="mouse_keys_toggle_scroll_summary" msgid="7492663135290108272">"स्क्रोल मोड टॉगल करण्यासाठी \"<xliff:g id="RELEASE_LABEL_1">%1$s</xliff:g>\" की वापरा. हे \"<xliff:g id="RELEASE_LABEL_2">%2$s</xliff:g>\" की ला वरती, खाली, डावीकडील किंवा उजवीकडील दृश्यावर स्क्रोल करू देईल"</string>
     <string name="mouse_keys_release2_summary" msgid="5504548339731577210">"दुय्यम माउस बटणावर क्लिक करण्यासाठी \"<xliff:g id="RELEASE_2_LABEL">%s</xliff:g>\" की वापरा"</string>
+    <string name="mouse_keys_acceleration_seekbar_title" msgid="2329098889930361504">"अ‍ॅक्सिलरेशन"</string>
+    <string name="mouse_keys_acceleration_fast_icon_desc" msgid="4426188473271579794">"थोडे जलद"</string>
+    <string name="mouse_keys_acceleration_slow_icon_desc" msgid="8370777074987200135">"धीमे"</string>
     <string name="keyboard_shortcuts_helper" msgid="6934420811737731188">"कीबोर्ड शॉर्टकट पहा"</string>
     <string name="keyboard_shortcuts_helper_summary" msgid="5979507677602559203">"शॉर्टकटची सूची दाखवा"</string>
     <string name="language_and_input_for_work_category_title" msgid="2546950919124199743">"कार्य प्रोफाइल कीबोर्ड आणि टूल"</string>
@@ -2206,7 +2206,7 @@
     <string name="trackpad_pointer_speed" msgid="7786579408631352625">"पॉइंटर वेग"</string>
     <string name="trackpad_pointer_speed_make_faster_desc" msgid="2855950278314583596">"पॉइंटर अधिक जलद करा"</string>
     <string name="trackpad_pointer_speed_make_slower_desc" msgid="6577850228762978827">"पॉइंटर अधिक हळू करा"</string>
-    <string name="three_finger_tap_preference_title" msgid="1836080810837854140">"तीन बोट वापरून टॅप करा"</string>
+    <string name="three_finger_tap_preference_title" msgid="1836080810837854140">"तीन बोटांनी टॅप करा वापरा"</string>
     <string name="touchpad_acceleration_title" msgid="176627555191021888">"टचपॅड अ‍ॅक्सिलरेशन"</string>
     <string name="touchpad_acceleration_summary" msgid="8057075483967535793">"तुमच्या टचपॅडवरील अधिक जलद हालचालींमुळे कर्सर आणखी दूर जाईल"</string>
     <string name="pointer_fill_style" msgid="8794616790175016092">"पॉइंटरचा रंग"</string>
@@ -2246,11 +2246,9 @@
     <string name="gesture_button_next" msgid="695288092704187356">"पुढील"</string>
     <string name="gesture_button_restart" msgid="1895850891992530133">"रीस्टार्ट करा"</string>
     <string name="gesture_button_done" msgid="6387900351203032188">"पूर्ण झाले"</string>
-    <!-- no translation found for action_corner_title (7411160165577367757) -->
-    <skip />
+    <string name="action_corner_title" msgid="7411160165577367757">"कॉर्नर शॉर्टकट कस्टमाइझ करणे"</string>
     <string name="action_corner_summary" msgid="695618538930535335">"सिस्टीमवर नेव्हिगेट करण्यासाठी कर्सर वापरा"</string>
-    <!-- no translation found for action_corner_intro (2170609118659718140) -->
-    <skip />
+    <string name="action_corner_intro" msgid="2170609118659718140">"कॉर्नर शॉर्टकट कस्टमाइझ करण्यासाठी पुढील भाग निवडा"</string>
     <string name="action_corner_bottom_left_title" msgid="2857258272736432174">"तळाशी डावा कोपरा"</string>
     <string name="action_corner_bottom_right_title" msgid="7222233500548465684">"तळाशी उजवा कोपरा"</string>
     <string name="action_corner_top_left_title" msgid="4633975226092344210">"सर्वात वरील डावा कोपरा"</string>
@@ -2653,10 +2651,8 @@
     <string name="accessibility_daltonizer_footer_learn_more_content_description" msgid="2091679253892040910">"रंग सुधारणा याबद्दल अधिक जाणून घ्या"</string>
     <string name="accessibility_color_inversion_about_title" msgid="8275754480247040136">"कलर इन्व्हर्जनबद्दल"</string>
     <string name="accessibility_color_inversion_footer_learn_more_content_description" msgid="5382579548498952445">"कलर इन्व्हर्जनबद्दल अधिक जाणून घ्या"</string>
-    <!-- no translation found for accessibility_dark_theme_footer_learn_more_helper_link (7084955775821075280) -->
-    <skip />
-    <!-- no translation found for accessibility_dark_theme_preference_footer_content (4431044600779983609) -->
-    <skip />
+    <string name="accessibility_dark_theme_footer_learn_more_helper_link" msgid="7084955775821075280">"गडद थीमबद्दल अधिक जाणून घ्या"</string>
+    <string name="accessibility_dark_theme_preference_footer_content" msgid="4431044600779983609">"कदाचित काही अ‍ॅप्स विस्तृत सेटिंगमध्ये गडद थीमला सपोर्ट करत नसतील. तुम्हाला स्वरूपाशी संबंधित समस्या येत असल्यास, मानक सेटिंग वापरा."</string>
     <string name="accessibility_captioning_primary_switch_title" msgid="3663677340286206100">"कॅप्शन दाखवा"</string>
     <string name="accessibility_captioning_primary_switch_summary" msgid="2544094070306830218">"फक्त सपोर्ट असलेल्या ॲपसाठी"</string>
     <string name="captioning_appearance_title" msgid="3128792092290011408">"कॅप्शनचा आकार आणि शैली"</string>
@@ -3849,7 +3845,7 @@
     <string name="notification_history_open_notification" msgid="2655071846911258371">"सूचना उघडा"</string>
     <string name="snooze_options_title" msgid="2109795569568344617">"नोटिफिकेशन स्नूझ करण्याची अनुमती द्या"</string>
     <string name="notification_badging_title" msgid="5469616894819568917">"ॲप आयकनवर नोटिफिकेशन बिंदू"</string>
-    <string name="notification_bundles" msgid="496852738958148317">"नोटिफिकेशन आयोजक"</string>
+    <string name="notification_bundles" msgid="496852738958148317">"नोटिफिकेशन ऑर्गनायझर"</string>
     <string name="notification_bundle_promotions_summary" msgid="3196830882575438887">"विक्री, बातम्यांसंबंधित वैशिष्ट्ये आणि आणखी बरेच काही"</string>
     <string name="notification_bundle_news_summary" msgid="2524877244105778120">"टॉप स्टोरी, संपादकीय आणि आणखी बरेच काही"</string>
     <string name="notification_bundle_social_summary" msgid="1880042768055317701">"लाइक, पोस्ट आणि आणखी बरेच काही"</string>
@@ -3967,7 +3963,7 @@
     <string name="notification_channel_summary_default" msgid="1168420867670390611">"डिव्‍हाइस सेटिंग्जनुसार रिंग किंवा व्हायब्रेट होऊ शकतो"</string>
     <string name="notification_channel_summary_high" msgid="3411637309360617621">"डिव्हाइस अनलॉक असताना, स्क्रीनच्या सर्वात वरती बॅनर म्हणून नोटिफिकेशन दाखवा"</string>
     <string name="notification_switch_label" msgid="8029371325967501557">"सर्व \"<xliff:g id="APP_NAME">%1$s</xliff:g>\" सूचना"</string>
-    <string name="notification_app_switch_label" msgid="4422902423925084193">"सर्व <xliff:g id="APP_NAME">%1$s</xliff:g> वरील सूचना"</string>
+    <string name="notification_app_switch_label" msgid="4422902423925084193">"सर्व <xliff:g id="APP_NAME">%1$s</xliff:g> नोटिफिकेशन"</string>
     <string name="notifications_sent_daily" msgid="10274479224185437">"{count,plural, =1{प्रति दिवस साधारण # सूचना}other{प्रति दिवस साधारण # सूचना}}"</string>
     <string name="notifications_sent_weekly" msgid="7895656213187555346">"{count,plural, =1{प्रति आठवडा साधारण # नोटिफिकेशन}other{प्रति आठवडा साधारण # नोटिफिकेशन}}"</string>
     <string name="notifications_sent_never" msgid="9081278709126812062">"कधीही नाही"</string>
@@ -4013,11 +4009,11 @@
     <string name="notification_polite_description" msgid="6137533404978878957">"तुम्हाला थोड्या कालावधीमध्ये बरीच नोटिफिकेशन मिळतात, तेव्हा तुमचे डिव्हाइस त्याचा व्हॉल्यूम कमी करेल आणि अलर्ट १ मिनिटांपर्यंत कमी करेल. कॉल, अलार्म आणि प्राधान्य दिलेल्या संभाषणांवर परिणाम होत नाही. \n\nकूलडाउनदरम्यान मिळालेली नोटिफिकेशन स्क्रीनच्या सर्वात वरून खालपर्यंत स्वाइप करून शोधली जाऊ शकतात."</string>
     <string name="notification_polite_work" msgid="8823596456640216391">"कार्य प्रोफाइलला लागू करा"</string>
     <string name="notification_polite_work_summary" msgid="5014189280132951378">"कार्य प्रोफाइलच्या अ‍ॅप्सना लागू करा"</string>
-    <string name="notification_bundle_title" msgid="6679586974995981433">"नोटिफिकेशन आयोजक"</string>
+    <string name="notification_bundle_title" msgid="6679586974995981433">"नोटिफिकेशन ऑर्गनायझर"</string>
     <string name="notification_bundle_summary" msgid="8924550009829960969">"कमी प्राधान्य असलेली नोटिफिकेशन बंडल करा आणि सायलंट करा"</string>
     <string name="notification_bundle_main_control_title" msgid="2632661768990540295">"नोटिफिकेशन आयोजक वापरा"</string>
     <string name="notification_bundle_description" msgid="8439963475488583612">"तुम्हाला सायलंट करायचे असलेले नोटिफिकेशनचे प्रकार निवडा आणि व्यत्यय कमी करण्यासाठी ते एकत्र बंडल करा. बंडल करणे हे AI द्वारे सक्षम केलेले असून, त्यामध्ये एरर असू शकतात."</string>
-    <string name="notification_app_level_bundle_title" msgid="8917807675495480483">"बंडलसंबंधित नोटिफिकेशन"</string>
+    <string name="notification_app_level_bundle_title" msgid="8917807675495480483">"बंडल नोटिफिकेशन"</string>
     <string name="notification_app_level_bundle_subtext" msgid="7330731485247761388">"आणखी शांत अनुभवासाठी समान थीम असलेली नोटिफिकेशन सायलंट करून ती एकत्र गटबद्ध केली जातील"</string>
     <string name="notification_bundle_manage_excluded_apps_title" msgid="7019831234073590293">"अ‍ॅप्ससाठी नोटिफिकेशन बंडलिंग याला अनुमती द्या"</string>
     <string name="notification_adjustment_work_switch_title" msgid="5858034709870660002">"कार्य प्रोफाइलच्या अ‍ॅप्सना लागू करा"</string>
@@ -4077,7 +4073,7 @@
     <string name="notification_content_block_summary" msgid="329171999992248925">"सूचना कधीही रंगछटांंमध्ये किंवा डिव्हाइसच्या किनारीवर दर्शवू नका"</string>
     <string name="app_notification_fsi_permission_title" msgid="2260977598430154428">"फुल-स्क्रीन नोटिफिकेशनना अनुमती द्या"</string>
     <string name="app_notification_fsi_permission_summary" msgid="7673487977631068039">"डिव्हाइस लॉक केलेले असताना सूचनांना फुल स्क्रीन वापरण्याची अनुमती द्या"</string>
-    <string name="notification_badge_title" msgid="6854537463548411313">"सूचना बिंदूला अनुमती द्या"</string>
+    <string name="notification_badge_title" msgid="6854537463548411313">"नोटिफिकेशन बिंदूला अनुमती द्या"</string>
     <string name="notification_channel_badge_title" msgid="6505542437385640049">"नोटिफिकेशन डॉट दाखवा"</string>
     <string name="app_notification_override_dnd_title" msgid="3769539356442226691">"व्यत्यय आणू नका ओव्हरराइड करा"</string>
     <string name="app_notification_override_dnd_summary" msgid="4894641191397562920">"जेव्हा \'व्यत्यय आणू नका\' सुरू असेल तेव्हा या सूचना सुरू राहू द्या"</string>
@@ -4527,10 +4523,8 @@
     <string name="disabled_by_policy_title_financed_device" msgid="2328740314082888228">"तुमच्या क्रेडिट पुरवठाद्वारे ब्लॉक केले"</string>
     <string name="disabled_by_policy_title_biometric_parental_consent" msgid="2463673997797134678">"पालकाची संमती आवश्यक आहे"</string>
     <string name="disabled_by_policy_content_biometric_parental_consent" msgid="7124116806784305206">"हे सेट करणे सुरू करण्यासाठी तुमच्या पालकाला फोन द्या"</string>
-    <!-- no translation found for disabled_by_policy_title_parental_controls (8875976588644052371) -->
-    <skip />
-    <!-- no translation found for disabled_by_policy_content_parental_controls (4648160125103768738) -->
-    <skip />
+    <string name="disabled_by_policy_title_parental_controls" msgid="8875976588644052371">"पालक नियंत्रणांद्वारे प्रतिबंधित आहे"</string>
+    <string name="disabled_by_policy_content_parental_controls" msgid="4648160125103768738">"तुमची पालक नियंत्रणे व्यवस्थापित करणारी व्यक्तीच ही सेटिंग बदलू शकते"</string>
     <string name="disabled_by_policy_parental_consent" msgid="9166060049019018978">"हे सेटिंग बदलण्याची अनुमती देण्यासाठी तुमच्या पालकाला फोन द्या."</string>
     <string name="default_admin_support_msg" msgid="8816296554831532033">"अधिक माहितीसाठी, तुमच्या आयटी ॲडमिनशी संपर्क साधा"</string>
     <string name="admin_support_more_info" msgid="8407433155725898290">"अधिक तपशील"</string>
@@ -4646,8 +4640,7 @@
     <string name="battery_tips_card_action_button_check" msgid="1535140204105479318">"तपासा"</string>
     <string name="battery_tips_card_dismiss_button" msgid="1885756985544936618">"समजले"</string>
     <string name="battery_tips_card_feedback_info" msgid="767117835675157298">"हा मेसेज उपयुक्त आहे का?"</string>
-    <!-- no translation found for battery_hints_warning_icon_a11y (709629805028175434) -->
-    <skip />
+    <string name="battery_hints_warning_icon_a11y" msgid="709629805028175434">"बॅटरीच्या चेतावनीशी संबंधित टिपा"</string>
     <string name="battery_tips_settings_summary_brightness" msgid="546145032616077783">"बॅटरी लाइफ वाढवण्यासाठी अडॅप्टिव्ह ब्राइटनेस सुरू करा"</string>
     <string name="battery_tips_settings_summary_screen_timeout" msgid="556801426050962077">"बॅटरी लाइफ वाढवण्यासाठी स्क्रीन टाइमआउट कमी करा"</string>
     <string name="battery_tips_apps_summary_always_high" msgid="6334519477067044920">"<xliff:g id="APP_LABEL">%1$s</xliff:g> ने अधिक बॅटरी वापरली आहे"</string>
@@ -4975,8 +4968,6 @@
     <string name="autofill_reset_developer_options" msgid="6425613608979498608">"डीफॉल्ट मूल्यांवर रीसेट करा"</string>
     <string name="autofill_reset_developer_options_complete" msgid="1276741935956594965">"ऑटोफिल डेव्हलपर पर्याय रीसेट केले गेले आहेत"</string>
     <string name="location_category" msgid="3496759112306219062">"स्थान"</string>
-    <string name="location_indicator_settings_title" msgid="6655916258720093451">"स्टेटस बारचा स्थान इंडिकेटर"</string>
-    <string name="location_indicator_settings_description" msgid="2888022085372804021">"नेटवर्क आणि कनेक्टिव्हिटीसह सर्व स्थानांसाठी दाखवा"</string>
     <string name="enable_gnss_raw_meas_full_tracking" msgid="1206679951510243341">"पूर्ण GNSS मापांची सक्ती करा"</string>
     <string name="enable_gnss_raw_meas_full_tracking_summary" msgid="3841463141138247167">"कुठल्याही ड्युटी सायकलिंग शिवाय सर्व GNSS कॉन्स्टेलेशन आणि वारंवारता ट्रॅक करा"</string>
     <string name="input_method_category" msgid="2252659253631639005">"इनपुट पद्धत"</string>
@@ -5869,34 +5860,28 @@
     <string name="search_gesture_feature_summary" msgid="1793056495030564014">"तुमच्या स्क्रीनवरील आशय वापरून शोधण्यासाठी होम बटण किंवा नेव्हिगेशन हँडल स्‍पर्श करून धरून ठेवा."</string>
     <string name="device_detail_icon_content_description" msgid="6699151424374841937">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>. डिव्हाइसचे तपशील कॉन्फिगर करा."</string>
     <string name="supervision_settings_title" msgid="8507163323870367711">"पालक नियंत्रणे"</string>
-    <!-- no translation found for supervision_settings_summary (6304257872307136073) -->
-    <skip />
+    <string name="supervision_settings_summary" msgid="6304257872307136073">"मूलभूत डिजिटल नियम आणि स्क्रीन वेळेच्या मर्यादा"</string>
     <string name="device_supervision_switch_no_pin_summary" msgid="4869563544571033220">"पिन सेट करा"</string>
-    <!-- no translation found for keywords_supervision_settings (43064288661561602) -->
-    <skip />
+    <string name="keywords_supervision_settings" msgid="43064288661561602">"पर्यवेक्षण, पालक नियंत्रणे, पालक, पर्यवेक्षण पिन, पिन."</string>
     <string name="supervision_pin_management_preference_title" msgid="7721501202320841845">"तुमचा पिन व्यवस्थापित करा"</string>
-    <!-- no translation found for supervision_pin_management_preference_keywords (5034450635706621750) -->
-    <skip />
+    <string name="supervision_pin_management_preference_keywords" msgid="5034450635706621750">"पालक पिन, पालक नियंत्रणे करण्यासाठी असणारा पिन"</string>
     <string name="supervision_pin_management_preference_summary_add" msgid="2247921267270577374">"रिकव्हरी ईमेल जोडा"</string>
     <string name="supervision_pin_management_preference_summary_verify_recovery" msgid="5072554239108915119">"रिकव्हरी ईमेलची पडताळणी करा"</string>
     <string name="supervision_change_pin_preference_title" msgid="2288584039438231801">"पिन बदला"</string>
     <string name="supervision_add_forgot_pin_preference_title" msgid="8939945404255748516">"पिन विसरलात"</string>
-    <!-- no translation found for supervision_auth_prompt_forgot_pin_button_label (1019337828884793557) -->
-    <skip />
+    <string name="supervision_auth_prompt_forgot_pin_button_label" msgid="1019337828884793557">"पिन विसरला आहात का?"</string>
     <string name="supervision_update_recovery_email_preference_title" msgid="2057393838251915087">"रिकव्हरी ईमेल अपडेट करा"</string>
     <string name="supervision_delete_pin_preference_title" msgid="8447541098148430866">"पिन हटवा"</string>
     <string name="supervision_add_pin_recovery_title" msgid="3487098027604685794">"रिकव्हरी ईमेल जोडा"</string>
     <string name="supervision_verify_pin_recovery_title" msgid="3166602415814821497">"तुमच्या ईमेलची पडताळणी करा"</string>
-    <!-- no translation found for supervision_web_content_filters_title (2412562442507104921) -->
-    <skip />
-    <!-- no translation found for supervision_web_content_filters_keywords (8469519676189544447) -->
-    <skip />
+    <string name="supervision_web_content_filters_title" msgid="2412562442507104921">"वेबसाइट आशय फिल्टर"</string>
+    <string name="supervision_web_content_filters_keywords" msgid="8469519676189544447">"वेबसाइट फिल्टर, साइट ब्लॉक करणे, ब्राउझर फिल्टर, भडक साइट ब्लॉक करणे, साइट फिल्टर करणे, शोध परिणाम ब्लॉक करणे, भडक शोध परिणाम फिल्टर करणे, आशयासंबंधी निर्बंध"</string>
     <string name="supervision_web_content_filters_top_intro" msgid="5264773769840566499">"या डिव्हाइसवरील सपोर्ट असलेल्या ॲप्सवर वेबसाइट आणि शोध परिणामांमधील प्रौढ आशय ब्लॉक करा. सपोर्ट नसलेली ॲप्स तरीही भडक आशय दाखवू शकतात."</string>
     <string name="supervision_web_content_filters_browser_title" msgid="8737341514264129889">"वेबसाइट"</string>
     <string name="supervision_web_content_filters_browser_filter_title" msgid="7957976669412075070">"लैंगिकदृष्ट्या भडक असलेल्या साइट ब्लॉक करणे"</string>
     <string name="supervision_web_content_filters_search_title" msgid="8608480392956106029">"शोध परिणाम"</string>
     <string name="supervision_web_content_filters_search_filter_title" msgid="4212134055017429017">"लैंगिकदृष्ट्या भडक असलेले शोध परिणाम फिल्टर करा"</string>
-    <string name="supervision_full_screen_pin_verification_title" msgid="78513043528333399">"पर्यवेक्षण पिन एंटर करा"</string>
+    <string name="supervision_full_screen_pin_verification_title" msgid="7685279446792771815">"पालक नियंत्रणे पिन एंटर करा"</string>
     <string name="supervision_choose_your_pin_header" msgid="3872062168986738629">"पालक नियंत्रणे पिन सेट करा"</string>
     <string name="supervision_confirm_your_pin_header" msgid="8236956712482718354">"पिन कन्फर्म करा"</string>
     <string name="supervision_pin_reset_success_toast" msgid="9163550161698311831">"पिन अपडेट केला"</string>

@@ -224,12 +224,9 @@
     <string name="title_change_system_locale" msgid="4102991236063984803">"Systemsprache ändern zu „%s“?"</string>
     <string name="title_system_locale_addition" msgid="8218683660751479466">"%s zu bevorzugten Sprachen hinzufügen?"</string>
     <string name="desc_system_locale_addition" msgid="3409917362651596070">"Damit teilst du Apps und Websites mit, dass du auch diese Sprache verstehst."</string>
-    <!-- no translation found for desc_notice_device_locale_and_region_settings_change (909261686577914396) -->
-    <skip />
-    <!-- no translation found for desc_notice_device_locale_settings_change (5012353615235634881) -->
-    <skip />
-    <!-- no translation found for dlg_desc_delete_preferred_default_locale (690828405078078513) -->
-    <skip />
+    <string name="desc_notice_device_locale_and_region_settings_change" msgid="909261686577914396">"Dein Gerät verwendet <xliff:g id="LANGUAGE">%1$s</xliff:g> und deine Region wird zu <xliff:g id="REGION">%2$s</xliff:g> geändert."</string>
+    <string name="desc_notice_device_locale_settings_change" msgid="5012353615235634881">"Dein Gerät verwendet <xliff:g id="LANGUAGE">%s</xliff:g>."</string>
+    <string name="dlg_desc_delete_preferred_default_locale" msgid="690828405078078513">"<xliff:g id="REMOVED_LANGUAGE">%s</xliff:g> wird aus deinen bevorzugten Sprachen entfernt"</string>
     <string name="button_label_confirmation_of_system_locale_change" msgid="5593798559604894733">"Ändern"</string>
     <string name="title_unavailable_locale" msgid="5382411204559213983">"<xliff:g id="SELECTED_LANGUAGE">%s</xliff:g> kann nicht als Systemsprache festgelegt werden"</string>
     <string name="desc_unavailable_locale" msgid="7223655766703116782">"Diese Sprache wird von deinem Gerät nicht unterstützt, aber Apps wissen, dass du diese Sprache bevorzugst"</string>
@@ -374,7 +371,7 @@
     <string name="security_settings_face_preference_summary_none" msgid="523320857738436024">"Einrichtung erforderlich"</string>
     <string name="security_settings_face_preference_summary_none_new" msgid="1963253146734002815">"Gesicht hinzufügen"</string>
     <string name="security_settings_face_preference_title_new" msgid="7680231874730796331">"Gesicht"</string>
-    <string name="security_settings_face_profile_preference_title_new" msgid="685550153608106166">"Gesicht (Arbeit)"</string>
+    <string name="security_settings_face_profile_preference_title_new" msgid="685550153608106166">"Gesichtserkennung (Arbeitsprofil)"</string>
     <string name="private_space_face_unlock_title_new" msgid="2079622608951402509">"Gesicht (vertrauliches Profil)"</string>
     <string name="security_settings_face_preference_title" msgid="2126625155005348417">"Entsperrung per Gesichtserkennung"</string>
     <string name="security_settings_face_profile_preference_title" msgid="7519527436266375005">"Entsperrung per Gesichtserkennung für die Arbeit"</string>
@@ -450,7 +447,7 @@
     <string name="security_settings_fingerprint_preference_title" msgid="2484965173528415458">"Fingerabdruck"</string>
     <string name="security_settings_fingerprint_settings_preferences_category" msgid="8975029409126780752">"Wenn die Entsperrung per Fingerabdruck genutzt wird"</string>
     <string name="security_settings_work_fingerprint_preference_title" msgid="2076006873519745979">"Fingerabdruck-Einstellungen für die Arbeit"</string>
-    <string name="security_settings_work_fingerprint_preference_title_new" msgid="8967333987631878868">"Fingerabdruck (Arbeit)"</string>
+    <string name="security_settings_work_fingerprint_preference_title_new" msgid="8967333987631878868">"Fingerabdruck (Arbeitsprofil)"</string>
     <string name="fingerprint_check_enrolled_title" msgid="1007921571704991108">"Registrierte Fingerabdrücke prüfen"</string>
     <string name="fingerprint_add_title" msgid="1837610443487902050">"Fingerabdruck hinzufügen"</string>
     <string name="security_settings_fingerprint_preference_summary" msgid="8486134175759676037">"{count,plural, =1{Fingerabdruck hinzugefügt}other{# Fingerabdrücke hinzugefügt}}"</string>
@@ -1173,7 +1170,16 @@
     <string name="wifi_dpp_qr_code_is_not_valid_format" msgid="5190689503019328279">"QR-Code ist kein gültiges Format"</string>
     <string name="retry" msgid="7542103800274026915">"Noch mal versuchen"</string>
     <string name="wifi_shared" msgid="8850748923537589782">"Für andere Gerätenutzer freigeben"</string>
+    <string name="shared_message" msgid="2104244057926025072">"freigegebenen"</string>
+    <string name="private_message" msgid="5897966950396765392">"privaten"</string>
+    <string name="wifi_conflict_dialog_confirm" msgid="4577313983128123779">"Bestätigen"</string>
+    <string name="wifi_conflict_dialog_cancel" msgid="5200571850377525343">"Abbrechen"</string>
+    <string name="wifi_share_preference_title" msgid="6346200020322308703">"Dies ist ein freigegebenes Netzwerk"</string>
+    <string name="wifi_share_preference_summary" msgid="4356010425167713046">"Alle Nutzer außer Gastnutzern können dieses Netzwerk ansehen, bearbeiten und löschen"</string>
+    <string name="wifi_conflict_dialog_title" msgid="1127530499054245755">"Zum <xliff:g id="SHARED">%1$s</xliff:g> Netzwerk „<xliff:g id="NETWORK_NAME">%2$s</xliff:g>“ wechseln?"</string>
+    <string name="wifi_conflict_dialog_message" msgid="3192435395074097168">"Du bist derzeit mit einem <xliff:g id="SHARED_0">%1$s</xliff:g> Netzwerk mit demselben Namen verbunden. Wenn du wechselst, wird die Verbindung zum <xliff:g id="SHARED_1">%2$s</xliff:g> Netzwerk getrennt und dann eine Verbindung mit dem <xliff:g id="PRIVATE">%3$s</xliff:g> Netzwerk hergestellt. Möglicherweise hast du deswegen vorübergehend keine Internetverbindung."</string>
     <string name="wifi_unchanged" msgid="8026045290856150191">"(nicht geändert)"</string>
+    <string name="wifi_allow_edit_configuration_title" msgid="3928254385019370063">"Anderen Nutzern erlauben, die Netzwerkkonfiguration zu bearbeiten"</string>
     <string name="wifi_unspecified" msgid="4561964943472312208">"Auswählen"</string>
     <string name="wifi_multiple_cert_added" msgid="2151019652853383776">"(Mehrere Zertifikate hinzugefügt)"</string>
     <string name="wifi_use_system_certs" msgid="5587866698144996931">"Systemzertifikate verwenden"</string>
@@ -2148,8 +2154,8 @@
     <string name="mouse_keys" msgid="6237254627808525540">"Tastaturmaus"</string>
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"Tastaturmaus verwenden"</string>
     <string name="accessibility_mouse_keys_shortcut_title" msgid="7621635104533584115">"Kurzbefehl für die Tastaturmaus"</string>
-    <string name="mouse_keys_summary" msgid="7030731235143286467">"Zum Steuern des Mauszeigers die Tastatur verwenden"</string>
-    <string name="mouse_keys_max_speed_title" msgid="1788751803245422659">"Höchstgeschwindigkeit"</string>
+    <string name="mouse_keys_summary" msgid="6512910710030108693">"Zum Steuern des Cursors die Tastatur verwenden"</string>
+    <string name="mouse_keys_max_speed_title" msgid="2651688711606971145">"Geschwindigkeit"</string>
     <string name="mouse_keys_seek_bar_decrease_button_description" msgid="9077624857206032509">"Verringern"</string>
     <string name="mouse_keys_seek_bar_increase_button_description" msgid="2721662400858172203">"Erhöhen"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"Scrollrichtung umkehren"</string>
@@ -2175,6 +2181,9 @@
     <string name="mouse_keys_release_summary" msgid="7209370896835993434">"Primäre Taste loslassen: Taste „<xliff:g id="RELEASE_LABEL">%s</xliff:g>“ verwenden"</string>
     <string name="mouse_keys_toggle_scroll_summary" msgid="7492663135290108272">"Scrollmodus aktivieren oder deaktivieren: Taste „<xliff:g id="RELEASE_LABEL_1">%1$s</xliff:g>“ verwenden; anschließend kannst du mit den Tasten „<xliff:g id="RELEASE_LABEL_2">%2$s</xliff:g>“ in der Ansicht nach oben, unten, links oder rechts scrollen"</string>
     <string name="mouse_keys_release2_summary" msgid="5504548339731577210">"Mit der sekundären Maustaste klicken: Taste „<xliff:g id="RELEASE_2_LABEL">%s</xliff:g>“ verwenden"</string>
+    <string name="mouse_keys_acceleration_seekbar_title" msgid="2329098889930361504">"Beschleunigung"</string>
+    <string name="mouse_keys_acceleration_fast_icon_desc" msgid="4426188473271579794">"Schnell"</string>
+    <string name="mouse_keys_acceleration_slow_icon_desc" msgid="8370777074987200135">"Langsam"</string>
     <string name="keyboard_shortcuts_helper" msgid="6934420811737731188">"Tastenkombinationen ansehen"</string>
     <string name="keyboard_shortcuts_helper_summary" msgid="5979507677602559203">"Liste der Tastenkombinationen anzeigen"</string>
     <string name="language_and_input_for_work_category_title" msgid="2546950919124199743">"Tastaturen und Tools für das Arbeitsprofil"</string>
@@ -2237,11 +2246,9 @@
     <string name="gesture_button_next" msgid="695288092704187356">"Weiter"</string>
     <string name="gesture_button_restart" msgid="1895850891992530133">"Neustart"</string>
     <string name="gesture_button_done" msgid="6387900351203032188">"Fertig"</string>
-    <!-- no translation found for action_corner_title (7411160165577367757) -->
-    <skip />
+    <string name="action_corner_title" msgid="7411160165577367757">"Kurzbefehle für Ecken anpassen"</string>
     <string name="action_corner_summary" msgid="695618538930535335">"System mit Cursorn bedienen"</string>
-    <!-- no translation found for action_corner_intro (2170609118659718140) -->
-    <skip />
+    <string name="action_corner_intro" msgid="2170609118659718140">"Wähle die folgenden Bereiche aus, um Kurzbefehle für Ecken anzupassen"</string>
     <string name="action_corner_bottom_left_title" msgid="2857258272736432174">"Linke untere Ecke"</string>
     <string name="action_corner_bottom_right_title" msgid="7222233500548465684">"Rechte untere Ecke"</string>
     <string name="action_corner_top_left_title" msgid="4633975226092344210">"Linke obere Ecke"</string>
@@ -2644,10 +2651,8 @@
     <string name="accessibility_daltonizer_footer_learn_more_content_description" msgid="2091679253892040910">"Weitere Informationen zur Farbkorrektur"</string>
     <string name="accessibility_color_inversion_about_title" msgid="8275754480247040136">"Über die Farbumkehr"</string>
     <string name="accessibility_color_inversion_footer_learn_more_content_description" msgid="5382579548498952445">"Weitere Informationen zur Farbumkehr"</string>
-    <!-- no translation found for accessibility_dark_theme_footer_learn_more_helper_link (7084955775821075280) -->
-    <skip />
-    <!-- no translation found for accessibility_dark_theme_preference_footer_content (4431044600779983609) -->
-    <skip />
+    <string name="accessibility_dark_theme_footer_learn_more_helper_link" msgid="7084955775821075280">"Weitere Informationen zum dunklen Design"</string>
+    <string name="accessibility_dark_theme_preference_footer_content" msgid="4431044600779983609">"Einige Apps unterstützen das dunkle Design möglicherweise nicht in der erweiterten Einstellung. Wenn Probleme mit der Darstellung auftreten, verwende die Standardeinstellung."</string>
     <string name="accessibility_captioning_primary_switch_title" msgid="3663677340286206100">"Untertitel anzeigen"</string>
     <string name="accessibility_captioning_primary_switch_summary" msgid="2544094070306830218">"Nur für unterstützte Apps"</string>
     <string name="captioning_appearance_title" msgid="3128792092290011408">"Untertitelgröße und -stil"</string>
@@ -4518,10 +4523,8 @@
     <string name="disabled_by_policy_title_financed_device" msgid="2328740314082888228">"Von deinem Kreditinstitut blockiert"</string>
     <string name="disabled_by_policy_title_biometric_parental_consent" msgid="2463673997797134678">"Elternerlaubnis erforderlich"</string>
     <string name="disabled_by_policy_content_biometric_parental_consent" msgid="7124116806784305206">"Gib das Smartphone einem Elternteil, um mit der Einrichtung zu beginnen"</string>
-    <!-- no translation found for disabled_by_policy_title_parental_controls (8875976588644052371) -->
-    <skip />
-    <!-- no translation found for disabled_by_policy_content_parental_controls (4648160125103768738) -->
-    <skip />
+    <string name="disabled_by_policy_title_parental_controls" msgid="8875976588644052371">"Durch Jugendschutzeinstellungen eingeschränkt"</string>
+    <string name="disabled_by_policy_content_parental_controls" msgid="4648160125103768738">"Nur die Person, die die Jugendschutzeinstellungen verwaltet, kann diese Einstellung ändern"</string>
     <string name="disabled_by_policy_parental_consent" msgid="9166060049019018978">"Gib das Smartphone zum Ändern dieser Einstellung einem Elternteil."</string>
     <string name="default_admin_support_msg" msgid="8816296554831532033">"Wenn du mehr wissen möchtest, wende dich an deinen IT-Administrator"</string>
     <string name="admin_support_more_info" msgid="8407433155725898290">"Weitere Details"</string>
@@ -4637,8 +4640,7 @@
     <string name="battery_tips_card_action_button_check" msgid="1535140204105479318">"Ansehen"</string>
     <string name="battery_tips_card_dismiss_button" msgid="1885756985544936618">"Ok"</string>
     <string name="battery_tips_card_feedback_info" msgid="767117835675157298">"War diese Nachricht hilfreich?"</string>
-    <!-- no translation found for battery_hints_warning_icon_a11y (709629805028175434) -->
-    <skip />
+    <string name="battery_hints_warning_icon_a11y" msgid="709629805028175434">"Tipps zu Akkuwarnungen"</string>
     <string name="battery_tips_settings_summary_brightness" msgid="546145032616077783">"Automatische Helligkeit aktivieren, um die Akkulaufzeit zu verlängern"</string>
     <string name="battery_tips_settings_summary_screen_timeout" msgid="556801426050962077">"Zeit bis zum automatischen Ausschalten des Displays verkürzen, um die Akkulaufzeit zu verlängern"</string>
     <string name="battery_tips_apps_summary_always_high" msgid="6334519477067044920">"<xliff:g id="APP_LABEL">%1$s</xliff:g> hat den Akku stärker beansprucht"</string>
@@ -4966,8 +4968,6 @@
     <string name="autofill_reset_developer_options" msgid="6425613608979498608">"Auf Standardwerte zurücksetzen"</string>
     <string name="autofill_reset_developer_options_complete" msgid="1276741935956594965">"Die Autofill-Optionen für Entwickler wurden zurückgesetzt"</string>
     <string name="location_category" msgid="3496759112306219062">"Standort"</string>
-    <string name="location_indicator_settings_title" msgid="6655916258720093451">"Standortanzeige in der Statusleiste"</string>
-    <string name="location_indicator_settings_description" msgid="2888022085372804021">"Für alle Standorte anzeigen, einschließlich Netzwerk und Verbindung"</string>
     <string name="enable_gnss_raw_meas_full_tracking" msgid="1206679951510243341">"Vollständige GNSS-Messung erzwingen"</string>
     <string name="enable_gnss_raw_meas_full_tracking_summary" msgid="3841463141138247167">"Alle GNSS-Konstellationen und -Frequenzen durchgehend erfassen"</string>
     <string name="input_method_category" msgid="2252659253631639005">"Eingabemethode"</string>
@@ -5860,34 +5860,28 @@
     <string name="search_gesture_feature_summary" msgid="1793056495030564014">"Halte den Home-Button oder den Navigationsziehpunkt gedrückt, um anhand des Inhalts auf dem Bildschirm zu suchen."</string>
     <string name="device_detail_icon_content_description" msgid="6699151424374841937">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>. Gerätedetail konfigurieren."</string>
     <string name="supervision_settings_title" msgid="8507163323870367711">"Jugendschutzeinstellungen"</string>
-    <!-- no translation found for supervision_settings_summary (6304257872307136073) -->
-    <skip />
+    <string name="supervision_settings_summary" msgid="6304257872307136073">"Grundregeln für die Nutzung digitaler Medien und Einschränkungen der Bildschirmzeit"</string>
     <string name="device_supervision_switch_no_pin_summary" msgid="4869563544571033220">"PIN einrichten"</string>
-    <!-- no translation found for keywords_supervision_settings (43064288661561602) -->
-    <skip />
+    <string name="keywords_supervision_settings" msgid="43064288661561602">"Elternaufsicht, Jugendschutzeinstellungen, Eltern, PIN für die Elternaufsicht, PIN"</string>
     <string name="supervision_pin_management_preference_title" msgid="7721501202320841845">"PIN verwalten"</string>
-    <!-- no translation found for supervision_pin_management_preference_keywords (5034450635706621750) -->
-    <skip />
+    <string name="supervision_pin_management_preference_keywords" msgid="5034450635706621750">"Eltern-PIN, PIN für Jugendschutzeinstellungen"</string>
     <string name="supervision_pin_management_preference_summary_add" msgid="2247921267270577374">"E‑Mail-Adresse zur Kontowiederherstellung hinzufügen"</string>
     <string name="supervision_pin_management_preference_summary_verify_recovery" msgid="5072554239108915119">"E‑Mail-Adresse zur Kontowiederherstellung bestätigen"</string>
     <string name="supervision_change_pin_preference_title" msgid="2288584039438231801">"PIN ändern"</string>
     <string name="supervision_add_forgot_pin_preference_title" msgid="8939945404255748516">"PIN vergessen"</string>
-    <!-- no translation found for supervision_auth_prompt_forgot_pin_button_label (1019337828884793557) -->
-    <skip />
+    <string name="supervision_auth_prompt_forgot_pin_button_label" msgid="1019337828884793557">"PIN vergessen?"</string>
     <string name="supervision_update_recovery_email_preference_title" msgid="2057393838251915087">"E‑Mail-Adresse zur Kontowiederherstellung aktualisieren"</string>
     <string name="supervision_delete_pin_preference_title" msgid="8447541098148430866">"PIN löschen"</string>
     <string name="supervision_add_pin_recovery_title" msgid="3487098027604685794">"E‑Mail-Adresse zur Kontowiederherstellung hinzufügen"</string>
     <string name="supervision_verify_pin_recovery_title" msgid="3166602415814821497">"E‑Mail-Adresse bestätigen"</string>
-    <!-- no translation found for supervision_web_content_filters_title (2412562442507104921) -->
-    <skip />
-    <!-- no translation found for supervision_web_content_filters_keywords (8469519676189544447) -->
-    <skip />
+    <string name="supervision_web_content_filters_title" msgid="2412562442507104921">"Filter für Websiteinhalte"</string>
+    <string name="supervision_web_content_filters_keywords" msgid="8469519676189544447">"Websitefilter, Websites blockieren, Browserfilter, Anstößige Websites blockieren, Websites filtern, Suchergebnisse blockieren, Anstößige Suchergebnisse filtern, Inhaltsbeschränkungen"</string>
     <string name="supervision_web_content_filters_top_intro" msgid="5264773769840566499">"Nicht jugendfreie Inhalte auf Websites und in Suchergebnissen in unterstützten Apps auf diesem Gerät blockieren. In nicht unterstützten Apps können weiterhin nicht jugendfreie Inhalte angezeigt werden."</string>
     <string name="supervision_web_content_filters_browser_title" msgid="8737341514264129889">"Websites"</string>
     <string name="supervision_web_content_filters_browser_filter_title" msgid="7957976669412075070">"Anstößige Websites blockieren"</string>
     <string name="supervision_web_content_filters_search_title" msgid="8608480392956106029">"Suchergebnisse"</string>
     <string name="supervision_web_content_filters_search_filter_title" msgid="4212134055017429017">"Explizite Suchergebnisse herausfiltern"</string>
-    <string name="supervision_full_screen_pin_verification_title" msgid="78513043528333399">"PIN für die Elternaufsicht eingeben"</string>
+    <string name="supervision_full_screen_pin_verification_title" msgid="7685279446792771815">"PIN für Jugendschutzeinstellungen eingeben"</string>
     <string name="supervision_choose_your_pin_header" msgid="3872062168986738629">"PIN für Jugendschutzeinstellungen festlegen"</string>
     <string name="supervision_confirm_your_pin_header" msgid="8236956712482718354">"PIN bestätigen"</string>
     <string name="supervision_pin_reset_success_toast" msgid="9163550161698311831">"PIN aktualisiert"</string>

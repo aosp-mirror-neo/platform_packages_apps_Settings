@@ -198,8 +198,7 @@
     <string name="locale_remove_menu" msgid="3521546263421387474">"Выдаліць"</string>
     <string name="add_a_language" msgid="2126220398077503271">"Дадаць мову"</string>
     <string name="app_locale_preference_title" msgid="5513627099300360232">"Мова"</string>
-    <!-- no translation found for locale_picker_category_title (296835514014453679) -->
-    <skip />
+    <string name="locale_picker_category_title" msgid="296835514014453679">"Прыярытэтныя мовы"</string>
     <string name="app_locales_picker_menu_title" msgid="7617427959223831373">"Мовы праграм"</string>
     <string name="app_locale_picker_summary" msgid="616928580653613998">"Выбіраць мову для кожнай праграмы"</string>
     <string name="app_locale_picker_title" msgid="2431448962911301366">"Мова праграмы"</string>
@@ -225,17 +224,12 @@
     <string name="title_change_system_locale" msgid="4102991236063984803">"Змяніць мову сістэмы на наступную: %s?"</string>
     <string name="title_system_locale_addition" msgid="8218683660751479466">"Дадаць %s у прыярытэтныя мовы?"</string>
     <string name="desc_system_locale_addition" msgid="3409917362651596070">"Праграмам і сайтам будзе паведамляцца, што вы аддаяце перавагу гэтай мове."</string>
-    <!-- no translation found for desc_notice_device_locale_and_region_settings_change (909261686577914396) -->
-    <skip />
-    <!-- no translation found for desc_notice_device_locale_settings_change (5012353615235634881) -->
-    <skip />
-    <!-- no translation found for dlg_desc_delete_preferred_default_locale (690828405078078513) -->
-    <skip />
+    <string name="desc_notice_device_locale_and_region_settings_change" msgid="909261686577914396">"Мова, якая будзе выкарыстоўвацца прыладай: <xliff:g id="LANGUAGE">%1$s</xliff:g>. Рэгіён пасля змянення: <xliff:g id="REGION">%2$s</xliff:g>."</string>
+    <string name="desc_notice_device_locale_settings_change" msgid="5012353615235634881">"Мова, якая будзе выкарыстоўвацца прыладай: <xliff:g id="LANGUAGE">%s</xliff:g>."</string>
+    <string name="dlg_desc_delete_preferred_default_locale" msgid="690828405078078513">"Наступная мова будзе выдалена з прыярытэтных моў: <xliff:g id="REMOVED_LANGUAGE">%s</xliff:g>"</string>
     <string name="button_label_confirmation_of_system_locale_change" msgid="5593798559604894733">"Змяніць"</string>
-    <!-- no translation found for title_unavailable_locale (5382411204559213983) -->
-    <skip />
-    <!-- no translation found for desc_unavailable_locale (7223655766703116782) -->
-    <skip />
+    <string name="title_unavailable_locale" msgid="5382411204559213983">"Не ўдаецца задаць гэту мову (<xliff:g id="SELECTED_LANGUAGE">%s</xliff:g>) у якасці сістэмнай"</string>
+    <string name="desc_unavailable_locale" msgid="7223655766703116782">"Гэта мова не падтрымліваецца на вашай прыладзе, але праграмы будуць ведаць, што яна прыярытэтная для вас"</string>
     <string name="locale_search_menu" msgid="297782694044826686">"Шукаць"</string>
     <string name="language_and_region_title" msgid="8374151891112162767">"Мова і рэгіён"</string>
     <string name="language_selection_title" msgid="968179636453982415">"Дадаць мову"</string>
@@ -249,12 +243,9 @@
     <string name="title_change_system_locale_region" msgid="4401478579429442695">"Змяніць рэгіён на наступны: <xliff:g id="SYSTEM_LANGUAGE_REGION">%1$s</xliff:g>?"</string>
     <string name="body_change_system_locale_region" msgid="9064318449821043189">"У якасці мовы сістэмы прылада захавае наступную: <xliff:g id="SYSTEM_LANGUAGE">%1$s</xliff:g>"</string>
     <string name="top_intro_numbering_system_title" msgid="3962000662073238392">"Выберыце, як ваша прылада, сайты і праграмы будуць паказваць лічбы"</string>
-    <!-- no translation found for preferred_locale_menu_up (4009560552099567485) -->
-    <skip />
-    <!-- no translation found for preferred_locale_menu_down (1033373887552535585) -->
-    <skip />
-    <!-- no translation found for preferred_locale_menu_remove (8547483341987864590) -->
-    <skip />
+    <string name="preferred_locale_menu_up" msgid="4009560552099567485">"Перамясціць уверх"</string>
+    <string name="preferred_locale_menu_down" msgid="1033373887552535585">"Перамясціць уніз"</string>
+    <string name="preferred_locale_menu_remove" msgid="8547483341987864590">"Выдаліць"</string>
     <string name="regional_preferences_title" msgid="4304567374498629528">"Рэгіянальныя налады"</string>
     <string name="regional_preferences_summary" msgid="1189876997389469650">"Задаць налады адзінак вымярэння і лічбаў"</string>
     <string name="regional_preferences_main_page_sub_title" msgid="4237109940015254725">"З мэтай персаналізацыі задайце для праграм рэгіянальныя налады."</string>
@@ -293,10 +284,8 @@
     <string name="dlg_remove_locales_error_title" msgid="5875503658221562572">"Не атрымалася выдаліць усе мовы"</string>
     <string name="dlg_remove_locales_error_message" msgid="6504279959974675302">"Пакіньце па меншай меры адну прыярытэтную мову"</string>
     <string name="locale_not_translated" msgid="3071618135527110152">"Недаступна ў якасці мовы сістэмы"</string>
-    <!-- no translation found for dlg_title_delete_preferred_locale (4167214348946940002) -->
-    <skip />
-    <!-- no translation found for dlg_desc_delete_preferred_locale (4658301652628456858) -->
-    <skip />
+    <string name="dlg_title_delete_preferred_locale" msgid="4167214348946940002">"Выдаліць наступную мову: <xliff:g id="REMOVED_LANGUAGE">%s</xliff:g>?"</string>
+    <string name="dlg_desc_delete_preferred_locale" msgid="4658301652628456858">"<xliff:g id="REMOVED_LANGUAGE">%s</xliff:g> будзе выдалена з вашых прыярытэтных моў. Пазней вы можаце дадаць яе зноў."</string>
     <string name="action_drag_label_move_up" msgid="3392196942330705015">"Перамясціць вышэй"</string>
     <string name="action_drag_label_move_down" msgid="9069518740553953426">"Перамясціць ніжэй"</string>
     <string name="action_drag_label_move_top" msgid="2430471023612171619">"Перамясціць уверх"</string>
@@ -476,8 +465,7 @@
     <string name="security_settings_fingerprint_enroll_introduction_no_thanks" msgid="1663906389456119842">"Не зараз"</string>
     <string name="security_settings_fingerprint_enroll_introduction_agree" msgid="4068276083536421828">"Я згаджаюся"</string>
     <string name="security_settings_fingerprint_rename_description" msgid="6301505700382531086">"Каб перайменаваць, націсніце двойчы"</string>
-    <!-- no translation found for security_settings_fingerprint_recognition_description (1805171116182647136) -->
-    <skip />
+    <string name="security_settings_fingerprint_recognition_description" msgid="1805171116182647136">"<xliff:g id="FP_NAME">%1$s</xliff:g>: распазнаны"</string>
     <string name="setup_fingerprint_enroll_skip_title" msgid="2473807887676247264">"Не наладжваць адбітак?"</string>
     <string name="setup_fingerprint_enroll_skip_after_adding_lock_text" msgid="2412645723804450304">"Для наладжвання адбітка пальца спатрэбіцца пара хвілін. Вы можаце прапусціць гэты крок і дадаць адбітак пальца пазней у наладах."</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_setup" msgid="6255210343107484206">"Аўтэнтыфікацыя адбіткам пальца"</string>
@@ -1182,7 +1170,16 @@
     <string name="wifi_dpp_qr_code_is_not_valid_format" msgid="5190689503019328279">"QR-код мае несапраўдны фармат"</string>
     <string name="retry" msgid="7542103800274026915">"Паўтарыць"</string>
     <string name="wifi_shared" msgid="8850748923537589782">"Падзяліцца з іншымі карыстальнікамі прылады"</string>
+    <string name="shared_message" msgid="2104244057926025072">"абагуленая"</string>
+    <string name="private_message" msgid="5897966950396765392">"прыватная"</string>
+    <string name="wifi_conflict_dialog_confirm" msgid="4577313983128123779">"Пацвердзіць"</string>
+    <string name="wifi_conflict_dialog_cancel" msgid="5200571850377525343">"Скасаваць"</string>
+    <string name="wifi_share_preference_title" msgid="6346200020322308703">"Гэта абагуленая сетка"</string>
+    <string name="wifi_share_preference_summary" msgid="4356010425167713046">"Усе карыстальнікі, акрамя гасцявых, змогуць праглядзець, змяніць ці выдаліць гэту сетку"</string>
+    <string name="wifi_conflict_dialog_title" msgid="1127530499054245755">"Пераключыцца на сетку тыпу \"<xliff:g id="SHARED">%1$s</xliff:g>\" з назвай \"<xliff:g id="NETWORK_NAME">%2$s</xliff:g>\"?"</string>
+    <string name="wifi_conflict_dialog_message" msgid="3192435395074097168">"Вы ўжо падключаны да сеткі тыпу \"<xliff:g id="SHARED_0">%1$s</xliff:g>\" з такой назвай. Пры пераключэнні вы адключыцеся ад сеткі тыпу \"<xliff:g id="SHARED_1">%2$s</xliff:g>\" і падключыцеся да сеткі тыпу \"<xliff:g id="PRIVATE">%3$s</xliff:g>\". У вас часова можа адсутнічаць падключэнне да інтэрнэту."</string>
     <string name="wifi_unchanged" msgid="8026045290856150191">"(не зменена)"</string>
+    <string name="wifi_allow_edit_configuration_title" msgid="3928254385019370063">"Дазволіць іншым карыстальнікам змяняць налады сеткі"</string>
     <string name="wifi_unspecified" msgid="4561964943472312208">"Выбраць"</string>
     <string name="wifi_multiple_cert_added" msgid="2151019652853383776">"(Дададзена некалькі сертыфікатаў)"</string>
     <string name="wifi_use_system_certs" msgid="5587866698144996931">"Выкарыстоўваць сістэмныя сертыфікаты"</string>
@@ -2157,8 +2154,8 @@
     <string name="mouse_keys" msgid="6237254627808525540">"Клавішы кіравання мышшу"</string>
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"Выкарыстоўваць клавішы мышы"</string>
     <string name="accessibility_mouse_keys_shortcut_title" msgid="7621635104533584115">"Спалучэнне клавіш кіравання мышшу"</string>
-    <string name="mouse_keys_summary" msgid="7030731235143286467">"Выкарыстоўвайце клавіятуру, каб кіраваць паказальнікам"</string>
-    <string name="mouse_keys_max_speed_title" msgid="1788751803245422659">"Максімальная хуткасць"</string>
+    <string name="mouse_keys_summary" msgid="6512910710030108693">"Кіраваць курсорам з дапамогай клавіятуры"</string>
+    <string name="mouse_keys_max_speed_title" msgid="2651688711606971145">"Хуткасць"</string>
     <string name="mouse_keys_seek_bar_decrease_button_description" msgid="9077624857206032509">"Паменшыць"</string>
     <string name="mouse_keys_seek_bar_increase_button_description" msgid="2721662400858172203">"Павялічыць"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"Гартанне ў адваротны бок"</string>
@@ -2184,6 +2181,9 @@
     <string name="mouse_keys_release_summary" msgid="7209370896835993434">"Каб адпусціць асноўную кнопку мышы, скарыстайце клавішу \"<xliff:g id="RELEASE_LABEL">%s</xliff:g>\""</string>
     <string name="mouse_keys_toggle_scroll_summary" msgid="7492663135290108272">"Каб пераключыць рэжым гартання, скарыстайце клавішу \"<xliff:g id="RELEASE_LABEL_1">%1$s</xliff:g>\". Клавішамі \"<xliff:g id="RELEASE_LABEL_2">%2$s</xliff:g>\" можна будзе гартаць уверх, уніз, улева і ўправа."</string>
     <string name="mouse_keys_release2_summary" msgid="5504548339731577210">"Каб націснуць дадатковую кнопку мышы, скарыстайце клавішу \"<xliff:g id="RELEASE_2_LABEL">%s</xliff:g>\""</string>
+    <string name="mouse_keys_acceleration_seekbar_title" msgid="2329098889930361504">"Паскарэнне"</string>
+    <string name="mouse_keys_acceleration_fast_icon_desc" msgid="4426188473271579794">"Хутка"</string>
+    <string name="mouse_keys_acceleration_slow_icon_desc" msgid="8370777074987200135">"Павольна"</string>
     <string name="keyboard_shortcuts_helper" msgid="6934420811737731188">"Праглядзець спалучэнні клавіш"</string>
     <string name="keyboard_shortcuts_helper_summary" msgid="5979507677602559203">"Паказаць спіс спалучэнняў клавіш"</string>
     <string name="language_and_input_for_work_category_title" msgid="2546950919124199743">"Клавіятуры і інструменты працоўнага профілю"</string>
@@ -2246,11 +2246,9 @@
     <string name="gesture_button_next" msgid="695288092704187356">"Далей"</string>
     <string name="gesture_button_restart" msgid="1895850891992530133">"Перазапусціць"</string>
     <string name="gesture_button_done" msgid="6387900351203032188">"Гатова"</string>
-    <!-- no translation found for action_corner_title (7411160165577367757) -->
-    <skip />
+    <string name="action_corner_title" msgid="7411160165577367757">"Наладжванне дзеянняў для вуглоў"</string>
     <string name="action_corner_summary" msgid="695618538930535335">"Для перамяшчэння па сістэме выкарыстоўвайце курсор"</string>
-    <!-- no translation found for action_corner_intro (2170609118659718140) -->
-    <skip />
+    <string name="action_corner_intro" msgid="2170609118659718140">"Выберыце наступныя вобласці і наладзьце дзеянні для вуглоў"</string>
     <string name="action_corner_bottom_left_title" msgid="2857258272736432174">"Ніжні левы вугал"</string>
     <string name="action_corner_bottom_right_title" msgid="7222233500548465684">"Ніжні правы вугал"</string>
     <string name="action_corner_top_left_title" msgid="4633975226092344210">"Верхні левы вугал"</string>
@@ -2653,10 +2651,8 @@
     <string name="accessibility_daltonizer_footer_learn_more_content_description" msgid="2091679253892040910">"Даведацца больш пра карэкцыю колераў"</string>
     <string name="accessibility_color_inversion_about_title" msgid="8275754480247040136">"Пра інверсію колераў"</string>
     <string name="accessibility_color_inversion_footer_learn_more_content_description" msgid="5382579548498952445">"Даведацца больш пра інверсію колераў"</string>
-    <!-- no translation found for accessibility_dark_theme_footer_learn_more_helper_link (7084955775821075280) -->
-    <skip />
-    <!-- no translation found for accessibility_dark_theme_preference_footer_content (4431044600779983609) -->
-    <skip />
+    <string name="accessibility_dark_theme_footer_learn_more_helper_link" msgid="7084955775821075280">"Даведацца больш пра цёмную тэму"</string>
+    <string name="accessibility_dark_theme_preference_footer_content" msgid="4431044600779983609">"Некаторыя праграмы могуць не падтрымліваць цёмную тэму ў пашыраных наладах. Калі ў вас узніклі праблемы са знешнім выглядам, выкарыстоўвайце стандартныя налады."</string>
     <string name="accessibility_captioning_primary_switch_title" msgid="3663677340286206100">"Паказваць субцітры"</string>
     <string name="accessibility_captioning_primary_switch_summary" msgid="2544094070306830218">"Толькі для праграм, якія падтрымліваюцца"</string>
     <string name="captioning_appearance_title" msgid="3128792092290011408">"Памер і стыль субцітраў"</string>
@@ -4527,10 +4523,8 @@
     <string name="disabled_by_policy_title_financed_device" msgid="2328740314082888228">"Заблакіравана крэдыторам"</string>
     <string name="disabled_by_policy_title_biometric_parental_consent" msgid="2463673997797134678">"Патрабуецца дапамога бацькоў"</string>
     <string name="disabled_by_policy_content_biometric_parental_consent" msgid="7124116806784305206">"Каб наладзіць гэту функцыю, перадай тэлефон аднаму з бацькоў"</string>
-    <!-- no translation found for disabled_by_policy_title_parental_controls (8875976588644052371) -->
-    <skip />
-    <!-- no translation found for disabled_by_policy_content_parental_controls (4648160125103768738) -->
-    <skip />
+    <string name="disabled_by_policy_title_parental_controls" msgid="8875976588644052371">"Абмежавана бацькоўскім кантролем"</string>
+    <string name="disabled_by_policy_content_parental_controls" msgid="4648160125103768738">"Гэту наладу можа змяніць толькі асоба, якая ажыццяўляе бацькоўскі кантроль на тваёй прыладзе"</string>
     <string name="disabled_by_policy_parental_consent" msgid="9166060049019018978">"Каб змяніць гэту наладу, перадай тэлефон аднаму з бацькоў."</string>
     <string name="default_admin_support_msg" msgid="8816296554831532033">"Па дадатковую інфармацыю звярніцеся да ІT-адміністратара"</string>
     <string name="admin_support_more_info" msgid="8407433155725898290">"Дадатковая інфармацыя"</string>
@@ -4646,8 +4640,7 @@
     <string name="battery_tips_card_action_button_check" msgid="1535140204105479318">"Праверыць"</string>
     <string name="battery_tips_card_dismiss_button" msgid="1885756985544936618">"Зразумела"</string>
     <string name="battery_tips_card_feedback_info" msgid="767117835675157298">"Гэта паведамленне карыснае?"</string>
-    <!-- no translation found for battery_hints_warning_icon_a11y (709629805028175434) -->
-    <skip />
+    <string name="battery_hints_warning_icon_a11y" msgid="709629805028175434">"Рэкамендацыі па эксплуатацыі акумулятара"</string>
     <string name="battery_tips_settings_summary_brightness" msgid="546145032616077783">"Каб павялічыць час працы ад акумулятара, уключыце адаптыўную яркасць"</string>
     <string name="battery_tips_settings_summary_screen_timeout" msgid="556801426050962077">"Каб павялічыць час працы ад акумулятара, зменшыце час да выключэння экрана"</string>
     <string name="battery_tips_apps_summary_always_high" msgid="6334519477067044920">"Праграма \"<xliff:g id="APP_LABEL">%1$s</xliff:g>\" выкарыстала больш зараду акумулятара"</string>
@@ -4975,8 +4968,6 @@
     <string name="autofill_reset_developer_options" msgid="6425613608979498608">"Скінуць значэнні да стандартных"</string>
     <string name="autofill_reset_developer_options_complete" msgid="1276741935956594965">"Аўтазапаўненне параметраў распрацоўшчыка было скінута"</string>
     <string name="location_category" msgid="3496759112306219062">"Месцазнаходжанне"</string>
-    <string name="location_indicator_settings_title" msgid="6655916258720093451">"Індыкатар месцазнаходжання на панэлі стану"</string>
-    <string name="location_indicator_settings_description" msgid="2888022085372804021">"Паказваць для ўсіх месцазнаходжанняў, у тым ліку для месцазнаходжання ў сетцы і месцаў падключэння"</string>
     <string name="enable_gnss_raw_meas_full_tracking" msgid="1206679951510243341">"Прымусова правесці поўныя вымярэнні GNSS"</string>
     <string name="enable_gnss_raw_meas_full_tracking_summary" msgid="3841463141138247167">"Адсочваць усе групы і частоты GNSS з выключаным працоўным цыклам"</string>
     <string name="input_method_category" msgid="2252659253631639005">"Спосаб уводу"</string>
@@ -5871,34 +5862,28 @@
     <string name="search_gesture_feature_summary" msgid="1793056495030564014">"Каб запусціць пошук з выкарыстаннем змесціва экрана, націсніце і ўтрымлівайце кнопку галоўнага экрана або маркер навігацыі."</string>
     <string name="device_detail_icon_content_description" msgid="6699151424374841937">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>. Наладзьце звесткі пра прыладу."</string>
     <string name="supervision_settings_title" msgid="8507163323870367711">"Бацькоўскі кантроль"</string>
-    <!-- no translation found for supervision_settings_summary (6304257872307136073) -->
-    <skip />
+    <string name="supervision_settings_summary" msgid="6304257872307136073">"Правілы карыстання лічбавым змесцівам і ліміты часу карыстання прыладай"</string>
     <string name="device_supervision_switch_no_pin_summary" msgid="4869563544571033220">"Задаць PIN-код"</string>
-    <!-- no translation found for keywords_supervision_settings (43064288661561602) -->
-    <skip />
+    <string name="keywords_supervision_settings" msgid="43064288661561602">"кантроль, бацькоўскі кантроль, бацькі, PIN-код бацькоўскага кантролю, PIN-код"</string>
     <string name="supervision_pin_management_preference_title" msgid="7721501202320841845">"Кіруйце PIN-кодам"</string>
-    <!-- no translation found for supervision_pin_management_preference_keywords (5034450635706621750) -->
-    <skip />
+    <string name="supervision_pin_management_preference_keywords" msgid="5034450635706621750">"Бацькоўскі PIN-код, PIN-код бацькоўскага кантролю"</string>
     <string name="supervision_pin_management_preference_summary_add" msgid="2247921267270577374">"Дадайце рэзервовы адрас электроннай пошты"</string>
     <string name="supervision_pin_management_preference_summary_verify_recovery" msgid="5072554239108915119">"Правядзіце спраўджанне рэзервовага адраса электроннай пошты"</string>
     <string name="supervision_change_pin_preference_title" msgid="2288584039438231801">"Змяніць PIN-код"</string>
     <string name="supervision_add_forgot_pin_preference_title" msgid="8939945404255748516">"Не помню PIN-код"</string>
-    <!-- no translation found for supervision_auth_prompt_forgot_pin_button_label (1019337828884793557) -->
-    <skip />
+    <string name="supervision_auth_prompt_forgot_pin_button_label" msgid="1019337828884793557">"Забылі PIN-код?"</string>
     <string name="supervision_update_recovery_email_preference_title" msgid="2057393838251915087">"Абнавіць рэзервовы адрас электроннай пошты"</string>
     <string name="supervision_delete_pin_preference_title" msgid="8447541098148430866">"Выдаліць PIN-код"</string>
     <string name="supervision_add_pin_recovery_title" msgid="3487098027604685794">"Дадайце рэзервовы адрас электроннай пошты"</string>
     <string name="supervision_verify_pin_recovery_title" msgid="3166602415814821497">"Пацвердзіце адрас электроннай пошты"</string>
-    <!-- no translation found for supervision_web_content_filters_title (2412562442507104921) -->
-    <skip />
-    <!-- no translation found for supervision_web_content_filters_keywords (8469519676189544447) -->
-    <skip />
+    <string name="supervision_web_content_filters_title" msgid="2412562442507104921">"Фільтры змесціва вэб-сайтаў"</string>
+    <string name="supervision_web_content_filters_keywords" msgid="8469519676189544447">"Фільтры вэб-сайтаў, блакіроўка сайтаў, фільтры браўзера, блакіроўка сайтаў з непрыстойным змесцівам, фільтрацыя сайтаў, блакіроўка вынікаў пошуку, фільтрацыя вынікаў пошуку з непрыстойным змесцівам, абмежаванні на змесціва"</string>
     <string name="supervision_web_content_filters_top_intro" msgid="5264773769840566499">"Блакіраваць змесціва для дарослых на вэб-сайтах і ў выніках пошуку на гэтай прыладзе ў праграмах, якія падтрымліваюцца. У праграмах, якія не падтрымліваюцца, можа па-ранейшаму паказвацца непрыстойнае змесціва."</string>
     <string name="supervision_web_content_filters_browser_title" msgid="8737341514264129889">"Вэб-сайты"</string>
     <string name="supervision_web_content_filters_browser_filter_title" msgid="7957976669412075070">"Блакіраваць сайты з непрыстойным змесцівам"</string>
     <string name="supervision_web_content_filters_search_title" msgid="8608480392956106029">"Вынікі пошуку"</string>
     <string name="supervision_web_content_filters_search_filter_title" msgid="4212134055017429017">"Адфільтроўваць непрыстойныя вынікі пошуку"</string>
-    <string name="supervision_full_screen_pin_verification_title" msgid="78513043528333399">"Увядзіце PIN-код бацькоўскага кантролю"</string>
+    <string name="supervision_full_screen_pin_verification_title" msgid="7685279446792771815">"Увесці PIN-код для бацькоўскага кантролю"</string>
     <string name="supervision_choose_your_pin_header" msgid="3872062168986738629">"Наладзіць PIN-код для функцый бацькоўскага кантролю"</string>
     <string name="supervision_confirm_your_pin_header" msgid="8236956712482718354">"Пацвердзіце PIN-код"</string>
     <string name="supervision_pin_reset_success_toast" msgid="9163550161698311831">"PIN-код абноўлены"</string>

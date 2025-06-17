@@ -198,8 +198,7 @@
     <string name="locale_remove_menu" msgid="3521546263421387474">"移除"</string>
     <string name="add_a_language" msgid="2126220398077503271">"添加语言"</string>
     <string name="app_locale_preference_title" msgid="5513627099300360232">"语言"</string>
-    <!-- no translation found for locale_picker_category_title (296835514014453679) -->
-    <skip />
+    <string name="locale_picker_category_title" msgid="296835514014453679">"首选语言"</string>
     <string name="app_locales_picker_menu_title" msgid="7617427959223831373">"应用语言"</string>
     <string name="app_locale_picker_summary" msgid="616928580653613998">"为每个应用选择语言"</string>
     <string name="app_locale_picker_title" msgid="2431448962911301366">"应用语言"</string>
@@ -225,17 +224,12 @@
     <string name="title_change_system_locale" msgid="4102991236063984803">"要将系统语言更改为%s吗？"</string>
     <string name="title_system_locale_addition" msgid="8218683660751479466">"将“%s”添加为首选语言？"</string>
     <string name="desc_system_locale_addition" msgid="3409917362651596070">"此设置将告知应用和网站，您也想使用此语言作为首选语言。"</string>
-    <!-- no translation found for desc_notice_device_locale_and_region_settings_change (909261686577914396) -->
-    <skip />
-    <!-- no translation found for desc_notice_device_locale_settings_change (5012353615235634881) -->
-    <skip />
-    <!-- no translation found for dlg_desc_delete_preferred_default_locale (690828405078078513) -->
-    <skip />
+    <string name="desc_notice_device_locale_and_region_settings_change" msgid="909261686577914396">"您的设备将使用<xliff:g id="LANGUAGE">%1$s</xliff:g>，您的区域将更改为<xliff:g id="REGION">%2$s</xliff:g>。"</string>
+    <string name="desc_notice_device_locale_settings_change" msgid="5012353615235634881">"您的设备将使用<xliff:g id="LANGUAGE">%s</xliff:g>。"</string>
+    <string name="dlg_desc_delete_preferred_default_locale" msgid="690828405078078513">"<xliff:g id="REMOVED_LANGUAGE">%s</xliff:g>会从您的首选语言列表中移除"</string>
     <string name="button_label_confirmation_of_system_locale_change" msgid="5593798559604894733">"更改"</string>
-    <!-- no translation found for title_unavailable_locale (5382411204559213983) -->
-    <skip />
-    <!-- no translation found for desc_unavailable_locale (7223655766703116782) -->
-    <skip />
+    <string name="title_unavailable_locale" msgid="5382411204559213983">"无法将<xliff:g id="SELECTED_LANGUAGE">%s</xliff:g>设为系统语言"</string>
+    <string name="desc_unavailable_locale" msgid="7223655766703116782">"您的设备不支持此语言，但应用会知道您偏好使用此语言"</string>
     <string name="locale_search_menu" msgid="297782694044826686">"搜索"</string>
     <string name="language_and_region_title" msgid="8374151891112162767">"语言和地区"</string>
     <string name="language_selection_title" msgid="968179636453982415">"添加语言"</string>
@@ -249,12 +243,9 @@
     <string name="title_change_system_locale_region" msgid="4401478579429442695">"要将地区更改为<xliff:g id="SYSTEM_LANGUAGE_REGION">%1$s</xliff:g>吗？"</string>
     <string name="body_change_system_locale_region" msgid="9064318449821043189">"您的设备将使用<xliff:g id="SYSTEM_LANGUAGE">%1$s</xliff:g>作为系统语言"</string>
     <string name="top_intro_numbering_system_title" msgid="3962000662073238392">"选择设备、网站和应用显示数字的方式"</string>
-    <!-- no translation found for preferred_locale_menu_up (4009560552099567485) -->
-    <skip />
-    <!-- no translation found for preferred_locale_menu_down (1033373887552535585) -->
-    <skip />
-    <!-- no translation found for preferred_locale_menu_remove (8547483341987864590) -->
-    <skip />
+    <string name="preferred_locale_menu_up" msgid="4009560552099567485">"上移"</string>
+    <string name="preferred_locale_menu_down" msgid="1033373887552535585">"下移"</string>
+    <string name="preferred_locale_menu_remove" msgid="8547483341987864590">"移除"</string>
     <string name="regional_preferences_title" msgid="4304567374498629528">"地区偏好设置"</string>
     <string name="regional_preferences_summary" msgid="1189876997389469650">"设置单位和数字偏好设置"</string>
     <string name="regional_preferences_main_page_sub_title" msgid="4237109940015254725">"将您的地区偏好设置告知应用，使应用能够为您提供个性化体验。"</string>
@@ -293,10 +284,8 @@
     <string name="dlg_remove_locales_error_title" msgid="5875503658221562572">"无法移除所有语言"</string>
     <string name="dlg_remove_locales_error_message" msgid="6504279959974675302">"请保留至少一种首选语言"</string>
     <string name="locale_not_translated" msgid="3071618135527110152">"不可作为系统语言使用"</string>
-    <!-- no translation found for dlg_title_delete_preferred_locale (4167214348946940002) -->
-    <skip />
-    <!-- no translation found for dlg_desc_delete_preferred_locale (4658301652628456858) -->
-    <skip />
+    <string name="dlg_title_delete_preferred_locale" msgid="4167214348946940002">"要移除<xliff:g id="REMOVED_LANGUAGE">%s</xliff:g>吗？"</string>
+    <string name="dlg_desc_delete_preferred_locale" msgid="4658301652628456858">"<xliff:g id="REMOVED_LANGUAGE">%s</xliff:g>会从您的首选语言中移除。您以后可以重新添加。"</string>
     <string name="action_drag_label_move_up" msgid="3392196942330705015">"上移"</string>
     <string name="action_drag_label_move_down" msgid="9069518740553953426">"下移"</string>
     <string name="action_drag_label_move_top" msgid="2430471023612171619">"移至顶部"</string>
@@ -382,7 +371,7 @@
     <string name="security_settings_face_preference_summary_none" msgid="523320857738436024">"需要设置"</string>
     <string name="security_settings_face_preference_summary_none_new" msgid="1963253146734002815">"添加面孔"</string>
     <string name="security_settings_face_preference_title_new" msgid="7680231874730796331">"面孔"</string>
-    <string name="security_settings_face_profile_preference_title_new" msgid="685550153608106166">"刷脸解锁工作资料"</string>
+    <string name="security_settings_face_profile_preference_title_new" msgid="685550153608106166">"人脸解锁工作资料"</string>
     <string name="private_space_face_unlock_title_new" msgid="2079622608951402509">"使用面孔解锁私密空间"</string>
     <string name="security_settings_face_preference_title" msgid="2126625155005348417">"人脸解锁"</string>
     <string name="security_settings_face_profile_preference_title" msgid="7519527436266375005">"用于工作资料的人脸解锁"</string>
@@ -476,8 +465,7 @@
     <string name="security_settings_fingerprint_enroll_introduction_no_thanks" msgid="1663906389456119842">"以后再说"</string>
     <string name="security_settings_fingerprint_enroll_introduction_agree" msgid="4068276083536421828">"我同意"</string>
     <string name="security_settings_fingerprint_rename_description" msgid="6301505700382531086">"点按两次即可重命名"</string>
-    <!-- no translation found for security_settings_fingerprint_recognition_description (1805171116182647136) -->
-    <skip />
+    <string name="security_settings_fingerprint_recognition_description" msgid="1805171116182647136">"已识别<xliff:g id="FP_NAME">%1$s</xliff:g>"</string>
     <string name="setup_fingerprint_enroll_skip_title" msgid="2473807887676247264">"要跳过指纹设置吗？"</string>
     <string name="setup_fingerprint_enroll_skip_after_adding_lock_text" msgid="2412645723804450304">"指纹设置只需一两分钟即可完成。如果您选择跳过，之后还可以在“设置”中添加指纹。"</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_setup" msgid="6255210343107484206">"看到该图标时，您可以使用指纹验证身份，例如在登录应用或批准购买交易时"</string>
@@ -1182,7 +1170,16 @@
     <string name="wifi_dpp_qr_code_is_not_valid_format" msgid="5190689503019328279">"二维码的格式无效"</string>
     <string name="retry" msgid="7542103800274026915">"重试"</string>
     <string name="wifi_shared" msgid="8850748923537589782">"与其他设备用户共享"</string>
+    <string name="shared_message" msgid="2104244057926025072">"共享"</string>
+    <string name="private_message" msgid="5897966950396765392">"私有"</string>
+    <string name="wifi_conflict_dialog_confirm" msgid="4577313983128123779">"确认"</string>
+    <string name="wifi_conflict_dialog_cancel" msgid="5200571850377525343">"取消"</string>
+    <string name="wifi_share_preference_title" msgid="6346200020322308703">"这是共享网络"</string>
+    <string name="wifi_share_preference_summary" msgid="4356010425167713046">"除访客用户外，所有其他用户均可查看、修改和删除此网络"</string>
+    <string name="wifi_conflict_dialog_title" msgid="1127530499054245755">"要切换到<xliff:g id="SHARED">%1$s</xliff:g>的“<xliff:g id="NETWORK_NAME">%2$s</xliff:g>”网络吗？"</string>
+    <string name="wifi_conflict_dialog_message" msgid="3192435395074097168">"您当前连接的<xliff:g id="SHARED_0">%1$s</xliff:g>网络与先前连接的网络同名。切换时，系统会先断开与<xliff:g id="SHARED_1">%2$s</xliff:g>网络的连接，然后重新连接到<xliff:g id="PRIVATE">%3$s</xliff:g>网络。您可能暂时无法连接到互联网。"</string>
     <string name="wifi_unchanged" msgid="8026045290856150191">"（未更改）"</string>
+    <string name="wifi_allow_edit_configuration_title" msgid="3928254385019370063">"允许其他用户修改网络配置"</string>
     <string name="wifi_unspecified" msgid="4561964943472312208">"请选择"</string>
     <string name="wifi_multiple_cert_added" msgid="2151019652853383776">"（已添加多份证书）"</string>
     <string name="wifi_use_system_certs" msgid="5587866698144996931">"使用系统证书"</string>
@@ -1497,7 +1494,7 @@
     <string name="low_light_display_behavior_summary_off" msgid="4565368094992120316">"已关闭"</string>
     <string name="low_light_display_behavior_screen_off_full_summary" msgid="6671607843870561892">"在环境昏暗时将会关闭屏幕"</string>
     <string name="low_light_display_behavior_low_light_clock_dream_full_summary" msgid="1145914465090731721">"在环境昏暗时将会显示弱光时钟"</string>
-    <string name="ambient_display_screen_title" msgid="8615947016991429325">"主动显示"</string>
+    <string name="ambient_display_screen_title" msgid="8615947016991429325">"氛围屏保"</string>
     <string name="ambient_display_category_triggers" msgid="1216640141609270011">"何时显示"</string>
     <string name="doze_title" msgid="1523090408230862316">"收到通知时唤醒屏幕"</string>
     <string name="doze_summary" msgid="8252867381522942804">"收到新通知时，变暗的屏幕会自动亮起"</string>
@@ -2157,8 +2154,8 @@
     <string name="mouse_keys" msgid="6237254627808525540">"鼠标键"</string>
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"启用鼠标键"</string>
     <string name="accessibility_mouse_keys_shortcut_title" msgid="7621635104533584115">"鼠标键快捷键"</string>
-    <string name="mouse_keys_summary" msgid="7030731235143286467">"使用键盘来控制指针"</string>
-    <string name="mouse_keys_max_speed_title" msgid="1788751803245422659">"最快速度"</string>
+    <string name="mouse_keys_summary" msgid="6512910710030108693">"使用键盘来控制光标"</string>
+    <string name="mouse_keys_max_speed_title" msgid="2651688711606971145">"最高速"</string>
     <string name="mouse_keys_seek_bar_decrease_button_description" msgid="9077624857206032509">"减少"</string>
     <string name="mouse_keys_seek_bar_increase_button_description" msgid="2721662400858172203">"增加"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"反向滚动"</string>
@@ -2184,6 +2181,9 @@
     <string name="mouse_keys_release_summary" msgid="7209370896835993434">"按“<xliff:g id="RELEASE_LABEL">%s</xliff:g>”键可松开鼠标主键"</string>
     <string name="mouse_keys_toggle_scroll_summary" msgid="7492663135290108272">"按“<xliff:g id="RELEASE_LABEL_1">%1$s</xliff:g>”键可切换滚动模式，这样按“<xliff:g id="RELEASE_LABEL_2">%2$s</xliff:g>”键就会将视图向上、向下、向左或向右滚动"</string>
     <string name="mouse_keys_release2_summary" msgid="5504548339731577210">"按“<xliff:g id="RELEASE_2_LABEL">%s</xliff:g>”键表示点击鼠标辅助键"</string>
+    <string name="mouse_keys_acceleration_seekbar_title" msgid="2329098889930361504">"加速"</string>
+    <string name="mouse_keys_acceleration_fast_icon_desc" msgid="4426188473271579794">"快速"</string>
+    <string name="mouse_keys_acceleration_slow_icon_desc" msgid="8370777074987200135">"慢速"</string>
     <string name="keyboard_shortcuts_helper" msgid="6934420811737731188">"查看键盘快捷键"</string>
     <string name="keyboard_shortcuts_helper_summary" msgid="5979507677602559203">"显示快捷键列表"</string>
     <string name="language_and_input_for_work_category_title" msgid="2546950919124199743">"工作资料键盘和工具"</string>
@@ -2246,11 +2246,9 @@
     <string name="gesture_button_next" msgid="695288092704187356">"下一页"</string>
     <string name="gesture_button_restart" msgid="1895850891992530133">"重启"</string>
     <string name="gesture_button_done" msgid="6387900351203032188">"完成"</string>
-    <!-- no translation found for action_corner_title (7411160165577367757) -->
-    <skip />
+    <string name="action_corner_title" msgid="7411160165577367757">"自定义角落快捷键"</string>
     <string name="action_corner_summary" msgid="695618538930535335">"使用光标在系统中四处移动"</string>
-    <!-- no translation found for action_corner_intro (2170609118659718140) -->
-    <skip />
+    <string name="action_corner_intro" msgid="2170609118659718140">"选择要在以下哪些区域自定义角落快捷键"</string>
     <string name="action_corner_bottom_left_title" msgid="2857258272736432174">"左下角"</string>
     <string name="action_corner_bottom_right_title" msgid="7222233500548465684">"右下角"</string>
     <string name="action_corner_top_left_title" msgid="4633975226092344210">"左上角"</string>
@@ -2413,7 +2411,7 @@
     <string name="accessibility_magnification_cursor_following_continuous" msgid="1119319218662522794">"屏幕随着鼠标指针的移动而持续移动"</string>
     <string name="accessibility_magnification_cursor_following_center" msgid="3504798009192014460">"屏幕跟随移动并保持鼠标指针位于屏幕中央"</string>
     <string name="accessibility_magnification_cursor_following_edge" msgid="8675207762416655758">"鼠标指针触及屏幕边缘时才移动屏幕"</string>
-    <string name="accessibility_screen_magnification_follow_typing_title" msgid="494025442124701045">"跟随输入移动"</string>
+    <string name="accessibility_screen_magnification_follow_typing_title" msgid="494025442124701045">"跟随输入文字"</string>
     <string name="accessibility_screen_magnification_follow_typing_summary" msgid="2678347754211619662">"输入时放大镜跟随文字移动"</string>
     <string name="accessibility_screen_magnification_follow_keyboard_title" msgid="7342198645736402048">"放大键盘焦点"</string>
     <string name="accessibility_screen_magnification_follow_keyboard_summary" msgid="9091733229413835358">"放大镜跟随键盘焦点"</string>
@@ -2653,10 +2651,8 @@
     <string name="accessibility_daltonizer_footer_learn_more_content_description" msgid="2091679253892040910">"详细了解色彩校正"</string>
     <string name="accessibility_color_inversion_about_title" msgid="8275754480247040136">"关于颜色反转"</string>
     <string name="accessibility_color_inversion_footer_learn_more_content_description" msgid="5382579548498952445">"详细了解颜色反转"</string>
-    <!-- no translation found for accessibility_dark_theme_footer_learn_more_helper_link (7084955775821075280) -->
-    <skip />
-    <!-- no translation found for accessibility_dark_theme_preference_footer_content (4431044600779983609) -->
-    <skip />
+    <string name="accessibility_dark_theme_footer_learn_more_helper_link" msgid="7084955775821075280">"详细了解深色主题"</string>
+    <string name="accessibility_dark_theme_preference_footer_content" msgid="4431044600779983609">"部分应用可能不支持扩展设置中的深色主题。如果您遇到外观方面的问题，请使用标准设置。"</string>
     <string name="accessibility_captioning_primary_switch_title" msgid="3663677340286206100">"显示字幕"</string>
     <string name="accessibility_captioning_primary_switch_summary" msgid="2544094070306830218">"仅限支持的应用"</string>
     <string name="captioning_appearance_title" msgid="3128792092290011408">"字幕大小和样式"</string>
@@ -4527,10 +4523,8 @@
     <string name="disabled_by_policy_title_financed_device" msgid="2328740314082888228">"已被信贷提供方屏蔽"</string>
     <string name="disabled_by_policy_title_biometric_parental_consent" msgid="2463673997797134678">"需要家长同意"</string>
     <string name="disabled_by_policy_content_biometric_parental_consent" msgid="7124116806784305206">"如需开始设置此功能，请将手机交给您的家长"</string>
-    <!-- no translation found for disabled_by_policy_title_parental_controls (8875976588644052371) -->
-    <skip />
-    <!-- no translation found for disabled_by_policy_content_parental_controls (4648160125103768738) -->
-    <skip />
+    <string name="disabled_by_policy_title_parental_controls" msgid="8875976588644052371">"受家长控制功能限制"</string>
+    <string name="disabled_by_policy_content_parental_controls" msgid="4648160125103768738">"只有管理家长控制功能的用户可以更改此设置"</string>
     <string name="disabled_by_policy_parental_consent" msgid="9166060049019018978">"请将手机交给家长，让他们帮助你更改此设置。"</string>
     <string name="default_admin_support_msg" msgid="8816296554831532033">"如需了解详情，请与您的 IT 管理员联系"</string>
     <string name="admin_support_more_info" msgid="8407433155725898290">"更多详情"</string>
@@ -4646,8 +4640,7 @@
     <string name="battery_tips_card_action_button_check" msgid="1535140204105479318">"检查"</string>
     <string name="battery_tips_card_dismiss_button" msgid="1885756985544936618">"知道了"</string>
     <string name="battery_tips_card_feedback_info" msgid="767117835675157298">"这条消息是否有帮助？"</string>
-    <!-- no translation found for battery_hints_warning_icon_a11y (709629805028175434) -->
-    <skip />
+    <string name="battery_hints_warning_icon_a11y" msgid="709629805028175434">"电池警告提示"</string>
     <string name="battery_tips_settings_summary_brightness" msgid="546145032616077783">"开启自适应亮度可延长电池续航时间"</string>
     <string name="battery_tips_settings_summary_screen_timeout" msgid="556801426050962077">"缩短自动锁屏时间可延长电池续航时间"</string>
     <string name="battery_tips_apps_summary_always_high" msgid="6334519477067044920">"<xliff:g id="APP_LABEL">%1$s</xliff:g> 电池用量较高"</string>
@@ -4975,8 +4968,6 @@
     <string name="autofill_reset_developer_options" msgid="6425613608979498608">"重置为默认值"</string>
     <string name="autofill_reset_developer_options_complete" msgid="1276741935956594965">"已重置自动填充开发者选项"</string>
     <string name="location_category" msgid="3496759112306219062">"位置信息"</string>
-    <string name="location_indicator_settings_title" msgid="6655916258720093451">"状态栏位置指示器"</string>
-    <string name="location_indicator_settings_description" msgid="2888022085372804021">"对所有位置均显示，包括通过网络和连接方式获取的位置信息"</string>
     <string name="enable_gnss_raw_meas_full_tracking" msgid="1206679951510243341">"强制启用完整 GNSS 测量数据"</string>
     <string name="enable_gnss_raw_meas_full_tracking_summary" msgid="3841463141138247167">"不间断地跟踪所有 GNSS 星座和频率"</string>
     <string name="input_method_category" msgid="2252659253631639005">"输入法"</string>
@@ -5869,34 +5860,28 @@
     <string name="search_gesture_feature_summary" msgid="1793056495030564014">"轻触并按住主屏幕按钮或导航手柄，即可使用屏幕上的内容进行搜索。"</string>
     <string name="device_detail_icon_content_description" msgid="6699151424374841937">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>。请配置设备详情。"</string>
     <string name="supervision_settings_title" msgid="8507163323870367711">"家长控制"</string>
-    <!-- no translation found for supervision_settings_summary (6304257872307136073) -->
-    <skip />
+    <string name="supervision_settings_summary" msgid="6304257872307136073">"数字设备基本使用规则和屏幕使用时间限制"</string>
     <string name="device_supervision_switch_no_pin_summary" msgid="4869563544571033220">"设置 PIN 码"</string>
-    <!-- no translation found for keywords_supervision_settings (43064288661561602) -->
-    <skip />
+    <string name="keywords_supervision_settings" msgid="43064288661561602">"监督, 家长控制, 家长, 监督 PIN 码, PIN 码, supervision, parental controls, parents, supervision pin, pin"</string>
     <string name="supervision_pin_management_preference_title" msgid="7721501202320841845">"管理 PIN 码"</string>
-    <!-- no translation found for supervision_pin_management_preference_keywords (5034450635706621750) -->
-    <skip />
+    <string name="supervision_pin_management_preference_keywords" msgid="5034450635706621750">"家长专用 PIN 码, 家长控制 PIN 码, Parent PIN, Parental controls PIN"</string>
     <string name="supervision_pin_management_preference_summary_add" msgid="2247921267270577374">"添加辅助邮箱"</string>
     <string name="supervision_pin_management_preference_summary_verify_recovery" msgid="5072554239108915119">"验证辅助邮箱"</string>
     <string name="supervision_change_pin_preference_title" msgid="2288584039438231801">"更改 PIN 码"</string>
     <string name="supervision_add_forgot_pin_preference_title" msgid="8939945404255748516">"忘记了 PIN 码"</string>
-    <!-- no translation found for supervision_auth_prompt_forgot_pin_button_label (1019337828884793557) -->
-    <skip />
+    <string name="supervision_auth_prompt_forgot_pin_button_label" msgid="1019337828884793557">"忘记了 PIN 码？"</string>
     <string name="supervision_update_recovery_email_preference_title" msgid="2057393838251915087">"更新辅助邮箱"</string>
     <string name="supervision_delete_pin_preference_title" msgid="8447541098148430866">"删除 PIN 码"</string>
     <string name="supervision_add_pin_recovery_title" msgid="3487098027604685794">"添加辅助邮箱"</string>
     <string name="supervision_verify_pin_recovery_title" msgid="3166602415814821497">"验证您的邮箱"</string>
-    <!-- no translation found for supervision_web_content_filters_title (2412562442507104921) -->
-    <skip />
-    <!-- no translation found for supervision_web_content_filters_keywords (8469519676189544447) -->
-    <skip />
+    <string name="supervision_web_content_filters_title" msgid="2412562442507104921">"网站内容过滤器"</string>
+    <string name="supervision_web_content_filters_keywords" msgid="8469519676189544447">"网站过滤器, 屏蔽网站, 浏览器过滤器, 屏蔽含露骨内容的网站, 过滤网站, 屏蔽搜索结果, 过滤含露骨内容的搜索结果, 内容限制, Website filters, Block sites, Browser filters, Block explicit sites, Filter sites, Block search results, Filter explicit search results, content restrictions"</string>
     <string name="supervision_web_content_filters_top_intro" msgid="5264773769840566499">"在此设备上的受支持应用内，屏蔽网站和搜索结果中的少儿不宜内容。不受支持的应用仍可能会显示露骨内容。"</string>
     <string name="supervision_web_content_filters_browser_title" msgid="8737341514264129889">"网站"</string>
     <string name="supervision_web_content_filters_browser_filter_title" msgid="7957976669412075070">"屏蔽含露骨内容的网站"</string>
     <string name="supervision_web_content_filters_search_title" msgid="8608480392956106029">"搜索结果"</string>
     <string name="supervision_web_content_filters_search_filter_title" msgid="4212134055017429017">"滤除含露骨内容的搜索结果"</string>
-    <string name="supervision_full_screen_pin_verification_title" msgid="78513043528333399">"输入监督 PIN 码"</string>
+    <string name="supervision_full_screen_pin_verification_title" msgid="7685279446792771815">"输入家长控制 PIN 码"</string>
     <string name="supervision_choose_your_pin_header" msgid="3872062168986738629">"设置家长控制 PIN 码"</string>
     <string name="supervision_confirm_your_pin_header" msgid="8236956712482718354">"确认 PIN 码"</string>
     <string name="supervision_pin_reset_success_toast" msgid="9163550161698311831">"PIN 码已更新"</string>
