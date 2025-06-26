@@ -44,7 +44,6 @@ import com.android.settingslib.core.lifecycle.events.OnStop;
  * ramping ringer setting will not be overwritten when the ring intensity is turned off, so the
  * user original value will be naturally restored when the ring intensity is enabled again.
  */
-// LINT.IfChange
 public class VibrationRampingRingerTogglePreferenceController
         extends TogglePreferenceController implements LifecycleObserver, OnStart, OnStop {
 
@@ -156,4 +155,3 @@ public class VibrationRampingRingerTogglePreferenceController
                 != Vibrator.VIBRATION_INTENSITY_OFF);
     }
 }
-// LINT.ThenChange(RampingRingerVibrationSwitchPreference.kt)
