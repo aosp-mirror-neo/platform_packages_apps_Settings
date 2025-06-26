@@ -198,8 +198,7 @@
     <string name="locale_remove_menu" msgid="3521546263421387474">"Silin"</string>
     <string name="add_a_language" msgid="2126220398077503271">"Dil əlavə edin"</string>
     <string name="app_locale_preference_title" msgid="5513627099300360232">"Dil"</string>
-    <!-- no translation found for locale_picker_category_title (296835514014453679) -->
-    <skip />
+    <string name="locale_picker_category_title" msgid="296835514014453679">"Tərcih edilən dillər"</string>
     <string name="app_locales_picker_menu_title" msgid="7617427959223831373">"Tətbiq dilləri"</string>
     <string name="app_locale_picker_summary" msgid="616928580653613998">"Hər tətbiq üçün dil seçin"</string>
     <string name="app_locale_picker_title" msgid="2431448962911301366">"Tətbiq dili"</string>
@@ -225,17 +224,12 @@
     <string name="title_change_system_locale" msgid="4102991236063984803">"Sistem dili %s olaraq dəyişilsin?"</string>
     <string name="title_system_locale_addition" msgid="8218683660751479466">"%s tərcih edilən dillərə əlavə edilsin?"</string>
     <string name="desc_system_locale_addition" msgid="3409917362651596070">"Bununla tətbiq və veb-saytlar bu dili tərcih etdiyinizi bilir."</string>
-    <!-- no translation found for desc_notice_device_locale_and_region_settings_change (909261686577914396) -->
-    <skip />
-    <!-- no translation found for desc_notice_device_locale_settings_change (5012353615235634881) -->
-    <skip />
-    <!-- no translation found for dlg_desc_delete_preferred_default_locale (690828405078078513) -->
-    <skip />
+    <string name="desc_notice_device_locale_and_region_settings_change" msgid="909261686577914396">"Cihazınız <xliff:g id="LANGUAGE">%1$s</xliff:g> dilindən istifadə edəcək və region <xliff:g id="REGION">%2$s</xliff:g> olaraq dəyişdiriləcək."</string>
+    <string name="desc_notice_device_locale_settings_change" msgid="5012353615235634881">"Cihazınız <xliff:g id="LANGUAGE">%s</xliff:g> dilindən istifadə edəcək."</string>
+    <string name="dlg_desc_delete_preferred_default_locale" msgid="690828405078078513">"<xliff:g id="REMOVED_LANGUAGE">%s</xliff:g> tərcih edilən dillərinizdən silinəcək"</string>
     <string name="button_label_confirmation_of_system_locale_change" msgid="5593798559604894733">"Dəyişin"</string>
-    <!-- no translation found for title_unavailable_locale (5382411204559213983) -->
-    <skip />
-    <!-- no translation found for desc_unavailable_locale (7223655766703116782) -->
-    <skip />
+    <string name="title_unavailable_locale" msgid="5382411204559213983">"<xliff:g id="SELECTED_LANGUAGE">%s</xliff:g> sistem dili olaraq ayarlanmır"</string>
+    <string name="desc_unavailable_locale" msgid="7223655766703116782">"Cihazınız bu dili dəstəkləmir, lakin tətbiqlər bu dili tərcih etdiyinizi biləcək"</string>
     <string name="locale_search_menu" msgid="297782694044826686">"Axtarın"</string>
     <string name="language_and_region_title" msgid="8374151891112162767">"Dil və bölgə"</string>
     <string name="language_selection_title" msgid="968179636453982415">"Dil əlavə edin"</string>
@@ -249,12 +243,9 @@
     <string name="title_change_system_locale_region" msgid="4401478579429442695">"Region <xliff:g id="SYSTEM_LANGUAGE_REGION">%1$s</xliff:g> olaraq dəyişilsin?"</string>
     <string name="body_change_system_locale_region" msgid="9064318449821043189">"Cihazınız <xliff:g id="SYSTEM_LANGUAGE">%1$s</xliff:g> dilini sistem dili kimi saxlayacaq"</string>
     <string name="top_intro_numbering_system_title" msgid="3962000662073238392">"Cihaz, veb-sayt və tətbiqlərin rəqəmləri necə göstərdiyini seçin"</string>
-    <!-- no translation found for preferred_locale_menu_up (4009560552099567485) -->
-    <skip />
-    <!-- no translation found for preferred_locale_menu_down (1033373887552535585) -->
-    <skip />
-    <!-- no translation found for preferred_locale_menu_remove (8547483341987864590) -->
-    <skip />
+    <string name="preferred_locale_menu_up" msgid="4009560552099567485">"Yuxarı köçürün"</string>
+    <string name="preferred_locale_menu_down" msgid="1033373887552535585">"Aşağı köçürün"</string>
+    <string name="preferred_locale_menu_remove" msgid="8547483341987864590">"Silin"</string>
     <string name="regional_preferences_title" msgid="4304567374498629528">"Regional tərcihlər"</string>
     <string name="regional_preferences_summary" msgid="1189876997389469650">"Vahidlər və nömrə tərcihlərini ayarlayın"</string>
     <string name="regional_preferences_main_page_sub_title" msgid="4237109940015254725">"Tətbiqlərə regional tərcihlərinizi bildirin ki, təcrübənizi fərdiləşdirə bilsinlər."</string>
@@ -293,10 +284,8 @@
     <string name="dlg_remove_locales_error_title" msgid="5875503658221562572">"Bütün dilləri silmək mümkün deyil."</string>
     <string name="dlg_remove_locales_error_message" msgid="6504279959974675302">"Ən azı bir tərcih olunmuş dil saxlayın"</string>
     <string name="locale_not_translated" msgid="3071618135527110152">"Sistem dili kimi əlçatan deyil"</string>
-    <!-- no translation found for dlg_title_delete_preferred_locale (4167214348946940002) -->
-    <skip />
-    <!-- no translation found for dlg_desc_delete_preferred_locale (4658301652628456858) -->
-    <skip />
+    <string name="dlg_title_delete_preferred_locale" msgid="4167214348946940002">"<xliff:g id="REMOVED_LANGUAGE">%s</xliff:g> silinsin?"</string>
+    <string name="dlg_desc_delete_preferred_locale" msgid="4658301652628456858">"<xliff:g id="REMOVED_LANGUAGE">%s</xliff:g> tərcih edilən dillərinizdən silinəcək. Onu daha sonra əlavə edə bilərsiniz."</string>
     <string name="action_drag_label_move_up" msgid="3392196942330705015">"Yuxarı keçin"</string>
     <string name="action_drag_label_move_down" msgid="9069518740553953426">"Aşağı keçin"</string>
     <string name="action_drag_label_move_top" msgid="2430471023612171619">"Ən yuxarı"</string>
@@ -476,8 +465,7 @@
     <string name="security_settings_fingerprint_enroll_introduction_no_thanks" msgid="1663906389456119842">"İndi yox"</string>
     <string name="security_settings_fingerprint_enroll_introduction_agree" msgid="4068276083536421828">"Razıyam"</string>
     <string name="security_settings_fingerprint_rename_description" msgid="6301505700382531086">"Yenidən adlandırmaq üçün iki dəfə toxunun"</string>
-    <!-- no translation found for security_settings_fingerprint_recognition_description (1805171116182647136) -->
-    <skip />
+    <string name="security_settings_fingerprint_recognition_description" msgid="1805171116182647136">"<xliff:g id="FP_NAME">%1$s</xliff:g> tanındı"</string>
     <string name="setup_fingerprint_enroll_skip_title" msgid="2473807887676247264">"Barmaq izi ötürülsün?"</string>
     <string name="setup_fingerprint_enroll_skip_after_adding_lock_text" msgid="2412645723804450304">"Barmaq izinin ayarlanması bir-iki dəqiqə çəkəcək. Bu mərhələni ötürsəniz, barmaq izini sonradan ayarlarda əlavə edə bilərsiniz."</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_setup" msgid="6255210343107484206">"Tətbiqlərə daxil olmaq və ya alışı təsdiqləmək kimi hallarda bu ikonanı gördükdə kimlik doğrulaması üçün barmaq izinizi istifadə edin"</string>
@@ -1182,7 +1170,16 @@
     <string name="wifi_dpp_qr_code_is_not_valid_format" msgid="5190689503019328279">"QR kodu doğru formatda deyil"</string>
     <string name="retry" msgid="7542103800274026915">"Yenidən cəhd edin"</string>
     <string name="wifi_shared" msgid="8850748923537589782">"Digər cihaz istifadəçiləri ilə paylaşın"</string>
+    <string name="shared_message" msgid="2104244057926025072">"ortaq"</string>
+    <string name="private_message" msgid="5897966950396765392">"şəxsi"</string>
+    <string name="wifi_conflict_dialog_confirm" msgid="4577313983128123779">"Təsdiq edin"</string>
+    <string name="wifi_conflict_dialog_cancel" msgid="5200571850377525343">"Ləğv edin"</string>
+    <string name="wifi_share_preference_title" msgid="6346200020322308703">"Bu, ortaq şəbəkədir"</string>
+    <string name="wifi_share_preference_summary" msgid="4356010425167713046">"Qonaq istifadəçilər istisna olmaqla bütün istifadəçilər bu şəbəkəyə baxa, redaktə edə və silə biləcəklər"</string>
+    <string name="wifi_conflict_dialog_title" msgid="1127530499054245755">"<xliff:g id="SHARED">%1$s</xliff:g> \"<xliff:g id="NETWORK_NAME">%2$s</xliff:g>\" şəbəkəsinə dəyişdirilsin?"</string>
+    <string name="wifi_conflict_dialog_message" msgid="3192435395074097168">"Hazırda eyni adlı <xliff:g id="SHARED_0">%1$s</xliff:g> şəbəkəyə qoşulmusunuz. Dəyişdiyiniz zaman <xliff:g id="SHARED_1">%2$s</xliff:g> şəbəkəsindən ayrılacaqsınız və sonra <xliff:g id="PRIVATE">%3$s</xliff:g> şəbəkəsinə qoşulacaqsınız. Müvəqqəti olaraq internetiniz olmaya bilər."</string>
     <string name="wifi_unchanged" msgid="8026045290856150191">"(dəyişilməyən)"</string>
+    <string name="wifi_allow_edit_configuration_title" msgid="3928254385019370063">"Digər istifadəçilərə şəbəkə konfiqurasiyasına düzəliş etməyə icazə verin"</string>
     <string name="wifi_unspecified" msgid="4561964943472312208">"Zəhmət olmasa, seçin"</string>
     <string name="wifi_multiple_cert_added" msgid="2151019652853383776">"(Çoxsaylı sertifikat əlavə olundu)"</string>
     <string name="wifi_use_system_certs" msgid="5587866698144996931">"Sistem sertifikatlarını istifadə edin"</string>
@@ -2157,8 +2154,8 @@
     <string name="mouse_keys" msgid="6237254627808525540">"Maus düymələri"</string>
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"Maus düymələrindən istifadə edin"</string>
     <string name="accessibility_mouse_keys_shortcut_title" msgid="7621635104533584115">"Maus klavişi qısayolları"</string>
-    <string name="mouse_keys_summary" msgid="7030731235143286467">"Poynteri idarə etmək üçün klaviaturadan istifadə edin"</string>
-    <string name="mouse_keys_max_speed_title" msgid="1788751803245422659">"Maksimum sürət"</string>
+    <string name="mouse_keys_summary" msgid="6512910710030108693">"Kursoru idarə etmək üçün klaviaturadan istifadə edin"</string>
+    <string name="mouse_keys_max_speed_title" msgid="2651688711606971145">"Sürət"</string>
     <string name="mouse_keys_seek_bar_decrease_button_description" msgid="9077624857206032509">"Azaldın"</string>
     <string name="mouse_keys_seek_bar_increase_button_description" msgid="2721662400858172203">"Artırın"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"Tərs sürüşdürmə"</string>
@@ -2184,6 +2181,9 @@
     <string name="mouse_keys_release_summary" msgid="7209370896835993434">"Əsas maus düyməsini buraxmaq üçün \"<xliff:g id="RELEASE_LABEL">%s</xliff:g>\" düyməsindən istifadə edin"</string>
     <string name="mouse_keys_toggle_scroll_summary" msgid="7492663135290108272">"Sürüşdürmə rejimini aktiv/deaktiv etmək üçün \"<xliff:g id="RELEASE_LABEL_1">%1$s</xliff:g>\" düyməsindən istifadə edin. Bununla \"<xliff:g id="RELEASE_LABEL_2">%2$s</xliff:g>\" düymələri görünüşü yuxarı, aşağı, sola və ya sağa sürüşdürəcək"</string>
     <string name="mouse_keys_release2_summary" msgid="5504548339731577210">"Köməkçi maus düyməsini klikləmək üçün \"<xliff:g id="RELEASE_2_LABEL">%s</xliff:g>\" düyməsindən istifadə edin"</string>
+    <string name="mouse_keys_acceleration_seekbar_title" msgid="2329098889930361504">"Sürətlənmə"</string>
+    <string name="mouse_keys_acceleration_fast_icon_desc" msgid="4426188473271579794">"Sürətli"</string>
+    <string name="mouse_keys_acceleration_slow_icon_desc" msgid="8370777074987200135">"Asta"</string>
     <string name="keyboard_shortcuts_helper" msgid="6934420811737731188">"Klaviatura qısayollarına baxın"</string>
     <string name="keyboard_shortcuts_helper_summary" msgid="5979507677602559203">"Qısayolların siyahısını göstərin"</string>
     <string name="language_and_input_for_work_category_title" msgid="2546950919124199743">"İş profili klaviaturaları və alətlər"</string>
@@ -2246,11 +2246,9 @@
     <string name="gesture_button_next" msgid="695288092704187356">"Növbəti"</string>
     <string name="gesture_button_restart" msgid="1895850891992530133">"Yenidən başladın"</string>
     <string name="gesture_button_done" msgid="6387900351203032188">"Hazırdır"</string>
-    <!-- no translation found for action_corner_title (7411160165577367757) -->
-    <skip />
+    <string name="action_corner_title" msgid="7411160165577367757">"Künc qısayollarını fərdiləşdirin"</string>
     <string name="action_corner_summary" msgid="695618538930535335">"Sistemdə hərəkət etmək üçün kursorlardan istifadə edin"</string>
-    <!-- no translation found for action_corner_intro (2170609118659718140) -->
-    <skip />
+    <string name="action_corner_intro" msgid="2170609118659718140">"Künc qısayollarını fərdiləşdirmək üçün aşağıdakı sahələri seçin"</string>
     <string name="action_corner_bottom_left_title" msgid="2857258272736432174">"Aşağı sol künc"</string>
     <string name="action_corner_bottom_right_title" msgid="7222233500548465684">"Aşağı sağ künc"</string>
     <string name="action_corner_top_left_title" msgid="4633975226092344210">"Yuxarı sol künc"</string>
@@ -2653,10 +2651,8 @@
     <string name="accessibility_daltonizer_footer_learn_more_content_description" msgid="2091679253892040910">"Rəng korreksiyası haqqında ətraflı öyrənin"</string>
     <string name="accessibility_color_inversion_about_title" msgid="8275754480247040136">"Rəng inversiyası haqqında"</string>
     <string name="accessibility_color_inversion_footer_learn_more_content_description" msgid="5382579548498952445">"Rəng inversiyası haqqında ətraflı öyrənin"</string>
-    <!-- no translation found for accessibility_dark_theme_footer_learn_more_helper_link (7084955775821075280) -->
-    <skip />
-    <!-- no translation found for accessibility_dark_theme_preference_footer_content (4431044600779983609) -->
-    <skip />
+    <string name="accessibility_dark_theme_footer_learn_more_helper_link" msgid="7084955775821075280">"Tünd tema haqqında ətraflı məlumat"</string>
+    <string name="accessibility_dark_theme_preference_footer_content" msgid="4431044600779983609">"Bəzi tətbiqlər genişləndirilmiş ayarlarda Tünd temanı dəstəkləməyə bilər. Görünüş problemləri ilə qarşılaşsanız, standart ayarlardan istifadə edin."</string>
     <string name="accessibility_captioning_primary_switch_title" msgid="3663677340286206100">"Altyazılar göstərilsin"</string>
     <string name="accessibility_captioning_primary_switch_summary" msgid="2544094070306830218">"Yalnız dəstəklənən tətbiq üçün"</string>
     <string name="captioning_appearance_title" msgid="3128792092290011408">"Altyazı ölçü və üslubu"</string>
@@ -4527,10 +4523,8 @@
     <string name="disabled_by_policy_title_financed_device" msgid="2328740314082888228">"Kredit təminatçınız tərəfindən bloklanıb"</string>
     <string name="disabled_by_policy_title_biometric_parental_consent" msgid="2463673997797134678">"Valideyn tələb olunur"</string>
     <string name="disabled_by_policy_content_biometric_parental_consent" msgid="7124116806784305206">"Bunu ayarlamağa başlamaq üçün telefonu valideyninizə verin"</string>
-    <!-- no translation found for disabled_by_policy_title_parental_controls (8875976588644052371) -->
-    <skip />
-    <!-- no translation found for disabled_by_policy_content_parental_controls (4648160125103768738) -->
-    <skip />
+    <string name="disabled_by_policy_title_parental_controls" msgid="8875976588644052371">"Valideyn nəzarətləri ilə məhdudlaşdırılıb"</string>
+    <string name="disabled_by_policy_content_parental_controls" msgid="4648160125103768738">"Bu ayarı yalnız valideyn nəzarətini idarə edən şəxs dəyişə bilər"</string>
     <string name="disabled_by_policy_parental_consent" msgid="9166060049019018978">"Bu ayarın dəyişdirilməsinə icazə vermək üçün telefonu valideyninizə verin."</string>
     <string name="default_admin_support_msg" msgid="8816296554831532033">"Ətraflı məlumat üçün İT admini ilə əlaqə saxlayın"</string>
     <string name="admin_support_more_info" msgid="8407433155725898290">"Daha ətraflı"</string>
@@ -4646,8 +4640,7 @@
     <string name="battery_tips_card_action_button_check" msgid="1535140204105479318">"Yoxlayın"</string>
     <string name="battery_tips_card_dismiss_button" msgid="1885756985544936618">"Anladım"</string>
     <string name="battery_tips_card_feedback_info" msgid="767117835675157298">"Bu mesaj faydalıdır?"</string>
-    <!-- no translation found for battery_hints_warning_icon_a11y (709629805028175434) -->
-    <skip />
+    <string name="battery_hints_warning_icon_a11y" msgid="709629805028175434">"Batareya ilə bağlı xəbərdarlıq məsləhətləri"</string>
     <string name="battery_tips_settings_summary_brightness" msgid="546145032616077783">"Adaptiv parlaqlığı aktiv edərək batareya ömrünü uzadın"</string>
     <string name="battery_tips_settings_summary_screen_timeout" msgid="556801426050962077">"Ekranın avtomatik sönmə vaxtını azaldaraq batareya ömrünü uzadın"</string>
     <string name="battery_tips_apps_summary_always_high" msgid="6334519477067044920">"<xliff:g id="APP_LABEL">%1$s</xliff:g> çox batareya enerjisi istifadə edib"</string>
@@ -4975,8 +4968,6 @@
     <string name="autofill_reset_developer_options" msgid="6425613608979498608">"Sıfırlansın"</string>
     <string name="autofill_reset_developer_options_complete" msgid="1276741935956594965">"Avto doldurma developer seçimləri sıfırlanıb"</string>
     <string name="location_category" msgid="3496759112306219062">"Məkan"</string>
-    <string name="location_indicator_settings_title" msgid="6655916258720093451">"Status bölməsi məkan göstəricisi"</string>
-    <string name="location_indicator_settings_description" msgid="2888022085372804021">"Şəbəkə və bağlantı daxil olmaqla bütün məkanlar üçün göstərin"</string>
     <string name="enable_gnss_raw_meas_full_tracking" msgid="1206679951510243341">"Tam GNSS ölçülərini icra edin"</string>
     <string name="enable_gnss_raw_meas_full_tracking_summary" msgid="3841463141138247167">"İş sistemi olmadan bütün GNSS qruplaşmaları və tezliklərini izləyin"</string>
     <string name="input_method_category" msgid="2252659253631639005">"Daxiletmə metodu"</string>
@@ -5869,34 +5860,28 @@
     <string name="search_gesture_feature_summary" msgid="1793056495030564014">"Ekrandakı kontentdən istifadə edərək axtarış etmək üçün Əsas ekran düyməsinə və ya naviqasiya tutacağına basıb saxlayın."</string>
     <string name="device_detail_icon_content_description" msgid="6699151424374841937">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>. Cihaz detallarını konfiqurasiya edin."</string>
     <string name="supervision_settings_title" msgid="8507163323870367711">"Valideyn nəzarəti"</string>
-    <!-- no translation found for supervision_settings_summary (6304257872307136073) -->
-    <skip />
+    <string name="supervision_settings_summary" msgid="6304257872307136073">"Rəqəmsal əsas qaydalar və ekran vaxtı məhdudiyyətləri"</string>
     <string name="device_supervision_switch_no_pin_summary" msgid="4869563544571033220">"PIN-i ayarlayın"</string>
-    <!-- no translation found for keywords_supervision_settings (43064288661561602) -->
-    <skip />
+    <string name="keywords_supervision_settings" msgid="43064288661561602">"nəzarət, valideyn nəzarəti, valideynlər, nəzarət pini, pin"</string>
     <string name="supervision_pin_management_preference_title" msgid="7721501202320841845">"PIN-i idarə edin"</string>
-    <!-- no translation found for supervision_pin_management_preference_keywords (5034450635706621750) -->
-    <skip />
+    <string name="supervision_pin_management_preference_keywords" msgid="5034450635706621750">"Valideyn PIN-i, Valideyn nəzarəti PIN-i"</string>
     <string name="supervision_pin_management_preference_summary_add" msgid="2247921267270577374">"Bərpa e-poçtu əlavə edin"</string>
     <string name="supervision_pin_management_preference_summary_verify_recovery" msgid="5072554239108915119">"Bərpa e-poçtunu doğrulayın"</string>
     <string name="supervision_change_pin_preference_title" msgid="2288584039438231801">"PIN-i dəyişin"</string>
     <string name="supervision_add_forgot_pin_preference_title" msgid="8939945404255748516">"PIN-i unutdum"</string>
-    <!-- no translation found for supervision_auth_prompt_forgot_pin_button_label (1019337828884793557) -->
-    <skip />
+    <string name="supervision_auth_prompt_forgot_pin_button_label" msgid="1019337828884793557">"PIN-i unutmusunuz?"</string>
     <string name="supervision_update_recovery_email_preference_title" msgid="2057393838251915087">"Bərpa e-poçtunu yeniləyin"</string>
     <string name="supervision_delete_pin_preference_title" msgid="8447541098148430866">"PIN-i silin"</string>
     <string name="supervision_add_pin_recovery_title" msgid="3487098027604685794">"Bərpa e-poçtu əlavə edin"</string>
     <string name="supervision_verify_pin_recovery_title" msgid="3166602415814821497">"E-poçtunuzu doğrulayın"</string>
-    <!-- no translation found for supervision_web_content_filters_title (2412562442507104921) -->
-    <skip />
-    <!-- no translation found for supervision_web_content_filters_keywords (8469519676189544447) -->
-    <skip />
+    <string name="supervision_web_content_filters_title" msgid="2412562442507104921">"Veb-sayt kontenti məhdudiyyətləri"</string>
+    <string name="supervision_web_content_filters_keywords" msgid="8469519676189544447">"Veb-sayt filtrləri, Saytları bloklayın, Brauzer filtrləri, Açıq-saçıq saytları bloklayın, Saytları filtrləyin, Axtarış nəticələrini bloklayın, Açıq-saçıq axtarış nəticələrini filtrləyin, kontent məhdudiyyətləri"</string>
     <string name="supervision_web_content_filters_top_intro" msgid="5264773769840566499">"Veb-saytlarda və bu cihazda dəstəklənən tətbiqlərdəki axtarış nəticələrində yetkin kontentini bloklayın. Dəstəklənməyən tətbiqlərdə hələ də açıq-saçıq kontent görünə bilər."</string>
     <string name="supervision_web_content_filters_browser_title" msgid="8737341514264129889">"Veb-saytlar"</string>
     <string name="supervision_web_content_filters_browser_filter_title" msgid="7957976669412075070">"Açıq-saçıq saytları bloklayın"</string>
     <string name="supervision_web_content_filters_search_title" msgid="8608480392956106029">"Axtarış nəticələri"</string>
     <string name="supervision_web_content_filters_search_filter_title" msgid="4212134055017429017">"Açıq-saçıq axtarış nəticələrini filtrləyin"</string>
-    <string name="supervision_full_screen_pin_verification_title" msgid="78513043528333399">"Nəzarət PIN-i daxil edin"</string>
+    <string name="supervision_full_screen_pin_verification_title" msgid="7685279446792771815">"Valideyn nəzarəti PIN-ni daxil edin"</string>
     <string name="supervision_choose_your_pin_header" msgid="3872062168986738629">"Valideyn nəzarəti PIN-i təyin edin"</string>
     <string name="supervision_confirm_your_pin_header" msgid="8236956712482718354">"PIN-i təsdiq edin"</string>
     <string name="supervision_pin_reset_success_toast" msgid="9163550161698311831">"PIN yenilənib"</string>

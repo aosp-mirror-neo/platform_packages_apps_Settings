@@ -198,8 +198,7 @@
     <string name="locale_remove_menu" msgid="3521546263421387474">"حذف کردن"</string>
     <string name="add_a_language" msgid="2126220398077503271">"افزودن زبان"</string>
     <string name="app_locale_preference_title" msgid="5513627099300360232">"زبان"</string>
-    <!-- no translation found for locale_picker_category_title (296835514014453679) -->
-    <skip />
+    <string name="locale_picker_category_title" msgid="296835514014453679">"زبان‌های ترجیحی"</string>
     <string name="app_locales_picker_menu_title" msgid="7617427959223831373">"زبان برنامه‌ها"</string>
     <string name="app_locale_picker_summary" msgid="616928580653613998">"زبان هر برنامه را انتخاب کنید"</string>
     <string name="app_locale_picker_title" msgid="2431448962911301366">"زبان برنامه"</string>
@@ -225,17 +224,12 @@
     <string name="title_change_system_locale" msgid="4102991236063984803">"‏زبان سیستم به %s تغییر کند؟"</string>
     <string name="title_system_locale_addition" msgid="8218683660751479466">"‏%s به زبان‌های ترجیحی اضافه شود؟"</string>
     <string name="desc_system_locale_addition" msgid="3409917362651596070">"این کار به برنامه‌ها و وب‌سایت‌ها اطلاع می‌دهد که این زبان را نیز ترجیح می‌دهید."</string>
-    <!-- no translation found for desc_notice_device_locale_and_region_settings_change (909261686577914396) -->
-    <skip />
-    <!-- no translation found for desc_notice_device_locale_settings_change (5012353615235634881) -->
-    <skip />
-    <!-- no translation found for dlg_desc_delete_preferred_default_locale (690828405078078513) -->
-    <skip />
+    <string name="desc_notice_device_locale_and_region_settings_change" msgid="909261686577914396">"زبان دستگاهتان <xliff:g id="LANGUAGE">%1$s</xliff:g> خواهد بود و منطقه‌تان به <xliff:g id="REGION">%2$s</xliff:g> تغییر خواهد کرد."</string>
+    <string name="desc_notice_device_locale_settings_change" msgid="5012353615235634881">"زبان دستگاهتان <xliff:g id="LANGUAGE">%s</xliff:g> خواهد بود."</string>
+    <string name="dlg_desc_delete_preferred_default_locale" msgid="690828405078078513">"<xliff:g id="REMOVED_LANGUAGE">%s</xliff:g> از زبان‌های ترجیحی شما برداشته خواهد شد"</string>
     <string name="button_label_confirmation_of_system_locale_change" msgid="5593798559604894733">"تغییر دادن"</string>
-    <!-- no translation found for title_unavailable_locale (5382411204559213983) -->
-    <skip />
-    <!-- no translation found for desc_unavailable_locale (7223655766703116782) -->
-    <skip />
+    <string name="title_unavailable_locale" msgid="5382411204559213983">"نمی‌توان <xliff:g id="SELECTED_LANGUAGE">%s</xliff:g> را به‌عنوان زبان سیستم تنظیم کرد"</string>
+    <string name="desc_unavailable_locale" msgid="7223655766703116782">"دستگاه شما از این زبان پشتیبانی نمی‌کند، اما برنامه‌ها متوجه خواهند شد که شما این زبان را ترجیح می‌دهید"</string>
     <string name="locale_search_menu" msgid="297782694044826686">"جستجو"</string>
     <string name="language_and_region_title" msgid="8374151891112162767">"زبان و منطقه"</string>
     <string name="language_selection_title" msgid="968179636453982415">"افزودن زبان"</string>
@@ -249,12 +243,9 @@
     <string name="title_change_system_locale_region" msgid="4401478579429442695">"منطقه به <xliff:g id="SYSTEM_LANGUAGE_REGION">%1$s</xliff:g> تغییر کند؟"</string>
     <string name="body_change_system_locale_region" msgid="9064318449821043189">"دستگاهتان <xliff:g id="SYSTEM_LANGUAGE">%1$s</xliff:g> را به‌عنوان زبان سیستم حفظ خواهد کرد"</string>
     <string name="top_intro_numbering_system_title" msgid="3962000662073238392">"انتخاب نحوه نمایش شماره‌ها در دستگاهتان، وب‌سایت‌ها، و برنامه‌ها"</string>
-    <!-- no translation found for preferred_locale_menu_up (4009560552099567485) -->
-    <skip />
-    <!-- no translation found for preferred_locale_menu_down (1033373887552535585) -->
-    <skip />
-    <!-- no translation found for preferred_locale_menu_remove (8547483341987864590) -->
-    <skip />
+    <string name="preferred_locale_menu_up" msgid="4009560552099567485">"انتقال به بالا"</string>
+    <string name="preferred_locale_menu_down" msgid="1033373887552535585">"انتقال به پایین"</string>
+    <string name="preferred_locale_menu_remove" msgid="8547483341987864590">"برداشتن"</string>
     <string name="regional_preferences_title" msgid="4304567374498629528">"اولویت‌های منطقه‌ای"</string>
     <string name="regional_preferences_summary" msgid="1189876997389469650">"تنظیم اولویت‌های واحد و عدد"</string>
     <string name="regional_preferences_main_page_sub_title" msgid="4237109940015254725">"به برنامه‌ها اجازه می‌دهد اولویت‌های منطقه‌ای شما را بدانند تا بتوانند تجربه‌تان را شخصی‌سازی کنند."</string>
@@ -293,10 +284,8 @@
     <string name="dlg_remove_locales_error_title" msgid="5875503658221562572">"همه زبان‌ها حذف نمی‌شوند"</string>
     <string name="dlg_remove_locales_error_message" msgid="6504279959974675302">"حداقل یک زبان ترجیحی را نگه دارید"</string>
     <string name="locale_not_translated" msgid="3071618135527110152">"به‌عنوان زبان سیستم دردسترس نیست"</string>
-    <!-- no translation found for dlg_title_delete_preferred_locale (4167214348946940002) -->
-    <skip />
-    <!-- no translation found for dlg_desc_delete_preferred_locale (4658301652628456858) -->
-    <skip />
+    <string name="dlg_title_delete_preferred_locale" msgid="4167214348946940002">"<xliff:g id="REMOVED_LANGUAGE">%s</xliff:g> برداشته شود؟"</string>
+    <string name="dlg_desc_delete_preferred_locale" msgid="4658301652628456858">"<xliff:g id="REMOVED_LANGUAGE">%s</xliff:g> از زبان‌های ترجیحی شما برداشته خواهد شد. می‌توانید بعداً دوباره آن را اضافه کنید."</string>
     <string name="action_drag_label_move_up" msgid="3392196942330705015">"انتقال به بالا"</string>
     <string name="action_drag_label_move_down" msgid="9069518740553953426">"انتقال به پایین"</string>
     <string name="action_drag_label_move_top" msgid="2430471023612171619">"انتقال به بالا"</string>
@@ -476,8 +465,7 @@
     <string name="security_settings_fingerprint_enroll_introduction_no_thanks" msgid="1663906389456119842">"اکنون نه"</string>
     <string name="security_settings_fingerprint_enroll_introduction_agree" msgid="4068276083536421828">"موافقم"</string>
     <string name="security_settings_fingerprint_rename_description" msgid="6301505700382531086">"برای تغییر دادن نام، دو تک‌ضرب بزنید"</string>
-    <!-- no translation found for security_settings_fingerprint_recognition_description (1805171116182647136) -->
-    <skip />
+    <string name="security_settings_fingerprint_recognition_description" msgid="1805171116182647136">"‫<xliff:g id="FP_NAME">%1$s</xliff:g> تشخیص داده شد"</string>
     <string name="setup_fingerprint_enroll_skip_title" msgid="2473807887676247264">"از تنظیم اثر انگشت رد می‌شوید؟"</string>
     <string name="setup_fingerprint_enroll_skip_after_adding_lock_text" msgid="2412645723804450304">"تنظیم اثر انگشت تنها یک یا دو دقیقه طول می‌کشد. اگر از این تنظیم رد شوید، می‌توانید اثر انگشتتان را بعداً در تنظیمات اضافه کنید."</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_setup" msgid="6255210343107484206">"وقتی این نماد را مشاهده کردید، از اثر انگشت برای اصالت‌سنجی استفاده کنید؛ مثلاً وقتی به سیستم وارد می‌شوید یا خریدی را تأیید می‌کنید"</string>
@@ -1182,7 +1170,16 @@
     <string name="wifi_dpp_qr_code_is_not_valid_format" msgid="5190689503019328279">"رمزینه پاسخ‌سریع، قالب معتبری نیست"</string>
     <string name="retry" msgid="7542103800274026915">"امتحان مجدد"</string>
     <string name="wifi_shared" msgid="8850748923537589782">"اشتراک‌گذاری با دیگر استفاده‌کنندگان از دستگاه"</string>
+    <string name="shared_message" msgid="2104244057926025072">"هم‌رسانی‌شده"</string>
+    <string name="private_message" msgid="5897966950396765392">"خصوصی"</string>
+    <string name="wifi_conflict_dialog_confirm" msgid="4577313983128123779">"تأیید"</string>
+    <string name="wifi_conflict_dialog_cancel" msgid="5200571850377525343">"لغو"</string>
+    <string name="wifi_share_preference_title" msgid="6346200020322308703">"این شبکه هم‌رسانی‌شده است"</string>
+    <string name="wifi_share_preference_summary" msgid="4356010425167713046">"همه کاربران به‌استثنای کاربران مهمان، می‌توانند این شبکه را مشاهده کنند، ویرایش کنند و حذف کنند"</string>
+    <string name="wifi_conflict_dialog_title" msgid="1127530499054245755">"به شبکه <xliff:g id="SHARED">%1$s</xliff:g> «<xliff:g id="NETWORK_NAME">%2$s</xliff:g>» برمی‌گردید؟"</string>
+    <string name="wifi_conflict_dialog_message" msgid="3192435395074097168">"درحال‌حاضر به شبکه‌ای <xliff:g id="SHARED_0">%1$s</xliff:g> با نام یکسان متصل هستید. وقتی شبکه را عوض کنید، اتصالتان از شبکه <xliff:g id="SHARED_1">%2$s</xliff:g> قطع خواهد شد و سپس به شبکه <xliff:g id="PRIVATE">%3$s</xliff:g> دوباره متصل خواهید شد. احتمال دارد موقتاً اینترنت نداشته باشید."</string>
     <string name="wifi_unchanged" msgid="8026045290856150191">"(بی‌تغییر)"</string>
+    <string name="wifi_allow_edit_configuration_title" msgid="3928254385019370063">"مجاز کردن سایر کاربران برای ویرایش پیکربندی شبکه"</string>
     <string name="wifi_unspecified" msgid="4561964943472312208">"لطفاً انتخاب کنید"</string>
     <string name="wifi_multiple_cert_added" msgid="2151019652853383776">"(چندین گواهینامه اضافه شد)"</string>
     <string name="wifi_use_system_certs" msgid="5587866698144996931">"استفاده از گواهی‌های سیستم"</string>
@@ -2157,8 +2154,8 @@
     <string name="mouse_keys" msgid="6237254627808525540">"کلیدهای موشواره"</string>
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"استفاده از کلیدهای موشواره"</string>
     <string name="accessibility_mouse_keys_shortcut_title" msgid="7621635104533584115">"میان‌بر کلیدهای موشواره"</string>
-    <string name="mouse_keys_summary" msgid="7030731235143286467">"استفاده از صفحه‌کلید برای کنترل کردن اشاره‌گر"</string>
-    <string name="mouse_keys_max_speed_title" msgid="1788751803245422659">"حداکثر سرعت"</string>
+    <string name="mouse_keys_summary" msgid="6512910710030108693">"استفاده از صفحه‌کلید برای کنترل کردن مکان‌نما"</string>
+    <string name="mouse_keys_max_speed_title" msgid="2651688711606971145">"سرعت"</string>
     <string name="mouse_keys_seek_bar_decrease_button_description" msgid="9077624857206032509">"کاهش دادن"</string>
     <string name="mouse_keys_seek_bar_increase_button_description" msgid="2721662400858172203">"افزایش دادن"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"پیمایش معکوس"</string>
@@ -2184,6 +2181,9 @@
     <string name="mouse_keys_release_summary" msgid="7209370896835993434">"برای رها کردن دکمه اصلی موشواره، از کلید «<xliff:g id="RELEASE_LABEL">%s</xliff:g>» استفاده کنید"</string>
     <string name="mouse_keys_toggle_scroll_summary" msgid="7492663135290108272">"برای روشن/خاموش کردن حالت پیمایش، از کلید «<xliff:g id="RELEASE_LABEL_1">%1$s</xliff:g>» استفاده کنید. با این کار، کلیدهای «<xliff:g id="RELEASE_LABEL_2">%2$s</xliff:g>» نما را به بالا، پایین، چپ، یا راست پیمایش می‌کنند"</string>
     <string name="mouse_keys_release2_summary" msgid="5504548339731577210">"برای کلیک کردن با دکمه دوم موشواره، از کلید «<xliff:g id="RELEASE_2_LABEL">%s</xliff:g>» استفاده کنید"</string>
+    <string name="mouse_keys_acceleration_seekbar_title" msgid="2329098889930361504">"شتاب"</string>
+    <string name="mouse_keys_acceleration_fast_icon_desc" msgid="4426188473271579794">"سریع"</string>
+    <string name="mouse_keys_acceleration_slow_icon_desc" msgid="8370777074987200135">"آهسته"</string>
     <string name="keyboard_shortcuts_helper" msgid="6934420811737731188">"مشاهده میان‌برهای صفحه‌کلید"</string>
     <string name="keyboard_shortcuts_helper_summary" msgid="5979507677602559203">"نمایش فهرست میان‌برها"</string>
     <string name="language_and_input_for_work_category_title" msgid="2546950919124199743">"نمایه کاری صفحه‌کلیدها و ابزارها"</string>
@@ -2246,11 +2246,9 @@
     <string name="gesture_button_next" msgid="695288092704187356">"بعدی"</string>
     <string name="gesture_button_restart" msgid="1895850891992530133">"بازراه‌اندازی"</string>
     <string name="gesture_button_done" msgid="6387900351203032188">"تمام"</string>
-    <!-- no translation found for action_corner_title (7411160165577367757) -->
-    <skip />
+    <string name="action_corner_title" msgid="7411160165577367757">"سفارشی‌سازی کردن میان‌برهای گوشه"</string>
     <string name="action_corner_summary" msgid="695618538930535335">"از مکان‌نما برای پیمایش در سیستم استفاده کنید"</string>
-    <!-- no translation found for action_corner_intro (2170609118659718140) -->
-    <skip />
+    <string name="action_corner_intro" msgid="2170609118659718140">"برای سفارشی‌سازی کردن میانبرهای گوشه، نواحی زیر را انتخاب کنید"</string>
     <string name="action_corner_bottom_left_title" msgid="2857258272736432174">"گوشه پایین چپ"</string>
     <string name="action_corner_bottom_right_title" msgid="7222233500548465684">"گوشه پایین راست"</string>
     <string name="action_corner_top_left_title" msgid="4633975226092344210">"گوشه بالا چپ"</string>
@@ -2653,10 +2651,8 @@
     <string name="accessibility_daltonizer_footer_learn_more_content_description" msgid="2091679253892040910">"درباره تصحیح رنگ بیشتر بدانید"</string>
     <string name="accessibility_color_inversion_about_title" msgid="8275754480247040136">"درباره وارونگی رنگ"</string>
     <string name="accessibility_color_inversion_footer_learn_more_content_description" msgid="5382579548498952445">"درباره وارونگی رنگ بیشتر بدانید"</string>
-    <!-- no translation found for accessibility_dark_theme_footer_learn_more_helper_link (7084955775821075280) -->
-    <skip />
-    <!-- no translation found for accessibility_dark_theme_preference_footer_content (4431044600779983609) -->
-    <skip />
+    <string name="accessibility_dark_theme_footer_learn_more_helper_link" msgid="7084955775821075280">"درباره «زمینه تیره» بیشتر بدانید"</string>
+    <string name="accessibility_dark_theme_preference_footer_content" msgid="4431044600779983609">"برخی‌از برنامه‌ها ممکن است از «زمینه تیره» در تنظیم گسترش‌یافته پشتیبانی نکنند. اگر مشکلی در نمایش دارید، از تنظیم استاندارد استفاده کنید."</string>
     <string name="accessibility_captioning_primary_switch_title" msgid="3663677340286206100">"نشان دادن زیرنویس ناشنوایان"</string>
     <string name="accessibility_captioning_primary_switch_summary" msgid="2544094070306830218">"فقط برای برنامه پشتیبانی‌شده"</string>
     <string name="captioning_appearance_title" msgid="3128792092290011408">"اندازه و سبک زیرنویس ناشنوایان"</string>
@@ -4527,10 +4523,8 @@
     <string name="disabled_by_policy_title_financed_device" msgid="2328740314082888228">"ارائه‌دهنده اعتبارتان آن را مسدود کرده است"</string>
     <string name="disabled_by_policy_title_biometric_parental_consent" msgid="2463673997797134678">"رضایت ولی الزامی است"</string>
     <string name="disabled_by_policy_content_biometric_parental_consent" msgid="7124116806784305206">"برای شروع راه‌اندازی اصالت‌سنجی زیست‌سنجشی، تلفن را دراختیار ولی‌تان قرار دهید"</string>
-    <!-- no translation found for disabled_by_policy_title_parental_controls (8875976588644052371) -->
-    <skip />
-    <!-- no translation found for disabled_by_policy_content_parental_controls (4648160125103768738) -->
-    <skip />
+    <string name="disabled_by_policy_title_parental_controls" msgid="8875976588644052371">"کنترل‌های والدین آن را محدود کرده است"</string>
+    <string name="disabled_by_policy_content_parental_controls" msgid="4648160125103768738">"فقط شخصی که کنترل‌های والدین شما را مدیریت می‌کند می‌تواند این تنظیم را تغییر دهد"</string>
     <string name="disabled_by_policy_parental_consent" msgid="9166060049019018978">"تلفن را دراختیار ولی‌تان قرار دهید تا تغییر این تنظیم را مجاز کند."</string>
     <string name="default_admin_support_msg" msgid="8816296554831532033">"برای کسب اطلاعات بیشتر، با سرپرست فناوری اطلاعات تماس بگیرید"</string>
     <string name="admin_support_more_info" msgid="8407433155725898290">"جزئیات بیشتر"</string>
@@ -4646,8 +4640,7 @@
     <string name="battery_tips_card_action_button_check" msgid="1535140204105479318">"بررسی کردن"</string>
     <string name="battery_tips_card_dismiss_button" msgid="1885756985544936618">"متوجهم"</string>
     <string name="battery_tips_card_feedback_info" msgid="767117835675157298">"آیا این پیام مفید است؟"</string>
-    <!-- no translation found for battery_hints_warning_icon_a11y (709629805028175434) -->
-    <skip />
+    <string name="battery_hints_warning_icon_a11y" msgid="709629805028175434">"نکات هشدار باتری"</string>
     <string name="battery_tips_settings_summary_brightness" msgid="546145032616077783">"برای افزایش عمر باتری، «روشنایی تطبیقی» را روشن کنید"</string>
     <string name="battery_tips_settings_summary_screen_timeout" msgid="556801426050962077">"برای افزایش عمر باتری، زمان خاموش شدن صفحه را کاهش دهید"</string>
     <string name="battery_tips_apps_summary_always_high" msgid="6334519477067044920">"<xliff:g id="APP_LABEL">%1$s</xliff:g> باتری بیشتری مصرف کرد"</string>
@@ -4975,8 +4968,6 @@
     <string name="autofill_reset_developer_options" msgid="6425613608979498608">"بازنشانی به مقادیر پیش‌فرض"</string>
     <string name="autofill_reset_developer_options_complete" msgid="1276741935956594965">"گزینه‌های توسعه‌دهندگان تکمیل خودکار بازنشانی شد"</string>
     <string name="location_category" msgid="3496759112306219062">"مکان"</string>
-    <string name="location_indicator_settings_title" msgid="6655916258720093451">"نشانگر مکان در نوار وضعیت"</string>
-    <string name="location_indicator_settings_description" msgid="2888022085372804021">"برای همه مکان‌ها نشان داده شود، ازجمله شبکه و اتصال"</string>
     <string name="enable_gnss_raw_meas_full_tracking" msgid="1206679951510243341">"‏الزام به انجام اندازه‌گیری‌های کامل GNSS"</string>
     <string name="enable_gnss_raw_meas_full_tracking_summary" msgid="3841463141138247167">"بدون دوره کاری، همه دسته عکس‌های پانوراما و فرکانس‌ها را ردیابی کنید."</string>
     <string name="input_method_category" msgid="2252659253631639005">"روش ورودی"</string>
@@ -5869,34 +5860,28 @@
     <string name="search_gesture_feature_summary" msgid="1793056495030564014">"برای جستجو بااستفاده از محتوای روی صفحه، دکمه «صفحه اصلی» یا دستگیره پیمایش را لمس کنید و نگه دارید."</string>
     <string name="device_detail_icon_content_description" msgid="6699151424374841937">"‫<xliff:g id="DEVICE_NAME">%1$s</xliff:g>. پیکربندی جزئیات دستگاه."</string>
     <string name="supervision_settings_title" msgid="8507163323870367711">"کنترل‌های والدین"</string>
-    <!-- no translation found for supervision_settings_summary (6304257872307136073) -->
-    <skip />
+    <string name="supervision_settings_summary" msgid="6304257872307136073">"قوانین پایه دیجیتال و محدودیت‌های مدت تماشای صفحه"</string>
     <string name="device_supervision_switch_no_pin_summary" msgid="4869563544571033220">"راه‌اندازی پین"</string>
-    <!-- no translation found for keywords_supervision_settings (43064288661561602) -->
-    <skip />
+    <string name="keywords_supervision_settings" msgid="43064288661561602">"نظارت، کنترل‌های والدین، والدین، پین نظارت، پین"</string>
     <string name="supervision_pin_management_preference_title" msgid="7721501202320841845">"مدیریت کردن پین"</string>
-    <!-- no translation found for supervision_pin_management_preference_keywords (5034450635706621750) -->
-    <skip />
+    <string name="supervision_pin_management_preference_keywords" msgid="5034450635706621750">"پین ولی، پین کنترل‌های والدین"</string>
     <string name="supervision_pin_management_preference_summary_add" msgid="2247921267270577374">"ایمیل بازیابی اضافه کنید"</string>
     <string name="supervision_pin_management_preference_summary_verify_recovery" msgid="5072554239108915119">"ایمیل بازیابی را درستی‌سنجی کنید"</string>
     <string name="supervision_change_pin_preference_title" msgid="2288584039438231801">"تغییر پین"</string>
     <string name="supervision_add_forgot_pin_preference_title" msgid="8939945404255748516">"پین را فراموش کردم"</string>
-    <!-- no translation found for supervision_auth_prompt_forgot_pin_button_label (1019337828884793557) -->
-    <skip />
+    <string name="supervision_auth_prompt_forgot_pin_button_label" msgid="1019337828884793557">"پین را فراموش کرده‌اید؟"</string>
     <string name="supervision_update_recovery_email_preference_title" msgid="2057393838251915087">"ایمیل بازیابی را به‌روزرسانی کنید"</string>
     <string name="supervision_delete_pin_preference_title" msgid="8447541098148430866">"حذف پین"</string>
     <string name="supervision_add_pin_recovery_title" msgid="3487098027604685794">"افزودن ایمیل بازیابی"</string>
     <string name="supervision_verify_pin_recovery_title" msgid="3166602415814821497">"درستی‌سنجی کردن ایمیل"</string>
-    <!-- no translation found for supervision_web_content_filters_title (2412562442507104921) -->
-    <skip />
-    <!-- no translation found for supervision_web_content_filters_keywords (8469519676189544447) -->
-    <skip />
+    <string name="supervision_web_content_filters_title" msgid="2412562442507104921">"فیلترهای محتوای وب‌سایت"</string>
+    <string name="supervision_web_content_filters_keywords" msgid="8469519676189544447">"فیلترهای وب‌سایت، مسدود کردن سایت‌ها، فیلترهای مرورگر، مسدود کردن سایت‌های صریح، فیلتر کردن سایت‌ها، مسدود کردن نتایج جستجو، فیلتر کردن نتایج جستجوی صریح، محدودیت‌های محتوا"</string>
     <string name="supervision_web_content_filters_top_intro" msgid="5264773769840566499">"محتوای مناسب بزرگسالان را در وب‌سایت‌ها و نتایج جستجوی برنامه‌های پشتیبانی‌شده این دستگاه مسدود کنید. برنامه‌های پشتیبانی‌نشده ممکن است همچنان محتوای صریح نمایش دهند."</string>
     <string name="supervision_web_content_filters_browser_title" msgid="8737341514264129889">"وب‌سایت‌ها"</string>
     <string name="supervision_web_content_filters_browser_filter_title" msgid="7957976669412075070">"مسدود کردن سایت‌های صریح"</string>
     <string name="supervision_web_content_filters_search_title" msgid="8608480392956106029">"نتایج جستجو"</string>
     <string name="supervision_web_content_filters_search_filter_title" msgid="4212134055017429017">"فیلتر کردن نتایج جستجوی صریح"</string>
-    <string name="supervision_full_screen_pin_verification_title" msgid="78513043528333399">"پین نظارت را وارد کنید"</string>
+    <string name="supervision_full_screen_pin_verification_title" msgid="7685279446792771815">"پین کنترل‌های والدین را وارد کنید"</string>
     <string name="supervision_choose_your_pin_header" msgid="3872062168986738629">"پین کنترل‌های والدین تنظیم کنید"</string>
     <string name="supervision_confirm_your_pin_header" msgid="8236956712482718354">"پین را دوباره وارد کنید"</string>
     <string name="supervision_pin_reset_success_toast" msgid="9163550161698311831">"پین به‌روزرسانی شد"</string>

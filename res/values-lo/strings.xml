@@ -198,8 +198,7 @@
     <string name="locale_remove_menu" msgid="3521546263421387474">"ລຶບອອກ"</string>
     <string name="add_a_language" msgid="2126220398077503271">"ເພີ່ມ​ພາ​ສາ"</string>
     <string name="app_locale_preference_title" msgid="5513627099300360232">"ພາສາ"</string>
-    <!-- no translation found for locale_picker_category_title (296835514014453679) -->
-    <skip />
+    <string name="locale_picker_category_title" msgid="296835514014453679">"ພາສາທີ່ຕ້ອງການ"</string>
     <string name="app_locales_picker_menu_title" msgid="7617427959223831373">"ພາສາແອັບ"</string>
     <string name="app_locale_picker_summary" msgid="616928580653613998">"ເລືອກພາສາສຳລັບແຕ່ລະແອັບ"</string>
     <string name="app_locale_picker_title" msgid="2431448962911301366">"ພາສາແອັບ"</string>
@@ -225,17 +224,12 @@
     <string name="title_change_system_locale" msgid="4102991236063984803">"ປ່ຽນພາສາຂອງລະບົບໄປເປັນ %s ບໍ?"</string>
     <string name="title_system_locale_addition" msgid="8218683660751479466">"ເພີ່ມພາສາ %s ເປັນພາສາທີ່ທ່ານຕ້ອງການບໍ?"</string>
     <string name="desc_system_locale_addition" msgid="3409917362651596070">"ການດຳເນີນການນີ້ຈະຊ່ວຍໃຫ້ແອັບ ແລະ ເວັບໄຊຮູ້ວ່າທ່ານຕ້ອງການພາສານີ້ນຳ."</string>
-    <!-- no translation found for desc_notice_device_locale_and_region_settings_change (909261686577914396) -->
-    <skip />
-    <!-- no translation found for desc_notice_device_locale_settings_change (5012353615235634881) -->
-    <skip />
-    <!-- no translation found for dlg_desc_delete_preferred_default_locale (690828405078078513) -->
-    <skip />
+    <string name="desc_notice_device_locale_and_region_settings_change" msgid="909261686577914396">"ອຸປະກອນຂອງທ່ານຈະໃຊ້ <xliff:g id="LANGUAGE">%1$s</xliff:g> ແລະ ພາກພື້ນຂອງທ່ານຈະຖືກປ່ຽນເປັນ <xliff:g id="REGION">%2$s</xliff:g>."</string>
+    <string name="desc_notice_device_locale_settings_change" msgid="5012353615235634881">"ອຸປະກອນຂອງທ່ານຈະໃຊ້ <xliff:g id="LANGUAGE">%s</xliff:g>."</string>
+    <string name="dlg_desc_delete_preferred_default_locale" msgid="690828405078078513">"ລະບົບຈະລຶບພາສາ <xliff:g id="REMOVED_LANGUAGE">%s</xliff:g> ອອກຈາກພາສາທີ່ທ່ານຕ້ອງການ"</string>
     <string name="button_label_confirmation_of_system_locale_change" msgid="5593798559604894733">"ປ່ຽນ"</string>
-    <!-- no translation found for title_unavailable_locale (5382411204559213983) -->
-    <skip />
-    <!-- no translation found for desc_unavailable_locale (7223655766703116782) -->
-    <skip />
+    <string name="title_unavailable_locale" msgid="5382411204559213983">"ບໍ່ສາມາດຕັ້ງຄ່າພາສາ <xliff:g id="SELECTED_LANGUAGE">%s</xliff:g> ເປັນພາສາຂອງລະບົບໄດ້"</string>
+    <string name="desc_unavailable_locale" msgid="7223655766703116782">"ອຸປະກອນຂອງທ່ານບໍ່ຮອງຮັບພາສານີ້, ແຕ່ແອັບຈະຮູ້ວ່າທ່ານຕ້ອງການພາສານີ້"</string>
     <string name="locale_search_menu" msgid="297782694044826686">"ຄົ້ນຫາ"</string>
     <string name="language_and_region_title" msgid="8374151891112162767">"ພາສາ ແລະ ພາກພື້ນ"</string>
     <string name="language_selection_title" msgid="968179636453982415">"ເພີ່ມພາສາ"</string>
@@ -249,12 +243,9 @@
     <string name="title_change_system_locale_region" msgid="4401478579429442695">"ປ່ຽນພາກພື້ນເປັນ <xliff:g id="SYSTEM_LANGUAGE_REGION">%1$s</xliff:g> ບໍ?"</string>
     <string name="body_change_system_locale_region" msgid="9064318449821043189">"ອຸປະກອນຂອງທ່ານຈະເກັບພາສາ <xliff:g id="SYSTEM_LANGUAGE">%1$s</xliff:g> ໄວ້ເປັນພາສາຂອງລະບົບ"</string>
     <string name="top_intro_numbering_system_title" msgid="3962000662073238392">"ເລືອກວິທີສະແດງຕົວເລກຢູ່ອຸປະກອນ, ເວັບໄຊ ແລະ ແອັບຕ່າງໆຂອງທ່ານ"</string>
-    <!-- no translation found for preferred_locale_menu_up (4009560552099567485) -->
-    <skip />
-    <!-- no translation found for preferred_locale_menu_down (1033373887552535585) -->
-    <skip />
-    <!-- no translation found for preferred_locale_menu_remove (8547483341987864590) -->
-    <skip />
+    <string name="preferred_locale_menu_up" msgid="4009560552099567485">"ຍ້າຍຂຶ້ນ"</string>
+    <string name="preferred_locale_menu_down" msgid="1033373887552535585">"ຍ້າຍລົງ"</string>
+    <string name="preferred_locale_menu_remove" msgid="8547483341987864590">"ລຶບອອກ"</string>
     <string name="regional_preferences_title" msgid="4304567374498629528">"ການຕັ້ງຄ່າຕາມພາກພື້ນ"</string>
     <string name="regional_preferences_summary" msgid="1189876997389469650">"ກຳນົດການຕັ້ງຄ່າຫົວໜ່ວຍ ແລະ ຕົວເລກ"</string>
     <string name="regional_preferences_main_page_sub_title" msgid="4237109940015254725">"ບອກໃຫ້ແອັບຮູ້ການຕັ້ງຄ່າຕາມພາກພື້ນຂອງທ່ານເພື່ອໃຫ້ແອັບສາມາດປັບແຕ່ງປະສົບການຂອງທ່ານໃຫ້ເປັນແບບສ່ວນຕົວໄດ້."</string>
@@ -293,10 +284,8 @@
     <string name="dlg_remove_locales_error_title" msgid="5875503658221562572">"ບໍ່ສາມາດລຶບທຸກພາສາອອກໄດ້"</string>
     <string name="dlg_remove_locales_error_message" msgid="6504279959974675302">"ເກັບໄວ້ຢ່າງໜ້ອຍໜຶ່ງພາສາທີ່ຕ້ອງການ"</string>
     <string name="locale_not_translated" msgid="3071618135527110152">"ບໍ່ສາມາດໃຊ້ໄດ້ເປັນພາສາຂອງລະບົບ"</string>
-    <!-- no translation found for dlg_title_delete_preferred_locale (4167214348946940002) -->
-    <skip />
-    <!-- no translation found for dlg_desc_delete_preferred_locale (4658301652628456858) -->
-    <skip />
+    <string name="dlg_title_delete_preferred_locale" msgid="4167214348946940002">"ລຶບພາສາ <xliff:g id="REMOVED_LANGUAGE">%s</xliff:g> ອອກບໍ?"</string>
+    <string name="dlg_desc_delete_preferred_locale" msgid="4658301652628456858">"ລະບົບຈະລຶບພາສາ <xliff:g id="REMOVED_LANGUAGE">%s</xliff:g> ອອກຈາກພາສາທີ່ທ່ານຕ້ອງການ. ເຊິ່ງທ່ານສາມາດເພີ່ມອີກຄັ້ງໄດ້ໃນພາຍຫຼັງ."</string>
     <string name="action_drag_label_move_up" msgid="3392196942330705015">"ຍ້າຍຂຶ້ນ"</string>
     <string name="action_drag_label_move_down" msgid="9069518740553953426">"ຍ້າຍລົງ"</string>
     <string name="action_drag_label_move_top" msgid="2430471023612171619">"ຍ້າຍໄປເທິງສຸດ"</string>
@@ -476,8 +465,7 @@
     <string name="security_settings_fingerprint_enroll_introduction_no_thanks" msgid="1663906389456119842">"ບໍ່ຟ້າວເທື່ອ"</string>
     <string name="security_settings_fingerprint_enroll_introduction_agree" msgid="4068276083536421828">"ຂ້ອຍຍອມຮັບ"</string>
     <string name="security_settings_fingerprint_rename_description" msgid="6301505700382531086">"ແຕະ​ສອງ​ເທື່ອເພື່ອປ່ຽນຊື່"</string>
-    <!-- no translation found for security_settings_fingerprint_recognition_description (1805171116182647136) -->
-    <skip />
+    <string name="security_settings_fingerprint_recognition_description" msgid="1805171116182647136">"ຈື່ <xliff:g id="FP_NAME">%1$s</xliff:g> ໄດ້"</string>
     <string name="setup_fingerprint_enroll_skip_title" msgid="2473807887676247264">"ຂ້າມລາຍນິ້ວມືບໍ?"</string>
     <string name="setup_fingerprint_enroll_skip_after_adding_lock_text" msgid="2412645723804450304">"ການຕັ້ງຄ່າລາຍນິ້ວມືຈະໃຊ້ເວລາພຽງໜຶ່ງ ຫຼື ສອງນາທີເທົ່ານັ້ນ. ຫາກທ່ານຂ້າມຂັ້ນຕອນນີ້, ທ່ານຈະສາມາດເພີ່ມລາຍນິ້ວມືໄດ້ໃນພາຍຫຼັງໂດຍການໄປທີ່ການຕັ້ງຄ່າ."</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_setup" msgid="6255210343107484206">"ເມື່ອທ່ານເຫັນໄອຄອນນີ້, ໃຫ້ໃຊ້ລາຍນິ້ວມືຂອງທ່ານສຳລັບການພິສູດຢືນຢັນ ເຊັ່ນ: ເມື່ອທ່ານເຂົ້າສູ່ລະບົບຫາແອັບ ຫຼື ອະນຸມັດການສັ່ງຊື້ໃດໜຶ່ງ"</string>
@@ -1182,7 +1170,16 @@
     <string name="wifi_dpp_qr_code_is_not_valid_format" msgid="5190689503019328279">"ຮູບແບບລະຫັດ QR ບໍ່ຖືກຕ້ອງ"</string>
     <string name="retry" msgid="7542103800274026915">"ລອງໃໝ່"</string>
     <string name="wifi_shared" msgid="8850748923537589782">"ແບ່ງປັນກັບຜູ້ໃຊ້ອຸປະກອນອື່ນ"</string>
+    <string name="shared_message" msgid="2104244057926025072">"ແບ່ງປັນ"</string>
+    <string name="private_message" msgid="5897966950396765392">"ສ່ວນຕົວ"</string>
+    <string name="wifi_conflict_dialog_confirm" msgid="4577313983128123779">"ຢືນຢັນ"</string>
+    <string name="wifi_conflict_dialog_cancel" msgid="5200571850377525343">"ຍົກເລີກ"</string>
+    <string name="wifi_share_preference_title" msgid="6346200020322308703">"ເຄືອຂ່າຍນີ້ແມ່ນເຄືອຂ່າຍທີ່ແບ່ງປັນ"</string>
+    <string name="wifi_share_preference_summary" msgid="4356010425167713046">"ຜູ້ໃຊ້ທຸກຄົນຍົກເວັ້ນຜູ້ໃຊ້ແຂກຈະສາມາດເບິ່ງ, ແກ້ໄຂ ແລະ ລຶບເຄືອຂ່າຍນີ້ໄດ້"</string>
+    <string name="wifi_conflict_dialog_title" msgid="1127530499054245755">"ປ່ຽນເປັນເຄືອຂ່າຍ \"<xliff:g id="NETWORK_NAME">%2$s</xliff:g>\" <xliff:g id="SHARED">%1$s</xliff:g> ບໍ?"</string>
+    <string name="wifi_conflict_dialog_message" msgid="3192435395074097168">"ຕອນນີ້ທ່ານເຊື່ອມຕໍ່ຢູ່ກັບເຄືອຂ່າຍ <xliff:g id="SHARED_0">%1$s</xliff:g> ທີ່ມີຊື່ດຽວກັນ. ເມື່ອທ່ານປ່ຽນ, ທ່ານຈະຕ້ອງຍົກເລີກການເຊື່ອມຕໍ່ກັບເຄືອຂ່າຍ <xliff:g id="SHARED_1">%2$s</xliff:g> ແລ້ວເຊື່ອມຕໍ່ກັບເຄືອຂ່າຍ <xliff:g id="PRIVATE">%3$s</xliff:g> ອີກຄັ້ງ. ທ່ານອາດບໍ່ມີອິນເຕີເນັດຊົ່ວຄາວ."</string>
     <string name="wifi_unchanged" msgid="8026045290856150191">"(ບໍ່ມີການປ່ຽນແປງ)"</string>
+    <string name="wifi_allow_edit_configuration_title" msgid="3928254385019370063">"ອະນຸຍາດໃຫ້ຜູ້ໃຊ້ຄົນອື່ນແກ້ໄຂການຕັ້ງຄ່າເຄືອຂ່າຍ"</string>
     <string name="wifi_unspecified" msgid="4561964943472312208">"ກະລຸນາເລືອກ"</string>
     <string name="wifi_multiple_cert_added" msgid="2151019652853383776">"(ເພີ່ມຫຼາຍໃບຢັ້ງຢືນແລ້ວ)"</string>
     <string name="wifi_use_system_certs" msgid="5587866698144996931">"ໃຊ້ໃບຮັບຮອງລະບົບ"</string>
@@ -2157,8 +2154,8 @@
     <string name="mouse_keys" msgid="6237254627808525540">"ແປ້ນເມົ້າ"</string>
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"ໃຊ້ແປ້ນເມົ້າ"</string>
     <string name="accessibility_mouse_keys_shortcut_title" msgid="7621635104533584115">"ທາງລັດປຸ່ມເມົ້າ"</string>
-    <string name="mouse_keys_summary" msgid="7030731235143286467">"ໃຊ້ແປ້ນພິມຂອງທ່ານເພື່ອຄວບຄຸມຕົວຊີ້"</string>
-    <string name="mouse_keys_max_speed_title" msgid="1788751803245422659">"ຄວາມໄວສູງສຸດ"</string>
+    <string name="mouse_keys_summary" msgid="6512910710030108693">"ໃຊ້ແປ້ນພິມຂອງທ່ານເພື່ອຄວບຄຸມເຄີເຊີ"</string>
+    <string name="mouse_keys_max_speed_title" msgid="2651688711606971145">"ຄວາມໄວ"</string>
     <string name="mouse_keys_seek_bar_decrease_button_description" msgid="9077624857206032509">"ຊ້າລົງ"</string>
     <string name="mouse_keys_seek_bar_increase_button_description" msgid="2721662400858172203">"ເພີ່ມຂຶ້ນ"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"ການເລື່ອນຍ້ອນກັບ"</string>
@@ -2184,6 +2181,9 @@
     <string name="mouse_keys_release_summary" msgid="7209370896835993434">"ໃຊ້ປຸ່ມ \"<xliff:g id="RELEASE_LABEL">%s</xliff:g>\" ເພື່ອປ່ອຍປຸ່ມຫຼັກຂອງເມົ້າ"</string>
     <string name="mouse_keys_toggle_scroll_summary" msgid="7492663135290108272">"ໃຊ້ປຸ່ມ \"<xliff:g id="RELEASE_LABEL_1">%1$s</xliff:g>\" ເພື່ອເປີດ/ປິດໂໝດເລື່ອນ. ເຊິ່ງຈະເຮັດໃຫ້ປຸ່ມ \"<xliff:g id="RELEASE_LABEL_2">%2$s</xliff:g>\" ເລື່ອນມຸມມອງຂຶ້ນ, ລົງ, ໄປທາງຊ້າຍ ຫຼື ຂວາ"</string>
     <string name="mouse_keys_release2_summary" msgid="5504548339731577210">"ໃຊ້ປຸ່ມ \"<xliff:g id="RELEASE_2_LABEL">%s</xliff:g>\" ເພື່ອຄລິກປຸ່ມຮອງຂອງເມົ້າ"</string>
+    <string name="mouse_keys_acceleration_seekbar_title" msgid="2329098889930361504">"ການເລັ່ງຄວາມໄວ"</string>
+    <string name="mouse_keys_acceleration_fast_icon_desc" msgid="4426188473271579794">"ໄວ"</string>
+    <string name="mouse_keys_acceleration_slow_icon_desc" msgid="8370777074987200135">"ຊ້າ"</string>
     <string name="keyboard_shortcuts_helper" msgid="6934420811737731188">"ເບິ່ງຄີລັດ"</string>
     <string name="keyboard_shortcuts_helper_summary" msgid="5979507677602559203">"ສະແດງລາຍຊື່ຂອງທາງລັດ"</string>
     <string name="language_and_input_for_work_category_title" msgid="2546950919124199743">"ແປ້ນພິມໂປຣໄຟລ໌ວຽກ ແລະ ເຄື່ອງມື"</string>
@@ -2246,11 +2246,9 @@
     <string name="gesture_button_next" msgid="695288092704187356">"ຕໍ່ໄປ"</string>
     <string name="gesture_button_restart" msgid="1895850891992530133">"ຣີສະຕາດ"</string>
     <string name="gesture_button_done" msgid="6387900351203032188">"ແລ້ວໆ"</string>
-    <!-- no translation found for action_corner_title (7411160165577367757) -->
-    <skip />
+    <string name="action_corner_title" msgid="7411160165577367757">"ປັບແຕ່ງທາງລັດມຸມ"</string>
     <string name="action_corner_summary" msgid="695618538930535335">"ໃຊ້ເຄີເຊີເພື່ອນຳທາງໄປຫາສ່ວນຕ່າງໆຂອງລະບົບ"</string>
-    <!-- no translation found for action_corner_intro (2170609118659718140) -->
-    <skip />
+    <string name="action_corner_intro" msgid="2170609118659718140">"ເລືອກພື້ນທີ່ຕໍ່ໄປນີ້ເພື່ອປັບແຕ່ງທາງລັດມຸມ"</string>
     <string name="action_corner_bottom_left_title" msgid="2857258272736432174">"ມຸມຊ້າຍລຸ່ມ"</string>
     <string name="action_corner_bottom_right_title" msgid="7222233500548465684">"ມຸມຂວາລຸ່ມ"</string>
     <string name="action_corner_top_left_title" msgid="4633975226092344210">"ມຸມຊ້າຍເທິງ"</string>
@@ -2653,10 +2651,8 @@
     <string name="accessibility_daltonizer_footer_learn_more_content_description" msgid="2091679253892040910">"ສຶກສາເພີ່ມເຕີມກ່ຽວກັບການແກ້ໄຂສີ"</string>
     <string name="accessibility_color_inversion_about_title" msgid="8275754480247040136">"ກ່ຽວກັບການປີ້ນສີ"</string>
     <string name="accessibility_color_inversion_footer_learn_more_content_description" msgid="5382579548498952445">"ສຶກສາເພີ່ມເຕີມກ່ຽວກັບການປີ້ນສີ"</string>
-    <!-- no translation found for accessibility_dark_theme_footer_learn_more_helper_link (7084955775821075280) -->
-    <skip />
-    <!-- no translation found for accessibility_dark_theme_preference_footer_content (4431044600779983609) -->
-    <skip />
+    <string name="accessibility_dark_theme_footer_learn_more_helper_link" msgid="7084955775821075280">"ສຶກສາເພີ່ມເຕີມກ່ຽວກັບຮູບແບບສີສັນມືດ"</string>
+    <string name="accessibility_dark_theme_preference_footer_content" msgid="4431044600779983609">"ບາງແອັບອາດບໍ່ຮອງຮັບຮູບແບບສີສັນມືດໃນການຕັ້ງຄ່າແບບຂະຫຍາຍ. ຫາກທ່ານພົບບັນຫາກ່ຽວກັບລັກສະນະທີ່ປາກົດ, ໃຫ້ໃຊ້ການຕັ້ງຄ່າມາດຕະຖານ."</string>
     <string name="accessibility_captioning_primary_switch_title" msgid="3663677340286206100">"ສະແດງຄຳບັນຍາຍ"</string>
     <string name="accessibility_captioning_primary_switch_summary" msgid="2544094070306830218">"ສຳລັບແອັບທີ່ຮອງຮັບເທົ່ານັ້ນ"</string>
     <string name="captioning_appearance_title" msgid="3128792092290011408">"ຂະໜາດ ແລະ ຮູບແບບຄຳບັນຍາຍ"</string>
@@ -4527,10 +4523,8 @@
     <string name="disabled_by_policy_title_financed_device" msgid="2328740314082888228">"ຖືກບລັອກໂດຍຜູ້ໃຫ້ບໍລິການເຄຣດິດຂອງທ່ານ"</string>
     <string name="disabled_by_policy_title_biometric_parental_consent" msgid="2463673997797134678">"ຕ້ອງໃຫ້ພໍ່ແມ່ຕັ້ງຄ່າ"</string>
     <string name="disabled_by_policy_content_biometric_parental_consent" msgid="7124116806784305206">"ຍື່ນໂທລະສັບໃຫ້ພໍ່ແມ່ຂອງທ່ານເພື່ອເລີ່ມການຕັ້ງຄ່າຄຸນສົມບັດນີ້"</string>
-    <!-- no translation found for disabled_by_policy_title_parental_controls (8875976588644052371) -->
-    <skip />
-    <!-- no translation found for disabled_by_policy_content_parental_controls (4648160125103768738) -->
-    <skip />
+    <string name="disabled_by_policy_title_parental_controls" msgid="8875976588644052371">"ຖືກຈຳກັດໂດຍການຄວບຄຸມຂອງພໍ່ແມ່"</string>
+    <string name="disabled_by_policy_content_parental_controls" msgid="4648160125103768738">"ມີພຽງຄົນຜູ້ທີ່ຈັດການການຄວບຄຸມຂອງພໍ່ແມ່ຂອງທ່ານເທົ່ານັ້ນທີ່ສາມາດປ່ຽນແປງການຕັ້ງຄ່ານີ້ໄດ້"</string>
     <string name="disabled_by_policy_parental_consent" msgid="9166060049019018978">"ຍື່ນໂທລະສັບໃຫ້ຜູ້ປົກຄອງຂອງທ່ານເພື່ອອະນຸຍາດໃຫ້ປ່ຽນແປງການຕັ້ງຄ່ານີ້."</string>
     <string name="default_admin_support_msg" msgid="8816296554831532033">"ສຳລັບຂໍ້ມູນເພີ່ມເຕີມ, ກະລຸນາຕິດຕໍ່ຜູ້ເບິ່ງແຍງໄອທີຂອງທ່ານ"</string>
     <string name="admin_support_more_info" msgid="8407433155725898290">"ລາຍລະອຽດເພີ່ມເຕີມ"</string>
@@ -4646,8 +4640,7 @@
     <string name="battery_tips_card_action_button_check" msgid="1535140204105479318">"ກວດສອບ"</string>
     <string name="battery_tips_card_dismiss_button" msgid="1885756985544936618">"ເຂົ້າໃຈແລ້ວ"</string>
     <string name="battery_tips_card_feedback_info" msgid="767117835675157298">"ຂໍ້ຄວາມນີ້ມີປະໂຫຍດບໍ?"</string>
-    <!-- no translation found for battery_hints_warning_icon_a11y (709629805028175434) -->
-    <skip />
+    <string name="battery_hints_warning_icon_a11y" msgid="709629805028175434">"ເຄັດລັບຄຳເຕືອນກ່ຽວກັບແບັດເຕີຣີ"</string>
     <string name="battery_tips_settings_summary_brightness" msgid="546145032616077783">"ເປີດຄຸນສົມບັດປັບຄວາມແຈ້ງອັດຕະໂນມັດເພື່ອຍືດອາຍຸແບັດເຕີຣີ"</string>
     <string name="battery_tips_settings_summary_screen_timeout" msgid="556801426050962077">"ຫຼຸດໄລຍະໝົດເວລາໜ້າຈໍເພື່ອຍືດອາຍຸແບັດເຕີຣີ"</string>
     <string name="battery_tips_apps_summary_always_high" msgid="6334519477067044920">"<xliff:g id="APP_LABEL">%1$s</xliff:g> ໃຊ້ແບັດເຕີຣີຫຼາຍຂຶ້ນ"</string>
@@ -4975,8 +4968,6 @@
     <string name="autofill_reset_developer_options" msgid="6425613608979498608">"ຣີເຊັດເປັນຄ່າເລີ່ມຕົ້ນ"</string>
     <string name="autofill_reset_developer_options_complete" msgid="1276741935956594965">"ຣີເຊັດຕົວເລືອກການຕື່ມຂໍ້ມູນນັກພັດທະນາໂດຍອັດຕະໂນມັດແລ້ວ"</string>
     <string name="location_category" msgid="3496759112306219062">"ສະຖານທີ່"</string>
-    <string name="location_indicator_settings_title" msgid="6655916258720093451">"ຕົວລະບຸສະຖານທີ່ແຖບສະຖານະ"</string>
-    <string name="location_indicator_settings_description" msgid="2888022085372804021">"ສະແດງສຳລັບສະຖານທີ່ທັງໝົດ, ຮວມທັງເຄືອຂ່າຍ ແລະ ການເຊື່ອມຕໍ່"</string>
     <string name="enable_gnss_raw_meas_full_tracking" msgid="1206679951510243341">"ບັງຄັບການກວດສອບ GNSS ເຕັມຮູບແບບ"</string>
     <string name="enable_gnss_raw_meas_full_tracking_summary" msgid="3841463141138247167">"ຕິດຕາມກຸ່ມ ແລະ ຄວາມຖີ່ GNSS ທັງໝົດໂດຍບໍ່ມີຮອບຕາມພັນທະ"</string>
     <string name="input_method_category" msgid="2252659253631639005">"ວິທີການປ້ອນຂໍ້ມູນ"</string>
@@ -5869,34 +5860,28 @@
     <string name="search_gesture_feature_summary" msgid="1793056495030564014">"ແຕະປຸ່ມໜ້າທຳອິດ ຫຼື ດ້າມຈັບນຳທາງຄ້າງໄວ້ເພື່ອຊອກຫາໂດຍໃຊ້ເນື້ອຫາຢູ່ໜ້າຈໍຂອງທ່ານ."</string>
     <string name="device_detail_icon_content_description" msgid="6699151424374841937">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>. ຕັ້ງຄ່າລາຍລະອຽດອຸປະກອນ."</string>
     <string name="supervision_settings_title" msgid="8507163323870367711">"ການຄວບຄຸມຂອງພໍ່ແມ່"</string>
-    <!-- no translation found for supervision_settings_summary (6304257872307136073) -->
-    <skip />
+    <string name="supervision_settings_summary" msgid="6304257872307136073">"ກົດລະບຽບດິຈິຕອນ ແລະ ການຈຳກັດເວລາໜ້າຈໍ"</string>
     <string name="device_supervision_switch_no_pin_summary" msgid="4869563544571033220">"ຕັ້ງລະຫັດ PIN"</string>
-    <!-- no translation found for keywords_supervision_settings (43064288661561602) -->
-    <skip />
+    <string name="keywords_supervision_settings" msgid="43064288661561602">"ການເບິ່ງແຍງກວດກາ, ການຄວບຄຸມຂອງພໍ່ແມ່, ຜູ້ປົກຄອງ, PIN ການເບິ່ງແຍງກວດກາ, PIN"</string>
     <string name="supervision_pin_management_preference_title" msgid="7721501202320841845">"ຈັດການ PIN ຂອງທ່ານ"</string>
-    <!-- no translation found for supervision_pin_management_preference_keywords (5034450635706621750) -->
-    <skip />
+    <string name="supervision_pin_management_preference_keywords" msgid="5034450635706621750">"PIN ຜູ້ປົກຄອງ, PIN ການຄວບຄຸມຂອງພໍ່ແມ່"</string>
     <string name="supervision_pin_management_preference_summary_add" msgid="2247921267270577374">"ເພີ່ມອີເມວກູ້ຂໍ້ມູນ"</string>
     <string name="supervision_pin_management_preference_summary_verify_recovery" msgid="5072554239108915119">"ຢັ້ງຢືນອີເມວກູ້ຂໍ້ມູນ"</string>
     <string name="supervision_change_pin_preference_title" msgid="2288584039438231801">"ປ່ຽນ PIN"</string>
     <string name="supervision_add_forgot_pin_preference_title" msgid="8939945404255748516">"ລືມ PIN"</string>
-    <!-- no translation found for supervision_auth_prompt_forgot_pin_button_label (1019337828884793557) -->
-    <skip />
+    <string name="supervision_auth_prompt_forgot_pin_button_label" msgid="1019337828884793557">"ລືມ PIN ບໍ?"</string>
     <string name="supervision_update_recovery_email_preference_title" msgid="2057393838251915087">"ອັບເດດອີເມວກູ້ຂໍ້ມູນ"</string>
     <string name="supervision_delete_pin_preference_title" msgid="8447541098148430866">"ລຶບ PIN"</string>
     <string name="supervision_add_pin_recovery_title" msgid="3487098027604685794">"ເພີ່ມອີເມວກູ້ຂໍ້ມູນ"</string>
     <string name="supervision_verify_pin_recovery_title" msgid="3166602415814821497">"ຢັ້ງຢືນອີເມວຂອງທ່ານ"</string>
-    <!-- no translation found for supervision_web_content_filters_title (2412562442507104921) -->
-    <skip />
-    <!-- no translation found for supervision_web_content_filters_keywords (8469519676189544447) -->
-    <skip />
+    <string name="supervision_web_content_filters_title" msgid="2412562442507104921">"ຕົວກັ່ນຕອງເນື້ອຫາເວັບໄຊ"</string>
+    <string name="supervision_web_content_filters_keywords" msgid="8469519676189544447">"ຕົວກັ່ນຕອງເວັບໄຊ, ບລັອກເວັບໄຊ, ຕົວກັ່ນຕອງໂປຣແກຣມທ່ອງເວັບ, ບລັອກເວັບໄຊທີ່ອາດບໍ່ເໝາະສົມ, ກັ່ນຕອງເວັບໄຊ, ບລັອກຜົນການຊອກຫາ, ກັ່ນຕອງຜົນການຊອກຫາທີ່ອາດບໍ່ເໝາະສົມ, ການຈຳກັດເນື້ອຫາ"</string>
     <string name="supervision_web_content_filters_top_intro" msgid="5264773769840566499">"ບລັອກເນື້ອຫາສຳລັບຜູ້ໃຫຍ່ຢູ່ເວັບໄຊ ແລະ ຜົນການຊອກຫາຢູ່ແອັບທີ່ຮອງຮັບໃນອຸປະກອນເຄື່ອງນີ້. ແອັບທີ່ບໍ່ຮອງຮັບອາດຍັງສະແດງເນື້ອຫາທີ່ບໍ່ເໝາະສົມ."</string>
     <string name="supervision_web_content_filters_browser_title" msgid="8737341514264129889">"ເວັບໄຊ"</string>
     <string name="supervision_web_content_filters_browser_filter_title" msgid="7957976669412075070">"ບລັອກເວັບໄຊຈະແຈ້ງ"</string>
     <string name="supervision_web_content_filters_search_title" msgid="8608480392956106029">"ຜົນການຊອກຫາ"</string>
     <string name="supervision_web_content_filters_search_filter_title" msgid="4212134055017429017">"ກັ່ນຕອງຜົນການຊອກຫາທີ່ຈະແຈ້ງອອກ"</string>
-    <string name="supervision_full_screen_pin_verification_title" msgid="78513043528333399">"ປ້ອນ PIN ການເບິ່ງແຍງກວດກາ"</string>
+    <string name="supervision_full_screen_pin_verification_title" msgid="7685279446792771815">"ລະບຸ PIN ການຄວບຄຸມຂອງພໍ່ແມ່"</string>
     <string name="supervision_choose_your_pin_header" msgid="3872062168986738629">"ຕັ້ງ PIN ການຄວບຄຸມຂອງພໍ່ແມ່"</string>
     <string name="supervision_confirm_your_pin_header" msgid="8236956712482718354">"ຢືນຢັນ PIN"</string>
     <string name="supervision_pin_reset_success_toast" msgid="9163550161698311831">"ອັບເດດ PIN ແລ້ວ"</string>

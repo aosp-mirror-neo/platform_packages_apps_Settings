@@ -224,12 +224,9 @@
     <string name="title_change_system_locale" msgid="4102991236063984803">"Тутумдун тили %s тилине өзгөрсүнбү?"</string>
     <string name="title_system_locale_addition" msgid="8218683660751479466">"%s тилин тандалган тилдерге кошосузбу?"</string>
     <string name="desc_system_locale_addition" msgid="3409917362651596070">"Ушуну менен колдонмолор жана вебсайттар ушул тилди да тандаганыңызды билет."</string>
-    <!-- no translation found for desc_notice_device_locale_and_region_settings_change (909261686577914396) -->
-    <skip />
-    <!-- no translation found for desc_notice_device_locale_settings_change (5012353615235634881) -->
-    <skip />
-    <!-- no translation found for dlg_desc_delete_preferred_default_locale (690828405078078513) -->
-    <skip />
+    <string name="desc_notice_device_locale_and_region_settings_change" msgid="909261686577914396">"Түзмөгүңүз <xliff:g id="LANGUAGE">%1$s</xliff:g> тилин колдонот жана аймагыңыз <xliff:g id="REGION">%2$s</xliff:g> болуп өзгөрөт."</string>
+    <string name="desc_notice_device_locale_settings_change" msgid="5012353615235634881">"Түзмөгүңүз <xliff:g id="LANGUAGE">%s</xliff:g> тилин колдонот."</string>
+    <string name="dlg_desc_delete_preferred_default_locale" msgid="690828405078078513">"<xliff:g id="REMOVED_LANGUAGE">%s</xliff:g> сиз тандаган тилдерден өчүрүлөт"</string>
     <string name="button_label_confirmation_of_system_locale_change" msgid="5593798559604894733">"Өзгөртүү"</string>
     <string name="title_unavailable_locale" msgid="5382411204559213983">"<xliff:g id="SELECTED_LANGUAGE">%s</xliff:g> тилин системанын тили катары коюуга болбойт"</string>
     <string name="desc_unavailable_locale" msgid="7223655766703116782">"Түзмөгүңүз бул тилди колдоого албайт, бирок колдонмолор ушул тилди колдонгуңуз келерин билишет"</string>
@@ -1173,7 +1170,16 @@
     <string name="wifi_dpp_qr_code_is_not_valid_format" msgid="5190689503019328279">"QR коднун форматы жараксыз"</string>
     <string name="retry" msgid="7542103800274026915">"Кайталоо"</string>
     <string name="wifi_shared" msgid="8850748923537589782">"Түзмөктүн башка колдонуучулары менен бөлүшүлсүн"</string>
+    <string name="shared_message" msgid="2104244057926025072">"бөлүшүлгөн"</string>
+    <string name="private_message" msgid="5897966950396765392">"купуя"</string>
+    <string name="wifi_conflict_dialog_confirm" msgid="4577313983128123779">"Ырастоо"</string>
+    <string name="wifi_conflict_dialog_cancel" msgid="5200571850377525343">"Жокко чыгаруу"</string>
+    <string name="wifi_share_preference_title" msgid="6346200020322308703">"Бул жалпы тармак"</string>
+    <string name="wifi_share_preference_summary" msgid="4356010425167713046">"Конок профилдеринен башка бардык колдонуучулар бул тармакты көрүп, түзөтүп жана өчүрө алышат"</string>
+    <string name="wifi_conflict_dialog_title" msgid="1127530499054245755">"<xliff:g id="SHARED">%1$s</xliff:g> \"<xliff:g id="NETWORK_NAME">%2$s</xliff:g>\" тармагына которуласызбы?"</string>
+    <string name="wifi_conflict_dialog_message" msgid="3192435395074097168">"Учурда сиз бирдей аталыштагы <xliff:g id="SHARED_0">%1$s</xliff:g>тармагына туташып турасыз. Которулганыңызда <xliff:g id="SHARED_1">%2$s</xliff:g> тармагынан ажыратылып, андан кийин <xliff:g id="PRIVATE">%3$s</xliff:g> тармагына кайра туташасыз. Убактылуу Интернет байланышыңыз болбошу мүмкүн."</string>
     <string name="wifi_unchanged" msgid="8026045290856150191">"(өзгөрүүсүз)"</string>
+    <string name="wifi_allow_edit_configuration_title" msgid="3928254385019370063">"Башка колдонуучуларга тармактын конфигурациясын түзөтүүгө уруксат берүү"</string>
     <string name="wifi_unspecified" msgid="4561964943472312208">"Тандаңыз"</string>
     <string name="wifi_multiple_cert_added" msgid="2151019652853383776">"(Бир нече тастыктама кошулду)"</string>
     <string name="wifi_use_system_certs" msgid="5587866698144996931">"Системанын тастыктамаларын көрсөтүү"</string>
@@ -2148,8 +2154,8 @@
     <string name="mouse_keys" msgid="6237254627808525540">"Чычкандын баскычтары"</string>
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"Чычкандын баскычтарын колдонуу"</string>
     <string name="accessibility_mouse_keys_shortcut_title" msgid="7621635104533584115">"Чычкандын ыкчам баскычтары"</string>
-    <string name="mouse_keys_summary" msgid="7030731235143286467">"Курсорду баскычтоп менен башкарасыз"</string>
-    <string name="mouse_keys_max_speed_title" msgid="1788751803245422659">"Максималдуу ылдамдык"</string>
+    <string name="mouse_keys_summary" msgid="6512910710030108693">"Курсорду баскычтоп менен башкарасыз"</string>
+    <string name="mouse_keys_max_speed_title" msgid="2651688711606971145">"Ылдамдык"</string>
     <string name="mouse_keys_seek_bar_decrease_button_description" msgid="9077624857206032509">"Төмөндөтүү"</string>
     <string name="mouse_keys_seek_bar_increase_button_description" msgid="2721662400858172203">"Жогорулатуу"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"Тескери сыдыруу"</string>
@@ -2175,6 +2181,9 @@
     <string name="mouse_keys_release_summary" msgid="7209370896835993434">"Чычкандын негизги баскычын коё берүү үчүн \"<xliff:g id="RELEASE_LABEL">%s</xliff:g>\" баскычын колдонуңуз"</string>
     <string name="mouse_keys_toggle_scroll_summary" msgid="7492663135290108272">"Сыдыруу режимин өчүрүү/күйгүзүү үчүн \"<xliff:g id="RELEASE_LABEL_1">%1$s</xliff:g>\" баскычын колдонуңуз. Бул режимде \"<xliff:g id="RELEASE_LABEL_2">%2$s</xliff:g>\" баскычтары менен экранды өйдө, ылдый, солго же оңго сыдырууга болот"</string>
     <string name="mouse_keys_release2_summary" msgid="5504548339731577210">"Чычкандын кошумча баскычын басуу үчүн \"<xliff:g id="RELEASE_2_LABEL">%s</xliff:g>\" баскычын колдонуңуз"</string>
+    <string name="mouse_keys_acceleration_seekbar_title" msgid="2329098889930361504">"Ылдамдаткыч"</string>
+    <string name="mouse_keys_acceleration_fast_icon_desc" msgid="4426188473271579794">"Ылдам"</string>
+    <string name="mouse_keys_acceleration_slow_icon_desc" msgid="8370777074987200135">"Жай"</string>
     <string name="keyboard_shortcuts_helper" msgid="6934420811737731188">"Ыкчам баскычтарды көрсөтүү"</string>
     <string name="keyboard_shortcuts_helper_summary" msgid="5979507677602559203">"Ыкчам баскычтардын тизмеси көрүнөт"</string>
     <string name="language_and_input_for_work_category_title" msgid="2546950919124199743">"Жумуш профилинин баскычтоптору жана куралдары"</string>
@@ -2237,11 +2246,9 @@
     <string name="gesture_button_next" msgid="695288092704187356">"Кийинки"</string>
     <string name="gesture_button_restart" msgid="1895850891992530133">"Өчүрүп күйгүзүү"</string>
     <string name="gesture_button_done" msgid="6387900351203032188">"Бүттү"</string>
-    <!-- no translation found for action_corner_title (7411160165577367757) -->
-    <skip />
+    <string name="action_corner_title" msgid="7411160165577367757">"Бурчтук ыкчам баскычтарды ыңгайлаштыруу"</string>
     <string name="action_corner_summary" msgid="695618538930535335">"Системада багыт алуу үчүн курсорлорду колдонуңуз"</string>
-    <!-- no translation found for action_corner_intro (2170609118659718140) -->
-    <skip />
+    <string name="action_corner_intro" msgid="2170609118659718140">"Бурчтук ыкчам баскычтарды ыңгайлаштыруу үчүн төмөнкү аймактарды тандаңыз"</string>
     <string name="action_corner_bottom_left_title" msgid="2857258272736432174">"Төмөнкү сол бурчу"</string>
     <string name="action_corner_bottom_right_title" msgid="7222233500548465684">"Төмөнкү оң бурчу"</string>
     <string name="action_corner_top_left_title" msgid="4633975226092344210">"Жогорку сол бурчу"</string>
@@ -2644,10 +2651,8 @@
     <string name="accessibility_daltonizer_footer_learn_more_content_description" msgid="2091679253892040910">"Түстөрдү тууралоо жөнүндө кеңири маалымат алыңыз"</string>
     <string name="accessibility_color_inversion_about_title" msgid="8275754480247040136">"Түстөрдү инверсиялоо тууралуу"</string>
     <string name="accessibility_color_inversion_footer_learn_more_content_description" msgid="5382579548498952445">"Түстөрдү инверсиялоо тууралуу кеңири маалымат"</string>
-    <!-- no translation found for accessibility_dark_theme_footer_learn_more_helper_link (7084955775821075280) -->
-    <skip />
-    <!-- no translation found for accessibility_dark_theme_preference_footer_content (4431044600779983609) -->
-    <skip />
+    <string name="accessibility_dark_theme_footer_learn_more_helper_link" msgid="7084955775821075280">"Караңгы тема жөнүндө кеңири маалымат"</string>
+    <string name="accessibility_dark_theme_preference_footer_content" msgid="4431044600779983609">"Айрым колдонмолордун кеңейтилген параметри Караңгы теманы колдоого албашы мүмкүн. Эгер көрүнүштө маселе жаралса, кадимки параметрди колдонуңуз."</string>
     <string name="accessibility_captioning_primary_switch_title" msgid="3663677340286206100">"Коштомо жазууларды көрсөтүү"</string>
     <string name="accessibility_captioning_primary_switch_summary" msgid="2544094070306830218">"Колдоого алынган колдонмолордо гана"</string>
     <string name="captioning_appearance_title" msgid="3128792092290011408">"Коштомо жазуунун өлчөмү жана стили"</string>
@@ -4518,10 +4523,8 @@
     <string name="disabled_by_policy_title_financed_device" msgid="2328740314082888228">"Насыя берүүчү тарабынан бөгөттөлдү"</string>
     <string name="disabled_by_policy_title_biometric_parental_consent" msgid="2463673997797134678">"Ата-эненин макулдугу керек"</string>
     <string name="disabled_by_policy_content_biometric_parental_consent" msgid="7124116806784305206">"Муну жөндөп баштоо үчүн телефонду ата-энеңе бер"</string>
-    <!-- no translation found for disabled_by_policy_title_parental_controls (8875976588644052371) -->
-    <skip />
-    <!-- no translation found for disabled_by_policy_content_parental_controls (4648160125103768738) -->
-    <skip />
+    <string name="disabled_by_policy_title_parental_controls" msgid="8875976588644052371">"Ата-эненин көзөмөлү менен чектелген"</string>
+    <string name="disabled_by_policy_content_parental_controls" msgid="4648160125103768738">"Бул параметрди Ата-эненин көзөмөлүн тескеген киши гана өзгөртө алат"</string>
     <string name="disabled_by_policy_parental_consent" msgid="9166060049019018978">"Бул параметрди өзгөртүү үчүн телефонду ата-энеңе бер."</string>
     <string name="default_admin_support_msg" msgid="8816296554831532033">"Кеңири маалымат алуу үчүн IT администраторуңузга кайрылыңыз"</string>
     <string name="admin_support_more_info" msgid="8407433155725898290">"Көбүрөөк маалымат"</string>
@@ -4637,8 +4640,7 @@
     <string name="battery_tips_card_action_button_check" msgid="1535140204105479318">"Текшерүү"</string>
     <string name="battery_tips_card_dismiss_button" msgid="1885756985544936618">"Түшүндүм"</string>
     <string name="battery_tips_card_feedback_info" msgid="767117835675157298">"Бул билдирүү пайдалуубу?"</string>
-    <!-- no translation found for battery_hints_warning_icon_a11y (709629805028175434) -->
-    <skip />
+    <string name="battery_hints_warning_icon_a11y" msgid="709629805028175434">"Батареянын колдонулушу боюнча кеңештер"</string>
     <string name="battery_tips_settings_summary_brightness" msgid="546145032616077783">"Батареяны көпкө жеткирүү үчүн ыңгайлашуучу жарыкты күйгүзүңүз"</string>
     <string name="battery_tips_settings_summary_screen_timeout" msgid="556801426050962077">"Батареяны көпкө жеткирүү үчүн экрандын өчүү убакытын кыскартыңыз"</string>
     <string name="battery_tips_apps_summary_always_high" msgid="6334519477067044920">"<xliff:g id="APP_LABEL">%1$s</xliff:g> батареяны көбүрөөк колдонду"</string>
@@ -4966,8 +4968,6 @@
     <string name="autofill_reset_developer_options" msgid="6425613608979498608">"Демейки маанилерге кайтаруу"</string>
     <string name="autofill_reset_developer_options_complete" msgid="1276741935956594965">"Иштеп чыгуучунун параметрлерин автотолтуруу жөндөөсү кайра коюлду"</string>
     <string name="location_category" msgid="3496759112306219062">"Жайгашкан жер"</string>
-    <string name="location_indicator_settings_title" msgid="6655916258720093451">"Абал тилкесинин жайгашкан жеринин индикатору"</string>
-    <string name="location_indicator_settings_description" msgid="2888022085372804021">"Бардык жерлер, ошондой эле байланыш жана тармактарда көрүнөт"</string>
     <string name="enable_gnss_raw_meas_full_tracking" msgid="1206679951510243341">"GNSS көрсөткүчтөрүнө толук көз салууну иштетүү"</string>
     <string name="enable_gnss_raw_meas_full_tracking_summary" msgid="3841463141138247167">"Иштөө цикли өчүрүлүп, бардык GNSS топторуна жана жыштыктарга көз салынат"</string>
     <string name="input_method_category" msgid="2252659253631639005">"Киргизүү ыкмасы"</string>
@@ -5358,7 +5358,7 @@
     <string name="enable_16k_pages" msgid="1758111531461408337">"16 Кб өлчөмүндөгү бет м-н күйгүзүү"</string>
     <string name="enable_16k_pages_summary" msgid="1937836453571509085">"16 Кб өлчөмүндөгү бетти колдоого алган ядролуу иштетүү түзмөгү"</string>
     <string name="confirm_enable_16k_pages_title" msgid="5477376227161609124">"4 Кб режиминен 16 Кб режимине которулуу"</string>
-    <string name="confirm_enable_16k_pages_update_wipe" msgid="4760548401414644138">"Бул түзмөктүн маалымат камтылган катуу диск бөлүгү 16 Kб өлчөмүндөгү иштеп чыгуучунун параметрин колдонуудан мурун ext4 форматына өзгөртүлүшү керек. Ырастоодон кийин түзмөк тазаланат жана файл системасы ext4 форматына өзгөртүлөт. 4 Кб өлчөмүндөгү ядрону иштеткен өндүрүү режимдесиз жана 16 Кб режимине өтүп жатасыз. Бул режимге өткөндөн кийин, бир жолу өчүрүп-күйгүзүү менен 4 Kб жана 16 Kб режимдеринин арасында которула аласыз. Бул режимде программанын бүтүндүгүнө кепилдик берилбейт. Операциялык тутумду жүктөгүчтүн кулпусу ачылып турганда телефондо сакталган бардык маалыматтар коркунучта болушу мүмкүн. Бул режимдерде айрым функциялар өчүрүлөт, андыктан кээ бир колдонмолор иштебей калышы мүмкүн. Түзмөктү өндүрүш режимине кайтаруу үчүн кайра 4 Кб режимине которулуп, түзмөктү баштапкы абалга келтирген операциялык тутумду жүктөгүчтү кулпулашыңыз керек болот. Түзмөк Android\'ге ийгиликтүү жүктөлгөндөн кийин, иштеп чыгуучунун параметрлеринен OEM ачууну өчүрүңүз. Улантуу үчүн \"Бардык маалыматты өчүрүү жана жаңыртуу\" баскычын басыңыз. Бул түзмөктү өчүрүп күйгүзөт."</string>
+    <string name="confirm_enable_16k_pages_update_wipe" msgid="4760548401414644138">"Бул түзмөктүн маалымат камтылган катуу диск бөлүгү 16 Kб өлчөмүндөгү иштеп чыгуучунун параметрин колдонуудан мурун ext4 форматына өзгөртүлүшү керек. Ырастоодон кийин түзмөк тазаланат жана файл системасы ext4 форматына өзгөртүлөт. 4 Кб өлчөмүндөгү ядрону иштеткен өндүрүү режимдесиз жана 16 Кб режимине өтүп жатасыз. Бул режимге өткөндөн кийин, бир жолу өчүрүп-күйгүзүү менен 4 Kб жана 16 Kб режимдеринин арасында которула аласыз. Бул режимде программанын бүтүндүгүнө кепилдик берилбейт. Жүктөгүчтүн кулпусу ачык турганда телефондо сакталган бардык маалыматтар коркунучта болушу мүмкүн. Бул режимдерде айрым функциялар өчүрүлөт, андыктан кээ бир колдонмолор иштебей калышы мүмкүн. Түзмөктү өндүрүш режимине кайтаруу үчүн 4 КБ режимине кайра которулуп, жүктөгүчтү кулпулоо керек, бул түзмөктү баштапкы абалга кайтарат. Түзмөк Android\'ге ийгиликтүү жүктөлгөндөн кийин, иштеп чыгуучунун параметрлеринен OEM ачууну өчүрүңүз. Улантуу үчүн \"Бардык маалыматты өчүрүү жана жаңыртуу\" баскычын басыңыз. Бул түзмөктү өчүрүп күйгүзөт."</string>
     <string name="confirm_enable_16k_pages_text" msgid="6211693250692246982">"4 Кб өлчөмүндөгү ядрону иштеткен беттин көлөмүнө көз каранды эмес режимдесиз жана 16 Кб режимине өтүп жатасыз. Бул режимде программанын бүтүндүгүнө кепилдик берилбейт. Операциялык тутумду жүктөгүчтүн кулпусу ачылып турганда телефондо сакталган бардык маалыматтар коркунучта болушу мүмкүн. Бул түзмөктү өчүрүп күйгүзөт. Бул режимдерде айрым функциялар өчүрүлөт, андыктан кээ бир колдонмолор иштебей калышы мүмкүн. Түзмөктү өндүрүш режимине кайтаруу үчүн кайра 4 Кб режимине которулуп, түзмөктү баштапкы абалга келтирген операциялык тутумду жүктөгүчтү кулпулашыңыз керек болот. Түзмөк Android\'ге ийгиликтүү жүктөлгөндөн кийин, иштеп чыгуучунун параметрлеринен OEM ачууну өчүрүңүз."</string>
     <string name="confirm_enable_4k_pages_title" msgid="3001009010581393119">"16 Кб режиминен 4 Кб режимине которулуу"</string>
     <string name="confirm_enable_4k_pages_text" msgid="3398001587586470689">"4 Кб өлчөмүндөгү ядрону иштеткен беттин көлөмүнө көз каранды эмес режимдесиз жана 16 Кб режимине өтүп жатасыз. Бул режимде программанын бүтүндүгүнө кепилдик берилбейт. Операциялык тутумду жүктөгүчтүн кулпусу ачылып турганда телефондо сакталган бардык маалыматтар коркунучта болушу мүмкүн. Бул түзмөктү өчүрүп күйгүзөт. Бул режимдерде айрым функциялар өчүрүлөт, андыктан кээ бир колдонмолор иштебей калышы мүмкүн. Түзмөктү өндүрүш режимине кайтаруу үчүн түзмөктү баштапкы абалга келтирген операциялык тутумду жүктөгүчтү кулпулашыңыз керек болот. Түзмөк Android\'ге ийгиликтүү жүктөлгөндөн кийин, иштеп чыгуучунун параметрлеринен OEM ачууну өчүрүңүз."</string>
@@ -5860,34 +5860,28 @@
     <string name="search_gesture_feature_summary" msgid="1793056495030564014">"Экрандагы нерселер боюнча издөө үчүн Башкы бет баскычын же өтүү тилкесин коё бербей басып туруңуз."</string>
     <string name="device_detail_icon_content_description" msgid="6699151424374841937">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>. Түзмөктүн чоо-жайын конфигурациялаңыз."</string>
     <string name="supervision_settings_title" msgid="8507163323870367711">"Ата-эненин көзөмөлү"</string>
-    <!-- no translation found for supervision_settings_summary (6304257872307136073) -->
-    <skip />
+    <string name="supervision_settings_summary" msgid="6304257872307136073">"Түзмөктү пайдалануу эрежелери жана түзмөктү колдонуу убакытын чектөө"</string>
     <string name="device_supervision_switch_no_pin_summary" msgid="4869563544571033220">"PIN кодду тууралоо"</string>
-    <!-- no translation found for keywords_supervision_settings (43064288661561602) -->
-    <skip />
+    <string name="keywords_supervision_settings" msgid="43064288661561602">"көзөмөлдөө, ата-эненин көзөмөлү, ата-эне, көзөмөлдөө pin коду, pin код"</string>
     <string name="supervision_pin_management_preference_title" msgid="7721501202320841845">"PIN кодду тескөө"</string>
-    <!-- no translation found for supervision_pin_management_preference_keywords (5034450635706621750) -->
-    <skip />
+    <string name="supervision_pin_management_preference_keywords" msgid="5034450635706621750">"Ата-эненин PIN коду, Ата-эненин көзөмөлүнүн PIN коду"</string>
     <string name="supervision_pin_management_preference_summary_add" msgid="2247921267270577374">"Калыбына келтирүүчү электрондук почта кошуу"</string>
     <string name="supervision_pin_management_preference_summary_verify_recovery" msgid="5072554239108915119">"Калыбына келтирүүчү электрондук почтаны ырастоо"</string>
     <string name="supervision_change_pin_preference_title" msgid="2288584039438231801">"PIN кодду өзгөртүү"</string>
     <string name="supervision_add_forgot_pin_preference_title" msgid="8939945404255748516">"PIN кодду унутуп койдуңузбу?"</string>
-    <!-- no translation found for supervision_auth_prompt_forgot_pin_button_label (1019337828884793557) -->
-    <skip />
+    <string name="supervision_auth_prompt_forgot_pin_button_label" msgid="1019337828884793557">"PIN кодду унутуп койдуңузбу?"</string>
     <string name="supervision_update_recovery_email_preference_title" msgid="2057393838251915087">"Калыбына келтирүүчү электрондук почтаны жаңыртуу"</string>
     <string name="supervision_delete_pin_preference_title" msgid="8447541098148430866">"PIN кодду өчүрүү"</string>
     <string name="supervision_add_pin_recovery_title" msgid="3487098027604685794">"Калыбына келтирүүчү электрондук почта кошуу"</string>
     <string name="supervision_verify_pin_recovery_title" msgid="3166602415814821497">"Электрондук почтаңызды ырастаңыз"</string>
-    <!-- no translation found for supervision_web_content_filters_title (2412562442507104921) -->
-    <skip />
-    <!-- no translation found for supervision_web_content_filters_keywords (8469519676189544447) -->
-    <skip />
+    <string name="supervision_web_content_filters_title" msgid="2412562442507104921">"Вебсайттагы контенттин чыпкалары"</string>
+    <string name="supervision_web_content_filters_keywords" msgid="8469519676189544447">"Вебсайттын чыпкалары, Сайттарды бөгөттөө, Серепчинин чыпкалары, Ачык-айкын сексуалдык мүнөздөгү сайттарды бөгөттөө, Сайттарды чыпкалоо, Табылган нерселерди бөгөттөө, Ачык-айкын сексуалдык мүнөздөгү табылган нерселерди чыпкалоо, орунсуз нерселерди жашыруу"</string>
     <string name="supervision_web_content_filters_top_intro" msgid="5264773769840566499">"Бул түзмөктө вебсайттарда жана колдоого алынган колдонмолордо табылган нерселерде чоңдорго арналган материалдарды бөгөттөңүз. Колдоого алынбаган колдонмолордо сексуалдык мүнөздөгү материалдар дагы эле көрүнүшү мүмкүн."</string>
     <string name="supervision_web_content_filters_browser_title" msgid="8737341514264129889">"Вебсайттар"</string>
     <string name="supervision_web_content_filters_browser_filter_title" msgid="7957976669412075070">"Ачык-айкын сексуалдык мүнөздөгү сайттарды бөгөттөө"</string>
     <string name="supervision_web_content_filters_search_title" msgid="8608480392956106029">"Табылган нерселер"</string>
     <string name="supervision_web_content_filters_search_filter_title" msgid="4212134055017429017">"Ачык-айкын сексуалдык мүнөздөгү табылган нерселерди чыпкалоо"</string>
-    <string name="supervision_full_screen_pin_verification_title" msgid="78513043528333399">"Көзөмөлдөө PIN кодун киргизүү"</string>
+    <string name="supervision_full_screen_pin_verification_title" msgid="7685279446792771815">"Ата-эненин көзөмөлүнүн PIN кодун киргизиңиз"</string>
     <string name="supervision_choose_your_pin_header" msgid="3872062168986738629">"Ата-эненин көзөмөлүнүн PIN кодун коюңуз"</string>
     <string name="supervision_confirm_your_pin_header" msgid="8236956712482718354">"PIN кодду ырастаңыз"</string>
     <string name="supervision_pin_reset_success_toast" msgid="9163550161698311831">"PIN код жаңырды"</string>

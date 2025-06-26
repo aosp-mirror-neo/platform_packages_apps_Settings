@@ -198,8 +198,7 @@
     <string name="locale_remove_menu" msgid="3521546263421387474">"తీసివేయండి"</string>
     <string name="add_a_language" msgid="2126220398077503271">"భాషను జోడించండి"</string>
     <string name="app_locale_preference_title" msgid="5513627099300360232">"భాష"</string>
-    <!-- no translation found for locale_picker_category_title (296835514014453679) -->
-    <skip />
+    <string name="locale_picker_category_title" msgid="296835514014453679">"ప్రాధాన్య భాషలు"</string>
     <string name="app_locales_picker_menu_title" msgid="7617427959223831373">"యాప్ భాషలు"</string>
     <string name="app_locale_picker_summary" msgid="616928580653613998">"ప్రతి యాప్ కోసం ఏదైనా భాషను ఎంచుకోండి"</string>
     <string name="app_locale_picker_title" msgid="2431448962911301366">"యాప్ భాష"</string>
@@ -225,17 +224,12 @@
     <string name="title_change_system_locale" msgid="4102991236063984803">"సిస్టమ్ భాషను %s‌కు మార్చాలా?"</string>
     <string name="title_system_locale_addition" msgid="8218683660751479466">"%sని ప్రాధాన్య భాషలకు జోడించాలా?"</string>
     <string name="desc_system_locale_addition" msgid="3409917362651596070">"మీరు ఈ భాషకు కూడా ప్రాధాన్యం ఇస్తారని, ఇది, యాప్‌లకు, వెబ్‌సైట్‌లకు తెలియజేస్తుంది."</string>
-    <!-- no translation found for desc_notice_device_locale_and_region_settings_change (909261686577914396) -->
-    <skip />
-    <!-- no translation found for desc_notice_device_locale_settings_change (5012353615235634881) -->
-    <skip />
-    <!-- no translation found for dlg_desc_delete_preferred_default_locale (690828405078078513) -->
-    <skip />
+    <string name="desc_notice_device_locale_and_region_settings_change" msgid="909261686577914396">"మీ డివైజ్ <xliff:g id="LANGUAGE">%1$s</xliff:g> భాషను ఉపయోగిస్తుంది, మీ ప్రాంతం <xliff:g id="REGION">%2$s</xliff:g>‌గా మార్చబడుతుంది."</string>
+    <string name="desc_notice_device_locale_settings_change" msgid="5012353615235634881">"మీ డివైజ్ <xliff:g id="LANGUAGE">%s</xliff:g> భాషను ఉపయోగిస్తుంది."</string>
+    <string name="dlg_desc_delete_preferred_default_locale" msgid="690828405078078513">"మీ ప్రాధాన్య భాషల నుండి <xliff:g id="REMOVED_LANGUAGE">%s</xliff:g> తీసివేయబడుతుంది"</string>
     <string name="button_label_confirmation_of_system_locale_change" msgid="5593798559604894733">"మార్చండి"</string>
-    <!-- no translation found for title_unavailable_locale (5382411204559213983) -->
-    <skip />
-    <!-- no translation found for desc_unavailable_locale (7223655766703116782) -->
-    <skip />
+    <string name="title_unavailable_locale" msgid="5382411204559213983">"<xliff:g id="SELECTED_LANGUAGE">%s</xliff:g>‌ను సిస్టమ్ భాషగా సెట్ చేయడం సాధ్యం కాలేదు"</string>
+    <string name="desc_unavailable_locale" msgid="7223655766703116782">"మీ డివైజ్ ఈ భాషను సపోర్ట్ చేయదు, కానీ మీరు ఈ భాషను ఇష్టపడతారని యాప్‌లకు తెలుస్తుంది"</string>
     <string name="locale_search_menu" msgid="297782694044826686">"సెర్చ్"</string>
     <string name="language_and_region_title" msgid="8374151891112162767">"భాష &amp; ప్రాంతం"</string>
     <string name="language_selection_title" msgid="968179636453982415">"భాషను జోడించండి"</string>
@@ -249,12 +243,9 @@
     <string name="title_change_system_locale_region" msgid="4401478579429442695">"ప్రాంతాన్ని <xliff:g id="SYSTEM_LANGUAGE_REGION">%1$s</xliff:g>‌కు మార్చాలా?"</string>
     <string name="body_change_system_locale_region" msgid="9064318449821043189">"మీ డివైజ్ <xliff:g id="SYSTEM_LANGUAGE">%1$s</xliff:g>‌ను సిస్టమ్ భాషగా ఉంచుతుంది"</string>
     <string name="top_intro_numbering_system_title" msgid="3962000662073238392">"మీ డివైజ్, వెబ్‌సైట్‌లు, యాప్స్ నంబర్‌లను ఎలా డిస్‌ప్లే చేయాలో ఎంచుకోండి"</string>
-    <!-- no translation found for preferred_locale_menu_up (4009560552099567485) -->
-    <skip />
-    <!-- no translation found for preferred_locale_menu_down (1033373887552535585) -->
-    <skip />
-    <!-- no translation found for preferred_locale_menu_remove (8547483341987864590) -->
-    <skip />
+    <string name="preferred_locale_menu_up" msgid="4009560552099567485">"పైకి జరపండి"</string>
+    <string name="preferred_locale_menu_down" msgid="1033373887552535585">"కిందికి జరపండి"</string>
+    <string name="preferred_locale_menu_remove" msgid="8547483341987864590">"తీసివేయండి"</string>
     <string name="regional_preferences_title" msgid="4304567374498629528">"ప్రాంతీయ ప్రాధాన్యతలు"</string>
     <string name="regional_preferences_summary" msgid="1189876997389469650">"యానిట్‌లు, నంబర్ ప్రాధాన్యతలను సెట్ చేయండి"</string>
     <string name="regional_preferences_main_page_sub_title" msgid="4237109940015254725">"యాప్‌లకు మీ ప్రాంతీయ ప్రాధాన్యతలను తెలియజేయండి, తద్వారా అవి మీ అనుభవాన్ని వ్యక్తిగతీకరించగలుగుతాయి."</string>
@@ -293,10 +284,8 @@
     <string name="dlg_remove_locales_error_title" msgid="5875503658221562572">"అన్ని భాషలను తీసివేయలేరు"</string>
     <string name="dlg_remove_locales_error_message" msgid="6504279959974675302">"కనీసం ఒక ప్రాధాన్య భాషను ఉంచండి"</string>
     <string name="locale_not_translated" msgid="3071618135527110152">"సిస్టమ్ భాషగా అందుబాటులో లేదు"</string>
-    <!-- no translation found for dlg_title_delete_preferred_locale (4167214348946940002) -->
-    <skip />
-    <!-- no translation found for dlg_desc_delete_preferred_locale (4658301652628456858) -->
-    <skip />
+    <string name="dlg_title_delete_preferred_locale" msgid="4167214348946940002">"<xliff:g id="REMOVED_LANGUAGE">%s</xliff:g>‌ను తీసివేయాలా?"</string>
+    <string name="dlg_desc_delete_preferred_locale" msgid="4658301652628456858">"మీ ప్రాధాన్య భాషల నుండి <xliff:g id="REMOVED_LANGUAGE">%s</xliff:g> తీసివేయబడుతుంది. మీరు దీన్ని తర్వాత మళ్లీ జోడించవచ్చు."</string>
     <string name="action_drag_label_move_up" msgid="3392196942330705015">"పైకి తరలించు"</string>
     <string name="action_drag_label_move_down" msgid="9069518740553953426">"క్రిందికి తరలించు"</string>
     <string name="action_drag_label_move_top" msgid="2430471023612171619">"ఎగువకు తరలించు"</string>
@@ -476,8 +465,7 @@
     <string name="security_settings_fingerprint_enroll_introduction_no_thanks" msgid="1663906389456119842">"ఇప్పుడు కాదు"</string>
     <string name="security_settings_fingerprint_enroll_introduction_agree" msgid="4068276083536421828">"నేను అంగీకరిస్తున్నాను"</string>
     <string name="security_settings_fingerprint_rename_description" msgid="6301505700382531086">"పేరు మార్చడానికి డబుల్ ట్యాప్ చేయండి"</string>
-    <!-- no translation found for security_settings_fingerprint_recognition_description (1805171116182647136) -->
-    <skip />
+    <string name="security_settings_fingerprint_recognition_description" msgid="1805171116182647136">"<xliff:g id="FP_NAME">%1$s</xliff:g> గుర్తించింది"</string>
     <string name="setup_fingerprint_enroll_skip_title" msgid="2473807887676247264">"వేలిముద్రను స్కిప్ చేయాలా?"</string>
     <string name="setup_fingerprint_enroll_skip_after_adding_lock_text" msgid="2412645723804450304">"కేవలం ఒకటి రెండు నిమిషాల్లో, వేలిముద్రను సెటప్ చేయవచ్చు. మీరు ఇప్పుడు స్కిప్ చేస్తే, తర్వాత సెట్టింగ్స్‌లో వేలిముద్రను జోడించవచ్చు."</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_setup" msgid="6255210343107484206">"మీకు ఈ చిహ్నం కనిపిస్తే, యాప్‌ల సైన్ ఇన్ లేదా కొనుగోలును ఆమోదించడం వంటి ప్రామాణీకరణ కోసం మీ వేలిముద్రను వాడండి"</string>
@@ -1182,7 +1170,16 @@
     <string name="wifi_dpp_qr_code_is_not_valid_format" msgid="5190689503019328279">"QR కోడ్ చెల్లుబాటు అయ్యే ఫార్మాట్‌లో లేదు"</string>
     <string name="retry" msgid="7542103800274026915">"మళ్లీ ప్రయత్నించు"</string>
     <string name="wifi_shared" msgid="8850748923537589782">"ఇతర పరికర యూజర్‌లతో షేర్ చేయండి"</string>
+    <string name="shared_message" msgid="2104244057926025072">"షేర్ చేయబడింది"</string>
+    <string name="private_message" msgid="5897966950396765392">"ప్రైవేట్"</string>
+    <string name="wifi_conflict_dialog_confirm" msgid="4577313983128123779">"నిర్ధారించండి"</string>
+    <string name="wifi_conflict_dialog_cancel" msgid="5200571850377525343">"రద్దు చేయండి"</string>
+    <string name="wifi_share_preference_title" msgid="6346200020322308703">"ఇది షేర్ చేసిన నెట్‌వర్క్"</string>
+    <string name="wifi_share_preference_summary" msgid="4356010425167713046">"గెస్ట్ యూజర్‌లు తప్ప, అందరు యూజర్‌లు ఈ నెట్‌వర్క్‌ను చూడగలరు, ఎడిట్ చేయగలరు, తొలగించగలరు"</string>
+    <string name="wifi_conflict_dialog_title" msgid="1127530499054245755">"<xliff:g id="SHARED">%1$s</xliff:g> \"<xliff:g id="NETWORK_NAME">%2$s</xliff:g>\" నెట్‌వర్క్‌కు స్విచ్ అవ్వాలా?"</string>
+    <string name="wifi_conflict_dialog_message" msgid="3192435395074097168">"మీరు ప్రస్తుతం అదే పేరుతో ఉన్న <xliff:g id="SHARED_0">%1$s</xliff:g> నెట్‌వర్క్‌కు కనెక్ట్ అయ్యారు. మీరు స్విచ్ అయినప్పుడు, మీరు <xliff:g id="SHARED_1">%2$s</xliff:g> నెట్‌వర్క్ నుండి డిస్‌కనెక్ట్ చేయబడి, ఆపై <xliff:g id="PRIVATE">%3$s</xliff:g> నెట్‌వర్క్‌కు తిరిగి కనెక్ట్ అవుతారు. మీకు తాత్కాలికంగా ఇంటర్నెట్ లేకపోవచ్చు."</string>
     <string name="wifi_unchanged" msgid="8026045290856150191">"(మారలేదు)"</string>
+    <string name="wifi_allow_edit_configuration_title" msgid="3928254385019370063">"నెట్‌వర్క్ కాన్ఫిగరేషన్‌ను ఎడిట్ చేయడానికి ఇతర యూజర్‌లకు అనుమతినివ్వండి"</string>
     <string name="wifi_unspecified" msgid="4561964943472312208">"దయచేసి ఎంచుకోండి"</string>
     <string name="wifi_multiple_cert_added" msgid="2151019652853383776">"(బహుళ ప్రమాణపత్రాలు జోడించబడ్డాయి)"</string>
     <string name="wifi_use_system_certs" msgid="5587866698144996931">"సిస్టమ్ సర్టిఫికెట్‌లను ఉపయోగించండి"</string>
@@ -2157,8 +2154,8 @@
     <string name="mouse_keys" msgid="6237254627808525540">"మౌస్ కీలు"</string>
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"మౌస్ కీలను ఉపయోగించండి"</string>
     <string name="accessibility_mouse_keys_shortcut_title" msgid="7621635104533584115">"మౌస్ కీల షార్ట్‌కట్"</string>
-    <string name="mouse_keys_summary" msgid="7030731235143286467">"మీ కీబోర్డ్‌ను ఉపయోగించి పాయింటర్‌ను కంట్రోల్ చేయండి"</string>
-    <string name="mouse_keys_max_speed_title" msgid="1788751803245422659">"గరిష్ఠ వేగం"</string>
+    <string name="mouse_keys_summary" msgid="6512910710030108693">"మీ కీబోర్డ్‌ను ఉపయోగించి కర్సర్‌ను కంట్రోల్ చేయండి"</string>
+    <string name="mouse_keys_max_speed_title" msgid="2651688711606971145">"వేగం"</string>
     <string name="mouse_keys_seek_bar_decrease_button_description" msgid="9077624857206032509">"తగ్గించండి"</string>
     <string name="mouse_keys_seek_bar_increase_button_description" msgid="2721662400858172203">"పెంచండి"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"రివర్స్ స్క్రోలింగ్"</string>
@@ -2184,6 +2181,9 @@
     <string name="mouse_keys_release_summary" msgid="7209370896835993434">"\"<xliff:g id="RELEASE_LABEL">%s</xliff:g>\" కీని ఉపయోగించి ప్రైమరీ మౌస్ బటన్‌ను రిలీజ్ చేయండి"</string>
     <string name="mouse_keys_toggle_scroll_summary" msgid="7492663135290108272">"\"<xliff:g id="RELEASE_LABEL_1">%1$s</xliff:g>\" కీని ఉపయోగించి స్క్రోల్ మోడ్‌ను టోగుల్ చేయండి. ఇది \"<xliff:g id="RELEASE_LABEL_2">%2$s</xliff:g>\" కీలకు సంబంధించిన వీక్షణను పైకి, కిందకి, ఎడమ లేదా కుడి వైపునకు స్క్రోల్ చేస్తుంది"</string>
     <string name="mouse_keys_release2_summary" msgid="5504548339731577210">"\"<xliff:g id="RELEASE_2_LABEL">%s</xliff:g>\" కీని ఉపయోగించి సెకండరీ మౌస్ బటన్‌ను క్లిక్ చేయండి"</string>
+    <string name="mouse_keys_acceleration_seekbar_title" msgid="2329098889930361504">"యాక్సిలరేషన్"</string>
+    <string name="mouse_keys_acceleration_fast_icon_desc" msgid="4426188473271579794">"వేగం"</string>
+    <string name="mouse_keys_acceleration_slow_icon_desc" msgid="8370777074987200135">"నెమ్మది"</string>
     <string name="keyboard_shortcuts_helper" msgid="6934420811737731188">"కీబోర్డ్ షార్ట్‌కట్‌లను చూడండి"</string>
     <string name="keyboard_shortcuts_helper_summary" msgid="5979507677602559203">"షార్ట్‌కట్‌ల లిస్ట్‌ను చూడండి"</string>
     <string name="language_and_input_for_work_category_title" msgid="2546950919124199743">"కార్యాలయ ప్రొఫైల్ కీబోర్డ్‌లు &amp; సాధనాలు"</string>
@@ -2246,11 +2246,9 @@
     <string name="gesture_button_next" msgid="695288092704187356">"తర్వాత"</string>
     <string name="gesture_button_restart" msgid="1895850891992530133">"రీస్టార్ట్"</string>
     <string name="gesture_button_done" msgid="6387900351203032188">"పూర్తయింది"</string>
-    <!-- no translation found for action_corner_title (7411160165577367757) -->
-    <skip />
+    <string name="action_corner_title" msgid="7411160165577367757">"మూల షార్ట్‌కట్‌లను అనుకూలంగా మార్చండి"</string>
     <string name="action_corner_summary" msgid="695618538930535335">"సిస్టమ్‌ను నావిగేట్ చేయడానికి కర్సర్‌లను ఉపయోగించండి"</string>
-    <!-- no translation found for action_corner_intro (2170609118659718140) -->
-    <skip />
+    <string name="action_corner_intro" msgid="2170609118659718140">"మూల షార్ట్‌కట్‌లను అనుకూలంగా మార్చడానికి కింద పేర్కొన్న ఏరియాలను ఎంచుకోండి"</string>
     <string name="action_corner_bottom_left_title" msgid="2857258272736432174">"దిగువ ఎడమ వైపున మూల"</string>
     <string name="action_corner_bottom_right_title" msgid="7222233500548465684">"దిగువ కుడి వైపున మూల"</string>
     <string name="action_corner_top_left_title" msgid="4633975226092344210">"ఎగువ ఎడమ వైపున మూల"</string>
@@ -2653,10 +2651,8 @@
     <string name="accessibility_daltonizer_footer_learn_more_content_description" msgid="2091679253892040910">"కలర్ కరెక్షన్ గురించి మరింత తెలుసుకోండి"</string>
     <string name="accessibility_color_inversion_about_title" msgid="8275754480247040136">"కలర్ మార్పిడి గురించి"</string>
     <string name="accessibility_color_inversion_footer_learn_more_content_description" msgid="5382579548498952445">"కలర్ మార్పిడి గురించి మరింత తెలుసుకోండి"</string>
-    <!-- no translation found for accessibility_dark_theme_footer_learn_more_helper_link (7084955775821075280) -->
-    <skip />
-    <!-- no translation found for accessibility_dark_theme_preference_footer_content (4431044600779983609) -->
-    <skip />
+    <string name="accessibility_dark_theme_footer_learn_more_helper_link" msgid="7084955775821075280">"డార్క్ థీమ్ గురించి మరింత తెలుసుకోండి"</string>
+    <string name="accessibility_dark_theme_preference_footer_content" msgid="4431044600779983609">"డార్క్ థీమ్ విస్తరించిన (ఎక్స్‌పాండెడ్) సెట్టింగ్‌లో ఉన్నప్పుడు, కొన్ని యాప్‌లు పని చేయకపోవచ్చు. ఏ యాప్ అయినా సరిగ్గా కనిపించకపోతే, స్టాండర్డ్ సెట్టింగ్‌ను ఉపయోగించండి."</string>
     <string name="accessibility_captioning_primary_switch_title" msgid="3663677340286206100">"క్యాప్షన్‌లను చూపించండి"</string>
     <string name="accessibility_captioning_primary_switch_summary" msgid="2544094070306830218">"సపోర్ట్ ఉన్న యాప్ కోసం మాత్రమే"</string>
     <string name="captioning_appearance_title" msgid="3128792092290011408">"క్యాప్షన్ సైజ్ &amp; స్టయిల్"</string>
@@ -3858,7 +3854,7 @@
     <string name="notification_summarization_title" msgid="1516039882005781529">"నోటిఫికేషన్ సారాంశాలు"</string>
     <string name="notification_summarization_summary" msgid="1963425736716175590">"పొడవైన మెసేజ్‌లకు క్విక్ రీక్యాప్‌లను పొందండి"</string>
     <string name="notification_summarization_main_control_title" msgid="3341727937605794607">"నోటిఫికేషన్ సారాంశాలను ఉపయోగించండి"</string>
-    <string name="notification_summarization_description" msgid="341128754705513791">"త్వరిత రీక్యాప్‌లను పొందడానికి పొడవైన మెసేజ్‌లను, గ్రూప్ సంభాషణల సారాంశాన్ని పొందండి. సారాంశాలను AI జెనరేట్ చేస్తుంది, అందువల్ల, ఎర్రర్‌లు ఉండవచ్చు."</string>
+    <string name="notification_summarization_description" msgid="341128754705513791">"వేగంగా రీక్యాప్‌లు పొందండి: భారీ మెసేజ్‌ల నుండి, గ్రూప్ సంభాషణల నుండి సారాంశాన్ని (సమ్మరీని) ఇస్తుంది. ఈ సమ్మరీలను AI జెనరేట్ చేస్తుంది. అందువల్ల ఎర్రర్లకు అవకాశం ఉంటుంది."</string>
     <string name="notification_summarization_excluded_description" msgid="5819160700526641394">"ఈ యాప్‌ల నుండి వచ్చే నోటిఫికేషన్‌లు సారాంశీకరించబడవు"</string>
     <string name="notification_summarization_manage_excluded_apps" msgid="1691177835156220384">"యాప్‌లను మేనేజ్ చేయండి"</string>
     <string name="notification_summarization_manage_excluded_apps_title" msgid="1299744594788208296">"యాప్‌ల కోసం నోటిఫికేషన్ సారాంశాలను అనుమతించండి"</string>
@@ -3971,8 +3967,8 @@
     <string name="notifications_sent_daily" msgid="10274479224185437">"{count,plural, =1{సుమారుగా ఒక రోజుకు # నోటిఫికేషన్}other{సుమారుగా ఒక రోజుకు # నోటిఫికేషన్‌లు}}"</string>
     <string name="notifications_sent_weekly" msgid="7895656213187555346">"{count,plural, =1{సుమారుగా ఒక వారానికి # నోటిఫికేషన్}other{సుమారుగా ఒక వారానికి # నోటిఫికేషన్‌లు}}"</string>
     <string name="notifications_sent_never" msgid="9081278709126812062">"ఎప్పటికీ వ‌ద్దు"</string>
-    <string name="manage_notification_access_title" msgid="4154723216570646451">"నోటిఫికేష‌న్‌ను చ‌ద‌వండి, రిప్ల‌యి ఇవ్వండి, కంట్రోల్ చేయండి"</string>
-    <string name="manage_notification_access_summary" msgid="2907135226478903997">"ఎటువంటి యాప్‌లు, పరికరాలు నోటిఫికేషన్‌లను చదవవచ్చో కంట్రోల్ చేయండి"</string>
+    <string name="manage_notification_access_title" msgid="4154723216570646451">"నోటిఫికేషనన్‌ను రీడ్ చేయడం, రిప్లయి ఇవ్వడం, కంట్రోల్ చేయడం"</string>
+    <string name="manage_notification_access_summary" msgid="2907135226478903997">"నోటిఫికేషన్లను ఏ యాప్‌లు, డివైజ్‌లు, రీడ్ చేయవచ్చు అన్నది కంట్రోల్ చేయండి"</string>
     <string name="work_profile_notification_access_blocked_summary" msgid="8643809206612366067">"కార్యాలయ ప్రొఫైల్‌ నోటిఫికేషన్‌లకు యాక్సెస్ బ్లాక్ చేయబడింది"</string>
     <string name="notification_assistant_title" msgid="5889201903272393099">"మెరుగైన నోటిఫికేషన్‌లు"</string>
     <string name="notification_assistant_summary" msgid="1957783114840908887">"సూచించిన చర్యలు, రిప్లయిలు, అలాగే మరిన్ని పొందండి"</string>
@@ -4016,9 +4012,9 @@
     <string name="notification_bundle_title" msgid="6679586974995981433">"నోటిఫికేషన్ ఆర్గనైజర్"</string>
     <string name="notification_bundle_summary" msgid="8924550009829960969">"అంత ముఖ్యమైనది కాని నోటిఫికేషన్‌లను బండిల్ చేసి మ్యూట్ చేయండి"</string>
     <string name="notification_bundle_main_control_title" msgid="2632661768990540295">"నోటిఫికేషన్ ఆర్గనైజర్‌ను ఉపయోగించండి"</string>
-    <string name="notification_bundle_description" msgid="8439963475488583612">"మీరు నిశ్శబ్దం చేయాలనుకుంటున్న నోటిఫికేషన్ రకాలను ఎంచుకోండి, అంతరాయాలను తగ్గించడానికి కలిసి బండిల్ చేయండి. బండ్లింగ్ ఫీచర్ AI సహాయంతో పని చేస్తుంది, అందువల్ల, ఎర్రర్‌లు ఉండవచ్చు."</string>
+    <string name="notification_bundle_description" msgid="8439963475488583612">"మీరు సైలెంట్ చేయాలనుకుంటున్న నోటిఫికేషన్ రకాలను ఎంచుకోండి, అంతరాయాలను తగ్గించడానికి వాటిని బండిల్ (గ్రూప్) చేయండి. బండ్లింగ్ ఫీచర్, AI సాయంతో పని చేస్తుంది. అందువల్ల, ఎర్రర్లకు అవకాశం ఉంది."</string>
     <string name="notification_app_level_bundle_title" msgid="8917807675495480483">"బండిల్ నోటిఫికేషన్‌లు"</string>
-    <string name="notification_app_level_bundle_subtext" msgid="7330731485247761388">"ఒకేరకమైన థీమ్‌లతో కూడిన నోటిఫికేషన్‌లు మ్యూట్ చేయబడతాయి, ఇంకా నిశ్శబ్ద ఎక్స్‌పీరియన్స్ కోసం గ్రూప్ చేయబడతాయి"</string>
+    <string name="notification_app_level_bundle_subtext" msgid="7330731485247761388">"థీమ్‌లు ఒకే రకంగా ఉన్నప్పుడు, నోటిఫికేషన్‌లు మ్యూట్ అవుతాయి; అలాగే డిస్ట్రబెన్స్ లేని ఎక్స్‌పీరియన్స్ ఇవ్వడానికి అవి గ్రూప్‌గా మారుతాయి"</string>
     <string name="notification_bundle_manage_excluded_apps_title" msgid="7019831234073590293">"యాప్‌ల కోసం నోటిఫికేషన్‌ను బండిల్ చేయడాన్ని అనుమతించండి"</string>
     <string name="notification_adjustment_work_switch_title" msgid="5858034709870660002">"వర్క్ ప్రొఫైల్ యాప్‌లకు వర్తింపజేయండి"</string>
     <string name="vr_listeners_title" msgid="4960357292472540964">"VR సహాయక సర్వీసులు"</string>
@@ -4527,10 +4523,8 @@
     <string name="disabled_by_policy_title_financed_device" msgid="2328740314082888228">"మీ క్రెడిట్ ప్రొవైడర్ ద్వారా బ్లాక్ చేయబడింది"</string>
     <string name="disabled_by_policy_title_biometric_parental_consent" msgid="2463673997797134678">"తల్లి/తండ్రి అవసరం"</string>
     <string name="disabled_by_policy_content_biometric_parental_consent" msgid="7124116806784305206">"దీనిని సెటప్ చేయడం ప్రారంభించడానికి ఫోన్‌ను మీ తల్లి/తండ్రికి అప్పగించండి"</string>
-    <!-- no translation found for disabled_by_policy_title_parental_controls (8875976588644052371) -->
-    <skip />
-    <!-- no translation found for disabled_by_policy_content_parental_controls (4648160125103768738) -->
-    <skip />
+    <string name="disabled_by_policy_title_parental_controls" msgid="8875976588644052371">"తల్లిదండ్రుల కంట్రోల్స్ ద్వారా పరిమితం చేయబడింది"</string>
+    <string name="disabled_by_policy_content_parental_controls" msgid="4648160125103768738">"మీ తల్లిదండ్రుల కంట్రోల్స్‌ను మేనేజ్ చేసే వ్యక్తి మాత్రమే ఈ సెట్టింగ్‌ను మార్చగలరు"</string>
     <string name="disabled_by_policy_parental_consent" msgid="9166060049019018978">"ఈ సెట్టింగ్‌ని మార్చడాన్ని అనుమతించడానికి ఫోన్‌ను మీ పేరెంట్‌కు అప్పగించండి."</string>
     <string name="default_admin_support_msg" msgid="8816296554831532033">"మరింత సమాచారం కోసం, మీ IT అడ్మిన్‌ను కాంటాక్ట్ చేయండి"</string>
     <string name="admin_support_more_info" msgid="8407433155725898290">"మరిన్ని వివరాలు"</string>
@@ -4646,8 +4640,7 @@
     <string name="battery_tips_card_action_button_check" msgid="1535140204105479318">"చెక్ చేయండి"</string>
     <string name="battery_tips_card_dismiss_button" msgid="1885756985544936618">"సరే"</string>
     <string name="battery_tips_card_feedback_info" msgid="767117835675157298">"ఈ మెసేజ్ సహాయకరంగా ఉందా?"</string>
-    <!-- no translation found for battery_hints_warning_icon_a11y (709629805028175434) -->
-    <skip />
+    <string name="battery_hints_warning_icon_a11y" msgid="709629805028175434">"బ్యాటరీ హెచ్చరిక చిట్కాలు"</string>
     <string name="battery_tips_settings_summary_brightness" msgid="546145032616077783">"బ్యాటరీ లైఫ్‌ను పొడిగించడానికి పరిసర అనుకూల ప్రకాశం ఫీచర్‌ను ఆన్ చేయండి"</string>
     <string name="battery_tips_settings_summary_screen_timeout" msgid="556801426050962077">"బ్యాటరీ లైఫ్‌ను పొడిగించడానికి ఆటోమేటిక్ స్క్రీన్ గడువు ముగింపు సమయాన్ని తగ్గించండి"</string>
     <string name="battery_tips_apps_summary_always_high" msgid="6334519477067044920">"<xliff:g id="APP_LABEL">%1$s</xliff:g> ఎక్కువ బ్యాటరీని ఉపయోగించింది"</string>
@@ -4975,8 +4968,6 @@
     <string name="autofill_reset_developer_options" msgid="6425613608979498608">"ఆటోమేటిక్ సెట్టింగ్ విలువలకు రీసెట్ చేయండి"</string>
     <string name="autofill_reset_developer_options_complete" msgid="1276741935956594965">"స్వీయ పూరింపు డెవలపర్ ఎంపికలు రీసెట్ చేయబడ్డాయి"</string>
     <string name="location_category" msgid="3496759112306219062">"లొకేషన్"</string>
-    <string name="location_indicator_settings_title" msgid="6655916258720093451">"స్టేటస్ బార్ లొకేషన్ సూచీ"</string>
-    <string name="location_indicator_settings_description" msgid="2888022085372804021">"నెట్‌వర్క్, కనెక్టివిటీతో పాటు లొకేషన్‌లు అన్నింటినీ చూపిస్తుంది"</string>
     <string name="enable_gnss_raw_meas_full_tracking" msgid="1206679951510243341">"శక్తివంతమైన GNSS కొలతలు"</string>
     <string name="enable_gnss_raw_meas_full_tracking_summary" msgid="3841463141138247167">"డ్యూటీ సైక్లింగ్ లేకుండా అన్ని GNSS నక్షత్రరాశులను మరియు ఫ్రీక్వెన్సీలను ట్రాక్ చేయండి"</string>
     <string name="input_method_category" msgid="2252659253631639005">"ఇన్‌పుట్ విధానం"</string>
@@ -5869,34 +5860,28 @@
     <string name="search_gesture_feature_summary" msgid="1793056495030564014">"మీ స్క్రీన్‌పై ఉన్న కంటెంట్‌ను ఉపయోగించి సెర్చ్ చేయడానికి హోమ్ బటన్ లేదా నావిగేషన్ హ్యాండిల్‌ను నొక్కి, పట్టుకోండి."</string>
     <string name="device_detail_icon_content_description" msgid="6699151424374841937">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>. పరికర వివరాలను కాన్ఫిగర్ చేయండి."</string>
     <string name="supervision_settings_title" msgid="8507163323870367711">"తల్లిదండ్రుల కంట్రోల్స్"</string>
-    <!-- no translation found for supervision_settings_summary (6304257872307136073) -->
-    <skip />
+    <string name="supervision_settings_summary" msgid="6304257872307136073">"డిజిటల్ నియమాలు &amp; స్క్రీన్ టైమ్ పరిమితులు"</string>
     <string name="device_supervision_switch_no_pin_summary" msgid="4869563544571033220">"PINను సెటప్ చేయండి"</string>
-    <!-- no translation found for keywords_supervision_settings (43064288661561602) -->
-    <skip />
+    <string name="keywords_supervision_settings" msgid="43064288661561602">"పర్యవేక్షణ, తల్లిదండ్రుల కంట్రోల్స్, తల్లిదండ్రులు, పర్యవేక్షణ PIN, PIN"</string>
     <string name="supervision_pin_management_preference_title" msgid="7721501202320841845">"మీ PINను మేనేజ్ చేయండి"</string>
-    <!-- no translation found for supervision_pin_management_preference_keywords (5034450635706621750) -->
-    <skip />
+    <string name="supervision_pin_management_preference_keywords" msgid="5034450635706621750">"తల్లి/తండ్రి PIN, తల్లిదండ్రుల కంట్రోల్స్ PIN"</string>
     <string name="supervision_pin_management_preference_summary_add" msgid="2247921267270577374">"రికవరీ ఈమెయిల్‌ను జోడించండి"</string>
     <string name="supervision_pin_management_preference_summary_verify_recovery" msgid="5072554239108915119">"రికవరీ ఈమెయిల్‌ను వెరిఫై చేయండి"</string>
     <string name="supervision_change_pin_preference_title" msgid="2288584039438231801">"PINను మార్చండి"</string>
     <string name="supervision_add_forgot_pin_preference_title" msgid="8939945404255748516">"PINను మర్చిపోయాను"</string>
-    <!-- no translation found for supervision_auth_prompt_forgot_pin_button_label (1019337828884793557) -->
-    <skip />
+    <string name="supervision_auth_prompt_forgot_pin_button_label" msgid="1019337828884793557">"PINను మర్చిపోయారా?"</string>
     <string name="supervision_update_recovery_email_preference_title" msgid="2057393838251915087">"రికవరీ ఈమెయిల్‌ను అప్‌డేట్ చేయండి"</string>
     <string name="supervision_delete_pin_preference_title" msgid="8447541098148430866">"PINను తొలగించండి"</string>
     <string name="supervision_add_pin_recovery_title" msgid="3487098027604685794">"రికవరీ ఈమెయిల్‌ను జోడించండి"</string>
     <string name="supervision_verify_pin_recovery_title" msgid="3166602415814821497">"మీ ఈమెయిల్‌ను వెరిఫై చేయండి"</string>
-    <!-- no translation found for supervision_web_content_filters_title (2412562442507104921) -->
-    <skip />
-    <!-- no translation found for supervision_web_content_filters_keywords (8469519676189544447) -->
-    <skip />
+    <string name="supervision_web_content_filters_title" msgid="2412562442507104921">"వెబ్‌సైట్‌కు సంబంధించిన కంటెంట్ ఫిల్టర్‌లు"</string>
+    <string name="supervision_web_content_filters_keywords" msgid="8469519676189544447">"వెబ్‌సైట్ ఫిల్టర్‌లు, సైట్‌లను బ్లాక్ చేయండి, బ్రౌజర్ ఫిల్టర్‌లు, అందరికీ తగని సైట్‌లను బ్లాక్ చేయండి, సైట్‌లను ఫిల్టర్ చేయండి, సెర్చ్ ఫలితాలను బ్లాక్ చేయండి, అందరికీ తగని సెర్చ్ ఫలితాలను ఫిల్టర్ చేయండి, కంటెంట్ పరిమితులు"</string>
     <string name="supervision_web_content_filters_top_intro" msgid="5264773769840566499">"ఈ డివైజ్‌లోని వెబ్‌సైట్‌లలో పెద్దవారికి మాత్రమే తగిన కంటెంట్‌ను, సపోర్ట్ ఉన్న యాప్‌లలో సెర్చ్ ఫలితాలను బ్లాక్ చేయండి. సపోర్ట్ లేని యాప్‌లు ఇప్పటికీ అందరికీ తగని కంటెంట్‌ను చూపించవచ్చు."</string>
     <string name="supervision_web_content_filters_browser_title" msgid="8737341514264129889">"వెబ్‌సైట్‌లు"</string>
     <string name="supervision_web_content_filters_browser_filter_title" msgid="7957976669412075070">"అందరికీ తగని సైట్‌లను బ్లాక్ చేయండి"</string>
     <string name="supervision_web_content_filters_search_title" msgid="8608480392956106029">"సెర్చ్ ఫలితాలు"</string>
     <string name="supervision_web_content_filters_search_filter_title" msgid="4212134055017429017">"అందరికీ తగని సెర్చ్ ఫలితాలను ఫిల్టర్ చేయండి"</string>
-    <string name="supervision_full_screen_pin_verification_title" msgid="78513043528333399">"పర్యవేక్షణ PINను ఎంటర్ చేయండి"</string>
+    <string name="supervision_full_screen_pin_verification_title" msgid="7685279446792771815">"తల్లిదండ్రుల కంట్రోల్స్ PINను ఎంటర్ చేయండి"</string>
     <string name="supervision_choose_your_pin_header" msgid="3872062168986738629">"తల్లిదండ్రుల కంట్రోల్స్ PINను సెట్ చేయండి"</string>
     <string name="supervision_confirm_your_pin_header" msgid="8236956712482718354">"PINను నిర్ధారించండి"</string>
     <string name="supervision_pin_reset_success_toast" msgid="9163550161698311831">"PIN అప్‌డేట్ చేయబడింది"</string>

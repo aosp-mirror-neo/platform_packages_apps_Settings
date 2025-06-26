@@ -198,8 +198,7 @@
     <string name="locale_remove_menu" msgid="3521546263421387474">"Odstrani"</string>
     <string name="add_a_language" msgid="2126220398077503271">"Dodaj jezik"</string>
     <string name="app_locale_preference_title" msgid="5513627099300360232">"Jezik"</string>
-    <!-- no translation found for locale_picker_category_title (296835514014453679) -->
-    <skip />
+    <string name="locale_picker_category_title" msgid="296835514014453679">"Prednostni jeziki"</string>
     <string name="app_locales_picker_menu_title" msgid="7617427959223831373">"Jeziki aplikacij"</string>
     <string name="app_locale_picker_summary" msgid="616928580653613998">"Izberite jezik za posamezno aplikacijo"</string>
     <string name="app_locale_picker_title" msgid="2431448962911301366">"Jezik aplikacije"</string>
@@ -225,17 +224,12 @@
     <string name="title_change_system_locale" msgid="4102991236063984803">"Želite sistemski jezik spremeniti v jezik »%s«?"</string>
     <string name="title_system_locale_addition" msgid="8218683660751479466">"Želite jezik »%s« dodati med prednostne jezike?"</string>
     <string name="desc_system_locale_addition" msgid="3409917362651596070">"S tem boste aplikacijam in spletnim mestom sporočili, da je tudi ta eden od vaših prednostnih jezikov."</string>
-    <!-- no translation found for desc_notice_device_locale_and_region_settings_change (909261686577914396) -->
-    <skip />
-    <!-- no translation found for desc_notice_device_locale_settings_change (5012353615235634881) -->
-    <skip />
-    <!-- no translation found for dlg_desc_delete_preferred_default_locale (690828405078078513) -->
-    <skip />
+    <string name="desc_notice_device_locale_and_region_settings_change" msgid="909261686577914396">"Naprava bo uporabljala jezik »<xliff:g id="LANGUAGE">%1$s</xliff:g>« in regija bo spremenjena v »<xliff:g id="REGION">%2$s</xliff:g>«."</string>
+    <string name="desc_notice_device_locale_settings_change" msgid="5012353615235634881">"Naprava bo uporabljala jezik »<xliff:g id="LANGUAGE">%s</xliff:g>«."</string>
+    <string name="dlg_desc_delete_preferred_default_locale" msgid="690828405078078513">"Jezik »<xliff:g id="REMOVED_LANGUAGE">%s</xliff:g>« bo odstranjen iz prednostnih jezikov"</string>
     <string name="button_label_confirmation_of_system_locale_change" msgid="5593798559604894733">"Spremeni"</string>
-    <!-- no translation found for title_unavailable_locale (5382411204559213983) -->
-    <skip />
-    <!-- no translation found for desc_unavailable_locale (7223655766703116782) -->
-    <skip />
+    <string name="title_unavailable_locale" msgid="5382411204559213983">"Jezika »<xliff:g id="SELECTED_LANGUAGE">%s</xliff:g>« ni mogoče nastaviti kot sistemski jezik"</string>
+    <string name="desc_unavailable_locale" msgid="7223655766703116782">"Vaša naprava ne podpira tega jezika, vendar bodo aplikacije vedele, da je to vaš prednostni jezik"</string>
     <string name="locale_search_menu" msgid="297782694044826686">"Išči"</string>
     <string name="language_and_region_title" msgid="8374151891112162767">"Jezik in regija"</string>
     <string name="language_selection_title" msgid="968179636453982415">"Dodajanje jezika"</string>
@@ -249,12 +243,9 @@
     <string name="title_change_system_locale_region" msgid="4401478579429442695">"Želite regijo spremeniti v »<xliff:g id="SYSTEM_LANGUAGE_REGION">%1$s</xliff:g>«?"</string>
     <string name="body_change_system_locale_region" msgid="9064318449821043189">"Naprava bo obdržala jezik <xliff:g id="SYSTEM_LANGUAGE">%1$s</xliff:g> kot sistemski jezik"</string>
     <string name="top_intro_numbering_system_title" msgid="3962000662073238392">"Izberite, kako so v napravi, na spletnih mestih in v aplikacijah prikazane številke."</string>
-    <!-- no translation found for preferred_locale_menu_up (4009560552099567485) -->
-    <skip />
-    <!-- no translation found for preferred_locale_menu_down (1033373887552535585) -->
-    <skip />
-    <!-- no translation found for preferred_locale_menu_remove (8547483341987864590) -->
-    <skip />
+    <string name="preferred_locale_menu_up" msgid="4009560552099567485">"Premakni navzgor"</string>
+    <string name="preferred_locale_menu_down" msgid="1033373887552535585">"Premakni navzdol"</string>
+    <string name="preferred_locale_menu_remove" msgid="8547483341987864590">"Odstrani"</string>
     <string name="regional_preferences_title" msgid="4304567374498629528">"Regijske nastavitve"</string>
     <string name="regional_preferences_summary" msgid="1189876997389469650">"Določite nastavitve za enote in številke."</string>
     <string name="regional_preferences_main_page_sub_title" msgid="4237109940015254725">"Aplikacijam sporočite svoje regijske nastavitve, da bodo lahko prilagodile izkušnjo za vas."</string>
@@ -293,10 +284,8 @@
     <string name="dlg_remove_locales_error_title" msgid="5875503658221562572">"Vseh jezikov ni mogoče odstraniti"</string>
     <string name="dlg_remove_locales_error_message" msgid="6504279959974675302">"Ohranite vsaj en želeni jezik"</string>
     <string name="locale_not_translated" msgid="3071618135527110152">"Ni na voljo kot sistemski jezik"</string>
-    <!-- no translation found for dlg_title_delete_preferred_locale (4167214348946940002) -->
-    <skip />
-    <!-- no translation found for dlg_desc_delete_preferred_locale (4658301652628456858) -->
-    <skip />
+    <string name="dlg_title_delete_preferred_locale" msgid="4167214348946940002">"Želite odstraniti jezik »<xliff:g id="REMOVED_LANGUAGE">%s</xliff:g>«?"</string>
+    <string name="dlg_desc_delete_preferred_locale" msgid="4658301652628456858">"Jezik »<xliff:g id="REMOVED_LANGUAGE">%s</xliff:g>« bo odstranjen iz prednostnih jezikov. Znova ga lahko dodate pozneje."</string>
     <string name="action_drag_label_move_up" msgid="3392196942330705015">"Premakni navzgor"</string>
     <string name="action_drag_label_move_down" msgid="9069518740553953426">"Premakni navzdol"</string>
     <string name="action_drag_label_move_top" msgid="2430471023612171619">"Premakni na vrh"</string>
@@ -476,8 +465,7 @@
     <string name="security_settings_fingerprint_enroll_introduction_no_thanks" msgid="1663906389456119842">"Ne zdaj"</string>
     <string name="security_settings_fingerprint_enroll_introduction_agree" msgid="4068276083536421828">"Strinjam se"</string>
     <string name="security_settings_fingerprint_rename_description" msgid="6301505700382531086">"Dvakrat se dotaknite za preimenovanje"</string>
-    <!-- no translation found for security_settings_fingerprint_recognition_description (1805171116182647136) -->
-    <skip />
+    <string name="security_settings_fingerprint_recognition_description" msgid="1805171116182647136">"Prstni odtis <xliff:g id="FP_NAME">%1$s</xliff:g> je bil prepoznan"</string>
     <string name="setup_fingerprint_enroll_skip_title" msgid="2473807887676247264">"Brez prstnega odtisa?"</string>
     <string name="setup_fingerprint_enroll_skip_after_adding_lock_text" msgid="2412645723804450304">"Nastavitev prstnega odtisa vam bo vzela le minuto ali dve. Če nastavitev preskočite, lahko prstni odtis dodate pozneje v nastavitvah."</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_setup" msgid="6255210343107484206">"Ko vidite to ikono, uporabite prstni odtis za preverjanje pristnosti, na primer ob prijavi v aplikacije ali da odobrite nakup."</string>
@@ -1182,7 +1170,16 @@
     <string name="wifi_dpp_qr_code_is_not_valid_format" msgid="5190689503019328279">"Koda QR nima pravilne oblike zapisa"</string>
     <string name="retry" msgid="7542103800274026915">"Poskusi znova"</string>
     <string name="wifi_shared" msgid="8850748923537589782">"Deljenje z drugimi uporabniki naprave"</string>
+    <string name="shared_message" msgid="2104244057926025072">"deljeno"</string>
+    <string name="private_message" msgid="5897966950396765392">"zasebno"</string>
+    <string name="wifi_conflict_dialog_confirm" msgid="4577313983128123779">"Potrdi"</string>
+    <string name="wifi_conflict_dialog_cancel" msgid="5200571850377525343">"Prekliči"</string>
+    <string name="wifi_share_preference_title" msgid="6346200020322308703">"To je deljeno omrežje"</string>
+    <string name="wifi_share_preference_summary" msgid="4356010425167713046">"Vsi uporabniki, razen gostujočih uporabnikov, si bodo lahko ogledali, urejali in izbrisali to omrežje"</string>
+    <string name="wifi_conflict_dialog_title" msgid="1127530499054245755">"Želite preklopiti na <xliff:g id="SHARED">%1$s</xliff:g> omrežje »<xliff:g id="NETWORK_NAME">%2$s</xliff:g>«?"</string>
+    <string name="wifi_conflict_dialog_message" msgid="3192435395074097168">"Trenutno ste povezani z omrežjem <xliff:g id="SHARED_0">%1$s</xliff:g> z istim imenom. Ko boste preklopili, boste prekinili povezavo z omrežjem <xliff:g id="SHARED_1">%2$s</xliff:g> in znova vzpostavili povezavo z omrežjem <xliff:g id="PRIVATE">%3$s</xliff:g>. Začasno morda ne boste imeli dostopa do interneta."</string>
     <string name="wifi_unchanged" msgid="8026045290856150191">"(nespremenjeno)"</string>
+    <string name="wifi_allow_edit_configuration_title" msgid="3928254385019370063">"Drugim uporabnikom dovoli urejanje konfiguracije omrežja"</string>
     <string name="wifi_unspecified" msgid="4561964943472312208">"Izberite"</string>
     <string name="wifi_multiple_cert_added" msgid="2151019652853383776">"(Dodanih je bilo več potrdil)"</string>
     <string name="wifi_use_system_certs" msgid="5587866698144996931">"Uporabi sistemska potrdila"</string>
@@ -1513,7 +1510,7 @@
     <string name="force_bold_text" msgid="4620929631102086716">"Krepko besedilo"</string>
     <string name="title_font_size" msgid="570613010306330622">"Velikost pisave"</string>
     <string name="short_summary_font_size" msgid="8444689613442419978">"Povečava ali pomanjšava besedila"</string>
-    <string name="category_title_display_text_size" msgid="4234285020731751694">"Različne velikosti"</string>
+    <string name="category_title_display_text_size" msgid="4234285020731751694">"Možnosti velikosti"</string>
     <string name="category_title_text_style" msgid="5905015084935695611">"Možnosti sloga"</string>
     <string name="sim_lock_settings" msgid="7331982427303002613">"Nastavitve zaklepanja kartice SIM"</string>
     <string name="sim_lock_settings_category" msgid="6475255139493877786">"Zaklepanje kartice SIM"</string>
@@ -2157,8 +2154,8 @@
     <string name="mouse_keys" msgid="6237254627808525540">"Tipke za miško"</string>
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"Uporaba tipk za miško"</string>
     <string name="accessibility_mouse_keys_shortcut_title" msgid="7621635104533584115">"Bližnjica do tipk za miško"</string>
-    <string name="mouse_keys_summary" msgid="7030731235143286467">"Upravljanje kazalke s tipkovnico"</string>
-    <string name="mouse_keys_max_speed_title" msgid="1788751803245422659">"Največja hitrost"</string>
+    <string name="mouse_keys_summary" msgid="6512910710030108693">"Upravljanje kazalca s tipkovnico"</string>
+    <string name="mouse_keys_max_speed_title" msgid="2651688711606971145">"Hitrost"</string>
     <string name="mouse_keys_seek_bar_decrease_button_description" msgid="9077624857206032509">"Zmanjšanje"</string>
     <string name="mouse_keys_seek_bar_increase_button_description" msgid="2721662400858172203">"Povečanje"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"Obratno pomikanje"</string>
@@ -2184,6 +2181,9 @@
     <string name="mouse_keys_release_summary" msgid="7209370896835993434">"Za sprostitev glavnega gumba miške uporabite tipko »<xliff:g id="RELEASE_LABEL">%s</xliff:g>«"</string>
     <string name="mouse_keys_toggle_scroll_summary" msgid="7492663135290108272">"Za preklop načina pomikanja uporabite tipko »<xliff:g id="RELEASE_LABEL_1">%1$s</xliff:g>«. S tipkami »<xliff:g id="RELEASE_LABEL_2">%2$s</xliff:g>« boste lahko pogled pomikali navzgor, navzdol, levo ali desno."</string>
     <string name="mouse_keys_release2_summary" msgid="5504548339731577210">"Za klik dodatnega gumba miške uporabite tipko »<xliff:g id="RELEASE_2_LABEL">%s</xliff:g>«"</string>
+    <string name="mouse_keys_acceleration_seekbar_title" msgid="2329098889930361504">"Pospešek"</string>
+    <string name="mouse_keys_acceleration_fast_icon_desc" msgid="4426188473271579794">"Hitro"</string>
+    <string name="mouse_keys_acceleration_slow_icon_desc" msgid="8370777074987200135">"Počasno"</string>
     <string name="keyboard_shortcuts_helper" msgid="6934420811737731188">"Ogled bližnjičnih tipk"</string>
     <string name="keyboard_shortcuts_helper_summary" msgid="5979507677602559203">"Prikaz seznama bližnjic"</string>
     <string name="language_and_input_for_work_category_title" msgid="2546950919124199743">"Tipkovnice in orodja delovnega profila"</string>
@@ -2246,11 +2246,9 @@
     <string name="gesture_button_next" msgid="695288092704187356">"Naprej"</string>
     <string name="gesture_button_restart" msgid="1895850891992530133">"Od začetka"</string>
     <string name="gesture_button_done" msgid="6387900351203032188">"Končano"</string>
-    <!-- no translation found for action_corner_title (7411160165577367757) -->
-    <skip />
+    <string name="action_corner_title" msgid="7411160165577367757">"Prilagajanje bližnjic v kotih"</string>
     <string name="action_corner_summary" msgid="695618538930535335">"Uporaba kazalcev za pomikanje po sistemu"</string>
-    <!-- no translation found for action_corner_intro (2170609118659718140) -->
-    <skip />
+    <string name="action_corner_intro" msgid="2170609118659718140">"Če želite prilagoditi bližnjice v kotih, izberite naslednja območja"</string>
     <string name="action_corner_bottom_left_title" msgid="2857258272736432174">"Spodnji levi kot"</string>
     <string name="action_corner_bottom_right_title" msgid="7222233500548465684">"Spodnji desni kot"</string>
     <string name="action_corner_top_left_title" msgid="4633975226092344210">"Zgornji levi kot"</string>
@@ -2545,7 +2543,7 @@
     <string name="accessibility_notification_high_contrast_text_title" msgid="2297915407152953323">"Izboljšanje kontrasta besedila"</string>
     <string name="accessibility_notification_high_contrast_text_body_message" msgid="6846453833480117658">"Funkcija Visokokontrastno besedilo je bila zamenjana s funkcijo Obrobljeno besedilo. Vklopite jo lahko tukaj: <xliff:g id="SETTINGS">%1$s</xliff:g>."</string>
     <string name="accessibility_notification_high_contrast_text_action_open_settings" msgid="5945069315472850294">"Odpri <xliff:g id="SETTINGS">%1$s</xliff:g>"</string>
-    <string name="accessibility_toggle_maximize_text_contrast_preference_title" msgid="8848579943445806659">"Obroba besedila"</string>
+    <string name="accessibility_toggle_maximize_text_contrast_preference_title" msgid="8848579943445806659">"Obrobljeno besedilo"</string>
     <string name="accessibility_toggle_maximize_text_contrast_preference_summary" msgid="8200408691846666900">"Okrog besedila dodajte črno ali belo ozadje, da povečate kontrast"</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_title" msgid="4987009529235165664">"Samodejno posodobi povečavo zaslona"</string>
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_summary" msgid="9034532513972547720">"Posodabljanje povečave zaslona pri prehodih aplik."</string>
@@ -3856,9 +3854,9 @@
     <string name="notification_bundle_recs_summary" msgid="9200357300848343691">"Glasila, priporočena predstavnost in drugo"</string>
     <string name="notification_ai_features_title" msgid="6497959797331796296">"Obvestila z uporabo umetne inteligence"</string>
     <string name="notification_summarization_title" msgid="1516039882005781529">"Povzetki obvestil"</string>
-    <string name="notification_summarization_summary" msgid="1963425736716175590">"Pridobite hitre povzetke daljših sporočil"</string>
+    <string name="notification_summarization_summary" msgid="1963425736716175590">"Pridobite hitre povzetke daljših sporočil."</string>
     <string name="notification_summarization_main_control_title" msgid="3341727937605794607">"Uporabi povzetke obvestil"</string>
-    <string name="notification_summarization_description" msgid="341128754705513791">"Povzemite dolga sporočila in skupinske pogovore za hitro pridobitev povzetkov. Povzetki so ustvarjeni z umetno inteligenco in lahko vsebujejo napake."</string>
+    <string name="notification_summarization_description" msgid="341128754705513791">"Povzemite dolga sporočila in skupinske pogovore za hiter pregled. Povzetki so ustvarjeni z umetno inteligenco in lahko vsebujejo napake."</string>
     <string name="notification_summarization_excluded_description" msgid="5819160700526641394">"Obvestila iz teh aplikacij ne bodo povzeta"</string>
     <string name="notification_summarization_manage_excluded_apps" msgid="1691177835156220384">"Upravljanje aplikacij"</string>
     <string name="notification_summarization_manage_excluded_apps_title" msgid="1299744594788208296">"Omogočenje povzetkov obvestil za aplikacije"</string>
@@ -4527,10 +4525,8 @@
     <string name="disabled_by_policy_title_financed_device" msgid="2328740314082888228">"Blokiral posojilodajalec"</string>
     <string name="disabled_by_policy_title_biometric_parental_consent" msgid="2463673997797134678">"Potrebuješ starša"</string>
     <string name="disabled_by_policy_content_biometric_parental_consent" msgid="7124116806784305206">"Za začetek nastavljanja te funkcije daj telefon staršu."</string>
-    <!-- no translation found for disabled_by_policy_title_parental_controls (8875976588644052371) -->
-    <skip />
-    <!-- no translation found for disabled_by_policy_content_parental_controls (4648160125103768738) -->
-    <skip />
+    <string name="disabled_by_policy_title_parental_controls" msgid="8875976588644052371">"Omejeno s starševskim nadzorom"</string>
+    <string name="disabled_by_policy_content_parental_controls" msgid="4648160125103768738">"To nastavitev lahko spremeni samo oseba, ki upravlja starševski nadzor"</string>
     <string name="disabled_by_policy_parental_consent" msgid="9166060049019018978">"Telefon daj staršu, da bo omogočil spreminjanje te nastavitve."</string>
     <string name="default_admin_support_msg" msgid="8816296554831532033">"Za več informacij se obrnite na skrbnika za IT."</string>
     <string name="admin_support_more_info" msgid="8407433155725898290">"Več podrobnosti"</string>
@@ -4975,8 +4971,6 @@
     <string name="autofill_reset_developer_options" msgid="6425613608979498608">"Ponastavi na privzete vrednosti"</string>
     <string name="autofill_reset_developer_options_complete" msgid="1276741935956594965">"Možnosti samodejnega izpolnjevanja za razvijalce so bile ponastavljene"</string>
     <string name="location_category" msgid="3496759112306219062">"Lokacija"</string>
-    <string name="location_indicator_settings_title" msgid="6655916258720093451">"Indikator lokacije v vrstici stanja"</string>
-    <string name="location_indicator_settings_description" msgid="2888022085372804021">"Prikaži za vse lokacije, tudi za zaznane na podlagi omrežja in povezav"</string>
     <string name="enable_gnss_raw_meas_full_tracking" msgid="1206679951510243341">"Vsili popolne meritve GNSS"</string>
     <string name="enable_gnss_raw_meas_full_tracking_summary" msgid="3841463141138247167">"Spremljaj vse razmestitve in frekvence GNSS brez ciklov."</string>
     <string name="input_method_category" msgid="2252659253631639005">"Način vnosa"</string>
@@ -5871,8 +5865,7 @@
     <string name="search_gesture_feature_summary" msgid="1793056495030564014">"Za iskanje po vsebini zaslona pridržite gumb za začetni zaslon ali ročico za pomikanje."</string>
     <string name="device_detail_icon_content_description" msgid="6699151424374841937">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>. Konfigurirajte podrobnosti o napravi."</string>
     <string name="supervision_settings_title" msgid="8507163323870367711">"Starševski nadzor"</string>
-    <!-- no translation found for supervision_settings_summary (6304257872307136073) -->
-    <skip />
+    <string name="supervision_settings_summary" msgid="6304257872307136073">"Osnovna digitalna pravila in omejitve časa uporabe"</string>
     <string name="device_supervision_switch_no_pin_summary" msgid="4869563544571033220">"Nastavitev kode PIN"</string>
     <!-- no translation found for keywords_supervision_settings (43064288661561602) -->
     <skip />
@@ -5898,7 +5891,7 @@
     <string name="supervision_web_content_filters_browser_filter_title" msgid="7957976669412075070">"Blokiranje eksplicitnih spletnih mest"</string>
     <string name="supervision_web_content_filters_search_title" msgid="8608480392956106029">"Rezultati iskanja"</string>
     <string name="supervision_web_content_filters_search_filter_title" msgid="4212134055017429017">"Filtriranje eksplicitnih rezultatov iskanja"</string>
-    <string name="supervision_full_screen_pin_verification_title" msgid="78513043528333399">"Vnesite kodo PIN za nadzor"</string>
+    <string name="supervision_full_screen_pin_verification_title" msgid="7685279446792771815">"Vnesite kodo PIN za starševski nadzor"</string>
     <string name="supervision_choose_your_pin_header" msgid="3872062168986738629">"Nastavitev kode PIN za starševski nadzor"</string>
     <string name="supervision_confirm_your_pin_header" msgid="8236956712482718354">"Potrditev kode PIN"</string>
     <string name="supervision_pin_reset_success_toast" msgid="9163550161698311831">"Koda PIN je posodobljena"</string>

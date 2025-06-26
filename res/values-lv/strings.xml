@@ -198,8 +198,7 @@
     <string name="locale_remove_menu" msgid="3521546263421387474">"Noņemt"</string>
     <string name="add_a_language" msgid="2126220398077503271">"Pievienot valodu"</string>
     <string name="app_locale_preference_title" msgid="5513627099300360232">"Valoda"</string>
-    <!-- no translation found for locale_picker_category_title (296835514014453679) -->
-    <skip />
+    <string name="locale_picker_category_title" msgid="296835514014453679">"Vēlamās valodas"</string>
     <string name="app_locales_picker_menu_title" msgid="7617427959223831373">"Lietotņu valodas"</string>
     <string name="app_locale_picker_summary" msgid="616928580653613998">"Izvēlieties katras lietotnes valodu"</string>
     <string name="app_locale_picker_title" msgid="2431448962911301366">"Lietotnes valoda"</string>
@@ -225,17 +224,12 @@
     <string name="title_change_system_locale" msgid="4102991236063984803">"Vai mainīt sistēmas valodu uz šādu: %s?"</string>
     <string name="title_system_locale_addition" msgid="8218683660751479466">"Vai vēlamajām valodām pievienot šo valodu: %s?"</string>
     <string name="desc_system_locale_addition" msgid="3409917362651596070">"Tādējādi lietotnes un vietnes tiek informētas, ka arī tā ir viena no jūsu vēlamajām valodām."</string>
-    <!-- no translation found for desc_notice_device_locale_and_region_settings_change (909261686577914396) -->
-    <skip />
-    <!-- no translation found for desc_notice_device_locale_settings_change (5012353615235634881) -->
-    <skip />
-    <!-- no translation found for dlg_desc_delete_preferred_default_locale (690828405078078513) -->
-    <skip />
+    <string name="desc_notice_device_locale_and_region_settings_change" msgid="909261686577914396">"Jūsu ierīcē tiks izmantota valoda <xliff:g id="LANGUAGE">%1$s</xliff:g>, un jūsu reģions tiks mainīts uz <xliff:g id="REGION">%2$s</xliff:g>."</string>
+    <string name="desc_notice_device_locale_settings_change" msgid="5012353615235634881">"Jūsu ierīcē tiks izmantota šī valoda: <xliff:g id="LANGUAGE">%s</xliff:g>."</string>
+    <string name="dlg_desc_delete_preferred_default_locale" msgid="690828405078078513">"No jūsu vēlamajām valodām tiks noņemta šī valoda: <xliff:g id="REMOVED_LANGUAGE">%s</xliff:g>"</string>
     <string name="button_label_confirmation_of_system_locale_change" msgid="5593798559604894733">"Mainīt"</string>
-    <!-- no translation found for title_unavailable_locale (5382411204559213983) -->
-    <skip />
-    <!-- no translation found for desc_unavailable_locale (7223655766703116782) -->
-    <skip />
+    <string name="title_unavailable_locale" msgid="5382411204559213983">"Valodu <xliff:g id="SELECTED_LANGUAGE">%s</xliff:g> nevar iestatīt kā sistēmas valodu"</string>
+    <string name="desc_unavailable_locale" msgid="7223655766703116782">"Jūsu ierīcē šī valoda netiek atbalstīta, taču lietotnēm būs pieejama informācija par jūsu vēlamo valodu"</string>
     <string name="locale_search_menu" msgid="297782694044826686">"Meklēt"</string>
     <string name="language_and_region_title" msgid="8374151891112162767">"Valoda un reģions"</string>
     <string name="language_selection_title" msgid="968179636453982415">"Valodas pievienošana"</string>
@@ -249,12 +243,9 @@
     <string name="title_change_system_locale_region" msgid="4401478579429442695">"Vai mainīt reģionu uz šādu: <xliff:g id="SYSTEM_LANGUAGE_REGION">%1$s</xliff:g>?"</string>
     <string name="body_change_system_locale_region" msgid="9064318449821043189">"Ierīcē joprojām būs iestatīta sistēmas valoda: <xliff:g id="SYSTEM_LANGUAGE">%1$s</xliff:g>"</string>
     <string name="top_intro_numbering_system_title" msgid="3962000662073238392">"Izvēlieties, kā ierīcē, vietnēs un lietotnēs tiks rādīti skaitļi"</string>
-    <!-- no translation found for preferred_locale_menu_up (4009560552099567485) -->
-    <skip />
-    <!-- no translation found for preferred_locale_menu_down (1033373887552535585) -->
-    <skip />
-    <!-- no translation found for preferred_locale_menu_remove (8547483341987864590) -->
-    <skip />
+    <string name="preferred_locale_menu_up" msgid="4009560552099567485">"Pārvietot uz augšu"</string>
+    <string name="preferred_locale_menu_down" msgid="1033373887552535585">"Pārvietot uz leju"</string>
+    <string name="preferred_locale_menu_remove" msgid="8547483341987864590">"Noņemt"</string>
     <string name="regional_preferences_title" msgid="4304567374498629528">"Reģionālās preferences"</string>
     <string name="regional_preferences_summary" msgid="1189876997389469650">"Iestatiet vienību un skaitļu preferences."</string>
     <string name="regional_preferences_main_page_sub_title" msgid="4237109940015254725">"Atklājiet lietotnēm savas reģionālās preferences, lai lietotnes varētu personalizēt jums pieejamās iespējas."</string>
@@ -293,10 +284,8 @@
     <string name="dlg_remove_locales_error_title" msgid="5875503658221562572">"Nevar noņemt visas valodas"</string>
     <string name="dlg_remove_locales_error_message" msgid="6504279959974675302">"Paturiet vismaz vienu vēlamo valodu"</string>
     <string name="locale_not_translated" msgid="3071618135527110152">"Nav pieejama kā sistēmas valoda"</string>
-    <!-- no translation found for dlg_title_delete_preferred_locale (4167214348946940002) -->
-    <skip />
-    <!-- no translation found for dlg_desc_delete_preferred_locale (4658301652628456858) -->
-    <skip />
+    <string name="dlg_title_delete_preferred_locale" msgid="4167214348946940002">"Vai noņemt valodu <xliff:g id="REMOVED_LANGUAGE">%s</xliff:g>?"</string>
+    <string name="dlg_desc_delete_preferred_locale" msgid="4658301652628456858">"Valoda <xliff:g id="REMOVED_LANGUAGE">%s</xliff:g> tiks noņemta no jūsu vēlamajām valodām. Vēlāk varēsiet to atkal pievienot."</string>
     <string name="action_drag_label_move_up" msgid="3392196942330705015">"Pārvietot uz augšu"</string>
     <string name="action_drag_label_move_down" msgid="9069518740553953426">"Pārvietot uz leju"</string>
     <string name="action_drag_label_move_top" msgid="2430471023612171619">"Pārvietot uz sākumu"</string>
@@ -476,8 +465,7 @@
     <string name="security_settings_fingerprint_enroll_introduction_no_thanks" msgid="1663906389456119842">"Ne tagad"</string>
     <string name="security_settings_fingerprint_enroll_introduction_agree" msgid="4068276083536421828">"Piekrītu"</string>
     <string name="security_settings_fingerprint_rename_description" msgid="6301505700382531086">"Veiciet dubultskārienu, lai pārdēvētu."</string>
-    <!-- no translation found for security_settings_fingerprint_recognition_description (1805171116182647136) -->
-    <skip />
+    <string name="security_settings_fingerprint_recognition_description" msgid="1805171116182647136">"<xliff:g id="FP_NAME">%1$s</xliff:g> tika atpazīts"</string>
     <string name="setup_fingerprint_enroll_skip_title" msgid="2473807887676247264">"Izlaist pirksta nospiedumu?"</string>
     <string name="setup_fingerprint_enroll_skip_after_adding_lock_text" msgid="2412645723804450304">"Pirksta nospieduma iestatīšana ilgst tikai pāris minūtes. Ja to izlaidīsiet, varēsiet pirksta nospiedumu pievienot vēlāk iestatījumos."</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_message_setup" msgid="6255210343107484206">"Kad redzat šo ikonu, autentifikācijai izmantojiet pirksta nospiedumu, piemēram, kad reģistrējaties lietotnēs vai apstiprināt pirkumus"</string>
@@ -1182,7 +1170,16 @@
     <string name="wifi_dpp_qr_code_is_not_valid_format" msgid="5190689503019328279">"Kvadrātkoda formāts nav derīgs."</string>
     <string name="retry" msgid="7542103800274026915">"Mēģināt vēlreiz"</string>
     <string name="wifi_shared" msgid="8850748923537589782">"Koplietot ar citiem ierīces lietotājiem"</string>
+    <string name="shared_message" msgid="2104244057926025072">"koplietoto"</string>
+    <string name="private_message" msgid="5897966950396765392">"privāto"</string>
+    <string name="wifi_conflict_dialog_confirm" msgid="4577313983128123779">"Apstiprināt"</string>
+    <string name="wifi_conflict_dialog_cancel" msgid="5200571850377525343">"Atcelt"</string>
+    <string name="wifi_share_preference_title" msgid="6346200020322308703">"Šis ir koplietots tīkls"</string>
+    <string name="wifi_share_preference_summary" msgid="4356010425167713046">"Visi lietotāji, izņemot viesus, varēs skatīt, rediģēt un dzēst šo tīklu"</string>
+    <string name="wifi_conflict_dialog_title" msgid="1127530499054245755">"Vai pārslēgties uz <xliff:g id="SHARED">%1$s</xliff:g> tīklu “<xliff:g id="NETWORK_NAME">%2$s</xliff:g>”?"</string>
+    <string name="wifi_conflict_dialog_message" msgid="3192435395074097168">"Pašlaik ir izveidots savienojums ar <xliff:g id="SHARED_0">%1$s</xliff:g> tīklu, kuram ir tāds pats nosaukums. Pārslēdzoties tiks pārtraukts savienojums ar <xliff:g id="SHARED_1">%2$s</xliff:g> tīklu un pēc tam atkārtoti izveidots savienojums ar <xliff:g id="PRIVATE">%3$s</xliff:g> tīklu. Iespējams, īslaicīgi nebūs interneta savienojuma."</string>
     <string name="wifi_unchanged" msgid="8026045290856150191">"(bez izmaiņām)"</string>
+    <string name="wifi_allow_edit_configuration_title" msgid="3928254385019370063">"Atļaut citiem lietotājiem rediģēt tīkla konfigurāciju"</string>
     <string name="wifi_unspecified" msgid="4561964943472312208">"Lūdzu, atlasiet"</string>
     <string name="wifi_multiple_cert_added" msgid="2151019652853383776">"(Pievienoti vairāki sertifikāti)"</string>
     <string name="wifi_use_system_certs" msgid="5587866698144996931">"Izmantot sistēmas sertifikātus"</string>
@@ -2157,8 +2154,8 @@
     <string name="mouse_keys" msgid="6237254627808525540">"Peles taustiņi"</string>
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"Izmantot peles taustiņus"</string>
     <string name="accessibility_mouse_keys_shortcut_title" msgid="7621635104533584115">"Peles taustiņu saīsne"</string>
-    <string name="mouse_keys_summary" msgid="7030731235143286467">"Izmantojiet tastatūru, lai kontrolētu rādītāju."</string>
-    <string name="mouse_keys_max_speed_title" msgid="1788751803245422659">"Maksimālais ātrums"</string>
+    <string name="mouse_keys_summary" msgid="6512910710030108693">"Izmantojiet tastatūru, lai kontrolētu rādītāju"</string>
+    <string name="mouse_keys_max_speed_title" msgid="2651688711606971145">"Ātrums"</string>
     <string name="mouse_keys_seek_bar_decrease_button_description" msgid="9077624857206032509">"Samazināt"</string>
     <string name="mouse_keys_seek_bar_increase_button_description" msgid="2721662400858172203">"Palielināt"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"Ritināšana pretējā virzienā"</string>
@@ -2184,6 +2181,9 @@
     <string name="mouse_keys_release_summary" msgid="7209370896835993434">"Lai atlaistu peles primāro pogu, izmantojiet taustiņu <xliff:g id="RELEASE_LABEL">%s</xliff:g>."</string>
     <string name="mouse_keys_toggle_scroll_summary" msgid="7492663135290108272">"Lai pārslēgtu ritināšanas režīmu, izmantojiet taustiņu <xliff:g id="RELEASE_LABEL_1">%1$s</xliff:g>. Šajā režīmā varēsiet ritināt skatu augšup, lejup, pa kreisi un pa labi ar taustiņiem <xliff:g id="RELEASE_LABEL_2">%2$s</xliff:g>."</string>
     <string name="mouse_keys_release2_summary" msgid="5504548339731577210">"Lai noklikšķinātu uz peles sekundārās pogas, izmantojiet taustiņu <xliff:g id="RELEASE_2_LABEL">%s</xliff:g>."</string>
+    <string name="mouse_keys_acceleration_seekbar_title" msgid="2329098889930361504">"Paātrinājums"</string>
+    <string name="mouse_keys_acceleration_fast_icon_desc" msgid="4426188473271579794">"Ātrs"</string>
+    <string name="mouse_keys_acceleration_slow_icon_desc" msgid="8370777074987200135">"Lēns"</string>
     <string name="keyboard_shortcuts_helper" msgid="6934420811737731188">"Skatīt īsinājumtaustiņus"</string>
     <string name="keyboard_shortcuts_helper_summary" msgid="5979507677602559203">"Rādīt īsinājumtaustiņu sarakstu"</string>
     <string name="language_and_input_for_work_category_title" msgid="2546950919124199743">"Tastatūras un rīki darba profilā"</string>
@@ -2246,11 +2246,9 @@
     <string name="gesture_button_next" msgid="695288092704187356">"Tālāk"</string>
     <string name="gesture_button_restart" msgid="1895850891992530133">"Restartēt"</string>
     <string name="gesture_button_done" msgid="6387900351203032188">"Gatavs"</string>
-    <!-- no translation found for action_corner_title (7411160165577367757) -->
-    <skip />
+    <string name="action_corner_title" msgid="7411160165577367757">"Stūra saīšņu pielāgošana"</string>
     <string name="action_corner_summary" msgid="695618538930535335">"Izmantojiet kursorus, lai pārvietotos sistēmā."</string>
-    <!-- no translation found for action_corner_intro (2170609118659718140) -->
-    <skip />
+    <string name="action_corner_intro" msgid="2170609118659718140">"Izvēlieties norādītos apgabalus, lai pielāgotu stūra saīsnes"</string>
     <string name="action_corner_bottom_left_title" msgid="2857258272736432174">"Apakšējais kreisais stūris"</string>
     <string name="action_corner_bottom_right_title" msgid="7222233500548465684">"Apakšējais labais stūris"</string>
     <string name="action_corner_top_left_title" msgid="4633975226092344210">"Augšējais kreisais stūris"</string>
@@ -4527,10 +4525,8 @@
     <string name="disabled_by_policy_title_financed_device" msgid="2328740314082888228">"Bloķējis jūsu kredīta nodrošinātājs"</string>
     <string name="disabled_by_policy_title_biometric_parental_consent" msgid="2463673997797134678">"Nepieciešama vecāku palīdzība"</string>
     <string name="disabled_by_policy_content_biometric_parental_consent" msgid="7124116806784305206">"Iedodiet tālruni vienam no vecākiem, lai sāktu iestatīšanu."</string>
-    <!-- no translation found for disabled_by_policy_title_parental_controls (8875976588644052371) -->
-    <skip />
-    <!-- no translation found for disabled_by_policy_content_parental_controls (4648160125103768738) -->
-    <skip />
+    <string name="disabled_by_policy_title_parental_controls" msgid="8875976588644052371">"Ierobežo vecāku kontrole"</string>
+    <string name="disabled_by_policy_content_parental_controls" msgid="4648160125103768738">"Šo iestatījumu var mainīt tikai persona, kas pārvalda jūsu vecāku kontroli"</string>
     <string name="disabled_by_policy_parental_consent" msgid="9166060049019018978">"Iedodiet tālruni kādam no vecākiem, kas var apstiprināt šī iestatījuma mainīšanu."</string>
     <string name="default_admin_support_msg" msgid="8816296554831532033">"Lai iegūtu plašāku informāciju, sazinieties ar savu IT administratoru."</string>
     <string name="admin_support_more_info" msgid="8407433155725898290">"Plašāka informācija"</string>
@@ -4975,8 +4971,6 @@
     <string name="autofill_reset_developer_options" msgid="6425613608979498608">"Atiestatīt uz noklusējuma vērtībām"</string>
     <string name="autofill_reset_developer_options_complete" msgid="1276741935956594965">"Izstrādātāju opciju automātiskā aizpilde ir atiestatīta."</string>
     <string name="location_category" msgid="3496759112306219062">"Atrašanās vieta"</string>
-    <string name="location_indicator_settings_title" msgid="6655916258720093451">"Atrašanās vietas indikators statusa joslā"</string>
-    <string name="location_indicator_settings_description" msgid="2888022085372804021">"Rādīt vienmēr, kad tiek noteikta atrašanās vieta, tostarp tad, ja tā var tikt atklāta, izmantojot tīklu vai savienojamību"</string>
     <string name="enable_gnss_raw_meas_full_tracking" msgid="1206679951510243341">"Veikt pilnus GNSS mērījumus"</string>
     <string name="enable_gnss_raw_meas_full_tracking_summary" msgid="3841463141138247167">"Izsekot visas GNSS konstelācijas un frekvences bez darba cikliem"</string>
     <string name="input_method_category" msgid="2252659253631639005">"Ievades metode"</string>
@@ -5870,8 +5864,7 @@
     <string name="search_gesture_feature_summary" msgid="1793056495030564014">"Pieskarieties un turiet pogu “Sākums” vai navigācijas turi, lai meklētu, izmantojot ekrāna saturu."</string>
     <string name="device_detail_icon_content_description" msgid="6699151424374841937">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>. Konfigurējiet ierīces informāciju."</string>
     <string name="supervision_settings_title" msgid="8507163323870367711">"Vecāku kontrole"</string>
-    <!-- no translation found for supervision_settings_summary (6304257872307136073) -->
-    <skip />
+    <string name="supervision_settings_summary" msgid="6304257872307136073">"Digitālā satura izmantošanas pamatnoteikumi un izmantošanas ilguma ierobežojumi"</string>
     <string name="device_supervision_switch_no_pin_summary" msgid="4869563544571033220">"Iestatiet PIN"</string>
     <!-- no translation found for keywords_supervision_settings (43064288661561602) -->
     <skip />
@@ -5897,7 +5890,7 @@
     <string name="supervision_web_content_filters_browser_filter_title" msgid="7957976669412075070">"Bloķēt vietnes ar necenzētu saturu"</string>
     <string name="supervision_web_content_filters_search_title" msgid="8608480392956106029">"Meklēšanas rezultāti"</string>
     <string name="supervision_web_content_filters_search_filter_title" msgid="4212134055017429017">"Filtrēt necenzētus meklēšanas rezultātus"</string>
-    <string name="supervision_full_screen_pin_verification_title" msgid="78513043528333399">"Ievadiet uzraudzības funkcijas PIN"</string>
+    <string name="supervision_full_screen_pin_verification_title" msgid="7685279446792771815">"Ievadiet vecāku kontroles PIN"</string>
     <string name="supervision_choose_your_pin_header" msgid="3872062168986738629">"Iestatīt vecāku kontroles PIN"</string>
     <string name="supervision_confirm_your_pin_header" msgid="8236956712482718354">"Apstiprināt PIN"</string>
     <string name="supervision_pin_reset_success_toast" msgid="9163550161698311831">"PIN atjaunināts"</string>
