@@ -1177,7 +1177,7 @@
     <string name="wifi_share_preference_title" msgid="6346200020322308703">"Esta es una red compartida"</string>
     <string name="wifi_share_preference_summary" msgid="4356010425167713046">"Todos los usuarios, excepto los invitados, podrán ver, editar y borrar esta red"</string>
     <string name="wifi_conflict_dialog_title" msgid="1127530499054245755">"¿Quieres cambiar a la red \"<xliff:g id="NETWORK_NAME">%2$s</xliff:g>\" <xliff:g id="SHARED">%1$s</xliff:g>?"</string>
-    <string name="wifi_conflict_dialog_message" msgid="3192435395074097168">"Actualmente, estás conectado a una red <xliff:g id="SHARED_0">%1$s</xliff:g> con el mismo nombre. Cuando cambies, se desconectará de la red <xliff:g id="SHARED_1">%2$s</xliff:g> y, luego, se volverá a conectar a la red <xliff:g id="PRIVATE">%3$s</xliff:g>. Es posible que no tengas Internet temporalmente."</string>
+    <string name="wifi_conflict_dialog_message" msgid="3192435395074097168">"Actualmente, estás en línea usando una red <xliff:g id="SHARED_0">%1$s</xliff:g> con el mismo nombre. Cuando cambies, se desconectará de la red <xliff:g id="SHARED_1">%2$s</xliff:g> y, luego, se volverá a conectar a la red <xliff:g id="PRIVATE">%3$s</xliff:g>. Es posible que no tengas Internet temporalmente."</string>
     <string name="wifi_unchanged" msgid="8026045290856150191">"(sin cambios)"</string>
     <string name="wifi_allow_edit_configuration_title" msgid="3928254385019370063">"Permitir que otros usuarios editen la configuración de red"</string>
     <string name="wifi_unspecified" msgid="4561964943472312208">"Selecciona una opción"</string>
@@ -2136,7 +2136,7 @@
     <string name="physical_keyboard_title" msgid="3328134097512350958">"Teclado físico"</string>
     <string name="physical_keyboard_layout_picker_title" msgid="4526600767648916256">"Selector de diseño de teclado físico"</string>
     <string name="bounce_keys" msgid="7419450970351743904">"Rechazo de teclas"</string>
-    <string name="bounce_keys_summary" msgid="8890925059943636911">"Ignora las presiones repetidas con rapidez de la misma tecla"</string>
+    <string name="bounce_keys_summary" msgid="8890925059943636911">"Ignora las presiones de la misma tecla que se repiten rápidamente"</string>
     <string name="bounce_keys_dialog_title" msgid="1090578395028456023">"Demora del rechazo de teclas"</string>
     <string name="bounce_keys_dialog_subtitle" msgid="6804676895876861863">"Elige durante cuánto tiempo el teclado ignora las presiones repetidas de teclas"</string>
     <string name="input_setting_keys_dialog_option_200" msgid="2785528287150314940">"0.2 segundos"</string>
@@ -2153,7 +2153,7 @@
     <string name="sticky_keys_summary" msgid="1844953803625480623">"Presiona una tecla a la vez para hacer la combinación de teclas en lugar de presionarlas juntas"</string>
     <string name="mouse_keys" msgid="6237254627808525540">"Teclas del mouse"</string>
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"Usar teclas del mouse"</string>
-    <string name="accessibility_mouse_keys_shortcut_title" msgid="7621635104533584115">"Combinación de teclas del mouse"</string>
+    <string name="accessibility_mouse_keys_shortcut_title" msgid="7621635104533584115">"Atajo para teclas del mouse"</string>
     <string name="mouse_keys_summary" msgid="6512910710030108693">"Usa el teclado para controlar el cursor"</string>
     <string name="mouse_keys_max_speed_title" msgid="2651688711606971145">"Velocidad"</string>
     <string name="mouse_keys_seek_bar_decrease_button_description" msgid="9077624857206032509">"Disminuir"</string>
@@ -2202,7 +2202,7 @@
     <string name="trackpad_reverse_scrolling_title" msgid="422877284529360866">"Invertir desplazamiento"</string>
     <string name="trackpad_reverse_scrolling_summary" msgid="6048648562887499036">"El contenido sube cuando te desplazas hacia abajo"</string>
     <string name="trackpad_bottom_right_tap_title" msgid="230337692279220068">"Clic en la esquina inferior derecha"</string>
-    <string name="trackpad_bottom_right_tap_summary" msgid="4467915480282133447">"Más opciones en la esquina inferior derecha del panel táctil"</string>
+    <string name="trackpad_bottom_right_tap_summary" msgid="4467915480282133447">"Muestra más opciones al hacer clic"</string>
     <string name="trackpad_pointer_speed" msgid="7786579408631352625">"Velocidad del puntero"</string>
     <string name="trackpad_pointer_speed_make_faster_desc" msgid="2855950278314583596">"Aumentar la velocidad del puntero"</string>
     <string name="trackpad_pointer_speed_make_slower_desc" msgid="6577850228762978827">"Disminuir la velocidad del puntero"</string>
@@ -2220,7 +2220,7 @@
     <string name="pointer_stroke_style_name_white" msgid="673686194443825383">"Blanco"</string>
     <string name="pointer_stroke_style_name_black" msgid="4655806167067437330">"Negro"</string>
     <string name="pointer_stroke_style_name_none" msgid="8953927511729800247">"Ninguno"</string>
-    <string name="trackpad_touch_gesture" msgid="8641725062131922497">"Aprende los gestos del panel táctil"</string>
+    <string name="trackpad_touch_gesture" msgid="8641725062131922497">"Aprender gestos del panel táctil"</string>
     <string name="keywords_touchpad" msgid="8159846254066666032">"panel táctil, panel, táctil,mouse, cursor, desplazar, deslizar, hacer clic con el botón derecho, clic, puntero"</string>
     <string name="keywords_trackpad_bottom_right_tap" msgid="1285062446073929305">"hacer clic con el botón derecho, presionar"</string>
     <string name="three_finger_tap_middle_click" msgid="7898931632908866867">"Botón central del mouse"</string>
@@ -2246,19 +2246,19 @@
     <string name="gesture_button_next" msgid="695288092704187356">"Siguiente"</string>
     <string name="gesture_button_restart" msgid="1895850891992530133">"Reiniciar"</string>
     <string name="gesture_button_done" msgid="6387900351203032188">"Listo"</string>
-    <string name="action_corner_title" msgid="7411160165577367757">"Personalizar accesos directos de las esquinas de las esquinas"</string>
+    <string name="action_corner_title" msgid="7411160165577367757">"Personalizar atajos de las esquinas"</string>
     <string name="action_corner_summary" msgid="695618538930535335">"Usa los cursores para navegar por el sistema"</string>
-    <string name="action_corner_intro" msgid="2170609118659718140">"Elige las siguientes áreas para personalizar los accesos directos de las esquinas"</string>
+    <string name="action_corner_intro" msgid="2170609118659718140">"Elige las siguientes áreas para personalizar los atajos de las esquinas"</string>
     <string name="action_corner_bottom_left_title" msgid="2857258272736432174">"Esquina inferior izquierda"</string>
     <string name="action_corner_bottom_right_title" msgid="7222233500548465684">"Esquina inferior derecha"</string>
     <string name="action_corner_top_left_title" msgid="4633975226092344210">"Esquina superior izquierda"</string>
     <string name="action_corner_top_right_title" msgid="4995999693840776032">"Esquina superior derecha"</string>
-    <string name="action_corner_action_none" msgid="5203163099950649999">"Ninguna"</string>
+    <string name="action_corner_action_none" msgid="5203163099950649999">"Ninguno"</string>
     <string name="action_corner_action_home" msgid="6779642573582379579">"Página principal"</string>
     <string name="action_corner_action_recent_apps" msgid="7450480676812648813">"Apps recientes"</string>
     <string name="action_corner_action_notifications" msgid="3779353356349774469">"Notificaciones"</string>
     <string name="action_corner_action_quick_settings" msgid="4660901117283653069">"Configuración rápida"</string>
-    <string name="action_corner_action_dialog_title" msgid="8253240813317885237">"Elige una combinación de teclas para <xliff:g id="CORNER">%1$s</xliff:g>"</string>
+    <string name="action_corner_action_dialog_title" msgid="8253240813317885237">"Elige un atajo para la <xliff:g id="CORNER">%1$s</xliff:g>"</string>
     <string name="action_corner_bottom_left_name" msgid="9193788067022476544">"esquina inferior izquierda"</string>
     <string name="action_corner_bottom_right_name" msgid="1031603363418505375">"esquina inferior derecha"</string>
     <string name="action_corner_top_left_name" msgid="8077670910600032291">"esquina superior izquierda"</string>
@@ -3852,7 +3852,7 @@
     <string name="notification_bundle_recs_summary" msgid="9200357300848343691">"Boletines informativos, contenido recomendado y más"</string>
     <string name="notification_ai_features_title" msgid="6497959797331796296">"Notificaciones potenciadas por IA"</string>
     <string name="notification_summarization_title" msgid="1516039882005781529">"Resúmenes de notificaciones"</string>
-    <string name="notification_summarization_summary" msgid="1963425736716175590">"Obtén resúmenes rápidos de mensajes más largos"</string>
+    <string name="notification_summarization_summary" msgid="1963425736716175590">"Obtener resúmenes rápidos de mensajes más largos"</string>
     <string name="notification_summarization_main_control_title" msgid="3341727937605794607">"Usar resúmenes de notificaciones"</string>
     <string name="notification_summarization_description" msgid="341128754705513791">"Resume mensajes largos y conversaciones grupales para obtener información rápida. Los resúmenes se generan con IA y pueden contener errores."</string>
     <string name="notification_summarization_excluded_description" msgid="5819160700526641394">"No se resumirán las notificaciones de conversaciones de estas apps"</string>

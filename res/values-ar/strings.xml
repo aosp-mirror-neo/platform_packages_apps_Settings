@@ -2175,12 +2175,12 @@
     <string name="mouse_pointer_acceleration" msgid="388336576055293329">"تسريع المؤشر"</string>
     <string name="mouse_pointer_acceleration_summary" msgid="6954407061360045792">"تؤدي الحركات السريعة باستخدام الماوس إلى تحريك المؤشر بعيدًا"</string>
     <string name="mouse_key_main_page_title" msgid="8051692181770475257">"مفاتيح الماوس في \"<xliff:g id="KEYBOARD_NAME">%s</xliff:g>\""</string>
-    <string name="mouse_keys_directional_summary" msgid="2215425656757420699">"‏يمكن استخدام مفاتيح \"‎<xliff:g id="DIRECTIONAL_LABEL">%s</xliff:g>\" لتحريك مؤشّر الماوس"</string>
-    <string name="mouse_keys_click_summary" msgid="8271700153598258484">"يمكن استخدام مفتاح \"<xliff:g id="CLICK_LABEL">%s</xliff:g>\" للنقر على الزر الأساسي للماوس"</string>
-    <string name="mouse_keys_press_hold_summary" msgid="112969663769147732">"يمكن استخدام مفتاح \"<xliff:g id="PRESS_HOLD_LABEL">%s</xliff:g>\" للضغط مع الاستمرار على الزر الأساسي للماوس"</string>
-    <string name="mouse_keys_release_summary" msgid="7209370896835993434">"يمكن استخدام مفتاح \"<xliff:g id="RELEASE_LABEL">%s</xliff:g>\" لتحرير الزر الأساسي للماوس"</string>
-    <string name="mouse_keys_toggle_scroll_summary" msgid="7492663135290108272">"‏يمكن استخدام مفتاح \"<xliff:g id="RELEASE_LABEL_1">%1$s</xliff:g>\" لتبديل وضع التمرير، ما سيجعل مفاتيح \"‎<xliff:g id="RELEASE_LABEL_2">%2$s</xliff:g>\" تؤدي إلى الانتقال للأعلى أو الأسفل أو اليسار أو اليمين"</string>
-    <string name="mouse_keys_release2_summary" msgid="5504548339731577210">"يمكن استخدام مفتاح \"<xliff:g id="RELEASE_2_LABEL">%s</xliff:g>\" للنقر على الزر الثانوي للماوس"</string>
+    <string name="mouse_keys_directional_summary" msgid="2215425656757420699">"‏استخدِم مفاتيح \"‎<xliff:g id="DIRECTIONAL_LABEL">%s</xliff:g>\" لتحريك مؤشّر الماوس"</string>
+    <string name="mouse_keys_click_summary" msgid="8271700153598258484">"استخدِم مفتاح \"<xliff:g id="CLICK_LABEL">%s</xliff:g>\" للنقر على زر الماوس الأساسي"</string>
+    <string name="mouse_keys_press_hold_summary" msgid="112969663769147732">"استخدِم مفتاح \"<xliff:g id="PRESS_HOLD_LABEL">%s</xliff:g>\" للضغط مع الاستمرار على زر الماوس الأساسي"</string>
+    <string name="mouse_keys_release_summary" msgid="7209370896835993434">"استخدِم مفتاح \"<xliff:g id="RELEASE_LABEL">%s</xliff:g>\" لتحرير زر الماوس الأساسي"</string>
+    <string name="mouse_keys_toggle_scroll_summary" msgid="7492663135290108272">"‏استخدِم مفتاح \"<xliff:g id="RELEASE_LABEL_1">%1$s</xliff:g>\" لتغيير اتجاه التمرير، ما سيجعل مفاتيح \"‎<xliff:g id="RELEASE_LABEL_2">%2$s</xliff:g>\" تؤدي إلى الانتقال للأعلى أو الأسفل أو اليسار أو اليمين"</string>
+    <string name="mouse_keys_release2_summary" msgid="5504548339731577210">"استخدِم مفتاح \"<xliff:g id="RELEASE_2_LABEL">%s</xliff:g>\" للنقر على زر الماوس الثانوي"</string>
     <string name="mouse_keys_acceleration_seekbar_title" msgid="2329098889930361504">"التسارع"</string>
     <string name="mouse_keys_acceleration_fast_icon_desc" msgid="4426188473271579794">"سريع"</string>
     <string name="mouse_keys_acceleration_slow_icon_desc" msgid="8370777074987200135">"بطيء"</string>
@@ -2247,13 +2247,13 @@
     <string name="gesture_button_restart" msgid="1895850891992530133">"إعادة تشغيل"</string>
     <string name="gesture_button_done" msgid="6387900351203032188">"تم"</string>
     <string name="action_corner_title" msgid="7411160165577367757">"تخصيص اختصارات الزوايا"</string>
-    <string name="action_corner_summary" msgid="695618538930535335">"استخدام المؤشرات للتنقّل في النظام"</string>
+    <string name="action_corner_summary" msgid="695618538930535335">"استخدم المؤشرات للتنقّل في النظام"</string>
     <string name="action_corner_intro" msgid="2170609118659718140">"يُرجى اختيار المناطق التالية لتخصيص اختصارات الزوايا"</string>
-    <string name="action_corner_bottom_left_title" msgid="2857258272736432174">"الزاوية السفلية اليمنى"</string>
-    <string name="action_corner_bottom_right_title" msgid="7222233500548465684">"الزاوية السفلية اليسرى"</string>
-    <string name="action_corner_top_left_title" msgid="4633975226092344210">"الزاوية العلوية اليمنى"</string>
-    <string name="action_corner_top_right_title" msgid="4995999693840776032">"الزاوية العلوية اليسرى"</string>
-    <string name="action_corner_action_none" msgid="5203163099950649999">"بدون"</string>
+    <string name="action_corner_bottom_left_title" msgid="2857258272736432174">"الزاوية السفلية اليسرى"</string>
+    <string name="action_corner_bottom_right_title" msgid="7222233500548465684">"الزاوية السفلية اليمنى"</string>
+    <string name="action_corner_top_left_title" msgid="4633975226092344210">"الزاوية العلوية اليسرى"</string>
+    <string name="action_corner_top_right_title" msgid="4995999693840776032">"الزاوية العلوية اليمنى"</string>
+    <string name="action_corner_action_none" msgid="5203163099950649999">"بدون اختصار"</string>
     <string name="action_corner_action_home" msgid="6779642573582379579">"الصفحة الرئيسية"</string>
     <string name="action_corner_action_recent_apps" msgid="7450480676812648813">"التطبيقات المستخدَمة مؤخرًا"</string>
     <string name="action_corner_action_notifications" msgid="3779353356349774469">"الإشعارات"</string>

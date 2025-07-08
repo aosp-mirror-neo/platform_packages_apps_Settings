@@ -2246,9 +2246,9 @@
     <string name="gesture_button_next" msgid="695288092704187356">"अर्को"</string>
     <string name="gesture_button_restart" msgid="1895850891992530133">"रिस्टार्ट गर्नुहोस्"</string>
     <string name="gesture_button_done" msgid="6387900351203032188">"सम्पन्न भयो"</string>
-    <string name="action_corner_title" msgid="7411160165577367757">"कर्नर सर्टकटहरू कस्टमाइज गर्नुहोस्"</string>
+    <string name="action_corner_title" msgid="7411160165577367757">"कुनाका सर्टकटहरू कस्टमाइज गर्नुहोस्"</string>
     <string name="action_corner_summary" msgid="695618538930535335">"सिस्टम नेभिगेट गर्न कर्सर प्रयोग गर्नुहोस्"</string>
-    <string name="action_corner_intro" msgid="2170609118659718140">"कर्नर सर्टकटहरू कस्टमाइज गर्न निम्न क्षेत्रहरू छनौट गर्नुहोस्"</string>
+    <string name="action_corner_intro" msgid="2170609118659718140">"कुनाका सर्टकटहरू कस्टमाइज गर्न निम्न क्षेत्रहरू छनौट गर्नुहोस्"</string>
     <string name="action_corner_bottom_left_title" msgid="2857258272736432174">"पुछारको बायाँ कुना"</string>
     <string name="action_corner_bottom_right_title" msgid="7222233500548465684">"पुछारको दायाँ कुना"</string>
     <string name="action_corner_top_left_title" msgid="4633975226092344210">"सिरानको बायाँ कुना"</string>
@@ -2258,7 +2258,7 @@
     <string name="action_corner_action_recent_apps" msgid="7450480676812648813">"हालसालै चलाइएका एपहरू"</string>
     <string name="action_corner_action_notifications" msgid="3779353356349774469">"नोटिफिकेसनहरू"</string>
     <string name="action_corner_action_quick_settings" msgid="4660901117283653069">"द्रुत सेटिङ"</string>
-    <string name="action_corner_action_dialog_title" msgid="8253240813317885237">"<xliff:g id="CORNER">%1$s</xliff:g> को सर्टकर्ट छनौट गर्नुहोस्"</string>
+    <string name="action_corner_action_dialog_title" msgid="8253240813317885237">"<xliff:g id="CORNER">%1$s</xliff:g>को सर्टकर्ट छनौट गर्नुहोस्"</string>
     <string name="action_corner_bottom_left_name" msgid="9193788067022476544">"पुछारको बायाँ कुना"</string>
     <string name="action_corner_bottom_right_name" msgid="1031603363418505375">"पुछारको दायाँ कुना"</string>
     <string name="action_corner_top_left_name" msgid="8077670910600032291">"सिरानको बायाँ कुना"</string>

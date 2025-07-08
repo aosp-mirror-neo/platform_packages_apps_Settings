@@ -4008,7 +4008,7 @@
     <string name="notification_polite_main_control_title" msgid="5812529809151927149">"Χρήση cooldown ειδοποιήσεων"</string>
     <string name="notification_polite_description" msgid="6137533404978878957">"Όταν λαμβάνετε πολλές ειδοποιήσεις μέσα σε σύντομο χρονικό διάστημα, η συσκευή σας μειώνει την ένταση του ήχου και ελαχιστοποιεί τις ειδοποιήσεις για έως και 1 λεπτό. Οι κλήσεις, τα ξυπνητήρια και οι συζητήσεις προτεραιότητας δεν επηρεάζονται. \n\nΓια να βρείτε τις ειδοποιήσεις που λαμβάνονται κατά τη διάρκεια της περιόδου cooldown, σύρετε προς τα κάτω από το πάνω μέρος της οθόνης."</string>
     <string name="notification_polite_work" msgid="8823596456640216391">"Εφαρμογή σε προφίλ εργασίας"</string>
-    <string name="notification_polite_work_summary" msgid="5014189280132951378">"Εφαρμογή σε εφαρμογές με προφίλ εργασίας"</string>
+    <string name="notification_polite_work_summary" msgid="5014189280132951378">"Εφαρμογή σε εφαρμογές του προφίλ εργασίας"</string>
     <string name="notification_bundle_title" msgid="6679586974995981433">"Διοργανωτής ειδοποιήσεων"</string>
     <string name="notification_bundle_summary" msgid="8924550009829960969">"Ομαδοποίηση και σίγαση ειδοποιήσεων χαμηλότερης προτεραιότητας"</string>
     <string name="notification_bundle_main_control_title" msgid="2632661768990540295">"Χρήση του Διοργανωτή ειδοποιήσεων"</string>
@@ -4016,7 +4016,7 @@
     <string name="notification_app_level_bundle_title" msgid="8917807675495480483">"Ειδοποιήσεις πακέτου"</string>
     <string name="notification_app_level_bundle_subtext" msgid="7330731485247761388">"Οι ειδοποιήσεις με παρόμοια θέματα θα τίθενται σε σίγαση και θα ομαδοποιούνται για μια πιο αθόρυβη εμπειρία"</string>
     <string name="notification_bundle_manage_excluded_apps_title" msgid="7019831234073590293">"Να επιτρέπεται η ομαδοποίηση ειδοποιήσεων για εφαρμογές"</string>
-    <string name="notification_adjustment_work_switch_title" msgid="5858034709870660002">"Εφαρμογή σε εφαρμογές με προφίλ εργασίας"</string>
+    <string name="notification_adjustment_work_switch_title" msgid="5858034709870660002">"Εφαρμογή σε εφαρμογές του προφίλ εργασίας"</string>
     <string name="vr_listeners_title" msgid="4960357292472540964">"Βοηθητικές υπηρεσίες Εικονικής Πραγματικότητας"</string>
     <string name="no_vr_listeners" msgid="8442646085375949755">"Δεν έχει ζητηθεί η εκτέλεση εγκατεστημένων εφαρμογών ως βοηθητικών υπηρεσιών Εικονικής Πραγματικότητας."</string>
     <string name="vr_listener_security_warning_title" msgid="7026351795627615177">"Να επιτρέπεται στην υπηρεσία <xliff:g id="SERVICE">%1$s</xliff:g> να έχει πρόσβαση στην υπηρεσία Εικονικής Πραγματικότητας;"</string>
@@ -5695,7 +5695,7 @@
     <string name="color_inversion_state_off" msgid="6925638668080451724">"Ανενεργή"</string>
     <string name="color_inversion_feature_summary" msgid="1199876648549627647">"Μετατρέπει τις ανοιχτόχρωμες οθόνες σε σκουρόχρωμες και τις σκουρόχρωμες οθόνες σε ανοιχτόχρωμες"</string>
     <string name="magnification_feature_summary" msgid="2053971569640663564">"Μεγεθύνετε στην οθόνη"</string>
-    <string name="autoclick_disabled" msgid="3213396804955002120">"Ανενεργή"</string>
+    <string name="autoclick_disabled" msgid="3213396804955002120">"Ανενεργό"</string>
     <string name="show_captions_disabled" msgid="690650956523818755">"Ανενεργή"</string>
     <string name="show_captions_enabled" msgid="7089043007924626">"Ενεργή"</string>
     <string name="live_caption_disabled" msgid="3562035026547887366">"Ανενεργή"</string>

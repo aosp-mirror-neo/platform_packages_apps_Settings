@@ -279,9 +279,7 @@
     <string name="terms_of_address_masculine" msgid="983106046135098856">"مذکر"</string>
     <string name="terms_of_address_neutral" msgid="5475414185543112478">"نیوٹرل"</string>
     <string name="dlg_remove_locales_title" msgid="3170501604483612114">"{count,plural, =1{منتخب کردہ زبان ہٹائیں؟}other{منتخب کردہ زبانوں کو ہٹائیں؟}}"</string>
-    <!-- String.format failed for translation -->
-    <!-- no translation found for dlg_remove_system_locales_title (7626516786258866543) -->
-    <skip />
+    <string name="dlg_remove_system_locales_title" msgid="7626516786258866543">"‏سسٹم کی زبان کو %s پر تبدیل کریں؟"</string>
     <string name="dlg_remove_locales_message" msgid="6636637008013310242">"<xliff:g id="LANGUAGE">%s</xliff:g> کو آپ کی ترجیحی زبانوں سے ہٹا دیا جائے گا"</string>
     <string name="dlg_remove_locales_error_title" msgid="5875503658221562572">"ساری زبانیں نہیں ہٹا سکتا"</string>
     <string name="dlg_remove_locales_error_message" msgid="6504279959974675302">"کم از کم ایک ترجیحی زبان رکھیں"</string>
@@ -2157,7 +2155,7 @@
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"ماؤس کیز کا استعمال کریں"</string>
     <string name="accessibility_mouse_keys_shortcut_title" msgid="7621635104533584115">"ماؤس کنٹرول کرنے کی کلیدوں کا شارٹ کٹ"</string>
     <string name="mouse_keys_summary" msgid="6512910710030108693">"کرسر کو کنٹرول کرنے کے لیے اپنا کی بورڈ استعمال کریں"</string>
-    <string name="mouse_keys_max_speed_title" msgid="2651688711606971145">"رفتار سے متعلق ڈیٹا"</string>
+    <string name="mouse_keys_max_speed_title" msgid="2651688711606971145">"رفتار"</string>
     <string name="mouse_keys_seek_bar_decrease_button_description" msgid="9077624857206032509">"کم کریں"</string>
     <string name="mouse_keys_seek_bar_increase_button_description" msgid="2721662400858172203">"بڑھائیں"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"ریورس اسکرولنگ"</string>

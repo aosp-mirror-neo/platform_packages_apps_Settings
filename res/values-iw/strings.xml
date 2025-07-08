@@ -2135,7 +2135,7 @@
     <string name="keyboard_a11y_category" msgid="8230758278046841469">"נגישות"</string>
     <string name="physical_keyboard_title" msgid="3328134097512350958">"מקלדת פיזית"</string>
     <string name="physical_keyboard_layout_picker_title" msgid="4526600767648916256">"כלי לבחירה של פריסת המקלדת הפיזית"</string>
-    <string name="bounce_keys" msgid="7419450970351743904">"מקשים חוזרים"</string>
+    <string name="bounce_keys" msgid="7419450970351743904">"סינון הקשות חוזרות"</string>
     <string name="bounce_keys_summary" msgid="8890925059943636911">"התעלמות מהקשות מהירות חוזרות על אותו מקש"</string>
     <string name="bounce_keys_dialog_title" msgid="1090578395028456023">"השהיה לסינון הקשות חוזרות"</string>
     <string name="bounce_keys_dialog_subtitle" msgid="6804676895876861863">"כמה זמן המקלדת תתעלם מהקשות חוזרות על מקשים"</string>
@@ -2147,11 +2147,11 @@
     <string name="input_setting_keys_custom_value" msgid="4455905650507193648">"ערך מותאם אישית"</string>
     <string name="input_setting_bounce_keys_seekbar_desc" msgid="4575595566548124309">"פרק הזמן המינימלי לסינון הקשות חוזרות"</string>
     <string name="input_setting_slow_keys_seekbar_desc" msgid="2171726970136563995">"פרק הזמן המינימלי להאטת המקשים"</string>
-    <string name="slow_keys" msgid="2891452895499690837">"מקשים איטיים"</string>
+    <string name="slow_keys" msgid="2891452895499690837">"האטת המקשים"</string>
     <string name="slow_keys_summary" msgid="3852534180402969185">"שינוי משך הזמן שבו צריך ללחוץ לחיצה ארוכה על מקש לפני שהלחיצה נרשמת"</string>
     <string name="sticky_keys" msgid="7317317044898161747">"מקשים \"דביקים\""</string>
-    <string name="sticky_keys_summary" msgid="1844953803625480623">"מקישים אחד-אחד על רצף של מקשי קיצור, ולא צריך ללחוץ עליהם בו-זמנית."</string>
-    <string name="mouse_keys" msgid="6237254627808525540">"מקשי העכבר"</string>
+    <string name="sticky_keys_summary" msgid="1844953803625480623">"הקשה על מקש אחד בכל פעם במקום על כמה מקשים בו-זמנית בשביל ליצור רצף של מקשי קיצור."</string>
+    <string name="mouse_keys" msgid="6237254627808525540">"שליטה בעכבר מהמקלדת"</string>
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"שימוש בתכונה \"שליטה בעכבר מהמקלדת\""</string>
     <string name="accessibility_mouse_keys_shortcut_title" msgid="7621635104533584115">"קיצור דרך לשליטה בעכבר מהמקלדת"</string>
     <string name="mouse_keys_summary" msgid="6512910710030108693">"שליטה בסמן באמצעות המקלדת"</string>
@@ -2177,11 +2177,11 @@
     <string name="mouse_key_main_page_title" msgid="8051692181770475257">"שליטה בעכבר מהמקלדת <xliff:g id="KEYBOARD_NAME">%s</xliff:g>"</string>
     <string name="mouse_keys_directional_summary" msgid="2215425656757420699">"כדי להזיז את סמן העכבר, משתמשים במקשים <xliff:g id="DIRECTIONAL_LABEL">%s</xliff:g>"</string>
     <string name="mouse_keys_click_summary" msgid="8271700153598258484">"כדי ללחוץ על הכפתור הראשי בעכבר, מקישים על <xliff:g id="CLICK_LABEL">%s</xliff:g>"</string>
-    <string name="mouse_keys_press_hold_summary" msgid="112969663769147732">"כדי ללחוץ לחיצה ארוכה על כפתור העכבר הראשי, מקישים על <xliff:g id="PRESS_HOLD_LABEL">%s</xliff:g>"</string>
+    <string name="mouse_keys_press_hold_summary" msgid="112969663769147732">"כדי ללחוץ לחיצה ארוכה על כפתור העכבר הראשי, מקישים על \"<xliff:g id="PRESS_HOLD_LABEL">%s</xliff:g>\""</string>
     <string name="mouse_keys_release_summary" msgid="7209370896835993434">"כדי לשחרר את הכפתור הראשי בעכבר, מקישים על \"<xliff:g id="RELEASE_LABEL">%s</xliff:g>\""</string>
-    <string name="mouse_keys_toggle_scroll_summary" msgid="7492663135290108272">"כדי להחליף בין מצבי הגלילה, מקישים על \"<xliff:g id="RELEASE_LABEL_1">%1$s</xliff:g>\" הפעולה הזו תגרום למקשים <xliff:g id="RELEASE_LABEL_2">%2$s</xliff:g> לגלול את התצוגה למעלה, למטה, שמאלה או ימינה"</string>
+    <string name="mouse_keys_toggle_scroll_summary" msgid="7492663135290108272">"כדי להחליף בין מצבי הגלילה, מקישים על \"<xliff:g id="RELEASE_LABEL_1">%1$s</xliff:g>\" – הפעולה הזו תגרום למקשים <xliff:g id="RELEASE_LABEL_2">%2$s</xliff:g> לגלול את התצוגה למעלה, למטה, שמאלה או ימינה"</string>
     <string name="mouse_keys_release2_summary" msgid="5504548339731577210">"כדי ללחוץ על הכפתור המשני בעכבר, מקישים על \"<xliff:g id="RELEASE_2_LABEL">%s</xliff:g>\""</string>
-    <string name="mouse_keys_acceleration_seekbar_title" msgid="2329098889930361504">"הגברת המהירות"</string>
+    <string name="mouse_keys_acceleration_seekbar_title" msgid="2329098889930361504">"קצב ההאצה"</string>
     <string name="mouse_keys_acceleration_fast_icon_desc" msgid="4426188473271579794">"מהר"</string>
     <string name="mouse_keys_acceleration_slow_icon_desc" msgid="8370777074987200135">"לאט"</string>
     <string name="keyboard_shortcuts_helper" msgid="6934420811737731188">"צפייה במקשי הקיצור"</string>
@@ -2196,18 +2196,18 @@
     <string name="trackpad_settings_summary" msgid="3369855644136760402">"מהירות המצביע, תנועות"</string>
     <string name="trackpad_tap_to_click" msgid="1938230946542070746">"נוגעים נגיעה קלה"</string>
     <string name="trackpad_tap_dragging_title" msgid="4198317837427535015">"לחיצה וגרירה כדי להזיז פריטים"</string>
-    <string name="trackpad_tap_dragging_summary" msgid="5605534150661601073">"אפשר ללחוץ לחיצה כפולה ולגרור את האצבע על לוח המגע כדי להזיז אובייקטים"</string>
+    <string name="trackpad_tap_dragging_summary" msgid="5605534150661601073">"כדי להזיז פריטים, אפשר יהיה ללחוץ לחיצה כפולה ולגרור את האצבע על לוח המגע"</string>
     <string name="trackpad_touchpad_gesture_title" msgid="7568052847609914436">"תנועות בלוח המגע"</string>
     <string name="trackpad_touchpad_gesture_summary" msgid="6256074591395359124">"התאמה אישית של תנועות ניווט נפרדות בלוח המגע"</string>
     <string name="trackpad_reverse_scrolling_title" msgid="422877284529360866">"גלילה הפוכה"</string>
     <string name="trackpad_reverse_scrolling_summary" msgid="6048648562887499036">"התוכן זז למעלה כשגוללים למטה"</string>
-    <string name="trackpad_bottom_right_tap_title" msgid="230337692279220068">"לחיצה ימנית למטה"</string>
-    <string name="trackpad_bottom_right_tap_summary" msgid="4467915480282133447">"לוחצים על הפינה הימנית התחתונה של לוח המגע לאפשרויות נוספות"</string>
-    <string name="trackpad_pointer_speed" msgid="7786579408631352625">"מהירות המצביע"</string>
+    <string name="trackpad_bottom_right_tap_title" msgid="230337692279220068">"לחיצה בפינה הימנית התחתונה"</string>
+    <string name="trackpad_bottom_right_tap_summary" msgid="4467915480282133447">"קיצור דרך לאפשרויות נוספות בפינת לוח המגע"</string>
+    <string name="trackpad_pointer_speed" msgid="7786579408631352625">"מהירות סמן העכבר"</string>
     <string name="trackpad_pointer_speed_make_faster_desc" msgid="2855950278314583596">"הגברת מהירות הסמן"</string>
     <string name="trackpad_pointer_speed_make_slower_desc" msgid="6577850228762978827">"האטת מהירות הסמן"</string>
     <string name="three_finger_tap_preference_title" msgid="1836080810837854140">"לחיצה בשלוש אצבעות"</string>
-    <string name="touchpad_acceleration_title" msgid="176627555191021888">"רמת ההאצה בלוח המגע"</string>
+    <string name="touchpad_acceleration_title" msgid="176627555191021888">"האצה בלוח המגע"</string>
     <string name="touchpad_acceleration_summary" msgid="8057075483967535793">"תנועה מהירה יותר על לוח המגע תזיז את הסמן רחוק יותר"</string>
     <string name="pointer_fill_style" msgid="8794616790175016092">"הצבע של סמן העכבר"</string>
     <string name="pointer_fill_style_black_button" msgid="4540815366995820960">"שינוי סגנון המילוי של המצביע לשחור"</string>
@@ -2249,19 +2249,19 @@
     <string name="action_corner_title" msgid="7411160165577367757">"התאמה אישית של קיצורי הדרך בפינות"</string>
     <string name="action_corner_summary" msgid="695618538930535335">"אפשר לנווט במערכת בעזרת הסמנים"</string>
     <string name="action_corner_intro" msgid="2170609118659718140">"כדי להתאים אישית את קיצורי הדרך בפינות, צריך לבחור את האזורים הבאים"</string>
-    <string name="action_corner_bottom_left_title" msgid="2857258272736432174">"הפינה השמאלית התחתונה"</string>
-    <string name="action_corner_bottom_right_title" msgid="7222233500548465684">"הפינה הימנית התחתונה"</string>
-    <string name="action_corner_top_left_title" msgid="4633975226092344210">"הפינה השמאלית העליונה"</string>
-    <string name="action_corner_top_right_title" msgid="4995999693840776032">"הפינה הימנית העליונה"</string>
+    <string name="action_corner_bottom_left_title" msgid="2857258272736432174">"הפינה הימנית התחתונה"</string>
+    <string name="action_corner_bottom_right_title" msgid="7222233500548465684">"הפינה השמאלית התחתונה"</string>
+    <string name="action_corner_top_left_title" msgid="4633975226092344210">"הפינה הימנית העליונה"</string>
+    <string name="action_corner_top_right_title" msgid="4995999693840776032">"הפינה השמאלית העליונה"</string>
     <string name="action_corner_action_none" msgid="5203163099950649999">"ללא"</string>
     <string name="action_corner_action_home" msgid="6779642573582379579">"מסך הבית"</string>
     <string name="action_corner_action_recent_apps" msgid="7450480676812648813">"האפליקציות האחרונות"</string>
     <string name="action_corner_action_notifications" msgid="3779353356349774469">"התראות"</string>
     <string name="action_corner_action_quick_settings" msgid="4660901117283653069">"הגדרות מהירות"</string>
-    <string name="action_corner_action_dialog_title" msgid="8253240813317885237">"בחירת קיצור דרך אל <xliff:g id="CORNER">%1$s</xliff:g>"</string>
+    <string name="action_corner_action_dialog_title" msgid="8253240813317885237">"בחירת קיצור דרך ל<xliff:g id="CORNER">%1$s</xliff:g>"</string>
     <string name="action_corner_bottom_left_name" msgid="9193788067022476544">"הפינה השמאלית התחתונה"</string>
     <string name="action_corner_bottom_right_name" msgid="1031603363418505375">"הפינה הימנית התחתונה"</string>
-    <string name="action_corner_top_left_name" msgid="8077670910600032291">"הפינה השמאלית העליונה"</string>
+    <string name="action_corner_top_left_name" msgid="8077670910600032291">"פינה הימנית העליונה"</string>
     <string name="action_corner_top_right_name" msgid="6307321595919080297">"הפינה הימנית העליונה"</string>
     <string name="modifier_keys_settings" msgid="2537108435032034683">"מקשי צירוף"</string>
     <string name="modifier_keys_settings_summary" msgid="6933143361657444436">"שינוי ההתנהגות של המקשים"</string>
@@ -3845,8 +3845,8 @@
     <string name="notification_history_open_notification" msgid="2655071846911258371">"פתיחת ההתראה"</string>
     <string name="snooze_options_title" msgid="2109795569568344617">"הפעלת האפשרות להעביר התראות למצב \'נודניק\'"</string>
     <string name="notification_badging_title" msgid="5469616894819568917">"סימן ההתראות בסמל האפליקציה"</string>
-    <string name="notification_bundles" msgid="496852738958148317">"Notification Organizer"</string>
-    <string name="notification_bundle_promotions_summary" msgid="3196830882575438887">"מכירות, תכונות חדשות ועוד"</string>
+    <string name="notification_bundles" msgid="496852738958148317">"הכלי לארגון התראות"</string>
+    <string name="notification_bundle_promotions_summary" msgid="3196830882575438887">"מבצעים, תכונות חדשות ועוד"</string>
     <string name="notification_bundle_news_summary" msgid="2524877244105778120">"כתבות מובילות, מאמרי דעה ועוד"</string>
     <string name="notification_bundle_social_summary" msgid="1880042768055317701">"לייקים, פוסטים ועוד"</string>
     <string name="notification_bundle_recs_summary" msgid="9200357300848343691">"ניוזלטרים, המלצות על מדיה ועוד"</string>
@@ -4009,10 +4009,10 @@
     <string name="notification_polite_description" msgid="6137533404978878957">"אם יתקבלו הרבה הודעות בפרק זמן קצר, המכשיר ינמיך את עוצמת הקול ויצמצם את כמות ההתראות למשך דקה לכל היותר. ההגדרה הזו לא משפיעה על שיחות טלפון, שעונים מעוררים, התרעות חשובות ושיחות בעדיפות גבוהה. \n\nכדי לראות את ההתראות שהתקבלו במהלך ההפוגה, אפשר להחליק למטה מהחלק העליון של המסך."</string>
     <string name="notification_polite_work" msgid="8823596456640216391">"הפעלה בפרופילי העבודה"</string>
     <string name="notification_polite_work_summary" msgid="5014189280132951378">"הפעלה באפליקציות של פרופיל העבודה"</string>
-    <string name="notification_bundle_title" msgid="6679586974995981433">"Notification Organizer"</string>
+    <string name="notification_bundle_title" msgid="6679586974995981433">"הכלי לארגון התראות"</string>
     <string name="notification_bundle_summary" msgid="8924550009829960969">"קיבוץ והשתקה של התראות בעדיפות נמוכה"</string>
-    <string name="notification_bundle_main_control_title" msgid="2632661768990540295">"‏שימוש ב-Notification Organizer"</string>
-    <string name="notification_bundle_description" msgid="8439963475488583612">"‏בוחרים את סוגי ההתראות שרוצים להשתיק ולקבץ יחד כדי לצמצם את ההפרעות. ההתראות מקובצות על ידי AI, ועלולות להיות שגיאות."</string>
+    <string name="notification_bundle_main_control_title" msgid="2632661768990540295">"שימוש בכלי לארגון התראות"</string>
+    <string name="notification_bundle_description" msgid="8439963475488583612">"‏התראות מסיחות את דעתך? כאן אפשר לבחור סוגים של התראות ולהשתיק או לקבץ אותם. ההתראות מקובצות על ידי AI, ועלולות להיות שגיאות."</string>
     <string name="notification_app_level_bundle_title" msgid="8917807675495480483">"קיבוץ של התראות"</string>
     <string name="notification_app_level_bundle_subtext" msgid="7330731485247761388">"התראות בנושאים דומים יושתקו ויקובצו יחד כדי לספק חוויית שימוש שקטה יותר"</string>
     <string name="notification_bundle_manage_excluded_apps_title" msgid="7019831234073590293">"מתן אישור לקבץ התראות מאפליקציות"</string>

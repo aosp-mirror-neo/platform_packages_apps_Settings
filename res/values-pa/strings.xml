@@ -1457,7 +1457,7 @@
     <string name="dark_ui_bedtime_footer_action" msgid="1493095487994054339">"ਬੈੱਡਟਾਈਮ ਮੋਡ ਸੰਬੰਧੀ ਸੈਟਿੰਗਾਂ"</string>
     <string name="dark_ui_modes_footer_summary" msgid="1041117250408363391">"{count,plural,offset:2 =0{ਮੋਡ ਗੂੜ੍ਹੇ ਥੀਮ ਨੂੰ ਵੀ ਕਿਰਿਆਸ਼ੀਲ ਕਰ ਸਕਦਾ ਹੈ}=1{{mode_1} ਗੂੜ੍ਹੇ ਥੀਮ ਨੂੰ ਵੀ ਕਿਰਿਆਸ਼ੀਲ ਕਰ ਸਕਦਾ ਹੈ}=2{{mode_1} ਅਤੇ {mode_2} ਗੂੜ੍ਹੇ ਥੀਮ ਨੂੰ ਵੀ ਕਿਰਿਆਸ਼ੀਲ ਕਰ ਸਕਦੇ ਹਨ}=3{{mode_1}, {mode_2} ਅਤੇ {mode_3} ਗੂੜ੍ਹੇ ਥੀਮ ਨੂੰ ਵੀ ਕਿਰਿਆਸ਼ੀਲ ਕਰ ਸਕਦੇ ਹਨ}other{{mode_1}, {mode_2} ਅਤੇ # ਹੋਰ ਗੂੜ੍ਹੇ ਥੀਮ ਨੂੰ ਵੀ ਕਿਰਿਆਸ਼ੀਲ ਕਰ ਸਕਦੇ ਹਨ}}"</string>
     <string name="dark_ui_modes_footer_action" msgid="80671811848446248">"ਮੋਡਾਂ ਦੀਆਂ ਸੈਟਿੰਗਾਂ"</string>
-    <string name="hdr_brigtness_text" msgid="1912629316654528876">"ਹਾਈ ਡਾਇਨਾਮਿਕ ਰੇਂਜ (HDR) ਵਾਲੇ ਚਿੱਤਰਾਂ ਅਤੇ ਵੀਡੀਓ ਵਿੱਚ ਚਮਕ ਵਧਾ ਕੇ ਰੰਗ ਦੀ ਰੇਂਜ ਅਤੇ ਸਪਸ਼ਟਤਾ ਦਾ ਵਿਸਤਾਰ ਕਰੋ। HDR ਸਮੱਗਰੀ ਜ਼ਿਆਦਾ ਚਮਕਦਾਰ ਦਿਖਾਈ ਦੇਵੇਗੀ।"</string>
+    <string name="hdr_brigtness_text" msgid="1912629316654528876">"ਇਹ ਵਿਸ਼ੇਸ਼ਤਾ ਹਾਈ ਡਾਇਨਾਮਿਕ ਰੇਂਜ (HDR) ਵਾਲੇ ਚਿੱਤਰਾਂ ਅਤੇ ਵੀਡੀਓ ਵਿੱਚ ਚਮਕ ਵਧਾ ਕੇ ਰੰਗ ਦੀ ਰੇਂਜ ਦਾ ਵਿਸਤਾਰ ਕਰਦੀ ਹੈ ਅਤੇ ਸਪਸ਼ਟਤਾ ਨੂੰ ਵਧਾਉਂਦੀ ਹੈ। ਇਸ ਨਾਲ HDR ਸਮੱਗਰੀ ਜ਼ਿਆਦਾ ਚਮਕਦਾਰ ਦਿਖਾਈ ਦੇਵੇਗੀ।"</string>
     <string name="screen_timeout" msgid="7709947617767439410">"ਸਕ੍ਰੀਨ ਸਮਾਂ ਸਮਾਪਤੀ"</string>
     <string name="screen_timeout_summary" msgid="5558778019594643427">"<xliff:g id="TIMEOUT_DESCRIPTION">%1$s</xliff:g> ਤੱਕ ਕੋਈ ਸਰਗਰਮੀ ਨਾ ਹੋਣ \'ਤੇ"</string>
     <string name="screen_timeout_summary_not_set" msgid="5107680774964178875">"ਸੈੱਟ ਨਹੀਂ ਕੀਤਾ ਗਿਆ"</string>
@@ -2162,7 +2162,7 @@
     <string name="mouse_keys_use_primary_keys_title" msgid="525897583406210252">"ਪ੍ਰਾਇਮਰੀ ਕੁੰਜੀਆਂ ਵਰਤੋ"</string>
     <string name="mouse_keys_reset_button_label" msgid="513004295662247230">"ਸੈਟਿੰਗਾਂ ਨੂੰ ਰੀਸੈੱਟ ਕਰੋ"</string>
     <string name="mouse_keys_primary_keys_image_list_title" msgid="7470827693078490251">"ਪ੍ਰਾਇਮਰੀ ਕੁੰਜੀਆਂ ਨੂੰ ਵਰਤਣ ਦਾ ਤਰੀਕਾ"</string>
-    <string name="mouse_keys_numpad_keys_image_list_title" msgid="6682341389811538017">"ਸੰਖਿਆਵਾਚੀ ਕੀਪੈਡ ਨੂੰ ਵਰਤਣ ਦਾ ਤਰੀਕਾ"</string>
+    <string name="mouse_keys_numpad_keys_image_list_title" msgid="6682341389811538017">"ਸੰਖਿਆਤਮਿਕ ਕੀਪੈਡ ਨੂੰ ਵਰਤਣ ਦਾ ਤਰੀਕਾ"</string>
     <string name="mouse_keys_numpad_keys_image_list_summary" msgid="2728318055237217919">"Num Lock ਚਾਲੂ ਹੋਣ \'ਤੇ ਹਮੇਸ਼ਾਂ ਸੰਖਿਆਵਾਚੀ ਕੀਪੈਡ ਵਰਤਿਆ ਜਾਵੇਗਾ"</string>
     <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"ਪੰਨੇ ਨੂੰ ਹੇਠਾਂ ਲਿਜਾਉਣ ਲਈ ਉੱਪਰ ਵੱਲ ਸਕ੍ਰੋਲ ਕਰੋ"</string>
     <string name="mouse_scrolling_category_title" msgid="2992126595687187296">"ਸਕ੍ਰੋਲਿੰਗ"</string>
@@ -2246,19 +2246,19 @@
     <string name="gesture_button_next" msgid="695288092704187356">"ਅੱਗੇ"</string>
     <string name="gesture_button_restart" msgid="1895850891992530133">"ਮੁੜ-ਸ਼ੁਰੂ ਕਰੋ"</string>
     <string name="gesture_button_done" msgid="6387900351203032188">"ਹੋ ਗਿਆ"</string>
-    <string name="action_corner_title" msgid="7411160165577367757">"ਕਾਰਵਾਈ ਵਾਲੇ ਕੋਨਿਆਂ ਨੂੰ ਵਿਉਂਤਬੱਧ ਕਰੋ"</string>
+    <string name="action_corner_title" msgid="7411160165577367757">"ਕੋਨਿਆਂ ਵਾਲੇ ਸ਼ਾਰਟਕੱਟ ਵਿਉਂਤਬੱਧ ਕਰੋ"</string>
     <string name="action_corner_summary" msgid="695618538930535335">"ਸਿਸਟਮ ਨੂੰ ਨੈਵੀਗੇਟ ਕਰਨ ਲਈ ਕਰਸਰਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ"</string>
-    <string name="action_corner_intro" msgid="2170609118659718140">"ਕਾਰਵਾਈ ਵਾਲੇ ਕੋਨਿਆਂ ਨੂੰ ਵਿਉਂਤਬੱਧ ਕਰਨ ਲਈ ਹੇਠਾਂ ਦਿੱਤੇ ਖੇਤਰਾਂ ਨੂੰ ਚੁਣੋ"</string>
+    <string name="action_corner_intro" msgid="2170609118659718140">"ਕੋਨਿਆਂ ਵਾਲੇ ਸ਼ਾਰਟਕੱਟ ਵਿਉਂਤਬੱਧ ਕਰਨ ਲਈ ਹੇਠਾਂ ਦਿੱਤੇ ਖੇਤਰਾਂ ਨੂੰ ਚੁਣੋ"</string>
     <string name="action_corner_bottom_left_title" msgid="2857258272736432174">"ਹੇਠਲਾ-ਖੱਬਾ ਕੋਨਾ"</string>
     <string name="action_corner_bottom_right_title" msgid="7222233500548465684">"ਹੇਠਲਾ-ਸੱਜਾ ਕੋਨਾ"</string>
     <string name="action_corner_top_left_title" msgid="4633975226092344210">"ਉੱਪਰਲਾ-ਖੱਬਾ ਕੋਨਾ"</string>
     <string name="action_corner_top_right_title" msgid="4995999693840776032">"ਉੱਪਰਲਾ-ਸੱਜਾ ਕੋਨਾ"</string>
     <string name="action_corner_action_none" msgid="5203163099950649999">"ਕੋਈ ਨਹੀਂ"</string>
-    <string name="action_corner_action_home" msgid="6779642573582379579">"ਘਰ"</string>
+    <string name="action_corner_action_home" msgid="6779642573582379579">"ਹੋਮ"</string>
     <string name="action_corner_action_recent_apps" msgid="7450480676812648813">"ਹਾਲੀਆ ਐਪਾਂ"</string>
     <string name="action_corner_action_notifications" msgid="3779353356349774469">"ਸੂਚਨਾਵਾਂ"</string>
     <string name="action_corner_action_quick_settings" msgid="4660901117283653069">"ਤਤਕਾਲ ਸੈਟਿੰਗਾਂ"</string>
-    <string name="action_corner_action_dialog_title" msgid="8253240813317885237">"<xliff:g id="CORNER">%1$s</xliff:g> ਲਈ ਕੋਈ ਸ਼ਾਰਟਕੱਟ ਚੁਣੋ"</string>
+    <string name="action_corner_action_dialog_title" msgid="8253240813317885237">"<xliff:g id="CORNER">%1$s</xliff:g> ਵਰਤਣ ਲਈ ਕੋਈ ਸ਼ਾਰਟਕੱਟ ਚੁਣੋ"</string>
     <string name="action_corner_bottom_left_name" msgid="9193788067022476544">"ਹੇਠਲਾ-ਖੱਬਾ ਕੋਨਾ"</string>
     <string name="action_corner_bottom_right_name" msgid="1031603363418505375">"ਹੇਠਲਾ-ਸੱਜਾ ਕੋਨਾ"</string>
     <string name="action_corner_top_left_name" msgid="8077670910600032291">"ਉੱਪਰਲਾ-ਖੱਬਾ ਕੋਨਾ"</string>

@@ -2258,7 +2258,7 @@
     <string name="action_corner_action_recent_apps" msgid="7450480676812648813">"最近使用的應用程式"</string>
     <string name="action_corner_action_notifications" msgid="3779353356349774469">"通知"</string>
     <string name="action_corner_action_quick_settings" msgid="4660901117283653069">"快速設定"</string>
-    <string name="action_corner_action_dialog_title" msgid="8253240813317885237">"選擇<xliff:g id="CORNER">%1$s</xliff:g>的快速鍵"</string>
+    <string name="action_corner_action_dialog_title" msgid="8253240813317885237">"選擇<xliff:g id="CORNER">%1$s</xliff:g>的捷徑"</string>
     <string name="action_corner_bottom_left_name" msgid="9193788067022476544">"左下角"</string>
     <string name="action_corner_bottom_right_name" msgid="1031603363418505375">"右下角"</string>
     <string name="action_corner_top_left_name" msgid="8077670910600032291">"左上角"</string>

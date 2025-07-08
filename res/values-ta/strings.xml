@@ -2173,7 +2173,7 @@
     <string name="mouse_swap_primary_button" msgid="4798006242525441304">"முதன்மை மவுஸ் பட்டனை மாற்றுதல்"</string>
     <string name="mouse_swap_primary_button_summary" msgid="3276638019321067902">"இடதுபுற மவுஸ் பட்டனை வலதுபுற பட்டனாகப் பயன்படுத்தலாம்"</string>
     <string name="mouse_pointer_acceleration" msgid="388336576055293329">"கர்சர் ஆக்ஸிலரேஷன்"</string>
-    <string name="mouse_pointer_acceleration_summary" msgid="6954407061360045792">"மவுஸை வேகமாக நகர்த்தினால் கர்சர் இன்னும் வேகமாக நகரும்"</string>
+    <string name="mouse_pointer_acceleration_summary" msgid="6954407061360045792">"மவுஸை வேகமாக நகர்த்தினால் கர்சர் தூரமாக நகரும்"</string>
     <string name="mouse_key_main_page_title" msgid="8051692181770475257">"<xliff:g id="KEYBOARD_NAME">%s</xliff:g>க்கான மவுஸ் பட்டன்கள்"</string>
     <string name="mouse_keys_directional_summary" msgid="2215425656757420699">"மவுஸ் பாயிண்ட்டரை நகர்த்த \"<xliff:g id="DIRECTIONAL_LABEL">%s</xliff:g>\" பட்டன்களைப் பயன்படுத்துங்கள்"</string>
     <string name="mouse_keys_click_summary" msgid="8271700153598258484">"முதன்மை மவுஸ் பட்டனைக் கிளிக் செய்ய \"<xliff:g id="CLICK_LABEL">%s</xliff:g>\" பட்டனைப் பயன்படுத்துங்கள்"</string>
@@ -2246,7 +2246,7 @@
     <string name="gesture_button_next" msgid="695288092704187356">"அடுத்து"</string>
     <string name="gesture_button_restart" msgid="1895850891992530133">"ரீஸ்டார்ட்"</string>
     <string name="gesture_button_done" msgid="6387900351203032188">"முடிந்தது"</string>
-    <string name="action_corner_title" msgid="7411160165577367757">"கார்னர் ஷார்ட்கட்களைப் பிரத்தியேகமாக்குங்கள்"</string>
+    <string name="action_corner_title" msgid="7411160165577367757">"கார்னர் ஷார்ட்கட்களைப் பிரத்தியேகமாக்குதல்"</string>
     <string name="action_corner_summary" msgid="695618538930535335">"கர்சர்களைப் பயன்படுத்தி சிஸ்டத்தில் வழிசெலுத்தலாம்"</string>
     <string name="action_corner_intro" msgid="2170609118659718140">"கார்னர் ஷார்ட்கட்களைப் பிரத்தியேகமாக்க பின்வரும் பகுதிகளைத் தேர்வுசெய்யுங்கள்"</string>
     <string name="action_corner_bottom_left_title" msgid="2857258272736432174">"கீழ் இடது மூலை"</string>
@@ -2258,7 +2258,7 @@
     <string name="action_corner_action_recent_apps" msgid="7450480676812648813">"சமீபத்திய ஆப்ஸ்"</string>
     <string name="action_corner_action_notifications" msgid="3779353356349774469">"அறிவிப்புகள்"</string>
     <string name="action_corner_action_quick_settings" msgid="4660901117283653069">"விரைவு அமைப்புகள்"</string>
-    <string name="action_corner_action_dialog_title" msgid="8253240813317885237">"<xliff:g id="CORNER">%1$s</xliff:g> என்பதற்கு ஷார்ட்கட்டைத் தேர்வுசெய்யுங்கள்"</string>
+    <string name="action_corner_action_dialog_title" msgid="8253240813317885237">"<xliff:g id="CORNER">%1$s</xliff:g>க்கு ஷார்ட்கட்டைத் தேர்வுசெய்யுங்கள்"</string>
     <string name="action_corner_bottom_left_name" msgid="9193788067022476544">"கீழ் இடது மூலை"</string>
     <string name="action_corner_bottom_right_name" msgid="1031603363418505375">"கீழ் வலது மூலை"</string>
     <string name="action_corner_top_left_name" msgid="8077670910600032291">"மேல் இடது மூலை"</string>
@@ -5364,7 +5364,7 @@
     <string name="confirm_enable_4k_pages_text" msgid="3398001587586470689">"4 KB கெர்னலை இயக்கும் பக்கம் சாராத பயன்முறையில் உள்ளீர்கள் மற்றும் 16 KB பயன்முறைக்கு மாறுகிறீர்கள். இந்தப் பயன்முறையில் மென்பொருளின் முழுமைத்தன்மைக்கு உத்திரவாதம் இல்லை. அத்துடன் பூட்லோடர் அன்லாக் செய்யப்பட்டிருக்கும்போது மொபைலில் சேமிக்கப்பட்ட அனைத்துத் தரவும் ஆபத்தில் இருக்கக்கூடும். இதனால் சாதனம் மறுபடி தொடங்கப்படும். இந்தப் பயன்முறைகளில் சில அம்சங்கள் முடக்கப்படும் என்பதால் சில ஆப்ஸ் வேலை செய்யாமல் போகக்கூடும். தயாரிப்புப் பயன்முறைக்குச் சாதனத்தை அமைக்க பூட்லோடரை லாக் செய்ய வேண்டும், இது சாதனத்தை ஆரம்பநிலைக்கு மீட்டமைக்கும். சாதனம் Androidல் தொடங்கியதும், டெவெலப்பர் விருப்பங்களில் OEM அன்லாக்கை முடக்கவும்."</string>
     <string name="toast_16k_update_failed_text" msgid="7848383020572918850">"கெர்னலை 16 KB பக்க இணக்கமான கெர்னலுக்குப் புதுப்பிக்க முடியவில்லை."</string>
     <string name="progress_16k_ota_title" msgid="2117218313875523741">"மாற்றங்கள் செயல்படுத்தப்படுகின்றன"</string>
-    <string name="confirm_ext4_button_text" msgid="697563319110759422">"எல்லாத் தரவையும் புதுப்பிப்பையும் அழி"</string>
+    <string name="confirm_ext4_button_text" msgid="697563319110759422">"எல்லாத் தரவையும் அழித்துவிட்டு புதுப்பி"</string>
     <string name="format_ext4_failure_toast" msgid="8059453995800471549">"தரவுப் பிரிப்பை ext4 ஃபைல் அமைப்பிற்கு மாற்றியமைக்கவும் படிக்க முடியாதபடி செய்யவும் முடியவில்லை."</string>
     <string name="confirm_oem_unlock_for_16k_title" msgid="6062041826568112078">"பூட்லோடர் அன்லாக் தேவை"</string>
     <string name="confirm_oem_unlock_for_16k_text" msgid="8089310116854544106">"16 KB டெவெலப்பர் விருப்பத்தைப் பயன்படுத்தத் தொடங்கும் முன் இந்தச் சாதனத்தில் பூட்லோடர் அன்லாக் செய்யப்பட்டிருக்க வேண்டும். இந்தப் பயன்முறையில் மென்பொருளின் முழுமைத்தன்மைக்கு உத்திரவாதம் இல்லை. அத்துடன் பூட்லோடர் அன்லாக் செய்யப்பட்டிருக்கும்போது மொபைலில் சேமிக்கப்பட்ட அனைத்துத் தரவும் ஆபத்தில் இருக்கக்கூடும். 16 KB பயன்முறையைச் செயல்படுத்தும்போது அனைத்துப் பயனர் தரவும் அமைப்புகளும் அழிக்கப்படும். பூட்லோடர் அன்லாக் செய்யப்பட்டதும், 16 KB விருப்பத்தைச் செயல்படுத்த இருமுறை மறுபடி தொடங்க வேண்டும். இந்தப் பயன்முறையில் இருக்கும்போது, ஒருமுறை மறுபடி தொடங்கி 4 KB மற்றும் 16 KB இடையே முன்னும் பின்னும் மாறிக்கொள்ளலாம். இந்தப் பயன்முறைகளில் சில அம்சங்கள் முடக்கப்படும் என்பதால் சில ஆப்ஸ் வேலை செய்யாமல் போகக்கூடும். தயாரிப்புப் பயன்முறைக்குச் சாதனத்தை அமைக்க 4 KB பயன்முறைக்கு மாற்ற வேண்டும். பின்பு OEM/பூட்லோடர் (சாதனத்தை ஆரம்பநிலைக்கு மீட்டமைக்கும்) சாதனத்தைப் பூட்டும். பூட்லோடரை அன்லாக் செய்து மீண்டும் முயலவும். இதைச் செய்யும் வழிமுறையை இங்கே பார்க்கலாம்: &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt;"</string>

@@ -2730,7 +2730,7 @@
     <string name="reduce_bright_colors_about_title" msgid="503655452544934393">"ଅତିରିକ୍ତ ଡିମ୍ ବିଷୟରେ"</string>
     <string name="reduce_bright_colors_preference_intro_text" msgid="3502290826747650566">"ଆପଣଙ୍କ ସ୍କ୍ରିନକୁ ଆହୁରି ଡିମ କରନ୍ତୁ ଯାହା ଫଳରେ ପଢ଼ିବା ଅଧିକ ଆରାମଦାୟକ ହେବ"</string>
     <string name="reduce_bright_colors_intensity_preference_title" msgid="7455443033955118267">"ତୀବ୍ରତା"</string>
-    <string name="reduce_bright_colors_intensity_start_label" msgid="930387498396426039">"ହାଲକା ଆଲୋକ"</string>
+    <string name="reduce_bright_colors_intensity_start_label" msgid="930387498396426039">"ଅନୁଜ୍ଜ୍ୱଳ"</string>
     <string name="reduce_bright_colors_intensity_end_label" msgid="1422600205484299860">"ଉଜ୍ଜ୍ୱଳତର"</string>
     <string name="reduce_bright_colors_persist_preference_title" msgid="4368829654993343354">"ଡିଭାଇସ ରିଷ୍ଟାର୍ଟ ହେବା ପରେ ଚାଲୁ ରଖନ୍ତୁ"</string>
     <string name="accessibilty_autoclick_preference_subtitle_short_delay" msgid="2981206111858937724">"{count,plural, =1{କମ ({time} ସେକେଣ୍ଡ)}other{କମ ({time} ସେକେଣ୍ଡ)}}"</string>
@@ -2838,7 +2838,7 @@
     <string name="power_usage_level_and_status" msgid="821521456989429593">"<xliff:g id="LEVEL">%1$s</xliff:g> - <xliff:g id="STATUS">%2$s</xliff:g>"</string>
     <string name="power_discharge_remaining" msgid="6997529817917076536">"<xliff:g id="REMAIN">%1$s</xliff:g> ଅବଶିଷ୍ଟ ଅଛି"</string>
     <string name="power_charge_remaining" msgid="7046064326172265116">"ଚାର୍ଜ କରିବା ପାଇଁ <xliff:g id="UNTIL_CHARGED">%1$s</xliff:g> ଲାଗିବ"</string>
-    <string name="power_usage_detail_screen_time" msgid="6027274749498485283">"ସ୍କ୍ରିନ ସମୟ"</string>
+    <string name="power_usage_detail_screen_time" msgid="6027274749498485283">"ସ୍କ୍ରିନ ଟାଇମ"</string>
     <string name="power_usage_detail_background_time" msgid="3661437083554322691">"ପୃଷ୍ଠପଟ ସମୟ"</string>
     <string name="low_battery_summary" msgid="4458925347316501953">"ବ୍ୟାଟେରୀ ସ୍ତର କମ୍ ଅଛି"</string>
     <string name="background_activity_summary" msgid="3817376868497046016">"ଆପ୍‌ଟିକୁ ବ୍ୟାକ୍‌ଗ୍ରାଉଣ୍ଡରେ ଚାଲିବାକୁ ଦିଅନ୍ତୁ"</string>
@@ -5358,7 +5358,7 @@
     <string name="track_frame_time_keywords" msgid="7885340257945922239">"GPU"</string>
     <string name="enable_16k_pages" msgid="1758111531461408337">"16 KB ପୃଷ୍ଠା ସାଇଜ ସହ ବୁଟ କରନ୍ତୁ"</string>
     <string name="enable_16k_pages_summary" msgid="1937836453571509085">"16 KB ପୃଷ୍ଠା ସାଇଜ ସପୋର୍ଟ କରୁଥିବା କର୍ନେଲ ବ୍ୟବହାର କରି ଡିଭାଇସ ବୁଟ କର"</string>
-    <string name="confirm_enable_16k_pages_title" msgid="5477376227161609124">"4 KB ମୋଡରୁ 16 KB ମୋଡକୁ ସୁଇଚ କରନ୍ତୁ"</string>
+    <string name="confirm_enable_16k_pages_title" msgid="5477376227161609124">"4 KB ମୋଡରୁ 16 KB ମୋଡକୁ ସ୍ୱିଚ କରନ୍ତୁ"</string>
     <string name="confirm_enable_16k_pages_update_wipe" msgid="4760548401414644138">"16 KB ଡେଭେଲପର ବିକଳ୍ପକୁ ବ୍ୟବହାର କରିବା ପୂର୍ବରୁ ଏହି ଡିଭାଇସର ଡାଟା ପାର୍ଟିସନ ext4କୁ କନଭର୍ଟ କରାଯିବା ଆବଶ୍ୟକ। ଡିଭାଇସକୁ ୱାଇପ କରାଯିବ ଏବଂ ସୁନିଶ୍ଚିତକରଣ ପରେ ଫାଇଲସିଷ୍ଟମକୁ ext4ରେ ପରିବର୍ତ୍ତନ କରାଯିବ। ଆପଣ ଏକ 4 KB କର୍ଣ୍ଣେଲରେ ଚାଲୁଥିବା ପ୍ରଡକ୍ସନ ମୋଡରେ ଅଛନ୍ତି ଏବଂ 16 KB ମୋଡକୁ ସ୍ୱିଚ କରୁଛନ୍ତି। ଆପଣ ଏହି ମୋଡରେ ଥିଲେ ଆପଣ ଗୋଟିଏ ସିଙ୍ଗଲ ରିବୁଟ ସହିତ 4 KB ଏବଂ 16 KB ମୋଡ ମଧ୍ୟରେ ଆଗକୁ ଏବଂ ପଛକୁ ସ୍ୱିଚ କରିପାରିବେ। ଏହି ମୋଡରେ ସଫ୍ଟୱେର ଇଣ୍ଟିଗ୍ରିଟିକୁ ଗେରେଣ୍ଟି ଦିଆଯାଇପାରିବ ନାହିଁ ଏବଂ ବୁଟଲୋଡର ଅନଲକ ଥିବା ସମୟରେ ଫୋନରେ ଷ୍ଟୋର କରାଯାଇଥିବା ଯେ କୌଣସି ଡାଟା ବିପଦରେ ପଡ଼ିପାରେ। ଏହି ମୋଡଗୁଡ଼ିକରେ କିଛି ଫିଚରକୁ ଅକ୍ଷମ କରିଦିଆଯିବ, ଯାହା ଫଳରେ କିଛି ଆପ୍ଲିକେସନ କାମ କରିନପାରେ। ଡିଭାଇସକୁ ପ୍ରଡକ୍ସନ ମୋଡକୁ ଫେରାଇ ଆଣିବା ପାଇଁ ଆପଣଙ୍କୁ 4 KB ମୋଡକୁ ପୁଣି ସ୍ୱିଚ କରି ବୁଟଲୋଡରକୁ ଲକ କରିବାକୁ ହେବ ଯାହା ଡିଭାଇସକୁ ଫେକ୍ଟୋରୀ ରିସେଟ କରେ। Androidରେ ସଫଳତାର ସହ ଡିଭାଇସ ବୁଟ ହେବା ପରେ ଡେଭେଲପର ବିକଳ୍ପରେ OEM ଅନଲକିଂକୁ ଅକ୍ଷମ କରନ୍ତୁ। ଆଗକୁ ବଢ଼ିବା ପାଇଁ, \'ସମସ୍ତ ଡାଟା ଇରେଜ କରି ଅପଡେଟ କରନ୍ତୁ\'ରେ କ୍ଲିକ କରନ୍ତୁ। ଏହା ଡିଭାଇସକୁ ରିବୁଟ କରିବ।"</string>
     <string name="confirm_enable_16k_pages_text" msgid="6211693250692246982">"ଆପଣ ଏକ 4 KB କର୍ଣ୍ଣେଲରେ ଚାଲୁଥିବା ପୃଷ୍ଠା-ଆଗ୍ନୋଷ୍ଟିକ ମୋଡରେ ଅଛନ୍ତି ଏବଂ 16 KB ମୋଡକୁ ସୁଇଚ କରୁଛନ୍ତି। ଏହି ମୋଡରେ ସଫ୍ଟୱେର ଇଣ୍ଟିଗ୍ରିଟିକୁ ଗେରେଣ୍ଟି ଦିଆଯାଇପାରିବ ନାହିଁ ଏବଂ ବୁଟଲୋଡର ଅନଲକ ଥିବା ସମୟରେ ଫୋନରେ ଷ୍ଟୋର କରାଯାଇଥିବା ଯେ କୌଣସି ଡାଟା ବିପଦରେ ପଡ଼ିପାରେ। ଏହା ଡିଭାଇସକୁ ରିବୁଟ କରିବ। ଏହି ମୋଡଗୁଡ଼ିକରେ କିଛି ଫିଚରକୁ ଅକ୍ଷମ କରିଦିଆଯିବ, ଯାହା ଫଳରେ କିଛି ଆପ୍ଲିକେସନ କାମ କରିନପାରେ। ଡିଭାଇସକୁ ପ୍ରଡକ୍ସନ ମୋଡକୁ ଫେରାଇ ଆଣିବା ପାଇଁ ଆପଣଙ୍କୁ 4 KB ମୋଡକୁ ପୁଣି ସୁଇଚ କରି ବୁଟଲୋଡରକୁ ଲକ କରିବାକୁ ହେବ ଯାହା ଡିଭାଇସକୁ ଫେକ୍ଟୋରୀ ରିସେଟ କରେ। Androidରେ ସଫଳତାର ସହ ଡିଭାଇସ ବୁଟ ହେବା ପରେ ଡେଭେଲପର ବିକଳ୍ପରେ OEM ଅନଲକିଂକୁ ଅକ୍ଷମ କରନ୍ତୁ।"</string>
     <string name="confirm_enable_4k_pages_title" msgid="3001009010581393119">"4 KB ମୋଡରୁ 16 KB ମୋଡକୁ ସୁଇଚ କରନ୍ତୁ"</string>
@@ -5860,7 +5860,7 @@
     <string name="search_gesture_feature_title" msgid="7037117019612710960">"ସର୍ଚ୍ଚ କରିବାକୁ ସର୍କଲ କରନ୍ତୁ"</string>
     <string name="search_gesture_feature_summary" msgid="1793056495030564014">"ଆପଣଙ୍କ ସ୍କ୍ରିନରେ ଥିବା ବିଷୟବସ୍ତୁକୁ ବ୍ୟବହାର କରି ସର୍ଚ୍ଚ କରିବା ପାଇଁ ହୋମ ବଟନ କିମ୍ବା ନାଭିଗେସନ ହେଣ୍ଡେଲକୁ ସ୍ପର୍ଶ କରି ଧରି ରଖନ୍ତୁ।"</string>
     <string name="device_detail_icon_content_description" msgid="6699151424374841937">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>। ଡିଭାଇସ ବିବରଣୀ କନଫିଗର କରନ୍ତୁ।"</string>
-    <string name="supervision_settings_title" msgid="8507163323870367711">"ବାପାମାଙ୍କ ନିୟନ୍ତ୍ରଣଗୁଡ଼ିକ"</string>
+    <string name="supervision_settings_title" msgid="8507163323870367711">"ବାପାମାଙ୍କ ନିୟନ୍ତ୍ରଣ"</string>
     <string name="supervision_settings_summary" msgid="6304257872307136073">"ଡିଜିଟାଲ ଗ୍ରାଉଣ୍ଡ ରୁଲ୍ସ ଏବଂ ସ୍କ୍ରିନ ଟାଇମ ସୀମା"</string>
     <string name="device_supervision_switch_no_pin_summary" msgid="4869563544571033220">"PIN ସେଟ ଅପ କରନ୍ତୁ"</string>
     <string name="keywords_supervision_settings" msgid="43064288661561602">"ନିରୀକ୍ଷଣ, ବାପାମାଙ୍କ ନିୟନ୍ତ୍ରଣ, ବାପାମା, ନିରୀକ୍ଷଣ PIN, PIN"</string>

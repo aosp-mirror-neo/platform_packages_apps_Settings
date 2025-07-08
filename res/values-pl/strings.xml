@@ -224,7 +224,7 @@
     <string name="title_change_system_locale" msgid="4102991236063984803">"Zmienić język systemu na %s?"</string>
     <string name="title_system_locale_addition" msgid="8218683660751479466">"Dodać %s do preferowanych języków?"</string>
     <string name="desc_system_locale_addition" msgid="3409917362651596070">"Informuje to aplikacje i strony, że preferujesz również ten język."</string>
-    <string name="desc_notice_device_locale_and_region_settings_change" msgid="909261686577914396">"Urządzenie wybierz język <xliff:g id="LANGUAGE">%1$s</xliff:g> i region zostanie zmieniony na <xliff:g id="REGION">%2$s</xliff:g>."</string>
+    <string name="desc_notice_device_locale_and_region_settings_change" msgid="909261686577914396">"Urządzenie wybierze język <xliff:g id="LANGUAGE">%1$s</xliff:g> i region zostanie zmieniony na <xliff:g id="REGION">%2$s</xliff:g>."</string>
     <string name="desc_notice_device_locale_settings_change" msgid="5012353615235634881">"Urządzenie wybierze język <xliff:g id="LANGUAGE">%s</xliff:g>."</string>
     <string name="dlg_desc_delete_preferred_default_locale" msgid="690828405078078513">"Język <xliff:g id="REMOVED_LANGUAGE">%s</xliff:g> zostanie usunięty z listy preferowanych języków"</string>
     <string name="button_label_confirmation_of_system_locale_change" msgid="5593798559604894733">"Zmień"</string>
@@ -2360,7 +2360,7 @@
     <string name="accessibility_pointer_color_customization_title" msgid="2841888132681075999">"Kolor kursora"</string>
     <string name="accessibility_pointer_title" msgid="7427650233669997010">"Kursor"</string>
     <string name="accessibility_touchpad_title" msgid="5798458334122685642">"Touchpad"</string>
-    <string name="accessibility_touchpad_system_gestures_enable_title" msgid="1867179109603472062">"Używaj gestów z 3 i 4 palcami"</string>
+    <string name="accessibility_touchpad_system_gestures_enable_title" msgid="1867179109603472062">"Używaj gestów wykonywanych 3 lub 4 palcami"</string>
     <string name="accessibility_touchpad_system_gestures_enable_summary" msgid="7076378989016181266">"Gdy ta opcja jest wyłączona, touchpad ignoruje gesty wykonywane 3 i 4 palcami"</string>
     <string name="keywords_accessibility_touchpad_system_gestures_enable" msgid="4406441971607855466">"touchpad, trackpad, przesuń"</string>
     <string name="accessibility_color_contrast_title" msgid="5757724357142452378">"Kontrast kolorów"</string>
@@ -4011,7 +4011,7 @@
     <string name="notification_polite_work_summary" msgid="5014189280132951378">"Zastosuj w aplikacjach profilu służbowego"</string>
     <string name="notification_bundle_title" msgid="6679586974995981433">"Narzędzie do porządkowania powiadomień"</string>
     <string name="notification_bundle_summary" msgid="8924550009829960969">"Zgrupuj i wycisz powiadomienia o niższym priorytecie"</string>
-    <string name="notification_bundle_main_control_title" msgid="2632661768990540295">"Użyj narzędzia do porządkowania powiadomień"</string>
+    <string name="notification_bundle_main_control_title" msgid="2632661768990540295">"Używaj narzędzia do porządkowania powiadomień"</string>
     <string name="notification_bundle_description" msgid="8439963475488583612">"Wybierz typy powiadomień, które chcesz wyciszyć i zgrupować, aby otrzymywać ich mniej. Grupowanie jest oparte na AI i mogą zdarzać się błędy."</string>
     <string name="notification_app_level_bundle_title" msgid="8917807675495480483">"Grupuj powiadomienia"</string>
     <string name="notification_app_level_bundle_subtext" msgid="7330731485247761388">"Powiadomienia o podobnych tematach będą wyciszane i grupowane, żeby Ci nie przeszkadzać"</string>

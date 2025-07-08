@@ -2258,7 +2258,7 @@
     <string name="action_corner_action_recent_apps" msgid="7450480676812648813">"Վերջին օգտագործած հավելվածները"</string>
     <string name="action_corner_action_notifications" msgid="3779353356349774469">"Ծանուցումներ"</string>
     <string name="action_corner_action_quick_settings" msgid="4660901117283653069">"Արագ կարգավորումներ"</string>
-    <string name="action_corner_action_dialog_title" msgid="8253240813317885237">"Ընտրեք դյուրանցում <xliff:g id="CORNER">%1$s</xliff:g> անկյան համար"</string>
+    <string name="action_corner_action_dialog_title" msgid="8253240813317885237">"Ընտրեք դյուրանցում հետևյալի համար՝ <xliff:g id="CORNER">%1$s</xliff:g>"</string>
     <string name="action_corner_bottom_left_name" msgid="9193788067022476544">"ներքևի ձախ անկյուն"</string>
     <string name="action_corner_bottom_right_name" msgid="1031603363418505375">"ներքևի աջ անկյուն"</string>
     <string name="action_corner_top_left_name" msgid="8077670910600032291">"վերևի ձախ անկյուն"</string>

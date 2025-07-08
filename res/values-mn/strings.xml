@@ -3852,7 +3852,7 @@
     <string name="notification_bundle_recs_summary" msgid="9200357300848343691">"Мэдээллийн хуудас, санал болгосон медиа болон бусад"</string>
     <string name="notification_ai_features_title" msgid="6497959797331796296">"ХОУ-аар дэмжсэн мэдэгдэл"</string>
     <string name="notification_summarization_title" msgid="1516039882005781529">"Мэдэгдлийн хураангуй"</string>
-    <string name="notification_summarization_summary" msgid="1963425736716175590">"Урт мессежийн шуурхай тоймыг аваарай"</string>
+    <string name="notification_summarization_summary" msgid="1963425736716175590">"Урт мессежийн шуурхай тоймыг авах"</string>
     <string name="notification_summarization_main_control_title" msgid="3341727937605794607">"Мэдэгдлийн хураангуйг ашиглах"</string>
     <string name="notification_summarization_description" msgid="341128754705513791">"Шуурхай тоймыг авахын тулд урт мессеж, бүлгийн харилцан яриаг хураангуйлна уу. Хураангуйг ХОУ-аар дэмжсэн бөгөөд алдаатай байж болзошгүй."</string>
     <string name="notification_summarization_excluded_description" msgid="5819160700526641394">"Эдгээр аппын мэдэгдлийг хураангуйлахгүй"</string>

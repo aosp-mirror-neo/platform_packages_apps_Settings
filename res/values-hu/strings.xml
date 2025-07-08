@@ -479,7 +479,7 @@
     <string name="fingerprint_check_enroll_touch_sensor" msgid="5010063281557456236">"Érintse meg az ujjlenyomat-érzékelőt"</string>
     <string name="fingerprint_check_enroll_not_recognized" msgid="2779520550437394431">"Az ujjlenyomat nem ismerhető fel"</string>
     <string name="security_settings_activeunlock_preference_title" msgid="4257580421087062228">"Feloldás órával"</string>
-    <string name="security_settings_activeunlock" msgid="8922823742770802651">"Megtekintés"</string>
+    <string name="security_settings_activeunlock" msgid="8922823742770802651">"Óra"</string>
     <string name="biometric_settings_intro_with_activeunlock" msgid="5032953826653108646">"Ha beállítja az Arcalapú feloldás és a Feloldás ujjlenyomattal funkciót, telefonja az ujjlenyomatát fogja kérni, amikor Ön maszkot visel, vagy sötét helyen van.\n\nA Feloldás órával funkció a telefon zárolásának másik kényelmes módja, például amikor nedvesek az ujjai, vagy az eszköz nem ismeri fel az arcát."</string>
     <string name="biometric_settings_intro_with_fingerprint" msgid="5881355884547769337">"A Feloldás órával funkció a telefon zárolásának másik kényelmes módja, például amikor az eszköz nem ismeri fel az ujjlenyomatát."</string>
     <string name="biometric_settings_intro_with_face" msgid="7671919122230588521">"A Feloldás órával funkció a telefon zárolásának másik kényelmes módja, például amikor az eszköz nem ismeri fel az arcát."</string>
@@ -2361,7 +2361,7 @@
     <string name="accessibility_pointer_title" msgid="7427650233669997010">"Kurzor"</string>
     <string name="accessibility_touchpad_title" msgid="5798458334122685642">"Érintőpad"</string>
     <string name="accessibility_touchpad_system_gestures_enable_title" msgid="1867179109603472062">"Három- vagy négyujjas kézmozdulatok használata"</string>
-    <string name="accessibility_touchpad_system_gestures_enable_summary" msgid="7076378989016181266">"Ha ki van kapcsolva, a érintőpad figyelmen kívül hagyja a három- vagy négyujjas kézmozdulatokat"</string>
+    <string name="accessibility_touchpad_system_gestures_enable_summary" msgid="7076378989016181266">"Ha ki van kapcsolva, az érintőpad figyelmen kívül hagyja a három- vagy négyujjas kézmozdulatokat"</string>
     <string name="keywords_accessibility_touchpad_system_gestures_enable" msgid="4406441971607855466">"érintőpad, csúsztatás"</string>
     <string name="accessibility_color_contrast_title" msgid="5757724357142452378">"Színkontraszt"</string>
     <string name="accessibility_color_contrast_intro" msgid="7795090401101214930">"A magasabb kontrasztnak köszönhetően könnyebben kivehetők a szövegek, a gombok és az ikonok. Válassza ki az Önnek megfelelő kontrasztot."</string>

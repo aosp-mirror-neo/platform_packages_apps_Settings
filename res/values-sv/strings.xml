@@ -4012,7 +4012,7 @@
     <string name="notification_bundle_title" msgid="6679586974995981433">"Organisera aviseringar"</string>
     <string name="notification_bundle_summary" msgid="8924550009829960969">"Gruppera och stäng av ljudet för aviseringar med lägre prioritet"</string>
     <string name="notification_bundle_main_control_title" msgid="2632661768990540295">"Använd Organisera aviseringar"</string>
-    <string name="notification_bundle_description" msgid="8439963475488583612">"Välj vilka aviseringstyper du vill stänga av ljudet för och gruppera för minskade avbrott. Gruppering är AI-baserad och kan innehålla fel."</string>
+    <string name="notification_bundle_description" msgid="8439963475488583612">"Välj vilka aviseringstyper du vill stänga av ljudet för och gruppera för minskade avbrott. Grupperingen är AI-baserad och kan innehålla fel."</string>
     <string name="notification_app_level_bundle_title" msgid="8917807675495480483">"Grupperade aviseringar"</string>
     <string name="notification_app_level_bundle_subtext" msgid="7330731485247761388">"Aviseringar med liknande teman grupperas ljudlöst för en tystare upplevelse."</string>
     <string name="notification_bundle_manage_excluded_apps_title" msgid="7019831234073590293">"Tillåt gruppering av aviseringar för appar"</string>

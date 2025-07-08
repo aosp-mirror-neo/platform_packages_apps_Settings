@@ -2148,9 +2148,9 @@
     <string name="input_setting_bounce_keys_seekbar_desc" msgid="4575595566548124309">"바운스 키 기준 시간"</string>
     <string name="input_setting_slow_keys_seekbar_desc" msgid="2171726970136563995">"느린 키 기준 시간"</string>
     <string name="slow_keys" msgid="2891452895499690837">"느린 키"</string>
-    <string name="slow_keys_summary" msgid="3852534180402969185">"등록되기 전에 키를 누르고 있어야 하는 시간을 변경합니다."</string>
+    <string name="slow_keys_summary" msgid="3852534180402969185">"키를 활성화하기 위해 누르고 있어야 하는 시간을 변경합니다."</string>
     <string name="sticky_keys" msgid="7317317044898161747">"고정키"</string>
-    <string name="sticky_keys_summary" msgid="1844953803625480623">"단축키를 사용할 때 키를 함께 누르지 않고 한 번에 하나씩 누릅니다"</string>
+    <string name="sticky_keys_summary" msgid="1844953803625480623">"여러 키를 한꺼번에 누르는 대신 한 번에 하나만 눌러 단축키로 사용합니다."</string>
     <string name="mouse_keys" msgid="6237254627808525540">"마우스 키"</string>
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"마우스 키 사용"</string>
     <string name="accessibility_mouse_keys_shortcut_title" msgid="7621635104533584115">"마우스 키 단축키"</string>
@@ -2164,16 +2164,16 @@
     <string name="mouse_keys_primary_keys_image_list_title" msgid="7470827693078490251">"기본 키 사용 방법"</string>
     <string name="mouse_keys_numpad_keys_image_list_title" msgid="6682341389811538017">"숫자 키패드 사용 방법"</string>
     <string name="mouse_keys_numpad_keys_image_list_summary" msgid="2728318055237217919">"Num Lock이 켜져 있으면 항상 숫자 키패드가 사용됩니다."</string>
-    <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"위로 스크롤하여 페이지 아래로 이동합니다."</string>
+    <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"위로 스크롤하여 페이지 아래로 이동합니다"</string>
     <string name="mouse_scrolling_category_title" msgid="2992126595687187296">"스크롤"</string>
     <string name="mouse_scrolling_acceleration" msgid="7119758828203396430">"스크롤 제어"</string>
     <string name="mouse_scrolling_speed" msgid="3999483025392860903">"스크롤 속도"</string>
     <string name="mouse_pointer_speed_make_faster_desc" msgid="7665912663672314461">"포인터 속도 높이기"</string>
     <string name="mouse_pointer_speed_make_slower_desc" msgid="116802579827902188">"포인터 속도 낮추기"</string>
     <string name="mouse_swap_primary_button" msgid="4798006242525441304">"기본 마우스 버튼 전환"</string>
-    <string name="mouse_swap_primary_button_summary" msgid="3276638019321067902">"왼쪽 마우스 버튼을 오른쪽 버튼으로 사용합니다."</string>
+    <string name="mouse_swap_primary_button_summary" msgid="3276638019321067902">"왼쪽 마우스 버튼을 오른쪽 버튼으로 사용합니다"</string>
     <string name="mouse_pointer_acceleration" msgid="388336576055293329">"커서 가속"</string>
-    <string name="mouse_pointer_acceleration_summary" msgid="6954407061360045792">"마우스를 더 빠르게 움직이면 커서가 더 멀리 이동합니다."</string>
+    <string name="mouse_pointer_acceleration_summary" msgid="6954407061360045792">"마우스를 더 빠르게 움직이면 커서가 더 멀리 이동합니다"</string>
     <string name="mouse_key_main_page_title" msgid="8051692181770475257">"<xliff:g id="KEYBOARD_NAME">%s</xliff:g>의 마우스 키"</string>
     <string name="mouse_keys_directional_summary" msgid="2215425656757420699">"\"<xliff:g id="DIRECTIONAL_LABEL">%s</xliff:g>\" 키를 사용하여 마우스 포인터를 이동합니다."</string>
     <string name="mouse_keys_click_summary" msgid="8271700153598258484">"\"<xliff:g id="CLICK_LABEL">%s</xliff:g>\" 키를 사용하여 기본 마우스 버튼을 클릭합니다."</string>
@@ -2196,11 +2196,11 @@
     <string name="trackpad_settings_summary" msgid="3369855644136760402">"포인터 속도, 동작"</string>
     <string name="trackpad_tap_to_click" msgid="1938230946542070746">"탭하여 클릭"</string>
     <string name="trackpad_tap_dragging_title" msgid="4198317837427535015">"탭하고 드래그하여 항목 이동"</string>
-    <string name="trackpad_tap_dragging_summary" msgid="5605534150661601073">"손가락으로 터치패드를 두 번 탭한 후 드래그하여 객체를 움직이세요."</string>
+    <string name="trackpad_tap_dragging_summary" msgid="5605534150661601073">"손가락으로 터치패드를 두 번 탭한 후 드래그하여 객체를 움직이세요"</string>
     <string name="trackpad_touchpad_gesture_title" msgid="7568052847609914436">"터치패드 동작"</string>
     <string name="trackpad_touchpad_gesture_summary" msgid="6256074591395359124">"개별 터치패드 탐색 동작 맞춤설정"</string>
     <string name="trackpad_reverse_scrolling_title" msgid="422877284529360866">"역방향 스크롤"</string>
-    <string name="trackpad_reverse_scrolling_summary" msgid="6048648562887499036">"아래로 스크롤하면 콘텐츠가 위로 이동합니다."</string>
+    <string name="trackpad_reverse_scrolling_summary" msgid="6048648562887499036">"아래로 스크롤하면 콘텐츠가 위로 이동합니다"</string>
     <string name="trackpad_bottom_right_tap_title" msgid="230337692279220068">"오른쪽 하단 클릭"</string>
     <string name="trackpad_bottom_right_tap_summary" msgid="4467915480282133447">"더 많은 옵션을 확인하려면 터치패드 오른쪽 하단을 클릭합니다"</string>
     <string name="trackpad_pointer_speed" msgid="7786579408631352625">"포인터 속도"</string>
@@ -2247,7 +2247,7 @@
     <string name="gesture_button_restart" msgid="1895850891992530133">"다시 시작"</string>
     <string name="gesture_button_done" msgid="6387900351203032188">"완료"</string>
     <string name="action_corner_title" msgid="7411160165577367757">"모서리 바로가기 맞춤설정"</string>
-    <string name="action_corner_summary" msgid="695618538930535335">"커서를 사용하여 시스템을 탐색합니다."</string>
+    <string name="action_corner_summary" msgid="695618538930535335">"커서를 사용하여 시스템 탐색"</string>
     <string name="action_corner_intro" msgid="2170609118659718140">"다음 영역을 선택하여 모서리 바로가기를 맞춤설정하세요."</string>
     <string name="action_corner_bottom_left_title" msgid="2857258272736432174">"왼쪽 하단"</string>
     <string name="action_corner_bottom_right_title" msgid="7222233500548465684">"오른쪽 하단"</string>
@@ -2273,7 +2273,7 @@
     <string name="modifier_keys_reset" msgid="551170906710422041">"초기화"</string>
     <string name="modifier_keys_picker_title" msgid="244545904150587851">"특수키 선택"</string>
     <string name="modifier_keys_picker_summary" msgid="739397232249560785">"<xliff:g id="MODIFIER_KEY_DEFAULT_NAME">%1$s</xliff:g>의 새 키 선택:"</string>
-    <string name="keyboard_a11y_settings" msgid="2564659018555385728">"실제 키보드 접근성"</string>
+    <string name="keyboard_a11y_settings" msgid="2564659018555385728">"물리적 키보드 접근성"</string>
     <string name="keyboard_a11y_settings_summary" msgid="1698531156574098722">"고정키, 바운스 키, 마우스 키"</string>
     <string name="keyboard_repeat_keys_title" msgid="6346877755243280735">"키 반복"</string>
     <string name="keyboard_repeat_keys_timeout_title" msgid="3411871149974652293">"반복 전 지연"</string>
@@ -4010,7 +4010,7 @@
     <string name="notification_polite_work" msgid="8823596456640216391">"직장 프로필에 적용"</string>
     <string name="notification_polite_work_summary" msgid="5014189280132951378">"직장 프로필 앱에 적용"</string>
     <string name="notification_bundle_title" msgid="6679586974995981433">"알림 정리 도구"</string>
-    <string name="notification_bundle_summary" msgid="8924550009829960969">"우선순위가 낮은 알림을 번들로 묶고 무음 처리합니다."</string>
+    <string name="notification_bundle_summary" msgid="8924550009829960969">"우선순위가 낮은 알림을 번들로 묶고 무음 처리"</string>
     <string name="notification_bundle_main_control_title" msgid="2632661768990540295">"알림 정리 도구 사용"</string>
     <string name="notification_bundle_description" msgid="8439963475488583612">"무음 처리하고 번들로 묶을 알림 유형을 선택하여 방해를 최소화하세요. 번들로 묶는 기능은 AI 기반으로, 오류가 있을 수 있습니다."</string>
     <string name="notification_app_level_bundle_title" msgid="8917807675495480483">"번들 알림"</string>

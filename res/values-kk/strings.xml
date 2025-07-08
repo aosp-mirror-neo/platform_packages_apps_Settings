@@ -1926,7 +1926,7 @@
     <string name="lockpattern_recording_intro_footer" msgid="2656868858594487197">"Көмек үшін Мәзір түймесін басыңыз."</string>
     <string name="lockpattern_recording_inprogress" msgid="7268008332694009191">"Салып болғанда, саусағыңызды жіберіңіз"</string>
     <string name="lockpattern_recording_incorrect_too_short" msgid="3351522018450593723">"Кем дегенде <xliff:g id="NUMBER">%d</xliff:g> нүктені қосу қажет. Қайта көріңіз."</string>
-    <string name="lockpattern_pattern_entered_header" msgid="7709618312713127249">"Өрнек сақталды"</string>
+    <string name="lockpattern_pattern_entered_header" msgid="7709618312713127249">"Өрнек сақталды."</string>
     <string name="lockpattern_need_to_confirm" msgid="6489499109451714360">"Растау үшін өрнекті қайта сызыңыз."</string>
     <string name="lockpattern_pattern_confirmed_header" msgid="2969990617475456153">"Құлыпты ашатын жаңа өрнек"</string>
     <string name="lockpattern_confirm_button_text" msgid="6122815520373044089">"Растау"</string>
@@ -2136,7 +2136,7 @@
     <string name="physical_keyboard_title" msgid="3328134097512350958">"Физикалық пернетақта"</string>
     <string name="physical_keyboard_layout_picker_title" msgid="4526600767648916256">"Физик. пернетақта схемасын таңдау"</string>
     <string name="bounce_keys" msgid="7419450970351743904">"Пернелердің қайта басылуын елемеу"</string>
-    <string name="bounce_keys_summary" msgid="8890925059943636911">"Бір пернені жылдам қайталап басу әрекеттерін елемеуге болады."</string>
+    <string name="bounce_keys_summary" msgid="8890925059943636911">"Бір перненің жылдам қайталап басылуы еленбейді."</string>
     <string name="bounce_keys_dialog_title" msgid="1090578395028456023">"Пернелердің қайта басылуын елемеу уақыты"</string>
     <string name="bounce_keys_dialog_subtitle" msgid="6804676895876861863">"Пернетақтаның пернелердің қайталана басылуын елемеу уақытын таңдаңыз."</string>
     <string name="input_setting_keys_dialog_option_200" msgid="2785528287150314940">"0,2 секунд"</string>
@@ -2154,7 +2154,7 @@
     <string name="mouse_keys" msgid="6237254627808525540">"Тінтуір пернелері"</string>
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"Тінтуір пернелерін пайдалану"</string>
     <string name="accessibility_mouse_keys_shortcut_title" msgid="7621635104533584115">"Тінтуір пернелерінің тіркесімі"</string>
-    <string name="mouse_keys_summary" msgid="6512910710030108693">"Курсорды басқару үшін пернетақтаны пайдаланыңыз"</string>
+    <string name="mouse_keys_summary" msgid="6512910710030108693">"Курсорды басқару үшін пернетақтаны пайдаланыңыз."</string>
     <string name="mouse_keys_max_speed_title" msgid="2651688711606971145">"Жылдамдық"</string>
     <string name="mouse_keys_seek_bar_decrease_button_description" msgid="9077624857206032509">"Азайту"</string>
     <string name="mouse_keys_seek_bar_increase_button_description" msgid="2721662400858172203">"Арттыру"</string>
@@ -2246,9 +2246,9 @@
     <string name="gesture_button_next" msgid="695288092704187356">"Келесі"</string>
     <string name="gesture_button_restart" msgid="1895850891992530133">"Өшіріп қосу"</string>
     <string name="gesture_button_done" msgid="6387900351203032188">"Дайын"</string>
-    <string name="action_corner_title" msgid="7411160165577367757">"Бұрыштың жылдам пәрмендерін бейімдеңіз"</string>
-    <string name="action_corner_summary" msgid="695618538930535335">"Жүйені шарлау үшін курсорлар пайдалану"</string>
-    <string name="action_corner_intro" msgid="2170609118659718140">"Бұрыштың жылдам пәрмендерін бейімдеу үшін келесі аймақтарды таңдаңыз"</string>
+    <string name="action_corner_title" msgid="7411160165577367757">"Бұрыш жылдам пәрмендерін реттеу"</string>
+    <string name="action_corner_summary" msgid="695618538930535335">"Жүйеде жылжу үшін курсорларды пайдаланыңыз."</string>
+    <string name="action_corner_intro" msgid="2170609118659718140">"Бұрыш жылдам пәрмендерін реттеу үшін келесі аймақтарды таңдаңыз."</string>
     <string name="action_corner_bottom_left_title" msgid="2857258272736432174">"Төменгі сол жақ бұрыш"</string>
     <string name="action_corner_bottom_right_title" msgid="7222233500548465684">"Төменгі оң жақ бұрыш"</string>
     <string name="action_corner_top_left_title" msgid="4633975226092344210">"Жоғарғы сол жақ бұрыш"</string>
@@ -2258,7 +2258,7 @@
     <string name="action_corner_action_recent_apps" msgid="7450480676812648813">"Соңғы қолданбалар"</string>
     <string name="action_corner_action_notifications" msgid="3779353356349774469">"Хабарландырулар"</string>
     <string name="action_corner_action_quick_settings" msgid="4660901117283653069">"Жылдам параметрлер"</string>
-    <string name="action_corner_action_dialog_title" msgid="8253240813317885237">"<xliff:g id="CORNER">%1$s</xliff:g> жылдам пәрменін таңдау"</string>
+    <string name="action_corner_action_dialog_title" msgid="8253240813317885237">"Жылдам пәрмен таңдау: <xliff:g id="CORNER">%1$s</xliff:g>"</string>
     <string name="action_corner_bottom_left_name" msgid="9193788067022476544">"төменгі сол жақ бұрыш"</string>
     <string name="action_corner_bottom_right_name" msgid="1031603363418505375">"төменгі оң жақ бұрыш"</string>
     <string name="action_corner_top_left_name" msgid="8077670910600032291">"жоғарғы сол жақ бұрыш"</string>
@@ -4013,7 +4013,7 @@
     <string name="notification_bundle_summary" msgid="8924550009829960969">"Маңыздылығы төмен хабарландыруларды топтау және дыбысын өшіру"</string>
     <string name="notification_bundle_main_control_title" msgid="2632661768990540295">"Хабарландыру ұйымдастырушысын пайдалану"</string>
     <string name="notification_bundle_description" msgid="8439963475488583612">"Кедергілерді азайту үшін дыбысын өшіру және топтау қажет хабарландыру түрлерін таңдаңыз. Олар жасанды интеллект көмегімен топталады, сол себепті қате кетуі мүмкін."</string>
-    <string name="notification_app_level_bundle_title" msgid="8917807675495480483">"Хабарландырулар топтастыру"</string>
+    <string name="notification_app_level_bundle_title" msgid="8917807675495480483">"Хабарландыруларды топтастыру"</string>
     <string name="notification_app_level_bundle_subtext" msgid="7330731485247761388">"Тыныш жұмыс істеу үшін тақырыптары ұқсас хабарландырулардың дыбысы өшіріліп, олар топтастырылады."</string>
     <string name="notification_bundle_manage_excluded_apps_title" msgid="7019831234073590293">"Қолданбалардың хабарландыруларын топтауға рұқсат беріңіз"</string>
     <string name="notification_adjustment_work_switch_title" msgid="5858034709870660002">"Жұмыс профиліндегі қолданбаларға қолдану"</string>
@@ -5364,7 +5364,7 @@
     <string name="confirm_enable_4k_pages_text" msgid="3398001587586470689">"4 КБ ядромен жұмыс істейтін бет өлшеміне тәуелсіз режимдесіз және 16 КБ режимге ауысып жатырсыз. Бұл режимде жұмыс істеген кезде, бағдарламалық құрал тұтастығына кепілдік берілмейді және жүктегіш құлпы ашылған кезде, телефоныңызда сақталған деректерге қауіп төнуі мүмкін. Бұндайда құрылғы өшіріліп қосылады. Осы режимдерде кейбір функциялар өшірілетіндіктен, кейбір қолданбалар жұмыс істемеуі мүмкін. Құрылғыны жұмыс күйіне қайтару үшін құрылғыны зауыттық параметрлерге қайтаратын жүктегішті құлыптау керек. Құрылғы Android жүйесіне жүктелген кезде, Әзірлеуші опцияларынан жүктегіш құлпын ашу параметрін өшіріңіз."</string>
     <string name="toast_16k_update_failed_text" msgid="7848383020572918850">"Ядро 16 КБ-тық беттермен үйлесімді ядроға жаңартылмады."</string>
     <string name="progress_16k_ota_title" msgid="2117218313875523741">"Өзгерту қолданылып жатыр"</string>
-    <string name="confirm_ext4_button_text" msgid="697563319110759422">"Барлық дерек пен жаңа нұсқаны тазарту"</string>
+    <string name="confirm_ext4_button_text" msgid="697563319110759422">"Барлық деректі өшіру және жаңарту"</string>
     <string name="format_ext4_failure_toast" msgid="8059453995800471549">"Құрылғыны қайта форматтау және деректер бөлімін ext4 жүйесіне тазарту мүмкін болмады."</string>
     <string name="confirm_oem_unlock_for_16k_title" msgid="6062041826568112078">"Жүктегіштің құлпын ашу керек"</string>
     <string name="confirm_oem_unlock_for_16k_text" msgid="8089310116854544106">"16 КБ әзірлеуші опциясын пайдаланбас бұрын, құрылғыдағы жүктегіш құлпын ашу керек. Бұл режимде жұмыс істеген кезде, бағдарламалық құрал тұтастығына кепілдік берілмейді және жүктегіш құлпы ашылған кезде, телефоныңызда сақталған деректерге қауіп төнуі мүмкін. Пайдаланушының барлық дерегі мен параметрі 16 КБ режимі қосылған кезде тазартылады. Жүктегіш құлпын ашқан соң, 16 КБ опциясын қосу үшін құрылғыны екі рет өшіріп қосу керек. Осы режимге өткеннен кейін, құрылғыны бір рет өшіріп қосу арқылы 4 КБ және 16 КБ режимдері арасында ауыса аласыз. Осы режимдерде кейбір функциялар өшірілетіндіктен, кейбір қолданбалар жұмыс істемеуі мүмкін. Құрылғыны жұмыс күйіне қайтару үшін 4 КБ режиміне қайта ауысып, (құрылғыны зауыттық параметрлерге қайтаратын) OEM/жүктегішті құлыптау керек. Жүктегіш құлпын ашып, қайталап көріңіз. Осыған қатысты нұсқауларды мына сілтеме арқылы көре аласыз: &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt;"</string>

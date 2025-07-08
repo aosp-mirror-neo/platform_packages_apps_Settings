@@ -2855,7 +2855,7 @@
     <string name="manager_battery_usage_unrestricted_summary" msgid="6819279865465667692">"バックグラウンド時にバッテリーの使用が制限されません。バッテリーの使用量が増える可能性があります。"</string>
     <string name="manager_battery_usage_optimized_summary" msgid="1332545476428039900">"使用状況に基づいて最適化されます。ほとんどのアプリにおすすめです。"</string>
     <string name="manager_battery_usage_restricted_summary" msgid="8324695640704416905">"バックグラウンド時にバッテリーの使用が制限されます。アプリが正しく動作しない可能性や、通知が遅れる可能性があります。"</string>
-    <string name="manager_battery_usage_footer" msgid="2635906573922553766">"アプリによるバッテリーの利用方法を変更すると、パフォーマンスに影響することがあります。"</string>
+    <string name="manager_battery_usage_footer" msgid="2635906573922553766">"アプリによるバッテリーの使用方法を変更すると、パフォーマンスに影響することがあります。"</string>
     <string name="manager_battery_usage_footer_limited" msgid="5180776148877306780">"このアプリでは、バッテリーの使用を「<xliff:g id="STATE">%1$s</xliff:g>」以外に設定できません。"</string>
     <string name="manager_battery_usage_unrestricted_only" msgid="3646162131339418216">"制限なし"</string>
     <string name="manager_battery_usage_optimized_only" msgid="7121785281913056432">"最適化済み"</string>

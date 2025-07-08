@@ -3538,7 +3538,7 @@
     <string name="connected_devices_dashboard_no_driving_mode_no_nfc_summary" msgid="1175254057213044560">"บลูทูธ"</string>
     <string name="connected_devices_dashboard_android_auto_summary" msgid="8179090809275818804">"บลูทูธ Android Auto โหมดขับรถ NFC"</string>
     <string name="connected_devices_dashboard_android_auto_no_nfc_summary" msgid="2532811870469405527">"บลูทูธ, Android Auto, โหมดขับรถ"</string>
-    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"บลูทูธ Android Auto NFC"</string>
+    <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"บลูทูธ, Android Auto, NFC"</string>
     <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"บลูทูธ, Android Auto"</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary" msgid="7132040463607801625">"ใช้งานไม่ได้เพราะ NFC ปิดอยู่"</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary" msgid="4879818114908207465">"หากต้องการใช้งาน ให้ติดตั้งแอปการชำระเงินก่อนเป็นอันดับแรก"</string>
@@ -5459,7 +5459,7 @@
     <string name="calls_sms_temp_unavailable" msgid="8602291749338757424">"ไม่พร้อมใช้งานชั่วคราว"</string>
     <string name="calls_sms_no_sim" msgid="2336377399761819718">"ไม่มีซิม"</string>
     <string name="network_and_internet_preferences_title" msgid="8635896466814033405">"ค่ากำหนดเครือข่าย"</string>
-    <string name="keywords_internet" msgid="7674082764898690310">"การเชื่อมต่อเครือข่าย, อินเทอร์เน็ต, ไร้สาย, อินเทอร์เน็ตมือถือ, wifi, wi-fi, wi fi, เครือข่ายมือถือ, อุปกรณ์เคลื่อนที่, ผู้ให้บริการเครือข่ายมือถือ, 4g, 3g, 2g, lte"</string>
+    <string name="keywords_internet" msgid="7674082764898690310">"การเชื่อมต่อเครือข่าย, อินเทอร์เน็ต, ไร้สาย, อินเทอร์เน็ตมือถือ, wifi, wi-fi, wi fi, เครือข่ายมือถือ, มือถือ, ผู้ให้บริการมือถือ, 4g, 3g, 2g, lte"</string>
     <string name="reset_your_internet_title" msgid="4856899004343241310">"รีเซ็ตอินเทอร์เน็ตไหม"</string>
     <string name="resetting_internet_text" msgid="6696779371800051806">"กำลังรีเซ็ตอินเทอร์เน็ต…"</string>
     <string name="fix_connectivity" msgid="2781433603228089501">"แก้ไขการเชื่อมต่อ"</string>

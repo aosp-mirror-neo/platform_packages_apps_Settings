@@ -2258,7 +2258,7 @@
     <string name="action_corner_action_recent_apps" msgid="7450480676812648813">"Aplicaciones recientes"</string>
     <string name="action_corner_action_notifications" msgid="3779353356349774469">"Notificaciones"</string>
     <string name="action_corner_action_quick_settings" msgid="4660901117283653069">"Ajustes rápidos"</string>
-    <string name="action_corner_action_dialog_title" msgid="8253240813317885237">"Elige una combinación de teclas para la <xliff:g id="CORNER">%1$s</xliff:g>"</string>
+    <string name="action_corner_action_dialog_title" msgid="8253240813317885237">"Elige un acceso directo para la <xliff:g id="CORNER">%1$s</xliff:g>"</string>
     <string name="action_corner_bottom_left_name" msgid="9193788067022476544">"esquina inferior izquierda"</string>
     <string name="action_corner_bottom_right_name" msgid="1031603363418505375">"esquina inferior derecha"</string>
     <string name="action_corner_top_left_name" msgid="8077670910600032291">"esquina superior izquierda"</string>

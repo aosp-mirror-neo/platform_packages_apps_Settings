@@ -2202,13 +2202,13 @@
     <string name="trackpad_reverse_scrolling_title" msgid="422877284529360866">"Penatalan songsang"</string>
     <string name="trackpad_reverse_scrolling_summary" msgid="6048648562887499036">"Kandungan bergerak ke atas apabila anda menatal ke bawah"</string>
     <string name="trackpad_bottom_right_tap_title" msgid="230337692279220068">"Klik bahagian bawah sebelah kanan"</string>
-    <string name="trackpad_bottom_right_tap_summary" msgid="4467915480282133447">"Klik penjuru bawah sebelah kanan pad sentuh untuk lagi pilihan"</string>
+    <string name="trackpad_bottom_right_tap_summary" msgid="4467915480282133447">"Klik penjuru bawah sebelah kanan pad sentuh untuk pilihan lain"</string>
     <string name="trackpad_pointer_speed" msgid="7786579408631352625">"Kelajuan penuding"</string>
     <string name="trackpad_pointer_speed_make_faster_desc" msgid="2855950278314583596">"Tetapkan kelajuan penuding yang lebih pantas"</string>
     <string name="trackpad_pointer_speed_make_slower_desc" msgid="6577850228762978827">"Tetapkan kelajuan penuding yang lebih perlahan"</string>
     <string name="three_finger_tap_preference_title" msgid="1836080810837854140">"Gunakan ketikan tiga jari"</string>
     <string name="touchpad_acceleration_title" msgid="176627555191021888">"Pecutan pad sentuh"</string>
-    <string name="touchpad_acceleration_summary" msgid="8057075483967535793">"Pergerakan lebih pantas pada pad sentuh anda akan menggerakkan kursor lebih jauh"</string>
+    <string name="touchpad_acceleration_summary" msgid="8057075483967535793">"Gerakan lebih cepat pada pad sentuh akan menggerakkan kursor lebih jauh"</string>
     <string name="pointer_fill_style" msgid="8794616790175016092">"Warna penuding"</string>
     <string name="pointer_fill_style_black_button" msgid="4540815366995820960">"Tukar gaya isian penunjuk kepada warna hitam"</string>
     <string name="pointer_fill_style_green_button" msgid="3731413496528067979">"Tukar gaya isian penunjuk kepada warna hijau"</string>
@@ -5364,7 +5364,7 @@
     <string name="confirm_enable_4k_pages_text" msgid="3398001587586470689">"Anda menggunakan mod halaman agnostik yang menjalankan kernel 16 KB dan anda sedang menukar kepada mod 4 KB. Integriti perisian tidak boleh dijamin dalam mod ini dan sebarang data yang disimpan pada telefon semasa pemuat but tidak berkunci mungkin dalam risiko. Hal ini akan mengebut semula peranti. Sesetengah ciri akan dilumpuhkan dalam mod ini, maka sesetengah aplikasi mungkin tidak berfungsi. Untuk mengembalikan peranti kepada mod pengeluaran, anda perlu mengunci pemuat but kemudiannya yang akan menetapkan semula peranti kepada tetapan kilang. Selepas peranti berjaya dibut masuk dalam Android, lumpuhkan pembukaan kunci OEM dalam Pilihan pembangun."</string>
     <string name="toast_16k_update_failed_text" msgid="7848383020572918850">"Gagal mengemaskinikan kernel kepada kernel serasi halaman 16 KB."</string>
     <string name="progress_16k_ota_title" msgid="2117218313875523741">"Menggunakan perubahan"</string>
-    <string name="confirm_ext4_button_text" msgid="697563319110759422">"padamkan semua data dan lakukan kemaskinian"</string>
+    <string name="confirm_ext4_button_text" msgid="697563319110759422">"Padamkan semua data dan lakukan kemaskinian"</string>
     <string name="format_ext4_failure_toast" msgid="8059453995800471549">"Gagal memformat semula dan menghapuskan pemetakan data kepada ext4."</string>
     <string name="confirm_oem_unlock_for_16k_title" msgid="6062041826568112078">"Buka Kunci Pemuat But Diperlukan"</string>
     <string name="confirm_oem_unlock_for_16k_text" msgid="8089310116854544106">"Peranti ini perlu membuka kunci pemuat but sebelum menggunakan pilihan pembangun 16 KB. Integriti perisian tidak boleh dijamin dalam mod ini dan sebarang data yang disimpan pada telefon semasa pemuat but tidak berkunci mungkin dalam risiko. Semua data dan tetapan pengguna akan dihapuskan semasa mengaktifkan mod 16 KB. Setelah pemuat but tidak berkunci, pengaktifan pilihan 16 KB akan memerlukan dua but semula. Setelah anda menggunakan mod ini, anda boleh bertukar berulang kali antara mod 4 KB dengan 16 KB menerusi satu but semula. Sesetengah ciri akan dilumpuhkan dalam mod ini, maka sesetengah aplikasi mungkin tidak berfungsi. Untuk mengembalikan peranti kepada mod pengeluaran, anda perlu menukar kembali kepada mod 4 KB dan melakukan penguncian OEM/pemuat but (yang akan melakukan tetapan semula kilang) pada peranti. Sila buka kunci pemuat but dan cuba lagi. Anda boleh melihat arahan tentang cara melakukan perkara ini menerusi &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt;"</string>
