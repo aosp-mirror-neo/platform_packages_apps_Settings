@@ -1160,7 +1160,7 @@
     <string name="wifi_dpp_sharing_wifi_with_this_device" msgid="7250369936882080107">"‏درحال هم‌رسانی Wi‑Fi با این دستگاه…"</string>
     <string name="wifi_dpp_connecting" msgid="2312769193202897589">"درحال اتصال…"</string>
     <string name="wifi_dpp_share_hotspot" msgid="6186452780604755316">"هم‌رسانی نقطه اتصال"</string>
-    <string name="wifi_dpp_lockscreen_title" msgid="5246641326066972419">"تأیید کنید این شمایید"</string>
+    <string name="wifi_dpp_lockscreen_title" msgid="5246641326066972419">"هویتتان را درستی‌سنجی کنید"</string>
     <string name="wifi_dpp_wifi_password" msgid="4992986319806934381">"‏گذرواژه Wi-Fi: <xliff:g id="PASSWORD">%1$s</xliff:g>"</string>
     <string name="wifi_dpp_hotspot_password" msgid="688464342650820420">"گذرواژه نقطه اتصال: <xliff:g id="PASSWORD">%1$s</xliff:g>"</string>
     <string name="wifi_auto_connect_title" msgid="1890342051674657892">"اتصال خودکار"</string>
@@ -2175,11 +2175,11 @@
     <string name="mouse_pointer_acceleration" msgid="388336576055293329">"شتاب مکان‌نما"</string>
     <string name="mouse_pointer_acceleration_summary" msgid="6954407061360045792">"با حرکات سریع‌تر موشواره، مکان‌نما بیشتر حرکت خواهد کرد"</string>
     <string name="mouse_key_main_page_title" msgid="8051692181770475257">"کلیدهای موشواره برای <xliff:g id="KEYBOARD_NAME">%s</xliff:g>"</string>
-    <string name="mouse_keys_directional_summary" msgid="2215425656757420699">"برای حرکت دادن اشاره‌گر موشواره، از کلیدهای «<xliff:g id="DIRECTIONAL_LABEL">%s</xliff:g>» استفاده کنید"</string>
+    <string name="mouse_keys_directional_summary" msgid="2215425656757420699">"‏برای حرکت دادن اشاره‌گر موشواره، از کلیدهای «‎<xliff:g id="DIRECTIONAL_LABEL">%s</xliff:g>» استفاده کنید"</string>
     <string name="mouse_keys_click_summary" msgid="8271700153598258484">"برای کلیک کردن با دکمه اصلی موشواره، از کلید «<xliff:g id="CLICK_LABEL">%s</xliff:g>» استفاده کنید"</string>
     <string name="mouse_keys_press_hold_summary" msgid="112969663769147732">"برای فشار دادن و نگه داشتن دکمه اصلی موشواره، از کلید «<xliff:g id="PRESS_HOLD_LABEL">%s</xliff:g>» استفاده کنید"</string>
     <string name="mouse_keys_release_summary" msgid="7209370896835993434">"برای رها کردن دکمه اصلی موشواره، از کلید «<xliff:g id="RELEASE_LABEL">%s</xliff:g>» استفاده کنید"</string>
-    <string name="mouse_keys_toggle_scroll_summary" msgid="7492663135290108272">"برای روشن/خاموش کردن حالت پیمایش، از کلید «<xliff:g id="RELEASE_LABEL_1">%1$s</xliff:g>» استفاده کنید. با این کار، کلیدهای «<xliff:g id="RELEASE_LABEL_2">%2$s</xliff:g>» نما را به بالا، پایین، چپ، یا راست پیمایش می‌کنند"</string>
+    <string name="mouse_keys_toggle_scroll_summary" msgid="7492663135290108272">"‏برای روشن/خاموش کردن حالت پیمایش، از کلید «<xliff:g id="RELEASE_LABEL_1">%1$s</xliff:g>» استفاده کنید. با این کار، کلیدهای «‎<xliff:g id="RELEASE_LABEL_2">%2$s</xliff:g>» نما را به بالا، پایین، چپ، یا راست پیمایش می‌کنند"</string>
     <string name="mouse_keys_release2_summary" msgid="5504548339731577210">"برای کلیک کردن با دکمه دوم موشواره، از کلید «<xliff:g id="RELEASE_2_LABEL">%s</xliff:g>» استفاده کنید"</string>
     <string name="mouse_keys_acceleration_seekbar_title" msgid="2329098889930361504">"شتاب"</string>
     <string name="mouse_keys_acceleration_fast_icon_desc" msgid="4426188473271579794">"سریع"</string>
@@ -2201,7 +2201,7 @@
     <string name="trackpad_touchpad_gesture_summary" msgid="6256074591395359124">"سفارشی کردن هر یک از اشاره‌های پیمایش صفحه لمسی"</string>
     <string name="trackpad_reverse_scrolling_title" msgid="422877284529360866">"پیمایش معکوس"</string>
     <string name="trackpad_reverse_scrolling_summary" msgid="6048648562887499036">"وقتی به‌پایین پیمایش کنید، محتوا به‌بالا حرکت می‌کند"</string>
-    <string name="trackpad_bottom_right_tap_title" msgid="230337692279220068">"کلیک پایین راست"</string>
+    <string name="trackpad_bottom_right_tap_title" msgid="230337692279220068">"کلیک راست پایین"</string>
     <string name="trackpad_bottom_right_tap_summary" msgid="4467915480282133447">"برای گزینه‌های بیشتر، روی پایین گوشه راست صفحه لمسی کلیک کنید"</string>
     <string name="trackpad_pointer_speed" msgid="7786579408631352625">"سرعت اشاره‌گر"</string>
     <string name="trackpad_pointer_speed_make_faster_desc" msgid="2855950278314583596">"سریع‌تر کردن اشاره‌گر"</string>
@@ -2258,7 +2258,7 @@
     <string name="action_corner_action_recent_apps" msgid="7450480676812648813">"برنامه‌های اخیر"</string>
     <string name="action_corner_action_notifications" msgid="3779353356349774469">"اعلان‌ها"</string>
     <string name="action_corner_action_quick_settings" msgid="4660901117283653069">"تنظیمات فوری"</string>
-    <string name="action_corner_action_dialog_title" msgid="8253240813317885237">"نمایه‌ای برای <xliff:g id="CORNER">%1$s</xliff:g> انتخاب کنید"</string>
+    <string name="action_corner_action_dialog_title" msgid="8253240813317885237">"میان‌بری برای <xliff:g id="CORNER">%1$s</xliff:g> انتخاب کنید"</string>
     <string name="action_corner_bottom_left_name" msgid="9193788067022476544">"گوشه پایین چپ"</string>
     <string name="action_corner_bottom_right_name" msgid="1031603363418505375">"گوشه پایین راست"</string>
     <string name="action_corner_top_left_name" msgid="8077670910600032291">"گوشه بالا چپ"</string>
@@ -2585,7 +2585,7 @@
     <string name="accessibility_display_inversion_preference_intro_text" msgid="1159663288481145318">"«وارونگی رنگ» صفحه روشن را تیره می‌کند. صفحه تیره را هم روشن می‌کند."</string>
     <string name="accessibility_display_inversion_preference_subtitle" msgid="4494767676482389509">"‏&lt;b&gt;به‌خاطر داشته باشید&lt;/b&gt;&lt;br/&gt; &lt;ol&gt; &lt;li&gt; رنگ‌ها در رسانه‌ها و تصاویر تغییر خواهد کرد&lt;/li&gt; &lt;li&gt; «وارونگی رنگ» در همه برنامه‌ها کار می‌کند&lt;/li&gt; &lt;li&gt; برای نمایش پس‌زمینه تاریک، می‌توان به‌جای آن از «زمینه تاریک» استفاده کرد&lt;/li&gt; &lt;/ol&gt;"</string>
     <string name="accessibility_action_label_panel_slice" msgid="1313725957071602932">"ورود به تنظیمات"</string>
-    <string name="accessibility_autoclick_preference_title" msgid="6755104969672994014">"کلیک خودکار (زمان توقف)"</string>
+    <string name="accessibility_autoclick_preference_title" msgid="6755104969672994014">"کلیک خودکار (زمان‌بندی توقف)"</string>
     <string name="accessibility_autoclick_about_title" msgid="152923024405552594">"درباره کلیک خودکار (مدت ایست)"</string>
     <string name="accessibility_autoclick_footer_learn_more_content_description" msgid="7056189627042350691">"درباره کلیک خودکار (مدت ایست) بیشتر بدانید"</string>
     <string name="accessibility_autoclick_intro_text" msgid="8959680635470639347">"می‌توانید موشواره متصل‌شده را طوری تنظیم کنید که وقتی مکان‌نما برای مدت‌زمان مشخصی متوقف می‌شود، موشواره به‌طور خودکار کلیک کند"</string>
@@ -4912,7 +4912,7 @@
     <string name="storage_other" msgid="7922190148479988838">"موارد دیگر"</string>
     <string name="storage_apps" msgid="3564291603258795216">"برنامه‌ها"</string>
     <string name="storage_system" msgid="8472410119822911844">"سیستم"</string>
-    <string name="storage_os_name" msgid="4637680493234672410">"‏‫Android نسخه <xliff:g id="VERSION">%s</xliff:g>"</string>
+    <string name="storage_os_name" msgid="4637680493234672410">"‏Android نسخه <xliff:g id="VERSION">%s</xliff:g>"</string>
     <string name="storage_temporary_files" msgid="8254109904032452219">"فایل‌های موقتی سیستم"</string>
     <string name="storage_trash" msgid="2807138998886084856">"حذف‌شده‌ها"</string>
     <string name="storage_trash_dialog_title" msgid="2296169576049935200">"حذف‌شده‌ها خالی شود؟"</string>

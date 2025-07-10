@@ -2247,7 +2247,7 @@
     <string name="gesture_button_restart" msgid="1895850891992530133">"ಮರುಪ್ರಾರಂಭ"</string>
     <string name="gesture_button_done" msgid="6387900351203032188">"ಮುಗಿದಿದೆ"</string>
     <string name="action_corner_title" msgid="7411160165577367757">"ಕಾರ್ನರ್ ಶಾರ್ಟ್‌ಕಟ್‌ಗಳನ್ನು ಕಸ್ಟಮೈಸ್ ಮಾಡಿ"</string>
-    <string name="action_corner_summary" msgid="695618538930535335">"ವ್ಯವಸ್ಥೆಯನ್ನು ನ್ಯಾವಿಗೇಟ್ ಮಾಡಲು ಕರ್ಸರ್‌ಗಳನ್ನು ಬಳಸಿ"</string>
+    <string name="action_corner_summary" msgid="695618538930535335">"ಸಿಸ್ಟಂ ಅನ್ನು ನ್ಯಾವಿಗೇಟ್ ಮಾಡಲು ಕರ್ಸರ್‌ಗಳನ್ನು ಬಳಸಿ"</string>
     <string name="action_corner_intro" msgid="2170609118659718140">"ಕಾರ್ನರ್ ಶಾರ್ಟ್‌ಕಟ್‌ಗಳನ್ನು ಕಸ್ಟಮೈಸ್ ಮಾಡಲು ಈ ಕೆಳಗಿನವುಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ."</string>
     <string name="action_corner_bottom_left_title" msgid="2857258272736432174">"ಕೆಳಗಿನ-ಎಡ ಮೂಲೆ"</string>
     <string name="action_corner_bottom_right_title" msgid="7222233500548465684">"ಕೆಳಗಿನ-ಬಲ ಮೂಲೆ"</string>
@@ -2360,8 +2360,8 @@
     <string name="accessibility_pointer_color_customization_title" msgid="2841888132681075999">"ಕರ್ಸರ್‌ನ ಬಣ್ಣ"</string>
     <string name="accessibility_pointer_title" msgid="7427650233669997010">"ಕರ್ಸರ್‌"</string>
     <string name="accessibility_touchpad_title" msgid="5798458334122685642">"ಟಚ್‌ಪ್ಯಾಡ್"</string>
-    <string name="accessibility_touchpad_system_gestures_enable_title" msgid="1867179109603472062">"3- ಅಥವಾ 4-ಬೆರಳಿನ ಗೆಸ್ಚರ್‌ಗಳನ್ನು ಬಳಸಿ"</string>
-    <string name="accessibility_touchpad_system_gestures_enable_summary" msgid="7076378989016181266">"ಆಫ್ ಮಾಡಿದಾಗ, ನಿಮ್ಮ ಟಚ್‌ಪ್ಯಾಡ್ 3- ಅಥವಾ 4-ಫಿಂಗರ್ ಗೆಸ್ಚರ್‌ಗಳನ್ನು ನಿರ್ಲಕ್ಷಿಸುತ್ತದೆ"</string>
+    <string name="accessibility_touchpad_system_gestures_enable_title" msgid="1867179109603472062">"3- ಅಥವಾ 4-ಬೆರಳಿನ ಜೆಶ್ಚರ್‌ಗಳನ್ನು ಬಳಸಿ"</string>
+    <string name="accessibility_touchpad_system_gestures_enable_summary" msgid="7076378989016181266">"ಆಫ್ ಮಾಡಿದಾಗ, ನಿಮ್ಮ ಟಚ್‌ಪ್ಯಾಡ್ 3- ಅಥವಾ 4-ಬೆರಳ ಜೆಶ್ಚರ್‌ಗಳನ್ನು ನಿರ್ಲಕ್ಷಿಸುತ್ತದೆ"</string>
     <string name="keywords_accessibility_touchpad_system_gestures_enable" msgid="4406441971607855466">"ಟಚ್‌ಪ್ಯಾಡ್, ಟ್ರ್ಯಾಕ್‌ಪ್ಯಾಡ್, ಸ್ವೈಪ್"</string>
     <string name="accessibility_color_contrast_title" msgid="5757724357142452378">"ಕಲರ್ ಕಾಂಟ್ರಾಸ್ಟ್‌‌"</string>
     <string name="accessibility_color_contrast_intro" msgid="7795090401101214930">"ಹೆಚ್ಚಿನ ಕಾಂಟ್ರಾಸ್ಟ್ ಪಠ್ಯ, ಬಟನ್‌ಗಳು ಮತ್ತು ಐಕಾನ್‌ಗಳನ್ನು ಎದ್ದು ಕಾಣುವಂತೆ ಮಾಡುತ್ತದೆ. ನಿಮಗೆ ಉತ್ತಮವಾಗಿ ಕಾಣುವ ಕಾಂಟ್ರಾಸ್ಟ್ ಅನ್ನು ಆರಿಸಿ."</string>
@@ -2615,7 +2615,7 @@
     <string name="autoclick_ignore_minor_cursor_movement_title" msgid="5038721995720529808">"ಸಣ್ಣ ಕರ್ಸರ್ ಚಲನೆಯನ್ನು ನಿರ್ಲಕ್ಷಿಸಿ"</string>
     <string name="autoclick_revert_to_left_click_title" msgid="9213418243482609005">"ಕ್ರಿಯೆಯ ನಂತರ ಎಡ ಕ್ಲಿಕ್‌ಗೆ ಹಿಂತಿರುಗಿ"</string>
     <string name="accessibility_autoclick_navigation_title" msgid="6808216178814576714">"ಆಟೋಕ್ಲಿಕ್ ಬಳಸಲು ನಿಮ್ಮ ನ್ಯಾವಿಗೇಷನ್ ಮೋಡ್ ಅನ್ನು ಬದಲಾಯಿಸಿ"</string>
-    <string name="accessibility_autoclick_navigation_message" msgid="112626284307103141">"ಆಟೋಕ್ಲಿಕ್ ಬಳಸುವಾಗ ಹಿಂತಿರುಗಲು, ಹೋಮ್‌‌ಗೆ ಹೋಗಲು ಮತ್ತು ಆ್ಯಪ್‌ಗಳನ್ನು ಬದಲಾಯಿಸಲು, ಗೆಸ್ಚರ್ ನ್ಯಾವಿಗೇಷನ್ ಬದಲಿಗೆ 3-ಬಟನ್ ನ್ಯಾವಿಗೇಷನ್ ಬಳಸಿ"</string>
+    <string name="accessibility_autoclick_navigation_message" msgid="112626284307103141">"ಆಟೋಕ್ಲಿಕ್ ಬಳಸುವಾಗ ಹಿಂತಿರುಗಲು, ಹೋಮ್‌‌ಗೆ ಹೋಗಲು ಮತ್ತು ಆ್ಯಪ್‌ಗಳನ್ನು ಬದಲಾಯಿಸಲು, ಜೆಸ್ಚರ್ ನ್ಯಾವಿಗೇಷನ್ ಬದಲಿಗೆ 3-ಬಟನ್ ನ್ಯಾವಿಗೇಷನ್ ಬಳಸಿ"</string>
     <string name="accessibility_vibration_settings_title" msgid="936301142478631993">"ವೈಬ್ರೇಷನ್‌ ಮತ್ತು ಹ್ಯಾಪ್ಟಿಕ್ಸ್"</string>
     <string name="accessibility_vibration_settings_summary" msgid="3690308537483465527">"ವಿವಿಧ ಬಳಕೆಗಾಗಿ ವೈಬ್ರೇಷನ್‌ನ ಶಕ್ತಿಯನ್ನು ನಿಯಂತ್ರಿಸಿ"</string>
     <string name="accessibility_vibration_settings_state_on" msgid="5566026932372832502">"ಆನ್"</string>
@@ -4742,7 +4742,7 @@
     <string name="double_tap_power_wallet_action_summary" msgid="3463748484407928770">"Wallet ಅನ್ನು ತೆರೆಯಿರಿ"</string>
     <string name="double_tap_power_lockscreen_shortcut_tip_title" msgid="9210589521260265387">"ಲಾಕ್ ಸ್ಕ್ರೀನ್ ಶಾರ್ಟ್‌ಕಟ್ ಬದಲಾಯಿಸುವುದೇ?"</string>
     <string name="double_tap_power_lockscreen_shortcut_tip_description" msgid="7572626485518591928">"<xliff:g id="DOUBLE_TAP_POWER_TARGET_ACTION">%1$s</xliff:g> ನಿಮ್ಮ ಲಾಕ್ ಸ್ಕ್ರೀನ್ ಶಾರ್ಟ್‌ಕಟ್ ಕೂಡ ಆಗಿದೆ. ಅದನ್ನು ಬದಲಾಯಿಸಲು ಟ್ಯಾಪ್ ಮಾಡಿ."</string>
-    <string name="double_tap_power_wallet_footer_title" msgid="4626950875173822614">"ನಿಮ್ಮ ಪ್ರಸ್ತುತ ಡೀಫಾಲ್ಟ್ ವಾಲೆಟ್ ಆ್ಯಪ್ ಈ ಗೆಸ್ಚರ್ ಅನ್ನು ಬೆಂಬಲಿಸುವುದಿಲ್ಲ"</string>
+    <string name="double_tap_power_wallet_footer_title" msgid="4626950875173822614">"ನಿಮ್ಮ ಪ್ರಸ್ತುತ ಡೀಫಾಲ್ಟ್ ವಾಲೆಟ್ ಆ್ಯಪ್ ಈ ಜೆಸ್ಚರ್ ಅನ್ನು ಬೆಂಬಲಿಸುವುದಿಲ್ಲ"</string>
     <string name="double_tap_power_wallet_footer_learn_more_text" msgid="4871482943751760132">"ಡೀಫಾಲ್ಟ್ ವಾಲೆಟ್ ಅನ್ನು ಬದಲಾಯಿಸಿ"</string>
     <string name="double_twist_for_camera_mode_title" msgid="472455236910935684">"ಸೆಲ್ಫೀ ತೆಗೆಯಲು ಕ್ಯಾಮರಾ ತಿರುಗಿಸಿ"</string>
     <string name="double_twist_for_camera_mode_summary" msgid="592503740044744951"></string>
@@ -4763,7 +4763,7 @@
     <string name="edge_to_edge_navigation_summary" msgid="818109176611921504">"ಹೋಮ್‌ಗೆ ಹೋಗಲು, ಸ್ಕ್ರೀನ್‌ನ ಕೆಳಭಾಗದಿಂದ ಮೇಲಕ್ಕೆ ಸ್ವೈಪ್ ಮಾಡಿ. ಆ್ಯಪ್‌ಗಳನ್ನು ಬದಲಿಸಲು, ಕೆಳಭಾಗದಿಂದ ಮೇಲಕ್ಕೆ ಸ್ವೈಪ್ ಮಾಡಿ, ಹಿಡಿದುಕೊಳ್ಳಿ, ನಂತರ ಬಿಟ್ಟುಬಿಡಿ. ಹಿಂದಕ್ಕೆ ಹೋಗಲು, ಎಡ ಅಥವಾ ಬಲ ಅಂಚಿನಿಂದ ಸ್ವೈಪ್ ಮಾಡಿ."</string>
     <string name="legacy_navigation_title" msgid="7877402855994423727">"3-ಬಟನ್ ನ್ಯಾವಿಗೇಶನ್"</string>
     <string name="legacy_navigation_summary" msgid="5905301067778326433">"ನಿಮ್ಮ ಸ್ಕ್ರೀನ್‌ನ ಕೆಳಭಾಗದಲ್ಲಿನ ಬಟನ್‌ಗಳೊಂದಿಗೆ ಹಿಂದಕ್ಕೆ, ಹೋಮ್‌ಗೆ ಹೋಗಿ ಮತ್ತು ಆ್ಯಪ್‌ಗಳನ್ನು ಬದಲಿಸಿ."</string>
-    <string name="nav_tutorial_button_description" msgid="7195363082216233970">"ಗೆಸ್ಚರ್ ನ್ಯಾವಿಗೇಶನ್ ಟುಟೋರಿಯಲ್ ಅನ್ನು ಪ್ರಾರಂಭಿಸಿ."</string>
+    <string name="nav_tutorial_button_description" msgid="7195363082216233970">"ಜೆಸ್ಚರ್ ನ್ಯಾವಿಗೇಶನ್ ಟುಟೋರಿಯಲ್ ಅನ್ನು ಪ್ರಾರಂಭಿಸಿ."</string>
     <string name="keywords_system_navigation" msgid="3131782378486554934">"ಸಿಸ್ಟಂ ನ್ಯಾವಿಗೇಶನ್, 2 ಬಟನ್ ನ್ಯಾವಿಗೇಶನ್, 3 ಬಟನ್ ನ್ಯಾವಿಗೇಶನ್, ಗೆಸ್ಚರ್ ನ್ಯಾವಿಗೇಶನ್, ಸ್ವೈಪ್"</string>
     <string name="assistant_gesture_category_title" msgid="2478251256585807920">"ಡಿಜಿಟಲ್ ಅಸಿಸ್ಟೆಂಟ್"</string>
     <string name="assistant_corner_gesture_title" msgid="1895061522687002106">"ಅಸಿಸ್ಟೆಂಟ್ ಅನ್ನು ಶುರು ಮಾಡಲು ಸ್ವೈಪ್ ಮಾಡಿ"</string>
@@ -4916,7 +4916,7 @@
     <string name="storage_temporary_files" msgid="8254109904032452219">"ತಾತ್ಕಾಲಿಕ ಸಿಸ್ಟಮ್ ಫೈಲ್‌ಗಳು"</string>
     <string name="storage_trash" msgid="2807138998886084856">"ಟ್ರ್ಯಾಶ್"</string>
     <string name="storage_trash_dialog_title" msgid="2296169576049935200">"ಅನುಪಯುಕ್ತವನ್ನು ಖಾಲಿ ಮಾಡಬೇಕೇ?"</string>
-    <string name="storage_trash_dialog_ask_message" msgid="8982602137242358798">"ಅನುಪಯುಕ್ತದಲ್ಲಿ <xliff:g id="TOTAL">%1$s</xliff:g> ಫೈಲ್‌ಗಳಿವೆ. ಎಲ್ಲಾ ಐಟಂಗಳನ್ನು ಶಾಶ್ವತವಾಗಿ ಅಳಿಸಲಾಗುತ್ತದೆ ಮತ್ತು ನಿಮಗೆ ಅವುಗಳನ್ನು ಮರುಸ್ಥಾಪಿಸಲು ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ."</string>
+    <string name="storage_trash_dialog_ask_message" msgid="8982602137242358798">"ಟ್ರ್ಯಾಶ್‌ನಲ್ಲಿ <xliff:g id="TOTAL">%1$s</xliff:g> ಫೈಲ್‌ಗಳಿವೆ. ಎಲ್ಲಾ ಐಟಂಗಳನ್ನು ಶಾಶ್ವತವಾಗಿ ಅಳಿಸಲಾಗುತ್ತದೆ ಮತ್ತು ನಿಮಗೆ ಅವುಗಳನ್ನು ಮರುಸ್ಥಾಪಿಸಲು ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ."</string>
     <string name="storage_trash_dialog_empty_message" msgid="7334670765528691400">"ಟ್ರ್ಯಾಶ್ ಖಾಲಿಯಾಗಿದೆ"</string>
     <string name="storage_trash_dialog_confirm" msgid="1707723334982760436">"ಅನುಪಯುಕ್ತವನ್ನು ಖಾಲಿ ಮಾಡಿ"</string>
     <string name="storage_usage_summary" msgid="4591121727356723463">"<xliff:g id="NUMBER">%1$s</xliff:g> <xliff:g id="UNIT">%2$s</xliff:g> ಬಳಸಲಾಗಿದೆ"</string>
@@ -5313,7 +5313,7 @@
     <string name="low_storage_summary" msgid="1979492757417779718">"ಸಂಗ್ರಹಣೆಯು ಕಡಿಮೆ ಇದೆ. <xliff:g id="PERCENTAGE">%1$s</xliff:g> ಬಳಸಲಾಗಿದೆ - <xliff:g id="FREE_SPACE">%2$s</xliff:g> ಖಾಲಿ ಇದೆ"</string>
     <string name="contextual_card_feedback_send" msgid="7409408664417908922">"ಫೀಡ್‌ಬ್ಯಾಕ್ ಕಳುಹಿಸಿ"</string>
     <string name="contextual_card_feedback_confirm_message" msgid="3186334562157665381">"ಈ ಸಲಹೆಯನ್ನು ಆಧರಿಸಿ ನೀವು ನಮಗೆ ಪ್ರತಿಕ್ರಿಯೆ ನೀಡಲು ಬಯಸುವಿರಾ?"</string>
-    <string name="copyable_slice_toast" msgid="1008251852798990606">"<xliff:g id="COPY_CONTENT">%1$s</xliff:g> ಅನ್ನು ಕ್ಲಿಪ್‌ಬೋರ್ಡ್‌ಗೆ ನಕಲಿಸಲಾಗಿದೆ."</string>
+    <string name="copyable_slice_toast" msgid="1008251852798990606">"<xliff:g id="COPY_CONTENT">%1$s</xliff:g> ಅನ್ನು ಕ್ಲಿಪ್‌ಬೋರ್ಡ್‌ಗೆ ಕಾಪಿ ಮಾಡಲಾಗಿದೆ."</string>
     <string name="search_bar_account_avatar_content_description" msgid="880523277036898350"></string>
     <string name="accessibility_usage_title" msgid="9190967143518779145">"ಪ್ರವೇಶಿಸುವಿಕೆಯ ಬಳಕೆ"</string>
     <string name="accessibility_usage_summary" msgid="4348285359995227813">"{count,plural, =1{1 ಆ್ಯಪ್ ನಿಮ್ಮ ಸಾಧನಕ್ಕೆ ಸಂಪೂರ್ಣ ಆ್ಯಕ್ಸೆಸ್ ಹೊಂದಿದೆ}one{# ಆ್ಯಪ್‌ಗಳು ನಿಮ್ಮ ಸಾಧನಕ್ಕೆ ಸಂಪೂರ್ಣ ಆ್ಯಕ್ಸೆಸ್ ಹೊಂದಿವೆ}other{# ಆ್ಯಪ್‌ಗಳು ನಿಮ್ಮ ಸಾಧನಕ್ಕೆ ಸಂಪೂರ್ಣ ಆ್ಯಕ್ಸೆಸ್ ಹೊಂದಿವೆ}}"</string>

@@ -1177,7 +1177,7 @@
     <string name="wifi_share_preference_title" msgid="6346200020322308703">"Ky është një rrjet i ndarë"</string>
     <string name="wifi_share_preference_summary" msgid="4356010425167713046">"Të gjithë përdoruesit, përveç përdoruesve vizitorë, do të mund ta shohin, modifikojnë dhe fshijnë këtë rrjet"</string>
     <string name="wifi_conflict_dialog_title" msgid="1127530499054245755">"Të kalohet te rrjeti i <xliff:g id="SHARED">%1$s</xliff:g> \"<xliff:g id="NETWORK_NAME">%2$s</xliff:g>\"?"</string>
-    <string name="wifi_conflict_dialog_message" msgid="3192435395074097168">"Aktualisht je lidhur me një rrjet të <xliff:g id="SHARED_0">%1$s</xliff:g> me të njëjtin emër. Kur ta ndryshosh, do të shkëputesh nga rrjeti i <xliff:g id="SHARED_1">%2$s</xliff:g> dhe më pas do të rilidhesh me rrjetin <xliff:g id="PRIVATE">%3$s</xliff:g>. Mund të mos kesh internet përkohësisht."</string>
+    <string name="wifi_conflict_dialog_message" msgid="3192435395074097168">"Aktualisht je i lidhur me një rrjet të <xliff:g id="SHARED_0">%1$s</xliff:g> me të njëjtin emër. Kur ta ndryshosh, do të shkëputesh nga rrjeti i <xliff:g id="SHARED_1">%2$s</xliff:g> dhe më pas do të rilidhesh me rrjetin <xliff:g id="PRIVATE">%3$s</xliff:g>. Mund të mos kesh internet përkohësisht."</string>
     <string name="wifi_unchanged" msgid="8026045290856150191">"(i pandryshuar)"</string>
     <string name="wifi_allow_edit_configuration_title" msgid="3928254385019370063">"Lejo që përdoruesit e tjerët të modifikojnë konfigurimin e rrjetit"</string>
     <string name="wifi_unspecified" msgid="4561964943472312208">"Zgjidh"</string>

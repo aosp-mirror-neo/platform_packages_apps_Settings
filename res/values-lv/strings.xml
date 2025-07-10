@@ -2651,10 +2651,8 @@
     <string name="accessibility_daltonizer_footer_learn_more_content_description" msgid="2091679253892040910">"Uzzināt vairāk par krāsu korekciju"</string>
     <string name="accessibility_color_inversion_about_title" msgid="8275754480247040136">"Par krāsu inversiju"</string>
     <string name="accessibility_color_inversion_footer_learn_more_content_description" msgid="5382579548498952445">"Uzzināt vairāk par krāsu inversiju"</string>
-    <!-- no translation found for accessibility_dark_theme_footer_learn_more_helper_link (7084955775821075280) -->
-    <skip />
-    <!-- no translation found for accessibility_dark_theme_preference_footer_content (4431044600779983609) -->
-    <skip />
+    <string name="accessibility_dark_theme_footer_learn_more_helper_link" msgid="7084955775821075280">"Uzzināt vairāk par tumšo motīvu"</string>
+    <string name="accessibility_dark_theme_preference_footer_content" msgid="4431044600779983609">"Noteiktās lietotnēs tumšais motīvs var netikt atbalstīts izvērstajā iestatījumā. Ja rodas problēmas ar izskatu, izmantojiet standarta iestatījumu."</string>
     <string name="accessibility_captioning_primary_switch_title" msgid="3663677340286206100">"Rādīt subtitrus"</string>
     <string name="accessibility_captioning_primary_switch_summary" msgid="2544094070306830218">"Tikai atbalstītai lietotnei"</string>
     <string name="captioning_appearance_title" msgid="3128792092290011408">"Subtitru lielums un stils"</string>
@@ -4642,8 +4640,7 @@
     <string name="battery_tips_card_action_button_check" msgid="1535140204105479318">"Pārbaudīt"</string>
     <string name="battery_tips_card_dismiss_button" msgid="1885756985544936618">"Labi"</string>
     <string name="battery_tips_card_feedback_info" msgid="767117835675157298">"Vai šis ziņojums ir noderīgs?"</string>
-    <!-- no translation found for battery_hints_warning_icon_a11y (709629805028175434) -->
-    <skip />
+    <string name="battery_hints_warning_icon_a11y" msgid="709629805028175434">"Padomi saistībā ar brīdinājumiem par akumulatoru"</string>
     <string name="battery_tips_settings_summary_brightness" msgid="546145032616077783">"Lai paildzinātu akumulatora darbību, ieslēdziet adaptīvo spilgtumu"</string>
     <string name="battery_tips_settings_summary_screen_timeout" msgid="556801426050962077">"Lai paildzinātu akumulatora darbību, samaziniet ekrāna noildzes laiku"</string>
     <string name="battery_tips_apps_summary_always_high" msgid="6334519477067044920">"<xliff:g id="APP_LABEL">%1$s</xliff:g> patērēja vairāk akumulatora enerģijas"</string>
@@ -4812,8 +4809,8 @@
     <string name="fingerprint_swipe_for_notifications_title" msgid="2271217256447175017">"Ziņu skatīšana ar pirksta nospiedumu"</string>
     <string name="fingerprint_gesture_screen_title" msgid="9086261338232806522">"Nospiedumu skeneris"</string>
     <string name="fingerprint_swipe_for_notifications_suggestion_title" msgid="2956636269742745449">"Skatiet paziņojumus ātri"</string>
-    <string name="gesture_setting_on" msgid="3223448394997988591">"Ieslēgta"</string>
-    <string name="gesture_setting_off" msgid="3444029475726294919">"Izslēgta"</string>
+    <string name="gesture_setting_on" msgid="3223448394997988591">"Ieslēgts"</string>
+    <string name="gesture_setting_off" msgid="3444029475726294919">"Izslēgts"</string>
     <string name="oem_unlock_enable_disabled_summary_bootloader_unlocked" msgid="65713754674288193">"Palaišanas ielādētājs jau ir atbloķēts"</string>
     <string name="oem_unlock_enable_disabled_summary_connectivity_or_locked" msgid="7425519481227423860">"Izveidot savienojumu ar internetu/sazināties ar operatoru"</string>
     <string name="oem_unlock_enable_disabled_summary_sim_locked_device" msgid="168124660162907358">"Nav pieejams mobilo sakaru operatoru bloķētās ierīcēs"</string>
@@ -5866,25 +5863,20 @@
     <string name="supervision_settings_title" msgid="8507163323870367711">"Vecāku kontrole"</string>
     <string name="supervision_settings_summary" msgid="6304257872307136073">"Digitālā satura izmantošanas pamatnoteikumi un izmantošanas ilguma ierobežojumi"</string>
     <string name="device_supervision_switch_no_pin_summary" msgid="4869563544571033220">"Iestatiet PIN"</string>
-    <!-- no translation found for keywords_supervision_settings (43064288661561602) -->
-    <skip />
+    <string name="keywords_supervision_settings" msgid="43064288661561602">"uzraudzība, vecāku kontrole, vecāki, uzraudzības PIN, PIN"</string>
     <string name="supervision_pin_management_preference_title" msgid="7721501202320841845">"PIN pārvaldīšana"</string>
-    <!-- no translation found for supervision_pin_management_preference_keywords (5034450635706621750) -->
-    <skip />
+    <string name="supervision_pin_management_preference_keywords" msgid="5034450635706621750">"Vecāku PIN, vecāku kontroles PIN"</string>
     <string name="supervision_pin_management_preference_summary_add" msgid="2247921267270577374">"Pievienojiet atkopšanas e-pasta adresi"</string>
     <string name="supervision_pin_management_preference_summary_verify_recovery" msgid="5072554239108915119">"Verificējiet atkopšanas e-pasta adresi"</string>
     <string name="supervision_change_pin_preference_title" msgid="2288584039438231801">"Mainīt PIN"</string>
     <string name="supervision_add_forgot_pin_preference_title" msgid="8939945404255748516">"Esmu aizmirsis PIN"</string>
-    <!-- no translation found for supervision_auth_prompt_forgot_pin_button_label (1019337828884793557) -->
-    <skip />
+    <string name="supervision_auth_prompt_forgot_pin_button_label" msgid="1019337828884793557">"Vai aizmirsāt PIN?"</string>
     <string name="supervision_update_recovery_email_preference_title" msgid="2057393838251915087">"Atjaunināt atkopšanas e-pasta adresi"</string>
     <string name="supervision_delete_pin_preference_title" msgid="8447541098148430866">"Dzēst PIN"</string>
     <string name="supervision_add_pin_recovery_title" msgid="3487098027604685794">"Atkopšanas e-pasta adreses pievienošana"</string>
     <string name="supervision_verify_pin_recovery_title" msgid="3166602415814821497">"E-pasta adreses verificēšana"</string>
-    <!-- no translation found for supervision_web_content_filters_title (2412562442507104921) -->
-    <skip />
-    <!-- no translation found for supervision_web_content_filters_keywords (8469519676189544447) -->
-    <skip />
+    <string name="supervision_web_content_filters_title" msgid="2412562442507104921">"Tīmekļa vietņu satura filtri"</string>
+    <string name="supervision_web_content_filters_keywords" msgid="8469519676189544447">"Vietņu filtri, Bloķēt vietnes, Pārlūka filtri, Bloķēt necenzētas vietnes, Filtrēt vietnes, Bloķēt meklēšanas rezultātus, Filtrēt necenzētus meklēšanas rezultātus, satura ierobežojumi"</string>
     <string name="supervision_web_content_filters_top_intro" msgid="5264773769840566499">"Bloķējiet galvenokārt pieaugušajiem paredzētu saturu vietnēs un meklēšanas rezultātos atbalstītās lietotnēs šajā ierīcē. Neatbalstītajās lietotnēs joprojām var tikt rādīts necenzēts saturs."</string>
     <string name="supervision_web_content_filters_browser_title" msgid="8737341514264129889">"Vietnes"</string>
     <string name="supervision_web_content_filters_browser_filter_title" msgid="7957976669412075070">"Bloķēt vietnes ar necenzētu saturu"</string>

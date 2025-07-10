@@ -1926,7 +1926,7 @@
     <string name="lockpattern_recording_intro_footer" msgid="2656868858594487197">"Premeu Menú per obtenir ajuda."</string>
     <string name="lockpattern_recording_inprogress" msgid="7268008332694009191">"Deixa anar el dit quan acabis"</string>
     <string name="lockpattern_recording_incorrect_too_short" msgid="3351522018450593723">"Connecta <xliff:g id="NUMBER">%d</xliff:g> punts com a mínim. Torna-ho a provar."</string>
-    <string name="lockpattern_pattern_entered_header" msgid="7709618312713127249">"Patró enregistrat"</string>
+    <string name="lockpattern_pattern_entered_header" msgid="7709618312713127249">"Patró gravat"</string>
     <string name="lockpattern_need_to_confirm" msgid="6489499109451714360">"Torna a dibuixar el patró per confirmar-lo"</string>
     <string name="lockpattern_pattern_confirmed_header" msgid="2969990617475456153">"El teu nou patró de desbloqueig"</string>
     <string name="lockpattern_confirm_button_text" msgid="6122815520373044089">"Confirma"</string>
@@ -2161,8 +2161,8 @@
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"Desplaçament invers"</string>
     <string name="mouse_keys_use_primary_keys_title" msgid="525897583406210252">"Utilitza les tecles primàries"</string>
     <string name="mouse_keys_reset_button_label" msgid="513004295662247230">"Restableix la configuració"</string>
-    <string name="mouse_keys_primary_keys_image_list_title" msgid="7470827693078490251">"Com utilitzar les tecles primàries"</string>
-    <string name="mouse_keys_numpad_keys_image_list_title" msgid="6682341389811538017">"Com utilitzar un teclat numèric"</string>
+    <string name="mouse_keys_primary_keys_image_list_title" msgid="7470827693078490251">"Com s\'utilitzen les tecles primàries"</string>
+    <string name="mouse_keys_numpad_keys_image_list_title" msgid="6682341389811538017">"Com s\'utilitza un teclat numèric"</string>
     <string name="mouse_keys_numpad_keys_image_list_summary" msgid="2728318055237217919">"El teclat numèric s\'utilitzarà quan el bloqueig estigui activat"</string>
     <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"Desplaça\'t cap amunt per moure la pàgina cap avall"</string>
     <string name="mouse_scrolling_category_title" msgid="2992126595687187296">"Desplaçament"</string>
@@ -2196,7 +2196,7 @@
     <string name="trackpad_settings_summary" msgid="3369855644136760402">"Velocitat del punter, gestos"</string>
     <string name="trackpad_tap_to_click" msgid="1938230946542070746">"Toca per fer clic"</string>
     <string name="trackpad_tap_dragging_title" msgid="4198317837427535015">"Toca i arrossega per moure elements"</string>
-    <string name="trackpad_tap_dragging_summary" msgid="5605534150661601073">"Fes doble toc i llisca el dit al ratolí tàctil per moure objectes"</string>
+    <string name="trackpad_tap_dragging_summary" msgid="5605534150661601073">"Fes doble toc i arrossega el dit al ratolí tàctil per moure objectes"</string>
     <string name="trackpad_touchpad_gesture_title" msgid="7568052847609914436">"Gestos del ratolí tàctil"</string>
     <string name="trackpad_touchpad_gesture_summary" msgid="6256074591395359124">"Personalitza els gestos de navegació del ratolí tàctil"</string>
     <string name="trackpad_reverse_scrolling_title" msgid="422877284529360866">"Desplaçament invers"</string>
@@ -2361,7 +2361,7 @@
     <string name="accessibility_pointer_title" msgid="7427650233669997010">"Cursor"</string>
     <string name="accessibility_touchpad_title" msgid="5798458334122685642">"Ratolí tàctil"</string>
     <string name="accessibility_touchpad_system_gestures_enable_title" msgid="1867179109603472062">"Utilitza gestos amb 3 o 4 dits"</string>
-    <string name="accessibility_touchpad_system_gestures_enable_summary" msgid="7076378989016181266">"Quan estiguin desactivats, el ratolí tàctil ignorarà els gestos amb 3 o 4 dits"</string>
+    <string name="accessibility_touchpad_system_gestures_enable_summary" msgid="7076378989016181266">"Si aquesta opció està desactivada, el ratolí tàctil ignorarà els gestos amb 3 o 4 dits"</string>
     <string name="keywords_accessibility_touchpad_system_gestures_enable" msgid="4406441971607855466">"ratolí tàctil, lliscar"</string>
     <string name="accessibility_color_contrast_title" msgid="5757724357142452378">"Contrast de color"</string>
     <string name="accessibility_color_contrast_intro" msgid="7795090401101214930">"Un contrast més alt fa que el text, els botons i les icones destaquin més. Tria el contrast que més t\'agradi."</string>

@@ -3576,7 +3576,7 @@
     <string name="keywords_display_night_display" msgid="4711054330804250058">"မှိန်သောမျက်နှာပြင်၊ ည၊ အရောင်သန်းခြင်း၊ ညဆိုင်း၊ တောက်ပမှု၊ မျက်နှာပြင်အရောင်၊ အရောင်၊ အရောင်"</string>
     <string name="keywords_display_wallpaper" msgid="8478137541939526564">"နောက်ခံ၊ မိမိစိတ်ကြိုက်၊ ပြုပြင်ထားသော မြင်ကွင်း"</string>
     <string name="keywords_display_font_size" msgid="3593317215149813183">"ဖောင့်အရွယ်အစား"</string>
-    <string name="keywords_display_cast_screen" msgid="2572331770299149370">"တစ်ဆင့်တင်ပြရန်၊ ကာ့စ်လုပ်ရန်၊ စကရင်ပွားခြင်း၊ မျက်နှာပြင် မျှဝေခြင်း၊ စကရင်ပွားခြင်း၊ မျက်နှာပြင် မျှဝေရန်၊ မျက်နှာပြင် ကာ့စ်လုပ်ခြင်း"</string>
+    <string name="keywords_display_cast_screen" msgid="2572331770299149370">"တစ်ဆင့်တင်ပြရန်၊ ကာ့စ်လုပ်ရန်၊ စခရင်ပွားခြင်း၊ မျက်နှာပြင် မျှဝေခြင်း၊ စခရင်ပွားခြင်း၊ မျက်နှာပြင် မျှဝေရန်၊ မျက်နှာပြင် ကာ့စ်လုပ်ခြင်း"</string>
     <string name="keywords_display_hdr_brightness" msgid="2553194332263860092">"HDR၊ တောက်ပမှု၊ High Dynamic Range၊ ပိုမိုလင်းလက်၊ ပိုမိုတောက်ပ"</string>
     <string name="keywords_storage" msgid="3004667910133021783">"နေရာ၊ ဒစ်ခ်၊ ဟာ့ဒ်ဒစ်ခ်၊ စက်ပစ္စည်းအသုံးပြုမှု"</string>
     <string name="keywords_battery" msgid="7040323668283600530">"ပါဝါအသုံးပြုမှု၊ အားသွင်းမှု"</string>
@@ -4011,7 +4011,7 @@
     <string name="notification_polite_work_summary" msgid="5014189280132951378">"အလုပ်ပရိုဖိုင်အက်ပ်များတွင် သုံးရန်"</string>
     <string name="notification_bundle_title" msgid="6679586974995981433">"အကြောင်းကြားချက် စီစဉ်သောစနစ်"</string>
     <string name="notification_bundle_summary" msgid="8924550009829960969">"ဦးစားပေးမှုနိမ့်သော အကြောင်းကြားချက်များကို တူရာစုပြီး အသံတိတ်ပေးသည်"</string>
-    <string name="notification_bundle_main_control_title" msgid="2632661768990540295">"အကြောင်းကြားချက် စီစဉ်သောစနစ် သုံးခြင်း"</string>
+    <string name="notification_bundle_main_control_title" msgid="2632661768990540295">"အကြောင်းကြားချက် စီစဉ်သောစနစ် သုံးရန်"</string>
     <string name="notification_bundle_description" msgid="8439963475488583612">"အနှောင့်အယှက်များ လျှော့ချရန်အတွက် အသံတိတ်လိုသော အကြောင်းကြားချက်အမျိုးအစားများကို ရွေးပြီး အတူတကွ စုစည်းနိုင်သည်။ တူရာစုခြင်းကို AI ဖြင့် ပံ့ပိုးထားပြီး ၎င်းတွင် အမှားများ ပါဝင်နိုင်သည်။"</string>
     <string name="notification_app_level_bundle_title" msgid="8917807675495480483">"အတွဲလိုက် အကြောင်းကြားချက်များ"</string>
     <string name="notification_app_level_bundle_subtext" msgid="7330731485247761388">"ပိုတိတ်ဆိတ်သော အသုံးပြုမှုအတွက် အလားတူအပြင်အဆင်များပါသော အကြောင်းကြားချက်များကို အသံတိတ်ပြီး အတူတကွ အုပ်စုဖွဲ့ပါမည်"</string>

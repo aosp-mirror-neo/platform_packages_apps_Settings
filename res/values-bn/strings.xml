@@ -2167,13 +2167,13 @@
     <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"পৃষ্ঠা নিচের দিকে নামাতে উপরের দিকে স্ক্রল করুন"</string>
     <string name="mouse_scrolling_category_title" msgid="2992126595687187296">"স্ক্রোলিংয়ের স্পিড"</string>
     <string name="mouse_scrolling_acceleration" msgid="7119758828203396430">"কন্ট্রোল করা স্ক্রলিং"</string>
-    <string name="mouse_scrolling_speed" msgid="3999483025392860903">"স্ক্রোলিংয়ের স্পিড"</string>
+    <string name="mouse_scrolling_speed" msgid="3999483025392860903">"স্ক্রলিংয়ের স্পিড"</string>
     <string name="mouse_pointer_speed_make_faster_desc" msgid="7665912663672314461">"মাউস পয়েন্টারের স্পিড বাড়ান"</string>
     <string name="mouse_pointer_speed_make_slower_desc" msgid="116802579827902188">"মাউস পয়েন্টারের স্পিড কমান"</string>
     <string name="mouse_swap_primary_button" msgid="4798006242525441304">"প্রাথমিক মাউস বোতাম অদলবদল করুন"</string>
     <string name="mouse_swap_primary_button_summary" msgid="3276638019321067902">"মাউসের বাঁদিকের বোতামটিকে ডানদিকের বোতাম হিসেবে ব্যবহার করুন"</string>
     <string name="mouse_pointer_acceleration" msgid="388336576055293329">"কার্সর অ্যাক্সিলারেশন"</string>
-    <string name="mouse_pointer_acceleration_summary" msgid="6954407061360045792">"আপনার মাউস দিয়ে দ্রুততর নড়াচড়া, কার্সর আরও সরিয়ে দেবে"</string>
+    <string name="mouse_pointer_acceleration_summary" msgid="6954407061360045792">"আপনার মাউস দ্রুত নড়াচড়া করলে, কার্সর আরও সরে যাবে"</string>
     <string name="mouse_key_main_page_title" msgid="8051692181770475257">"<xliff:g id="KEYBOARD_NAME">%s</xliff:g>-এর জন্য মাউস \'কী\'"</string>
     <string name="mouse_keys_directional_summary" msgid="2215425656757420699">"মাউস পয়েন্টার সরাতে \"<xliff:g id="DIRECTIONAL_LABEL">%s</xliff:g>\" কী ব্যবহার করুন"</string>
     <string name="mouse_keys_click_summary" msgid="8271700153598258484">"প্রাথমিক মাউস বোতাম ক্লিক করতে, \"<xliff:g id="CLICK_LABEL">%s</xliff:g>\" কী ব্যবহার করুন"</string>

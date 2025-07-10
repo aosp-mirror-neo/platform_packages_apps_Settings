@@ -2159,10 +2159,10 @@
     <string name="mouse_keys_seek_bar_decrease_button_description" msgid="9077624857206032509">"Намали"</string>
     <string name="mouse_keys_seek_bar_increase_button_description" msgid="2721662400858172203">"Зголеми"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"Обратно лизгање"</string>
-    <string name="mouse_keys_use_primary_keys_title" msgid="525897583406210252">"Користете примарни копчиња"</string>
-    <string name="mouse_keys_reset_button_label" msgid="513004295662247230">"Ресетирај ги поставките"</string>
-    <string name="mouse_keys_primary_keys_image_list_title" msgid="7470827693078490251">"Како се користат примарни копчиња"</string>
-    <string name="mouse_keys_numpad_keys_image_list_title" msgid="6682341389811538017">"Како се користи нумеричка тастатура"</string>
+    <string name="mouse_keys_use_primary_keys_title" msgid="525897583406210252">"Користење на примарните копчиња"</string>
+    <string name="mouse_keys_reset_button_label" msgid="513004295662247230">"Ресетирајте ги поставките"</string>
+    <string name="mouse_keys_primary_keys_image_list_title" msgid="7470827693078490251">"Како се користат примарните копчиња"</string>
+    <string name="mouse_keys_numpad_keys_image_list_title" msgid="6682341389811538017">"Како се користи нумеричката тастатура"</string>
     <string name="mouse_keys_numpad_keys_image_list_summary" msgid="2728318055237217919">"Нумеричката тастатура ќе се користи секогаш кога има вклучено Num Lock"</string>
     <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"Лизгајте нагоре за да ја преместите страницата надолу"</string>
     <string name="mouse_scrolling_category_title" msgid="2992126595687187296">"Лизгање"</string>
@@ -2170,7 +2170,7 @@
     <string name="mouse_scrolling_speed" msgid="3999483025392860903">"Брзина на лизгање"</string>
     <string name="mouse_pointer_speed_make_faster_desc" msgid="7665912663672314461">"Забрзај го покажувачот"</string>
     <string name="mouse_pointer_speed_make_slower_desc" msgid="116802579827902188">"Забави го покажувачот"</string>
-    <string name="mouse_swap_primary_button" msgid="4798006242525441304">"Заменете го примарното копче на глувчето"</string>
+    <string name="mouse_swap_primary_button" msgid="4798006242525441304">"Замена на примарното копче на глувчето"</string>
     <string name="mouse_swap_primary_button_summary" msgid="3276638019321067902">"Користете го левото копче на глувчето како десно"</string>
     <string name="mouse_pointer_acceleration" msgid="388336576055293329">"Забрзување на курсорот"</string>
     <string name="mouse_pointer_acceleration_summary" msgid="6954407061360045792">"Побрзите движења со глувчето ќе го преместат курсорот подалеку"</string>
@@ -2361,7 +2361,7 @@
     <string name="accessibility_pointer_title" msgid="7427650233669997010">"Курсор"</string>
     <string name="accessibility_touchpad_title" msgid="5798458334122685642">"Допирна подлога"</string>
     <string name="accessibility_touchpad_system_gestures_enable_title" msgid="1867179109603472062">"Користете движења со 3 или 4 прста"</string>
-    <string name="accessibility_touchpad_system_gestures_enable_summary" msgid="7076378989016181266">"Кога е исклучена, вашата допирна подлога ќе игнорира движења со 3 или 4 прста"</string>
+    <string name="accessibility_touchpad_system_gestures_enable_summary" msgid="7076378989016181266">"Кога е исклучено, допирната подлога ќе игнорира движења со 3 или 4 прста"</string>
     <string name="keywords_accessibility_touchpad_system_gestures_enable" msgid="4406441971607855466">"допирна подлога, подлога на допир, повлекување"</string>
     <string name="accessibility_color_contrast_title" msgid="5757724357142452378">"Контраст на бои"</string>
     <string name="accessibility_color_contrast_intro" msgid="7795090401101214930">"Повисокиот контраст прави текстот, копчињата и иконите да се истакнуваат повеќе. Изберете го контрастот што ви изгледа најдобро."</string>

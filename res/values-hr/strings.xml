@@ -2159,7 +2159,7 @@
     <string name="mouse_keys_seek_bar_decrease_button_description" msgid="9077624857206032509">"Smanji"</string>
     <string name="mouse_keys_seek_bar_increase_button_description" msgid="2721662400858172203">"Povećaj"</string>
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"Obrnuto pomicanje"</string>
-    <string name="mouse_keys_use_primary_keys_title" msgid="525897583406210252">"Upotrijebite primarne tipke"</string>
+    <string name="mouse_keys_use_primary_keys_title" msgid="525897583406210252">"Koristi primarne tipke"</string>
     <string name="mouse_keys_reset_button_label" msgid="513004295662247230">"Poništi postavke"</string>
     <string name="mouse_keys_primary_keys_image_list_title" msgid="7470827693078490251">"Upotreba primarnih tipki"</string>
     <string name="mouse_keys_numpad_keys_image_list_title" msgid="6682341389811538017">"Upotreba numeričke tipkovnice"</string>
@@ -2208,7 +2208,7 @@
     <string name="trackpad_pointer_speed_make_slower_desc" msgid="6577850228762978827">"Smanji brzinu pokazivača"</string>
     <string name="three_finger_tap_preference_title" msgid="1836080810837854140">"Koristi dodir s tri prsta"</string>
     <string name="touchpad_acceleration_title" msgid="176627555191021888">"Ubrzanje dodirne podloge"</string>
-    <string name="touchpad_acceleration_summary" msgid="8057075483967535793">"Brzi pokreti na dodirnoj podlozi dalje će pomaknuti pokazivač"</string>
+    <string name="touchpad_acceleration_summary" msgid="8057075483967535793">"Brži pokreti na dodirnoj podlozi dalje će pomaknuti pokazivač"</string>
     <string name="pointer_fill_style" msgid="8794616790175016092">"Boja pokazivača"</string>
     <string name="pointer_fill_style_black_button" msgid="4540815366995820960">"Promjena ispunj. pokaz. na crno"</string>
     <string name="pointer_fill_style_green_button" msgid="3731413496528067979">"Promjena ispunj. pokaz. na zeleno"</string>
@@ -2246,7 +2246,7 @@
     <string name="gesture_button_next" msgid="695288092704187356">"Dalje"</string>
     <string name="gesture_button_restart" msgid="1895850891992530133">"Pokreni ponovo"</string>
     <string name="gesture_button_done" msgid="6387900351203032188">"Gotovo"</string>
-    <string name="action_corner_title" msgid="7411160165577367757">"Prilagodi prečace u kutovima"</string>
+    <string name="action_corner_title" msgid="7411160165577367757">"Prilagodite prečace u kutovima"</string>
     <string name="action_corner_summary" msgid="695618538930535335">"Koristite pokazivače za kretanje sustavom"</string>
     <string name="action_corner_intro" msgid="2170609118659718140">"Odaberite sljedeća područja za prilagodbu prečaca u kutu"</string>
     <string name="action_corner_bottom_left_title" msgid="2857258272736432174">"Donji lijevi kut"</string>
@@ -5389,7 +5389,7 @@
     <string name="system_default_app_subtext" msgid="5212055189703164839">"Zadane postavke sustava"</string>
     <string name="default_app_none" msgid="5420632042222036264">"Ništa"</string>
     <string name="select_invalid_bug_report_handler_toast_text" msgid="8857326334015386692">"Taj izbor više nije važeći. Pokušajte ponovo."</string>
-    <string name="power_menu_setting_name" msgid="2394440932633137229">"Pritisak i zadržavanje tipke za uključivanje i isključivanje"</string>
+    <string name="power_menu_setting_name" msgid="2394440932633137229">"Pritisnite i zadržite tipku za uključivanje/isključivanje"</string>
     <string name="power_menu_long_press_category_title" msgid="1051146091093775002">"Pritiskom i zadržavanjem tipke za uklj./isklj. otvara se"</string>
     <string name="power_menu_long_press_for_power_menu_title" msgid="477584639843663599">"Izbornik tipke za uključivanje/isključivanje"</string>
     <string name="power_menu_long_press_for_assistant_title" msgid="6557738348262616455">"Digitalni asistent"</string>

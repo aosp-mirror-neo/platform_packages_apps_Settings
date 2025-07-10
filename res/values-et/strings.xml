@@ -1177,9 +1177,9 @@
     <string name="wifi_share_preference_title" msgid="6346200020322308703">"See on jagatud võrk"</string>
     <string name="wifi_share_preference_summary" msgid="4356010425167713046">"Kõik kasutajad peale külaliskasutajate saavad seda võrku vaadata, muuta ja kustutada."</string>
     <string name="wifi_conflict_dialog_title" msgid="1127530499054245755">"Kas lülituda ümber võrgule <xliff:g id="SHARED">%1$s</xliff:g> „<xliff:g id="NETWORK_NAME">%2$s</xliff:g>“?"</string>
-    <string name="wifi_conflict_dialog_message" msgid="3192435395074097168">"Olete hetkel ühendatud võrguga, millel on sama nimi kui võrgul <xliff:g id="SHARED_0">%1$s</xliff:g>. Ümber lülitumisel katkestate ühenduse võrguga <xliff:g id="SHARED_1">%2$s</xliff:g> ja loote seejärel uuesti ühenduse võrguga <xliff:g id="PRIVATE">%3$s</xliff:g>. Võite jääda ajutiselt internetiühenduseta."</string>
+    <string name="wifi_conflict_dialog_message" msgid="3192435395074097168">"Olete praegu ühendatud võrguga, millel on võrguga <xliff:g id="SHARED_0">%1$s</xliff:g> sama nimi. Ümberlülitumisel katkestate ühenduse võrguga <xliff:g id="SHARED_1">%2$s</xliff:g> ja loote seejärel uuesti ühenduse võrguga <xliff:g id="PRIVATE">%3$s</xliff:g>. Võite jääda ajutiselt internetiühenduseta."</string>
     <string name="wifi_unchanged" msgid="8026045290856150191">"(muutmata)"</string>
-    <string name="wifi_allow_edit_configuration_title" msgid="3928254385019370063">"Lubage teistel kasutajatel võrguseadistust muuta"</string>
+    <string name="wifi_allow_edit_configuration_title" msgid="3928254385019370063">"Teistel kasutajatel võrguseadistuse muutmise lubamine"</string>
     <string name="wifi_unspecified" msgid="4561964943472312208">"Valige"</string>
     <string name="wifi_multiple_cert_added" msgid="2151019652853383776">"(Lisati mitu sertifikaati)"</string>
     <string name="wifi_use_system_certs" msgid="5587866698144996931">"Kasuta süsteemi sertifikaate"</string>
@@ -2170,7 +2170,7 @@
     <string name="mouse_scrolling_speed" msgid="3999483025392860903">"Kerimiskiirus"</string>
     <string name="mouse_pointer_speed_make_faster_desc" msgid="7665912663672314461">"Kursori muutmine kiiremaks"</string>
     <string name="mouse_pointer_speed_make_slower_desc" msgid="116802579827902188">"Kursori muutmine aeglasemaks"</string>
-    <string name="mouse_swap_primary_button" msgid="4798006242525441304">"Vaheta esmast hiirenuppu"</string>
+    <string name="mouse_swap_primary_button" msgid="4798006242525441304">"Esmase hiirenupu vahetus"</string>
     <string name="mouse_swap_primary_button_summary" msgid="3276638019321067902">"Kasutage hiire vasakut nuppu parema nupuna"</string>
     <string name="mouse_pointer_acceleration" msgid="388336576055293329">"Kursori kiirendus"</string>
     <string name="mouse_pointer_acceleration_summary" msgid="6954407061360045792">"Hiire kiirem liigutamine viib kursori kaugemale"</string>
@@ -2181,7 +2181,7 @@
     <string name="mouse_keys_release_summary" msgid="7209370896835993434">"Kasutage klahvi „<xliff:g id="RELEASE_LABEL">%s</xliff:g>” hiire põhinupu vabastamiseks"</string>
     <string name="mouse_keys_toggle_scroll_summary" msgid="7492663135290108272">"Kasutage klahvi „<xliff:g id="RELEASE_LABEL_1">%1$s</xliff:g>” kerimisrežiimi lülitumiseks. Selles režiimis saate vaadet klahviga „<xliff:g id="RELEASE_LABEL_2">%2$s</xliff:g>” üles, alla, vasakule või paremale kerida."</string>
     <string name="mouse_keys_release2_summary" msgid="5504548339731577210">"Kasutage klahvi „<xliff:g id="RELEASE_2_LABEL">%s</xliff:g>” hiire teisesel nupul klõpsamiseks"</string>
-    <string name="mouse_keys_acceleration_seekbar_title" msgid="2329098889930361504">"Kiirendi"</string>
+    <string name="mouse_keys_acceleration_seekbar_title" msgid="2329098889930361504">"Kiirendus"</string>
     <string name="mouse_keys_acceleration_fast_icon_desc" msgid="4426188473271579794">"Kiire"</string>
     <string name="mouse_keys_acceleration_slow_icon_desc" msgid="8370777074987200135">"Aeglane"</string>
     <string name="keyboard_shortcuts_helper" msgid="6934420811737731188">"Kuva klaviatuuri otseteed"</string>
@@ -2258,11 +2258,11 @@
     <string name="action_corner_action_recent_apps" msgid="7450480676812648813">"Hiljutised rakendused"</string>
     <string name="action_corner_action_notifications" msgid="3779353356349774469">"Märguanded"</string>
     <string name="action_corner_action_quick_settings" msgid="4660901117283653069">"Kiirseaded"</string>
-    <string name="action_corner_action_dialog_title" msgid="8253240813317885237">"Nurga <xliff:g id="CORNER">%1$s</xliff:g> jaoks otsetee valimine"</string>
-    <string name="action_corner_bottom_left_name" msgid="9193788067022476544">"vasak alanurk"</string>
-    <string name="action_corner_bottom_right_name" msgid="1031603363418505375">"parem alanurk"</string>
-    <string name="action_corner_top_left_name" msgid="8077670910600032291">"vasak ülanurk"</string>
-    <string name="action_corner_top_right_name" msgid="6307321595919080297">"parem ülanurk"</string>
+    <string name="action_corner_action_dialog_title" msgid="8253240813317885237">"Valige otsetee <xliff:g id="CORNER">%1$s</xliff:g> jaoks"</string>
+    <string name="action_corner_bottom_left_name" msgid="9193788067022476544">"vasaku alanurga"</string>
+    <string name="action_corner_bottom_right_name" msgid="1031603363418505375">"parema alanurga"</string>
+    <string name="action_corner_top_left_name" msgid="8077670910600032291">"vasaku ülanurga"</string>
+    <string name="action_corner_top_right_name" msgid="6307321595919080297">"parema ülanurga"</string>
     <string name="modifier_keys_settings" msgid="2537108435032034683">"Muuteklahvid"</string>
     <string name="modifier_keys_settings_summary" msgid="6933143361657444436">"Klahvide käitumise muutmine"</string>
     <string name="modifier_keys_reset_title" msgid="948294258402761066">"Lähtesta kõik"</string>
@@ -2731,7 +2731,7 @@
     <string name="reduce_bright_colors_preference_intro_text" msgid="3502290826747650566">"Muutke ekraanikuva tumedamaks, et seda oleks mugavam lugeda."</string>
     <string name="reduce_bright_colors_intensity_preference_title" msgid="7455443033955118267">"Intensiivsus"</string>
     <string name="reduce_bright_colors_intensity_start_label" msgid="930387498396426039">"Tuhmim"</string>
-    <string name="reduce_bright_colors_intensity_end_label" msgid="1422600205484299860">"Heledam"</string>
+    <string name="reduce_bright_colors_intensity_end_label" msgid="1422600205484299860">"Eredam"</string>
     <string name="reduce_bright_colors_persist_preference_title" msgid="4368829654993343354">"Hoia pärast seadme taaskäivitumist sisselülitatuna"</string>
     <string name="accessibilty_autoclick_preference_subtitle_short_delay" msgid="2981206111858937724">"{count,plural, =1{Lühike ({time} sekund)}other{Lühike ({time} sekundit)}}"</string>
     <string name="accessibilty_autoclick_preference_subtitle_medium_delay" msgid="6867395206533459204">"{count,plural, =1{Keskmine ({time} sekund)}other{Keskmine ({time} sekundit)}}"</string>

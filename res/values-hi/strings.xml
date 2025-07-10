@@ -2164,7 +2164,7 @@
     <string name="mouse_keys_primary_keys_image_list_title" msgid="7470827693078490251">"प्राइमरी बटन इस्तेमाल करने का तरीका"</string>
     <string name="mouse_keys_numpad_keys_image_list_title" msgid="6682341389811538017">"न्यूमेरिक कीपैड इस्तेमाल करने का तरीका"</string>
     <string name="mouse_keys_numpad_keys_image_list_summary" msgid="2728318055237217919">"Num Lock चालू होने पर, न्यूमेरिक कीपैड का हमेशा इस्तेमाल किया जाएगा"</string>
-    <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"पेज को नीचे ले जाने के लिए, ऊपर की ओर स्क्रोल करें"</string>
+    <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"पेज में नीचे जाने के लिए, ऊपर की ओर स्क्रोल करें"</string>
     <string name="mouse_scrolling_category_title" msgid="2992126595687187296">"स्क्रॉलिंग"</string>
     <string name="mouse_scrolling_acceleration" msgid="7119758828203396430">"माउस से कंट्रोल की गई स्क्रोलिंग"</string>
     <string name="mouse_scrolling_speed" msgid="3999483025392860903">"स्क्रोल करने की स्पीड"</string>
@@ -2172,8 +2172,8 @@
     <string name="mouse_pointer_speed_make_slower_desc" msgid="116802579827902188">"पॉइंटर की स्पीड कम करें"</string>
     <string name="mouse_swap_primary_button" msgid="4798006242525441304">"माउस का मुख्य बटन स्वैप करें"</string>
     <string name="mouse_swap_primary_button_summary" msgid="3276638019321067902">"माउस के बाएं बटन को दाएं बटन की तरह इस्तेमाल करें"</string>
-    <string name="mouse_pointer_acceleration" msgid="388336576055293329">"कर्सर की रफ़्तार"</string>
-    <string name="mouse_pointer_acceleration_summary" msgid="6954407061360045792">"माउस को तेज़ी से मूव करने पर, कर्सर भी तेज़ी से मूव होता है"</string>
+    <string name="mouse_pointer_acceleration" msgid="388336576055293329">"कर्सर की स्पीड"</string>
+    <string name="mouse_pointer_acceleration_summary" msgid="6954407061360045792">"माउस को तेज़ी से मूव करने पर, कर्सर ज़्यादा दूर तक मूव होगा"</string>
     <string name="mouse_key_main_page_title" msgid="8051692181770475257">"<xliff:g id="KEYBOARD_NAME">%s</xliff:g> पर माउस के लिए बटन"</string>
     <string name="mouse_keys_directional_summary" msgid="2215425656757420699">"माउस पॉइंटर को मूव करने के लिए, \"<xliff:g id="DIRECTIONAL_LABEL">%s</xliff:g>\" बटन का इस्तेमाल करें"</string>
     <string name="mouse_keys_click_summary" msgid="8271700153598258484">"माउस के प्राइमरी बटन पर क्लिक करने के लिए, \"<xliff:g id="CLICK_LABEL">%s</xliff:g>\" बटन का इस्तेमाल करें"</string>
@@ -2181,7 +2181,7 @@
     <string name="mouse_keys_release_summary" msgid="7209370896835993434">"दबाकर रखे गए प्राइमरी बटन को छोड़ने के लिए, \"<xliff:g id="RELEASE_LABEL">%s</xliff:g>\" बटन का इस्तेमाल करें"</string>
     <string name="mouse_keys_toggle_scroll_summary" msgid="7492663135290108272">"स्क्रोल मोड को टॉगल करने के लिए, \"<xliff:g id="RELEASE_LABEL_1">%1$s</xliff:g>\" बटन का इस्तेमाल करें. इससे, \"<xliff:g id="RELEASE_LABEL_2">%2$s</xliff:g>\" बटन के ज़रिए व्यू को ऊपर, नीचे, बाएं या दाएं स्क्रोल किया जा सकता है"</string>
     <string name="mouse_keys_release2_summary" msgid="5504548339731577210">"माउस के सेकंडरी बटन पर क्लिक करने के लिए, \"<xliff:g id="RELEASE_2_LABEL">%s</xliff:g>\" बटन का इस्तेमाल करें"</string>
-    <string name="mouse_keys_acceleration_seekbar_title" msgid="2329098889930361504">"माउस को तेज़ी से चलाने की सुविधा"</string>
+    <string name="mouse_keys_acceleration_seekbar_title" msgid="2329098889930361504">"कर्सर की स्पीड"</string>
     <string name="mouse_keys_acceleration_fast_icon_desc" msgid="4426188473271579794">"तेज़"</string>
     <string name="mouse_keys_acceleration_slow_icon_desc" msgid="8370777074987200135">"धीमा"</string>
     <string name="keyboard_shortcuts_helper" msgid="6934420811737731188">"कीबोर्ड शॉर्टकट देखें"</string>
@@ -2196,7 +2196,7 @@
     <string name="trackpad_settings_summary" msgid="3369855644136760402">"पॉइंटर की स्पीड, हाथ के जेस्चर"</string>
     <string name="trackpad_tap_to_click" msgid="1938230946542070746">"क्लिक करने के लिए टैप करें"</string>
     <string name="trackpad_tap_dragging_title" msgid="4198317837427535015">"टैप करके खींचें और छोड़ें"</string>
-    <string name="trackpad_tap_dragging_summary" msgid="5605534150661601073">"चीज़ों को एक जगह से दूसरी जगह ले जाने के लिए, टचपैड पर दो बार टैप करके उन्हें चुनें और अपनी उंगली से खींचकर छोड़ें"</string>
+    <string name="trackpad_tap_dragging_summary" msgid="5605534150661601073">"चीज़ें कहीं ले जाने के लिए, टचपैड पर दो बार टैप करके चुनें और खींचकर छोड़ें"</string>
     <string name="trackpad_touchpad_gesture_title" msgid="7568052847609914436">"टचपैड पर हाथ के जेस्चर"</string>
     <string name="trackpad_touchpad_gesture_summary" msgid="6256074591395359124">"टचपैड पर नेविगेशन के लिए हाथ के जेस्चर पसंद के मुताबिक बनाएं"</string>
     <string name="trackpad_reverse_scrolling_title" msgid="422877284529360866">"नीचे की ओर स्क्रोल करें"</string>
@@ -2208,7 +2208,7 @@
     <string name="trackpad_pointer_speed_make_slower_desc" msgid="6577850228762978827">"पॉइंटर की स्पीड कम करें"</string>
     <string name="three_finger_tap_preference_title" msgid="1836080810837854140">"तीन उंगलियों से टैप करें"</string>
     <string name="touchpad_acceleration_title" msgid="176627555191021888">"टचपैड की रफ़्तार"</string>
-    <string name="touchpad_acceleration_summary" msgid="8057075483967535793">"टचपैड को तेज़ी से इस्तेमाल करने पर, कर्सर दूर तक मूव करेगा"</string>
+    <string name="touchpad_acceleration_summary" msgid="8057075483967535793">"टचपैड पर उंगलियां तेज़ी से चलाने पर, कर्सर ज़्यादा दूर तक मूव करेगा"</string>
     <string name="pointer_fill_style" msgid="8794616790175016092">"पॉइंटर का कलर"</string>
     <string name="pointer_fill_style_black_button" msgid="4540815366995820960">"पॉइंटर फ़िल स्टाइल, ब्लैक में बदलें"</string>
     <string name="pointer_fill_style_green_button" msgid="3731413496528067979">"पॉइंटर फ़िल स्टाइल, ग्रीन में बदलें"</string>
@@ -2246,7 +2246,7 @@
     <string name="gesture_button_next" msgid="695288092704187356">"आगे बढ़ें"</string>
     <string name="gesture_button_restart" msgid="1895850891992530133">"रीस्टार्ट करें"</string>
     <string name="gesture_button_done" msgid="6387900351203032188">"हो गया"</string>
-    <string name="action_corner_title" msgid="7411160165577367757">"कॉर्नर शॉर्टकट को पसंद के मुताबिक बनाएं"</string>
+    <string name="action_corner_title" msgid="7411160165577367757">"कॉर्नर पर कर्सर ले जाने पर खुलने वाले शॉर्टकट कस्टमाइज़ करें"</string>
     <string name="action_corner_summary" msgid="695618538930535335">"सिस्टम में नेविगेट करने के लिए कर्सर का इस्तेमाल करें"</string>
     <string name="action_corner_intro" msgid="2170609118659718140">"कॉर्नर शॉर्टकट को पसंद के मुताबिक बनाने के लिए ये एरिया चुनें"</string>
     <string name="action_corner_bottom_left_title" msgid="2857258272736432174">"सबसे नीचे बाईं ओर"</string>
@@ -2361,7 +2361,7 @@
     <string name="accessibility_pointer_title" msgid="7427650233669997010">"कर्सर"</string>
     <string name="accessibility_touchpad_title" msgid="5798458334122685642">"टचपैड"</string>
     <string name="accessibility_touchpad_system_gestures_enable_title" msgid="1867179109603472062">"तीन या चार उंगलियों से किए जाने वाले हाथ के जेस्चर का इस्तेमाल करें"</string>
-    <string name="accessibility_touchpad_system_gestures_enable_summary" msgid="7076378989016181266">"इस सुविधा के बंद होने पर, टचपैड तीन या चार उंगलियों के जेस्चर को अनदेखा करेगा"</string>
+    <string name="accessibility_touchpad_system_gestures_enable_summary" msgid="7076378989016181266">"यह सुविधा बंद होने पर, टचपैड तीन या चार उंगलियों से किए जाने वाले हाथ के जेस्चर को अनदेखा करेगा"</string>
     <string name="keywords_accessibility_touchpad_system_gestures_enable" msgid="4406441971607855466">"टचपैड, ट्रैकपैड, स्वाइप"</string>
     <string name="accessibility_color_contrast_title" msgid="5757724357142452378">"कलर कंट्रास्ट"</string>
     <string name="accessibility_color_contrast_intro" msgid="7795090401101214930">"कंट्रास्ट ज़्यादा होने से टेक्स्ट, बटन, और आइकॉन ज़्यादा अच्छे से दिखते हैं. अपने हिसाब से सही कंट्रास्ट चुनें."</string>
@@ -2849,11 +2849,11 @@
     <string name="manager_battery_usage_allow_background_usage_settings_title" msgid="8150026934645052635">"बैकग्राउंड में ऐप्लिकेशन चलने की सुविधा चालू करें"</string>
     <string name="manager_battery_usage_allow_background_usage_title" msgid="6294649996820358852">"बैकग्राउंड में ऐप्लिकेशन चलने की सुविधा चालू करें"</string>
     <string name="manager_battery_usage_allow_background_usage_summary" msgid="8021153755201340819">"रीयल-टाइम अपडेट पाने के लिए, बैकग्राउंड में ऐप्लिकेशन के चलने की सुविधा को चालू करें. अगर आपको बैटरी बचानी हो, तो इस सुविधा को बंद करें"</string>
-    <string name="manager_battery_usage_unrestricted_title" msgid="2426486290463258032">"बैटरी के इस्तेमाल पर कोई पाबंदी नहीं"</string>
+    <string name="manager_battery_usage_unrestricted_title" msgid="2426486290463258032">"बैटरी के इस्तेमाल पर कोई पाबंदी ना लगाएं"</string>
     <string name="manager_battery_usage_optimized_title" msgid="8080765739761921817">"बैटरी के इस्तेमाल को ऑप्टिमाइज़ करें"</string>
     <string name="manager_battery_usage_restricted_title" msgid="7702863764130323118">"पाबंदी लगी है"</string>
-    <string name="manager_battery_usage_unrestricted_summary" msgid="6819279865465667692">"बैकग्राउंड में, पाबंदियों के बिना बैटरी इस्तेमाल किए जाने की अनुमति दें. इससे बैटरी ज़्यादा खर्च हो सकती है."</string>
-    <string name="manager_battery_usage_optimized_summary" msgid="1332545476428039900">"बैटरी की सेटिंग को अपने इस्तेमाल के हिसाब से ऑप्टिमाइज़ करें. ज़्यादातर ऐप्लिकेशन के लिए, सेटिंग को ऑप्टिमाइज़ करने का सुझाव दिया जाता है."</string>
+    <string name="manager_battery_usage_unrestricted_summary" msgid="6819279865465667692">"बैकग्राउंड में बिना किसी पाबंदी के बैटरी इस्तेमाल किए जाने की अनुमति दें. इससे बैटरी ज़्यादा खर्च हो सकती है."</string>
+    <string name="manager_battery_usage_optimized_summary" msgid="1332545476428039900">"बैटरी की सेटिंग को अपने इस्तेमाल के हिसाब से ऑप्टिमाइज़ करें. ज़्यादातर ऐप्लिकेशन के लिए, इस सेटिंग को ऑप्टिमाइज़ करने का सुझाव दिया जाता है."</string>
     <string name="manager_battery_usage_restricted_summary" msgid="8324695640704416905">"बैकग्राउंड में बैटरी खर्च को सीमित करें. हो सकता है कि ऐप्लिकेशन ठीक से काम न करे. सूचनाएं मिलने में देरी हो सकती है."</string>
     <string name="manager_battery_usage_footer" msgid="2635906573922553766">"किसी ऐप्लिकेशन के लिए बैटरी इस्तेमाल करने का तरीका बदलने पर, उस ऐप की परफ़ॉर्मेंस पर असर पड़ सकता है."</string>
     <string name="manager_battery_usage_footer_limited" msgid="5180776148877306780">"इस ऐप्लिकेशन का इस्तेमाल करने के लिए, आपको बैटरी खर्च को <xliff:g id="STATE">%1$s</xliff:g> मोड पर सेट करना होगा."</string>

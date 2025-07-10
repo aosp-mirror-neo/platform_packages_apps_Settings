@@ -2153,7 +2153,7 @@
     <string name="sticky_keys_summary" msgid="1844953803625480623">"Lasterbideetan, sakatu teklak banan-banan, guztiak aldi berean sakatu ordez"</string>
     <string name="mouse_keys" msgid="6237254627808525540">"Saguaren teklak"</string>
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"Erabili saguaren teklak"</string>
-    <string name="accessibility_mouse_keys_shortcut_title" msgid="7621635104533584115">"Saguaren teklen lasterbideak"</string>
+    <string name="accessibility_mouse_keys_shortcut_title" msgid="7621635104533584115">"Saguaren teklen lasterbidea"</string>
     <string name="mouse_keys_summary" msgid="6512910710030108693">"Erabili teklatua kurtsorea kontrolatzeko"</string>
     <string name="mouse_keys_max_speed_title" msgid="2651688711606971145">"Abiadura"</string>
     <string name="mouse_keys_seek_bar_decrease_button_description" msgid="9077624857206032509">"Jaitsi"</string>
@@ -4844,7 +4844,7 @@
     <string name="enterprise_privacy_security_logs" msgid="8494681624247959075">"Azken segurtasun-erregistroa"</string>
     <string name="enterprise_privacy_none" msgid="6026527690979756431">"Bat ere ez"</string>
     <string name="enterprise_privacy_enterprise_installed_packages" msgid="9114143640515900082">"Instalatutako aplikazioak"</string>
-    <string name="enterprise_privacy_apps_count_estimation_info" msgid="7959907857710107792">"Aplikazio kopurua estimazio bat da. Baliteke Play Store-tik instalatu ez diren aplikazioak kontuan ez izatea."</string>
+    <string name="enterprise_privacy_apps_count_estimation_info" msgid="7959907857710107792">"Aplikazio kopurua estimazio bat da. Baliteke Google Play Store-tik instalatu ez diren aplikazioak kontuan ez izatea."</string>
     <string name="enterprise_privacy_number_packages_lower_bound" msgid="5317634640873658149">"{count,plural, =1{# aplikazio gutxienez}other{# aplikazio gutxienez}}"</string>
     <string name="enterprise_privacy_location_access" msgid="8023838718108456971">"Kokapena hautemateko baimenak"</string>
     <string name="enterprise_privacy_microphone_access" msgid="7242958026470143653">"Mikrofonoa erabiltzeko baimenak"</string>
@@ -4876,7 +4876,7 @@
     <string name="financed_privacy_settings" msgid="2575114436197204145">"Gailu finantzatuaren informazioa"</string>
     <string name="financed_privacy_intro" msgid="7836497475568741579">"Konfigurazio-prozesuan zehar, kreditu bidezko gailu-hornitzaileak gailuaren ezarpenak alda ditzake, baita bertan softwarea instalatu ere.\n\nOrdainketaren bat egiten ez baduzu, kreditu bidezko gailu-hornitzaileak gailua blokea dezake, eta gailuaren ezarpenak aldatu.\n\nInformazio gehiago lortzeko, jarri harremanetan kreditu bidezko gailu-hornitzailearekin."</string>
     <string name="financed_privacy_restrictions_category" msgid="2472659467919651602">"Gailua finantzatu baduzu, ezingo dituzu egin hauek:"</string>
-    <string name="financed_privacy_install_apps" msgid="7381718005710210851">"Play Store-tik kanpoko aplikazioak instalatu."</string>
+    <string name="financed_privacy_install_apps" msgid="7381718005710210851">"Google Play Store-tik kanpoko aplikazioak instalatu."</string>
     <string name="financed_privacy_safe_mode" msgid="5362149445732602578">"Gailua modu seguruan berrabiarazi."</string>
     <string name="financed_privacy_multi_users" msgid="1727194928477613081">"Gailuan hainbat erabiltzaile gehitu."</string>
     <string name="financed_privacy_config_date_time" msgid="8567370445374984365">"Data, ordua eta ordu-zonak aldatu."</string>

@@ -2207,8 +2207,8 @@
     <string name="trackpad_pointer_speed_make_faster_desc" msgid="2855950278314583596">"Zvýšiť rýchlosť kurzora"</string>
     <string name="trackpad_pointer_speed_make_slower_desc" msgid="6577850228762978827">"Znížiť rýchlosť kurzora"</string>
     <string name="three_finger_tap_preference_title" msgid="1836080810837854140">"Klepnutie troma prstami"</string>
-    <string name="touchpad_acceleration_title" msgid="176627555191021888">"Zrýchlenie touchpadu"</string>
-    <string name="touchpad_acceleration_summary" msgid="8057075483967535793">"Rýchlejším pohybmi na touchpade pohnete kurzor ďalej"</string>
+    <string name="touchpad_acceleration_title" msgid="176627555191021888">"Zrýchliť touchpad"</string>
+    <string name="touchpad_acceleration_summary" msgid="8057075483967535793">"Rýchlejším pohybom na touchpade posuniete kurzor ďalej"</string>
     <string name="pointer_fill_style" msgid="8794616790175016092">"Farba kurzora"</string>
     <string name="pointer_fill_style_black_button" msgid="4540815366995820960">"Zmena farby kurzora na čiernu"</string>
     <string name="pointer_fill_style_green_button" msgid="3731413496528067979">"Zmena farby kurzora na zelenú"</string>
@@ -2253,7 +2253,7 @@
     <string name="action_corner_bottom_right_title" msgid="7222233500548465684">"Pravý dolný roh"</string>
     <string name="action_corner_top_left_title" msgid="4633975226092344210">"Ľavý horný roh"</string>
     <string name="action_corner_top_right_title" msgid="4995999693840776032">"Pravý horný roh"</string>
-    <string name="action_corner_action_none" msgid="5203163099950649999">"Žiadne"</string>
+    <string name="action_corner_action_none" msgid="5203163099950649999">"Žiadna"</string>
     <string name="action_corner_action_home" msgid="6779642573582379579">"Domov"</string>
     <string name="action_corner_action_recent_apps" msgid="7450480676812648813">"Nedávne aplikácie"</string>
     <string name="action_corner_action_notifications" msgid="3779353356349774469">"Upozornenia"</string>
@@ -3845,7 +3845,7 @@
     <string name="notification_history_open_notification" msgid="2655071846911258371">"otvoriť upozornenie"</string>
     <string name="snooze_options_title" msgid="2109795569568344617">"Povoliť stlmenie upozornení"</string>
     <string name="notification_badging_title" msgid="5469616894819568917">"Bodka upozornení na ikone aplikácie"</string>
-    <string name="notification_bundles" msgid="496852738958148317">"Nástroj na usporiadanie upozornení"</string>
+    <string name="notification_bundles" msgid="496852738958148317">"Nástroj usporiadania upozornení"</string>
     <string name="notification_bundle_promotions_summary" msgid="3196830882575438887">"Zľavy, nové funkcie a ďalší obsah"</string>
     <string name="notification_bundle_news_summary" msgid="2524877244105778120">"Najčítanejšie články, úvodníky a ďalší obsah"</string>
     <string name="notification_bundle_social_summary" msgid="1880042768055317701">"Označenia páči sa, príspevky a ďalší obsah"</string>
@@ -4009,9 +4009,9 @@
     <string name="notification_polite_description" msgid="6137533404978878957">"Keď dostanete v krátkom čase priveľa upozornení, zariadenie až na minútu zníži hlasitosť a minimalizuje počet upozornení. Netýka sa to hovorov, budíkov a prioritných konverzácií. \n\nUpozornenia prijaté počas režimu stlmenia zobrazíte potiahnutím zhora obrazovky nadol."</string>
     <string name="notification_polite_work" msgid="8823596456640216391">"Používať na pracovné profily"</string>
     <string name="notification_polite_work_summary" msgid="5014189280132951378">"Používať na aplikácie v pracovnom profile"</string>
-    <string name="notification_bundle_title" msgid="6679586974995981433">"Nástroj na usporiadanie upozornení"</string>
+    <string name="notification_bundle_title" msgid="6679586974995981433">"Nástroj usporiadania upozornení"</string>
     <string name="notification_bundle_summary" msgid="8924550009829960969">"Zoskupiť upozornenia s nižšou prioritou a vypnúť ich zvuk"</string>
-    <string name="notification_bundle_main_control_title" msgid="2632661768990540295">"Použiť nástroj na usporiadanie upozornení"</string>
+    <string name="notification_bundle_main_control_title" msgid="2632661768990540295">"Používať nástroj na usporiadanie upozornení"</string>
     <string name="notification_bundle_description" msgid="8439963475488583612">"Vyberte typy upozornení, ktorých zvuk chcete vypnúť a ktoré chcete zoskupiť, aby ste minimalizovali prerušenia. Zoskupenie využíva umelú inteligenciu a môže obsahovať chyby."</string>
     <string name="notification_app_level_bundle_title" msgid="8917807675495480483">"Zlučovanie upozornení"</string>
     <string name="notification_app_level_bundle_subtext" msgid="7330731485247761388">"Upozornenia s podobnými témami budú mať vypnutý zvuk a budú zoskupené, aby ste mali tichšie prostredie"</string>

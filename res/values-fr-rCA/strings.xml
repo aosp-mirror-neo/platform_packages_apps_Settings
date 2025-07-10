@@ -772,7 +772,7 @@
     <string name="no_screen_lock_issue_notification_text" msgid="8696194459170873345">"Pour renforcer la sécurité, définissez un NIP, un schéma ou un mot de passe pour cet appareil."</string>
     <string name="suggested_lock_settings_title" msgid="7836065447159730217">"Sécurisez votre téléphone"</string>
     <string name="suggested_fingerprint_lock_settings_title" msgid="3140266181874137984">"Ajouter empreinte digitale pour déverrouiller"</string>
-    <string name="lock_settings_picker_title" msgid="9219376327364915334">"Verrouillage de l\'écran"</string>
+    <string name="lock_settings_picker_title" msgid="9219376327364915334">"Sélect. verr. écran"</string>
     <string name="lock_settings_picker_new_lock_title" msgid="3113042086804290919">"Choisissez un verrouillage d\'écran"</string>
     <string name="lock_settings_picker_update_lock_title" msgid="536853138943415927">"Choisissez un verrouillage d\'écran"</string>
     <string name="lock_settings_picker_new_profile_lock_title" msgid="2270462215256413800">"Choisir le verrouillage pour les applis professionnelles"</string>
@@ -1856,7 +1856,7 @@
     <string name="lockpassword_choose_your_profile_password_header" msgid="7038997227611893312">"Définir un mot de passe professionnel"</string>
     <string name="lockpassword_choose_your_pin_header" msgid="7754265746504679473">"Définissez un NIP"</string>
     <string name="lockpassword_choose_your_profile_pin_header" msgid="4581749963670819048">"Définir un NIP professionnel"</string>
-    <string name="lockpassword_choose_your_pattern_header" msgid="5674909390779586252">"Définissez un schéma"</string>
+    <string name="lockpassword_choose_your_pattern_header" msgid="5674909390779586252">"Définir un schéma"</string>
     <string name="lockpassword_choose_your_pattern_description" msgid="6808109256008481046">"Pour renforcer la sécurité, définissez un schéma pour déverrouiller l\'appareil"</string>
     <string name="lockpassword_choose_your_profile_pattern_header" msgid="3101811498330756641">"Définir un schéma professionnel"</string>
     <string name="lockpassword_choose_your_password_header_for_fingerprint" msgid="3167261267229254090">"Pour util. empr. digit., config. m. de passe"</string>
@@ -2150,7 +2150,7 @@
     <string name="slow_keys" msgid="2891452895499690837">"Touches lentes"</string>
     <string name="slow_keys_summary" msgid="3852534180402969185">"Modifiez la durée pendant laquelle vous devez maintenir une touche enfoncée avant qu\'elle soit enregistrée"</string>
     <string name="sticky_keys" msgid="7317317044898161747">"Touches rémanentes"</string>
-    <string name="sticky_keys_summary" msgid="1844953803625480623">"Appuyez sur une clé à la fois pour activer les raccourcis plutôt que de maintenir plusieurs touches enfoncées en même temps"</string>
+    <string name="sticky_keys_summary" msgid="1844953803625480623">"Appuyez sur une touche à la fois pour activer les raccourcis plutôt que de maintenir plusieurs touches enfoncées en même temps"</string>
     <string name="mouse_keys" msgid="6237254627808525540">"Touches de souris"</string>
     <string name="mouse_keys_main_title" msgid="3570638931365221460">"Utiliser les touches de souris"</string>
     <string name="accessibility_mouse_keys_shortcut_title" msgid="7621635104533584115">"Raccourcis-clavier des touches de souris"</string>
@@ -2161,8 +2161,8 @@
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"Défilement inversé"</string>
     <string name="mouse_keys_use_primary_keys_title" msgid="525897583406210252">"Utiliser les clés primaires"</string>
     <string name="mouse_keys_reset_button_label" msgid="513004295662247230">"Réinitialiser les paramètres"</string>
-    <string name="mouse_keys_primary_keys_image_list_title" msgid="7470827693078490251">"Comment utiliser des clés primaires"</string>
-    <string name="mouse_keys_numpad_keys_image_list_title" msgid="6682341389811538017">"Comment utiliser un clav. numérique"</string>
+    <string name="mouse_keys_primary_keys_image_list_title" msgid="7470827693078490251">"Comment utiliser les clés primaires"</string>
+    <string name="mouse_keys_numpad_keys_image_list_title" msgid="6682341389811538017">"Comment utiliser un clavier numérique"</string>
     <string name="mouse_keys_numpad_keys_image_list_summary" msgid="2728318055237217919">"Clav. num. quand Verr. num. activé"</string>
     <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"Faites défiler l\'écran vers le haut pour déplacer la page vers le bas"</string>
     <string name="mouse_scrolling_category_title" msgid="2992126595687187296">"Faire défiler"</string>
@@ -2246,7 +2246,7 @@
     <string name="gesture_button_next" msgid="695288092704187356">"Suivant"</string>
     <string name="gesture_button_restart" msgid="1895850891992530133">"Redémarrer"</string>
     <string name="gesture_button_done" msgid="6387900351203032188">"OK"</string>
-    <string name="action_corner_title" msgid="7411160165577367757">"Personnaliser les raccourcis de coins"</string>
+    <string name="action_corner_title" msgid="7411160165577367757">"Personnaliser les raccourcis de coin"</string>
     <string name="action_corner_summary" msgid="695618538930535335">"Utilisez les curseurs pour naviguer dans le système"</string>
     <string name="action_corner_intro" msgid="2170609118659718140">"Choisissez les zones suivantes pour personnaliser les raccourcis de coins"</string>
     <string name="action_corner_bottom_left_title" msgid="2857258272736432174">"Coin inférieur gauche"</string>
@@ -2360,7 +2360,7 @@
     <string name="accessibility_pointer_color_customization_title" msgid="2841888132681075999">"Couleur du curseur"</string>
     <string name="accessibility_pointer_title" msgid="7427650233669997010">"Curseur"</string>
     <string name="accessibility_touchpad_title" msgid="5798458334122685642">"Pavé tactile"</string>
-    <string name="accessibility_touchpad_system_gestures_enable_title" msgid="1867179109603472062">"Utiliser des gestes à trois ou quatre doigts"</string>
+    <string name="accessibility_touchpad_system_gestures_enable_title" msgid="1867179109603472062">"Utiliser les gestes à trois ou quatre doigts"</string>
     <string name="accessibility_touchpad_system_gestures_enable_summary" msgid="7076378989016181266">"Lorsque votre pavé tactile est désactivé, il ignorera les gestes à trois ou quatre doigts"</string>
     <string name="keywords_accessibility_touchpad_system_gestures_enable" msgid="4406441971607855466">"pavé tactile, balayer"</string>
     <string name="accessibility_color_contrast_title" msgid="5757724357142452378">"Contraste des couleurs"</string>
@@ -4484,7 +4484,7 @@
     <string name="keywords_vr_listener" msgid="902737490270081131">"vr réalité virtuelle écouteur service de soutien stéréo"</string>
     <string name="overlay_settings" msgid="2030836934139139469">"Afficher par-dessus autres applis"</string>
     <string name="filter_overlay_apps" msgid="2483998217116789206">"Applis dotées de l\'autorisation"</string>
-    <string name="app_permission_summary_allowed" msgid="1155115629167757278">"Autorisé"</string>
+    <string name="app_permission_summary_allowed" msgid="1155115629167757278">"Élément autorisé"</string>
     <string name="app_permission_summary_not_allowed" msgid="2673793662439097900">"Non autorisée"</string>
     <string name="keywords_install_other_apps" msgid="563895867658775580">"installer des applis provenant de sources inconnues"</string>
     <string name="write_settings" msgid="6864794401614425894">"Modifier les paramètres système"</string>

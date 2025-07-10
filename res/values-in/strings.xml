@@ -2136,7 +2136,7 @@
     <string name="physical_keyboard_title" msgid="3328134097512350958">"Keyboard fisik"</string>
     <string name="physical_keyboard_layout_picker_title" msgid="4526600767648916256">"Pemilih tata letak keyboard fisik"</string>
     <string name="bounce_keys" msgid="7419450970351743904">"Tombol pantul"</string>
-    <string name="bounce_keys_summary" msgid="8890925059943636911">"Mengabaikan penekanan tombol yang sama secara berulang dan cepat"</string>
+    <string name="bounce_keys_summary" msgid="8890925059943636911">"Abaikan penekanan tombol yang sama secara berulang dan cepat"</string>
     <string name="bounce_keys_dialog_title" msgid="1090578395028456023">"Penundaan tombol pantul"</string>
     <string name="bounce_keys_dialog_subtitle" msgid="6804676895876861863">"Pilih berapa lama keyboard mengabaikan penekanan tombol berulang"</string>
     <string name="input_setting_keys_dialog_option_200" msgid="2785528287150314940">"0,2 detik"</string>
@@ -4008,15 +4008,15 @@
     <string name="notification_polite_main_control_title" msgid="5812529809151927149">"Gunakan pengurangan suara dan getaran notifikasi"</string>
     <string name="notification_polite_description" msgid="6137533404978878957">"Saat Anda menerima banyak notifikasi dalam waktu singkat, perangkat akan menurunkan volumenya dan meminimalkan notifikasi hingga selama 1 menit. Panggilan, alarm, dan percakapan prioritas tidak akan terpengaruh. \n\nNotifikasi yang diterima saat pengurangan suara dan getaran diaktifkan dapat ditemukan dengan menarik layar ke bawah dari bagian atas layar."</string>
     <string name="notification_polite_work" msgid="8823596456640216391">"Terapkan pada profil kerja"</string>
-    <string name="notification_polite_work_summary" msgid="5014189280132951378">"Diterapkan untuk aplikasi profil kerja"</string>
+    <string name="notification_polite_work_summary" msgid="5014189280132951378">"Terapkan ke aplikasi profil kerja"</string>
     <string name="notification_bundle_title" msgid="6679586974995981433">"Pengatur notifikasi"</string>
     <string name="notification_bundle_summary" msgid="8924550009829960969">"Gabungkan dan senyapkan notifikasi dengan prioritas yang lebih rendah"</string>
     <string name="notification_bundle_main_control_title" msgid="2632661768990540295">"Gunakan Pengatur notifikasi"</string>
-    <string name="notification_bundle_description" msgid="8439963475488583612">"Pilih jenis notifikasi yang ingin Anda senyapkan dan gabungkan untuk meminimalkan gangguan. Penggabungan notifikasi didukung AI dan mungkin berisi error."</string>
+    <string name="notification_bundle_description" msgid="8439963475488583612">"Pilih jenis notifikasi yang ingin Anda senyapkan dan gabungkan untuk meminimalkan gangguan. Penggabungan notifikasi didukung AI dan mungkin berisi kesalahan."</string>
     <string name="notification_app_level_bundle_title" msgid="8917807675495480483">"Gabungkan notifikasi"</string>
     <string name="notification_app_level_bundle_subtext" msgid="7330731485247761388">"Notifikasi dengan tema serupa akan disenyapkan dan dikelompokkan bersama untuk pengalaman yang lebih tenang"</string>
     <string name="notification_bundle_manage_excluded_apps_title" msgid="7019831234073590293">"Izinkan penggabungan notifikasi untuk aplikasi"</string>
-    <string name="notification_adjustment_work_switch_title" msgid="5858034709870660002">"Diterapkan untuk aplikasi profil kerja"</string>
+    <string name="notification_adjustment_work_switch_title" msgid="5858034709870660002">"Terapkan ke aplikasi profil kerja"</string>
     <string name="vr_listeners_title" msgid="4960357292472540964">"Layanan bantuan VR"</string>
     <string name="no_vr_listeners" msgid="8442646085375949755">"Tidak ada aplikasi terinstal yang meminta dijalankan sebagai layanan bantuan VR"</string>
     <string name="vr_listener_security_warning_title" msgid="7026351795627615177">"Izinkan akses layanan VR untuk <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>

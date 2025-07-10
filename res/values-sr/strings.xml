@@ -2170,17 +2170,17 @@
     <string name="mouse_scrolling_speed" msgid="3999483025392860903">"Брзина скроловања"</string>
     <string name="mouse_pointer_speed_make_faster_desc" msgid="7665912663672314461">"Убрзава показивач"</string>
     <string name="mouse_pointer_speed_make_slower_desc" msgid="116802579827902188">"Успорава показивач"</string>
-    <string name="mouse_swap_primary_button" msgid="4798006242525441304">"Замени примарно дугме миша"</string>
+    <string name="mouse_swap_primary_button" msgid="4798006242525441304">"Замени примарни тастер миша"</string>
     <string name="mouse_swap_primary_button_summary" msgid="3276638019321067902">"Користите леви тастер миша као десни"</string>
     <string name="mouse_pointer_acceleration" msgid="388336576055293329">"Убрзавање курсора"</string>
     <string name="mouse_pointer_acceleration_summary" msgid="6954407061360045792">"Брже кретање миша ће померати курсор даље"</string>
     <string name="mouse_key_main_page_title" msgid="8051692181770475257">"Тастери миша за: <xliff:g id="KEYBOARD_NAME">%s</xliff:g>"</string>
-    <string name="mouse_keys_directional_summary" msgid="2215425656757420699">"Користите тастере <xliff:g id="DIRECTIONAL_LABEL">%s</xliff:g> да бисте померили показивач миша"</string>
-    <string name="mouse_keys_click_summary" msgid="8271700153598258484">"Користите тастер „<xliff:g id="CLICK_LABEL">%s</xliff:g>“ да бисте кликнули на примарно дугме миша"</string>
-    <string name="mouse_keys_press_hold_summary" msgid="112969663769147732">"Користите тастер <xliff:g id="PRESS_HOLD_LABEL">%s</xliff:g> да бисте притиснули и задржали примарни тастер миша"</string>
-    <string name="mouse_keys_release_summary" msgid="7209370896835993434">"Користите тастер „<xliff:g id="RELEASE_LABEL">%s</xliff:g>“ да бисте пустили примарно дугме миша"</string>
+    <string name="mouse_keys_directional_summary" msgid="2215425656757420699">"Користите тастере „<xliff:g id="DIRECTIONAL_LABEL">%s</xliff:g>“ да бисте померили показивач миша"</string>
+    <string name="mouse_keys_click_summary" msgid="8271700153598258484">"Користите тастер „<xliff:g id="CLICK_LABEL">%s</xliff:g>“ да бисте кликнули на примарни тастер миша"</string>
+    <string name="mouse_keys_press_hold_summary" msgid="112969663769147732">"Користите тастер „<xliff:g id="PRESS_HOLD_LABEL">%s</xliff:g>“ да бисте притиснули и задржали примарни тастер миша"</string>
+    <string name="mouse_keys_release_summary" msgid="7209370896835993434">"Користите тастер „<xliff:g id="RELEASE_LABEL">%s</xliff:g>“ да бисте пустили примарни тастер миша"</string>
     <string name="mouse_keys_toggle_scroll_summary" msgid="7492663135290108272">"Користите тастер „<xliff:g id="RELEASE_LABEL_1">%1$s</xliff:g>“ да бисте укључили или искључили режим скроловања. Тако ћете помоћу тастера „<xliff:g id="RELEASE_LABEL_2">%2$s</xliff:g>“ скроловати приказ нагоре, надоле, улево или удесно"</string>
-    <string name="mouse_keys_release2_summary" msgid="5504548339731577210">"Користите тастер <xliff:g id="RELEASE_2_LABEL">%s</xliff:g> да бисте кликнули на секундарно дугме миша"</string>
+    <string name="mouse_keys_release2_summary" msgid="5504548339731577210">"Користите тастер „<xliff:g id="RELEASE_2_LABEL">%s</xliff:g>“ да бисте кликнули на секундарни тастер миша"</string>
     <string name="mouse_keys_acceleration_seekbar_title" msgid="2329098889930361504">"Убрзање"</string>
     <string name="mouse_keys_acceleration_fast_icon_desc" msgid="4426188473271579794">"Брзо"</string>
     <string name="mouse_keys_acceleration_slow_icon_desc" msgid="8370777074987200135">"Споро"</string>
@@ -2202,7 +2202,7 @@
     <string name="trackpad_reverse_scrolling_title" msgid="422877284529360866">"Обрнуто скроловање"</string>
     <string name="trackpad_reverse_scrolling_summary" msgid="6048648562887499036">"Садржај се помера нагоре када скролујете надоле"</string>
     <string name="trackpad_bottom_right_tap_title" msgid="230337692279220068">"Клик доле десно"</string>
-    <string name="trackpad_bottom_right_tap_summary" msgid="4467915480282133447">"За више опција, кликните на доњи десни угао тачпеда"</string>
+    <string name="trackpad_bottom_right_tap_summary" msgid="4467915480282133447">"За више опција кликните на доњи десни угао тачпеда"</string>
     <string name="trackpad_pointer_speed" msgid="7786579408631352625">"Брзина показивача"</string>
     <string name="trackpad_pointer_speed_make_faster_desc" msgid="2855950278314583596">"Убрзава показивач"</string>
     <string name="trackpad_pointer_speed_make_slower_desc" msgid="6577850228762978827">"Успорава показивач"</string>

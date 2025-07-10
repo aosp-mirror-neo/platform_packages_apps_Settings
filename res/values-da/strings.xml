@@ -2161,7 +2161,7 @@
     <string name="mouse_reverse_vertical_scrolling" msgid="4067297170762853966">"Omvendt rulning"</string>
     <string name="mouse_keys_use_primary_keys_title" msgid="525897583406210252">"Brug primære taster"</string>
     <string name="mouse_keys_reset_button_label" msgid="513004295662247230">"Nulstil indstillinger"</string>
-    <string name="mouse_keys_primary_keys_image_list_title" msgid="7470827693078490251">"Sådan bruger du primære nøgler"</string>
+    <string name="mouse_keys_primary_keys_image_list_title" msgid="7470827693078490251">"Sådan bruger du primære taster"</string>
     <string name="mouse_keys_numpad_keys_image_list_title" msgid="6682341389811538017">"Sådan bruger du numerisk tastatur"</string>
     <string name="mouse_keys_numpad_keys_image_list_summary" msgid="2728318055237217919">"Det numeriske tastatur bruges altid, når Num Lock er aktiveret"</string>
     <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"Rul opad for at gå ned på siden"</string>
@@ -2874,7 +2874,7 @@
     <string name="battery_tip_low_battery_title" msgid="4155239078744100997">"Lavt batteriniveau"</string>
     <string name="battery_tip_low_battery_summary" msgid="2629633757244297436">"Aktivér Batterisparefunktion for at forlænge batteritiden"</string>
     <string name="battery_tip_smart_battery_title" msgid="8925025450214912325">"Forlæng batteritid"</string>
-    <string name="battery_tip_smart_battery_summary" msgid="3592965553502362965">"Aktivér batteriadministration"</string>
+    <string name="battery_tip_smart_battery_summary" msgid="3592965553502362965">"Aktivér Batteristyring"</string>
     <string name="battery_tip_early_heads_up_title" msgid="4411387863476629452">"Aktivér batterisparefunktionen"</string>
     <string name="battery_tip_early_heads_up_summary" msgid="578523794827443977">"Batteriet aflades muligvis hurtigere end normalt"</string>
     <string name="battery_tip_early_heads_up_done_title" msgid="7705597228709143337">"Batterisparefunktion – TIL"</string>
@@ -2903,14 +2903,14 @@
     <string name="battery_tip_charge_to_full_button" msgid="9172893341338732733">"Tilsidesæt"</string>
     <string name="battery_tip_incompatible_charging_title" msgid="1567827436103364999">"Tjek opladningstilbehøret"</string>
     <string name="battery_tip_incompatible_charging_content_description" msgid="355668467640367701">"Få flere oplysninger om opladning med inkompatible strømadaptere"</string>
-    <string name="smart_battery_manager_title" msgid="3677620516657920364">"Batteriadministration"</string>
+    <string name="smart_battery_manager_title" msgid="3677620516657920364">"Batteristyring"</string>
     <string name="smart_battery_title" msgid="9095903608520254254">"Administrer automatisk apps"</string>
-    <string name="smart_battery_footer" msgid="8407121907452993645">"Når batteriadministrator registrerer, at der er apps, som dræner batteriet, får du mulighed for at begrænse disse apps. Begrænsede apps fungere muligvis ikke korrekt, og notifikationer kan være forsinkede."</string>
+    <string name="smart_battery_footer" msgid="8407121907452993645">"Når Batteristyring registrerer, at der er apps, som dræner batteriet, får du mulighed for at begrænse disse apps. Begrænsede apps fungere muligvis ikke korrekt, og notifikationer kan være forsinkede."</string>
     <string name="restricted_app_title" msgid="6585080822121007436">"Begrænsede apps"</string>
     <string name="restricted_app_summary" msgid="1022307922754893997">"{count,plural, =1{Begrænser batteriforbruget for # app}one{Begrænser batteriforbruget for # app}other{Begrænser batteriforbruget for # apps}}"</string>
     <string name="restricted_app_time_summary" msgid="3097721884155913252">"Blev begrænset <xliff:g id="TIME">%1$s</xliff:g>"</string>
     <string name="restricted_app_detail_footer" msgid="3495725286882138803">"Disse apps begrænses i forhold til batteriforbrug i baggrunden. De fungerer muligvis ikke som forventet, og notifikationer kan blive forsinket."</string>
-    <string name="battery_auto_restriction_title" msgid="827206218118093357">"Brug batteriadministration"</string>
+    <string name="battery_auto_restriction_title" msgid="827206218118093357">"Brug Batteristyring"</string>
     <string name="battery_auto_restriction_summary" msgid="2140896101984815711">"Registrer, når apps dræner batteriet"</string>
     <string name="battery_manager_summary" msgid="255708681438809287">"Registrerer, når apps dræner batteriet"</string>
     <string name="battery_manager_summary_unsupported" msgid="7334173707292807964">"Registrerer, når apps dræner batteriet"</string>
@@ -3663,7 +3663,7 @@
     <string name="keywords_nr_advanced_calling" msgid="4157823099610141014">"vo5g, vonr, avancerede opkald, 5g-opkald"</string>
     <string name="keywords_add_language" msgid="1882751300359939436">"tilføj sprog, tilføj et sprog"</string>
     <string name="keywords_font_size" msgid="1643198841815006447">"tekststørrelse, stor skrifttype, store bogstaver, stor skrifttype, stor tekst, nedsat syn, gør teksten større, større skrifttype, forstørrelse af skrifttype"</string>
-    <string name="keywords_always_show_time_info" msgid="1066752498285497595">"altid tændt pauseskærm, AOD (always on ambient display)"</string>
+    <string name="keywords_always_show_time_info" msgid="1066752498285497595">"altid tændt aktiv låseskærm, AOD (always on ambient display)"</string>
     <string name="keywords_change_nfc_tag_apps_state" msgid="9032287964590554366">"nfc, tag, læser"</string>
     <string name="keywords_keyboard_vibration" msgid="6485149510591654697">"tastatur, haptisk teknologi, vibration"</string>
     <string name="sound_dashboard_summary" msgid="8254699132423665654">"Lydstyrke og vibration"</string>

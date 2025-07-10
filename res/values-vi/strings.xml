@@ -2196,7 +2196,7 @@
     <string name="trackpad_settings_summary" msgid="3369855644136760402">"Tốc độ con trỏ, cử chỉ"</string>
     <string name="trackpad_tap_to_click" msgid="1938230946542070746">"Gõ để nhấp"</string>
     <string name="trackpad_tap_dragging_title" msgid="4198317837427535015">"Nhấn và kéo để di chuyển các mục"</string>
-    <string name="trackpad_tap_dragging_summary" msgid="5605534150661601073">"Nhấn đúp &amp; kéo ngón tay trên bàn di chuột để di chuyển đối tượng"</string>
+    <string name="trackpad_tap_dragging_summary" msgid="5605534150661601073">"Nhấn đúp và kéo ngón tay trên bàn di chuột để di chuyển đối tượng"</string>
     <string name="trackpad_touchpad_gesture_title" msgid="7568052847609914436">"Cử chỉ trên bàn di chuột"</string>
     <string name="trackpad_touchpad_gesture_summary" msgid="6256074591395359124">"Tuỳ chỉnh từng cử chỉ thao tác trên bàn di chuột"</string>
     <string name="trackpad_reverse_scrolling_title" msgid="422877284529360866">"Cuộn ngược"</string>
@@ -2355,7 +2355,7 @@
     <string name="general_category_title" msgid="6298579528716834157">"Chung"</string>
     <string name="display_category_title" msgid="6638191682294461408">"Hiển thị"</string>
     <string name="accessibility_color_and_motion_title" msgid="2323301706545305874">"Màu sắc và chuyển động"</string>
-    <string name="accessibility_pointer_and_touchpad_title" msgid="5703454643194245909">"Hỗ trợ tiếp cận về con trỏ và bàn di chuột"</string>
+    <string name="accessibility_pointer_and_touchpad_title" msgid="5703454643194245909">"Hỗ trợ tiếp cận bằng con trỏ và bàn di chuột"</string>
     <string name="accessibility_pointer_and_touchpad_summary" msgid="8588221231953604340">"Kích thước, màu sắc, loại"</string>
     <string name="accessibility_pointer_color_customization_title" msgid="2841888132681075999">"Màu con trỏ"</string>
     <string name="accessibility_pointer_title" msgid="7427650233669997010">"Con trỏ"</string>
@@ -2651,10 +2651,8 @@
     <string name="accessibility_daltonizer_footer_learn_more_content_description" msgid="2091679253892040910">"Tìm hiểu thêm về tính năng chỉnh màu"</string>
     <string name="accessibility_color_inversion_about_title" msgid="8275754480247040136">"Giới thiệu về tính năng đảo màu"</string>
     <string name="accessibility_color_inversion_footer_learn_more_content_description" msgid="5382579548498952445">"Tìm hiểu thêm về tính năng đảo màu"</string>
-    <!-- no translation found for accessibility_dark_theme_footer_learn_more_helper_link (7084955775821075280) -->
-    <skip />
-    <!-- no translation found for accessibility_dark_theme_preference_footer_content (4431044600779983609) -->
-    <skip />
+    <string name="accessibility_dark_theme_footer_learn_more_helper_link" msgid="7084955775821075280">"Tìm hiểu thêm về Giao diện tối"</string>
+    <string name="accessibility_dark_theme_preference_footer_content" msgid="4431044600779983609">"Một số ứng dụng có thể không hỗ trợ Giao diện tối ở chế độ cài đặt mở rộng. Nếu bạn gặp vấn đề về giao diện, hãy sử dụng chế độ cài đặt chuẩn."</string>
     <string name="accessibility_captioning_primary_switch_title" msgid="3663677340286206100">"Hiện phụ đề"</string>
     <string name="accessibility_captioning_primary_switch_summary" msgid="2544094070306830218">"Chỉ dành cho ứng dụng được hỗ trợ"</string>
     <string name="captioning_appearance_title" msgid="3128792092290011408">"Cỡ chữ và kiểu phụ đề"</string>
@@ -4642,8 +4640,7 @@
     <string name="battery_tips_card_action_button_check" msgid="1535140204105479318">"Kiểm tra"</string>
     <string name="battery_tips_card_dismiss_button" msgid="1885756985544936618">"Tôi hiểu"</string>
     <string name="battery_tips_card_feedback_info" msgid="767117835675157298">"Tin nhắn này có hữu ích không?"</string>
-    <!-- no translation found for battery_hints_warning_icon_a11y (709629805028175434) -->
-    <skip />
+    <string name="battery_hints_warning_icon_a11y" msgid="709629805028175434">"Thông tin hữu ích về cảnh báo pin"</string>
     <string name="battery_tips_settings_summary_brightness" msgid="546145032616077783">"Bật tính năng độ sáng thích ứng để kéo dài thời lượng pin"</string>
     <string name="battery_tips_settings_summary_screen_timeout" msgid="556801426050962077">"Giảm thời gian chờ khoá màn hình để kéo dài thời lượng pin"</string>
     <string name="battery_tips_apps_summary_always_high" msgid="6334519477067044920">"<xliff:g id="APP_LABEL">%1$s</xliff:g> dùng nhiều pin hơn"</string>
@@ -5224,7 +5221,7 @@
     <string name="sim_action_no_thanks" msgid="435717748384544195">"Không, cảm ơn"</string>
     <string name="sim_action_cancel" msgid="2668099867029610910">"Hủy"</string>
     <string name="sim_switch_button" msgid="1405772571706095387">"Chuyển"</string>
-    <string name="sim_action_turn_off" msgid="3506698692916473000">"Tắt thông báo"</string>
+    <string name="sim_action_turn_off" msgid="3506698692916473000">"Tắt"</string>
     <string name="dsds_activation_failure_title" msgid="4467364110584914794">"Không thể kích hoạt SIM"</string>
     <string name="dsds_activation_failure_body_msg2" msgid="73044349546544410">"Hãy thử bật lại SIM. Nếu vấn đề vẫn xảy ra, vui lòng khởi động lại thiết bị."</string>
     <string name="sim_onboarding_dialog_starting_title" msgid="4212945803784596345">"Đặt lựa chọn ưu tiên về SIM"</string>
@@ -5367,7 +5364,7 @@
     <string name="confirm_enable_4k_pages_text" msgid="3398001587586470689">"Bạn đang ở chế độ không phụ thuộc vào kích thước trang chạy nhân hệ điều hành 16 KB và bạn sắp chuyển sang chế độ 4 KB. Ở chế độ này, tính toàn vẹn của phần mềm không được đảm bảo, đồng thời mọi dữ liệu lưu trữ trên điện thoại này có thể gặp rủi ro trong khi trình tải khởi động được mở khoá. Sau khi bạn xác nhận, thiết bị sẽ khởi động lại. Một số tính năng bị tắt ở những chế độ này nên có thể một vài ứng dụng sẽ không hoạt động được. Để đặt lại thiết bị về chế độ cài đặt gốc, bạn cần khoá trình tải khởi động (thao tác này sẽ đặt lại thiết bị về trạng thái ban đầu). Sau khi thiết bị khởi động thành công vào Android, hãy tắt chế độ mở khoá OEM trong Tuỳ chọn cho nhà phát triển."</string>
     <string name="toast_16k_update_failed_text" msgid="7848383020572918850">"Không cập nhật được nhân hệ điều hành thành nhân hệ điều hành tương thích với trang 16 KB"</string>
     <string name="progress_16k_ota_title" msgid="2117218313875523741">"Đang áp dụng thay đổi"</string>
-    <string name="confirm_ext4_button_text" msgid="697563319110759422">"Xoá tất cả dữ liệu và nội dung cập nhật"</string>
+    <string name="confirm_ext4_button_text" msgid="697563319110759422">"Xoá tất cả dữ liệu và cập nhật"</string>
     <string name="format_ext4_failure_toast" msgid="8059453995800471549">"Không định dạng lại được phân vùng dữ liệu về ext4 và không xoá sạch được phân vùng dữ liệu."</string>
     <string name="confirm_oem_unlock_for_16k_title" msgid="6062041826568112078">"Cần mở khoá trình tải khởi động"</string>
     <string name="confirm_oem_unlock_for_16k_text" msgid="8089310116854544106">"Bạn cần phải mở khoá trình tải khởi động cho thiết bị này thì mới dùng được tuỳ chọn 16 KB cho nhà phát triển. Ở chế độ này, tính toàn vẹn của phần mềm không được đảm bảo, đồng thời mọi dữ liệu lưu trữ trên điện thoại này có thể gặp rủi ro trong khi trình tải khởi động được mở khoá. Tất cả dữ liệu người dùng và các chế độ cài đặt sẽ bị xoá sạch khi bạn kích hoạt chế độ 16 KB. Sau khi trình tải khởi động được mở khoá, bạn cần khởi động lại 2 lần thì mới kích hoạt được chế độ 16 KB. Khi đã ở chế độ này, bạn chỉ cần khởi động lại một lần là có thể chuyển qua lại giữa chế độ 4 KB và 16 KB. Một số tính năng bị tắt ở những chế độ này nên có thể một vài ứng dụng sẽ không hoạt động được. Để đặt lại thiết bị về chế độ cài đặt gốc, bạn cần quay lại chế độ 4 KB, sau đó khoá OEM/trình tải khởi động (thao tác này sẽ đặt lại thiết bị về trạng thái ban đầu). Hãy mở khoá trình tải khởi động rồi thử lại. Bạn có thể xem hướng dẫn về cách thực hiện việc này tại &lt;a href=\"https://source.android.com/docs/core/architecture/bootloader/locking_unlocking\"&gt;https://source.android.com/docs/core/architecture/bootloader/locking_unlocking&lt;/a&gt;"</string>
@@ -5865,25 +5862,20 @@
     <string name="supervision_settings_title" msgid="8507163323870367711">"Chế độ kiểm soát của cha mẹ"</string>
     <string name="supervision_settings_summary" msgid="6304257872307136073">"Quy tắc cơ bản về việc sử dụng thiết bị kỹ thuật số và giới hạn thời gian sử dụng thiết bị"</string>
     <string name="device_supervision_switch_no_pin_summary" msgid="4869563544571033220">"Thiết lập mã PIN"</string>
-    <!-- no translation found for keywords_supervision_settings (43064288661561602) -->
-    <skip />
+    <string name="keywords_supervision_settings" msgid="43064288661561602">"giám sát, chế độ kiểm soát của cha mẹ, cha mẹ, mã pin giám sát, mã pin"</string>
     <string name="supervision_pin_management_preference_title" msgid="7721501202320841845">"Quản lý mã PIN của bạn"</string>
-    <!-- no translation found for supervision_pin_management_preference_keywords (5034450635706621750) -->
-    <skip />
+    <string name="supervision_pin_management_preference_keywords" msgid="5034450635706621750">"Mã PIN dành cho cha mẹ, mã PIN cho chế độ kiểm soát của cha mẹ"</string>
     <string name="supervision_pin_management_preference_summary_add" msgid="2247921267270577374">"Thêm email khôi phục"</string>
     <string name="supervision_pin_management_preference_summary_verify_recovery" msgid="5072554239108915119">"Xác minh email khôi phục"</string>
     <string name="supervision_change_pin_preference_title" msgid="2288584039438231801">"Thay đổi mã PIN"</string>
     <string name="supervision_add_forgot_pin_preference_title" msgid="8939945404255748516">"Quên mã PIN"</string>
-    <!-- no translation found for supervision_auth_prompt_forgot_pin_button_label (1019337828884793557) -->
-    <skip />
+    <string name="supervision_auth_prompt_forgot_pin_button_label" msgid="1019337828884793557">"Bạn quên mã PIN?"</string>
     <string name="supervision_update_recovery_email_preference_title" msgid="2057393838251915087">"Cập nhật email khôi phục"</string>
     <string name="supervision_delete_pin_preference_title" msgid="8447541098148430866">"Xoá mã PIN"</string>
     <string name="supervision_add_pin_recovery_title" msgid="3487098027604685794">"Thêm email khôi phục"</string>
     <string name="supervision_verify_pin_recovery_title" msgid="3166602415814821497">"Xác minh email của bạn"</string>
-    <!-- no translation found for supervision_web_content_filters_title (2412562442507104921) -->
-    <skip />
-    <!-- no translation found for supervision_web_content_filters_keywords (8469519676189544447) -->
-    <skip />
+    <string name="supervision_web_content_filters_title" msgid="2412562442507104921">"Bộ lọc nội dung trang web"</string>
+    <string name="supervision_web_content_filters_keywords" msgid="8469519676189544447">"Bộ lọc trang web, Chặn trang web, Bộ lọc trình duyệt, Chặn trang web có nội dung phản cảm, Lọc trang web, Chặn kết quả tìm kiếm, Lọc kết quả tìm kiếm có nội dung phản cảm, giới hạn nội dung"</string>
     <string name="supervision_web_content_filters_top_intro" msgid="5264773769840566499">"Chặn nội dung dành cho người trưởng thành trên các trang web và kết quả tìm kiếm trên các ứng dụng được hỗ trợ trên thiết bị này. Các ứng dụng không được hỗ trợ có thể vẫn hiện nội dung phản cảm."</string>
     <string name="supervision_web_content_filters_browser_title" msgid="8737341514264129889">"Trang web"</string>
     <string name="supervision_web_content_filters_browser_filter_title" msgid="7957976669412075070">"Chặn các trang web có nội dung phản cảm"</string>

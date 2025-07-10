@@ -2164,16 +2164,16 @@
     <string name="mouse_keys_primary_keys_image_list_title" msgid="7470827693078490251">"如何使用主要按鍵"</string>
     <string name="mouse_keys_numpad_keys_image_list_title" msgid="6682341389811538017">"如何使用數字鍵盤"</string>
     <string name="mouse_keys_numpad_keys_image_list_summary" msgid="2728318055237217919">"Num Lock 鍵開啟時一律使用數字鍵盤"</string>
-    <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"向上捲動即可將頁面向下移動"</string>
+    <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"向上捲動將頁面往下移"</string>
     <string name="mouse_scrolling_category_title" msgid="2992126595687187296">"捲動"</string>
-    <string name="mouse_scrolling_acceleration" msgid="7119758828203396430">"受控制捲動"</string>
+    <string name="mouse_scrolling_acceleration" msgid="7119758828203396430">"受控捲動"</string>
     <string name="mouse_scrolling_speed" msgid="3999483025392860903">"捲動速度"</string>
     <string name="mouse_pointer_speed_make_faster_desc" msgid="7665912663672314461">"調高游標速度"</string>
     <string name="mouse_pointer_speed_make_slower_desc" msgid="116802579827902188">"調低游標速度"</string>
     <string name="mouse_swap_primary_button" msgid="4798006242525441304">"調換滑鼠主按鈕"</string>
     <string name="mouse_swap_primary_button_summary" msgid="3276638019321067902">"將滑鼠左鍵當右鍵使用"</string>
     <string name="mouse_pointer_acceleration" msgid="388336576055293329">"游標加速"</string>
-    <string name="mouse_pointer_acceleration_summary" msgid="6954407061360045792">"滑鼠移動得越快，游標就移動得越遠"</string>
+    <string name="mouse_pointer_acceleration_summary" msgid="6954407061360045792">"滑鼠移得越快，游標就越遠"</string>
     <string name="mouse_key_main_page_title" msgid="8051692181770475257">"「<xliff:g id="KEYBOARD_NAME">%s</xliff:g>」的滑鼠鍵"</string>
     <string name="mouse_keys_directional_summary" msgid="2215425656757420699">"使用「<xliff:g id="DIRECTIONAL_LABEL">%s</xliff:g>」鍵即可移動滑鼠游標"</string>
     <string name="mouse_keys_click_summary" msgid="8271700153598258484">"使用「<xliff:g id="CLICK_LABEL">%s</xliff:g>」鍵即可按一下滑鼠主要按鍵"</string>

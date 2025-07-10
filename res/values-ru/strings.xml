@@ -479,7 +479,7 @@
     <string name="fingerprint_check_enroll_touch_sensor" msgid="5010063281557456236">"Коснитесь сканера отпечатков пальцев."</string>
     <string name="fingerprint_check_enroll_not_recognized" msgid="2779520550437394431">"Отпечаток не распознан."</string>
     <string name="security_settings_activeunlock_preference_title" msgid="4257580421087062228">"Разблокировка с помощью часов"</string>
-    <string name="security_settings_activeunlock" msgid="8922823742770802651">"Смотреть"</string>
+    <string name="security_settings_activeunlock" msgid="8922823742770802651">"Часы"</string>
     <string name="biometric_settings_intro_with_activeunlock" msgid="5032953826653108646">"Если вы настроили фейсконтроль и разблокировку по отпечатку пальца, то отпечаток будет запрашиваться, когда вы в маске или вокруг вас темно.\n\nКогда ваше лицо не распознается или у вас мокрые пальцы, удобно разблокировать телефон с помощью часов."</string>
     <string name="biometric_settings_intro_with_fingerprint" msgid="5881355884547769337">"Когда отпечаток пальца не распознается, удобно разблокировать телефон с помощью часов."</string>
     <string name="biometric_settings_intro_with_face" msgid="7671919122230588521">"Когда ваше лицо не распознается, удобно разблокировать телефон с помощью часов."</string>
@@ -2258,7 +2258,7 @@
     <string name="action_corner_action_recent_apps" msgid="7450480676812648813">"Недавние приложения"</string>
     <string name="action_corner_action_notifications" msgid="3779353356349774469">"Уведомления"</string>
     <string name="action_corner_action_quick_settings" msgid="4660901117283653069">"Быстрые настройки"</string>
-    <string name="action_corner_action_dialog_title" msgid="8253240813317885237">"Выберите быструю команду для следующей области: <xliff:g id="CORNER">%1$s</xliff:g>"</string>
+    <string name="action_corner_action_dialog_title" msgid="8253240813317885237">"Выберите быструю команду: <xliff:g id="CORNER">%1$s</xliff:g>"</string>
     <string name="action_corner_bottom_left_name" msgid="9193788067022476544">"левый нижний угол"</string>
     <string name="action_corner_bottom_right_name" msgid="1031603363418505375">"правый нижний угол"</string>
     <string name="action_corner_top_left_name" msgid="8077670910600032291">"левый верхний угол"</string>
@@ -4010,9 +4010,9 @@
     <string name="notification_polite_work" msgid="8823596456640216391">"Применить к рабочим профилям"</string>
     <string name="notification_polite_work_summary" msgid="5014189280132951378">"Применить для приложений в рабочем профиле"</string>
     <string name="notification_bundle_title" msgid="6679586974995981433">"Менеджер уведомлений"</string>
-    <string name="notification_bundle_summary" msgid="8924550009829960969">"Сгруппируйте уведомления с низким приоритетом и отключите их звук"</string>
+    <string name="notification_bundle_summary" msgid="8924550009829960969">"Группировать уведомления с низким приоритетом и отключать их звук"</string>
     <string name="notification_bundle_main_control_title" msgid="2632661768990540295">"Использовать менеджер уведомлений"</string>
-    <string name="notification_bundle_description" msgid="8439963475488583612">"Выберите типы уведомлений, для которых нужно отключить звук, и сгруппируйте их. Это поможет меньше отвлекаться. Функция работает на основе ИИ и может содержать ошибки."</string>
+    <string name="notification_bundle_description" msgid="8439963475488583612">"Выберите типы уведомлений, для которых нужно отключить звук, и сгруппируйте их. Это поможет меньше отвлекаться. Функция работает на основе ИИ и может допускать ошибки."</string>
     <string name="notification_app_level_bundle_title" msgid="8917807675495480483">"Группировать уведомления"</string>
     <string name="notification_app_level_bundle_subtext" msgid="7330731485247761388">"Группировать и показывать без звука похожие уведомления"</string>
     <string name="notification_bundle_manage_excluded_apps_title" msgid="7019831234073590293">"Группировать уведомления от приложений"</string>

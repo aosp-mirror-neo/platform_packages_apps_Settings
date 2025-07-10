@@ -479,7 +479,7 @@
     <string name="fingerprint_check_enroll_touch_sensor" msgid="5010063281557456236">"Toque no sensor de impressões digitais"</string>
     <string name="fingerprint_check_enroll_not_recognized" msgid="2779520550437394431">"Impressão digital não reconhecida"</string>
     <string name="security_settings_activeunlock_preference_title" msgid="4257580421087062228">"Desbloqueio com o relógio"</string>
-    <string name="security_settings_activeunlock" msgid="8922823742770802651">"Ver"</string>
+    <string name="security_settings_activeunlock" msgid="8922823742770802651">"Relógio"</string>
     <string name="biometric_settings_intro_with_activeunlock" msgid="5032953826653108646">"Com o Desbloqueio facial e o Desbloqueio por impressão digital configurados, o telemóvel pede a sua impressão digital quando usar uma máscara ou estiver numa área escura.\n\nO Desbloqueio com o relógio é outra forma fácil de desbloquear este telemóvel, por exemplo, quando tiver os dedos molhados ou o seu rosto não for reconhecido."</string>
     <string name="biometric_settings_intro_with_fingerprint" msgid="5881355884547769337">"O Desbloqueio com o relógio é outra forma fácil de desbloquear o telemóvel, por exemplo, quando a sua impressão digital não for reconhecida."</string>
     <string name="biometric_settings_intro_with_face" msgid="7671919122230588521">"O Desbloqueio com o relógio é outra forma fácil de desbloquear o telemóvel, por exemplo, quando o seu rosto não for reconhecido."</string>
@@ -2246,7 +2246,7 @@
     <string name="gesture_button_next" msgid="695288092704187356">"Seguinte"</string>
     <string name="gesture_button_restart" msgid="1895850891992530133">"Reiniciar"</string>
     <string name="gesture_button_done" msgid="6387900351203032188">"Concluir"</string>
-    <string name="action_corner_title" msgid="7411160165577367757">"Personalize os atalhos de canto"</string>
+    <string name="action_corner_title" msgid="7411160165577367757">"Personalize atalhos de canto"</string>
     <string name="action_corner_summary" msgid="695618538930535335">"Use cursores para navegar no sistema"</string>
     <string name="action_corner_intro" msgid="2170609118659718140">"Escolha as seguintes áreas para personalizar os atalhos de canto"</string>
     <string name="action_corner_bottom_left_title" msgid="2857258272736432174">"Canto inferior esquerdo"</string>
@@ -3856,7 +3856,7 @@
     <string name="notification_summarization_main_control_title" msgid="3341727937605794607">"Use os resumos de notificações"</string>
     <string name="notification_summarization_description" msgid="341128754705513791">"Resuma mensagens longas e conversas em grupo para receber resumos rápidos. Os resumos são baseados em IA e podem conter erros."</string>
     <string name="notification_summarization_excluded_description" msgid="5819160700526641394">"As notificações destas apps não vão ser resumidas"</string>
-    <string name="notification_summarization_manage_excluded_apps" msgid="1691177835156220384">"Faça a gestão de apps"</string>
+    <string name="notification_summarization_manage_excluded_apps" msgid="1691177835156220384">"Gerir apps"</string>
     <string name="notification_summarization_manage_excluded_apps_title" msgid="1299744594788208296">"Permita resumos de notificações para apps"</string>
     <string name="notification_excluded_apps" msgid="317898848790046528">"Não inclua estas apps"</string>
     <string name="notification_app_level_summarize_title" msgid="3829343457958246733">"Resuma as notificações"</string>
@@ -4011,7 +4011,7 @@
     <string name="notification_polite_work_summary" msgid="5014189280132951378">"Aplique a apps de perfil de trabalho"</string>
     <string name="notification_bundle_title" msgid="6679586974995981433">"Organizador de notificações"</string>
     <string name="notification_bundle_summary" msgid="8924550009829960969">"Agrupe e silencie as notificações de prioridade mais baixa"</string>
-    <string name="notification_bundle_main_control_title" msgid="2632661768990540295">"Use o organizador de notificações"</string>
+    <string name="notification_bundle_main_control_title" msgid="2632661768990540295">"Usar o organizador de notificações"</string>
     <string name="notification_bundle_description" msgid="8439963475488583612">"Escolha os tipos de notificações que quer silenciar e agrupar para minimizar as interrupções. O agrupamento é baseado em IA e pode conter erros."</string>
     <string name="notification_app_level_bundle_title" msgid="8917807675495480483">"Agrupe as notificações"</string>
     <string name="notification_app_level_bundle_subtext" msgid="7330731485247761388">"As notificações com temas semelhantes vão ser silenciadas e agrupadas para uma experiência mais silenciosa"</string>

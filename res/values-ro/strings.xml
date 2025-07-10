@@ -2247,7 +2247,7 @@
     <string name="gesture_button_restart" msgid="1895850891992530133">"Repornește"</string>
     <string name="gesture_button_done" msgid="6387900351203032188">"Gata"</string>
     <string name="action_corner_title" msgid="7411160165577367757">"Personalizează comenzile rapide pentru colțuri"</string>
-    <string name="action_corner_summary" msgid="695618538930535335">"Folosește cursorul pentru a naviga în sistem"</string>
+    <string name="action_corner_summary" msgid="695618538930535335">"Folosește cursoarele pentru a naviga în sistem"</string>
     <string name="action_corner_intro" msgid="2170609118659718140">"Alege următoarele zone ca să personalizezi comenzile rapide pentru colțuri"</string>
     <string name="action_corner_bottom_left_title" msgid="2857258272736432174">"Colțul din stânga jos"</string>
     <string name="action_corner_bottom_right_title" msgid="7222233500548465684">"Colțul din dreapta jos"</string>

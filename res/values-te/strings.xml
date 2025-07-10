@@ -2164,9 +2164,9 @@
     <string name="mouse_keys_primary_keys_image_list_title" msgid="7470827693078490251">"ప్రధానమైన కీలను ఎలా ఉపయోగించాలి"</string>
     <string name="mouse_keys_numpad_keys_image_list_title" msgid="6682341389811538017">"న్యూమరిక్ కీప్యాడ్ ఎలా ఉపయోగించాలి"</string>
     <string name="mouse_keys_numpad_keys_image_list_summary" msgid="2728318055237217919">"Num Lock ఆన్‌లో ఉన్నప్పుడు ఎల్లప్పుడూ న్యూమరిక్ కీప్యాడ్ ఉపయోగించడం జరుగుతుంది"</string>
-    <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"పేజీని కిందికి కదిలించడానికి పైకి స్క్రోల్ చేయండి"</string>
+    <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"పేజీని కిందికి మూవ్ చేయడానికి పైకి స్క్రోల్ చేయండి"</string>
     <string name="mouse_scrolling_category_title" msgid="2992126595687187296">"స్క్రోలింగ్"</string>
-    <string name="mouse_scrolling_acceleration" msgid="7119758828203396430">"కంట్రోల్ చేయబడే స్క్రోలింగ్"</string>
+    <string name="mouse_scrolling_acceleration" msgid="7119758828203396430">"కంట్రోల్‌డ్ స్క్రోలింగ్"</string>
     <string name="mouse_scrolling_speed" msgid="3999483025392860903">"స్క్రోలింగ్ వేగం"</string>
     <string name="mouse_pointer_speed_make_faster_desc" msgid="7665912663672314461">"పాయింటర్‌ను వేగంగా ఉండేలా సెట్ చేయండి"</string>
     <string name="mouse_pointer_speed_make_slower_desc" msgid="116802579827902188">"పాయింటర్‌ను నెమ్మదిగా ఉండేలా సెట్ చేయండి"</string>
@@ -2246,7 +2246,7 @@
     <string name="gesture_button_next" msgid="695288092704187356">"తర్వాత"</string>
     <string name="gesture_button_restart" msgid="1895850891992530133">"రీస్టార్ట్"</string>
     <string name="gesture_button_done" msgid="6387900351203032188">"పూర్తయింది"</string>
-    <string name="action_corner_title" msgid="7411160165577367757">"మూల షార్ట్‌కట్‌లను అనుకూలంగా మార్చండి"</string>
+    <string name="action_corner_title" msgid="7411160165577367757">"కార్నర్ షార్ట్‌కట్‌లను తగినట్లు మార్చుకోండి"</string>
     <string name="action_corner_summary" msgid="695618538930535335">"సిస్టమ్‌ను నావిగేట్ చేయడానికి కర్సర్‌లను ఉపయోగించండి"</string>
     <string name="action_corner_intro" msgid="2170609118659718140">"మూల షార్ట్‌కట్‌లను అనుకూలంగా మార్చడానికి కింద పేర్కొన్న ఏరియాలను ఎంచుకోండి"</string>
     <string name="action_corner_bottom_left_title" msgid="2857258272736432174">"దిగువ ఎడమ వైపున మూల"</string>
@@ -2731,7 +2731,7 @@
     <string name="reduce_bright_colors_preference_intro_text" msgid="3502290826747650566">"చదవడానికి సౌకర్యవంతంగా ఉండేలా మీ స్క్రీన్‌ కాంతిని మరింత డిమ్ చేయండి"</string>
     <string name="reduce_bright_colors_intensity_preference_title" msgid="7455443033955118267">"తీవ్రత"</string>
     <string name="reduce_bright_colors_intensity_start_label" msgid="930387498396426039">"మరింత డిమ్"</string>
-    <string name="reduce_bright_colors_intensity_end_label" msgid="1422600205484299860">"మరింత ప్రకాశవంతం"</string>
+    <string name="reduce_bright_colors_intensity_end_label" msgid="1422600205484299860">"మరింత బ్రైట్‌నెస్"</string>
     <string name="reduce_bright_colors_persist_preference_title" msgid="4368829654993343354">"పరికరం రీస్టార్ట్ అయిన తర్వాత ఆన్‌లో ఉంచండి"</string>
     <string name="accessibilty_autoclick_preference_subtitle_short_delay" msgid="2981206111858937724">"{count,plural, =1{తక్కువ ఆలస్యం ({time} సెకను)}other{తక్కువ ఆలస్యం ({time} సెకన్లు)}}"</string>
     <string name="accessibilty_autoclick_preference_subtitle_medium_delay" msgid="6867395206533459204">"{count,plural, =1{కాస్త ఆలస్యం ({time} సెకను)}other{కాస్త ఆలస్యం ({time} సెకన్లు)}}"</string>
@@ -5357,7 +5357,7 @@
     <string name="track_frame_time_keywords" msgid="7885340257945922239">"GPU"</string>
     <string name="enable_16k_pages" msgid="1758111531461408337">"16 KB పేజీ సైజ్‌తో బూట్ చేయండి"</string>
     <string name="enable_16k_pages_summary" msgid="1937836453571509085">"16 KB పేజీ సైజ్ సపోర్టెడ్ కెర్నెల్‌తో పరికర బూట్"</string>
-    <string name="confirm_enable_16k_pages_title" msgid="5477376227161609124">"4 KB మోడ్ నుండి 16 KB మోడ్‌కు స్విచ్ అవ్వండి"</string>
+    <string name="confirm_enable_16k_pages_title" msgid="5477376227161609124">"4 KB మోడ్ నుండి 16 KB మోడ్‌కు మారండి"</string>
     <string name="confirm_enable_16k_pages_update_wipe" msgid="4760548401414644138">"16 KB డెవలపర్ ఆప్షన్‌ను ఉపయోగించే ముందు ఈ డివైజ్ తాలూకు డేటా పార్టిషన్‌ను ext4కి మార్చాలి. నిర్ధారించిన తర్వాత డివైజ్ పూర్తిగా తొలగించబడుతుంది, ఫైల్‌సిస్టమ్ ext4కి మారుతుంది. మీరు 4 KB కెర్నెల్ రన్ అవుతున్న ప్రొడక్షన్ మోడ్‌లో ఉన్నారు, ఇప్పుడు 16 KB మోడ్‌కు మారుతున్నారు. మీరు ఈ మోడ్‌లో ఉన్న తర్వాత, మీరు ఒకసారి రీబూట్ చేయడం ద్వారా 4 KB, 16 KB మోడ్‌ల మధ్య ముందుకు వెనుకకు మారవచ్చు. ఈ మోడ్‌లో సాఫ్ట్‌వేర్ ఇంటిగ్రిటీకి (ఖచ్చితత్వానికి) హామీ ఉండదు. బూట్‌లోడర్ అన్‌లాక్ అయినప్పుడు ఫోన్‌లో స్టోర్ అయిన ఏదైనా డేటా రిస్క్‌లో పడే అవకాశం ఉంది. ఈ మోడ్‌లలో కొన్ని ఫీచర్‌లు డిజేబుల్ చేయబడతాయి, కాబట్టి కొన్ని అప్లికేషన్‌లు పని చేయకపోవచ్చు. డివైజ్‌ను ప్రొడక్షన్ మోడ్‌కు తీసుకెళ్లడానికి, మీరు 4 KB మోడ్‌కు మారాల్సి ఉంటుంది. ఆపై బూట్‌లోడర్‌ను లాక్ చేయాలి. ఇలా చేయడం ద్వారా డివైజ్, ఫ్యాక్టరీ రీసెట్ అవుతుంది. డివైజ్ విజయవంతంగా Androidలోకి బూట్ అయిన తర్వాత, డెవలపర్ ఆప్షన్‌లలో OEM అన్‌లాకింగ్‌ను డిజేబుల్ చేయండి. కొనసాగించడానికి, \'డేటా మొత్తాన్ని ఫ్యాక్టరీ రీసెట్ చేసి, అప్‌డేట్ చేయండి\' అనే ఆప్షన్‌ను క్లిక్ చేయండి. ఇది డివైజ్‌ను రీబూట్ చేస్తుంది."</string>
     <string name="confirm_enable_16k_pages_text" msgid="6211693250692246982">"మీరు 4 KB కెర్నెల్ రన్ అవుతున్న పేజీ సైజ్ ప్రభావం చూపని మోడ్‌లో ఉన్నారు, ఇప్పుడు 16 KB మోడ్‌కు స్విచ్ అవుతున్నారు. ఈ మోడ్‌లో సాఫ్ట్‌వేర్ ఇంటిగ్రిటీకి (ఖచ్చితత్వానికి) హామీ ఉండదు. బూట్‌లోడర్ అన్‌లాక్ అయినప్పుడు ఫోన్‌లో స్టోర్ అయిన ఏదైనా డేటా రిస్క్‌లో పడే అవకాశం ఉంది. ఇది డివైజ్‌ను రీబూట్ చేస్తుంది. ఈ మోడ్‌లలో కొన్ని ఫీచర్‌లు డిజేబుల్ అవుతాయి, కాబట్టి కొన్ని అప్లికేషన్‌లు పని చేయకపోవచ్చు. డివైజ్‌ను ప్రొడక్షన్ మోడ్‌కు తీసుకెళ్లడానికి, మీరు 4 KB మోడ్‌కు స్విచ్ అవ్వాల్సి ఉంటుంది. ఆపై బూట్‌లోడర్‌ను లాక్ చేయాలి. ఇలా చేయడం ద్వారా డివైజ్, ఫ్యాక్టరీ రీసెట్ అవుతుంది. డివైజ్ విజయవంతంగా Androidలోకి బూట్ అయిన తర్వాత, డెవలపర్ ఆప్షన్‌లలో OEM అన్‌లాకింగ్‌ను డిజేబుల్ చేయండి."</string>
     <string name="confirm_enable_4k_pages_title" msgid="3001009010581393119">"16 KB మోడ్ నుండి 4 KB మోడ్‌కు స్విచ్ అవ్వండి"</string>

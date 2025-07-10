@@ -1489,11 +1489,11 @@
     <string name="low_light_display_behavior_main_switch_title" msgid="7138165032358139627">"Uporabi način šibke svetlobe"</string>
     <string name="low_light_display_behavior_subtitle" msgid="1833984014035605413">"Izberite, kaj naj bo prikazano v načinu šibke svetlobe"</string>
     <string name="low_light_display_behavior_screen_off" msgid="4203092158668290404">"Izklop zaslona"</string>
-    <string name="low_light_display_behavior_low_light_clock_dream" msgid="2235561363691252383">"Ura za šibko svetlobo"</string>
+    <string name="low_light_display_behavior_low_light_clock_dream" msgid="2235561363691252383">"Ura s šibko svetlobo"</string>
     <string name="low_light_display_behavior_summary_on" msgid="4218678742261840224">"Vklopljeno/<xliff:g id="LOW_LIGHT_MODE">%1$s</xliff:g>"</string>
     <string name="low_light_display_behavior_summary_off" msgid="4565368094992120316">"Izklopljeno"</string>
     <string name="low_light_display_behavior_screen_off_full_summary" msgid="6671607843870561892">"Zaslon se bo izklopil v temnejšem okolju"</string>
-    <string name="low_light_display_behavior_low_light_clock_dream_full_summary" msgid="1145914465090731721">"Ura za šibko svetlobo bo prikazana v temnejšem okolju"</string>
+    <string name="low_light_display_behavior_low_light_clock_dream_full_summary" msgid="1145914465090731721">"Ura s šibko svetlobo bo prikazana v temnejšem okolju"</string>
     <string name="ambient_display_screen_title" msgid="8615947016991429325">"Prikaz na podlagi okolja"</string>
     <string name="ambient_display_category_triggers" msgid="1216640141609270011">"Kdaj naj se prikaže"</string>
     <string name="doze_title" msgid="1523090408230862316">"Prebudi zaslon ob obvestilih"</string>
@@ -2164,7 +2164,7 @@
     <string name="mouse_keys_primary_keys_image_list_title" msgid="7470827693078490251">"Uporaba primarnih tipk"</string>
     <string name="mouse_keys_numpad_keys_image_list_title" msgid="6682341389811538017">"Uporaba številske tipkovnice"</string>
     <string name="mouse_keys_numpad_keys_image_list_summary" msgid="2728318055237217919">"Ko je vklopljena tipka Num Lock, bo vedno uporabljena številska tipkovnica"</string>
-    <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"Pomaknite se navzgor, če želite premakniti stran navzdol"</string>
+    <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"Kolesce zavrtite navzgor, če želite premakniti stran navzdol"</string>
     <string name="mouse_scrolling_category_title" msgid="2992126595687187296">"Pomikanje"</string>
     <string name="mouse_scrolling_acceleration" msgid="7119758828203396430">"Nadzorovano pomikanje"</string>
     <string name="mouse_scrolling_speed" msgid="3999483025392860903">"Hitrost pomikanja"</string>
@@ -2651,10 +2651,8 @@
     <string name="accessibility_daltonizer_footer_learn_more_content_description" msgid="2091679253892040910">"Preberite več o popravljanju barv."</string>
     <string name="accessibility_color_inversion_about_title" msgid="8275754480247040136">"O inverziji barv"</string>
     <string name="accessibility_color_inversion_footer_learn_more_content_description" msgid="5382579548498952445">"Preberite več o inverziji barv."</string>
-    <!-- no translation found for accessibility_dark_theme_footer_learn_more_helper_link (7084955775821075280) -->
-    <skip />
-    <!-- no translation found for accessibility_dark_theme_preference_footer_content (4431044600779983609) -->
-    <skip />
+    <string name="accessibility_dark_theme_footer_learn_more_helper_link" msgid="7084955775821075280">"Več informacij o temni temi"</string>
+    <string name="accessibility_dark_theme_preference_footer_content" msgid="4431044600779983609">"Nekatere aplikacije morda ne podpirajo temne teme pri razširjeni nastavitvi. Če naletite na težave z videzom zaslona, uporabite standardno nastavitev."</string>
     <string name="accessibility_captioning_primary_switch_title" msgid="3663677340286206100">"Prikaži podnapise"</string>
     <string name="accessibility_captioning_primary_switch_summary" msgid="2544094070306830218">"Samo za podprte aplikacije."</string>
     <string name="captioning_appearance_title" msgid="3128792092290011408">"Velikost in slog podnapisov"</string>
@@ -2857,7 +2855,7 @@
     <string name="manager_battery_usage_unrestricted_summary" msgid="6819279865465667692">"Neomejena poraba energije baterije med izvajanjem v ozadju. Poraba energije baterije bo morda višja."</string>
     <string name="manager_battery_usage_optimized_summary" msgid="1332545476428039900">"Optimizirano na podlagi vaše porabe. Priporočeno za večino aplikacij."</string>
     <string name="manager_battery_usage_restricted_summary" msgid="8324695640704416905">"Omejena poraba energije baterije med izvajanjem v ozadju. Aplikacija morda ne bo delovala po pričakovanjih. Obvestila bodo morda zakasnjena."</string>
-    <string name="manager_battery_usage_footer" msgid="2635906573922553766">"Če spremenite način, na katerega aplikacija porablja energijo baterije, lahko vplivate na delovanje aplikacije."</string>
+    <string name="manager_battery_usage_footer" msgid="2635906573922553766">"Če spremenite način, kako aplikacija porablja energijo baterije, lahko vplivate na delovanje aplikacije."</string>
     <string name="manager_battery_usage_footer_limited" msgid="5180776148877306780">"Ta aplikacija potrebuje <xliff:g id="STATE">%1$s</xliff:g> porabo energije baterije."</string>
     <string name="manager_battery_usage_unrestricted_only" msgid="3646162131339418216">"neomejeno"</string>
     <string name="manager_battery_usage_optimized_only" msgid="7121785281913056432">"optimizirano"</string>
@@ -4642,8 +4640,7 @@
     <string name="battery_tips_card_action_button_check" msgid="1535140204105479318">"Preveri"</string>
     <string name="battery_tips_card_dismiss_button" msgid="1885756985544936618">"Razumem"</string>
     <string name="battery_tips_card_feedback_info" msgid="767117835675157298">"Je to sporočilo uporabno?"</string>
-    <!-- no translation found for battery_hints_warning_icon_a11y (709629805028175434) -->
-    <skip />
+    <string name="battery_hints_warning_icon_a11y" msgid="709629805028175434">"Nasveti glede opozoril o bateriji"</string>
     <string name="battery_tips_settings_summary_brightness" msgid="546145032616077783">"Vklopite prilagodljivo svetlost, da podaljšate čas delovanja baterije"</string>
     <string name="battery_tips_settings_summary_screen_timeout" msgid="556801426050962077">"Skrajšajte časovno omejitev za zaslon, da podaljšate čas delovanja baterije"</string>
     <string name="battery_tips_apps_summary_always_high" msgid="6334519477067044920">"Aplikacija <xliff:g id="APP_LABEL">%1$s</xliff:g> je porabljala več energije baterije"</string>
@@ -5867,25 +5864,20 @@
     <string name="supervision_settings_title" msgid="8507163323870367711">"Starševski nadzor"</string>
     <string name="supervision_settings_summary" msgid="6304257872307136073">"Osnovna digitalna pravila in omejitve časa uporabe"</string>
     <string name="device_supervision_switch_no_pin_summary" msgid="4869563544571033220">"Nastavitev kode PIN"</string>
-    <!-- no translation found for keywords_supervision_settings (43064288661561602) -->
-    <skip />
+    <string name="keywords_supervision_settings" msgid="43064288661561602">"nadzor, starševski nadzor, starši, koda PIN za nadzor, koda PIN"</string>
     <string name="supervision_pin_management_preference_title" msgid="7721501202320841845">"Upravljanje kode PIN"</string>
-    <!-- no translation found for supervision_pin_management_preference_keywords (5034450635706621750) -->
-    <skip />
+    <string name="supervision_pin_management_preference_keywords" msgid="5034450635706621750">"starševska koda PIN, koda PIN za starševski nadzor"</string>
     <string name="supervision_pin_management_preference_summary_add" msgid="2247921267270577374">"Dodajte e-poštni naslov za obnovitev"</string>
     <string name="supervision_pin_management_preference_summary_verify_recovery" msgid="5072554239108915119">"Preverjanje e-poštnega naslova za obnovitev"</string>
     <string name="supervision_change_pin_preference_title" msgid="2288584039438231801">"Sprememba kode PIN"</string>
     <string name="supervision_add_forgot_pin_preference_title" msgid="8939945404255748516">"Pozabil/-a sem kodo PIN"</string>
-    <!-- no translation found for supervision_auth_prompt_forgot_pin_button_label (1019337828884793557) -->
-    <skip />
+    <string name="supervision_auth_prompt_forgot_pin_button_label" msgid="1019337828884793557">"Ste pozabili kodo PIN?"</string>
     <string name="supervision_update_recovery_email_preference_title" msgid="2057393838251915087">"Posodobitev e-poštnega naslova za obnovitev"</string>
     <string name="supervision_delete_pin_preference_title" msgid="8447541098148430866">"Brisanje kode PIN"</string>
     <string name="supervision_add_pin_recovery_title" msgid="3487098027604685794">"Dodajte e-poštni naslov za obnovitev"</string>
     <string name="supervision_verify_pin_recovery_title" msgid="3166602415814821497">"Preverjanje e-poštnega naslova"</string>
-    <!-- no translation found for supervision_web_content_filters_title (2412562442507104921) -->
-    <skip />
-    <!-- no translation found for supervision_web_content_filters_keywords (8469519676189544447) -->
-    <skip />
+    <string name="supervision_web_content_filters_title" msgid="2412562442507104921">"Filtri vsebine spletnih mest"</string>
+    <string name="supervision_web_content_filters_keywords" msgid="8469519676189544447">"filtri spletnih mest, blokiranje spletnih mest, filtri v brskalniku, blokiranje eksplicitnih spletnih mest, filtriranje spletnih mest, blokiranje rezultatov iskanja, filtriranje eksplicitnih rezultatov iskanja, omejitve vsebine"</string>
     <string name="supervision_web_content_filters_top_intro" msgid="5264773769840566499">"Blokiranje vsebine, neprimerne za otroke, na spletnih mestih in v rezultatih iskanja v podprtih aplikacijah v tej napravi. Nepodprte aplikacije bodo morda še vedno prikazovale eksplicitno vsebino."</string>
     <string name="supervision_web_content_filters_browser_title" msgid="8737341514264129889">"Spletna mesta"</string>
     <string name="supervision_web_content_filters_browser_filter_title" msgid="7957976669412075070">"Blokiranje eksplicitnih spletnih mest"</string>
