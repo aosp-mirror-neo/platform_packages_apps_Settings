@@ -387,7 +387,7 @@
     <string name="security_settings_face_enroll_introduction_accessibility_diversity" msgid="2774962371839179206"></string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision" msgid="7700394302162170363"></string>
     <string name="security_settings_face_enroll_introduction_cancel" msgid="7551159644361639436">"Annuler"</string>
-    <string name="security_settings_face_enroll_introduction_no_thanks" msgid="6603178409726203187">"Plus tard"</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks" msgid="1820618982738898717">"Non, merci"</string>
     <string name="security_settings_face_enroll_introduction_agree" msgid="6319476573697497750">"J\'accepte"</string>
     <string name="security_settings_face_enroll_introduction_more" msgid="1970820298889710532">"Plus"</string>
     <string name="security_settings_face_enroll_introduction_title" msgid="7061610077237098046">"Déverrouiller par reconnaissance faciale"</string>
@@ -432,7 +432,7 @@
     <string name="security_settings_face_settings_require_confirmation" msgid="6603039421004198334">"Toujours demander confirmation"</string>
     <string name="security_settings_face_settings_require_confirmation_details" msgid="3498729789625461914">"Toujours confirmer le déverrouillage par reconnaissance faciale dans les applis"</string>
     <string name="security_settings_face_settings_remove_face_model" msgid="812920481303980846">"Supprimer l\'empreinte faciale"</string>
-    <string name="security_settings_face_settings_enroll" msgid="3726313826693825029">"Configurer le déverrouillage par reconnaissance faciale"</string>
+    <string name="security_settings_face_settings_enroll" msgid="3726313826693825029">"Configurer la reconnaissance faciale"</string>
     <string name="security_settings_face_settings_remove_dialog_title" msgid="2899669764446232715">"Supprimer l\'empreinte faciale ?"</string>
     <string name="security_settings_face_settings_remove_dialog_details" msgid="916131485988121592">"Votre empreinte faciale sera supprimée de façon définitive et sécurisée.\n\nVous devrez ensuite utiliser un code, un schéma ou un mot de passe pour déverrouiller votre téléphone ou pour vous authentifier dans les applis."</string>
     <string name="security_settings_face_settings_remove_dialog_details_convenience" msgid="475568135197468990">"Votre empreinte faciale sera supprimée de façon définitive et sécurisée.\n\nVous aurez alors besoin de votre code, schéma ou mot de passe pour déverrouiller votre téléphone."</string>
@@ -462,7 +462,7 @@
     <string name="security_settings_fingerprint_enroll_introduction_footer_title_2" msgid="5663733424583416266">"À noter"</string>
     <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled" msgid="8957789840251747092">"Utilisez votre empreinte digitale pour déverrouiller votre téléphone ou approuver des achats.\n\nRemarque : Vous ne pouvez pas utiliser votre empreinte digitale pour déverrouiller cet appareil. Pour en savoir plus, contactez l\'administrateur de votre entreprise."</string>
     <string name="security_settings_fingerprint_enroll_introduction_cancel" msgid="6086532316718920562">"Annuler"</string>
-    <string name="security_settings_fingerprint_enroll_introduction_no_thanks" msgid="1663906389456119842">"Plus tard"</string>
+    <string name="security_settings_fingerprint_enroll_introduction_no_thanks" msgid="6104718999323591180">"Non, merci"</string>
     <string name="security_settings_fingerprint_enroll_introduction_agree" msgid="4068276083536421828">"J\'accepte"</string>
     <string name="security_settings_fingerprint_rename_description" msgid="6301505700382531086">"Appuyez deux fois pour renommer"</string>
     <string name="security_settings_fingerprint_recognition_description" msgid="1805171116182647136">"Empreinte <xliff:g id="FP_NAME">%1$s</xliff:g> reconnue"</string>
@@ -810,7 +810,7 @@
     <string name="face_unlock_set_unlock_pin" msgid="9034912683791069602">"Code • Visage"</string>
     <string name="face_unlock_set_unlock_password" msgid="5874950853246424756">"Mot de passe • Visage"</string>
     <string name="face_unlock_skip_face" msgid="189695556498300008">"Continuer sans déverrouillage par reconnaissance faciale"</string>
-    <string name="biometrics_unlock_skip_biometrics" msgid="7399882488272450182">"Continuer sans le déverrouillage par empreinte ou visage"</string>
+    <string name="biometrics_unlock_skip_biometrics" msgid="7399882488272450182">"Continuer sans configurer l\'empreinte ou le visage"</string>
     <string name="unlock_set_unlock_mode_off" msgid="4632139864722236359">"Aucun"</string>
     <string name="unlock_set_unlock_mode_off_new" msgid="865396805830816266">"Ajouter un code, un schéma, un mot de passe, ou balayer"</string>
     <string name="unlock_set_unlock_mode_none" msgid="5596049938457028214">"Balayage"</string>
@@ -1472,6 +1472,7 @@
     <string name="screensaver_settings_title" msgid="3588535639672365395">"Économiseur d\'écran"</string>
     <string name="keywords_screensaver" msgid="7249337959432229172">"économiseur d\'écran"</string>
     <string name="screensaver_settings_when_to_dream_bedtime" msgid="3279310576803094771">"Indisponible, car Heure du coucher est activé"</string>
+    <string name="screensaver_unavailable_due_to_mode" msgid="6659447961090743083">"Non disponible"</string>
     <string name="screensaver_settings_toggle_title" msgid="6194634226897244374">"Utiliser l\'économiseur d\'écran"</string>
     <string name="screensaver_settings_summary_either_long" msgid="371949139331896271">"Lorsque l\'appareil est en charge ou connecté à une station d\'accueil"</string>
     <string name="screensaver_settings_summary_dock_and_charging" msgid="8485905100159376156">"Pendant la recharge sur station"</string>

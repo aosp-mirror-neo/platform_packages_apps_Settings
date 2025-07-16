@@ -387,7 +387,7 @@
     <string name="security_settings_face_enroll_introduction_accessibility_diversity" msgid="2774962371839179206"></string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision" msgid="7700394302162170363"></string>
     <string name="security_settings_face_enroll_introduction_cancel" msgid="7551159644361639436">"Չեղարկել"</string>
-    <string name="security_settings_face_enroll_introduction_no_thanks" msgid="6603178409726203187">"Ոչ հիմա"</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks" msgid="1820618982738898717">"Ոչ"</string>
     <string name="security_settings_face_enroll_introduction_agree" msgid="6319476573697497750">"Ընդունել"</string>
     <string name="security_settings_face_enroll_introduction_more" msgid="1970820298889710532">"Ավելին"</string>
     <string name="security_settings_face_enroll_introduction_title" msgid="7061610077237098046">"Բացեք դեմքի ճանաչման միջոցով"</string>
@@ -462,7 +462,7 @@
     <string name="security_settings_fingerprint_enroll_introduction_footer_title_2" msgid="5663733424583416266">"Հիշեք"</string>
     <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled" msgid="8957789840251747092">"Օգտագործեք ձեր մատնահետքը՝ հեռախոսն ապակողպելու կամ գնումներ թույլատրելու համար:\n\nՆշում. այս սարքն ապակողպելու համար չեք կարող օգտագործել ձեր մատնահետքը: Լրացուցիչ տեղեկություններ ստանալու համար դիմեք ձեր կազմակերպության ադմինիստրատորին:"</string>
     <string name="security_settings_fingerprint_enroll_introduction_cancel" msgid="6086532316718920562">"Չեղարկել"</string>
-    <string name="security_settings_fingerprint_enroll_introduction_no_thanks" msgid="1663906389456119842">"Ոչ հիմա"</string>
+    <string name="security_settings_fingerprint_enroll_introduction_no_thanks" msgid="6104718999323591180">"Ոչ, շնորհակալություն"</string>
     <string name="security_settings_fingerprint_enroll_introduction_agree" msgid="4068276083536421828">"Ընդունել"</string>
     <string name="security_settings_fingerprint_rename_description" msgid="6301505700382531086">"Կրկնակի հպեք վերանվանելու համար"</string>
     <string name="security_settings_fingerprint_recognition_description" msgid="1805171116182647136">"<xliff:g id="FP_NAME">%1$s</xliff:g> մատնահետքը ճանաչվել է"</string>
@@ -1472,6 +1472,7 @@
     <string name="screensaver_settings_title" msgid="3588535639672365395">"Էկրանապահ"</string>
     <string name="keywords_screensaver" msgid="7249337959432229172">"էկրանապահ"</string>
     <string name="screensaver_settings_when_to_dream_bedtime" msgid="3279310576803094771">"Անհասանելի է, քանի որ քնի ռեժիմը միացված է"</string>
+    <string name="screensaver_unavailable_due_to_mode" msgid="6659447961090743083">"Հասանելի չէ"</string>
     <string name="screensaver_settings_toggle_title" msgid="6194634226897244374">"Օգտագործել էկրանապահ"</string>
     <string name="screensaver_settings_summary_either_long" msgid="371949139331896271">"Լիցքավորման ընթացքում կամ դոկ-կայանում"</string>
     <string name="screensaver_settings_summary_dock_and_charging" msgid="8485905100159376156">"Երբ դոկ-կայանում է և լիցքավորվում է"</string>

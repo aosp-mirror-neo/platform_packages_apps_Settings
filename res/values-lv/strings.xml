@@ -387,7 +387,7 @@
     <string name="security_settings_face_enroll_introduction_accessibility_diversity" msgid="2774962371839179206"></string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision" msgid="7700394302162170363"></string>
     <string name="security_settings_face_enroll_introduction_cancel" msgid="7551159644361639436">"Atcelt"</string>
-    <string name="security_settings_face_enroll_introduction_no_thanks" msgid="6603178409726203187">"Ne tagad"</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks" msgid="1820618982738898717">"Nē, paldies"</string>
     <string name="security_settings_face_enroll_introduction_agree" msgid="6319476573697497750">"Piekrītu"</string>
     <string name="security_settings_face_enroll_introduction_more" msgid="1970820298889710532">"Vairāk"</string>
     <string name="security_settings_face_enroll_introduction_title" msgid="7061610077237098046">"Autorizācija pēc sejas"</string>
@@ -462,7 +462,7 @@
     <string name="security_settings_fingerprint_enroll_introduction_footer_title_2" msgid="5663733424583416266">"Svarīga informācija"</string>
     <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled" msgid="8957789840251747092">"Izmantojiet pirksta nospiedumu, lai autorizētu tālruni vai apstiprinātu pirkumu.\n\nPiezīme. Pirksta nospiedumu nevar izmantot šīs ierīces atbloķēšanai. Lai iegūtu plašāku informāciju, sazinieties ar savas organizācijas administratoru."</string>
     <string name="security_settings_fingerprint_enroll_introduction_cancel" msgid="6086532316718920562">"Atcelt"</string>
-    <string name="security_settings_fingerprint_enroll_introduction_no_thanks" msgid="1663906389456119842">"Ne tagad"</string>
+    <string name="security_settings_fingerprint_enroll_introduction_no_thanks" msgid="6104718999323591180">"Nē, paldies"</string>
     <string name="security_settings_fingerprint_enroll_introduction_agree" msgid="4068276083536421828">"Piekrītu"</string>
     <string name="security_settings_fingerprint_rename_description" msgid="6301505700382531086">"Veiciet dubultskārienu, lai pārdēvētu."</string>
     <string name="security_settings_fingerprint_recognition_description" msgid="1805171116182647136">"<xliff:g id="FP_NAME">%1$s</xliff:g> tika atpazīts"</string>
@@ -1472,6 +1472,7 @@
     <string name="screensaver_settings_title" msgid="3588535639672365395">"Ekrānsaudzētājs"</string>
     <string name="keywords_screensaver" msgid="7249337959432229172">"ekrānsaudzētājs"</string>
     <string name="screensaver_settings_when_to_dream_bedtime" msgid="3279310576803094771">"Nav pieejams, jo ir ieslēgts naktsmiera režīms"</string>
+    <string name="screensaver_unavailable_due_to_mode" msgid="6659447961090743083">"Nav pieejams"</string>
     <string name="screensaver_settings_toggle_title" msgid="6194634226897244374">"Izmantot ekrānsaudzētāju"</string>
     <string name="screensaver_settings_summary_either_long" msgid="371949139331896271">"Uzlādes vai dokošanas laikā"</string>
     <string name="screensaver_settings_summary_dock_and_charging" msgid="8485905100159376156">"Kad ierīce ir dokota un notiek uzlāde"</string>

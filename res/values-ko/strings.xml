@@ -387,7 +387,7 @@
     <string name="security_settings_face_enroll_introduction_accessibility_diversity" msgid="2774962371839179206"></string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision" msgid="7700394302162170363"></string>
     <string name="security_settings_face_enroll_introduction_cancel" msgid="7551159644361639436">"취소"</string>
-    <string name="security_settings_face_enroll_introduction_no_thanks" msgid="6603178409726203187">"나중에"</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks" msgid="1820618982738898717">"사용 안함"</string>
     <string name="security_settings_face_enroll_introduction_agree" msgid="6319476573697497750">"동의"</string>
     <string name="security_settings_face_enroll_introduction_more" msgid="1970820298889710532">"더보기"</string>
     <string name="security_settings_face_enroll_introduction_title" msgid="7061610077237098046">"얼굴로 잠금 해제"</string>
@@ -462,7 +462,7 @@
     <string name="security_settings_fingerprint_enroll_introduction_footer_title_2" msgid="5663733424583416266">"주의사항"</string>
     <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled" msgid="8957789840251747092">"지문을 사용하여 휴대전화를 잠금 해제하거나 구매를 승인하세요.\n\n참고: 이 기기는 지문을 사용하여 잠금 해제할 수 없습니다. 자세한 내용은 조직의 관리자에게 문의하세요."</string>
     <string name="security_settings_fingerprint_enroll_introduction_cancel" msgid="6086532316718920562">"취소"</string>
-    <string name="security_settings_fingerprint_enroll_introduction_no_thanks" msgid="1663906389456119842">"나중에"</string>
+    <string name="security_settings_fingerprint_enroll_introduction_no_thanks" msgid="6104718999323591180">"취소"</string>
     <string name="security_settings_fingerprint_enroll_introduction_agree" msgid="4068276083536421828">"동의"</string>
     <string name="security_settings_fingerprint_rename_description" msgid="6301505700382531086">"이름을 바꾸려면 두 번 탭하세요."</string>
     <string name="security_settings_fingerprint_recognition_description" msgid="1805171116182647136">"<xliff:g id="FP_NAME">%1$s</xliff:g> 인식됨"</string>
@@ -810,7 +810,7 @@
     <string name="face_unlock_set_unlock_pin" msgid="9034912683791069602">"PIN • 얼굴"</string>
     <string name="face_unlock_set_unlock_password" msgid="5874950853246424756">"비밀번호 • 얼굴"</string>
     <string name="face_unlock_skip_face" msgid="189695556498300008">"얼굴 인식 잠금 해제 없이 계속하기"</string>
-    <string name="biometrics_unlock_skip_biometrics" msgid="7399882488272450182">"지문 또는 얼굴 인식 없이 계속"</string>
+    <string name="biometrics_unlock_skip_biometrics" msgid="7399882488272450182">"지문 또는 얼굴 인식 설정 건너뛰기"</string>
     <string name="unlock_set_unlock_mode_off" msgid="4632139864722236359">"없음"</string>
     <string name="unlock_set_unlock_mode_off_new" msgid="865396805830816266">"PIN, 패턴, 비밀번호 또는 스와이프 추가"</string>
     <string name="unlock_set_unlock_mode_none" msgid="5596049938457028214">"스와이프"</string>
@@ -1457,7 +1457,7 @@
     <string name="dark_ui_bedtime_footer_action" msgid="1493095487994054339">"취침 모드 설정"</string>
     <string name="dark_ui_modes_footer_summary" msgid="1041117250408363391">"{count,plural,offset:2 =0{모드에서도 어두운 테마를 활성화할 수 있습니다.}=1{{mode_1}에서도 어두운 테마가 활성화됩니다.}=2{{mode_1} 및 {mode_2}에서도 어두운 테마가 활성화됩니다.}=3{{mode_1}, {mode_2}, {mode_3}에서도 어두운 테마가 활성화됩니다.}other{{mode_1}, {mode_2} 외 #개 모드에서도 어두운 테마가 활성화됩니다.}}"</string>
     <string name="dark_ui_modes_footer_action" msgid="80671811848446248">"모드 설정"</string>
-    <string name="hdr_brigtness_text" msgid="1912629316654528876">"HDR(High Dynamic Range) 이미지 및 동영상의 색색상 범위와 선명도를 확장하고 밝기를 향상시킵니다. HDR 콘텐츠가 더 밝게 표시됩니다."</string>
+    <string name="hdr_brigtness_text" msgid="1912629316654528876">"HDR(High Dynamic Range) 이미지 및 동영상의 색상 범위와 선명도를 확장하고 밝기를 향상시킵니다. HDR 콘텐츠가 더 밝게 표시됩니다."</string>
     <string name="screen_timeout" msgid="7709947617767439410">"화면 자동 잠금 시간"</string>
     <string name="screen_timeout_summary" msgid="5558778019594643427">"<xliff:g id="TIMEOUT_DESCRIPTION">%1$s</xliff:g> 이상 동작이 없을 때"</string>
     <string name="screen_timeout_summary_not_set" msgid="5107680774964178875">"설정되지 않음"</string>
@@ -1472,6 +1472,7 @@
     <string name="screensaver_settings_title" msgid="3588535639672365395">"화면 보호기"</string>
     <string name="keywords_screensaver" msgid="7249337959432229172">"화면 보호기"</string>
     <string name="screensaver_settings_when_to_dream_bedtime" msgid="3279310576803094771">"취침 모드가 켜져 있으므로 사용할 수 없습니다."</string>
+    <string name="screensaver_unavailable_due_to_mode" msgid="6659447961090743083">"사용할 수 없음"</string>
     <string name="screensaver_settings_toggle_title" msgid="6194634226897244374">"화면 보호기 사용"</string>
     <string name="screensaver_settings_summary_either_long" msgid="371949139331896271">"충전 또는 도킹하는 동안"</string>
     <string name="screensaver_settings_summary_dock_and_charging" msgid="8485905100159376156">"도킹 및 충전 중"</string>
@@ -3423,8 +3424,8 @@
     <string name="nfc_default_payment_settings_title" msgid="2150504446774382261">"기본 결제 앱"</string>
     <string name="nfc_default_payment_footer" msgid="978535088340021360">"결제 앱으로 결제하려면 기기 뒷면을 결제 단말기에 갖다 대세요."</string>
     <string name="nfc_more_details" msgid="1700713533074275233">"자세히 알아보기"</string>
-    <string name="nfc_default_payment_workapp_confirmation_title" msgid="746921251872504687">"직장 앱을 기본 결제 앱으로 설정할까요?"</string>
-    <string name="nfc_default_payment_workapp_confirmation_message_title" msgid="1533022606333010329">"직장 앱으로 결제하려면 다음을 따르세요"</string>
+    <string name="nfc_default_payment_workapp_confirmation_title" msgid="746921251872504687">"업무용 앱을 기본 결제 앱으로 설정할까요?"</string>
+    <string name="nfc_default_payment_workapp_confirmation_message_title" msgid="1533022606333010329">"업무용 앱으로 결제하려면 다음을 따르세요"</string>
     <string name="nfc_default_payment_workapp_confirmation_message_1" msgid="2917430119080702912">"직장 프로필이 사용 설정되어 있어야 합니다."</string>
     <string name="nfc_default_payment_workapp_confirmation_message_2" msgid="8161184137833245628">"직장 PIN, 패턴 또는 비밀번호가 있다면 입력해야 합니다."</string>
     <string name="nfc_payment_how_it_works" msgid="3658253265242662010">"작동 방식"</string>
