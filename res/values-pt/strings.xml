@@ -387,7 +387,7 @@
     <string name="security_settings_face_enroll_introduction_accessibility_diversity" msgid="2774962371839179206"></string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision" msgid="7700394302162170363"></string>
     <string name="security_settings_face_enroll_introduction_cancel" msgid="7551159644361639436">"Cancelar"</string>
-    <string name="security_settings_face_enroll_introduction_no_thanks" msgid="6603178409726203187">"Agora não"</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks" msgid="1820618982738898717">"Agora não"</string>
     <string name="security_settings_face_enroll_introduction_agree" msgid="6319476573697497750">"Aceito"</string>
     <string name="security_settings_face_enroll_introduction_more" msgid="1970820298889710532">"Mais"</string>
     <string name="security_settings_face_enroll_introduction_title" msgid="7061610077237098046">"Desbloquear com seu rosto"</string>
@@ -462,7 +462,7 @@
     <string name="security_settings_fingerprint_enroll_introduction_footer_title_2" msgid="5663733424583416266">"Não esqueça"</string>
     <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled" msgid="8957789840251747092">"Use sua impressão digital para desbloquear o smartphone ou aprovar compras.\n\nNota: não é possível usar sua impressão digital para desbloquear este dispositivo. Para mais informações, entre em contato com o administrador da organização."</string>
     <string name="security_settings_fingerprint_enroll_introduction_cancel" msgid="6086532316718920562">"Cancelar"</string>
-    <string name="security_settings_fingerprint_enroll_introduction_no_thanks" msgid="1663906389456119842">"Agora não"</string>
+    <string name="security_settings_fingerprint_enroll_introduction_no_thanks" msgid="6104718999323591180">"Agora não"</string>
     <string name="security_settings_fingerprint_enroll_introduction_agree" msgid="4068276083536421828">"Aceito"</string>
     <string name="security_settings_fingerprint_rename_description" msgid="6301505700382531086">"Toque duas vezes para renomear"</string>
     <string name="security_settings_fingerprint_recognition_description" msgid="1805171116182647136">"Digital \"<xliff:g id="FP_NAME">%1$s</xliff:g>\" reconhecida"</string>
@@ -1472,6 +1472,7 @@
     <string name="screensaver_settings_title" msgid="3588535639672365395">"Protetor de tela"</string>
     <string name="keywords_screensaver" msgid="7249337959432229172">"protetor de tela"</string>
     <string name="screensaver_settings_when_to_dream_bedtime" msgid="3279310576803094771">"Indisponível durante o modo noite"</string>
+    <string name="screensaver_unavailable_due_to_mode" msgid="6659447961090743083">"Indisponível"</string>
     <string name="screensaver_settings_toggle_title" msgid="6194634226897244374">"Usar o protetor de tela"</string>
     <string name="screensaver_settings_summary_either_long" msgid="371949139331896271">"Ao carregar ou quando encaixado na base"</string>
     <string name="screensaver_settings_summary_dock_and_charging" msgid="8485905100159376156">"Ao carregar na base"</string>
@@ -1904,7 +1905,7 @@
     <string name="lockpassword_confirm_your_password_header_frp" msgid="7932240547542564033">"Verificar senha"</string>
     <string name="lockpassword_remote_validation_header" msgid="4992647285784962073">"Confirme sua identidade"</string>
     <string name="lockpassword_remote_validation_pattern_details" msgid="4655537780358707983">"Para transferir Contas do Google, configurações e muito mais, insira o padrão do seu outro dispositivo. Seu padrão está criptografado."</string>
-    <string name="lockpassword_remote_validation_pin_details" msgid="2373654227583206297">"Para transferir Contas do Google, configurações e muito mais, insira o PIN do seu outro dispositivo. Seu PIN está criptografado."</string>
+    <string name="lockpassword_remote_validation_pin_details" msgid="2373654227583206297">"Para transferir Contas do Google, configurações e muito mais, insira o PIN do seu outro dispositivo. Seu PIN será criptografado."</string>
     <string name="lockpassword_remote_validation_password_details" msgid="3482328925925888340">"Para transferir Contas do Google, configurações e muito mais, insira a senha do seu outro dispositivo. Sua senha está criptografada."</string>
     <string name="lockpassword_remote_validation_set_pattern_as_screenlock" msgid="7595104317648465901">"Também usar o padrão para o desbloqueio"</string>
     <string name="lockpassword_remote_validation_set_pin_as_screenlock" msgid="509672303005547218">"Também usar o PIN para o desbloqueio"</string>
@@ -2164,7 +2165,7 @@
     <string name="mouse_keys_primary_keys_image_list_title" msgid="7470827693078490251">"Como usar teclas primárias"</string>
     <string name="mouse_keys_numpad_keys_image_list_title" msgid="6682341389811538017">"Como usar um teclado numérico"</string>
     <string name="mouse_keys_numpad_keys_image_list_summary" msgid="2728318055237217919">"O teclado numérico sempre será usado quando o Num Lock estiver ativado"</string>
-    <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"Deslize para cima para descer na página"</string>
+    <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"Role para cima para descer a página"</string>
     <string name="mouse_scrolling_category_title" msgid="2992126595687187296">"Rolagem"</string>
     <string name="mouse_scrolling_acceleration" msgid="7119758828203396430">"Rolagem controlada"</string>
     <string name="mouse_scrolling_speed" msgid="3999483025392860903">"Velocidade da rolagem"</string>
@@ -2408,7 +2409,7 @@
     <string name="accessibility_magnification_cursor_following_title" msgid="29531257984012743">"Acompanhamento do cursor"</string>
     <string name="accessibility_magnification_cursor_following_header" msgid="7283095798622223509">"Escolha como a ampliação acompanha o cursor."</string>
     <string name="accessibility_magnification_cursor_following_unavailable_summary" msgid="1683880243856242269">"Indisponível ao ampliar apenas parte da tela"</string>
-    <string name="accessibility_magnification_cursor_following_continuous" msgid="1119319218662522794">"Mover a tela continuamente, seguindo o movimento do mouse"</string>
+    <string name="accessibility_magnification_cursor_following_continuous" msgid="1119319218662522794">"A tela se move continuamente, seguindo o movimento do mouse"</string>
     <string name="accessibility_magnification_cursor_following_center" msgid="3504798009192014460">"Mover a tela, mantendo o mouse no centro dela"</string>
     <string name="accessibility_magnification_cursor_following_edge" msgid="8675207762416655758">"Mover a tela quando o mouse tocar na borda dela"</string>
     <string name="accessibility_screen_magnification_follow_typing_title" msgid="494025442124701045">"Seguir digitação"</string>
@@ -2730,7 +2731,7 @@
     <string name="reduce_bright_colors_about_title" msgid="503655452544934393">"Sobre o recurso Mais escuro"</string>
     <string name="reduce_bright_colors_preference_intro_text" msgid="3502290826747650566">"Diminua o brilho da tela para deixar a leitura mais confortável"</string>
     <string name="reduce_bright_colors_intensity_preference_title" msgid="7455443033955118267">"Intensidade"</string>
-    <string name="reduce_bright_colors_intensity_start_label" msgid="930387498396426039">"Controle de luminosidade"</string>
+    <string name="reduce_bright_colors_intensity_start_label" msgid="930387498396426039">"Mais escuro"</string>
     <string name="reduce_bright_colors_intensity_end_label" msgid="1422600205484299860">"Mais claro"</string>
     <string name="reduce_bright_colors_persist_preference_title" msgid="4368829654993343354">"Manter o recurso ativado após a reinicialização do dispositivo"</string>
     <string name="accessibilty_autoclick_preference_subtitle_short_delay" msgid="2981206111858937724">"{count,plural, =1{Curto ({time} segundo)}one{Curto ({time} segundo)}other{Curto ({time} segundos)}}"</string>
@@ -5844,7 +5845,7 @@
     <string name="audio_streams_main_page_name_dialog_format_alert" msgid="6797839340871206774">"O nome do stream de áudio precisa ter de 4 a 32 caracteres e conter apenas letras, números e símbolos"</string>
     <string name="audio_streams_qr_code_scanner_label" msgid="8799703301071378034">"Leitor de QR code"</string>
     <string name="audio_streams_qr_code_help_with_link" msgid="5542328067190486479"><annotation id="link">"Precisa de ajuda?"</annotation></string>
-    <string name="homepage_search" msgid="6759334912284663559">"Pesquise nas configurações"</string>
+    <string name="homepage_search" msgid="6759334912284663559">"Pesquisar configurações"</string>
     <string name="keywords_contacts_storage" msgid="9061213057165337893">"contatos, armazenamento, conta"</string>
     <string name="contacts_storage_settings_title" msgid="1574030546525203810">"Armazenamento de contatos"</string>
     <string name="contacts_storage_device_only_preference_label" msgid="970250816918108264">"Somente no dispositivo"</string>

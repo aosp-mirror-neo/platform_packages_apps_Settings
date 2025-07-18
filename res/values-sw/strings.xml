@@ -387,7 +387,7 @@
     <string name="security_settings_face_enroll_introduction_accessibility_diversity" msgid="2774962371839179206"></string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision" msgid="7700394302162170363"></string>
     <string name="security_settings_face_enroll_introduction_cancel" msgid="7551159644361639436">"Ghairi"</string>
-    <string name="security_settings_face_enroll_introduction_no_thanks" msgid="6603178409726203187">"Si sasa"</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks" msgid="1820618982738898717">"Hapana"</string>
     <string name="security_settings_face_enroll_introduction_agree" msgid="6319476573697497750">"Ninakubali"</string>
     <string name="security_settings_face_enroll_introduction_more" msgid="1970820298889710532">"Zaidi"</string>
     <string name="security_settings_face_enroll_introduction_title" msgid="7061610077237098046">"Fungua ukitumia uso wako"</string>
@@ -462,7 +462,7 @@
     <string name="security_settings_fingerprint_enroll_introduction_footer_title_2" msgid="5663733424583416266">"Kumbuka"</string>
     <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled" msgid="8957789840251747092">"Tumia alama ya kidole chako kufungua simu yako au kuidhinisha ununuzi.\n\nKumbuka: Huwezi kutumia alama ya kidole chako kufungua kifaa hiki. Kwa maelezo zaidi, wasiliana na msimamizi wa shirika lako."</string>
     <string name="security_settings_fingerprint_enroll_introduction_cancel" msgid="6086532316718920562">"Ghairi"</string>
-    <string name="security_settings_fingerprint_enroll_introduction_no_thanks" msgid="1663906389456119842">"Si sasa"</string>
+    <string name="security_settings_fingerprint_enroll_introduction_no_thanks" msgid="6104718999323591180">"Hapana"</string>
     <string name="security_settings_fingerprint_enroll_introduction_agree" msgid="4068276083536421828">"Ninakubali"</string>
     <string name="security_settings_fingerprint_rename_description" msgid="6301505700382531086">"Gusa mara mbili ili ubadilishe jina"</string>
     <string name="security_settings_fingerprint_recognition_description" msgid="1805171116182647136">"Imetambua <xliff:g id="FP_NAME">%1$s</xliff:g>"</string>
@@ -1472,6 +1472,7 @@
     <string name="screensaver_settings_title" msgid="3588535639672365395">"Taswira ya skrini"</string>
     <string name="keywords_screensaver" msgid="7249337959432229172">"taswira ya skrini"</string>
     <string name="screensaver_settings_when_to_dream_bedtime" msgid="3279310576803094771">"Haipatikani kwa sababu umewasha hali ya wakati umelala"</string>
+    <string name="screensaver_unavailable_due_to_mode" msgid="6659447961090743083">"Haipatikani"</string>
     <string name="screensaver_settings_toggle_title" msgid="6194634226897244374">"Tumia taswira ya skrini"</string>
     <string name="screensaver_settings_summary_either_long" msgid="371949139331896271">"Wakati imeunganishwa na kifaa kingine au inapochaji"</string>
     <string name="screensaver_settings_summary_dock_and_charging" msgid="8485905100159376156">"Ikiwa imepachikwa na inachaji"</string>
@@ -2406,7 +2407,7 @@
     <string name="accessibility_screen_magnification_title" msgid="1211169976144629087">"Ukuzaji"</string>
     <string name="accessibility_screen_magnification_shortcut_title" msgid="2387963646377987780">"Njia ya mkato ya ukuzaji"</string>
     <string name="accessibility_magnification_cursor_following_title" msgid="29531257984012743">"Kulingana na kiteuzi"</string>
-    <string name="accessibility_magnification_cursor_following_header" msgid="7283095798622223509">"Chagua jinsi Ukuzaji unapobadilika kulingana na kiteuzi chako."</string>
+    <string name="accessibility_magnification_cursor_following_header" msgid="7283095798622223509">"Chagua jinsi Ukuzaji unavyobadilika kulingana na kiteuzi chako."</string>
     <string name="accessibility_magnification_cursor_following_unavailable_summary" msgid="1683880243856242269">"Haipatikani unapokuza tu sehemu fulani ya skrini"</string>
     <string name="accessibility_magnification_cursor_following_continuous" msgid="1119319218662522794">"Kusogeza skrini kwa mfululizo huku ukisogeza kipanya"</string>
     <string name="accessibility_magnification_cursor_following_center" msgid="3504798009192014460">"Kusogeza skrini ukiwa umeweka kipanya katikati ya skrini"</string>

@@ -387,7 +387,7 @@
     <string name="security_settings_face_enroll_introduction_accessibility_diversity" msgid="2774962371839179206"></string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision" msgid="7700394302162170363"></string>
     <string name="security_settings_face_enroll_introduction_cancel" msgid="7551159644361639436">"Utzi"</string>
-    <string name="security_settings_face_enroll_introduction_no_thanks" msgid="6603178409726203187">"Orain ez"</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks" msgid="1820618982738898717">"Ez, eskerrik asko"</string>
     <string name="security_settings_face_enroll_introduction_agree" msgid="6319476573697497750">"Ados"</string>
     <string name="security_settings_face_enroll_introduction_more" msgid="1970820298889710532">"Gehiago"</string>
     <string name="security_settings_face_enroll_introduction_title" msgid="7061610077237098046">"Desblokeatu aurpegiarekin"</string>
@@ -462,7 +462,7 @@
     <string name="security_settings_fingerprint_enroll_introduction_footer_title_2" msgid="5663733424583416266">"Gogoan izan"</string>
     <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled" msgid="8957789840251747092">"Erabili hatz-marka telefonoa desblokeatzeko eta erosketak onartzeko.\n\nOharra: ezin duzu erabili hatz-marka gailu hau desblokeatzeko. Informazio gehiago lortzeko, jarri zure erakundearen administratzailearekin harremanetan."</string>
     <string name="security_settings_fingerprint_enroll_introduction_cancel" msgid="6086532316718920562">"Utzi"</string>
-    <string name="security_settings_fingerprint_enroll_introduction_no_thanks" msgid="1663906389456119842">"Orain ez"</string>
+    <string name="security_settings_fingerprint_enroll_introduction_no_thanks" msgid="6104718999323591180">"Ez, eskerrik asko"</string>
     <string name="security_settings_fingerprint_enroll_introduction_agree" msgid="4068276083536421828">"Ados"</string>
     <string name="security_settings_fingerprint_rename_description" msgid="6301505700382531086">"Sakatu birritan izena aldatzeko"</string>
     <string name="security_settings_fingerprint_recognition_description" msgid="1805171116182647136">"<xliff:g id="FP_NAME">%1$s</xliff:g> identifikatu da"</string>
@@ -1472,6 +1472,7 @@
     <string name="screensaver_settings_title" msgid="3588535639672365395">"Pantaila-babeslea"</string>
     <string name="keywords_screensaver" msgid="7249337959432229172">"pantailarako babeslea"</string>
     <string name="screensaver_settings_when_to_dream_bedtime" msgid="3279310576803094771">"Ez dago erabilgarri, lotara joateko modua aktibatuta dagoelako"</string>
+    <string name="screensaver_unavailable_due_to_mode" msgid="6659447961090743083">"Ez dago erabilgarri"</string>
     <string name="screensaver_settings_toggle_title" msgid="6194634226897244374">"Erabili pantaila-babeslea"</string>
     <string name="screensaver_settings_summary_either_long" msgid="371949139331896271">"Kargatzen ari denean edo oinarrian dagoenean"</string>
     <string name="screensaver_settings_summary_dock_and_charging" msgid="8485905100159376156">"Oinarrian kargatzen ari denean"</string>

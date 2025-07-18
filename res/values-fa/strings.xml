@@ -387,7 +387,7 @@
     <string name="security_settings_face_enroll_introduction_accessibility_diversity" msgid="2774962371839179206"></string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision" msgid="7700394302162170363"></string>
     <string name="security_settings_face_enroll_introduction_cancel" msgid="7551159644361639436">"لغو"</string>
-    <string name="security_settings_face_enroll_introduction_no_thanks" msgid="6603178409726203187">"اکنون نه"</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks" msgid="1820618982738898717">"نه متشكرم"</string>
     <string name="security_settings_face_enroll_introduction_agree" msgid="6319476573697497750">"موافقم"</string>
     <string name="security_settings_face_enroll_introduction_more" msgid="1970820298889710532">"بیشتر"</string>
     <string name="security_settings_face_enroll_introduction_title" msgid="7061610077237098046">"با چهره‌تان قفل را باز کنید"</string>
@@ -462,7 +462,7 @@
     <string name="security_settings_fingerprint_enroll_introduction_footer_title_2" msgid="5663733424583416266">"به‌خاطر داشته باشید"</string>
     <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled" msgid="8957789840251747092">"از اثر انگشتتان برای باز کردن قفل تلفن یا تأیید خریدها استفاده کنید.\n\nتوجه: نمی‌توانید از اثر انگشتتان برای باز کردن قفل این دستگاه استفاده کنید. برای اطلاعات بیشتر، با سرپرست سیستم سازمانتان تماس بگیرید."</string>
     <string name="security_settings_fingerprint_enroll_introduction_cancel" msgid="6086532316718920562">"لغو"</string>
-    <string name="security_settings_fingerprint_enroll_introduction_no_thanks" msgid="1663906389456119842">"اکنون نه"</string>
+    <string name="security_settings_fingerprint_enroll_introduction_no_thanks" msgid="6104718999323591180">"نه متشکرم"</string>
     <string name="security_settings_fingerprint_enroll_introduction_agree" msgid="4068276083536421828">"موافقم"</string>
     <string name="security_settings_fingerprint_rename_description" msgid="6301505700382531086">"برای تغییر دادن نام، دو تک‌ضرب بزنید"</string>
     <string name="security_settings_fingerprint_recognition_description" msgid="1805171116182647136">"‫<xliff:g id="FP_NAME">%1$s</xliff:g> تشخیص داده شد"</string>
@@ -1472,6 +1472,7 @@
     <string name="screensaver_settings_title" msgid="3588535639672365395">"محافظ صفحه"</string>
     <string name="keywords_screensaver" msgid="7249337959432229172">"محافظ صفحه‌نمایش"</string>
     <string name="screensaver_settings_when_to_dream_bedtime" msgid="3279310576803094771">"دردسترس نیست زیرا «حالت وقت خواب» روشن است"</string>
+    <string name="screensaver_unavailable_due_to_mode" msgid="6659447961090743083">"دردسترس نیست"</string>
     <string name="screensaver_settings_toggle_title" msgid="6194634226897244374">"استفاده از محافظ صفحه"</string>
     <string name="screensaver_settings_summary_either_long" msgid="371949139331896271">"هنگام شارژ یا اتصال به پایه"</string>
     <string name="screensaver_settings_summary_dock_and_charging" msgid="8485905100159376156">"هنگام اتصال به پایه و شارژ"</string>
@@ -2080,7 +2081,7 @@
     <string name="running_processes_item_description_s_p" msgid="1209371773353932361">"<xliff:g id="NUMPROCESS">%1$d</xliff:g> فرآیند و <xliff:g id="NUMSERVICES">%2$d</xliff:g> سرویس"</string>
     <string name="running_processes_item_description_p_s" msgid="8957061449107822282">"<xliff:g id="NUMPROCESS">%1$d</xliff:g> فرآیند و <xliff:g id="NUMSERVICES">%2$d</xliff:g> سرویس"</string>
     <string name="running_processes_item_description_p_p" msgid="3292999232897469679">"<xliff:g id="NUMPROCESS">%1$d</xliff:g> فرآیند و <xliff:g id="NUMSERVICES">%2$d</xliff:g> سرویس"</string>
-    <string name="running_processes_header_title" msgid="558961782589967366">"حافظه دستگاه"</string>
+    <string name="running_processes_header_title" msgid="558961782589967366">"فضای ذخیره‌سازی دستگاه"</string>
     <string name="running_processes_header_footer" msgid="2726092156680487584">"‏میزان استفاده برنامه از RAM"</string>
     <string name="running_processes_header_system_prefix" msgid="8819527769608555124">"سیستم"</string>
     <string name="running_processes_header_apps_prefix" msgid="4151874328324238133">"برنامه‌ها"</string>
@@ -5205,7 +5206,7 @@
     <string name="sim_action_switch_sub_dialog_carrier_list_item_for_turning_off" msgid="5392037608705799522">"خاموش کردن <xliff:g id="CARRIER_NAME">%1$s</xliff:g>"</string>
     <string name="sim_action_switch_sub_dialog_info_outline_for_turning_off" msgid="1617619100229136888">"خاموش کردن سیم‌کارت باعث لغو سرویس نخواهد شد"</string>
     <string name="sim_action_enabling_sim_without_carrier_name" msgid="8144175623622669136">"درحال فعال کردن سیم‌کارت…"</string>
-    <string name="sim_action_switch_sub_dialog_progress" msgid="697127154780501304">"درحال انتقال به <xliff:g id="CARRIER_NAME">%1$s</xliff:g>…"</string>
+    <string name="sim_action_switch_sub_dialog_progress" msgid="697127154780501304">"درحال رفتن به <xliff:g id="CARRIER_NAME">%1$s</xliff:g>…"</string>
     <string name="sim_action_enable_sim_fail_title" msgid="2718084141744769701">"سیم‌کارت عوض نشد"</string>
     <string name="sim_action_enable_sim_fail_text" msgid="8332742656111984482">"مشکلی پیش آمد. سیم‌کارت عوض نشد."</string>
     <string name="privileged_action_disable_sub_dialog_title" msgid="3298942357601334418">"<xliff:g id="CARRIER_NAME">%1$s</xliff:g> خاموش شود؟"</string>

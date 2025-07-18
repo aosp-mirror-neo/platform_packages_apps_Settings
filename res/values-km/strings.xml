@@ -387,7 +387,7 @@
     <string name="security_settings_face_enroll_introduction_accessibility_diversity" msgid="2774962371839179206"></string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision" msgid="7700394302162170363"></string>
     <string name="security_settings_face_enroll_introduction_cancel" msgid="7551159644361639436">"បោះបង់"</string>
-    <string name="security_settings_face_enroll_introduction_no_thanks" msgid="6603178409726203187">"កុំទាន់"</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks" msgid="1820618982738898717">"ទេ អរគុណ!"</string>
     <string name="security_settings_face_enroll_introduction_agree" msgid="6319476573697497750">"ខ្ញុំយល់ព្រម"</string>
     <string name="security_settings_face_enroll_introduction_more" msgid="1970820298889710532">"ច្រើន​ទៀត"</string>
     <string name="security_settings_face_enroll_introduction_title" msgid="7061610077237098046">"ដោះសោ​ដោយប្រើ​មុខ​របស់អ្នក"</string>
@@ -462,7 +462,7 @@
     <string name="security_settings_fingerprint_enroll_introduction_footer_title_2" msgid="5663733424583416266">"សូមចងចាំ"</string>
     <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled" msgid="8957789840251747092">"ប្រើស្នាមម្រាមដៃរបស់អ្នកដើម្បីដោះសោទូរសព្ទរបស់អ្នក ឬយល់ព្រមលើការទិញ។\n\nចំណាំ៖ អ្នកមិនអាចប្រើស្នាមម្រាមដៃរបស់អ្នក ដើម្បីដោះសោឧបករណ៍នេះឡើយ។ សម្រាប់ព័ត៌មានបន្ថែម សូមទាក់ទងអ្នកគ្រប់គ្រង​របស់​ស្ថាប័នអ្នក។"</string>
     <string name="security_settings_fingerprint_enroll_introduction_cancel" msgid="6086532316718920562">"បោះបង់"</string>
-    <string name="security_settings_fingerprint_enroll_introduction_no_thanks" msgid="1663906389456119842">"កុំទាន់"</string>
+    <string name="security_settings_fingerprint_enroll_introduction_no_thanks" msgid="6104718999323591180">"ទេ អរគុណ"</string>
     <string name="security_settings_fingerprint_enroll_introduction_agree" msgid="4068276083536421828">"ខ្ញុំយល់ព្រម"</string>
     <string name="security_settings_fingerprint_rename_description" msgid="6301505700382531086">"ចុចពីរដង ដើម្បីប្ដូរ​ឈ្មោះ"</string>
     <string name="security_settings_fingerprint_recognition_description" msgid="1805171116182647136">"បានសម្គាល់<xliff:g id="FP_NAME">%1$s</xliff:g>"</string>
@@ -1472,6 +1472,7 @@
     <string name="screensaver_settings_title" msgid="3588535639672365395">"ធាតុរក្សាអេក្រង់"</string>
     <string name="keywords_screensaver" msgid="7249337959432229172">"ធាតុ​រក្សា​អេក្រង់"</string>
     <string name="screensaver_settings_when_to_dream_bedtime" msgid="3279310576803094771">"មិនអាច​ប្រើបានទេ ដោយសារ​បើកមុខងារ​ម៉ោងគេង"</string>
+    <string name="screensaver_unavailable_due_to_mode" msgid="6659447961090743083">"មិនអាចប្រើបាន"</string>
     <string name="screensaver_settings_toggle_title" msgid="6194634226897244374">"ប្រើធាតុ​រក្សា​អេក្រង់"</string>
     <string name="screensaver_settings_summary_either_long" msgid="371949139331896271">"ពេលសាកថ្ម ឬភ្ជាប់"</string>
     <string name="screensaver_settings_summary_dock_and_charging" msgid="8485905100159376156">"ខណៈពេលភ្ជាប់ និងសាកថ្ម"</string>
@@ -2166,11 +2167,11 @@
     <string name="mouse_keys_numpad_keys_image_list_summary" msgid="2728318055237217919">"ផ្ទាំងចុចលេខនឹងត្រូវបានប្រើជានិច្ច ពេលបើក Num Lock"</string>
     <string name="mouse_reverse_vertical_scrolling_summary" msgid="3386655598642587942">"រំកិល​ឡើងលើ ដើម្បីផ្លាស់ទី​ទំព័រចុះក្រោម"</string>
     <string name="mouse_scrolling_category_title" msgid="2992126595687187296">"ការរំកិល"</string>
-    <string name="mouse_scrolling_acceleration" msgid="7119758828203396430">"ការរំកិលដែលបានគ្រប់គ្រង"</string>
+    <string name="mouse_scrolling_acceleration" msgid="7119758828203396430">"ការរំកិលដែលមានការគ្រប់គ្រង"</string>
     <string name="mouse_scrolling_speed" msgid="3999483025392860903">"ល្បឿនរំកិល"</string>
     <string name="mouse_pointer_speed_make_faster_desc" msgid="7665912663672314461">"ធ្វើឱ្យសញ្ញាព្រួញលឿនជាងមុន"</string>
     <string name="mouse_pointer_speed_make_slower_desc" msgid="116802579827902188">"ធ្វើឱ្យសញ្ញាព្រួញយឺតជាងមុន"</string>
-    <string name="mouse_swap_primary_button" msgid="4798006242525441304">"ប្ដូរប៊ូតុងម៉ៅស៍ចម្បង"</string>
+    <string name="mouse_swap_primary_button" msgid="4798006242525441304">"ឆ្លាស់ប៊ូតុងម៉ៅស៍ចម្បង"</string>
     <string name="mouse_swap_primary_button_summary" msgid="3276638019321067902">"ប្រើប៊ូតុងម៉ៅស៍ខាងឆ្វេងជាប៊ូតុងម៉ៅស៍ខាងស្ដាំរបស់អ្នក"</string>
     <string name="mouse_pointer_acceleration" msgid="388336576055293329">"ការបង្កើន​ល្បឿនទស្សន៍ទ្រនិច"</string>
     <string name="mouse_pointer_acceleration_summary" msgid="6954407061360045792">"ចលនាកាន់តែរហ័ស​នៃម៉ៅស៍របស់អ្នក​នឹងផ្លាស់ទី​ទស្សន៍ទ្រនិចបាន​កាន់តែឆ្ងាយ"</string>

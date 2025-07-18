@@ -387,7 +387,7 @@
     <string name="security_settings_face_enroll_introduction_accessibility_diversity" msgid="2774962371839179206"></string>
     <string name="security_settings_face_enroll_introduction_accessibility_vision" msgid="7700394302162170363"></string>
     <string name="security_settings_face_enroll_introduction_cancel" msgid="7551159644361639436">"Zrušiť"</string>
-    <string name="security_settings_face_enroll_introduction_no_thanks" msgid="6603178409726203187">"Teraz nie"</string>
+    <string name="security_settings_face_enroll_introduction_no_thanks" msgid="1820618982738898717">"Nie, vďaka"</string>
     <string name="security_settings_face_enroll_introduction_agree" msgid="6319476573697497750">"Súhlasím"</string>
     <string name="security_settings_face_enroll_introduction_more" msgid="1970820298889710532">"Viac"</string>
     <string name="security_settings_face_enroll_introduction_title" msgid="7061610077237098046">"Odomykanie pomocou tváre"</string>
@@ -462,7 +462,7 @@
     <string name="security_settings_fingerprint_enroll_introduction_footer_title_2" msgid="5663733424583416266">"Upozornenie"</string>
     <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled" msgid="8957789840251747092">"Odomykajte svoj telefón a schvaľujte nákupy pomocou odtlačku prsta.\n\nUpozornenie: Toto zariadenie nemôžete odomykať pomocou odtlačku prsta. Ďalšie informácie vám poskytne správca organizácie."</string>
     <string name="security_settings_fingerprint_enroll_introduction_cancel" msgid="6086532316718920562">"Zrušiť"</string>
-    <string name="security_settings_fingerprint_enroll_introduction_no_thanks" msgid="1663906389456119842">"Teraz nie"</string>
+    <string name="security_settings_fingerprint_enroll_introduction_no_thanks" msgid="6104718999323591180">"Nie, vďaka"</string>
     <string name="security_settings_fingerprint_enroll_introduction_agree" msgid="4068276083536421828">"Súhlasím"</string>
     <string name="security_settings_fingerprint_rename_description" msgid="6301505700382531086">"Premenujete dvojitým klepnutím"</string>
     <string name="security_settings_fingerprint_recognition_description" msgid="1805171116182647136">"Bol rozpoznaný odtlačok prsta <xliff:g id="FP_NAME">%1$s</xliff:g>"</string>
@@ -1472,6 +1472,7 @@
     <string name="screensaver_settings_title" msgid="3588535639672365395">"Šetrič obrazovky"</string>
     <string name="keywords_screensaver" msgid="7249337959432229172">"šetrič obrazovky"</string>
     <string name="screensaver_settings_when_to_dream_bedtime" msgid="3279310576803094771">"Nedostupné, pretože je zapnutý režim večierky"</string>
+    <string name="screensaver_unavailable_due_to_mode" msgid="6659447961090743083">"Nie je k dispozícii"</string>
     <string name="screensaver_settings_toggle_title" msgid="6194634226897244374">"Používať šetrič obrazovky"</string>
     <string name="screensaver_settings_summary_either_long" msgid="371949139331896271">"Pri nabíjaní alebo v doku"</string>
     <string name="screensaver_settings_summary_dock_and_charging" msgid="8485905100159376156">"V doku alebo pri nabíjaní"</string>
