@@ -29,8 +29,6 @@ import android.os.UserHandle
 import android.util.Log
 import androidx.annotation.VisibleForTesting
 import androidx.compose.runtime.Composable
-import com.android.settings.Utils
-import com.android.settings.applications.appinfo.AppInfoDashboardFragment
 import com.android.settings.flags.FeatureFlags
 import com.android.settings.flags.FeatureFlagsImpl
 import com.android.settings.overlay.FeatureFactory.Companion.featureFactory
@@ -118,16 +116,6 @@ class PackageInfoPresenter(
 
     private fun isForThisApp(intent: Intent) = packageName == intent.data?.schemeSpecificPart
 
-    private fun requireAuthAndExecute(action: () -> Unit) {
-        if (Utils.isProtectedPackage(context, packageName)) {
-            AppInfoDashboardFragment.showLockScreen(context) {
-                action()
-            }
-        } else {
-            action()
-        }
-    }
-
     /** Enables this package. */
     fun enable() {
         logAction(SettingsEnums.ACTION_SETTINGS_ENABLE_APP)
@@ -141,21 +129,17 @@ class PackageInfoPresenter(
     /** Disables this package. */
     fun disable() {
         logAction(SettingsEnums.ACTION_SETTINGS_DISABLE_APP)
-        requireAuthAndExecute {
-            coroutineScope.launch(Dispatchers.IO) {
-                userPackageManager.setApplicationEnabledSetting(
-                    packageName, PackageManager.COMPONENT_ENABLED_STATE_DISABLED_USER, 0
-                )
-            }
+        coroutineScope.launch(Dispatchers.IO) {
+            userPackageManager.setApplicationEnabledSetting(
+                packageName, PackageManager.COMPONENT_ENABLED_STATE_DISABLED_USER, 0
+            )
         }
     }
 
     /** Starts the uninstallation activity. */
     fun startUninstallActivity(forAllUsers: Boolean = false) {
         logAction(SettingsEnums.ACTION_SETTINGS_UNINSTALL_APP)
-        requireAuthAndExecute {
-            context.startUninstallActivity(packageName, userHandle, forAllUsers)
-        }
+        context.startUninstallActivity(packageName, userHandle, forAllUsers)
     }
 
     /** Clears this instant app. */
@@ -169,19 +153,17 @@ class PackageInfoPresenter(
     /** Force stops this package. */
     fun forceStop() {
         logAction(SettingsEnums.ACTION_APP_FORCE_STOP)
-        requireAuthAndExecute {
-            coroutineScope.launch(Dispatchers.Default) {
-                Log.d(TAG, "Stopping package $packageName")
-                if (android.app.Flags.appRestrictionsApi()) {
-                    val uid = userPackageManager.getPackageUid(packageName, 0)
-                    context.activityManager.noteAppRestrictionEnabled(
-                        packageName, uid,
-                        ActivityManager.RESTRICTION_LEVEL_FORCE_STOPPED, true,
-                        ActivityManager.RESTRICTION_REASON_USER, "settings",
-                        ActivityManager.RESTRICTION_SOURCE_USER, 0)
-                }
-                context.activityManager.forceStopPackageAsUser(packageName, userId)
+        coroutineScope.launch(Dispatchers.Default) {
+            Log.d(TAG, "Stopping package $packageName")
+            if (android.app.Flags.appRestrictionsApi()) {
+                val uid = userPackageManager.getPackageUid(packageName, 0)
+                context.activityManager.noteAppRestrictionEnabled(
+                    packageName, uid,
+                    ActivityManager.RESTRICTION_LEVEL_FORCE_STOPPED, true,
+                    ActivityManager.RESTRICTION_REASON_USER, "settings",
+                    ActivityManager.RESTRICTION_SOURCE_USER, 0)
             }
+            context.activityManager.forceStopPackageAsUser(packageName, userId)
         }
     }
 

@@ -51,7 +51,6 @@ public class ShadowUtils {
     private static boolean sIsBatteryPresent;
     private static boolean sIsMultipleBiometricsSupported;
     private static boolean sIsPrivateProfile;
-    private static boolean sIsProtectedPackage;
 
     @Implementation
     protected static int enforceSameOwner(Context context, int userId) {
@@ -85,7 +84,6 @@ public class ShadowUtils {
         sIsBatteryPresent = true;
         sIsMultipleBiometricsSupported = false;
         sIsPrivateProfile = false;
-        sIsProtectedPackage = false;
     }
 
     public static void setIsDemoUser(boolean isDemoUser) {
@@ -200,14 +198,5 @@ public class ShadowUtils {
 
     public static void setIsPrivateProfile(boolean isPrivateProfile) {
         sIsPrivateProfile = isPrivateProfile;
-    }
-
-    @Implementation
-    protected static boolean isProtectedPackage(Context context, String packageName) {
-        return sIsProtectedPackage;
-    }
-
-    public static void setIsProtectedPackage(boolean isProtectedPackage) {
-        sIsProtectedPackage = isProtectedPackage;
     }
 }

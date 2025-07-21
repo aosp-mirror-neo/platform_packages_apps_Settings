@@ -21,7 +21,6 @@ import android.app.admin.DevicePolicyManager;
 import android.content.ContentResolver;
 import android.content.Context;
 import android.os.UserHandle;
-import android.os.UserManager;
 import android.provider.Settings;
 import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
@@ -127,14 +126,6 @@ public class ContentProtectionTogglePreferenceController extends TogglePreferenc
                 && mContentProtectionPolicy
                         != DevicePolicyManager.CONTENT_PROTECTION_NOT_CONTROLLED_BY_POLICY) {
             mSwitchBar.setDisabledByAdmin(mEnforcedAdmin);
-            return;
-        }
-
-        UserManager userManager = mContext.getSystemService(UserManager.class);
-        if (userManager != null
-                && userManager.isGuestUser()
-                && mSwitchBar != null) {
-            mSwitchBar.setEnabled(false);
         }
     }
 
