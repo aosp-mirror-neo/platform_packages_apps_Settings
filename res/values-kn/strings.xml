@@ -479,7 +479,7 @@
     <string name="fingerprint_check_enroll_touch_sensor" msgid="5010063281557456236">"ಫಿಂಗರ್‌ಪ್ರಿಂಟ್ ಸೆನ್ಸರ್‌‌ ಅನ್ನು ಸ್ಪರ್ಶಿಸಿ"</string>
     <string name="fingerprint_check_enroll_not_recognized" msgid="2779520550437394431">"ಫಿಂಗರ್ ಪ್ರಿಂಟ್ ಅನ್ನು ಗುರುತಿಸಲಾಗಿಲ್ಲ"</string>
     <string name="security_settings_activeunlock_preference_title" msgid="4257580421087062228">"ವಾಚ್ ಅನ್‌ಲಾಕ್"</string>
-    <string name="security_settings_activeunlock" msgid="8922823742770802651">"ವೀಕ್ಷಿಸಿ"</string>
+    <string name="security_settings_activeunlock" msgid="8922823742770802651">"ವಾಚ್"</string>
     <string name="biometric_settings_intro_with_activeunlock" msgid="5032953826653108646">"ನೀವು ಫೇಸ್ ಅನ್‌ಲಾಕ್ ಮತ್ತು ಫಿಂಗರ್‌ ಪ್ರಿಂಟ್ ಅನ್‌ಲಾಕ್ ಅನ್ನು ಸೆಟಪ್ ಮಾಡಿದಾಗ, ನೀವು ಫೇಸ್ ಮಾಸ್ಕ್ ಧರಿಸಿರುವಾಗ ಅಥವಾ ಕತ್ತಲೆ ಪ್ರದೇಶದಲ್ಲಿದ್ದಾಗ ನಿಮ್ಮ ಫೋನ್ ಫಿಂಗರ್‌ ಪ್ರಿಂಟ್ ಅನ್ನು ಕೇಳುತ್ತದೆ.\n\nನಿಮ್ಮ ಫೋನ್ ಅನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಲು ವಾಚ್ ಅನ್‌ಲಾಕ್ ಮತ್ತೊಂದು ಅನುಕೂಲಕರ ಮಾರ್ಗವಾಗಿದೆ, ಉದಾಹರಣೆಗೆ, ನಿಮ್ಮ ಬೆರಳುಗಳು ಒದ್ದೆಯಾಗಿರುವಾಗ ಅಥವಾ ಮುಖವನ್ನು ಗುರುತಿಸದಿದ್ದಾಗ."</string>
     <string name="biometric_settings_intro_with_fingerprint" msgid="5881355884547769337">"ನಿಮ್ಮ ಫೋನ್ ಅನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಲು ವಾಚ್ ಅನ್‌ಲಾಕ್ ಮತ್ತೊಂದು ಅನುಕೂಲಕರ ಮಾರ್ಗವಾಗಿದೆ, ಉದಾಹರಣೆಗೆ, ನಿಮ್ಮ ಫಿಂಗರ್‌ ಪ್ರಿಂಟ್ ಅನ್ನು ಗುರುತಿಸದಿದ್ದಾಗ."</string>
     <string name="biometric_settings_intro_with_face" msgid="7671919122230588521">"ನಿಮ್ಮ ಫೋನ್ ಅನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಲು ವಾಚ್ ಅನ್‌ಲಾಕ್ ಮತ್ತೊಂದು ಅನುಕೂಲಕರ ಮಾರ್ಗವಾಗಿದೆ, ಉದಾಹರಣೆಗೆ, ನಿಮ್ಮ ಮುಖವನ್ನು ಗುರುತಿಸದಿದ್ದಾಗ."</string>

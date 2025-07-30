@@ -479,7 +479,7 @@
     <string name="fingerprint_check_enroll_touch_sensor" msgid="5010063281557456236">"Atinge senzorul de amprentă"</string>
     <string name="fingerprint_check_enroll_not_recognized" msgid="2779520550437394431">"Amprenta nu a fost recunoscută"</string>
     <string name="security_settings_activeunlock_preference_title" msgid="4257580421087062228">"Deblocare cu ceasul"</string>
-    <string name="security_settings_activeunlock" msgid="8922823742770802651">"Vizionează"</string>
+    <string name="security_settings_activeunlock" msgid="8922823742770802651">"Ceas"</string>
     <string name="biometric_settings_intro_with_activeunlock" msgid="5032953826653108646">"Când configurezi Deblocarea facială și Deblocarea cu amprenta, telefonul îți va solicita amprenta atunci când porți mască sau te afli într-o zonă întunecoasă.\n\nDeblocarea cu ceasul este o altă modalitate convenabilă de a debloca telefonul, de exemplu, când ai degetele ude sau nu îți recunoaște chipul."</string>
     <string name="biometric_settings_intro_with_fingerprint" msgid="5881355884547769337">"Deblocarea cu ceasul este o altă modalitate convenabilă de a debloca telefonul, de exemplu, când nu îți recunoaște amprenta."</string>
     <string name="biometric_settings_intro_with_face" msgid="7671919122230588521">"Deblocarea cu ceasul este o altă modalitate convenabilă de a debloca telefonul, de exemplu, când nu îți recunoaște chipul."</string>

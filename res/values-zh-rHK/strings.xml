@@ -479,7 +479,7 @@
     <string name="fingerprint_check_enroll_touch_sensor" msgid="5010063281557456236">"請輕觸指紋感應器"</string>
     <string name="fingerprint_check_enroll_not_recognized" msgid="2779520550437394431">"無法辨識指紋"</string>
     <string name="security_settings_activeunlock_preference_title" msgid="4257580421087062228">"手錶解鎖"</string>
-    <string name="security_settings_activeunlock" msgid="8922823742770802651">"觀看"</string>
+    <string name="security_settings_activeunlock" msgid="8922823742770802651">"手錶"</string>
     <string name="biometric_settings_intro_with_activeunlock" msgid="5032953826653108646">"設定「面孔解鎖」和「指紋解鎖」後，如果你戴口罩或在昏暗環境，手機就會要求你使用指紋。\n\n用「手錶解鎖」解鎖手機亦很方便，例如在手指濕了或識別不到面孔的情況。"</string>
     <string name="biometric_settings_intro_with_fingerprint" msgid="5881355884547769337">"在系統無法識別你的指紋等情況下，「手錶解鎖」是另一個方便的解鎖手機方式。"</string>
     <string name="biometric_settings_intro_with_face" msgid="7671919122230588521">"在系統無法識別你的面孔等情況下，「手錶解鎖」是另一個方便的解鎖手機方式。"</string>

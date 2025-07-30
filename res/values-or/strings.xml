@@ -479,7 +479,7 @@
     <string name="fingerprint_check_enroll_touch_sensor" msgid="5010063281557456236">"ଟିପଚିହ୍ନ ସେନ୍ସରକୁ ସ୍ପର୍ଶ କରନ୍ତୁ"</string>
     <string name="fingerprint_check_enroll_not_recognized" msgid="2779520550437394431">"ଟିପଚିହ୍ନ ଚିହ୍ନଟ କରାଯାଇନାହିଁ"</string>
     <string name="security_settings_activeunlock_preference_title" msgid="4257580421087062228">"ୱାଚ ଅନଲକ"</string>
-    <string name="security_settings_activeunlock" msgid="8922823742770802651">"ଦେଖନ୍ତୁ"</string>
+    <string name="security_settings_activeunlock" msgid="8922823742770802651">"ୱାଚ"</string>
     <string name="biometric_settings_intro_with_activeunlock" msgid="5032953826653108646">"ଆପଣ ଫେସ ଅନଲକ ଏବଂ ଫିଙ୍ଗରପ୍ରିଣ୍ଟ ଅନଲକ ସେଟ ଅପ କରିବା ସମୟରେ ଆପଣ ଏକ ମାସ୍କ ପିନ୍ଧିଥିଲେ ବା ଏକ ଅନ୍ଧାରୁଆ ସ୍ଥାନରେ ଥିଲେ ଆପଣଙ୍କ ଫୋନ ଆପଣଙ୍କ ଟିପଚିହ୍ନ ପାଇଁ ପଚାରିବ।\n\nଆପଣଙ୍କ ଫୋନକୁ ଅନଲକ କରିବା ପାଇଁ ୱାଚ ଅନଲକ ଅନ୍ୟ ଏକ ସୁବିଧାଜନକ ଉପାୟ ଅଟେ, ଉଦାହରଣ ସ୍ୱରୂପ, ଯେତେବେଳେ ଆପଣଙ୍କ ଆଙ୍ଗୁଠି ଓଦା ଥାଏ କିମ୍ବା ଆପଣଙ୍କ ଫେସ ଚିହ୍ନଟ ହୋଇନଥାଏ।"</string>
     <string name="biometric_settings_intro_with_fingerprint" msgid="5881355884547769337">"ଆପଣଙ୍କ ଫୋନକୁ ଅନଲକ କରିବା ପାଇଁ ୱାଚ ଅନଲକ ଅନ୍ୟ ଏକ ସୁବିଧାଜନକ ଉପାୟ ଅଟେ, ଉଦାହରଣ ସ୍ୱରୂପ, ଯେତେବେଳେ ଆପଣଙ୍କ ଟିପଚିହ୍ନ ଚିହ୍ନଟ ହୋଇନଥାଏ।"</string>
     <string name="biometric_settings_intro_with_face" msgid="7671919122230588521">"ଆପଣଙ୍କ ଫୋନକୁ ଅନଲକ କରିବା ପାଇଁ ୱାଚ ଅନଲକ ଅନ୍ୟ ଏକ ସୁବିଧାଜନକ ଉପାୟ ଅଟେ, ଉଦାହରଣ ସ୍ୱରୂପ, ଯେତେବେଳେ ଆପଣଙ୍କ ଫେସ ଚିହ୍ନଟ ହୋଇନଥାଏ।"</string>
