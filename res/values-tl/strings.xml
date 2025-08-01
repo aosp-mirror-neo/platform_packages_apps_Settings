@@ -479,7 +479,7 @@
     <string name="fingerprint_check_enroll_touch_sensor" msgid="5010063281557456236">"Pindutin ang sensor para sa fingerprint"</string>
     <string name="fingerprint_check_enroll_not_recognized" msgid="2779520550437394431">"Hindi nakilala ang fingerprint"</string>
     <string name="security_settings_activeunlock_preference_title" msgid="4257580421087062228">"Pag-unlock Gamit ang Relo"</string>
-    <string name="security_settings_activeunlock" msgid="8922823742770802651">"Panoorin"</string>
+    <string name="security_settings_activeunlock" msgid="8922823742770802651">"Orasan"</string>
     <string name="biometric_settings_intro_with_activeunlock" msgid="5032953826653108646">"Kapag nag-set up ka ng Pag-unlock Gamit ang Mukha at Pag-unlock Gamit ang Fingerprint, hihingin ng iyong telepono ang fingerprint mo kapag naka-mask ka o nasa madilim kang lugar.\n\nAng Pag-unlock Gamit ang Relo ay isa pang madaling paraan para i-unlock ang iyong telepono, halimbawa, kapag basa ang mga daliri mo o hindi nakikilala ang iyong mukha."</string>
     <string name="biometric_settings_intro_with_fingerprint" msgid="5881355884547769337">"Ang Pag-unlock Gamit ang Relo ay isa pang madaling paraan para i-unlock ang iyong telepono, halimbawa, kapag hindi nakikilala ang fingerprint mo."</string>
     <string name="biometric_settings_intro_with_face" msgid="7671919122230588521">"Ang Pag-unlock Gamit ang Relo ay isa pang madaling paraan para i-unlock ang iyong telepono, halimbawa, kapag hindi nakikilala ang mukha mo."</string>

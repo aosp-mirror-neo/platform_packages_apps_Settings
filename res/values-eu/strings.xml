@@ -479,7 +479,7 @@
     <string name="fingerprint_check_enroll_touch_sensor" msgid="5010063281557456236">"Ukitu hatz-marken sentsorea"</string>
     <string name="fingerprint_check_enroll_not_recognized" msgid="2779520550437394431">"Ez da ezagutu hatz-marka"</string>
     <string name="security_settings_activeunlock_preference_title" msgid="4257580421087062228">"Erloju bidez desblokeatzea"</string>
-    <string name="security_settings_activeunlock" msgid="8922823742770802651">"Ikusi"</string>
+    <string name="security_settings_activeunlock" msgid="8922823742770802651">"Erlojua"</string>
     <string name="biometric_settings_intro_with_activeunlock" msgid="5032953826653108646">"Aurpegi eta hatz-marka bidez desblokeatzeko eginbideak konfiguratzen badituzu, telefonoak hatz-marka eskatuko dizu inoiz maskara bat jantzita edo argi gutxirekin telefonoa aurpegiaren bidez desblokeatzen saiatuz gero.\n\nErloju bidez desblokeatzea telefonoa desblokeatzeko beste modu eroso bat da; adibidez, hatzak bustita dauzkazunean edo aurpegia ezagutzen ez denean."</string>
     <string name="biometric_settings_intro_with_fingerprint" msgid="5881355884547769337">"Erloju bidez desblokeatzea telefonoa desblokeatzeko beste modu eroso bat da; adibidez, hatz-marka ezagutzen ez denean."</string>
     <string name="biometric_settings_intro_with_face" msgid="7671919122230588521">"Erloju bidez desblokeatzea telefonoa desblokeatzeko beste modu eroso bat da; adibidez, aurpegia ezagutzen ez denean."</string>

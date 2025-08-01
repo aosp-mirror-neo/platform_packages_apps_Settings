@@ -479,7 +479,7 @@
     <string name="fingerprint_check_enroll_touch_sensor" msgid="5010063281557456236">"فنگر پرنٹ سینسر کو ٹچ کریں"</string>
     <string name="fingerprint_check_enroll_not_recognized" msgid="2779520550437394431">"فنگر پرنٹ نہیں پہچانا گيا"</string>
     <string name="security_settings_activeunlock_preference_title" msgid="4257580421087062228">"واچ اَن لاک"</string>
-    <string name="security_settings_activeunlock" msgid="8922823742770802651">"دیکھیں"</string>
+    <string name="security_settings_activeunlock" msgid="8922823742770802651">"گھڑی"</string>
     <string name="biometric_settings_intro_with_activeunlock" msgid="5032953826653108646">"جب آپ فیس اَنلاک اور فنگر پرنٹ اَن لاک کی خصوصیت سیٹ اپ کرتے ہیں تو آپ کے ماسک پہننے یا کسی تاریک جگہ پر موجود ہونے کی صورت میں آپ کا فون آپ کے فنگر پرنٹ کے لیے پوچھے گا۔\n\nواچ اَن لاک اس فون کو غیر مقفل کرنے کا ایک اور آسان طریقہ ہے، مثال کے طور پر، جب آپ کی انگلیاں گیلی ہوں یا چہرے کی شناخت نہ ہو پا رہی ہو۔"</string>
     <string name="biometric_settings_intro_with_fingerprint" msgid="5881355884547769337">"واچ اَن لاک اس فون کو غیر مقفل کرنے کا ایک اور آسان طریقہ ہے، مثال کے طور پر، جب آپ کے فنگر پرنٹ کی شناخت نہ ہو پا رہی ہو۔"</string>
     <string name="biometric_settings_intro_with_face" msgid="7671919122230588521">"واچ اَن لاک اس فون کو غیر مقفل کرنے کا ایک اور آسان طریقہ ہے، مثال کے طور پر، جب آپ کے چہرے کی شناخت نہ ہو پا رہی ہو۔"</string>

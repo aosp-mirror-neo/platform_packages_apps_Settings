@@ -479,7 +479,7 @@
     <string name="fingerprint_check_enroll_touch_sensor" msgid="5010063281557456236">"Trykk på fingeravtrykkssensoren"</string>
     <string name="fingerprint_check_enroll_not_recognized" msgid="2779520550437394431">"Gjenkjente ikke fingeravtrykket"</string>
     <string name="security_settings_activeunlock_preference_title" msgid="4257580421087062228">"Klokkelås"</string>
-    <string name="security_settings_activeunlock" msgid="8922823742770802651">"Se"</string>
+    <string name="security_settings_activeunlock" msgid="8922823742770802651">"Klokke"</string>
     <string name="biometric_settings_intro_with_activeunlock" msgid="5032953826653108646">"Når du konfigurerer ansiktslås og opplåsing med fingeravtrykk, blir du bedt om å bruke fingeravtrykk på telefonen når du har på deg munnbind eller er i områder med lite lys.\n\nKlokkelåsen er en annen praktisk løsning for å låse opp telefonen – for eksempel når du har våte fingre eller ansiktet ditt ikke gjenkjennes"</string>
     <string name="biometric_settings_intro_with_fingerprint" msgid="5881355884547769337">"Klokkelåsen er en annen praktisk løsning for å låse opp telefonen – for eksempel når fingeravtrykket ditt ikke gjenkjennes."</string>
     <string name="biometric_settings_intro_with_face" msgid="7671919122230588521">"Klokkelåsen er en annen praktisk løsning for å låse opp telefonen – for eksempel når ansiktet ditt ikke gjenkjennes."</string>
