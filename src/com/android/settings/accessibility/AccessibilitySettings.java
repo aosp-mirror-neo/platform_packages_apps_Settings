@@ -505,7 +505,6 @@ public class AccessibilitySettings extends DashboardFragment implements
             }
         }
     }
-
     private void initializePreBundledServicesMapFromArray(String categoryKey, int key) {
         String[] services = getResources().getStringArray(key);
         PreferenceCategory category = mCategoryToPrefCategoryMap.get(categoryKey);
