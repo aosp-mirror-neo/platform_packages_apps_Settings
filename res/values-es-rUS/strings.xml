@@ -642,6 +642,8 @@
     <string name="bluetooth_enter_passkey_other_device" msgid="8270426446247344709">"Puede que también tengas que escribir esta clave de acceso en otro dispositivo."</string>
     <string name="bluetooth_paring_group_msg" msgid="4609515924670823316">"Confirma para vincular con el conjunto coordinado"</string>
     <string name="bluetooth_pairing_shares_phonebook" msgid="4329325125260724843">"Permitir el acceso a tus contactos y al historial de llamadas"</string>
+    <string name="bluetooth_pairing_confirmation_title" msgid="3359642089708714808">"Verifica los códigos de vinculación"</string>
+    <string name="bluetooth_pairing_confirmation_msg" msgid="8204761740738350792">"Verifica si este código coincide con el que aparece en <xliff:g id="DEVICE_NAME">%1$s</xliff:g>.\n\nPor tu seguridad, no ingreses este código en ningún lugar."</string>
     <string name="bluetooth_error_title" msgid="2284738188253690278"></string>
     <string name="bluetooth_connecting_error_message" msgid="3941893154784152112">"No se pudo establecer conexión con <xliff:g id="DEVICE_NAME">%1$s</xliff:g>."</string>
     <string name="bluetooth_preference_found_media_devices" msgid="830061195998352840">"Dispositivos disponibles"</string>
