@@ -18,11 +18,14 @@ package com.android.settings.wifi;
 
 import android.app.Dialog;
 import android.app.settings.SettingsEnums;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.wifi.WifiManager;
 import android.os.Bundle;
+import android.os.UserManager;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.WindowManager;
 
 import androidx.annotation.VisibleForTesting;
@@ -39,6 +42,7 @@ import com.android.settingslib.wifi.WifiPermissionChecker;
  * This activity requests users permission to allow scanning even when Wi-Fi is turned off
  */
 public class WifiScanModeActivity extends FragmentActivity {
+    private static final String TAG = "WifiScanModeActivity";
     private DialogFragment mDialog;
     @VisibleForTesting
     String mApp;
@@ -79,6 +83,12 @@ public class WifiScanModeActivity extends FragmentActivity {
     }
 
     private void createDialog() {
+        if (!isWifiScanModeConfigAllowed(getApplicationContext())) {
+            Log.e(TAG, "This user is not allowed to configure Wi-Fi Scan Mode!");
+            finish();
+            return;
+        }
+
         if (mDialog == null) {
             mDialog = AlertDialogFragment.newInstance(mApp);
             mDialog.show(getSupportFragmentManager(), "dialog");
@@ -168,5 +178,11 @@ public class WifiScanModeActivity extends FragmentActivity {
         public void onCancel(DialogInterface dialog) {
             ((WifiScanModeActivity) getActivity()).doNegativeClick();
         }
+    }
+
+    private static boolean isWifiScanModeConfigAllowed(Context context) {
+        final UserManager userManager = context.getSystemService(UserManager.class);
+        if (userManager == null) return true;
+        return !userManager.hasUserRestriction(UserManager.DISALLOW_CONFIG_LOCATION);
     }
 }
