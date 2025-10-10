@@ -642,6 +642,8 @@
     <string name="bluetooth_enter_passkey_other_device" msgid="8270426446247344709">"ଏହି ପାସ୍‌-କୀକୁ ଅନ୍ୟ ଡିଭାଇସ୍‌ରେ ମଧ୍ୟ ଟାଇପ୍‌ କରିବା ଆବଶ୍ୟକ ହୋଇପରେ।"</string>
     <string name="bluetooth_paring_group_msg" msgid="4609515924670823316">"କୋର୍ଡିନେଟ କରାଯାଇଥିବା ସେଟ ସହ ପେୟାର କରିବାକୁ ସୁନିଶ୍ଚିତ କରନ୍ତୁ"</string>
     <string name="bluetooth_pairing_shares_phonebook" msgid="4329325125260724843">"ଆପଣଙ୍କ କଣ୍ଟାକ୍ଟ ଓ କଲ ହିଷ୍ଟୋରୀକୁ ଆକ୍ସେସ କରିବାର ଅନୁମତି‌ ଦିଅନ୍ତୁ"</string>
+    <string name="bluetooth_pairing_confirmation_title" msgid="3359642089708714808">"ପେୟାରିଂ କୋଡଗୁଡ଼ିକୁ ଯାଞ୍ଚ କରନ୍ତୁ"</string>
+    <string name="bluetooth_pairing_confirmation_msg" msgid="8204761740738350792">"ଏହି କୋଡଟି <xliff:g id="DEVICE_NAME">%1$s</xliff:g>ରେ ଥିବା କୋଡ ସହ ମେଳ ଖାଉଛି ନା ନାହିଁ ତାହା ଯାଞ୍ଚ କରନ୍ତୁ।\n\nଆପଣଙ୍କ ସୁରକ୍ଷା ପାଇଁ, ଏହି କୋଡକୁ ଯେ କୌଣସି ସ୍ଥାନରେ ଲେଖନ୍ତୁ ନାହିଁ।"</string>
     <string name="bluetooth_error_title" msgid="2284738188253690278"></string>
     <string name="bluetooth_connecting_error_message" msgid="3941893154784152112">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> ସହ ସଂଯୋଗ ସ୍ଥାପନା କରିପାରୁନାହିଁ।"</string>
     <string name="bluetooth_preference_found_media_devices" msgid="830061195998352840">"ଉପଲବ୍ଧ ଡିଭାଇସ୍"</string>

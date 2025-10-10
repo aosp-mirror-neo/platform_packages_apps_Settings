@@ -642,6 +642,8 @@
     <string name="bluetooth_enter_passkey_other_device" msgid="8270426446247344709">"Можда ће бити потребно да унесете овај приступни кôд и на другом уређају."</string>
     <string name="bluetooth_paring_group_msg" msgid="4609515924670823316">"Потврдите ради упаривања са координисаним скупом"</string>
     <string name="bluetooth_pairing_shares_phonebook" msgid="4329325125260724843">"Дозволи приступ контактима и историји позива"</string>
+    <string name="bluetooth_pairing_confirmation_title" msgid="3359642089708714808">"Проверите кôд за упаривање"</string>
+    <string name="bluetooth_pairing_confirmation_msg" msgid="8204761740738350792">"Проверите да ли се овај кôд подудара са оним на уређају <xliff:g id="DEVICE_NAME">%1$s</xliff:g>.\n\nИз безбедносних разлога не уносите нигде овај кôд."</string>
     <string name="bluetooth_error_title" msgid="2284738188253690278"></string>
     <string name="bluetooth_connecting_error_message" msgid="3941893154784152112">"Није могуће повезати се са уређајем <xliff:g id="DEVICE_NAME">%1$s</xliff:g>."</string>
     <string name="bluetooth_preference_found_media_devices" msgid="830061195998352840">"Доступни уређаји"</string>
